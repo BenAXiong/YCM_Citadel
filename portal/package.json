@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node -e \"const fs=require('fs'); if(fs.existsSync('../export/games_master.db')) fs.copyFileSync('../export/games_master.db', './games_master.db')\" && next dev",
-    "build": "cd .. && git lfs pull && cd portal && node -e \"const fs=require('fs'); if(fs.existsSync('../export/games_master.db')) fs.copyFileSync('../export/games_master.db', './games_master.db')\" && next build",
+    "build": "curl -L -o ./games_master.db https://github.com/BenAXiong/YCM_Citadel/raw/main/export/games_master.db && next build",
     "start": "next start",
     "lint": "eslint"
   },
