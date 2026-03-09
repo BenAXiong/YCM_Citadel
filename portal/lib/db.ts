@@ -5,7 +5,8 @@ let db: ReturnType<typeof Database> | null = null;
 
 export function getDb() {
     if (!db) {
-        const dbPath = path.resolve(process.cwd(), '../export/games_master.db');
+        // use local file instead of ../export so Vercel can find it
+        const dbPath = path.join(process.cwd(), "games_master.db");
         db = new Database(dbPath, { readonly: true });
         // Add REGEXP support
         db.function('REGEXP', { deterministic: true }, (regex: string, text: string) => {
