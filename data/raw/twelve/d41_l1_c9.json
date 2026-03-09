@@ -1,0 +1,109 @@
+{
+  "title": "ina",
+  "titleCh": "我的媽媽",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "那個人是誰？",
+      "ab": "anea kwani?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/9c795dd8d55d8b09a67bb7687279b4dc.mp3",
+      "word": [
+        {
+          "ab": "anea",
+          "ch": "誰",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/491bd1929cf123edb293cfbe371f58ba.mp3"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/19f0c756ac16b10723ca85cc7a2461d8.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "那是我的媽媽。",
+      "ab": "ina kwani.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/fbae1031e33d1dc30b4f068573e281d7.mp3",
+      "word": [
+        {
+          "ab": "ina",
+          "ch": "我媽媽",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/4ad708a6ff4887e4edd0d57c12adba7b.mp3"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/dda27bce673baaf7c1f2d227d6c04f42.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你媽媽是做什麼工作的？",
+      "ab": "manema ku aunga ki tinasu?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/eddc69148a72be934adaee4cbde0c793.mp3",
+      "word": [
+        {
+          "ab": "manema",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/b6e68cdd5ae03add2f77bee542d52192.mp3"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/b00a6824fb97e32d4cc72285dc347676.mp3"
+        },
+        {
+          "ab": "aunga",
+          "ch": "工作",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/2aefa581fe1a2047caf5c058d260424b.mp3"
+        },
+        {
+          "ab": "ki",
+          "ch": "[屬]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/f84e9d7530c357c3c1847f3226997d20.mp3"
+        },
+        {
+          "ab": "tinasu",
+          "ch": "你媽媽",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/dc7b7579a369af120ede4a51eb7f64b5.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "她是護士。",
+      "ab": "sangbasange.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/32a65ef4d51f507a10e92fbf2c5986ee.mp3",
+      "word": [
+        {
+          "ab": "sangbasange",
+          "ch": "護士",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/6d6e893851e02bcb8883eb9e5a202ca3.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

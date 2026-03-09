@@ -1,0 +1,101 @@
+{
+  "title": "Miqumicang",
+  "titleCh": "你好",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你好嗎？（問候語）",
+      "ab": "Miqumicang. Macialas?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/54d67f527a2af0ae2545181e584a7e52.wav",
+      "word": [
+        {
+          "ab": "Miqumicang",
+          "ch": "（問候語）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/19/ef1585c14c05708d6da059a8b0c24d41.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Macialas",
+          "ch": "你好",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/19/f5cd72ee852a110de8951fc8a3825667.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "很好。你們好嗎？",
+      "ab": "Macial. Macial amuu?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/78289b8d74a1dc76d08cc388667524c3.wav",
+      "word": [
+        {
+          "ab": "Macial",
+          "ch": "好",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/00105f5cb86e4583c9cfa23927bed657.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Macial",
+          "ch": "好",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/ab65a39c9b23acbfb76960081a1ea7e9.wav"
+        },
+        {
+          "ab": "amuu",
+          "ch": "你們",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/745a94808dce28b798bfe0d7a1e1e19a.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "都很好。謝謝。",
+      "ab": "Macial amin. Miqumicang.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/19/6e630bf624fee8f4ce5879e3b58bb174.wav",
+      "word": [
+        {
+          "ab": "Macial",
+          "ch": "好",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/19/acf9aa5edd95831e907ec5fb9be00ebd.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "都",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/19/788618f233415fb6f3c8f0798673fd5d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Miqumicang",
+          "ch": "謝謝",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/19/99bd2ddb78b83f78739f7c5e6a50901b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

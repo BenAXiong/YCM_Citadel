@@ -1,0 +1,124 @@
+{
+  "title": "siito nyaso?",
+  "titleCh": "你是學生嗎？",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你是學生嗎？",
+      "ab": "siito nyaso?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/b8ef9302c59aaac7d407411a82cdba9e.wav",
+      "word": [
+        {
+          "ab": "siito",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/07/02/4ea489450017677b94a8059d945e6f7f.wav"
+        },
+        {
+          "ab": "nyaso",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/bcf4648c0232bc02af62e31cbf9bd51a.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是的，我是學生。",
+      "ab": "e’e, siito kake.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/07/02/c5cc2d8d79d170b83d6f85cb06e56ce9.wav",
+      "word": [
+        {
+          "ab": "e’e",
+          "ch": "是的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/56033f15304146d60a799dbd25c3a8e5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "siito",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/e2666549df4de54473c989827b6ff5fa.wav"
+        },
+        {
+          "ab": "kake",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/ab4c2a2382ede43a5c135225b802bdee.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他也是學生嗎？",
+      "ab": "siito nyani kidroway?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/07/02/b80d431f5d62fa7b643667d89c99c9de.wav",
+      "word": [
+        {
+          "ab": "siito",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/b9a0be97b82528244cfb2d66fa9b138e.wav"
+        },
+        {
+          "ab": "nyani",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/bd3736fcbcf5b092b06fe8166be4dd26.wav"
+        },
+        {
+          "ab": "kidroway",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/07/02/e43e206f600d1f7c956c724c7a9edbd7.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不是，他是老師。",
+      "ab": "’ayini, singsi kini.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/07/02/b203e67b0d21e6c3a123b1f7bbc154e7.wav",
+      "word": [
+        {
+          "ab": "’ayini",
+          "ch": "不是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/cd087eeee5df2678372e5e203f0707f5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "singsi",
+          "ch": "老師",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/543c8f92d3f1faef79cec1c31a5a8dd4.wav"
+        },
+        {
+          "ab": "kini",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/1f826450dbbb3a297f2434e93f63f875.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

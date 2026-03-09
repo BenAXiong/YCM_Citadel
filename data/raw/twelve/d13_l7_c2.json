@@ -1,0 +1,512 @@
+{
+  "title": "kivalit tua paisu",
+  "titleCh": "換錢",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "老闆，我有一百元，我想要換零錢。",
+      "ab": "tauki, taiday a ku paisu, muri kivalit aken tua ljansansan.",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/13/ef17ef55e2cacfdbd624d74abc49ceac.wav",
+      "word": [
+        {
+          "ab": "tauki",
+          "ch": "老闆",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/459cbc835955bd02d6a717acd0bb63c6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taiday",
+          "ch": "100",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/1b4a4c3ed05a82a81a9f36083e968678.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]\r\n",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/cd92155bfc4eadf759397fae41037858.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/d596d55a7a5144443ee0e3fbb91457f3.wav"
+        },
+        {
+          "ab": "paisu",
+          "ch": "錢",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/279020cf4adde88e74c66c596c3b11f9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muri",
+          "ch": "想要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/ed6b611d45f96669daa2be9bc4408b79.wav"
+        },
+        {
+          "ab": "kivalit",
+          "ch": "兌換",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/0a41bbaf63d25c1e9762c48484340191.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "虛",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/d4789b512270c6c3dbff10569f70d1a6.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/e8b9ef86e3b730aa5d30603b1bd47b97.wav"
+        },
+        {
+          "ab": "ljansansan",
+          "ch": "小鈔；零錢（借用台語ljasan）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/327d9cf87e73ab5945ff9ea08f0b77fd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你想要怎樣換？",
+      "ab": "pidapida a muri su kivaliten a ljansan?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/13/ee5fff4bf9432aa35db6658032b0cf87.wav",
+      "word": [
+        {
+          "ab": "pidapida",
+          "ch": "哪幾種零錢；值多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/6fa0f2f3e54f1d6cdd0288517b8e03a9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/645a1bf1a946b4538a6e214365be9942.wav"
+        },
+        {
+          "ab": "muri",
+          "ch": "想要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/dd9cdc89c555d7c3270f03e88aa9de17.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/3883755032478668a20773d5e519af4a.wav"
+        },
+        {
+          "ab": "kivaliten",
+          "ch": "換的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/15e8e23a0363e09e7d1e566f68a1492c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/2a7e6592118e1a15c89f1663bd869953.wav"
+        },
+        {
+          "ab": "ljansan",
+          "ch": "零錢（借用台語）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/b0ea5ea5abffe70a6e9daeb52bb2af2b.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我要換十元的。",
+      "ab": "muri kivalit aken ta tapulupuluq a ginpiyan.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/13/c03694e5dcdd5a4c40689d6b8a111133.wav",
+      "word": [
+        {
+          "ab": "muri",
+          "ch": "想要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/51afd310eb55415fa86fb6d9b57ce19d.wav"
+        },
+        {
+          "ab": "kivalit",
+          "ch": "換",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/b37a2bc7e04366172a8fd5f6d31b3051.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/18/97b037c28c37363549a5cc9a19dd8140.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/f192be6c38b38fe947237128202d01cb.wav"
+        },
+        {
+          "ab": "tapulupuluq",
+          "ch": "10元的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/3d09bd7d02e0c8c947f31a296798fc46.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/1e0228861993d8657ae3324a0d4199d1.wav"
+        },
+        {
+          "ab": "ginpiyan",
+          "ch": "硬幣",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/343180e5f3edc4aa79f38c2b7d0687b7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "好。十、二十、三十、四十、五十、六十、七十、八十、九十。唉呀！不夠，只有這九十元。",
+      "ab": "nanguaq. tapuluq, drusa a puluq, tjelu a puluq, sepatj a puluq, lima a puluq, unem a puluq, pitju a puluq, alu a puluq, siva a puluq. na! ini ka seqacuvung, amin anga aicu a siva a puluq a vatan.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/13/b2ed38e1ba4891d526655e015c525772.wav",
+      "word": [
+        {
+          "ab": "nanguaq",
+          "ch": "好",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/476633443b15918731509e85a862d300.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tapuluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/b11dab5e0546ba9c6a2314419a6738a3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "drusa",
+          "ch": "2",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/81c95fe252d6a8b2f66b2c2db3e41f21.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/c1aa429ce569f9020bb16c7f6c1d4d30.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/f305819caf71b084bc6b23be40a3d2fb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tjelu",
+          "ch": "3",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/246833dccd80d3c866ef277a055d4a32.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/5fc922e02cc8f9b7055d6e38ce59d17b.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/8ee65fbaa816ae78384a09cc3c91ec3e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sepatj",
+          "ch": "4",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/2d720e366b65ede936b8f6f6ccf0b122.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/21e59166ae775a25ae17133b53581b59.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/62b33f122fa93211cd6220232521d8a8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lima",
+          "ch": "5",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/9b893532676fb8d0a294c238dc7cd6e5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/d5a7965b0d682f2b241fa97d89de7605.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/0fc21126730e52e9790d1d70d874af6d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "unem",
+          "ch": "6",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/e84330af03661025673e319832db3986.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/1b45e81576931646855b82615b737042.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/2e8f703f02660f600edfb27c8d9e4b83.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pitju",
+          "ch": "7",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/e9f6f8af36da6497c8ff03b094714102.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/edc10825e788b17650c062f3e0986bf5.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/f7419cb16bcb71ace76c36fb647d31c4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "alu",
+          "ch": "8",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/af733084e55ce25d56f686baebfaf9aa.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/bf56f3956e8fe745a68c46bb8f5e9113.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/5b5e303aec660bbe89e081d0c7d9c828.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "siva",
+          "ch": "9",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/5b80a0298e3562892eed53dddc40313f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/8f41b32bf2909afa226affff1d905868.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/afcd04c742402edbaee4f21d4991d22a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "哎呀（感嘆詞）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/1e8694d28472863f999320de50722620.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/8ff1266efb7f6bc8c31054ec98e1c9f7.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/422f869bd69717c9d933e5c243946f17.wav"
+        },
+        {
+          "ab": "seqacuvung",
+          "ch": "足夠",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/ea9541f3cfb05b7dc4cbd4dfc196126f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amin",
+          "ch": "只剩這些；好了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/18/53fd563f231298d82c69871c3bb7efcb.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/18/acafc60ddd859b5b8b2f7a0c969d158d.wav"
+        },
+        {
+          "ab": "aicu",
+          "ch": "這個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/53c8fb9a8dc316a3f87ce84261c5fd12.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/af0c9514e73dbc7f28f1a45b404035de.wav"
+        },
+        {
+          "ab": "siva",
+          "ch": "9",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/b952ee91dc78534d6343a2cc4ed9c299.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/2e47f9b82681ab1213d411440ad25733.wav"
+        },
+        {
+          "ab": "puluq",
+          "ch": "10",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/db148c7a6d2d54a4da0e0004b24a718c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/e6ba0ce65cce002a64b45e52fccc47bf.wav"
+        },
+        {
+          "ab": "vatan",
+          "ch": "元",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/c22f3917445335b67629005973e40c02.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "沒關係，給我兩個五元。",
+      "ab": "inika makuda, pavaiyanga ken tu drusa a limalima a vatan.",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/13/d087bac96f70cef9ae9c835992b713fd.wav",
+      "word": [
+        {
+          "ab": "inika",
+          "ch": "不去嗎；不用嗎；不可以嗎",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/d9d09229afa32d985f0ef53d5e93f196.wav"
+        },
+        {
+          "ab": "makuda",
+          "ch": "怎麼了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/636c0f7c69a512f4298787707be31cd7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pavaiyanga",
+          "ch": "給…",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/aae1656e9a1344d0acc8199e563289c7.wav"
+        },
+        {
+          "ab": "ken",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/5d5b3abc1c5bb9bbcdeec60684af73c9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/51b2e616599e3567b9920c6758e2b132.wav"
+        },
+        {
+          "ab": "drusa",
+          "ch": "2個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/97abe15bdfc02d12e5e35e58696bb00e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/b096c0b9ead0209ee4ae98ed7660f04c.wav"
+        },
+        {
+          "ab": "limalima",
+          "ch": "5元的；5個一數的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/9c4af83121f80f115c8527ccccecd82a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/c36f0eef5ae10651874463e624517989.wav"
+        },
+        {
+          "ab": "vatan",
+          "ch": "元",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/a8142a0b6675aa938d4050a54e9e9e77.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

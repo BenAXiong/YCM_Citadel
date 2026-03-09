@@ -1,0 +1,230 @@
+{
+  "title": "Ihaan kakaunan",
+  "titleCh": "在餐廳裡",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請坐，你要吃什麼？",
+      "ab": "Malungqu’a! Ma’aq isuu ka asa’un ma’un?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/7f8526d4a12bf3634e23a34eff274183.wav",
+      "word": [
+        {
+          "ab": "Malunqu’a",
+          "ch": "請坐（命令句）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/ef306bf93d87d37b5bae411181a831bf.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/0626cee54639101f8b27922382d2633c.wav"
+        },
+        {
+          "ab": "Ma’aq",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/4987fd11ebbcea8bec81cdd05a65e5f6.wav"
+        },
+        {
+          "ab": "isuu",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/8e3829beb42d415c89701c582281c494.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/b73b1ce03a53c664c95e630fca806e02.wav"
+        },
+        {
+          "ab": "asa’un",
+          "ch": "想要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/10f53485cdfab6d38197dbcc205213cd.wav"
+        },
+        {
+          "ab": "ma’un",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/897d378cad52badcff6222ddd85d95b1.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/04/717d8b3d60d9eea997b35b02b6a4e867.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "還有飯嗎？",
+      "ab": "Haizang qaising?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/cafbee50e2fc2078876939d80d671cd8.wav",
+      "word": [
+        {
+          "ab": "Haizang",
+          "ch": "還有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/30b2929f1ba98a3cd3720f8eabba2e1c.wav"
+        },
+        {
+          "ab": "qaising",
+          "ch": "飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/4562d7e02565bd46dae34532118371f7.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/04/265eceb6d4d961057f1b483a558e2885.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "沒有了，但是還有麵。",
+      "ab": "Uka’in a, haizang tulmii.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/693aab5e83d1be8975c7aacb36937272.wav",
+      "word": [
+        {
+          "ab": "Uka’in",
+          "ch": "已經沒有了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/5e43fcf23a0d55e849592e148cf740fa.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/2fb691d209b65e3b88a7d50bb441ad62.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/30/b233620034228e8c2ff720f68671272d.wav"
+        },
+        {
+          "ab": "haizang",
+          "ch": "還有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/ba274a9b095f265a83019ce0567c5897.wav"
+        },
+        {
+          "ab": "tulmii",
+          "ch": "麵條",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/ba9b2379a62b1289bf35afe74f1f401b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/20b2bc43e42a329f3372033231dc55a0.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "請給我一碗麵。",
+      "ab": "Saiving saak tulmii tu tastubaluku.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/92f750e6118a4bb361bf3d96752b6784.wav",
+      "word": [
+        {
+          "ab": "Saivaving",
+          "ch": "請給",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/1f9d9ce4c6b1a50316671cf57ff521c3.wav"
+        },
+        {
+          "ab": "saak",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/e782bd749eddc48730d691d0dc0b9580.wav"
+        },
+        {
+          "ab": "tulmii",
+          "ch": "麵",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/6caad3e3b2db99b21d9936353583c1ce.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/5b9ccc81770b0b498228187336eb5042.wav"
+        },
+        {
+          "ab": "tastubaluku",
+          "ch": "一碗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/0307982573e183a38815ec2501cf8b2c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/04/1f5069142727648138a54524b5beeb58.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "可以加辣嗎？",
+      "ab": "Maqtu naupa pikamunun?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/2c1288d9fad67c3214ebe90ca5dd426c.wav",
+      "word": [
+        {
+          "ab": "Maqtu",
+          "ch": "可以",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/ff9adb828927913e9e5402389a197a92.wav"
+        },
+        {
+          "ab": "naupa",
+          "ch": "是否",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/b828c5cdae45817059c912b9e4d93c28.wav"
+        },
+        {
+          "ab": "pikamunun",
+          "ch": "加辣",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/b74d8f013e23a8405734a64385f34abe.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/04/ffd2257b586a72d1fa75f4ba2ad914e6.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "不要，我不喜歡吃辣的。",
+      "ab": "Nii! Nii saak mazima ma’un makamun.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/b7bf7c00710a477809506b474df013c1.wav",
+      "word": [
+        {
+          "ab": "Nii",
+          "ch": "不",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/b4d684100cd9847af5780070d15ec0f6.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/04/b635f9e3c038855c68c2704f08caeee1.wav"
+        },
+        {
+          "ab": "Nii",
+          "ch": "不",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/339aad1d2a124cd958c5b42de313341d.wav"
+        },
+        {
+          "ab": "saak",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/afb63eaf2b3d077f48146a0695096b93.wav"
+        },
+        {
+          "ab": "mazima",
+          "ch": "喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/9f3bf17235c4a55c91c35120a8805665.wav"
+        },
+        {
+          "ab": "ma’un",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/45d38457394bf26188ed4e5adb2b4c2f.wav"
+        },
+        {
+          "ab": "makamun",
+          "ch": "辣",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/87ec56eeb447530a03942b0c84d11e22.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/04/1d98edfd003bcd59e957739802965f19.wav"
+        }
+      ]
+    }
+  ]
+}

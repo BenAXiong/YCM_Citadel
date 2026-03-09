@@ -1,0 +1,245 @@
+{
+  "title": "Masingav daan",
+  "titleCh": "問路",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請問學校在哪裡？",
+      "ab": "Taqu’i’ang saak tu i’isaq a pasnanava’an? ",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/597e21701780e24963d570d6616ae05b.wav",
+      "word": [
+        {
+          "ab": "Taqu’i’ang",
+          "ch": "請告訴",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/87219b23fa2f290e43c8e0666e1952e3.wav"
+        },
+        {
+          "ab": "saak",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/88487e83c23c416403a2b528f52bc70f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/44389617cf88d50d624e495e0d0ef240.wav"
+        },
+        {
+          "ab": "i’isaq",
+          "ch": "在哪裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/0d28d88b8055224b31602788f3f38e3d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/48b995992e962f4c21731349fc14fd3d.wav"
+        },
+        {
+          "ab": "pasnanava’an",
+          "ch": "學校",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/ceff2d5461fcc758d583221e4e2931a1.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在東邊。",
+      "ab": "Antanhaan insuma’an valita.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/336b8a19d04649931d5e4f2b0d665cc9.wav",
+      "word": [
+        {
+          "ab": "Antanhaan",
+          "ch": "靠…地方",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/1dd3927b6effb941fe5fb62cf6798b9e.wav"
+        },
+        {
+          "ab": "insuma’an",
+          "ch": "出現",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/02617f9fa679a508d8f3db12c3ccc276.wav"
+        },
+        {
+          "ab": "valita",
+          "ch": "太陽那裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/20161d34c529305ad328879c6e6e8990.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請問到部落怎麼走？",
+      "ab": "Taqu’i’ang saak tu maka’isaq is munhaan asangta?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/81f21ca6f546b09ceb4932900dbc4138.wav",
+      "word": [
+        {
+          "ab": "Taqu’i’ang",
+          "ch": "請告訴",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/915421e8a2f176fa2ef7ffedbf3f2a1c.wav"
+        },
+        {
+          "ab": "saak",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/bdc73cd286ae3dab4db0719e09b4df52.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/c4c71cf2eb0b4225d49c7fffa064bcfc.wav"
+        },
+        {
+          "ab": "maka’isaq",
+          "ch": "往哪裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/55747b5b975ef6cf5c7871c6dc03408e.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "如果",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/93952e643dfe268c2636d98c07737e90.wav"
+        },
+        {
+          "ab": "munhaan",
+          "ch": "去",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/eae4bb07a3677c9a90cf763a7a605539.wav"
+        },
+        {
+          "ab": "asangta",
+          "ch": "部落那裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/9ff656789f7b54ae1b7f780f413d7ea5.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "直走，就可以到達。",
+      "ab": "Makitusbut a, natunahaan asangta.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/f2bb11073b7fb84582e1f19f66f327f3.wav",
+      "word": [
+        {
+          "ab": "Makitusbut",
+          "ch": "直走",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/107c592b563c237dcbb8e06e34e24119.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[位]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/12757f4931d2215298c0c05bd01140dc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "natunahaan",
+          "ch": "會到達",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/5d04d9ca98498edd3393e1b0cf83a160.wav"
+        },
+        {
+          "ab": "asangta",
+          "ch": "部落那裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/a2feb8b2f4d2567103ade987525d0c72.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "很遠嗎？",
+      "ab": "Daqvisan asang a?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/f9bc2284b2ef60c5c3f5d3cb5ec146e4.wav",
+      "word": [
+        {
+          "ab": "Daqvisan",
+          "ch": "很遠",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/7eb6017771bd9b0480a14c6532161958.wav"
+        },
+        {
+          "ab": "asang",
+          "ch": "部落",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/9f2428826b03db09c51d524a27cd5b91.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[位]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/17/36fba8c63d51f4f17c4de5bc058c2d69.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不遠，大約二十分鐘而已。",
+      "ab": "Nitu daqvisan. Namuhaz tinmapusan pungkang a inundadanan.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/784eb294f3092b1ebb5f38fdb29b992f.wav",
+      "word": [
+        {
+          "ab": "Nitu",
+          "ch": "不",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/5017effd9adc178d09249964492493b8.wav"
+        },
+        {
+          "ab": "daqvisan",
+          "ch": "遠",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/372c835f204dcf22f2ad87aa3c10a655.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Namuhaz",
+          "ch": "只要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/3de58562ba847e9ea497711de1143b55.wav"
+        },
+        {
+          "ab": "tinmapusan",
+          "ch": "二十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/e41c21f7ec48ba3f8babe9a6bcc10b61.wav"
+        },
+        {
+          "ab": "pungkang",
+          "ch": "分鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/8118f7a13061b8c994b587d4ac1fe6e3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/953be30c62dfa06e5adf7e80d4805f75.wav"
+        },
+        {
+          "ab": "inundadanan",
+          "ch": "走路的…",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/22/a4c18e8f9b423efcaecfaa922f746f95.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

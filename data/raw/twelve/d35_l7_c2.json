@@ -1,0 +1,387 @@
+{
+  "title": "wabaythi na payso",
+  "titleCh": "換錢",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "老闆，我有一百元，要換錢。",
+      "ab": "lawpang, ’iyakay na koa na sesane na iday na payso, kibaythi mi kake.",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/20/4cadf52faf4d0af08fd4317406e2d7b3.wav",
+      "word": [
+        {
+          "ab": "lawpang",
+          "ch": "老闆",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/61d27a056af385af2c5bd8eb53d61021.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’iyakay",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/2dea2e6b332c6d87eefe42738074cced.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/20/0d94f6309fd296e1202330087f2cf2cd.wav"
+        },
+        {
+          "ab": "koa",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/1e28d2015f40a0aad5f459737b61fc9c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/b8634c2faedcb6a2cc1921e5efb68f77.wav"
+        },
+        {
+          "ab": "sesane",
+          "ch": "一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/0c7baa64c515ede684d4f4c7132c1a26.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/beda4d4886c6e5890aa5e2069540a0e2.wav"
+        },
+        {
+          "ab": "iday",
+          "ch": "百",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/cbb4f86cba78c49b5e04ba513437503d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/850c48e68ef0aa182d695434fbb9ca0b.wav"
+        },
+        {
+          "ab": "payso",
+          "ch": "錢",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/97cfed0d234751ea14d19b72f578ee4d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kibaythi",
+          "ch": "換",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/b1858f75cd53018b091473c736e04f06.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/564f0567e5c783235483b930fe8c7e15.wav"
+        },
+        {
+          "ab": "kake",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/8023b4511c5956b8d955b7af22318481.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你要怎麼換？",
+      "ab": "noyamiso no kibaythiso?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/67da726d1dd2abd02c7c84f9f76b0c73.wav",
+      "word": [
+        {
+          "ab": "noyamiso",
+          "ch": "怎樣你要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/0dd439f686a6605de245849ea7a8adc0.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/8d518e23098ef8b778d9563a5e393d5b.wav"
+        },
+        {
+          "ab": "kibaythiso",
+          "ch": "你要換",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/1e5ac616a22d4a3583af57ec1cadac81.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我要換十個十元。",
+      "ab": "nokibaythi mikake ’angimangesale na mangesale na payso.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/a5afd8c61979896e1584f77546168df0.wav",
+      "word": [
+        {
+          "ab": "nokibaythi",
+          "ch": "要換",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/43cdd558880f7cad92608e73ac7de12d.wav"
+        },
+        {
+          "ab": "mikake",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/3adb84c1f706af1e963eb859420cac0c.wav"
+        },
+        {
+          "ab": "’angimangesale",
+          "ch": "十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/b6c9e7202d26f72c6fa756b809e01631.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/b19b84cfadbeb44d5cd3f2230c0cb377.wav"
+        },
+        {
+          "ab": "mangesale",
+          "ch": "十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/20/74509199fee5b288941704d13ad130d4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/0ee5a7bc88b8fe3539d4881f964137c6.wav"
+        },
+        {
+          "ab": "payso",
+          "ch": "錢",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/ffd273c1e85013698ce27d668c0c3599.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "好，十、二十、三十、四十、五十、六十、七十、八十、九十，哎呀！不夠，只有九十元。",
+      "ab": "e’e, mangesale, maposale, matoolo, mathipatele, maimale, manemele, mapitolo, mavaolo, mavangate, ’iy! iyebate, mavangate na payso.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/e357e7e5dee817f50181678618d2c903.wav",
+      "word": [
+        {
+          "ab": "e’e",
+          "ch": "是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/faf8c90912748d9c40fabefea97155c5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/13/b089f1c24289c001ac3dfb148c0e4f6d.wav"
+        },
+        {
+          "ab": "mangesale",
+          "ch": "十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/00fc943720b027f15f533a3b6ebb8aa5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maposale",
+          "ch": "二十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/4e65255260a17029de11e60b9b02ea58.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matoolo",
+          "ch": "三十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/2b62cf6fdd590b1e19301c412978600d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mathipatele",
+          "ch": "四十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/510d91187765db6cc92c62133ac8d22c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maimale",
+          "ch": "五十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/cbd89acc0f8b94bd054ceb2dfd866f76.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "manemele",
+          "ch": "六十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/20/97ad14d7c61addb9e64df160570b06cc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapitolo",
+          "ch": "七十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/2522ef188da04e12e08af1c8de0fe327.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mavaolo",
+          "ch": "八十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/207bad452d82f95d07858749fe247c7c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mavangate",
+          "ch": "九十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/bfdb33e7325a63885209167c807f2be5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’iy",
+          "ch": "哎呀",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/39fadd47596333601d10a354043b8fce.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iyebate",
+          "ch": "不夠",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/dd9e1458bdfe3ecc949f686a7caf1276.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mavangate",
+          "ch": "九十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/643dca7c21ff297ed480da1fefc26bb4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/1f9ebcd12cd7cc741869de7ab1d44683.wav"
+        },
+        {
+          "ab": "payso",
+          "ch": "錢",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/1d5efcf164073ac0ce8f7843dd7632a3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/a20c4a492cd67a7f3fd5e2f3261ec737.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "沒有關係，你可給我兩個五元。",
+      "ab": "ipoyingaw, doo mikoso bwa’ay nakoa pakadrosa na ima na payso.",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/0c24f94391707a02a97e639e33c1feb0.wav",
+      "word": [
+        {
+          "ab": "ipoyingaw",
+          "ch": "沒關係",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/0ebdf4adf039f6748393db62e1ad212e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/848e2a6e74e159b24821c512f3df64fd.wav"
+        },
+        {
+          "ab": "doo",
+          "ch": "可以",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/78f192c2c88ecaa65c4d4941347a0b1c.wav"
+        },
+        {
+          "ab": "mikoso",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/0f9d757bf3219b2058cda3cf6a25a7f2.wav"
+        },
+        {
+          "ab": "bwa’ay",
+          "ch": "給",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/9b8359c66c7c83e8e05e51e8804e250f.wav"
+        },
+        {
+          "ab": "nakoa",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/17323484392b64c836d26b0e627248c2.wav"
+        },
+        {
+          "ab": "pakadrosa",
+          "ch": "兩個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/20/6daa80967f68b9d063b1c5b0ccb7e2c0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/d22e587ec8e7d1196779b64b13fe0196.wav"
+        },
+        {
+          "ab": "ima",
+          "ch": "五",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/48830c0cc76e9542c309a93022fc2efc.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/cdffda83679d92ed0c9de88fd668c2fa.wav"
+        },
+        {
+          "ab": "payso",
+          "ch": "錢",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/18/b82f7e2b954ba8a3ef54a6b467e1f306.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Miqumisang, Ping’aan!",
+  "titleCh": "你好！",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你好。平安！",
+      "ab": "Miqumisang aas. Ping’aan!",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/aae5d43e0140124c13f47370ec42bd78.wav",
+      "word": [
+        {
+          "ab": "Miqumisang",
+          "ch": "(祝福語)你好！",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/773050194ba951a289082a228c00f2d7.wav"
+        },
+        {
+          "ab": "aas",
+          "ch": "[第二人稱單數]你、妳、祢、爾。",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/fe4d903f9ba7c15586ba5378366d2db2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ping’aan",
+          "ch": "平安(中文借詞)",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/03/01b0f91ea2feed346316b32b45e4273e.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "(敬辭)謝謝！",
+      "ab": "Uninang!",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/8820f64af5418ef4d433998d3188fc75.wav",
+      "word": [
+        {
+          "ab": "Uninang",
+          "ch": "(竟辭)謝謝",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/214102bc637b902516f7ca1a16ed5b89.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "謝謝你囉！",
+      "ab": "Uninang suu!",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/e79b37383e0b24da7b7df67e58731a0e.wav",
+      "word": [
+        {
+          "ab": "Uninang",
+          "ch": "謝謝",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/64b9fdc482566a746929285d8a0e7fc5.wav"
+        },
+        {
+          "ab": "suu",
+          "ch": "[第二人稱單數受格你、妳祢、爾。",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/a658bf49399f20e624927799e64bde64.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "(祝福語)祝福你！",
+      "ab": "Miqumisang!",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/f89d0abff6a0035e51634d20a76dc572.wav",
+      "word": [
+        {
+          "ab": "Miqumisang",
+          "ch": "(祝福語)祝你好",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/02/13/d0435f3e92fc6e6de45e129991337696.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

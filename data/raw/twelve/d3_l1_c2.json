@@ -1,0 +1,164 @@
+{
+  "title": "a temakakesi ku",
+  "titleCh": "我是學生",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你是學生嗎？",
+      "ab": "a temakakesi yu?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/5cbe6667d4234c229a033158452d43ae.wav",
+      "word": [
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/518a211d01f00fd29da404a743859e35.wav"
+        },
+        {
+          "ab": "temakakesi",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/80739f20534765f4d180a15e33cb38c7.wav"
+        },
+        {
+          "ab": "yu",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/8d5c25e616a1408e71d14d18996f67dd.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是的，我是學生。",
+      "ab": "aiwa, a temakakesi ku.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/65ae12d3de4d38c4c3c36fe8c973ae71.wav",
+      "word": [
+        {
+          "ab": "aiwa",
+          "ch": "是的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/f8e37987f57e90584db8bff09ea2a888.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/34b651120b64637484546ed46b09daac.wav"
+        },
+        {
+          "ab": "temakakesi",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/e48316325798ca721f42287af8ef8c27.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/f5576a4dbeb0730c0b887f7587ce931f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他呢？也是學生嗎？",
+      "ab": "taytaw i? a temakakesi i?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/3823c00e1c5dd6096fc39a69b7b43af4.wav",
+      "word": [
+        {
+          "ab": "taytaw",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/90d5a11ce4bd69fabd9d691b7323ac33.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主題]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/4e7dffc98bfd68000d9d6d2c624101af.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/39b182d8f3fa6c428842668e69358aae.wav"
+        },
+        {
+          "ab": "temakakesi",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/46e0420175561d2eb6f74fb3d0a00a02.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/5e99e5aa79d6ee66d3462bd57d853825.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不是，他是老師。",
+      "ab": "amelri, taytaw i, a sinsi.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/c1a0cacaff65515c5a697f159140ed80.wav",
+      "word": [
+        {
+          "ab": "amelri",
+          "ch": "不是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/1ead8248f3d1c6a8dcd1756c2a70468d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taytaw",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/e8ea091eb8fe4e250ef4208c65404520.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主題]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/f11f8862a3a374b184c5cb12978e91c4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/12597bf4fd6108379506e96c62fc9911.wav"
+        },
+        {
+          "ab": "sinsi",
+          "ch": "老師",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/13b9816748641f70a8c6183739ec34cd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

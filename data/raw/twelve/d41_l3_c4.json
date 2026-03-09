@@ -1,0 +1,162 @@
+{
+  "title": "macaemaku",
+  "titleCh": "我生病了",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "阿姨，早安。（吃早餐了嗎？）",
+      "ab": "naine, twakualrenga su?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/6085e3701e3702f9bdce3134815e26a0.mp3",
+      "word": [
+        {
+          "ab": "naine",
+          "ch": "阿姨",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/273715ec5ecea2fb734f77bcc8b8ad3e.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "twakualrenga",
+          "ch": "吃早餐",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/ea9e4dab6755dd5fa07195992848f5a0.mp3"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/e3debdfa05a0c48893052a5e58e1377c.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "Pelenge，你要去哪裡？",
+      "ab": "Pelenge, ai uwasu inu?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/8b566b640d4815d91d7a03a738cfd4b0.mp3",
+      "word": [
+        {
+          "ab": "Pelenge",
+          "ch": "（人名）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/9f29bb4c93d83f63a2b175c5e661fe9d.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ai",
+          "ch": "將",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/4e49585649a6fca4fe68f5d418276433.mp3"
+        },
+        {
+          "ab": "uwasu",
+          "ch": "去─你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/c6f73f1d5a197e9544927a5b92cea3b0.mp3"
+        },
+        {
+          "ab": "inu",
+          "ch": "哪裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/ea7221d9bb53b0df1101254e1868d6a1.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "媽媽要帶我去看醫生。",
+      "ab": "ku ina aiiluku nakua pakicele ki tahabubuu.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/54a6637872295f4560ed67d56a8b91ec.mp3",
+      "word": [
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/ae441f4e1fc81affb46a64e25139b3da.mp3"
+        },
+        {
+          "ab": "ina",
+          "ch": "媽媽",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/ee36390bf377c455e668e41db5833084.mp3"
+        },
+        {
+          "ab": "aiiluku",
+          "ch": "將─帶",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/f45d0b93fd14ffd691272c40babcbdba.mp3"
+        },
+        {
+          "ab": "nakua",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/0e9c2b57ec6d21bd05d927ddfa3a6603.mp3"
+        },
+        {
+          "ab": "pakicele",
+          "ch": "被看",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/53f022b26b0e80ac3f3762d08b46e27d.mp3"
+        },
+        {
+          "ab": "ki",
+          "ch": "[屬]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/e22e64ee843b15f0d52e6b5690ec5cff.mp3"
+        },
+        {
+          "ab": "tahabubuu",
+          "ch": "醫生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/de7b854af5a94b7b01fb713bc59eb009.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你怎麼了？",
+      "ab": "matumanesu?",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/074775ec85e648dcc867b57d89394a14.mp3",
+      "word": [
+        {
+          "ab": "matumanesu",
+          "ch": "怎麼了—你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/c3a586c962677d0784ce2dbbc9c2db5c.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我發燒了。",
+      "ab": "maculuaku.",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/8f2fbd2b49431b85ea0401442cba6b0f.mp3",
+      "word": [
+        {
+          "ab": "maculuaku",
+          "ch": "發燒—我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/25/204013132b4521d76cb3628a50ed5a84.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

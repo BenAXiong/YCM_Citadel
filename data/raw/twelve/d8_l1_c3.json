@@ -1,0 +1,104 @@
+{
+  "title": "Mindangkaza!",
+  "titleCh": "請站起來！",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請起立，敬禮！",
+      "ab": "Mindangkaza! Mastauqtauq.",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/30/256ba8666b1c0887c805adb61826166a.wav",
+      "word": [
+        {
+          "ab": "Mindangkaza",
+          "ch": "(命令句)請起立",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/29/c9bc101020fc0c6669e82030e1452153.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mastauqtauq",
+          "ch": "(動詞)鞠躬；點頭",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/30/6f70db5aaf7c20b6a6d54ea1ce99c0af.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "(命令句)請坐下！",
+      "ab": "Malungqua!",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/df861853680b7baa624e0e713b147a38.wav",
+      "word": [
+        {
+          "ab": "Malungqua",
+          "ch": "(命令句)請坐下",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/03/51951d45d28bae5964295868508c9363.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "謝謝老師。",
+      "ab": "Uninang! Sinsi.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/3fab26ecfa0fb4d6c0829729de871a4e.wav",
+      "word": [
+        {
+          "ab": "Ununang",
+          "ch": "(敬詞)謝謝",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/32e7f4e2c91abaf9f6a02b58f46f8156.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinsi",
+          "ch": "(名詞)老師(日語借詞)",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/60070f6fa08d836f2dacb5c70d54b9de.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "謝謝你們！",
+      "ab": "Miqumisang Amu!",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/695ac20de8fe6fff6cbb565e25ce0f1b.wav",
+      "word": [
+        {
+          "ab": "Miqumisang",
+          "ch": "(命令句)謝謝",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/31687b8f6b06affc7cb6a6ef06f1a484.wav"
+        },
+        {
+          "ab": "Amu",
+          "ch": "(第二人稱負數；主格)你們",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/2fda4672e7844afb8ab8390295e869bc.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

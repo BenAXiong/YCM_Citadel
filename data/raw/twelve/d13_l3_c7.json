@@ -1,0 +1,300 @@
+{
+  "title": "pida anga a zikang tucu?",
+  "titleCh": "現在幾點了？",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "現在幾點了？",
+      "ab": "pida anga zikang tucu?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/21/83cb1fec0ee5a8bbd6b4e42d4ae0fbbd.wav",
+      "word": [
+        {
+          "ab": "pida",
+          "ch": "多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/43e74f5f3caaeb797eae97203caf9f90.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/afd695a59ff2438a1e4bcf6c9febc73d.wav"
+        },
+        {
+          "ab": "zikang",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/1726b3dbc8cafa37e3f23c1bf94d9cbc.wav"
+        },
+        {
+          "ab": "tucu",
+          "ch": "現在；今天",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/d2a644620b13427f334def70bf5b559f.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在已經是八點了。",
+      "ab": "alu anga zikang tucu.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/21/84b3809ffa498fdc1fc2102968cb01ed.wav",
+      "word": [
+        {
+          "ab": "alu",
+          "ch": "八",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/ea2dc8948db5df458ece3af219152cc7.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/054bc0c2151eb2dab80d6d2464d3adcb.wav"
+        },
+        {
+          "ab": "zikang",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/7524877503b2ae320260828273d0d451.wav"
+        },
+        {
+          "ab": "tucu",
+          "ch": "現在；今天",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/2442ad86739ccc0c8dd2f7f41d0a7522.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你早上幾點起床？",
+      "ab": "pida zikangan a su si pacegedan nu kadjamadjaman?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/15/8e4060a6a69d95261cb034c8c1cae219.wav",
+      "word": [
+        {
+          "ab": "pida",
+          "ch": "多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/21b2bd9beaa5a7420e3882552134fb62.wav"
+        },
+        {
+          "ab": "zikangan",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/15/e4e6fcbd4d65f731dd9cd1d1ee4087b9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/523d6cc4798e6e93bb126c7e5f2b21a9.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/c939939439502d1a98ae146aba823979.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/924cc371f99cbf0b6d1d405d7102124f.wav"
+        },
+        {
+          "ab": "pacegedan",
+          "ch": "起床",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/ae56eb8d32f5c3493c2cfac137180dd9.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/c68c11cbd104c1c064209d8d1bea6410.wav"
+        },
+        {
+          "ab": "kadjamadjaman",
+          "ch": "早晨",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/3454f5f40776b545a36383db89d88f4b.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我早上六點起床。",
+      "ab": "unem a zikangan a ku si pacegedan nu kadjamadjaman.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/15/021c58171c5682ce8ffac9dc51f4a7fc.wav",
+      "word": [
+        {
+          "ab": "unem",
+          "ch": "六",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/f577202375acd265bba5702327070511.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/909c08a3b0c0a3b9819589d1749e3a84.wav"
+        },
+        {
+          "ab": "zikangan",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/15/10503dcb8ea2b2c2d345f53bf6d333f1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/3a1f7dabcfb1f84e385a04d764218c45.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/afe75a219020b247275726b3f1ef6931.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/f03be2d8d90382e415c6290d955f1659.wav"
+        },
+        {
+          "ab": "pacegedan",
+          "ch": "起床",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/dea3a13508faeb4e5ed7a8fe1c5c34b9.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/70e463685b3b393cb04e6dccccc195c0.wav"
+        },
+        {
+          "ab": "kadjamadjaman",
+          "ch": "早晨",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/39d0ecdfbfb737b7a71c9abb57c76cc7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你晚上幾點睡覺？",
+      "ab": "pida zikangan a su si kataqedan nu qezemezemet?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/970fe9dccaff594f3bb695bb801a2f10.wav",
+      "word": [
+        {
+          "ab": "pida",
+          "ch": "多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/0f83ba581630f6ef7b02c9c16b879a25.wav"
+        },
+        {
+          "ab": "zikangan",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/15/104fd832468c61cce1c9e8388601af2d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/683d29fa381bb4adb00e8ec6fdfb379d.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/73edfcb39425eea8f1e5457766d7d55e.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/65b4005e34a6507759f2e55b4fc75789.wav"
+        },
+        {
+          "ab": "kataqedan",
+          "ch": "睡覺",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/abc44bc6c2465f9b66e171fd8a617b41.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/84fc6074d45153a5cc8fc9726f39f593.wav"
+        },
+        {
+          "ab": "qezemezemet",
+          "ch": "晚上",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/47bd1da8aa6183a71648b6b49ad60f3b.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我晚上九點半睡覺。",
+      "ab": "siva zikangan saka papamaw a ku si kataqedan nu qazemezemetj.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/15/f32757cffcd882d5066a671b614bf655.wav",
+      "word": [
+        {
+          "ab": "siva",
+          "ch": "九",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/cb42e9f9b7f75205386f4598b42ed996.wav"
+        },
+        {
+          "ab": "zikangna",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/15/2c629ba5b0ad757d7c08efc9b202551b.wav"
+        },
+        {
+          "ab": "saka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/a6904dc2eba12045555bc627bd550ea8.wav"
+        },
+        {
+          "ab": "papamaw",
+          "ch": "一半",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/79409b43a974dcd7bafa8abf52ac8517.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/ad28a63ff5ff36a7550d087f1034cff1.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/ccf5653ab2949010031201e1441e8a2d.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/45fb069e0a10695403d4a9836db7dd09.wav"
+        },
+        {
+          "ab": "kataqedan",
+          "ch": "睡覺",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/90e1cbc281956c1bfee45285f209187d.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/f77f531cc37b440c331dedd49349f09f.wav"
+        },
+        {
+          "ab": "qazemezemetj",
+          "ch": "晚上",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/eb3e95b1947290dedd32f06ec2c9b890.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

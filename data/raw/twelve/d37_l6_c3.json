@@ -1,0 +1,265 @@
+{
+  "title": "iké tkankana",
+  "titleCh": "在餐廳裡",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請坐，請問你要吃什麼？",
+      "ab": "inunua aciku nukanasu?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/0c98fe8c4fa92c8f1b969ac73fba2110.wav",
+      "word": [
+        {
+          "ab": "inunua",
+          "ch": "坐",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/16/b9c6846c38d500a431ac872343445ff7.wav"
+        },
+        {
+          "ab": "aciku",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/16/9f5c878ef419b727e4fb629a3ea9c5bd.wav"
+        },
+        {
+          "ab": "nukanasu",
+          "ch": "吃─你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/16ba1dedfd4c57fe35ac2c7adeba316e.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有飯嗎？",
+      "ab": "iké na broo?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/e0e3660a105fe4ff4404481ef1b200a3.wav",
+      "word": [
+        {
+          "ab": "iké",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/16/21b6e59e29c85a2981705d8f9852d3d8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/d6c5d03f26a2acca97ba057eb5d42e66.wav"
+        },
+        {
+          "ab": "broo",
+          "ch": "飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/b8d48f38fb21b32f1096e7bcd9124e51.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "欸！抱歉，這裡沒有飯，只有麵。",
+      "ab": "ai sumanai tédra kné na broo takethani na mintiaw ka iké.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/3c9d973e58419335d90e9a35e1458193.wav",
+      "word": [
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/0e933a69227b7aa27c9ff9b4758ae18f.wav"
+        },
+        {
+          "ab": "sumanai",
+          "ch": "抱歉",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/fd73dc46731506ded5582acc714cb8e5.wav"
+        },
+        {
+          "ab": "tédra",
+          "ch": "沒有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/e3fd1d3cdb16ccb249bee92c5facc75c.wav"
+        },
+        {
+          "ab": "kné",
+          "ch": "這裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/cd5f1a39cfa1a20836aac44e01251e17.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/66f9eb99a617eadacaeeefc3c10af40c.wav"
+        },
+        {
+          "ab": "broo",
+          "ch": "飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/7fd96ac043dff85043992299811793b5.wav"
+        },
+        {
+          "ab": "takethani",
+          "ch": "只有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/b6aba7266074b975785a887c6e658dd3.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/765a7db584582d7149219c96b311f761.wav"
+        },
+        {
+          "ab": "mintiaw",
+          "ch": "麵條",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/1cac90e215323486dc106065d3e51943.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/1cab8101511a9087cd4fd9ba1c7d06fd.wav"
+        },
+        {
+          "ab": "iké",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/7c58b08309bbf2fc53dbdf22ed233839.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "好吧，我要吃一碗麵。",
+      "ab": "nakunimusu kuwale ma kɨkɨ na tkupli kuene na mintiaw.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/c9f79d23997f1446ed4003ee8ef7b4ac.wav",
+      "word": [
+        {
+          "ab": "nakunimusu",
+          "ch": "好─你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/a32d005df5e2a975f95090cf2e420522.wav"
+        },
+        {
+          "ab": "kuwale",
+          "ch": "一次",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/5de600c11ef09326aacc7315f64e31c5.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/43e71a610cc2490ad174045e89b29211.wav"
+        },
+        {
+          "ab": "kɨkɨ",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/911f14e7988f03896c9c29027ca0f548.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/61293f67825bc579e9de4225f6e2339a.wav"
+        },
+        {
+          "ab": "tkupli",
+          "ch": "碗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/1923f869faa792a568994093147321e7.wav"
+        },
+        {
+          "ab": "kuene",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/5e20f120a225f8626379a28f4aba4c83.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/380fa78b474b58d0b5eb1f6191ea9e8c.wav"
+        },
+        {
+          "ab": "mintiaw",
+          "ch": "麵條",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/0e8c65e4005758d601dac61f993a0b4d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請問，你要不要辣的？",
+      "ab": "kukibuburuswa madlame musu na ercenge?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/584b796644dee3ca0bd655dec5ab064b.wav",
+      "word": [
+        {
+          "ab": "kukibuburuswa",
+          "ch": "請問",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/16/31adafd0a6999fa6728a12de10783927.wav"
+        },
+        {
+          "ab": "madlame",
+          "ch": "喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/16/cc0fc356be8068a5e3fe8659860ee129.wav"
+        },
+        {
+          "ab": "musu",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/ff7ed7cda29fa988f9afd706b8b87703.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/e7e99f693eb1b78469cbec1619b53a1e.wav"
+        },
+        {
+          "ab": "ercenge",
+          "ch": "辣的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/b1ba2adc3726d01941a7e3ee526f830d.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不要，我不喜歡吃辣的。",
+      "ab": "éni, ikdalmenkwa na ercenge.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/d3d04f44c8ea5e9335b1e38d834334d0.wav",
+      "word": [
+        {
+          "ab": "éni",
+          "ch": "不要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/1ad24c3570eface566e8acc1740460d6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ikdalmenkwa",
+          "ch": "不喜歡─我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/6708cd2a8f1aa20e0fca066ffec77cc7.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/c33ff6c67694ae633381cbe5d419aeeb.wav"
+        },
+        {
+          "ab": "ercenge",
+          "ch": "辣的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/ea19a6a5e63f7bd780bab06c4c97cff4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

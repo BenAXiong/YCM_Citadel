@@ -1,0 +1,107 @@
+{
+  "title": "Minduldula!",
+  "titleCh": "請站起來！",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請起立！",
+      "ab": "Minduldula!",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/b9d1f4950003326e82cae8f1fd9bb50e.wav",
+      "word": [
+        {
+          "ab": "Minduldula",
+          "ch": "起立─後綴（祈求命令式）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/6a812f298bb98911b8c5832323af05f6.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請坐！",
+      "ab": "Mal’anuhua!",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/423e525c76cf606343e83a895a0dd6c6.wav",
+      "word": [
+        {
+          "ab": "Mal’anuhua",
+          "ch": "坐下─後綴（祈求命令式）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/00a6a3a3cd73b555d9f3a0592e11cb9a.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請說！",
+      "ab": "Tupaa!",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/a057f952880b123e838ba375ef6db949.wav",
+      "word": [
+        {
+          "ab": "Tupaa",
+          "ch": "說─後綴（祈求命令式）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/244821df0e5483c506b76f4cf5ec4470.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請聽！",
+      "ab": "Ta’azaa!",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/70adc36c44d16d6a8e35de3b2d4adb8a.wav",
+      "word": [
+        {
+          "ab": "Ta’azaa",
+          "ch": "聽─後綴（祈求命令式）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/14/d989143ac800a3ad979b05dbe85b5601.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "謝謝，祝福你。",
+      "ab": "Uninang, mihumisang.",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/8359f63aab8977552d26752b6016c8ce.wav",
+      "word": [
+        {
+          "ab": "Uninang",
+          "ch": "謝謝",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/16454be194b71e2cbb7067988eb445e5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mihumisang",
+          "ch": "祝福語",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/cc659f5e01d4de4b4d3295362eb5dbf7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

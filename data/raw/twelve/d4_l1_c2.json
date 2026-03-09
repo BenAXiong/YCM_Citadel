@@ -1,0 +1,154 @@
+{
+  "title": "temakakesi ku",
+  "titleCh": "我是學生",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你是學生嗎？",
+      "ab": "temakakesi u?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/c0ee03150a00e77cfc2506925e6f638f.wav",
+      "word": [
+        {
+          "ab": "temakakesi",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/c8710023341e40e52d6d026301a310da.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/1e8189c21c221fc75040e329b0a5de53.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是的，我是學生。",
+      "ab": "ai, temakakesi ku.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/fe8cab417b747fca116e4002de8ef989.wav",
+      "word": [
+        {
+          "ab": "ai",
+          "ch": "是的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/7676101746cd07ee35980219cdb48212.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "temakakesi",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/5a5477dd98a03134f6623b2163ebee59.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/569ef875d69e7298bb4cc78d38d0cd35.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他呢？他也是學生嗎？",
+      "ab": "intaw mu? mauw a temakakesi?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/ba69f5f1474e6889e1570b6b346ab296.wav",
+      "word": [
+        {
+          "ab": "intaw",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/89507b9b8c4464bc0412ea069a247232.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/d882bcb55a96ba768d1f7ee97b4c3adc.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mauw",
+          "ch": "也是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/3747d6b3542986aa2d453946b200be58.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/7aaa9739adbe4c294026c56c23364be1.wav"
+        },
+        {
+          "ab": "temakakesi",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/27/1a9f40e425792380cc252ead498b9836.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不是，他呢，是老師。",
+      "ab": "melri, intaw mu, a sinsi.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/935b9e8f9d2e1dc26c39511a993821b2.wav",
+      "word": [
+        {
+          "ab": "melri",
+          "ch": "不是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/ed18532068094cf559ce962a186b76b5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "intaw",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/bb62f5cf142834f9e139fcbf808c3890.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/acb21aec24185e677fe617267618280c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/de475f791023b0a1c5b69e84f5ee2d9f.wav"
+        },
+        {
+          "ab": "sinsi",
+          "ch": "老師",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/15/dcc828260c665902358ebd574f22ee6a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

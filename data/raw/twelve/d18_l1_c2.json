@@ -1,0 +1,184 @@
+{
+  "title": "mateq kuwing na’",
+  "titleCh": "我是學生",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你是學生嗎？",
+      "ab": "mateq su’ na’ qu?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/840c578ce933c4bfeb0db075a31ca95a.wav",
+      "word": [
+        {
+          "ab": "mateq",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/b0b7725cd3049f3f52e1d9ada51e5812.wav"
+        },
+        {
+          "ab": "su’",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/bfcb55898b8a384a315312637f9667a4.wav"
+        },
+        {
+          "ab": "na’",
+          "ch": "仍然",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/28c212d2ca4e55787a0b3593b36c62d1.wav"
+        },
+        {
+          "ab": "qu",
+          "ch": "嗎",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/15a4cb5050f7374300619cacb7aec32a.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是呀，我是學生。",
+      "ab": "uwal ga, mateq kuwing na’.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/808f9755731d26cb97ddebf132e7d41c.wav",
+      "word": [
+        {
+          "ab": "uwal",
+          "ch": "是的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/1203d522f3b862628cd324f84b0629e0.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[助]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/fcda95474da48e526a03ee67f8377638.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mateq",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/1e7c1613d62dd62c81914454a9d0f38c.wav"
+        },
+        {
+          "ab": "kuwing",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/6047894b9f86f8473dadbde8554d1978.wav"
+        },
+        {
+          "ab": "na’",
+          "ch": "仍然",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/8e60b5388aded7da1c8df03ffaf5bf4b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "Awi’，你也是學生嗎？",
+      "ab": "Awi’, mateq su’ na’ uwi qu?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/bd6badbc1d3f61a5f81b2844e1805dd2.wav",
+      "word": [
+        {
+          "ab": "Awi’",
+          "ch": "（男子名）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/ea6d72b510f9a3603266d450585b9981.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/8d7102439123c671753d9646c3bead9c.wav"
+        },
+        {
+          "ab": "mateq",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/0289145cb0997513f4f9f69207870ff0.wav"
+        },
+        {
+          "ab": "su’",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/dfa5d1c4913c3c40c51360207a4f169a.wav"
+        },
+        {
+          "ab": "na’",
+          "ch": "仍然",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/7bebd0edab139b71ab9ef2418803b128.wav"
+        },
+        {
+          "ab": "uwi",
+          "ch": "也",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/b7ddbd11021d52091b50dc77ce5f041b.wav"
+        },
+        {
+          "ab": "qu",
+          "ch": "嗎",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/fa4524dbc90f2745d411128edada4c10.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我不是學生了，我已經是老師了。",
+      "ab": "ini’ kuwing pateq la, papsibaq kuwing la.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/c1235bfd5dee8bc0da9aa58cf7787378.wav",
+      "word": [
+        {
+          "ab": "ini’",
+          "ch": "沒有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/b363b6fbd1e6832c95684be7896ccee1.wav"
+        },
+        {
+          "ab": "kuwing",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/8d68165d3763783109021566f69080bb.wav"
+        },
+        {
+          "ab": "pateq",
+          "ch": "讀書",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/4b64b810ece8a797e4e877103c0abd36.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/39f19556d64a04f3b7f45295631af9c6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "papsibaq",
+          "ch": "老師",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2023/04/20/59a63e98d52cbd5e2320837f454bc1ed.wav"
+        },
+        {
+          "ab": "kuwing",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/e6f9dd28c9dc0c38cafe6633fe26c893.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/18/ba047dfbd6d28a65055e471e512c15e3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

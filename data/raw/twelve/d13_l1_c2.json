@@ -1,0 +1,144 @@
+{
+  "title": "situ aken",
+  "titleCh": "我是學生",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你是學生嗎？",
+      "ab": "situ sun?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/941d8005ef28e384e44406e852cdf01e.wav",
+      "word": [
+        {
+          "ab": "situ",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/b59f42bdcb415e242762c197a28c8888.wav"
+        },
+        {
+          "ab": "sun",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/1973bc01904c5ec24861815ef5d8cd67.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是的！我是學生。",
+      "ab": "ui! situ aken.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/7679e259dde5ea110c89c1bc79c49fa8.wav",
+      "word": [
+        {
+          "ab": "ui",
+          "ch": "是的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/19c838bf53900a13974f348433096ef6.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "situ",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/12748319c5443f9ebefae0cbdf7721ea.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/3172009c3d2f65dd563358daa276beeb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他是學生嗎？",
+      "ab": "situ timadju?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/a1b5258ead112acaf81209e3fa235439.wav",
+      "word": [
+        {
+          "ab": "situ",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/030ad48adc14e372ca6a1c96a6c68119.wav"
+        },
+        {
+          "ab": "timadju",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/ff9ba5ed666973f2e7bd8c527f13b1e9.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不！他不是學生，他是老師。",
+      "ab": "ini! ini ka situ timadju, sinsi timadju.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/fd74fa8fef8ea757edaca34cfcce4c32.wav",
+      "word": [
+        {
+          "ab": "ini",
+          "ch": "不是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/3c48a109e2b6c7354576297a64d0039c.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "不是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/8d6c729374c5c7818303518cbd907bfc.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/83d2ee11e6bf5ff4f815994bcee56064.wav"
+        },
+        {
+          "ab": "situ",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/0a445db998cdb318d862be8762144792.wav"
+        },
+        {
+          "ab": "timadju",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/64003512dfc5f209c728718d93746f77.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinsi",
+          "ch": "老師",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/24/92ae3d72c75a879d21e689111226b94c.wav"
+        },
+        {
+          "ab": "timadju",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/19/57f2cbf10040859d79faf74061ab32c4.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "title": "Mapatvis",
+  "titleCh": "祭儀",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "我們家族有一處祭場。",
+      "ab": "Aizan kaimin maitastulumah tu lulus’anan.",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/2099dc0a3937013c0f406dfe07e39590.wav",
+      "word": [
+        {
+          "ab": "Aizan",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/6790557160764e063e995a1b2763b9a5.wav"
+        },
+        {
+          "ab": "kaimin",
+          "ch": "我們",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/a94947be28e2f087afed4f9d16063ab3.wav"
+        },
+        {
+          "ab": "maitastulumah",
+          "ch": "家族",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/f8d239838785ea7506f31ce8a6c6a682.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/07/7819bb1b3f24d51bb95e288910593f7f.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/385d2292831107f879a68375531a0325.wav"
+        },
+        {
+          "ab": "lulus’anan",
+          "ch": "祭儀場",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/47917a9fc1205fbf6d60cafce66e7a1b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "舉行祭儀時，要擺上米飯、肉、酒、湯等獻祭品。",
+      "ab": "Mais lus’an hai, paldailazun a na’ispakaun, aiza haising, maicici, aiza davus, mas pan’dian.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/550165b74e64f0b2405c4b550215b143.wav",
+      "word": [
+        {
+          "ab": "Mais",
+          "ch": "如果",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/e6f2026eeebe14e919bc993458633fa1.wav"
+        },
+        {
+          "ab": "lus’an",
+          "ch": "祭典時",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/a8aa91849b168a96904de50a468cf41d.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/a3eb0063f2e4a60beac948e8d39b05f3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paldailazun",
+          "ch": "排列",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/b20b2d5f6c0654f7b92e369cbccc11c3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/40237b9f25cb2a1629ede9c2391d2bd9.wav"
+        },
+        {
+          "ab": "na’ispakaun",
+          "ch": "獻祭物品",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/aac3572cf9416b70d96460d78ec174cf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aiza",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/5387f6e4b5d6e3a157d6849cd60cde17.wav"
+        },
+        {
+          "ab": "haising",
+          "ch": "米飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/3d8d77f02a07e2cbd1fa1ea4bf2acd40.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maicici",
+          "ch": "肉",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/ce0832fe8185820c615368cc048d5b5d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/04/f315f1aa6de2d5f180c804b67a6777bb.wav"
+        },
+        {
+          "ab": "aiza",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/4697dcee118c13cd9328f7eca4927763.wav"
+        },
+        {
+          "ab": "davus",
+          "ch": "酒",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/b3e15acb95abb031bb2c6c592cfc80b6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/04/6c2320efb339cbb4b8b64e97389e1244.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "和",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/e5338225dd3ea87522ad0492ba792d1d.wav"
+        },
+        {
+          "ab": "pan’dian",
+          "ch": "菜餚",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/a15a7a3be0aed2760e9940212de007eb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "並且也將器物擺放於地上，由祭司在那裡朗誦祭詞，加持靈力。",
+      "ab": "Musasu maza na iskusisia tu haimangsut hai pasandailazun amin nastu sia tanangaus lulus’an cia, maza is’am’aminan hai, lapaspas at masumsum mapismangan.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/ec87254c9195c018b22b65b311ca3456.wav",
+      "word": [
+        {
+          "ab": "Musasu",
+          "ch": "同時",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/d7a591c52b9fce0036eec5e8e285a27c.wav"
+        },
+        {
+          "ab": "maza",
+          "ch": "也",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/15/307d5afbb0128356e49183b266fd8320.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/47523f1fc1ee2b5d184c4eb1bcf74524.wav"
+        },
+        {
+          "ab": "iskusisia",
+          "ch": "使用",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/a6a224bca9a52665bedf129cffcce952.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/3ee446038e76484260a3f6b503e1306c.wav"
+        },
+        {
+          "ab": "haimangsut",
+          "ch": "東西",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/e30d7f4fb17201e8a416d07356e67c93.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/282b5475bba17cfaac2328fb4aaa0270.wav"
+        },
+        {
+          "ab": "pasandailazun",
+          "ch": "陳列",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/9fc3eda43d35bcd4cf7f6530724d159e.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/17cc301cc992422b7122b84dd73d18f8.wav"
+        },
+        {
+          "ab": "nastu",
+          "ch": "地上",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/9a755e2bd3d5a17608eeca3256a7ef31.wav"
+        },
+        {
+          "ab": "sia",
+          "ch": "在",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/d3080992925f3702e7c01bca7749c82d.wav"
+        },
+        {
+          "ab": "tanangaus",
+          "ch": "前面",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/f449c9c96aea143fa0e496ed9897474a.wav"
+        },
+        {
+          "ab": "lulus’an",
+          "ch": "祭所",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/3ce19558141ac5b111957185568d6195.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "[位]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/0707ce3af7a1a6ca55c58be325533b50.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maza",
+          "ch": "而",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/419fb8811a0cde92e9aacc13e8f567d1.wav"
+        },
+        {
+          "ab": "is’am’aminan",
+          "ch": "祭司",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/82ecbe26773b6ea978477b6f4f89efaa.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/f9c499d0c44998e38c21c6971b8b6a2b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lapaspas",
+          "ch": "祭師施法祈福",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/d69f9a5c304d8be57fda0fa06e804603.wav"
+        },
+        {
+          "ab": "at",
+          "ch": "[屬]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/9cbfbdc5e5a5c3ce3fe8b9ac7f90ba47.wav"
+        },
+        {
+          "ab": "masumsum",
+          "ch": "祈禱",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/777f99401d574386b068f559ede440ba.wav"
+        },
+        {
+          "ab": "mapismangan",
+          "ch": "加持靈力",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/5a1c55a04f46b471b6b765e6beeabdbb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "祭完後，一起喝酒、分肉、唱歌，唱祈禱豐收歌、誇功歌，直到天黑後結束。",
+      "ab": "Mais kanahtungin hai, muskunin mis’av, mapulaung at, kahuzas, Pasibutbut Malastapang sausanavan at kanahtungin.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/66360b3b9a2d88ce5b4ca154cd503ae6.wav",
+      "word": [
+        {
+          "ab": "Mais",
+          "ch": "如果",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/5b8b699a1b864b8bf454686b21a8962f.wav"
+        },
+        {
+          "ab": "kanahtungin",
+          "ch": "結束",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/da3aa014f79424a65b9cf91081a07485.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/0632919ab3c4cb5251c7e5994249fd24.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muskunin",
+          "ch": "一起",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/76985ba9534fad673951d8b96c42ee85.wav"
+        },
+        {
+          "ab": "mis’av",
+          "ch": "喝酒",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/19633c4cff877547484dc378c26ff1c6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/04/a1971b737104466f1c0eabc94aff3088.wav"
+        },
+        {
+          "ab": "mapulaung",
+          "ch": "分享",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/3e29873984ffdff5be4e0852f728bfd3.wav"
+        },
+        {
+          "ab": "at",
+          "ch": "[屬]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/b195b2dac19c86efceb222a08d97c182.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kahuzas",
+          "ch": "唱歌",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/0790bc650e22c01fe28bb272462c8371.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Pasibutbut",
+          "ch": "祈禱豐收歌",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/76e5f485993af2ddd59058584f120eb7.wav"
+        },
+        {
+          "ab": "Malastapang",
+          "ch": "報戰功",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/796c9204c74ffded5846830089f9e8b4.wav"
+        },
+        {
+          "ab": "sausanavan",
+          "ch": "到晚上",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/0d82b111322cfeb040efbbba7f4fd4d2.wav"
+        },
+        {
+          "ab": "at",
+          "ch": "[屬]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/bf04ea4c8dc8b5e422f7e5772f658c5a.wav"
+        },
+        {
+          "ab": "kanahtungin",
+          "ch": "結束",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/07/12/c4da44becbd2d986f5da631f6f2c9730.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

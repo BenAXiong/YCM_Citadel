@@ -1,0 +1,239 @@
+{
+  "title": "padingwa",
+  "titleCh": "打電話",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你好！我是Lruway，請問令姊Taata在家嗎？",
+      "ab": "inabayan! i Lruway ku. kiyumalra ku driya. ulraya i bau i Taata?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/c58391c52ca587b099f1a3362f8729cb.wav",
+      "word": [
+        {
+          "ab": "inabayan",
+          "ch": "你好",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/6a86224fd4c03469ac3a82238de1eccb.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/2897b9ee4f8eac6c57dd14e678ce0c3e.wav"
+        },
+        {
+          "ab": "Lruway",
+          "ch": "（女性名）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/79c4447e23a8d9c51ba0c234400afc52.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/a930e01a5370faed3260b88778a44ca3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiyumalra",
+          "ch": "問",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/086016fa9e8fa0512e4bf81d5287728f.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/f90fb44a4e4a9e78b1128a494d1880e5.wav"
+        },
+        {
+          "ab": "driya",
+          "ch": "請",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/ac1bf95db22b08673f223eb0ac040c33.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulraya",
+          "ch": "在",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/f7e6334d0ba484ea5e72c53dac9cdbc6.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/9c2f7f0424eff517c7e5f3476eddacef.wav"
+        },
+        {
+          "ab": "bau",
+          "ch": "你的哥哥，你的姊姊",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/f8b993f5091de4bbc6e9cc5f2e865e86.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/4cb199d9f917ed6372ffadcd56c340c7.wav"
+        },
+        {
+          "ab": "Taata",
+          "ch": "（女性名）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/a5dc3d7328389ae6396b6621c510a19d.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我是Sunay，姊姊Taata不在家，她出去一下。",
+      "ab": "i Sunay ku. uniyan i ruma i baelri Taata. mupatraran lra.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/fda9d9404ad8757f69a3a2bceae5e703.wav",
+      "word": [
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/0786e23ace0f182bbe6df6a649b9927b.wav"
+        },
+        {
+          "ab": "Sunay",
+          "ch": "（女性名）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/22c89949c886f49facec963cf0c34428.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/e79f08b8788b8e5da18cfeb76cc869af.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uniyan",
+          "ch": "不在",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/36e2eeb0ac8ecf641f3245d835ce5ece.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/dd8a9e478658d7782795b02a761407b3.wav"
+        },
+        {
+          "ab": "ruma",
+          "ch": "家；房子",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/a32db2482fa90773d08c5713a27aef82.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/ca9a566cac71c894ac04368592ca5f76.wav"
+        },
+        {
+          "ab": "baelri",
+          "ch": "我的哥哥，我的姊姊",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/7aa6af355d31f2d50b026f141be9bf29.wav"
+        },
+        {
+          "ab": "Taata",
+          "ch": "（女性名）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/645e9387744e33d2abeece986a39c93f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mupatraran",
+          "ch": "出去",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/ceee9d42e3577a88c14ae952dd45e937.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/ec7fa0be9560f7afd9d7c362c400698d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是喔！她什麼時候回來呢？",
+      "ab": "aiwa! uwaruma an asuwa?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/907b500615aea5c920a1ea29c250ffb7.wav",
+      "word": [
+        {
+          "ab": "aiwa",
+          "ch": "是喔",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/8d3f3a3dabdb8b31cfdeb33c10ed0124.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uwaruma",
+          "ch": "要回來",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/529c9907bb778f386520d42f260581cf.wav"
+        },
+        {
+          "ab": "an",
+          "ch": "當",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/c7a825d508460de4cdd542b1b863e138.wav"
+        },
+        {
+          "ab": "asuwa",
+          "ch": "什麼時候",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/8ce9d11fc7d45e677f3befcf79cd71c4.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "等一下就會回來。",
+      "ab": "uwaruma lra angaremay. ",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/66a64b89e89163ed486f52e085ddfa9b.wav",
+      "word": [
+        {
+          "ab": "uwaruma",
+          "ch": "回家",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/172b53d1bbd652452465faaf458b6397.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/ec335d157bb09bd45c8d757e7a221e21.wav"
+        },
+        {
+          "ab": "angaremay",
+          "ch": "稍後，等一下",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/02/5c843fb5f914c3eb3ab0a555b647d235.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

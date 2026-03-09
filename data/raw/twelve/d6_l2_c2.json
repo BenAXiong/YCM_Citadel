@@ -1,0 +1,162 @@
+{
+  "title": "Maunin",
+  "titleCh": "請用餐",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "媽媽，早安。",
+      "ab": "Tina, miqumicang.",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/08/2a3ea99ef87996371051fc6fe9f7c318.wav",
+      "word": [
+        {
+          "ab": "Tina",
+          "ch": "媽媽",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/e7d51a62b2bb18f2c7b014d3a9199399.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "miqumicang",
+          "ch": "早安",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/28f773293e8ef0d6500505e1151b2174.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "早安，請用餐。",
+      "ab": "Miqumicang, ma’unin.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/8ff06c6be25854d4cd1a45fd86af9301.wav",
+      "word": [
+        {
+          "ab": "Miqumicang",
+          "ch": "早安",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/8b52b18f3cf367edf62097e44199c81e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’unin",
+          "ch": "請用餐",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/e33ae66fbe4e041deb1959eeaed1f351.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "等一下，我要先刷牙。",
+      "ab": "Mulu’ang, na masinavang azakis ngulus.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/08/c2ad3ef3126351b0eb7aa31d45104a09.wav",
+      "word": [
+        {
+          "ab": "Mulu’ang",
+          "ch": "等一下",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/9542d76af138d7270a6681e343a6ab4c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/6fbd07afc65d2735f077b92e5b57b7af.wav"
+        },
+        {
+          "ab": "masinavang",
+          "ch": "刷牙",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/82cd3effaeb8c914419877b85a85c0ae.wav"
+        },
+        {
+          "ab": "azakis",
+          "ch": "[受]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/f5745a7d981e1dcda43c3d238e1f8f09.wav"
+        },
+        {
+          "ab": "ngulus",
+          "ch": "嘴",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/faaa7ee44f9149f220e971dc1c234689.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "也要洗臉喔。",
+      "ab": "Madanava aminis da’qais.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/bee652ce73cc7ef9d84fa88386385df8.wav",
+      "word": [
+        {
+          "ab": "Madanava",
+          "ch": "洗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/14618668d2cdfdcddca6d00d1febe489.wav"
+        },
+        {
+          "ab": "aminis",
+          "ch": "也要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/a72c919c50b18c39bed8b769c288bfe6.wav"
+        },
+        {
+          "ab": "da’qais",
+          "ch": "臉",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/14/8eb71e8000eb7b002af306ae42b65459.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "好的，我知道。",
+      "ab": "Uu na, maqanciapak.",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/08/f4f5c7e77022206a12564b2dffc581e2.wav",
+      "word": [
+        {
+          "ab": "Uu na",
+          "ch": "好的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/0190f291d31f0e1a5a65c97fbe99844d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqanciapak",
+          "ch": "我知道",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/29/02c6bdd31981f908e4c39c870c99c1ee.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

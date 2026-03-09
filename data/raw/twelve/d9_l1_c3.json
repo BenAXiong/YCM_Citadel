@@ -1,0 +1,79 @@
+{
+  "title": "Mindangkaza!",
+  "titleCh": "請起立！",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請起立！",
+      "ab": "Mindangkaza!",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/14/a89dd938ae1c750585b51517f93b3445.wav",
+      "word": [
+        {
+          "ab": "Mindangkaza",
+          "ch": "請起立（命令句）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/14/b622bf607e4b7efbfbe08a635e376326.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請坐下！",
+      "ab": "Malungqu’a!",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/13/ea233628f3a0f9a67bd8520d14297d52.wav",
+      "word": [
+        {
+          "ab": "Malunqu’a",
+          "ch": "請坐下（命令句）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/bed44d5247de3270ee5ae462fb19890b.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請說！",
+      "ab": "Tupa’a!",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/14/3ba475b634863249aa9737f45445f6bf.wav",
+      "word": [
+        {
+          "ab": "Tupa’a",
+          "ch": "請說（命令句）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/14/a0fb659b256866285666140f3d6a6c6f.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請聽！",
+      "ab": "Tan’a’a!",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/13/6ac4acf338364ed6c442ae9c47d70900.wav",
+      "word": [
+        {
+          "ab": "Tan’a’a",
+          "ch": "請聽（命令句）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/14/015a9fd0cf50bf6c99ad7ab0303ca78b.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

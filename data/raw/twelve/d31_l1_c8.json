@@ -1,0 +1,114 @@
+{
+  "title": "niana zau?",
+  "titleCh": "這是什麼？",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "這是什麼？",
+      "ab": "niana zau?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/13285dfc55cb1757ce71b604f18c670a.wav",
+      "word": [
+        {
+          "ab": "niana",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/c64fd61f4271162c377c1d54672f096c.wav"
+        },
+        {
+          "ab": "zau",
+          "ch": "這是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/4038bdb088c21922c86cd006c884a722.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "這是桌子。",
+      "ab": "takan zau.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/f4e94e13571f1bebd7258cbe90ae18a7.wav",
+      "word": [
+        {
+          "ab": "takan",
+          "ch": "桌子",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/9a27cf65ac0a0b8c625b191227706755.wav"
+        },
+        {
+          "ab": "zau",
+          "ch": "這是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/9e9eb310904712bee308a1399000144e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "那張椅子很重嗎？",
+      "ab": "zinneq qaddan ’nay ni?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/22cc3a87222e0e9decc287ae6d6888f9.wav",
+      "word": [
+        {
+          "ab": "zinneq",
+          "ch": "重的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/dc5e17d69928ec2804b10fafd123e396.wav"
+        },
+        {
+          "ab": "qaddan",
+          "ch": "椅子",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/c16bd4278cb12166c5ca4cf9104c30ea.wav"
+        },
+        {
+          "ab": "’nay",
+          "ch": "那張",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/3d0010fb12b817f5073645bb9d75955c.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "嗎",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/62ac3cf69c790b7d67c579ea958f10ac.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是，很重。",
+      "ab": "en, zinneq.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/6ccce78dbe4869e7182b121d8c044bea.wav",
+      "word": [
+        {
+          "ab": "en",
+          "ch": "是的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/665ae2a676c029691396c31f5188b943.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "zinneq",
+          "ch": "重的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/11/c699c05a0673c71a8c15ccd55b0918a0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

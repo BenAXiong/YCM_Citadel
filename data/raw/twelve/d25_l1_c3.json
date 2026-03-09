@@ -1,0 +1,61 @@
+{
+  "title": "Katomireng",
+  "titleCh": "請起立",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請起立！",
+      "ab": "Katomireng!",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/28/f2ea3a8b07bcb6e17150b4a09984e345.wav",
+      "word": [
+        {
+          "ab": "Katomireng",
+          "ch": "請起立",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/28/cebcc6e026ed439e37d33b2cbf6cfdaf.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "敬禮！",
+      "ab": "Mita’ong!",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/28/a5bb6d09bf3daf4acc34484286e0da37.wav",
+      "word": [
+        {
+          "ab": "Mita’ong",
+          "ch": "敬禮",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/28/e19ec55d1ad922730b654a40fe2fedec.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請坐下！",
+      "ab": "Kamaro’!",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/28/d70f99e70fba50ed2da22d342d70e22b.wav",
+      "word": [
+        {
+          "ab": "Kamaro’",
+          "ch": "請坐下",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/02/28/e461d2c2832d092c2e6cbdb488868910.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

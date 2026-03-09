@@ -1,0 +1,159 @@
+{
+  "title": "Patunpaklic",
+  "titleCh": "打電話",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你好，我是Langui，Tiang有在嗎？",
+      "ab": "Miqumicang, Langui azak, maiza kat Tiang?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/86b0b57a9a32b33fd67aa1365be8bb92.wav",
+      "word": [
+        {
+          "ab": "Miqumicang",
+          "ch": "你好",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/bedb4fea1b25367f8feff31964f92815.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Langui",
+          "ch": "（人名）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/74ee24985d4414671b5f56b088a327d0.wav"
+        },
+        {
+          "ab": "azak",
+          "ch": "我[受]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/75d8d294f24d589b24736e9ad40d5539.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/c8c9995c8e852de8a9a79c4ec1f06f24.wav"
+        },
+        {
+          "ab": "kat",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/4ca4087c7dbdaa285bca7034b78eef50.wav"
+        },
+        {
+          "ab": "Tiang",
+          "ch": "（人名）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/440f8d18093a0228f352ee91c63f8cef.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不在，他出去了。",
+      "ab": "Uka’, munata’a cia.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/23/496e4dd13c76d2e62c73db83f66b41f0.wav",
+      "word": [
+        {
+          "ab": "Uka’",
+          "ch": "不在",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/23/07ac51b387d1d629dac3d2589f93346b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "munata’a",
+          "ch": "出去",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/23/d8c0df8f5a0772bf5bb7bce942586f43.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/23/e7a864348847ca2fc032502185430ef0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他什麼時候回來？",
+      "ab": "Na lakua ka cia mucuqais?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/28/6637374debf7b021433f27bb51b11eee.wav",
+      "word": [
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/fd691ebb6cedbbb519452bdcb2697d40.wav"
+        },
+        {
+          "ab": "lakua",
+          "ch": "什麼時候",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/8ce792e7741b03298167f76217776ac3.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/235add7bb78febceb9eba7580b697f77.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/e2c42e64402085fbb9b1f3e06c00cd0b.wav"
+        },
+        {
+          "ab": "mucuqais",
+          "ch": "回來",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/30cdf50bfec3b71484b0c62b8306fe9a.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "快回來了。",
+      "ab": "Na mungain mucuqais.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/23/ac84c23675e9aeab373ed6c94ed313b3.wav",
+      "word": [
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/23/8aab6ad8d78ad450b01056314dd717bd.wav"
+        },
+        {
+          "ab": "mungain",
+          "ch": "快",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/23/f0c17ef4a75a99090434ab56ae004ebc.wav"
+        },
+        {
+          "ab": "mucuqais",
+          "ch": "回來",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/23/06a6d79ff867d6cf8e425f00e2856daa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

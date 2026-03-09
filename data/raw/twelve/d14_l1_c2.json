@@ -1,0 +1,134 @@
+{
+  "title": "Situ",
+  "titleCh": "學生",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你是學生嗎？",
+      "ab": "Situ su?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/828b65cf2ab8f4a3123d3bdfeac902f6.wav",
+      "word": [
+        {
+          "ab": "Situ",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/ff174ef723430b2756fc15935e43deab.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/03/24/7777ffbe9342bfc121b5572b3713c75b.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是的，我是學生。",
+      "ab": "Unu, situaku.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/19/b2cf29d0d3994ecedbdb3f05078d47b5.wav",
+      "word": [
+        {
+          "ab": "Unu",
+          "ch": "是的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/c533728ca565e6f32140dc52f9608c45.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "situaku",
+          "ch": "學生─我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/b9bbb4fc8c097e592c70666671ccd1be.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他也是學生嗎？",
+      "ab": "Kay lasu, laka situ?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/bbbdfbf9cd3cdf0c51209da3e7881cf3.wav",
+      "word": [
+        {
+          "ab": "Kay",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/da6cecfcde806aedd8688f19904b83f1.wav"
+        },
+        {
+          "ab": "lasu",
+          "ch": "他，她",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/a2cbf7af6ebbc0f0b5906419bc0b5b8a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "laka",
+          "ch": "也是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/c6369a49157c739eefc35440321120d3.wav"
+        },
+        {
+          "ab": "situ",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/03317053264b54a3bbda63aedf1b61cc.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不是，他是老師。",
+      "ab": "Ini, sinisi kay lasu.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/05/19/94a922acb2f07ca5d12fdff34f259149.wav",
+      "word": [
+        {
+          "ab": "Ini",
+          "ch": "不是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/2728a10fee6337d092154e191a10077a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinisi",
+          "ch": "老師",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/3e5a3559d44aec61baab23803e88200d.wav"
+        },
+        {
+          "ab": "kay",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/a533f67057aa4efc84e3517b31b45b97.wav"
+        },
+        {
+          "ab": "lasu",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/22/bd3e5d2a472c93fa3956f3718bb997a4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "title": "pida anga milingan tucu?",
+  "titleCh": "現在是幾點？",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "現在大約是幾點了？",
+      "ab": "pidanga milingan tucu?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/fb4d5b289056a2bbff53918e5701401b.wav",
+      "word": [
+        {
+          "ab": "pidanga",
+          "ch": "多少了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/15/7ccff89de93fff5bde17590eb4dfcaca.wav"
+        },
+        {
+          "ab": "milingan",
+          "ch": "時間",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/d537cd9c11ad622c13119e3baf0ee162.wav"
+        },
+        {
+          "ab": "tucu",
+          "ch": "現在",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/31a7b103d9c5b4f266100fe16c0973d6.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在是早上八點。",
+      "ab": "alu anga milingan tucu a kadjamadjaman.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/84a2d153d48d93e386172cd43e90f52e.wav",
+      "word": [
+        {
+          "ab": "alu",
+          "ch": "八",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/80e658b90cf20f5caf0b08d397e48710.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/daf741d2f745fad921004f88e242091f.wav"
+        },
+        {
+          "ab": "milingan",
+          "ch": "時間",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/65e3bf1ae7b9995aa5b430a32bbc027b.wav"
+        },
+        {
+          "ab": "tucu",
+          "ch": "現在",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/1adbbac881252c5eb166ad0d555c240f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/d32be4c7dbd109a1d7efce9e31038e20.wav"
+        },
+        {
+          "ab": "kadjamadjaman",
+          "ch": "早晨",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/3ff27dd30deef55de6ed9d3761d6e7a3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你早上幾點起床？",
+      "ab": "itja makudakuda milingan a su sigacaljan nu kadjamadjaman?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/2b0a8f185cb15a8417ad04eb124f61d9.wav",
+      "word": [
+        {
+          "ab": "itja",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/076680869c553ab9fb1c1288c8fb7fae.wav"
+        },
+        {
+          "ab": "makudakuda",
+          "ch": "多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/bb345a9027d9a3202941ddd91140e1f5.wav"
+        },
+        {
+          "ab": "milingan",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/aa41a6b38e144dc2b256c8db52f3bfd9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/6a5e77eeba97c430fe86c4c9a970eb3d.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/592fa3d00c10ec33d9d21fb8e0a75276.wav"
+        },
+        {
+          "ab": "sigacaljan",
+          "ch": "起床",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/9f33ecbead7f757cdeaef1f25fa1ff19.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/1e9b42a8afd41757ad8fc36fe9d47531.wav"
+        },
+        {
+          "ab": "kadjamadjaman",
+          "ch": "早晨",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/f6d33f535b5c65aa4a7d0be2b649156f.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我早上六點起床。",
+      "ab": "migacalj a en itja unem a milingan nu kadjamadjaman.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/9038be19137f712599527b4dff398c7f.wav",
+      "word": [
+        {
+          "ab": "migacalj",
+          "ch": "起床",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/0264dde9556667364c0c7e3b05a7050b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/fccac7d9141b129220856dbd91f3b0f5.wav"
+        },
+        {
+          "ab": "en",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/7f9132a0df0c2849098eaac9f5fbcd9f.wav"
+        },
+        {
+          "ab": "itja",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/82ac20a74815f3529a22a99340911a5b.wav"
+        },
+        {
+          "ab": "unem",
+          "ch": "六",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/88c999104b7cfff7faf719ea4509329f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/5979bf70425d7992e095ba36f94556d7.wav"
+        },
+        {
+          "ab": "milingan",
+          "ch": "時間",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/49966ce7fe1fa1e245085f3823cabdca.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/267a473bbf62128a314e6d7a12c100a8.wav"
+        },
+        {
+          "ab": "kadjamadjaman",
+          "ch": "早晨",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/45f8f6e6401469b7ef8ecaf5a778a63e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你晚上幾點睡覺？",
+      "ab": "itja makudakuda milingan a su sitaqedan nu qezemezemetj?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/e1bf2f4cee9087228201de9421d8abc5.wav",
+      "word": [
+        {
+          "ab": "itja",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/1d8c864277eaadded361c369e1b645bc.wav"
+        },
+        {
+          "ab": "makudakuda",
+          "ch": "多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/940c387223f3df984fea19714769dc28.wav"
+        },
+        {
+          "ab": "milingan",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/6b8b17ed4abec558213c1f9a0a4a1f22.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/3781150173425f99aa69dcca88abd80c.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/8478f85bf5e0e87637d10e68b0e03cbe.wav"
+        },
+        {
+          "ab": "sitaqedan",
+          "ch": "睡覺的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/95dda37c943e60c193de587ce7f12451.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/37b8a21fc05179153f5281a462a95972.wav"
+        },
+        {
+          "ab": "qezemezemetj",
+          "ch": "晚上",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/2fcb53ceda35b82f15d3cd17ff03640f.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我晚上九點以前睡覺。",
+      "ab": "pasusangas ta siva milingan a u sitaqedan nu qezemezemetj.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/16c8da8f75af9f016af5c0b3ed2782cd.wav",
+      "word": [
+        {
+          "ab": "pasusangas",
+          "ch": "之前",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/aad3c7d855550a5e510cabcf65da6f61.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/826afc276e615ba2c8392111ee10d813.wav"
+        },
+        {
+          "ab": "siva",
+          "ch": "九",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/58a844b9600c3f6115c80c51fca05e5f.wav"
+        },
+        {
+          "ab": "milingan",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/953b01e49b807a0b4a1db0475a1663f3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/9f2f0768168d8df82e4ddd1a65d0fb9f.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "我（的）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/abb44a85c36420890f566eadbe8ebfc5.wav"
+        },
+        {
+          "ab": "sitaqedan",
+          "ch": "睡覺的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/2113cadaac1dab1a0820e9fe219fc7b0.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/0f11ea13e8fd903b6ea5e8305bfb8ede.wav"
+        },
+        {
+          "ab": "qezemezemetj",
+          "ch": "晚上",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/9dcdbfbe8ba4f083c649ddc1f6e999bc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

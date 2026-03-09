@@ -1,0 +1,310 @@
+{
+  "title": "sahar u mekan da eman",
+  "titleCh": "你喜歡吃什麼？",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你喜歡吃什麼？",
+      "ab": "sahar u mekan da eman?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/b755f6e6c17ad736ddbeacb1830c6bb9.wav",
+      "word": [
+        {
+          "ab": "sahar",
+          "ch": "喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/d1f2b68e54bbc88969c23365011a49f8.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/b37ea265cca7b1f6df0dd30c00319372.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/51a10f34de93eca01db04f901df1c6a4.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/96fe767896c4a92171b0b838afda52bd.wav"
+        },
+        {
+          "ab": "eman",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/a460f8051f63ee4730ca18246a9531d7.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我喜歡吃米飯，你呢？",
+      "ab": "sahar ku mekan da maderu, inu mu?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/140d8913b06007011028c1ad66fbe7d0.wav",
+      "word": [
+        {
+          "ab": "sahar",
+          "ch": "喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/ba16219908688d3931748d32c2c24999.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/8c34810c671026172eac61481954c3dc.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/9541dbe9bc6e9b8e4cb2532085c6c97d.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/fd13154292817c86e250062f76462f6c.wav"
+        },
+        {
+          "ab": "maderu",
+          "ch": "米飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/0876d6847e559b37aed9f515ac841d13.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inu",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/a0994eff177ce8dc5160926853f75673.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/27cff9a9bc04606a2d9dd56498113d04.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我喜歡吃米糕，不喜歡吃飯。",
+      "ab": "sahar ku mekan da ’avay, adi ku sahar mekan da maderu.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/dc3a1088a3a1d1fa2e1db58b67ff1aa5.wav",
+      "word": [
+        {
+          "ab": "sahar",
+          "ch": "喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/2a712f810becc00a9c3e89926c6951f5.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/aa188128ca7eaa58d5b55c74e07e64c0.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/dd6c3464631e053257e322de4c0614cd.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/12b5ffc93bff11f9b363b2d5b555d189.wav"
+        },
+        {
+          "ab": "’avay",
+          "ch": "糯米糕",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/14d3ffc5be61f447613fe7ff0b0ab786.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "adi",
+          "ch": "不",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/376780065ec68f82dd3e3657b97d48e1.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/f73fe6560dcd73f352a9be39bec4d501.wav"
+        },
+        {
+          "ab": "sahar",
+          "ch": "喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/69de42e963945eb6867e9a1a7abf27c8.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/c17a7846cb4fe246530156a64e528f03.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/69d61a9e92cfc7d7412ac21cac6c399c.wav"
+        },
+        {
+          "ab": "maderu",
+          "ch": "飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/3e4a798fd710da51c0287b540dc3bb61.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/f4ee559ed647c7dd5a645ffa141675bc.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "你知道米糕是用什麼做的嗎？",
+      "ab": "madalram u ’ina’avay da eman na ’avay?",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/4e9ba3d6bc59dd8f2a057f34b43603eb.wav",
+      "word": [
+        {
+          "ab": "madalram",
+          "ch": "知道",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/8e491239e4e5c22a005033b54f3e28b6.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/41e43127aedb5abcccb57033d4ad9f3f.wav"
+        },
+        {
+          "ab": "’ina’avay",
+          "ch": "製作",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/f3306de6fcf7ed944a34236168707847.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/8e691e23bc1df302d8a08880592231da.wav"
+        },
+        {
+          "ab": "eman",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/9f39892cf1da23579bed0066d1ecb4bb.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/a9d4e4c1d42c9c21c318175160e64004.wav"
+        },
+        {
+          "ab": "’avay",
+          "ch": "米糕",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/dafec0d15b899cdb2d2b8b83c941588a.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我不知道。",
+      "ab": "adi ku madalram.",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/26/b816f6fc55fba7d00ebb16a2eac24745.wav",
+      "word": [
+        {
+          "ab": "adi",
+          "ch": "不",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/e9421ab3f195986b4764f048ecfcc02d.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/2248ed0b67b45ccf5bee56f42ce904c0.wav"
+        },
+        {
+          "ab": "madalram",
+          "ch": "知道",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/23/94c45f5ccdbf0dba1217c1e9f492891c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我告訴你，米糕是用糯米做的。",
+      "ab": "marengaya ku diya kaninu, ’ina’avay kana lrikecan na ’avay.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/aed8f8ada7b10ef036211ea73a2d1dc7.wav",
+      "word": [
+        {
+          "ab": "marengaya",
+          "ch": "告訴",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/39b5defd942e7c0ae7ad4c7692de22ee.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/b081ce31a6d94ab0663744317f4a7f0a.wav"
+        },
+        {
+          "ab": "diya",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/a6d5570b9edfbec5a8fb8566fb90d566.wav"
+        },
+        {
+          "ab": "kaninu",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/4e7ef3fe2ea28ec10c68d6a6319f2be5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ina’avay",
+          "ch": "製作",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/5f11f4d3382fa5b9766a0e86093e7dc6.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/8e2c5fe63810dcec39f3e5199da7b135.wav"
+        },
+        {
+          "ab": "lrikecan",
+          "ch": "糯米",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/615018f3061af6ee1620cb2e3ef46be7.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/5cc3e4418669ccd2dec778975db5b087.wav"
+        },
+        {
+          "ab": "’avay",
+          "ch": "米糕",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/13/066414b4af851f9c49a5bbbbd555f103.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

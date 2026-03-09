@@ -1,0 +1,325 @@
+{
+  "title": "i tua kakanan",
+  "titleCh": "在餐廳裡",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請坐，請問你要吃什麼？",
+      "ab": "qiladju, anema su kanen?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/19ac931facf3169ebf7d93dd0b210036.wav",
+      "word": [
+        {
+          "ab": "qiladju",
+          "ch": "請坐",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/f4d1ec98ebd27cdc5e5f6e387f4a17b3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "anema",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/3f78b5284579338f9fe140a9e46b701f.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/98f34f92a29913e9897e5cb14764ea85.wav"
+        },
+        {
+          "ab": "kanen",
+          "ch": "吃的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/74eac7a1170e32d523d0c0c4530c88c6.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有米飯嗎？",
+      "ab": "izua kinsa paday?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/9f214eb53c2043df674940b00a5428d6.wav",
+      "word": [
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/b7a382d5a17430a9e698feb2d76aa302.wav"
+        },
+        {
+          "ab": "kinsa",
+          "ch": "飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/c70035684ed2f463c2e9fb3a527fa1c2.wav"
+        },
+        {
+          "ab": "paday",
+          "ch": "米",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/c47ce3aafb14665cc7ff04f337802ede.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "抱歉，但是這裡沒有米飯，只有麵。",
+      "ab": "pinaqaljayan, ljakua neka nu kinsa paday imaza, avan a udung a izua.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/da2dada6d5b06ea496d3dac6b2e39f74.wav",
+      "word": [
+        {
+          "ab": "pinaqaljayan",
+          "ch": "抱歉",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/a917a8e0407ad6c0f8f72e450fd9d1c5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ljakua",
+          "ch": "但是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/dcbb2657b086ec009a9cacd8f1936fe5.wav"
+        },
+        {
+          "ab": "neka",
+          "ch": "沒有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/1d4c386e95ce6f29dea5e9f9b4e0bc0a.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "那個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/22ddb29f87f941173eca087f75aaa16b.wav"
+        },
+        {
+          "ab": "kinsa",
+          "ch": "飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/3c19b6cbf0eb55c8a0ab2720d35f3b17.wav"
+        },
+        {
+          "ab": "paday",
+          "ch": "米",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/e87bb8f99b95f86fe790d3d59e6bd84a.wav"
+        },
+        {
+          "ab": "imaza",
+          "ch": "這裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/e245242244e407203d2119cf758eccc3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "avan",
+          "ch": "只有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/2df78eb2ba0da0b6331a17d11173c60d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/5aef15421f7cf2bdf3af5d7400ca193c.wav"
+        },
+        {
+          "ab": "udung",
+          "ch": "麵",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/886dc720d4aebe2e48496cf16bd698e8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/ce0b23311cf799bb53605487f7f82360.wav"
+        },
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/c578de9663148613d1c9bc045fdd3c01.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "沒關係，那我就吃麵好了。",
+      "ab": "ini ka makuda, pai keman aken tua udung numaya.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/0e60287670fca42e7b0273f01c7d7393.wav",
+      "word": [
+        {
+          "ab": "ini",
+          "ch": "沒有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/921d977213919909a515011300e40d1d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/8c2733addef8700e217214ee09803ba1.wav"
+        },
+        {
+          "ab": "makuda",
+          "ch": "怎樣",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/ee22a03eb4415194f6db37cbd365b6b8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pai",
+          "ch": "那",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/f36a5e4a2d4df0c1d20b83b41ca519b9.wav"
+        },
+        {
+          "ab": "keman",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/cd0e44eda8abafdc4837c9e8f03fda76.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/18/82833358294a4c1bacfcd04eedeacb4b.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "那個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/2cc0a1a459b9df66ec636e04cb6d3ad9.wav"
+        },
+        {
+          "ab": "udung",
+          "ch": "麵",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/e1aea86fb98672e9c5a2b0070bcfebe3.wav"
+        },
+        {
+          "ab": "numaya",
+          "ch": "好了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/48c874b0f614a0c90065a4466f714878.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你會吃辣嗎？",
+      "ab": "ki sun a keman tua macacam?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/9ce4820f1c0f8fc8ae23d14a70926aa7.wav",
+      "word": [
+        {
+          "ab": "ki",
+          "ch": "到底",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/ee4f2031e938316f7520b90d30572669.wav"
+        },
+        {
+          "ab": "sun",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/098800212b2ae72aac502da288cac508.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/d377c395100e507cb93b78c5907127c3.wav"
+        },
+        {
+          "ab": "keman",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/0657eae09454360b40a8d39e8c79dd6d.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "那個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/e206fae8343344cbecc194bacc8466b8.wav"
+        },
+        {
+          "ab": "macacam",
+          "ch": "辣的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/83a8062094af18a50e65bf527077ae5e.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不要，我不能吃辣的。",
+      "ab": "ini, ika ken a maqati a keman tua macacam.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/b2fa318525b670a28da1fde620d5d7c2.wav",
+      "word": [
+        {
+          "ab": "ini",
+          "ch": "不要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/a5938cc870d9bed1ce04abe37136d152.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ika",
+          "ch": "不能",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/4a197db46fba8ceea95715abb8c9619b.wav"
+        },
+        {
+          "ab": "ken",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/43695207c09cd3f7365c377bbd8756de.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/a7abdbe51728066ea40a8317c76f54ec.wav"
+        },
+        {
+          "ab": "maqati",
+          "ch": "可以",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/0c212e593eb393522f46ce313a8b6516.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/564fa011e02ee46a5467030cd0515274.wav"
+        },
+        {
+          "ab": "keman",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/5bf4812559d43d30eeb8597a388c7217.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "那個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/17fdd7c74ef31966dea765cc6c622882.wav"
+        },
+        {
+          "ab": "macacam",
+          "ch": "辣的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/25/ca9acdea1e193eb57bb8ffcfbccd4fb6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

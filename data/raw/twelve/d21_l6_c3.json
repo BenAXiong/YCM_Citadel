@@ -1,0 +1,290 @@
+{
+  "title": "Sapah uqan",
+  "titleCh": "餐廳裡",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "請坐！請問你要吃什麼？",
+      "ab": "Tluung! Manu ka uqun su hug?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/237615c1301118b16ee11e7631fbaa69.mp3",
+      "word": [
+        {
+          "ab": "Tluung",
+          "ch": "請坐",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/8cad0095cacaef3d2aa2568f882e3ffb.mp3"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Manu",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/86ad70e14c80a04650c8d23abe8937cd.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/6d13da1e397c0afc5ba2f345d50c6109.mp3"
+        },
+        {
+          "ab": "uqun",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/4b3aa3c4eb56e5c916d64dd8f799179f.mp3"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/2764e3f3d4153c46ff5d2e8164a42cbc.mp3"
+        },
+        {
+          "ab": "hug",
+          "ch": "請問",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/96a71565258f53d2f64d045561e3f6ee.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有飯嗎？",
+      "ab": "Niqan ka idaw hug?",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/02794b18ee60df307e96faaa008ad7e8.mp3",
+      "word": [
+        {
+          "ab": "Niqan",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/8b17ef6777ceebf3fd432b3cc5e3a7bb.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/c7c488bb2c0d84dd16e088c52d8cf549.mp3"
+        },
+        {
+          "ab": "idaw",
+          "ch": "飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/76585efaef7da6f1ffc206f92656248d.mp3"
+        },
+        {
+          "ab": "hug",
+          "ch": "嗎",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/0373df0f28622142a4900f0be2cf34b2.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "抱歉！這裡沒有飯，只有麵。",
+      "ab": "Wah! Ungac idaw ka hini, wana bisur.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/51db0fe2e078070664bfd553eaa706ec.mp3",
+      "word": [
+        {
+          "ab": "Wah",
+          "ch": "[助]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/86695cc91e8c926ff91c0ae5db7ee1f4.mp3"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ungac",
+          "ch": "沒有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/5f2d670c6da764cda4b9753ae67752e8.mp3"
+        },
+        {
+          "ab": "idaw",
+          "ch": "飯",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/6a763c3c9a7e1f8120e6ba0fed8f3f34.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/f34582bf5a0b0d8cacbc2c64d90491cc.mp3"
+        },
+        {
+          "ab": "hini",
+          "ch": "這裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/af6b03821cc5f5b4ad9969abd4dc2f9d.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wana",
+          "ch": "只有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/82ce899a82dea9ae213937d6de304ddc.mp3"
+        },
+        {
+          "ab": "bisur",
+          "ch": "麵",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/c3dfb9154c2514df55550d1efdda1dd7.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "這樣嗎？那我就吃一碗麵。",
+      "ab": "Kiya hug? Kiya do meekan ku kingal pratu bisur.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/ab220f1ba3e9ffff6102e0249ef03ce0.mp3",
+      "word": [
+        {
+          "ab": "Kiya",
+          "ch": "這樣",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/e0edb5487ba75d989c0ebe86a3cf0269.mp3"
+        },
+        {
+          "ab": "hug",
+          "ch": "嗎",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/c598a912458262d06fdde4e3155ae36b.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kiya",
+          "ch": "那",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/3d378654ecc45301b449b7270e912e36.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "就",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/e38f0bdba08926295a3a72c7a6dc5c4a.mp3"
+        },
+        {
+          "ab": "meekan",
+          "ch": "要吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/99a021b7f8d7087d73cb168ca9210773.mp3"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/fb6cc72fc2af933f3c6808fb9a6676c3.mp3"
+        },
+        {
+          "ab": "kingal",
+          "ch": "一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/a87a28129f6c17e0fb1eba976abbfe2d.mp3"
+        },
+        {
+          "ab": "pratu",
+          "ch": "碗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/918278a730764045fd2ef1a10581b667.mp3"
+        },
+        {
+          "ab": "bisur",
+          "ch": "麵",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/e3ce554c1c46a77eb70a157b9ea9388a.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請問你要不要吃辣椒？",
+      "ab": "Mkan su usik hug?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/d9b12c7bfece940cfa436af87acc30fa.mp3",
+      "word": [
+        {
+          "ab": "Mkan",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/75d02cae87d52cacf9cfc8c736d1ddf6.mp3"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/96de20be4eb2c68467e58e4ec9793ec7.mp3"
+        },
+        {
+          "ab": "usik",
+          "ch": "辣椒",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/9013a3b4ba2fd409046eb0dd384b3c4f.mp3"
+        },
+        {
+          "ab": "hug",
+          "ch": "請問",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/7e0f56f2d596919ccf487e2ba15e8c31.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我不要，我不敢吃辣的。",
+      "ab": "Uxay ku, ini ku ekan mnihur.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/5a4d83a6f4372f68686653864455994d.mp3",
+      "word": [
+        {
+          "ab": "Uxay",
+          "ch": "不要",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/51573fcd2a2ac67b6cf9abccc7dc90b1.mp3"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/30d6b87607ae595621b3f3937f97ea99.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "不敢",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/f1d9a71392ac7cc044a1d4297717137f.mp3"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/a17e06be0b2406d41fe098ac41b4790a.mp3"
+        },
+        {
+          "ab": "ekan",
+          "ch": "吃",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/0026dfa5743f5b98986a4c7ccc7446fc.mp3"
+        },
+        {
+          "ab": "mnihur",
+          "ch": "辣",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/21/ad641f031f78c2bc72174a861b80bc16.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

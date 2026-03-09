@@ -1,0 +1,109 @@
+{
+  "title": "ta’olroli",
+  "titleCh": "我的狗",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "我有一隻狗。",
+      "ab": "omikiae takaeaea ta’olro.",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/05/0314fe0f305381854f185084d81d2f6a.wav",
+      "word": [
+        {
+          "ab": "omikiae",
+          "ch": "我有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/20f64e0832a3626a60610bbdaa0991f8.wav"
+        },
+        {
+          "ab": "takaeaea",
+          "ch": "一隻",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/05/5a9c613d0bc146a28abe692eb5d19b96.wav"
+        },
+        {
+          "ab": "ta’olro",
+          "ch": "狗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/d203f33b7cf914f8237b4eebf5d6be76.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我的狗是黑色的。",
+      "ab": "ta’olroli ’a taecelrange.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/07/05/4b2128b1d969e13007e5a163f2029022.wav",
+      "word": [
+        {
+          "ab": "ta’olroli",
+          "ch": "我的狗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/62d9494b6608d83b343d980cc3bc3f97.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/e8f17e45340329f7e5dc9d3d2ef0afeb.wav"
+        },
+        {
+          "ab": "taecelrange",
+          "ch": "黑色的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/d42d35d43551666dd53cc53321483d2c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我喜歡我的狗。",
+      "ab": "madhalamelrao ta’olroli.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/07/05/d23fa440dee267cd76d219a29490366e.wav",
+      "word": [
+        {
+          "ab": "madhalamelrao",
+          "ch": "我喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/2d03a49e807f060738c47bd9224ef460.wav"
+        },
+        {
+          "ab": "ta’olroli",
+          "ch": "我的狗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/33b6306e09b68804d243f59440a67d24.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我的狗也喜歡我。",
+      "ab": "madhalaamiae ta’olroli.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/07/05/64b02a0da631c9b53d1b4e893ee395b8.wav",
+      "word": [
+        {
+          "ab": "madhalaamiae",
+          "ch": "也喜歡我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/7d75672f192394aef37e070a1a098aea.wav"
+        },
+        {
+          "ab": "ta’olroli",
+          "ch": "我的狗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/07/c5edf395f6f0eda265371260b090e241.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

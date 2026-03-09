@@ -1,0 +1,460 @@
+{
+  "title": "ya nimabo asa ka kagling",
+  "titleCh": "遺失了一隻羊",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "我叔叔有十隻羊。",
+      "ab": "ya amyan so ya asa ngarnan a kagling ni maran.",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/c6c724550c34256f12951943610dbe5a.wav",
+      "word": [
+        {
+          "ab": "ya",
+          "ch": "[連]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/1de25475b9c61db47fb827efbddfc0dd.wav"
+        },
+        {
+          "ab": "amyan",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/b62d59f1ef366fd4a8f280597030fef8.wav"
+        },
+        {
+          "ab": "so",
+          "ch": "[屬]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/a2f3c0371664a9307b5206fced134cdc.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "（指示詞）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/9c7c751538ebb5da5fc3fb67ba6454e3.wav"
+        },
+        {
+          "ab": "asa",
+          "ch": "一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/0aa4bffe389effee9a27a9550a32f8b9.wav"
+        },
+        {
+          "ab": "ngarnan",
+          "ch": "十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/76ad5ddb00834cb53332a61a5434b688.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[介]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/849cb01728cbaa784a5c31adc62644b0.wav"
+        },
+        {
+          "ab": "kagling",
+          "ch": "羊",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/f71fe1763de6cbe62f66c57e875a98b0.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[代]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/4d8e46b8319fa4f5c7875f0f66760ba2.wav"
+        },
+        {
+          "ab": "maran",
+          "ch": "叔叔",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/39cf753a53e1e843ea90862155a74980.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他每天去餵牠們。",
+      "ab": "ya mangday so araw o na ka pamangan sira.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/a3906ce18108fbce6609a969ce382830.mp3",
+      "word": [
+        {
+          "ab": "ya mangday",
+          "ch": "常常",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/c27b25efbfd9a1598bef7bf946fd485f.mp3"
+        },
+        {
+          "ab": "so",
+          "ch": "[斜]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/2b70d795e6d3257dbc2d1fd023886895.mp3"
+        },
+        {
+          "ab": "araw",
+          "ch": "日",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/7a555b011ce343d01ce8db7997b7032d.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/21dffc622f6cebf39eb77cf2f7e482bc.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "[代]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/a6f517c69ab8723a018484f3363a91ec.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/d43dee87988acb3f2fe89b41c31583ac.mp3"
+        },
+        {
+          "ab": "pamangan",
+          "ch": "餵吃草",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/85b26bc2acf61f010683ce513e045809.mp3"
+        },
+        {
+          "ab": "sira",
+          "ch": "[代]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/698e5db540fbc44d453d40a1d40ab72c.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他數一數羊，因為可能有跑掉的。",
+      "ab": "vilangan na sira, ta ala ya amyan so ya nimakasasaway.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/480416640e80311c8e507d92411e4034.wav",
+      "word": [
+        {
+          "ab": "vilangan",
+          "ch": "數一數",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/8edf6d307cbde83df141e898ec1648f8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[代]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/b395ce39f49ca6fc71b54e6e913d1a1c.wav"
+        },
+        {
+          "ab": "sira",
+          "ch": "[代]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/eacfe02f225d640fb4aedb29655cb718.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta",
+          "ch": "因為",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/7bdb6974d98cabe01b90f766cfc2d289.wav"
+        },
+        {
+          "ab": "ala",
+          "ch": "可能",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/e8a2e5a42f710566b7d7a165a14dfd5b.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "[連]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/b34cba3b88383c8ce268e19460422d8c.wav"
+        },
+        {
+          "ab": "amyan",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/01/09/3bc5527a5ecf3c69a604356455ebe929.wav"
+        },
+        {
+          "ab": "so",
+          "ch": "[斜]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/3b6d534020805b62f3a19671908f668d.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "（指示詞）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/2a024543fd6728b2fe9dd47d647e0075.wav"
+        },
+        {
+          "ab": "nimakasasaway",
+          "ch": "跑掉",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/06/03/4f6b25ae328b45d83dc34d40e6bccc2d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "一、二、三、四、五、六、七、八、九，少了一隻羊。",
+      "ab": "asa, doa, atlo, apat, lima, anem, pito, wao, siyam, ya abo o ya asa ka kagling.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/17921414654ad48da84a669847bb247a.mp3",
+      "word": [
+        {
+          "ab": "asa",
+          "ch": "ㄧ",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/9d71067798946a61d5e342c093f8528a.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "doa",
+          "ch": "二",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/665cbcb4fb98641aa3349bf19d2e1312.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "atlo",
+          "ch": "三",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/43a4c93d72fbdcff0e8b04244431b417.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "apat",
+          "ch": "四",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/31eb1925806098476f2c5b467e8da400.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lima",
+          "ch": "五",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/0ecb1d6b9ab5f653d9b9a173d6f0b329.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "anem",
+          "ch": "六",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/06606c08b554051586437317fde701cf.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pito",
+          "ch": "七",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/c89966f253de74b381ca255c195e88fb.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wao",
+          "ch": "八",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/10b7e7c8f5912653df4e470698defc8b.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "siyam",
+          "ch": "九",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/4b550d8b208e2b780830929cbf1b7189.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ya",
+          "ch": "（指示詞）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/32f9e52d9f8cf2d53f96c18d0a981f8d.mp3"
+        },
+        {
+          "ab": "abo",
+          "ch": "沒有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/98256a8d23510c9174dd81bc91c2cb19.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/2c0225c5540fd0c7961218d361bba42e.mp3"
+        },
+        {
+          "ab": "ya",
+          "ch": "（指示詞）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/5428cf30ab9d922f23cf77f497dfacb8.mp3"
+        },
+        {
+          "ab": "asa",
+          "ch": "一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/d918cf51d44e727ce9b8b5bc214e7c13.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/a158b8236329de9969a87ba72d79a4f6.mp3"
+        },
+        {
+          "ab": "kagling",
+          "ch": "羊",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/90598d7aba3b8547bdf3cb2af968d05f.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我先去找一找，不知牠在什麼地方？",
+      "ab": "mangay ko pa kalahen, anjin paro na yanan?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/9783cc66550814d488dfc45f18e736e7.mp3",
+      "word": [
+        {
+          "ab": "mangay",
+          "ch": "去",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/1610b1f92ae20184b26bad89da4ad8e2.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/143ab449b5e9a6c766a63e76d56d726c.mp3"
+        },
+        {
+          "ab": "pa",
+          "ch": "先",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/bbc3df32a9f1866ad397b297e6c6835e.mp3"
+        },
+        {
+          "ab": "kalahen",
+          "ch": "找一找",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/9d9cf1874062b723a70547983dc26aaf.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "anjin",
+          "ch": "在哪裡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/20bc037e926741297b8ce624d6b4f97d.mp3"
+        },
+        {
+          "ab": "paro",
+          "ch": "不知何在",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/95e10525f343fd9caccf0b6e76822bba.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "[代]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/a432cabdf42cb196142d3a19301b657f.mp3"
+        },
+        {
+          "ab": "yanan",
+          "ch": "在",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/3d997b444d04d6dd46157ebd3ef9c47d.mp3"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我已經找到了，牠躲在岩石的後面。",
+      "ab": "ko rana nimakala, ya nimozib do teyrala no rako a mao.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/262308ada8d4a257b6719b20bea1128d.mp3",
+      "word": [
+        {
+          "ab": "ko",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/0e4a7badb5bee5d8b24ed85e7ba59a76.mp3"
+        },
+        {
+          "ab": "rana",
+          "ch": "已經",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/810518f7597275ece66e8773243f6ced.mp3"
+        },
+        {
+          "ab": "nimakala",
+          "ch": "找到了",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/6007e1463217dc406fb58394f334f57c.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ya",
+          "ch": "（指示詞）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/22f4e225a383db2d58c8c82e0158b708.mp3"
+        },
+        {
+          "ab": "nimozib",
+          "ch": "躲藏",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/dfa541f194baeea2c9d65d7d4ff85790.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/549c3a9af7c6f096f150e5ad1ad48a33.mp3"
+        },
+        {
+          "ab": "teyrala",
+          "ch": "後面",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/de0ca923a75122c32d1a23e0baa11cb4.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/ff79b9a6f0738d97e65ed33089615e7b.mp3"
+        },
+        {
+          "ab": "rako",
+          "ch": "大",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/5b68d0f1296eb12dd69aca2e1b71f8b4.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[介]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/3807199ae14419a5a92e8b0eff54c8eb.mp3"
+        },
+        {
+          "ab": "mao",
+          "ch": "岩石",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2024/12/24/2b8c4db0a77afa33ebafb774c71d7f0e.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

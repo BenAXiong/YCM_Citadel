@@ -1,0 +1,355 @@
+{
+  "title": "Lrilangay su ku manemane?",
+  "titleCh": "你要買什麼？",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "小朋友，你要買什麼？",
+      "ab": "Nunu(Uti), lrilangay su ku manemane?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/24/ebf5b555d0a80ad17ff5a762709fb5db.wav",
+      "word": [
+        {
+          "ab": "Nunu(Uti)",
+          "ch": "小朋友",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/c46dea6f9a27f5a1fdc3b639674e5e52.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lrilangay",
+          "ch": "要買",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/03/30/eca72b2b826cf0c5324834f5fcd24cee.mp3"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/92ed07b68ce459c3ce0d5057d5fe803a.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/2259dfcbddc27bfdf0a33115ee8fef8a.wav"
+        },
+        {
+          "ab": "manemane",
+          "ch": "什麼東西",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/b0f2a060267263e120976316a97b6805.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "老闆，我要買鉛筆和筆記本。",
+      "ab": "Tawki, lrilangadhaku ku cingipi si ciwmingi.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/04/15/ee7f438073214b2411944d72e09a6ed3.mp3",
+      "word": [
+        {
+          "ab": "Tawki",
+          "ch": "老闆",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/08e35f3583aa5ab4e2ab080b2e2217fb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lrilangadha",
+          "ch": "我要買",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/04/09/fefe468f42e8a2872809f6f61a381061.mp3"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/04/11/af59520ba71f1c1d3b1539e7e8ef3cc7.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/04/11/272d744e20b7f981e1ce4a68907947a9.wav"
+        },
+        {
+          "ab": "cingipi",
+          "ch": "鉛筆",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/1bc6a241683e81ad3f5de624bd08d563.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/fcbee1aec4a5cfc1842eba77225e473e.wav"
+        },
+        {
+          "ab": "ciwmingi",
+          "ch": "筆記本",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/30a634610395c0e90c2cb8cedd5dda3a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你要買多少？",
+      "ab": "Lringuthainu su langay?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/6243eadc8c1bd29be78f659fd2e4c59e.wav",
+      "word": [
+        {
+          "ab": "Lringuthainu",
+          "ch": "要多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/03/30/7704b8bfd0ee62325b47c1091f5ec969.mp3"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/55efdec14028858c1525a89000fe1aef.wav"
+        },
+        {
+          "ab": "langay",
+          "ch": "買",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/233ab3bf45ff1d8965ee58cd196fb21b.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我要一枝鉛筆和一本筆記本。",
+      "ab": "Lringuvaevaku ku cingipi si vaeva ku ciwmingi.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/20/82f63b1fcd169f2500268b49c593f9e3.wav",
+      "word": [
+        {
+          "ab": "Lringuvaevaku",
+          "ch": "我要一個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/files/2025/03/30/6033d9eddfa3f33f4fd16a5a6c462045.mp3"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/56745d05bf10f3cb865ff9e8c9e2de49.wav"
+        },
+        {
+          "ab": "cingipi",
+          "ch": "鉛筆",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/6f557ef58fe83478c190be272f12cda5.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/cdcf1403ec7d45574561d3ed75b61a0e.wav"
+        },
+        {
+          "ab": "vaeva",
+          "ch": "一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/3988f2c7ee6a1d30dc66b92c52ca1ef7.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/347d778757552013127f7430dfbe8fa0.wav"
+        },
+        {
+          "ab": "ciwmingi",
+          "ch": "筆記本\r\n",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/9817783841a401e6c03158de9101ceea.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "鉛筆一枝五元，筆記本一本九元。",
+      "ab": "Ku vaeva ku cingipi lrima ka balrulane, ku vaeva ku ciwmingi bangate ka balrulane.",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/04/24/a6a5c1304a631f4f9acd8eb2246e2a67.wav",
+      "word": [
+        {
+          "ab": "Ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/8779013cc50fe8627a7dcb8c6c1832a3.wav"
+        },
+        {
+          "ab": "vaeva",
+          "ch": "一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/10dbc45a23d34a80548150d01a0148c9.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/445e5e0a5d69463d4815b39cd7b1fe80.wav"
+        },
+        {
+          "ab": "cingipi",
+          "ch": "鉛筆",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/c4b96d96272239184737d245b9804f48.wav"
+        },
+        {
+          "ab": "lrima",
+          "ch": "五",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/cd689f5cead6684331df8b1d0c8d8780.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/7e31aceebf021f78f631a116ea7a8c6a.wav"
+        },
+        {
+          "ab": "balrulane",
+          "ch": "元",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/0f1530120f03e1edf699f2bee3853313.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/06/16/1f010ed3138c19ae0d9466d846ef785f.wav"
+        },
+        {
+          "ab": "vaeva",
+          "ch": "一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/36d1d06d329435c390e52e8cb2e2bf8d.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/f22c24d2c5aceb7e658e24496dda1a0c.wav"
+        },
+        {
+          "ab": "ciwmingi",
+          "ch": "筆記本",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/73675bbabcaf099602e07ca2b7278611.wav"
+        },
+        {
+          "ab": "bangate",
+          "ch": "九",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/7d5fcdd51a6252befad6d8676beecef6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/87db173c1d988bd37110f3150be405de.wav"
+        },
+        {
+          "ab": "balrulane",
+          "ch": "元",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/420dc6c98520f2ce429ee48473474168.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "五加九，總共十四元，不貴。",
+      "ab": "Ku lrima si padrima ku bangatenga, paelreelrenga lrikamangeale si supate ka balrulane, kaimakucingalre.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/09/b1015ce80d462cad69e12bd9f8f20e2a.wav",
+      "word": [
+        {
+          "ab": "Ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/7683b81b60cb2e295ca84af6f1072cb8.wav"
+        },
+        {
+          "ab": "lrima",
+          "ch": "五",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/f198710c38483a9241a1d982014004c5.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/0144b2696ae6eac087bbfcaa018b028d.wav"
+        },
+        {
+          "ab": "padrima",
+          "ch": "加",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/f4fb397f4d1e85736bb19f33663d083b.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/1246ef4f1006cdfb1263d9b0197702d2.wav"
+        },
+        {
+          "ab": "bangatenga",
+          "ch": "九",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/a66166039412991206eeaabd0a595760.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/30/c356f62a66f4585c664e6f1f8180a141.wav"
+        },
+        {
+          "ab": "paelreelrenga",
+          "ch": "合起來",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/97e54c74ed2eefdaf3ad89970dee11cc.wav"
+        },
+        {
+          "ab": "lrikamangeale",
+          "ch": "要十",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/8985fea82eef43c7fa0d541edcb6a864.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/151d2373696bd3f35975efc988257cd5.wav"
+        },
+        {
+          "ab": "supate",
+          "ch": "四",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/31d2ef8b3488480a61b5315731fb97d1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/dbc632ee8f2881db5e70643c963dd087.wav"
+        },
+        {
+          "ab": "balrulane",
+          "ch": "元",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/88ca89130c943d5e0fea2406e0c62098.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kaimakucingalre",
+          "ch": "不貴",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2019/05/28/5b574a337a673e69d4e6ac3d9004854d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

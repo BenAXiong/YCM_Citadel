@@ -1,0 +1,280 @@
+{
+  "title": "Pinaay ko toki hatini?",
+  "titleCh": "現在是幾點？",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "現在幾點鐘？",
+      "ab": "Pinaay ko toki hatini?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/eded37d70d967427e380c2873f991cd5.wav",
+      "word": [
+        {
+          "ab": "Pinaay",
+          "ch": "多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/a08c95c68bdb9af9fdcb8edcd2745641.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/f9a6aa81753a8700b60702f75df30075.wav"
+        },
+        {
+          "ab": "toki",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/97081462c405c9f0d379da3b000d328b.wav"
+        },
+        {
+          "ab": "hatini",
+          "ch": "現在；今天",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/d008a4f339dc54ce8355af407ca2e7a4.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在是早上八點鐘。",
+      "ab": "Falo ko toki hatini.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/05/05/174da28aa466e116ba9dcbbab8f7b25f.wav",
+      "word": [
+        {
+          "ab": "Falo",
+          "ch": "八",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/9bbbf5f3ec72285944f32e382b5826cc.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/bda1c1bb28809cc56e9abf8b584e1306.wav"
+        },
+        {
+          "ab": "toki",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/6a5daf3f83e83b56e4c3a4273fd59a7d.wav"
+        },
+        {
+          "ab": "hatini",
+          "ch": "現在；今天",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/7d0f8fde2e0b5630c3bc64baf769fcdc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你早上幾點鐘起床？",
+      "ab": "Pinaay ko toki a lomowad kiso to papacem?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/2e4b4ba0cc92bf903ded8a0a13df226a.wav",
+      "word": [
+        {
+          "ab": "Pinaay",
+          "ch": "多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/d9354a66762315043536694963aca3b5.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/0fedf49a7b442b00e51ff612267487ca.wav"
+        },
+        {
+          "ab": "toki",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/a455d396a69ffd68e17b6f708b7f2243.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/d8233cef77c65056adea064beb8edf8e.wav"
+        },
+        {
+          "ab": "lomowad",
+          "ch": "起床",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/faf3cf27024c0dccd26fb86fbb6ef116.wav"
+        },
+        {
+          "ab": "kiso",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/d55110fd71027359f45ec6f49453b405.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/1418e3725a1936d7cb8b4d5224d6b4e6.wav"
+        },
+        {
+          "ab": "papacem",
+          "ch": "早上",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/d78b4b780f79c1adfd4a41d3b123340d.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我早上六點鐘起床。",
+      "ab": "^nem ko toki a lomowad kako.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/17/f184d1bf37b58dfa998797489593c8ac.wav",
+      "word": [
+        {
+          "ab": "^nem",
+          "ch": "六",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/7c39d4deb530344e0f2f9fa8a8769d46.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/d8bf90305c259330d90f132ae28ae2c3.wav"
+        },
+        {
+          "ab": "toki",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/89c3b7b47e77495ec6005e06e6741ebf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/98e5d4a69a0c707c6fe957237e840208.wav"
+        },
+        {
+          "ab": "lomowad",
+          "ch": "起床",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/425346f12dd2cdd4a7fecd97e2930230.wav"
+        },
+        {
+          "ab": "kako",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/7dc3500c4a1a3623594dd3d536b1d3a7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "你晚上幾點鐘睡覺？",
+      "ab": "Pinaay ko toki a mafoti’ kiso to dadaya?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/23f86d115268de879b546c883881db1a.wav",
+      "word": [
+        {
+          "ab": "Pinaay",
+          "ch": "多少",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/bbeb67cd91e0091796a73223e89029b9.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/1c1fe101194039c2ac3ecf7392e3fac9.wav"
+        },
+        {
+          "ab": "toki",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/e455d62822da8d60d88f1f33531e9e2d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/aadfa626796650accac0db32c2d7003c.wav"
+        },
+        {
+          "ab": "mafoti’",
+          "ch": "睡覺",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/c5da380c9376b51ff2644e80c54f4fab.wav"
+        },
+        {
+          "ab": "kiso",
+          "ch": "你",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/f8225e0f8c6f7145e1ee133b2195c938.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/b3f71997f5c26d7de83a2d282f446753.wav"
+        },
+        {
+          "ab": "dadaya",
+          "ch": "晚上",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/0ce10c1ff6ce0ec73255541875df532c.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我晚上九點半睡覺。",
+      "ab": "Siwa ira ko kalitosa no toki a mafoti’ kako.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/17/fd1b96589f2194a23b9fae887d4ee9ea.wav",
+      "word": [
+        {
+          "ab": "Siwa",
+          "ch": "九",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/6a41e022fd39b42fc3c6dff98299cf89.wav"
+        },
+        {
+          "ab": "ira",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/80b4c7d7ff92b6506121f51163656023.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/0d978182d63a52f22e1e4fc1fded4c27.wav"
+        },
+        {
+          "ab": "kalitosa",
+          "ch": "二分之一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/79efc7127a887e459e880f05d5c7a77c.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/e5e33e6b30126f1956020580b25c5401.wav"
+        },
+        {
+          "ab": "toki",
+          "ch": "點鐘",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/1eb46818c249fb27e92cb72aafb0316f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/4c9f5b4f12bb8217e399e6bebdbe7c29.wav"
+        },
+        {
+          "ab": "mafoti’",
+          "ch": "睡覺",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/07/6737b3d30b5eb5f8a29ef8fe5058746d.wav"
+        },
+        {
+          "ab": "kako",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2020/04/19/db7a8ea084dc84091ebd927b76644bb3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "title": "situaken",
+  "titleCh": "我是學生",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "你是學生嗎？",
+      "ab": "situsun?",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/21/1e17a3a811843149495a05d0b781fec8.wav",
+      "word": [
+        {
+          "ab": "situsun",
+          "ch": "你是學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/4fecc2289c9cdf4179e135b3fd87e9fa.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "是的，我是學生。",
+      "ab": "ui, situaken.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/21/09b3abfaab5d1558c791855cc487822c.wav",
+      "word": [
+        {
+          "ab": "ui",
+          "ch": "是的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/0857b80ef9d451de1a8696cbe508b0ba.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "situaken",
+          "ch": "我是學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/cddb7d4fdc9a3c2e657f2cdc0d2fc99d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他也是學生嗎？",
+      "ab": "situ timadju uta?",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/21/d9dbd51675455c30531539cbb1a48784.wav",
+      "word": [
+        {
+          "ab": "situ",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/b48efbdd621a4d33c3b735d819eeac1e.wav"
+        },
+        {
+          "ab": "timadju",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/0878ca9867cf25995f6ac5c457da076f.wav"
+        },
+        {
+          "ab": "uta",
+          "ch": "也",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/ec13ce9b23e6bfacec7ac257afe19983.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不，他不是學生。",
+      "ab": "ini, ini ka situ timadju.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/21/d42d2b0b7e8a7e5402e4097574a51971.wav",
+      "word": [
+        {
+          "ab": "ini",
+          "ch": "不是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/4d160a73b1718231ed44ca5ef928bc68.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "不是",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/b72831a2ea09ad1346d0db48c5c97d06.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/19b3be4bc04269009611f45a62fbb1c2.wav"
+        },
+        {
+          "ab": "situ",
+          "ch": "學生",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/e81b1016aec7c6efe041f1d9fb19171c.wav"
+        },
+        {
+          "ab": "timadju",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/95f662542848b0eb322adfd068de68b4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "那麼，他是做什麼的？",
+      "ab": "saka anema timadju?",
+      "order": "5",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/21/cbc6ae1f95f3575560653db3fb17a5ad.wav",
+      "word": [
+        {
+          "ab": "saka",
+          "ch": "那麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/c71d0893dc4e708bda118a9b82b507a6.wav"
+        },
+        {
+          "ab": "anema",
+          "ch": "什麼",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/51a784e0230408eb7e7a06bb304bb551.wav"
+        },
+        {
+          "ab": "timadju",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/ccf6b0b4f201d7898c09aa0a219067f3.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他是老師。",
+      "ab": "sinsi timadju.",
+      "order": "6",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/21/7c3629700b19a710f5a29b7fedff7569.wav",
+      "word": [
+        {
+          "ab": "sinsi",
+          "ch": "老師",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/35911729255185b6dd99309905a3fbe1.wav"
+        },
+        {
+          "ab": "timadju",
+          "ch": "他",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/04/19/38c5da362d6b72c46143cbfb9de3f0c5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}

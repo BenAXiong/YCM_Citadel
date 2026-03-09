@@ -1,0 +1,174 @@
+{
+  "title": "Huling mu",
+  "titleCh": "我的狗",
+  "soundPath": null,
+  "sentence": [
+    {
+      "chinese": "我有一隻狗。",
+      "ab": "Niqan ku kingal huling ka yaku.",
+      "order": "1",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2021/04/11/c7c3a7eb88709486014fa06acb7f63dc.wav",
+      "word": [
+        {
+          "ab": "Niqan",
+          "ch": "有",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/8549b524ed664f60df99e6450111b699.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/3ec60c23e96abc592c66fb8db8bd543e.wav"
+        },
+        {
+          "ab": "kingal",
+          "ch": "一",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/7ccdafc8adaa874d104f1db240915e05.wav"
+        },
+        {
+          "ab": "huling",
+          "ch": "狗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/f2485d8b9c2356cb38a3a4950c8ec76f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/a6f97a7bb3d3dc75ceed3d11c0f33f07.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我（代名詞）",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/60d6fe342c6265f8ddc6a45275f5126c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我的狗是黑色的。",
+      "ab": "Qalux rako na ka huling mu.",
+      "order": "2",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2021/05/04/dd3d2e8aa2fc9c8ac78658576973bd05.wav",
+      "word": [
+        {
+          "ab": "Qalux ",
+          "ch": "黑色",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/25e35a355758de54aa0fd9ad992af216.wav"
+        },
+        {
+          "ab": "rako",
+          "ch": "顏色",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/ae6eefea11fb4f2a32eab8edf427be48.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/a2908774bc4144576edaa8f4674448cb.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2021/04/11/723b7acf762e9b1d0268ba76b75c6fa9.wav"
+        },
+        {
+          "ab": "huling",
+          "ch": "狗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/bdb47893cc6ab7e238c1692e99053e93.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "我的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/4cc16752723f3583357c53f24a5ebb9f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我喜歡牠。",
+      "ab": "Kuxul mu ka huling kiya.",
+      "order": "3",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2021/05/04/d45eb2c287d912c8bae4255ae16aa3dc.wav",
+      "word": [
+        {
+          "ab": "Kuxul",
+          "ch": "喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2021/05/04/95221a62498e68f2c54857238cdc4d53.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "我的",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/740d4e6fcb6e3d8208feb203da00dae1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/30a4c93dd0b18d71ae4b9a367fe795e2.wav"
+        },
+        {
+          "ab": "huling",
+          "ch": "狗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/c2304b611646b838bff84d9f2d7220da.wav"
+        },
+        {
+          "ab": "kiya",
+          "ch": "那個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/83cbb9a9d9cf6ab97d29b9f4611a07f7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "那隻狗也喜歡我。",
+      "ab": "Smkila yaku ka huling kiya duri.",
+      "order": "4",
+      "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2021/04/11/22f90720acfe3a5a1308b64283a33525.wav",
+      "word": [
+        {
+          "ab": "Smkila",
+          "ch": "喜歡",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2021/04/11/e9b4d2a5146437f6d1fae076409e29de.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/087ef289a79e77067b5ad2912c0fed6c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/b0b1561bff77ee258f3a2f41ecd19c89.wav"
+        },
+        {
+          "ab": "huling",
+          "ch": "狗",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/3a50209b311adeffae08943f1c7be00e.wav"
+        },
+        {
+          "ab": "kiya",
+          "ch": "那個",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/9d59cc596ace3624def9354f62863f9b.wav"
+        },
+        {
+          "ab": "duri",
+          "ch": "也",
+          "sound": "https://d2y1wf6g5bpaph.cloudfront.net/sound/2018/03/20/2fd6f5fcaf6f474a0a7af67dd7aaa30b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
+}
