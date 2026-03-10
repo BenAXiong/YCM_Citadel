@@ -7,7 +7,7 @@ from typing import Dict, List, Any, Set
 from bs4 import BeautifulSoup
 
 from core.network import http_get, repair_mojibake
-from core.processors import create_sentence_record, append_to_jsonl
+from core.processors import create_sentence_record, append_to_jsonl, sanitize_dialect_name
 
 GRMPTS_LID_JSON = "https://web.klokah.tw/grmpts/json/{lid}.json"
 READ_EMBED = "https://web.klokah.tw/text/read_embed.php"
@@ -123,7 +123,7 @@ def scrape_grmpts(lids: List[int], data_dir: str):
                             audio_url=audio_url,
                             source="grmpts",
                             lang_id=lid,
-                            dialect=lang_name,
+                            dialect=sanitize_dialect_name(lang_name),
                             category=category,
                             level=level_int
                         )

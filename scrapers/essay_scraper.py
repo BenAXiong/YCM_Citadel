@@ -2,7 +2,7 @@ import os, re, json, time, argparse
 from typing import Dict, List, Any, Set, Optional
 
 from core.network import http_get_json, repair_mojibake
-from core.processors import create_sentence_record, append_to_jsonl
+from core.processors import create_sentence_record, append_to_jsonl, sanitize_dialect_name
 
 BASE_JSON_URL = "https://web.klokah.tw/essay/json/"
 LESSON_URL = "https://web.klokah.tw/essay/php/getEssay.php"
@@ -133,7 +133,7 @@ def scrape_essays(codes_str: str, data_dir: str):
                         audio_url=audio_url,
                         source="essay",
                         lang_id=0, # We will tag this properly later by mapping codes to IDs
-                        dialect=dialect_name,
+                        dialect=sanitize_dialect_name(dialect_name),
                         category=tid,
                         level=0
                     )

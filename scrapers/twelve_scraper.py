@@ -5,7 +5,7 @@ import argparse
 from typing import Dict, List, Any
 
 from core.network import http_get_json, repair_mojibake
-from core.processors import create_sentence_record, append_to_jsonl
+from core.processors import create_sentence_record, append_to_jsonl, sanitize_dialect_name
 from core.constants import TWELVE_DIALECTS
 
 # Endpoint pattern: ?d=dialect&l=level&c=class
@@ -68,7 +68,7 @@ def scrape_twelve(data_dir: str, dialects: List[int] = None):
                             audio_url=audio_url,
                             source="twelve",
                             lang_id=d_id,
-                            dialect=dialect_name,
+                            dialect=sanitize_dialect_name(dialect_name),
                             category=f"Level {level} Lesson {class_num}",
                             level=level,
                             words=item.get("word") if isinstance(item.get("word"), list) else None

@@ -7,7 +7,9 @@ from collections import defaultdict
 
 # Fix imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from core.network import repair_mojibake
+from core.processors import sanitize_dialect_name
 
 def normalize_text(text: str) -> str:
     if not text: return ""
@@ -24,7 +26,7 @@ def distill_to_sql(base_dir: str):
     
     jsonl_path = os.path.join(root_dir, "data", "distilled", "sentences.jsonl")
     glid_map_path = os.path.join(root_dir, "core", "glid_map.json")
-    db_path = os.path.join(root_dir, "export", "games_master.db")
+    db_path = os.path.join(root_dir, "export", "ycm_master.db")
     
     os.makedirs(os.path.dirname(db_path), exist_ok=True)
     
@@ -96,7 +98,7 @@ def distill_to_sql(base_dir: str):
             line_count += 1
             try:
                 r = json.loads(line)
-                raw_dia = r["metadata"].get("dialect", "UNKNOWN")
+                raw_dia = sanitize_dialect_name(r["metadata"].get("dialect", "UNKNOWN"))
                 glid = variant_to_glid.get(raw_dia, "UNKNOWN")
                 
                 ab = repair_mojibake(r["text"]["ab"])
@@ -135,7 +137,23 @@ def distill_to_sql(base_dir: str):
                 continue
 
     conn.commit()
+
+    print("  Building Indices...")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_occurrences_source ON occurrences(source);")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_occurrences_sentence_id ON occurrences(sentence_id);")
+    conn.commit()
     conn.close()
+    
+    # Auto-Deploy to Portal
+    portal_db = os.path.join(os.path.dirname(os.path.dirname(__file__)), "portal", "ycm_master.db")
+    if os.path.exists(os.path.dirname(portal_db)):
+        try:
+            import shutil
+            shutil.copyfile(db_path, portal_db)
+            print(f"  [Auto-Deploy] Copied to {portal_db}")
+        except PermissionError:
+            print(f"  [⚠️ Auto-Deploy Failed] The portal DB is locked. Stop the Next.js dev server, copy {db_path} to {portal_db} manually, and restart it.")
+            
     print("-" * 30)
     print("--- DISTILLATION COMPLETE ---")
     print(f"Total Gross Records:  {line_count:,}")

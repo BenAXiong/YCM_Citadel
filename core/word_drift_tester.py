@@ -63,5 +63,5 @@ def test_word_drift(db_path):
     conn.close()
 
 if __name__ == "__main__":
-    db = "export/games_master.db"
+    db = "export/ycm_master.db"
     test_word_drift(db)

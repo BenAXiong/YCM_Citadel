@@ -119,7 +119,7 @@ def summarize(anchored, filtered_matrix):
 
 if __name__ == "__main__":
     matrix_path = "export/phonetic_drift_matrix.json"
-    db_path = "export/games_master.db"
+    db_path = "export/ycm_master.db"
     
     print("Step 1: Filtering cross-family noise...")
     filtered = filter_noise(matrix_path)

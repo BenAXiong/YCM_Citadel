@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node -e \"const fs=require('fs'); if(fs.existsSync('../export/games_master.db')) fs.copyFileSync('../export/games_master.db', './games_master.db')\" && next dev",
-    "build": "curl -L -o ./games_master.db https://github.com/BenAXiong/YCM_Citadel/raw/main/export/games_master.db && next build",
+    "dev": "node -e \"const fs=require('fs'); if(fs.existsSync('../export/ycm_master.db')) fs.copyFileSync('../export/ycm_master.db', './ycm_master.db')\" && next dev",
+    "build": "curl -L -o ./ycm_master.db https://github.com/BenAXiong/YCM_Citadel/raw/main/export/ycm_master.db && next build",
     "start": "next start",
     "lint": "eslint"
   },

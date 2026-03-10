@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from typing import Dict, List, Any
 
 from core.network import http_get_text, repair_mojibake
-from core.processors import create_sentence_record, append_to_jsonl
+from core.processors import create_sentence_record, append_to_jsonl, sanitize_dialect_name
 from core.constants import TWELVE_DIALECTS
 
 # Endpoint
@@ -70,7 +70,7 @@ def scrape_nine_year(data_dir: str, dialects: List[int] = None):
                             uuid=f"nine_{d_id}_{l}_{c}_{order}",
                             ab=ab, zh=zh, audio_id=f"nine_{d_id}_{l}_{c}_{order}",
                             audio_url=audio_url, source="nine_year",
-                            lang_id=d_id, dialect=dialect_name,
+                            lang_id=d_id, dialect=sanitize_dialect_name(dialect_name),
                             level=l, category=f"Level {l} Class {c}",
                             words=words if words else None
                         ))

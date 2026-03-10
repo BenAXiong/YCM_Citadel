@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { Search, Loader2, Hexagon, Filter, CheckSquare, Square, Layers, ChevronDown, ChevronRight, Palette, Volume2, Copy, Check, Table2, Presentation, ChevronLeft, LayoutGrid, Type, AlignLeft, Languages, MoreVertical } from "lucide-react";
 import { GLID_FAMILIES, GLID_NAMES, ALL_DIALECTS, GLID_NAMES_EN, getDialectName } from "@/lib/dialects";
+import { VS1_SOURCES, VS2_SOURCES, VS3_SOURCES, RAWDB_SOURCES } from "@/lib/sources";
 import { Settings, Save, Bookmark, Trash2 } from "lucide-react";
 
 const THEMES = ["matrix", "sober", "ycm", "cidal", "rainbow"] as const;
@@ -73,7 +74,8 @@ export default function GlobalExplorer() {
   const [query, setQuery] = useState("");
   const [isSearching, setIsSearching] = useState(false);
   const [results, setResults] = useState<any[]>([]);
-  const [modules, setModules] = useState("ALL");
+  const [modules, setModules] = useState<string[]>(["ALL"]);
+  const [showSources, setShowSources] = useState(false);
   const [level, setLevel] = useState(1);
   const [lesson, setLesson] = useState(1);
   const [standardize, setStandardize] = useState(false);
@@ -85,6 +87,10 @@ export default function GlobalExplorer() {
   const [rawDbKeyword, setRawDbKeyword] = useState("");
   const [rawDbSource, setRawDbSource] = useState("ALL");
   const [isRawDbLoading, setIsRawDbLoading] = useState(false);
+  const [rawDbHistory, setRawDbHistory] = useState<string[]>([]);
+  const [showRawDbHistory, setShowRawDbHistory] = useState(false);
+  const vs3SourceRef = useRef<HTMLDivElement>(null);
+  const rawDbSearchRef = useRef<HTMLDivElement>(null);
 
   const [selectedDialects, setSelectedDialects] = useState<Set<string>>(new Set());
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
@@ -99,13 +105,28 @@ export default function GlobalExplorer() {
   const [sidebarWidth, setSidebarWidth] = useState(240);
   const [filterFontSize, setFilterFontSize] = useState(11);
   const [showOptions, setShowOptions] = useState(false);
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const settingsTimeout = useRef<any>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [savedFilters, setSavedFilters] = useState<{ name: string, dialects: string[] }[]>([]);
   const [essayId, setEssayId] = useState("32020");
+  const [dbInfo, setDbInfo] = useState<any>(null);
+
+  const getSourceLabel = (src: string) => {
+    const map: Record<string, string> = {
+      'nine_year': 'NINE',
+      'twelve': 'TWELVE',
+      'grmpts': 'GRAMMAR',
+      'essay': 'ESSAYS',
+      'dialogue': 'DIALOGUE',
+      'ILRDF': 'DICT'
+    };
+    return map[src] || src.toUpperCase();
+  };
 
   const standardDialects = useMemo(() => {
-    return Object.values(GLID_FAMILIES).flatMap(f => f.slice(0, 16));
+    return Object.values(GLID_FAMILIES).map(f => f[0]).filter(Boolean);
   }, []);
 
   const sortedAllDialects = useMemo(() => {
@@ -135,14 +156,22 @@ export default function GlobalExplorer() {
       const savedHistory = localStorage.getItem("yc_search_history");
       if (savedHistory) setSearchHistory(JSON.parse(savedHistory));
 
+      const savedRawDbHistory = localStorage.getItem("yc_rawdb_history");
+      if (savedRawDbHistory) setRawDbHistory(JSON.parse(savedRawDbHistory));
+
       const savedSidebarWidth = localStorage.getItem("yc_sidebar_width");
       if (savedSidebarWidth) setSidebarWidth(Number(savedSidebarWidth));
 
       const savedFilterFontSize = localStorage.getItem("yc_filter_font_size");
       if (savedFilterFontSize) setFilterFontSize(Number(savedFilterFontSize));
 
+      const savedModules = localStorage.getItem("yc_modules");
+      if (savedModules) setModules(JSON.parse(savedModules));
+
       const savedPresets = localStorage.getItem("yc_saved_filters");
       if (savedPresets) setSavedFilters(JSON.parse(savedPresets));
+      
+      fetch('/api/status').then(res => res.json()).then(setDbInfo).catch(console.error);
     } catch (e) { }
   }, []);
 
@@ -172,7 +201,7 @@ export default function GlobalExplorer() {
     try {
       let url = "";
       if (mode === "VS-1") {
-        url = `/api/search?mode=VS-1&q=${encodeURIComponent(query)}&module=${modules}`;
+        url = `/api/search?mode=VS-1&q=${encodeURIComponent(query)}&module=${modules.join(',')}`;
       } else if (mode === "VS-2") {
         url = `/api/search?mode=VS-2&level=${level}&lesson=${lesson}`;
       } else {
@@ -216,17 +245,61 @@ export default function GlobalExplorer() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [mode, vs2View, slideIndex, results]);
 
-  const handleFetchRawDb = async () => {
+  const handleFetchRawDb = async (overrideSource?: string, overrideKeyword?: string) => {
     setIsRawDbLoading(true);
+    const src = overrideSource ?? rawDbSource;
+    const kw = overrideKeyword ?? rawDbKeyword;
     try {
-      const res = await fetch(`/api/raw_db?keyword=${rawDbKeyword}&source=${rawDbSource}`);
+      const res = await fetch(`/api/raw_db?keyword=${encodeURIComponent(kw)}&source=${src}`);
       const data = await res.json();
       setRawDbData(data.rows || []);
+      // Add to raw db history if keyword non-empty
+      if (kw.trim().length > 0) {
+        setRawDbHistory(prev => {
+          const next = [kw, ...prev.filter(h => h !== kw)].slice(0, 10);
+          localStorage.setItem('yc_rawdb_history', JSON.stringify(next));
+          return next;
+        });
+      }
     } catch (e) {
       console.error(e);
     }
     setIsRawDbLoading(false);
   };
+
+  useEffect(() => {
+    if (!isToolsOpen || toolsTab !== "raw_db") return;
+    const timer = setTimeout(() => {
+      handleFetchRawDb();
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [rawDbKeyword, rawDbSource, toolsTab, isToolsOpen]);
+
+  // Click-outside for VS-3 source dropdown — use 'click' not 'mousedown'
+  // so the button's own onClick fires first and sets showSources=true before this can close it.
+  useEffect(() => {
+    if (!showSources || mode !== 'VS-3') return;
+    const handler = (e: MouseEvent) => {
+      if (vs3SourceRef.current && !vs3SourceRef.current.contains(e.target as Node)) {
+        setShowSources(false);
+      }
+    };
+    // Defer listener attachment to next tick to avoid catching the opening click
+    const id = setTimeout(() => document.addEventListener('click', handler), 0);
+    return () => { clearTimeout(id); document.removeEventListener('click', handler); };
+  }, [showSources, mode]);
+
+  // Click-outside for raw_db history dropdown
+  useEffect(() => {
+    if (!showRawDbHistory) return;
+    const handler = (e: MouseEvent) => {
+      if (rawDbSearchRef.current && !rawDbSearchRef.current.contains(e.target as Node)) {
+        setShowRawDbHistory(false);
+      }
+    };
+    const id = setTimeout(() => document.addEventListener('click', handler), 0);
+    return () => { clearTimeout(id); document.removeEventListener('click', handler); };
+  }, [showRawDbHistory]);
 
   const handleHistorySelect = (q: string) => {
     setQuery(q);
@@ -384,7 +457,7 @@ export default function GlobalExplorer() {
         {!isSidebarCollapsed && (
           <>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[var(--bg-panel)] pointer-events-none mix-blend-overlay"></div>
-            <div className="p-4 border-b border-[var(--border-dark)] flex flex-col space-y-4 relative z-10">
+            <div className="p-4 border-b border-[var(--border-dark)] flex flex-col space-y-4 relative z-[50]" style={{ overflow: 'visible' }}>
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2 text-[var(--accent)] cursor-pointer hover:opacity-80 transition-opacity" onClick={() => setMode("VS-1")}>
                   <Hexagon className="w-5 h-5 fill-current" />
@@ -396,7 +469,7 @@ export default function GlobalExplorer() {
                 </div>
               </div>
 
-              <div className="p-3 border-b border-[var(--border-dark)] flex space-x-2 font-mono relative items-center" style={{ overflow: 'visible' }}>
+              <div className="p-3 border-b border-[var(--border-dark)] flex space-x-2 font-mono relative items-center z-[120]" style={{ overflow: 'visible' }}>
                 <button onClick={() => setSelectedDialects(new Set(sortedAllDialects))} className="flex-1 text-[10px] py-1.5 border border-[var(--border-light)] rounded hover:bg-[var(--bg-highlight)] transition text-[var(--text-main)] uppercase font-bold">{s.all}</button>
                 <button onClick={() => setSelectedDialects(new Set())} className="flex-1 text-[10px] py-1.5 border border-[var(--border-light)] rounded hover:bg-[var(--bg-highlight)] transition text-[var(--text-main)] uppercase font-bold">{s.none}</button>
 
@@ -409,10 +482,12 @@ export default function GlobalExplorer() {
                     <Bookmark className="w-4 h-4" />
                   </button>
                   {showOptions && (
-                    <div className="fixed top-44 left-2 mt-1 p-3 bg-[var(--bg-panel)] border border-[var(--border-dark)] border-t-2 border-t-[var(--accent)] rounded font-sans shadow-[0_8px_50px_rgba(0,0,0,0.7)] z-[999] w-64 space-y-3 opacity-100">
+                    <div 
+                      className="absolute top-full left-0 mt-2 p-3 bg-[var(--bg-panel)] border border-[var(--border-dark)] border-t-2 border-t-[var(--accent)] rounded font-sans shadow-[0_30px_90px_rgba(0,0,0,1)] z-[9999] w-64 space-y-3 opacity-100 backdrop-blur-xl animate-in fade-in zoom-in-95 duration-200"
+                    >
                       <div className="text-[10px] text-[var(--text-sub)] uppercase font-mono tracking-widest border-b border-[var(--border-dark)] pb-1 mb-2 flex justify-between items-center text-left">
-                        <span>{s.presets}</span>
-                        <button onClick={() => setShowOptions(false)} className="hover:text-red-400 transition">×</button>
+                        <span className="font-black text-[var(--accent)]">{s.presets}</span>
+                        <button onClick={() => setShowOptions(false)} className="hover:text-red-400 transition text-lg leading-none">×</button>
                       </div>
                       <div className="space-y-1 max-h-64 overflow-y-auto custom-scrollbar pr-1">
                         <button
@@ -474,7 +549,7 @@ export default function GlobalExplorer() {
               </div>
             </div>
 
-            <div className="overflow-y-auto flex-1 p-2 relative z-10 custom-scrollbar-left" dir="rtl">
+            <div className="overflow-y-auto flex-1 p-2 relative z-0 custom-scrollbar-left" dir="rtl">
               <div className="space-y-3 pr-2 w-full" dir="ltr">
                 {Object.entries(GLID_FAMILIES).sort((a, b) => Number(a[0]) - Number(b[0])).map(([glid, dialects]) => {
                   const isExpanded = expandedGroups[glid];
@@ -587,21 +662,45 @@ export default function GlobalExplorer() {
               <LayoutGrid className="w-5 h-5" />
             </button>
             <div className="w-[1px] h-4 bg-[var(--border-dark)] mx-1" />
-            <div className="relative">
+            <div 
+              className="relative"
+              onMouseEnter={() => { if(settingsTimeout.current) clearTimeout(settingsTimeout.current); setIsSettingsOpen(true); }}
+              onMouseLeave={() => { settingsTimeout.current = setTimeout(() => setIsSettingsOpen(false), 300); }}
+            >
               <button
-                onClick={() => setShowHistory(!showHistory)}
-                className="p-2 hover:bg-[var(--bg-highlight)] rounded-full transition text-[var(--text-sub)] hover:text-[var(--text-main)]"
+                onClick={() => setIsSettingsOpen(!isSettingsOpen)}
+                className={`p-2 rounded-full transition ${isSettingsOpen ? 'bg-[var(--accent)] text-black shadow-lg translate-y-[-1px]' : 'hover:bg-[var(--bg-highlight)] text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
                 title="Interface Settings"
               >
-                <Settings className="w-5 h-5" />
+                <Settings className={`w-5 h-5 ${isSettingsOpen ? 'animate-spin-slow' : ''}`} />
               </button>
-              {showHistory && (
-                <div className="absolute top-full right-0 mt-2 p-3 bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded shadow-[0_0_50px_rgba(0,0,0,0.5)] z-[130] w-48 space-y-3 opacity-100 backdrop-blur-md border-t-2 border-t-[var(--accent)]">
-                  <div className="text-[10px] text-[var(--text-sub)] uppercase font-mono px-1 tracking-widest border-b border-[var(--border-dark)] pb-1 mb-2">Global Font</div>
-                  <div className="flex items-center justify-between font-mono bg-[var(--bg-sub)] rounded p-2">
-                    <button onClick={() => { setFilterFontSize(f => Math.max(8, f - 1)); localStorage.setItem("yc_filter_font_size", (filterFontSize - 1).toString()); }} className="px-3 hover:text-[var(--accent)] transition">-</button>
-                    <span className="text-sm font-bold">{filterFontSize}px</span>
-                    <button onClick={() => { setFilterFontSize(f => Math.min(18, f + 1)); localStorage.setItem("yc_filter_font_size", (filterFontSize + 1).toString()); }} className="px-3 hover:text-[var(--accent)] transition">+</button>
+              {isSettingsOpen && (
+                <div className="absolute top-full right-0 mt-3 p-5 bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-2xl shadow-[0_25px_80px_rgba(0,0,0,0.9)] z-[200] w-64 space-y-5 opacity-100 backdrop-blur-2xl border-t-2 border-t-[var(--accent)] animate-in fade-in zoom-in-95 slide-in-from-top-2 duration-300">
+                  <div className="flex items-center justify-between border-b border-[var(--border-dark)] pb-3 mb-2">
+                    <div className="text-[10px] text-[var(--accent)] uppercase font-mono tracking-[0.3em] font-black">System Preferences</div>
+                    <div className="w-2 h-2 rounded-full bg-[var(--accent)] animate-pulse" />
+                  </div>
+                  
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-between text-[9px] text-[var(--text-sub)] uppercase font-mono opacity-50 tracking-widest">
+                      <span>Typography</span>
+                      <span>{filterFontSize}px</span>
+                    </div>
+                    <div className="flex items-center justify-between font-mono bg-[var(--bg-sub)] rounded-xl p-1 border border-[var(--border-dark)] shadow-inner">
+                      <button onClick={() => { setFilterFontSize(f => Math.max(8, f - 1)); localStorage.setItem("yc_filter_font_size", (filterFontSize - 1).toString()); }} className="w-10 h-10 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black rounded-lg transition active:scale-90 font-black">-</button>
+                      <div className="h-4 w-[1px] bg-[var(--border-dark)]" />
+                      <button onClick={() => { setFilterFontSize(f => Math.min(18, f + 1)); localStorage.setItem("yc_filter_font_size", (filterFontSize + 1).toString()); }} className="w-10 h-10 flex items-center justify-center hover:bg-[var(--accent)] hover:text-black rounded-lg transition active:scale-90 font-black">+</button>
+                    </div>
+                  </div>
+
+                  <div className="pt-4 border-t border-[var(--border-dark)]">
+                    <button 
+                      onClick={() => { if(confirm("Purge all local settings?")) { localStorage.clear(); window.location.reload(); } }}
+                      className="w-full py-2.5 text-[9px] font-mono uppercase bg-red-500/10 text-red-400 border border-red-500/20 rounded-lg hover:bg-red-500 hover:text-white transition-all transform active:scale-95 flex items-center justify-center space-x-2 font-bold"
+                    >
+                      <Trash2 className="w-3 h-3" />
+                      <span>Factory Reset</span>
+                    </button>
                   </div>
                 </div>
               )}
@@ -652,37 +751,145 @@ export default function GlobalExplorer() {
                 </div>
               </div>
             ) : mode === "VS-3" ? (
-              <div className="flex items-center overflow-x-auto gap-1 scrollbar-none flex-nowrap">
-                {["32020", "32021", "32022", "32023", "32024", "32025", "32026", "32027", "32028", "32029", "32030", "32031", "32032", "32033", "32034", "32035", "32036", "32038", "32039", "32040", "32041", "32042", "32043"].map(id => (
-                  <button
-                    key={id}
-                    onClick={() => setEssayId(id)}
-                    className={`px-3 py-1 rounded font-mono text-[10px] font-bold whitespace-nowrap transition-all ${essayId === id
-                      ? 'bg-[var(--accent)] text-black shadow-sm'
-                      : 'border border-[var(--border-dark)] text-[var(--text-sub)] hover:text-[var(--text-main)] hover:border-[var(--accent)]'
-                      }`}
+              <div className="flex items-center gap-4 w-full min-w-0">
+                {/* SOURCE SELECTOR (FIXED LEFT) */}
+                <div ref={vs3SourceRef} className="flex-shrink-0 relative">
+                   <button
+                    onClick={() => setShowSources(!showSources)}
+                    className={`flex items-center space-x-2 px-3 py-1.5 rounded-full border font-mono text-[10px] uppercase tracking-widest transition-all duration-300 w-32 justify-center bg-[var(--accent)] text-black border-black shadow-[0_0_10px_rgba(var(--accent-rgb),0.4)] hover:shadow-[0_0_20px_rgba(var(--accent-rgb),0.7)] ${showSources ? 'scale-95' : ''}`}
                   >
-                    主題 {parseInt(id) - 32019}
+                    <Layers className="w-3.5 h-3.5 shrink-0" />
+                    <span className="font-black truncate">{modules.includes("ALL") ? "ALL" : modules[0].toUpperCase()}</span>
                   </button>
-                ))}
+
+                  {showSources && (
+                    <div className="absolute top-full left-0 mt-2 p-2 bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-xl shadow-[0_10px_40px_rgba(0,0,0,0.8)] z-[200] min-w-[200px] flex flex-col space-y-1 animate-in fade-in zoom-in-95 duration-200 backdrop-blur-md">
+                      {VS3_SOURCES.map((m) => {
+                        const isActive = modules.includes(m.value);
+                        return (
+                          <button
+                            key={m.value}
+                            onClick={() => {
+                              setModules([m.value]);
+                              localStorage.setItem("yc_modules", JSON.stringify([m.value]));
+                              setShowSources(false);
+                            }}
+                            className={`flex items-center justify-between px-3 py-2 rounded-lg font-mono text-[10px] font-bold transition-all ${isActive ? 'bg-[var(--accent)] text-black' : 'text-[var(--text-sub)] hover:bg-[var(--bg-highlight)] hover:text-[var(--text-main)]'}`}
+                          >
+                            <span>{m.label}</span>
+                            {isActive && <Check className="w-3 h-3" />}
+                          </button>
+                        )
+                      })}
+                    </div>
+                  )}
+                </div>
+
+                {/* SUBJECT TOGGLES */}
+                <div className="flex items-center overflow-x-auto gap-1 scrollbar-none flex-nowrap flex-1">
+                  {["32020", "32021", "32022", "32023", "32024", "32025", "32026", "32027", "32028", "32029", "32030", "32031", "32032", "32033", "32034", "32035", "32036", "32038", "32039", "32040", "32041", "32042", "32043"].map(id => (
+                    <button
+                      key={id}
+                      onClick={() => setEssayId(id)}
+                      className={`px-3 py-1 rounded font-mono text-[10px] font-bold whitespace-nowrap transition-all ${essayId === id
+                        ? 'bg-[var(--accent)] text-black shadow-sm'
+                        : 'border border-[var(--border-dark)] text-[var(--text-sub)] hover:text-[var(--text-main)] hover:border-[var(--accent)]'
+                        }`}
+                    >
+                      主題 {parseInt(id) - 32019}
+                    </button>
+                  ))}
+                </div>
               </div>
             ) : null}
-            <div className="flex items-center space-x-2">
-              <select
-                value={modules}
-                onChange={(e) => setModules(e.target.value)}
-                className="bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded px-2 py-1 text-[9px] font-mono text-[var(--accent)] uppercase tracking-tighter outline-none hover:border-[var(--accent)] transition cursor-pointer"
-                title="Search Source Module"
-              >
-                <option value="ALL">SOURCE: ALL</option>
-                <option value="essay">SOURCE: ESSAY</option>
-                <option value="grmpts">SOURCE: GRMPTS</option>
-                <option value="dialogue">SOURCE: DIALOGUE</option>
-                <option value="twelve">SOURCE: 12_KW</option>
-                <option value="nine_year">SOURCE: 9_YR</option>
-                <option value="ILRDF">SOURCE: ILRDF</option>
-              </select>
-              {isSearching && <Loader2 className="w-4 h-4 animate-spin text-[var(--accent)]" />}
+            <div className="flex items-center space-x-2 relative">
+              {mode === "VS-1" ? (
+                <div className="flex items-center space-x-2">
+                  <button
+                    onClick={() => setShowSources(!showSources)}
+                    className={`flex items-center space-x-2 px-3 py-1.5 rounded-full border font-mono text-[10px] uppercase tracking-widest transition-all duration-300 w-32 justify-center ${showSources ? 'bg-[var(--accent)] text-black border-black shadow-[0_0_15px_rgba(var(--accent-rgb),0.5)]' : 'bg-[var(--bg-panel)] text-[var(--text-sub)] border-[var(--border-dark)] hover:border-[var(--accent)]'}`}
+                  >
+                    <Layers className="w-3.5 h-3.5 shrink-0" />
+                    <span className="font-black truncate">{modules.includes("ALL") ? "ALL_SOURCES" : `${modules.length}_ACTIVE`}</span>
+                  </button>
+
+                  {showSources && (
+                    <div className="flex items-center space-x-1 animate-in slide-in-from-left-2 duration-300">
+                      <div className="w-[2px] h-4 bg-[var(--border-dark)] mx-1" />
+                      {VS1_SOURCES.map((m) => {
+                        const isActive = modules.includes(m.value);
+                        return (
+                          <button
+                            key={m.value}
+                            onClick={() => {
+                              let next: string[];
+                              if (m.value === "ALL") {
+                                next = ["ALL"];
+                              } else {
+                                const withoutAll = modules.filter(x => x !== "ALL");
+                                if (isActive) {
+                                  next = withoutAll.filter(x => x !== m.value);
+                                  if (next.length === 0) next = ["ALL"];
+                                } else {
+                                  next = [...withoutAll, m.value];
+                                }
+                              }
+                              setModules(next);
+                              localStorage.setItem("yc_modules", JSON.stringify(next));
+                            }}
+                            className={`px-3 py-1 rounded-full font-mono text-[9px] font-black tracking-tighter border transition-all duration-300 ${isActive ? 'bg-[var(--accent)] text-black border-transparent shadow-lg' : 'bg-transparent text-[var(--text-sub)] border-[var(--border-dark)] hover:border-[var(--text-main)]'}`}
+                          >
+                            {m.label}
+                          </button>
+                        )
+                      })}
+                    </div>
+                  )}
+                </div>
+              ) : mode === "VS-2" ? (
+                <button
+                  onClick={() => setShowSources(!showSources)}
+                  className={`flex items-center space-x-2 px-3 py-1.5 rounded-full border font-mono text-[10px] uppercase tracking-widest transition-all duration-300 w-32 justify-center ${showSources ? 'bg-[var(--accent)] text-black border-black shadow-[0_0_15px_rgba(var(--accent-rgb),0.5)]' : 'bg-[var(--bg-panel)] text-[var(--text-sub)] border-[var(--border-dark)] hover:border-[var(--accent)]'}`}
+                >
+                  <Layers className="w-3.5 h-3.5 shrink-0" />
+                  <span className="font-black truncate">{modules.includes("ALL") ? "ALL_SOURCES" : `${modules.length}_ACTIVE`}</span>
+                </button>
+              ) : null}
+
+              {showSources && mode === "VS-2" && (
+                <div className="absolute top-full right-0 mt-2 p-2 bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-xl shadow-[0_10px_40px_rgba(0,0,0,0.8)] z-[200] min-w-[200px] flex flex-col space-y-1 animate-in fade-in zoom-in-95 duration-200 backdrop-blur-md">
+                  {VS2_SOURCES.map((m) => {
+                    const isActive = modules.includes(m.value);
+                    return (
+                      <button
+                        key={m.value}
+                        onClick={() => {
+                          let next: string[];
+                          if (m.value === "ALL") {
+                            next = ["ALL"];
+                          } else {
+                            const withoutAll = modules.filter(x => x !== "ALL");
+                            if (isActive) {
+                              next = withoutAll.filter(x => x !== m.value);
+                              if (next.length === 0) next = ["ALL"];
+                            } else {
+                              next = [...withoutAll, m.value];
+                            }
+                          }
+                          setModules(next);
+                          localStorage.setItem("yc_modules", JSON.stringify(next));
+                          setShowSources(false);
+                        }}
+                        className={`flex items-center justify-between px-3 py-2 rounded-lg font-mono text-[10px] font-bold transition-all ${isActive ? 'bg-[var(--accent)] text-black' : 'text-[var(--text-sub)] hover:bg-[var(--bg-highlight)] hover:text-[var(--text-main)]'}`}
+                      >
+                        <span>{m.label}</span>
+                        {isActive && <Check className="w-3 h-3" />}
+                      </button>
+                    )
+                  })}
+                </div>
+              )}
+              {isSearching && <Loader2 className="w-4 h-4 animate-spin text-[var(--accent)] ml-2" />}
             </div>
           </div>
 
@@ -803,59 +1010,123 @@ export default function GlobalExplorer() {
                     </div>
                   )}
                   {toolsTab === "raw_db" && (
-                    <div className="space-y-6 flex flex-col h-full">
-                      <h2 className="text-2xl font-mono text-[var(--accent)]">RAW_DB_VIEWER</h2>
-                      <p className="text-[var(--text-sub)]">Execute low-level SELECT inquiries against master tables.</p>
+                    <div className="space-y-4 flex flex-col h-full">
+                      <div className="flex items-center justify-between">
+                        <h2 className="text-2xl font-mono text-[var(--accent)]">RAW_DB_VIEWER</h2>
+                        {rawDbData.length > 0 && (
+                          <span className="font-mono text-[10px] px-3 py-1 rounded-full bg-[var(--bg-highlight)] border border-[var(--border-dark)] text-[var(--accent)]">
+                            {rawDbData.length === 500 ? '500+ HITS (capped)' : `${rawDbData.length} HITS`}
+                          </span>
+                        )}
+                      </div>
 
-                      <div className="flex space-x-4 items-center bg-[var(--bg-highlight)] p-4 rounded-xl border border-[var(--border-dark)]">
-                        <input
-                          type="text"
-                          placeholder="Search keyword (zh or ab)..."
-                          value={rawDbKeyword}
-                          onChange={e => setRawDbKeyword(e.target.value)}
-                          onKeyDown={e => e.key === 'Enter' && handleFetchRawDb()}
-                          className="flex-1 bg-[var(--bg-panel)] border border-[var(--border-light)] p-2 rounded text-sm font-mono text-[var(--text-main)] w-full"
-                        />
+                      <div className="flex space-x-3 items-center bg-[var(--bg-highlight)] p-3 rounded-xl border border-[var(--border-dark)]">
+                        {/* Keyword with history */}
+                        <div ref={rawDbSearchRef} className="relative flex-1">
+                          <input
+                            type="text"
+                            placeholder="Search keyword (zh or ab)..."
+                            value={rawDbKeyword}
+                            onChange={e => setRawDbKeyword(e.target.value)}
+                            onFocus={() => setShowRawDbHistory(true)}
+                            onKeyDown={e => {
+                              if (e.key === 'Enter') { setShowRawDbHistory(false); handleFetchRawDb(); }
+                              if (e.key === 'Escape') setShowRawDbHistory(false);
+                            }}
+                            className="w-full bg-[var(--bg-panel)] border border-[var(--border-light)] p-2 rounded text-sm font-mono text-[var(--text-main)] focus:border-[var(--accent)] outline-none transition"
+                          />
+                          {showRawDbHistory && rawDbHistory.length > 0 && (
+                            <div className="absolute top-full left-0 right-0 mt-1 bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-lg shadow-xl z-50 overflow-hidden">
+                              <div className="flex items-center justify-between px-3 py-2 border-b border-[var(--border-dark)]">
+                                <span className="text-[9px] font-mono text-[var(--text-sub)] uppercase tracking-widest">Recent Searches</span>
+                                <button onClick={() => { setRawDbHistory([]); localStorage.removeItem('yc_rawdb_history'); }} className="text-[9px] font-mono text-red-400 hover:text-red-300 transition">CLEAR</button>
+                              </div>
+                              {rawDbHistory.map((h, i) => (
+                                <div key={i}
+                                  onClick={() => { setRawDbKeyword(h); setShowRawDbHistory(false); handleFetchRawDb(undefined, h); }}
+                                  className="w-full text-left px-3 py-2 text-xs font-mono text-[var(--text-main)] hover:bg-[var(--bg-sub)] transition flex items-center justify-between group cursor-pointer"
+                                >
+                                  <span className="truncate flex-1">{h}</span>
+                                  <span
+                                    role="button"
+                                    onClick={e => { e.stopPropagation(); setRawDbHistory(prev => { const n = prev.filter((_, j) => j !== i); localStorage.setItem('yc_rawdb_history', JSON.stringify(n)); return n; }); }}
+                                    className="opacity-0 group-hover:opacity-100 p-0.5 hover:text-red-400 transition cursor-pointer"
+                                  >
+                                    <Trash2 className="w-3 h-3" />
+                                  </span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+
                         <select
-                          value={rawDbSource} onChange={e => setRawDbSource(e.target.value)}
-                          className="bg-[var(--bg-panel)] border border-[var(--border-light)] p-2 rounded text-sm font-mono"
+                          value={rawDbSource}
+                          onChange={e => setRawDbSource(e.target.value)}
+                          className="bg-[var(--bg-panel)] border border-[var(--border-light)] p-2 rounded text-sm font-mono focus:border-[var(--accent)] outline-none transition-all"
                         >
-                          <option value="ALL">ALL SOURCES</option>
-                          <option value="twelve">twelve</option>
-                          <option value="nine_year">nine_year</option>
-                          <option value="grmpts">grmpts</option>
-                          <option value="essay">essay</option>
-                          <option value="dialogue">dialogue</option>
+                          {RAWDB_SOURCES.map(s => (
+                            <option key={s.value} value={s.value}>{s.value === 'ALL' ? 'ALL SOURCES' : s.value}</option>
+                          ))}
                         </select>
-                        <button onClick={handleFetchRawDb} disabled={isRawDbLoading} className="px-6 py-2 bg-[var(--accent)] text-black font-bold font-mono rounded text-sm hover:opacity-80 transition flex-shrink-0">
-                          {isRawDbLoading ? "QUERYING..." : "EXECUTE"}
+                        <button onClick={() => handleFetchRawDb()} disabled={isRawDbLoading} className="px-5 py-2 bg-[var(--accent)] text-black font-bold font-mono rounded text-sm hover:opacity-80 transition flex-shrink-0">
+                          {isRawDbLoading ? "..." : "EXECUTE"}
                         </button>
                       </div>
 
                       <div className="flex-1 overflow-auto border border-[var(--border-dark)] rounded font-mono text-xs bg-[#0F0F12] relative min-h-[400px]">
                         {rawDbData.length > 0 ? (
                           <table className="min-w-full text-left">
-                            <thead className="bg-[#1A1A24] sticky top-0 border-b border-[var(--border-dark)]">
+                            <thead className="bg-[#1A1A24] sticky top-0 border-b border-[var(--border-dark)] shadow-md z-30">
                               <tr>
                                 {Object.keys(rawDbData[0] || {}).map(k => (
-                                  <th key={k} className="p-3 text-[var(--text-sub)] truncate max-w-[150px]">{k}</th>
+                                  <th key={k} className="p-3 text-[var(--accent)] font-mono text-[10px] uppercase tracking-tighter truncate max-w-[150px] border-r border-white/5 last:border-0">{k}</th>
                                 ))}
+                                <th className="p-3 w-12 text-[var(--text-sub)]"></th>
                               </tr>
                             </thead>
                             <tbody className="divide-y divide-[var(--border-dark)] text-[11px]">
                               {rawDbData.map((row, i) => (
-                                <tr key={i} className="hover:bg-[var(--bg-highlight)] flex-row">
-                                  {Object.values(row).map((val: any, j) => (
-                                    <td key={j} className="p-3 text-[var(--text-main)] max-w-[200px] truncate" title={val?.toString()}>
-                                      {val?.toString() || 'NULL'}
-                                    </td>
-                                  ))}
+                                <tr key={i} className="hover:bg-[var(--bg-highlight)] border-b border-white/5 transition-colors group/rawrow">
+                                  {Object.entries(row).map(([key, val]: [string, any], j) => {
+                                    let displayVal = val?.toString() || 'NULL';
+                                    if (key === 'glid' && val) {
+                                      displayVal = `[${val}] ${GLID_NAMES[val as keyof typeof GLID_NAMES] || ''}`;
+                                    }
+                                    return (
+                                      <td key={j} className="p-3 text-[var(--text-main)] max-w-[200px] truncate border-r border-white/5 last:border-0 font-mono text-[10px]" title={displayVal}>
+                                        {displayVal}
+                                      </td>
+                                    );
+                                  })}
+                                  <td className="p-3 text-right">
+                                    <button 
+                                      onClick={() => handleCopy(JSON.stringify(row, null, 2), `raw-${i}`)}
+                                      className="p-1.5 rounded bg-[var(--bg-panel)] border border-[var(--border-dark)] hover:border-[var(--accent)] text-[var(--text-sub)] hover:text-[var(--accent)] transition opacity-0 group-hover/rawrow:opacity-100"
+                                    >
+                                      {copiedId === `raw-${i}` ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                                    </button>
+                                  </td>
                                 </tr>
                               ))}
                             </tbody>
                           </table>
+                        ) : isRawDbLoading ? (
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <Loader2 className="w-6 h-6 animate-spin text-[var(--accent)]" />
+                          </div>
                         ) : (
-                          <div className="absolute inset-0 flex items-center justify-center opacity-30 italic">NO DATA OR AWAITING QUERY</div>
+                          <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 opacity-70 p-12 text-center">
+                            <Filter className="w-8 h-8 text-[var(--text-sub)]" />
+                            <div className="font-mono text-xs text-[var(--text-sub)] uppercase tracking-widest">
+                              {rawDbKeyword ? `0 HITS for "${rawDbKeyword}" in [${rawDbSource}]` : 'AWAITING QUERY'}
+                            </div>
+                            {rawDbKeyword && (
+                              <button onClick={() => setRawDbKeyword('')} className="px-4 py-1.5 border border-[var(--border-dark)] rounded font-mono text-[10px] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">
+                                CLEAR KEYWORD
+                              </button>
+                            )}
+                          </div>
                         )}
                       </div>
                     </div>
@@ -940,44 +1211,70 @@ export default function GlobalExplorer() {
               </div>
 
               <div className="w-full max-w-6xl space-y-16 py-12">
-                <div className="grid grid-cols-1 gap-12">
-                  {displayColumns.map(col => {
-                    const colTexts = results.map(r => r[col]?.[0]?.text).filter(Boolean);
-                    if (colTexts.length === 0) return null;
-                    return (
-                      <div key={col} className="bg-[var(--bg-panel)] rounded-3xl border border-[var(--border-dark)] overflow-hidden flex flex-col shadow-2xl transition-all hover:border-[var(--accent)] group/dia">
-                        <div className="bg-[var(--bg-sub)] px-8 py-6 border-b border-[var(--border-dark)] flex items-center justify-between">
-                          <div className="flex flex-col">
-                            <span className="text-sm font-mono font-black text-[var(--accent)] uppercase tracking-[0.3em]">{getDialectName(col, uiLang)}</span>
-                            <span className="text-[10px] font-mono text-[var(--text-sub)] opacity-50">Dialectal Soul: {col}</span>
+                {displayColumns.length === 0 ? (
+                  <div className="flex flex-col items-center justify-center p-20 border-2 border-dashed border-[var(--border-dark)] rounded-3xl opacity-40">
+                    <Filter className="w-12 h-12 mb-4 text-[var(--text-sub)]" />
+                    <div className="text-xl font-mono uppercase tracking-[0.2em]">{uiLang === 'en' ? 'NO_DIALECTS_SELECTED' : '未選擇任何語底'}</div>
+                    <div className="text-xs font-mono mt-2">{uiLang === 'en' ? 'Use the sidebar to enable dialect columns' : '請使用左側過濾器開啟語底列'}</div>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 gap-12">
+                    {displayColumns.map(col => {
+                      const colData = results.some(r => r[col]);
+                      if (!colData) return null;
+                      
+                      const colTexts = results.map(r => r[col]?.[0]?.text).filter(Boolean);
+                      return (
+                        <div key={col} className="bg-[var(--bg-panel)] rounded-3xl border border-[var(--border-dark)] overflow-hidden flex flex-col shadow-2xl transition-all hover:border-[var(--accent)] group/dia">
+                          <div className="bg-[var(--bg-sub)] px-8 py-6 border-b border-[var(--border-dark)] flex items-center justify-between">
+                            <div className="flex flex-col">
+                              <span className="text-sm font-mono font-black text-[var(--accent)] uppercase tracking-[0.3em]">{getDialectName(col, uiLang)}</span>
+                              <span className="text-[10px] font-mono text-[var(--text-sub)] opacity-50">{results.find(r => r[col])?.[col]?.[0]?.source.toUpperCase()} // GEOMETRY_HITS: {colTexts.length}</span>
+                            </div>
+                            <button onClick={() => handleCopy(colTexts.join('\n'), `vs3-col-${col}`)} className="p-2 hover:bg-[var(--bg-highlight)] rounded-full text-[var(--accent)] transition">
+                              {copiedId === `vs3-col-${col}` ? <Check className="w-5 h-5 text-green-400" /> : <Copy className="w-5 h-5" />}
+                            </button>
                           </div>
-                          <button onClick={() => handleCopy(colTexts.join('\n'), `vs3-col-${col}`)} className="p-2 hover:bg-[var(--bg-highlight)] rounded-full text-[var(--accent)] transition">
-                            {copiedId === `vs3-col-${col}` ? <Check className="w-5 h-5 text-green-400" /> : <Copy className="w-5 h-5" />}
-                          </button>
-                        </div>
-                        <div className="p-12 space-y-8 bg-gradient-to-br from-transparent to-[var(--bg-highlight)]">
-                          {results.map((sentence, sIdx) => {
-                            const items = sentence[col];
-                            if (!items || items.length === 0) return null;
-                            return (
-                              <div key={sIdx} className="flex flex-col items-center group/sent">
-                                <div className="text-[10px] font-mono text-[var(--text-sub)] opacity-20 mb-2 group-hover/sent:opacity-100 transition-opacity">Fragment {sIdx + 1} // {sentence.zh}</div>
-                                <div className="text-3xl leading-relaxed text-center font-sans font-light text-[var(--text-main)] group-hover/sent:text-[var(--accent)] transition-colors selection:bg-[var(--accent)] selection:text-black">
-                                  {items[0].text}
+                          <div className="p-12 space-y-8 bg-gradient-to-br from-transparent to-[var(--bg-highlight)]">
+                            {results.map((sentence, sIdx) => {
+                              const items = sentence[col];
+                              if (!items || items.length === 0) return (
+                                <div key={sIdx} className="h-20 flex items-center justify-center border border-dashed border-[var(--border-dark)] rounded font-mono text-[10px] opacity-20">
+                                  MISSED_FRAGMENT_{sIdx+1}
                                 </div>
-                                {items[0].audio && (
-                                  <button onClick={() => playAudio(items[0].audio)} className="mt-2 p-1 text-[var(--text-sub)] hover:text-[var(--accent)] transition opacity-0 group-hover/sent:opacity-100">
-                                    <Volume2 className="w-4 h-4" />
-                                  </button>
-                                )}
-                              </div>
-                            );
-                          })}
+                              );
+                              return (
+                                <div key={sIdx} className="flex flex-col items-center group/sent">
+                                  <div className="text-[10px] font-mono text-[var(--text-sub)] opacity-20 mb-2 group-hover/sent:opacity-100 transition-opacity">Fragment {sIdx + 1} // {sentence.zh}</div>
+                                  <div className="flex items-center justify-center space-x-3">
+                                    <div className="text-3xl leading-relaxed text-center font-sans font-light text-[var(--text-main)] group-hover/sent:text-[var(--accent)] transition-colors selection:bg-[var(--accent)] selection:text-black">
+                                      {items[0].text}
+                                    </div>
+                                    {items[0].audio && (
+                                      <button onClick={() => playAudio(items[0].audio)} className="p-1 rounded-full bg-[var(--bg-sub)] border border-[var(--border-dark)] text-[var(--text-sub)] hover:text-[var(--accent)] transition opacity-0 group-hover/sent:opacity-100">
+                                        <Volume2 className="w-3 h-3" />
+                                      </button>
+                                    )}
+                                  </div>
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      );
+                    })}
+                    {displayColumns.length > 0 && !displayColumns.some(col => results.some(r => r[col])) && (
+                       <div className="flex flex-col items-center justify-center p-20 border-2 border-dashed border-[var(--border-dark)] rounded-3xl opacity-60 bg-[var(--bg-sub)]">
+                        <Filter className="w-12 h-12 mb-4 text-orange-400" />
+                        <div className="text-xl font-mono uppercase tracking-[0.2em]">{uiLang === 'en' ? 'NO_DATA_FOR_SELECTION' : '所選語底無對應資料'}</div>
+                        <div className="text-xs font-mono mt-4 text-[var(--text-sub)] max-w-md text-center">
+                          Found {results.length} fragments in Topic {parseInt(essayId) - 32019}, but none match your selected dialects.
+                          Available in DB: {Array.from(new Set(results.flatMap(r => Object.keys(r)).filter(k => k !== 'zh'))).join(', ')}
                         </div>
                       </div>
-                    );
-                  })}
-                </div>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
           ) : (
@@ -1029,7 +1326,7 @@ export default function GlobalExplorer() {
                               <div className="absolute -bottom-0.5 right-0.5 opacity-0 group-hover/item:opacity-100 transition-opacity pointer-events-none z-10 scale-90 origin-bottom-right">
                                 <span className="text-[7px] font-mono tracking-tighter uppercase px-1.5 py-0.5 bg-[var(--bg-panel)] rounded text-[var(--accent)] border border-[var(--border-dark)] shadow-sm">
                                   {item.inferred && "*"}
-                                  {item.source?.replace(/^\*+/, '')} {item.level ? `L${item.level}` : ''} {item.category}
+                                  {getSourceLabel(item.source?.replace(/^\*+/, ''))} {item.level ? `L${item.level}` : ''} {item.category}
                                 </span>
                               </div>
                             </div>

@@ -35,7 +35,9 @@ Thumbs.db
 
 # YCM Specific
 portal/portal.db
+portal/ycm_master.db
 portal/.next/
 portal/node_modules/
 archive/
+tmp/
 __pycache__/

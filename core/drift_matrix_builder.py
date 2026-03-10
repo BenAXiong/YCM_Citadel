@@ -60,4 +60,4 @@ def build_drift_matrix(db_path):
     conn.close()
 
 if __name__ == "__main__":
-    build_drift_matrix("export/games_master.db")
+    build_drift_matrix("export/ycm_master.db")

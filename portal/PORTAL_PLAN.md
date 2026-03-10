@@ -30,7 +30,7 @@ Content_Klokah/
 │   ├── public/
 │   └── package.json
 └── export/
-    └── games_master.db       ← Shared DB (both portal and GUI)
+    └── ycm_master.db         ← Shared DB (both portal and GUI)
 ```
 
 ## 🗺️ Feature Roadmap
@@ -42,35 +42,51 @@ Content_Klokah/
 - [x] Full pivot toggle (Show Full Only)
 - [x] Collapsible sidebar & resizable layout
 
-### Phase 2 (Next-Gen) - IN PROGRESS
+### Phase 2 (Next-Gen) - DONE
 - [x] Phonetic Drift Heatmap (WIP - Integrated into Tools)
 - [x] Audio playback handled with try-catch
 - [x] Tooltip/Pill on items: shows source, level, unit
 - [x] Recent search history persistence
 - [x] UI Language toggle (EN/ZH)
 - [x] Theme persistence (Matrix, YCM, etc.)
-- [x] VS-3 "Comparative Dialogue" mode for long-form content
 
-### Phase 3 (Semantic & Standardisation)
+### Phase 3 (Dictionary & Comparative Mode) - IN PROGRESS
+- [ ] **Dictionary View Tab**: Integrated ILRDF/Klokah word explorer.
+- [ ] **VS-3 Mode**: "Comparative Dialogue" for long-form content (Essays/Dialogues).
+
+### Phase 4 (Semantic & Standardisation)
 - [ ] **Standardized Phonetic Normalization**: Implement the "Use Standardized Spelling" toggle.
 - [ ] Vector search via ChromaDB
 - [ ] EN column when Rosetta data available
 - [ ] ILRDF vocabulary tab integrated with Klokah search API
 
-### Phase 4 (Reliability & Deployment)
-- [ ] **Deployment**: Finalize Vercel/Fly.io strategy.
+### Phase 5 (Reliability & Deployment)
+- [x] **Deployment**: Finalize Vercel/Fly.io strategy.
 - [ ] **DB Tests**: Extensive automated checks for wiring integrity.
 - [ ] **Lazy Loading / Virtual Scroll**: For queries returning >1000 items.
 
-### Phase 5 (Data Quality)
+### Phase 6 (Data Quality)
 - [ ] **Inference Audit**: Resolve Family-level generic labels using a strict attribution mapping.
 - [ ] **Traceability Tags**: Mark inferred/doctored data with `*` or `[i]` tags.
 
 ## 📋 Logs
+- [2026-03-10] **Phase 10 Alignment**: Implemented Structural Metadata Alignment plan. Renamed UI source tags for readability (e.g., `nine_year` -> `NINE`).
+- [2026-03-10] **Source Controller**: Replaced dropdown with "Fancy Toggle Bar" supporting multi-source selection.
 - [2026-03-09] UI Polish: Resizable sidebar, results count, improved multi-source display.
 - [2026-03-07] Portal plan drafted. Stack: Next.js + SQLite + Recharts.
 - [2026-03-07] Phonetic Drift Heatmap identified as Phase 2 priority visualization.
 - [2026-03-07] Scaffolding complete: `npx create-next-app` executed and Next.js 14 baseline installed.
+
+## 🏷️ UI Source Metadata Rename Trace
+| Internal ID | UI Label | Realm |
+|---|---|---|
+| `nine_year` | **NINE** | Klokah |
+| `twelve` | **TWELVE** | Klokah |
+| `grmpts` | **GRAMMAR** | Klokah |
+| `essay` | **ESSAYS** | Klokah |
+| `dialogue` | **DIALOGUE** | Klokah |
+| `ILRDF` | **DICT** | ILRDF |
+| `vocabulary_stc`| **STC_VOCAB** | Klokah (Legacy) |
 
 ## 🧬 Data Traceability Strategy
 To resolve "generic family" labels without losing data provenance:

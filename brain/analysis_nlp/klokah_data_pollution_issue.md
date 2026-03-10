@@ -15,9 +15,9 @@ The fault lies entirely at the source: **Klokah's backend API endpoints for the 
 When our scraper queries Klokah's endpoint for a specific dialect ID, Klokah returns a JSON payload containing the corrupted text.
 - **Example:** Fetching Nine-Year Curriculum for `d=5` (Hengchun Amis) literally returns a JSON array containing `Isa masnanava'a?`.
 - The Klokah CMS administrators likely copy-pasted lesson structures and failed to link the correct dialect rows in their database for certain specific lessons.
-- Because our scraper blindly trusts the API response (`"d": 5` means Hengchun Amis), these corrupted strings are ingested natively into our `games_master.db`.
+- Because our scraper blindly trusts the API response (`"d": 5` means Hengchun Amis), these corrupted strings are ingested natively into our `ycm_master.db`.
 
-## 3. Database Context (`games_master.db`)
+## 3. Database Context (`ycm_master.db`)
 The schema relies on two main tables:
 - `sentences`: Contains the unique text (`ab` and `zh`), `glid` (group language ID, e.g., '01' for Amis), and `logic_hash` (md5 of glid + ab + zh).
 - `occurrences`: Maps sentences to source contexts (`source`, `category`, `level`, `dialect_name`, `original_uuid`).
@@ -30,7 +30,7 @@ Because Klokah served Bunun text under an Amis endpoint, our database contains r
 This breaks the user-facing pivot tables designed to compare Austronesian phonetic drift within the same family, as totally unrelated roots are injected seamlessly into the matrix.
 
 ## 4. Current State & Tools
-- The database (`games_master.db`) contains **~229,590 occurrences**.
+- The database (`ycm_master.db`) contains **~229,590 occurrences**.
 - We recently added a **"RAW_DB_VIEWER"** tool inside the Portal (`app/page.tsx` -> Tools Overlay -> 4th tab). The next agent can use this tool to easily search for strings like `masnanava` to see exactly which modules (`twelve`, `nine_year`, etc.) and `original_uuid` references are responsible for serving the bad data.
 - The Git repository has been sterilized of oversized `.jsonl` blobs via Git LFS (`.gitattributes` tracking), so pushing to `main` is now safe.
 

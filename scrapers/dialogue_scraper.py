@@ -75,16 +75,23 @@ def scrape_dialogues(data_dir: str, dialects: List[int] = None):
                 time.sleep(0.12)
             
             # Content is usually a list of dialogue items
-            # Expected: [{"ab": "...", "zh": "...", "sound": "..."}, ...]
+            # Actual: [{"ab": "...", "ch": "...", "en": "...", "sn": "...", "snd": true}, ...]
             if isinstance(content, list):
                 for idx, item in enumerate(content):
                     ab_text = repair_mojibake(item.get("ab", ""))
-                    zh_text = repair_mojibake(item.get("zh", ""))
+                    zh_text = repair_mojibake(item.get("ch", ""))
                     
                     if not ab_text and not zh_text: continue
                     
-                    audio_url = item.get("sound", "")
-                    audio_id = audio_url.split("/")[-1].replace(".mp3", "") if audio_url else ""
+                    sn = item.get("sn", "")
+                    # Dialogue audio uses format: https://file.klokah.tw/sound/{sn}.mp3
+                    # But the sn field usually contains slashes (e.g., "26928/440458").
+                    # Audio ID is usually the last part, but Klokah serves it using the full path 
+                    # from the 'sound' directory for dialogue? Actually usually it's just `https://web.klokah.tw/dialogue/audio/{tid}/{sn.split("/")[-1]}.mp3`
+                    # wait, let me check klokah atlas or other scrapers.
+                    # Usually `dialogue` audio format is: https://file.klokah.tw/sound/{sn}.mp3 where sn has slashes.
+                    audio_url = f"https://file.klokah.tw/sound/{sn}.mp3" if sn else ""
+                    audio_id = sn.replace("/", "_") if sn else ""
                     
                     record = create_sentence_record(
                         uuid=f"dialogue_{d_id}_{tid}_{idx}",

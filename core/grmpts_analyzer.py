@@ -5,57 +5,56 @@ def analyze_grmpts_ancestry(db_path):
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
     
-    # Get all sentences that exist in both Grmpts and another source for the same ZH
-    query = """
-    SELECT s.glid, s.zh, s.ab, o.dialect_name, o.source
-    FROM sentences s
-    JOIN occurrences o ON s.id = o.sentence_id
-    WHERE s.glid IN (SELECT DISTINCT glid FROM occurrences WHERE source = 'grmpts')
-    """
-    cur.execute(query)
+    # 1. Get all Grmpts sentences by ZH
+    print("Loading Grmpts ZH...")
+    cur.execute("""
+        SELECT s.glid, s.zh, s.ab
+        FROM sentences s
+        JOIN occurrences o ON s.id = o.sentence_id
+        WHERE o.source = 'grmpts'
+    """)
+    g_data = cur.fetchall()
+    grmpts_zh_map = defaultdict(lambda: defaultdict(list))
+    for glid, zh, ab in g_data:
+        grmpts_zh_map[glid][zh].append(ab.strip().lower())
+        
+    glid_totals = {glid: len(zhs) for glid, zhs in grmpts_zh_map.items()}
+
+    # 2. Match with other sources by ZH
+    print("Matching by ZH...")
+    # Results: glid -> dialect_name -> matches
+    all_dialect_matches = defaultdict(lambda: defaultdict(int))
     
-    matches = defaultdict(lambda: defaultdict(int))
-    totals = defaultdict(int)
+    cur.execute("""
+        SELECT s.glid, o.dialect_name, s.zh, s.ab
+        FROM sentences s
+        JOIN occurrences o ON s.id = o.sentence_id
+        WHERE o.source != 'grmpts'
+    """)
     
-    # Map raw records
-    # key: (glid, zh) -> { 'grmpts': ab, 'specifics': {dialect_name: ab} }
-    cross_map = defaultdict(lambda: {'grmpts': None, 'specifics': {}})
-    
-    for glid, zh, ab, d_name, source in cur.fetchall():
-        if source == 'grmpts':
-            cross_map[(glid, zh)]['grmpts'] = ab
-        else:
-            cross_map[(glid, zh)]['specifics'][d_name] = ab
+    for glid, d_name, zh, ab in cur.fetchall():
+        if glid in grmpts_zh_map and zh in grmpts_zh_map[glid]:
+            all_dialect_matches[glid][d_name] += 1
             
-    # Calculate Similarity
-    for (glid, zh), data in cross_map.items():
-        if not data['grmpts'] or not data['specifics']: continue
-        
-        g_ab = data['grmpts'].strip().lower()
-        for d_name, d_ab in data['specifics'].items():
-            if g_ab == d_ab.strip().lower():
-                matches[glid][d_name] += 1
-        totals[glid] += 1
-        
-    print("--- GRMPTS ANCESTRY ANALYSIS ---")
-    print(f"{'GLID':<6} | {'Group':<15} | {'Best Match Dialect':<25} | {'Match Rate'}")
-    print("-" * 70)
-    
-    for glid in sorted(matches.keys()):
-        if not matches[glid]: continue
-        
-        # Find highest match count
-        best_dia = max(matches[glid], key=matches[glid].get)
-        rate = (matches[glid][best_dia] / totals[glid]) * 100
-        
-        # Get Group Name
+    print("\n--- COMPREHENSIVE GRMPTS ANCESTRY ANALYSIS (ZH-MATCH) ---")
+    for glid in sorted(glid_totals.keys()):
         cur.execute("SELECT group_name FROM dialects WHERE glid = ?", (glid,))
-        g_name = cur.fetchone()[0]
+        res = cur.fetchone()
+        g_name = res[0] if res else "Unknown"
+        total = glid_totals[glid]
+        print(f"\n[GLID {glid}] {g_name} (Total Unique Grmpts ZH: {total})")
         
-        print(f"{glid:<6} | {g_name:<15} | {best_dia:<25} | {rate:>.1f}%")
+        results = []
+        for d_name, count in all_dialect_matches[glid].items():
+            rate = (count / total) * 100 if total > 0 else 0
+            results.append((d_name, count, rate))
         
+        results.sort(key=lambda x: x[2], reverse=True)
+        for d, m, r in results:
+            print(f"  {d:<30} | {m:>5} matches | {r:>6.2f}%")
+
     conn.close()
 
 if __name__ == "__main__":
-    db = "export/games_master.db"
+    db = "export/ycm_master.db"
     analyze_grmpts_ancestry(db)

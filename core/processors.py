@@ -1,6 +1,24 @@
 import json
 import os
+import re
 from typing import Dict, Any
+
+def sanitize_dialect_name(name: str) -> str:
+    """Removes administrative noise (e.g. 族語短文, 朗讀短文) from dialect labels."""
+    if not name: return "UNKNOWN"
+    # Suffixes to strip
+    noise = [
+        r"\s*族語短文",
+        r"\s*族語對話",
+        r"\s*朗讀短文",
+        r"\s*\(試辦\)",
+        r"\s*九年一貫",
+        r"\s*試辦",
+    ]
+    clean = name
+    for pattern in noise:
+        clean = re.sub(pattern, "", clean)
+    return clean.strip()
 
 def append_to_jsonl(file_path: str, records: list[Dict[str, Any]]):
     """Appends structured records to a JSON Lines file."""

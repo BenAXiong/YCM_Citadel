@@ -62,7 +62,7 @@ def apply_rosetta_test(db_path, json_path):
     conn.close()
 
 if __name__ == "__main__":
-    db = "export/games_master.db"
+    db = "export/ycm_master.db"
     if not os.path.exists("tmp_rosetta_test.json"):
         prepare_rosetta_test(db)
     else:
