@@ -1,6 +1,6 @@
 # 🧠 BRAIN MAP: Yincumin Citadel Knowledge Index
 
-*Auto-updated. Last reviewed: 2026-03-10*
+*Auto-updated. Last reviewed: 2026-03-11*
 
 > Legend: 📌 **active** | ⏳ **paused** | 📦 **archived**
 
@@ -15,6 +15,8 @@
 | [**`P9_plan_vocab_integration.md`**](P9_plan_vocab_integration.md) | 📌 | 2026-03-10 | Phase 9 Word-Level implementation & Hover logic | **New Sub-Spec** |
 | [**`PORTAL_PLAN.md`**](../portal/PORTAL_PLAN.md) | 📌 | 2026-03-09 | Development phases for the Web Research UI | Frontend Roadmap |
 | [**`data_spec.md`**](data_spec.md) | 📌 | 2026-03-10 | Unified schema, Information Flow, JSONL Interchange | Master specification (v1.1) |
+| [**`DICT_SYSTEM.md`**](DICT_SYSTEM.md) | 📌 | 2026-03-11 | Comprehensive Dictionary Architecture (Strict/Global/Context) | **New Core System** |
+| [**`METALOG.md`**](METALOG.md) | 📌 | 2026-03-11 | Primary decision ledger & high-level intent stream | **Meta-Habit Anchor** |
 | [**`SCRIPT_LOG.md`**](SCRIPT_LOG.md) | 📌 | 2026-03-10 | Exhaustive log of all scrapers, processors, and analyzers. | **New Inventory** |
 
 ---

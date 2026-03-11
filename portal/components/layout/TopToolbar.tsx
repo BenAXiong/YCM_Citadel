@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { CheckSquare, Loader2 } from "lucide-react";
-import { UILang, UIStrings } from "@/types";
+import { UILang, UIStrings, Theme } from "@/types";
 import Vs1Toolbar from "./toolbars/Vs1Toolbar";
 import Vs2Toolbar from "./toolbars/Vs2Toolbar";
 import Vs3Toolbar from "./toolbars/Vs3Toolbar";
@@ -10,8 +10,11 @@ import VsDictToolbar from "./toolbars/VsDictToolbar";
 
 interface TopToolbarProps {
   mode: "VS-1" | "VS-2" | "VS-3" | "DICT" | "EXAMS" | "FLASHCARDS";
+  setMode: (val: any) => void;
   uiLang: UILang;
   s: UIStrings;
+  theme: Theme;
+  cycleTheme: () => void;
   query: string;
   setQuery: (val: string) => void;
   showHistory: boolean;
@@ -29,15 +32,14 @@ interface TopToolbarProps {
   setModules: (val: string[]) => void;
   showSources: boolean;
   setShowSources: (val: boolean) => void;
+  hideEmpty: boolean;
+  setHideEmpty: (val: boolean) => void;
   essayId: string;
   setEssayId: (val: string) => void;
-  isSearching: boolean;
   showFullOnly: boolean;
   setShowFullOnly: (val: boolean) => void;
   standardize: boolean;
   setStandardize: (val: boolean) => void;
-  hideEmpty: boolean;
-  setHideEmpty: (val: boolean) => void;
   vs3SourceRef: React.RefObject<HTMLDivElement | null>;
   vs3FillWidth: boolean;
   setVs3FillWidth: (val: boolean) => void;
@@ -48,15 +50,27 @@ interface TopToolbarProps {
   setDictSource: (val: "ILRDF" | "MOE") => void;
   dictLayout: "vertical" | "horizontal";
   setDictLayout: (val: "vertical" | "horizontal") => void;
-  dictColumns: number;
-  setDictColumns: (val: number) => void;
+  dictColumns: number | "AUTO";
+  setDictColumns: (val: number | "AUTO") => void;
+  dictLevel: number | "ALL";
+  setDictLevel: (val: number | "ALL") => void;
+  dictGenres: string[];
+  setDictGenres: (val: string[] | ((prev: string[]) => string[])) => void;
+  dictStrict: boolean;
+  setDictStrict: (val: boolean) => void;
   setToastMessage: (msg: string | null) => void;
+  dictDensity: "standard" | "compact" | "preview";
+  setDictDensity: (v: "standard" | "compact" | "preview") => void;
+  [key: string]: any; // Catch-all for extra props passed from page.tsx during refactor
 }
 
 export default function TopToolbar({
   mode,
+  setMode,
   uiLang,
   s,
+  theme,
+  cycleTheme,
   query,
   setQuery,
   showHistory,
@@ -74,15 +88,14 @@ export default function TopToolbar({
   setModules,
   showSources,
   setShowSources,
+  hideEmpty,
+  setHideEmpty,
   essayId,
   setEssayId,
-  isSearching,
   showFullOnly,
   setShowFullOnly,
   standardize,
   setStandardize,
-  hideEmpty,
-  setHideEmpty,
   vs3SourceRef,
   vs3FillWidth,
   setVs3FillWidth,
@@ -95,7 +108,16 @@ export default function TopToolbar({
   setDictLayout,
   dictColumns,
   setDictColumns,
+  dictLevel,
+  setDictLevel,
+  dictGenres,
+  setDictGenres,
+  dictStrict,
+  setDictStrict,
   setToastMessage,
+  dictDensity,
+  setDictDensity,
+  isSearching
 }: TopToolbarProps) {
   return (
     <div className="h-14 border-b border-[var(--border-dark)] flex items-center px-4 justify-between bg-[var(--bg-sub)] z-[95] sticky top-16 backdrop-blur-md">
@@ -171,7 +193,21 @@ export default function TopToolbar({
             setDictLayout={setDictLayout}
             dictColumns={dictColumns}
             setDictColumns={setDictColumns}
+            dictLevel={dictLevel}
+            setDictLevel={setDictLevel}
+            dictGenres={dictGenres}
+            setDictGenres={setDictGenres}
+            dictStrict={dictStrict}
+            setDictStrict={setDictStrict}
             setToastMessage={setToastMessage}
+            showFullOnly={showFullOnly}
+            setShowFullOnly={setShowFullOnly}
+            modules={modules}
+            setModules={setModules}
+            showSources={showSources}
+            setShowSources={setShowSources}
+            dictDensity={dictDensity}
+            setDictDensity={setDictDensity}
           />
         )}
 
@@ -195,7 +231,7 @@ export default function TopToolbar({
           )}
 
           <label className="flex items-center space-x-2 font-mono text-[10px] cursor-pointer bg-[var(--bg-panel)] border border-[var(--border-dark)] px-3 py-1 rounded hover:border-[var(--accent)] transition group">
-            <div className={`w-3 h-3 flex items-center justify-center rounded-sm transition ${hideEmpty ? 'bg-[var(--accent)]' : 'bg-[var(--bg-sub)] border border-[var(--border-dark)]'}`}>{hideEmpty && <CheckSquare className="w-2.5 h-2.5 text-black" />}</div>
+            <div className={`w-3 h-3 flex items-center justify-center rounded-sm transition ${hideEmpty ? 'bg-[var(--accent)]' : 'bg-[var(--bg-sub)] border border(--border-dark)]'}`}>{hideEmpty && <CheckSquare className="w-2.5 h-2.5 text-black" />}</div>
             <span className={`uppercase tracking-widest font-bold ${hideEmpty ? 'text-[var(--accent)]' : 'text-[var(--text-sub)] group-hover:text-[var(--text-main)]'}`}>{s.hideEmpty}</span>
             <input type="checkbox" checked={hideEmpty} onChange={(e) => setHideEmpty(e.target.checked)} className="hidden" />
           </label>

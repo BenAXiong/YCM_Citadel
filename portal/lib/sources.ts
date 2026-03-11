@@ -29,42 +29,36 @@ export interface SourceDef {
     vs1: boolean;
     vs2: boolean;
     vs3: boolean;
+    dict: boolean;
     rawdb: boolean;
 }
 
 export const SOURCES: SourceDef[] = [
     // "ALL" is a synthetic sentinel (not a real DB value) meaning "no source filter"
-    { value: "ALL",           label: "ALL",          vs1: true,  vs2: true,  vs3: false, rawdb: true  },
+    { value: "ALL",           label: "ALL",          vs1: true,  vs2: true,  vs3: false, dict: true,  rawdb: true  },
 
     // dialogue: 53k rows. Practical situational conversational pairs from Klokah /dialogue/
-    { value: "dialogue",      label: "DIALOGUE",     vs1: true,  vs2: true,  vs3: true,  rawdb: true  },
+    { value: "dialogue",      label: "DIALOGUE",     vs1: true,  vs2: true,  vs3: true,  dict: true,  rawdb: true  },
 
     // essay: 62k rows. Cultural/traditional text paragraphs organised by topic (主題). Primary VS-3 source.
-    { value: "essay",         label: "ESSAY",        vs1: true,  vs2: false, vs3: true,  rawdb: true  },
+    { value: "essay",         label: "ESSAY",        vs1: true,  vs2: false, vs3: true,  dict: true,  rawdb: true  },
 
     // grmpts: 31k rows. Grammar structure drill sentences from Klokah /grmpts/
-    { value: "grmpts",        label: "PATTERNS",      vs1: true,  vs2: true,  vs3: true,  rawdb: true  },
+    { value: "grmpts",        label: "PATTERNS",      vs1: true,  vs2: true,  vs3: true,  dict: true,  rawdb: true  },
 
     // nine_year: 19k rows. 9-level foundational literacy curriculum from Klokah /nine/
-    { value: "nine_year",     label: "NINE",         vs1: true,  vs2: true,  vs3: true,  rawdb: true  },
+    { value: "nine_year",     label: "NINE",         vs1: true,  vs2: true,  vs3: true,  dict: true,  rawdb: true  },
 
     // twelve: 19k rows. 12-level MOE school curriculum from Klokah /twelve/ (中級 structure: 12 階 × 10 課)
-    { value: "twelve",        label: "TWELVE",       vs1: true,  vs2: true,  vs3: true,  rawdb: true  },
+    { value: "twelve",        label: "TWELVE",       vs1: true,  vs2: true,  vs3: true,  dict: true,  rawdb: true  },
 
-    // vocabulary_stc: 475 rows. Partial scrape of Klokah /vocabulary/json/{lid}.json (Pattern Practice)
-    // This is a Klokah corpus, NOT the ILRDF glossary. ILRDF = external site, not scraped yet.
-    // COMMENTED OUT: corpus is too small/incomplete to be usable. Full re-scrape needed first.
-    // { value: "vocabulary_stc", label: "VOCAB_STC",   vs1: false, vs2: false, vs3: false, rawdb: true  },
-
-    // 卡那卡那富語: 1 row. Data anomaly only — dialect name erroneously stored as source.
-    // COMMENTED OUT: single anomalous row, not a real source category.
-    // { value: "卡那卡那富語",  label: "卡那卡那富語 ⚠", vs1: false, vs2: false, vs3: false, rawdb: true  },
     // ILRDF: ~292k rows. Glossary from glossary.ilrdf.org.tw. Lexicographic corpus.
     // Stored in `ilrdf_vocabulary` table natively instead of `sentences`/`occurrences`.
-    { value: "ILRDF",         label: "ILRDF",        vs1: false, vs2: false, vs3: false, rawdb: true  },
+    { value: "ILRDF",         label: "ILRDF",        vs1: false, vs2: false, vs3: false, dict: false, rawdb: true  },
 ];
 
 export const VS1_SOURCES   = SOURCES.filter(s => s.vs1);
 export const VS2_SOURCES   = SOURCES.filter(s => s.vs2);
 export const VS3_SOURCES   = SOURCES.filter(s => s.vs3);
+export const DICT_SOURCES  = SOURCES.filter(s => s.dict);
 export const RAWDB_SOURCES = SOURCES.filter(s => s.rawdb);

@@ -58,3 +58,6 @@ The `portal/app/page.tsx` file has ballooned into a classic "God Component" span
   - Centralize all TypeScript interfaces (`Sentence`, `RawDbRow`, `DialectDef`) in a `types/index.ts` file instead of inline declarations.
 - [x] **Step 5: Testing & Verification**
   - Confirm that map clicks, dropdowns, mode switching, and data fetching operate identically to the legacy monolith.
+- [x] **Step 6: Dictionary System Implementation**
+  - Launch `DICT` mode with full architectural separation (VsDictView, VsDictToolbar).
+  - Implement Strict/Global filtering logic and contextual harvesting.

@@ -3,11 +3,38 @@ import { NextResponse } from 'next/server';
 import { GLID_NAMES, GLID_FAMILIES } from '@/lib/dialects';
 import { GENERIC_MAPPINGS } from '@/lib/mappings';
 import geometryData from '@/lib/corpus_geometry.json';
+import { DICT_SOURCES, VS1_SOURCES, VS2_SOURCES } from '@/lib/sources';
 
 export async function GET(request: Request) {
     try {
         const { searchParams } = new URL(request.url);
         const mode = searchParams.get('mode') || 'VS-1';
+
+        // Deep Repair for Klokah Audio URLs
+        const repairAudioUrl = (row: any) => {
+            if (!row.audio_url || !row.audio_url.includes('klokah.tw')) return row.audio_url;
+            
+            // Standard migration
+            let url = row.audio_url.replace('file.klokah.tw', 'web.klokah.tw').replace('http://', 'https://');
+            
+            // SPECIAL REPAIR: Dialogue and Essay often have "truncated" URLs in the DB
+            // e.g. /sound/529922.mp3 instead of /text/sound/34045/529922.mp3
+            if ((row.source === 'essay' || row.source === 'dialogue') && !url.includes('/text/')) {
+                // Try to extract Context ID from original_uuid (e.g. essay_ES11201_34045_0)
+                const parts = (row.original_uuid || "").split('_');
+                // The context ID is usually the second to last part
+                const contextId = parts.length >= 3 ? parts[parts.length - 2] : null;
+
+                if (contextId && /^\d+$/.test(contextId)) {
+                    // Extract sentence ID from URL (e.g. 529922)
+                    const sMatch = url.match(/\/sound\/(\d+)\.mp3/);
+                    if (sMatch && sMatch[1]) {
+                        return `https://web.klokah.tw/text/sound/${contextId}/${sMatch[1]}.mp3`;
+                    }
+                }
+            }
+            return url;
+        };
 
         // Quick helper to pivot our data where row.ab becomes an object with { text, audio }
         // Helper 1: Pivot by Chinese (ZH) literals (Standard for VS-1)
@@ -44,7 +71,7 @@ export async function GET(request: Request) {
                     if (!pivot[row.zh].dialects[d].find((x) => x.text === row.ab)) {
                         pivot[row.zh].dialects[d].push({
                             text: row.ab,
-                            audio: row.audio_url || undefined,
+                            audio: repairAudioUrl(row) || undefined,
                             source: row.source || 'UNK',
                             level: row.level,
                             category: row.category,
@@ -99,7 +126,7 @@ export async function GET(request: Request) {
                     if (!pivot[geoId].dialects[d].find((x) => x.text === row.ab)) {
                         pivot[geoId].dialects[d].push({
                             text: row.ab,
-                            audio: row.audio_url || undefined,
+                            audio: repairAudioUrl(row) || undefined,
                             source: row.source || 'UNK',
                             level: row.level,
                             category: row.category,
@@ -116,16 +143,20 @@ export async function GET(request: Request) {
             const lesson = searchParams.get('lesson') || '1';
 
             const db = getDb();
+            const blessedValues = VS2_SOURCES.map(s => s.value).filter(v => v !== 'ALL');
+            const placeholders = blessedValues.map(() => '?').join(',');
+            
             const sql = `
                 SELECT s.zh, s.ab, o.dialect_name, s.glid, o.audio_url, o.source, o.level, o.category, o.original_uuid
                 FROM sentences s
                 JOIN occurrences o ON s.id = o.sentence_id
                 WHERE o.level = ? AND (o.category LIKE ? OR o.category LIKE ?)
+                AND o.source IN (${placeholders})
                 LIMIT 2500
             `;
             const lessonLike = `%lesson ${lesson}%`;
             const classLike = `%class ${lesson}%`;
-            const params = [String(level), lessonLike, classLike];
+            const params = [String(level), lessonLike, classLike, ...blessedValues];
 
             const stmt = db.prepare(sql);
             const rows = stmt.all(...params) as any[];
@@ -186,26 +217,106 @@ export async function GET(request: Request) {
             return NextResponse.json({ results: pivotGeometryData(rows) });
         } else if (mode === 'DICT') {
             const q = searchParams.get('q') || '';
+            const levelFilter = searchParams.get('level') || 'ALL';
+            const genreFilter = searchParams.get('genre') || 'ALL';
+            const moduleFilter = searchParams.get('module') || 'ALL';
+            const strict = searchParams.get('strict') === 'true';
+            
             if (!q) return NextResponse.json({ results: [] });
 
             const db = getDb();
             const pattern = `%${q}%`;
 
-            // Log parameters for debugging
-            console.log(`[DICT_DEBUG] mode=DICT q="${q}" pattern="${pattern}"`);
+            console.log(`[DICT_DEBUG] query="${q}" level="${levelFilter}" genre="${genreFilter}" strict=${strict}`);
             
             try {
-                const wordsSql = `SELECT id, word_ab as ab, word_ch as zh, dialect_name, glid, source FROM ilrdf_vocabulary WHERE word_ab LIKE ? OR word_ch LIKE ? LIMIT 50`;
-                const words = db.prepare(wordsSql).all(pattern, pattern) as any[];
+                const dialectFilter = searchParams.get('dialects') || '';
                 
-                console.log(`[DICT_DEBUG] wordSql hits=${words.length}`);
+                // 1. Get headwords - Prioritize exact or start matches
+                let wordsSql = `
+                    SELECT id, word_ab as ab, word_ch as zh, dialect_name, glid, source 
+                    FROM ilrdf_vocabulary 
+                    WHERE (word_ab = ? OR word_ch = ? OR word_ab LIKE ? OR word_ch LIKE ?)
+                `;
+                const wordsParams: any[] = [q, q, `${q}%`, `${q}%` ];
 
+                if (dialectFilter) {
+                    const dNames = dialectFilter.split(',');
+                    const placeholders = dNames.map(() => '?').join(',');
+                    wordsSql += ` AND dialect_name IN (${placeholders})`;
+                    wordsParams.push(...dNames);
+                }
+
+                if (strict) {
+                    wordsSql += ` AND source LIKE '%學習詞表%'`;
+                }
+
+                wordsSql += ` ORDER BY (word_ab = ?) DESC, LENGTH(word_ab) ASC LIMIT 50`;
+                wordsParams.push(q);
+                
+                const words = db.prepare(wordsSql).all(...wordsParams) as any[];
+                
+                // 2. Map examples from ALL sources for each word found (Global Examples are ALWAYS on)
                 const results = words.map((w: any) => {
-                    // Extremely simplified examples lookup
                     try {
-                        const exSql = `SELECT s.zh, s.ab, o.dialect_name, o.audio_url, o.source FROM sentences s JOIN occurrences o ON s.id = o.sentence_id WHERE (s.ab LIKE ? OR s.zh LIKE ?) AND (o.dialect_name = ?) LIMIT 3`;
-                        const examples = db.prepare(exSql).all(`%${w.ab}%`, `%${w.zh}%`, w.dialect_name) as any[];
-                        return { ...w, examples };
+                        // NO HYBRID MATCHING: We matching only on the Aboriginal text (s.ab)
+                        // This prevents semantic noise from Chinese matches that don't contain the target word.
+                        const abPattern = `%${w.ab.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')}%`;
+                        
+                        let exSql = `
+                            SELECT DISTINCT s.zh, s.ab, o.dialect_name, o.audio_url, o.source, o.level, o.category, o.original_uuid
+                            FROM sentences s 
+                            JOIN occurrences o ON s.id = o.sentence_id 
+                            WHERE s.ab LIKE ? AND o.dialect_name = ?
+                        `;
+                        const params: any[] = [abPattern, w.dialect_name];
+
+                        // NO DIALECT FALLBACK: Data is granular enough to stay strictly within w.dialect_name.
+
+                        if (levelFilter !== 'ALL') {
+                            exSql += ` AND o.level = ?`;
+                            params.push(levelFilter);
+                        }
+
+                        if (moduleFilter === 'ALL') {
+                            const blessedValues = DICT_SOURCES.map(s => s.value).filter(v => v !== 'ALL');
+                            const placeholders = blessedValues.map(() => '?').join(',');
+                            exSql += ` AND o.source IN (${placeholders})`;
+                            params.push(...blessedValues);
+                        } else {
+                            const mods = moduleFilter.split(',');
+                            const placeholders = mods.map(() => '?').join(',');
+                            exSql += ` AND o.source IN (${placeholders})`;
+                            params.push(...mods);
+                        }
+
+                        // Genre Filtering
+                        if (genreFilter !== 'ALL') {
+                            const genres = genreFilter.split(',');
+                            const genreClauses: string[] = [];
+                            genres.forEach(g => {
+                                if (g === 'News') genreClauses.push("o.source LIKE '%讀報%' OR o.category LIKE '%讀報%'");
+                                if (g === 'Curriculum') genreClauses.push("o.source LIKE '%九階%' OR o.category LIKE '%九階%' OR o.source LIKE '%十二年%'");
+                                if (g === 'Conversation') genreClauses.push("o.source LIKE '%會話%' OR o.category LIKE '%會話%'");
+                                if (g === 'Culture') genreClauses.push("o.source LIKE '%文化%' OR o.category LIKE '%文化%'");
+                                if (g === 'Literature') genreClauses.push("o.source LIKE '%閱讀%' OR o.category LIKE '%閱讀%'");
+                            });
+                            if (genreClauses.length > 0) {
+                                exSql += ` AND (${genreClauses.join(' OR ')})`;
+                            }
+                        }
+
+                        exSql += ` ORDER BY LENGTH(s.ab) ASC LIMIT 10`; 
+                        const rawExamples = db.prepare(exSql).all(...params) as any[];
+                        const examples = rawExamples.map(ex => ({
+                            ...ex,
+                            audio_url: repairAudioUrl(ex)
+                        }));
+                        return { 
+                            ...w, 
+                            audio_url: repairAudioUrl(w),
+                            examples 
+                        };
                     } catch (exErr) {
                         return { ...w, examples: [] };
                     }
@@ -245,7 +356,7 @@ export async function GET(request: Request) {
             if (isStrict) {
                 const regexPattern = `(^|[^a-zA-Z0-9'’\\u00C0-\\u017F])${innerQ}([^a-zA-Z0-9'’\\u00C0-\\u017F]|$)`;
                 klokahSql = `
-                    SELECT s.zh, s.ab, o.dialect_name, s.glid, o.audio_url, o.source, o.level, o.category
+                    SELECT s.zh, s.ab, o.dialect_name, s.glid, o.audio_url, o.source, o.level, o.category, o.original_uuid
                     FROM sentences s
                     JOIN occurrences o ON s.id = o.sentence_id
                     WHERE (s.zh REGEXP ? OR s.ab REGEXP ?)
@@ -254,7 +365,7 @@ export async function GET(request: Request) {
             } else {
                 const likePattern = `%${innerQ.replace(/\*/g, '%')}%`;
                 klokahSql = `
-                    SELECT s.zh, s.ab, o.dialect_name, s.glid, o.audio_url, o.source, o.level, o.category
+                    SELECT s.zh, s.ab, o.dialect_name, s.glid, o.audio_url, o.source, o.level, o.category, o.original_uuid
                     FROM sentences s
                     JOIN occurrences o ON s.id = o.sentence_id
                     WHERE (s.zh LIKE ? OR s.ab LIKE ?)
@@ -262,9 +373,14 @@ export async function GET(request: Request) {
                 klokahParams = [likePattern, likePattern];
             }
 
-            if (selectedModules.length > 0 && !selectedModules.includes('ALL')) {
+            if (moduleFilter === 'ALL') {
+                const blessedValues = VS1_SOURCES.map(s => s.value).filter(v => v !== 'ALL' && v !== 'ILRDF');
+                const placeholders = blessedValues.map(() => '?').join(',');
+                klokahSql += ` AND o.source IN (${placeholders})`;
+                klokahParams.push(...blessedValues);
+            } else if (selectedModules.length > 0) {
                 // Filter out ILRDF as it's handled separately
-                const kModules = selectedModules.filter(m => m !== 'ILRDF');
+                const kModules = selectedModules.filter(m => m !== 'ILRDF' && m !== 'ALL');
                 if (kModules.length > 0) {
                     const placeholders = kModules.map(() => '?').join(',');
                     klokahSql += ` AND o.source IN (${placeholders})`;

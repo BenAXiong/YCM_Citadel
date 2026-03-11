@@ -72,7 +72,12 @@ export default function GlobalExplorer() {
   const [dbInfo, setDbInfo] = useState<any>(null);
   const [dictSource, setDictSource] = useState<"ILRDF" | "MOE">("ILRDF");
   const [dictLayout, setDictLayout] = usePersistedState<"vertical" | "horizontal">("yc_dict_layout", "vertical");
-  const [dictColumns, setDictColumns] = usePersistedState<number>("yc_dict_columns", 2);
+  const [dictColumns, setDictColumns] = usePersistedState<number | "AUTO">("yc_dict_columns", 2);
+  const [dictLevel, setDictLevel] = usePersistedState<number | "ALL">("yc_dict_level", "ALL");
+  const [dictGenres, setDictGenres] = usePersistedState<string[]>("yc_dict_genres", ["ALL"]);
+  const [dictStrict, setDictStrict] = usePersistedState<boolean>("yc_dict_strict", true);
+  const [dictDensity, setDictDensity] = usePersistedState<"standard" | "compact" | "preview">("yc_dict_density", "standard");
+  const currentAudioRef = useRef<HTMLAudioElement | null>(null);
 
 
 
@@ -105,6 +110,12 @@ export default function GlobalExplorer() {
   };
 
   const handleSearch = async () => {
+    if (mode === "DICT" && (selectedDialects.size === 0 || !query.trim())) {
+      setDictResults([]);
+      setResults([]);
+      setIsSearching(false);
+      return;
+    }
     setIsSearching(true);
     try {
       let url = "";
@@ -113,7 +124,7 @@ export default function GlobalExplorer() {
       } else if (mode === "VS-2") {
         url = `/api/search?mode=VS-2&level=${level}&lesson=${lesson}`;
       } else if (mode === "DICT") {
-        url = `/api/search?mode=DICT&q=${encodeURIComponent(query)}`;
+        url = `/api/search?mode=DICT&q=${encodeURIComponent(query)}&level=${dictLevel}&genre=${dictGenres.join(',')}&strict=${dictStrict}&dialects=${Array.from(selectedDialects).join(',')}&module=${modules.join(',')}`;
       } else if (mode === "EXAMS" || mode === "FLASHCARDS") {
         // Mocking for now as requested or until implementation
         setResults([]);
@@ -155,7 +166,7 @@ export default function GlobalExplorer() {
       handleSearch();
     }, 800);
     return () => clearTimeout(timer);
-  }, [mode, query, modules, level, lesson, standardize, essayId]);
+  }, [mode, query, modules, level, lesson, standardize, essayId, dictLevel, dictGenres, dictStrict, selectedDialects]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -221,31 +232,63 @@ export default function GlobalExplorer() {
     const next = uiLang === "en" ? "zh" : "en";
     setUiLang(next);
   };
-
-  const playAudio = (url: string) => {
+   const playAudio = (url: string) => {
     if (!url) return;
+
+    // 0. Stop current audio if playing
+    if (currentAudioRef.current) {
+      currentAudioRef.current.pause();
+      currentAudioRef.current.currentTime = 0;
+      currentAudioRef.current = null;
+    }
     
-    // Normalize Klokah URLs if they are relative
+    // 1. Repair known broken patterns in Klokah URLs
     let finalUrl = url;
     if (url.startsWith("/")) {
-      finalUrl = `https://file.klokah.tw${url}`;
+      finalUrl = `https://web.klokah.tw${url}`;
     }
-    
-    try {
-      console.log("Playing audio:", finalUrl);
-      const audio = new Audio(finalUrl);
-      audio.play().catch(e => {
-        console.error("Audio playback blocked or failed:", e);
-        // Fallback: Some files might be on web.klokah.tw
-        if (finalUrl.includes("file.klokah.tw")) {
-          const fallback = finalUrl.replace("file.klokah.tw", "web.klokah.tw");
-          console.log("Retrying with fallback:", fallback);
-          new Audio(fallback).play().catch(err => console.error("Fallback failed:", err));
-        }
-      });
-    } catch (e) {
-      console.error("Audio initialization error:", e);
+    finalUrl = finalUrl.replace("file.klokah.tw", "web.klokah.tw");
+    if (finalUrl.startsWith("http://")) {
+      finalUrl = finalUrl.replace("http://", "https://");
     }
+
+    // Dialogue/Essay path repair
+    if (finalUrl.includes("klokah.tw") && finalUrl.includes("/sound/") && !finalUrl.includes("/text/")) {
+       const match = finalUrl.match(/\/sound\/(\d+)\//);
+       if (match) {
+         finalUrl = finalUrl.replace("/sound/", "/text/sound/");
+       }
+    }
+
+    console.log(`[AUDIO_RETRY] Attempting play: ${finalUrl}`);
+    const audio = new Audio(finalUrl);
+    currentAudioRef.current = audio;
+
+    audio.play().catch(err => {
+      console.warn(`[AUDIO_RETRY] Primary failed for ${finalUrl}:`, err.message);
+      
+      // Fallback: If it has /text/sound/, try without. If not, try with.
+      let secondaryUrl = "";
+      if (finalUrl.includes("/text/sound/")) {
+        secondaryUrl = finalUrl.replace("/text/sound/", "/sound/");
+      } else if (finalUrl.includes("/sound/")) {
+        secondaryUrl = finalUrl.replace("/sound/", "/text/sound/");
+      }
+
+      if (secondaryUrl && secondaryUrl !== finalUrl) {
+        console.log(`[AUDIO_RETRY] Trying secondary: ${secondaryUrl}`);
+        const fallbackAudio = new Audio(secondaryUrl);
+        currentAudioRef.current = fallbackAudio;
+        fallbackAudio.play().catch(finalErr => {
+          console.error(`[AUDIO_FINAL_FAIL] fallback failed:`, finalErr.message);
+          setToastMessage("Audio playback failed. Please try again later.");
+          setTimeout(() => setToastMessage(null), 3000);
+        });
+      } else {
+        setToastMessage("Audio playback failed.");
+        setTimeout(() => setToastMessage(null), 3000);
+      }
+    });
   };
 
   const handleResize = (e: MouseEvent) => {
@@ -375,9 +418,12 @@ export default function GlobalExplorer() {
         />
 
         <TopToolbar
-          mode={mode}
           uiLang={uiLang}
-          s={s}
+          s={UI_STRINGS[uiLang]}
+          mode={mode}
+          setMode={setMode}
+          theme={theme}
+          cycleTheme={cycleTheme}
           query={query}
           setQuery={setQuery}
           showHistory={showHistory}
@@ -386,37 +432,55 @@ export default function GlobalExplorer() {
           handleHistorySelect={handleHistorySelect}
           clearHistory={clearHistory}
           removeHistoryItem={removeHistoryItem}
-          filteredResults={filteredResults}
-          level={level}
-          setLevel={setLevel}
-          lesson={lesson}
-          setLesson={setLesson}
+          results={results}
+          dictResults={dictResults}
           modules={modules}
           setModules={setModules}
           showSources={showSources}
           setShowSources={setShowSources}
-          essayId={essayId}
-          setEssayId={setEssayId}
-          isSearching={isSearching}
-          showFullOnly={showFullOnly}
-          setShowFullOnly={setShowFullOnly}
+          level={level}
+          setLevel={setLevel}
+          lesson={lesson}
+          setLesson={setLesson}
           standardize={standardize}
           setStandardize={setStandardize}
-          hideEmpty={hideEmpty}
-          setHideEmpty={setHideEmpty}
+          showFullOnly={showFullOnly}
+          setShowFullOnly={setShowFullOnly}
+          essayId={essayId}
+          setEssayId={setEssayId}
           vs3SourceRef={vs3SourceRef}
+          vs3FontSize={vs3FontSize}
+          setVs3FontSize={setVs3FontSize}
+          vs3CardPadding={vs3CardPadding}
+          setVs3CardPadding={setVs3CardPadding}
+          vs3BodyPadding={vs3BodyPadding}
+          setVs3BodyPadding={setVs3BodyPadding}
           vs3FillWidth={vs3FillWidth}
           setVs3FillWidth={setVs3FillWidth}
           vs3CardsPerRow={vs3CardsPerRow}
           setVs3CardsPerRow={setVs3CardsPerRow}
-          dictResults={dictResults}
+          isToolsOpen={isToolsOpen}
+          setIsToolsOpen={setIsToolsOpen}
           dictSource={dictSource}
           setDictSource={setDictSource}
           dictLayout={dictLayout}
           setDictLayout={setDictLayout}
           dictColumns={dictColumns}
           setDictColumns={setDictColumns}
+          dictLevel={dictLevel}
+          setDictLevel={setDictLevel}
+          dictGenres={dictGenres}
+          setDictGenres={setDictGenres}
+          dictStrict={dictStrict}
+          setDictStrict={setDictStrict}
           setToastMessage={setToastMessage}
+          dictDensity={dictDensity}
+          setDictDensity={setDictDensity}
+          hideEmpty={hideEmpty}
+          setHideEmpty={setHideEmpty}
+          displayLimit={displayLimit}
+          setDisplayLimit={setDisplayLimit}
+          filteredResults={filteredResults}
         />
 
         {/* TOOLS OVERLAY */}
@@ -439,6 +503,8 @@ export default function GlobalExplorer() {
               playAudio={playAudio}
               layout={dictLayout}
               columns={dictColumns}
+              dictDensity={dictDensity}
+              selectedDialects={selectedDialects}
             />
           ) : mode === "EXAMS" || mode === "FLASHCARDS" ? (
             <div className="flex flex-col items-center justify-center h-full opacity-60">

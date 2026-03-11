@@ -39,12 +39,17 @@ To maintain a high-resolution "Bwain", you must adhere to these hierarchy rules:
 2. **Sub-Spec Linking**: If a specialized plan (e.g., `P9_plan_vocab_integration.md`) is created, it **MUST** be linked under its associated Phase in [**plan_conquest.md**](file:///c:/Users/Ben/Documents/LL/6_ycm/YCM_Citadel/brain/plan_conquest.md).
 3. **Consistency**: Ensure terminology (GLID, Soul, Dominion) remains consistent across all documents.
 4. **Continuous Logging**: Agents **MUST** maintain a trace of structural changes in the relevant plan logs (e.g., `PORTAL_PLAN.md`, `AGENT.md`) to ensure session-to-session continuity.
+5. **The Meta-Log Habit**: Every major architectural shift or "non-obvious" bug fix (e.g., URL path repair logic) **MUST** be summarized in [**METALOG.md**](brain/METALOG.md). Focus on the *Why* and the *Discovery process*, not just the *What*.
 
 ## 🔬 Reproducible Research & Audits
 When performing data audits (Phase 10), adhere to these standards:
 1. **Script-First**: Never perform manual tallying. Create a diagnostic script (e.g., `core/audit_db.py`).
 2. **Artifact Persistence**: Report finding summaries directly into the assigned Audit document (e.g., `P10_reproducible_data_audit.md`).
 3. **Fidelity over Cleaning**: Identify and document corruption before proposing fixes. "Seeing is better than assuming."
+4. **Validation Checkpoints**: Every feature implementation must be followed by a "Validation Block" in the chat log, including: 
+    * a) Test data used (e.g., which word/dialect).
+    * b) Visual/Functional outcome.
+    * c) Edge case verification (e.g., what happens if 0 dialects are selected?).
 
 ## 🛁 The Sanity Rituals (Anti-Stale Policy)
 To prevent "ghost bugs" where data doesn't match the code, follow these rituals:
