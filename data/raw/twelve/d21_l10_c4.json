@@ -1,6 +1,866 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Tbula",
+  "titleCh": "香稻米",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "香糯米是一種很特殊的農作物，有很特別的香氣，嚼勁跟一般的糯米很不一樣，因此部落的人管它叫「Tbula（香糯米）」。又由於該香糯米品種是在日本時期引進的，且很適應在親愛村生長，至今布嵐部落栽植的面積較大，族人索性叫它「伊娜谷香糯米」了！",
+      "ab": "Tbula pnegalang nii ga, ida kingal nanaq sknxan ka knux na, yasa pskanan ruwan quwaq o ini ktna dha dhquy, kiya ni asi dha thngani “Tbula” da. Duri ni yasa Tanah Tunux siida ka pnrajing hmuma Tbula nii, pklug smkila bi lnglingay Cinaycun hini, hici do alang Pulan ka egu hari hnmaan Tbula, kiya ni thnganan dha “Tbula Inagu” da.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/e2baa26aab68689ff0f2eaa57bec64c3.wav",
+      "word": [
+        {
+          "ab": "Tbula",
+          "ch": "香糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/cb0d7d065d3aeb0dbe63ff465dd1be1b.wav"
+        },
+        {
+          "ab": "pnegalang",
+          "ch": "農作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/687ce68f72171a0decc6f9c70dd68a7b.wav"
+        },
+        {
+          "ab": "nii",
+          "ch": "這個\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/691f453dee852ba0ea7222427a888edc.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/c8caec337df345589c23aa47ea6bb43b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ida",
+          "ch": "原有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/034c10ab1b11b364665ebd9d26a19a49.wav"
+        },
+        {
+          "ab": "kingal nanaq",
+          "ch": "特別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/3bfc3fb542de88ad4505a5755cb28b6a.wav"
+        },
+        {
+          "ab": "sknxan",
+          "ch": "聞之",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/e227a50c6ba35a28e0afe9be9727c6fe.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/84e43a60237ffece9cd4c85c103e298c.wav"
+        },
+        {
+          "ab": "knux",
+          "ch": "香氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/849c7b9fe5dfea5e93665c8bbfba04f0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "它的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5c738e3fad5fd5da98821f932af12cd5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yasa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/42f2d2234188bfdd8fab51ddcadcee37.wav"
+        },
+        {
+          "ab": "pskanan",
+          "ch": "咀嚼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/7d393d38b3c71c1a8a6c2f1c77c13f22.wav"
+        },
+        {
+          "ab": "ruwan",
+          "ch": "裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/1421d046e2c25a6ebad36a68d9f3be05.wav"
+        },
+        {
+          "ab": "quwaq",
+          "ch": "嘴巴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/2db559a91e35ed06d98446aa9cbbcc73.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/f843b38155cd45cd93df8b66feaf3492.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/f6026b2fee4a55c46ac4618a77825d6d.wav"
+        },
+        {
+          "ab": "ktna",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/f365c0e4bc0642c916d918d58d764f01.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/947501a196966253d01a63be8a17e8cd.wav"
+        },
+        {
+          "ab": "dhquy",
+          "ch": "糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/d87b4975632db1483e0a987baef53574.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiya",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/08/b62b7d87c1ecf10c6fc000df4794e977.mp3"
+        },
+        {
+          "ab": "ni",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5cf0b0751a223522c722f87bc8a9628d.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "必須；直接",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/ec4f1bd61012641a6eb0aa63cd06cf39.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/697ccc51fe209d656184c9bb24e6a455.wav"
+        },
+        {
+          "ab": "thngani",
+          "ch": "被稱為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/62442aaa48b9cbdbb0d7a7ef536149cb.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tbula",
+          "ch": "香糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/11d705f237001472de4958c2e82fc4c1.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "da",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/d162afc49f55985d7a550edc9f2864aa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Duri",
+          "ch": "再",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/6b72b336f3b704bf09040e76c23c8fb3.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/27dbd63fba03e0e661eb93d556bc920f.wav"
+        },
+        {
+          "ab": "yasa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/2aa075ae40230194efbce78a0d5fad28.wav"
+        },
+        {
+          "ab": "Tanah Tunux",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/3a93c1c593e624d2d0a6ea4c55e9cfd2.wav"
+        },
+        {
+          "ab": "siida",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/023eae08cd291f454a56b1a29084f1ea.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5ec8b136da1b014682313777cb7a82ee.wav"
+        },
+        {
+          "ab": "pnrajing",
+          "ch": "引進",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/7fdb5a907ceda3616f7d38ce9fedb7d2.wav"
+        },
+        {
+          "ab": "hmuma",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/28ffe17ac4a1b39d5cf3b5405f1c1dc6.wav"
+        },
+        {
+          "ab": "Tbula",
+          "ch": "香糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/e213e90ae7c55e7e8c2a5e9d7394a067.wav"
+        },
+        {
+          "ab": "nii",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/a8b49816330ad984a1948f4e9f883d93.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pklug",
+          "ch": "剛好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/abc58d2523df2aea708a509fbd201437.wav"
+        },
+        {
+          "ab": "smkila",
+          "ch": "適應；習慣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/993f1b170d93f3244b0f7bf78adb40e2.wav"
+        },
+        {
+          "ab": "bi",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/98ec5a26e93d3c0e9a96e525be06e014.wav"
+        },
+        {
+          "ab": "lnglingay",
+          "ch": "周邊環境",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/8146323ea464375d32c02c8df59d8c39.wav"
+        },
+        {
+          "ab": "Cinaycun",
+          "ch": "親愛村",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/7c2410c8be77b896e8a5b26d1a994a23.wav"
+        },
+        {
+          "ab": "hini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/f9410dc8c8ee4c30eddce993d9ee936f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hici",
+          "ch": "留下；後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/fd52865dec24ba68bd106c7aa29afa9b.wav"
+        },
+        {
+          "ab": "do",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/a41e84649fcc388f3e64a1f45a720c12.wav"
+        },
+        {
+          "ab": "alang Pulan",
+          "ch": "布嵐部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/9bcfb8264cf53ed70ad779e7a43bd96a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/ba3fe3d296f3e7269b66f163d31b3dc3.wav"
+        },
+        {
+          "ab": "egu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5d9a211be011de4a592120e7cdbe585a.wav"
+        },
+        {
+          "ab": "hari",
+          "ch": "一些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/3842cc134c8a40d477619af40a1b9813.wav"
+        },
+        {
+          "ab": "hnmaan",
+          "ch": "裁植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/efa4e6f5c6359cc2eadc5d731716468e.wav"
+        },
+        {
+          "ab": "Tbula",
+          "ch": "香糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/739a18e3b78a91922a806b7b1e74df2f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiya",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/08/0f4d5c0136eebcd9f328cc2fb6df263b.mp3"
+        },
+        {
+          "ab": "ni",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/3530af42dc880d61af906cf5b3c9bde1.wav"
+        },
+        {
+          "ab": "thnganan",
+          "ch": "被稱為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/6bc266130585aafbe6e5fff58ec2e761.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/ee92edd48f586699b992fea3d9a2ca85.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tbula",
+          "ch": "香糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/bc2fd0ad35ca0c20fcca44f864b9fd46.wav"
+        },
+        {
+          "ab": "Inagu",
+          "ch": "伊娜谷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/553ed65b08798c8e41e5bb4b8486d49a.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "da",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/72dce8029979b5c942a316445fec7afc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "「Hlama（點心）」誰都喜歡，從小孩到長輩沒有不喜歡吃的食物。在山上的部落「hlama（點心）」一詞有兩種意涵，一種是煮過的，一種是買來的。如果看到家人要煮糯米，就知道將會有親友來拜訪。這一天是小孩們會不時地望著時鐘，等待親友的到來，期待享用人間美食伊娜谷香糯米。",
+      "ab": "“Hlama” ida kuxul bi mkan ana ima, kndadax laqi dhuq rudan ungac ka ini skuxul mkan hyaan. Mniq alang dgiyaq o ida niqan dha klgan ka “hlama” ksun, kingal o hnpuyan hlama, kingal o bnrigan hlama.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/02e6120e4959b0e4f86d16e2ef8f921d.wav",
+      "word": [
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Hlama",
+          "ch": "米糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/83a17b1aec90395c67bba676be661288.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ida",
+          "ch": "依然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/62e44a80b946f921a9bc9712612442bd.wav"
+        },
+        {
+          "ab": "kuxul",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/ab29fe6d1217894ad5cd4e77c34855e7.wav"
+        },
+        {
+          "ab": "bi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/d1aecc83b16d6eb76039fd5cad6d77a9.wav"
+        },
+        {
+          "ab": "mkan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/7d54b4aa7cf58b91cfdeb51b235739b2.wav"
+        },
+        {
+          "ab": "ana ima",
+          "ch": "任何人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/16a50d670cfa9afa1ebd0022240fb0f9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kndadax",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/3846f5ae211da371800d278073470dd0.wav"
+        },
+        {
+          "ab": "laqi",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5a432ca05467666d90425b7b869c5003.wav"
+        },
+        {
+          "ab": "dhuq",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/eec278b875a784c7646e2a27648819d5.wav"
+        },
+        {
+          "ab": "rudan",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/447f51ef2d069e87d21382789ccab1e6.wav"
+        },
+        {
+          "ab": "ungac",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/ae618c0a3cb67308d7299886a7add4b6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/36116e9d1a175bb29a06812229468c09.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/fc776b37fffef0ec8760a429d47df2c1.wav"
+        },
+        {
+          "ab": "skuxul",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/53745c007d52b822a57d054c05f159c3.wav"
+        },
+        {
+          "ab": "mkan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/db9ac3a65676e73044ba7e4cecf5f665.wav"
+        },
+        {
+          "ab": "hyaan",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/749ede9d1b7fcc4551e54b385b279f65.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mniq",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/51c8a2a1dffa372556506579fcb41a1d.wav"
+        },
+        {
+          "ab": "alang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/f7e47cabc89aa734c3c9aec9aa9692c0.wav"
+        },
+        {
+          "ab": "dgiyaq",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/fa520d9c2a0ed06a90e3ebc59df2a0d4.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/107eb0318b6c1d8123450a8fa341c3f4.wav"
+        },
+        {
+          "ab": "ida",
+          "ch": "依然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/cf4bc646dd5d0bc48d3f63b68a6f5926.wav"
+        },
+        {
+          "ab": "niqan",
+          "ch": "住在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/f134d7fd60ab4f26d0d681840b0a30f7.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/cb02c80442fdb860ef45b82fe9b53ebe.wav"
+        },
+        {
+          "ab": "klgan",
+          "ch": "種類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/64126291a78b0949415681f9c9e8446d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/3c3d2bb7565649cee9650f4a094d4052.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hlama",
+          "ch": "米糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/4293b9e4727211e389e1ec432b533e2c.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ksun",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/e2e115339d25c6437efd1583788d8c4c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kingal",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/7ef6e9e2590d825b45c68da5feceb641.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/0521122bba3fdb214022c1533f268b4c.wav"
+        },
+        {
+          "ab": "hnpuyan",
+          "ch": "煮過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/81f9929cc1b60a5c314bde96350a3d59.wav"
+        },
+        {
+          "ab": "hlama",
+          "ch": "米糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/cf6a9b5fa924deb1c223f5c9c80ac9a8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kingal",
+          "ch": "一種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/4d0eff2294b9d47db256d84c1f8dfee8.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/3ae09362e39fd5ea97f96f1695286e91.wav"
+        },
+        {
+          "ab": "bnrigan",
+          "ch": "買來的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/0ed3c99611eae3fc3c53fa0fbd130671.wav"
+        },
+        {
+          "ab": "hlama",
+          "ch": "米糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/c7c30fd0053ed68c64821a269de80267.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "香糯米六月育苗、七月插秧、大約九月中旬就會釋放香氣，準備結穗，十一月收割。一年僅收割一次，對嘗過香糯米味道者，對其迷人的香味難以忘懷，因此存貨絕對不會超過當年。",
+      "ab": "Tbula ga smupur idas 6, hmuma idas 7, yabi kska hari idas 9 do pusa knux ka bubu payay Tbula ni emprajing mghiyi da, kmburung idas 11. Kingal hngkwasan o ida  mangal txal balay, yasa klaan balay mnkan sjiqan eseisil alang ka Tbula, kiya ni ini dha pniqi dhuq hngkawas siida.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/007619eedbdde16adf6849f0e993f245.wav",
+      "word": [
+        {
+          "ab": "Tbula",
+          "ch": "香糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/a2daf6d006b9b09d13bdb15017a4d714.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c45ff238efdaeb27177502d90e93f60b.wav"
+        },
+        {
+          "ab": "smupur",
+          "ch": "育苗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/d8b08550cd94134c41e87ac5ab772552.wav"
+        },
+        {
+          "ab": "idas 6",
+          "ch": "6月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/73ead3de69a5f3dbe5e6010b87e68727.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hmuma",
+          "ch": "插秧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/3c06891375b688d31554f6770fbce90a.wav"
+        },
+        {
+          "ab": "idas 7",
+          "ch": "7月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/03e3ae4dc11a6abfcd5683caea151a40.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yabi",
+          "ch": "也許",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/8150f7a0f8d5dc5085bcbacef4706fc5.wav"
+        },
+        {
+          "ab": "kska",
+          "ch": "中旬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/98ba58ed593acc910e5d68bfea9ff914.wav"
+        },
+        {
+          "ab": "hari",
+          "ch": "一些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/16a8dbbbdbb3056273cbf39955c6f7b0.wav"
+        },
+        {
+          "ab": "idas 9",
+          "ch": "9月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/ea6800b170ae74a500d50a77c1cd2b0c.wav"
+        },
+        {
+          "ab": "do",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/d138e56c84b07fbc52df356e3809368a.wav"
+        },
+        {
+          "ab": "pusa",
+          "ch": "釋放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/92ce73519d6ef5260d6786d767e5181c.wav"
+        },
+        {
+          "ab": "knux",
+          "ch": "香氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/0383bd4aa37e8dd109be3864bc703eda.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/04e85c80a49b7b5a54537facf38a28b8.wav"
+        },
+        {
+          "ab": "bubu",
+          "ch": "母株",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/08/f3739a1ca0e9816f00d4efae1cf7b2b5.mp3"
+        },
+        {
+          "ab": "payay",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/65086f9dd032d3d47bd1a5e6e9db542a.wav"
+        },
+        {
+          "ab": "Tbula",
+          "ch": "香糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/80bbfe43002d9ec3acd60ccf1d0a89e3.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/1d7c99424b5382bc1fe49a7efc74a5b6.wav"
+        },
+        {
+          "ab": "emprajing",
+          "ch": "將要開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/35d823b496846c48c1d98c954aeb0964.wav"
+        },
+        {
+          "ab": "mghiyi",
+          "ch": "結穗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/0ba425cc5b752326954361d23a9999b5.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/4b1b30a7fae3a9b00c4c65a3732a742b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kmburung",
+          "ch": "收割",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/b7c2d736a92c7992e5b3accaf9113c36.wav"
+        },
+        {
+          "ab": "idas 11",
+          "ch": "11月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/2d45da15db966ba887cf4e573989fcc8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kingal",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/8db46ae484cc3e07dc4cc1a5b2e7fb52.wav"
+        },
+        {
+          "ab": "hngkwasan",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/d35b790f94f3c38cffa277c67bd55da7.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/8e4e56370bcbc15a4fa145816c52f32a.wav"
+        },
+        {
+          "ab": "ida",
+          "ch": "依然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/8dffe5b204ef21a11e551adb4d2e9e21.wav"
+        },
+        {
+          "ab": "mangal",
+          "ch": "收成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/44ee12e657769c5f18a017dee14dedd7.wav"
+        },
+        {
+          "ab": "txal",
+          "ch": "一次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/59a3e5c5684f2219aeba5934fc50e8bb.wav"
+        },
+        {
+          "ab": "balay",
+          "ch": "真正",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/f011764aa39e28db078bf2d44bd5c81e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yasa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/132cdc22be806981e9e0c3cd4cea2480.wav"
+        },
+        {
+          "ab": "klaan",
+          "ch": "認識",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/0d73a4088d495eed48b66afadc4aa1d5.wav"
+        },
+        {
+          "ab": "balay",
+          "ch": "鄰近",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/9dada1df65473b498f1f50c9f25beb43.wav"
+        },
+        {
+          "ab": "mnkan",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/bcba3d64b7e6c74eb7a73be5800d0491.wav"
+        },
+        {
+          "ab": "sjiqan",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/205a8cafa5be198a0db7c67b90451497.wav"
+        },
+        {
+          "ab": "eseisil",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/6495fc163fb8f2fc0fe7c8a06fc8ed18.wav"
+        },
+        {
+          "ab": "alang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/43b42857454720f741d62c1f5ddc1e90.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/b03625c7a437a32ba45832b8e81c4271.wav"
+        },
+        {
+          "ab": "Tbula",
+          "ch": "香糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/9e92c56b07777926189cdffe9110dffd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "沒有",
+          "sound": null
+        },
+        {
+          "ab": "kiya",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/be745ec132d6b2f4db43aa8f94324ebf.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "存放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/42ccbf86423e1d40f81fb35015fd2c7e.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/d2e8d72688685804af73c181f4f14e9f.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c625dc1fd57f8d818b6718ee5ce9d27e.wav"
+        },
+        {
+          "ab": "pniqi",
+          "ch": "存放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c4e4e58273db0a045aa4e5715e137372.wav"
+        },
+        {
+          "ab": "dhuq",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/4d3fe5462355a07bb3cb257a2146dacc.wav"
+        },
+        {
+          "ab": "hngkawas",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/65951d951d3b5df75fc887290a473774.wav"
+        },
+        {
+          "ab": "siida",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/ef41b2ad0976c63d21d712e7fa9ec785.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

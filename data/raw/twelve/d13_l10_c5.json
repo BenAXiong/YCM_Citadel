@@ -1,6 +1,916 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "malang",
+  "titleCh": "手工製作",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "傳統生活中有許多木製器皿，像是木盆、大型木盤、木碟、木缽、湯匙、傳統領袖專用單杯、連杯、杵、臼、長方形木槽等。",
+      "ab": "aicu a malang tua tja pakazuanan, izua lingadja, izua qavaqavayan, izua lidapay, izua lulu/capar, izua kizing, izua karutailj, izua langalj, izua valanga, izua qaselu, izua varukur. aicu a tja pakazuanan a inalang, tja sipiliq tua nasedaljep a kasiv, nu ika maudemid nu ika mincelaq, nu ika maparaumalj a kinakasivan, vana maqati a tja alangen.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/807146b6e182180f66c8f118b3b7cc4a.wav",
+      "word": [
+        {
+          "ab": "aicu    ",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e3c1376508fca65b18d18df2c10b1bf3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/dbe39b08048bcce92c458121b15a9d33.wav"
+        },
+        {
+          "ab": "malang",
+          "ch": "手工製作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/ff2e8c16b8cc1c63167de8ed1e19512e.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/954599b8e9b0c7ddacd9f8c9f3f05c76.wav"
+        },
+        {
+          "ab": "tja  ",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a37c5dfb4049efea3bc8613ada49c452.wav"
+        },
+        {
+          "ab": "pakazuanan",
+          "ch": "廚具",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/9b959ac809d4ce5175aea88763c48420.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": " izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0a539951d06b03278cd4203532d06142.wav"
+        },
+        {
+          "ab": "lingadja",
+          "ch": "木盤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/41cdb09d57d979b27707d039e7d79ed5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izua    ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e5aa165afeeb4eca6d59fc57aaf02ec6.wav"
+        },
+        {
+          "ab": "qavaqavayan",
+          "ch": "大型木盤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d088a8603d2de29a789e455db1b76a05.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": " izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/072fe95e9836289c4977eb1edd8fdc9a.wav"
+        },
+        {
+          "ab": "lidapay",
+          "ch": "木碟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/1d621120a54fb648cb3d036bb353babe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d8fb07f3a4717801857882692f7bcec6.wav"
+        },
+        {
+          "ab": "lulu/capar",
+          "ch": "木缽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/1f9192dece215fd36826088652886231.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izua   ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/69fb0671cd60bc47ceed9fe8f1bbb201.wav"
+        },
+        {
+          "ab": " kizing",
+          "ch": "湯匙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3c0445be79d4169ca2e6ae1ee6294095.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izua ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/dca91befc7c45a3618d768732d684d9a.wav"
+        },
+        {
+          "ab": "karutailj",
+          "ch": "單杯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/20/62d3db445cc598928970f95069470e4a.wav"
+        },
+        {
+          "ab": "izua ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/a327e59f50a847a67b4a6eb4c06342e6.wav"
+        },
+        {
+          "ab": "langalj",
+          "ch": "連杯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/98034f517b9804fa64193cda4eaa243a.wav"
+        },
+        {
+          "ab": "izua ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/cefabaa58f2563add15b85001c23d455.wav"
+        },
+        {
+          "ab": "valanga",
+          "ch": "臼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/71fb204f043540b78607991e69bfdb2e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izua ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2683f10bde07984e524f91f1dcd1d7d5.wav"
+        },
+        {
+          "ab": "qaselu",
+          "ch": "杵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/84b3949b9be623728b1ca379a4cc0717.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izua ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/430ddd83b6d82306b75bb4c3d45b91f3.wav"
+        },
+        {
+          "ab": "varukur",
+          "ch": "長方形木槽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/20/fb61e03c5a441df1da7d32542901f4d5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aicu ",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/456e5678d0431b6ef7501d834ff415bc.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/82fb62a96f71dfc02b14162e7f5b6579.wav"
+        },
+        {
+          "ab": "tja ",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d84acf54bf210a0322ec420491c1616c.wav"
+        },
+        {
+          "ab": "pakazuanan ",
+          "ch": "廚具",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/18cb5657ca8c78f9552b1c1c184d07f4.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/fb862afbfccdbfb6f8d3f68cae663339.wav"
+        },
+        {
+          "ab": "inalang",
+          "ch": "手工制作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e4fb418491aa8697dee634369758a7f1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": " tja ",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a9491a88197026cbd7c1b91895e89dd4.wav"
+        },
+        {
+          "ab": "sipiliq ",
+          "ch": "要選擇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/506f84cd779606cf07cf34cf59f17945.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/6a507b2fbb6d682839d872bbf57343b0.wav"
+        },
+        {
+          "ab": " nasedaljep ",
+          "ch": "適用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/23/6677b21c2be1e1f008baa1fad33e58e1.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/4f89c17475aa85cb632814f13f76c9ff.wav"
+        },
+        {
+          "ab": "kasiv",
+          "ch": "木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d2aed53f72e711e5432279ccc7565dee.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": " nu ",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/421226424caa51eca0ad7ffed8de2409.wav"
+        },
+        {
+          "ab": "ika ",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/75a5c32de4feda13bec18dcd8e2b0f37.wav"
+        },
+        {
+          "ab": "maudemid ",
+          "ch": "材質軟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/fb0e8c3d18999a3da8e6678586b7b9d2.wav"
+        },
+        {
+          "ab": "nu ",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8e6c627de8eca0a8ce41b9fc2f5e2648.wav"
+        },
+        {
+          "ab": "ika ",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d469ed09ae8127bedd31f9254c0e2c13.wav"
+        },
+        {
+          "ab": "mincelaq",
+          "ch": "龜裂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e206d507b0f7294235c3940292f60ac0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu ",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/b468cd229fc8c5c58f8a84a586dd8ab5.wav"
+        },
+        {
+          "ab": "ika ",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/6c9d3b5601e73160a1230e0572523ba2.wav"
+        },
+        {
+          "ab": "maparaumalj ",
+          "ch": "變質",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/1174ef3b3107a847d32854026a0448cf.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/56a465c9508ceead97dda6643575a5a5.wav"
+        },
+        {
+          "ab": "kinakasivan",
+          "ch": "原木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f305d8ebc371eebf312e63a3efd6fe6c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "vana ",
+          "ch": "如此才是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f358992251a789394ced79a797eeabfe.wav"
+        },
+        {
+          "ab": "maqati ",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/518d2022730ac96f3ab587a756275b0e.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f6748c55254285e9dc1e49d2761a2d1d.wav"
+        },
+        {
+          "ab": "tja ",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f201607810fa2664142169a9aa760410.wav"
+        },
+        {
+          "ab": "alangen",
+          "ch": "手作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/4a3e0ce5382bfb7cbb486a519c109724.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "而這些可以製作成器皿的木料有櫸木、鵝掌材、茄冬樹、烏心石等。取材也有選擇性，什麼季節適合取材呢？冬天最適切。從入冬後直到隔年約3月時，春雷大作之前都是採集木材的季節！所採集的木料不易斷裂、腐蝕。",
+      "ab": "aicu a maqati a tja kasengesengen a kasiv, izua tjeves, aicu a pauljay, aicu a cuqu, aicu a sekazu. ljakua aicu a tja siayaya a kasiv kipiliq tu sikaljanemaneman a sikikasivan nu kaljavuceleljan, a pata macepeliv a cavilj, nu katjelu a qiljasan. nu iniyaka mangetjez a zung, mana tja sikikasikasiv! ta inika caljameqen, inika mavuk.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/e65d9329de8c0cfb88e22b924208f9bc.wav",
+      "word": [
+        {
+          "ab": "aicu",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/192e289694724c3ecb2e0868855e684f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/82b1e0df295ee681f1fa2f213ade823d.wav"
+        },
+        {
+          "ab": "maqati",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/79117024a2c4c487582a404ffe5e139c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/bf781978ae2e5ac6e0b1c6d6866bf027.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/78c5d29619d853bb08f9030da6c74caf.wav"
+        },
+        {
+          "ab": "kasengesengen",
+          "ch": "製造",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/ef71a9ab8820df91d07272c4b67b4ac3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d5deb7867dfab180284ba968d1df0e3b.wav"
+        },
+        {
+          "ab": "kasiv",
+          "ch": "木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/08b15e0d81402922677ace324d91afcb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/652ad9188214880313acaba782c75850.wav"
+        },
+        {
+          "ab": "tjeves",
+          "ch": "櫸木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8b4c814cb60fc624e25729c9701130ce.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aicu",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/4318bb16a9abdf9b7d60882541891e14.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f7979b1d3d1a4271f2d0b9e62b6b3e78.wav"
+        },
+        {
+          "ab": "pauljay",
+          "ch": "鵝掌材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a4b2593ad2f1f40a988faca3e4ea8791.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aicu",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2ddce6dac512e88ff2f1c8d656cfea0b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/528033f021a62293c2be4c0eb21abc65.wav"
+        },
+        {
+          "ab": "cuqu",
+          "ch": "茄冬樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/00570c78f3d7277184b5f86dc919fce5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aicu",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3e6cddb9963945c4428c12d650ad45e2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0a32bfcf5c87aa42d2a0367c1f6bb17c.wav"
+        },
+        {
+          "ab": "sekazu",
+          "ch": "烏心石",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/fd52e2b70f4dc59bdc3607ce5244e3a1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ljakua",
+          "ch": "可是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/5e920dca2fbeb852c6ec52cb2f27af02.wav"
+        },
+        {
+          "ab": "aicu",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a6b032cc13e531b6fc9824b18154da41.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/05af582963d938835b53d24582fdfc20.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3cc589777b429f93c1b253fc20d226f6.wav"
+        },
+        {
+          "ab": "siayaya",
+          "ch": "我們說的這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/7432dc2a0d1c4b7628a168ef478d8cf4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/1a1f9720ea6295ccc73b43c07287b160.wav"
+        },
+        {
+          "ab": "kasiv",
+          "ch": "木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/21354e8024a4260d693a0c258fb366d8.wav"
+        },
+        {
+          "ab": "kipiliq",
+          "ch": "挑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3d416dd6bb111d286c440275122536a2.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f07dcda13fe28677457fa8cd2beba0fa.wav"
+        },
+        {
+          "ab": "sikaljanemaneman",
+          "ch": "如何的季節跟地點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/532f46f52e673dcf04c80bd66f92ce38.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/fd23a83ed38c39d4531ddb6601e541f9.wav"
+        },
+        {
+          "ab": "sikikasivan",
+          "ch": "砍伐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e0b5b498f16be63117db8605f5ad6262.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/42fd7f88bc1ef7a37d84b9b759280209.wav"
+        },
+        {
+          "ab": "kaljavuceleljan",
+          "ch": "冬季",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/23/7384f4f5709dde121fb677bf4a624d65.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/cfdfddcecec1b58a110af4e7ce8eda31.wav"
+        },
+        {
+          "ab": "pata",
+          "ch": "直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/86b72c6ac07c6966fb909f2b4a8983f4.wav"
+        },
+        {
+          "ab": "macepeliv",
+          "ch": "換季；轉年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/dc9ff8b8d2712352c76fd4e56030baca.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/067d1992490e19b646a000ab9ead7f18.wav"
+        },
+        {
+          "ab": "cavilj",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8cf4452f74d51b9d3e90088577ccf727.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d1cfd4f44b52974aeaf3a57804e8d86f.wav"
+        },
+        {
+          "ab": "katjelu",
+          "ch": "三月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/9fef0a72e839c0d644910adad3abd603.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2aae74f2ef1ece0ba22b9ba9b71ffff6.wav"
+        },
+        {
+          "ab": "qiljasan",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/450afb80fb0be1b9b100a4e5dcfafb76.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2bab85a3170bcc20cdbc152ee64bc136.wav"
+        },
+        {
+          "ab": "iniyaka",
+          "ch": "還沒到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/1be130c6197dd5bedc355fa9ff92c59a.wav"
+        },
+        {
+          "ab": "mangetjez",
+          "ch": "回來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f221cd77dea602d0e8a748e53289fa88.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/26c56db641a2e71c63b83c45750ba025.wav"
+        },
+        {
+          "ab": "zung",
+          "ch": "打雷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/43e5b1428004ee5573dbf4638fe63f00.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mana",
+          "ch": "如此是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/055181f808209178c075749d273bee8a.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/aef7194748bcca8065e17ba22cb400e1.wav"
+        },
+        {
+          "ab": "sikikasikasiv",
+          "ch": "砍伐木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/63ee54bb1c0b326c976aea62a4a28259.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0af1e7149e902be77466308cfb0c6d35.wav"
+        },
+        {
+          "ab": "inika",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/ab897398ce31791fffec3877ed647387.wav"
+        },
+        {
+          "ab": "caljameqen",
+          "ch": "腐朽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/db512b5b375ad25830d6468632e83f65.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inika",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/037d4dc50492f41a3e67d823a95bb7c7.wav"
+        },
+        {
+          "ab": "mavuk",
+          "ch": "腐爛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3531d0b9e7d83caaef7ecf9ec9b363f2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "可是還有一項要謹記的，來自東面北大武山及迎風面的木質是最佳的手工製品材料，不但堅硬、含水量少，成品可長久使用！",
+      "ab": "ljakua izua a masanitalj anga uta, aicu a napasakacedas a kasiv, katua ita mavalivali a kasiv, avanazua a tjalja nguanguaqan a tja sikasengeseng, lja nakudresul, saka inika tjevetjeven aravac. maqati a tja sipalalaut a kikamanguaq!",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/06/ad8db644064a63ee9ab70ba55e719135.wav",
+      "word": [
+        {
+          "ab": "ljakua",
+          "ch": "可是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/9c216a24d88f559fd10c9d64ff7f489c.wav"
+        },
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/4d0735ba081233c2def4257d5ead1c43.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/662a02ffc0b29715748d6e97b669bbb4.wav"
+        },
+        {
+          "ab": "masanitalj",
+          "ch": "有一件事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3bed9f3cd52a4269e7dad4ee6d90b109.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/56ef52b01d1322a2f2d8f3a545f51324.wav"
+        },
+        {
+          "ab": "uta",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0513e1a0a3fc130a339ebc4ce61b07d1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aicu",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/50a3beeb7026544ee247a5bf89b1d464.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/9d7aae53b987aa757d0e12714b7d0a4b.wav"
+        },
+        {
+          "ab": "napasakacedas",
+          "ch": "向東方之地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/839b0cf52e41811ed8e4710b38c93e80.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/eb926f4de043c626b935656be04d59f4.wav"
+        },
+        {
+          "ab": "kasiv",
+          "ch": "木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/7bf9511772a7aab4c9358ea86e22a0f3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "katua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/723b0bd9bf23f52c39f300986eb1d188.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/82b0a0b221bd9966688b9d802b2e04db.mp3"
+        },
+        {
+          "ab": "mavalivali",
+          "ch": "迎風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/6264a2a5f21b95ee2513b175d4fe2bef.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e179c3c40c3f791be8cd96acd15648ea.wav"
+        },
+        {
+          "ab": "kasiv",
+          "ch": "木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/5f87d064667200621770197c434fd5f5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "avanazua",
+          "ch": "那個才是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/50fcad07ab628b89ae7932f7a8169d54.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/5769b23a5e8085231e5b159684b93f5c.wav"
+        },
+        {
+          "ab": "tjalja",
+          "ch": "最",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/94d1409222a3475c7b218f88ecda3666.wav"
+        },
+        {
+          "ab": "nguanguaqan",
+          "ch": "好的，優質",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/20/552b796f97f10bc78ae6699e2024f242.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f1231d40662ce65e570a1fb8c03a7aa0.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/79963fa0eac4a8b4ec8f60dd85025531.wav"
+        },
+        {
+          "ab": "sikasengeseng",
+          "ch": "可手作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/c26ebc788cb8dc59ee3a5bee200f9d4f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lja",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0c897d83d96df587e451792228ab44ce.wav"
+        },
+        {
+          "ab": "nakudresul",
+          "ch": "材質堅硬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/74be1eedf38d4907bdd5c90cd6c2a0d7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "saka",
+          "ch": "而且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f2d04bc7a31b271c38eef1a1c52c51bf.wav"
+        },
+        {
+          "ab": "inika",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a0c54b07baadfd3c42e5a02a4fdb95da.wav"
+        },
+        {
+          "ab": "tjevetjeven",
+          "ch": "潮濕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/7077dcdb25617c33f5b3497451c6807f.wav"
+        },
+        {
+          "ab": "aravac",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f06716b94271163d998d7337bde4c12d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqati",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/61e626641b507015d1d403d2ecdd02fb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/4e52584daa6be7f107c90134abcb2a77.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/7cf127b3c961b27b9c32ea4cd39aaed1.wav"
+        },
+        {
+          "ab": "sipalalaut",
+          "ch": "永久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/bb5d608b32eaf0c25112c1d72feea4e2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/aff44e03cfd18af13fb74248b771840d.wav"
+        },
+        {
+          "ab": "kikamanguaq",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e8875ccec730280ea49de211a03f1d45.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

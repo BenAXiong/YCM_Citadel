@@ -1,6 +1,947 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "rgyax",
+  "titleCh": "山",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "山 山 山 ",
+      "ab": "rgyax rgyax rgyax",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/19/c71d144e833045c0bdc7d527d7d6cdc1.mp3",
+      "word": [
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/10/9019a3bb4e100dcfa9e4560a3ebf9e76.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/10/2dfa159b8b287d0e86b2ae1a77f6a3da.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/10/88c80a152f75eafe2cb0a5640dffa6f8.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "如同矗立的泰雅（人） ",
+      "ab": "yani balay sinrxan na Tayal",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/b1df744593b5db561bdd2a8ee62e52e9.wav",
+      "word": [
+        {
+          "ab": "yani balay",
+          "ch": "如同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/10/2ddf15efdcbe0e9825e4794e1207cdeb.wav"
+        },
+        {
+          "ab": "sinrxan",
+          "ch": "長相",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/10/bced0f7a328027d5152ad9e4428e101d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/10/77293a31ecefb627ff95e49f546adb08.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/10/c3e701d9c71e5fb4b96c8717fc28f932.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "溪流如同奔騰流竄體內的血液 ",
+      "ab": "gong hya ga yan balay ugeq ramu tmora lmosay",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/31ca94309a3b96e40224bd738460c2bf.wav",
+      "word": [
+        {
+          "ab": "gong",
+          "ch": "溪流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/4362e848250665d0d24f56139f8f3351.wav"
+        },
+        {
+          "ab": "hya",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/d8ba966cfd8cee6a6bf39415769d2864.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/bcb9d5b406708ec04efb97bef6f033d6.wav"
+        },
+        {
+          "ab": "yan",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/7ea110d314804c452ba6850cacc66d2f.wav"
+        },
+        {
+          "ab": "balay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/87daad199a198783c01bd20088fbb039.wav"
+        },
+        {
+          "ab": "ugeq",
+          "ch": "筋脈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/e2e72a4ce9ce841c97e5fcf19f1cebc8.wav"
+        },
+        {
+          "ab": "ramu",
+          "ch": "血",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/27f7a62a5fa960ebc7954f06120fb85b.wav"
+        },
+        {
+          "ab": "tmora",
+          "ch": "翻騰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/5344c45a7e55cc5dad47f6f38861b8c6.wav"
+        },
+        {
+          "ab": "lmosay",
+          "ch": "流竄",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/00c733595d3d0b9040e11ff0058cf6fc.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "雄偉的山壁如同熊的胸膛 ",
+      "ab": "krahu merhuw rsnat ga yan balay skutaw na ngarux",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/f0f0ed93dee83ca924340b4eaa5c7fdb.wav",
+      "word": [
+        {
+          "ab": "krahu",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/2156231b8b26c7c570e59de28a77b6fd.wav"
+        },
+        {
+          "ab": "merhuw",
+          "ch": "穩重",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/7a8d142f1796bfff74a5cca43445b840.wav"
+        },
+        {
+          "ab": "rsnat",
+          "ch": "岩壁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/42ccf205710db525fb19f9ccb6a4ad21.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/6e99e774ee9fd97cd440a096122009d8.wav"
+        },
+        {
+          "ab": "yan",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/8ca98bdefe7f021eff5e94de848b4524.wav"
+        },
+        {
+          "ab": "balay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/759d7935a4db7866e02544f28b9d40d3.wav"
+        },
+        {
+          "ab": "skutaw",
+          "ch": "胸膛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/4a115a53c5d9fbb945392f18c86ae347.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/65a1b815383aad88e999c9fac387e416.wav"
+        },
+        {
+          "ab": "ngarux",
+          "ch": "黑熊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/af2da0f4e4ee1ac20d70ad837cbd034e.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "竹林在風中搖曳如同泰雅女子柔順的髮稍 ",
+      "ab": "znwi na behuy ka reruma’ ga yan balay snonux na mkrakis cyux mzyugi’",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/55ee2fd195716c5ffd0653fd1237534e.wav",
+      "word": [
+        {
+          "ab": "znwi",
+          "ch": "搖曳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/cbc6b78ac28d509dd7fa4f8e6c2f105b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/f2522dcf75f0e95270eded53c3e90510.wav"
+        },
+        {
+          "ab": "behuy",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/8e86606fab5d4c224fb1e9e51ec86813.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/00388bea91c2268ffaded5ce9c8e0151.wav"
+        },
+        {
+          "ab": "reruma’",
+          "ch": "竹林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/1885607313960d543c879c8828ca07b0.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/076e6485e206b7ed8a07bbcafbd188e6.wav"
+        },
+        {
+          "ab": "yan balay",
+          "ch": "如同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/71fa13fda9923cde21f314d02c1adc02.wav"
+        },
+        {
+          "ab": "snonux",
+          "ch": "頭髮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/c18a4b0cf58d595e4a0ddc4192384294.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/3554a847bee8daf6d2bb9bc7bcafe6be.wav"
+        },
+        {
+          "ab": "mkrakis",
+          "ch": "少女",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/bb148f945fbfaa058df108d8daa64a6a.wav"
+        },
+        {
+          "ab": "cyux",
+          "ch": "正在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/957b8498e0ca6325b2932116996342ae.wav"
+        },
+        {
+          "ab": "mzyugi’",
+          "ch": "跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/cf66794f7f0f7d12dc55638f18ea5eb8.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "溪水由涓滴岩壁細縫而出 ",
+      "ab": "gong ga kahul sa sngaw ’tusan boq na sbqiy",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/cc296f96eaa7b5ed84c5006f2ed706da.wav",
+      "word": [
+        {
+          "ab": "gong",
+          "ch": "溪流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/79a07f344018ee72bc29e2dd2f42a96b.mp3"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/1a2b8ce1b3b9740d7cb2ef047d07e77e.mp3"
+        },
+        {
+          "ab": "kahul",
+          "ch": "從此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/8d269d6580e7aa7a3e41f7d3651680b1.mp3"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/5654d6face57763081ed1426f84dd4f6.mp3"
+        },
+        {
+          "ab": "sngaw",
+          "ch": "缺口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/eb12aa9c5b4ced09e86532199e0a0977.mp3"
+        },
+        {
+          "ab": "’tusan",
+          "ch": "噴出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/1704a70e2d13b3e4d153c7557e0ccaf3.mp3"
+        },
+        {
+          "ab": "boq",
+          "ch": "淚水；汁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/fb2f4095ef463e864b4d8fb2a3b7e243.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/447e8329228ccb1419e9b572b514b531.mp3"
+        },
+        {
+          "ab": "sbqiy",
+          "ch": "流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/502fa9c583d9fbe571e6ce48e5e686be.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "漸漸地 ",
+      "ab": "nyut nyut nyut",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/e0dff3ae8bc5fdf3f0e3a55a1034d06b.mp3",
+      "word": [
+        {
+          "ab": "nyut",
+          "ch": "漸漸地 ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/f2ffda0989be90d5fbaf84f31cbeadd3.wav"
+        },
+        {
+          "ab": "nyut",
+          "ch": "漸漸地 ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/67a43974397b97e102d2d860793bf812.wav"
+        },
+        {
+          "ab": "nyut",
+          "ch": "漸漸地 ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/06df17b08750c3c732a2c937accf3a3f.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "集結所有涓點而成的小水流 ",
+      "ab": "msli’ kwara qsya ka boq na sbqiy",
+      "order": "8",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/c059010df20cbf3d739ec69bfe920d1a.mp3",
+      "word": [
+        {
+          "ab": "msli’ ",
+          "ch": "聚集；集結",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/cb6e8f92ce2514eac3294483c20474c8.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/9b38e3d408c2691b208d072923ef3039.wav"
+        },
+        {
+          "ab": "qsya",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/0c83243051fd05e67a531de1bb353952.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "是；成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/d00120981b24aac3d43a6974ae091f0f.wav"
+        },
+        {
+          "ab": "boq",
+          "ch": "淚水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/5d2cb551b39434d64cd93c1113dd4f29.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/8aeaf9d03aa091beb3701eb4ee1b0df7.wav"
+        },
+        {
+          "ab": "sbqiy",
+          "ch": "泉水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/cf2c15b2a2a00a54bc15538adc008080.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "流向各山谷形成一條溪流 ",
+      "ab": "mshzi kura sa uruw lga, mhtu qu qutux na gong la",
+      "order": "9",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/f54686ef1e30addc53b4495f124ca440.mp3",
+      "word": [
+        {
+          "ab": "mshzi",
+          "ch": "移動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/eb49914b9cfa444f2b0a01d9832048ce.wav"
+        },
+        {
+          "ab": "kura",
+          "ch": "朝向",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/9b09fcba62f50e65430c1d5843538c33.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/67a7ff7c333c5bb067a8c3902353ec74.wav"
+        },
+        {
+          "ab": "uruw",
+          "ch": "山溝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/938fcde24a9c983e6169ab25aae6ea2c.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "之時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/3532430da27da3d09243d1ea8ae28ce1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mhtu ",
+          "ch": "出來；湧出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/86cd43d611020d176515cc2ea49fbcbe.wav"
+        },
+        {
+          "ab": "qu",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/a643e9cbd0fa8c3488c8a3713fd4d7d1.wav"
+        },
+        {
+          "ab": "qutux",
+          "ch": "一條",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/d5eaeb0d34fc31c78c8fa7d217290c1b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/e49b467e827de33fa4e81db592080f90.wav"
+        },
+        {
+          "ab": "gong",
+          "ch": "溪流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/5baa440e8e575cb9b9eea354bf638f72.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/6fa9927cc9eba5e469f2a3791770dce8.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "溪流中有豐富的魚、蝦、鰻魚及螃蟹 ",
+      "ab": "ska na gong cyux s’unan qulih, tlaqiy, kmagang ru kbolung",
+      "order": "10",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/ef5e69558dc3d38f5dbf26faf5ef1e33.wav",
+      "word": [
+        {
+          "ab": "ska",
+          "ch": "中間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/825bd649a9cde69b4c04118f0c895f07.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/c9e6cfc4fa224aaffeea108d089cf6b0.wav"
+        },
+        {
+          "ab": "gong",
+          "ch": "小溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/6c258165963aeb02f023cc2dd30e77cc.wav"
+        },
+        {
+          "ab": "cyux",
+          "ch": "正在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/9156e71eb1a459e1648ee3d14a156aa8.wav"
+        },
+        {
+          "ab": "s’unan",
+          "ch": "滿滿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/fd79bb6597928bd6c7e183811940b01d.wav"
+        },
+        {
+          "ab": "qulih",
+          "ch": "魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/2f0ed65bf323e5b0b03e8df960ba951b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tlaqiy",
+          "ch": "鰻魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/25be0bb02a93f8f8d78b972a4a6529aa.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kmagang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/792f48b8fbf872a87a81ff8a42e18978.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "以及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/6a1d3da99b371d4bf3bb5789c147201e.wav"
+        },
+        {
+          "ab": "kbolung",
+          "ch": "蝦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/11/f635ac393a993c52a75fd30ef1d4f0d9.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "餵養眾泰雅（人） ",
+      "ab": "rmanga kwara lelaqi na Tayal",
+      "order": "11",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/7c23306f20827be2536cf87b7115424d.wav",
+      "word": [
+        {
+          "ab": "rmanga",
+          "ch": "餵養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/7ce64e492b89a0aaaa8bd64729de98a2.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/c88b3153396cfbef74bc00a62d71d530.wav"
+        },
+        {
+          "ab": "lelaqi",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/681140d22d80d6c3c95cafd19b89c188.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/8241e0f438a385071ee118aefe32c053.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/83753d6b9ad19f08caa5ba415c930359.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "溪流澆灌乾涸的大地 ",
+      "ab": "qsya na ’r’uruw ga pqsya sa mkzyay na rhiyal",
+      "order": "12",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/be744ba6845e84a3642d819f9650d603.wav",
+      "word": [
+        {
+          "ab": "qsya",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/02f3875d281ca2b83355b845303fbfca.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/f1f514085af9d071a9734d414ed09340.wav"
+        },
+        {
+          "ab": "’r’uruw",
+          "ch": "山溝地帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/0c53d63d9e1129af8b4502cc8f88a505.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/2af8ca3e8f48c736a62ed64b1d297fee.wav"
+        },
+        {
+          "ab": "pqsya",
+          "ch": "澆灌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/ea02f92788f141399ef0a7c35bc2f6d6.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/cd57b3c2736cf95ff18c8ede0238be5d.wav"
+        },
+        {
+          "ab": "mkzyay",
+          "ch": "使之乾涸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/8516ff72fd8dc3abc9f28b860dda8574.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/8652cc8db3c4717ce9f10dcd9638e519.wav"
+        },
+        {
+          "ab": "rhiyal",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/8758665d059f1ec68da605aa49a0b1ac.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "豐富滋養所有泰雅的作物 ",
+      "ab": "rmanga kwara pinbahuw kneril na Tayal",
+      "order": "13",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/75a96186a06f75e9975c89186f71c4a8.mp3",
+      "word": [
+        {
+          "ab": "rmanga",
+          "ch": "餵養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/d2c0501c1895d5f98fa300c552caf63c.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "所有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/38da90a71b76792727eae5758f61c91c.wav"
+        },
+        {
+          "ab": "pinbahuw",
+          "ch": "五穀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/4c03c079b859130c68905025e478aec9.wav"
+        },
+        {
+          "ab": "kneril",
+          "ch": "女孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/395de7f4495f82fe7e7bbdc7ea5c5a39.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/4614b77148ede9910256c67ce513b36f.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/258d038f719cf3f92690964e107b966c.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "溪流呀！溪流呀！ ",
+      "ab": "qsya na gong, qsya na gong",
+      "order": "14",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/78e7e0cc06ce9bfabf4b60b91b61c978.mp3",
+      "word": [
+        {
+          "ab": "qsya",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/259efcd0c329d369ca2a48384d8f2f5a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/45d1502e068ccf4923e3da2e497e88d4.wav"
+        },
+        {
+          "ab": "gong",
+          "ch": "溪流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/33426318be0b50d12341ab543b4b0976.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qsya",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/8fd9214dfe4b61193fec420b772149d1.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/e9e885369a4160afcd9aa9a71249cd8f.wav"
+        },
+        {
+          "ab": "gong",
+          "ch": "溪流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/98bb98eb44b85b25875830489fafbfcf.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "妳如同泰雅母親豐沛的乳汁 ",
+      "ab": "Yani su boq bubu balay yaya na Tayal",
+      "order": "15",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/23dc1b2618227b1c82387cb2a15cc240.mp3",
+      "word": [
+        {
+          "ab": "Yani",
+          "ch": "如同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/ac6433e32914f8e1f2c62c85c17e06fa.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/8ff1fda74773b8175fbab7f764dd5c5b.wav"
+        },
+        {
+          "ab": "boq",
+          "ch": "汁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/e0bf4a69470566ec9e32ccef319dd370.wav"
+        },
+        {
+          "ab": "bubu",
+          "ch": "乳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/94c945c63cd46087e985591e5d0b8916.wav"
+        },
+        {
+          "ab": "balay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/aa7bb86544e196c80dd60e2715e8c5b4.wav"
+        },
+        {
+          "ab": "yaya",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/89d811a06aef04686cd7221606bbdd1c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/ddeb4c5e7c20593e9f3b7977a62b0233.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/47af8f657a1c6f9ea6ddd115f3d68203.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "餵養、扶育所有泰雅兒女 ",
+      "ab": "rmanga kwara lelaqiy na Tayal",
+      "order": "16",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/bbb0350930e4cde3526a7f7d71aabd32.mp3",
+      "word": [
+        {
+          "ab": "rmanga",
+          "ch": "餵養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/ddf6e8af861d4da9ceaff046aea3bbd2.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/5bd743247da34b60ace9c3afe8324c97.wav"
+        },
+        {
+          "ab": "lelaqiy",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/570488ec2fd7f27d914dc952927ee1fb.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/867a07bf9caaff0fa80372c754c64b90.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/168093414e23ebc9347f2652b0e89e70.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "落下的雨滴點是母親的淚水 ",
+      "ab": "hintagan na qwalax ga boq roziq na yaya",
+      "order": "17",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/6a723025c73a2f953f5ab498f473ffe5.mp3",
+      "word": [
+        {
+          "ab": "hintagan",
+          "ch": "所滴落的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/9d0908921846e2dcfb57a7ce62fdddf4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/d2ac844416a677e2c55afbe1de1b2c22.wav"
+        },
+        {
+          "ab": "qwalax",
+          "ch": "雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/367058882d9e264ea4d560450e7c2e49.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/6bdf23707374955c9129af115cc51f0c.wav"
+        },
+        {
+          "ab": "boq",
+          "ch": "淚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/4d54bfd6806c68c2c03048aab79e307b.wav"
+        },
+        {
+          "ab": "roziq",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/0b70cd9203cfdedda2857d1539a60d23.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/e85683beaf128641b35b824b08f93070.wav"
+        },
+        {
+          "ab": "yaya",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/74ad43bd021434f1a1cf104633b0f98e.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "溫馨的陽光是母親溫柔的笑顏",
+      "ab": "syax na wagi ga hrhul ssyaq rqyas na yaya",
+      "order": "18",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/ba7165a5f0f9826ddb8a97d7c6ca26fb.wav",
+      "word": [
+        {
+          "ab": "syax",
+          "ch": "光",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/55a992e1075d147353b9e20a362e2a51.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/ce8438896c8f03e3b94bb44ff693dd65.wav"
+        },
+        {
+          "ab": "wagi",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/d7399af6495c680098280214088ef387.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/715450eb967b01fc359c15c3e524b2bf.wav"
+        },
+        {
+          "ab": "hrhul",
+          "ch": "溫暖；暖和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/ca0111e165ac8563aa5b5b25a21de99a.wav"
+        },
+        {
+          "ab": "ssyaq",
+          "ch": "笑容，笑顏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/37236ff7d5583378b4006d54b9d8728b.wav"
+        },
+        {
+          "ab": "rqyas",
+          "ch": "臉；臉頰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/3c2e68e3a5047faf1a2274a92953fe19.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/62f960b60f1751bedc19bf5b7d2ef285.wav"
+        },
+        {
+          "ab": "yaya",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/982ba459a38ea092b0b7fcb9c1ecec53.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "安慰、鼓勵和幫助泰雅孩子們脆弱的心靈 ",
+      "ab": "pslhaw, sgsuw ru sinlokah kinoyay inlungan laqi na Tayal",
+      "order": "19",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/20/59030a0689c4eca75a46608bbd5970d3.mp3",
+      "word": [
+        {
+          "ab": "pslhaw",
+          "ch": "甦醒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/c4a3cdfcabe87eb6332f16026b5b2ad1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sgsuw",
+          "ch": "鼓勵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/843ab79ac5e47b4077fe70312f1cd411.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/1fc15f946fc6ad10dc7ee390751e8254.wav"
+        },
+        {
+          "ab": "sinlokah",
+          "ch": "動力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/6b171957bc023db8f4f50473d699d24e.wav"
+        },
+        {
+          "ab": "kinoyay",
+          "ch": "脆弱的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/10ddfd3ddae53d9678e4d196f7fdb844.wav"
+        },
+        {
+          "ab": "inlungan",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/c598755a09428fc631caf126701601f5.wav"
+        },
+        {
+          "ab": "laqi",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/633887819c077e7f8c636a95a535ab2d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/7b719fb2c73fab75be233fe4eebf47e8.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/d0a9af573dc42d6691e5d5ddbc726690.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "我們泰雅的心靈如同山一樣的堅毅不屈",
+      "ab": "inlungan myan Tayal ga yan rgyax merhuw ini pzwi",
+      "order": "20",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/13/27ef234bd72ae3e733353bc5890290e6.wav",
+      "word": [
+        {
+          "ab": "inlungan",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/563b9827c1f5b17dd43ab6a4abddc51b.wav"
+        },
+        {
+          "ab": "myan",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/3b0a30b49e04910fda576857d6b48696.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/12/e700a97d098cdbbcf9a5d56fc6d30393.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/37746a6f93d6c59705af0393cc3553a9.wav"
+        },
+        {
+          "ab": "yan",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/9253ab83209f47de21e1cf8f42e3326e.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/e9c5626093a8ad17d658630076e2fc86.wav"
+        },
+        {
+          "ab": "merhuw",
+          "ch": "穩重",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/74c01e6038a04cf3bb0c8345218d3e80.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/baef5f36621b0519deec0e90f64bfcbc.wav"
+        },
+        {
+          "ab": "pzwi",
+          "ch": "動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/01/538e1a1566da2b4cdc011cddb7fbdf9d.wav"
+        }
+      ]
+    }
+  ]
 }

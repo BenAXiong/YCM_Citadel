@@ -1,6 +1,731 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Taiwan ka yali ka kacekelra",
+  "titleCh": "原鄉台灣",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "台灣是我的故鄉，我是台東縣「Taromak」老部落的人。民國12年，日本人將我們遷移到平原，我們蓋房子、開墾稻田，也修補道路及飛機場，無法完全做自己的工作。第二次世界大戰，當時非常的激烈，都無法工作，生活受到很大的影響，非常可憐。",
+      "ab": "Taiwan ka yali ka kacekelra, Balangaw soTaromakako, lrakelra kai Di’ong sa mangealre si drosa ka cayli, sa kelranga la alanga naiya ’olidokowa, si la todadaane si tocacaane, si akolikoli tokaelelea si tohikoziyo, la kata maka ’odriyadringai tolavai sa atolavazaneta, sa ma’akalingalingawnga idra tamacacabirabira, la kaita ’ikakowa tolavai idra atolavazaneta, lramani kwadra matikoro akalingaw.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/7103cdb0a2e4a814817532f52bfbc426.wav",
+      "word": [
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/b3332e0b39459131bb6883a8a44963f8.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f98e026fa5345dbad300a11d88155670.wav"
+        },
+        {
+          "ab": "yali",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2e01a0325393a30dda806b00be911c5d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/0385463adce5f1040bb43d3ecfdc36c2.wav"
+        },
+        {
+          "ab": "kacekelra",
+          "ch": "故鄉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/eca334dcb0d4d7e2678f397694e3b4d9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Balangaw",
+          "ch": "台東",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/646ae05a6d5dcdc166fa08da9c00bf74.wav"
+        },
+        {
+          "ab": "soTaromakako",
+          "ch": "屬Taromak的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/98f43b08a2ff4b08dde8ec6eb14974f0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lrakelra",
+          "ch": "來了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/b45af050c77a2e9e7a77db853e89d603.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/1619cc28b5035f8e283387468063a77b.wav"
+        },
+        {
+          "ab": "Di’ong",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/fdaab46423a5018bc173218ed5a54407.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/1622e88705499d8b4939e9edfd6b9039.wav"
+        },
+        {
+          "ab": "mangealre",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/7ae757beae9f7f94ad693599a72558de.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/520b7855084f1e59208675ecb6f29769.wav"
+        },
+        {
+          "ab": "drosa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/41c5616561b681a62bcd64bc673b67cc.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/669f5851d0864f9159b3e4116af06c43.wav"
+        },
+        {
+          "ab": "cayli",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/40d9e99b55270cbfe4b69241cf4c3ed8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5ee36bfd875e68d52ffb13ecda91b3c4.wav"
+        },
+        {
+          "ab": "kelranga",
+          "ch": "來到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f194e96333ee391f623a1f330112e1e1.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/d62cd519842166208c1c8a82e001b60a.wav"
+        },
+        {
+          "ab": "alanga",
+          "ch": "把",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/67ff833943b1f081e57ed507673366c1.wav"
+        },
+        {
+          "ab": "naiya",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2495388928af8914390e7ee99dd351a9.wav"
+        },
+        {
+          "ab": "’olidokowa",
+          "ch": "到平地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/80e0d52598d2fa0c264a65c60cb5ee3c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5fbefca90b0d9471900305dd7fe212c3.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/579e378530b4fe7840bc260351f2acc3.wav"
+        },
+        {
+          "ab": "todadaane",
+          "ch": "蓋房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/897989aaee5b90b40cb4ea2106d4d3e0.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/dc08b754c13cc393e2f940e8eda4e776.wav"
+        },
+        {
+          "ab": "tocacaane",
+          "ch": "開墾水田",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/564f8fa343f762701c3994bf1ca4d1d3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/1786aec3a614d40f1e566fde557a1799.wav"
+        },
+        {
+          "ab": "akolikoli",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/673d31b0d9918dac932f6a9ae7a169ea.wav"
+        },
+        {
+          "ab": "tokaelelea",
+          "ch": "修路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/301f1191201e740200fd6de94eac030e.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/772a32ddf82957c2aefcebd85eb87d8e.wav"
+        },
+        {
+          "ab": "tohikoziyo",
+          "ch": "造飛機場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/c1cbe7320ec35338710cabee02afab8a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/ff2d3869e9e4d1aec3df3549e6148228.wav"
+        },
+        {
+          "ab": "kata",
+          "ch": "不能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/930010c704a1509e2834dba70c5b31df.wav"
+        },
+        {
+          "ab": "maka",
+          "ch": "使",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f6534fa336c9a3808af36dd3f81ef136.wav"
+        },
+        {
+          "ab": "’odriyadringai",
+          "ch": "正常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/29283a26f60fd8d7ae82d7698a90e53c.wav"
+        },
+        {
+          "ab": "tolavai",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/ea5f35e53685298963bb7c17d2cb1d6f.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/844360c30010d0098133a69b372ef454.wav"
+        },
+        {
+          "ab": "atolavazaneta",
+          "ch": "自己的工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/baa84d7484ed55a1379523de0775d4f4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/a46841e0bd51fb5c88bd4abe75e07ec7.wav"
+        },
+        {
+          "ab": "ma’akalingalingawnga",
+          "ch": "很激烈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/95388a59311e73a35ff1a3200dadc3ab.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/c4aa11b586919fbce3523233e5eff2c6.wav"
+        },
+        {
+          "ab": "tamacacabirabira",
+          "ch": "戰爭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f1f76460d50e582a72daa2dac962a547.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/609fa82ed22da6a1d6f9a3e6740b3903.wav"
+        },
+        {
+          "ab": "kaita",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/18a2d6258b724170f34c59ea1cc92973.wav"
+        },
+        {
+          "ab": "’ikakowa",
+          "ch": "如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/c7cfce577608142165e1c0372c7fc512.wav"
+        },
+        {
+          "ab": "tolavai",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f0b33222f5fb53444458e27d8c117501.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/51801f917af970365b0a283173e7a599.wav"
+        },
+        {
+          "ab": "atolavazaneta",
+          "ch": "自己的工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/9f4b99607b0aa9f5b0d6ae794a7e6554.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lramani",
+          "ch": "也就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/e3073c9cf27a471c511f7ca92842644a.wav"
+        },
+        {
+          "ab": "kwadra",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/8e6e88a119ca50abd62bb606c2bd9a56.wav"
+        },
+        {
+          "ab": "matikoro",
+          "ch": "可憐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/906a14e7a829f839c08452f8b1f2a05d.wav"
+        },
+        {
+          "ab": "akalingaw",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/e2a6a1c40165b0789b9e107f2bbdf2b9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "部落在民國58年發生火災，不幸罹難的村民有47人，房屋燒毀148戶，重創我們家園。我們度過一段缺糧、沒水、沒電的難民日子。族人經過數十年努力災後重建，才慢慢地恢復「Taromak」新的家園。",
+      "ab": "cekelenai Taromak sa malimalre si valro ka cayli kwalraobo, la wa’acay ka ta maso’atelre si ’ito ka omase, kwalraobo ka iday si maso’atelre si valro ka daane, takolraoba amatikoro naiya sa madraw ’aramoro, kadrowa ka acilray si dinki, lramani sa marathodo makeceng nai ka sakaocekelra, tara mangealre silabalre takikwaliya, la modrare’e kai soTaromak.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/97b4dca1a1e2470744c8e6d6be47230c.wav",
+      "word": [
+        {
+          "ab": "cekelenai",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/773c12340c81630da3950765e621ebbf.wav"
+        },
+        {
+          "ab": "Taromak",
+          "ch": "（部落名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/03e881fb899d1600d8f95875b8e758d5.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5c54e0e01c3f5f7bab57231d9b1f9733.wav"
+        },
+        {
+          "ab": "malimalre",
+          "ch": "五十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/12/1fb59dfc98185202e61af30d89aa9faa.mp3"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/928a9ec7f047e944be8a00828af0b669.wav"
+        },
+        {
+          "ab": "valro",
+          "ch": "八",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/415ef0682fe9eb4b49d30edc34660831.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f730b308554b7170192825a9e45a7727.wav"
+        },
+        {
+          "ab": "cayli",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/123e833a90f23ddf2e3befab03913578.wav"
+        },
+        {
+          "ab": "kwalraobo",
+          "ch": "火災",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/966995aaf5400ec0cc9060c02fe3e6cc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2af586df6800b3389cbe7bcbf2a920df.wav"
+        },
+        {
+          "ab": "wa’acay",
+          "ch": "死去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/1a819f7f77cdcc95b835afb6b0d6e7ea.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5fe0721dc704c39230c5c5a2e6a2f166.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/d2da6ab757619fa2acc8aab2f9e3133a.wav"
+        },
+        {
+          "ab": "maso’atelre",
+          "ch": "四十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/6b1b8b2bb68e6661234e50f112d75c4e.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/feae53431dde27256852e4122d023ef6.wav"
+        },
+        {
+          "ab": "’ito",
+          "ch": "七",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/e586564c9a877f887aaa493460b23ebf.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/7e70befcbdaae4019468d24b633af139.wav"
+        },
+        {
+          "ab": "omase",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/e842acdd9c72cbc2d4efef84458a0601.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kwalraobo",
+          "ch": "火災",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/48f3b69dfe25f0f5b4a6b8460a0def4f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/39a7f931975f4ac61f67fd75c689f9d0.wav"
+        },
+        {
+          "ab": "iday",
+          "ch": "一百",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/6f392dd8dc4cea0bd4253d5721284bcf.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/9d4d16f3c477649b6491e5002231f0f8.wav"
+        },
+        {
+          "ab": "maso’atelre",
+          "ch": "四十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/d825e492cc0f1647fb23c202beb48d98.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2f366fa81a29ac6035a8f478b3bf6ba1.wav"
+        },
+        {
+          "ab": "valro",
+          "ch": "八",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/3324deab41978c3765d65ca7651c6dcb.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/7b2e5ed39f4ee22e95ec905a4cab0d7a.wav"
+        },
+        {
+          "ab": "daane",
+          "ch": "家；房屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/04bf13ccb4d1c2b2a50710a5f934365d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "takolraoba",
+          "ch": "燒毀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/d528398e7e5357efcd14216619a95195.wav"
+        },
+        {
+          "ab": "amatikoro",
+          "ch": "重創",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f1a691a302e0704777146901f76ed7d8.wav"
+        },
+        {
+          "ab": "naiya",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/304ea411ffb759eb469318c1dd77899f.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/815fd582e7db999144860fdf407e6745.wav"
+        },
+        {
+          "ab": "madraw",
+          "ch": "很大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/97771715c7dd7daf009feeb60c49915a.wav"
+        },
+        {
+          "ab": "’aramoro",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f3fd691d421ff0115dfc5310d4d3e701.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kadrowa",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/95c6556f055af4625b67736af801a4a1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/0661bc4ce06191fde8e3297697527d99.wav"
+        },
+        {
+          "ab": "acilray",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/9a685331c941016861f528b434a33461.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2aa7a966cf489fc207727abd079f3171.wav"
+        },
+        {
+          "ab": "dinki",
+          "ch": "電力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2a9377574fc1dca26f4d36d1920beb7f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lramani",
+          "ch": "也就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/386f74762f9371cfc71effac1197ad32.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/b2451082cb1dab2ccf72916bad3a81ae.wav"
+        },
+        {
+          "ab": "marathodo",
+          "ch": "團結",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/ceb490c167522ab54922372445feb5ab.wav"
+        },
+        {
+          "ab": "makeceng",
+          "ch": "努力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/24712d3d099483eab75b632cab4ba7b8.wav"
+        },
+        {
+          "ab": "nai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/e9e5295d42122d6843b3bd225ecfbbd5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f66793239dbe9ca52589b1838d6c4bfc.wav"
+        },
+        {
+          "ab": "sakaocekelra",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/9ad6efac1767b839b28458bdfe61b53c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tara",
+          "ch": "經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/bcbe7017fc7aa9e9fde81f49e57e2e49.wav"
+        },
+        {
+          "ab": "mangealre ",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/fd85263468f2e1315a31116cf7b12a00.wav"
+        },
+        {
+          "ab": "silabalre",
+          "ch": "超過了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/968ddc777f7c345ac2ce36917399875d.wav"
+        },
+        {
+          "ab": "takikwaliya",
+          "ch": "辛勞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/fc783d1e193be5e00940015a1d124b98.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/1de01c9853004077d592249ff7c4fcc3.wav"
+        },
+        {
+          "ab": "modrare’e",
+          "ch": "重建",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/56ca899f1d9119ef81d60fb720426d4c.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/e54868ae34f3e31c085d3f281668f9d2.wav"
+        },
+        {
+          "ab": "soTaromak",
+          "ch": "屬Taromak的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/fe2270274940484851f076ae7dbafad3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "長輩有句名言：認真、團結、有智慧是肯杜爾的精神。",
+      "ab": "kai maroarodrang nai wabolo amiyaikai, makeceng, marathodo, maligili ka “swaKindo’orota”.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/dfee497df1c34a2f74da2fa60888fa04.wav",
+      "word": [
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/ebffabc401334868c7cc93170cf4b7ab.wav"
+        },
+        {
+          "ab": "maroarodrang",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/fd20632af3e5286f8382f9d70d3686d1.wav"
+        },
+        {
+          "ab": "nai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5fabe71d4d7d71f98f59a50568e50337.wav"
+        },
+        {
+          "ab": "wabolo",
+          "ch": "名言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/36b9505a89b2d00aec83ac90c0cb5d09.wav"
+        },
+        {
+          "ab": "amiyaikai",
+          "ch": "如此說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/09476d7cfdb374bf90054805bef070d4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makeceng",
+          "ch": "努力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/787ded04242674c8920be5bf43e2581d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marathodo",
+          "ch": "團結",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/da1d073d5e5217193ca065c27b349074.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maligili",
+          "ch": "智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/bf9166d629a02d01b56a15cd78f1c4ff.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/6568e6cf47b992896bb27bf4ab0ece7f.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "swaKindo’orota",
+          "ch": "肯杜爾精神",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/1914389940d7d8f73941e693adb7ca28.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

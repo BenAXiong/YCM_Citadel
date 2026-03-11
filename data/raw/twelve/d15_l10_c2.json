@@ -1,6 +1,666 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "makadrakerare",
+  "titleCh": "大南溪",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "「Taromak」有兩條河川——利嘉溪和大南溪。如果想去舊社卡帕里瓦，沿著大南溪上去，發電所設在大南溪上，然後從「’Inti」上方引河水來轉動機器（發電機）產生電力，幫助解決台東地區用電。",
+      "ab": "drakerare ki soTaromak tai drosa Makabaoro si Kadrakerara, lo yowata nacekele Kabaliva lrolrodota dongodong Kadrakerara awdradraza, kai Marohabang yakai Kadrakerara, la twalrai draza ’Inti odaane ki acilray si awliyoliyoso ina kikai, la kelra ka dinki, alibolro swaBalangaw madraw sarakaiya dinki.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/57ebbc364bf59b7d3d6cf1389b38af2b.wav",
+      "word": [
+        {
+          "ab": "drakerare",
+          "ch": "河川",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/5ad4bcc6209b970d2090f34d7fc61b43.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/a743886b7a2a4ec0cfe6335e88b572ad.wav"
+        },
+        {
+          "ab": "soTaromak",
+          "ch": "屬Taromak的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/add16b2d944dac530656033c3a11fabc.wav"
+        },
+        {
+          "ab": "tai",
+          "ch": "共",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/d207154105683f70509de2ed96168a26.wav"
+        },
+        {
+          "ab": "drosa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/b495104fa9934cb0b3927df934911d2a.wav"
+        },
+        {
+          "ab": "Makabaoro",
+          "ch": "（河川名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/2a7b128d60dd40a83ad1c8ad2439a2f3.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/9b74d48358a9ba1330f43d71c260478a.wav"
+        },
+        {
+          "ab": "Kadrakerara",
+          "ch": "（河川名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/83124abf8693f2b66a9b605da4969967.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/19388c9ff528bfad4e1528a79e97daa8.wav"
+        },
+        {
+          "ab": "yowata",
+          "ch": "前往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/10bcdb665462e3cd4d10adc7bfbf02db.wav"
+        },
+        {
+          "ab": "nacekele",
+          "ch": "舊社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/7fbbd1d9dc2ba787ffe898ac710d163a.wav"
+        },
+        {
+          "ab": "Kabaliva",
+          "ch": "祖先居住地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/4e5d163c91f1627e14efe060c7760098.wav"
+        },
+        {
+          "ab": "lrolrodota",
+          "ch": "經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/1f2ba53782a3102d7ff170da7c1e585c.wav"
+        },
+        {
+          "ab": "dongodong",
+          "ch": "沿著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/2e3636ebfb2686bca1f41859e1ced9a4.wav"
+        },
+        {
+          "ab": "Kadrakerara",
+          "ch": "（河川名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/1da36fd1cd911e8f6606051e5402a127.wav"
+        },
+        {
+          "ab": "awdradraza",
+          "ch": "上去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/16afe6dd4b21c5f070bf6538bf508dd4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/85d55406ac93180c9b5dd7154332a548.wav"
+        },
+        {
+          "ab": "Marohabang",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/19c7ee170cf96b14c1e75b3eebfcb56d.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/5df567ac7fb5c04bc02eacfb8f933c2b.wav"
+        },
+        {
+          "ab": "Kadrakerara",
+          "ch": "（河川名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/f3180a6f53f600106738ff5f52ad5154.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/44c4a19f904327a4b3ba53fdd25ab687.wav"
+        },
+        {
+          "ab": "twalrai",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/454ea70f2ba94a4ef835554630e5d653.wav"
+        },
+        {
+          "ab": "draza",
+          "ch": "上方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/9a8b8145fb0d94e518c19d9e4df9990e.wav"
+        },
+        {
+          "ab": "’Inti",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/77715582d1743a53e2fd79d5878cfc6f.wav"
+        },
+        {
+          "ab": "odaane",
+          "ch": "引入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/38cd1f5d2af9e3dabc3e3a8b02d9f530.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/e548b19c1f5865d73cb9f3c2d4fa8999.wav"
+        },
+        {
+          "ab": "acilray",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/002f948c7a38d300ff41436090481bb7.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/d22f334e09ef49c292cccb0614f2240f.wav"
+        },
+        {
+          "ab": "awliyoliyoso",
+          "ch": "轉動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/101849aad4f04337dfdc3db93f67a8c1.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/2d53899abe676e4f025f2312aeec9724.wav"
+        },
+        {
+          "ab": "kikai",
+          "ch": "機器",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/15d36cdc2526c1ed9b64730b640b7d58.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/91f42aa2867de5e00083b5b46b666a7e.wav"
+        },
+        {
+          "ab": "kelra",
+          "ch": "回來；到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/7e6b446af2958943b8b8769bd5247c44.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/785ab11b3be62fbe6de25e5d1b0c036a.wav"
+        },
+        {
+          "ab": "dinki",
+          "ch": "電力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/a6ba5fbeb451e70ed1fbb18eb8229348.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "alibolro",
+          "ch": "幫助",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/85200a8f134802dd452522a59edc9676.wav"
+        },
+        {
+          "ab": "swaBalangaw",
+          "ch": "台東地區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/74b4cfb4b5934e3afb294a434a87cd22.wav"
+        },
+        {
+          "ab": "madraw",
+          "ch": "很大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5eb9afec4a3817f8171f1a4964458c65.wav"
+        },
+        {
+          "ab": "sarakaiya",
+          "ch": "使用的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/534377b318b8a31992b8728b55bcd5f6.wav"
+        },
+        {
+          "ab": "dinki",
+          "ch": "電力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5fb0ba117ba4a6532d2533f1f5f914b9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在大南溪谷有溯溪活動，溪水非常清澈又冰涼，一遇假日會帶來喜愛戲水的人潮。不分老少都會特地前來遊玩。",
+      "ab": "kaiyasa ikai Kadrakerara wadare’e sa ta’avaevaera angolalana, maceseke kai acilray si mangangerece, lo taisadrasadra vayana, madomolro ka bazabaza kelra idadalrame lrangolrangoy, odrava ka lravavalrake taroarodranga cekecekele aranaw kelra kivaevang.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/9ae190d7358854b771b3671a7720a52b.wav",
+      "word": [
+        {
+          "ab": "kaiyasa",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/0f77e406b2bf5f4bf4ae0e5e90c325da.wav"
+        },
+        {
+          "ab": "ikai",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/51beaebc231c8720d18d10b0008693dc.wav"
+        },
+        {
+          "ab": "Kadrakerara",
+          "ch": "（河川名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/de2d9145a23e3dc090326ac491b4485a.wav"
+        },
+        {
+          "ab": "wadare’e",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/7898802cd6fcfd431385162218e7533b.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/b30d66507cdec0042687a849a1bd3e77.wav"
+        },
+        {
+          "ab": "ta’avaevaera",
+          "ch": "活動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/92df85ffff76a4150a03d3f1e4d4cb54.wav"
+        },
+        {
+          "ab": "angolalana",
+          "ch": "溯溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/43bc8f8a67b517eeaba476516a547f26.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maceseke",
+          "ch": "清澈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/519edbe68ddca5be0c26ed1d4807bdd2.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/18973e404990a0324f36875afffa4df2.wav"
+        },
+        {
+          "ab": "acilray",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/cf8ab5c3485dca9852b4344b05c9f56e.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/02f95f91ee1d5973115fb76229aadc81.wav"
+        },
+        {
+          "ab": "mangangerece",
+          "ch": "冰涼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/8b4c78eac40944896eaef63ea53a908e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/705c4c35ebdb20280bf276ad85ecbf6d.wav"
+        },
+        {
+          "ab": "taisadrasadra",
+          "ch": "休假",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/a3f11bbce242b4a017959c54fe46161b.wav"
+        },
+        {
+          "ab": "vayana",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/0d8c2266917286f10a96dbd8ff7436ce.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madomolro",
+          "ch": "人潮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/ecf6eaedcc3794031298621cd41428da.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/b2fd0961ea86cd55fa2f860d03576a70.wav"
+        },
+        {
+          "ab": "bazabaza",
+          "ch": "外來人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/984af16f05b60ec5f4bd6a282cbb3cca.wav"
+        },
+        {
+          "ab": "kelra",
+          "ch": "回來；到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/d2bd7e3bd6dc601ee4d792f650ca3434.wav"
+        },
+        {
+          "ab": "idadalrame",
+          "ch": "特別喜愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/c5430dadd27f5f2373e16e677b500645.wav"
+        },
+        {
+          "ab": "lrangolrangoy",
+          "ch": "戲水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/a0abf29eeb1de816995e4c7cf6e512f6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "odrava",
+          "ch": "不論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/dad3e2f9f12d499134c17426f1220b3a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/0aeb773c5cebbcb9c04213b978490cdf.wav"
+        },
+        {
+          "ab": "lravavalrake",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/8228e95b49b47839939e457cc31180a1.wav"
+        },
+        {
+          "ab": "taroarodranga",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/aeddd0f800834ef2053269d80bf3c6fb.wav"
+        },
+        {
+          "ab": "cekecekele",
+          "ch": "全家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/2f580e19645e380919904282c19c67c1.wav"
+        },
+        {
+          "ab": "aranaw",
+          "ch": "特地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/33730019590dd96624026fe3335e1b3c.wav"
+        },
+        {
+          "ab": "kelra",
+          "ch": "回來；到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/809f786c2cecbcc367e034f0b56a3fe7.wav"
+        },
+        {
+          "ab": "kivaevang",
+          "ch": "遊玩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/efcec4ee78551926b54e9bf7a5b1e66a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "「Taromak」族人祈雨典禮就在大南溪舉行，這裡有魚類、蝦、螃蟹、鰻魚、還有兩旁山上的植物和動物，是族人採野菜和獵人打獵的地方。感謝造天地的神賜與流奶與蜜之地。",
+      "ab": "lo moriyodalre kai cekele Taromak yakaita Kadrakerara asalisi, makala ka lrakaang, a’ase, tarasorodro, tolra, maecebe legelege makala ka raceve si golragolray, takilacelacenga, tatokakaanga, tatokotokola ki lraswalralray, kai Kadrakerara mathariri ’aramoro, ataromara ki Twaomase tawthebetheba ka daeda’e.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/ea6fda75801fc0f23ad25ab251ff5891.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/c0f7ac75c989a955c88473003b4bb4fc.wav"
+        },
+        {
+          "ab": "moriyodalre",
+          "ch": "祈雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/53d6d0c034259a6ee252c5db4675d08c.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f0d6ff6478f746199e1dd63c26873e31.wav"
+        },
+        {
+          "ab": "cekele",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/e6a89a1175857df1293fe2459a61b33c.wav"
+        },
+        {
+          "ab": "Taromak",
+          "ch": "（部落名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/0474c6ce8138165a852eccbe02d1404a.wav"
+        },
+        {
+          "ab": "yakaita",
+          "ch": "就在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/18f18df4a6146deb1b97c2c944b9660c.wav"
+        },
+        {
+          "ab": "Kadrakerara",
+          "ch": "（河川名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/12c2175c328e25f2d81162753e4bf8bf.wav"
+        },
+        {
+          "ab": "asalisi",
+          "ch": "典禮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/6a0279712375d12f36acad021b7f4c13.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makala",
+          "ch": "許多的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/29ca93830472d3aa91c2d74dcf31258c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/b55b698cd466855ddee574af64353300.wav"
+        },
+        {
+          "ab": "lrakaang",
+          "ch": "魚類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/9bf163e13cef05d1a1f7798372191dbf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a’ase",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5a9a53f3a85cb187fe62b2f03808661b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tarasorodro",
+          "ch": "蝦子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/3b88ee42707b436867d050527872d6ec.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tolra",
+          "ch": "鰻魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/38b4b9a09432611a079c400a04a1d3cf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maecebe",
+          "ch": "兩旁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/35854034f8375f265169d665820ea236.wav"
+        },
+        {
+          "ab": "legelege",
+          "ch": "山林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/28191d73168c54c9029d9379d42331ec.wav"
+        },
+        {
+          "ab": "makala",
+          "ch": "許多的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/a2fe4d276d8e1ff1ddc2adc473a653ce.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/43285a8b542fcdc35377439e05dcb04f.wav"
+        },
+        {
+          "ab": "raceve",
+          "ch": "植物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/388757be1a97a594eb5c6fc6b18b1587.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/a57d3a8a5796427039037a922e05ad2c.wav"
+        },
+        {
+          "ab": "golragolray",
+          "ch": "動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/c0eae791224b6a30b333be1946b07c3b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "takilacelacenga",
+          "ch": "採野菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/61f5608c2eccc5b34686c8978f0c4e19.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tatokakaanga",
+          "ch": "捕魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/579d0f1392b7c55c55786b940aaa41b6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tatokotokola",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/d070c47f919a5ae81cf583cdcaba64a6.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/3c070b27720b91fd255f4d346a685416.wav"
+        },
+        {
+          "ab": "lraswalralray",
+          "ch": "男士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/061eb0a074d548d5da5581e965fcf302.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f04904ed5d5cb02feed3d3b3b2aefef3.wav"
+        },
+        {
+          "ab": "Kadrakerara",
+          "ch": "（河川名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/aa85b9dd3a706d68a9162db6788c3575.wav"
+        },
+        {
+          "ab": "mathariri",
+          "ch": "好的；美的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/1043557856fccea9880994ac828d76bf.wav"
+        },
+        {
+          "ab": "’aramoro",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/659b9b9403bd24699a05531cd2901d58.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ataromara",
+          "ch": "賜給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/326fee9a6a134cb3a14d2d40fd17a002.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/4fbb69c22d818b5a110ffd54c70895e3.wav"
+        },
+        {
+          "ab": "Twaomase",
+          "ch": "上帝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/6a80129710fb599bbe2eb360b6895768.wav"
+        },
+        {
+          "ab": "tawthebetheba",
+          "ch": "流奶與蜜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/033ca0ebb43762c7a658167b5f97a2d0.wav"
+        },
+        {
+          "ab": "ka\r\n",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/658d8cc5adcccad3f347dc20096f8b4f.wav"
+        },
+        {
+          "ab": "daeda’e",
+          "ch": "地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2a65fccbe710dbeae61842938dc36475.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

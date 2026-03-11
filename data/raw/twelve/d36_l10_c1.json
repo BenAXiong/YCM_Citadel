@@ -1,6 +1,836 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "vahanai ’Oponoho",
+  "titleCh": "我們萬山的話",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "我們的祖先自稱是萬山人。日本時代，日人學習萬山語和屏東縣的語言，對比兩種語言後，發現我們和魯凱族的語言是一樣的。因此，他們告訴我們：「你們是同宗的。」此時，萬山人才知道，原來我們屬於魯凱族。在此之前，我們並不知道我們和魯凱族同宗，只是認為我們的語言就是萬山語。",
+      "ab": "ona’i ’aamadhalaenai tapi’aaenadha poalrace ’Oponoho mia. dhona’i akaava’ingadha ’aomo mani alra ’ica’oca’o ’ina vahanai ’Oponoho la talilraolraodho. mani poa aparamaramao kapakadhaodhao ta’inilrao ’i taliDrekai ’ina vahanai. mani alriname pato’o, “ma’itolotoloronomi” mia. mani lriho’onai ’ina ’Oponoho “kai’ata aanai” mianai. dhona’i akikaava’inadha ’aomo, olriho’okanai ma’itolotoloromita Drekai mia. kasata ’Oponoho vahata omianai.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/95531d4ef3ab11b03654561bb6b0a3ab.wav",
+      "word": [
+        {
+          "ab": "ona’i",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/beab0d48302eaafd077ae212f2018c55.wav"
+        },
+        {
+          "ab": "’aamadhalaenai",
+          "ch": "我們的祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/3b2b6df713ea2f0eb54a9f6d32f3765e.wav"
+        },
+        {
+          "ab": "tapi’aaenadha",
+          "ch": "他的做法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/2e65a677c21745f63cfd654e86ba4525.wav"
+        },
+        {
+          "ab": "poalrace",
+          "ch": "取名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/5f6cf32c38c1ca47bb47534611d55824.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/5825afacb6cd4cd420b8671296dbb29f.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/9fe43e5f5b0497eebb322c69fae2be6a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dhona’i",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/adc9333d783fcfb3482a36f90dd92f00.wav"
+        },
+        {
+          "ab": "akaava’ingadha",
+          "ch": "來的時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/05d5b29c9a6391435c33e612801fd36a.wav"
+        },
+        {
+          "ab": "’aomo",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/aceb3eac096a8c022fb1fd41ceec3ae1.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/f4a50e9667dbc51749cdda1ff0c237ce.wav"
+        },
+        {
+          "ab": "alra",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/27565002c4e5a784a1c9599648328e93.wav"
+        },
+        {
+          "ab": "’ica’oca’o",
+          "ch": "學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/5c9a093b636b1b4fc70150cb9d94e34a.wav"
+        },
+        {
+          "ab": "’ina",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/14ce1239a6638e0b7acb18c8bc60a340.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/9db1c4a3a80276439554314a0b2dabe2.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/e780d0482ca5cbf18e88435efbe58333.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/9a706a7e205af67d5986dd0d6d1befa3.wav"
+        },
+        {
+          "ab": "talilraolraodho",
+          "ch": "屏東縣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/8d2ef026297d62efc3036ee2a3890be6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/fee159a86e745b0bfc6222f08285cb6a.wav"
+        },
+        {
+          "ab": "poa",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/fbac069aaa8d6961d3b4c90bde016147.wav"
+        },
+        {
+          "ab": "aparamaramao",
+          "ch": "比較",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/65196aa6b3bb88aca916771cc6ae88df.wav"
+        },
+        {
+          "ab": "kapakadhaodhao",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/d48a5177c12fc8f5b04d30c1e46ec59f.wav"
+        },
+        {
+          "ab": "ta’inilrao",
+          "ch": "一樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/502485e108e0a0469cb90c86522eb613.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/ce9920ac9521bd85f15394aabcc3ad83.wav"
+        },
+        {
+          "ab": "taliDrekai",
+          "ch": "魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/36f48f041041f3b0d880ceb979bbcb0e.wav"
+        },
+        {
+          "ab": "’ina",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/ed429ceecdcd1a762fd652bc688568d1.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/e5e6bf4f5554b6f9244f605136d6888b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/a6d240df99decf2f12d15e0e79cecebb.wav"
+        },
+        {
+          "ab": "alriname",
+          "ch": "拿我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/a2e4e331c972b69c464abdec8293a86a.wav"
+        },
+        {
+          "ab": "pato’o",
+          "ch": "告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/1ed3dad2a3b658b0ffd0e867716de70a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’itolotoloronomi",
+          "ch": "你們互為同源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/8d2d29677de79211195e3dcb6df68339.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mia",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/197fa5ee76368bb7cb32470431f30d9b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/473047aea4ad7546f025874d557e431e.wav"
+        },
+        {
+          "ab": "lriho’onai",
+          "ch": "我們知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/14722bd8223c8f30d0fd38fd6a8332f1.wav"
+        },
+        {
+          "ab": "’ina",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/9d52df87c64852d2bb7cc251e17d3a51.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/ff079df536ba9f5cc6ea9a056d8e4b1c.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai’ata",
+          "ch": "原來我們像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/2811a99e594c3cda28b86d3a94a0550f.wav"
+        },
+        {
+          "ab": "aanai",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/877e4a3ccef92bde8b3c76fb9c3d67a7.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mianai",
+          "ch": "我們說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/a2af5c1fc41987e8007039380a9e8a38.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dhona’i",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/6fb4c44c8dea29661e2341e5a16c5506.wav"
+        },
+        {
+          "ab": "akikaava’inadha",
+          "ch": "還沒來時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/50b9c141768db11d4b96b0957c487bd3.wav"
+        },
+        {
+          "ab": "’aomo",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/8d0118702141c1892ca7ac1fbafce94c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "olriho’okanai",
+          "ch": "我們不知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/6b5b044879eea348b40407ab70d12aa9.wav"
+        },
+        {
+          "ab": "ma’itolotoloromita",
+          "ch": "我們互為同源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/c4903be410c8d3e3e66c5ddd2126daca.wav"
+        },
+        {
+          "ab": "Drekai",
+          "ch": "魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/a5804b35ff9add427b0ca1ceef515bba.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/b288d957e46e6606192f70159861af02.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kasata",
+          "ch": "只有我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/49d33d69dadcaba11f6a82c21b0e9251.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/bae12df2aaadaecd1064e1b82d0094d7.wav"
+        },
+        {
+          "ab": "vahata",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/d505f49099ae12478341109b0d167455.wav"
+        },
+        {
+          "ab": "omianai",
+          "ch": "我們說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/f4ba52deac04bbf1d37d329894774b3f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "萬山語很難學。現在年輕一輩的孩子，已經不會隨著老人家說話的方法了；從外村嫁來的人，也不完全懂得我們的語言。當地的萬山人和那些會說一點萬山語的人，所說的語言也不完全一樣。其原因就在於，萬山語是真的很難。",
+      "ab": "’ina’i vahanai ’i ’Oponoho toramoro ka makocingai. ceela ’ina’i laalakenai taovalrisinga, olriho’ongakai ka palolodho ’ina’i taiaenai ’aovaovaha takaarodhange. ceela ’i valravalrae, lo malranai siriri ka matilriho’okai mii’a vahanai. olo ’aovaovahanai ka’Oponohae ocao ’ina’i vahanai, talriho’o tosi’i vahanai, olo ’ako’Oponohaenai omi’akai ka maramaramao. to’atoloraeni vahanai ’Oponoho toramoro makocingai.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/6c145f1fadfd8028f0f3b8e94f7c2c19.wav",
+      "word": [
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/ffe51feba7c5e5e7b74db593b0d4f021.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/df50c778908ba687c7006dee97540523.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/f90503d430452da9236bffac39001e1a.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/85617c1aa79c47e1a5a41ee38a7b25bd.wav"
+        },
+        {
+          "ab": "toramoro",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/1f2700e23e28608434f21942f3298107.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/0fc644706b8e7ab2ad9fb02552ebc7b5.wav"
+        },
+        {
+          "ab": "makocingai",
+          "ch": "困難",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/654adcd0696a9cfff110373a8858629b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ceela",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/05039260bac431bc29c70967d9c485f7.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/df7e1de23b6e8c68863e49e03d05ef0e.wav"
+        },
+        {
+          "ab": "laalakenai",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/24e2c4699e2fe1ae11d6845c65a9a12c.wav"
+        },
+        {
+          "ab": "taovalrisinga",
+          "ch": "換了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/277e83942ae487287a674d5aa14f8c77.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "olriho’ongakai",
+          "ch": "已不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/14/1777a186e47ac6dc939667623f9f0de3.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "（否）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/3b63b636ffb809232f5790cac99209e4.wav"
+        },
+        {
+          "ab": "palolodho",
+          "ch": "跟著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/282984b385d80166ba0d4f32a7843f53.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/b6871caaf03565202e4c3bafef2af7c6.wav"
+        },
+        {
+          "ab": "taiaenai",
+          "ch": "我們說的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/c657afa49e2d4472b755a94b98431422.wav"
+        },
+        {
+          "ab": "’aovaovaha",
+          "ch": "說話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/f5c91ee6005d9cbecdce7dd7ac011ad0.wav"
+        },
+        {
+          "ab": "takaarodhange",
+          "ch": "老人家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/cc54b5b760ae76d20f584f9d5d422be1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ceela",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/19c7f294464ea61c8576d94cb2147805.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/81682cd68a7bfdff6ac0e22edf5f1191.wav"
+        },
+        {
+          "ab": "valravalrae",
+          "ch": "外村",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/fe10286e3549ae6446717e70d3b06f37.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/a9d9d5c50a6c62ac06898041d52c867c.wav"
+        },
+        {
+          "ab": "malranai",
+          "ch": "我們拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/e5645e60ba25d95419cf809a8c0d8633.wav"
+        },
+        {
+          "ab": "siriri\r\n",
+          "ch": "媳婦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/dfd2671211054be2c93f96f6faad85b4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "（否）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/4e9101a27e90ccf06980744e76749c2c.wav"
+        },
+        {
+          "ab": "matilriho’okai",
+          "ch": "不太知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/a1add6b68a978f4d5bf8ff6f5e4762df.wav"
+        },
+        {
+          "ab": "mii’a",
+          "ch": "也像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/78e48060c888d130931a982e21ad8b2f.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/4a3beebada84e75f248ecc9d6275a9e3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "olo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/26a95a5834c46c93a5c200bfc6da212f.wav"
+        },
+        {
+          "ab": "’aovaovahanai",
+          "ch": "我們說話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/ddad3cfdf305d211b2600645e650df8d.wav"
+        },
+        {
+          "ab": "ka’Oponohae",
+          "ch": "真正的萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/98452b3306289bee89e322ae48232eef.wav"
+        },
+        {
+          "ab": "ocao",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/e11867421fddfc6c56f591174b8120ef.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/b014f6d2f2ca7345e5a45dece76022b3.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/14/f3ea4b18da654168884f0ce1a1ef075b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "talriho’o",
+          "ch": "知道的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/1f03aa913f388825c2342a5ca3a99b81.wav"
+        },
+        {
+          "ab": "tosi’i",
+          "ch": "做少；做小",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/d2480c294512141dea2ffedca03aa36e.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/19e6fdde211a88280424205b456ef721.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "olo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/d892cfee412f049ca3da7ada13bcf9ff.wav"
+        },
+        {
+          "ab": "’ako’Oponohaenai",
+          "ch": "我們說萬山話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/4c9eec3d7332e888b0020535fa030434.wav"
+        },
+        {
+          "ab": "omi’akai",
+          "ch": "不像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/eb2cd22e5bf590d438d2093a9fe51eac.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "（否）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/48655cff7595c40da5309e9ed6c41095.wav"
+        },
+        {
+          "ab": "maramaramao",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/f9ed08c69026366dd9e4d74c35ab9e9e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "to’atoloraeni",
+          "ch": "他的原因",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/345ee1cd873c303981db05a3e235bf78.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/9cb52496a9fa2244894d72e8082ff4ba.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/3b0a630f82f0e5afe7a6ead1eaf51665.wav"
+        },
+        {
+          "ab": "toramoro",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/c5753af6feefc11f0395ab64762748d8.wav"
+        },
+        {
+          "ab": "makocingai",
+          "ch": "困難",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/4c03ca5c4fff62a145fd13ee5dca3a0f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我參與編輯這套書的原因，是因為現在的小孩幾乎都不會說萬山語了。我對於惜萬山語即將消失這件事感到非常惋惜，所以我希望可以藉此機會教導我們的小孩。如果小孩都學會萬山語，我們的語言就不會消失。",
+      "ab": "to’atoloraeli solate ’ina’i vahanai ’Oponoho alakai ’ina’i taovalrisinga aolrolai ka olriho’ongakai ka ’Oponoho vaha. avasaenai vahanai amokaolripi ’ina’i vahanai ’Oponoho. mani ’atolorolrailine pi’a ’ina’i lalini kaamai pasolate, lalini vaa’i pato’oto’o ’ina’i aolrolai, lani lriho’o lani kikaolro vahanai ’Oponoho.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/9bf2f59888976ef90dc2bd083d0a4cb5.wav",
+      "word": [
+        {
+          "ab": "to’atoloraeli",
+          "ch": "我的原因",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/791f778c4571099a27b7cf27dfb2de07.wav"
+        },
+        {
+          "ab": "solate",
+          "ch": "書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/14/cd0029c598046aea6254c595842b7ea1.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/7bc94662f14a55f8e5895bcb4525d91c.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/bcce54ef45426486a7fbab611ae633bd.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/9a4d0c02720d50697de4a1d53e6b222b.wav"
+        },
+        {
+          "ab": "alakai",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/7235b8cfc72447ad844df4ff5edc5a65.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/cebf5b34ce0cef90bec6e266d0cdd95a.wav"
+        },
+        {
+          "ab": "taovalrisinga",
+          "ch": "換了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/31828d63319774142e5322806432a27a.wav"
+        },
+        {
+          "ab": "aolrolai",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/677402edccad1017c26431e2b69da61e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "（否）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/7c11bd99cf3e777d8ce1eaec4f46bc4f.wav"
+        },
+        {
+          "ab": "olriho’ongakai",
+          "ch": "已不知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/14/43460ad10a789231b34cea114872aaa6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "（否）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/e736d083005a5eb084c0f8660d7d1453.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/e53a59cacd84597b3666a6721b081487.wav"
+        },
+        {
+          "ab": "vaha",
+          "ch": "話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/244d3798f2c6a6c19e490491556f448b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "avasaenai",
+          "ch": "可惜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/eda7ed80f43155804315545688269635.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/3af735128a47958dd67b1d5989b69756.wav"
+        },
+        {
+          "ab": "amokaolripi",
+          "ch": "將消失",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/c94d2e380d5edb5af501cf4810ec5b66.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/536b6cdafca2ed6eab8ec7fd981fea65.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/575c46124aa48ed3da9541f3bb7e07e0.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/947ef4095bd4db164041e97bc7f47d2b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/e95983022849f93d8d941404e485ddcd.wav"
+        },
+        {
+          "ab": "’atolorolrailine",
+          "ch": "所以我…他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/14/05351c19fa1799429772751a4ea5b337.wav"
+        },
+        {
+          "ab": "pi’a",
+          "ch": "做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/a0e929aeeb5054acbc90f18f7a5bf72a.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/8f47c416fbf5e196ca4ca28eefac3bbb.wav"
+        },
+        {
+          "ab": "lalini",
+          "ch": "和他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/26b5cde672f7bf8313a5982d6f192e90.wav"
+        },
+        {
+          "ab": "kaamai",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/960e27da1fca2a878f73387752f47e8b.wav"
+        },
+        {
+          "ab": "pasolate",
+          "ch": "教書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/c30be2aa1fb78f98f4ff30ef2ce2692d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lalini",
+          "ch": "和他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/8aadb02b488d727363e3877bae188b00.wav"
+        },
+        {
+          "ab": "vaa’i",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/553faad115155c7702de1d3f6b7683d1.wav"
+        },
+        {
+          "ab": "pato’oto’o",
+          "ch": "告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/d93da3b28e755840a325f0cd25ca2c02.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/a428efa6c2e5d07d17174ff9563d9e98.wav"
+        },
+        {
+          "ab": "aolrolai",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/6dac3e26c4f8349dd4d90a2cbd1e7646.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lani",
+          "ch": "和他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/66fab714910d6eaadf56b40a5af7ea8b.wav"
+        },
+        {
+          "ab": "lriho’o",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/4aec30307fe530ba9537842b35eb5fa1.wav"
+        },
+        {
+          "ab": "lani",
+          "ch": "和他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/ad5f96270cd10426aad812fdd2760233.wav"
+        },
+        {
+          "ab": "kikaolro",
+          "ch": "不消失",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/da3994cc561559bcfa11a06966da2f2a.wav"
+        },
+        {
+          "ab": "vahanai",
+          "ch": "我們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/ec51a77288a61f34f488c8c7ade49249.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/bfbed6230806a2d59fdfdec958e65f6e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

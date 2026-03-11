@@ -1,6 +1,976 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "ljemama",
+  "titleCh": "焚燒",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "草木全部曬乾之後，即擇日焚燒，因為開墾都在冬天進行，這是雨量較少的時期，恰好便以焚燒乾草木。焚燒之前先要開闢防火路，稱為「demaic」。將開墾的旱田周圍闢出一條空間地帶，以免火勢蔓延燒出範圍而引起山林火災。通常在決定焚燒之前，花一天的時間來開防火路。早期使用分叉的木棒為工具，把曬乾的草木向旱田的中央推掃。",
+      "ab": "[-AP1-]nu malaic a vinasakan a cemel, sikaljava nu muqadaw tu sikamaqati a ljemama a qadaw, nu kaljadjadjeljeman sikavacuvacuk, tu tanazua lualua qemudjalj, pacengeceng tu seljenguaqan a ljemama, ljakua pusangas izuanan a raketjen mavan zua demaic. azua kinavacukan palingulj daicen tu i tadjalan tu sikiqeceng tua makuvulj zua tideq a quma. nu pinetj anga qadaw tua ljemama, raketjn a kimaya ita qadaw seman ljaqedian. tasicuayan izua turivecan a maru pangul, daicen a cemel pasa vecekadan a qemepu.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/f2b8887c37602fc6a688c49e57648c18.mp3",
+      "word": [
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a2a19af4d8fc83ba64f4f66020624f6c.wav"
+        },
+        {
+          "ab": "malaic",
+          "ch": "枯乾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/68aa31e7a29e7bca10ced099b926e4cd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b8b8024affbe1d02f4e72ecb4a769ddc.wav"
+        },
+        {
+          "ab": "vinasakan",
+          "ch": "曝曬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/94f911314bbc3166d0b10c2ee62affa2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/df3799e2858883e402780fad3381efff.wav"
+        },
+        {
+          "ab": "cemel",
+          "ch": "草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f59da5b52d6e11724f302e9ed5074290.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sikaljava",
+          "ch": "等候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/8350597368ce3d322444344c0535d1a5.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/08bc1d2e9113a29640026fccf4d88d9a.wav"
+        },
+        {
+          "ab": "muqadaw",
+          "ch": "晴天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/44cf8dc8bd5c8c9635a703b26af93bc5.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/55340203f9cdfa4d36d5ab7c8bf61f32.wav"
+        },
+        {
+          "ab": "sikamaqati",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/768638528d9f9045eae4ebba12ea4dfa.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a0183ae29a62d1121aec561081e8f9ca.wav"
+        },
+        {
+          "ab": "ljemama",
+          "ch": "焚燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/359212d2c94cc9922484fa22d9dfdf75.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a3a6f7a2efe59005b969c3dc0cfe39c8.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/fcd0b69322f65813be084484749bd709.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f57b3718191256e5c39a9957596f434f.wav"
+        },
+        {
+          "ab": "kaljadjadjeljeman",
+          "ch": "冬天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/58e0c5149d96e59c8f4a07963733750b.wav"
+        },
+        {
+          "ab": "sikavacuvacuk",
+          "ch": "開墾的季節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/8a215d0bf8aa55257b732f4846516db9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f32eab9ef69ae10557919639910c25ca.wav"
+        },
+        {
+          "ab": "tanazua",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6d7c09222f66eccf3a1cbddb66271e26.wav"
+        },
+        {
+          "ab": "lualua",
+          "ch": "稀少",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/c05b4378443ff01ebf61d903e8e80cc0.wav"
+        },
+        {
+          "ab": "qemudjalj",
+          "ch": "下雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6d1a8a42e8a272c835c3fe718ee6fb58.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pacengeceng",
+          "ch": "正好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b1587a6d4137b48009fc79e815ac209c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/c47fa98746548744d3a119572404d7a4.wav"
+        },
+        {
+          "ab": "seljenguaqan",
+          "ch": "方便",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a1d6f5e61034c47384d3cb07e40413a1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/4a5ed3d9760ae9ae99e950c37083b8dd.wav"
+        },
+        {
+          "ab": "ljemama",
+          "ch": "焚燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/3bcd5d526f2f9fc46f2bbf808c860378.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ljakua",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/961a8d1840a318edfce1f39c7963bf9a.wav"
+        },
+        {
+          "ab": "pusangas",
+          "ch": "之前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/851001c4d21cdad76b276376b87fec0d.wav"
+        },
+        {
+          "ab": "izuanan",
+          "ch": "還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/79ee063a87ae5ccba7ecd9b689a38440.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6ca7ef116c25226eb528620dcecbadce.wav"
+        },
+        {
+          "ab": "raketjen",
+          "ch": "開閉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/cb2f72a833cf89fcf18e6681254ab5bb.wav"
+        },
+        {
+          "ab": "mavan",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b3d8bfb345e22013a39ef9128c534f04.wav"
+        },
+        {
+          "ab": "zua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f99799d96d3ec636a97a3f79f2c06cd8.wav"
+        },
+        {
+          "ab": "demaic",
+          "ch": "推掃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a9d167b9bb9e54f924a4bbc8d3a4eb91.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "azua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/433b4c3903de681a0022afd9a65c9a52.wav"
+        },
+        {
+          "ab": "kinavacukan",
+          "ch": "開墾處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/9ee8e6295b6d295d718ff86ffe226639.wav"
+        },
+        {
+          "ab": "palingulj",
+          "ch": "周圍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/310611cccf08b2bd02cafc963fe313e1.wav"
+        },
+        {
+          "ab": "daicen",
+          "ch": "推掃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/db1b304216b5d5703209a66083511522.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/df685e38410fc6235be6e34885b1d354.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/38477b8792c82c0642a717203e124558.wav"
+        },
+        {
+          "ab": "tadjalan",
+          "ch": "一條路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/eb8420dca42f6e2f76308b693aef512e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/2afc061438fc36829518e20124e109d7.wav"
+        },
+        {
+          "ab": "sikiqeceng",
+          "ch": "防止",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/da7d9b217a65d9caa544e07d365a7d25.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/05cb0e9f3d4dd6cd64c5b4f6383f553f.wav"
+        },
+        {
+          "ab": "makuvulj",
+          "ch": "到原野",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/84468b21994caf3ed8bb40d1bc6b716b.wav"
+        },
+        {
+          "ab": "zua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a5e824e9cc97a721695e896c40613884.wav"
+        },
+        {
+          "ab": "tideq",
+          "ch": "間隔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/31feb4ff81fc5d9c9679147d0c62078f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f3b46d79fb24c9ea003e3dbb5c67c3df.wav"
+        },
+        {
+          "ab": "quma",
+          "ch": "園地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/623eef119b3b096f55ac79527c266aeb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/05/4b4c79d774b52b19c13b3d248891b8e7.mp3"
+        },
+        {
+          "ab": "pinetj",
+          "ch": "擇定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/050a0ada2d0d75cb58d7efcd384c2731.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/7bc388e5ce5c6212f052c6ea89a1714d.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/cddc6bf2e853cd20963e1b2f6e850902.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/05/09019e8e797ea1985bfb1bac3ddd89cd.mp3"
+        },
+        {
+          "ab": "ljemama",
+          "ch": "焚燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/afaabf60ddefe1bc8909b9c8dd233c76.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "raketjn",
+          "ch": "決定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/9abaead70d137333038ff485d9573f44.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/1042f0aa5b105b20c12b2f89aa545d0b.wav"
+        },
+        {
+          "ab": "kimaya",
+          "ch": "大約",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a5b2c7040e45f061520f88e3d68e9965.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f4217aba8290e233b4264092bceb8187.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/2eaaba2252d68f9eb2d2c87ba83b7832.wav"
+        },
+        {
+          "ab": "seman",
+          "ch": "做成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/be78c6ae926325c5b80d6e7def4008f9.wav"
+        },
+        {
+          "ab": "ljaqedian",
+          "ch": "間隔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/98ad7a07b2d2aadf89c1dfc3a9d2e82f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tasicuayan",
+          "ch": "早先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/c83d9ce7f094aba5267e3198c6318691.wav"
+        },
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/1ee9571b64c5b9a507060c7defc4c759.wav"
+        },
+        {
+          "ab": "turivecan",
+          "ch": "工具",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/595a8f70e9aa2b403cf19a035cc49dc5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/786131d327764b08435eecaf983f90e6.wav"
+        },
+        {
+          "ab": "maru",
+          "ch": "就像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a79583678a0083ff397ca65723408763.wav"
+        },
+        {
+          "ab": "pangul",
+          "ch": "木棍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/05f1ff2618c98e3f58f3e7241bdcf73d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "daicen",
+          "ch": "推掃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/07db1867837112d542932d9ac94cc5a7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/ec0c4a15fa503ca21bd44ecd7385ad82.wav"
+        },
+        {
+          "ab": "cemel",
+          "ch": "草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/fb97e74a1b274b0991eb06ba3a26e66a.wav"
+        },
+        {
+          "ab": "pasa",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/def64d7a396fa71b7614d1cfda6d06e5.wav"
+        },
+        {
+          "ab": "vecekadan",
+          "ch": "中央",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b2d8b6bf3d50e04a36ebe689c09edd28.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/7cd3a084ab33e95d05a195effe7cfe97.wav"
+        },
+        {
+          "ab": "qemepu",
+          "ch": "集中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/01a844740f8f351cc7172863911de5e5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在點火的時候，通常要看當時的風向。由逆風的地方點火。如此火勢就不會燃燒過速。它會貼近土地慢慢焚燒，如此土地上的草木會燃燒乾淨，反之草木燒不乾淨則需要更多時間來整理。",
+      "ab": "nu temagilj a pusapui tja pacunan anan venengeliv nua vali. sa sipacevung a temedev numayatucu ini a makavavau a sapui sana paljaya teku maljama ini a itjen remaketj qemuljic anga.\r\n",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/08857c5f34ca208a7fae1a20efd7ff40.mp3",
+      "word": [
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/69e7d780f1a64154547efa48041f7ad2.wav"
+        },
+        {
+          "ab": "temagilj",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/49f04f2d475c34edee3a4e3692084117.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6327d4697cc5dd391ec4bfde1bfc5dad.wav"
+        },
+        {
+          "ab": "pusapui",
+          "ch": "點火",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/d1727f57fa5da2000de813f6edd241cd.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/20d49da44718c88439e017832ed70a90.wav"
+        },
+        {
+          "ab": "pacunan",
+          "ch": "看見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/803aa8bc47c8f596385b309e58077f02.wav"
+        },
+        {
+          "ab": "anan",
+          "ch": "再次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/0943b1f5f527822f626795d465e7f3fa.wav"
+        },
+        {
+          "ab": "venengeliv",
+          "ch": "通常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/83159c59172ee8ac7149d35cc1aee1b4.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/771315fa05edf019052048b313d32611.wav"
+        },
+        {
+          "ab": "vali",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/76c930b0fc8df094e02e4e15c72e4141.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/5ed902abf6d48d7891cbda39df625af2.wav"
+        },
+        {
+          "ab": "sipacevung",
+          "ch": "面對",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/889949ac96d52db2138c0a0971aeb441.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/0ad6e5e34da4b35ab4b3b31ee4b48a33.wav"
+        },
+        {
+          "ab": "temedev",
+          "ch": "點燃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/dded492bff74010ef5a80093e9374aae.wav"
+        },
+        {
+          "ab": "numayatucu",
+          "ch": "如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a9b532a85370804e3b8f2e8d11a384ef.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/0785fb2b0c847e17dc3f491dd093e48a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f04f67147df6bb43ad229a8f4f310de4.wav"
+        },
+        {
+          "ab": "makavavau",
+          "ch": "從上端",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6b33b4945f5af63eef7e88d0d4773c76.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b617b98a01969350631781e77cbb2f8f.wav"
+        },
+        {
+          "ab": "sapui",
+          "ch": "火",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a1843a1e77ab49576fd28f55e775bb01.wav"
+        },
+        {
+          "ab": "sana",
+          "ch": "才",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/5fbdb01722e5ea8cd93cb6225fd4ca2e.wav"
+        },
+        {
+          "ab": "paljaya",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/4c85a745de0eb3ccaac4b55da1b63bdf.wav"
+        },
+        {
+          "ab": "teku",
+          "ch": "下方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b26773d9cdb6d88c345cd8a0b51649b3.wav"
+        },
+        {
+          "ab": "maljama",
+          "ch": "燃燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/5bb2703b01f32cf5738e85d4f34cfeff.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/1f0aac0eda43a249aaea14caa527a573.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6d77c77793387bda8558d74d25f6fbdb.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/8086c0dbc2feffb327ed347e4d4c16ec.wav"
+        },
+        {
+          "ab": "remaketj",
+          "ch": "決定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/07f30d6afe9ed692cbc98f7c7d9a44b5.wav"
+        },
+        {
+          "ab": "qemuljic",
+          "ch": "整理\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/47a69a88350e3712ef81b427ac215e0b.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/e4b8b8899906581f5fd74cdb39814298.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n焚燒之後，把沒有燒到的樹枝、雜草等集攏再繞使用竹耙來掃。同時，把可搬動的大石子撿拾在旱田各集中點，將石子推成許多推。通常在頭次焚燒時，若有燃燒完全者，整理時一甲地只要大約五人花費一天即可完成；假使頭次燃燒不完全，則需要花費二、三天的時間。整理之後即可播種。\r\n",
+      "ab": "nu makaljama anga, azua tjeza ini a na maljama ricing, cemel ayain tua karekara a remasudj, sikipaciur a qaciljay qemepu uta i tua qaqepuan namasan liyaw qepuan. azua ljinama nu na pagudem. sirasudjan tua masan ljitalj kavavauan kimaya nu lima saraipan ita qadaw maparimasudj. ljakua nu ini a na parunguaq kinakarakudan kimaya drusa tjelu a qadaw. nu makarasudj anga temagilj a tjemugut.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/32cec1c96026af264a5275bb6d5868ad.mp3",
+      "word": [
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/fc88ec39d1e91adaef7f165b8f529144.wav"
+        },
+        {
+          "ab": "makaljama",
+          "ch": "焚燒完",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/4f26b79ec3e6a71c171eb07ab9970560.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b43824789070ba01689a743f76938f30.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "azua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/c568492ab117cc0ca1ae5a016099bd0b.wav"
+        },
+        {
+          "ab": "tjeza",
+          "ch": "剩餘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a93c178f5175ba7a89be9a244ba29af2.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a8b5624a6dce25a50a0b71397d1ac443.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f3e9c1d07878c58dd5f7504f2d7f62f2.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b56c02c464d0b4b81bae237a89e5f3fe.wav"
+        },
+        {
+          "ab": "maljama",
+          "ch": "燒到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/483637e564e9232064c54ecacf65f891.wav"
+        },
+        {
+          "ab": "ricing",
+          "ch": "樹枝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/aed394f04631ad2297e5b7748b9ec3ce.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cemel",
+          "ch": "雜草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f9444e28dbc56b690a18b4f5db116ad8.wav"
+        },
+        {
+          "ab": "ayain",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/429b7c9f423291ce47370b156d3f7052.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/f4fc80effaba673e211530d0ba8fecd1.wav"
+        },
+        {
+          "ab": "karekara",
+          "ch": "竹耙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/4c98f611c029951f41d805560169509e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/eda42c07a3472f4a08e450297d25f1e6.wav"
+        },
+        {
+          "ab": "remasudj",
+          "ch": "集攏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a3201828569b7909bd6cae731a08cc27.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sikipaciur",
+          "ch": "一齊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/80afac427f063720c0e97e9cc2ccce1c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/0914a6e435552ec7483c5ded18e6d704.wav"
+        },
+        {
+          "ab": "qaciljay",
+          "ch": "石子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/8cc4bdbfd6c9d4cef5dfb294f026bc59.wav"
+        },
+        {
+          "ab": "qemepu",
+          "ch": "堆集",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/5aa99fd08cf519348516f5ab43aa8ebf.wav"
+        },
+        {
+          "ab": "uta",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/1bf1ded7252c7628d34d63ac52ff0cf9.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/0e0f0728ce5f170dcc1c125e2c4f896a.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/7bb2e88969a6ef50663aa700499dced2.wav"
+        },
+        {
+          "ab": "qaqepuan",
+          "ch": "集中點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6fae9ea5e2aa24643852171c974e7fed.wav"
+        },
+        {
+          "ab": "namasan",
+          "ch": "變成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/d61f785a6863f6035c7e34b85d7bf790.wav"
+        },
+        {
+          "ab": "liyaw",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/28eeaaefe307210d4b152d916cb662a0.wav"
+        },
+        {
+          "ab": "qepuan\r\n",
+          "ch": "堆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/d6ee0372a3717884d489fde178e84d78.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "azua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/601789ee65885377c18959f0ffc68b9f.wav"
+        },
+        {
+          "ab": "ljinama",
+          "ch": "焚燒過的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/20f294799cccce52fc98e5f315846843.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/39688877516036f86d52efc29e967c76.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/3d98d0015ccf8253dd43cec8abdc7476.wav"
+        },
+        {
+          "ab": "pagudem",
+          "ch": "周全",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6926e3cb7a91ce0536b99695325483e4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sirasudjan",
+          "ch": "整理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/9b8ac608e9d133cd29833f0eabbc960f.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a6a36a8054984464a967764887b405c0.wav"
+        },
+        {
+          "ab": "masan",
+          "ch": "變成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/78780a423398d58cab08dedde945b9df.wav"
+        },
+        {
+          "ab": "ljitalj",
+          "ch": "一甲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/e134d6313c6f46dd0822cf81f0a8e1b1.wav"
+        },
+        {
+          "ab": "kavavauan",
+          "ch": "地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/71163fc9dd94177cfe28ed434e69c0d2.wav"
+        },
+        {
+          "ab": "kimaya",
+          "ch": "大約",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/721d1d94804405fa7d2d9b1a766685c3.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/26ebbbd177bc06cd3a3ff079618ee801.wav"
+        },
+        {
+          "ab": "lima",
+          "ch": "五",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/e61d411c4dd08ffd70813c6a030ee303.wav"
+        },
+        {
+          "ab": "saraipan",
+          "ch": "只要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/1652a0b8730e4cd4fec952262d1bed73.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/be4fb2700897448050c505d59fb4480c.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b84465a4e89403f5e538c2a77fa55b84.wav"
+        },
+        {
+          "ab": "maparimasudj",
+          "ch": "整理乾淨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/0772553c7acd3e395f6b35b6c14e9a70.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ljakua",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/03e96a2e70d2bd5d3a6a3532b3a842ea.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/a517a7c403e9395d49dc5ea305453db0.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/3bb6233d3987a12a50c4790aebe640b4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/4014e201cc73e3a315183e094bc5ae34.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/ec28497bc349520e110fc47da000e087.wav"
+        },
+        {
+          "ab": "parunguaq",
+          "ch": "順利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/64ee542ef69b1d9a4bfa9e9e03bc5578.wav"
+        },
+        {
+          "ab": "kinakarakudan",
+          "ch": "做的工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/227ea495709b5bbdb50b26125f45a0dd.wav"
+        },
+        {
+          "ab": "kimaya",
+          "ch": "大約",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/c4c8ddd351faa11d054bc88b3b342bf0.wav"
+        },
+        {
+          "ab": "drusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/c25ce469411596f4d8c49ebb316dffd1.wav"
+        },
+        {
+          "ab": "tjelu",
+          "ch": "三",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/0d09d11e43a3cd35659ad928dfe9786c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/cc3796a85075f5170c7ac8228b48bad1.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/904e1e9666108a5eecc34e4f6461b321.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/5a0fd7c631d7ee1d19afcc6307e208fa.wav"
+        },
+        {
+          "ab": "makarasudj",
+          "ch": "完成集攏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/3568833fef3047b864f9dbe3e03d5070.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/b1d85b0458a8d5899aa143f64a360b7d.wav"
+        },
+        {
+          "ab": "temagilj",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/6569ce9fdb478b87e78b35cbbc7c99af.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/d07e29525943b74395fb0ffd770fe68d.wav"
+        },
+        {
+          "ab": "tjemugut",
+          "ch": "播種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/21/2f75fe2b622f8f9dfed223c9412a0034.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

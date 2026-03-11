@@ -1,6 +1,581 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Bunun Tu Lumaq",
+  "titleCh": "布農族的家屋",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "從前古人蓋房子，有人拿木頭矗立，有人拿竹子圍牆；也有人用石板堆疊成牆。屋頂是用茅草覆蓋，也有人使用石板覆蓋屋頂。",
+      "ab": "Qabasang imita maimadadaingaz kalumaq a, haiza siza lukis mansuqsuq, haiza siza talum mabalung, haiza amin makusia bistav maqutun mabalung. Maaq a sinsu’ia a, sia amin liiq, haiza amin makusia bistav masu’ia ki lumaq tatavi.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/03/8c3fb9112734e57a2722b392590815a9.mp3",
+      "word": [
+        {
+          "ab": "Qabasang",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/3fab5890d8113d0b5a4178201dc842ad.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/90e1357833654983612fb05e3ec9148c.wav"
+        },
+        {
+          "ab": "maimadadaingaz",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7ffd85d93a3e4de5c490d304ccd9f864.wav"
+        },
+        {
+          "ab": "kalumaq",
+          "ch": "蓋房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d1e946f4e67db4b362ad23818a6fb78a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/1f1baa5b8edac74eb4eaa329f14a0361.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/39027dfad5138c9ca0c474d71db915c3.wav"
+        },
+        {
+          "ab": "siza",
+          "ch": "拿取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/645098b086d2f9e1e0e939c27f9f2d6f.wav"
+        },
+        {
+          "ab": "lukis",
+          "ch": "木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/6e79ed05baec2754e25b4eac73a332d2.wav"
+        },
+        {
+          "ab": "mansuqsuq",
+          "ch": "矗立",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/09b15d48a1514d8209b192a8b8f34e48.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/5b6ba13f79129a74a3e819b78e36b922.wav"
+        },
+        {
+          "ab": "siza",
+          "ch": "拿取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f542eae1949358e25d8bfeefe5b199f1.wav"
+        },
+        {
+          "ab": "talum",
+          "ch": "竹子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/155fa09596c7e18e50b58eb7e0c6ccb4.wav"
+        },
+        {
+          "ab": "mabalung",
+          "ch": "圍起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/a9387e43e1fe08c9f4f43718bc2e0405.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f0bbac6fa079f1e00b2c14c1d3c6ccf0.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/faacbcd5bf1d018912c116bf2783e9a1.wav"
+        },
+        {
+          "ab": "makusia",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f4a4da9aa7eadfd23c7bdb7cf57b3112.wav"
+        },
+        {
+          "ab": "bistav",
+          "ch": "石板",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f5c3dd7514bf620a1b85450d2ae374b1.wav"
+        },
+        {
+          "ab": "maqutun",
+          "ch": "堆起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/17c3433fecc21b57000debdf7ad5c930.wav"
+        },
+        {
+          "ab": "mabalung",
+          "ch": "圍成牆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/596dedf4498e258e4bdc9fd70df9a859.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaq",
+          "ch": "是誰，誰是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/0e087ec55dcbe7b2d7992d6b69b519fb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/14cfdb59b5bda1fc245aadae15b1984a.wav"
+        },
+        {
+          "ab": "sinsu’ia",
+          "ch": "覆蓋物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/2647c1dba23bc0e0f9cdf75339e120d2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/ed519dacc89b2bead3f453b0b05a4a8b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sia",
+          "ch": "是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f442d33fa06832082290ad8544a8da27.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/fface8385abbf94b4593a0ed53a0c70f.wav"
+        },
+        {
+          "ab": "liiq",
+          "ch": "茅草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4496bf24afe7fab6f046bf4923da8de6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/aa2a77371374094fe9e0bc1de3f94ed9.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/069654d5ce089c13f642d19f09a3d1c0.wav"
+        },
+        {
+          "ab": "makusia",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e0ab531ec312161511493b002f9be2ee.wav"
+        },
+        {
+          "ab": "bistav",
+          "ch": "石板",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/61b1fb3f59e28c67f3925f3c79be81a1.wav"
+        },
+        {
+          "ab": "masu’ia",
+          "ch": "覆蓋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/9a1de01f893e0d2551ecbb7ce4dc963e.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d757719ed7c2b66dd17dcee2a3cb29f4.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "房屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/09/615e88126adff8c541992f231144aec0.mp3"
+        },
+        {
+          "ab": "tatavi",
+          "ch": "屋頂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/13/2292f48fff5f4b217ccb9cdd63ec106c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我們所蓋的房子結構，有後院和前廊。在門口有很大的架子，用來堆壘敵人首級。在門口要做門檻，做二個爐灶子，用來煮給一家人吃，以及煮給牲畜吃。有床、有吃飯的地方和米倉。",
+      "ab": "Maaq mita tinas’i lumaq a, haiza sungus, talavin. Haiza ihaan hilav madaing tu laipaz daingaz, qatulan i bungu pa’is. Ka’uni ki pankingkingan ihaan hilav, matas’i dusa baning na’ispit’ia ki kaunun tastulumaq siin na’ispakaun i sinanaipuk. Haiza sapalan, kakaunan siin patilasan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/e816c635cad85a60fabd6b97b03cbcc9.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "是誰，誰是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/85f007f8c50dd25f5a45fca73cad64bd.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d7657583058394c828ee150fada65345.wav"
+        },
+        {
+          "ab": "tinas’i",
+          "ch": "所製作的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/728f206c2a01bf572b5940d7d9a8fa4c.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "房屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/201d7288b4c18a679e48b31c72c30ded.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e8dfff4676a47048d6f0c4ef899593dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/57c0531e13f40b91b3b0f1a30b529a1d.wav"
+        },
+        {
+          "ab": "sungus",
+          "ch": "後院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4888241374e8c62ddd9b4c3cfd091f96.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "talavin",
+          "ch": "前廊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/06a15eb1c3836723b53e4abca8d9b879.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/59bcda7c438bad7d2afffe9e2fed00be.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f45a1078feb35de77d26b3f7a52ef502.wav"
+        },
+        {
+          "ab": "hilav",
+          "ch": "門口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/82cadb0649a3af4968404c9f6031b233.wav"
+        },
+        {
+          "ab": "madaing",
+          "ch": "大的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7385db9a3f11415bc0e9e2625fae3734.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/cd63a3eec3319fd9c84c942a08316e00.wav"
+        },
+        {
+          "ab": "laipaz",
+          "ch": "架子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/eb1e78328c46506b46a4ac4a1e378b91.wav"
+        },
+        {
+          "ab": "daingaz",
+          "ch": "大的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7503cfacd12053d309b6bed5c89de212.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qatulan",
+          "ch": "堆放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/49ad23d1ec9fa4bd8d77d02681df5cfa.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/6ae07dcb33ec3b7c814df797cbda0f87.wav"
+        },
+        {
+          "ab": "bungu",
+          "ch": "頭顱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/3c947bc2f7ff007b86a9428b74654de5.wav"
+        },
+        {
+          "ab": "pa’is",
+          "ch": "敵人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/a3545bd79d31f9a72d3a78690adf73fc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ka’uni",
+          "ch": "製作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d7fd118e6f226a71b5f1ffe10efd0a78.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/537de305e941fccdbba5627e3eefbb24.wav"
+        },
+        {
+          "ab": "pankingkingan",
+          "ch": "門檻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f9d1152547c0bde01830b7e8bd60024c.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4e87337f366f72daa424dae11df0538c.wav"
+        },
+        {
+          "ab": "hilav",
+          "ch": "門口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/09fb05dd477d4ae6479985ca56c5a12d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matas’i",
+          "ch": "製作出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d072677d210ac4c03ba046120f0802ec.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "兩個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/69d1fc78dbda242c43ad6590368912d4.wav"
+        },
+        {
+          "ab": "baning",
+          "ch": "爐灶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/19de10adbaa1b2ee13f77f679fa1483a.wav"
+        },
+        {
+          "ab": "na’ispit’ia",
+          "ch": "用來煮食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/a19acd7d2689207f9047f8cb01357370.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c164bbc9d6c72a52c599bbb43d8db8e1.wav"
+        },
+        {
+          "ab": "kaunun",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/68c694de94e6c110f42e587e8e48d852.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d305281faf947ca7acade9ad5c8c818c.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/fb8feff253bb6c834deb61ec76baa893.wav"
+        },
+        {
+          "ab": "na’ispakaun",
+          "ch": "要餵食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/2f25f6e326adb93c5787175dda209ab6.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d4b2aeb2453bdadaa45cbe9882ffefcf.wav"
+        },
+        {
+          "ab": "sinanaipuk",
+          "ch": "牲畜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/958adb57686c2fdec5796398de5f317a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7e9e346dc5fd268b49bf418523af8679.wav"
+        },
+        {
+          "ab": "sapalan",
+          "ch": "床板；臥室",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/ba9a56ce0a9bfa26e8ed9e10b2cc8f46.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kakaunan",
+          "ch": "餐廳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/44d80674df41e947d01d7d0d7aa762ed.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/dc5d637ed5e62c36ecb73b654b05ba2a.wav"
+        },
+        {
+          "ab": "patilasan",
+          "ch": "米倉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/44a2e0804995faf8d2e3b084a1e2db1d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在操場外面，有堆積柴火的地方、菜園、圍著的雞欄以及牛欄。",
+      "ab": "Maaq a inata haan daisiq a, haiza qaqatulan i lukis, pitsanglavan, masu’du ki patulkukan siin patqanvangan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/13/d06e30559ccaa836217acded85496600.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "是誰，誰是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/3214a6d842cc69597f9edf26df552e43.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/b4568df26077653eeadf29596708c94b.wav"
+        },
+        {
+          "ab": "inata",
+          "ch": "在外面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e1314fc026da60d837353d20aefaf054.wav"
+        },
+        {
+          "ab": "haan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c45008212f7bdf6eab6050c2a564435a.wav"
+        },
+        {
+          "ab": "daisiq",
+          "ch": "操場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f0fcf351df4eb6786e9bb6fc4e2dee02.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d523773c6b194f37b938d340d5d02232.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c366c2c97d47b02b24c3ecade4c40a01.wav"
+        },
+        {
+          "ab": "qaqatulan",
+          "ch": "堆積處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7302e3f5e7c072aea8801faf8a492be0.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/2d1b2a5ff364606ff041650887723470.wav"
+        },
+        {
+          "ab": "lukis",
+          "ch": "木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/68148596109e38cf9367d27875e185be.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pitsanglavan",
+          "ch": "菜圃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/13/d1e0b585e8f83771d19d8e89ccb5452d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masu’du",
+          "ch": "圍起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/ca460332316d6da84b08b9bcf39b687b.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/56f9f88906aebf4ad985aaec7fa01313.wav"
+        },
+        {
+          "ab": "patulkukan",
+          "ch": "雞舍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/5fa9e41bfec0725742cc9d15ef594120.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/059fdcd96baeb75112f09fa1dcc740cc.wav"
+        },
+        {
+          "ab": "patqanvangan",
+          "ch": "牛舍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e06f967fb0d355592be4e7674fa31d26.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

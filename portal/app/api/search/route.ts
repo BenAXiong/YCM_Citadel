@@ -1,7 +1,8 @@
 import { getDb } from '@/lib/db';
 import { NextResponse } from 'next/server';
-import { GLID_FAMILIES, GLID_NAMES } from '@/lib/dialects';
+import { GLID_NAMES, GLID_FAMILIES } from '@/lib/dialects';
 import { GENERIC_MAPPINGS } from '@/lib/mappings';
+import geometryData from '@/lib/corpus_geometry.json';
 
 export async function GET(request: Request) {
     try {
@@ -64,34 +65,37 @@ export async function GET(request: Request) {
 
             for (const row of rows) {
                 const parts = (row.original_uuid || "").split('_');
-                let geoId = row.zh; // Fallback
-                if (parts.length >= 3) {
-                    geoId = `${parts[0]}_${parts[parts.length - 2]}_${parts[parts.length - 1]}`;
-                }
+                const orderIndex = parts[parts.length - 1];
+                const sourcePrefix = parts[0];
+                
+                let geoId = `${sourcePrefix}_${orderIndex}`;
 
                 if (!pivot[geoId]) {
                     pivot[geoId] = { zh: row.zh, dialects: {} };
                 }
 
-                // Dialect name is now clean from the Forge/Distiller
                 let dName = (row.dialect_name || "UNKNOWN").trim();
                 let isInferred = false;
-                let targets = [dName];
+                let targets: string[] = [];
 
-                if (GENERIC_MAPPINGS[dName]) {
+                // Multi-target Expansion Logic
+                // If the name matches a GLID family (e.g. '阿美語'), expand to ALL its sub-dialects
+                const matchingGlid = Object.entries(GLID_NAMES).find(([_, name]) => name === dName || name.replace('族', '語') === dName)?.[0];
+                
+                if (matchingGlid && GLID_FAMILIES[matchingGlid]) {
+                    targets = GLID_FAMILIES[matchingGlid];
+                    isInferred = true;
+                } else if (GENERIC_MAPPINGS[dName]) {
+                    // Fallback to GENERIC_MAPPINGS (which might be a single target)
                     targets = [GENERIC_MAPPINGS[dName]];
                     isInferred = true;
-                } else if (row.glid) {
-                    const familyName = GLID_NAMES[row.glid];
-                    const isFamily = dName === familyName || dName.replace('語', '族') === familyName;
-                    if (isFamily && GLID_FAMILIES[row.glid]) {
-                        targets = GLID_FAMILIES[row.glid];
-                        isInferred = true;
-                    }
+                } else {
+                    targets = [dName];
                 }
 
                 for (const d of targets) {
                     if (!pivot[geoId].dialects[d]) pivot[geoId].dialects[d] = [];
+                    // Ensure we don't add duplicate text for the same dialect+pivot
                     if (!pivot[geoId].dialects[d].find((x) => x.text === row.ab)) {
                         pivot[geoId].dialects[d].push({
                             text: row.ab,
@@ -129,22 +133,89 @@ export async function GET(request: Request) {
 
             return NextResponse.json({ results: results });
         } else if (mode === 'VS-3') {
-            const category = searchParams.get('category');
-            if (!category) return NextResponse.json({ results: [] });
+            const titleZh = searchParams.get('category'); // Now receiving the Chinese Title
+            const sourceFilter = searchParams.get('module') || 'essay';
+            if (!titleZh) return NextResponse.json({ results: [] });
 
             const db = getDb();
+            
+            // If it's a structural source (nine_year, twelve, grmpts), we search by exact category
+            if (['nine_year', 'twelve', 'grmpts'].includes(sourceFilter)) {
+                let sql = `
+                    SELECT s.zh, s.ab, o.dialect_name, s.glid, o.audio_url, o.source, o.level, o.category, o.original_uuid
+                    FROM sentences s
+                    JOIN occurrences o ON s.id = o.sentence_id
+                    WHERE o.source = ? AND o.category = ?
+                `;
+                let params: any[] = [sourceFilter, titleZh];
+
+                if (sourceFilter === 'grmpts') {
+                    const patternLevel = searchParams.get('level') || '1';
+                    sql += ` AND o.level = ?`;
+                    params.push(String(patternLevel));
+                }
+
+                sql += ` ORDER BY CAST(SUBSTR(o.original_uuid, INSTR(o.original_uuid, '_') + 1) AS INTEGER) ASC`;
+                
+                const stmt = db.prepare(sql);
+                const rows = stmt.all(...params) as any[];
+                return NextResponse.json({ results: pivotGeometryData(rows) });
+            }
+
+            // For Narrative sources (essay, dialogue), we align by the pre-computed sequential alignment
+            const sourceKey = sourceFilter as 'essay' | 'dialogue';
+            const entries = (geometryData as any)[sourceKey] || [];
+            const entry = entries.find((e: any) => e.title_zh === titleZh);
+            
+            if (!entry || !entry.alignment) {
+                return NextResponse.json({ results: [] });
+            }
+
+            const tids = Object.values(entry.alignment);
+            if (tids.length === 0) return NextResponse.json({ results: [] });
+
+            const placeholders = tids.map(() => '?').join(',');
             const sql = `
                 SELECT s.zh, s.ab, o.dialect_name, s.glid, o.audio_url, o.source, o.level, o.category, o.original_uuid
                 FROM sentences s
                 JOIN occurrences o ON s.id = o.sentence_id
-                WHERE (o.source = 'essay' OR o.source = 'dialogue') AND o.category = ?
-                ORDER BY o.original_uuid ASC
+                WHERE o.source = ? AND o.category IN (${placeholders})
+                ORDER BY CAST(SUBSTR(o.original_uuid, INSTR(o.original_uuid, '_') + 1) AS INTEGER) ASC
             `;
-            const stmt = db.prepare(sql);
-            const rows = stmt.all(category) as any[];
-            const results = pivotGeometryData(rows);
+            const rows = db.prepare(sql).all(sourceFilter, ...tids) as any[];
+            return NextResponse.json({ results: pivotGeometryData(rows) });
+        } else if (mode === 'DICT') {
+            const q = searchParams.get('q') || '';
+            if (!q) return NextResponse.json({ results: [] });
 
-            return NextResponse.json({ results: results });
+            const db = getDb();
+            const pattern = `%${q}%`;
+
+            // Log parameters for debugging
+            console.log(`[DICT_DEBUG] mode=DICT q="${q}" pattern="${pattern}"`);
+            
+            try {
+                const wordsSql = `SELECT id, word_ab as ab, word_ch as zh, dialect_name, glid, source FROM ilrdf_vocabulary WHERE word_ab LIKE ? OR word_ch LIKE ? LIMIT 50`;
+                const words = db.prepare(wordsSql).all(pattern, pattern) as any[];
+                
+                console.log(`[DICT_DEBUG] wordSql hits=${words.length}`);
+
+                const results = words.map((w: any) => {
+                    // Extremely simplified examples lookup
+                    try {
+                        const exSql = `SELECT s.zh, s.ab, o.dialect_name, o.audio_url, o.source FROM sentences s JOIN occurrences o ON s.id = o.sentence_id WHERE (s.ab LIKE ? OR s.zh LIKE ?) AND (o.dialect_name = ?) LIMIT 3`;
+                        const examples = db.prepare(exSql).all(`%${w.ab}%`, `%${w.zh}%`, w.dialect_name) as any[];
+                        return { ...w, examples };
+                    } catch (exErr) {
+                        return { ...w, examples: [] };
+                    }
+                });
+
+                return NextResponse.json({ results });
+            } catch (err: any) {
+                console.error(`[DICT_DEBUG] Query failed: ${err.message}`);
+                return NextResponse.json({ error: err.message, results: [] }, { status: 500 });
+            }
         } else {
             // VS-1 Mode
             let q = searchParams.get('q') || '';

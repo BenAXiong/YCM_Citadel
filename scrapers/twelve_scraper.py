@@ -9,10 +9,11 @@ from core.processors import create_sentence_record, append_to_jsonl, sanitize_di
 from core.constants import TWELVE_DIALECTS
 
 # Endpoint pattern: ?d=dialect&l=level&c=class
-BASE_URL = "https://web.klokah.tw/twelve/php/getTextNew.php"
+BASE_URL_L1_L9 = "https://web.klokah.tw/twelve/php/getTextNew.php"
+BASE_URL_L10_L12 = "https://web.klokah.tw/twelve/php/getTextNewTwelve.php"
 AUDIO_ROOT = "https://web.klokah.tw/twelve/sound/" # Pattern: {d}/S1/{c}/{file}.mp3
 
-def scrape_twelve(data_dir: str, dialects: List[int] = None):
+def scrape_twelve(data_dir: str, dialects: List[int] = None, start_level_arg: int = 1):
     distilled_file = os.path.join(data_dir, "distilled", "sentences.jsonl")
     raw_twelve_dir = os.path.join(data_dir, "raw", "twelve")
     os.makedirs(raw_twelve_dir, exist_ok=True)
@@ -23,27 +24,35 @@ def scrape_twelve(data_dir: str, dialects: List[int] = None):
         dialect_name = TWELVE_DIALECTS.get(d_id, f"dialect_{d_id}")
         print(f"\n--- Processing Twelve-Year Curric: {dialect_name} (ID: {d_id}) ---")
         
-        distilled_records = []
+        start_level = start_level_arg
         
         # Iterating through 12 Levels and 10 Classes
-        for level in range(1, 13):
+        for level in range(start_level, 13):
             for class_num in range(1, 11):
                 params = {"d": d_id, "l": level, "c": class_num}
                 
                 try:
                     # Fetching the lesson data
-                    data = http_get_json(BASE_URL, params=params)
+                    url = BASE_URL_L10_L12 if level >= 10 else BASE_URL_L1_L9
+                    data = http_get_json(url, params=params)
                     
-                    if not data or not isinstance(data, dict):
-                        continue
-                        
                     # Save Raw Json Backup
-                    raw_filename = f"d{d_id}_l{level}_c{class_num}.json"
-                    with open(os.path.join(raw_twelve_dir, raw_filename), "w", encoding="utf-8") as f:
-                        json.dump(data, f, ensure_ascii=False, indent=2)
+                    if data:
+                        raw_filename = f"d{d_id}_l{level}_c{class_num}.json"
+                        with open(os.path.join(raw_twelve_dir, raw_filename), "w", encoding="utf-8") as f:
+                            json.dump(data, f, ensure_ascii=False, indent=2)
+                        
+                        print(f"  -> Extracted {dialect_name} L{level} C{class_num}")
                     
-                    # The Twelve curriculum returns 'sentence' as the list key
-                    content_list = data.get("sentence", [])
+                    content_list = []
+                    if data:
+                        if isinstance(data, dict):
+                            if "sentence" in data:
+                                content_list = data["sentence"]
+                            elif "content" in data:
+                                content_list = data["content"]
+                        elif isinstance(data, list):
+                            content_list = data
                     
                     if not content_list:
                         continue
@@ -60,6 +69,19 @@ def scrape_twelve(data_dir: str, dialects: List[int] = None):
                         audio_url = item.get("sound", "")
                         audio_id = audio_url.split('/')[-1].replace('.wav', '').replace('.mp3', '') if audio_url else ""
                         
+                        word_data = None
+                        if "word" in item and isinstance(item["word"], list):
+                            # The NewTwelve might structure words differently, 
+                            # we need to map {"ab": "...", "ch": "..."} instead of strict matching if keys differ
+                            words = []
+                            for w in item["word"]:
+                                # some APIs return 'ch', others return 'chinese'
+                                ab_w = repair_mojibake(w.get("ab", ""))
+                                zh_w = repair_mojibake(w.get("ch", w.get("chinese", "")))
+                                if ab_w or zh_w:
+                                    words.append({"ab": ab_w, "zh": zh_w})
+                            word_data = words
+
                         record = create_sentence_record(
                             uuid=f"twelve_{d_id}_{level}_{class_num}_{idx}",
                             ab=ab_text,
@@ -71,9 +93,9 @@ def scrape_twelve(data_dir: str, dialects: List[int] = None):
                             dialect=sanitize_dialect_name(dialect_name),
                             category=f"Level {level} Lesson {class_num}",
                             level=level,
-                            words=item.get("word") if isinstance(item.get("word"), list) else None
+                            words=word_data
                         )
-                        distilled_records.append(record)
+                        append_to_jsonl(distilled_file, [record])
                         
                     # Slow down to avoid hammering
                     time.sleep(0.12)
@@ -81,15 +103,12 @@ def scrape_twelve(data_dir: str, dialects: List[int] = None):
                 except Exception as e:
                     # Skip 404s or empty lessons
                     continue
-                    
-        if distilled_records:
-            append_to_jsonl(distilled_file, distilled_records)
-            print(f"  -> Appended {len(distilled_records)} sentences for {dialect_name}.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Twelve-Year Scraper")
     parser.add_argument("--dialects", nargs="+", type=int, help="Specific dialect IDs to scrape")
+    parser.add_argument("--start-level", type=int, default=1, help="Start level")
     args = parser.parse_args()
     
     base_data = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-    scrape_twelve(base_data, args.dialects)
+    scrape_twelve(base_data, args.dialects, args.start_level)

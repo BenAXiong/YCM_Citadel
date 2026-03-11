@@ -1,6 +1,951 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "pavasu siuruacʉka",
+  "titleCh": "獵場上的勇士",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "孩子呀！你那雙腳是走文明的路，眼睛是用來看紅綠燈和聞名世界的事物，你已經失去了踩在祖先之路的感覺，如果你帶著文明的雙腳和視覺用在這裡，走在這裡，你將永遠跟不上我的腳程。走在這裡的路，如果只用眼睛來判斷，而不是本身的感覺，你將永遠無法體會自然與土地帶給你的感覺。",
+      "ab": "[-AP1-]mamaini! tapihlana sapahliuna ia musacu kirakakua sala varu’u sipacʉcʉpʉngʉ, vulaihli ia siruamia kumita matavuhliu malangihlu kima’a hla tararianʉ ngahla ta’iara sasaruanana, asapucu hlitacacurunau rumakua sala’a ahlamana, macuu mahlava varu’u sipacʉcʉpʉngʉ tapihlana sapahlʉ hla sipuamiana aruamimia nani, maru nani musasala, kuau tuvarʉ’ʉ kiasapatʉ hlikiramiaku, sala siuamia nani, maci umaru vulaihli putʉatʉahlʉ, hla kuihlaisa hlitacacurunukia, kuau tuvarʉ’ʉ kiasapatʉ hlikiramiaku, sala’a siuamia nani, \r\n[===]\r\nmaci umarua vulaihli putʉatʉahlʉ hla kuihlaisa hlitacacurunukiia, kuau tuvarʉ’ʉ malava hlitakacicihli murumitana, nua tacacuruna sasaruana hliahlava uvura ihlauna.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/21/e4ce411baa65d00153790606513b6e45.mp3",
+      "word": [
+        {
+          "ab": "mamaini",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/833107e279a0f9947aaee695294fdac7.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "!",
+          "sound": null
+        },
+        {
+          "ab": "tapihlana",
+          "ch": "雙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e2d97b1756e64745c5b1aa57b5b28eee.wav"
+        },
+        {
+          "ab": "sapahliuna",
+          "ch": "腳掌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/70e899195f7569c0edb22c46ada2647b.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1c2d64357ad795ddbb1895d2796a4a76.wav"
+        },
+        {
+          "ab": "musacu",
+          "ch": "走了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ab0d6ca2bd31d7a706cd79aa157f58c2.wav"
+        },
+        {
+          "ab": "kirakakua",
+          "ch": "走往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/25f753455f2dbe26f8fb8254173e93c0.wav"
+        },
+        {
+          "ab": "sala",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0d4ad6c4b81748c3567fae09c324e973.wav"
+        },
+        {
+          "ab": "varu’u sipacʉcʉpʉngʉ",
+          "ch": "文明",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/146a556219455c129617d305a08a7a50.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "vulaihli",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/20843bdc0983f0b43bbfc22dee731e49.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6ee78bd8a5279019c78015ab03da98b6.wav"
+        },
+        {
+          "ab": "siruamia",
+          "ch": "用來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b9e4ce50f6c1ba80d31aa4826948a5a6.wav"
+        },
+        {
+          "ab": "kumita",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7d62a09f598662ce52495a7b49467973.wav"
+        },
+        {
+          "ab": "matavuhliu",
+          "ch": "紅色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/474e8dfc25ac3d13057da3e79df34789.wav"
+        },
+        {
+          "ab": "malangihlu",
+          "ch": "綠色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/069c820436af4faa33e9a5457022a631.wav"
+        },
+        {
+          "ab": "kima’a",
+          "ch": "燈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/050a4fc616cfb269fdb19b524fa1d895.wav"
+        },
+        {
+          "ab": "hla",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7ef25540c4375b8fbe671bde69619ffb.wav"
+        },
+        {
+          "ab": "tararianʉ ngahla",
+          "ch": "聞名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/06ff5da1681775d1684f732d5af35d0e.wav"
+        },
+        {
+          "ab": "ta’iara",
+          "ch": "事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d87aac5194ef56b197263c933641f7d4.wav"
+        },
+        {
+          "ab": "sasaruanana",
+          "ch": "整個土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a75a20e0bfcac4668f4ad5a9211c8a17.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "asapucu",
+          "ch": "忘記了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/44884d195745861ccb6412f0ecd8a9f2.wav"
+        },
+        {
+          "ab": "hlitacacurunau",
+          "ch": "你的感受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f7da0b34942c5d43e877b507b336a011.wav"
+        },
+        {
+          "ab": "rumakua",
+          "ch": "踩踏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e3fc65e99fc557d7d6fb588ce053d992.wav"
+        },
+        {
+          "ab": "sala’a",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/64c7fa12c037cd8d7897fa93beea5b1c.wav"
+        },
+        {
+          "ab": "ahlamana",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/608f36ed83b16eaa7596b25e7cb7a258.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "macuu",
+          "ch": "如果你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0c30e3b543e05dd9a1e3c39cc636485e.wav"
+        },
+        {
+          "ab": "mahlava",
+          "ch": "帶著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3e539f563f356b53ab06ee253ba6d4af.wav"
+        },
+        {
+          "ab": "varu’u sipacʉcʉpʉngʉ",
+          "ch": "聞名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bc6855cc4e66a21f6762b915bbe1f57e.wav"
+        },
+        {
+          "ab": "tapihlana",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9f88bc0120dfc547c9ea4bd4dd68eb94.wav"
+        },
+        {
+          "ab": "sapahlʉ",
+          "ch": "腳掌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/556057f6fe9669e90cd5b5c41c5c4d0f.wav"
+        },
+        {
+          "ab": "hla",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fe44e70e1d97d760af7bee0d529f3018.wav"
+        },
+        {
+          "ab": "sipuamiana",
+          "ch": "視覺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8248e10fb1cd213e004df3317d36170c.wav"
+        },
+        {
+          "ab": "aruamimia",
+          "ch": "專門用來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6be39de58d6578374ff3102bf4f0ee27.wav"
+        },
+        {
+          "ab": "nani",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0a1a76bb546492b09e8fb6ba7a9c8aee.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "maru",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/35ab07aeceab4bb03c11e4cbbd4e65e6.wav"
+        },
+        {
+          "ab": "nani",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/18c1b38f909e3c319f2c7cc6c1edfaad.wav"
+        },
+        {
+          "ab": "musasala",
+          "ch": "走著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1b74e51146c75536dc2dfa0eb58e736c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "kuau",
+          "ch": "你不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ec5cce0ff42b8271d4545b0c748bc740.wav"
+        },
+        {
+          "ab": "tuvarʉ’ʉ",
+          "ch": "完全沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6a563d3c4db76861824b9ce6f9fe8c9d.wav"
+        },
+        {
+          "ab": "kiasapatʉ",
+          "ch": "跟上腳步",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3406db7fbac0bec9e753c05715b6f9ce.wav"
+        },
+        {
+          "ab": "hlikiramiaku",
+          "ch": "我走過的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/27a9f8f80eb10adb2ad46514c957dfd8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "sala",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/569e29510361ae5f38aa59e4b580e9b8.wav"
+        },
+        {
+          "ab": "siuamia",
+          "ch": "走往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f9b9e6d608da8f0c23a89f14a87352c4.wav"
+        },
+        {
+          "ab": "nani",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7181a7e659e6d1adcfe60c1fba3683e4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "maci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/01/f84533aa7322ab1f91b4013ddcb8c0dc.wav"
+        },
+        {
+          "ab": "umaru",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/01/f74025c14b0611ada76294e9c494cd00.wav"
+        },
+        {
+          "ab": "vulaihli",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e153aa28fd8619fb1b01786ecb9368aa.wav"
+        },
+        {
+          "ab": "putʉatʉahlʉ",
+          "ch": "判斷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/18ca12c754852a11ca8ffbbeeee77b76.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "hla",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/78ec9164b60367a7707ebd148f8c2a63.wav"
+        },
+        {
+          "ab": "kuihlaisa",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5e7bfe8ec1c5c868e06fd436d0dd5790.wav"
+        },
+        {
+          "ab": "hlitacacurunukia",
+          "ch": "自身所感受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/23/4ab4acf49aa2ffd7c86db73f596d0050.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "kuau",
+          "ch": "你不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/91d786698da92ae564c2b586ae7e5b87.wav"
+        },
+        {
+          "ab": "tuvarʉ’ʉ",
+          "ch": "完全沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3e84fc2de6a4a1d20ec2d05a2d18f214.wav"
+        },
+        {
+          "ab": "kiasapatʉ",
+          "ch": "跟上腳步",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8f5bca13c26d980f58ef0296c3d646bd.wav"
+        },
+        {
+          "ab": "hlikiramiaku",
+          "ch": "我走過的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f4bb34da63271425fbea384df5cf3228.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "sala’a",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/21/a5bfb045c3d63edf116e9ae14c9b82f5.mp3"
+        },
+        {
+          "ab": "siuamia",
+          "ch": "走往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a8c8f1be9c0c9690a568336cb3167c2c.wav"
+        },
+        {
+          "ab": "nani",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a7e816a7274e7e42833e934480393ead.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "maci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/29a2032af5bdb7583247e29b22eae7c0.wav"
+        },
+        {
+          "ab": "umarua",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a551894e3e78913f2bb2616b45db2b9e.wav"
+        },
+        {
+          "ab": "vulaihli",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/dd648ebe754635c3688a21f4d672e67d.wav"
+        },
+        {
+          "ab": "putʉatʉahlʉ",
+          "ch": "判斷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/397305fc7e1db14b04a0eb9dbe6728b9.wav"
+        },
+        {
+          "ab": "hla",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e7095a05985d918d59455b4d627b5ffa.wav"
+        },
+        {
+          "ab": "kuihlaisa",
+          "ch": "不是他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/398b7ddc8abcea9118762227547d8b47.wav"
+        },
+        {
+          "ab": "hlitacacurunukiia",
+          "ch": "自身所感受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6d437db40011a38ec3e4da5fd6215dc3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "kuau",
+          "ch": "你不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/50e721ad016c7b994949a115310241a9.wav"
+        },
+        {
+          "ab": "tuvarʉ’ʉ",
+          "ch": "完全沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/077d978746daa38abb42a9fb292618a7.wav"
+        },
+        {
+          "ab": "mahlava",
+          "ch": "帶著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/af71a1d53585e89c5d6128cd727623ce.wav"
+        },
+        {
+          "ab": "hlitakacicihli",
+          "ch": "自身的感受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/67f931ba3508384463856e6b8fbe281d.wav"
+        },
+        {
+          "ab": "murumitana",
+          "ch": "出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/09f78923b8b30502a99b3703a49254f0.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/188c4738624af171b8fff19e77e77638.wav"
+        },
+        {
+          "ab": "tacacuruna",
+          "ch": "感覺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5f27ae1ce90561dfb5d1b74bed48d397.wav"
+        },
+        {
+          "ab": "sasaruana",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f68e7d7e0fa4d9d8d8d9d7c140bca932.wav"
+        },
+        {
+          "ab": "hliahlava",
+          "ch": "帶來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9f8e6405daddfc3cc1c31720ec6fa2d1.wav"
+        },
+        {
+          "ab": "uvura",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/40f7913e7379f5d1f448434b5cb8168e.wav"
+        },
+        {
+          "ab": "ihlauna",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3b3cc6520ac7a6b89a8da37d6b917b7b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我們要走了！那是一個告知，是尊敬。那種感覺我到現在都沒忘，離開可以沒有聲音，沒有悲離和泣聲，在我回望父親的獵場，我能感受離開是一種氣憤和感覺，讓自己有種深刻的感觸，去體會你的離開是自然回應給你的感受。",
+      "ab": "musacuamu! kana’a ia ucani patakuacahlia, ihlaisa pualangʉlangʉa. kana’a tacacuruna miungu kani’i kuaku asapu, micikiri tuahlʉ kupivahliungu, kupisiatatara hla vahliungutangi, tarangahlangahla talaili ta’ahlupua amaku, tuahlʉaku tumacacurunu siacikirana tʉkʉ sitacacuruna ausi maru ucani ngahlana, alʉngʉnga hlitarutʉahla, musau malava micikirina hlitakacicihli murumita pahluailiau atʉatʉhlʉngʉ.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/21/c1aa856e434bd13acef9a6a6c517e7f9.mp3",
+      "word": [
+        {
+          "ab": "musacuamu",
+          "ch": "我們要走了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/edb46cfd16c8c33fd741b72a2bec85cb.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "!",
+          "sound": null
+        },
+        {
+          "ab": "kana’a",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f8fb801d1f9929910151320829df55c5.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7e311ab95ac79f14f9095cee4363ec7d.wav"
+        },
+        {
+          "ab": "ucani",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1cc4515dfdd7f97d0d90eeca27e3cd44.wav"
+        },
+        {
+          "ab": "patakuacahlia",
+          "ch": "告知",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/67968297d4bec9a875be5970ddbec66a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/21a071d9cb0fa503aef6fbe8ff3aa8e0.wav"
+        },
+        {
+          "ab": "pualangʉlangʉa",
+          "ch": "尊敬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cb02e2c45b56f174221be40e0f9302ca.wav"
+        },
+        {
+          "ab": ".",
+          "ch": ".",
+          "sound": null
+        },
+        {
+          "ab": "kana’a",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ee11528c2192ed4402d96c564d38d05f.wav"
+        },
+        {
+          "ab": "tacacuruna",
+          "ch": "感覺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/20294997a668b1d2a2a653e6e3962b35.wav"
+        },
+        {
+          "ab": "miungu",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4aa3ce126727060e57b0821473c532df.wav"
+        },
+        {
+          "ab": "kani’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ddd5dc89858c06e3a4a77bad2789f272.wav"
+        },
+        {
+          "ab": "kuaku",
+          "ch": "我沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/33b16ee9ce4ac65cd912104811f4bff7.wav"
+        },
+        {
+          "ab": "asapu",
+          "ch": "忘記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/be243cd7113ef25c55de2daed8096982.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "micikiri",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/47d56f382d897a1e1f522b267aa77817.wav"
+        },
+        {
+          "ab": "tuahlʉ",
+          "ch": "能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0369fe0ade08aa616d8afa261e157b43.wav"
+        },
+        {
+          "ab": "kupivahliungu",
+          "ch": "沒有聲音",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/01a00c372f97a5dfcefd52f0832545e5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "kupisiatatara",
+          "ch": "沒有悲離",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b75494aec4c9199daa4b5c89fde04ed9.wav"
+        },
+        {
+          "ab": "hla",
+          "ch": "與/和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/899288e250a039991701510a7dea449e.wav"
+        },
+        {
+          "ab": "vahliungutangi",
+          "ch": "哭泣聲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/52721d16420a19e9e52f9b78cb741c7d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "tarangahlangahla",
+          "ch": "重新",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7ae91a755710811793192191fbe13001.wav"
+        },
+        {
+          "ab": "talaili",
+          "ch": "回頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9d6471f43da46c7d7c00b653624b6e2f.wav"
+        },
+        {
+          "ab": "ta’ahlupua",
+          "ch": "獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2f8756e518a1d6ffb737d29dcded2096.wav"
+        },
+        {
+          "ab": "amaku",
+          "ch": "我爸爸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ce8c989497b737f5f2c19a0b06df982f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "tuahlʉaku",
+          "ch": "我能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/63cdd914634e726b5ff5d090088ac20c.wav"
+        },
+        {
+          "ab": "tumacacurunu",
+          "ch": "感受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c11259ea3464b1d98936e60830c549d6.wav"
+        },
+        {
+          "ab": "siacikirana",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e1c9205abc1802f64586511ef0383699.wav"
+        },
+        {
+          "ab": "tʉkʉ",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/58117f024e0ac0fc8953db5d5f64b136.wav"
+        },
+        {
+          "ab": "sitacacuruna",
+          "ch": "感受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ff8c8737a869bfbb33483f1e9ec5cf53.wav"
+        },
+        {
+          "ab": "ausi",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/18bc432e3f80cbd3e1181046db1bf329.wav"
+        },
+        {
+          "ab": "maru",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6e6b7144e99b4adaad79a875889fd4d4.wav"
+        },
+        {
+          "ab": "ucani",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/644b6e6369b3d287aab8b84240565292.wav"
+        },
+        {
+          "ab": "ngahlana",
+          "ch": "種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bb67f3887a345287241813ca9b3cb9ec.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "alʉngʉnga",
+          "ch": "深刻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9eec65366fce025d49148a80c52cfed3.wav"
+        },
+        {
+          "ab": "hlitarutʉahla",
+          "ch": "找過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c95d3ed4d2cb9a4f2fbac53a4146ed0a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "musau",
+          "ch": "你去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/218e4514a303e0054b1cf52fcf7cc54d.wav"
+        },
+        {
+          "ab": "malava",
+          "ch": "親自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/23/a74da3ccd3bf8a4ecae47e7dccf3c849.wav"
+        },
+        {
+          "ab": "micikirina",
+          "ch": "離開的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1e87105b3fecd3f9222959c66777b96d.wav"
+        },
+        {
+          "ab": "hlitakacicihli",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/87d78553dca4ebff5c1ad7ab52fbf602.wav"
+        },
+        {
+          "ab": "murumita",
+          "ch": "出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/90497e4fedc90d0efca6b84ce3f2afea.wav"
+        },
+        {
+          "ab": "pahluailiau",
+          "ch": "回應",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6e0227e1a6259510d4098da895ebd39a.wav"
+        },
+        {
+          "ab": "atʉatʉhlʉngʉ",
+          "ch": "感受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/06f8eeb1976470603bc384ae64d0415d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": ".",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我用力吸著早上的空氣，是冷的，是冰的，是乾淨的，遠望著山的陵線，被晨霧遮掩只露出三個頂點，隱約地曙光，斑黃的透光在層層的雲海中，父親說：這就是我早上的獵場。",
+      "ab": "pasamanganʉaku malimucucu varatʉ maivʉvʉrʉngana, ihlaisa matahlʉkʉtʉkʉ, ihlaisa uruhlana, ihlaisa matahlisau, taralʉngʉsʉ talavavalʉ vavarʉ, pataʉvʉ lumungalunga tasʉ’arʉ, kitulucu caalʉ sangalʉ, ausi hlikimaini kipuhlu, sumahlilaluihli mahlisarʉ lulunga hlimatatutungusuna, amihla ama’ana, kani’ina ia ihlaisa ta’ahlupuaku maivʉvʉrʉnga.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/21/9bf43195c3795b1e0002ce8b07a2b8ef.mp3",
+      "word": [
+        {
+          "ab": "pasamanganʉaku",
+          "ch": "我用力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/77e9bd603ce6fa32d71e3571773585f5.wav"
+        },
+        {
+          "ab": "malimucucu",
+          "ch": "吸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/808727fdca4c46b897341361029e91c5.wav"
+        },
+        {
+          "ab": "varatʉ",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fc5b989558a2bdf3983a0d69d2d1808d.wav"
+        },
+        {
+          "ab": "maivʉvʉrʉngana",
+          "ch": "早晨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/59db902dffffa74c42eeaaf7fe9b9a10.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "他是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f6a9f23a3dc1f8dee61f60686d9eafb4.wav"
+        },
+        {
+          "ab": "matahlʉkʉtʉkʉ",
+          "ch": "冷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/db3acc0cf0169602d333f5ea2380e74a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "他是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1325abb019ad88d74cf84c50f8928120.wav"
+        },
+        {
+          "ab": "uruhlana",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d82893f3bc3fa557776833c183f9694b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "他是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1c4cda9c746a65dbf6bc67ad27604349.wav"
+        },
+        {
+          "ab": "matahlisau",
+          "ch": "清澈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/72348de23dab29861d5603d772ca8001.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "taralʉngʉsʉ",
+          "ch": "遠望",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4b509b0d3cad8af44273ab5d2195e5fb.wav"
+        },
+        {
+          "ab": "talavavalʉ",
+          "ch": "看山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3a6b69b931e2df5d3b727ee995c5b90a.wav"
+        },
+        {
+          "ab": "vavarʉ",
+          "ch": "山陵線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c1867964f31718fa5efbc84280d6ab9f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "pataʉvʉ",
+          "ch": "被遮住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/69593171d0d6e5cfed9e13b574ac298d.wav"
+        },
+        {
+          "ab": "lumungalunga",
+          "ch": "霧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ce79c5d65cde64e3a000b1359f4a858b.wav"
+        },
+        {
+          "ab": "tasʉ’arʉ",
+          "ch": "完全沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/edd6e2f00e3914b4ae00aea1b937b5d8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kitulucu",
+          "ch": "三個點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4efc20f99fd5ec569af33df0c87f5a4b.wav"
+        },
+        {
+          "ab": "caalʉ",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0cd6e289378ec3ae01314e2ad2d71aa0.wav"
+        },
+        {
+          "ab": "sangalʉ",
+          "ch": "只有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/71108d2125c9e29699b3b20ea674aad8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ausi",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/004f4f13df66d1ac04afc169c5a5f494.wav"
+        },
+        {
+          "ab": "hlikimaini",
+          "ch": "隱約",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b2f8d2146e5bc8b393c1d5af4422484a.wav"
+        },
+        {
+          "ab": "kipuhlu",
+          "ch": "出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e6399d9408f870d93b8548697b0008f5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sumahlilaluihli",
+          "ch": "署光",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6082b2c47594f043b547289f181bad1f.wav"
+        },
+        {
+          "ab": "mahlisarʉ",
+          "ch": "黃色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/497c3813eed0b74fcae6fe9b8363cebe.wav"
+        },
+        {
+          "ab": "lulunga",
+          "ch": "雲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5c9f431d8620a7f73be3f8a4f74ab57c.wav"
+        },
+        {
+          "ab": "hlimatatutungusuna",
+          "ch": "一層層",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d5fabce49f5adecb609da8982139cf89.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "amihla",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/71c7e72f5c2f224927652f8d0f3107b8.wav"
+        },
+        {
+          "ab": "ama’ana",
+          "ch": "爸爸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4139f735d1ddb1e18ab0cc31054f49a8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": ",",
+          "sound": null
+        },
+        {
+          "ab": "kani’ina",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f706caf3b15b143b91109b0e07b951a7.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b3e825d6584f9662717c24ebae7604de.wav"
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "是他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d9b457ee2d3b5be544cfcdcdf1189236.wav"
+        },
+        {
+          "ab": "ta’ahlupuaku",
+          "ch": "我獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/24b501c41e73dee404fe99fd7dd10d25.wav"
+        },
+        {
+          "ab": "maivʉvʉrʉnga",
+          "ch": "早晨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/68223b6033b04a9adf012cbfcb9b6627.wav"
+        },
+        {
+          "ab": ".",
+          "ch": ".",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

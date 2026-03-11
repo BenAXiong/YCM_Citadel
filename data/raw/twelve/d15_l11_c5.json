@@ -1,6 +1,536 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "moray’i",
+  "titleCh": "換工的文化",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "以前，我們的換工文化是先找能互相尊重的組員。我們換工的組員大約有八至十人，輪流到各家工作。",
+      "ab": "ko nadroma lo moray’i ai silra’e dra sevangeta, dra kaleketeta mawsawsakene. kai elraneta moray’i yakai tavalro yakai tamangeale ka omase. lrai matholiyolithi kikela tolravai.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2439e38b4d43df872a94f6de0f2399ac.wav",
+      "word": [
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/95d4ba0688bc0bbd103b05b878ddeed1.wav"
+        },
+        {
+          "ab": "nadroma",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/7402f633a787cab08cc86176fd1f8e45.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/75a01a774d670a8d0c41c8006bb810e5.wav"
+        },
+        {
+          "ab": "moray’i",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/be4c8927a3465b0fe4d276d43830a266.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/7543403af58ff4ca1270790a7651620d.wav"
+        },
+        {
+          "ab": "silra’e",
+          "ch": "找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/7cb08cb99b0d1fdf4bc77e34648f0025.wav"
+        },
+        {
+          "ab": "dra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/3040fd2630410d8f182279093546fab1.wav"
+        },
+        {
+          "ab": "sevangeta",
+          "ch": "我們的組員",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/fc62cb11bec3d09820186478707cc31f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e35723695f23a9c65212b6f308e5f0d2.wav"
+        },
+        {
+          "ab": "kaleketeta",
+          "ch": "我們可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8fd7cc58a4436ce5cfdb1855aab6d322.wav"
+        },
+        {
+          "ab": "mawsawsakene",
+          "ch": "互相尊重",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/46192a8c94cd97601476c800f3d5f483.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/320b2bc364f42337de1cad3f6e193415.wav"
+        },
+        {
+          "ab": "elraneta",
+          "ch": "我們同組",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b7a5e93462b5e1ca2c7f1c80a33f54ae.wav"
+        },
+        {
+          "ab": "moray’i",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/d5c0340a2f86b2a333d979acb151855c.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/d158048f6acb2eb2833f7118cc6c1fdc.wav"
+        },
+        {
+          "ab": "tavalro",
+          "ch": "八位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/c7d4fabe29c09b939742326d8a68d157.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e0d2a864fe98eb07f019437a12964934.wav"
+        },
+        {
+          "ab": "tamangeale",
+          "ch": "十位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/cbce8ac84a869e1748e7ffca13e0105e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/588221e0d0163c607a58d41149d14cac.wav"
+        },
+        {
+          "ab": "omase",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/aa20a6487c14a43dcec54c90aa70f677.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lrai",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/292724f1405ca5758900daf231bf44ec.wav"
+        },
+        {
+          "ab": "matholiyolithi",
+          "ch": "輪流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/ac78a68d49389bd3a66c596c746e2119.wav"
+        },
+        {
+          "ab": "kikela",
+          "ch": "來到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b17a9c6065e4a4d94b9480f8d72d649f.wav"
+        },
+        {
+          "ab": "tolravai",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4f9f41c6dfd17e23c6315b51886cb9fa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有一位組員說：「我要上山開墾」，所以我們就去開墾。男生們在後面鋸粗大木材；女生們在前面開墾、工作。我們一邊唱歌，一邊開玩笑，不感到辛苦。不知不覺，天色已經暗了，我們商量明天輪到誰家後，就收拾東西，揹木頭回去。",
+      "ab": "yakai ka tangea ai modroroko rwabi si ta aswala nakowa, la aswalanai mwa rwabi. lo rabirabita kwani laswalalai abibilili molringato kwani labaibai rabirabi si takosenasenai si takomasirwarosale la kata walingaw sa kiyadolro. kata olingalingaw mawaongonga. la kadrekasenai loyowanai kiyana lroza la solragele nai dra angato oodonai mobalio.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5cd57ae33383d7f16da4ff9a1bafb6da.wav",
+      "word": [
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/72dd4352cbacf1252b4ac59a1b656083.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/0f321ce9af308ede009dc92f645be6ca.wav"
+        },
+        {
+          "ab": "tangea",
+          "ch": "一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b6970633883705c6c74c7d161531e62f.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2a574f6e2fcf7a695a4b68c83ffa6b05.wav"
+        },
+        {
+          "ab": "modroroko",
+          "ch": "首次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/ec4efe0a3cc610b3784126832bc92712.wav"
+        },
+        {
+          "ab": "rwabi",
+          "ch": "開墾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e3152960ad5d2d3cb9e4469c9395bcc9.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/0dc14e730232166f9b4f3bbdba6ca48a.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/f83f5433f586f6404b4b32d082c1c61f.wav"
+        },
+        {
+          "ab": "aswala",
+          "ch": "先從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5a628f4e8350e8deb887db42eb409dd6.wav"
+        },
+        {
+          "ab": "nakowa",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4b953f8fcab1d2bca5049a74b37bbc2d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/90126723ad21820126341b0cafe9c3dc.wav"
+        },
+        {
+          "ab": "aswalanai",
+          "ch": "我們先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/aee6d6c54b9ae4e3ab1f6be49464e6ca.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/017a848d3bc77d113b1d32a774481dc0.wav"
+        },
+        {
+          "ab": "rwabi",
+          "ch": "開墾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/475c9d6bc4bd1206fd0d68d08f55071a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8fe3ab713c4ba67b1ff3089cc3192e95.wav"
+        },
+        {
+          "ab": "rabirabita",
+          "ch": "我們就開墾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4ef8903db67f69dc88cb6fc652cac08d.wav"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/3d95d3cb52fd827e12e35ca7847535a0.wav"
+        },
+        {
+          "ab": "laswalalai",
+          "ch": "男生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/f6af0daf2b41e509f619b7bb8f113e1f.wav"
+        },
+        {
+          "ab": "abibilili",
+          "ch": "跟著後面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/0adc037472270bfd2d01bb7c083096a2.wav"
+        },
+        {
+          "ab": "molringato",
+          "ch": "鋸粗的木材",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/57a3aa7c062cbad0ac64805238f64225.wav"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4922f48cfa25b7a686030bea78a7a88b.wav"
+        },
+        {
+          "ab": "labaibai",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/baf71d104146a8d186e61d551c11bca8.wav"
+        },
+        {
+          "ab": "rabirabi",
+          "ch": "開墾工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/08fa0079329af75bc1a42f96fea782e5.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/0aef228ea234e8f32f0618737df16401.wav"
+        },
+        {
+          "ab": "takosenasenai",
+          "ch": "一邊唱歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4f406352c2d18801a47c8b8329e98bdf.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4549e3c53303088cba6602e90b024b9a.wav"
+        },
+        {
+          "ab": "takomasirwarosale",
+          "ch": "一邊開玩笑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/9502a51c32ff69319976d24efce61e3a.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/cdd0d1ebb4d74adce8d92192fa2a5293.wav"
+        },
+        {
+          "ab": "kata",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/a0509407cb1b13f243eee7429cd151a5.wav"
+        },
+        {
+          "ab": "walingaw",
+          "ch": "不覺得",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4d59cfa7e56df8b433d2bf6f0412bf89.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e3e20aa02559a91996c02a2d797f4782.wav"
+        },
+        {
+          "ab": "kiyadolro",
+          "ch": "累",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/a6510620fd16f8d0069ef295b51b528e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kata",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4046f006fa092d498ce2d365c7711f0d.wav"
+        },
+        {
+          "ab": "olingalingaw",
+          "ch": "不知不覺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6f04926a05395d5c647677be620b45e4.wav"
+        },
+        {
+          "ab": "mawaongonga",
+          "ch": "天色已暗了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1e8c22d6343fd2026756fbd68f0325e5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5bf05f64b2e43a21bad2bd7fb16699d1.wav"
+        },
+        {
+          "ab": "kadrekasenai",
+          "ch": "我們就商量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/730dba2058ea7346f8855d825410d1c7.wav"
+        },
+        {
+          "ab": "loyowanai",
+          "ch": "要輪到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/0d0e2aad938bed4f5b2e31cebbd836b8.wav"
+        },
+        {
+          "ab": "kiyana",
+          "ch": "誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/ba00eafea90bc35dfc2ed8dffb4fe1a7.wav"
+        },
+        {
+          "ab": "lroza",
+          "ch": "明天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/9b3f7e960814f6be20c50db46ecea9f4.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8dcc0770761a48afe9e66c9cf7bd029f.wav"
+        },
+        {
+          "ab": "solragele",
+          "ch": "收拾東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/59502336faa28df8f1f830ac115d637e.wav"
+        },
+        {
+          "ab": "nai",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8ac8ab90c2e6c9bc703377cda02248ab.wav"
+        },
+        {
+          "ab": "dra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1a925bdac4fab188ee12a9b8377d228c.wav"
+        },
+        {
+          "ab": "angato",
+          "ch": "木頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6bec5f2a91f758b8959409d9e87557e8.wav"
+        },
+        {
+          "ab": "oodonai",
+          "ch": "我們揹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/916ca1ec54a31b65c9d40c03807690ec.wav"
+        },
+        {
+          "ab": "mobalio",
+          "ch": "回家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/645f180b11c123a84c5de6759b7129ae.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "對我們而言，換工文化非常重要。我們互相幫助，可以開墾很多土地，一起工作，既穩定也很熱鬧，能使我們的家庭脫離貧窮。",
+      "ab": "kai moray’i niya makocingale maosakaeleleta la mwadraw kwadra talrabiyaneta masalrili lo moray’i mati’ea’eraw kalraleketeta maalibolibolo la kasalrilikai tacekecekelaneta lrakaita kasilao.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/353a72a9292cfa34939042fd94e4c426.wav",
+      "word": [
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/fe5dacb8cb9134b600867a8402f70b8d.wav"
+        },
+        {
+          "ab": "moray’i",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b0fbcd8ee8329d00f39ec7b50f4d2fb1.wav"
+        },
+        {
+          "ab": "niya",
+          "ch": "來說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/28/4a6f75d35765a48ea4180098bfadd3e3.wav"
+        },
+        {
+          "ab": "makocingale",
+          "ch": "非常重要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/d1fdc1419848e688cc635419ac8ce3f3.wav"
+        },
+        {
+          "ab": "maosakaeleleta",
+          "ch": "我們互助合作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8a268d1b1d27a6f29d7df930501fc3d8.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/7698d5f3e83e49f6ec2694488cafb0f1.wav"
+        },
+        {
+          "ab": "mwadraw",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/632af68b2689e5312162b2b65caa3f35.wav"
+        },
+        {
+          "ab": "kwadra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2af965b9e6c7310094db7aa427a8453f.wav"
+        },
+        {
+          "ab": "talrabiyaneta",
+          "ch": "工作開墾的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/558d1a4f6640ca8b7fe09a174174f64c.wav"
+        },
+        {
+          "ab": "masalrili",
+          "ch": "很好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1bf82ed4ff33c053a65d74669954be59.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e614ed70d34bdea5b358b4cc9991c2ff.wav"
+        },
+        {
+          "ab": "moray’i",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/69660ccf0fb0980c6bfa2f2fc9b6623d.wav"
+        },
+        {
+          "ab": "mati’ea’eraw",
+          "ch": "很熱鬧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/28e6bdae7d7163196dfc7ff4c979adec.wav"
+        },
+        {
+          "ab": "kalraleketeta",
+          "ch": "我們就可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1ed20bfac59038d7f5e930a51ccc91c0.wav"
+        },
+        {
+          "ab": "maalibolibolo",
+          "ch": "互相幫忙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/63f316a76af3452a192a441cf069af8b.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4e1bb19e7c9fda367cf1fd3782efb708.wav"
+        },
+        {
+          "ab": "kasalrilikai",
+          "ch": "穩定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/03117241a2a42f1d60540d5d5fca8b75.wav"
+        },
+        {
+          "ab": "tacekecekelaneta",
+          "ch": "我們的家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/c77ce9af931a0807d653f988e4414400.wav"
+        },
+        {
+          "ab": "lrakaita",
+          "ch": "我們不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2ae65ae50098c71b1fc86d9388d4240f.wav"
+        },
+        {
+          "ab": "kasilao",
+          "ch": "不貧窮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/9b15fce937ca1c4a67c238750e49bfa7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

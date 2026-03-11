@@ -1,6 +1,931 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "seasenai",
+  "titleCh": "歌詠",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "詞意。我們要到布農族群的Tulritulriki部落，尋找出草的對象，在masabengebengete這個地方經過一片芒草原，下方開滿孤挺花，有兩位布農族女性躲藏著，這些男性窺探著伺機行動。Pacake和Ubake兩位英雄，前後相繼以敏捷的動作獵下她們的人頭，而其中有一個叫Ngicu的人，常在眾人面前誇他的能耐，瞧不起自己的夥伴，卻在這次的出草空手而回，連一個人頭也沒獵到。背景，這是一首歌詠出草英雄的歌曲，也是嘲諷Ngicu平時驕傲的後果。\r\n",
+      "ab": "saiyaiya, uwaulrinai sumutulritulriki, langibuwalenai masabengebengete, la ibahatenai ku thilalrumalrumai, la mulrawdrunai ku lalivakuvakungu, la isasavangane ku lamaaliyali, la ilalepengane ku lamaalalaala, thibulai ku Pacake, dalidali ku Ubake, sapesape ku Ngicu ka taikungkuwane, taha lemelemethe ki sapasiasilange, kaivai senai kai wadrengedrengehe ki lasibabadha ka, sauwalai, ku sakataieaa pualrialrivale ki Ngicu ku angithathingala kipabalra lu kalrivala ki umase. ",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/d09f54fdf222de52751482e1d640601d.wav",
+      "word": [
+        {
+          "ab": "saiyaiya",
+          "ch": "詞意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/bfafa56394b9e936896a9e0bdbb4097e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uwaulrinai",
+          "ch": "述說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/158463b1a204ef0df6dff97afbbc9a9f.wav"
+        },
+        {
+          "ab": "sumutulritulriki\r\n",
+          "ch": "（布農族部落）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/aa973eb19bbad6db3f460ffa3ee787bc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "langibuwalenai",
+          "ch": "我們出現",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/ddbf042197946fa577dd219d36f1d22f.wav"
+        },
+        {
+          "ab": "masabengebengete\r\n",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/9d49fbb24c884b78b077a553dabde3fd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/e3b79063d880f8afb32b50c1670101e1.wav"
+        },
+        {
+          "ab": "ibahatenai",
+          "ch": "經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/dacb36df293d1afbe82609514078782a.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/06802a33fd97f2d348479925db7a9cd3.wav"
+        },
+        {
+          "ab": "thilalrumalrumai\r\n",
+          "ch": "芒草原",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/bf813526e2988badf81ccb5dac66115a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/3bba20e07d6da4a04a7013e19b5e97d9.wav"
+        },
+        {
+          "ab": "mulrawdrunai",
+          "ch": "前往下方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/a64202cedcccd2878e2353d12028a5ec.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/46605aa305ad90f41fe4b1fcb941a147.wav"
+        },
+        {
+          "ab": "lalivakuvakungu\r\n",
+          "ch": "孤挺花園",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/e640734e80723607f175f98f4028528c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/b086e18c976ae4508518a528da31fe11.wav"
+        },
+        {
+          "ab": "isasavangane",
+          "ch": "躲藏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/a9ede26b7acc04cd7acfd9b2cae3a4c3.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/864df2b455da28920d2631d79b0f8213.wav"
+        },
+        {
+          "ab": "lamaaliyali\r\n",
+          "ch": "女孩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/a72ea214704939adce5fc997c0d9daab.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/26dc94d9e1458aa9dfc820251e4a2090.wav"
+        },
+        {
+          "ab": "ilalepengane",
+          "ch": "窺探",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/317da1ea3dd624120084b2ddd91cd46f.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/405dffe332555028ed6b82f3a9845370.wav"
+        },
+        {
+          "ab": "lamaalalaala\r\n",
+          "ch": "男孩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/a39a1bb1395dcbf5a2fd98bbce30ec99.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "thibulai",
+          "ch": "跳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/274c166f636bfe5b05d129f284ab3862.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/a666416daf8cd1f3f561d9d87d212556.wav"
+        },
+        {
+          "ab": "Pacake\r\n",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/dd176360d4de479971a5a3b50519ff81.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dalidali",
+          "ch": "接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/3bcdf0e60e7019e89cfd045796c228a7.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/140ff9af6135c886c22a4d057c52ec78.wav"
+        },
+        {
+          "ab": "Ubake\r\n",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/0df997a88db577e0b3e38606858346e7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sapesape",
+          "ch": "撲空",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/be609681c912f87a2a40dcff82660e05.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/e1fad5fdc03c55e07dc4aa1c7ee0d82d.wav"
+        },
+        {
+          "ab": "Ngicu",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/97b2b785055b823d304ca259ce976fc5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/73438710e0ae2fe5979cc0a34707c730.wav"
+        },
+        {
+          "ab": "taikungkuwane\r\n",
+          "ch": "（家屋名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/03a520a7b91bd8a627c7b19d2648277d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taha",
+          "ch": "專門",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/005fe8678214011d7f92e51f9a546d40.wav"
+        },
+        {
+          "ab": "lemelemethe",
+          "ch": "瞧不起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/605b24a685d34c800c7994ba01b13484.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/643bbc4b53c6f70c416aaec2cec00ac7.wav"
+        },
+        {
+          "ab": "sapasiasilange\r\n",
+          "ch": "同儕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/cb461210116376e5d54847171d13bd2c.wav"
+        },
+        {
+          "ab": "kaivai ",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/4d98ca4a35ce94b72b2646e5fd130316.wav"
+        },
+        {
+          "ab": "senai",
+          "ch": "歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/0e33c082a1c41ef4782d80631b2b7700.wav"
+        },
+        {
+          "ab": " kai ",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/56b1a2606413b6021aa74413d73bd588.wav"
+        },
+        {
+          "ab": "wadrengedrengehe ",
+          "ch": "稱讚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/b752893c9203303773a777d68fe39137.wav"
+        },
+        {
+          "ab": "ki ",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/bd3b40eb1221435b3f715a75fea30161.wav"
+        },
+        {
+          "ab": "lasibabadha",
+          "ch": "出草者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/98d04c4890c0e3a63a90c7b26a01a98d.wav"
+        },
+        {
+          "ab": "ka ",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/89b167a16c50183a0be5b88acc54148f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sauwalai",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/e8e5901750596cd877b519f524c1f1f7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku ",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/acfc868f2cb6acc2332d03f20fe419a9.wav"
+        },
+        {
+          "ab": "sakataieaa",
+          "ch": "另外一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/ef09046ab7aec30e629672faa66ab559.wav"
+        },
+        {
+          "ab": " pualrialrivale ",
+          "ch": "譏笑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/43f092b5077d04c86290baf1126bab22.wav"
+        },
+        {
+          "ab": "ki ",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/e91b9c8ba3cc5a937cbf94403aa48d2e.wav"
+        },
+        {
+          "ab": "Ngicu ",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/b7a559810f3d8049476f6cde5fb7ec20.wav"
+        },
+        {
+          "ab": "ku ",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/6d95fe9da3e94f1288d3acf2f4d722d5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "angithathingala ",
+          "ch": "自覺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/a5d2ea8685280dadee57499970ae5895.wav"
+        },
+        {
+          "ab": "kipabalra",
+          "ch": "體會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/9bf8ded2e99416b3044d7111bafd4e4f.wav"
+        },
+        {
+          "ab": " lu ",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/18778806927b9efe744e8f41e22630dd.wav"
+        },
+        {
+          "ab": "kalrivala ",
+          "ch": "嘲笑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/2f0e50239f8b46e02d725ffc56839400.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/e3bf4a4cb8af2ac088af73a71df98d02.wav"
+        },
+        {
+          "ab": " umase",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/55ecbbb9ded906d32c8594e2e5921894.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "詞意。英勇的男士們在回程的路上，親愛的姊妹們 ，我們一起去迎接吧！女兒啊！請你帶脂油準備為Lalemai和Betai塗上，穿上有滾荷葉摺邊的腳套，穿上三色相間的彩虹裙！穿上最完整的長袍，套上編織精巧的戒指，佩戴精細雕琢的手鐲，佩戴二串式胸項鍊，戴上三串式短頸鍊，戴上紅色的頭巾，戴上王船花及蝴蝶花相疊的額飾。\r\n",
+      "ab": "saiyaiya. uwakelakelanga ku lamaalalaala ilata kidresenge ka lamaaliyali, iluka ku butulu ku sapadelremaneta ki Lademai si Betai, situkapa nauti kau binatelrane, la sikuunumadu kau lrinaviane, la sikipingi madu kau cinukusane, la sitaha madu kau pinidrulrane, la sikalathe madu kau tinahangane, la sisilumadu ku sipuapusale, la siviceelre madu ku situutulrulu, la sithalralre madu kau lrulumiange, pasanguleelebe ku avenge si lraela.\r\n",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/08/04/651bf72abc0d4cf10ce4d8e72e4bb5b8.wav",
+      "word": [
+        {
+          "ab": "saiyaiya",
+          "ch": "詞意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/c7dfecda6fd69655c7816096b371e9e4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uwakelakelanga",
+          "ch": "前來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/bb3984b909b378abc435497735861e3c.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/017aa107b4cf6d05338d3684acb032b5.wav"
+        },
+        {
+          "ab": "lamaalalaala",
+          "ch": "男性們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/479fabaa09b7973183f866c027328ea0.wav"
+        },
+        {
+          "ab": "ilata",
+          "ch": "迎接我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/4b32af66be6d71d1c8626b78c206b766.wav"
+        },
+        {
+          "ab": "kidresenge",
+          "ch": "迎接",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/29078afdb70cf1375e7b0d1aa95aea55.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/125f0e30382c55bfc1aa587f86fd5aa8.wav"
+        },
+        {
+          "ab": "lamaaliyali\r\n",
+          "ch": "女孩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/3e7376966cc0c5d69633517e0fa4ec86.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iluka",
+          "ch": "攜帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/0f5592607529f8bed0a9f0c6831e0441.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/51db566b3546f83afec1e555a50e4b04.wav"
+        },
+        {
+          "ab": "butulu",
+          "ch": "肥肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/9c7d187c4633d8a0f006c84b5b9ecb5d.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/b49c21b9320e9a802463f58d841cc484.wav"
+        },
+        {
+          "ab": "sapadelremaneta",
+          "ch": "用以抹上的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/5231d0ab2a2aff34251996fec309c060.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/4b82ba17481acc7ad9fec620bd960b80.wav"
+        },
+        {
+          "ab": "Lademai",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/e11b65eb0dcb3c57eef5ebd096a5fd6a.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/8ddcabb4831ef0a3c93ae961fb3a474f.wav"
+        },
+        {
+          "ab": "Betai\r\n",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/aa9a05978dda59f76bb3f9fd0657bcb4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "situkapa",
+          "ch": "戴腳套",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/d87f5626ef856886527917f2e287cadd.wav"
+        },
+        {
+          "ab": "nauti",
+          "ch": "（暱稱）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/5fcf93bbd10711124b6982aa873bb0e8.wav"
+        },
+        {
+          "ab": "kau",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/fff28c8803992f31da5e11107cfe2800.wav"
+        },
+        {
+          "ab": "binatelrane",
+          "ch": "膝部滾荷葉紋的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/f762ee2a563281c2c9ee159fe205a090.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/b4f569cbf33dd8ffa206baa03f6817ce.wav"
+        },
+        {
+          "ab": "sikuunumadu",
+          "ch": "穿裙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/35e2bb5b51c3ee4510c36696318fe26e.wav"
+        },
+        {
+          "ab": "kau",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/64263f3dd455b2d49bc31195963247c6.wav"
+        },
+        {
+          "ab": "lrinaviane\r\n",
+          "ch": "彩虹裙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/05f2ea439cca374ef76b32c9f4ef5a29.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/0b43569317552ca3219b91d3cc2c1c89.wav"
+        },
+        {
+          "ab": "sikipingi",
+          "ch": "穿上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/70684c77ccc40db0f022dfa7c3101777.wav"
+        },
+        {
+          "ab": "madu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/0e4497e37745bc212a29097486405bb5.wav"
+        },
+        {
+          "ab": "kau",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/f3268ac08a99bd580253525bb2925545.wav"
+        },
+        {
+          "ab": "cinukusane\r\n",
+          "ch": "完整的長袍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/f89c5c5e9c9a100174dd1ac9bfd76751.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/b21f6b1618151028fe7e3b4a2f2f894f.wav"
+        },
+        {
+          "ab": "sitaha",
+          "ch": "戴戒指",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/ab080c161f0efaf58df5c1c166a1137d.wav"
+        },
+        {
+          "ab": "madu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/0485004019696a8f0650bd225ef139e4.wav"
+        },
+        {
+          "ab": "kau",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/3fca7d224ec080529643e21b2c7ec6ee.wav"
+        },
+        {
+          "ab": "pinidrulrane\r\n",
+          "ch": "雕刻精緻的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/a10645fafe9bf7b923ba5e1d7205eae8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/e4713975a98c5fa3c826b4f51050719e.wav"
+        },
+        {
+          "ab": "sikalathe",
+          "ch": "戴手環",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/a66e7f83b26de15fef7b721f75affee6.wav"
+        },
+        {
+          "ab": "madu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/a3d8180527014adf8c70ac540dac4be3.wav"
+        },
+        {
+          "ab": "kau",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/e53fcf997ebedccd13b199bbee78592b.wav"
+        },
+        {
+          "ab": "tinahangane",
+          "ch": "鑲刻的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/cc3e6e624efb36bb02e0d614588bd0d3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/713b498a22f719195bd512025e65cebd.wav"
+        },
+        {
+          "ab": "sisilumadu",
+          "ch": "戴胸鍊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/78052ce5917c3522cdf910d8ad70a2ec.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/f8d3229022d20b8ef980e0160f78bab1.wav"
+        },
+        {
+          "ab": "sipuapusale\r\n",
+          "ch": "二串式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/272d744e20b7f981e1ce4a68907947a9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/168c09eb1ef4608ddcf81e918d27e691.wav"
+        },
+        {
+          "ab": "siviceelre",
+          "ch": "頸鍊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/10b6daefa795de7cb48936467a863ddc.wav"
+        },
+        {
+          "ab": "madu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/fad9b02f60a354e97898e8c8a2f3f867.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/b7b1e4c2585710c555048188a67d5251.wav"
+        },
+        {
+          "ab": "situutulrulu\r\n",
+          "ch": "三串式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/0ca1b3171ad6d2879850b3801350ae97.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/c301bf27a67e41d3e6aaa9643f6758ad.wav"
+        },
+        {
+          "ab": "sithalralre",
+          "ch": "戴頭巾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/b015abc4f4754ef07278eceb5dc22465.wav"
+        },
+        {
+          "ab": "madu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/4db897f347d337a850b335a2f4138ca5.wav"
+        },
+        {
+          "ab": "kau",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/702c2cb4d90f4bcbeb00a993c4239046.wav"
+        },
+        {
+          "ab": "lrulumiange\r\n",
+          "ch": "紅布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/6046ba5f0300c76aafc560fa7fe4755b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pasanguleelebe",
+          "ch": "從下方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/8b2bd207dfc90bba3ac8ca30a267cf23.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/79786ba42c7f4e0cf00f827d18d8b714.wav"
+        },
+        {
+          "ab": "avenge",
+          "ch": "龍船花",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/233ab70cad0afde8b5978eaf3c5b353c.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/1b15fc4b0720c4c9db0c566a7a90d76d.wav"
+        },
+        {
+          "ab": "lraela\r\n",
+          "ch": "蝴蝶花",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/65a44ae97093df29cf5474b0d603cfda.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "背景。這首的背景與前一首有先後相連的關係。是一位媽媽告訴女兒要迎接一個出草凱旋而歸的英雄所該穿戴的盛裝。\r\n",
+      "ab": "tasingkaiya. kay senai kay kiyacungulu inya senai cucubungu, yakai ku aswalala si bilrila niya ku tamadahuha. tiatina ka peaelaela ki lalake ka ababai, lu kidresenga ku mwabalribalriyu ku siabadha ka lasauwalalai, ku sangihagelana sikahingalai.\r\n",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/7865590095101f5591b7111379a836f4.wav",
+      "word": [
+        {
+          "ab": "tasingkaiya",
+          "ch": "出自於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/b88acabbdca6509c2147d95fb83bd673.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/4e0a47750c2667f3fdcee8070f0b018e.wav"
+        },
+        {
+          "ab": "senai",
+          "ch": "歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/59f5bb496e0b39acd433fff5a688ee67.wav"
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/51fda78b2b3ed46c4d214a4aaff3e9b5.wav"
+        },
+        {
+          "ab": "kiyacungulu",
+          "ch": "相連",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/06fa094cf7700341f6b3fb6651a915e7.wav"
+        },
+        {
+          "ab": "inya",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/3045fd680ca81cadbaee2012fe772f14.wav"
+        },
+        {
+          "ab": "senai",
+          "ch": "歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/fa036f0c64c03cdaa23521533e4cb4af.wav"
+        },
+        {
+          "ab": "cucubungu",
+          "ch": "前面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/e1eb8c32272d1efa6d0d73c5387c6c51.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/7fb3b7b9789cb9d854e5d8d5cfca27a8.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/7586c334fa8de07fc83b0d769fb93866.wav"
+        },
+        {
+          "ab": "aswalala",
+          "ch": "先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/c99bce6348797e608bbbcaa15fb79b13.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/81882d60d7f08262c2819ff4283b9d91.wav"
+        },
+        {
+          "ab": "bilrila",
+          "ch": "後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/140cf7d567985758299ef54259438ded.wav"
+        },
+        {
+          "ab": "niya",
+          "ch": "所謂的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/74af8770ad272148f63cad5a770c5463.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/75de30e7bd1525a7a2f359d397af60f2.wav"
+        },
+        {
+          "ab": "tamadahuha",
+          "ch": "關係",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/1729ce198ede5d010db06d1d533cbaac.wav"
+        },
+        {
+          "ab": ".\r\n",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tiatina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/affb7ff3c7143e4b6b7810aa28165efa.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/a3effb9c7c93e4940a28ec11124c34b1.wav"
+        },
+        {
+          "ab": "peaelaela",
+          "ch": "告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/c725d54a4d4d6eee1d5994f736300a19.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/df174fb4945207ca984d43dd9c1f4bd0.wav"
+        },
+        {
+          "ab": "lalake",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/9cfab6093153bd79042aab09d3bc9eba.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/a163da4e70210f7ff9412343868fb173.wav"
+        },
+        {
+          "ab": "ababai",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/b60ec5fdea9b362729ec82a2fe3e5878.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lu",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/a0e5fa75b09a1f5a4849c8ea002880f2.wav"
+        },
+        {
+          "ab": "kidresenga",
+          "ch": "迎接",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/b5eeca04d8bab911b51e3cd3a28d3d07.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/bf08b844f991b606fa1a0701bca5cf8d.wav"
+        },
+        {
+          "ab": "mwabalribalriyu",
+          "ch": "返家的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/f5c8061a8bfc2b92e4bb1dbe6fa11444.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/b71f627ffdc32578fa274ee3bb589166.wav"
+        },
+        {
+          "ab": "siabadha",
+          "ch": "出草的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/5fbc027084e8488c4bdb04229ec2f9b2.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/c3b2d6f72987932a06b117e1021e07a6.wav"
+        },
+        {
+          "ab": "lasauwalalai",
+          "ch": "男性們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/172affa96b32dcb41d731f911d0f613e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/15/018f60c7cdfd62f6d20dac7b34172e2b.wav"
+        },
+        {
+          "ab": " sangihagelana",
+          "ch": "盛裝的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/f766e7cd34da51f71baa3278b7a523e3.wav"
+        },
+        {
+          "ab": "sikahingalai\r\n",
+          "ch": "打扮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/12/1b7f9dbcecc6b4d8e27f7f956323bf22.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

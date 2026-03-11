@@ -1,6 +1,791 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "msbazyux",
+  "titleCh": "換工",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "因時代的變遷現在原住民的生活型態也與以前不同。以前農田開始工作時，如：農地開墾、小米播種、種植玉米及收成的各項工作，會先尋找能互相幫忙農務的族人，大家互相幫忙，一起為一年的耕種歡喜收成。",
+      "ab": "misu soni qani lga, nyux mt’iyu kwara qenxan na Tayal la, sraral tmqmayah yan nqu t’aring mnazyang ru lmom, tmabul, lmhaq, sm’atu tmubux trakis ga, msbayux mtzyuwaw yuwaw qmayah tehuk squ kklhan pinbahuw.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/16/a1ce3b8784986e4516dd28c5c61683b3.mp3",
+      "word": [
+        {
+          "ab": "misu",
+          "ch": "此刻，現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b2e5f90cfc0b3161e4eb4e3d9113e4af.wav"
+        },
+        {
+          "ab": "soni",
+          "ch": "今日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/13226e62a4825e7f05eaea99dccaa0e3.wav"
+        },
+        {
+          "ab": "qani",
+          "ch": "這時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/f75018814c65107caadf1ca91b78f7de.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "之時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/f59a224e23ab78d503da160d16c35897.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nyux",
+          "ch": "正在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/f97375d359f4dc03d7a3ede825d754b2.wav"
+        },
+        {
+          "ab": "mt’iyu",
+          "ch": "改變",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/506ff8f7fd1cbc4bcd1dc1cce4dde5e6.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "所有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/432d63dae73d2ee2d3f9d5d6b272ffed.wav"
+        },
+        {
+          "ab": "qenxan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/c7d61145bec372af2153f38ad338eb9d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/30591b04ab1e00a20650afebc53e4c82.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅（人）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/d200f9a76cf225174143c0493344cc21.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/127fc7f6da623d4ea6f0859049bcfc52.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sraral",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/35766edab3ad6fb442a75ebbdeb862e8.wav"
+        },
+        {
+          "ab": "tmqmayah",
+          "ch": "農耕時代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/0200b07a76f6ab6c4268e7ab3cdc5b19.wav"
+        },
+        {
+          "ab": "yan",
+          "ch": "就像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/3209503de12b79d4f28ded875740d32c.wav"
+        },
+        {
+          "ab": "nqu",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/c0b740bcd28b6f2cb00fa352ebc74b99.wav"
+        },
+        {
+          "ab": "t’aring",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/e0af81190f24279867e9a184de7d3c68.wav"
+        },
+        {
+          "ab": "mnazyang",
+          "ch": "墾荒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/e7b7fd2a835eb951c1e27356a64819fd.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/6f5c36febc71468a2ddb5dc722face8c.wav"
+        },
+        {
+          "ab": "lmom",
+          "ch": "燒墾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/06/a2fe8209ab7abb84c168d3b31a03e276.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tmabul",
+          "ch": "挖地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b5aac74654338312630995416522c216.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lmhaq",
+          "ch": "清枝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/cb15a80b0356a293675f5ed9d1bc68c6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sm’atu",
+          "ch": "播種祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/99ab97109c09d34d398245a36874fd3d.wav"
+        },
+        {
+          "ab": "tmubux",
+          "ch": "播種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/a3902260e2e3342a46b6ab34ad648dd9.wav"
+        },
+        {
+          "ab": "trakis",
+          "ch": "小米（粟）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/541e2ab9e3d9b17e243868c2538a7422.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/79b550a9a13e3b6e5145a506b50c6e49.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "msbayux",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/f5601a4a8fadf54dfd204a4d1a110e92.wav"
+        },
+        {
+          "ab": "mtzyuwaw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/25f8000128a0a3dca1dc5aa45506a47b.wav"
+        },
+        {
+          "ab": "yuwaw",
+          "ch": "事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/fa839eb5e08f94c9ab01e710de85e971.wav"
+        },
+        {
+          "ab": "qmayah",
+          "ch": "乾地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/28e4af279e3f81af86baf107a8f93bdb.wav"
+        },
+        {
+          "ab": "tehuk",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/d2a404355ef8d41dd18949f9bbdaf7be.wav"
+        },
+        {
+          "ab": "squ",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/0c600b45fb5480f64075aad4afbf7836.wav"
+        },
+        {
+          "ab": "kklhan",
+          "ch": "收割期",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/3b141c90c387b40e69a0535552796b79.wav"
+        },
+        {
+          "ab": "pinbahuw",
+          "ch": "五穀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/a526c81987bf46b9486fec153d894dfb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "農務工作、休息、吃飯及結束，都以太陽的位置及影子為參考，主人會設定工作的進度，進度達成時會休息一下，此時主人會開始準備午餐，當他準備完成會看自己的影子，影子在自己腳下時，便大聲呼叫：「吃飯囉！」",
+      "ab": "msbayux mtzyuwaw ga skita nha wagi, mhngaw ru kryax maniq, maki qu binkgan na ptzyuwaw nqu qmayah qani, masoq kwara qu yuwaw na qmayah ru tehuk squ hngawan ini ga tehuk squ kryaxan lga, mutux mlawa qu bnkis mha, uwah maniq la ru lmon nha balay smrzyut qu nniqun.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/16/5dd41a0dd9174f67c77345e63618edb8.mp3",
+      "word": [
+        {
+          "ab": "msbayux",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/f7848dc669070508704160fcfb238cbc.wav"
+        },
+        {
+          "ab": "mtzyuwaw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/78db47308b96887fc72014cc493fccde.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b2687e9735a3902f8a162e84c73c9c04.wav"
+        },
+        {
+          "ab": "skita",
+          "ch": "得看…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/262cf3ea291eb3ee895ba1ece42e7b2a.wav"
+        },
+        {
+          "ab": "nha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/31c5f2e2065f66da2d0701440a13f2a1.wav"
+        },
+        {
+          "ab": "wagi",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/34794849b7ef79aec5cec4b459bce4ac.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mhngaw",
+          "ch": "休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/faf03de2df0c7775460737dde232d9cf.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/3992461a3296302d30846b0cb7a1476b.wav"
+        },
+        {
+          "ab": "kryax",
+          "ch": "吃午餐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/140b977dbe81da8452cbaafe09231ad0.wav"
+        },
+        {
+          "ab": "maniq",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/e1f4370ba5e9e03eed004c7be166a165.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maki",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/6843df90992475566c84c6f95b70637d.wav"
+        },
+        {
+          "ab": "qu",
+          "ch": "該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/af06c7e8218282a2b640018409a87a80.wav"
+        },
+        {
+          "ab": "binkgan",
+          "ch": "排",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/68486cfc19951b110f6c1cf25cd1cabc.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/1baa7eaa1ff168328be1ad908569f80b.wav"
+        },
+        {
+          "ab": "ptzyuwaw",
+          "ch": "所要做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/2642e1b0a9de5d5a729437b276492ccc.wav"
+        },
+        {
+          "ab": "nqu",
+          "ch": "的那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/3ecdf695ef5c06a7ef4c65690c933587.wav"
+        },
+        {
+          "ab": "qmayah",
+          "ch": "旱地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/db9d53379bd4eef2e0e1b1e68890d8d0.wav"
+        },
+        {
+          "ab": "qani",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/da6422022ce5bc2b5685a9ac287f0580.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masoq",
+          "ch": "完畢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/08a7b2bf81ce7d25805e01418072935a.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "所有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/0828d8467375c7a066aef21ce54dd72b.wav"
+        },
+        {
+          "ab": "qu",
+          "ch": "該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/87bced977d598f308f700a147a61cbaf.wav"
+        },
+        {
+          "ab": "yuwaw",
+          "ch": "事項",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/6b47e70d6235a5ddefc136129f23b9c1.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/31bdc6fd38fe5cacffb0efcd64ccecb6.wav"
+        },
+        {
+          "ab": "qmayah",
+          "ch": "旱地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/ba80485a0935f556fe6090420e8b2a9e.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/707d4db459e630c62e49612c0f96703d.wav"
+        },
+        {
+          "ab": "tehuk",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/aeda56c126a8b4dcef351fbed43ac10e.wav"
+        },
+        {
+          "ab": "squ",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/7f2916f1a319e6ca437da34038d28264.wav"
+        },
+        {
+          "ab": "hngawan",
+          "ch": "休息日；星期日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/613f9f944aeba49ed23cf8678a2d15f5.wav"
+        },
+        {
+          "ab": "ini ga",
+          "ch": "或者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/58224b4531c1ec2a6d61bf4a4aab65a4.wav"
+        },
+        {
+          "ab": "tehuk",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/7dd187d1683a5333021579726fe4f449.wav"
+        },
+        {
+          "ab": "squ",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b060c9035728b5b5dfc5c182d46f69f9.wav"
+        },
+        {
+          "ab": "kryaxan",
+          "ch": "午餐時刻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/0e0fd1330f3ac6f2a75d9bed17042978.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "之時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/3eb2d6b1adb37b19000a45c49c399f63.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mutux",
+          "ch": "就會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/761875eeb8a847c55207340d9c75adb8.wav"
+        },
+        {
+          "ab": "mlawa",
+          "ch": "呼叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/aaa1e7f7ebb3febb606ec3886682fa59.wav"
+        },
+        {
+          "ab": "qu",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/297f17eda5d08a535705ec16caa0acae.wav"
+        },
+        {
+          "ab": "bnkis",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/992abbf5fee00f15d44cd2b8141a8217.wav"
+        },
+        {
+          "ab": "mha",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/d5d2c082874d1dd498f349f366524bd9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uwah",
+          "ch": "請過來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b6267667c24ff894ebe40491ac2d1252.wav"
+        },
+        {
+          "ab": "maniq",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/bc6982b057a41620c87863a581d302ae.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/4eac0a40db9ba97d6738136f126f9bcc.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/7f9cb2c26fbaaed5cdaa297a3aa2be0b.wav"
+        },
+        {
+          "ab": "lmon",
+          "ch": "事先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/36669889a45a7cc27c10ad623d5152ed.wav"
+        },
+        {
+          "ab": "nha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/a6bf4d21cc495b0af0e3ce8f943484c9.wav"
+        },
+        {
+          "ab": "balay",
+          "ch": "確實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/ea914fe9e99eec031d7d083a996aa563.wav"
+        },
+        {
+          "ab": "smrzyut",
+          "ch": "整理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/c3e547f5330ddd5f3474678163d0b1b6.wav"
+        },
+        {
+          "ab": "qu",
+          "ch": "該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/a08177f838c23764d705e60f5804fa5f.wav"
+        },
+        {
+          "ab": "nniqun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/4226e7d4d4a36c85662b420f458918a4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我們的祖先都是如此互相幫忙，雖然沒有工資但是大家都過得很愉快、知足，因為互助與情感的連結勝過金錢。所以，請族人幫忙工作時大家都非常樂意，不會拒絕，且爭先恐後的熱情幫忙，「換工」是我們泰雅族的一種美德。",
+      "ab": "kinmhgan na Tayal ga blaq nha balay msbazyux mtzyuwaw, ana ungat than nya ga mzimu mqas mtzyuwaw kwara nha, baha hmswa ga mssi inlungan minblaq mbkal, ini pqhzywaw na inlungan ru qnyat mtzyuwaw, mrraw msbazyux qu nyux nha syan inlungan, yan nqu msbazyux mtzyuwaw qani ga blaq balay gaga kinmhgan na Tayal.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/18/66f2a53303cd6b5fad4fdd63371c485f.mp3",
+      "word": [
+        {
+          "ab": "kinmhgan",
+          "ch": "古老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/194c1d50f693d9cd39139206b65e191a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/d776aeee53e2a66ab2b5ac85d2ef7a13.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/73d59886f7d65e751805d2248921138c.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/37f20268e6649bd69ebc0c42898a5219.wav"
+        },
+        {
+          "ab": "blaq",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/62e28ee03de3ae19f9c9877f1131a2e0.wav"
+        },
+        {
+          "ab": "nha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/c14531694b8d68ac94c3f3a913654cfd.wav"
+        },
+        {
+          "ab": "balay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/fc46237f17199c1941f656c6adf725a3.wav"
+        },
+        {
+          "ab": "msbazyux",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/6392db40099816f5b60fe989ddc3e34e.wav"
+        },
+        {
+          "ab": "mtzyuwaw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/a4c566bec0256722d6fd65c4a1ee5b55.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ana",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/011a51cc1878129b9487a23279d8a061.wav"
+        },
+        {
+          "ab": "ungat",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b949810dd2653389b2943da9d3cfc552.wav"
+        },
+        {
+          "ab": "than",
+          "ch": "獲利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/bf179c359f7f3a40ef7dc0cc7a96d916.wav"
+        },
+        {
+          "ab": "nya",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/855393bdb2b1bc40c1d2d61a70065228.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/9de15bcc9f0e9e69fbf82b31705658a5.wav"
+        },
+        {
+          "ab": "mzimu",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/effe1c88c4496d8fda9081ff6ca42c9e.wav"
+        },
+        {
+          "ab": "mqas",
+          "ch": "高興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/8898fbef0533869a4d1f56d630ff4d60.wav"
+        },
+        {
+          "ab": "mtzyuwaw",
+          "ch": "做事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/fd2fd8a8a56a18ea224e56f05eedfef1.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "所有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/8c50eb29ad827c88c161c626ae97945e.wav"
+        },
+        {
+          "ab": "nha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b9ad97e5a7008a455eea455646af330c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "baha",
+          "ch": "怎麼能…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/aae0f60bbef8a6470562c6ceac6936cb.wav"
+        },
+        {
+          "ab": "hmswa",
+          "ch": "怎麼樣…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/0c2208000707e25bcfaf4e80eede3e9f.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/41eb88498d7107d2ccab4764ca8f1df9.wav"
+        },
+        {
+          "ab": "mssi",
+          "ch": "凝聚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/2720d07856726f297a704b61f857ef59.wav"
+        },
+        {
+          "ab": "inlungan",
+          "ch": "心裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/0b74a2d1e506769c499697e1f85559bb.wav"
+        },
+        {
+          "ab": "minblaq",
+          "ch": "好好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/295a8635c8c7d409530446f0c89ca69c.wav"
+        },
+        {
+          "ab": "mbkal",
+          "ch": "往來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/894469c97b84f1bf6e4bd3810924e7f6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/941840e465cba5b847045373c6cdf6af.wav"
+        },
+        {
+          "ab": "pqhzywaw",
+          "ch": "爭論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/be6809326a130a8f1e18b7678ae83e38.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/6f7c1bf438e99fed6e70360bb117afce.wav"
+        },
+        {
+          "ab": "inlungan",
+          "ch": "心裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/6feb47aa8ffafea99a48c4fa0550deb6.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/d65fdfda8855ea28f06ba97b78b82c27.wav"
+        },
+        {
+          "ab": "qnyat",
+          "ch": "認真",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/fecbcf1818b2830759b04d1bd73eb066.wav"
+        },
+        {
+          "ab": "mtzyuwaw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/1c08d89db21377adc5060851230720be.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mrraw",
+          "ch": "互相幫忙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/a605ac482c5b18fe105c2d30b9cd8f4c.wav"
+        },
+        {
+          "ab": "msbazyux",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/72999e289d6516094190816ae3a996e3.wav"
+        },
+        {
+          "ab": "qu",
+          "ch": "那；於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/df01b835c3d1d8c3f45a976644070d4f.wav"
+        },
+        {
+          "ab": "nyux",
+          "ch": "正在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/4b362e37bc509edde3771df73d02285a.wav"
+        },
+        {
+          "ab": "nha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/aa188bc79b098a7e4995f100d12f96d7.wav"
+        },
+        {
+          "ab": "syan",
+          "ch": "放置",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/18/2246f5850fd45596f01b9f471b5da752.mp3"
+        },
+        {
+          "ab": "inlungan",
+          "ch": "心中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/62695abac0643497fdffcad9c9aee1ef.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yan",
+          "ch": "就像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/bd3fae8eab2a03cbfdb2eca14ccc324c.wav"
+        },
+        {
+          "ab": "nqu",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/ae50cb2034296e6b7c6d4d426cb4c6b2.wav"
+        },
+        {
+          "ab": "msbazyux",
+          "ch": "換工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/5412e2fe48e4a197146267b7c1c76ff2.wav"
+        },
+        {
+          "ab": "mtzyuwaw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b7956fe701df667d167ad1d4d7aba4b1.wav"
+        },
+        {
+          "ab": "qani",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/bea4cca0150baae455242596087b1904.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/c49435eb621bb0e8381b70d948b8f563.wav"
+        },
+        {
+          "ab": "blaq",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/f085b73649011aeb18a185f8df4856b4.wav"
+        },
+        {
+          "ab": "balay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/e1657be7340c68ea78d7095433c4b737.wav"
+        },
+        {
+          "ab": "gaga",
+          "ch": "習俗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b80a6321ebe1875fbbe272cb34356cbe.wav"
+        },
+        {
+          "ab": "kinmhgan",
+          "ch": "古代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/b907973cffd3295e1aad508a5e6560c5.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/0385da3b46b28eb7b9ea1be3d8665f46.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/09/335a226a982096f82928ac9074419477.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

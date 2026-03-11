@@ -1,6 +1,470 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "sasenan lia",
+  "titleCh": "早晨",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "早晨了。天再次亮起。我起來了。",
+      "ab": "sasenan lia. liahan minang lia. yaku mitun lia.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a3e6914fe38881173e0bbf74a3d4fcf9.wav",
+      "word": []
+    },
+    {
+      "chinese": "太陽的光輝從東方浮現。霧散了。",
+      "ab": "pudusak a lizak aidi daya ukat. hasit lia ebeeh.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/0c6f7a8615d5b22dc79c0d13d8226736.wav",
+      "word": [
+        {
+          "ab": "pudusak",
+          "ch": "發光、發亮、閃爍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/3668ee6b49e78f75c2988d0ed9d73e52.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/714eeae60765e1ae9338592614b4b1b5.wav"
+        },
+        {
+          "ab": "lizak",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c5c819e4cdb0a7d959648afec8378e07.wav"
+        },
+        {
+          "ab": "aidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c685ad72ffb861d5d723e6651d3a97b1.wav"
+        },
+        {
+          "ab": "daya",
+          "ch": "東方、上游",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/024972f10aedfc9bc12e000bd470db87.wav"
+        },
+        {
+          "ab": "ukat",
+          "ch": "出來、出現",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/aabeebe42eed06d93d124977da6bb07d.wav"
+        },
+        {
+          "ab": "hasit",
+          "ch": "散",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/39396812ba2a20fe66e2db2461e0bdc9.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/ea761670495576d1ed350b213ed613bb.wav"
+        },
+        {
+          "ab": "ebeeh",
+          "ch": "霧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c88d860421be25ff93e02a4259f0e6d9.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "清澈的天空。聽到鳥叫。",
+      "ab": "masezaw a dali. tumala tsiu tsiu ki ayam.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/16242d64e2b53cc9844accd3f55caa88.wav",
+      "word": [
+        {
+          "ab": "masezaw",
+          "ch": "乾淨、清澈、（男性）斯文",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9ae36db09453d58dda60d7d2d3f99f70.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/db193f5b2a2779b1423a80ede8590403.wav"
+        },
+        {
+          "ab": "dali",
+          "ch": "天、日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/da4cb9b36b7adae707cce5debf13c9b1.wav"
+        },
+        {
+          "ab": "tumala",
+          "ch": "聽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/99b9f026ddb62a7988d4fb776b61596b.wav"
+        },
+        {
+          "ab": "tsiu",
+          "ch": "啾（模擬鳥叫聲）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/66d2f42e1d3cf75df32d476731b47dac.wav"
+        },
+        {
+          "ab": "tsiu",
+          "ch": "啾（模擬鳥叫聲）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d8e4bb3349235b7eb4442e0b50526f75.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e7b97f28fd2830581fcd3debc4b64031.wav"
+        },
+        {
+          "ab": "ayam",
+          "ch": "鳥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/28eb5dcf5146d69a3f8be0739b8007e2.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "新的早晨在眼前。寬闊的土地。",
+      "ab": "xias a sasenan dakan dauik. muhalat mahangat daxe.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/415a68fced8122879b0f90b614541d9e.wav",
+      "word": [
+        {
+          "ab": "xias",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/73ae550a0c07a95f1d6c1ca374da76d1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/85d8f5444aae66ebf0127ba9cdd6e000.wav"
+        },
+        {
+          "ab": "sasenan",
+          "ch": "早晨、早上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4f8bbee89e310d5a2c088ca9de816d62.wav"
+        },
+        {
+          "ab": "dakan",
+          "ch": "前面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4f8f8ab0eedbcd2917624244a0f5fef1.wav"
+        },
+        {
+          "ab": "dauik",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/0624fc519b627824d6b96c1bdef62884.wav"
+        },
+        {
+          "ab": "muhalat",
+          "ch": "伸展",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/26c0b1f26a74901b762daecb61dc4142.wav"
+        },
+        {
+          "ab": "mahangat",
+          "ch": "平坦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/5474ede15055febdc90d8eed34399e32.wav"
+        },
+        {
+          "ab": "daxe",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c57dddb4aecc5a4ad3d70d5d687be056.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "開啟天空鎖匙，清涼的風撲向顏面。",
+      "ab": "tatangay babaw kawat susu. malamik a bai sapoh di hipu.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/def850a3f7043d31bb989b1eef06e268.wav",
+      "word": [
+        {
+          "ab": "tatangay",
+          "ch": "將要開啟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/b8dc6bb8166ae29dc426fb64e363a93b.wav"
+        },
+        {
+          "ab": "babaw",
+          "ch": "上面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/88289dcdfd23accdf557caa19d7c7c95.wav"
+        },
+        {
+          "ab": "kawat",
+          "ch": "天、歲、年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9d2516b70b67319606c97252341db501.wav"
+        },
+        {
+          "ab": "susu",
+          "ch": "鎖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e51113f7d7f2ba4fe6d23f5e66f1c51c.wav"
+        },
+        {
+          "ab": "malamik",
+          "ch": "涼、冷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/29068f6372a093690f9878cfca30bbd5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6a2b5e998a8ceb0141a1042b97b31c97.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "風、空氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/aee949e637259f329431eba0f4bc9072.wav"
+        },
+        {
+          "ab": "sapoh",
+          "ch": "掃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/88ecf1f41c792b0e6aa943484b20b335.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/8c535fe1bdb9690ebfe396ca12a6339e.wav"
+        },
+        {
+          "ab": "hipu",
+          "ch": "臉頰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6745c2fb877efe03c0157d9cfb63d3f1.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "心吸輕鬆好空氣，也看到路上跑跳的小狗。",
+      "ab": "mahabay muhéni a babu. kita ka kaidi daan téhalut italam musinga wazu.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a4df3526f96fb67ccd93c89dc8ca17f5.wav",
+      "word": [
+        {
+          "ab": "mahabay",
+          "ch": "舒爽、舒服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/ce414d7e148282ae56b2f61e40e1c75d.wav"
+        },
+        {
+          "ab": "muhéni",
+          "ch": "呼吸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/f86f8461f57e5378e1419343f4fdb7f5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/212de70be1a1bd0fc6a96109da83b23a.wav"
+        },
+        {
+          "ab": "babu",
+          "ch": "心臟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/db314975d8d768000755e25e90a36fb3.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d19a6fffc63a79cd7aac8dd4ae8b7fd5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/22c48be285feac49426e3840db9169db.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c2ab14db07faeefe1b6af100ef795012.wav"
+        },
+        {
+          "ab": "daan",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/52469693160dc0731fa4c8c8c6d0276f.wav"
+        },
+        {
+          "ab": "téhalut",
+          "ch": "跳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/8177fe47e8f9bd1b4f3f9f1b8ca48c9f.wav"
+        },
+        {
+          "ab": "italam",
+          "ch": "跑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/67a1c708092b7d8886d5088f16e38deb.wav"
+        },
+        {
+          "ab": "musinga",
+          "ch": "追趕（耆老表示在文中即為跟狗跑跳）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e91a1ff491414dd320b80b72e1ba3e9d.wav"
+        },
+        {
+          "ab": "wazu",
+          "ch": "狗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/cf6962150092628324e4ebd7e8a3b61e.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "中午太陽熱氣，清風吹來草葉如狗搖著尾巴。",
+      "ab": "dalian ka akux a lizak. bai bai sasapoh liaka sabun sabun maxi wazu a dulut maiu‘iu.",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c3c9ad693f5b126d974d752305f998bd.wav",
+      "word": [
+        {
+          "ab": "dalian",
+          "ch": "中午",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e1509ef6a1ae3a40b8971f6b821e0577.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/09929c4101bb68c43577ee51aa9c6360.wav"
+        },
+        {
+          "ab": "akux",
+          "ch": "熱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/febb4da10460e05bec5b2036a7808c54.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6ab5dfe01c0896b5efdeacd44a81e10f.wav"
+        },
+        {
+          "ab": "lizak",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/8ffa96fa9dc287cebfd12c4c110e3ebf.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "風、空氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/57cdcae0e5db5bd8561b7f06c7eb1c87.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "風、空氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9700f00efdce0a08dbb4736220371d53.wav"
+        },
+        {
+          "ab": "sasapoh",
+          "ch": "掃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/77235aea74e822fa64d12b806f35b98f.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/fece62af48b8f15db93882ebc92f7d78.wav"
+        },
+        {
+          "ab": "sabun",
+          "ch": "雜草、乾草、長草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a2caea7c7d5a09087747eb8c7751e1c1.wav"
+        },
+        {
+          "ab": "sabun",
+          "ch": "雜草、乾草、長草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2b553f0a871d1e72e50f0cd9943f1f40.wav"
+        },
+        {
+          "ab": "maxi",
+          "ch": "如同、像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4b41927e19e3e3eaf4f4eb3ba29cc60b.wav"
+        },
+        {
+          "ab": "wazu",
+          "ch": "狗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/7cdf315ecbbc6203404ac1f14a5d6636.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/7fba62d3c2d47b7b03acf93ecf68f6ad.wav"
+        },
+        {
+          "ab": "dulut",
+          "ch": "尾巴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9216b35d6adad0dc2e3c91f8d8f89411.wav"
+        },
+        {
+          "ab": "maiu’iu",
+          "ch": "搖尾巴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/b7a31adb4bfbb19c07208eb6797354e9.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "如同詩人詩寫。到天黑出現月與星在太空。",
+      "ab": "maxi bizu a saw bizuen. kaxu di sem liaka ilas iu bintun maukat di babaw kawat lia.",
+      "order": "8",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/1fe3b0c22c2b50f9cc2c137a37d57e2b.wav",
+      "word": [
+        {
+          "ab": "maxi",
+          "ch": "如同、像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/92ffc93ad54ce84d68cef724e632484d.wav"
+        },
+        {
+          "ab": "bizu",
+          "ch": "字、書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/97433c9c59a79fbb3fcddfdc3c5887da.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/872ed587e9f88d6b7790e8b15e4782b0.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c30684b8c9f51549341bcf29a94922ed.wav"
+        },
+        {
+          "ab": "bizuen",
+          "ch": "被寫、被畫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/75bab4aba66c64674b3fd5d7c4644b9c.wav"
+        },
+        {
+          "ab": "kaxu",
+          "ch": "至、到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6022025d1b6df077f7ad39f25c4d4c69.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/8a2185c97a354f475b72f1833a8d1219.wav"
+        },
+        {
+          "ab": "sem",
+          "ch": "天黑、暗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/7d18076176276455a679db4ccadf8138.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a2a0e5d462b2a2291c629de37a09f634.wav"
+        },
+        {
+          "ab": "ilas",
+          "ch": "月亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2b33120f38647197f0a5bd83f5eac5a9.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2db8284314f963089a93a5739ecf25d1.wav"
+        },
+        {
+          "ab": "bintun",
+          "ch": "星星",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/54b22d81fe074d42561691c4668dba33.wav"
+        },
+        {
+          "ab": "maukat",
+          "ch": "出現、出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2dcf4c43e70d35fa5a6d9ab059630ee0.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/8117ca0c7ebe5d04ba0913c063ff7ca0.wav"
+        },
+        {
+          "ab": "babaw",
+          "ch": "上面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/0c6afa9a42a98b081dd98f0635891a52.wav"
+        },
+        {
+          "ab": "kawat",
+          "ch": "年、歲、天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a048938ebe1708399590ed18a20fa481.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/908496d4dcde64c7d8702d94694a862b.wav"
+        }
+      ]
+    }
+  ]
 }

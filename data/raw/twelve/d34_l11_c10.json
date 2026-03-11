@@ -1,6 +1,876 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "tahlana Taivangʉ",
+  "titleCh": "台灣族群",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "對世界來說，台灣是一座小島，島上卻住著各種各樣的族群，其中政府認定的原住民族群，從人口少到多介紹，有卡那卡那富、拉阿魯哇、邵不到一千人，撒奇萊雅、噶瑪蘭、達悟、鄒、賽夏不到一萬人，賽德克、魯凱、卑南、太魯閣、布農、泰雅不到十萬，十萬以上的有排灣、阿美。",
+      "ab": "maci kiahlahlamu kani’i sasaruanana, tam maini a kani’i Taivangʉ hlikitapusa sasaruanana, maruaru kani’i hlikitapusa tarʉtatʉatʉkʉhlʉ cucutahlana, ma kani’i rʉrʉmanʉ kukana hlipauturu a cucumacuna, angahli maini tahlana miungu tumahlaʉ tahlana, maaru tahlana Kanakanavu, Hla’alua, Sau, kuiungu ucani hlimiaili cucutahlana, tahlana Sakilaia, Kʉmalangʉ, Ta’u, Cou, Saisia, kuiungu mahlʉ hlimiaili cucutahlana, tahlana Saitʉkʉ, Lukai, Penan, Taluku, sumukuhlu, Taiialʉ, kuiungu hlimiungu hlimiaili cucutahlana, micalivi hlimiungu hlimiiaili cucutahlana maaru tahlana Paiuan hla ’Amiruku.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/234c04f19f239b6d91cf473d6738deeb.wav",
+      "word": [
+        {
+          "ab": "maci ",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f135110abd200d8244b2ae1185cda037.wav"
+        },
+        {
+          "ab": "kiahlahlamu ",
+          "ch": "來說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/ba3c8a9f8df0a6a83fcf4ad12ea9581e.wav"
+        },
+        {
+          "ab": "kani’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a2a8d30cb095b1d5353948bc40ad271f.wav"
+        },
+        {
+          "ab": "sasaruanana",
+          "ch": "世界",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/0df3895cb49d4b6c497ad5dac211a0c4.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tam ",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/7e7b4d0ff1a413b0833d081fdd4d5eb5.wav"
+        },
+        {
+          "ab": "maini ",
+          "ch": "小",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/19928a81df269292d4fde98228f80025.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/fe3b401ec0b8824c01893a333aa2f03b.wav"
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/6a52619637b4b97ea81ae21797bee432.wav"
+        },
+        {
+          "ab": "Taivangʉ ",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/cc644639f317ac4d09340267d12ff5d6.wav"
+        },
+        {
+          "ab": "hlikitapusa ",
+          "ch": "島嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/88cc4bbf992801ada1c6c785c32101d5.wav"
+        },
+        {
+          "ab": "sasaruanana",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/b4d8ec8a75a6b05edf89edbe7d85f362.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maruaru ",
+          "ch": "住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/62a19bb81f52a7a0ffd8ec814fc7e5a3.wav"
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a1359b86f1bc886a753a3e1a93745859.wav"
+        },
+        {
+          "ab": "hlikitapusa ",
+          "ch": "島嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/11291c6ca3d139bff4535f2d9c99a97f.wav"
+        },
+        {
+          "ab": "tarʉtatʉatʉkʉhlʉ ",
+          "ch": "各式各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2af4196c3c75b39e7adcb9cd181c2dc8.wav"
+        },
+        {
+          "ab": "cucutahlana",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/d4814dd003e61ac5ffb91176e1fa6ffb.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma ",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/d295f66b5c911d81c5f4412a821cbedf.wav"
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/b290555aa918078b42b1001e877c1a8e.wav"
+        },
+        {
+          "ab": "rʉrʉmanʉ ",
+          "ch": "裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/47844c329795d6e3c269a8a09ba8f2b4.wav"
+        },
+        {
+          "ab": "kukana ",
+          "ch": "國家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a6da60e9b58b87adb178e91fd42ea874.wav"
+        },
+        {
+          "ab": "hlipauturu ",
+          "ch": "認定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/5b8148f422e7e5a8135945d56ecdb2d6.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/c60e67b48eace63ac19ba1016c90935f.wav"
+        },
+        {
+          "ab": "cucumacuna",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/616324f2bd7d96699a5dbb236a29e8b2.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "angahli ",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/e4320d9eef57db117ef9d0886470e68b.wav"
+        },
+        {
+          "ab": "maini ",
+          "ch": "少",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/fa7a4eb582b6ccd0b17dc07056f508d3.wav"
+        },
+        {
+          "ab": "tahlana ",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/8dddd5d6f5c804dc8c34745c7bd2036e.wav"
+        },
+        {
+          "ab": "miungu ",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/b40d62a03b934a3011e29b56eba4b2ba.wav"
+        },
+        {
+          "ab": "tumahlaʉ ",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a938687449db90add211338244c6dafd.wav"
+        },
+        {
+          "ab": "tahlana",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/c87e98fd2ad9c4be99363084e7fcbe47.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaru ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/86ee28eb02f363ef0ace9c026b8186ac.wav"
+        },
+        {
+          "ab": "tahlana Kanakanavu",
+          "ch": "卡那卡那富族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/eddc5ae2a685a621b1ebaa0c3c7a3d03.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Hla’alua",
+          "ch": "拉阿魯哇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a76077f22654ee389ccb533e7eab5578.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sau",
+          "ch": "邵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/888bc8e7ff81e9f4513290c3ffbfb452.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuiungu ",
+          "ch": "不到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/da9c3ca4d8d4f007223fc106a1a2f938.wav"
+        },
+        {
+          "ab": "ucani hlimiaili",
+          "ch": "一千",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/ebb949cca2371fd8f89f359cf46fa4bc.wav"
+        },
+        {
+          "ab": "cucutahlana",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/05164fde6baebf2e8228f0a2d1695410.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tahlana Sakilaia",
+          "ch": "撒奇萊雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/77aae90679fb85e98a81f000d20e3f86.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kʉmalangʉ",
+          "ch": "葛瑪蘭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/e32a83c92a7df45fbd6d0ddd732a09f8.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ta’u",
+          "ch": "達悟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a89ae5636cd65e55bbd8915785461151.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cou",
+          "ch": "鄒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/b1b472dd289ea5115e6a4d3dc0c55619.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Saisia",
+          "ch": "賽夏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/5562a0ff509d53a263af2a2a542cb129.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuiungu ",
+          "ch": "不到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/0bba12ff8deacb939760b852b19ce434.wav"
+        },
+        {
+          "ab": "mahlʉ hlimiaili ",
+          "ch": "一萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/cd3216b4bc5469d68b0b3bb86eb49bb0.wav"
+        },
+        {
+          "ab": "cucutahlana",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/1d8ef4e83d1831b0da6ea09f3562a899.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tahlana Saitʉkʉ",
+          "ch": "賽德克",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a0493ec3415ed9dd482e76317fbd9b9a.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Lukai",
+          "ch": "魯凱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/08bb44b3ef827dfdc38899fdd440b54c.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Penan",
+          "ch": "卑南",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/e08975dd16fcaaa9e29e4179552ff08e.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Taluku",
+          "ch": "太魯閣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/47e5ae98cbcd1cfafb8e1d6a930331bb.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sumukuhlu",
+          "ch": "布農",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/4a3d9a7437eee5ae1ca10f4db8984a25.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Taiialʉ",
+          "ch": "泰雅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/56efe6661a7825e187fb9d70a67248f5.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuiungu ",
+          "ch": "不到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/1acaddfe89744882a7a1b5a681f445ac.wav"
+        },
+        {
+          "ab": "hlimiungu hlimiaili ",
+          "ch": "十萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/30f05e0b58cdc3e771e3476730fa6709.wav"
+        },
+        {
+          "ab": "cucutahlana",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/eb65e37a40eae845522cab24624db991.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "micalivi ",
+          "ch": "超過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/4ab7a24663470f199a792935b5dc2dd0.wav"
+        },
+        {
+          "ab": "hlimiungu hlimiiaili ",
+          "ch": "十萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/d859a920c5989d0cff6d3143d4a1d683.wav"
+        },
+        {
+          "ab": "cucutahlana ",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/9f6b2676e7904e8c2d96071e2ed6bb99.wav"
+        },
+        {
+          "ab": "maaru ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2f5077ba969edf2ac547c85ff045b67b.wav"
+        },
+        {
+          "ab": "tahlana Paiuan ",
+          "ch": "排灣族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/fd5c2d9692b05dada248d94be65c2eae.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/908f1a7b179b71ae1d40e76f64e9d64b.wav"
+        },
+        {
+          "ab": "’Amiruku",
+          "ch": "阿美",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/bc5d8ca9ca73d7ecbae7c6724dd1f544.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "除了少數原住民族外，大族群還有平埔族、客家人、外省人、閩南人。現在台灣興起另一個族群，就是來自其他國家的配偶，並已取得本國國籍，我們稱之為「新住民」，人口已超越原住民族，成為台灣第五大族群。",
+      "ab": "ucanii kutumahlaʉ tahlanana usumanʉ, marumana tumahlaʉ tahlana ’Aulia, Puutu, Hlakʉsaiiana, Pakisia’a, kani’i Taivangʉ maaru hlikivaru tahlana, ihlaisa hliangahli ’isiparʉtʉnʉmʉ usumanʉ, hliatʉahlicu mʉmʉa cukahlangʉ cucu’u Taivangʉ, piamiamuisana “hlimuvaru cucumacu”, cucuikatumahlaisa micalivicu ikatumahla cucumacu Taivangʉ, marasiaulima ikatumahlana tahlana Taivangʉ.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/e839164e726c709b208bfd1493e8df11.wav",
+      "word": [
+        {
+          "ab": "ucanii ",
+          "ch": "除了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/55f983f1fbb534ed35222d66a0052e00.wav"
+        },
+        {
+          "ab": "kutumahlaʉ ",
+          "ch": "不多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/14ab4ef2158c1c45f135cf8ef3f9f411.wav"
+        },
+        {
+          "ab": "tahlanana ",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/e2f23fb999a9402d878a0f5a1f62dbd6.wav"
+        },
+        {
+          "ab": "usumanʉ",
+          "ch": "其他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/20a3a1eadf289d9c9830d7f2f8ca7fe2.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marumana ",
+          "ch": "還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/0c5a1a1e8e009455f9fbf4d8859a4834.wav"
+        },
+        {
+          "ab": "tumahlaʉ ",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/c03de68cae817ef286db1dbb7e94580a.wav"
+        },
+        {
+          "ab": "tahlana ",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/0d7b38caf126fd8ee942be9047265152.wav"
+        },
+        {
+          "ab": "’Aulia",
+          "ch": "平埔族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/b4438501482ec703a9d738975d4013c6.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Puutu",
+          "ch": "客家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/bb3935a1d2ab0bc875006ca200da6eb1.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Hlakʉsaiiana",
+          "ch": "外省",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/bcfe259aa963d82996464d1018f22e12.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Pakisia’a",
+          "ch": "閩南",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/cc6947ccb2bdbbbd9789377052e3aabc.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/0b9729a8355f5e3efeb35c5d7730c0d1.wav"
+        },
+        {
+          "ab": "Taivangʉ ",
+          "ch": "臺灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/914d67c2cae642f93c4ad56aea9c360b.wav"
+        },
+        {
+          "ab": "maaru ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a84f018790d455c957a25c968f1fbcad.wav"
+        },
+        {
+          "ab": "hlikivaru ",
+          "ch": "新興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/0cff9152e707e81227cb5efe782db053.wav"
+        },
+        {
+          "ab": "tahlana",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/3bfde44a1fec6cdcb0824eded0750260.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa ",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/68da20811c9cca6c53d1df849954a5d6.wav"
+        },
+        {
+          "ab": "hliangahli ",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/ee7aa4daa3d20f02cbe3d9d68bbd869a.wav"
+        },
+        {
+          "ab": "’isiparʉtʉnʉmʉ ",
+          "ch": "海外",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/3810ba39317d5de43b797ef37e81fc38.wav"
+        },
+        {
+          "ab": "usumanʉ",
+          "ch": "配偶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/b7644e7c99788d6bd47505756eabf3ae.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hliatʉahlicu ",
+          "ch": "已取得了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/6cd09c1cbacefede75919ddf3584222d.wav"
+        },
+        {
+          "ab": "mʉmʉa ",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/edb2de7f73d04fe0d72bb8720d0770cd.wav"
+        },
+        {
+          "ab": "cukahlangʉ cucu’u ",
+          "ch": "身份證",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/82ef72f2d9548e45ab6f52b33bf35459.wav"
+        },
+        {
+          "ab": "Taivangʉ",
+          "ch": "臺灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/8f883f027420fa071747b345a233898e.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "piamiamuisana ",
+          "ch": "我們稱他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/6d29d5f24239371e05d329b47c30422d.wav"
+        },
+        {
+          "ab": "“hlimuvaru cucumacu”",
+          "ch": "新住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/fbd7f25c3621a16ac2feb03617478f2c.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cucuikatumahlaisa ",
+          "ch": "他人口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f860aa2acbf47783536bd0cfde15232e.wav"
+        },
+        {
+          "ab": "micalivicu",
+          "ch": "超過了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/764d2c912925ee99f61e352d91ff77e6.wav"
+        },
+        {
+          "ab": "ikatumahla ",
+          "ch": "人口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/9b7c7ff9f93f2bcb5efc3f1b54eb80bf.wav"
+        },
+        {
+          "ab": "cucumacu ",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/21ace61f27c45c545d2db4c6dc62f74c.wav"
+        },
+        {
+          "ab": "Taivangʉ",
+          "ch": "臺灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/683b950bc89bc4f875f0d6c1eddc27ea.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marasiaulima ",
+          "ch": "成為第五個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/0b54d4eff51d6d7c6943d932c3b090a8.wav"
+        },
+        {
+          "ab": "ikatumahlana ",
+          "ch": "人口多的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/891fdce17124d58cbe3eeed09779d765.wav"
+        },
+        {
+          "ab": "tahlana ",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/5827d9935a6c3d3980bae484a0d1e415.wav"
+        },
+        {
+          "ab": "Taivangʉ",
+          "ch": "臺灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/00de0d48f4919335f71c2cb3fc03773e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "台灣有多種語言、文化、歷史、宗教，讓這塊土地既繽紛又美麗。在這民主自由的土地上，唯有包容和尊重才能使我們團結一心，因為我們共同的身份是台灣人。",
+      "ab": "tai’iaraisaka Taivangʉ pimatumuhlu ngahlana kari, vunguka, likisi, aliatʉnʉla, tuahlʉ kani’i sasaruanana pi matumuhlua tarʉtatʉatʉkʉhlʉ ngahlana masalangʉsangʉ, ma kani’i tʉkʉtakacicihli sasaruanana, ucanii siarukacalai hla arupapualisʉhlʉ, iniciki tuahlʉ pacani tʉkʉhlamu, ta’iaraisaka maaru hlikikucuahlamu cucuTaivangʉ.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f6a688cedc21319626cdd7c3d5f1a033.wav",
+      "word": [
+        {
+          "ab": "tai’iaraisaka ",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/21/2a5b5f54731f35c44edb5a6c0be7873b.mp3"
+        },
+        {
+          "ab": "Taivangʉ ",
+          "ch": "臺灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/902e494587d355c8d03b35c594fac7b1.wav"
+        },
+        {
+          "ab": "pimatumuhlu ",
+          "ch": "有很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/739ced5f14c4165b6552f0e7a1785786.wav"
+        },
+        {
+          "ab": "ngahlana ",
+          "ch": "種類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/24aaf0ebebb377cdf27d85f94ea985cb.wav"
+        },
+        {
+          "ab": "kari",
+          "ch": "語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2790fdb2dae6e9fa32d5d5a876af3c9d.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "vunguka",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2c640a0cbd773f3cd74e3d19da294727.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "likisi",
+          "ch": "歷史",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/8b42ec95c32a01febdd1aff1b6dcef39.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aliatʉnʉla",
+          "ch": "宗教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a0630234fbf4e4a6985e20a61d9c2031.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tuahlʉ ",
+          "ch": "能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/cd999c9c0d30e10a8fe77e72fe4a518d.wav"
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/61d5ec3d032f8ad5f7d3c3db20091ed7.wav"
+        },
+        {
+          "ab": "sasaruanana ",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/822f9df2bd7e4bebd344bbbdaea435c7.wav"
+        },
+        {
+          "ab": "pi ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/20bdbff7a847cca628e7cf4fbe10b0ad.wav"
+        },
+        {
+          "ab": "matumuhlua ",
+          "ch": "多的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/dcc4bfb2ccfd7a15d98de4c229e94317.wav"
+        },
+        {
+          "ab": "tarʉtatʉatʉkʉhlʉ ",
+          "ch": "各樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/fdfc2c7de6b6a8db068ef6e40b62de19.wav"
+        },
+        {
+          "ab": "ngahlana",
+          "ch": "種類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/ca7b93a82e252066bc701d15d030e831.wav"
+        },
+        {
+          "ab": "masalangʉsangʉ",
+          "ch": "美麗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/413925cf2bdffcd25e7bfc16f443a22b.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma ",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/917d2f34ef212b2b14427ddbf1c96a10.wav"
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/65125bab6b496d6eef11412223edec8c.wav"
+        },
+        {
+          "ab": "tʉkʉtakacicihli ",
+          "ch": "自由",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/662e36ee515cc76be93a0caa7ffbeeb9.wav"
+        },
+        {
+          "ab": "sasaruanana",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f88f4fcd334515f1ebb50d9cd42d355c.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ucanii ",
+          "ch": "只有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/85df379749646cf9c12552173bdab14d.wav"
+        },
+        {
+          "ab": "siarukacalai ",
+          "ch": "相互包容",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/ba2ea71ae462c2fe12dfd255d997cd5a.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/e0254eb5d10c950bcbfa07135eff95df.wav"
+        },
+        {
+          "ab": "arupapualisʉhlʉ",
+          "ch": "相互尊重",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f958b3920b055ab543a4e4a56f4324ae.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iniciki tuahlʉ ",
+          "ch": "才能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a196ea9bb8c42f8395f1798628e9e7da.wav"
+        },
+        {
+          "ab": "pacani ",
+          "ch": "合一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/35dbd965f01120ff6e329b118670ffdf.wav"
+        },
+        {
+          "ab": "tʉkʉhlamu",
+          "ch": "我們的心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/155d1e9116c1cbc01fce4966804a03ea.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta’iaraisaka ",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/589c687712d833fa3f5c7475b3413943.wav"
+        },
+        {
+          "ab": "maaru ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f2b5337a076c0be3ccd09fdcfc651601.wav"
+        },
+        {
+          "ab": "hlikikucuahlamu ",
+          "ch": "我們共同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/ed8baa53eeeb3fade0b1c3999d37b328.wav"
+        },
+        {
+          "ab": "cucuTaivangʉ",
+          "ch": "臺灣人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2fc18c49dc6fc4ebf05be080c6b6a62d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

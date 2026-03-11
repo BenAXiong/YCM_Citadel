@@ -1,6 +1,601 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Iniqdian",
+  "titleCh": "困境",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "瑪楠要養很多孩子，有的已經上學，但是家計一直不好，而且還積欠平地人的債，瑪楠很憂心，思考如何讓家裡好過一點。大兒子已經是青少年了，就給他休學，他才讀到國小五年級。",
+      "ab": "Madia’in Manan ta uvavaz’az saipukun, haizin a munkaku’ isnava’an. Mavai’in a ihaan lumaq tu ikma’aiun, madia’ang a kiam ihaan Puut. Maqanimulmul a Manana miliskin tu naminmakuaq nainka tastulumaq miqumis. Talmainduu’in a tuqas-nanaza. Pisbu’un Manan ta tuqasa ihaan kaku’ vingkiu, lusqa’ang dau ka uvaz’aza panhaan punhima tu qamisan inisnava’an.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/20/1d8741f59cd63720eaace5b6951c91d1.mp3",
+      "word": [
+        {
+          "ab": "madia’in",
+          "ch": "已經很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d865c85da96ef6109e7eff85f7664cb3.wav"
+        },
+        {
+          "ab": "Manan",
+          "ch": "男性名（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1e54fd6908ee9e6431408286a16e495d.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "那；他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/57885e10d4ba681555a6de5fa0bfe2bb.wav"
+        },
+        {
+          "ab": "uvavaz’az",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/64bc747af73aecaa7c75a75c9125b281.wav"
+        },
+        {
+          "ab": "saipukun",
+          "ch": "被撫養；被保護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/05f732cc008ca4d65709aaa41dac4f57.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haizin",
+          "ch": "已有了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/c4c543a8b227b2222f68d2a7e7990616.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/3152d7621eabb8b81fe9ce828bec8b88.wav"
+        },
+        {
+          "ab": "munkaku’",
+          "ch": "去上學",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f1a8f4a7bd3dd919ad65fc9c908533a9.wav"
+        },
+        {
+          "ab": "isnava’an",
+          "ch": "受教育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/10/a532e804e429e583804a1a332c479210.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mavai’in",
+          "ch": "已經缺乏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f63b05b88c579ef68fd0a64167e1f09e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/eb1356d6a91a9b5def616991ba696313.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ef9a1ab6f6d953ec971b90cac40b8112.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "家裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a3095159b842d610d19b50ae08da33b0.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/6b9b445e11a60cea8fb9953198f7ccc4.mp3"
+        },
+        {
+          "ab": "ikma’aiun",
+          "ch": "日常費用\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f867d037d1a8b6141877b416d4c10685.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madia’ang",
+          "ch": "還有許多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f4c43c384c53d894f1f988dd6b036f0a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/4d79c9127ed113b93647ca5cffa483ef.wav"
+        },
+        {
+          "ab": "kiam",
+          "ch": "債務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1936579ef661bbcd2854d19ab74e8b1f.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/c04cfacdcf5ef1ccb7b766dc82b9650a.wav"
+        },
+        {
+          "ab": "Puut",
+          "ch": "遷徙台灣島居住的閩南族群(此指商家言)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8615834dd77882f6429617362bbd11ba.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqanimulmul",
+          "ch": "憂心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/7306f7437906b27b04be5a36ec5884fd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/792c067a9e48082593a7314532b26548.wav"
+        },
+        {
+          "ab": "Manana",
+          "ch": "男性名（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/69e88a723a81a0366cbfe53a394467f7.wav"
+        },
+        {
+          "ab": "miliskin tu",
+          "ch": "(動詞片語哼)思考；考量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/19dc9d38dba7dad0d6341175aeefda47.wav"
+        },
+        {
+          "ab": "naminmakuaq",
+          "ch": "將要如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f7d6eac5532b4ba330a409f9e263291f.wav"
+        },
+        {
+          "ab": "nainka",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/0ceb7d4d4f29877a8c4f0f47d3511f07.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/badc4762d6c668165f2e429106a068e9.wav"
+        },
+        {
+          "ab": "miqumis",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/4e1ef2389e9c273edecd5bd06578b7c9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "talmainduu’in",
+          "ch": "已經長壯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/0d9e1cb5b36c177ad9889403e91ff417.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/9617e26295663f814c3e0c946a3de77e.wav"
+        },
+        {
+          "ab": "tuqas-nanaza",
+          "ch": "那個兄長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/20/69b4bce980e2a1bb42ad50a1ec653f81.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pisbu’un",
+          "ch": "使…停止、中斷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f25737e04b6a7882722b08ab08e76b3f.wav"
+        },
+        {
+          "ab": "Manan",
+          "ch": "男性名（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ed1d1eb5063b39789284a830e9aaed4e.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "他，她",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/44ddee5d7c3cc8243e5b8a4e6698b9db.wav"
+        },
+        {
+          "ab": "tuqasa",
+          "ch": "那位兄長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/7d6bbfb43d3f5869b598d6e585f99f58.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a9b2f15e13d5d4a9b6042d0eec0ccda0.wav"
+        },
+        {
+          "ab": "kaku’",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d35dfd02c133dfafa0f73b54c48416d1.wav"
+        },
+        {
+          "ab": "vingkiu",
+          "ch": "求學(借自日語)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a35bedb69f86734778e48c435456f01c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lusqa’ang",
+          "ch": "只不過，才",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/071cf4e31bf15ecddf29bd6b7b07ca6e.wav"
+        },
+        {
+          "ab": "dau ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ac4f1047378e0b19267fe878d4c528d8.wav"
+        },
+        {
+          "ab": "uvaz’aza",
+          "ch": "那個孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/37f934f44c476e7cb981e470c9693f53.wav"
+        },
+        {
+          "ab": "panhaan",
+          "ch": "抵達；及於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8f950c140eaa46caeef8f1cf1855a456.wav"
+        },
+        {
+          "ab": "punhima",
+          "ch": "第五年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/af8366b66646093cb48a3cb675132b68.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/067c66d0bc45e49fd30e832e77535da0.wav"
+        },
+        {
+          "ab": "qamisan",
+          "ch": "年數",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6a9fcadba9e29bbef2d9360cc2ed9907.wav"
+        },
+        {
+          "ab": "inisnava’an",
+          "ch": "被教導過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6bbe3290a863d78484c2a73a2eaf6672.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他們送他到林班做鋸木的工作，是在大山裡面。多少可以貼補家用。",
+      "ab": "Satu’un Manan ta uvaz’aza mapunhaan ludun-daingaz tu lingpang makulut i lukis. Uninang i haizang a atikis tu sui na’istadip i tastulumaq tu ikma’ai’un.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/096708407d125417b6b8cc3b7555ac2d.wav",
+      "word": [
+        {
+          "ab": "satu’un",
+          "ch": "被送去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f571a5dc0a3dc67c36a15651f34e60c4.wav"
+        },
+        {
+          "ab": "Manan",
+          "ch": "男性名（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8680ea3ed49dbe78df0afb456820a177.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "那；他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/80f545452629d4398d1a45418df98252.wav"
+        },
+        {
+          "ab": "uvaz’aza",
+          "ch": "那個孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/709bf4078dc9da0fc50ec7e6bd10693a.wav"
+        },
+        {
+          "ab": "mapunhaan",
+          "ch": "置於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/357bcc14cc880e5d855bd8726266ab0f.wav"
+        },
+        {
+          "ab": "ludun-daingaz",
+          "ch": "大山，深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/434b8b75d1ee9e1c359aaf348c082e21.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/3ca15a656a9bba32f6df95b3f9ec0917.wav"
+        },
+        {
+          "ab": "lingpang",
+          "ch": "林班地、伐木區(借自日語)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d29cb8e226b43f172f4c3ddfbfba1386.wav"
+        },
+        {
+          "ab": "makulut",
+          "ch": "鋸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5a14196483174311d40bdb95cf3d9fee.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/734784b9f899ba80ec510cc39fd56301.wav"
+        },
+        {
+          "ab": "lukis",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ae46d0317f79fc235fcbf9800da4f194.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Uninang",
+          "ch": "謝謝；感恩之心；敬辭。",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/31b54c84308f4028474cc3d5bdb558cf.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/e64a3f03f69c0eed8a5214ab60b92636.wav"
+        },
+        {
+          "ab": "haizang",
+          "ch": "還有；尚有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/47a80189c1e956befaf2efa70448db30.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a447c03d42d10edb718387949bbdeedf.wav"
+        },
+        {
+          "ab": "atikis",
+          "ch": "少許的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/e04590a10defb779f0a41e7f74def9f8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/9d46dcfde3e2331b4486d879cf8c7b43.wav"
+        },
+        {
+          "ab": "sui",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/c94dce30e217c0812c8f96c3cce35d50.wav"
+        },
+        {
+          "ab": "na’istadip",
+          "ch": "予以貼補",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/9595dbebbdc645055adbdd030ba47498.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/2d8c92e95c39c70fdafcd3d7a930a262.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ab193333a0aeebc81dd5a2a5af5aa59e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/b251d905c71e5c0aa40f808c62b0313a.mp3"
+        },
+        {
+          "ab": "ikma’ai’un",
+          "ch": "財用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2c7d1e2c4562e9cff4cb0abc25924143.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有一位平地人來家作客，他口嚼檳榔且叼著香菸，連珠炮似的說話。他的眼睛像是麻雀的眼睛不停地眨眼睛。",
+      "ab": "Haiza tatini Puut minsuma munhaan Manan ta tantungu. Sapaqsapaq i saviki, mama’un i tamaku, mahulaizak a qalinga babazbaz, maaq a mata ka a, maszang dulpin mata tu nitu misbu’ pipitpit.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/16d9d42dcab0637105a66fe8b2d0f60f.wav",
+      "word": [
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/dd10c276ab2ef7a03c682e69344e47c1.wav"
+        },
+        {
+          "ab": "tatini",
+          "ch": "一個人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/77272e74645f0561e344dc70f1f228fb.wav"
+        },
+        {
+          "ab": "Puut",
+          "ch": "遷徙到臺灣島居住的閩南族群(此指商人)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1004a65eb3ee9dfffcc04e1d700e93d3.wav"
+        },
+        {
+          "ab": "minsuma",
+          "ch": "進來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/e6995a53ae27af00295cd2b70ba42deb.wav"
+        },
+        {
+          "ab": "munhaan",
+          "ch": "去到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f22a381f5f4eeab9e264e3ca6d4fd706.wav"
+        },
+        {
+          "ab": "Manan",
+          "ch": "男性名（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ee70e9b3c5a258cf81eaa5831d660846.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "那；他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1698522f0e581d3fa601f58b058d9e50.wav"
+        },
+        {
+          "ab": "tantungu",
+          "ch": "作客",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/bf9495efbbe55faa8124491fde39f531.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sapaqsapaq",
+          "ch": "嘴巴不停地嚼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f90a29aa84b33f6c7532b085ec8e5bbd.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/2a7b63fee1ce8c086ea9722eac7895a4.wav"
+        },
+        {
+          "ab": "saviki",
+          "ch": "檳榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/e954b76d2a11bf9c1ac1ed7ff7493cf4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mama’un",
+          "ch": "吃；抽食菸草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/dd4bbcaf1211eb7af1abfbff5da7af6e.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/2cc630a999d08c08c075ac38708b9db1.wav"
+        },
+        {
+          "ab": "tamaku",
+          "ch": "菸草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/2d8ba087743bd27b2d5b7e907bfbc70e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mahulaizak",
+          "ch": "敏捷地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ce94b735d55358ffa4c8e845210f1e54.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/0888b1225df43d49e26d2dae5e3d7c58.wav"
+        },
+        {
+          "ab": "qalinga",
+          "ch": "說話；話語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/000e46450a099cd2ccdf44a30d987ed1.wav"
+        },
+        {
+          "ab": "babazbaz",
+          "ch": "對話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8ae902e125e07cf1eaaa493b026bc3ef.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/09a605b34f5654f035ca0bab1a545622.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/650eb5d876a00c830a75d673c6f6da92.wav"
+        },
+        {
+          "ab": "mata",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5c2c9708d81868e412274a23c852568a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1449d19b24c7049b786c25298e1c3ebb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/600e6edf82ef08b9740d13bbee7b4b57.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maszang",
+          "ch": "如同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/7f0ea280c3acc8d1d88ca8020f66ac31.wav"
+        },
+        {
+          "ab": "dulpin",
+          "ch": "麻雀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/44f5a67c93aa675c2601ffbad2317a8a.wav"
+        },
+        {
+          "ab": "mata tu",
+          "ch": "眼睛的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/84f3cd43fe0b853ded72508b29879e37.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d6454c1d5ffc21d0c87d76f5b3609a51.wav"
+        },
+        {
+          "ab": "misbu’",
+          "ch": "停止",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/05a190a332c33ae29082e4ac18fff3ec.wav"
+        },
+        {
+          "ab": "pipitpit",
+          "ch": "眨眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/31339994cd1b150a8e314ddb79ef68fc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

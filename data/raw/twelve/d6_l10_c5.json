@@ -1,6 +1,511 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Itu haip malkaquma tu pinismantukan",
+  "titleCh": "新型態的農業",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "農業是部落主要的生計來源，大部分是種植蔬菜，如高麗菜、青椒、茄子、敏豆等。",
+      "ab": "Cia malkaquma ca nanu’ kukuzaun pindaduu isiqumic is tat’acang, mastan ca macucuaz is vaivivaivi ka sanglav, maiza ca tamana’, daqputqatumu, nasuvi’, bainu.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/b4591e1ef51fdd8a9a8e7e7659c1a702.wav",
+      "word": [
+        {
+          "ab": "Cia",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f15422af60aef6cd7e46f10b21b23d8c.wav"
+        },
+        {
+          "ab": "malkaquma",
+          "ch": "農人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/8a4d3214af1524fd478f2e338c9295f2.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/643ddc64cb0f826743e01e79f4ccf6ae.wav"
+        },
+        {
+          "ab": "nanu’",
+          "ch": "真正",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/7273e671a40fa9f0d3867d1098d5ac6e.wav"
+        },
+        {
+          "ab": "kukuzaun",
+          "ch": "從事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/659f7811510c2a2b265a09a56095c702.wav"
+        },
+        {
+          "ab": "pindaduu",
+          "ch": "形成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/eef80e65b8d54b757eb4a6bee35864df.wav"
+        },
+        {
+          "ab": "isiqumic",
+          "ch": "生計",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e3133801456d68c42114514a81db864b.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/2842db40fd1da44e0be74335fb55004d.wav"
+        },
+        {
+          "ab": "tat’acang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/bd44f20ee6ac130433c642094cecd336.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mastan",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e75b50aaf9e8125e58481a0cff44b539.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/36f3776e5d1d89eed81547772a9d6a4f.wav"
+        },
+        {
+          "ab": "macucuaz",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/3aed873670ec4df5ec69019f310a2d19.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/c32e57398a4a3d95cb29ce12ae30e18f.wav"
+        },
+        {
+          "ab": "vaivivaivi",
+          "ch": "各式各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/ccc83cd199e289db77c9271ab00c35a0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/9eeded30b547d25041d83e289ac8ae5f.wav"
+        },
+        {
+          "ab": "sanglav",
+          "ch": "蔬菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/534345ffbb29478b3fce2db5de81be6f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/dd6085205f25352232d45c748aaa0d0e.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/fb8af9b1003eaaf5c36f2f065da4fca0.wav"
+        },
+        {
+          "ab": "tamana’",
+          "ch": "高麗菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/3b5d4919c43697e04ae8f965bc07acd1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "daqputqatumu",
+          "ch": "青椒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/0743832ad29f3a3ee0f01243aabbc3b8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nasuvi’",
+          "ch": "茄子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e4eea37faf446ffa7acd4ab006b3d53c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bainu",
+          "ch": "豆類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e16a7577e3b4c37bdea8a8d99ac27660.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "目前在曲冰、武界部落，有些族人開始推動友善耕作，發展有機農業。",
+      "ab": "Maca iha’an Ququaz, Buqaiz laupata’ a, maidia’in ca bunun maqanciap picialis kinuzan a mama’az ciin quma, pindaduun amin is nii’ tu makucia iuu’babaac malkacia sincucuaz cina malkacia quma.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4a420e5be8a530b2a41ef92af37d1287.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/28614d9bc22c8a1ec4b6fafd953ef378.wav"
+        },
+        {
+          "ab": "iha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/83d204b6f3a66ea5022d0c46b03e2d2a.wav"
+        },
+        {
+          "ab": "Ququaz",
+          "ch": "曲冰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/51c9e6f87ce2a2bdc6e2be26ee89e825.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Buqaiz",
+          "ch": "武界",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/baa0cb562de48fbabbd65b0f85243dc2.wav"
+        },
+        {
+          "ab": "laupata’",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/416883f0d86711366e18b10cd0690f53.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4ffdf96aa5173b68aa3ab0bdea4125f0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maidia’in",
+          "ch": "很多了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4ee81d87959972ec4f7d90fae46639f5.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/a6a4398accc1bec791a19e262725bee3.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/66a733febe222a5f3ae377f413c19305.wav"
+        },
+        {
+          "ab": "maqanciap",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/55fabff23f874a140863187ec8ff4671.wav"
+        },
+        {
+          "ab": "picialis",
+          "ch": "使…更好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/a0712a11b59d69eb0d347b2465cc7247.wav"
+        },
+        {
+          "ab": "kinuzan",
+          "ch": "工作成果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/fc524d9465535e3f32c487236668155f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/cbec56ea8d7b1d9787f7c1297488c798.wav"
+        },
+        {
+          "ab": "mama’az",
+          "ch": "東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/90da3608667e990227e76560921e5fa7.wav"
+        },
+        {
+          "ab": "ciin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/cec819fa603e0b3f17e6aeaf4a6e6890.wav"
+        },
+        {
+          "ab": "quma",
+          "ch": "田地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/8ac8ab5790be587836c18b1e2184bac0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pindaduun",
+          "ch": "已成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4d57c8ac8153e8565a307084434a7355.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/b6e61f3a46000af53590f293dcf35c20.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/df3abfaa6336c64811b77e86b9cb17b0.wav"
+        },
+        {
+          "ab": "nii’",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/aa08caa980fea246ebcff950b4eae2e7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4e85fa3a7bb64fffde3307ca72f2aeb5.wav"
+        },
+        {
+          "ab": "makucia",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e04f87e54ca47e7aac0fde5f55a2b928.wav"
+        },
+        {
+          "ab": "iuu’babaac",
+          "ch": "農藥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/8f4131479defde8dc2f27d096c15d72f.wav"
+        },
+        {
+          "ab": "malkacia",
+          "ch": "專門做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/519fab1c21e011cb83230c17046b5cf2.wav"
+        },
+        {
+          "ab": "sincucuaz",
+          "ch": "作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/52b8bc3917542528942a2d02a624d123.wav"
+        },
+        {
+          "ab": "cina",
+          "ch": "或者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/592f69eb8605faf19bb15d0b370cfac8.wav"
+        },
+        {
+          "ab": "malkacia",
+          "ch": "專門做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/d0a194dc29ee00d2f22ef573f2d7097f.wav"
+        },
+        {
+          "ab": "quma",
+          "ch": "田地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/32e0740fc318fc059523a2f830a5b248.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "因為部落族人不使用農藥進行種植，所以現在在部落可以吃到安全、無毒的蔬菜。",
+      "ab": "Daqat, maca iniqumican ha’an acang laupata’ a, alcihalanin ca kakaunun, nii’in mapising tu na bacun is sinkaka’un, maupa’i minqanciap ca taka’acang a bunun tu, nii’ tu makucia iuu’babaac macucuazis kakaunun.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/38a647f544eaa16673a5d33b77f942fe.wav",
+      "word": [
+        {
+          "ab": "Daqat",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/8755e0a92ccb8d59539222a3e811b9f9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e62649f9871ea7bcf0923df1bb269578.wav"
+        },
+        {
+          "ab": "iniqumican",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/0df6dca4c9db6381e0c4e523a3e0f42b.wav"
+        },
+        {
+          "ab": "ha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/083e81455b9ce29d158420b35214c4df.wav"
+        },
+        {
+          "ab": "acang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/121f112758e4254fd9b922dfa871720d.wav"
+        },
+        {
+          "ab": "laupata’",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/11/64dea208119bec775f997ffbbb2a064d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/11/2188e4ca2e5108f77f116177d25d7cf4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "alcihalanin",
+          "ch": "已經很好了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/ec5df87779e995a54bde440633afb137.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/6547489ef6174ae02b6d87ee775b3950.wav"
+        },
+        {
+          "ab": "kakaunun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/73715c097259c228af0648823d754407.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nii’in",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/9a1ecce2d381e29ac81279bdae9886bd.wav"
+        },
+        {
+          "ab": "mapising",
+          "ch": "擔心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f6484dfb6a1c9ba74634f35bddc7d7da.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/be336fabd87358b66fd4f9c864eb81f3.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/0c04f8c515ed6741850d0ef3efbfad56.wav"
+        },
+        {
+          "ab": "bacun",
+          "ch": "中毒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f2fe4479d8861f09946a28965a67d436.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/03710901f9d12f609ce37724a57987fc.wav"
+        },
+        {
+          "ab": "sinkaka’un",
+          "ch": "吃的食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/5d147304859c2c8752cf5dedb4b50d49.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maupa’i",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/1fbee9dc43156d20a7646ff826a8a219.wav"
+        },
+        {
+          "ab": "minqanciap",
+          "ch": "學會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4da4211ada13c42bb74d67bd017f9c26.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/1da185c08aa2bce7b7d2daa5d6956cc3.wav"
+        },
+        {
+          "ab": "taka’acang",
+          "ch": "部落的人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/2708fba0dc4216ab4ab4de1fc0c49862.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/b8da1ad63c85d7d91338134ee7c6671a.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/ccd9f73a3bb415a32b0708b0821761c4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e84596be25806821c2d22ae6de38d51c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nii’",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f01db77ef7fcdc5a816f53bb4f65248c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/1ca188ea50f3fc60a66b1aeec9622089.wav"
+        },
+        {
+          "ab": "makucia",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/669c35c595fa7abcc0b82d0ba7d90f66.wav"
+        },
+        {
+          "ab": "iuu’babaac",
+          "ch": "農藥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e10e163d63625f0ebed7e18543743c14.wav"
+        },
+        {
+          "ab": "macucuazis",
+          "ch": "種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/76156affbdaee88e92d5a2f7b57ada1d.wav"
+        },
+        {
+          "ab": "kakaunun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/7c405af5d78fe60ff050b1da3143c84a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

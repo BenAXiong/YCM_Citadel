@@ -1,6 +1,1386 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "kala’atamorae",
+  "titleCh": "跨年（儀式）時期",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "男女方祭司要先去takopalae進行鳥占。若是聽到吉利的鳥鳴聲，就能進行試做儀式。相反地，若是聽見「咻入」的鳥鳴聲，就必須放棄。隔日，再重新進行鳥占，直至聽見「囈囈」的鳥鳴聲，始得進行儀式。同時，也要進行夢占，若是不吉利的夢境，僅需要自行於家裡默默祈求：「靈將會幫助我們不會怎樣。」",
+      "ab": "dhona ’aolalranae la ’avainae omoana takopalae ’ialralrame. lo mataadhi’idha mani oa ’ilrovehe. otasioro mani lema’emao. ’idhanaenga ooanga ’oela ’ialralrame. otakaa’i’i mani dholro topatilainga pi’a. opoaamao ’iipi’ipi. lo matakolrani ’ipimao, omikimao dha’ane morilehe’e “amopasopalriname pelenge moka kakoakanai.” mia.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/10/95de9df4276a3627ef887fccecae6a9f.wav",
+      "word": [
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/659e7e9a6287d5dddbcb7298803e3592.wav"
+        },
+        {
+          "ab": "’aolalranae",
+          "ch": "男方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1eb2e251eaece667880bc9ea70ffa447.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6afe0703c713bcda5a94d4c184b4647b.wav"
+        },
+        {
+          "ab": "’avainae",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/86638fddc20e978ca0fdbfa2c2924bdc.wav"
+        },
+        {
+          "ab": "omoana",
+          "ch": "要先去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/b310b1f7b63ddcbb3ce086041ab2679a.wav"
+        },
+        {
+          "ab": "takopalae",
+          "ch": "地名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f5dcea87d2ab659af4939719a8f3d766.wav"
+        },
+        {
+          "ab": "’ialralrame",
+          "ch": "鳥占",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/618016234ff154a2e1593130ae3f9da3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "如果；當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/27afe518a0b34f4b591a0896c960d719.wav"
+        },
+        {
+          "ab": "mataadhi’idha",
+          "ch": "他好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/8d7065e4c5e5d395d3cc70cce8f7b80f.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/70956ddefabdf260d4d41c36aee43cf4.wav"
+        },
+        {
+          "ab": "oa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a061b0b86d2a9e6f70ac46bc63f6ee97.wav"
+        },
+        {
+          "ab": "’ilrovehe",
+          "ch": "試做（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/3c70a3dbbea1c004883fc0c418b57a84.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "otasioro",
+          "ch": "（大彎嘴畫眉叫聲）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6af5bdd5fcfe51c2a4ce546272beb339.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c681b9daad5ef4eca2cf59b44d52d932.wav"
+        },
+        {
+          "ab": "lema’emao",
+          "ch": "放棄",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a673443ced71d148d62996f506d7f1a1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’idhanaenga",
+          "ch": "隔天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c60c97f6b7073091efdc66385d38a4e1.wav"
+        },
+        {
+          "ab": "ooanga",
+          "ch": "又再去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/89d91cbb7c4d7acbb89be3e375c9bf6a.wav"
+        },
+        {
+          "ab": "’oela",
+          "ch": "重新",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/560930d820318489657f5a1eedd13dd2.wav"
+        },
+        {
+          "ab": "’ialralrame",
+          "ch": "鳥占",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/343ceece1b847726d27c9e6685e483cd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "otakaa’i’i",
+          "ch": "（某種鳥的叫聲）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ab3a04f203c699c751e14f59632abb10.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ddffe2aee8527eaa1582cfe9f3c0f9a0.wav"
+        },
+        {
+          "ab": "dholro",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/000cdc3702cf96b05e72a68eece67dcc.wav"
+        },
+        {
+          "ab": "topatilainga",
+          "ch": "開始了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c0eef7e99bbbd2c05ad84e52b7bf1c86.wav"
+        },
+        {
+          "ab": "pi’a",
+          "ch": "做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ec5836cf477935d3489d4e0b661e6780.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "opoaamao",
+          "ch": "也做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/79ecd09415f9c5c4c9d9898bb844cac2.wav"
+        },
+        {
+          "ab": "’iipi’ipi",
+          "ch": "夢占",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/5e9b39bbae69110c1318b9b4442126c3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "如果；當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/95d3d98d30d434881fc564caf82d90e9.wav"
+        },
+        {
+          "ab": "matakolrani",
+          "ch": "他的壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/b030d33a969de1e688c6f2e9b74f55c5.wav"
+        },
+        {
+          "ab": "’ipimao",
+          "ch": "夢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/060fb5290c688400aaa08a9285e8f869.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "omikimao",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/80d7653fbad6e0c747bdbc7585881baa.wav"
+        },
+        {
+          "ab": "dha’ane",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1e20697b69b6ed0e2210718c91b78c93.wav"
+        },
+        {
+          "ab": "morilehe’e",
+          "ch": "舉行儀式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/92dd6de3d9487d77fd453319817c6412.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amopasopalriname",
+          "ch": "將幫助我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ba21d6582f4e91e6b2606a2943f4dbb7.wav"
+        },
+        {
+          "ab": "pelenge",
+          "ch": "靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a1051b49fb57497dfd770dcfd18f76b7.wav"
+        },
+        {
+          "ab": "moka kakoakanai",
+          "ch": "我們將不會怎樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/d9ddee44b4701d8139e5b3e37bef98ee.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/0ea9ba749c5d6dfcdfde24e7b1f1e915.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "當稻米收成後，家人就進行家庭儀式。首先要先捏碎那一小撮的小米，而這個儀式只允許自家人食用。接著集合家人用煮熟的小米做「互相摸儀式」。\r\n[---]\r\n吃完後，再用煮熟的稻米對祭籃進行放上面儀式，表示請靈吃飯。這一切都是為了祈求靈幫助我們的家人健康和順利，為我們去除惡靈。執掌儀式者會先在家裡討論，然後出來問我們：「你們是否已做完家庭儀式呢？」之後，他就會上去屋頂昭告大家，喊著：「我們要開始舉行儀式時期了，準備釀酒和做年糕吧！」這個時候男生們會離開去打獵，女生們則留在村裡。等待要開始收割稻米時，家家戶戶開始著手準備釀酒和做年糕。",
+      "ab": "[-AP1-]lo maka’ipahai mani tongosongamao dhona dha’ananae morilehe’e. ohi’ihi’inamao. idhopelemao dhona dha’ananae takone. mani ’asarovomao mapolrapolra dha’ananae, mani to’araki aha’amao vecenge mapolrapolra. mani alra dhona aha’amao pahai poamao polrahalre dhona tokongo, pakane pelenge omia ana. dhona ’imini ’a pasopalriname dha’ananae. lani kataadhi’iname naikasomikace mataadhi’i kipolringao pa’olriname takolra pelenge mia. \r\n[===]\r\notarecenge lehe’e ma’oliliona miki dha’ane. mani iiname “apokoanomi olropengengakanomi tongoso?” mia. mani oa calrai covecave sopere “motokalalehea’engamita, solrahelenga tovaa, tocoloko!” mia. odhaacenga a’olalai olopo. mani iki valrio a’ivivai. lo nao’ipahaingai mani tovaa tocoloko solrahele.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/10/5aa28caaaf8c3961ac9d7b86638739e8.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "如果；當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/752dc8dd3e02b3f532630f9d4d1b057b.wav"
+        },
+        {
+          "ab": "maka’ipahai",
+          "ch": "收完稻米後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/497af8440b829d89fff9eb07e867c107.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/83a45a319f162501d77be4a76df5f57d.wav"
+        },
+        {
+          "ab": "tongosongamao",
+          "ch": "家庭（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ae60fc4c7bf9fa45c60b2b7d2b2a1b5c.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/239393b1a6b4085cbcc5221b65a3d4bf.wav"
+        },
+        {
+          "ab": "dha’ananae",
+          "ch": "家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/53dd515d0cfe43e3b3e3f6301ce1a9b3.wav"
+        },
+        {
+          "ab": "morilehe’e",
+          "ch": "舉行儀式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/503fa0684263e43962575a3ab6451eac.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ohi’ihi’inamao",
+          "ch": "先搓一點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6a0e3b9d5d75d8a170e9ed1f682468e5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "idhopelemao",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/59f2234db163c35dad82942de4f2832d.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/bfd2768c6de2d83fe228cb78756831e2.wav"
+        },
+        {
+          "ab": "dha’ananae",
+          "ch": "家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/29f0a9d34d2d5f8f015a6364f3dcd968.wav"
+        },
+        {
+          "ab": "takone",
+          "ch": "吃的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/dcbfd8c9a964060423c3d25667b199c2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e46032c7255f82de2671076cbfac6fd3.wav"
+        },
+        {
+          "ab": "’asarovomao",
+          "ch": "集合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1c9f0bf7c1315affdb27a381b82896e0.wav"
+        },
+        {
+          "ab": "mapolrapolra",
+          "ch": "互相摸（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c883f45a90d5fb84d0f2432467f203b4.wav"
+        },
+        {
+          "ab": "dha’ananae",
+          "ch": "家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/98a5733a96de4b46fb0d6ea5931d9456.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/84464259ca5f8f02641926707e49e793.wav"
+        },
+        {
+          "ab": "to’araki",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e7b2c4359eccc1914c549fdf14295063.wav"
+        },
+        {
+          "ab": "aha’amao",
+          "ch": "煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a2faec2d5c0aff90bef474a28f791ebf.wav"
+        },
+        {
+          "ab": "vecenge",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a39cfa9dbb4e6481ea2610535194a28c.wav"
+        },
+        {
+          "ab": "mapolrapolra",
+          "ch": "互相摸（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1655720903acfcaaca1632635361f6b8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a14d936c92426d87965c34ab5cf654b8.wav"
+        },
+        {
+          "ab": "alra",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/476f136ee188e18db2772703f9e59a79.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/5d585c41742d2b0ee8c4ae72b7640241.wav"
+        },
+        {
+          "ab": "aha’amao",
+          "ch": "煮的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6d62e1974d441c2815ddc2912074be78.wav"
+        },
+        {
+          "ab": "pahai",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/68a07b820937bde839bf3a145921c51b.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/b4e93c037132966068365930242bc369.wav"
+        },
+        {
+          "ab": "polrahalre",
+          "ch": "放上面（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1ddcbe0075290a66e5e395adbb44cc13.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/31ac2e925479e929d088346efb63b134.wav"
+        },
+        {
+          "ab": "tokongo",
+          "ch": "竹簍；祭籃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/3dae7cc6869a1c3b9b6ecdc7a39ca29f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pakane",
+          "ch": "餵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/377002c572d90d5ee74e9ed705d17810.wav"
+        },
+        {
+          "ab": "pelenge",
+          "ch": "靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/551cefc1ced0feb2035a5cf8801f7ccb.wav"
+        },
+        {
+          "ab": "omia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/41845f62b770830cf54b18aad0783044.wav"
+        },
+        {
+          "ab": "ana",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/383499aee3e4b5955b7af16be4114ddb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/492b1dc99f027a57ca813c9635c4c867.wav"
+        },
+        {
+          "ab": "’imini",
+          "ch": "他的意思",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/7966ae68e0fb2535e2a6bdd4c4ca74ac.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/36d12ea3a1b32a785a0507c45e5907ad.wav"
+        },
+        {
+          "ab": "pasopalriname",
+          "ch": "幫助我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/d4773c4657daf536b4ed2f415fda975e.wav"
+        },
+        {
+          "ab": "dha’ananae",
+          "ch": "家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f591e068c05c45993d5a82c236aa5f85.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lani",
+          "ch": "讓他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/d5057c1e9ed5cbfa439ae9f00744cb30.wav"
+        },
+        {
+          "ab": "kataadhi’iname",
+          "ch": "（讓）我們好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/4443b298886b95b4610aeca6d643dd83.wav"
+        },
+        {
+          "ab": "naikasomikace",
+          "ch": "我們健康",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/bc52c213138fd30c478d50e7799e09e0.wav"
+        },
+        {
+          "ab": "mataadhi’i",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/bb9e19e588775e6e44a39fe354533aeb.wav"
+        },
+        {
+          "ab": "kipolringao",
+          "ch": "沒關係",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/026b3150f11372793c268060bd073aee.wav"
+        },
+        {
+          "ab": "pa’olriname",
+          "ch": "拿掉我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/b1e10c935e94d064829f2b637089a871.wav"
+        },
+        {
+          "ab": "takolra",
+          "ch": "壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/56b4941db9a5bb1b64fdd82c03465624.wav"
+        },
+        {
+          "ab": "pelenge",
+          "ch": "靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/142e6a0765df8d9ea3714eead4e25b8d.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a6981e33a285bcc22814edfa61ec5741.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "otarecenge",
+          "ch": "掌握的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1e29edf6ed3ff8b07159523b6f13ecc5.wav"
+        },
+        {
+          "ab": "lehe’e",
+          "ch": "儀式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f8ee1b6b682b89c7494325a4864e3184.wav"
+        },
+        {
+          "ab": "ma’oliliona",
+          "ch": "先討論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1f142639750380cd08735237a7b06a8c.wav"
+        },
+        {
+          "ab": "miki",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e7418f70e301383482b08e8ef0324446.wav"
+        },
+        {
+          "ab": "dha’ane",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/5926519f89187489cfd5e1478aa188b1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/cc0f5ba0b68d17eb0deb421da7a58183.wav"
+        },
+        {
+          "ab": "iiname",
+          "ch": "（跟）我們說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/cfdcec79e6f8958dab9781919329d8a6.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "apokoanomi",
+          "ch": "你們怎樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/4f3e1589cd8b8fdbace448ffddb56e98.wav"
+        },
+        {
+          "ab": "olropengengakanomi",
+          "ch": "你們完成了嗎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/d05be8de56d8dd658415949157fd5cc2.wav"
+        },
+        {
+          "ab": "tongoso",
+          "ch": "家庭（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/53f25a3446942308dd50f1e6124d4bc0.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1150ad178f7872b55ec2505464b43290.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e4be31bbd6fa0bfc2e69cc359e20266e.wav"
+        },
+        {
+          "ab": "oa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/9c05442ff241f06dfa33dc84e3d7950e.wav"
+        },
+        {
+          "ab": "calrai",
+          "ch": "屋頂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/50db8c83d7b293e564ed7f79f9f7117d.wav"
+        },
+        {
+          "ab": "covecave",
+          "ch": "號召",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/616afa15028e403db6120ec42357e6bd.wav"
+        },
+        {
+          "ab": "sopere",
+          "ch": "喊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/4f51075e2dbe69a34bb84b9d3b082e7f.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "motokalalehea’engamita",
+          "ch": "我們將舉行儀式時期",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/48a47fbbca675a38cae20448e07e8e8c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "solrahelenga",
+          "ch": "準備了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a66f72d535f6e45e750a27317ff95d86.wav"
+        },
+        {
+          "ab": "tovaa",
+          "ch": "釀酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/eeec0d0873e9e032c90599e1f744c6ec.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tocoloko",
+          "ch": "做年糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/54152d16a049a5987045e22aab1486fc.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e7739fe04f9751188154fa387e0c93d7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "odhaacenga",
+          "ch": "走了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/afdc3b29395c7715d63ac6691193a2ef.wav"
+        },
+        {
+          "ab": "a’olalai",
+          "ch": "男生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f054cce88d8600c376d2526d6c772eaa.wav"
+        },
+        {
+          "ab": "olopo",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f1d579a8e2d5459fea5a6ef5ba38b33f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/3d80ac846f9b2490d518f860206b3b9e.wav"
+        },
+        {
+          "ab": "iki",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/277788ccf5c248e9e6fd2d171e891c02.wav"
+        },
+        {
+          "ab": "valrio",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6e80090ccbd89c9e198165fbfb840337.wav"
+        },
+        {
+          "ab": "a’ivivai",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ddeb5184c9882df60d9f39c297a1f06a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "如果；當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/459a8280ff9174558cc8127d17ccb7b7.wav"
+        },
+        {
+          "ab": "nao’ipahaingai",
+          "ch": "我想採收稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/75b4e6505881a40d6a313a9727d77237.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/183295592b107a8bbbda46dc79b3c38c.wav"
+        },
+        {
+          "ab": "tovaa",
+          "ch": "釀酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/9610f28b36a64b6fa8c214626391559f.wav"
+        },
+        {
+          "ab": "tocoloko",
+          "ch": "做年糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1c56745da8a8b85a4a62bd96200b3d0c.wav"
+        },
+        {
+          "ab": "solrahele",
+          "ch": "準備",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/2dd0cda1a3bb36c0204fdb5da8d33acb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "當去狩獵的男生們都回來後，就要趁天剛入夜時進行帶火把儀式。大家手持火把和葫蘆，往取祭祀水的地方（kovongae）取水，並撿拾四顆小石頭。回到家後，集合家人做互相摸儀式，然後用煮熟的稻米讓大家都進行互相摸儀式。接著念祭詞說：「我們已經跨完年，請繼續保佑我們健康，直到另一個新年的到來。」\r\n[---]\r\n將煮熟的稻米對著祭籃進行放上面儀式，這意味著要請靈吃食物。這個儀式的整個意思就是，幫助我們的家人，使我們一切都好、健康和順利，並為我們去除惡靈。隔天，村民們就全部集中去跳舞場玩樂、跳舞。大約長達七、八天的時間，不需要去田裡。直到完成宴客後，大家就隨自己的安排去工作了。",
+      "ab": "[-AP1-]lo cekelaengai movalrio ana a’olalai ’a mani oangamao dholedhale onai lo ta’okamaini maongo. mani ’ii’ingimao mani oamao kovongae takoamecemao tavolrolo malrangamao acilai. mani oamao malra ’i taka’epate takasisa’i apoto. mani ’asarovomao mapolrapolra dha’ananae. mani to’araki aha’amao pahai mapolrapolra. mani papolraapolramao. mani orilehe’e dhona \r\n“ ’aehemana pakasomikace mocailinganai lropenge, mokasomikacenai pavalriilonga ’oela lo icaili.” mia. \r\n[===]\r\nmani alra dhona aha’amao pahai poamao polrahalre dhona tokongo pakane pelenge omia ana. dhona ’imini ’a pasopalriname dha’ananae lani kataadhi’iname naikasomikace mataadhi’i kipolringao pa’olriname takolra pelenge mia. ’idhanaenga mani oanai tasiraoraovaenai cekelaenga ’asarovo ’osario siraovo dhona sakavalrae. kioaoamao ooma makapitolo menanae makamangelemao menanae. lo lropengengai ana tokalalehea’e dhoacenga ’initato’iidheme ’adhidhapaenga.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/10/a76b504b1e964f8d4bf051a0a98aaf56.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "如果；當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/09aec3f32740ef18ba7a8b3fa9d737ff.wav"
+        },
+        {
+          "ab": "cekelaengai",
+          "ch": "全部了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/344f4d94fbefc476a7bfaa77d23eaad2.wav"
+        },
+        {
+          "ab": "movalrio",
+          "ch": "回部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/baf692ddcfdf44804140edbe15d4151c.wav"
+        },
+        {
+          "ab": "ana",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/5abc169ea0ed13ac5acaf19780eb932e.wav"
+        },
+        {
+          "ab": "a’olalai",
+          "ch": "男生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a7872210764c7bd57fcb3b6891001a71.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/93966b1fb94f867bf17f762d37bba6de.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/37617cf9c42720b27bb1edfa80857547.wav"
+        },
+        {
+          "ab": "oangamao",
+          "ch": "去了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/d5dabb36c1db158944ff7ae1ce4ae64f.wav"
+        },
+        {
+          "ab": "dholedhale",
+          "ch": "帶火把（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6dfd3e29354af556b0b612bc478f4fc5.wav"
+        },
+        {
+          "ab": "onai",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1d5f9ad48671d08b2e9c85aaeb128073.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "如果；當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/2e80954d617d45a60a22acdb41e833f5.wav"
+        },
+        {
+          "ab": "ta’okamaini",
+          "ch": "他剛才",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/fff3f3425e39b7042c9411ceae55d9ea.wav"
+        },
+        {
+          "ab": "maongo",
+          "ch": "天黑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c886a298a11967493424bccc35790229.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a144206a7e7e40d51306353b4d2fdde3.wav"
+        },
+        {
+          "ab": "’ii’ingimao",
+          "ch": "帶火把",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/73e4324a4f2b6a59535d1927af0e446c.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e412a9556857919b8d02ae72ec741071.wav"
+        },
+        {
+          "ab": "oamao",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/577e0ef3e59b53be1ec53bdb5e165f28.wav"
+        },
+        {
+          "ab": "kovongae",
+          "ch": "地名（祭祀處）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/3cd83d5db94627597d4c4ac901a72818.wav"
+        },
+        {
+          "ab": "takoamecemao",
+          "ch": "順便帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/7eb958d3494973c38511a39490a58b10.wav"
+        },
+        {
+          "ab": "tavolrolo",
+          "ch": "葫蘆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/d74413574472bc9772de952469e1b906.wav"
+        },
+        {
+          "ab": "malrangamao",
+          "ch": "拿了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/8a0dac3dc40c9c49906248b7ead15bf8.wav"
+        },
+        {
+          "ab": "acilai",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/efbbf016a287e85cf29caac205a89ad3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f53e5946b576ca3e811a8bd7d661dffd.wav"
+        },
+        {
+          "ab": "oamao",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/00b877ba7de0abbc8d35fb3dd9a999d5.wav"
+        },
+        {
+          "ab": "malra",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/7e6063129fad2acaa964f862013812c3.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主語]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/933677f54e499000935ed48d09a3fc57.wav"
+        },
+        {
+          "ab": "taka’epate",
+          "ch": "四的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/b388ae04cea6685205a75d7ba8ea82f8.wav"
+        },
+        {
+          "ab": "takasisa’i",
+          "ch": "小的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/fa22d3c1a074a139e8ca3eb46537b459.wav"
+        },
+        {
+          "ab": "apoto",
+          "ch": "石頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f9d07ec2024ea33e431dbadfde70cf93.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/2df942c65acbd8dcbef1df61f7e24380.wav"
+        },
+        {
+          "ab": "’asarovomao",
+          "ch": "集中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/7403a6e115abb8d4e0dfce29919fc8ae.wav"
+        },
+        {
+          "ab": "mapolrapolra",
+          "ch": "互相摸（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/5d7f667c0579f066d2c94a3665e40380.wav"
+        },
+        {
+          "ab": "dha’ananae",
+          "ch": "家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/7b309f91845846861d62fd8c46dcf8d0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/228bd635b04eac0be8fd9a90ddf7cbd9.wav"
+        },
+        {
+          "ab": "to’araki",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/55c9f96a8e02e9405c83e576dfcb6537.wav"
+        },
+        {
+          "ab": "aha’amao",
+          "ch": "煮的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/434b309b89d2f925f95312524da5396e.wav"
+        },
+        {
+          "ab": "pahai",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/5eeccee0c8868a3f03098600f90ae119.wav"
+        },
+        {
+          "ab": "mapolrapolra",
+          "ch": "互相摸（儀式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/62f052a3e2b81a9a4f687d2a96b80385.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/06fa7b857e788f7fd4f0e570a3f37830.wav"
+        },
+        {
+          "ab": "papolraapolramao",
+          "ch": "一直讓摸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6990591e3fda2c2c1c5818d0eb1d46f9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e8fcc826c2376af85ec9302584a43e1b.wav"
+        },
+        {
+          "ab": "orilehe’e",
+          "ch": "舉行儀式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/84933469ea8b066ae1d2b241eff547fd.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a35b1a18cdd735a76a80416299568c75.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’aehemana",
+          "ch": "先保佑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/b05d414da069547a89ddabf068475fe6.wav"
+        },
+        {
+          "ab": "pakasomikace",
+          "ch": "讓健康",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/51db1767b3bb540a065eb7ad64e1feac.wav"
+        },
+        {
+          "ab": "mocailinganai",
+          "ch": "我們要跨年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/cdbfed43337348b9b863f8c479991c28.wav"
+        },
+        {
+          "ab": "lropenge",
+          "ch": "完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c736c01b7670852ae794e483facb1d1e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mokasomikacenai",
+          "ch": "我們將健康",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/d2de473231968a223c03f176cb8c8ed9.wav"
+        },
+        {
+          "ab": "pavalriilonga",
+          "ch": "直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e9657d6c291b41a7ef64b782cbba076e.wav"
+        },
+        {
+          "ab": "’oela",
+          "ch": "重新",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/21da6077fb269f22658074d48e24708c.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "如果；當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e3e0204507e4c3ef23daaea89ede1e98.wav"
+        },
+        {
+          "ab": "icaili",
+          "ch": "隔年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f62f684b794e8c8b17ddd679ef95a109.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/d9810e39c1ed93ad5863bc9e384adc2b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/b8898176a635f8f21597ef8cf2dad48f.wav"
+        },
+        {
+          "ab": "alra",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/81ffc7d3c4903713fad37af50ab023f7.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c1e443f8fc379940604d4f03afe87965.wav"
+        },
+        {
+          "ab": "aha’amao",
+          "ch": "煮的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/70f3ca7e024467295d00ab5220e89924.wav"
+        },
+        {
+          "ab": "pahai",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/40db3d2e505e6955d1a1f3c8fa46bc05.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c7d78657d024b9e8f36cf7b9bffa611a.wav"
+        },
+        {
+          "ab": "polrahalre",
+          "ch": "放上面儀式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/35126566af5f13620596c40e7b7715f1.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/2d739044578b8f3a4300d7f337d8e8c5.wav"
+        },
+        {
+          "ab": "tokongo",
+          "ch": "竹簍；祭籃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/82d3ae08dc80e939414ace78ae924f69.wav"
+        },
+        {
+          "ab": "pakane",
+          "ch": "餵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/7581d0586adeef7e1c998554da3e18ed.wav"
+        },
+        {
+          "ab": "pelenge",
+          "ch": "靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ac812d7e754d224e33b0fa44ab467f99.wav"
+        },
+        {
+          "ab": "omia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/1f89fe6b776a7faba0907e021cbd47ca.wav"
+        },
+        {
+          "ab": "ana",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/936ecac38b88003d6a32c45b8e8b2b3d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/217dae8a70c46cac467260e5b57f02f3.wav"
+        },
+        {
+          "ab": "’imini",
+          "ch": "他的意思",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/3e26c02b5bfddb03aeb8051a65a57eda.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/079726e338c09f1839355165cb7df8b0.wav"
+        },
+        {
+          "ab": "pasopalriname",
+          "ch": "幫助我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/968c30216f3f96f2277186e007ca409d.wav"
+        },
+        {
+          "ab": "dha’ananae",
+          "ch": "家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6aba1fd9584e82c6909e7f37ecf6ccc0.wav"
+        },
+        {
+          "ab": "lani",
+          "ch": "讓他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e580eb35c29bd72e5ddd9fd0a9167184.wav"
+        },
+        {
+          "ab": "kataadhi’iname",
+          "ch": "（讓）我們好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6a7c9f21cd9db6025e6b6286c820c4d0.wav"
+        },
+        {
+          "ab": "naikasomikace",
+          "ch": "我們健康",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/79f8b0a59e67f1cf79e8c4f32d081270.wav"
+        },
+        {
+          "ab": "mataadhi’i",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/8767610363ecc81fa9a186e8084a5d45.wav"
+        },
+        {
+          "ab": "kipolringao",
+          "ch": "沒關係",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/a03e9afa1b2352fb2cc85e643864b410.wav"
+        },
+        {
+          "ab": "pa’olriname",
+          "ch": "拿掉我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f92ff2614d01b521ed009d673222605e.wav"
+        },
+        {
+          "ab": "takolra",
+          "ch": "壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6f3c4102730e9985d61f52439690324a.wav"
+        },
+        {
+          "ab": "pelenge",
+          "ch": "靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/7908eb3fb069acabace194008c0f19c2.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/919b10f6de23d2ec2c235ecc90fc6d63.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’idhanaenga",
+          "ch": "隔天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/5f09be9798278db02f669abe1129e735.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "然後，就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/2b84a85bd0e14010fe97114839fea445.wav"
+        },
+        {
+          "ab": "oanai",
+          "ch": "我們去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/f6d898f493bf31da84283805458057ea.wav"
+        },
+        {
+          "ab": "tasiraoraovaenai",
+          "ch": "我們的跳舞場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/2567057a5a706649f483d963a4482eb6.wav"
+        },
+        {
+          "ab": "cekelaenga",
+          "ch": "全部了（人）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/902f28ba9c57d460cd59f32cd3680c79.wav"
+        },
+        {
+          "ab": "’asarovo",
+          "ch": "集合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/5f4bdc207330b59e18c63b22c74ce05b.wav"
+        },
+        {
+          "ab": "’osario",
+          "ch": "玩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e08709804fcf5a182d6c8692155e3035.wav"
+        },
+        {
+          "ab": "siraovo",
+          "ch": "跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/8cb6be413d33a91d5611ea9cecc6a224.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c8d49883f37413470468121e9b5e53c1.wav"
+        },
+        {
+          "ab": "sakavalrae",
+          "ch": "外族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/8097d4306db90a0cf482f77281ed485c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kioaoamao",
+          "ch": "都不去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/9558a044138eefdecfbd038f26ba62d9.wav"
+        },
+        {
+          "ab": "ooma",
+          "ch": "田裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/33b7b290ef52ceafe8875536fe5f0c10.wav"
+        },
+        {
+          "ab": "makapitolo",
+          "ch": "七天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/54bcae8708e799e7d4649a3a6b498217.wav"
+        },
+        {
+          "ab": "menanae",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/c9e911cfb42608ee7a598f0825af6b83.wav"
+        },
+        {
+          "ab": "makamangelemao",
+          "ch": "十天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ce4e3247dfb4f45642d684e84cbfea8c.wav"
+        },
+        {
+          "ab": "menanae",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/7c77c45987feaebf274def9e70a27908.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "如果；當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/df309254076c7ddfddb9e818d7afd11c.wav"
+        },
+        {
+          "ab": "lropengengai",
+          "ch": "他完成了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/23311a98776ac39d495c85675a3e20fd.wav"
+        },
+        {
+          "ab": "ana",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/ba64bb07ea2b7d6992ca69944f9930b7.wav"
+        },
+        {
+          "ab": "tokalalehea’e",
+          "ch": "做儀式時期",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/dd858f5dd1daac711b4709a763d70698.wav"
+        },
+        {
+          "ab": "dhoacenga",
+          "ch": "走了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/6d93336c2e8dba3007987b24a576d468.wav"
+        },
+        {
+          "ab": "’initato’iidheme",
+          "ch": "按照自己的心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/05878e2668862becd1b65386f51fb1d3.wav"
+        },
+        {
+          "ab": "’adhidhapaenga",
+          "ch": "做事情了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/06/e2ba1673d489cefa54ecb7b822884e1c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

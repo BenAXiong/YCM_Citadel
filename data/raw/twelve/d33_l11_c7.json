@@ -1,6 +1,933 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Taiwan maticani nakanʉ ’iseeng",
+  "titleCh": "台灣第一位女醫師",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "台灣第一位女醫師蔡阿信，台北市人，1899年12月13日出生。十五歲畢業於台灣北部長老教會女學堂，其母以她聰穎過人，有意栽培，於是送她去日本唸私立立教高等女學校，1916年3月畢業，循考入東京女子醫學專門學校，是為台灣女性第一位讀西洋醫學的人。1920年11月，蔡阿信從東京女子醫專畢業，領到該校畢業證書是第二十五號，成了台灣第一位女醫師。",
+      "ab": "Taiwan maticani nanakʉ ’iseeng ia Cai ’a-sin. cau Taipesʉ. 1899 cenana ka-12 vuanʉ 13 taniara kamanumanuʉn. maan rima cenana sucukiu na Taiwan pe-pu Kiristukiu tamna nanakʉ tarisinata. vanai sii cucuru mamacʉrang, ’una cʉpʉngʉ cina in tia ’apacʉvʉrʉ ’inia. tumatacucu ’inia na Ripun, marisinatʉ na tinakacicini mapuciri ri-ciau kao-tʉng nanakʉ tarisinata. \r\n[===]\r\n1916 cenana ka-3 vuanʉ sucukiu. macuvungu sikingi musikarʉ na Tokyo ’i-sie sinmung tarisinata. mesua tuisua Taiwan mati-cani marisinatʉ Amirika ’i-sie nanakʉ. 1920 cenana ka-11 vuanʉ. Cai ’a-sin atiuma Tokyo ’i-sie sinmung tarisinata tamna sucukiu cukanang. tuisua cu Taiwan maticani nanakʉ ’iseeng.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/18/a7be089ed3857dd22105d4670f3663c9.wav",
+      "word": [
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/59022667b9893f9f327ca0a3cdf2b8b5.wav"
+        },
+        {
+          "ab": "maticani",
+          "ch": "第一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/9c1ee85a68ef633a07c65d222b44f164.wav"
+        },
+        {
+          "ab": "nanakʉ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/b0c4915b08a7ec7ba4c6d83d8cf2cd6f.wav"
+        },
+        {
+          "ab": "’iseeng",
+          "ch": "醫生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a596c06d5889515fcd0c2e2111b494fc.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/fd24f4034fce785d524928601625686c.wav"
+        },
+        {
+          "ab": "Cai ’a-sin",
+          "ch": "蔡阿信",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/50d1bce81c30296372d8ffd40084499b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/24aa9ac5b9d3ac1a8c80cc23dce4b702.wav"
+        },
+        {
+          "ab": "Taipesʉ",
+          "ch": "台北市",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/f63e3492364ea6026155348f60151c0b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "1899",
+          "ch": "1889",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/2180903a441a81d39f7e524c81510eb8.wav"
+        },
+        {
+          "ab": "cenana",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/e1eff61a7a512f2e68cbc82b176313b6.wav"
+        },
+        {
+          "ab": "ka-12",
+          "ch": "12",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/19e361a234f4cd91123fcfe4507f8270.wav"
+        },
+        {
+          "ab": "vuanʉ",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/194fe5edc5b587a1549554fb8f30c069.wav"
+        },
+        {
+          "ab": "13",
+          "ch": "13",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/d90fd1f77972a52cb1fff1a912062070.wav"
+        },
+        {
+          "ab": "taniara",
+          "ch": "日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/7bd9a51991b83e58d02b230c4c7bec73.wav"
+        },
+        {
+          "ab": "kamanumanuʉn",
+          "ch": "出生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/5393c883c8b57bcb027c88341bdd542e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maan",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a92c09f11ca1f7a9ce52a8e3a490aeee.wav"
+        },
+        {
+          "ab": "rima",
+          "ch": "五",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/24c5286e3da2005b760a03a4cb4b9b5e.wav"
+        },
+        {
+          "ab": "cenana",
+          "ch": "歲；年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/9134988611fcfe9bba79199a6a7d37c4.wav"
+        },
+        {
+          "ab": "sucukiu",
+          "ch": "畢業",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/1cb146544f85e74eddbecf2e1993fdbe.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/435ef38083495a580036e4b0bc8de577.wav"
+        },
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/e7eb6bd2bdb5b6e5ff193e599d1236d0.wav"
+        },
+        {
+          "ab": "pe-pu",
+          "ch": "北部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/39b36efdb52d9712a94475323adc83b2.wav"
+        },
+        {
+          "ab": "Kiristukiu",
+          "ch": "基督教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/ffd21e416c8974e59ac6c2f14d766b36.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/d783d003a8e5ab0ca6fe840575454c7d.wav"
+        },
+        {
+          "ab": "nanakʉ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/af277eae439e413a4aa4f04a1176be41.wav"
+        },
+        {
+          "ab": "tarisinata",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/15061edca1ba5ad55c099f9a6daa08c5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "vanai",
+          "ch": "原因",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/227fa03326eb8b0566f7ce0724d6e2dc.wav"
+        },
+        {
+          "ab": "sii",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/0209d640cec7124abae2f023ae4d739e.wav"
+        },
+        {
+          "ab": "cucuru",
+          "ch": "非常；的確",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/d26643bc8bf8e85974662c291a24bdcd.wav"
+        },
+        {
+          "ab": "mamacʉrang",
+          "ch": "聰慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/eebbab429135c93814aea10d1e0c09e7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’una",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/e00a98f543ae726992c8e7be8b49614b.wav"
+        },
+        {
+          "ab": "cʉpʉngʉ",
+          "ch": "想法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/3ab485027286795a5b4a97f2b11edc29.wav"
+        },
+        {
+          "ab": "cina",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/6eb7981975f235f6adddff4e60ef19e6.wav"
+        },
+        {
+          "ab": "in",
+          "ch": "她",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/1ad8ae2e8c367faf06b7a5a679951b92.wav"
+        },
+        {
+          "ab": "tia",
+          "ch": "要；會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/84e7e09b217e96f02ef20e126396a730.wav"
+        },
+        {
+          "ab": "’apacʉvʉrʉ",
+          "ch": "培養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/64ecc908bdc19305b58b636ce6a3bc0a.wav"
+        },
+        {
+          "ab": "’inia",
+          "ch": "她",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/d0d4c901d774779d369915cc1b027981.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tumatacucu",
+          "ch": "送去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/232e8bde37770f55a8faea4ff8aba57d.wav"
+        },
+        {
+          "ab": "’inia",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/bc55f84a292cd96bff8e81dece05525d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/6b5ff60ed596b9ec28364131e0bc9f6f.wav"
+        },
+        {
+          "ab": "Ripun",
+          "ch": "日本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/ae108d3c4eb17410b6056c939320c7f2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marisinatʉ",
+          "ch": "讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/9e4e870566f9246c5b3a8344f6863b77.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/631014285643296df8cbb8d816fde3b9.wav"
+        },
+        {
+          "ab": "tinakacicini",
+          "ch": "自行的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/ca19c9da007cb75c69d6b73152c78db1.wav"
+        },
+        {
+          "ab": "mapuciri",
+          "ch": "設立",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/b4a81b7c9e33691a0fffa3401d4f4145.wav"
+        },
+        {
+          "ab": "ri-ciau",
+          "ch": "立教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a5601690570af0cb3ee54ee5970ae0bd.wav"
+        },
+        {
+          "ab": "kao-tʉng",
+          "ch": "高等",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/c5b57a5a13e1b7164ea3d9dc4545f548.wav"
+        },
+        {
+          "ab": "nanakʉ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/70608f0e51f50af18e75241189c3ffd7.wav"
+        },
+        {
+          "ab": "tarisinata",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/83e8ff8c19496db278f64118b3ff2ffa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "1916",
+          "ch": "1916",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/3ca8453a4c1fcc2e7c3e1d8697b1d7c6.wav"
+        },
+        {
+          "ab": "cenana",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/945933005276eceda977997e902b9fd0.wav"
+        },
+        {
+          "ab": "ka-3",
+          "ch": "3",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/29d8e794c40b503b4a66f328e1218b8a.wav"
+        },
+        {
+          "ab": "vuanʉ",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/dc7d8b42816088d6f92461bfdbe66dd4.wav"
+        },
+        {
+          "ab": "sucukiu",
+          "ch": "畢業",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/486d710b2f29d21aa7c107e2ebf07c3d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macuvungu",
+          "ch": "繼續",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/f940040204d79cdb1322cb6220768d5c.wav"
+        },
+        {
+          "ab": "sikingi",
+          "ch": "考試",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/f85c290e2c1bd9787395df62cf90199a.wav"
+        },
+        {
+          "ab": "musikarʉ",
+          "ch": "進入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/080586efbfcd3a9fbf09e6581a5da7ab.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/caa8f96dbf5e200442e3376692220362.wav"
+        },
+        {
+          "ab": "Tokyo",
+          "ch": "東京",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/2885b90186f4f391fd76ee855f32372d.wav"
+        },
+        {
+          "ab": "’i-sie",
+          "ch": "醫學",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/bc116e599fdfd483b425aa5be0f52a73.wav"
+        },
+        {
+          "ab": "sinmung",
+          "ch": "專門",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/358adff986ffd89bc85a499ac228cf9f.wav"
+        },
+        {
+          "ab": "tarisinata",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/90e63dbf910bf1d5d6e63cd1844159be.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mesua",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/cd60f21dcc5f3e25497a7b9ed40266a8.wav"
+        },
+        {
+          "ab": "tuisua",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/cd19a908236ee2db82087eaa32d6bcdb.wav"
+        },
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/d06941be2685bfa2c2f261a3d976befc.wav"
+        },
+        {
+          "ab": "mati-cani",
+          "ch": "第一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a8bba37c77a72f4ec08bc7ec79f6c49e.wav"
+        },
+        {
+          "ab": "marisinatʉ",
+          "ch": "就讀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a55a220dc6ff07e06c5e21430e2606c7.wav"
+        },
+        {
+          "ab": "Amirika",
+          "ch": "西洋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/b7fc43b3013373bc24c79f2d75e0d359.wav"
+        },
+        {
+          "ab": "’i-sie",
+          "ch": "醫學",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/88bfc2b6fbd78021cd7f39cdd7090346.wav"
+        },
+        {
+          "ab": "nanakʉ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/0c4ca84ec3f3f2d57194f8e0cbd5ba85.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "1920",
+          "ch": "1920",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/12/15e54bbc8a9e4c5374746a9880331a33.wav"
+        },
+        {
+          "ab": "cenana",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/c167ce6ce4c469132f84794f99a9f8bf.wav"
+        },
+        {
+          "ab": "ka-11",
+          "ch": "11",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/1c2557da5c49d45e131c1639b49dd1da.wav"
+        },
+        {
+          "ab": "vuanʉ",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/5c848a204d72cf674c6e44cac3719643.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cai ’a-sin",
+          "ch": "蔡阿信",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/ccb5467d313e67c8539ca75699f966b6.wav"
+        },
+        {
+          "ab": "atiuma",
+          "ch": "接受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/b8eb1c61f9f9ff03725456435fa7dcb6.wav"
+        },
+        {
+          "ab": "Tokyo",
+          "ch": "東京",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/4588d9a3bfdd231b8031785eab7aad13.wav"
+        },
+        {
+          "ab": "’i-sie",
+          "ch": "醫學",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/66d7eabb4118e0d6cc69d3683bf321b4.wav"
+        },
+        {
+          "ab": "sinmung",
+          "ch": "專門",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/c0848588138867902a13684ba2aec634.wav"
+        },
+        {
+          "ab": "tarisinata",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/305bf55161cd3fcc6812662ce07aac9f.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/c4a5672910cb583a7634f60af5fa71b6.wav"
+        },
+        {
+          "ab": "sucukiu",
+          "ch": "畢業",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/db8cd080349f564f25925e01d9bb1de2.wav"
+        },
+        {
+          "ab": "cukanang",
+          "ch": "證明",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/f6ff0d3d68dc8cdb763bf35eb70fcd14.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tuisua",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/b5c4c03749ef2698f3446d471ca7a457.wav"
+        },
+        {
+          "ab": "cu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/64378e66b8a4b0e08cfcff8ee49f4f92.wav"
+        },
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/14ff1ce609c719d2690d3d21a27f34b8.wav"
+        },
+        {
+          "ab": "maticani",
+          "ch": "第一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/901136569dbee754cffe471f7fb0fc01.wav"
+        },
+        {
+          "ab": "nanakʉ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/bf5add5709ab360ba7d4c33da5e75a06.wav"
+        },
+        {
+          "ab": "’iseeng",
+          "ch": "醫生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/fcc46dc5d0ec516e084a6b802cf654d0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "蔡阿信在封閉的年代，寫下女性的傳奇一生，雖然她的部份歲月，不在鄉梓，但是她的台灣意識一日未曾稍減，熱愛鄉土之心，永遠存在；東方白所寫的共一百五十萬字台灣大河小說─《浪淘沙》即是以她為藍本，「丘雅信」的身影，就是這位不讓鬚眉的奇女子的故事。",
+      "ab": "’esi na makai rʉkʉpʉn citai sua Cai ’a-sin. marisinatʉ nanakʉ tamna karanana cani mamane. ’apaco’e ’una mana’ʉ takananga, ka’anʉ ’esi na takacicini tamna tanasʉn, nakai ka’anʉ nguain roimi Taiwan tamna cʉpʉngʉ. marʉ’ʉ tanasʉn tamna cʉpʉngʉ, ’esi na nguain tamna tavarunga. Tung-fang-pai nimarisinatʉ cani mʉna maimʉʉn me’i poisua Taiwan tamna ’ʉna “Rang-Tau-Sa”, nguai sua ’esi poisua ’inia. “Cio ya-sin” tamna capai, ’esi poisua karanana nanakʉ isi tamna ’ʉna.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/18/25881814cfde5d528a550e3114a13da9.wav",
+      "word": [
+        {
+          "ab": "’esi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/df5ae8769673f3b39badd83de3a1294b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/286e5152d5ccf2d7ad108562c60b88e3.wav"
+        },
+        {
+          "ab": "makai",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/b52561217fd414ad394c15b1d8ff8f57.wav"
+        },
+        {
+          "ab": "rʉkʉpʉn",
+          "ch": "關閉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/91dd199fec8815d9da9954b683759603.wav"
+        },
+        {
+          "ab": "citai",
+          "ch": "時代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/fcc1019397ae8f4c3bdcf1aa4fb080da.wav"
+        },
+        {
+          "ab": "sua",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/14dd0d844b4233d16ab5f54ff9c9d608.wav"
+        },
+        {
+          "ab": "Cai ’a-sin",
+          "ch": "蔡阿信",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a7c5155943c3237047eb200de707cd10.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marisinatʉ",
+          "ch": "就讀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/00b2346a5e17721b0a43b75af8e44d77.wav"
+        },
+        {
+          "ab": "nanakʉ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/8504e572e7958196eb7df63ca0ac9dbd.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/78c1794e0c201f7c6e5ae539b0f8ab7d.wav"
+        },
+        {
+          "ab": "karanana",
+          "ch": "不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/b505eb7df601ba9ba00258b70dc4f4d8.wav"
+        },
+        {
+          "ab": "cani mamane",
+          "ch": "一生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/695f901ad07eae8fcbabc6108d7d74e9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’apaco’e",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a0d58b67f38f8096e23a5d0b2f7c3de7.wav"
+        },
+        {
+          "ab": "’una",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/f63ebd1e47b8d56dd102b3942d6f58e4.wav"
+        },
+        {
+          "ab": "mana’ʉ",
+          "ch": "一半",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/fa512dd740a511d130a29c62efe7b979.wav"
+        },
+        {
+          "ab": "takananga",
+          "ch": "時光",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/6224346d46d8fb7e27b258867da17678.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ka’anʉ",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/f1988323c9b98e870845564a17bfdf78.wav"
+        },
+        {
+          "ab": "’esi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/aadf5c1c59a8ebb96ea9267144921f51.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/cd59889de34d0e9c098dbdcefea6527b.wav"
+        },
+        {
+          "ab": "takacicini",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/c92ae9ed5fdd45bc365b383e45dcb920.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/f2f241428fa1a4f15ea70b771b9da51e.wav"
+        },
+        {
+          "ab": "tanasʉn",
+          "ch": "部落；社區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/d143d0dec76bdd91d83251d16c5700e9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nakai",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/fe4263401f1a7e43e43262d87dac6a9e.wav"
+        },
+        {
+          "ab": "ka’anʉ",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/bbc4526e85abfcfa393ed61c5ad55b89.wav"
+        },
+        {
+          "ab": "nguain",
+          "ch": "她",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/554d065c37b2b7f4d1f41ec5b6167b70.wav"
+        },
+        {
+          "ab": "roimi",
+          "ch": "忘記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/60c3914514f822b8655abd0c5a6cfca9.wav"
+        },
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/ef6daaa617e344415bb0f4946444d6d0.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/bf37b4dfda1011e676c1bf904d6546cd.wav"
+        },
+        {
+          "ab": "cʉpʉngʉ",
+          "ch": "思想",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/81285f0766fc78d95f515c3026d96c20.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marʉ’ʉ",
+          "ch": "關愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/ddc39f340a534876a0404ff10b78e7ea.wav"
+        },
+        {
+          "ab": "tanasʉn",
+          "ch": "部落；社區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/8a687371c19e8342184a779584c6439e.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/274cef21078f8c4672948ff5565a8c58.wav"
+        },
+        {
+          "ab": "cʉpʉngʉ",
+          "ch": "思想",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/1f0cae48ae83476e2e130e2f4724e350.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’esi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/46c6a8b48c8b86c93ee406e2f44952e4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/b396c4bb6c7e8222c20b382eeb36ce2f.wav"
+        },
+        {
+          "ab": "nguain",
+          "ch": "她",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/816e23dc2d45e40dae3fde6e57dccde2.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/cd48a0142b47cad55394663b177c2b00.wav"
+        },
+        {
+          "ab": "tavarunga",
+          "ch": "心中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a3d6d99f2b51f5b57e9cb94916138532.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tung-fang-pai",
+          "ch": "東方白",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/e5ee47d03583acedfb3554654116a02b.wav"
+        },
+        {
+          "ab": "nimarisinatʉ",
+          "ch": "曾經書寫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/3617ca0cb5eec2f00158707b94bc2c71.wav"
+        },
+        {
+          "ab": "cani",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/c04bd9826a2c0998750e797bc13061c8.wav"
+        },
+        {
+          "ab": "mʉna",
+          "ch": "百",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/976a4137b27b3cf73d00701710b80f28.wav"
+        },
+        {
+          "ab": "maimʉʉn",
+          "ch": "五十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/6a6e1c8d58646ba802c833741bc72684.wav"
+        },
+        {
+          "ab": "me’i",
+          "ch": "千",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/5e32c785177e479fc7dcd53122d9b866.wav"
+        },
+        {
+          "ab": "poisua",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/bc73ec37c0f797c03cdbd616351aebc9.wav"
+        },
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/588aeb8d0c948ca6d0234584562ef56f.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/008dbef7eb94f1676efa5e591f58758a.wav"
+        },
+        {
+          "ab": "’ʉna",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/5c00ac46ff963cd6d44ddfcf7d3a5987.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Rang-Tau-Sa",
+          "ch": "浪淘沙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/fb163c40550e5dabc8e2a358b9d69a03.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nguai",
+          "ch": "就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/4b963992ef597894c02ea785c1d73caf.wav"
+        },
+        {
+          "ab": "sua",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/19efab05ff9926c0a8075a47040a5d62.wav"
+        },
+        {
+          "ab": "’esi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/fb9d21120419e366290b9d4807dc34d4.wav"
+        },
+        {
+          "ab": "poisua",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/3cbc7fb3b81b937d335ffd277085e4da.wav"
+        },
+        {
+          "ab": "’inia",
+          "ch": "她",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/c8348dd2b8ddc1a429a1efb8caf6c1de.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cio ya-sin",
+          "ch": "丘雅信",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/c5b8ff2ee997a60cd2a206f412ba2846.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/071aef0cd684e44b7694e9ffdec965dd.wav"
+        },
+        {
+          "ab": "capai",
+          "ch": "樣貌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/91db24deb40142f118ab4f106d4a9786.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’esi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/e5fdbb5e6311bd018f9f074e9fe17114.wav"
+        },
+        {
+          "ab": "poisua",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/dae2fdfd4a65c1ea0cb7512d8bef2d48.wav"
+        },
+        {
+          "ab": "karanana",
+          "ch": "不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/aad83ba179050c6103f95014304ebdde.wav"
+        },
+        {
+          "ab": "nanakʉ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/a25f84f6e213c705257d28433f7fa6f9.wav"
+        },
+        {
+          "ab": "isi",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/06acc0222ce34ac245b7fae39c59a92f.wav"
+        },
+        {
+          "ab": "tamna",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/49f79541b9414f73eaccb45679e1d146.wav"
+        },
+        {
+          "ab": "’ʉna",
+          "ch": "故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/16/45d20aada41fe399181f68bf58ee8951.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

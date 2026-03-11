@@ -1,6 +1,799 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "kilavay ta saqetjuan",
+  "titleCh": "病假",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "Sakinu老師：",
+      "ab": "kilavay tua saqetjuan Sakinu sinsi,",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/eb8a56e79a90fff26e50196dbc6c9d66.wav",
+      "word": [
+        {
+          "ab": "kilavay",
+          "ch": "請假",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/500e29b309dcb63f20b5d7e49c14c473.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/8632883cd0732e49e3b2acd8cc4e7e32.wav"
+        },
+        {
+          "ab": "saqetjuan",
+          "ch": "生病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/42246265b26d31e381c2fae015462658.wav"
+        },
+        {
+          "ab": "Sakinu sinsi",
+          "ch": "Sakinu老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/0043195c73a526c9ad0903f8d9db5d71.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "昨天晚上睡覺時沒有蓋棉被，到了半夜醒過來感覺頭好痛，整晚沒有睡好覺。早上起床的時候，全身很酸痛，頭非常暈，無法行走。",
+      "ab": "katiyaw a qezemetj inika aken a na kicauv ka taqed aken, manu kavecekadan a vengin, sa ku saugeseg, saqetju tu saqetju a qulu, inika aken a na sekataqed anga patjemaljia. \r\n[===]\r\nka maljiya sa ku gacalj, mangilu aravac a ku kinacavacavan, malingac a ku qulu, inika ken a maqati a djemekuac.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/418b4279d6baaf467727449b647507d2.wav",
+      "word": [
+        {
+          "ab": "katiyaw",
+          "ch": "昨天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/c34b9fcbfa0e43426d1f5a9edbbec5cb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/14/29bb05c45e4b3e67a294b2ee1d7cb7ef.mp3"
+        },
+        {
+          "ab": "qezemetj",
+          "ch": "晚上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/56bd571c91af3535c499daa7d9c49d16.wav"
+        },
+        {
+          "ab": "inika",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/e557c8251ac0552a147af7f07bebd5c5.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/4192dbd5ce9b042f505fa2d23d723cff.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/286b0a5bae712b5c143bcc000151aac4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/fdc43c7197b903c03ce9788842d3d3aa.wav"
+        },
+        {
+          "ab": "kicauv",
+          "ch": "蓋棉被",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/0dd9318e64b0226744d1a021e74182e6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/674c69ad9d662486f982c1f2ab78f504.wav"
+        },
+        {
+          "ab": "taqed",
+          "ch": "睡覺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/d605ab0b3c70e445e642b4502ed01e4f.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/61902b624f0a47ebccf60c37179a2ef1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "manu",
+          "ch": "結果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/d7b041aad03fa9f407de3be8056b357c.wav"
+        },
+        {
+          "ab": "kavecekadan",
+          "ch": "正中央",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/d6ea1dd7b36377c92c11ddca0a6448a1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/ed306306d000976fdde9af694e4309db.wav"
+        },
+        {
+          "ab": "vengin",
+          "ch": "夜晚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/955f20c7e5f54d496673e0dc486e24ae.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後；願望",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/3df63af7710213251997d6bafc62b084.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/359b8db60f379d36511e28c04a3fb0b6.wav"
+        },
+        {
+          "ab": "saugeseg",
+          "ch": "不舒服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/acb252a7e213cd754fdcff46abcc97bc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "saqetju",
+          "ch": "生病；痛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/ab28a67c637101abd994329b9bf494e8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "是否",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/5ac56688a8d2676806a7bed9d6ec02ce.wav"
+        },
+        {
+          "ab": "saqetju",
+          "ch": "生病；痛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/c86eba049d18b7595a04798a11c55535.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/f7eaf1a7777e1ac6d3cddd1df25917df.wav"
+        },
+        {
+          "ab": "qulu",
+          "ch": "頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/fbf5a0f7b2ac2ffd30e433d6c394eb8f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inika",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/dc2e5f241fc1334c9c3c903f7d9103c1.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/7b2294e086b8cb3b39cb8d70db1818d5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/727c081087109c38493adf9bcee60e50.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/ff37b631b05894dfed5aa079f4660fb0.wav"
+        },
+        {
+          "ab": "sekataqed",
+          "ch": "睡覺時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/24b0aa9470ebe78ed1c3215c6da7005d.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/f5b4d9e6a5060785c3a76b607773cc0d.wav"
+        },
+        {
+          "ab": "patjemaljia",
+          "ch": "到清晨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/d1f2b9b49b2883e1c6098072d4ae95c0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ka",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/14/ac9f4eef8d74121ef013ee79d8a81f59.mp3"
+        },
+        {
+          "ab": "maljiya",
+          "ch": "清晨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/d755d3dc38185ac661f17b70cf4ab478.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "然後；願望",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/094f45cd07bceec9a66a1898b9a5a418.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/83b14fefbe186201e0a3685a14847236.wav"
+        },
+        {
+          "ab": "gacalj",
+          "ch": "起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/5690f30518aed20c15d258d348f50aa2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mangilu",
+          "ch": "痠痛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/81970de6fcae212f6a87fae5a0b53c21.wav"
+        },
+        {
+          "ab": "aravac",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/6201f106793887d0ae2bb2a58c19b20f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/a49e11e0f258d64a1824dfe78339514b.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/6e2660708ca53fa7ba883abd8948414e.wav"
+        },
+        {
+          "ab": "kinacavacavan",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/676283b713248144c3e4a489feef1762.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "malingac",
+          "ch": "暈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/82856654640004ca5ec517d7213b0c45.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/386dcacd43933bfe750a47e708d66462.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/9282ac7b84a200b31d3b9df1d454fa56.wav"
+        },
+        {
+          "ab": "qulu",
+          "ch": "頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/c343a47e067433b30af412ef231a5fba.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inika",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/f655d686ece627fa58304aa1b6bf8b39.wav"
+        },
+        {
+          "ab": "ken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/fcf9364bfda2b608a0a305bd157b75b6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/9bd6e24250d42fbfaefd54f03cbec2f7.wav"
+        },
+        {
+          "ab": "maqati",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/7cc03929aed13cfa1f35a1b5945f8879.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/739839cc208541f6c791c6454661937f.wav"
+        },
+        {
+          "ab": "djemekuac",
+          "ch": "走路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/994f5d1c7b2e9e887be4286dd2296d3a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我告訴母親，母親說：「你問老師可否請一天假。」",
+      "ab": "ku tjumaljan ti kina, “makuda sun a kivadaq tua nu sinsi tu pulavay sun a ita qadaw a temakesi.” ayan aken ni kina.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/1dd8dd6f4b5f9b88040c8489edf33837.wav",
+      "word": [
+        {
+          "ab": "ku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/9e9079c8d00793f0e21650339119fbd7.wav"
+        },
+        {
+          "ab": "tjumaljan",
+          "ch": "告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/3f69a02100a49e47df1875c392373c19.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/51b4b5e9961ffa47b151e3ef4269b8d9.wav"
+        },
+        {
+          "ab": "kina",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/af284e7b2d9e2230c3af00065394df53.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makuda",
+          "ch": "怎麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/b33a1e86a62cf020ab1d716aa6e7d2f3.wav"
+        },
+        {
+          "ab": "sun",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/cae4a57bcd2fa803df2270f5d8bbbbae.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/3e8654a245b8c843da72f29ed36bc1f1.wav"
+        },
+        {
+          "ab": "kivadaq",
+          "ch": "詢問",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/fb15e2247f302f53eff1d2cd472c7711.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/76ca7dbd5eae268ed3fb7e3caccb979d.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/76d790cfc34d88146c4ba1d113e13c7f.wav"
+        },
+        {
+          "ab": "sinsi",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/8c09ef2da7c91a5a9dcd27d03a573bb7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "是否",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/3d9d36275bf8c0c2cc37ca7fda306c92.wav"
+        },
+        {
+          "ab": "pulavay",
+          "ch": "請假",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/12936235ba62d4f1bc871c3865189bc4.wav"
+        },
+        {
+          "ab": "sun",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/4f0c5a606cbbd41472c51a2a15f158f6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/18bd524154282e82c104bfb0e24dd1e0.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/e018e66c40b3951c20136f4de738ab66.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "天；太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/72ea9e57751537c80f43efc17a767ec1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/90655739cc15b8d9e7a82daee4889f76.wav"
+        },
+        {
+          "ab": "temakesi",
+          "ch": "上課；讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/d4df3835a7573888652a3e5a69dcda66.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ayan",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/71e36490e3f376df4ac0215c64bfc273.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/8594af4b0e10349433721a22705f559e.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/26cae61b03bc5a2099bd00d0f8c35e67.wav"
+        },
+        {
+          "ab": "kina",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/33e9004b7c9a24009281c8d0a3dc596f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我就寫了今天的請假單，等我病好了再到學校上課。懇請老師准予請假，謹呈 Sakinu老師，學生 Camak 敬上 。中華民國109年12月25日。",
+      "ab": "qau, seman vecik aken tu ku si pulavayan a temakesi nusauni. nu menguaq anga ku saqetjuan, kiken a cemikel a sema kungkuan a temakesi. kiqaung aken tjanusun a ti sinsi tu su pusaluan. sinipagaugau tjay Sakinu sinsi. su situ a ti Camak. cunghuamingku 109 a cavilj 12 a qiljas 25 a qadaw.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/03/56c7bbb9cbafb4ece924054ce42f08ef.wav",
+      "word": [
+        {
+          "ab": "qau",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/129da3cf7fd2aaf9c9a665461361fe55.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "seman",
+          "ch": "做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/58d5e97be4ccb06f4d68092db08ec5be.wav"
+        },
+        {
+          "ab": "vecik",
+          "ch": "字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/ae30577cbd8249e7b7a615c11bf67b64.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/0b44389721f078e4ad50fda80d4823ed.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "是否",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/52a995fead03e1d828980d4b3efd2719.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/a05a992e51b9ea44e0ce66728ada60dd.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/e364236bcb7c81cc145c1e649b828f74.wav"
+        },
+        {
+          "ab": "pulavayan",
+          "ch": "假期",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/bda464ce371c627866511f03f83a3d83.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/ed3100206d68cecd5e43a70488eaac4c.wav"
+        },
+        {
+          "ab": "temakesi",
+          "ch": "讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/c5d76cca317966602bb28a668a2c4cd8.wav"
+        },
+        {
+          "ab": "nusauni",
+          "ch": "待會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/d6e15e92997434410d28d0e7ee8c6efd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/c70e93a24493bc5ffd2e76885bc3e4ef.wav"
+        },
+        {
+          "ab": "menguaq",
+          "ch": "痊癒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/8fcaff0314974ba5ee345fccb918ce2b.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/fb7fce873c18ddcc4625ce2e9fa064ab.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/01e91c5fa75d1dac67001b11e1d34526.wav"
+        },
+        {
+          "ab": "saqetjuan",
+          "ch": "病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/773dba6697ae13585ea0dc4b8b19bc8b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiken",
+          "ch": "我必",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/04215c1ad3aaff3ed175446d2ea3c0f2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/f148cf892c6c938a2bf5ceedc8fabc41.wav"
+        },
+        {
+          "ab": "cemikel",
+          "ch": "回頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/eb9e69cd1b6e155cc9e52ad7ab6394f3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/3b2f5aae5a9e3ea2d232a571a2e95786.wav"
+        },
+        {
+          "ab": "sema",
+          "ch": "去到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/daad578e39e74de47094094ef1e2d478.wav"
+        },
+        {
+          "ab": "kungkuan",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/2c81f3479a31846bc18b4e375b0d7da6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/ebde8ecd2726a8fe7111d3093125d15b.wav"
+        },
+        {
+          "ab": "temakesi",
+          "ch": "讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/6e17975032144d7b4866b4953eb0ecab.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiqaung",
+          "ch": "請求",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/36c37bd35f96c80340058647187e679d.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/6c8be0e9fc60f3ea6162679535487408.wav"
+        },
+        {
+          "ab": "tjanusun",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/b9fbd10b4c92bd70915cdad574204a3b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/842bbed91e090f1898073c86fba46d06.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/27a2204eccce28480215e5e8c6d11be7.wav"
+        },
+        {
+          "ab": "sinsi",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/74b3089c5bea98b62a2160a337694f68.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "是否",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/6c416d407447141d5d43f95e0b20a1ec.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/126937f191eaaf940caf7bbed92e8d1c.wav"
+        },
+        {
+          "ab": "pusaluan",
+          "ch": "同意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/d93fc8d8e12f03883ca9d7fb69d60890.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinipagaugau",
+          "ch": "所接受的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/ebbc265bd74460ad5fe8557b5d5beded.wav"
+        },
+        {
+          "ab": "tjay",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/6d022663dbf176ebb8bbdc2b11dbab82.wav"
+        },
+        {
+          "ab": "Sakinu",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/5a067f36e41b98a3a663787baf09e8f4.wav"
+        },
+        {
+          "ab": "sinsi",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/acc081905fc3a74f786141f8d1ccec79.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "su",
+          "ch": "你的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/00575938da3ed66330f3da93ffcc0bd4.wav"
+        },
+        {
+          "ab": "situ",
+          "ch": "學生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/8ec0debd6d3f4de8a06593e9ab32e42b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/417b6bb272f6c49af02c83a856198ea6.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/72646075926e45adf5c64c3d0e908a7b.wav"
+        },
+        {
+          "ab": "Camak\r\n",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/ceaa7c3391fa0bb7dc4aac10300a827a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cunghuamingku",
+          "ch": "中華民國",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/e7395d9fa3715faee29d5634ac2ff208.wav"
+        },
+        {
+          "ab": "109",
+          "ch": "109",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/eba41536683b36eb6d272413e4114d53.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/13d89ba5c2c7f87ced2df5bae50934ae.wav"
+        },
+        {
+          "ab": "cavilj",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/fc74f55b5ee052927050fb4dbafd910e.wav"
+        },
+        {
+          "ab": "12",
+          "ch": "12",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/14/266d7b19b2f47a2085f481f5e52e9227.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/fd08768488810a00daa416e6f69b531a.wav"
+        },
+        {
+          "ab": "qiljas",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/190ba7d0523c4efbb086361025882607.wav"
+        },
+        {
+          "ab": "25",
+          "ch": "25",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/b5af04794ac7478ac23942a99f9b7d4d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/716799023d796d6a53b40d8bb8ca5c46.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "天；太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/29/2ad70d3d14e5acd3c27dbdbefdf567c5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

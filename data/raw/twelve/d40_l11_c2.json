@@ -1,6 +1,1400 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "kaum xumak",
+  "titleCh": "家庭",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "樹木在一開始只是顆小小的種子，逐漸長大後，就有樹幹了、有樹枝了、也有樹葉了。樹是如此，家也是如此。一開始所有家人都住在頭家，先取媳婦（女婿）的孩子還不用分家，後面別的小孩娶媳婦就要在頭家隔壁蓋房子，然後住下來。雖然分開（住），但仍然是一家人，因此祭祖時所有人還是要回到頭家進行祭祀。",
+      "ab": "pialay ka tatiting a buxuan haki nita kahuy. mataw mataw liaka, nahaza pungu kahuy lia. nahaza panga lia, iu nahaza abax lia. nita kahuy ka monosu, nita xumak iu monosu. pialay ka malaleng di pungu xumak, haki nitalima a saw dadua. muula maa maxiasu a akhéhan ka ini muunu a xumak, aubin liaka azang a akhéhan maa maxiasu ka matuxumak kaidi pungu xumak a taubalet, liaka lalengi. muunu kula, maaisiyay nitalima a saw, haka musamian apuapu a isia ka dadua saw mupuzah di pungu xumak. [---]",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/a1acb429c6adb11466fc8257a7c3aa6f.wav",
+      "word": [
+        {
+          "ab": "pialay",
+          "ch": "起初",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/77de9b030204b8d1074b01820016b7a5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/a33c3e4eadfd435b6cd57ff19ea0ca19.wav"
+        },
+        {
+          "ab": "tatiting",
+          "ch": "小",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/87f1d927f6e0651f6148a2ac512f3c7c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/070ec7368bb9270c42c719c6d67f45d1.wav"
+        },
+        {
+          "ab": "buxuan",
+          "ch": "種子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/318cb2d9997096cdf025e2cd97198b7b.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/cd9b8a1f03197abc2ad6df1441b1dd6a.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/e274348fcf6a3d35ac299c9ae39ced41.wav"
+        },
+        {
+          "ab": "kahuy",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/e67b1f80997941f0998450569f0b205f.wav"
+        },
+        {
+          "ab": "mataw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/9bb89ab90358ce43aa6ed594405c6bba.wav"
+        },
+        {
+          "ab": "mataw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/5801b6176df912bc30335423048d25ab.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/093c3791edf7b388a0b8f491a1ce95d3.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/f3c35083e15099d71ef20dfb2e3f0e07.wav"
+        },
+        {
+          "ab": "pungu",
+          "ch": "樹幹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/9e97113499745c3ef15434903e1db8ba.wav"
+        },
+        {
+          "ab": "kahuy",
+          "ch": "樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/da48116d8d2a9cc45cddfbed7da4c36a.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/a0f73d7991b1b8b5b2d279fe8cce5fc1.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/0d12a111923086e538f7fb85083aa323.wav"
+        },
+        {
+          "ab": "panga",
+          "ch": "分枝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/ddeeb413e265b0a74b78c0d01c13bbb2.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/a7dd37db7254dcb57915269e2a3ce69e.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/9147bea427e893fed1b1d8fab58d8627.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/b63080f608b63cdde3ce48bcd495bacd.wav"
+        },
+        {
+          "ab": "abax",
+          "ch": "葉子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/92159b1631dae48aa523875174e3ea60.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/7a2235e1deb078c70581760305fdf0a6.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/0a584214f1aa933f638c76b334f86d1b.wav"
+        },
+        {
+          "ab": "kahuy",
+          "ch": "樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/85863079708b37950e269d9d6b2ae8bf.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/35ea60fd301a3895245aff0ca4947d9e.wav"
+        },
+        {
+          "ab": "monosu",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/8848dbe20d50e79222970c863e396a07.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/a88fdd2ba4efa90172874f950d1f5d19.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/7d839f278639a38b2ba83ad67ab836a2.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/986fa807bbe0c721702868bae6ef8a33.wav"
+        },
+        {
+          "ab": "monosu",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/ac66ab5bfd60bb9ebdcc5d793ded0742.wav"
+        },
+        {
+          "ab": "pialay",
+          "ch": "起初",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/e24de9dc71f741e6c4df5447ced8f1e4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/8b55429491984a39a9c9d030a4cd26e6.wav"
+        },
+        {
+          "ab": "malaleng",
+          "ch": "居住、停留",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/54c3cf44af54fe611b3ff94c7cd9bfc4.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/8d2496ff9f01a2efa691918c251adfa9.wav"
+        },
+        {
+          "ab": "pungu",
+          "ch": "樹幹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/1efc98435a22c2f62ce6855afe6b5dcd.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/e1304dc22509d50075212936bb400b2f.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/3dc0d7af0585e19dc0b57e44d8a759b1.wav"
+        },
+        {
+          "ab": "nitalima",
+          "ch": "自己的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/9d51e7752c8ced84a474f6bbadcab122.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/c6f6e0375642bab2c1a09822d069dcd6.wav"
+        },
+        {
+          "ab": "dadua",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/f4bba12f2fec2832b70deb42676f0f82.wav"
+        },
+        {
+          "ab": "muula",
+          "ch": "先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/b082ec332d5bb432b7427c15a8711495.wav"
+        },
+        {
+          "ab": "maa",
+          "ch": "拿、娶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/4f26116850dadab6194f11f58ae73001.wav"
+        },
+        {
+          "ab": "maxiasu",
+          "ch": "媳婦、贅婿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/65bb57214506f5469197ba61a2e1ed3b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/07f5b6b82ba168314099a409295e10a7.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/4325502820c8cfed0b8b7b62b79411a7.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/bf5ad579ab245cc6616b1c287a3ebdde.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "動詞否定詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/1d1a80f6fc41783b51ffefb1fa3b382f.wav"
+        },
+        {
+          "ab": "muunu",
+          "ch": "分開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/4632256604e90640cdc9eb54d0780286.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/07a2d7dd159c1dc415d3475eb1f19fac.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/8a72589325bb45b5a311a382ec635504.wav"
+        },
+        {
+          "ab": "aubin",
+          "ch": "後面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/de5e4014d693cf5cb6c7fda4470533bd.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/16d3b52157ad069697cb75947573047e.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/de4ac5ad267891d9ac24e7863a761a8f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/94817a1bb0c73fffbfd1666ab4f7587d.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/9c437795070131459259f4d13691b626.wav"
+        },
+        {
+          "ab": "maa",
+          "ch": "拿、娶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/dce9b59048cdb094d4027e0b8a21bcc8.wav"
+        },
+        {
+          "ab": "maxiasu",
+          "ch": "媳婦、贅婿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/6eeaec7615a3a322f7da25f467ba4e01.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/6c9120428d5cedb8b8557e48377e1b70.wav"
+        },
+        {
+          "ab": "matuxumak",
+          "ch": "建屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/0f6fd6543534756dc5a867f866cb8756.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/d30155682eadb43c0861a1d7f7768336.wav"
+        },
+        {
+          "ab": "pungu",
+          "ch": "樹幹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/1616215b9892bc0a7cf9c04033229263.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/e9667dd0f60080ebe16dc8498136b22f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f775056d93975862bfeadb7123090ee4.wav"
+        },
+        {
+          "ab": "taubalet",
+          "ch": "隔壁、連居",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/faea4a3e7261be6f9afea4d48e2cea13.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/04/11/a1e039de5053d936976b3c91401aa4f2.wav"
+        },
+        {
+          "ab": "lalengi",
+          "ch": "住！",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/fcd345730771dc450b918520c5f47db9.wav"
+        },
+        {
+          "ab": "muunu",
+          "ch": "分",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6ee9263a62c74fd0855522cc38cb7a45.wav"
+        },
+        {
+          "ab": "kula",
+          "ch": "但是、不過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/36fde35b6ebb35471cda64dfe739100e.wav"
+        },
+        {
+          "ab": "maaisiyay",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f84b3dc71be5d29cae55ef98550507d8.wav"
+        },
+        {
+          "ab": "nitalima",
+          "ch": "自己的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6e65011cd62c890de872845b829e0487.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9ad150483c1aac8dc239a1986b1ca0b8.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/220cadeddf8df99b0225e6590f50741f.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/24d3f0d141be5b32dac815ed56bdc50f.wav"
+        },
+        {
+          "ab": "musamian",
+          "ch": "祭拜、祭祖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/013cc884aebb09913939753eb4191a80.wav"
+        },
+        {
+          "ab": "apuapu",
+          "ch": "阿祖、祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/851ac7b16ce05f49bcdc9e3b5e36ef91.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6b2e9cce9f51fab625ef2944198cb0d2.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/046b803b7d0fe4d80201e2c6969bbef9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/72cebae5cdf4e6e8092e47184cac18e7.wav"
+        },
+        {
+          "ab": "dadua",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/54165949899b8fba6fb5143ea4d21f7c.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/1000398ba05122bf84e7bccab8a4d89b.wav"
+        },
+        {
+          "ab": "mupuzah",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c3ac9cc9db34ada4f57c1881d651b18d.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/473b6d28cf372a5b0e0d5c7a86364f13.wav"
+        },
+        {
+          "ab": "pungu",
+          "ch": "樹幹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4f3d23256d1aa362603699aa2ca17d4e.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4bac8b756035e82d0aad2319f40924d3.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "父母過世後，就埋在床底下。孩子也不居住在宗家了，直到房子倒塌，就長很多草，就用這塊土地來種植作物。到了日本人來就不再這樣了。",
+      "ab": "ina aba puihiat liaka, muubang di lubulubu angasat. akhéhan iu ini malaleng di pungu xumak lia. kaxu mauit ki xumak liaka nahaza semeseme, haka saanu daxe mini paxumah axay axay. kaxu xoaxo mupuzah liaka ini monosu lia.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/01b95b3879064111f0dc82b5d683c750.wav",
+      "word": [
+        {
+          "ab": "ina aba",
+          "ch": "父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/935ce8616d6d003e001fb528218421fc.wav"
+        },
+        {
+          "ab": "puihiat",
+          "ch": "死",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/75447868bd9073703ad0982a4bfd8a7d.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/85664b9b551fa8c269b20dca9ac189b1.wav"
+        },
+        {
+          "ab": "muubang",
+          "ch": "埋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/b3419ba49af040976a06a41ad2bf040b.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/d4c64f4db4587345fe9f31f646b13178.wav"
+        },
+        {
+          "ab": "lubulubu",
+          "ch": "下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9cca318e75859c10801edf8a26374545.wav"
+        },
+        {
+          "ab": "angasat",
+          "ch": "床",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/82950a82d4c191142e10bb23d8ba5d99.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/dd80ef0436cb2dd91c5e30f4adaaa157.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/ce5a0044f2f2f2679537b9cbe1c0c0cf.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "動詞否定詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/dd4888478f8030bfc7960226b3df0192.wav"
+        },
+        {
+          "ab": "malaleng",
+          "ch": "居住、停留",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/1b99b16946cafae5e934166d77f7d3bb.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4106be539e23106174a79cd60d5193b7.wav"
+        },
+        {
+          "ab": "pungu",
+          "ch": "樹幹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4ddb3dc6bad982519674e758c278e1af.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9d30f5cd5ea6c3cc6aac9a708cbf11a9.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9207ba976cec57fce8ba8354d7c2a151.wav"
+        },
+        {
+          "ab": "kaxu",
+          "ch": "直、到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c4c91f25b0a5ec75cee3f1358224ccef.wav"
+        },
+        {
+          "ab": "mauit",
+          "ch": "倒塌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/accc19048dce2e757809cb7509f39f84.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/cb465af236565c7252d5b75aa30996c6.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/965c6f88008477e0a95c78df3f2d8f03.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/5f08dc83673819e2acc6d2ab77a97a6d.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f95b41c54524848869e9f05b8e986112.wav"
+        },
+        {
+          "ab": "semeseme",
+          "ch": "草原、很多草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/aee90652c987f6b87a8db00d2ed01789.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6a59b75445619d408173157826e59592.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/1eba713f1713bd55a34d1934c225bd3c.wav"
+        },
+        {
+          "ab": "daxe",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/e28f9f454c3dc686136159052c02eeab.wav"
+        },
+        {
+          "ab": "mini",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/46381c92c082538baccae16d8c07f3b6.wav"
+        },
+        {
+          "ab": "paxumah",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f035986e40be103160312406c4574bce.wav"
+        },
+        {
+          "ab": "axay",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/bee2ce58694b02ac984f3a56e48da011.wav"
+        },
+        {
+          "ab": "axay",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/465e58aa34b692b0175905260b2f9f98.wav"
+        },
+        {
+          "ab": "kaxu",
+          "ch": "直、到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4996035e5b34f729acf3bf412aab98ae.wav"
+        },
+        {
+          "ab": "xoaxo",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/461c5e55de950b4e2ace1eac07412393.wav"
+        },
+        {
+          "ab": "mupuzah",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/996a051d19c24da7fce71a42a3efea30.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/81fec843e7da88f137c3e2b05704a2fc.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "動詞否定詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/5c190ed3b173608142f9fc17ad1b0257.wav"
+        },
+        {
+          "ab": "monosu",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/71f9d9bd6d718ca7aebb4fb167df7877.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/8a15aeb5943bc69a0c85524e0931e37b.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "家裡沒有生小孩，又或是沒有男孩，就要去收養小孩了。收養來的小孩來自朋友、來自親戚、或來自別的族群。雖然是從別的家來，但收養了就會是咱們的親人了。\r\n",
+      "ab": "ini maukhéhan, iu asi kuang a akhéhan mamaleng liaka haaput mudalum a akhéhan lia. nita dinalum a akhéhan ka pauzah di batan, pauzah di huza, iu pauzah di azang buxuan. mata di azang a xumak mupuzah kula, mudalum liaka maxatalima a saw lia.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/3aed7ccee278be454725ec102b6e5268.wav",
+      "word": [
+        {
+          "ab": "ini",
+          "ch": "動詞否定詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f8b2f53b6f54d70885223aec2cbe9e18.wav"
+        },
+        {
+          "ab": "maukhéhan",
+          "ch": "生小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/32f2790151b4d1881a0371eea7a3b572.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/553d509fc4eedcd0836dce3475fcd828.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "或是（台語借詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/726881feffe76e8b752257b799678a6a.wav"
+        },
+        {
+          "ab": "kuang",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/258db2c131c23c407a47aa203350c5d0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/54c6ebd16bbbe464c0930290e418e2a8.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/0aa48d075ddf7477ee9a806a4c50f805.wav"
+        },
+        {
+          "ab": "mamaleng",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/04cc3a895d75395f52882f49a43a5e2c.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/a7035514e3e8f92f4637276483b5dcfe.wav"
+        },
+        {
+          "ab": "haaput",
+          "ch": "要、喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/d2dbb2d8727501518d3fcf8e9a993f31.wav"
+        },
+        {
+          "ab": "mudalum",
+          "ch": "養育、收養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4f65256b905fb53f0293b4a726b928f4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c6378d39b65414a9a6cf462f97e24348.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/b480dd23ea67a524abf1ca51ce6b0c3c.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/cac31ec9c34c7484062143483b2763f0.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/b8e7b4ab93bb4a6a3310d2d5c20a9e8b.wav"
+        },
+        {
+          "ab": "dinalum",
+          "ch": "已收養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9fc84df9e846a8a927796db7703f6301.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9a21a0a221002a201311f8a27a099862.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/da88a72526fd827a7bc43a7b3f6ed306.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/45c08df1500b957ab46aeacec910fecc.wav"
+        },
+        {
+          "ab": "pauzah",
+          "ch": "來自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6b64e2c839a54bf47f5004d28c7e49b3.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/5d966b78a03fdd6ef1f8e41b4672c167.wav"
+        },
+        {
+          "ab": "batan",
+          "ch": "朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/86adc1a65d6d91bffe1c1fe8083901f4.wav"
+        },
+        {
+          "ab": "pauzah",
+          "ch": "來自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/3cb30ea26f0574d1919dac82f1f82e26.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/ddf9ddc2aafc6fc508bbd19db8a07917.wav"
+        },
+        {
+          "ab": "huza",
+          "ch": "親戚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/009eb1673176bea3270b3ae08c8ecd96.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/a8c0a2a3d93f6e13517e018b041d7c7a.wav"
+        },
+        {
+          "ab": "pauzah",
+          "ch": "來自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/5f9fc5227b22e62584444d689ad29ad9.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c6bc9228bc151c7a7671fcf09cf969f0.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "別的、一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4e72c94883441d2ea45f59a9b2ceb9c6.wav"
+        },
+        {
+          "ab": "buxuan",
+          "ch": "種子，引申為種族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/ac6a8ae832ef628f94ff4cc367921ea2.wav"
+        },
+        {
+          "ab": "mata",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/7da921eb608dbe62a71961c3aee09415.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9e5bc161b8a385894e153c78022c37e6.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "別的、一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/941b49cb20be639a9e8e092720be5b3e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/106079180bf0606f805ec6e39a7107fc.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/7377f46811322457825c79443ae81a7d.wav"
+        },
+        {
+          "ab": "mupuzah",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/2ace5873271982dab87a51e4d798bdea.wav"
+        },
+        {
+          "ab": "kula",
+          "ch": "但是，",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/37d89694c14a3c786b82103c739a194f.wav"
+        },
+        {
+          "ab": "mudalum",
+          "ch": "養育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/ba9c2857e2af51f414c520eda1ba49c7.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/0715c3a8a77490752b25c60fb7e8f5bd.wav"
+        },
+        {
+          "ab": "maxatalima",
+          "ch": "成為自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/596b885188ebd7501f2fc14a52205c1c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/86a653420f6e445f1fededed4c992794.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/49df05beec7c3189dd2882ac8e1c0a4c.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c97d176617b19b23f33985b4fb008c0c.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "那麽難養的小孩該怎麼辦呢？難養就要去找富裕的阿姨阿伯，或者是大家族。帶著他們的水和米回到家，煮了再拿來給小孩吃。那樣就像小孩有了別的爸爸媽媽來照顧自己一樣，那樣也能改變孩子的命運。",
+      "ab": "haw liaka hazian a muapun a akhéhan ka sasayen lia? hazian a muapun ka mukusa muiiak maxaiak a tata baba. iu asi muiiak mataw a xumak. masu namisiw a dalum iu pinaxuan mupuzah di xumak, taleken liaka sapakanen ni akhéhan. monosu ka pato nahaza azang a ina aba liaki akhéhan. monosu iu pasawan lama akhéhan.\r\n",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/e72d6a5bcc8c9b10315b3ed10ba34df6.wav",
+      "word": [
+        {
+          "ab": "haw",
+          "ch": "好（在此為發語詞，非字面上的「好」）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c4a57dbb5b7bde9e2be2e22dcaf89f50.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/e13cfbca519e139d3c6540688b468aa0.wav"
+        },
+        {
+          "ab": "hazian",
+          "ch": "壞、不好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/12eca91adde4111b84477ec24d030891.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/71003ee63a0f4c8a9b3633fea83deac6.wav"
+        },
+        {
+          "ab": "muapun",
+          "ch": "照顧、管理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/edfbaf822209298013dd3f909f012992.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/0773407a196f6c1057e44519934a8b71.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/ac39fdd16aebe221fd2e45a797ead3d6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c661b122ddc57bc358b86269bafa397b.wav"
+        },
+        {
+          "ab": "sasayen",
+          "ch": "怎麼辦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/40e9d7731c2068a17d5db5e6a8e0c39d.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/2716b1b05ff9e850eadcf4d97b099578.wav"
+        },
+        {
+          "ab": "hazian",
+          "ch": "壞、不好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/ad9a432977239875ab21bb4f7671680b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/dea46bfca1fc078dd8614409bbbbefb8.wav"
+        },
+        {
+          "ab": "muapun",
+          "ch": "照顧、管理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/adfe74f8f70269025c104d5b0ffd6b1c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/64a21b40d1a4ae3e3ea0df16a28fe3db.wav"
+        },
+        {
+          "ab": "mukusa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/8be5377d3cc216af77bb4aaf7361e274.wav"
+        },
+        {
+          "ab": "muiiak",
+          "ch": "找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/bd170e20f0eda329ba705328dcea1be5.wav"
+        },
+        {
+          "ab": "maxaiak",
+          "ch": "富有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/398c068f768d3623e091d8c4c9b2a54a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/fb4ee35ca519b727c14cd8f0d1de4d1a.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "阿姨（女性長輩）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/1d0e8e7a5ace33ae6d7afc9415054e5d.wav"
+        },
+        {
+          "ab": "baba",
+          "ch": "阿伯（男性長輩）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4af15437c5e6647edd397191c3b4e566.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "或",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/5c6b3e0f5cbd6959f7d439fcdfc9acb3.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "或是（台語）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/b5582b17e061af0b1e16b689693151ae.wav"
+        },
+        {
+          "ab": "muiiak",
+          "ch": "找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/0259ad1398c7e063634d5dcd451af428.wav"
+        },
+        {
+          "ab": "mataw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/74da19bf86418eb4f17e84e4856e3056.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/7e03b9b5cc3bc40d95dbccc5d0937504.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6af1f34ffcd5bff26f61d8d752f46814.wav"
+        },
+        {
+          "ab": "masu",
+          "ch": "攜帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/34083b38a0e7fb315566f7a5e1665728.wav"
+        },
+        {
+          "ab": "namisiw",
+          "ch": "他們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/da586e9de7c0483b72920a04e91ab284.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/14c023f5651d94c7812aa28933deeddd.wav"
+        },
+        {
+          "ab": "dalum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/74ca0814ca3e258eddd28cc6cedaf2b7.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/329260d9f516407f22dd01fbf5cf41f9.wav"
+        },
+        {
+          "ab": "pinaxuan",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/d12b4b60f2d058f9066315fcbddcbf36.wav"
+        },
+        {
+          "ab": "mupuzah",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/e0d5694336eb23f15122d869d6d6d679.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/ccfbe89c415cb501a7f5cca04d86d627.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f257705f4f91e23d44726f2c9eb57f56.wav"
+        },
+        {
+          "ab": "taleken",
+          "ch": "被煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/1f85ec134bec15dea4a6fe8eb2bef64f.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/b5295fa68f9b8e4756b0cca4e07831c8.wav"
+        },
+        {
+          "ab": "sapakanen",
+          "ch": "用來使其被餵食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/d55f0afbf4517e58e1f4b6bc73ef1e82.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/a144ddcc387d6e8fd3cd4c00d8adf683.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/7e42e13b0c089fe3722b88f762c3a4b3.wav"
+        },
+        {
+          "ab": "monosu",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/d872cb7d9135b8acb842487c69e94141.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/32ce39944d4819f18f1850e2f59e679d.wav"
+        },
+        {
+          "ab": "pato",
+          "ch": "像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/eda8cdbf2261fa0e77a633b01807ffcd.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/464915b174d53f50b7a6665066fe1b55.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "別的、（另）一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/85ba344a601aeaf5bf6df7d1fdcac64c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/60aa07ee574a760cd3f005ba673ae85d.wav"
+        },
+        {
+          "ab": "ina aba",
+          "ch": "父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/a524520b5f243908ff680d9951d26cc0.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/5224fb95fad0e2132b161f13b5ff778a.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/4b54b69c78d481d8722e5cb2e97c54da.wav"
+        },
+        {
+          "ab": "monosu",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/0459e6f2e5394acc3f1d3a197100381e.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/012ff059e203661bc7d5c8a81927b631.wav"
+        },
+        {
+          "ab": "pasawan",
+          "ch": "改變",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/8cdb1cbb0645108c0b550aa01fd31cc7.wav"
+        },
+        {
+          "ab": "lama",
+          "ch": "命、命運",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c095e6d020577c937fa6eb369c4cdfe0.wav"
+        },
+        {
+          "ab": "akhéhan\r\n",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f0135df149c520baa680206a314db90d.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "贈送水和米以後，阿姨阿伯也要送新衣服給小孩，父母則會回贈紅包給阿姨阿伯（養父母）。\r\n",
+      "ab": "mubaxa a dalum iu pinaxuan liaka, tata baba iu haaput mubaxa xias a siatu di akhéhanan. ina aba haka taxubéya a mubaxa lubahing di tata-babaan.\r\n",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/abaf9ee73f9f7bc2da936699b40439f7.wav",
+      "word": [
+        {
+          "ab": "mubaxa",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/03de4127dab0d2960f582f6723c19952.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/2a57bb14f59e0b69253f28ad7bb447b1.wav"
+        },
+        {
+          "ab": "dalum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/572e02f9ab79cf6b71fc23d9a3185d8e.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/a21c0cb3457bd2d816176a8bf807f872.wav"
+        },
+        {
+          "ab": "pinaxuan",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/1b1db8698fd938eb93189f4c60a4502b.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/26bf420fd18703d3b57bf56034fada78.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "阿姨（女性長輩）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/382b29c89c868640c15360f2ae25b3aa.wav"
+        },
+        {
+          "ab": "baba",
+          "ch": "阿伯（男性長輩）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/569447057297fcf86e1f75321131a37b.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/53ee1e81f528237cbe2b02136d0f8b21.wav"
+        },
+        {
+          "ab": "haaput",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/5770a0ccc6621fb4f912cf7e2f2dd7e9.wav"
+        },
+        {
+          "ab": "mubaxa",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f2ff357c7c47fd0779ba18bb07617708.wav"
+        },
+        {
+          "ab": "xias",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/e2cc6e69b72e0f7d02372b304e378e83.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/fd58a406c0942ca512242bb922d54f7a.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f23c2bc80701e069146d8d099abbad8b.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/71f1a181d5cc9b7c9039d14bed5c5149.wav"
+        },
+        {
+          "ab": "akhéhanan",
+          "ch": "小孩那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/88d356f8eaa4be602010ceb088073302.wav"
+        },
+        {
+          "ab": "ina aba",
+          "ch": "父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9f40d89d0f7fb07a612c29e266699143.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/c861004045b1d1e8b369bb439dec8d4a.wav"
+        },
+        {
+          "ab": "taxubéya",
+          "ch": "回頭、返回\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/e01c0f54ca5c6be5bd56a226835c2ab4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/87383f88cb70d9a4bbb38b09e7a5c160.wav"
+        },
+        {
+          "ab": "mubaxa",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9b296b9347dea5cbdd8dfa780c0ed5aa.wav"
+        },
+        {
+          "ab": "lubahing",
+          "ch": "紅包",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f3add8624b41b8b6e2f36d03acfddb45.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6088aa87d73ab90e96ea36c9ed1e4dd5.wav"
+        },
+        {
+          "ab": "tata-babaan.\r\n",
+          "ch": "阿姨阿伯那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/8619109d2070e7b98a2eb38c74946d7e.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "每個家都有各自的模樣，但同樣地的，有時哭泣、有時生氣、有時開心，也有各自的煩惱。\r\n",
+      "ab": "azang a xumak ka nahaza nisia nisia a gagam, kulaka maaisiyay, azang a dadian mangit, azang a dadian tangiti, azang a dadian matahatan, iu nahaza nisia nisia a saanu maiteket.\r\n",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6a9cb3242a5e471728ce2f828d953190.wav",
+      "word": [
+        {
+          "ab": "azang",
+          "ch": "（每）一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/373d082975e1e8bf058f1a07f97af566.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/72fdc7f7749479c142310b3e98bce3e5.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/8a0c99aee860ec400b8979bb4983346f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/2900e9b356861a6247286d5626371158.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/a50e3aaff7a5ffc6e93800691a97be8a.wav"
+        },
+        {
+          "ab": "nisia nisia",
+          "ch": "各自、隨人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/6aea180dcdff4dfbdacada5eb77a184c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/d43fe8ba18c4699b1ae012454175fdc2.wav"
+        },
+        {
+          "ab": "gagam",
+          "ch": "模樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/59de70eef96a98ac84b21a4377ae8e12.wav"
+        },
+        {
+          "ab": "kulaka",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/eceec728a31cb43e57b77ed98a573d99.wav"
+        },
+        {
+          "ab": "maaisiyay",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/eb309f4b423f4b97925ab6fc5a56b6a6.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/2a9f25a7b7fb332a89076ba9635bbb36.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/dc08cd54c3cef86dbb95bc1425b82ca7.wav"
+        },
+        {
+          "ab": "dadian",
+          "ch": "有時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/2b35c366652afb58f29132a578aa5f09.wav"
+        },
+        {
+          "ab": "mangit",
+          "ch": "哭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9b91b01f4fe684da6a24c9c9b25a81d9.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/861ff870e2227a5a43f66932d97f681d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/bc0229dc9e036b92157cd83bc141a246.wav"
+        },
+        {
+          "ab": "dadian",
+          "ch": "有時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/bc2f3fcba1ab0cd9a0fb647be2bee0b6.wav"
+        },
+        {
+          "ab": "tangiti",
+          "ch": "生氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f6f41aacd8c3ac25ba23f76560f16d95.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/455490a9060603927ddd31d0021f02a3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/209b20690fb4a0957b6e854fa26af708.wav"
+        },
+        {
+          "ab": "dadian",
+          "ch": "有時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/b6b188b9054632c550b7b1785a4ff1b0.wav"
+        },
+        {
+          "ab": "matahatan",
+          "ch": "開心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/53d4f9eeb29dbf6c884d14a3f41ac144.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/97410580aa712933615d0b62d7807b37.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/2eb88799918249de2967c0c21a8466bf.wav"
+        },
+        {
+          "ab": "nisia nisia ",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/90b320976bb66c158a5e3f64f94b23b5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連結詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/3ddd6cadd4076875186124c0b5bc253a.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/9f85ae4940b5cd844de53d9320ae1d31.wav"
+        },
+        {
+          "ab": "maiteket\r\n",
+          "ch": "煩惱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/02/19/f51248451abd458f2e90eb7db42bae0d.wav"
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,675 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Mamumu",
+  "titleCh": "巫師",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "以前布農族卡社巫師的主要功能有：",
+      "ab": "Itucia qabasang Bunun tu mamu’mu’, maqa tamasaz ciata’a.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/ab370b1b126f971f334346994af22f6e.wav",
+      "word": [
+        {
+          "ab": "Itucia",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/e63fc250d19df4b0760c29ad6b9bbd2b.wav"
+        },
+        {
+          "ab": "qabasang",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/13e88aa34c30bdc50b086cc4ce79a568.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/be05360935393b0c70e749d65326cd9a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d19bb10c718d0535ac4610478a4ead38.wav"
+        },
+        {
+          "ab": "mamu’mu’",
+          "ch": "巫師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/53dd007392fb99c0a08819c66dbf01da.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqa",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/e00146591f2c03c61dfad23ce2e77362.wav"
+        },
+        {
+          "ab": "tamasaz",
+          "ch": "能力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/094802c9e2d9e30eb2b91505759466e7.wav"
+        },
+        {
+          "ab": "ciata’a",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/2d3fbd5404f2628258796c02d44af460.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "醫療：巫師點燃火柴放入口中，再立刻將火柴放到病人手中磨碎，疾病會幻化成蟲，巫師便抓來吃，儀式結束。病人回家後便感覺好多了。",
+      "ab": "Pincihal li mihalang, kilima mihalang ngi mamu’mu’, kucian cia patuc mamu’mu’, madamuki kukua, pungulus mapataz, mincialin na mihalang.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/066d7366e2dc2f543a6991ce1bcfa819.wav",
+      "word": [
+        {
+          "ab": "Pincihal",
+          "ch": "治病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/b7db81a0d8903f7113c31b3f5658667d.wav"
+        },
+        {
+          "ab": "li",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/fcb03b10860565692b56282059679a62.wav"
+        },
+        {
+          "ab": "mihalang",
+          "ch": "病人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/20c38df200b8831e375afa1bc41f2674.wav"
+        },
+        {
+          "ab": "kilima",
+          "ch": "找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d958436a184864a814025b73975abc79.wav"
+        },
+        {
+          "ab": "mihalang",
+          "ch": "病人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/42cd98cddf67cdd6ef6dcee380ee9195.wav"
+        },
+        {
+          "ab": "ngi",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/ee5f5eb7d169154cf11c87b512663fae.wav"
+        },
+        {
+          "ab": "mamu’mu’",
+          "ch": "巫師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/fbd031303571b8b34d5a5c9dba9732d1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kucian",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/438fdff4bd6c1ac67308f8b3f55b2f25.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/3de1e618953d1f92b11cd6fc34b244e2.wav"
+        },
+        {
+          "ab": "patuc",
+          "ch": "火柴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/15cac1be4e0b477b20058ebad6d80581.wav"
+        },
+        {
+          "ab": "mamu’mu ",
+          "ch": "話語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d7330aaef58816d656e6a3b56ba4d0c8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madamuki",
+          "ch": "抓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/1bb3d2c02cb63b41425a2b91bc52b7b9.wav"
+        },
+        {
+          "ab": "kukua",
+          "ch": "蟲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/0775faeda5debf16f024628ba5a80e89.wav"
+        },
+        {
+          "ab": "pungulus",
+          "ch": "放入口中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/7839f1ccea7e6249ade4228abc19aaf5.wav"
+        },
+        {
+          "ab": "mapataz",
+          "ch": "殺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/c8fbed5942002615291e96eea3edeb94.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mincialin",
+          "ch": "痊癒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/ee2cfbd3b8793aa2d65fb32fcaf9055e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/1baeab092779b94e415c53eda8bfbc85.wav"
+        },
+        {
+          "ab": "mihalang",
+          "ch": "病人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/00b73ae1ba0c3b295cbcc1f93cd27e34.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "中邪收驚：巫師用咒語驅鬼。",
+      "ab": "Tingqot nga, maka tingqot nga, muaz kucia ngulus mamu’mu’ tu tamasaz, musbai na qanitu.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/46c4d97c7f84faabe299350cb33f6e4d.wav",
+      "word": [
+        {
+          "ab": "Tingqot nga",
+          "ch": "中邪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/756baa73b435326d8262bfe6e837ea7d.wav"
+        },
+        {
+          "ab": "maka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/8c25796d7e05fb8c57e59c904201a781.wav"
+        },
+        {
+          "ab": "tingqot nga",
+          "ch": "中邪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/c5ee45b1736d255b936c4d32bf1e2a28.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muaz",
+          "ch": "只有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/fe94c412d972df734f485af8f5675290.wav"
+        },
+        {
+          "ab": "kucia",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d7da56a6f56cca9702e84a2bc9907ce0.wav"
+        },
+        {
+          "ab": "ngulus",
+          "ch": "口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/907636fd06d7391d30476a0b7122a723.wav"
+        },
+        {
+          "ab": "mamu’mu’",
+          "ch": "話語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/7e731a46cf92353bc0fe8d7f04ef4e47.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/88852abe19fdc6949c9d9b5768cfd103.wav"
+        },
+        {
+          "ab": "tamasaz",
+          "ch": "力量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d7355812a788d59bbbad3366b979b445.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musbai",
+          "ch": "跑走",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/9ac5b6ac006da8437adcf87044f992b1.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/36cad9fd8958d25da135b3e49173e20c.wav"
+        },
+        {
+          "ab": "qanitu",
+          "ch": "魔鬼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/f471ab405bb11eef6cdd37aa0f66bd49.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "離家的女人：找女人的衣服拿去給巫師作法，之後女生會有兩個狀況，一是女生會自己回家，二是知道女生躲藏的地點，男方去找她，她會乖乖跟著回家。",
+      "ab": "Musbai ka binano’az, mamaca heza binano’az musbai, kilim mi mamu’mu’, kucian cia huluc binano’az ta’, makatvil, lau tailpusan taltiun mucuqaisin na binano’az mulumq i’ macalbu daingaz a is’ang.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/c55fb421b0c71cf7e570ffc277bf49b5.wav",
+      "word": [
+        {
+          "ab": "Musbai",
+          "ch": "跑掉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/962b642cfc4553547dea5db4764194b9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/29104ecccadaf21d8247757b923e5018.wav"
+        },
+        {
+          "ab": "binano’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/385ae647003eb26c22a0ad62e23b98c4.wav"
+        },
+        {
+          "ab": "mamaca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/87d17063d1377090b4dc43a1acaf3363.wav"
+        },
+        {
+          "ab": "heza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/42ba6cd05d34fa25aec3784b6e14ab0c.wav"
+        },
+        {
+          "ab": "binano’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/93b0c10fd87e830d7c069479f6372486.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musbai",
+          "ch": "跑走",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/388b07614eec18c8fce430cf9fbd197a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kilim mi",
+          "ch": "找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/20e43fe1c2f45b2e7a006799275bdac7.wav"
+        },
+        {
+          "ab": "mamu’mu’",
+          "ch": "巫師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/f455586eba62609d59663641b8530641.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kucian",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/ec2466da933b06d2db9727796c62248a.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/125a96fe21720149327289b6179a3b74.wav"
+        },
+        {
+          "ab": "huluc",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d9ca3dd7ea705a8dd62208c5008a9f44.wav"
+        },
+        {
+          "ab": "binano’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d03f208728d9989d5dfef9e32ed176f6.wav"
+        },
+        {
+          "ab": "ta’",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/327560277f1bd28b0a8877689cfb0cbd.wav"
+        },
+        {
+          "ab": "makatvil",
+          "ch": "招回",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/f26152e3fcfec0b22dcfe3c7f8b0179f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/90805fc71e9606b09ed1970a3b914bed.wav"
+        },
+        {
+          "ab": "tailpusan",
+          "ch": "兩天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/fbaeb5e31e6bbb5fe619ab83115914c5.wav"
+        },
+        {
+          "ab": "taltiun",
+          "ch": "三天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/47da485ce62b9175c2d60168839076f1.wav"
+        },
+        {
+          "ab": "mucuqaisin",
+          "ch": "回來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/9c0e545ec5666717a30df88d6f33b15c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/c927f04afc6df96c1dc38eed76962f5d.wav"
+        },
+        {
+          "ab": "binano’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/b8a26aeb58dc4fe28f4d767982803bb7.wav"
+        },
+        {
+          "ab": "mulumq",
+          "ch": "回家家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/94f6d1149bdf92313be23a2dd7f704fc.wav"
+        },
+        {
+          "ab": "i’",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/b3eb7f91f079987fc76d83cf80b011e9.wav"
+        },
+        {
+          "ab": "macalbu",
+          "ch": "難過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/ac25c74e9d2abaf935b147f5357b78b4.wav"
+        },
+        {
+          "ab": "daingaz",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/7f2264fd031a37eff93eee36c787ef4d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/52cc6bdbc253f0176b6bc823c747bdfe.wav"
+        },
+        {
+          "ab": "is’ang",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/3d3602f8bb928c459ba734a1b1ee7fac.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "情慾法術：如夫妻結婚許久仍未行房，巫師會給東西他們吃，他們就會願意行房。",
+      "ab": "Pakupdit, maqabas heza pakatuszang ni tu pakacihal la, kilimmi mamu’mu’, pakaunan cia sinsumsum cia, musu’in pakatuszang pakacihal.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/0045e287c8c7e7ba2c61879d24b797fe.wav",
+      "word": [
+        {
+          "ab": "Pakupdit",
+          "ch": "愛慾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/260d29285ba206807b065e9bee9ac765.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqabas",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/346da4783eb28022952a845dc1137820.wav"
+        },
+        {
+          "ab": "heza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/422b1ecfab8fbd242d2f55d3d2145f17.wav"
+        },
+        {
+          "ab": "pakatuszang",
+          "ch": "夫妻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/e6608053c55492c6da3ecd446ef12bde.wav"
+        },
+        {
+          "ab": "ni tu",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/91ba62b4ceab6d1f3d3214b0be99593c.wav"
+        },
+        {
+          "ab": "pakacihal",
+          "ch": "相愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d0140c8beebfc1c8e52a5ad09330edc2.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/fc8beb4aebb539e78fbccee1d9a1d31f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kilimmi",
+          "ch": "找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/17f0eb18b1b616151d5bf7f98946a3b4.wav"
+        },
+        {
+          "ab": "mamu’mu’",
+          "ch": "巫師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/a1173a8f2e3834be1a2cf9a6ec64fddb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pakaunan",
+          "ch": "給…吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/c4a786ba04e7740a5837060f1f78e890.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/c441b651ab73b9e84f8aab782a625216.wav"
+        },
+        {
+          "ab": "sinsumsum",
+          "ch": "作法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/fac9a89c4e15fa39248cedb198a2edeb.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/16dc0264465d06685589504b50813024.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musu’in",
+          "ch": "馬上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/458fca7980709972e85e402fb014f8f5.wav"
+        },
+        {
+          "ab": "pakatuszang",
+          "ch": "夫妻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/95020393b76d48cd44631d527cc28a39.wav"
+        },
+        {
+          "ab": "pakacihal",
+          "ch": "相愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/3ce1fe1db60d12d418fc8f411ee89522.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "詛咒（遺失物品時用）：巫師對小偷下詛咒，如跛腳或歪嘴，當人們看到跛腳或歪嘴，便可知道誰偷了東西。",
+      "ab": "Matimba’, heza bunun maqanglac tangqaiu qaimangsut, uni mamu’mu’ matimba’ tu salat cia ka tangqaiu, maca mapeqa’a bantac cin tingihu kat ngulus.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/c7062dfb394ea42e4d0c2b4d472ba2dc.wav",
+      "word": [
+        {
+          "ab": "Matimba’",
+          "ch": "詛咒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/0844668e5ea1adffbda74732943cc8f2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "heza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/1594301b00da449afef8a44b20a2b225.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/53cb122e397c6329d5a64d2bd60f02d0.wav"
+        },
+        {
+          "ab": "maqanglac",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/6d0d6557b471e539a8b749a3ea1e185c.wav"
+        },
+        {
+          "ab": "tangqaiu",
+          "ch": "偷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/50e00ff1da1fa610f44e186b2ba9785f.wav"
+        },
+        {
+          "ab": "qaimangsut",
+          "ch": "東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/2023255b21c4a48c851ea201ce1a990f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uni",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/d4dfc6ed4c888494075d4b50d719a61b.wav"
+        },
+        {
+          "ab": "mamu’mu’",
+          "ch": "巫師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/4ac64b0c588a611ddea9b48373c6b384.wav"
+        },
+        {
+          "ab": "matimba’",
+          "ch": "詛咒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/81da3734aac9081928874410bc9c05d4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/c8f8c4b2995e008c0a306649aa3a5423.wav"
+        },
+        {
+          "ab": "salat",
+          "ch": "看出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/eed085df20958877e56b82c58219deff.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/ccc246e2e59d5e2d0cca344114f2065e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/97b97ed4425adcf967be7b5116767c0e.wav"
+        },
+        {
+          "ab": "tangqaiu",
+          "ch": "偷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/eba0a9bcdbd16fd8e575fe3d25bf6a22.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/253f4d3876291c81fd3d750749e6a0b0.wav"
+        },
+        {
+          "ab": "mapeqa’a bantac",
+          "ch": "跛腳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/6f8006fbe1dbc2e2ef4a767f269dbbe9.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "或者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/7cfd5e99fbbe11f117156b54775c9ad4.wav"
+        },
+        {
+          "ab": "tingihu",
+          "ch": "歪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/b15f860e4f1bd0b47f93e8a03dd407f5.wav"
+        },
+        {
+          "ab": "kat",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/02336c6b9019b6bbd5d5a4a01d5afdbb.wav"
+        },
+        {
+          "ab": "ngulus",
+          "ch": "嘴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/27/e8b05ead94b0ec85ae9a0d63d0495f8d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

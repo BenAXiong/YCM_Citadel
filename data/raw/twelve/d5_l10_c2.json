@@ -1,6 +1,871 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Ludun’Usaviah",
+  "titleCh": "烏紗崖──玉山",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "從前的長輩常常告訴孩子們，玉山是我們的守護者，並且叮嚀囑咐孩子們說：「遷徙的話，不要離開玉山的視界。」",
+      "ab": "A maaz dau a itu bununcin a madadaingaz hai tatahus uvavaz tu maaz a Ludun’Usaviahan hai maisihabashabas dau tu nautu sinadadaas ma’ita tu bunun minhumis tu ludun at pahasia tutuhtuhun tatahuan mas madadaingaz a mailalangnaan maikikingnaan mas madadaingaz tu “Asa mais taulushu tu ni tu sisbai mas itu usaviahtan tu mata mais taulushulushu.”",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/17/fad21c84227261b8b562e1527fc78507.mp3",
+      "word": [
+        {
+          "ab": "A",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/d958bc7285c14d6f775973d6d723d17b.wav"
+        },
+        {
+          "ab": "maaz",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/98e76d4492ecb9502f369f3e0c876607.wav"
+        },
+        {
+          "ab": "dau ",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/5fb7e9448417bce91d7d6eb512f03718.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/a0a052b2340749617466e56d7b8e74ef.wav"
+        },
+        {
+          "ab": "itu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/8cfef1eccb1fae7a0efc5ce64f21867c.wav"
+        },
+        {
+          "ab": "bununcin",
+          "ch": "這個人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/ce7da3812ed2a993e2194cd75e94b18b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/253167a76698b272b9287063e0628adb.wav"
+        },
+        {
+          "ab": "madadaingaz ",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/dd7540a20ed5c27cecc8eeb7617245aa.wav"
+        },
+        {
+          "ab": "hai ",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/f32151da76ed4135ef77eea28eaa7d4c.wav"
+        },
+        {
+          "ab": "tatahus ",
+          "ch": "叮嚀，囑咐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/d2643cb65ab402e7b2999e893ce67809.wav"
+        },
+        {
+          "ab": "uvavaz ",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/d0e5d77af138a35d2ce7ee1a5de2c36c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/f0d253a02cdf02953ccf023b8f46578d.wav"
+        },
+        {
+          "ab": "maaz",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/22747090462bc7c2417f996209b24f1e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/db11330cfb0a32a0e9b8e8b6c4bdc711.wav"
+        },
+        {
+          "ab": "Ludun’Usaviahan",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/b1be8ad7aac2428d4c983a8ece46f5cb.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/cff815dabb3555cf1df47388baa32b84.wav"
+        },
+        {
+          "ab": "maisihabashabas",
+          "ch": "從古時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/2bed57b5e7da7db0be5cd65a00bf6405.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/65602dccbf69f8ef8aafdd4ad7b43bd4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/a5e4edb22210b2b92b75baac5ed3c40a.wav"
+        },
+        {
+          "ab": "nautu",
+          "ch": "原本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/03/f645b85f442ee8ddcd12b99317b3cd59.wav"
+        },
+        {
+          "ab": "sinadadaas",
+          "ch": "依賴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/efee1278c6172f7361d1900617faede2.wav"
+        },
+        {
+          "ab": "ma’ita",
+          "ch": "屬於我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/b803f0a4e6b8514f2dab43eaca581b05.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/c05da36fcd17a89df6a5a64da2f933b4.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/65ddc1f88e46d28edac152bdb47193e0.wav"
+        },
+        {
+          "ab": "minhumis",
+          "ch": "生存",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/e7da6f05f908822fcb5796464baf196b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/387f986aa69488ec2c81b7b83e1dd2ad.wav"
+        },
+        {
+          "ab": "ludun ",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/9cacfa4d0d1c38780d43ab64589b2872.wav"
+        },
+        {
+          "ab": "at",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/a5148ecf1c9f85aadcf0e2feb881df73.wav"
+        },
+        {
+          "ab": "pahasia",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/fa12ab68091d74718e2b3fabfcb8e2b1.wav"
+        },
+        {
+          "ab": "tutuhtuhun ",
+          "ch": "叮嚀，囑咐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/c9758b9ceb9543ef87d38e31dc03a8fd.wav"
+        },
+        {
+          "ab": "tatahuan ",
+          "ch": "告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/fc92a1bd5b74317dca6b5938ede5843d.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/c47e6fcb58178824f37f28daba24a9a3.wav"
+        },
+        {
+          "ab": "madadaingaz ",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/59e3b7129668f18e7af1f8c6936d27d2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/19314977bddbcee40b32a08f76488685.wav"
+        },
+        {
+          "ab": "mailalangnaan ",
+          "ch": "子子孫孫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/a78e3902a26eb61508c70e354c5c4a53.wav"
+        },
+        {
+          "ab": "maikikingnaan ",
+          "ch": "後代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/e7b09b70310f45f26f55d0764f661f07.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/e52d1011ef08d294f70fc1fc366942eb.wav"
+        },
+        {
+          "ab": "madadaingaz ",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/0dc6f051811680f413d297f331ed7857.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/37d454532975b012c01edbd3bdffdae0.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Asa",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/180a2a0cd826ab55eefc878446dbf891.wav"
+        },
+        {
+          "ab": "mais",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/72c288a828485e5b1d4c52910d106734.wav"
+        },
+        {
+          "ab": "taulushu",
+          "ch": "遷徙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/d5eb74205aad313dd6361a1089c4e424.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/b1491b673670aeae2dbf8827ba87a758.wav"
+        },
+        {
+          "ab": "ni tu",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/6a58d9ef674a31d1d5205a2e5429f603.wav"
+        },
+        {
+          "ab": "sisbai",
+          "ch": "逃避",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/386a1940efd5c4d0c584523e580653b4.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/528eb47b936c737fcfdec8b5f6aa3dd0.wav"
+        },
+        {
+          "ab": "itu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/92bdee4b02b1dab018f526948437d3d6.wav"
+        },
+        {
+          "ab": "usaviahtan",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/b294fccdfe95bc7f7dd813216a821a76.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/dfe0c74a3f265edd7b90e43990e70b00.wav"
+        },
+        {
+          "ab": "mata",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/4b22a8375108a514ef8340e01c2e1af4.wav"
+        },
+        {
+          "ab": "mais",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/1c52486ff0b2a44fbfefeb15d21f53ae.wav"
+        },
+        {
+          "ab": "taulushulushu",
+          "ch": "遷徙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/12/c180ea799253b0c26e08ab015ef89510.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "因為，據長輩們所述的傳說，在洪水時期，布農族的祖先曾經逃到玉山避難。從此，布農族人就在玉山這個區域生活了。",
+      "ab": "A maaz a mailantatangus a madadaingazan mais palihahabasan mas laining’avan tu sinpalihabasan hai tatahu tu’upa tu masa Laning’avan dau a dalahan mas ning’av tu tudiipang tu tus’a hai maaz dau a imita a mailantangus hai macisbai dau tunnasia Ludun’usaviahcia tunghabin at aupa paiskatudiipin dau a kataan a bunun katsiaan sia Ludun’usaviahcia minhumis saulapak a dau.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/37915daf6e872d58791b5e5cb144fc4a.wav",
+      "word": [
+        {
+          "ab": "A",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/cce80f63166d03a3f587982cf3bb1455.wav"
+        },
+        {
+          "ab": "maaz",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/81bea31a79deb32965455a1e507c944f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8596dd1dc67d1200fe0606146fcee1a4.wav"
+        },
+        {
+          "ab": "mailantatangus ",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/e1f911f0abfe68afc950bee372c1232d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/67eb5e92661b494826add1d403863257.wav"
+        },
+        {
+          "ab": "madadaingazan ",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/f7bc62a37656d71fe8a18d363690db7f.wav"
+        },
+        {
+          "ab": "mais",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e75108d621ee19656f7c6e6454e840e0.wav"
+        },
+        {
+          "ab": "palihahabasan ",
+          "ch": "傳說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/e1e10f61cc9f744786ad49b82db93461.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/06c18b3b6efcda74c9893bb840acd28e.wav"
+        },
+        {
+          "ab": "laining’avan ",
+          "ch": "洪水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/224a11929d9b0e4f98f3b471891c78ee.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e0c082bdcbcf050ff454698580c89289.wav"
+        },
+        {
+          "ab": "sinpalihabasan ",
+          "ch": "這傳說故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/1e8104634a61ffdedaf3568890107eea.wav"
+        },
+        {
+          "ab": "hai ",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/f1df453fb4902d9a802fdb2928ab4b2e.wav"
+        },
+        {
+          "ab": "tatahu ",
+          "ch": "叮嚀，囑咐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/fc4ee239adbf5de91e68869a88efe778.wav"
+        },
+        {
+          "ab": "tu’upa ",
+          "ch": " 訴說  ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/942a53ace1564ad30d1635b222e3c32e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/c4f5429e8fca19a1eda4f63ec3f3a4e2.wav"
+        },
+        {
+          "ab": "masa",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d50b2d3afe5ec033d560dd1318b2707b.wav"
+        },
+        {
+          "ab": "Laning’avan",
+          "ch": "洪水淹沒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/9952cb25b58c5f4832396abf2bcfd66d.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ff41e552dba792c96fcafeb701076aed.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/fc7b572c63f97ab8e2f9cc309152492d.wav"
+        },
+        {
+          "ab": "dalahan",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ac1195357ddafa8192abdf6fb2dde004.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/9379ffb164c5becfb0a55e1c0c2f6d37.wav"
+        },
+        {
+          "ab": "ning’av",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a8884e9c752930207aeea09cc88b3988.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/4e883c7dee45a1f1e2ab06c3ab26eaee.wav"
+        },
+        {
+          "ab": "tudiipang ",
+          "ch": "那個…還是…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/a0178da49a8ac2bb3e1e1b40984eec22.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/9b3830a0e653eacc7dddc995f193fc8f.wav"
+        },
+        {
+          "ab": "tus’a ",
+          "ch": "天亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/fe716040cc3d03f794585ab7b032bb09.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c1bc7f81bdba1b65aca9d6d1592b41ad.wav"
+        },
+        {
+          "ab": "maaz",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d4f700c81022c855e0041af836222bb4.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/21c1f9ec2efafedf9e2bd429875471c0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/7f291776879b343afce967d7e3412370.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/53d1de246afd1e5bad259d797cca3950.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c947c73def1af5e6a675c4c06f2fbd79.wav"
+        },
+        {
+          "ab": "mailantangus",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/0727459d2e79f13a818513aee75a1f90.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/33c14ab38a8923e563e17b79e41693ba.wav"
+        },
+        {
+          "ab": "macisbai",
+          "ch": "逃避",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/437e145bbba6a3161bad315417f3c583.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/fd11e7c410ebb6a55ff6a892fb69cfcc.wav"
+        },
+        {
+          "ab": "tunnasia",
+          "ch": "到…所在…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c310688b6d82ca7ea9c1889ccc3416ee.wav"
+        },
+        {
+          "ab": "Ludun’usaviahcia",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/eddad051a15adadc20c85a7b1b455fa1.wav"
+        },
+        {
+          "ab": "tunghabin",
+          "ch": "避難",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/92c2425736b1065fa04616737b9e41b5.wav"
+        },
+        {
+          "ab": "at",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/fb2afc46f2fc8807d7b8f01cd76cc220.wav"
+        },
+        {
+          "ab": "aupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b7f5d38aaa4e8a553f49c085ee06bb15.wav"
+        },
+        {
+          "ab": "paiskatudiipin ",
+          "ch": "就從那個時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/d7d5dde44ecb79dba84f409e6fe8f58a.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1b849ffdb908682b466a7154d74da7bf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/2fca89aef2c792cb67c316a669ffe591.wav"
+        },
+        {
+          "ab": "kataan",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ceadc8a6adc7928cbf91a70f4e2b1217.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/90058a744530b3ef0b89a4c02aee626c.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/54eaab91a094a64b34a6a5ef6b804073.wav"
+        },
+        {
+          "ab": "katsiaan",
+          "ch": "原…所在地…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/20fb49a2d6f77791a00d75ab23463426.wav"
+        },
+        {
+          "ab": "sia",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1820c4b6fcbf5be5758bffe24c41fa6a.wav"
+        },
+        {
+          "ab": "Ludun’usaviahcia",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c478e3e969526ec51b21a73d17658c5d.wav"
+        },
+        {
+          "ab": "minhumis",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d31ca42bef8caac3c5c1bf09c5eabd17.wav"
+        },
+        {
+          "ab": "saulapak ",
+          "ch": "到現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/bb32d67faa3b1d750edc26f11d9959d9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/b6c2c3e5f0cd2fc39c03b7ecccb98af0.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/197a0b64d684496573f15540d8647b9c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "所以說，玉山是守護、照顧、繁衍、養育，同時也是布農族躲避災難的處所。一再囑咐、叮嚀說「將來如果遭遇到災難、厄運的話，就往玉山去避難，因為玉山會庇護我們。」",
+      "ab": "Aupa maaz dau a Ludun’usaviahan tu ludun hai sasaipuk ma’a’anu mapin’a’aia  mapinhuhumis mas ma’ita tu bunun at aupa tatahuan mas madadaingaz a mailalangnaan tu asa tu haiap tu mais mapunahtung mas madikladaingaz tu tus’a  kapisingun tu palaungkaduan na is’ataz tu painunahtungan hai asa tu sanasia Ludun’usaviahcia sadu at mudaana tunnadii i na saipukus Ludun’Usaviahcia mapihumis saincia.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/c53eb50893377ca287be8ce398855353.wav",
+      "word": [
+        {
+          "ab": "Aupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/91ede05a5beeb33ee6c695e3d6d3fd1a.wav"
+        },
+        {
+          "ab": "maaz",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ad087ba3e8f8063d81a2ae71e365a81c.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ce003cad318659c82e827d18b492da8f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e35d364e346986c56be6b676999d8f00.wav"
+        },
+        {
+          "ab": "Ludun’usaviahan",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/cc5a8e3b4dbf63f5bace0347540fed78.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a1f46c591a7f820502944b52ab87e7ee.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ad30909a800fd5c58d0339942b658a71.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/700a143a1799e92c5aca1d4bf9de0b2a.wav"
+        },
+        {
+          "ab": "sasaipuk ",
+          "ch": "守護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/b31c7f46f96fa61d17f5de062af37490.wav"
+        },
+        {
+          "ab": "ma’a’anu ",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/139ff0d322157634d4b1422be5de8417.wav"
+        },
+        {
+          "ab": "mapin’a’aia  ",
+          "ch": "繁衍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/e35e96fc21fe5684b18414492140cc64.wav"
+        },
+        {
+          "ab": "mapinhuhumis ",
+          "ch": "養育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/59937f5a6a10998e297ed5684fd3a0f8.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c1dad158473d599736ffe74624b615b1.wav"
+        },
+        {
+          "ab": "ma’ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1175b6cce68a536fbd862f2e43bf1175.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/5fb06a76a31a6e7ecb2d6f766dcf33b0.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/4129fc24b709a042692db1d3db0328b7.wav"
+        },
+        {
+          "ab": "at",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/08a060a61b90a099b277ce6a1982dfbb.wav"
+        },
+        {
+          "ab": "aupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/cdf0df5cff98449512dbd2725721a307.wav"
+        },
+        {
+          "ab": "tatahuan",
+          "ch": "一再叮嚀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/3be09591c17e19b5eba6eca5d0c69382.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/e364d852d78ef4aa050e13c17ec4feab.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/e36cf5426895e81a26a2355ae4855b9d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/4f89626165ff9607bfc8c6cff2fed560.wav"
+        },
+        {
+          "ab": "mailalangnaan ",
+          "ch": "子子孫孫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/3e2e13fe4a9b25f36312cc4389b5e49a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/b7b115573495fea6ce370f70e56963c1.wav"
+        },
+        {
+          "ab": "asa",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/30aaa035ea6addf3032dc3d63b674344.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/6235309896929b904b7eabdd38e89235.wav"
+        },
+        {
+          "ab": "haiap",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b80b8df2dc96fcfa4e50b8f9b46a38bf.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/6a9396f51fadc08f4d40ccf873451a4e.wav"
+        },
+        {
+          "ab": "mais",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/20b7529575c247bc9547f43ab405c8cf.wav"
+        },
+        {
+          "ab": "mapunahtung",
+          "ch": "遇見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/fe3940fba1a1698624b9905f1bc4de6c.wav"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f985cff158c7cfb0fc2d5d05f731809f.wav"
+        },
+        {
+          "ab": "madikladaingaz",
+          "ch": "不是好地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/68962263cdb1ed15aeaa954169d377f4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f57d2659f5b158b7991336a1bff47024.wav"
+        },
+        {
+          "ab": "tus’a  ",
+          "ch": "白天；天亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/6b65c5fcd4fdf89a0456970c3d7df62d.wav"
+        },
+        {
+          "ab": "kapisingun ",
+          "ch": "可怕的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/1c29c969bc2cf7c2d1bda3fbfd85f12b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/24af8a251e44b60d9164e00cbb224eb7.wav"
+        },
+        {
+          "ab": "palaungkaduan",
+          "ch": "遇到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/e40c760cbff8018d6617d2414dc865ba.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "即將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/64b69edbdbebddfb07106576108edc00.wav"
+        },
+        {
+          "ab": "is’ataz ",
+          "ch": "厄運；死亡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/1c680d9ca4de39bf01510dd7a15006f8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/328c52397c0266a26a7e65890c6cf02a.wav"
+        },
+        {
+          "ab": "painunahtungan ",
+          "ch": "所遭遇的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/7989febd6a1b213908c34250e6a4ae73.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/eb9c0e8145b126a87392d98bb1fd81c3.wav"
+        },
+        {
+          "ab": "asa",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/fb042e7a5b7716fd0836e25316482bf9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/028b031cd0f744bd7e4de97c09ab7802.wav"
+        },
+        {
+          "ab": "sanasia ",
+          "ch": "按照",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/b48eae9d400c237f279c7d7bfd97b4a0.wav"
+        },
+        {
+          "ab": "Ludun’usaviahcia",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a43cf08f436295cdfb709c91ac898e7e.wav"
+        },
+        {
+          "ab": "sadu",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/8d6fcdffbe0d877f4044b68a38c52178.wav"
+        },
+        {
+          "ab": "at",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/7d0191f9fe83e8198a765fa372f218c8.wav"
+        },
+        {
+          "ab": "mudaana ",
+          "ch": "就往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/06c9c2f149b73e46fba1487930c5acb8.wav"
+        },
+        {
+          "ab": "tunnadii ",
+          "ch": "到達目的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/82d81ed4fff94f89f61faeefabb4241a.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/dba1dab580065e4db9defb2cfc74f65d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "即將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/cf655665801fc01205314e121a0ee8c2.wav"
+        },
+        {
+          "ab": "saipukus ",
+          "ch": "被照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/e6546325933bd4b5124adb3b7bb293e4.wav"
+        },
+        {
+          "ab": "Ludun’Usaviahcia ",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/f7fd7d0c50e35bd2fd02ddd47a95dbfb.wav"
+        },
+        {
+          "ab": "mapihumis ",
+          "ch": "使養育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/7d9a89409001005a94a2519cc11d98bf.wav"
+        },
+        {
+          "ab": "saincia",
+          "ch": "是他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/44fdd5e6756408ead860f504f326f4dc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

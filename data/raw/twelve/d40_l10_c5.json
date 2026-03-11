@@ -1,6 +1,706 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "ohoni a saanu muazaw a daali",
+  "titleCh": "現在的生活",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "    臺灣人在自己的家鄉種田很久了。差不多到了1970年左右，人們開始懂得使用機器製造物品，並且使用貨幣做交易。也有很多人為了賺錢移居到外地。那時候改變了很多。\r\n",
+      "ab": "    Tatawan a saw ka paxumah axaxay kaidi talima a eten masezem lia. aliah kaxu adang sahan iu xasebisupat haten iu xasebidusa isit a kawas, nita saw ka mabaza saanu babuong mubuyak axaxay, iu saanu pa’i mubaiw axaxay lia. dahu a saw iu matululu di maiyél saanu mutahan pai. isia liaka pasawan dahu lia. \r\n",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4bd98cda95a025b8af0e81fbaf81b935.wav",
+      "word": [
+        {
+          "ab": "Tatawan",
+          "ch": "臺灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/de09a9de843403249ec1605538a3eb9c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/ecd115f8c68fa36299e268630651cbdc.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/9e9603526bcbdd43caa6a55e14bd29a6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e0136f75e8357bc689fb848f92a20ede.wav"
+        },
+        {
+          "ab": "paxumah",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f04368c9251d924f67fcd615db4a0b4e.wav"
+        },
+        {
+          "ab": "axaxay",
+          "ch": "各種東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4fea062c00837aedf8129de543f2fe87.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/870fbd5e8f9a941a698c2aaadc90a040.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/27a9b12b4beeb17c170a8a23364ee67a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/db8c71aa2a8283e6b5d7a5fdf72a1b39.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "城鎮、村莊、部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/bf357d216a078b74710a8d088abd3f6f.wav"
+        },
+        {
+          "ab": "masezem",
+          "ch": "久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/53a158b25b7d30593777e6e2fd5b458f.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b21479211f2ee7d7e19c3e2e72a3e150.wav"
+        },
+        {
+          "ab": "aliah",
+          "ch": "差不多、將近、大約",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c0bcf2674d0c5e392a83d4690d5b7f93.wav"
+        },
+        {
+          "ab": "kaxu",
+          "ch": "至、到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/589373e1d15f5df5dabb1f3eab071741.wav"
+        },
+        {
+          "ab": "adang",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/70bf11d32c31dfd832dc304d716dacc6.wav"
+        },
+        {
+          "ab": "sahan",
+          "ch": "千",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c7134e2bf3319c36a39316efa1e9dd9c.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/afbd631cf9141a00f7a8971259a56d86.wav"
+        },
+        {
+          "ab": "xasebisupat",
+          "ch": "九",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/569075d264390f22369805dd73a30091.wav"
+        },
+        {
+          "ab": "haten",
+          "ch": "百",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/528d8cc11a951837729ee6ec83278ec5.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/bf1c65dcce0ac52283099c9b22c0b4f0.wav"
+        },
+        {
+          "ab": "xasebidusa",
+          "ch": "七",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d70351091aebe71702a8eff4e23689d6.wav"
+        },
+        {
+          "ab": "isit",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/1abc3a45452b5b04075e082540cd9dbe.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/31a18d4b011e253566b13f9ebd2f8ac8.wav"
+        },
+        {
+          "ab": "kawas",
+          "ch": "年、天、歲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b77418284883519602cb6b22a037e97e.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b91c2334ac7a3d6c1709b0fb3e594fed.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/521c43c30dda9a3473ded540bef3b08c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/33651db1b1190bc8ca7edea5cd27cf38.wav"
+        },
+        {
+          "ab": "mabaza",
+          "ch": "知道、懂、明白",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/a34ee4850f72c4117c47cbc56f8659c7.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來、為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/772d8a5f6a0ee0e541e444c8c18c9c83.wav"
+        },
+        {
+          "ab": "babuong",
+          "ch": "機械",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/72417fad0e5a3bc1b7e8392617ad556d.wav"
+        },
+        {
+          "ab": "mubuyak",
+          "ch": "製作、創造",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/07493e4df949ca9dfc3602c17496341a.wav"
+        },
+        {
+          "ab": "axaxay",
+          "ch": "各種東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/37f6eae308f5d3c14180bb4dc710300b.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/386b4c70994139a74755d10a412df60e.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來、為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/8da495be7b43cb3016264b8c1ad81db9.wav"
+        },
+        {
+          "ab": "pai",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/81815e6bbc37168360d56137cc0fe106.wav"
+        },
+        {
+          "ab": "mubaiw",
+          "ch": "買",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/3600c1e0ff9b573a6d045ca96c710e76.wav"
+        },
+        {
+          "ab": "axaxay",
+          "ch": "各種東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/1ccb00be7ef30cfe9d3504639e73f0e5.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/30739d5cb21770ef87ea22e42e26d505.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f2039bb11ffe6074da9f4e3ffce88024.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4bb467a76f80dab73cb736cbb92512f2.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/57d11902bf227fdd98ef80fd1ed0b69e.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e1e0fad79edb231b0875b98999d599d9.wav"
+        },
+        {
+          "ab": "matululu",
+          "ch": "遷徙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/75fa46d13be731d546d74f4e53df0558.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/44eaafefe88b9198086ba131bea2f7e7.wav"
+        },
+        {
+          "ab": "maiyél",
+          "ch": "外地、都市",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/100b8f6ea6c297620efbcd23117cdf43.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來、為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4cfe2542549fa98f3c1acb7d47063eb4.wav"
+        },
+        {
+          "ab": "mutahan",
+          "ch": "獲利、賺錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/98658770ac2e9a25aba3aec28885cb53.wav"
+        },
+        {
+          "ab": "pai",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/9fa2e7c46bb73ef4603ddf1c0eceeebc.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時、那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/66178979bb4c6f18462197b4377c6b11.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、接著、於是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/187a08ce259aca7c93f0f8d123aeb5ac.wav"
+        },
+        {
+          "ab": "pasawan",
+          "ch": "改變、更換",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/25d8f80774a7349972b6b9fb59e6f27a.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/fad3ddce6fac6a48cd082f31ef11659d.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/906dfc217c0cb7b5f25228cd239bf79e.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "     現在有許多噶哈巫的年輕人改變了想法，（他們）不想去大都市，想要傳承自己的文化。\r\n",
+      "ab": "    ohoni liaka, dahu a Kaxabu a akhéhan ka matu’azang a hénis, nang a mukusa maiyél, haapet paluzuax talima a axaxay lia.\r\n",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/06ab6fc6972956195ffdb40ef92a2ee8.wav",
+      "word": [
+        {
+          "ab": "ohoni",
+          "ch": "現在、今天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/dcff402158ebbcc62a5d5828d06a60da.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/2eb5b950ba9e6e118c2966982abdc306.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/da6c2fc087953c79e50799790dccd944.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/319987366dec56e1b91298e96e2789f6.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d10fb23497dd6d585470df50afcf0b83.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/01792962469e986b9b5b7e4ead6d53c4.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "孩子、年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/8bfcfda2d8ae45e5f87779f822107e51.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/629d144c3d3881bca8161d10c764731a.wav"
+        },
+        {
+          "ab": "matu’azang a hénis",
+          "ch": "改變想法、心裡怪怪的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/55b72517d5bd23781deb02406643d337.wav"
+        },
+        {
+          "ab": "nang",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e7c5c426d80314a7eb2075188d308a28.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/eb0712137196b5e30919b382aeb5d538.wav"
+        },
+        {
+          "ab": "mukusa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/df49bc5427f20490f96e50712bf59066.wav"
+        },
+        {
+          "ab": "maiyél",
+          "ch": "外地、都市",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b0b646ba5c964a5c1e5164fe3b64bc07.wav"
+        },
+        {
+          "ab": "haapet",
+          "ch": "喜歡、要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e12bba45c0889d2b7b36a6c999d75006.wav"
+        },
+        {
+          "ab": "paluzuax",
+          "ch": "傳承",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/14cd3b9e115504113286e25cc8c2ea25.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/380d272c59d0fc36603b8b1852abb8a0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/a20cc8ed04850aa3069109c49d11fc26.wav"
+        },
+        {
+          "ab": "axaxay",
+          "ch": "各種東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/ff438315f4b03669e39a03504cf2637c.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/aac0db5393bc3e1b54bba87a6f77f52b.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "     有人回來自己的家鄉住、有人在都市工作，休息日回來做田野調查（訪問老人）。也有人在都市推廣自己的文化。會唱歌的人就學唱aiyan、會寫（畫）的人就去寫（畫）以前的故事。每個人都用自己的智慧（專長）去照顧自己的家鄉。\r\n",
+      "ab": "     nahaza saw ka matabéya di talima a eten liaka malaleng lia. nahaza saw ka malaleng di maiyél, museket a daali liaka mupuzah padudu hakezeng, iu nahaza saw ka pakamulabax talima a axaxay kaidi maiyél. mabaza matoway a saw ka mubabaza matoway aiyan. mabaza mubizu a saw ka mubizu ohoza a pasukuan. adang a saw ka saanu nisia nisia a kinabazabaza muapun talima a eten.\r\n",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/279b626ab7ce941aebde1e04d826e0a3.wav",
+      "word": [
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/7740754cc2410ad16805e95e6ee1b253.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/394a1d490c2e3e3ca7f1d2622f44c706.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4760ed1eae5a2cba3da501fee3ee5757.wav"
+        },
+        {
+          "ab": "matabéya",
+          "ch": "迴轉、返回",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b7ac1560ddd74814b50c4f42e01f5127.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b722344edd86ec9bcfcf670ebd88b01f.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e42ef705ee793cb3c4c967f49db4b6b1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/ee2a6157ac96757ca6b092aa5c46b160.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "城鎮、部落、村莊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/85acece67f6d7cc1d1a5af7e2abbba9e.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/759302bc2d0901b04e740e5e06c3ffc6.wav"
+        },
+        {
+          "ab": "malaleng",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/07a88827620779ca60c50123afacc2e6.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d0026df68e2f9c2de3a819046ef6b04b.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/1d32b79f196bd15f9e494cc7a647cd8e.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/2bef3af08a0d4b38558967e384517cfd.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e9bd4725eb0972d7383b0962a8283b93.wav"
+        },
+        {
+          "ab": "malaleng",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/fe2573696ab941fa828c2a45c7de8dc1.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/3106a57d230c61c676bc16ef09374131.wav"
+        },
+        {
+          "ab": "maiyél",
+          "ch": "外地、都市",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/7eeef60452394be2b2619638c5af4e60.wav"
+        },
+        {
+          "ab": "museket",
+          "ch": "休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/af0f1b8b1a067bf927befbeaa596e0a5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/82fd9faf57c768ba0397e390ce012a31.wav"
+        },
+        {
+          "ab": "daali",
+          "ch": "天、日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/98273edccb352ec4ead3a6b8841a9e62.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "於是、然後、接著、就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/177e3603955b7974dba2ede67c2e8d95.wav"
+        },
+        {
+          "ab": "mupuzah",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/41a91a7edf94e070c145b601be182fd9.wav"
+        },
+        {
+          "ab": "padudu",
+          "ch": "問",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f2c9723c63a989a757a8caf6c2ac40d7.wav"
+        },
+        {
+          "ab": "hakezeng",
+          "ch": "老、老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d245b211a2943bbb5895784763067723.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/40e6d208b348325bf27852d13d985a06.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e09cc532aeffc41846f1d29ceef05123.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/29922923285f1bb77de130047a847b54.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c274a17f4063f29615c9b5e0d1e217e0.wav"
+        },
+        {
+          "ab": "pakamulabax",
+          "ch": "使其綻放（花）、使其展開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/2a4eb95cef0c6ce0aec089e8f8cf98cc.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/0c18f66e4a3fe1cee784e2691f32ddc3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/22b948b37415244fc8782b6b39b7e7de.wav"
+        },
+        {
+          "ab": "axaxay",
+          "ch": "各種東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/183c045f29391c1b10742866b632589f.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d39bc7dee615749cce516eb867ab5dc0.wav"
+        },
+        {
+          "ab": "maiyél",
+          "ch": "外地、都市",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/482817e90c5c4993db8acff6fd6cdeec.wav"
+        },
+        {
+          "ab": "mabaza",
+          "ch": "懂、知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/89a4f8791e65730d1d3919bae6cb170a.wav"
+        },
+        {
+          "ab": "matoway",
+          "ch": "唱歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/3c88c83e7c417d25a10f808147c85d93.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e4e933bc3f441c2d2bd45c1641dbea3f.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4ef802342f8ec183d2562d2ce09d5f34.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4fd48332aa42ddb2cca78ef9649cb532.wav"
+        },
+        {
+          "ab": "mubabaza",
+          "ch": "學習、模仿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e9fb855b61fc4e1f85e59af2bbec03a7.wav"
+        },
+        {
+          "ab": "matoway",
+          "ch": "唱歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/73815570a15e4c2e963fe842a47027e4.wav"
+        },
+        {
+          "ab": "aiyan",
+          "ch": "aiyan（噶哈巫古調）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/93411d6bd15476059fe180f012a822d3.wav"
+        },
+        {
+          "ab": "mabaza",
+          "ch": "懂、知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/56e2dfedf31090f3ef6b300a0711f593.wav"
+        },
+        {
+          "ab": "mubizu",
+          "ch": "畫圖、寫字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/efac7bcc40887dc0249f6a71fd6fd924.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/131322f1bf62bdd7536dcbf0b3d09d53.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/832277b3c0326b4d7b7804e4128a960a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/de50ba0a3871d33f196761c35cd55697.wav"
+        },
+        {
+          "ab": "mubizu",
+          "ch": "畫圖、寫字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/091e840d54f08604bac54fdacb8a194e.wav"
+        },
+        {
+          "ab": "ohoza",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/a332529becd5031257e92ce01135c48e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/950b486d4cc8609cc725b09fce05639c.wav"
+        },
+        {
+          "ab": "pasukuan",
+          "ch": "故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/43ba92780cd32de5a413b5ab354bad22.wav"
+        },
+        {
+          "ab": "adang",
+          "ch": "一、別的、每個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/6db4145d885028b3ae419cff59d26828.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d1d7199b42f2e631d6b9ccd11638f4f2.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/bda233c3e413aef14ee4047145be24ad.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/7bd1590c3ebb8d1931d022e26dfea43c.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來、為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/24bed3eccab30fd1ebc107a367d373f6.wav"
+        },
+        {
+          "ab": "nisia nisia",
+          "ch": "隨人、個字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4c6ba02377e09e88ba614d7fbc532425.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/9ccf5177cd08080399c49d08d31481c2.wav"
+        },
+        {
+          "ab": "kinabazabaza",
+          "ch": "智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c32567188cbdfc4dfc0b2b0f18e25988.wav"
+        },
+        {
+          "ab": "muapun",
+          "ch": "照顧、管理、保護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/ba8ef86a569299b7f73d9a377758f256.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b58816f82f4353c105dfe6dc6d6bd30a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/83d7836d1ec65dbd06fe4a0c03e5e37f.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊、城鎮、部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b4aa5560f0b1244902a2cda40a38764b.wav"
+        }
+      ]
+    }
+  ]
 }

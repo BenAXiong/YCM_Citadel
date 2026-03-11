@@ -1,6 +1,944 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "akhéhan a zinakayan a daan",
+  "titleCh": "青年走過的路",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "我是Bauké Dai’i。我的父親是埔里大湳部落的噶哈巫人，他後來到城市工作。我從小就在城市長大，大湳部落是我回去探望親戚的地方。直到上大學，我開始思考我是誰？",
+      "ab": "yaku ka Bauké Dai’i. yaku a aba ka Kaxabu a saw, malaleng di Kalexet a eten, kaxu mukukusa liaka mausay mataw a eten. yaku tatiting ka malaleng di mataw a eten, Kalexet a eten ka mikita huza dua. kaxu medepex mataw a tadepexan isia ka pialay maxakela, \"ima pai aku?\"",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/20/ae106ede8db94fd775a5e606465861db.m4a",
+      "word": [
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/f42de68699f1843ac72f9e42731c7242.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7106647b9a1f1e747d39e1d796458a10.wav"
+        },
+        {
+          "ab": "Bauké",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/58a74a8ebfcdef2ddad711d14c9b89cf.wav"
+        },
+        {
+          "ab": "Dai’i",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/2a0443509c703b0a543666ec9fbdbce1.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/193051cb123e8f9ae076b01703293976.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/83c5336dde66b4193b927dfd66465d7f.wav"
+        },
+        {
+          "ab": "aba",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/bc72c6e4709586ada58ff58ac70693ed.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a6014201d0524cf54c54448692e63fe3.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ad5dc501ecbeff81e1dbc0265eb565b6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/70a1bf45958d5f99f2b1b0b3d7648b18.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/40edd979fa9309b24f1f4f606f83f4d3.wav"
+        },
+        {
+          "ab": "malaleng",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/169d0a4a67dd66a671f25951cf0595aa.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/9d2612cc83ecf6aaa428d01292a15c97.wav"
+        },
+        {
+          "ab": "Kaléxet",
+          "ch": "大湳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a4e04e17170d1e4925ad05c29bbfa667.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/71963f42b40147bb4b9d27a307c57bab.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/54dca41915527a8bc1486d307349e7d8.wav"
+        },
+        {
+          "ab": "kaxu",
+          "ch": "直至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/68d0736e8698a9a1d22e84282a1e3f17.wav"
+        },
+        {
+          "ab": "mukukusa",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/93549e99374430aecb686b4fca60b7f7.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/77e2767e28d652d09153b79399360e95.wav"
+        },
+        {
+          "ab": "mausay",
+          "ch": "要去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/59d1604d290eadf333ea3d2b1b9c990d.wav"
+        },
+        {
+          "ab": "mataw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/346758f94bb1f8c40be3bc12a4514860.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/8bbb60568c4e89df0365d6c3ca21dc2e.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/5a2df3f9f0789c4f5010644d84f3db3c.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/0fd3d7caa822703cdbda38a485b9edcc.wav"
+        },
+        {
+          "ab": "tatiting",
+          "ch": "小",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/28f7dd0d69a6a6d224b0c8aa7878f440.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/0c2b8ef8fca4142a654c3c222ba08e0a.wav"
+        },
+        {
+          "ab": "malaleng",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/8bf6cdef5498e6cfae2d14de958b4b0f.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/932788111e705e0751a049d7150bf7d4.wav"
+        },
+        {
+          "ab": "mataw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/00b54d188de4982546a3c2edbfd40442.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ddde6e157ec99780b18735eed24b4d65.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/889d11ad3fc9c38c869653025683c586.wav"
+        },
+        {
+          "ab": "Kaléxet",
+          "ch": "大湳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/9080193154a652cb18a6ba961ae95cd3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ce178637671f24e27aec278954d9eef2.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/72b150dbdec984e9b1a2fcb9cda5dbe2.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/f49202e51079c9afd641063e53c6b632.wav"
+        },
+        {
+          "ab": "mikita",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/0493415778a0299e536c5ad90ad9ef9d.wav"
+        },
+        {
+          "ab": "huza",
+          "ch": "親戚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/742067798c7140bc2ea278903934abca.wav"
+        },
+        {
+          "ab": "dua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a4afa974dacd05f79905e0b25d5af17f.wav"
+        },
+        {
+          "ab": "kaxu",
+          "ch": "直至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/58fd9d7d20dcf5fa8c051011d98a2812.wav"
+        },
+        {
+          "ab": "medepex",
+          "ch": "讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/db3196a2f87095a9167e0e78a64eb146.wav"
+        },
+        {
+          "ab": "mataw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b3a49ba501dc64d5d69a044ce81b3579.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/084e340f4c20441297a2ec0e8095af51.wav"
+        },
+        {
+          "ab": "tadepexan",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/82a71cbbca0469be8d8951802a833896.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/743ba357064ec8731ee57ce4e0a9e3c1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/aecdc7400b0632740347dad12472c697.wav"
+        },
+        {
+          "ab": "pialay",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/2eb51080944e48448f17bcb1cc3f4c51.wav"
+        },
+        {
+          "ab": "maxakela",
+          "ch": "想",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/68d1423ab1830e14184b689d94336d9c.wav"
+        },
+        {
+          "ab": "ima",
+          "ch": "誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ed6a25b91daa33b7d219996596d14262.wav"
+        },
+        {
+          "ab": "pai",
+          "ch": "疑問助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/86c44e3fff8b9e34a910a02e71409a93.wav"
+        },
+        {
+          "ab": "aku",
+          "ch": "我.附著式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/d19e842c6bcb160e521abab4012a70e4.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "外面的人書寫：「噶哈巫是巴宰的一部分。」但當我回到部落詢問耆老時，他們都不同意這種說法，並堅稱自己是噶哈巫。耆老們透過故事、aiyan歌謠、語言等文化元素，告訴我兩者之間的區別。這讓我更加確信自己就是噶哈巫人。",
+      "ab": "langu a saw mubizu “Kaxabu siakani Paziah” kaidi babizu, kulaka hakezeng ka makawas, yami ka Kaxabu, uzay Paziah. hakezeng makawas pasukuan, aiyan, ahan iu isia isia , mudusa Kaxabu iu Paziah. liaka yaku maitangetanget talima haka Kaxabu a saw.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/20/394cd43eb5dd0764753a63260e24de50.m4a",
+      "word": [
+        {
+          "ab": "langu",
+          "ch": "外面（屋外）、庭院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1bb22308c39620d1a6392b45c684fa76.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/072b48c63ceb568e880e15d5438bb6cf.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1974e6cb1dd0890eaf389dc5da524d74.wav"
+        },
+        {
+          "ab": "mubizu",
+          "ch": "書寫、繪畫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/3daa7651d60060d842d597dacdecab75.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a85c922940a70ae85eee1e7ad53b838b.wav"
+        },
+        {
+          "ab": "siakani",
+          "ch": "屬於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/3377c2acc9a4b06625beebe3781ab5a3.wav"
+        },
+        {
+          "ab": "Paziah",
+          "ch": "巴宰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/792d5f27105fb7d1dc31b9651dd6fa3a.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/628f482c20938b174a79defc7c56070c.wav"
+        },
+        {
+          "ab": "babizu",
+          "ch": "書、字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/76d1cac265c319fcaca94a531216936e.wav"
+        },
+        {
+          "ab": "kulaka",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/666a3ac6b7b17ad7182f93a732d57a23.wav"
+        },
+        {
+          "ab": "hakezeng",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/0859736242f52d9294d5b0da6c325566.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b1aa309bcee68bb08d5d14571c4174f9.wav"
+        },
+        {
+          "ab": "makawas",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/6355a67c7aea25d4079643eb6a33d311.wav"
+        },
+        {
+          "ab": "yami",
+          "ch": "我們.排除式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/e6ce77a54dad0f51f4b50499b2dff458.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/c412ae2e3385f14ef287abff41111bf7.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/365d6a89c33bb5cacec0e262c02ed54d.wav"
+        },
+        {
+          "ab": "uzay",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/707ee01dd3d7bfd1e19bf6543a11edd3.wav"
+        },
+        {
+          "ab": "Paziah",
+          "ch": "巴宰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/d110b0e46299cae0b693e9d927b54f15.wav"
+        },
+        {
+          "ab": "hakezeng",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/18321868933e817f5e394f61114f574d.wav"
+        },
+        {
+          "ab": "makawas",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/838fad1518332ce457b89b5da8b73a8d.wav"
+        },
+        {
+          "ab": "pasukuan",
+          "ch": "故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/55daf5d7d4c1f59f3771ecb55a940002.wav"
+        },
+        {
+          "ab": "aiyan",
+          "ch": "聲詞，來自噶哈巫的古調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/af44b52a3f8558a80438aad4e6845bc9.wav"
+        },
+        {
+          "ab": "ahan",
+          "ch": "嘴巴、話語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/2831990b8353eea05e50bca646e866bd.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/fb740960beec3429768bcdd512a38580.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b6e8f1fa4455dd30f5314d6146f40ba6.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/3fcf3dd827998ef6e9661fb924d3dc59.wav"
+        },
+        {
+          "ab": "mudusa",
+          "ch": "一分為二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/81fa3d41f4d702c53cd27a1dc557ea58.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7876771bdb7225dc8c190bd8bcfbbd92.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/3494401c64e43809da69cd698e29faf1.wav"
+        },
+        {
+          "ab": "Paziah",
+          "ch": "巴宰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7e7c8e1ac219923d7cba03d1e67ee485.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/fd944373b89033ce0f5478bfe3b57559.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/0b1559ea6180fe458bcc2308e56b7b17.wav"
+        },
+        {
+          "ab": "maitangetanget",
+          "ch": "正在一直點頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/02f4a0073d6848c8584302b9f14fa5f8.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1d7e660e0260c77d8db48b181ef35924.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/fc8885ac01cc6645bd6d559718fc3a47.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/45dcc7f78b95c8ec25fce1e648ca765d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/114f52e66d52c3801c1555fb90c990c2.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ca43e16ca6962b7d4621ffae957578fb.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "[---]居住在四庄的噶哈巫人組成了噶哈巫文教協會，我和族人們一起積極進行語言、歌謠、年節儀式、織布等的振興工作。我們也去到台北，大聲喊出自己的名字。我透過網路和臉書，讓更多人了解埔里地區有一個被稱為「四庄番」的族群，他們就是噶哈巫。在各個年齡層的噶哈巫人的共同努力下，保留了許多傳統文化，很多人都知道我們是噶哈巫人。",
+      "ab": "malaleng di supat eten a Kaxabu saw maa'isa'isakup iu mubuyak Babora ubung Kaxabu kasibat zubuwan, yaku iu dahu Kaxabu a saw maluzua iu medepex ahan, matolay, azem iu isiaisia. yami mukusa di Taipak mataw a mikiliw talima a langat. kalu banglo iu lian-su pakabaza Polisia nahaza saw “Sitsng huan” sen ki langat , isia ka malaleng di supat a eten, isia haka Kaxabu. ohoni liaka, nita hakehakezeng, aba’abasan, iu akhé’akhéhan ka, maaxilat pakatababéya talima a axaxay, liaka dahu a saw ka mubaza yami ka Kaxabu.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/20/7841126cd3b2fdbf80cd7199f8136569.m4a",
+      "word": [
+        {
+          "ab": "malaleng",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/2d3462dd2fc0f54419a5759cf6bac191.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/6967001ed6dc8d83e6e565be2e138727.wav"
+        },
+        {
+          "ab": "supat",
+          "ch": "四",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a40917d341e54609cd43b635ea641378.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/04f861fe901b3769f5768111e1785916.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7c506fd9dfd4daeba5de95854d9b267c.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/55a802e529e960242359f3a80cae64de.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1f378b6a5d5d30eeb1f878f5962556f8.wav"
+        },
+        {
+          "ab": "maa'isa'isakup",
+          "ch": "一起聚集",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/8520351a7ce98730f24e342d5e085c13.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b176733ce8abf915552642223a46e6d0.wav"
+        },
+        {
+          "ab": "mubuyak",
+          "ch": "製造、創作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ce016f98c90228914b1295529bf39331.wav"
+        },
+        {
+          "ab": "Babora ubung",
+          "ch": "南投縣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/fac40fe11a5231ae9f8d397af3b1fe16.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/6ec07f545600e2a6f720990244b62c5e.wav"
+        },
+        {
+          "ab": "kasibat",
+          "ch": "教學",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/538c71f7731fd5c0cb0199db76471a77.wav"
+        },
+        {
+          "ab": "zubuwan",
+          "ch": "協會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b7a59f21469486fe247dbb1265cc957a.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/dd15359ae7ab2d77c610b099a49db326.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7dbc59927875c4fa3714f0be50ef0a85.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7a6ef365b3f38452c71c70b21ed35b8d.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/95ccca04e2c777cea8b0b87921f1ff8c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/5e79192bfd01d58e215daca51aaba1b5.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/145b9c950e0ac901a184980a6df924bd.wav"
+        },
+        {
+          "ab": "maluzua",
+          "ch": "傳承",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/55b3646e8e42e70bd6f22829f23eb8d0.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/58f6a075165a3529463d4388d6d7bcce.wav"
+        },
+        {
+          "ab": "medepex",
+          "ch": "讀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/c221aee869787e5cd070ee4a13296c05.wav"
+        },
+        {
+          "ab": "ahan",
+          "ch": "話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/23785118cdae26c746ebfc7a0dce6a2f.wav"
+        },
+        {
+          "ab": "matolay",
+          "ch": "唱歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/32238d5d309c30a03fd3e0a52e0e029b.wav"
+        },
+        {
+          "ab": "azem",
+          "ch": "年節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b6ab877651e65c13f8127617a8bb3289.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/fa00a5d2dae275f0afcc408a12b99fd6.wav"
+        },
+        {
+          "ab": "isia isia",
+          "ch": "種種、之類的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a73d2e0be1049621ce36c6a0816277b4.wav"
+        },
+        {
+          "ab": "yami",
+          "ch": "我們.排除式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1cae9329a92963f6ffd1a2f87e3491d4.wav"
+        },
+        {
+          "ab": "mukusa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/6977fccc5715053ec8d66643e03ce597.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1d2f69e7e1cee24cb82790769d4c93e4.wav"
+        },
+        {
+          "ab": "Taipak",
+          "ch": "台北",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/88550252093ada7e1cd3e0de84eb27d8.wav"
+        },
+        {
+          "ab": "mataw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/f80140677c058d9e5b16f68308dabbb4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ca1c58164893aa25ac1dd2fda79bbeda.wav"
+        },
+        {
+          "ab": "mikiliw",
+          "ch": "叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/9f9c36f690c9a674be72a1c288170197.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/765fed5ff223625352ac42d1e46cb8d6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/457925b076b327a58a25a588ef226197.wav"
+        },
+        {
+          "ab": "langat",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b5e066b1a9af2c698ba023d3a554746c.wav"
+        },
+        {
+          "ab": "kalu",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/2bb47f70224aff5debbd300134590a4c.wav"
+        },
+        {
+          "ab": "banglo",
+          "ch": "網路（台語）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/d6f94e7aeb131c26a2d5e75658ab1f87.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/c5684a1114f4c4df07d52f3a50ba3d5c.wav"
+        },
+        {
+          "ab": "liansu",
+          "ch": "臉書（華語）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7814642afe85a95bf727da931e928e94.wav"
+        },
+        {
+          "ab": "pakabaza",
+          "ch": "告知",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7b4c7ded2ddd4798becf097c8dd95251.wav"
+        },
+        {
+          "ab": "Polisia",
+          "ch": "埔里",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/96dd49bb84fb62279dbc7ae8047ac36b.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b5d8b1b3b2e74ea86bc0d669fb3c3399.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a8b9335090b441229121a777c6195b8c.wav"
+        },
+        {
+          "ab": "Sitsng huan",
+          "ch": "四庄番",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/4339667048e19e349bb7dbb6f0c555f6.wav"
+        },
+        {
+          "ab": "sen",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1cf719c28ec94c3f5ba590ee7cd04110.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/615b23a5f5961fc3e67fd20480870f08.wav"
+        },
+        {
+          "ab": "langat",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/5036b4166017df5c85ebc204a3c69381.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "他們（應為yasia）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/3d599941a2adb4959d26023fb28a4c13.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/6582a4307b863173159a50d735e29e91.wav"
+        },
+        {
+          "ab": "malaleng",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/123d5b1deab78b14591d3b31078195a3.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/7aa67cd9875aebe38ddac104ec1cceff.wav"
+        },
+        {
+          "ab": "supat",
+          "ch": "四",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/4ffe3c5bd5b071452451fa9d1b119f71.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/66a217f2ff1cd1c61a537a9b9809056f.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/660aa6390b1f1e10582acea9d6f49af8.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "他們（應為yasia）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/62e779870e2b543801d032209f821b0a.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/f845d3da7f708e28cd19828a851c1881.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a729a21ff3c02a1c9a774f483f6dcc1a.wav"
+        },
+        {
+          "ab": "ohoni",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/2e122f4e44032f8764eec4d0fac59adf.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/eabb224b220e2908543942d3cf55efe4.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "我們的.包含式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/5387585d2de711a1e9aed10e164e0139.wav"
+        },
+        {
+          "ab": "hakehakezeng",
+          "ch": "耆老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/e5b51633d43445e854493709c1178f98.wav"
+        },
+        {
+          "ab": "aba’abasan",
+          "ch": "壯年人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/f723a978194994fd3ebbc4754a6459ba.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/f771494bc2d88df85facfe38acb0c2d9.wav"
+        },
+        {
+          "ab": "akhé’akhéhan",
+          "ch": "青年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/187b787ce2a60c61baa723f2904a4bfb.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/12ad88a9ffe21bbcaa220cc90047d3c3.wav"
+        },
+        {
+          "ab": "maaxilat",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ca757a5059d6eb0054e18606e483e8b1.wav"
+        },
+        {
+          "ab": "pakatababéya",
+          "ch": "復振",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/0f18fa15d9fbe5f747cdeef85f7105f3.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/0dbc07cb8cafcbacc42a146a8f612304.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b16cd1392bd7a2cc722b0c4c9f697fbe.wav"
+        },
+        {
+          "ab": "axaxay",
+          "ch": "各種東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/d579bbc2ee94fddfce593f3aae085519.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/2a7d1dde4b8f7023194ea3f605527bb6.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b1adc2b9b35c6dab1717885966484d5a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/62c52dc514647148d1f5e427a39569e9.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/f09664fff8d968c1acbbf9be55b1b725.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/4cdaca98b6cc0b1c2cc02a7d8a5c701a.wav"
+        },
+        {
+          "ab": "mubaza",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/52e382b7a7eda627327221baa4135e79.wav"
+        },
+        {
+          "ab": "yami",
+          "ch": "我們.排除式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/08b38324e911b84e0390a2899ccff45f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/6a90902d8a0b5524019562e518479e14.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/9348bce7fd07cfb55edd102e644867f8.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "現在，我希望透過更多書寫，讓更多人知道噶哈巫。",
+      "ab": "ohoni yaku mubizu babizu, pakabaza’i dahu a saw yami ka Kaxabu.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/20/1e9e8bdc48c6f0509b37fa7f50dbb5ff.m4a",
+      "word": [
+        {
+          "ab": "ohoni",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1e18c027ef002e4c3fe977d48f967a1e.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/faa926c195f35b1b3530196d3a91240f.wav"
+        },
+        {
+          "ab": "mubizu",
+          "ch": "寫、畫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a1497bd8de7ddf04f154ce19ce1889c9.wav"
+        },
+        {
+          "ab": "babizu",
+          "ch": "書、字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/be617ad67519c578d39b3506517f34cb.wav"
+        },
+        {
+          "ab": "pakabaza’i",
+          "ch": "要使（大家）知道！",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/b121a385f7de6481e0cd7b1289d311a8.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ccda23250fb2b95587c4226cd28e3408.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/95df7333aacaaa819d5ffcc93cfb6ad2.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/13ce2cdee47540756f635054dc06cd9d.wav"
+        },
+        {
+          "ab": "yami",
+          "ch": "我們.排除式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/6e416f9978a06abfded1e2ee324dbe7b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ebaad679637d12d1c34dd07169340efc.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/a8604fe4875d355b0272940aba7e7119.wav"
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,1099 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "talaalibi",
+  "titleCh": "石板屋",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "石板是魯凱族的傳統建材。自古以來，在沒有好的材料時，魯凱族會巧妙地採用石板。石板有很多用途，魯凱族有八成房屋用石板，人死後也能用上石板。",
+      "ab": "ku sahakaikaiyanelringa tudaane ki Ngudradrekai amani kai lrenege. twalai ku nadruma, sakadruwana ku mathahihi ka satwatuma, ngyapapaedhale ku kyalrenege. kai lrenege makalra ku paluludaneini, kai Ngudradrekai lu tudaane yatanulrenege, adrava lu pacai si dralreke miyalri ahakai ku lrenege.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/13/55ea0e81b1d96521f50dfc03988f538a.wav",
+      "word": [
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/ea5c44d3f37b9c9b05d0e5f5700721a8.wav"
+        },
+        {
+          "ab": "sahakaikaiyanelringa",
+          "ch": "真正使用的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f03008f93afa99eeea3c7544e8a9d8f3.wav"
+        },
+        {
+          "ab": "tudaane",
+          "ch": "蓋房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/07556022d44dd36bf61f1021b006b0ae.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d0e844448bb692d7b3aed4faa23b5178.wav"
+        },
+        {
+          "ab": "Ngudradrekai",
+          "ch": "魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/1824ade8993b9fb96809eb71c70044e1.wav"
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/9c4ceb1bccafed48699943dc55986c90.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5a72d3dd60aafdf40c6a49dc4948a065.wav"
+        },
+        {
+          "ab": "lrenege",
+          "ch": "石頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/88286952c1ce9e659550c7c7188b3989.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "twalai",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4e0889bb750a24cc76c976b032b78f05.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f5176edd6527d7392f3b7da27a678904.wav"
+        },
+        {
+          "ab": "nadruma",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f49c8b1fa116034e2a97dc71df76b476.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sakadruwana",
+          "ch": "還沒…之時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/325a2ac3d97641f9aeb547b921aa927f.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/894e519875fcef3689ff12fcb31e9254.wav"
+        },
+        {
+          "ab": "mathahihi",
+          "ch": "好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d950441609428da24d3fad0b9710ed0f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5545be30af9db5a5d7b7f5ed6ae5d042.wav"
+        },
+        {
+          "ab": "satwatuma",
+          "ch": "工具",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/ce25eb5dabeef09edc05d6b08e5deafa.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ngyapapaedhale",
+          "ch": "自創",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/68b5ad89297df7f2cdc9b8aabcff6452.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/414202553172108df0f0752c0fa7eb58.wav"
+        },
+        {
+          "ab": "kyalrenege",
+          "ch": "採石板",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/1a871591096f8bb61ede8dff78a0da69.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/ae8af99c12f02a3e20b15a320ffbff35.wav"
+        },
+        {
+          "ab": "lrenege",
+          "ch": "石頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/b8ae497df64a9e0b6a0ed4961141a9ca.wav"
+        },
+        {
+          "ab": "makalra",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/160a1aeb70df9b585998dd2db373f1c8.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/36fc3e896f7934814d7267b91baf1832.wav"
+        },
+        {
+          "ab": "paluludaneini",
+          "ch": "它的功能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/fb11b80338984f7c54b2cabcc65d4e99.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/78cd5d3b57d2aaa8061f1734701f53ce.wav"
+        },
+        {
+          "ab": "Ngudradrekai",
+          "ch": "魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/e473b0e779507c5520a2eb604992db35.wav"
+        },
+        {
+          "ab": "lu",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/8ada1f6d56d8f5d47a5018e4e3156dda.wav"
+        },
+        {
+          "ab": "tudaane",
+          "ch": "蓋房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/cfb72261a6ffbbeed122828dcfed4fbf.wav"
+        },
+        {
+          "ab": "yatanulrenege",
+          "ch": "幾乎是石頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5eb7afdedf87b7e6537b82caeea8f901.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "adrava",
+          "ch": "就算是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/6cdb56b8988c9b97cb5463e34a9b0673.wav"
+        },
+        {
+          "ab": "lu",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/0f5048b4a915a0cc9af1f6f684af5533.wav"
+        },
+        {
+          "ab": "pacai",
+          "ch": "死亡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/0b89629b5c28970c6d36e06635c3113b.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/cc38f3582364765b9f3d206fcb829f1b.wav"
+        },
+        {
+          "ab": "dralreke\r\n",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/94d6e5bceb14bcce416f2d164f8050f2.wav"
+        },
+        {
+          "ab": "miyalri",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/b1971032c129cd7abe5b4519360ebd5d.wav"
+        },
+        {
+          "ab": "ahakai",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/586968c631d6f1ef0719abe2aa84d056.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/ead6beaa36331665452ca75b4baa0177.wav"
+        },
+        {
+          "ab": "lrenege",
+          "ch": "石頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/462bfc314bd28f17a5b486e1984ce1eb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "石板分兩種：公和母。公的石板堅硬而不變色，母的石板容易風化變色。公石板有時會因地形而有不同品質，最被看好的公石板是黑色或深藍色，有光澤、密度高（堅硬），不但美觀且耐久。",
+      "ab": "kai lrenege taidrusaa, ku taingeaa sauwalai, ku taingeaa ababai, kai sauwalai makecenge kaicelrenge si kai kaelaela ku takakulava, kai ababai padalru si ngualai ku takusaseveha takuudala si akabalrithi ku takakulava. \r\n[===]\r\nkai sauwalai yakai lu ngwalai ku taikaiyaneini si makakaela ku talrenegana, ku kikadadalamenga ka lrenege maicelrenge si kadelethe, la kakeecenge, mathahihi si kakucingalre kapici kalisi.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/12/fb54f37bddf37c3d7dfe4cfb8d3c79be.wav",
+      "word": [
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/0559006cc4d259d01366e6cc566989b4.wav"
+        },
+        {
+          "ab": "lrenege",
+          "ch": "石頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/20/b82f3b6fe6e9a91ee4872c032d908905.wav"
+        },
+        {
+          "ab": "taidrusaa",
+          "ch": "兩種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/c5859caac233af92c934993e310b2dc6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/7b754a373c0c558521d8bdcbb8c6cdf2.wav"
+        },
+        {
+          "ab": "taingeaa",
+          "ch": "一種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4ce2cfe937a79b33d7e9b7d2e383c37e.wav"
+        },
+        {
+          "ab": "sauwalai",
+          "ch": "公的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a78a93b9136ef3a61a0c2e197b175ada.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/554d977f680d6324bed352e1028dbcb8.wav"
+        },
+        {
+          "ab": "taingeaa",
+          "ch": "一種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/628652b0cdf3a3983e6b059f71188185.wav"
+        },
+        {
+          "ab": "ababai",
+          "ch": "母的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/49f13fa2af36f9c6c90700d5db13f7a5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/6d610b9ea58b9127567ceb0605a8cdf5.wav"
+        },
+        {
+          "ab": "sauwalai",
+          "ch": "公的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/e1d9969c1b7d9e892e7865b50129b730.wav"
+        },
+        {
+          "ab": "makecenge",
+          "ch": "堅硬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/c9a6b8709b8094b339be6d2629948fcc.wav"
+        },
+        {
+          "ab": "kaicelrenge",
+          "ch": "很黑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/373e74d2353c97adfe71731aee3e61a3.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/bc4d5f36c0524356c8d128f0c772c1ea.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/9d042467e5e04112a96bcc5ddf3f4f18.wav"
+        },
+        {
+          "ab": "kaelaela",
+          "ch": "改變",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/2feb2a7d3f2db05779809b65e2ba1475.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/8a10bc369fb19b1c8ca26d5f6874310f.wav"
+        },
+        {
+          "ab": "takakulava",
+          "ch": "色澤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/ec7335222dfbdb20e3d40b55820808ad.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/1042f988e3acf4efcdebb304fb039b17.wav"
+        },
+        {
+          "ab": "ababai",
+          "ch": "母的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/02fec48cce22588164b836951d950c68.wav"
+        },
+        {
+          "ab": "padalru",
+          "ch": "很快",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/2186178190d2c5feed08a277ba676da6.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/8671e44c8c0129abd5bf3ab39f7e511f.wav"
+        },
+        {
+          "ab": "ngualai",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/7f085e96b1e4f12bea9021f23aafb973.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/32646a086d36564ab429c9bb5668a5d7.wav"
+        },
+        {
+          "ab": "takusaseveha",
+          "ch": "受風吹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4e34e41e8da6334ccebf195957f45728.wav"
+        },
+        {
+          "ab": "takuudala",
+          "ch": "淋雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/b66383d08b41fe75f87492f7ba4c4e3f.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/305a7008f54ed3f5e38d00b311668f8e.wav"
+        },
+        {
+          "ab": "akabalrithi",
+          "ch": "改變",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/3f098efb170e17387b60f08a6b406dbc.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a025b2f90fc0ba2221976be9fd32d0aa.wav"
+        },
+        {
+          "ab": "takakulava",
+          "ch": "色澤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4ecd76445a73d8df36d6ff974661fc83.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/69b7a34894fb12a79047aa2c5f0505b1.wav"
+        },
+        {
+          "ab": "sauwalai",
+          "ch": "公的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/eebf8bc2ea9d987dd367a77d0ed094ab.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/97d36185a483469a7d6fb2a8d787ad26.wav"
+        },
+        {
+          "ab": "lu",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/858ab5389569b15bed612f1f14fc2192.wav"
+        },
+        {
+          "ab": "ngwalai",
+          "ch": "由於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f12264dcac4e6ce9b82ae8fa503a88cf.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/b19f7840920bfe7e12558f646771304a.wav"
+        },
+        {
+          "ab": "taikaiyaneini",
+          "ch": "所在的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/fde295a0295dd0fc64841893cab5cb12.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/cc4c5bf40fbaf9c61bf9eae805e77cc5.wav"
+        },
+        {
+          "ab": "makakaela",
+          "ch": "不一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/646336192abf5383cc42d9b4a564cf8b.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4daefab4a7307f5ab87f746f98e9e7f0.wav"
+        },
+        {
+          "ab": "talrenegana",
+          "ch": "石頭的樣子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d0611f78d08439c180b7b2547c8ea4f6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/7286678f1e61dea61dbd5af33d0cda2c.wav"
+        },
+        {
+          "ab": "kikadadalamenga",
+          "ch": "最受歡迎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/0292dfe95f16b0580dd5672f5a6a9679.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5cdf113ffd8b0f4d005f5ad39d4fb2e1.wav"
+        },
+        {
+          "ab": "lrenege",
+          "ch": "石頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/36e80ad911d3dfc3cde90c9ac9f8f859.wav"
+        },
+        {
+          "ab": "maicelrenge",
+          "ch": "很黑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/28caa8632f42f7faae63fd1d67677b09.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/de3bb0c91ec200a56c1ffdf8eb10af41.wav"
+        },
+        {
+          "ab": "kadelethe",
+          "ch": "滑亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f0ec2a3fdae1cf112579d579afbe9813.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/86941b92e2c44caf6d6becf9171d08b2.wav"
+        },
+        {
+          "ab": "kakeecenge",
+          "ch": "堅硬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/2c398ecf351b909e03747463a6682767.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mathahihi",
+          "ch": "漂亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a27081a8ebab24ce39cc4910436d4fe5.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/408fc97c928a5d6173b72b4a45806c2d.wav"
+        },
+        {
+          "ab": "kakucingalre",
+          "ch": "不容易",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/11fcdfee18ec6be96bb61207fa943677.wav"
+        },
+        {
+          "ab": "kapici",
+          "ch": "脆裂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/e7b1d12cd1c20febc28843e08405db23.wav"
+        },
+        {
+          "ab": "kalisi",
+          "ch": "損壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d10b0d808b0cfd5fd53de71824456697.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "魯凱族視石板屋為藝術，是力量和智慧的偉大表現，除了能防火禦敵、冬暖夏涼，還會呼吸呢！魯凱族男人以擁有一棟石板屋為一生中最大的榮耀與驕傲。",
+      "ab": "kai Ngudradrekai lu ahakai ki lrenege tudaane taingeaa ka tapualrimaa, taingeaa ka puku si tapaathingalana ku lrigila, ku tamulrivila ki talaalibi ka daane, kadruwa ka kwalawlaubu wadulrumadu lepenge ki badha, lu kalakecelra maculu lu kaladrangedranga mangangehece, amani ku panyanyaniyake ka daane! kai sauwalai ki Ngudradrekai sana ikai ku talaalibi ku daane amani ku madradrawnga ka lrigu si sangidradraha ku taikaumasananeini.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/12/ff3e61eb6ee0619581dd716d6128e2e0.wav",
+      "word": [
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/6c302e3dd5b5928173e07b7f98b11235.wav"
+        },
+        {
+          "ab": "Ngudradrekai",
+          "ch": "魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/96504deb1005a2eb231907d2e8ddd0b2.wav"
+        },
+        {
+          "ab": "lu",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/bd8412146cfd28e8b46cfefcf0f40b3a.wav"
+        },
+        {
+          "ab": "ahakai",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4a558a4d69ac769c8a306ff5aa01894f.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5093d7dcaccc9c52a7e76e3a6e7a4b04.wav"
+        },
+        {
+          "ab": "lrenege",
+          "ch": "石頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/adf2d724c3b8239b0afbbe2f6834d45b.wav"
+        },
+        {
+          "ab": "tudaane",
+          "ch": "蓋房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f2673f6c2cd3db8ee65e779b80ff9142.wav"
+        },
+        {
+          "ab": "taingeaa",
+          "ch": "一種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/e32917aaed6fd8cd6f38dc793c163777.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d9efd1cd77e0a8f2cf0b868d9b70ea59.wav"
+        },
+        {
+          "ab": "tapualrimaa",
+          "ch": "手藝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5e118bd9ae2910915bab484c51c54a41.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taingeaa",
+          "ch": "一種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5005979fb66d0e2384eb88f07d9a799d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/712a990b8a88c78e983d516a38c5e8eb.wav"
+        },
+        {
+          "ab": "puku",
+          "ch": "力量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f0a7bf8a4fe902687b8079350762680b.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a9ef8f51f4c75787a88c027e9c369156.wav"
+        },
+        {
+          "ab": "tapaathingalana",
+          "ch": "表現",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/8447e9a6ca9837c305c5c4a9d55c7aed.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a6e2a675cdac496d595c1ccd8f899fd2.wav"
+        },
+        {
+          "ab": "lrigila",
+          "ch": "智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d2fbc32fcc59fcb09c9cf84d48d1e781.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/252620ed21db1b30cde293ff67d624ec.wav"
+        },
+        {
+          "ab": "tamulrivila",
+          "ch": "特別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/dcd7c01130057b960f3c2bdabf568518.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a3a5aceee04f016c1d3ec34278396854.wav"
+        },
+        {
+          "ab": "talaalibi",
+          "ch": "石板屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5d032420ce52894fa826e0fea5a60ac5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4f0348ef9e0ad66ab3ecb346fb04b9f5.wav"
+        },
+        {
+          "ab": "daane",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/c7aa5b4aeef265811c6d61995bf418d8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kadruwa",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/6d391ff98f304e1374d3892bf0250f36.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/edc2f50a5bf41ed7f6660f727bd69f01.wav"
+        },
+        {
+          "ab": "kwalawlaubu",
+          "ch": "著火",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/1126b4ac4e193ec840107cf403076491.wav"
+        },
+        {
+          "ab": "wadulrumadu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/b73dd7aa88855f767c19a4c6f588681d.wav"
+        },
+        {
+          "ab": "lepenge",
+          "ch": "窺伺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/c55d89701c262945ba72c48fbd102c6d.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/3f75d34f83f3bd829b189002175b362b.wav"
+        },
+        {
+          "ab": "badha",
+          "ch": "敵人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d203cdd53482253a2bc9ab3eefe43880.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lu",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f85d80a0aa66824c24d0ced2fa670ebd.wav"
+        },
+        {
+          "ab": "kalakecelra",
+          "ch": "冬天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a972e4d067d201b9bc66367e1b7fc7ce.wav"
+        },
+        {
+          "ab": "maculu",
+          "ch": "溫暖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/bc6d09a76d68ea0ea2c5864c45378541.wav"
+        },
+        {
+          "ab": "lu",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/bcddd7fb88e7a797242d318554bfda3c.wav"
+        },
+        {
+          "ab": "kaladrangedranga",
+          "ch": "夏天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/64870032ba9ea3b90a9f091b6c4ae276.wav"
+        },
+        {
+          "ab": "mangangehece",
+          "ch": "涼快",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/b120434bc398d14f3dda03fa4ca5e767.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/11/9b88b394ebd476908e7257cda64172ba.mp3"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f8e278cdcc3e3197d1dba8fd921eda8f.wav"
+        },
+        {
+          "ab": "panyanyaniyake",
+          "ch": "呼吸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/11/63b1dfae65fa944445a4367f9ab6375c.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/5d53a0e1aa4306599945c7175c4eb263.wav"
+        },
+        {
+          "ab": "daane",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/837599629bbe720d53ab9a942d8e87b9.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a5777e03d2233f1836867bc7ff04c956.wav"
+        },
+        {
+          "ab": "sauwalai",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/48dfe0942d47570c89ba7c27c4f8cef5.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/564ab278fc90f52914328d3064fa2db0.wav"
+        },
+        {
+          "ab": "Ngudradrekai",
+          "ch": "魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/6e5cd59d3926adc44b27cd93242bf20a.wav"
+        },
+        {
+          "ab": "sana",
+          "ch": "只要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/c3a408338d796769a4f9a4be7c311143.wav"
+        },
+        {
+          "ab": "ikai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f7d63099a21852b706117572d85b646e.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/79b4e254244fe629ebd642e00c255954.wav"
+        },
+        {
+          "ab": "talaalibi",
+          "ch": "石板屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/254dbee18f28f9f9af9cadf084368271.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/bf27a6175463542f7c8e05386b78755e.wav"
+        },
+        {
+          "ab": "daane",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/370310d5dc90b9e3c7b070a6de532339.wav"
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d1856159683d6fdbc4d264c3012d8797.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/2462a76f718c97cfa773e42865b6ae51.wav"
+        },
+        {
+          "ab": "madradrawnga",
+          "ch": "最大的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/c3e1e20f6ec8413ec33d38b1e9c75daf.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/655eb6e2c9d89d42fabc57d6086bd4ed.wav"
+        },
+        {
+          "ab": "lrigu",
+          "ch": "榮耀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/86f2ffd6e31bfad5d8b640b6138ad121.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/37e46d8c70189663e79f9cb0780938f1.wav"
+        },
+        {
+          "ab": "sangidradraha",
+          "ch": "引以為傲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d9c8bdd403fc83eb9798a3a55f6e1c51.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/e3cf5953ccf1924fb2beba3c3517ae3c.wav"
+        },
+        {
+          "ab": "taikaumasananeini",
+          "ch": "在世上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/fcac8b77e7900d5c3feb5f61c010ba09.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "可惜，隨著時代變遷，水泥逐漸取代石板，魯凱族的特色——石板屋也就慢慢消失。這是傳統文化的一大損失。",
+      "ab": "matiyataulra, patupalra ikai takabalribalritha ikai kaumasa, kai talaalibi ka daane haukiaubalribalrithinga ki niyahakaiya ki simingtu ka daane, hau maamuamudunga kaulrau kai talaalibi. kaivai ikai ki kakuakudhaneta amani ku maadrau ka amulisiya.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/11/3632c287a37f1afa79c42f470ba6af66.mp3",
+      "word": [
+        {
+          "ab": "matiyataulra",
+          "ch": "可惜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/dd23b42b2891e93c25e72f159932a294.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patupalra",
+          "ch": "隨著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4d33a29913aa6d6b211286a76eb9b749.wav"
+        },
+        {
+          "ab": "ikai",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a4a67097e8a310ada51b2017a9ceeb6e.wav"
+        },
+        {
+          "ab": "takabalribalritha",
+          "ch": "變遷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4f8cbded1f717a83d602892e26817d4e.wav"
+        },
+        {
+          "ab": "ikai",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/b8600f37d2c369465e340858cc5b1e5e.wav"
+        },
+        {
+          "ab": "kaumasa",
+          "ch": "世界",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/9822c60cbd44380eab51af4199d17be4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/3b659c545a767c31aee24767af1a9b45.wav"
+        },
+        {
+          "ab": "talaalibi",
+          "ch": "石板屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/89fb9d33afe9563a0c4a76c99484a0d9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/89486b18d97da6ca3c998162a254af38.wav"
+        },
+        {
+          "ab": "daane",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/21d7921acba7d42fa1d070e6d8547965.wav"
+        },
+        {
+          "ab": "haukiaubalribalrithinga",
+          "ch": "漸被取代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/4e87f2d9cb2f00f2ab5f7f9742445a4f.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/436fc6a87245490c1c09148823eec9ff.wav"
+        },
+        {
+          "ab": "niyahakaiya",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/344a2b39cdc26961b661071fdd3164c5.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/374776f1076b693ab82c7efccb1cf1c2.wav"
+        },
+        {
+          "ab": "simingtu",
+          "ch": "水泥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/95276d8cb22ec7066132638af286c042.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d154de59f82f09e9123e4f20addcf76b.wav"
+        },
+        {
+          "ab": "daane",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f8410fd61bc6becd384b22feb8356ef1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hau",
+          "ch": "越",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/a8c8fce04bb82483fefb2d10469e85d6.wav"
+        },
+        {
+          "ab": "maamuamudunga",
+          "ch": "流失",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f8f5f370134d46cb215c82f92fcee9a0.wav"
+        },
+        {
+          "ab": "kaulrau",
+          "ch": "不見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/746f5c557ce2c412eee9017468c64f28.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/f6d77b8ad5b7eefcaef0df63b0e1802a.wav"
+        },
+        {
+          "ab": "talaalibi",
+          "ch": "石板屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/bba271b008fea10840fb5215f68f3e2d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kaivai",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/03a4d29c06c1d7af26560f7ca1b9da06.wav"
+        },
+        {
+          "ab": "ikai",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/332af0bf6d8a6c75f384f9ecb809ff3c.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/9a48a4db98bb07d6ec0660864c12378f.wav"
+        },
+        {
+          "ab": "kakuakudhaneta",
+          "ch": "咱們文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/29f30ddd863c889a33888faf270ae787.wav"
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/d1e3d7adb57bf398f46a29b591e4cf60.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/342056c56263f934a9a937f340832fd9.wav"
+        },
+        {
+          "ab": "maadrau",
+          "ch": "很大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/9884dfd73a2471545e0c3f8c14177a04.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/65db279a9615793e73d18ab1a7d24b17.wav"
+        },
+        {
+          "ab": "amulisiya",
+          "ch": "虧損",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/15/ed0aaf49c68820e47b00d2b93fe507f2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,1211 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Ituskuun Tu Kaiqansaipan",
+  "titleCh": "共同智慧財產",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "智慧財產為無形資產，包括專利、商標、著作權、及經註冊或未註冊的設計權。 智慧財產權事實上並非真正意義上的產權，它更像是一種壟斷特權——在一段時間內對於智慧活動成果的壟斷。",
+      "ab": "Maaq dau ka Ituskuun tu Kaiqansaipan a nitu usaduan tu zaisang. Ma’aq aingka a, sia ki kain’anakan kai’uni tu qaimamangsut, kain’anakan tu sinzuzunga, kain’anakan tu sinpapatas siin sintusasaus; anatupa tu nii’ang ispinqansiap tu tinanas’i, sinzuzunga siin sinpapatas, maszang amin tu isiin ta tu zaisang. Musqa aingkun sinpaili’uni ki maipinhaiza kainikuza’an ti tu kaitamasazan, maqtu ka maipinsia kainikuzaan tu bununa uhaizaan i kainikuza’an ti tu kaisihalan sauhaan paikatnulanin tu qani’anan, nii dau ka duma bunun maqtu uhaiza’an i kaisihalan ti.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/09e4572bf1ec5dc039ec3d4b3c3fe5e4.wav",
+      "word": [
+        {
+          "ab": "maaq",
+          "ch": " (假主詞)這是、那是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5bee27cd92125e4b32afbb75f3a1ab5d.wav"
+        },
+        {
+          "ab": "dau ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/01963f7fc2d0a25e76df148b2907f78c.wav"
+        },
+        {
+          "ab": "ituskuun",
+          "ch": "共同擁有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/621d2fd2e997dbcd567d758307f3f790.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/aab0450469b230c97548d249d4e7ed71.wav"
+        },
+        {
+          "ab": "kaiqansaipan",
+          "ch": "智慧；知識",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/0d686b4456301c837dee0fb0694a23d5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/b566a6b937129e7b5cb25a3524547c0b.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/134d9e8d149c6d8ba024df48cd8d4ac1.wav"
+        },
+        {
+          "ab": "usaduan",
+          "ch": "可見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/69faea1c7f13891b5f4e2e3720c6d302.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3fc3a05df8fa99cb8e997f2db68a6cb2.wav"
+        },
+        {
+          "ab": "zaisang",
+          "ch": "財產(借自日語)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/9f8adc78bc591cd0e38800c51671afb3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’aq",
+          "ch": "是什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/bd4cce0b474411588b5743e3a5ee8d2a.wav"
+        },
+        {
+          "ab": "aingka",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f1454ba90512bfbaec335ab55f68b6ac.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/eb1eb85715d81f9a6ee02b3415f86ec2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sia",
+          "ch": "誰是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/06793e8fa83707c3d3ccaf850cd4ecc7.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/b4ca67b910308e403b40cd3323e1618d.wav"
+        },
+        {
+          "ab": "kain’anakan",
+          "ch": "自創、原創",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5fed162478e04ee22615abd112fdcc64.wav"
+        },
+        {
+          "ab": "kai’uni",
+          "ch": "製造",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/110c64bf5f3235b5f760917e5138bcd8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3bf32783ca103546fb22ba0b8d52d018.wav"
+        },
+        {
+          "ab": "qaimamangsut",
+          "ch": "物件",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/78ba9eccaff9c80014ef3d59248d6f91.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kain’anakan",
+          "ch": "由自己獨立開發",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5012593ba8359bf6f2009b2491e9119d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e60a27925adf9e5629eb51edd3ae1854.wav"
+        },
+        {
+          "ab": "sinzuzunga",
+          "ch": "畫本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/986c0b647f068ebd06d194832e6f478b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kain’anakan",
+          "ch": "由自己獨立開發",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5de2bc8c5837d350c63fdcc1d29a5115.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/7e872aa8280165c02722cee5260e4a7a.wav"
+        },
+        {
+          "ab": "sinpapatas",
+          "ch": "書法；文書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/8a9ab2a87298a2fed1c31aebff294cf9.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/0968d365d845be3050bf5218dbd89296.wav"
+        },
+        {
+          "ab": "sintusasaus",
+          "ch": "歌曲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/dfac6d4894449f08c13ea098e9bf8042.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "anatupa tu",
+          "ch": "無論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/01aa12850d309d142b8d149905ab7956.wav"
+        },
+        {
+          "ab": "nii’ang",
+          "ch": "尚未",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/363293c7d4ccc0a2b0e0bba5c58e06ff.wav"
+        },
+        {
+          "ab": "ispinqansiap",
+          "ch": "發布，告示",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e99977cfbef4f5b1ab727aa4339929bb.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f31f3df90cd7ee6cb0242702688f1c09.wav"
+        },
+        {
+          "ab": "tinanas’i",
+          "ch": "製品，成品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5b5e8e21832173e4aa4bc6c98185963f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinzuzunga",
+          "ch": "畫簿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/ab65510e7a63054ad5bdaa7b589925fe.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/645d2598e1b131cc84d7e52911908c41.wav"
+        },
+        {
+          "ab": "sinpapatas",
+          "ch": "文書檔案",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f8e50916e3db2619ec66f38856e02241.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maszang",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/50d4cd4f1799c2c9f72dcc5af8b9aace.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f36f0ff3d9e1182c65b2d69f4597bc2e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e90e7f028802f9648aa004c7cb0364c9.wav"
+        },
+        {
+          "ab": "isiin",
+          "ch": "已經屬於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/00f50b1e96918727440861c58352eec6.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "那個；他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/a9578c01989d440ca684f3a2bdb7da35.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/b8b2fe30261d3a8eba7c55d723ceb6af.wav"
+        },
+        {
+          "ab": "zaisang",
+          "ch": "財產",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/b692c50decafd9d139df081327b5ab4c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musqa",
+          "ch": "只不過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/378e10025baed17d8307e7541bf04750.wav"
+        },
+        {
+          "ab": "aingkun",
+          "ch": "它們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/8e57baaa60b99a6ba2622be4548e20f4.wav"
+        },
+        {
+          "ab": "sinpaili’uni",
+          "ch": "酬庸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/803f3bbfa01535531485a773eed4ea90.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/952721401699fbefccf82d5777b781df.wav"
+        },
+        {
+          "ab": "maipinhaiza",
+          "ch": "創作者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/259bfc8050ead757131c2097a1e2fc23.wav"
+        },
+        {
+          "ab": "kainikuza’an",
+          "ch": "工作代價",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/401e0724ac65a59ac32fe3e061c5d33f.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/654ecc5f4d3f0dd9e6a342632a504ddb.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/a3ffe11fad20f99394802cf663e08151.wav"
+        },
+        {
+          "ab": "kaitamasazan",
+          "ch": "權利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/16524ee60883d1a6a9f8e0a468db8e64.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/1aa8d3f3cead9c4dd5160d3be7e56d44.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e5187a405fe887f21487b472e4faf858.wav"
+        },
+        {
+          "ab": "maipinsia",
+          "ch": "創作者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/ab0eb3149ef3af36121f4d9831d798ef.wav"
+        },
+        {
+          "ab": "kainikuzaan",
+          "ch": "權利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/2c16e1daa7bd0e9eb98ead8daa43e89b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/ccf68ece4bf77058db07b91d40775d8c.wav"
+        },
+        {
+          "ab": "bununa",
+          "ch": "那群人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/6554b6883633113cd0898018f4b5cfe0.wav"
+        },
+        {
+          "ab": "uhaizaan",
+          "ch": "擁有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3dc5b192c254535664c299fb6c669bd3.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/77987fee8851f9801ace056b54a86c72.wav"
+        },
+        {
+          "ab": "kainikuzaan",
+          "ch": "酬庸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/8c4735bfa0c91bad1bec5eb0fefa4d24.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3e6f7a38368868d59afec97f5a60d436.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/c9f5d1e875e39d89d35799c49c4618bc.wav"
+        },
+        {
+          "ab": "kaisihalan",
+          "ch": "權利、益處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/ec48b54a7d63ed816b0a4876c43988dd.wav"
+        },
+        {
+          "ab": "sauhaan",
+          "ch": "一直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/525e2777449a96e9fd09a3282ac89c1f.wav"
+        },
+        {
+          "ab": "paikatnulanin",
+          "ch": "議定期限",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/80a30fb3e4e6966c5a241ad2b2a3d5d9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/b9388dbd9a7c2856f920670175f29f06.wav"
+        },
+        {
+          "ab": "qani’anan",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/30c1e24dbb46722265ed9075ac0387eb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nii",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/cecf3a6b0dd12ad626e684f86f65d719.wav"
+        },
+        {
+          "ab": "dau ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/4f7f7a0f15ff03d6115a309a54155865.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "其他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/0f1003ec0579bd4fb010dcbca443f7cd.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/4661999ba2975573840d0017609a7375.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/2e49adc37794342c4183e25a280f8de4.wav"
+        },
+        {
+          "ab": "uhaiza’an",
+          "ch": "擁有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/1d44d7570407a78b6446c8aa1a63d5f2.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/00bc3bd0ce1e9e73dca1ec350866fe52.wav"
+        },
+        {
+          "ab": "kaisihalan",
+          "ch": "權利、益處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/29b2d6dd537e32436d0bfed59a5ae788.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/033730fd6fb7948798db987eebba322f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "實證經驗表明，智慧財產權的保護能夠確保智慧活動創造者的利益受到保護，並鼓勵更多智慧活動的產生，從而對社會經濟的發展起到推進作用，其他公眾也能從智慧財產權保護中受益。智慧財產權所有者的利益可以通過對使用者收取費用，或在一段時間內禁止他人抄襲、競爭來獲得保護。",
+      "ab": "Mapitqas a kaitamasazani taqu duma bunun tu, maqtu a kaitamasazani masaiv maipinsia bunun ta na’is’insihal istaa tu iniqumisan, musasuu tu namaqtu amin ma’insun malalabas bunun mapinhaiza duma vaivivaivi tu kaiqansaipan siin tinanas’i, taidangaz mapisihal i imita bunun ituskuun tu iniqumisan. Inaita tinanas’i siin kaiqansaipan tu kaitamasazan satiniun intaa, nitu maqtu sisili’an, nii amin maqtu qalmang ikma’ia, maaq i na’asa ikma’ia ka, asa dau tu makusui mabaliv i kaitamasazan ta.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/6e92d0409042c91c0b29453ecd02b79b.mp3",
+      "word": [
+        {
+          "ab": "mapitqas",
+          "ch": "使明白",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3a9868c68b6154747b78c424286a8ad0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/4e5512c7375097bd9de6b2997a5a8176.wav"
+        },
+        {
+          "ab": "kaitamasazani",
+          "ch": "這項權利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/58eb9a9d74dffeb6ac7885c8c5505f83.wav"
+        },
+        {
+          "ab": "taqu",
+          "ch": "說明、公告",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/c88e7848d183ea7a9429e26f3d29e7e9.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "其他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/80bedeb51b3bb386e4b8885708696bc6.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/da1c5476400b1d84a882c4d826e38ef3.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/c47de0abfc1b5adc28eaa43f1e53f03c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/85c955f19981a59a03d76dc27d058ec2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5f934943dc1a6b34f7a73321616ac12f.wav"
+        },
+        {
+          "ab": "kaitamasazani",
+          "ch": "這項權利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/be7ae8630791a3fe866806536aa6f4e2.wav"
+        },
+        {
+          "ab": "masaiv",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/59bd2157795e2271c2a0f838024679e1.wav"
+        },
+        {
+          "ab": "maipinsia",
+          "ch": "創立者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/857b127468db3602ef9e25a2ccea85e1.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/b167e2cf4edf4ca86931ee39ef0f5932.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "那個；他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/4d66e66a0aea46199a07a2818e9928f9.wav"
+        },
+        {
+          "ab": "na’is’insihal",
+          "ch": "使有益於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/94f7d4f0a58f0b7f0a581afb99d330e7.wav"
+        },
+        {
+          "ab": "istaa",
+          "ch": "他/她",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/12/6971f2421b624e1616a41037e9fa726e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/be871207b91edf439153500dd1e52f9f.wav"
+        },
+        {
+          "ab": "iniqumisan",
+          "ch": "生活形式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/c26882c2bdef6433d6360756d678fb16.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musasuu tu",
+          "ch": "同時，何況",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/acc5efe5b17f11669851d6fcfd278492.wav"
+        },
+        {
+          "ab": "namaqtu",
+          "ch": "將可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/ae155e2c693e7e243ae3b0320d481f2e.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e6825c80c0d078f0b6cc0e86d9393b99.wav"
+        },
+        {
+          "ab": "ma’insun",
+          "ch": "鼓勵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/a758339f15f9d24d59ec9945183c86de.wav"
+        },
+        {
+          "ab": "malalabas",
+          "ch": "許多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/c5382507dbbe51bf865dd6f0e05fd9db.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5f28ad2f21702b717929e66f5f06365c.wav"
+        },
+        {
+          "ab": "mapinhaiza",
+          "ch": "產生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d2738cfb3dd37314ff6b96abb23c247d.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "其他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/cfc38405352f72c70329b3d0dbb799fa.wav"
+        },
+        {
+          "ab": "vaivivaivi",
+          "ch": "不同的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/bf6db99101034df8fd88a622c0f95894.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/adf3491bc007b60b41bab5f8bd36e399.wav"
+        },
+        {
+          "ab": "kaiqansaipan",
+          "ch": "知識，智能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e0de7b5257f7aa313182283786aecdf4.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/1ac344c728ee7f31b98499386f80fdfc.wav"
+        },
+        {
+          "ab": "tinanas’i",
+          "ch": "作品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f77d73199301c4662df9b1c0cdfdf7c9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taidangaz",
+          "ch": "協助",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d237ac5dddb2227d6407a11c8316ee09.wav"
+        },
+        {
+          "ab": "mapisihal",
+          "ch": "修補",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/da1cb0c0806f7440703cd5334d718018.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/430954bddad3eae00969f084022a6ba2.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/abed055602b7914eb78ef39fbe35ef90.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3b7da5874856277733ccec8875b32e45.wav"
+        },
+        {
+          "ab": "ituskuun",
+          "ch": "共同的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/ce5427adf511259a15885e54796a2312.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d6512b27b6bfaad5a7a32a35d2d4fee0.wav"
+        },
+        {
+          "ab": "iniqumisan",
+          "ch": "生活形式或環境等",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/23acaeecf29458cad07a8c2fa867a2fe.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inaita",
+          "ch": "他們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3d92084f8867eddada53605c74651240.wav"
+        },
+        {
+          "ab": "tinanas’i",
+          "ch": "製作品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/acaa293c3e0380cea8cf9b2706509060.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/bac0c25f6c4b6ddd041271ec473f12c6.wav"
+        },
+        {
+          "ab": "kaiqansaipan",
+          "ch": "知識，智能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/90440542050685a9066f095398935592.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/08cfa0ee1282d4d9b040f39d76056791.wav"
+        },
+        {
+          "ab": "kaitamasazan",
+          "ch": "權利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/1253f8538dbb7dd3373efc6253472ba7.wav"
+        },
+        {
+          "ab": "satiniun",
+          "ch": "個人擁有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/732100b4c4f80961d4f6c80de14a9003.wav"
+        },
+        {
+          "ab": "intaa",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/12/7f1bfc68591e710039b29aa50f6521a1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不，非",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/83ed6af23ac47887f582ffee02d29ca3.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/10f04d919aa81bfb8edf420e03a4b87d.wav"
+        },
+        {
+          "ab": "sisili’an",
+          "ch": "被模仿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/6e871ca1c8a0d46b35765eea58463159.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nii",
+          "ch": "不，非",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/be25c9cb31fcbf02f83c2d2f3fee6652.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d28fffe4d5a5fbf9a15a9162a435b59f.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/a84f4c631a57925d71f669442368e9c7.wav"
+        },
+        {
+          "ab": "qalmang",
+          "ch": "隨意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/b7fb94c62344c4f04e10cdb0e9d391f9.wav"
+        },
+        {
+          "ab": "ikma’ia",
+          "ch": "使用，運用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/4a7d3df4f7819e73e33b3335fde8ad1e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq i",
+          "ch": "如果(假設語片語)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/99b3c9191b00b1e9b15971525250a664.wav"
+        },
+        {
+          "ab": "na’asa",
+          "ch": "想要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5f51267d8eb332b9f1850c34b57d3465.wav"
+        },
+        {
+          "ab": "ikma’ia",
+          "ch": "利用，使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/75085a29b113fd97bef4d9b1bc22fe7c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/61459b89d8275179f2613bf5a34ce980.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "應該，必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/d45cbd216e3dbed22e61c2f2b308af79.mp3"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/de041d99cbaebc912f43074f6d402077.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/12/809c7613fd800e0f476145938991b96b.wav"
+        },
+        {
+          "ab": "makusui",
+          "ch": "花錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/35faf7ce8a5d49a220a7728416398bf1.wav"
+        },
+        {
+          "ab": "mabaliv",
+          "ch": "購入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/fa8cbc776b16cbdc588758355d93935c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f8d4a7dc38e320dfb57317998c711522.wav"
+        },
+        {
+          "ab": "kaitamasazan",
+          "ch": "權利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/8a329778ef7464bb004fab3e64de170d.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "那個；他 ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/b8e47c5c73339cbf61d8559f34fb448c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "智慧財產的重要性，不但可以保護自己也可以以防他人抄襲，這實在是很重要。到1967年《成立世界智慧財產權組織公約》簽訂後，智慧財產權的概念得到世界上大多數國家所認可。專利保護期一般20年，工業設計保護至少10年，而商標則可無限期保護。",
+      "ab": "Mastaan dau ka Ituskuun tu kaiqansaipan tu kadimanun daingaz. Aupa maqtu aipun taidangaz anak’anak tu kaitamasazan, maqtu amin laqnut duma bunun tanqa’iu ikma’ia. Sauhaanin 1967 painsanan, minhaizin a sinpatumantuki, kapimaupaunin i madia tu ku’ka siin malalabas tu bunun. Maaq dau ka sinpaikatnul tu qaini’anan a, haiza tu punmapusan qamisan, maaq dau ka tinanas’i qaimamangsut a punmas’an qamisan, maaq a sinzuzunga siin sinpapatas tu kaitamasazan a uka ka pais’upa’an.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/4c51852b29f1ebe938ae1084cf841d5f.mp3",
+      "word": [
+        {
+          "ab": "mastaan",
+          "ch": "很，非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d38a7d62efa3ce029681a452c385348a.wav"
+        },
+        {
+          "ab": "dau ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/af517d6908500be04e80182b42a5b089.wav"
+        },
+        {
+          "ab": "ituskuun tu",
+          "ch": "共同的(形容詞片語)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/bbc1ac48182c8850d109967ff3d2e390.wav"
+        },
+        {
+          "ab": "kaiqansaipan",
+          "ch": "知識；智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/97de51907ea22fb1667677d3866259f2.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/0024034d6e315ef38209ca9393b7746f.wav"
+        },
+        {
+          "ab": "kadimanun",
+          "ch": "值得的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/efb1e0db11949a532cf002e812af870a.wav"
+        },
+        {
+          "ab": "daingaz",
+          "ch": "最…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5e4a226f7c70e803f9637faff41a11cc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/80f01674fa1ce571e62a8ce74bd34a99.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/c673926c3a5b43600569ef43b4f58851.wav"
+        },
+        {
+          "ab": "aipun",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/01cbf9357bd13b2fa436277ae642f35e.wav"
+        },
+        {
+          "ab": "taidangaz",
+          "ch": "有助於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3c979af44465528cd099c5db55617d6f.wav"
+        },
+        {
+          "ab": "anak’anak",
+          "ch": "個人自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/a5645f9f05d250acc9e20bb01c4e8b08.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/27d4a4798f735c26bfb917539965e5d0.wav"
+        },
+        {
+          "ab": "kaitamasazan",
+          "ch": "權利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/6bfcb91c0bc90908f90dce98eea575d5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d59ff02535022d5511dc0dea72685377.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/91e081a7e253e0fb9f725bde35a1b8dd.wav"
+        },
+        {
+          "ab": "laqnut",
+          "ch": "阻止",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/19433d771c5be2444081d8442a327fed.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "其他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/db7d24dbf862979f852d262a8ddef567.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/bc52220c4bfb994f31d7f6e60068b7d2.wav"
+        },
+        {
+          "ab": "tanqa’iu",
+          "ch": "偷竊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d3870cd813817a695ce2c2110f38a17c.wav"
+        },
+        {
+          "ab": "ikma’ia",
+          "ch": "使用，利用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/04af5fbd72c6150ae721a84ab51be0db.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sauhaanin",
+          "ch": "一直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/1b7c6426684afa00c917e3006b05202a.wav"
+        },
+        {
+          "ab": "1967",
+          "ch": "1967",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/dceba02ed6af1354c93bdb3af85fb8e9.wav"
+        },
+        {
+          "ab": "painsanan",
+          "ch": "年度",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/123235bbe4d948b5f9f10303d542a532.wav"
+        },
+        {
+          "ab": "minhaizin",
+          "ch": "便有了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e4e343445fc2905d334a766458615a46.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d5b0cd787ee457c5f6bdbdc7917b8708.wav"
+        },
+        {
+          "ab": "sinpatumantuk",
+          "ch": "這個法規",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/2559ece824b146facab2ddab3a5ed6df.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "(關代詞)這個，這",
+          "sound": null
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kapimaupaunin",
+          "ch": "被遵行了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e414af7c886973e35f00b42e48efa8cc.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/ff43286c3b0d2b2e560a71335d7782b1.wav"
+        },
+        {
+          "ab": "madia",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f588e8cb2008b240fe7bbb4df15bfc33.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/442430d1c45ede7cb479cc7434f6629e.wav"
+        },
+        {
+          "ab": "ku’ka",
+          "ch": "國家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3037b2e3b2f0ac01c32432b1e2c75e54.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/a90198651b1ef09dcf3fc5255a314235.wav"
+        },
+        {
+          "ab": "malalabas",
+          "ch": "許多人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/1a4075a4c0809717e4b1744aa08d898e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/4e1f3a7da92fa21b67649128304f8668.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d1e6275ba67b9deba97c36664a972a9c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": " [主] ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/ed0a13c3819b5b89718cab380e65125d.wav"
+        },
+        {
+          "ab": "dau ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f5691f98ee7a85dfbb96995df6c59451.wav"
+        },
+        {
+          "ab": "sinpaikatnul",
+          "ch": "期限、壽限",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/a4119692fd442f3bcc731e534b1d256b.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/5098e6de1c1ecf30d01cddb72a6ae76e.wav"
+        },
+        {
+          "ab": "qaini’anan",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/4c0b0ad48e559c16d10e7c47244a4025.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/8e48814f2b90fa578fd938f1e96e2804.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza tu",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/92939a7bb6d733ca6705ff99491a1f8f.wav"
+        },
+        {
+          "ab": "punmapusan",
+          "ch": "二十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/9023c339691231f06d5514020144f6d9.wav"
+        },
+        {
+          "ab": "qamisan",
+          "ch": "年歲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f3cfc57b404e328f1c64fb88d140a762.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": " [主] ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/db942ab6ce5deb8d2dd0a50d401e40cb.wav"
+        },
+        {
+          "ab": "dau ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/8a386bdb2e9e7b6a11a1a2af2909b34d.wav"
+        },
+        {
+          "ab": "tinanas’i",
+          "ch": "這項製品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/e2ff8ab4555623038de762dafe9fe2b2.wav"
+        },
+        {
+          "ab": "qaimamangsut",
+          "ch": "什物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/0bc8e4beb9c95707e6f057526375e8bd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/eb453613c194f3183cddc0d3661f755c.wav"
+        },
+        {
+          "ab": "punmas’an",
+          "ch": "以十為期限",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f2b5df9af809a92f403ec0cab72f684a.wav"
+        },
+        {
+          "ab": "qamisan",
+          "ch": "年歲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/2aacd3bc2b891dc942d97f845df34032.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "(假主詞)這是、那是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/13d62ce0cc7dc36e9223ea344f38694c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "(語助詞)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/3e4df142bd85a24c09db8e037a7c4488.wav"
+        },
+        {
+          "ab": "sinzuzunga",
+          "ch": "圖像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/27a8571d04bb94905d284f5ab6d11560.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/c5da2049101a22a91e149eec9d353ee4.wav"
+        },
+        {
+          "ab": "sinpapatas",
+          "ch": "文書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/2a85c788528aa879877b10a296818a31.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/fb73d9e17d3f670f735a63c0283cbb96.wav"
+        },
+        {
+          "ab": "kaitamasazan",
+          "ch": "權利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/f1c55043ee0a1462c4eabd3692db19e3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/d3c9d74b0c3af0189a0dba010e0037d2.wav"
+        },
+        {
+          "ab": "uka",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/12/3f5b27acf023dc0e61c3777c3edf0b24.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/7138945d0d996d75d91e4f84b383e4e0.mp3"
+        },
+        {
+          "ab": "pais’upa’an",
+          "ch": "終點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/14/98617443becc829b4dddaa279060fa92.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

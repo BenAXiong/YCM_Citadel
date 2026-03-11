@@ -1,6 +1,1538 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Ndaan pusu qnquwan seediq sqquru",
+  "titleCh": "貪心的人",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "傳說，原本人類的生活是很幸福的。一開始種植小米的時候，只需要在院子裡播種一株小米。小米會由專門的人來照顧，他的工作就是坐在小米旁邊，管理那株小米不讓蒼蠅靠近，而且要不時地搖動它。",
+      "ab": "Niqan kari pnsltudan, bale ba msbleyaq ka kndesan ta ita seediq han. Tmukuy macu ciida, mhuma kingal bale pusu macu, phmaun daha siyo rhengun. Qpahun daha de tleung naq siyo pusu macu, ini dai psdaling rngedi ma slgelu daha ka pusu macu duri. Nii qpahun daha ka seediq ta cbeyo mesa.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/06/faac91c355ad7d3db0da22149f12b777.wav",
+      "word": [
+        {
+          "ab": "Niqan",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/2bb9ea909fe3c833c4f6da7dbff2ce15.wav"
+        },
+        {
+          "ab": "kari pnsltudan",
+          "ch": "傳說故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/78434b4f6135384bbb56cb01c630683c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bale ba",
+          "ch": "原本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/a444f50ab861bee2d204256664787036.wav"
+        },
+        {
+          "ab": "msbleyaq",
+          "ch": "幸福的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/8146e2c2e18623c1561faace408e7750.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ffefe00c0bba39661c9d90f6f89206dc.wav"
+        },
+        {
+          "ab": "kndesan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/11360e1f020f102b63815cb56e184131.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ab48fbb7c0c8ebea7ff34202f644a426.wav"
+        },
+        {
+          "ab": "ita seediq",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/1beb2dcd51c3ca570dc44ef18870ebc9.wav"
+        },
+        {
+          "ab": "han",
+          "ch": "最初",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7ac2bd7a333ba0fd3dd65db70aa9859a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tmukuy macu",
+          "ch": "種植小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/71f4d3689fc42e7e15820acbffa85822.wav"
+        },
+        {
+          "ab": "ciida",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/80f5d75171ea21d4a5531ede454e4e47.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mhuma",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/07cf5f4d519f0c0c36cb83fa149e3718.wav"
+        },
+        {
+          "ab": "kingal bale",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d0707b00ab7de1cee22f4c8a18cb8f70.wav"
+        },
+        {
+          "ab": "pusu macu",
+          "ch": "小米株",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/3ee3ba53788be8538b002063298500b1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "phmaun daha",
+          "ch": "種植在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/73b9e87dadc1985934152f726ac42d90.wav"
+        },
+        {
+          "ab": "siyo rhengun",
+          "ch": "門旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f56e62d30711f4a1c3a121c763196ace.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Qpahun daha",
+          "ch": "他們的工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ca21813082469c871a64598642589cbe.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d689f0bb0ecc8109fa93cd3c96c9b94f.wav"
+        },
+        {
+          "ab": "tleung naq",
+          "ch": "坐在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/695c9483129878c4c65629e94eb19fd8.wav"
+        },
+        {
+          "ab": "siyo pusu macu",
+          "ch": "小米株旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/17ff7fc6b9cb14c55272a01e2e822e9d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini dai",
+          "ch": "別讓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/987182ae7ce673006fa8a433c1f887ff.wav"
+        },
+        {
+          "ab": "psdaling",
+          "ch": "靠近",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/5141ac4b2dce04e3f80d7018b83b8bdd.wav"
+        },
+        {
+          "ab": "rngedi",
+          "ch": "蒼蠅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/aa2f4d52bfeba0067d8e3702a6047ddc.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/3a4fdc1dfbef0faa1e486b31d00c07d9.wav"
+        },
+        {
+          "ab": "slgelu daha",
+          "ch": "搖動它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/a842b4515ac69e6eb13225093f5ef99a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/11176861a31be51658b5200aecf6f514.wav"
+        },
+        {
+          "ab": "pusu macu",
+          "ch": "小米株",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/a2a61d6c307d9e2494f1a3f53fb2ca36.wav"
+        },
+        {
+          "ab": "duri",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/26e7829fc3fb92344c0242acc8ad73a6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nii",
+          "ch": "這是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/aa0d388627644ead76c3006f5f57eeec.wav"
+        },
+        {
+          "ab": "qpahun daha",
+          "ch": "他們的工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/68be9eb60b5164f9acac83f5ebbd1a39.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7712617af01748cce1a666aced56f2ab.wav"
+        },
+        {
+          "ab": "seediq ta",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ece5a180fba6a4cdebcd51866446c0e6.wav"
+        },
+        {
+          "ab": "cbeyo",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c3dbbe87aba3152f3a59126b9844e8fd.wav"
+        },
+        {
+          "ab": "mesa",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/42a9f54249b4845cc28e96c1772329dd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "人們如果要吃小米飯的話，只要採摘一粒小米放進鍋裡煮，然後蓋上鍋蓋。當小米煮沸時再掀起鍋蓋，鍋裡就有滿滿的小米飯。所以，一株小米是足夠一家人整年來吃的。",
+      "ab": "Netun so mekan ido macu ka seediq, mosa kmetuy kingal demux macu, hprayun ma gmukun ka gemuk ribo. Mbuwa ka macu, rwahun gemuk na ribo de, asi lux stenge ribo ka ido macu di. Kika kingal pusu macu, knbaka naq ppuqun kingal knkawas tnsapah mesa. ",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/06/3e4df6f5d8c00d056bbf07eb6fe40f6f.wav",
+      "word": [
+        {
+          "ab": "Netun so",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/2865f7954e76f28ab255e1cdb6a88428.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d6279d15f14d5aac4b11517604a0f3b5.wav"
+        },
+        {
+          "ab": "ido macu",
+          "ch": "小米飯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b6517ba69dd61b99524747dc3c435005.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/638dcb03cccdf03b6fbd0d5f7886677e.wav"
+        },
+        {
+          "ab": "seediq",
+          "ch": "人，本族自稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/463af25b41c39396328d8770cd565413.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mosa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/898f7cd65e9f18aa4b8e1d8472001321.wav"
+        },
+        {
+          "ab": "kmetuy",
+          "ch": "摘取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/40131f2e72dcc0c2c4d1fc3c11bd742f.wav"
+        },
+        {
+          "ab": "kingal demux macu",
+          "ch": "一粒小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/4ea91b7a13df9f34d4f1bd7314ac268e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hprayun",
+          "ch": "煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c0d147a280d8cefb6b0d61de53a9c3ff.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/773d85a8a54589019e36fb48fef0a0b1.wav"
+        },
+        {
+          "ab": "gmukun",
+          "ch": "蓋上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/daa2688907fb976494d4fdee651ec812.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d0bbe1a62856079a526c2d6c0329c2f6.wav"
+        },
+        {
+          "ab": "gemuk ribo",
+          "ch": "鍋蓋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/52498f93bb5c1825ebf59bb810a10ec8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mbuwa",
+          "ch": "沸騰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f1797c7275c1c842a14db01562070705.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/90533bc5aa3fd0c26b4d63bebcc0a08d.wav"
+        },
+        {
+          "ab": "macu",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/89aee79dac8cdc019d2b81c1883e706f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rwahun gemuk na",
+          "ch": "掀起蓋子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/8b1821f6fbfac036acacc17519791572.wav"
+        },
+        {
+          "ab": "ribo",
+          "ch": "鍋子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f0005b7ee94d75a76f5c398222ad0af8.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/24dde21424695d2e6e6b93648d1dc981.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asi lux",
+          "ch": "一下子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b6b2a8a99c98a0cab1552ae46e58bc55.wav"
+        },
+        {
+          "ab": "stenge ribo",
+          "ch": "滿鍋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ffada1f890728f60a3d8a338110dd5b8.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b4954b5900db8523013f04561825f113.wav"
+        },
+        {
+          "ab": "ido macu",
+          "ch": "小米飯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/e5144441740242cd63f1bb3127f6c254.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/99f77043f448fb45c57ba08aa5c81300.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kika",
+          "ch": "因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c0f68309a17d6f073bd2a2dee147ab0c.wav"
+        },
+        {
+          "ab": "kingal pusu macu",
+          "ch": "一株小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ad9c675a10f849a06a132c8dea891bc4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "knbaka naq",
+          "ch": "足夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/53b3b9c83557caeee571efb94cf0d83e.wav"
+        },
+        {
+          "ab": "ppuqun",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/e371153141668afdb8c3603dfc3ddae2.wav"
+        },
+        {
+          "ab": "kingal knkawas",
+          "ch": "一年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/69e39449221657f644e39bba0bc30108.wav"
+        },
+        {
+          "ab": "tnsapah",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ff3788eb3ea0b510b80a47e82a26c372.wav"
+        },
+        {
+          "ab": "mesa",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/137b70df019e1da5a4ae2a69ee6943e7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有一天，出現了一個貪心的人，將整株小米拔起來後全部放進鍋裡煮。當小米開始沸騰的時候，貪心的人高興的將鍋蓋打開，鍋裡的小米突然發出「唧！唧！唧！」的聲音，全部的小米就變成了麻雀。最後只見所有麻雀都飛走了，鍋裡僅僅留下了滿滿的小米殼。",
+      "ab": "[-AP1-]Texal ali, niqan kingal seediq sqquru, wada na asi bbili pusu macu ma psaun na pure ribo. Mbuwa macu ciida, mqaras rmaguh gemuk ribo ka seediq sqquru kii, inu di “Cik! Cik! Cik!” si kana demux macu, wada mgpuruc di. Ni skiya nganguc ribo kana puruc, wano ba gnhei demux macu ka msngari ribo truma di.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/06/6adefacb3cf186763424031115c63c60.wav",
+      "word": [
+        {
+          "ab": "Texal ali",
+          "ch": "某日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b926439f0f153376e26de14771ec6192.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "niqan kingal ",
+          "ch": "有一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/a6acde1a000e7e5762a59a407833c501.wav"
+        },
+        {
+          "ab": "seediq sqquru",
+          "ch": "貪心的人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/64bf3c22f778673954520035fefcbba2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wada na",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c5f2afc7fc71644c49e3bb08210197d8.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "一下子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/6dfdea97a47968207d2e4d27b7070f8a.wav"
+        },
+        {
+          "ab": "bbili",
+          "ch": "拔起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/056c92b667d67301e68e76aa4b20a5ec.wav"
+        },
+        {
+          "ab": "pusu macu",
+          "ch": "一株小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/0c37034b1303a7dbe8739a5c746b3547.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/2a95ba050478851297b02d9f4d2eafac.wav"
+        },
+        {
+          "ab": "psaun na",
+          "ch": "放進",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d3d3f1426a523592f3e69302bdc4ddee.wav"
+        },
+        {
+          "ab": "pure",
+          "ch": "煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/1c8d462e36ab860bdba000701de4169d.wav"
+        },
+        {
+          "ab": "ribo",
+          "ch": "鍋子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/598c5ef5956f020f1293fcaed09ffe9c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mbuwa",
+          "ch": "沸騰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/609f8f7f41f9f3459cd414a6ad520466.wav"
+        },
+        {
+          "ab": "macu",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/1e9c2c705dec77591a6111333fe2218b.wav"
+        },
+        {
+          "ab": "ciida",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/6d16de02721e1dc788652388e2cea898.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mqaras",
+          "ch": "高興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/87bd7faa82f6f55fb574a943c710fbbb.wav"
+        },
+        {
+          "ab": "rmaguh",
+          "ch": "掀起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/3cd7c4e63146694e5023f2ed6f1b53e3.wav"
+        },
+        {
+          "ab": "gemuk ribo",
+          "ch": "鍋蓋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/bf855ed724e2f95accaa6f1a59768e38.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b1bf507b4b8a49497a0057fed8e0699b.wav"
+        },
+        {
+          "ab": "seediq sqquru",
+          "ch": "貪心的人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/0f0dbf741fee6dcb6c2312cedf05cda6.wav"
+        },
+        {
+          "ab": "kii",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ea68276bb5ca5fc53f896049e04e57ae.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inu di",
+          "ch": "不知道怎麼了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/91c4d39a692a5f803880712af1ee09cf.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cik",
+          "ch": "（狀聲詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7bc530186db7361415aeef4553252f73.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cik",
+          "ch": "（狀聲詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/2460a630cdd64d19314db7329f41513d.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cik",
+          "ch": "（狀聲詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/5987768725f8e877287356cf5d112df6.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d052c8fd9d712ff26af630968751e56c.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "全部的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/1f1133cf2eb30222224ed4860f376699.wav"
+        },
+        {
+          "ab": "demux macu",
+          "ch": "小米粒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/2bfa39ed5330214a2a11b7a196628359.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wada",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/693383fb9f2ae2036990e640082fc2b5.wav"
+        },
+        {
+          "ab": "mgpuruc di",
+          "ch": "變成麻雀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/9f1b145fdf01fe2f3e6c40c4ad95c40a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ni",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/6712f40172db1c8a836f7e6d969e238d.wav"
+        },
+        {
+          "ab": "skiya",
+          "ch": "飛起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7b32b0d66d8cc4a8586f150cf21bef3d.wav"
+        },
+        {
+          "ab": "nganguc ribo",
+          "ch": "鍋外",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b4d5d9f4e3e10943b66709d8793c384e.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "全部的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/600b0672e803ab86e98fb673a6ad6636.wav"
+        },
+        {
+          "ab": "puruc",
+          "ch": "麻雀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ec3a3154be6ccbdc1a9832e90b9bfb24.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wano ba",
+          "ch": "只有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/0f2900ac30abf0059621afffe56d1044.wav"
+        },
+        {
+          "ab": "gnhei demux macu",
+          "ch": "小米殼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ba30a0d6fd329a2ad6941d63e52db147.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c43b26127bd3ae1135e30c4f294b26cc.wav"
+        },
+        {
+          "ab": "msngari",
+          "ch": "剩下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/aee869574653d00b9ffe7be3a17c0410.wav"
+        },
+        {
+          "ab": "ribo truma di",
+          "ch": "鍋裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/3251f776f1c698843643906b66eeb408.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "麻雀飛走之前告訴人們：「你們人類，從現在開始，必須要辛勤的到田裡耕作才有小米吃！」所以直到現在，麻雀還是會到田裡來吃我們種植的穀物。\r\n",
+      "ab": "Kiya hmiti kari ka puruc “Yamu seediq, kndalax bobo na de, asi namu naq mbqerus mosa meepah klaali ma meekan namu denu!” mesa. Kiya ani betaq saya, meyah mekan pnhmaan ta puruc nana.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/06/ec5d895b522eee0db4ddde3c6da17221.wav",
+      "word": [
+        {
+          "ab": "Kiya",
+          "ch": "因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/593076226bdb1cd83d9ccfd9b05e8a91.wav"
+        },
+        {
+          "ab": "hmiti kari",
+          "ch": "留話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/2cc22b3e970cc3eebc988222415db15e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7fe279dd7e0bb07901cb3cae60a68aa5.wav"
+        },
+        {
+          "ab": "puruc",
+          "ch": "麻雀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/54df41bdf1f32cb38fdb24efd9249b53.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Yamu seediq",
+          "ch": "你們人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c793dace8f142c62b2d71208f33c7d2b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kndalax bobo na",
+          "ch": "從此以後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/546c5b6ee40602fca69543e7a1da800d.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/af77a1cca7d56463ea1dd502119c4528.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asi namu naq",
+          "ch": "你們必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/0c10d5f87c4e51e0f45e7726cfacfe88.wav"
+        },
+        {
+          "ab": "mbqerus",
+          "ch": "辛勤的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c204030f1dfe6502d3a8d7c21142d7ea.wav"
+        },
+        {
+          "ab": "mosa meepah klaali",
+          "ch": "每天工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c794a77c20591c6f55dfe3ee0063d6b7.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ad7320ac5246d01515e9656956cb6cdf.wav"
+        },
+        {
+          "ab": "meekan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7f77e63185a4dfdd8fb419bfc6fd1210.wav"
+        },
+        {
+          "ab": "namu",
+          "ch": "你們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/68051d7612e34c57a2c2c695073cbc01.wav"
+        },
+        {
+          "ab": "denu",
+          "ch": "就會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/5a2188c72576dc47cbc43737c534cd01.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mesa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/18cf51031089468757fa7f4e9d953ebf.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kiya",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/97c0b97d79feb57ef027d3f9d51b9b24.wav"
+        },
+        {
+          "ab": "ani betaq saya",
+          "ch": "直到現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/29ac693832d18f516fb2766ec7f2163f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "meyah",
+          "ch": "會來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ff75f78736f76a87682fcd7df68beb4c.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b8442d3cb5b9d4065f37fa36b28ebf5c.wav"
+        },
+        {
+          "ab": "pnhmaan ta",
+          "ch": "我們的農作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c87ec594dbeeb1dad8a09c59c4a86917.wav"
+        },
+        {
+          "ab": "puruc",
+          "ch": "麻雀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/940e2c6788d3b0b85fb6f13274f21237.wav"
+        },
+        {
+          "ab": "nana",
+          "ch": "還是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/8462d2d3e4bda3ec31adefd443d0c726.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "還有，如果人們想要吃野味的話，只要呼喊著野獸的名字，野獸就會跑到你的門前。人們只要拔下野獸的一根獸毛，將其放進米篩上接著蓋上另一個米篩。過一陣子，就會聞到野獸的香氣，米篩就會有滿滿的野味了。",
+      "ab": "Niqan dungan, netun mkmekan wawa ka seediq, lmawa ngayan na camac de, asi eyah mheyu rhengun sapah ka camac. Kika blebil kingal uban camac, psaun bobo btuku ma bungun kingal btuku nana. Ini qbsiyaq, smkenux hengac na wawa de, asi lux stenge wawa ka btuku di. ",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/06/f8317344fad9fbf32d99dc0b0d6b2643.wav",
+      "word": [
+        {
+          "ab": "Niqan dungan",
+          "ch": "還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/831af7e9926066530e49e95103d964af.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "netun",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/0049d47864a7e6d1964e0a9cf2333f18.wav"
+        },
+        {
+          "ab": "mkmekan",
+          "ch": "想吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/87c7119c71786b6e20960b085846e6fc.wav"
+        },
+        {
+          "ab": "wawa",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/aef112d9cd8da3f3333fb3d80bb1bba9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/4cdb83faecc173d0457053bce402f821.wav"
+        },
+        {
+          "ab": "seediq",
+          "ch": "人，本族自稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/79c094c4ac8a5ab7bd96977a292d2335.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lmawa",
+          "ch": "呼喊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/8a3a07c8ef4d4a2b364ec4349b485155.wav"
+        },
+        {
+          "ab": "ngayan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ab225252b3add96f2f4224e37bc5b0c7.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/1546d1b288bf33df4ff4f892c7754bab.wav"
+        },
+        {
+          "ab": "camac",
+          "ch": "野獸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b66e7cc0f05db7325d8cf2096bda2f4b.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/1ec97d018bf84db64311cb4cb063f778.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asi eyah",
+          "ch": "立刻來到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/4f928c7c19b494278e7a2ff12c3a9a98.wav"
+        },
+        {
+          "ab": "mheyu",
+          "ch": "站在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/9138bc489760c3a389678d874e01a0b1.wav"
+        },
+        {
+          "ab": "rhengun sapah",
+          "ch": "家門前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/760b8a204e11ccd1b5e81deb3ed6b2a4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/139221ca1ea3736dda79e8fb04978ec3.wav"
+        },
+        {
+          "ab": "camac",
+          "ch": "野獸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/0ab91e2f91631fa0cca0814955328eda.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kika",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/6c8757858a76fc26e7b3a7dd0ae66503.wav"
+        },
+        {
+          "ab": "blebil",
+          "ch": "拔起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f83f19fbf79eb8d58de32c99186ae32a.wav"
+        },
+        {
+          "ab": "kingal uban camac",
+          "ch": "一根獸毛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b16ef1263c49fc596bb9506bb3b6180d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "psaun",
+          "ch": "放進",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/3cf1df9983158fb40db1c539fd8409b8.wav"
+        },
+        {
+          "ab": "bobo btuku",
+          "ch": "圓箕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/56b9eb3be6fb3c7f4144531ec516bf53.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/5f1b7731ebb677190e934ff7f030c317.wav"
+        },
+        {
+          "ab": "bungun",
+          "ch": "蓋上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/42d2bbd9768ba637c080824f3653a158.wav"
+        },
+        {
+          "ab": "kingal",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f9b914fab02f924b6351ceb96b8011c7.wav"
+        },
+        {
+          "ab": "btuku",
+          "ch": "圓箕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ebdaa9194d9845bbbc65839d25850a4c.wav"
+        },
+        {
+          "ab": "nana",
+          "ch": "再",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b58bef7205bb8f36e923f525f5c42afc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ini qbsiyaq",
+          "ch": "過沒多久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c46e56a0f9280a2b9d0da22722ff76f6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "smkenux hengac",
+          "ch": "聞到氣味",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/02bfde5baf4dfa6eb29028e30526e038.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/e69dbe15de53a1ce74574e3b3769b7aa.wav"
+        },
+        {
+          "ab": "wawa",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d2f636a7ac41408451ffcc0a87a2157d.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d5684b016ee02d6614a468db8f3a0430.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asi lux",
+          "ch": "一下子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d86778913960918f8af26b52e23848ba.wav"
+        },
+        {
+          "ab": "stenge",
+          "ch": "滿滿的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b2e33943fb573dc1d58e2b4e4ddf3983.wav"
+        },
+        {
+          "ab": "wawa",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/17abddc6703194aae1b4805722bfd0e9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/6f723495dc411fe44374aebeefb748c9.wav"
+        },
+        {
+          "ab": "btuku",
+          "ch": "圓箕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/21/5e879b2ad50395d0cedca8410efd9049.mp3"
+        },
+        {
+          "ab": "di",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/21/6dc943f2c2dcfd0644a1a28562f2befc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "可惜人們對過去的禮俗不懂得珍惜。有一位貪心的人，也像那樣呼喊山豬。聽到呼喚後山豬立刻來到了他的門前，他就拿起山刀割下山豬的肉。忽然間山豬痛苦吼叫著，傷口流著血往山裡逃跑了。",
+      "ab": "[-AP1-]Ani so hawan ba ka gaya ta cbeyo nii. Niqan kingal seediq sqquru si, muyu na so kiya ka lmawa camac duri. Splawa na boyak ma asi eyah mheyu rhengun sapah, inu di mangal yayu ma asi na kreti ka hei boyak. Asi lux trrengac mnnarux, wada sddara qduriq lmiqu ka boyak di. ",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/06/60457a4e050d86678c8e71d970b8d576.wav",
+      "word": [
+        {
+          "ab": "Ani so",
+          "ch": "不論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/dccdd0e0867f78de1cdb5b6a78bcc897.wav"
+        },
+        {
+          "ab": "hawan ba",
+          "ch": "可惜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7b128db6c43c74293e8505f7d96dbe4f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f22b63c531e6511dc43266ec687a7c41.wav"
+        },
+        {
+          "ab": "gaya",
+          "ch": "禮俗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/bf4e870e14d65524a67d691f2817759f.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/cd00239994caedd0f8773b82a6aaf0d5.wav"
+        },
+        {
+          "ab": "cbeyo",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/049e319079d93ee3421d0f5508c389ef.wav"
+        },
+        {
+          "ab": "nii",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b5b0a0ae1b8ab4bab4ae9a5a59c71451.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Niqan kingal",
+          "ch": "有一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/6674eac4b2926284990258697ecc1305.wav"
+        },
+        {
+          "ab": "seediq sqquru",
+          "ch": "貪心的人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/5deab2ef5ba84b77872088e19f59473a.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "說過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f2be56bbf5b4dcf87ee788d80fea2a7b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muyu na",
+          "ch": "模仿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/0d054af25938fd7aa917a6fd9154735a.wav"
+        },
+        {
+          "ab": "so kiya",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/3076fd5bdc01e97ccd9243cabd607e0f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/5b41a1da414c902a8f120447648240d7.wav"
+        },
+        {
+          "ab": "lmawa",
+          "ch": "呼喊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/55e36a972093b841ff627923cb5a6926.wav"
+        },
+        {
+          "ab": "camac",
+          "ch": "野獸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7b0494657d56fdaec064b34fa3c46f4e.wav"
+        },
+        {
+          "ab": "duri",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/723f19dba0c6f89d144335aae3c5bd80.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Splawa na",
+          "ch": "呼叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/26c42aeae1ebde0e1c49f48a958f492b.wav"
+        },
+        {
+          "ab": "boyak",
+          "ch": "山豬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7abf90fe19e3ba69cbc7511f63bef884.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/cc806f294416688f92734bf05ed02280.wav"
+        },
+        {
+          "ab": "asi eyah",
+          "ch": "立刻過來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/fe20ccadae39041468dc7c249178bfdf.wav"
+        },
+        {
+          "ab": "mheyu",
+          "ch": "站在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/fc665510a5b171ee8b2bb7f4857b44ed.wav"
+        },
+        {
+          "ab": "rhengun sapah",
+          "ch": "家門前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7e6ee1b2520d6bc0ad58c9d6499b9b1b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inu di",
+          "ch": "不知道怎麼了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/dce3fd2c21987952f99136bcab16457b.wav"
+        },
+        {
+          "ab": "mangal",
+          "ch": "拿起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/40ab7fc73ab2c12fc021d78fef03b1a8.wav"
+        },
+        {
+          "ab": "yayu",
+          "ch": "刀子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7fb298b2310380560cd02305b2c275d0.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/a9d3b1510e534b38a0f6d70ab2ed85a4.wav"
+        },
+        {
+          "ab": "asi na",
+          "ch": "立刻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/dac1298b5fc8b517ae83a3a2096f983d.wav"
+        },
+        {
+          "ab": "kreti",
+          "ch": "割下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/8044a4e28188b610bb346a7f5e3821a4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/1d74226e30ac74391b7f9cbd0ece9f48.wav"
+        },
+        {
+          "ab": "hei boyak",
+          "ch": "山豬的肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/cf5d95ed6f3e975131a11a8c6180d26e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Asi lux",
+          "ch": "突然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/6c1da8227626e918ee40077e41775154.wav"
+        },
+        {
+          "ab": "trrengac",
+          "ch": "吼叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c8cbebffebba6c846868588158e68b30.wav"
+        },
+        {
+          "ab": "mnnarux",
+          "ch": "痛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/e126164db375ba3c6fad6b246c2ba488.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wada sddara",
+          "ch": "流血",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/7cf0ce3b423659f8c013f132aa47c577.wav"
+        },
+        {
+          "ab": "qduriq lmiqu",
+          "ch": "逃到山林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/1db5a6ce8d1934c6ad9a3a1bfa0db9fa.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/c85de19bdfc57cda5ad9b940f6b83cc2.wav"
+        },
+        {
+          "ab": "boyak",
+          "ch": "山豬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/6eba7a519fa5302bab129f09672a1447.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ddd616061e0ccb9e9d9a8fa4e2cf46f2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n山豬逃跑之前告訴人們說：「你們人類，以後如果想要吃野味，你們必須到森林裡去打獵，身體還要忍受刺痛才能吃到野味」。自此之後，人們若想吃野味的話，就會到山林狩獵。",
+      "ab": "Kiya hmiti kari ka boyak “Yamu seediq, bobo na de netun namu so mkmekan hei ccamac, asi ka moda tdiyan pako kana hei namu ma mangal namu denu!” mesa. Kiya ani dehuk saya, netun so mkmekan hei ccamac ka seediq ta de, mosa naq phuling lmiqu dhenu. ",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/ca98c391f328d28a1a20af8bd79cfa36.mp3",
+      "word": [
+        {
+          "ab": "Kiya",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/3850e224e132cae89c03cd59e31aaa05.wav"
+        },
+        {
+          "ab": "hmiti kari",
+          "ch": "留話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/640e8c20d035251e933669755995e72c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/543eec60c99ad2eb9aa6ce766b3af133.wav"
+        },
+        {
+          "ab": "boyak",
+          "ch": "山豬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/e026e74f7cebe2ace23ae117b0526bc3.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Yamu seediq",
+          "ch": "你們人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f0488a9868564c681a7505f428fc9caf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bobo na de",
+          "ch": "以後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b42e93565590e5cde3678eb14b34cc5f.wav"
+        },
+        {
+          "ab": "netun namu so",
+          "ch": "如果你們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/89004b3478b94f01e57ed5c89f8ce228.wav"
+        },
+        {
+          "ab": "mkmekan",
+          "ch": "想吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/48522f85ebb86e54a38763111fd67faa.wav"
+        },
+        {
+          "ab": "hei ccamac",
+          "ch": "野味",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/d5a82ccd6235849a9d571f5a8c50bdd3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asi",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/584ce08682643f1018a5d8160af68239.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/84e84385da41d3bdd26646bb862d5554.wav"
+        },
+        {
+          "ab": "moda tdiyan",
+          "ch": "被…困住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/49db66e31d22b51da6e4cb850bf0ce29.wav"
+        },
+        {
+          "ab": "pako",
+          "ch": "植物的芒刺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/91c8ee26d8c1e4f64d7825ffc47e621d.wav"
+        },
+        {
+          "ab": "kana hei",
+          "ch": "全身",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/8bad004d1af6be0e6b20946e4804d4f5.wav"
+        },
+        {
+          "ab": "namu",
+          "ch": "你們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/fb77723ac6a75b2dfa7636213fc12803.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/216b9676f93cd78c2ac3f1cf289cd977.wav"
+        },
+        {
+          "ab": "mangal",
+          "ch": "取得",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b863c40b888b745c040e88f7693b44f7.wav"
+        },
+        {
+          "ab": "namu",
+          "ch": "你們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/904267bb512cfb94e6ae280d94ff675e.wav"
+        },
+        {
+          "ab": "denu",
+          "ch": "就會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/93a24137c112acca5034d0335ef0e2d5.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mesa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/abed358f7eab23c858d442727c85e0ae.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kiya",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/10239021ed2f1f5a87442ffb02cbc3c5.wav"
+        },
+        {
+          "ab": "ani dehuk saya",
+          "ch": "直到現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/35dfa33a6cde2bf886d64bee03701656.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "netun so",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f532e045893c86a73f06749cce667012.wav"
+        },
+        {
+          "ab": "mkmekan",
+          "ch": "想吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/b048c635eefe42848b571b1bef03f751.wav"
+        },
+        {
+          "ab": "hei ccamac",
+          "ch": "野味",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f816dcbcb70de6f202c1b56ab7414d21.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/ef579bec88fe4c1320b1585cfab82a0a.wav"
+        },
+        {
+          "ab": "seediq ta",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/623633965e8778592f14b74c0297b5be.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/f0753bace4420c31884553ebcc334d6d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mosa naq",
+          "ch": "自己會去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/0dd46d8987bf9cf52ba392fde1c27ae0.wav"
+        },
+        {
+          "ab": "phuling lmiqu",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/a871daaaf05924d8bf74b4569f97f6f4.wav"
+        },
+        {
+          "ab": "dhenu",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/20/9326372ed2f60140ebb87eff992225d6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

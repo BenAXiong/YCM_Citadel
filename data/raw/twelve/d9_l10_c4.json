@@ -1,6 +1,534 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Qanup Tu Samu",
+  "titleCh": "狩獵的禁忌",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "從前布農族人要到山上打獵時，會先聚集年輕人。然後，按照有適合的夢兆的年輕人，作為狩獵的領導人。",
+      "ab": "Maaq dau qabas Bunun i namunludun qanup a, mungasu dau mas’ampuk i maindudu’az. Ukaa, sanasia haiza’an asiduu sintaisaq tu maindudu’az a pin’uniun lalavi’an.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/61e40fcd266f6924734eefc31492e4b7.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/baa9c50420112c3411e4d87614108554.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ecb1be291b099432237e456f3aed9f12.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/7742b7dab4579b0c86638453e45a2872.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/72fed322f249b9589b296c9ba96113e3.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/5792a227e0f56a94e118de0585387c32.wav"
+        },
+        {
+          "ab": "namunludun",
+          "ch": "要到山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e490b26afec38de1a0752227ba3ddf23.wav"
+        },
+        {
+          "ab": "qanup",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/976232f256ded42986f7fde7ea4e2ded.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/3d33f9e27159690bdb292746f9e1db8d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mungasu",
+          "ch": "事先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ec97b3455d25310a00e49c9abf0633a1.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/767593ee1911f484bc931f9a10f34b66.wav"
+        },
+        {
+          "ab": "mas’ampuk",
+          "ch": "聚集",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/874e32f9341fbd8141c45090f858e30b.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/82b70f2721b40dc07415e12bd6c12a33.wav"
+        },
+        {
+          "ab": "maindudu’az",
+          "ch": "年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/33a5ab413bb8e155ad89c29dbaced31a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ukaa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/09e8fef7c74627eaadebcc0f0d15e2e8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sanasia",
+          "ch": "按照",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/30f240dc14aa708deda6f0a0606ff810.wav"
+        },
+        {
+          "ab": "haiza’an",
+          "ch": "擁有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/67b7b196a1d3529edd7d8a896d1b7b1d.wav"
+        },
+        {
+          "ab": "asiduu",
+          "ch": "適合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a6953af76df8ac424ed91eecfe6bf582.wav"
+        },
+        {
+          "ab": "sintaisaq",
+          "ch": "所做的夢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/0b025724175e671bc969bdaca29ddc46.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a3406b19ea76752fa277b70037448e0d.wav"
+        },
+        {
+          "ab": "maindudu’az",
+          "ch": "年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/0ceed3b289e76c7f6ac4cdd6083a0966.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/12/bbd561d0dbdb6bd2583568c1e78a5911.mp3"
+        },
+        {
+          "ab": "pin’uniun",
+          "ch": "使…成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e18b1ce90cd151f15a236b6a310cc7f5.wav"
+        },
+        {
+          "ab": "lalavi’an",
+          "ch": "領導者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c249e9902551985fca7bb2c496f67cc1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "當要出發前往山上時，先祭祀並分配山肉。分配的山肉一定要剛剛好，狩獵的路途才會平安順利。",
+      "ab": "Maaq tu namudaan munludun a, tangusang mapatvis mapaqusil titi. Asa tu pankanaqtung a sinpaqusil, tudiip dau inundadanan namasvala madauzung.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e63e28f4e0b0bb9c14f09cba65380b1a.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/5d5e9515b2f2319924790e7b360ca785.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/6896521bf2c62949dbdfa65176cc45f9.wav"
+        },
+        {
+          "ab": "namudaan",
+          "ch": "要出發",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/3315588acf14179de8e0b2cd9285407f.wav"
+        },
+        {
+          "ab": "munludun",
+          "ch": "去山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/86686c6057489287cb609e4f81f3e1b3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/cfb5325c83ad40797068e162c50ee5a0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tangusang",
+          "ch": "事先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/fada60ac427a94ddc93f9554c523f402.wav"
+        },
+        {
+          "ab": "mapatvis",
+          "ch": "祭祀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1facae6326242d7a0a2139b08546ec58.wav"
+        },
+        {
+          "ab": "mapaqusil",
+          "ch": "分配",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/69ae57a20fbf05b1b85b4f1ed95c3fee.wav"
+        },
+        {
+          "ab": "titi",
+          "ch": "肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/93252740625b1bcb6dfa091de2d09202.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Asa",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8ed700a6d0de777200111377efb82f53.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/746d3a5820bf0745b12072c64be03429.wav"
+        },
+        {
+          "ab": "pankanaqtung",
+          "ch": "分配得剛剛好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/5ed9f910a5a0bb195a269bda9d82af81.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1c21b0912f1088c26479be9299203f2b.wav"
+        },
+        {
+          "ab": "sinpaqusil",
+          "ch": "所分配的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/22cc70b02596865f1ec15c5b156574fb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tudiip",
+          "ch": "到時才能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/2ea3ff45d620f62b6669490c57394f3c.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/47b263e3b40d20089f2d73695fd2c2bb.wav"
+        },
+        {
+          "ab": "inundadanan",
+          "ch": "行經的路途",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f8901656b0f02a487c453b1479be1f46.wav"
+        },
+        {
+          "ab": "namasvala",
+          "ch": "會很平安",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/2854675c4cd60e1c303659b5b78c89fa.wav"
+        },
+        {
+          "ab": "madauzung",
+          "ch": "很順利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/be84663149780a7ca5a112689df4dc7a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "要出發時，不能放屁和打噴嚏；不能打掃家裡；不能吃橘子、蕗蕎。也不能夠織布和燃燒任何東西。",
+      "ab": "Maaki namudaan a, nitu maqtu kipsit siin qasbing; nitu maqtu ma’asik lumaq; nitu maqtu ma’un izuk, tulkum. Nii amin maqtu matin’un siin mapistabah ma’azma’az.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/6395ac11383a175ff4f80a4c628f64a8.wav",
+      "word": [
+        {
+          "ab": "Maaki",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e585c2ea8a6ff12e60c1c3e07d024079.wav"
+        },
+        {
+          "ab": "namudaan",
+          "ch": "要出發",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f90399d380904e64e59ceb60ce084cf4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8569aad08bd79e68d8a5d2b2ee505408.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e8e64db539e34e76a55975b07ab716ff.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/393418aa6851c719aac2d2d6216f5159.wav"
+        },
+        {
+          "ab": "kipsit",
+          "ch": "放屁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/11d0f51d9aced381efa5ce3214d9228e.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a11b84b38879d751f48fa321120f0c55.wav"
+        },
+        {
+          "ab": "qasbing",
+          "ch": "打噴嚏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/61e670052abeb520b2e8ddd7b57c845e.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/636e4b73ee4f49965cd001bdb75fe1d1.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1d8535d9bbe1c66cb6ba50e7f9bb9ee9.wav"
+        },
+        {
+          "ab": "ma’asik",
+          "ch": "掃地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/366971226c73b87ab69e87918b9338a5.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d3ed9e3df6007d59a203f7b692880796.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/bc7386076e4bf0bd4c58874726403e1e.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/fba6c96d44ce830a1d5886fab5a15fa5.wav"
+        },
+        {
+          "ab": "ma’un",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c9ce1073ab925d72782e22228ac4e2b7.wav"
+        },
+        {
+          "ab": "izuk",
+          "ch": "橘子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/0f66d5d47cc484792935962c50253404.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tulkum",
+          "ch": "蕗蕎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/71497f728b86b55d965edbf1849cca8d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nii",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/9a568a2aa8c19a3155607f84137d92a8.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/936e8d43184bc47ef34e25e426c508fe.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/db49d990bff2b2c5e1ac041cba78b21c.wav"
+        },
+        {
+          "ab": "matin’un",
+          "ch": "織布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/6c366534a48f3e57554bedb024240e1a.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/03994131659f561249054ea1c99097f7.wav"
+        },
+        {
+          "ab": "mapistabah",
+          "ch": "燃燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f3717533a90a8ecb1de730050beab052.wav"
+        },
+        {
+          "ab": "ma’azma’az",
+          "ch": "任何東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/9dcba86641df3c4ee2ec515eecf72b46.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "那個還沒有被娶的女孩子，不可以任意到別人家裡拜訪。",
+      "ab": "Maaq a ni’ang siza’un bananaz tu binanau’az a, nii amin maqtu katmang tantungu duma bunun tu lumaq.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/663ad9fa2aa6c2af4e1d8915e2c6fd9a.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/aba0914ea8fdd89e9755d3a90ab757ff.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1e81285f8a20c333002a35aaec157225.wav"
+        },
+        {
+          "ab": "ni’ang",
+          "ch": "還沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1d1e62052e90a97409270f31326f5b0e.wav"
+        },
+        {
+          "ab": "siza’un",
+          "ch": "被娶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c3545e60f4ffbd11070bdb7991ba3782.wav"
+        },
+        {
+          "ab": "bananaz",
+          "ch": "男孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/10c29792a08f56790e68db8a55f52fc7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/0f6e041384095b93e25ee082e4ceb061.wav"
+        },
+        {
+          "ab": "binanau’az",
+          "ch": "女孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/02d1c57bee2e1f4096c95c7b1f9f4238.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f8531013695084f6fd79ed6d8e24b2d6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nii",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b1196e4d5f25b0c1c3e45ee482191aad.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c9cb01d4b65b151ac87d80ce4da3db1b.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/79eaddfac4d679d6cc0d9b07456c4ae1.wav"
+        },
+        {
+          "ab": "katmang",
+          "ch": "任意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/5b465c13fd8cac3b9baf4af74bc0069a.wav"
+        },
+        {
+          "ab": "tantungu",
+          "ch": "拜訪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/0962e5897373acba79bc05179dd70492.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/46e6d0f07b047818edf84360acd315c7.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/79ed69cea0c5acff725c343bfd68e469.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/3448ee847ece99c2cc9e25a0a57ffeb5.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/416b9feb0ec119ee3914f27ceda31d79.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

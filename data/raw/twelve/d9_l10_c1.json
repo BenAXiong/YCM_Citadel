@@ -1,6 +1,616 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Bunun",
+  "titleCh": "布農族",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "很久以前，有一個男人和一個女人住在Lamungan地方。有一天，男人作夢，夢到要用蛇蛻除的蛇皮，敲擊女人的背部三次，女人才會懷孕。",
+      "ab": "Qabas-daingaz dau, haiza takihaan Lamungan tatini bananaz siin binanau’az. Haiza tu tastuqani’an, mataisaq bananaz tu, asa makusia haqil ivut, maludaq binanau’az tu hiku muti’un a, tudiipin maqtu anbubuut.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/3769d93a219d1162bd4ae48dd988c01e.wav",
+      "word": [
+        {
+          "ab": "Qabas-daingaz",
+          "ch": "很久以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/b37ffe9e8f67937ea21dc01fd2c41a39.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8c2b7c5f9176bd359d4d42f4e9f9f15d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/4372e2ba2d04ea409b6d4a391641f938.wav"
+        },
+        {
+          "ab": "takihaan",
+          "ch": "住在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/5f4f7141b65a730b4efb0e0d51f63e94.wav"
+        },
+        {
+          "ab": "Lamungan",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/64ce463c6856e0e3867dea50033e8a29.wav"
+        },
+        {
+          "ab": "tatini",
+          "ch": "一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/d9798cdf31c02d86b8b81cc119d94836.wav"
+        },
+        {
+          "ab": "bananaz",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/2383c7d07bce3c82e6da7741782de416.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/66df243d406353d0e9db6c5dd027d2d6.wav"
+        },
+        {
+          "ab": "binanau’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/e463f97ca6bc46b1ba706474e108c7e1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/e98cb037f376fa53b314c166766ef55e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/8381872fa17f9dcb5fdb58802461c46e.wav"
+        },
+        {
+          "ab": "tastuqani’an",
+          "ch": "一天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/e4c8c477d15f72bef65651ddb22c5891.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mataisaq",
+          "ch": "作夢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/ac3f1cb73bc8810830788e8c68a03a4a.wav"
+        },
+        {
+          "ab": "bananaz",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/750622b888646661fb918749ee3e550f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/21adc1868d67ad76612abec6167046e4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "需要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/ac09bdc10c90d57bd2d9117485ce3fa7.wav"
+        },
+        {
+          "ab": "makusia",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/6eab78f10219a83895b2e2d71dc0656e.wav"
+        },
+        {
+          "ab": "haqil",
+          "ch": "蛇皮；紙張",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/fce1eab4411d5df240d93ff334f15385.wav"
+        },
+        {
+          "ab": "ivut",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/6c6b56eeda970754d230cbfb815779b0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maludaq",
+          "ch": "敲打",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/20e3c52b6204040da78744a257a6dc73.wav"
+        },
+        {
+          "ab": "binanau’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/180123dccc1e079eb3dff759832cb255.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/f42ecaa3e45ed749f2894e6427e68694.wav"
+        },
+        {
+          "ab": "hiku",
+          "ch": "背部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/1d103fb53db40d37fc4166d697532321.wav"
+        },
+        {
+          "ab": "muti’un",
+          "ch": "三次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/80ce4326387c091af8b8647f3292c818.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/20134e6c229321b9ca3f9e25c05c5293.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tudiipin",
+          "ch": "才會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/573572e4e9a8486a02fbc7eeeaffba7b.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/39458c39f6951df4f647321c79c993c8.wav"
+        },
+        {
+          "ab": "anbubuut",
+          "ch": "懷孕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/99a805bc0d0845bf489b9b09ad69ea30.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "第二天的清晨，他照著所做的夢，拿一張蛇蛻除的蛇皮，敲打女人的背部，女人真的懷孕了。不知道什麼時候，真的生了小孩，是四位男孩、三位女孩。",
+      "ab": "Laqbingin tu tingmut, kapimaupa naipa tinaisaqan, siza tas’a ivut muhiqilin tu haqil, muti’un maludaq binanau’az a, tuza binanau’az a tu anbubuutin. Lakuin dau, tuza tu tus’uvaz’azin. Saspat a bananaz, tatau ka binanau’az.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/73b0224bc6bcf2334b92e18bf15ef7e9.wav",
+      "word": [
+        {
+          "ab": "Laqbingin",
+          "ch": "明天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/91d5cf69202ac51fca62d47a43e024fc.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/09ce3c5fe952c1b21211e3f0ae3bb757.wav"
+        },
+        {
+          "ab": "tingmut",
+          "ch": "清晨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/c4d2cec38fa1da8b5d37758873c3678d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kapimaupa",
+          "ch": "按照",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/cc0c03944d54e6fb0a27aa25d3c43dfc.wav"
+        },
+        {
+          "ab": "naipa",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/17cc53731572f4cbf6eaaa130e9ca10d.wav"
+        },
+        {
+          "ab": "tinaisaqan",
+          "ch": "所做的夢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/abcd57b3f26fd98d60f6c1f85d1e48de.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "siza",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/0dec9888c9eef9448e080a18d01d5220.wav"
+        },
+        {
+          "ab": "tas’a",
+          "ch": "一張",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/93fbe03d0e7b762d188a63f89bc1b75f.wav"
+        },
+        {
+          "ab": "ivut",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/e6782087caa9679395ea9100ae5d0ea3.wav"
+        },
+        {
+          "ab": "muhiqilin",
+          "ch": "脫落的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/2fe4b13d9f35cdcf8083d1525b42c81c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/a0e60a138fbb31f5fbea2fb761e30c69.wav"
+        },
+        {
+          "ab": "haqil",
+          "ch": "皮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/40eae2780e80243bf0324b4557ee2fd8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muti’un",
+          "ch": "三次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/ed8b6e740b9f8822cc39ac4c62a211af.wav"
+        },
+        {
+          "ab": "maludaq",
+          "ch": "敲打",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/8ab40c2001dceb9682e4c6e10cb75b64.wav"
+        },
+        {
+          "ab": "binanau’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/b3a153ec4be947cbee37d78cead6552b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f1017c1c7ca672a0b82961a6d2c5bab8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tuza",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/c4bb5a353be47442aa65df4e7ec64cae.wav"
+        },
+        {
+          "ab": "binanau’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/1cea227cb2ca29383f916aef863a2dd8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8cacb05141a62321548b0689ad4579a8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/745c7d75786602f3105a69845316ff61.wav"
+        },
+        {
+          "ab": "anbubuutin",
+          "ch": "懷孕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/47248f6127fcae1dd2b9a47d43aa4c9d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Lakuin",
+          "ch": "不知何時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/a52168f7d6bd25d2d4e7f6a927ce5977.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/0d29d12b8c2169b35189bdffd68a7995.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tuza",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/f9d15850234291f8df6f03c468fb5cc7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/e7a791ef7b3cccca6510dcc82ac48291.wav"
+        },
+        {
+          "ab": "tus’uvaz’azin",
+          "ch": "生孩子了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/482bd57ea95bb42cc15c82d63af42ea9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Saspat",
+          "ch": "四位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/3fd7c6aa5a7c30527f3d2a42f89ca530.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c7cfbf9f79f5b277b5d74e2419c60a50.wav"
+        },
+        {
+          "ab": "bananaz",
+          "ch": "男孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/aed56e569b6d56dc436e9c9d9bce42dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tatau",
+          "ch": "三位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/05d9badacfacac78a47cc067c4e90353.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/b1823297adf46a9cadba8244c11655ad.wav"
+        },
+        {
+          "ab": "binanau’az",
+          "ch": "女孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/bd5bbd79ead46e4172253e0d862b5246.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "孩子都長大成人，也都結婚成家，後代越來越多。因為有一條巨蟒堵住了水路，淹沒了陸地。所有的族人逃到玉山、Binuqazan和Tansimuk。",
+      "ab": "Taldaingin amin a uvavaz’az, mapasiza’in amin, minlalabasin amin a maikikingna. Maupa i haiza ivut-daingaz laqdut danum, aupa laning’avanin amin a, uka’in amin sadu’an a dalaq. Musbai ka bunun masaupa Saviq, Binuqazan siin Tansimuk.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1d4b76905ac6652ff780a48096f49879.wav",
+      "word": [
+        {
+          "ab": "Taldaingin",
+          "ch": "長大了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/9b567223cada8f26e92a5223b1c7d8a8.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/4e9f20772a3fa0c83f76dae9c6e06008.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/bbc502f239f99ddce9b2889e7da81684.wav"
+        },
+        {
+          "ab": "uvavaz’az",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/8321e047fb413f251abf34adf1e49a1b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapasiza’in",
+          "ch": "結婚了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/06df3703b8d7910418d900604aa1bf86.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/b689e747d1360e42e9dbb90fa68d9e83.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minlalabasin",
+          "ch": "增多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d927d23c930781800eaefa38f667b2a2.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/5e7b46caa9a02a3e3af097af5d27fab5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d26bc3c884417b69a0b975b5bc34f344.wav"
+        },
+        {
+          "ab": "maikikingna",
+          "ch": "後代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/cd3ae697a7a2f79d3909f2f6c41b51c7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/5237ae9876978e9caf31d2c54ffdb106.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/a211ea6965ec4a24fa63078baa56a8d4.wav"
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/ac539936ccf02065d63dbae632df5d4a.wav"
+        },
+        {
+          "ab": "ivut-daingaz",
+          "ch": "大蟒蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/402505605ae8401eb9598484ae1472ff.wav"
+        },
+        {
+          "ab": "laqdut",
+          "ch": "阻擋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/aad82857fab8c954239645e7bf631827.wav"
+        },
+        {
+          "ab": "danum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/00053f5e11d1fe4e49a221165b39abc9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aupa",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/9142830d6d64b2525493c9922149ceec.wav"
+        },
+        {
+          "ab": "laning’avanin",
+          "ch": "被水淹沒了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/fbca336e199c90d72670d50eb650d42a.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/996c1e5fc73b842fb7a51bafcab3ffce.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/039d87b2e37052561a07a6066a88582e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uka’in",
+          "ch": "沒有了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/58a7e42277b10f6112e4780ac6cde319.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/131e28c946ec1e010dc02a8f53cec237.wav"
+        },
+        {
+          "ab": "sadu’an",
+          "ch": "看得到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/e7184542e25cea4e2e334ac2ca220d19.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/99a03297cd334305eeb21e19bf0ad056.wav"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/9a3e594b26056b67a02cac0e510393d1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Musbai",
+          "ch": "逃離",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/105773e3edc76ba90bb1d60913dffddf.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/ed47c903ad66558cbdb749e44bc89b1b.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/94b2b0f4b6764b8bca29501e0b26cc2c.wav"
+        },
+        {
+          "ab": "masaupa",
+          "ch": "前往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/489dca82b123cc23aa7500ea13028679.wav"
+        },
+        {
+          "ab": "Saviq",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/dea1b3b9a2b2e711854674823a3d3034.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Binuqazan",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/8ac462c3beb1a7bb86506bb0218c55af.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/e63ea51eeb9eb4b91a6c3e5bf35695ed.wav"
+        },
+        {
+          "ab": "Tansimuk",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/17/f45fe3f64d37932f037761c6bf9a46db.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

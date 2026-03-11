@@ -1,6 +1,671 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "dhona’i talekenai ma’apiicongo tai’aeni",
+  "titleCh": "我們的飲食會區分功能",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "如果我們已經吃膩了米飯和地瓜，那我們就做小米或稻米年糕。男人若去溪邊釣魚，我們會把魚肉做成餡，用年糕包起來食用。",
+      "ab": "lo maerekenganai ’i va’oro, mairange kone, opoanai coloko vecenge, pahai. mani dhaace ’i a’olalai moa lroikiikisi mani poamao palripoco kone.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/39bfbb2db6ddac3c2ded4a3e07e54102.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/0d5a8a1425433429e848016c9dfddf69.wav"
+        },
+        {
+          "ab": "maerekenganai",
+          "ch": "我們膩了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/43ce4e33cd6d9ac5be86b1bec5422891.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/62c8aa75297f642caa3a0d552b0788d1.wav"
+        },
+        {
+          "ab": "va’oro",
+          "ch": "飯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/5e179e34e2697e9e4711918daf168e9b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mairange",
+          "ch": "地瓜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/2fb939d34de99308d94304cb6360d8f1.wav"
+        },
+        {
+          "ab": "kone",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/fd3670fe920deb95a4f5c632cbce602f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "opoanai",
+          "ch": "我們放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/54569d2aaae7176335a67bf72e86736f.wav"
+        },
+        {
+          "ab": "coloko",
+          "ch": "年糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/51050c73c53b9b04bc45602359b3d0fd.wav"
+        },
+        {
+          "ab": "vecenge",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/8c0809620eb335d49fee9522540183cb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pahai",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/9bd68fc85788d86a6a74310eda902afe.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/1b1c877005bed0f5cdf2c97866a5787b.wav"
+        },
+        {
+          "ab": "dhaace",
+          "ch": "走",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/546547320d3e6dc0907cb47f1e55063d.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/1ba44f862155cb3a16549817de6efb35.wav"
+        },
+        {
+          "ab": "a’olalai",
+          "ch": "男子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/03cdda6a0113c0d0e84605d82a245bd4.wav"
+        },
+        {
+          "ab": "moa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/b8923b6bd6f03ac5e92fcb17ffd6d300.wav"
+        },
+        {
+          "ab": "lroikiikisi",
+          "ch": "釣魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/4b6eb53cfbc8d2214d4b00d51a40929a.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/6ea09e4d5e7cc58675c0d31224f3f839.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/14258a58715128abae1cb7d513da1ef4.wav"
+        },
+        {
+          "ab": "palripoco",
+          "ch": "讓包",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/68c65932168bf9c9824ce31801b6596c.wav"
+        },
+        {
+          "ab": "kone",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/b395da6a793cdd8e9e8d9b3aa5921ace.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "男人去打獵時，會帶小米或稻米作成的粽子當便當。如果去工作或到村外，就做稻米年糕或用小米做成另一種年糕「pa’ange」，裡面包豬肉，然後帶著這些食物出發。要去外村訂婚或談戀愛時也都會帶去。",
+      "ab": "lo olopodha a’olalai mani poamao tolivee’ao vecenge, pahai, omece ’iadhodholro’o. lo ’asika’olomao, olo movalravalraemao, poamao coloko ’i pahai mani poamao topa’ange ’i vecenge palripocomao ’i votolo mani amecemao. lo movalravalraemao lo ’ataoaoanaemao, lo maa’amao oamecemao dhona.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/e543e10270f963217860388ab298181f.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/2396d2e2d5eee8a2af7fd0d7e38287bf.wav"
+        },
+        {
+          "ab": "olopodha",
+          "ch": "他打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/a34b901dbadc473287fe5a1d174b6842.wav"
+        },
+        {
+          "ab": "a’olalai",
+          "ch": "男子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/064e260bd7fc95841e3172a6b94009af.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/00c372e09d476393c3b46f48ac7aaa14.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/6eedcbff89158cf69b2dc8f78c819fd2.wav"
+        },
+        {
+          "ab": "tolivee’ao",
+          "ch": "小米粽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/a641dca93e76a3eeed90c74a3654ad81.wav"
+        },
+        {
+          "ab": "vecenge",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/2e0c1b35a92a87431f9f0044efade7b6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pahai",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/bbb974fbaae10d221e8e136aed0592f5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "omece",
+          "ch": "帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/c262222092ac2de460cc1327a41b492b.wav"
+        },
+        {
+          "ab": "’iadhodholro’o",
+          "ch": "做便當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/4a93e679058284a39a7d6da21038cf5b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/ef2765780c151172587db3234677bb12.wav"
+        },
+        {
+          "ab": "’asika’olomao",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/2897fc8e121e6bb5c6e966de8850591c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "olo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/d5889505b5790cf5fdc9f1a622b85269.wav"
+        },
+        {
+          "ab": "movalravalraemao",
+          "ch": "去外村",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/a0660a7088d90fab627f8893bd0c36fb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/eeaedfe138ae65aa1bf22075183cc0b4.wav"
+        },
+        {
+          "ab": "coloko",
+          "ch": "年糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/dce42ddbb835f6defc4622399137ef5d.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/f47baa1e0fa1c5b4593a5c532622a500.wav"
+        },
+        {
+          "ab": "pahai",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/efd1cc79cc10bd573c737e42818c236d.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/ca1b5bdac793ec2644311e91d44058a1.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/ea08cd2526ce13484d824c13bc0fa684.wav"
+        },
+        {
+          "ab": "topa’ange",
+          "ch": "做年糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/e2235eca7008f28eba8e88d74ee30509.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/cf419747974fe613cab4e0b44d0907e2.wav"
+        },
+        {
+          "ab": "vecenge",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/dba3d946b935273b90d9eff834f0dd1c.wav"
+        },
+        {
+          "ab": "palripocomao",
+          "ch": "讓包",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/afc0e6e9172f867413f78160008e6f92.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/8a1291263ca51857e1c8b0cc61515c81.wav"
+        },
+        {
+          "ab": "votolo",
+          "ch": "豬肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/43cf8e3b8e1e8f8d0dc03ae341f5826e.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/ff9b401529ad052db50e89f363430ebc.wav"
+        },
+        {
+          "ab": "amecemao",
+          "ch": "帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/2fe305a63914e5c4a0fe13cc0faa4840.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/e73f8079584706d7cd04ed57011aa36e.wav"
+        },
+        {
+          "ab": "movalravalraemao",
+          "ch": "去外村",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/4f5c3c2a7dceb338fc816507b94b3519.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/8814014ad4978bb4915cfb2c67f2cf33.wav"
+        },
+        {
+          "ab": "’ataoaoanaemao",
+          "ch": "訂婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/e1b7ef0c616c251cd499ca72cd7f97df.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/cca88ea1152e884c7bc54a8698818782.wav"
+        },
+        {
+          "ab": "maa’amao",
+          "ch": "談戀愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/da4064fde1f9d43d8e2c723d78f91abe.wav"
+        },
+        {
+          "ab": "oamecemao",
+          "ch": "帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/e8c51986eca8fce94aca956957ade3ca.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/0167e28d9c7625b5bdf606a019b43c56.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "梅雨季時，就待在部落，不去田裡工作。拿芋頭和曬乾的小芋頭乾搗碎成粉末，加一點水混合攪拌讓它黏稠作成團狀後，再放到蒸年糕的容器內蒸。蒸熟後就再繼續打，再用魚和甘豆做餡包起來，這樣直接食用的口感很好。不過，我們很少會帶這些食物到村外，全都是自家人在吃。",
+      "ab": "olo kaladhodha’olae lo ivalrivalriomao, kioamao ooma, mani alra ’i tai, ’i cipi topa’alraemao pakapacai mani poamao tokotoko toovongo. mani poamao acilai cicio li’oro poamao topelrepelre mani poamao potacolokae. lo madho’ongadha mani alramao dhokoi poamao palripoco ka’ange, lelepe, palripocomao. mani kanemao mataadhi’i. ma’inomao omece movalravalrae dhona. idhopelemao dha’ananae kone.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/e2e8efb6503c90b00b947b9d263c5356.wav",
+      "word": [
+        {
+          "ab": "olo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/2dcb1a22b4c43f8bf00a58ae1666da10.wav"
+        },
+        {
+          "ab": "kaladhodha’olae",
+          "ch": "雨季",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/b4d38a1fab2d085badf700c6a77c4dbc.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/bbd903d446cc2f03e9061a679a550318.wav"
+        },
+        {
+          "ab": "ivalrivalriomao",
+          "ch": "在村子裡；休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/0eed1b51d5c50b1f9b9de2fc705fb39f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kioamao",
+          "ch": "不去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/b9502764d2a757587e41fcd18c84c78c.wav"
+        },
+        {
+          "ab": "ooma",
+          "ch": "田",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/3813a7e99f42a841a20e7f49859f1142.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/3c831476310ea377653b3c460bb201f3.wav"
+        },
+        {
+          "ab": "alra",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/ac503f9e2345aa0e0cb346bec68f7ce5.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/750535b7bdc0d2ee24867a8af9a00eb8.wav"
+        },
+        {
+          "ab": "tai",
+          "ch": "芋頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/4602fc349ffc0ad649190e937f2a5f14.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/dad095b0ea6a87b0b3efe287517c0a28.wav"
+        },
+        {
+          "ab": "cipi",
+          "ch": "小芋頭乾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/783dec6311e2421a087fe4922078b6b5.wav"
+        },
+        {
+          "ab": "topa’alraemao",
+          "ch": "曬乾的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/0062655cde213d7c9b111ae0456e44c6.wav"
+        },
+        {
+          "ab": "pakapacai",
+          "ch": "讓乾燥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/5432d17da264c7575407733a6c995d2e.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/fd51b2778db2a0e228a23be4053aa9a4.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/328f6ee7ae1b8287d04e116bdc9b865c.wav"
+        },
+        {
+          "ab": "tokotoko",
+          "ch": "搗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/e681624575d3091f4fe701f0a107697e.wav"
+        },
+        {
+          "ab": "toovongo",
+          "ch": "做粉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/b4e555ac6690568c7c8023189b90bf08.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/de75d7216a3dcb7542fe41c35eed2115.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/145ef9df5368d1413bf51d36b2a65072.wav"
+        },
+        {
+          "ab": "acilai",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/d5b19df72da0d6df2f61ab0502e849d3.wav"
+        },
+        {
+          "ab": "cicio",
+          "ch": "攪拌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/7da5de470110df45f90b80210046dbe5.wav"
+        },
+        {
+          "ab": "li’oro",
+          "ch": "黏稠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/04/44f9947f46fae19049ea9c80e006cefe.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/225e499f257f0f6909c7a81fa7594fec.wav"
+        },
+        {
+          "ab": "topelrepelre",
+          "ch": "作成團狀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/84afe6384b0eb5588e350be289cad8f2.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/bc6a370435552949bcf7927a391bac45.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/ff6b922f140cdc4bc622f4d0b0818e18.wav"
+        },
+        {
+          "ab": "potacolokae",
+          "ch": "放到蒸年糕容器",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/c06efb5397387975e3ac46d250694162.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/8ec02f32d7b2e1f5606550354bd987a3.wav"
+        },
+        {
+          "ab": "madho’ongadha",
+          "ch": "他熟了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/f45c57d7686c7806d4c74f598e14b797.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/f7d768811e29c085b001cc1891b0615a.wav"
+        },
+        {
+          "ab": "alramao",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/e351d553ab36bba1e39fc72bf75d9fda.wav"
+        },
+        {
+          "ab": "dhokoi",
+          "ch": "打",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/49fbb8546c823eeeac129dd671d6b816.wav"
+        },
+        {
+          "ab": "poamao",
+          "ch": "做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/aadf680119f4775d895ce378dea44326.wav"
+        },
+        {
+          "ab": "palripoco",
+          "ch": "讓包",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/74fe3b72948e51b394795677eb10d419.wav"
+        },
+        {
+          "ab": "ka’ange",
+          "ch": "魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/486705020f2f9464cfdfafea637f0129.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lelepe",
+          "ch": "豆子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/14/f544d901e6927518ab5e1c1e5ecdffa4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "palripocomao",
+          "ch": "讓包",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/c79081172114f9274155de4676064d56.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/734a21c0fe5c8d688461521c08a1e39e.wav"
+        },
+        {
+          "ab": "kanemao",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/2e221f47d6e76beeec058faee5c8e640.wav"
+        },
+        {
+          "ab": "mataadhi’i",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/90fb751d6e21bf0b30ee080e5265475a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’inomao",
+          "ch": "羞怯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/d11fb36c28326233fd21e4079d309a82.wav"
+        },
+        {
+          "ab": "omece",
+          "ch": "帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/356e29f34bd01769e7ffaee183b46583.wav"
+        },
+        {
+          "ab": "movalravalrae",
+          "ch": "去外村",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/dbbba468a19aaae05828bfb70f85dbd5.wav"
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/c73cac36b363f3c63a9aa7ec9d9d86c5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "idhopelemao",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/3370ea0eea4fd08f37ed45ea971fcd8b.wav"
+        },
+        {
+          "ab": "dha’ananae",
+          "ch": "家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/69eedb98b70f46bc10921e8fb0e46264.wav"
+        },
+        {
+          "ab": "kone",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/23/74ade084c32e6a2a2188f77c1f2fec2a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

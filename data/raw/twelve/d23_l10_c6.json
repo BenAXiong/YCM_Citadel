@@ -1,6 +1,949 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "O pihololan a omah i niyaro’",
+  "titleCh": "部落休閒農業",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "阿美族自古就居住在中央山脈和海岸山脈之間的縱谷平原生活，沿著東邊山脈的太平洋岸。",
+      "ab": "O masaenaray a palapalaan ko kaitiraan no Pangcah nani ngara’; itini i la’ed no etipan ato sawalian a lotok a ma’orip; mililis to lawac no pariyar  i sawalian no lotok.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/08/8eed27b693d509689ad42a152d06015f.wav",
+      "word": [
+        {
+          "ab": "O",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/296472c9542ad4d4788d543508116cbc.wav"
+        },
+        {
+          "ab": "masaenaray",
+          "ch": "平原",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/fb2e203234df6dee15934e448ee88971.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/07cb5f86508f146774a2fac4373a8e50.wav"
+        },
+        {
+          "ab": "palapalaan",
+          "ch": "田野",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4b86abe48d358ecf194c56c69108433e.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/1f4fe6a4411edc2ff625888b4093e917.wav"
+        },
+        {
+          "ab": "kaitiraan",
+          "ch": "所在地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/cbef46321026d8404bc3216d4774c8a9.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/6492d38d732122c58b44e3fdc3e9e9f3.wav"
+        },
+        {
+          "ab": "Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/819e3d6c1381eac87c17617e5165f38c.wav"
+        },
+        {
+          "ab": "nani ngara’",
+          "ch": "自古以來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/08/a8ddff19819eaf5ba4044e0d86668ae6.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "itini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/54ff9e9e3a2ec0300d4ce11261f5169f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/0070d23b06b1486a538c0eaa45dd167a.wav"
+        },
+        {
+          "ab": "la’ed",
+          "ch": "之間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/850af92f8d9903e7a4e0559a98ecc857.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/3e9e39fed3b8369ed940f52cf300cf88.wav"
+        },
+        {
+          "ab": "etipan",
+          "ch": "西邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e0a209539d1e74ab9fe46b9e01a19a97.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f80ff32e08a25270b5f252ce39522f72.wav"
+        },
+        {
+          "ab": "sawalian",
+          "ch": "東邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4d6b3e38b952600251ee92fe603170ff.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d3a7f48c12e697d50c8a7ae7684644ef.wav"
+        },
+        {
+          "ab": "lotok",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/bf424cb7b0dea050a42b9739eb261a3a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[ 助 ]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/784781696b63f41bec5113b77ff5bd64.mp3"
+        },
+        {
+          "ab": "ma’orip",
+          "ch": "活; 生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/08/3c8fa098a3db2ccd9c88100332a27e65.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mililis",
+          "ch": "沿途",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/978d76676f5e7918f81d28e7d092ca0d.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/2cad8fa47bbef282badbb8de5374b894.wav"
+        },
+        {
+          "ab": "lawac",
+          "ch": "岸、邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/08/66915bfa35f8f2f48113e40910fe3fe5.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[ 助 ]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/de86350f237ca0c45404683c676984a5.mp3"
+        },
+        {
+          "ab": "pariyar",
+          "ch": "海域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/05/ca70fff4e1720146dc99c9ed8cfd7b81.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/38ed75d554647d89ce37850e24620ca5.mp3"
+        },
+        {
+          "ab": "sawalian",
+          "ch": "東邊、東側",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/a21dc6ba120b47d46e7fb0331ae4996e.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[ 助 ]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/25259c0c49b3a447dd253878c699fc3c.mp3"
+        },
+        {
+          "ab": "lotok",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/f8218eea89ac6abe597902ffa8b479d2.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "這兩塊居住地區的水源和空氣到目前還没有被污染。這裡休閒農業區最適合栽培有機農業（無農藥和化學肥料），完全依靠土壤的地力栽培作物，並採用祖先慣用的自然農業栽培法。因此，設置休閒農業應列為部落的重點計畫之一。",
+      "ab": "Inian a tosaay a ’etal i, caay ho^ ka pa’oning ko nanom ato fali^, o matatodongay a malapihololan ato pipalomaan to kalomaamaan (awaay ko pisiwdok ato patayhi^), o mi’er’eray to nikamatang no sera^ a paloma^ to kahirahira, orasaka o samanga’ayay a pipatirengan no niyaro’ to malo pihololan a omah.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/46bd95f04a09e3130470dd98b520d173.wav",
+      "word": [
+        {
+          "ab": "Inian",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/c3535febaff29fcb7c0d20cbe94391c7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/1a0a283bfe7c549dee6c638a05200e32.wav"
+        },
+        {
+          "ab": "tosaay",
+          "ch": "兩個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/a29d1598024f9e87beab4b98411d48ce.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/01931a6925d3de09e5f87419d9d55055.wav"
+        },
+        {
+          "ab": "’etal",
+          "ch": "區域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/51174add1c52758f33d414ceaf3fe6ba.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/bdc4626aa1d1df8e14d80d345b2a442d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "caay ho^",
+          "ch": "還沒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/4ba3c163cd1efd4c14e3a415fa0a3010.wav"
+        },
+        {
+          "ab": "ka pa’oning",
+          "ch": "污染",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/3937230de3c8041e4da6ac3246a888e8.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/92bbd31f8e0e43a7da8a6295b251725f.wav"
+        },
+        {
+          "ab": "nanom",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/1b5230e3ea6d7123847ad55a1e06fffd.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/44cd7a8f7f9f85129b9953950665064d.wav"
+        },
+        {
+          "ab": "fali^",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/02b1be0d48924c327124732726097157.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/abdbeb4d8dbe30df8430a8394b7218ef.wav"
+        },
+        {
+          "ab": "matatodongay",
+          "ch": "適合的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/5a1e3a5aede16d438c38862cac1a78db.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/ef41d488755367316f04fc0e0e9dc9fc.wav"
+        },
+        {
+          "ab": "malapihololan",
+          "ch": "成為遊玩之處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/a012869311d64a44b5a0d567cd20de04.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/e20d310c5111f621d5eb49e334ba421d.wav"
+        },
+        {
+          "ab": "pipalomaan",
+          "ch": "種植處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/5227b6aaf294f5f027273aebf16015f2.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/bd5af7cd922fd2603be4ee3dc43b0b77.wav"
+        },
+        {
+          "ab": "kalomaamaan",
+          "ch": "任何東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/cd4bb35c75ba84b4f39e547b1416fd35.wav"
+        },
+        {
+          "ab": "(",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "awaay",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/f15d337c70078947cfe1b5d6f0ed3f13.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/a869ccbcbd9568808b8497e28275c7c8.wav"
+        },
+        {
+          "ab": "pisiwdok",
+          "ch": "噴灑農藥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/f6e794a75c5d51de081dbefa224304f9.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/c902b497eb972281fb5b4e206db38ee6.wav"
+        },
+        {
+          "ab": "patayhi^",
+          "ch": "施肥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/cb9b7d9fca3e1608f2fd210a26233284.wav"
+        },
+        {
+          "ab": ")",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o ",
+          "ch": "[ 助 ] ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/f79e78a787776a1cfe7c4e82c7cfd955.mp3"
+        },
+        {
+          "ab": "mi’er’eray",
+          "ch": "靠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/9a49a25d845a483fae4be7e341368e36.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/4e62e752ae53fb6a6eebd0f6146aa702.wav"
+        },
+        {
+          "ab": "nikamatang",
+          "ch": "肥沃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/9e271b5ca6645178583c37ca2ab5a32f.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/37d097caf1299d9aa79c2c2b843d2d78.wav"
+        },
+        {
+          "ab": "sera^",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/23c97e9cb93576e45d2feaf00d0e8502.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/5d6646aad9bcc0be55b2c82f69750387.wav"
+        },
+        {
+          "ab": "paloma^",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/2a34abd6ebbd7fcf5a4421229c946c0a.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/9f44e956e3a2b7b5598c625fcc802c36.wav"
+        },
+        {
+          "ab": "kahirahira",
+          "ch": "各種各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/7dc1c7653ac42a05642a667959c12239.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "orasaka",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/c182f930a06317057d31c73bb2fedd4f.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/936a40b7e8eea0dc537e5f2edee1387a.wav"
+        },
+        {
+          "ab": "samanga’ayay",
+          "ch": "最好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/0d73a25092e5c1c9769a9f3255caa65a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/e21e4e58ad9ab56e8a4634046da90113.wav"
+        },
+        {
+          "ab": "pipatirengan",
+          "ch": "設立",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/24917db15c4e37e421866448c9ab23d8.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/350db081a661525235354dd3e19b8c05.wav"
+        },
+        {
+          "ab": "niyaro’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/a486cd07e4ac3d270571622f4f316ec5.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/cb8da6767461f2812ae4290eac7cbc42.wav"
+        },
+        {
+          "ab": "malo",
+          "ch": "當作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/78c02d6698f6d752dea6bb537fe615a6.mp3"
+        },
+        {
+          "ab": "pihololan",
+          "ch": "遊樂的(埸所)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/1e8c391abfde9abea82d75a2d60278d4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/a381c2c35c9157f6b67fd07d5a200ae1.wav"
+        },
+        {
+          "ab": "omah",
+          "ch": "地域，埸所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/eb1d32b37a9ce3b559c481ba3446df4a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "其次，要栽培阿美族最具原民風味的傳統作物。所有銷售的物品一定要註明產地的部落名稱，建立屬於自己的品牌，以提升知名度。最好是附加部落的緣由，以祖先的故事或傳說為依據，提高部落休閒農場的知名度。",
+      "ab": "Do^do^ sato, mipaloma^ to kahirahira a sinafel no Pangcah. Tokien a mipangangan a maemin ko nipacakayan to kalomaamaan, ta matenak a macakat ko sakacinganganaw, mangalef ano pacipingen ko kongko^ no niyaro’ ato no to’as a mirayray, o mamacakat ko nikacingangan to pihololan a omah i niyaro’.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/ddd9dda6bfaf0bb1525a8a27c3ee6131.wav",
+      "word": [
+        {
+          "ab": "Do^do^",
+          "ch": "其次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/1819932ff5cf474f4f19e7c7024640c2.wav"
+        },
+        {
+          "ab": "sato",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/333ac5d90817d69113471fbb6e531bee.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mipaloma^",
+          "ch": "種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/86e78499eeb33fb9cac16b7555b50767.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/6e5025ccc7d638ae4e724da8938450a6.wav"
+        },
+        {
+          "ab": "kahirahira",
+          "ch": "各種各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/c3e4035af2a1cde9f21e1ae1951ac80b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/8929c70f8d710e412d38da624b21c3c8.wav"
+        },
+        {
+          "ab": "sinafel",
+          "ch": "菜類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/32e05616c8ed659463f9af00b142dd6f.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/2596a54cdbb555cfd09cd5d991da0f55.wav"
+        },
+        {
+          "ab": "Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/41e7637e7b6a9f27a98b84d3a185c7c0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tokien",
+          "ch": "登記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/bd0cc810b580b35884bd9df37c0e8b0f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/88a839f2f6f1427879fc33ee4acf4f66.wav"
+        },
+        {
+          "ab": "mipangangan",
+          "ch": "記名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/7bc1ec1d9c3426357e69acd5bf320061.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/d1a21da7bca4abff8b0b61b87597de73.wav"
+        },
+        {
+          "ab": "maemin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/211c1e0b83b9c69fa9c4bdede203c1e3.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/0234c510bc6d908b28c70ff313743079.wav"
+        },
+        {
+          "ab": "nipacakayan",
+          "ch": "銷售的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/bb1662b7c5f22a0f905fd59e718ca05e.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/169779d3852b32ce8b1a1724dbf5217d.wav"
+        },
+        {
+          "ab": "kalomaamaan",
+          "ch": "各式各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/12b1e42dc0746f22cf361267de07073f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/100d9f30ca54b18d14821dc88fea0631.wav"
+        },
+        {
+          "ab": "matenak",
+          "ch": "被宣傳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/d51b416788b6ee70eb0c381c06efc9f1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/2056d8c1dec3d12cbce646b348d189d1.wav"
+        },
+        {
+          "ab": "macakat",
+          "ch": "增進",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/00a03ec6533ca7f5c644d198d815329c.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/f12ee9734e1edf70ed02d9829018b3d9.wav"
+        },
+        {
+          "ab": "sakacinganganaw",
+          "ch": "為了名譽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/08/adf3a198552b24c022b1ae6d445a0b0d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mangalef",
+          "ch": "更是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/b440509a0106086a67bc2ea9df0a1dab.wav"
+        },
+        {
+          "ab": "ano",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/1c6a0198177bfcc9bd93f6aab94aad3c.wav"
+        },
+        {
+          "ab": "pacipingen",
+          "ch": "貼上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/0a87257e5308197df43230edf4ad1dae.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/14ea0d5b0cf49525d1866cb1e95ada5d.wav"
+        },
+        {
+          "ab": "kongko^",
+          "ch": "故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/ca0daec69b5adc880fb464895726dbdf.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/cdf1e288ca02272e717c9d5e4cb180bd.wav"
+        },
+        {
+          "ab": "niyaro’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/8c5f6ecd29a0eb234459190ca51c16dd.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/25db67c5657914454081c6a18e93d6dd.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/ea119a40c1592979f51819b0bd38d39d.wav"
+        },
+        {
+          "ab": "to’as",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/6832a7b24bc06775d02b7406880b93fc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/1145a30ff80745b56fb0cecf65305017.wav"
+        },
+        {
+          "ab": "mirayray",
+          "ch": "解說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/5249ee8e0cff02ad6b4cc0ee0e50b7d1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/e45823afe1e5120cec11fc4c379a0c67.wav"
+        },
+        {
+          "ab": "mamacakat",
+          "ch": "增進",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/dd28e50635038e9cf3a648c2dd17ad0a.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/2d969e2cee8cfa07ce7ca0bb13c7a36d.wav"
+        },
+        {
+          "ab": "nikacingangan",
+          "ch": "有名聲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/75f1bb5f2884b530b0b25d42decabb93.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/fea9c11c4ad9a395a636ed944a28b51a.wav"
+        },
+        {
+          "ab": "pihololan",
+          "ch": "遊玩之處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/4aecfbe5d21e3f7912bf8eb29124423a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/cd3afef9b8b89558cd56638c3631868a.wav"
+        },
+        {
+          "ab": "omah",
+          "ch": "田地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/db116b39f7a3ac5366079b1d9fe249a5.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/1368ba1ab6ed38bb1f26f36673739d54.wav"
+        },
+        {
+          "ab": "niyaro’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/3323fe11e9595c09af38fe67567a9394.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "另外，一定要介紹部落文化：教他們學習阿美族歌舞，以及品嘗當地好吃的風味餐。因此，休閒農業是將文化和產業兩者結合為一。",
+      "ab": "O roma^ sato, o papasifana’en to serangawan no niyaro’, papasifana’en caira to kero^ ato radiw no Pangcah; ato paka’enen to ’aredetay a kakaenen no niyaro’. Saka, o pihololan a omah i, o papalacecayen ko kinaira no omah ato serangwan.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/05a70454516ecd9194c293b0e415777f.wav",
+      "word": [
+        {
+          "ab": "O roma^ sato",
+          "ch": "另外",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/76ad85efbbfc34a63afa664aa4091e63.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/5938b4d054136e5d59ada6ec9c295d7a.wav"
+        },
+        {
+          "ab": "papasifana’en",
+          "ch": "教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/b5c01503041b70d41d80e3dbe31bbd8c.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/b0df2270be9cb16c14537e5bc2f2d37b.wav"
+        },
+        {
+          "ab": "serangawan",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/13111c20aee51aeb480ecbd988cd8cc9.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/d2a27e83d429f0dcae6b937cf440aeb1.wav"
+        },
+        {
+          "ab": "niyaro’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/598920e11d1eb2a49501d59fce5ecbb7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "papasifana’en",
+          "ch": "教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/934b535800b1cba8f96a5d72f72f1611.wav"
+        },
+        {
+          "ab": "caira",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/04048aeca2c0f5d84639358008ed2ae7.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/8ca8da41fe1ebc8d3ca31dc14f5fc56c.wav"
+        },
+        {
+          "ab": "kero^",
+          "ch": "舞蹈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/443dec3062d0286986e21dc0631734c9.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/01eee509ee2f68dc6014898c309e86bf.wav"
+        },
+        {
+          "ab": "radiw",
+          "ch": "歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/efdf562ce2fb0ad460fd8e9d33e57f57.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/6cd9313ed34ef58bad3fdd504355e72c.wav"
+        },
+        {
+          "ab": "Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/329e6581efbc90bd92a1f22c4ba2103d.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/2a8a812400df8963b2e2ac0ed01b07b8.wav"
+        },
+        {
+          "ab": "paka’enen",
+          "ch": "給…吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/3e6260b81898beacda3d16db379ed329.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/e0f7a4d0ef9b84b83b693bbf3feb8e6e.wav"
+        },
+        {
+          "ab": "’aredetay",
+          "ch": "風味的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/653ac11ca60b3e021a8c609c7198acfc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/b0b79da57b95837f14be95aaa4d54cf8.wav"
+        },
+        {
+          "ab": "kakaenen",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/3dd9424294b0292b6e89ea2bba2e1144.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/b166b57d195370cd41f80dd29ed523d9.wav"
+        },
+        {
+          "ab": "niyaro’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/2952351097998ac1240cb2ab7333a3d2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Saka",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/487d4c6a324446b3fa45b30cfcee5337.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/d4dd111a4fd973394238aca5c05bebe3.wav"
+        },
+        {
+          "ab": "pihololan",
+          "ch": "遊玩之處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/b6e32320fa6bc5a588b90183b95dc028.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/1a3f91fead97497b1a96d6104ad339f6.wav"
+        },
+        {
+          "ab": "omah",
+          "ch": "田地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/90aef91f0d9e7c3be322bd7bae41617d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/3147da8ab4a0437c15ef51a5cc7f2dc4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/10907813b97e249163587e6246612e21.wav"
+        },
+        {
+          "ab": "papalacecayen",
+          "ch": "合二為一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/df1f1d20ee86704251795841e6a9405a.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/be6c7b094f88532b6c6b35bbcd525ee8.wav"
+        },
+        {
+          "ab": "kinaira",
+          "ch": "收穫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/243facb29564e7b448834a7c9d901201.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/a07c2f3b3b907aaf8436a26c6d77f0a2.wav"
+        },
+        {
+          "ab": "omah",
+          "ch": "田地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/d5e2c0adad503c91f91df240d0cd4e49.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/635440afdfc39fe37995fed127d7df4f.wav"
+        },
+        {
+          "ab": "serangwan",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/11/38651c4450f87348fcbe1f992746a954.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

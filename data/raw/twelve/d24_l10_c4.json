@@ -1,6 +1,901 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Misikitang",
+  "titleCh": "挖煤礦",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "以前阿美族人的生活非常不容易，種玉米和稻米沒有發展，連地瓜都吃不到，小孩唸書繳不起學費。為了家庭生計，族人只好到台北礦坑來工作。",
+      "ab": "I naayaway nu Pangcah, caay kadayum a maurip, paluma tu taviras atu tipus, awaay ku laheci, caay pakakaen aca tu vunga, caay pakasadak tu pida a papicudad tu wawa ku matuasay. Sakangaayaw nu nikaurip, tayra satu i Taypak a misikitang.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/bb921944c8c4531826da3fa99b494c1a.wav",
+      "word": [
+        {
+          "ab": "I",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/1301962d8b7bd03fffaa27119aa7fc2b.wav"
+        },
+        {
+          "ab": "naayaway",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/f7b027d45fd7484f6d0833823b98907e.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/dcacff2565700c8f88f59cf4a16f9dfc.wav"
+        },
+        {
+          "ab": "Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/f75dddd1e79826a219cb0bec217dc096.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "caay",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/701d804549a4a23d3cae801dac6c2c75.wav"
+        },
+        {
+          "ab": "kadayum",
+          "ch": "困難",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/21c2c25487b9f30af6c4a9f6f10b09b2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/f82798ec8909d23e55679ee26bb26437.wav"
+        },
+        {
+          "ab": "maurip",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ac450d10e166657ec8f93a1b65ca1b14.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paluma",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/26/0eddc33b1585b82a69c8f492f8d21559.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/8e50baf642bd6685e593bf238aa27051.wav"
+        },
+        {
+          "ab": "taviras",
+          "ch": "玉米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/c96e651946818e0787d6296f69549fe1.wav"
+        },
+        {
+          "ab": "atu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/986648642d1a68a3178f6869689cc260.wav"
+        },
+        {
+          "ab": "tipus",
+          "ch": "稻米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/c4c42505a03f2e969b4c0a97ee9b34e7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "awaay",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/c54d2118d6a3a2b06f07e9eeb240d741.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/3000311ca56a1cb93397bc676c0b7fff.wav"
+        },
+        {
+          "ab": "laheci",
+          "ch": "結果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/f0e6be4ce76ccfa73c5a540d992d0756.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "caay",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/26/bc11db020cb9418782afa3d1e0a1209b.wav"
+        },
+        {
+          "ab": "pakakaen",
+          "ch": "吃到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/7d91786c01b3931e8d94baf248608979.wav"
+        },
+        {
+          "ab": "aca",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/bc047286b224b7bfa73d4cb02de1238d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/d7f14b4988c30cc40e5e7b7d157bc018.wav"
+        },
+        {
+          "ab": "vunga",
+          "ch": "地瓜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/142536b9b535b78e681c11b0195d962f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "caay",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/cc360b61d7eb072c77a4beddebb3c95b.wav"
+        },
+        {
+          "ab": "pakasadak",
+          "ch": "提供",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/29e11dc359bad383e1243f730bdbe032.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/9c779f56f336b3c812343434f57b6a0e.wav"
+        },
+        {
+          "ab": "pida",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/220787ad7829c9cbc7e9953cb1c36fb3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/26/984852334d07789b395be2f7122d7019.wav"
+        },
+        {
+          "ab": "papicudad",
+          "ch": "去讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/f52db9f7c0ae7017ee41f63c2a7353bc.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/27debb435021eb68b3965290b5e24c49.wav"
+        },
+        {
+          "ab": "wawa",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/a523426cc585745318d5f6d91a9c0706.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/a1a527267c0d33a86382a03c4c721cd2.wav"
+        },
+        {
+          "ab": "matuasay",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/c923d8f64e256dde7c28bf1614d53602.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sakangaayaw",
+          "ch": "改善",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/6a83c731660fcc9f14e1ce0b62d45eb9.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/e5a90182cc81e12ab5e72d66e0b46fe3.wav"
+        },
+        {
+          "ab": "nikaurip",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/c7b03782920d35145eb4c97556d194a3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tayra",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/fc2022c89b61c76bbef978f1370660bf.wav"
+        },
+        {
+          "ab": "satu",
+          "ch": "結果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/3a0f19df72fef0495c54ced664735a7d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/251dbb5e528421776ff6e17c87be507f.wav"
+        },
+        {
+          "ab": "Taypak",
+          "ch": "台北",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/26/a17b4ec59e767fb4ec5ae3dd565ae1f1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/5cdf0f9533d6b4c0984fc5ae00913459.wav"
+        },
+        {
+          "ab": "misikitang",
+          "ch": "挖礦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/02c27682b80b462437ba4efc71267562.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "挖礦的工作是非常艱辛又危險的，坑內常常只能容許一個人平躺或側躺地挖煤礦，像蟲一樣在地底鑽。坑內溫度平均三﹑四十度，只能大量喝水以降低身體的熱量；而中餐吃飯時，便當大多已經臭酸了。工作完成出坑時，全身黑漆漆，只有牙齒是白色的。",
+      "ab": "U misikitangay mangeru’ atu sakatalawan a demak, itini i vuhang ca:cay ku tamdaw a mahenava’, makirir a kikurkur tu avel, malecad u cirekay a mimukmuk i sera, maedeng tuluay, sepatay a pulu’ ku vae:det i laluma’, uwak han ku pinanum a mivasaw tu vaedet nu tireng, a malahuk satu angliwtu ku nipatavuan, masadak na i revung satu, matiyatu u muhetingay a tamdaw, u wadis a cacay ku vuhecalay.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/182bd81ea25270b7d1c2fe8353d17fe6.wav",
+      "word": [
+        {
+          "ab": "U",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/c2c701fe341a7756ca7fd4eaa83ff63f.wav"
+        },
+        {
+          "ab": "misikitangay",
+          "ch": "礦工",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/7240b65810859cbf2a8d9f76a638c0a3.wav"
+        },
+        {
+          "ab": "mangeru’",
+          "ch": "很辛苦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/4e093aa7417fe0881bc5fbda7322a74e.wav"
+        },
+        {
+          "ab": "atu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/fbd85d9451c0d7555518534bcbac00e3.wav"
+        },
+        {
+          "ab": "sakatalawan",
+          "ch": "危險",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/cd7c230fc5deb01ff5f7b1be1acef9cf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/7c250678f61f49092fa0d4040e5e54e9.wav"
+        },
+        {
+          "ab": "demak",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/83dd3f9f97ef6533766c39d5b2e5e565.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "itini",
+          "ch": "在這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/5e18f86fad006a5846541997511989d5.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ac64504cc249b070772848642cffe6ff.wav"
+        },
+        {
+          "ab": "vuhang",
+          "ch": "洞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/81b44841fd564c347f7f21ae19b97659.wav"
+        },
+        {
+          "ab": "ca:cay",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/3d600348cf3aca45a777c9bc043054d4.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/7fcb0a2c0f0f41d9f4454ac2d8ed7ad6.wav"
+        },
+        {
+          "ab": "tamdaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/285c595717332b49cfb72d1d48a5a962.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/23b023b22d0bf47626029d5961328028.wav"
+        },
+        {
+          "ab": "mahenava’",
+          "ch": "側臥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/23c894276a2c5a16470e6a31f4618d73.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makirir",
+          "ch": "平臥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/46e0eae7d5217c79c3ef6b4c212b8c6f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/40f6992c3c5816a1b42d2612fc26b936.wav"
+        },
+        {
+          "ab": "kikurkur",
+          "ch": "挖掘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/8612c55d2969d1f587bf1c5aaaa32964.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b951d590911567ab51aebe6eba13a4e6.mp3"
+        },
+        {
+          "ab": "avel",
+          "ch": "木炭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/e45106f8e0e8d7a2ac36d57efd136406.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "malecad",
+          "ch": "相同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/f7ae58c7f1a1cc4abe9273a0f971ba2a.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/14da15db887a4b50efe5c1bc66537089.wav"
+        },
+        {
+          "ab": "cirekay",
+          "ch": "蛆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/2e4fb1ddb61e8e45740ed0415f2b28b0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/1387a00f03b4b423e63127b08c261bdc.wav"
+        },
+        {
+          "ab": "mimukmuk",
+          "ch": "鑽入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/2b763288faedb7707c0748abe015ab6c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/d863d5ec458b0dc3b46cba96d9d49ac3.wav"
+        },
+        {
+          "ab": "sera",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ad8d3a0a0f0a084a97fad357c649438c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maedeng",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/b665bf733325cebbccee5935b1272616.wav"
+        },
+        {
+          "ab": "tuluay",
+          "ch": "三個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/a18ad9f9bcd4e260979d102a260fc262.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sepatay",
+          "ch": "四個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ab73f542b6d60c4de151800b8abc0a6c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/5fd2c06f558321eff612bbbe455f6fbd.wav"
+        },
+        {
+          "ab": "pulu’",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/536eecee295b92db6b32194e269541f8.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/0ea6f098a59fcf2462afc50d130ff034.wav"
+        },
+        {
+          "ab": "vae:det",
+          "ch": "熱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/f065d878ccfb4cc4f4265a4ff8bafa9a.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/e9a8f256f4904b06246375df06a8864b.wav"
+        },
+        {
+          "ab": "laluma’",
+          "ch": "裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/b80ba73857eed2a36dc7640e2310055a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uwak",
+          "ch": "大口飲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/e44e875c12109e4fa3716c05008048b2.wav"
+        },
+        {
+          "ab": "han",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/3e9f7c16bd1cdea78f8e2eea72dfdfbe.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/1e9b64527e41c7360750af533155aebd.wav"
+        },
+        {
+          "ab": "pinanum",
+          "ch": "喝水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/26/7814d6c5454757a2032524be9faaf02f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/18085327b86002fc604c323b9a07f997.wav"
+        },
+        {
+          "ab": "mivasaw",
+          "ch": "降溫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/d82f9436247aa0049767b776dceab4ed.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/95c8ba4434e9db2bf3e20c639b04c56f.wav"
+        },
+        {
+          "ab": "vaedet",
+          "ch": "熱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/e6be5b6def555465fea6d6458bd7eba5.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/dce4eef05fb6a56fa54b1a36e6b1fce7.wav"
+        },
+        {
+          "ab": "tireng",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/94aada62f90dd50a84ca74304563d5db.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/0d7f9017fbda691900187b22404b8a1f.wav"
+        },
+        {
+          "ab": "malahuk",
+          "ch": "吃午餐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ad2972cf612acdeec0f99338a768aa05.wav"
+        },
+        {
+          "ab": "satu",
+          "ch": "結果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/0d46839f6371fb84f6b6c682f5fc2c77.wav"
+        },
+        {
+          "ab": "angliwtu",
+          "ch": "發酸了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/8f91c9c261bfa0650898a921928d0950.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/23a6de9d1b696e1e7ddd06bb056745a2.wav"
+        },
+        {
+          "ab": "nipatavuan",
+          "ch": "送來的便當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/016669d2649ea531365419cc792ef8bc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masadak",
+          "ch": "出現",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/076a8133735eb5d7552dc195b125a454.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "來自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/7f83c19d8adc72f08f8fde30a57eef79.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9cb6852ecd5faa7bdccb3ec307ef7c40.mp3"
+        },
+        {
+          "ab": "revung",
+          "ch": "坑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/a76c0abe2b7b1b79e70f0073f43c3b44.wav"
+        },
+        {
+          "ab": "satu",
+          "ch": "結果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/b6cf334c22c8f4ce8eb920bb7b512ed0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matiyatu",
+          "ch": "就像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/442b548e816f05640dec68f497ca38ac.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/1abf005ea3f957c5cb79941ab7707c11.wav"
+        },
+        {
+          "ab": "muhetingay",
+          "ch": "黑色的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/64de166633d61c8326232568b42beef1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/c9dd73f5cb96486f5e1e0680e841a550.wav"
+        },
+        {
+          "ab": "tamdaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/580f9aa264f1108da3db844806f3952e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "u",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/d064bf1ad039ff366564f352226e7640.wav"
+        },
+        {
+          "ab": "wadis",
+          "ch": "牙齒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ce1aad92b939420fc17005e5461e6f48.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/5735c3a7aa6ffcfe6ab123835584db75.wav"
+        },
+        {
+          "ab": "cacay",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/21be992eb8016e541a15953eee90760e.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/5c333c4ffd55c7a3576e6a614d81af82.wav"
+        },
+        {
+          "ab": "vuhecalay",
+          "ch": "白色的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/4180b5120ca2e09eaa3bd2ebf4b53667.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "為了生存他們必須堅強地工作，這種不屈不撓的精神足以讓我們讚嘆不已。了解這些後，現在的我們應該更加努力讀書，才不會辜負他們的苦心。",
+      "ab": "A misakilemel ku heni a mikuli tu sakaurip, u hatiniay a angil nu valucu’, u kahemekan nu mita. Mavana’ tu kita tu mahaenay a demak, a madupuh kita a micudad i matini, saka saan caay tu kapakasemer tu ngeru’ nu heni.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/12fb63ba1566cb03484e1e5e290a73f4.wav",
+      "word": [
+        {
+          "ab": "A",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/230e41009413a5a96013ae108300afd2.wav"
+        },
+        {
+          "ab": "misakilemel",
+          "ch": "堅強",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/a7b23e6eefbe6cf04b8e62a6f0915550.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/8606f35ec6c77858dfb80a385d0d1151.wav"
+        },
+        {
+          "ab": "heni",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/83dc55aeb13cc9f621dcbaa80304d506.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/91394d0fbf2b331b4859ae219f2d6ea6.wav"
+        },
+        {
+          "ab": "mikuli",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/614594c34e0c9dc796cb21d5e806768b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/76f1cfd7754a6e4fc3281bcccb3d0902.wav"
+        },
+        {
+          "ab": "sakaurip",
+          "ch": "生存",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/9b91d245c953f54a7f10aba72a4d0022.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "u",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/b6846b0186a035fcc76b1b1d26fd42fa.wav"
+        },
+        {
+          "ab": "hatiniay",
+          "ch": "足以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/26/cb47aeee63c4e9c0c16299cd7216703a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/dcc5c249e15c211f21e1da0f3ba66169.wav"
+        },
+        {
+          "ab": "angil",
+          "ch": "不屈不饒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/445e24b5f22cacb9d51a837c10e91a3f.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/8252831b9fce7a49421e622c14ce0f65.wav"
+        },
+        {
+          "ab": "valucu’",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/99a401435dcb65c4008d3ad22c8cdad0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "u",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/545e91a14706478dc240764245cd4bd1.wav"
+        },
+        {
+          "ab": "kahemekan",
+          "ch": "讚嘆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/06cdc05791b8af29eed72084f39143c7.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/0c12278389532e91c601af4c8adef7fc.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/8be6adae5ae0e157014d7d250870f212.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mavana’",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/e13748298cfb23c19fdfd134a2221e7b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ba3c5fe1d6d6708b5bffaeb6942b7e04.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/297b631a88835f8931aa5aabdd06ece9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/e261489ab942429a6600c1c4121ac14d.wav"
+        },
+        {
+          "ab": "mahaenay",
+          "ch": "這樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ce89f6b11bdc5b365085a84036e9365b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/dc91cc9b6b3fc6325cf08272dbf9eb2f.wav"
+        },
+        {
+          "ab": "demak",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/d5e705ceeeb7f7ece5dc5ee9bb5e148d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/54eea69746513c0b90bbe6227b6f46c3.wav"
+        },
+        {
+          "ab": "madupuh",
+          "ch": "勤奮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/968c9b4f09cbb7d7925f38aea3484111.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/b9acb4ae6121c941324b2b1d3fac5c30.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/52aaa62e71f829d41d74892a18a11d59.wav"
+        },
+        {
+          "ab": "micudad",
+          "ch": "讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/8fe04df45a22b63156ebabbb064fcd5e.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/420824960f755f8721c47b6027ead6ab.wav"
+        },
+        {
+          "ab": "matini",
+          "ch": "此時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/966aad8981dcc75b5b8ab04427a833b2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "saka",
+          "ch": "最",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/d60743aab4b625940d39b3b51c3c6a78.wav"
+        },
+        {
+          "ab": "saan",
+          "ch": "原由",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/aecad42329922dfc97eee948606e1f8e.wav"
+        },
+        {
+          "ab": "caay",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/cc6ef8cb8df3af5693726838cd728163.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/ff450ba01b0ca2695d62525505dd80eb.wav"
+        },
+        {
+          "ab": "kapakasemer",
+          "ch": "耐受力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/9ab8a8a9349eb1dd73ce155ce64c80fa.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/51c68dc084cb0b8467eafad1330bce66.wav"
+        },
+        {
+          "ab": "ngeru’",
+          "ch": "辛勞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/48bea99c85bcbaaba618ba10a6f69e44.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/bcb3303a96a92dc38c12992941de7627.wav"
+        },
+        {
+          "ab": "heni",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/25/e0f48a1058f0f0204b22d4a2fd6f18ae.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

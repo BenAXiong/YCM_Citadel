@@ -1,6 +1,634 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "’akasalrailimia’e ’a pavalrilo vilrivilrivilrilaenga",
+  "titleCh": "永恆的戀人",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "當我蜷縮露宿於昏暗的角落，在無以蔭避的暴風雨中，在無依投靠的天寒地凍裡。您猶如是東方一顆明亮的晨星，愛的光輝永遠照耀指引我。\r\n",
+      "ab": "lo ikili ’oolrae takadhalremedheme, lo akaodhodha taoa ’ilepenge onai lo ovelreni, lo kalakecelrae ’a akaodho ka taoaeli ka motalo. omi’amo’o tarikarikape tario talidha’a, ’ina’i lidha’a ’a madhalamemita, omikimite tokalihana.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/20f46434c24af425527e9c1e173a0d3c.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d969f1354f848be1f5998515c0854117.wav"
+        },
+        {
+          "ab": "ikili",
+          "ch": "我在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a10dabd7126f9ea9df1ccec55e87a956.wav"
+        },
+        {
+          "ab": "’oolrae",
+          "ch": "野外",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/091b823cf1e464568f6369f236933145.wav"
+        },
+        {
+          "ab": "takadhalremedheme",
+          "ch": "昏暗的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/37e612381d6de8291bbe6d4b2e827325.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/be1a96ec45fcd3d7b50049f89eac2da8.wav"
+        },
+        {
+          "ab": "akaodhodha",
+          "ch": "他沒有時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cf70b759f57adae4dd7c38094f0ce1dd.wav"
+        },
+        {
+          "ab": "taoa",
+          "ch": "去的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/45fb498e51aac8318d9913d2dc65ade9.wav"
+        },
+        {
+          "ab": "’ilepenge",
+          "ch": "躲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/04639b5cc3fc089a17640b543a925010.wav"
+        },
+        {
+          "ab": "onai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a1445b45cf65752e3f9e0bf248a5092e.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/98a33c23dbb704860da65be70adb6694.wav"
+        },
+        {
+          "ab": "ovelreni",
+          "ch": "他颱風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/dbc2ca0e5832f6ef0bb87d31d24c7b60.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bb77b4440741258682c362225ab9775e.wav"
+        },
+        {
+          "ab": "kalakecelrae",
+          "ch": "冬天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8aaeb3ea06b7c36ae1e485a432e7cf1a.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4f627b7464e59a1806279763894ba90f.wav"
+        },
+        {
+          "ab": "akaodho",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/041426439277b7a3e3644cceec49cd5a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9e490bdd1469c4234f56c3bb29605463.wav"
+        },
+        {
+          "ab": "taoaeli",
+          "ch": "我去的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2ca1192ac6c5b124a01123a9def85d7a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bb0526448039721ece154b47d6183c18.wav"
+        },
+        {
+          "ab": "motalo",
+          "ch": "靠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/82b9c8d05a158a9002df29687d5c7ef5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "omi’amo’o",
+          "ch": "你像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3cb3793c9786998c689aceb2fc3d3514.wav"
+        },
+        {
+          "ab": "tarikarikape",
+          "ch": "閃爍的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/30157012fa42f74c50d5c065a0305d3c.wav"
+        },
+        {
+          "ab": "tario",
+          "ch": "星星",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/89f153277eac14eda48dd95e28ef441a.wav"
+        },
+        {
+          "ab": "talidha’a",
+          "ch": "亮的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0a1bc06b767503a7bf48ac496f810b2d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d4e5d5d834bcddea1d45022b37fc2515.wav"
+        },
+        {
+          "ab": "lidha’a",
+          "ch": "亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6691c133e0ab1c22c522ee028df6839d.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/03b7ab177d4b4feb79a9bac12e86464b.wav"
+        },
+        {
+          "ab": "madhalamemita",
+          "ch": "喜歡咱們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/714a21ef652cede79946ce06f6d2d012.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "omikimite",
+          "ch": "咱們有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/71fbaff135a24dd40c9678e307c3387c.wav"
+        },
+        {
+          "ab": "tokalihana",
+          "ch": "天剛亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5713589589094bbcbda282b1e7546db4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "您像是一棵繁茂的榕樹，您的愛，對我們像遮陽樹的影子，也是孩子們盪起鞦韆歌唱的地方，疲憊者棲息的地方，疲憊的旅人暫時歇息之處。",
+      "ab": "omi’amo’o arolisi tacalrivengevenge, ’akasalrai’o ’a omi’a ’ahihongo pa’ipalrilrimi’iname, ’inai laalaketa, ta’initolitoli’aelini omale, taoaoaeni takavare’e i’adha ’ovarea’e, taikikiaeni takavare’e i’adhana ’ovarea’e.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9c611d4f4607543eeae3a4e0e1d21a7f.wav",
+      "word": [
+        {
+          "ab": "omi’amo’o",
+          "ch": "你像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8380848d8b7dd6388fdcf354c645530c.wav"
+        },
+        {
+          "ab": "arolisi",
+          "ch": "榕樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f071c902dea772c447c66730b0cb911c.wav"
+        },
+        {
+          "ab": "tacalrivengevenge",
+          "ch": "茂盛的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1dd701b050875d20a25c9c7cc39edf44.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’akasalrai’o",
+          "ch": "你的慈愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/99e6e4b6ee41679d0af27a57f129e428.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fc9198cf931a9396eff4ebf65d520419.wav"
+        },
+        {
+          "ab": "omi’a",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/930b6d560655f3c94a90a19ae2c04e92.wav"
+        },
+        {
+          "ab": "’ahihongo",
+          "ch": "影子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fd75e0b4505d6b1405186a2a34bfe1d1.wav"
+        },
+        {
+          "ab": "pa’ipalrilrimi’iname\r\n",
+          "ch": "讓咱們庇蔭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/29f57595b461bbadad6326254765bf33.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’inai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/84bd25da471f77d7a591ab2e73c9d338.wav"
+        },
+        {
+          "ab": "laalaketa",
+          "ch": "咱們的孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/27d6d8848740725c87e514b73530dce7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta’initolitoli’aelini",
+          "ch": "他們盪鞦韆的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1686642a89d52afd3989665ef00683bd.wav"
+        },
+        {
+          "ab": "omale\r\n",
+          "ch": "唱歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d8e5f33476efd28bf1789cdad11864ad.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taoaoaeni",
+          "ch": "他常去的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ef7871dea1b5965a7f9bc21575142596.wav"
+        },
+        {
+          "ab": "takavare’e",
+          "ch": "疲倦的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0f816b127200f9af246169ed640caaa9.wav"
+        },
+        {
+          "ab": "i’adha",
+          "ch": "休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4a36dd9dadfdab8fb140efce701be4ba.wav"
+        },
+        {
+          "ab": "’ovarea’e",
+          "ch": "卸下疲倦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/addaec26fa911625ab6f2a000a4b0c02.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taikikiaeni",
+          "ch": "他在的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cb2c971103228d2388fa02695c31c2e7.wav"
+        },
+        {
+          "ab": "takavare’e",
+          "ch": "疲倦的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ac8f4d8adecddaf5ae1d8a19842e5454.wav"
+        },
+        {
+          "ab": "i’adhana",
+          "ch": "先休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c0a4b577fefb85f4f1bbd3d88661e02d.wav"
+        },
+        {
+          "ab": "’ovarea’e",
+          "ch": "卸下疲倦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/794346fd7d0272de73d00ad4b14ad366.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "您如娃娃烏麗妮的泉源，日夜流出清涼的水，為無人照顧的孩兒擦拭眼淚，流離失所的人洗去污垢，枯萎的心靈獲得濕潤的地方。",
+      "ab": "omi’amo’o taka’oka’oelini acilai, lo menanae mokavole takaateleke acilai, mani dholro to’a’odhe’ele lo ’apolalavelavaeni lrolai ikaodhoae talakeve, mani dholro sovesave ’olra kodholro ’ina taikaodho palrapalra, dhona takalropi’inga mani dhoolronga paka’eleme ’iidheme.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4461ba24a2cab6d019bb0d8934a90f44.wav",
+      "word": [
+        {
+          "ab": "omi’amo’o",
+          "ch": "你像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/57a1e7791a9adfe70f3a4dfdf5defbe3.wav"
+        },
+        {
+          "ab": "taka’oka’oelini",
+          "ch": "他們澆水的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/709ea606ba7caabe51ebec0cf7b11c9f.wav"
+        },
+        {
+          "ab": "acilai",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5029df41e3831ab190418415c1593038.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/817f92a44d5fc89a1d0236005352177e.wav"
+        },
+        {
+          "ab": "menanae",
+          "ch": "日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1f0ae1af81d32be6be0dc7059ef397d3.wav"
+        },
+        {
+          "ab": "mokavole",
+          "ch": "出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d284478f61a24e3be185f52e512d3b33.wav"
+        },
+        {
+          "ab": "takaateleke",
+          "ch": "冷的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e2102c805c17d6f5d280848fcba3472f.wav"
+        },
+        {
+          "ab": "acilai",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/965b28d280a4f3d597f955d5445cb0f9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c8cd658ffe9b6d6d67415a8b9e96fb78.wav"
+        },
+        {
+          "ab": "dholro",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/efaa9294a25dfd6120f5f5610d285496.wav"
+        },
+        {
+          "ab": "to’a’odhe’ele",
+          "ch": "用來擦拭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d0310993ced219c9d5f81c0e930d0b5c.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a0c45a2b653345a3e17a8455a7ce6604.wav"
+        },
+        {
+          "ab": "’apolalavelavaeni",
+          "ch": "他的眼淚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a6d09848dbf3a7774c01ebec4f00aea5.wav"
+        },
+        {
+          "ab": "lrolai",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8b82afea0d4b2213ab587bee8c839ace.wav"
+        },
+        {
+          "ab": "ikaodhoae",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4dd7ef09556ac3f19753e5e606ea49fc.wav"
+        },
+        {
+          "ab": "talakeve",
+          "ch": "照顧的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/21ed25dcf0d83fbe591a46310b1918c2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5125381e68c1ac901e9b4612e6797a1b.wav"
+        },
+        {
+          "ab": "dholro",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/07f2e0a88631dab56b6762b5d0267e4b.wav"
+        },
+        {
+          "ab": "sovesave",
+          "ch": "沖洗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7a7e3520de2c7d9831470f883b65e3d0.wav"
+        },
+        {
+          "ab": "’olra",
+          "ch": "拿掉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/156d870a1769df5258bef684c4b767c1.wav"
+        },
+        {
+          "ab": "kodholro",
+          "ch": "髒汙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3b35d01f93c217935846b16ee41e323e.wav"
+        },
+        {
+          "ab": "’ina",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1669e1082db2c00eb0766d19029ea697.wav"
+        },
+        {
+          "ab": "taikaodho",
+          "ch": "沒有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c1c5acb98dec53a2dad3e6de373f6ec5.wav"
+        },
+        {
+          "ab": "palrapalra",
+          "ch": "親戚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9e91cabd8613d04ee3ac625bbbd5a641.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dhona",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6bfc4d3f3d3792ca16ee542b5067f4e6.wav"
+        },
+        {
+          "ab": "takalropi’inga",
+          "ch": "疲倦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/664606dc5edf7097e77bc51f669c39b3.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/534c4dce89712e227075f0c9e99f08c0.wav"
+        },
+        {
+          "ab": "dhoolronga",
+          "ch": "也可以了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/23985f7c6fb5bc36ba776614cef1d93e.wav"
+        },
+        {
+          "ab": "paka’eleme",
+          "ch": "浸溼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6ed81985f0c079969899c8219ed7a7a4.wav"
+        },
+        {
+          "ab": "’iidheme",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9ae611b428a1592d01a3acad5f9c28d1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "您如您的名字「Patahao」是永恆高貴的代名詞，而您留下給我們的是永恆的溫馨、驕傲、尊嚴，一生一世，您是我永恆的戀人。",
+      "ab": "tai’ana’o alrace’o “Patahao” oaoaini makocingai ’ina alrace, ’ina pa’aovilrilae’iname, ’akasalrai, ’atoelaela, dhe’elrehae ’akasalrailimia’e ’a pavalrilo vilrivilrivilrilaenga.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3334e76ec575f053fe1b32c50e8bc8e0.wav",
+      "word": [
+        {
+          "ab": "tai’ana’o",
+          "ch": "你還是一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5b74752b25bd07933b10b2098970f990.wav"
+        },
+        {
+          "ab": "alrace’o",
+          "ch": "你的名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/75c329d06c80b183631e517aca5a8b51.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Patahao",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f67ce25bb06e710ed8cca26bf7958d06.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "oaoaini",
+          "ch": "他要去哪裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/086e52d87636d643796460c42f31743d.wav"
+        },
+        {
+          "ab": "makocingai",
+          "ch": "貴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/655305c88de47bfb48d43cd7a245beb3.wav"
+        },
+        {
+          "ab": "’ina",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/53aad9b02c5aa716e91c148f0c091363.wav"
+        },
+        {
+          "ab": "alrace",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/93a597b606921e5243c72ed07b70f98e.wav"
+        },
+        {
+          "ab": ",\r\n",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ina",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/650acf5df3b11519efb15f9c6b17495c.wav"
+        },
+        {
+          "ab": "pa’aovilrilae’iname",
+          "ch": "你留給咱們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/568864198d2fd079d72fb788ca3eaed7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’akasalrai",
+          "ch": "慈愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2e8ce3aa444af7dfcaa3b61e5986d52c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’atoelaela",
+          "ch": "驕傲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2146a9d2ef5d076da385a378e16488cd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dhe’elrehae\r\n",
+          "ch": "尊嚴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1812d8c8c1839fb1db57025c9e43f561.wav"
+        },
+        {
+          "ab": "’akasalrailimia’e",
+          "ch": "我疼愛的你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/418e94a5f3c541645aca12e6aca67ebb.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a1a7657decc88bc6788dc4e7986a6ae5.wav"
+        },
+        {
+          "ab": "pavalrilo",
+          "ch": "直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3a938dd4b7d1857c13b2e3f13a09aef0.wav"
+        },
+        {
+          "ab": "vilrivilrivilrilaenga",
+          "ch": "永永遠遠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/899e3cefb6f4f47f7af982bd641a4ba4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

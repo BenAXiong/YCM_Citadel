@@ -1,6 +1,896 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "pakituru a sasaruanana",
+  "titleCh": "土地的法律",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "我們的土地都是祖先傳承下來的。早期誰先開墾土地，該土地就屬於誰，後來形成聚落後，有四個社群：雁爾社、排剪社、塔臘祫社、美瓏社，先由三個頭目和各長老們分配及規劃土地，再由各社頭目和長老們分配，所分配的土地有三種：農耕地、獵區、溪川。",
+      "ab": "sasaruanahlamuna hlipupususuaisa ka ahlama, kiariari ngahlaisa hlimalualu umasasapa ia, ihlaisa pi sasaruanaisa, akuisa marucu a miararuma rumahlaʉ, upaticu a tahlana Hlihlala, Paiciana, Talicia, Vilangangʉ, ihlaisacu tatulu raahli hla hlituahlahlama pususua sasaruanana hla aatʉ, takatakacicihlicu tahlana raahli hlituahlahlama pungahlangahla pupihlipihlingi sasaruana. sasaruana hliputulu a ngahlana, sitakuaumuma, ta’ahlupuana hla hluhlungu.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/8334a68d1fc0314828381b1f62116911.wav",
+      "word": [
+        {
+          "ab": "sasaruanahlamuna ",
+          "ch": "我們的土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/8e14e2548c50b79372020771b4eb6dff.wav"
+        },
+        {
+          "ab": "hlipupususuaisa ",
+          "ch": "他分配",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/21248b95791951793125224bdb1594fb.wav"
+        },
+        {
+          "ab": "ka ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/fbac0337ff542f00c39132d2e628b5f7.wav"
+        },
+        {
+          "ab": "ahlama",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/47d980252dd7c0054cbf6ee1b1e6c8b4.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiariari ",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b258929d0c76d4deef822e63eecd91ec.wav"
+        },
+        {
+          "ab": "ngahlaisa ",
+          "ch": "誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/8c237a6bdbaae0881afb1c416e6f25b5.wav"
+        },
+        {
+          "ab": "hlimalualu ",
+          "ch": "先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c43f0c8ec2ae76b1703805a5554bcdd8.wav"
+        },
+        {
+          "ab": "umasasapa ",
+          "ch": "開墾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/82d458df824372299b0359749da9fee8.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/559e510a74094a67f6a0f34e02ab6f15.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa ",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/97f4538d48521b630d24f8e7017b7a7a.wav"
+        },
+        {
+          "ab": "pi ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/27b7d2b72cdefec9f6db7f2457d91f35.wav"
+        },
+        {
+          "ab": "sasaruanaisa",
+          "ch": "他的地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/f22d9c3b0d6a54671018cde797fbfcd2.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "akuisa ",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9b830ae525c4f3e12f0a55b0d128752e.wav"
+        },
+        {
+          "ab": "marucu ",
+          "ch": "有了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/19f30332aea40656573dcfa813951a30.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b9cecca75d277cd77afd8818fd369781.wav"
+        },
+        {
+          "ab": "miararuma ",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/8a88b6611ab952a6aa8270d0e6b9d5d1.wav"
+        },
+        {
+          "ab": "rumahlaʉ",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/de20df81595cf7b985ccba4928203f00.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "upaticu ",
+          "ch": "四個了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c3c62a7cefc988163138bed0fb8d94e1.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/4836589ecf3dc32daccf7caaca384775.wav"
+        },
+        {
+          "ab": "tahlana ",
+          "ch": "社群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ead6a9959793718b17ddb7869b007f35.wav"
+        },
+        {
+          "ab": "Hlihlala",
+          "ch": "雁爾社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/7ba8705cb519b32057469b0d1fec92dd.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Paiciana",
+          "ch": "排剪社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/54f59da27d53cd8978f31f09ff4be713.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Talicia",
+          "ch": "塔臘祫社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/e487f7dad07948be41d84c18e6f9fdd2.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Vilangangʉ",
+          "ch": "美瓏社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/fe1ad8d4f5dbb3cb866d0c89beb527a6.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisacu ",
+          "ch": "是了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/e6864fa508999c74d0fadb604f2a4ad3.wav"
+        },
+        {
+          "ab": "tatulu ",
+          "ch": "三位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/92f65d47b6aa24d38c3d0fa101b42c71.wav"
+        },
+        {
+          "ab": "raahli ",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c3f78d746b7cd1ce85b72b558b481d6e.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/139381229fa9bbe988e9335c8e41b537.wav"
+        },
+        {
+          "ab": "hlituahlahlama ",
+          "ch": "長老們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/249bcee88ca31229c432e0a0517e4e82.wav"
+        },
+        {
+          "ab": "pususua ",
+          "ch": "分配",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6e3ec74b642fe6f160ef5bff93cd9e27.wav"
+        },
+        {
+          "ab": "sasaruanana ",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6704682c481e25186639bb4c01e5bd39.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c665b8e98acc9e422eb5ba424d0fa8ab.wav"
+        },
+        {
+          "ab": "aatʉ",
+          "ch": "距離",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/83df3fb1d1793bff63a54bccc5fa4abc.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "takatakacicihlicu ",
+          "ch": "自己了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/07172b7a406c48fdc881a804c90424f1.wav"
+        },
+        {
+          "ab": "tahlana ",
+          "ch": "社群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/cda3cd26eb96cd54003c160020d7eb9b.wav"
+        },
+        {
+          "ab": "raahli ",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/1edf5db79230c5153225bddbe19dfcf3.wav"
+        },
+        {
+          "ab": "hlituahlahlama ",
+          "ch": "長老們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/0a63013b7ce0e908301d227ca7375bd3.wav"
+        },
+        {
+          "ab": "pungahlangahla ",
+          "ch": "再分",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/064646ac1f79043fb44e86c15590fff7.wav"
+        },
+        {
+          "ab": "pupihlipihlingi ",
+          "ch": "分各家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/df751cfdc18db19795ac6da836361560.wav"
+        },
+        {
+          "ab": "sasaruana",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/28bbb6a995f0b2d6eca5a00e57587b61.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sasaruana ",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/572b32bde8dcd42e5964d23e7a69e138.wav"
+        },
+        {
+          "ab": "hliputulu ",
+          "ch": "分三個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/06cc0a1637d71a418c3333afa4c3cbde.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/60ebbf33089f55984f110bf6659cc1fe.wav"
+        },
+        {
+          "ab": "ngahlana",
+          "ch": "種類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/18c68edfe5727c9c71a15e19fdf54fe0.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sitakuaumuma",
+          "ch": "農耕地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/07935ea47181e0a1c618afed85ab49a8.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta’ahlupuana ",
+          "ch": "獵區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/82ed7c6b71033c32eb01b6e549d58a4f.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/996e9ce027393d2da9669962656097e0.wav"
+        },
+        {
+          "ab": "hluhlungu",
+          "ch": "溪川",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/0636a77c3c3a191970110ba0391413a8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在社群中，氏族人數越龐大，所分到的土地就越多，因而產生了公共農地。公共農地由氏族中各家庭共有和共工。當一家人力不足時，各家就會前來協助，之後由長老們分配收成。",
+      "ab": "macua tumahlaʉ a pihlingisa ia, matumuhlu a hlipususua sasaruana, aunanacu kipuhlu a sikiakucua umuma, kani’i ia takuaʉlʉsaisa tumahlaʉ pihlingina, macu a kutumahlaʉ cucu’u ia, arupatalʉlʉvʉ a pihlingina. macu a hlikikucu a maripucu hlilʉmʉlʉmʉka ia, pusasusucisa hlamama aucaucani pihlingi.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b4bd0050a889379bcec828d6f03ad227.wav",
+      "word": [
+        {
+          "ab": "macua ",
+          "ch": "若是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a4f2e3469274edc3a892e5fa6a3fed83.wav"
+        },
+        {
+          "ab": "tumahlaʉ ",
+          "ch": "多人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6fb993585e84791f6cc59c09447fedb7.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c43ed89471acb74c0be7f8a6616ee260.wav"
+        },
+        {
+          "ab": "pihlingisa ",
+          "ch": "他的家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/04a1cfb3182fb7dc485912eefdbdf544.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/7901178c9e49cf3816394388d82f73a7.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matumuhlu ",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/2829e3d9df6392deb3d86ea52573f4d9.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/097d98c4b9547833c7e9f4e518710139.wav"
+        },
+        {
+          "ab": "hlipususua ",
+          "ch": "分到的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a60582dd957996ab62e98e407cab549b.wav"
+        },
+        {
+          "ab": "sasaruana",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a7ee11c99daa86125832bfc5e5a06cce.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aunanacu ",
+          "ch": "就這樣了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/488d7dfd7733c2fa9a66083461b23e27.wav"
+        },
+        {
+          "ab": "kipuhlu ",
+          "ch": "出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/36748cf6225d485b061ff9e581002c55.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/88ece55e0e9ee5a29478dda8a3451c6f.wav"
+        },
+        {
+          "ab": "sikiakucua ",
+          "ch": "公共的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c4709121f7d292d4cfa757e069f73ae7.wav"
+        },
+        {
+          "ab": "umuma",
+          "ch": "農地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/86023b808fc6518699242fcb682bd034.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d5cbfc2338b5a935dd335fe533a42d4c.wav"
+        },
+        {
+          "ab": "ia ",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d8a9942b4eb7099d4efb5c636579c84f.wav"
+        },
+        {
+          "ab": "takuaʉlʉsaisa ",
+          "ch": "一起作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d1238df07656c5def7900b73edb95974.wav"
+        },
+        {
+          "ab": "tumahlaʉ ",
+          "ch": "多人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a85ba0b7a78a784fbbcf01ded2b78d22.wav"
+        },
+        {
+          "ab": "pihlingina",
+          "ch": "家庭的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d078b59bdcfbb775d676005d97a28052.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macu ",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/bf053e678472656d69aa64381241dafe.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c9f14bd320571ce705d2df94fa43dd97.wav"
+        },
+        {
+          "ab": "kutumahlaʉ ",
+          "ch": "不多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/aa51644f629fcfc489fbfca3507bda34.wav"
+        },
+        {
+          "ab": "cucu’u ",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b15de5ef5a5f64befab26a4593354883.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/58ecd623583cee16cba88dee2b70893e.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "arupatalʉlʉvʉ ",
+          "ch": "互助",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a501c1872245256a489456d2c91d0e29.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/fa7ae5da6700f4799b55d96f45dc2767.wav"
+        },
+        {
+          "ab": "pihlingina",
+          "ch": "家族的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/4c20c05d21db4a861ac587721df7c84e.wav"
+        },
+        {
+          "ab": ". ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macu ",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/674c8611d610ae2e5c02697a40fa5c11.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/5304e5cbe8cdb0d652f7e580e17eb6b7.wav"
+        },
+        {
+          "ab": "hlikikucu ",
+          "ch": "公共",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/1eeda0547dd46b7536d81721228cebec.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/aaae4a140eb848f108ab6c25421306cf.wav"
+        },
+        {
+          "ab": "maripucu ",
+          "ch": "採收",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/44dc872e5acff843a29b0a2e3a75c394.wav"
+        },
+        {
+          "ab": "hlilʉmʉlʉmʉka ",
+          "ch": "莊稼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9621bccc7cf2dada62b12111b13af885.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a9d878b56b99356738dcffc7251861d7.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pusasusucisa ",
+          "ch": "他分配",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/59769fcb6ed79300f5993a0b897698c8.wav"
+        },
+        {
+          "ab": "hlamama ",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/e227e6ae6ee399d5c9e7ad81b44a714a.wav"
+        },
+        {
+          "ab": "aucaucani ",
+          "ch": "每各",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/2aa9b53c309599f7d32e66ecd0769c73.wav"
+        },
+        {
+          "ab": "pihlingi",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/f10640d7298e73f2a5b8acafb46405c8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n土地由家中長子繼承，若家中無男子，土地將歸為氏族中，兄弟多的家庭所有，若犯重罪者要賠償土地時，則由雙方家長討論解決。從前有其他族人侵入綠茂溪抓魚，被族人發現後遭受處罰，故稱為「ngasupihla」，可見族人很重視土地領域。",
+      "ab": "ahlalua hlahlusa ia, ihlaisa sariamia sasaruanana, macu a kupi mamaini hlahlusa ia, sasaruanaisa ia, ihlaisa tumahlaʉ murituruturuana sariamiaisana. macu a cucu’u langʉlangʉ hlipasasapua ia, pirasavungu sasaruana, tumua sasua pihlingi hlamama arupakari patahliʉngʉcʉ. kiariari hlimungahlʉ a hluhlungu ngasupihla, marua cucutahlana usumanʉ takucalivi matisangalʉ vutukuhlu, aputʉahlʉ cucuta sapakatʉra, kuhlaisai, sapingahlacu a kani’i hluhlunguna ngasupihla. kuhlaisai cucutahlana maci umahlikua aatʉ tam pualisʉhlʉ.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/434f81c0b2d21a227a76a53959674966.wav",
+      "word": [
+        {
+          "ab": "ahlalua hlahlusa",
+          "ch": "哥哥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/1df4de1d83110fa54916e9ed7b5c563d.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c00f398ebd329c20830412c9a5242827.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d691292905d0d35b93743eed72ed91f1.wav"
+        },
+        {
+          "ab": "sariamia",
+          "ch": "獨得",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/082a967f72145c7e6bb7c24486e8b294.wav"
+        },
+        {
+          "ab": "sasaruanana",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/08fb2e4d6c559b5abf11046d9f1ac62f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macu",
+          "ch": "若是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d3438b9137822ee21032cf1513c3bc4b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/06/eb604367b811f04b85090bad943f1ce9.wav"
+        },
+        {
+          "ab": "kupi",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ed376ba445937786419022f9eea069d1.wav"
+        },
+        {
+          "ab": "mamaini hlahlusa",
+          "ch": "男孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6b6f65bb40f08afc05857611df91dfef.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b8fa9aac4738af0a9799619ff1a88302.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sasaruanaisa",
+          "ch": "他土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/cd245e2f583691e9712c2d914dbea787.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ddc8bb0477c7261fa8def2fbc0e335d3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9ab2165a9ae7f1c92514e02a0d642ff3.wav"
+        },
+        {
+          "ab": "tumahlaʉ",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/dc1d4a3e043f7bdd7811a75909660ff5.wav"
+        },
+        {
+          "ab": "murituruturuana",
+          "ch": "兄弟的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/99633779c3dd93ef767128b84420266f.wav"
+        },
+        {
+          "ab": "sariamiaisana",
+          "ch": "由他獨得",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ccf302f6d8faee48d29f5441b5f91d68.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macu",
+          "ch": "若是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/53ea1bbdcdb97ae1ff80ce53e1844c39.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/06/03dd3f505cb842c0e52c03842726251d.wav"
+        },
+        {
+          "ab": "cucu’u",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/daaa7c660ea9d360037aadbe3d610080.wav"
+        },
+        {
+          "ab": "langʉlangʉ hlipasasapua",
+          "ch": "重罪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/8b3a70fc71ae3299245cb1c928e7c819.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/17c11db333068c959a20568f2ff92e2c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pirasavungu",
+          "ch": "賠償",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b51ccbfe7a835992dc04cdd3541c99e1.wav"
+        },
+        {
+          "ab": "sasaruana",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/7610cf460b59f3403d6d78d0d5fe83bb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tumua",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/fc1c0e14eb70979caa9294b586fe6099.wav"
+        },
+        {
+          "ab": "sasua",
+          "ch": "倆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/31f803b04fef48f630aad90bc8a48d78.wav"
+        },
+        {
+          "ab": "pihlingi",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/50381df917fd5456ccb5399e12641f41.wav"
+        },
+        {
+          "ab": "hlamama",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/f0f4c615d799ee1f07c723dc6c62a3e2.wav"
+        },
+        {
+          "ab": "arupakari",
+          "ch": "互相討論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b9fa78c09f021323f559061befbb61a3.wav"
+        },
+        {
+          "ab": "patahliʉngʉcʉ",
+          "ch": "合解",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/2bc3228d540d74e471763503ef5dcec0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiariari",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/dacbc8e2a1db413332a3ee1a046c117e.wav"
+        },
+        {
+          "ab": "hlimungahlʉ",
+          "ch": "有一次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d0cd70dadc35631bfccec0d4e01739b8.wav"
+        },
+        {
+          "ab": " a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9134cb9c70e4852de2dac5266c8df7c0.wav"
+        },
+        {
+          "ab": "hluhlungu ngasupihla",
+          "ch": "綠茂溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/98789a32eabf71eba0511d840f9bd67a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ad136431f11b38bc735a247d2eebe286.wav"
+        },
+        {
+          "ab": "cucutahlana usumanʉ",
+          "ch": "別族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/fdf32d03b8c3af3ea6760eff9e58c851.wav"
+        },
+        {
+          "ab": "takucalivi",
+          "ch": "越過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/884eae1aeb68a17f270f3f59a9793762.wav"
+        },
+        {
+          "ab": "matisangalʉ vutukuhlu",
+          "ch": "抓魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/952fad2ba056cac372124417a7ef8e52.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aputʉahlʉ",
+          "ch": "被發現",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6ab479fcb720a073f559d7b0d9e09fa6.wav"
+        },
+        {
+          "ab": "cucuta",
+          "ch": "我們的人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/aeec4c229aa292674dd04669ba855b50.wav"
+        },
+        {
+          "ab": "sapakatʉra",
+          "ch": "他被處罰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/bbb9650a85b732b0ac739bc3fb28fafc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuhlaisai",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/3ba3a7cc50808a77e61a8e302451f8db.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sapingahlacu",
+          "ch": "給它取名了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/4e53c92be0208439534121f63385f1a1.wav"
+        },
+        {
+          "ab": " a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/3a8e941ba4d759fec613b2823db23b7d.wav"
+        },
+        {
+          "ab": "kani’i",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/0c53eb2a2219589b8565c4e31f948f8b.wav"
+        },
+        {
+          "ab": "hluhlunguna ",
+          "ch": "溪的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/949ba52c82a84c7aaaef1e5122140c9a.wav"
+        },
+        {
+          "ab": "ngasupihla",
+          "ch": "（溪名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ef46cc3a76521696159b7adb10f359fc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuhlaisai",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/5693fee6b53257464869d70bde87ffb3.wav"
+        },
+        {
+          "ab": "cucutahlana",
+          "ch": "族人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/e5f7592234b7e5401ce4f4e7028c03da.wav"
+        },
+        {
+          "ab": "maci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/52d3ced81a0c84f30c2504fbe706f9eb.wav"
+        },
+        {
+          "ab": "umahlikua",
+          "ch": "對",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/4383eb9b31fa660bc2a8560518f670f4.wav"
+        },
+        {
+          "ab": "aatʉ",
+          "ch": "界線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/bad00b18c6623b94b8e7cc226404b6ef.wav"
+        },
+        {
+          "ab": " tam pualisʉhlʉ",
+          "ch": "很重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ba708ec6c91cdc7c9b8bc80941c35168.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,541 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "senay i Sanasan tu pauwayan",
+  "titleCh": "綠島小夜曲",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "這綠島像一隻船，在月夜裡搖呀搖。",
+      "ab": "i Sanasan kamawan za sudang, muiyuiyud i lrevek, kana ’aremengan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/c1951445a98a1f61342ba5491c4342e0.wav",
+      "word": [
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/3c90fc5bc12421fec9d2f3e835b4f18d.wav"
+        },
+        {
+          "ab": "Sanasan",
+          "ch": "綠島",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/9b0379be9ae1f6457300183bf348b7e7.wav"
+        },
+        {
+          "ab": "kamawan",
+          "ch": "像，如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/254643f779aae474bb09ed3abba5456b.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/a03ba8fef9d75f1e0cd189193a0c8d42.wav"
+        },
+        {
+          "ab": "sudang",
+          "ch": "船",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/42776acb09125fd0e79fd4a064354d85.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muiyuiyud",
+          "ch": "搖來搖去\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/79c8ae71fcfd263e31eaeeee00915160.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/4336dee5e571b9723c72179862c57eb6.wav"
+        },
+        {
+          "ab": "lrevek",
+          "ch": "海中\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/cb43b0c01b189285f4e315ad57ca4ee7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/c02ecb6d57049f8179dc1cb8b6fedc7c.wav"
+        },
+        {
+          "ab": "’aremengan",
+          "ch": "黑夜裡\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/01/b011810f48de1c50be9b4bd36f317425.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "情郎呀！你也在我的心海裡漂呀漂。",
+      "ab": "nanku kinasaharan! kazu u kaninku anger i savak temavatavaw.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/ab7d82e734e70a5b6b87720a8d3b8da4.wav",
+      "word": [
+        {
+          "ab": "nanku",
+          "ch": "我的\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/824eef7c7cb63061bf16a1b2fcd39083.wav"
+        },
+        {
+          "ab": "kinasaharan",
+          "ch": "情郎\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/374b6d9a0ec6da00fe9ff688feff340c.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kazu",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/8591192631ebfac76184187abcb933cc.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/33260df19088ac5d8a8d53f8e835e13a.wav"
+        },
+        {
+          "ab": "kaninku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/af57fe911f594807fe3569e9a6062c86.wav"
+        },
+        {
+          "ab": "anger",
+          "ch": "心想",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/bbdc27d59e6cca65f83dcff1cb92ac54.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/8189217c7d4bd090a36e2da2bbe6acbc.wav"
+        },
+        {
+          "ab": "savak",
+          "ch": "裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/ef484451acd5c10ff84797b4a5e5cb27.wav"
+        },
+        {
+          "ab": "temavatavaw",
+          "ch": "漂來漂去\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2c7c5c2ed402156763866cf9faa857bd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "讓我的歌聲，隨那微風，吹開了你的窗簾。",
+      "ab": "nanku senay paturusanay kana vali, tu truwalray nanu lataw.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/88c46258e69ca46ef2ff42e1c3c3eb51.wav",
+      "word": [
+        {
+          "ab": "nanku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/20956813253d82d85bae85fd806bd92f.wav"
+        },
+        {
+          "ab": "senay",
+          "ch": "歌聲\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/10adf6458514be821e015fb17e40c30b.wav"
+        },
+        {
+          "ab": "paturusanay",
+          "ch": "隨著\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/c42d6d8b416847a57bb9011bc26a9673.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/76db4c777a677ffdb70baaa3bf087d4d.wav"
+        },
+        {
+          "ab": "vali",
+          "ch": "微風\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/3b1bb13da9fc819675b02d4e799dee68.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tu",
+          "ch": "他\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/018dc3f666ecfe1f2b2ebdb3fed21295.wav"
+        },
+        {
+          "ab": "truwalray",
+          "ch": "吹開\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/fc8a0dcfc5b954534711df12e21a2f0b.wav"
+        },
+        {
+          "ab": "nanu",
+          "ch": "你的\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/b307aeccaf3cc4782aca58964443a17f.wav"
+        },
+        {
+          "ab": "lataw",
+          "ch": "窗簾；窗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2c74cca6ebe64ff06118d9600bed6b95.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "讓我的衷情，隨那流水，不斷地向你傾訴。",
+      "ab": "nanku saharan kaninu, kurelranga kana mudada’ulr na zanum, marengaya kaninu.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/cd431391f8da1ee989ecec517f141992.wav",
+      "word": [
+        {
+          "ab": "nanku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/48e114557a2a01911ec9a189aaff0dba.wav"
+        },
+        {
+          "ab": "saharan",
+          "ch": "衷情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/31/518e365345076c0bc5621baac8a1f40f.mp3"
+        },
+        {
+          "ab": "kaninu",
+          "ch": "對你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/45e682a9487f03fcd025b0563a23d7e0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kurelranga",
+          "ch": "隨著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/23b8de3805ca40cabbc9384c281b99c9.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/37e3525cdfc7ea63b08d5e23138b599e.wav"
+        },
+        {
+          "ab": "mudada’ulr",
+          "ch": "流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/e5d9fa94d629772fe7bd5e5b7df53419.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/a87c7dbb7238c4353d422ca8a0607a88.wav"
+        },
+        {
+          "ab": "zanum",
+          "ch": "水\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/39e28d135fc5966c5163102f0178d49f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marengaya",
+          "ch": "傾訴，說出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/55eb196806a785748078f46d24a3906c.wav"
+        },
+        {
+          "ab": "kaninu",
+          "ch": "給你\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2d252bc2a98f1332554e9971b2720604.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "椰子樹的長影，掩不住我的情意。",
+      "ab": "na dudu atu ’alralriwang tatelraw, ’azi pakasulev zaku anger kaninu.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/355888676aab67a2209a9d5bfee30502.wav",
+      "word": [
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f7e9932a4b34c1e6bd95564b5e6ecdfe.wav"
+        },
+        {
+          "ab": "dudu",
+          "ch": "椰子\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/38c2bd5c3f8c541dc3e430d2b577006f.wav"
+        },
+        {
+          "ab": "atu",
+          "ch": "它的\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/543e04330448412fc8a2540c47fe023d.wav"
+        },
+        {
+          "ab": "’alralriwang",
+          "ch": "影子\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/d809c01aa0e59aad19c87c7e229fc396.wav"
+        },
+        {
+          "ab": "tatelraw",
+          "ch": "長，很長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/341060d62faaf2711d879ec802f84298.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’azi",
+          "ch": "不能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/d5c3653423d1e69aad2cac9d75f3c6cb.wav"
+        },
+        {
+          "ab": "pakasulev",
+          "ch": "掩住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/06/3c2b3d7e0e3499a5ef967680f795a0b2.wav"
+        },
+        {
+          "ab": "zaku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/80428d02e5d3ed8469b7f579efe2fc0e.wav"
+        },
+        {
+          "ab": "anger",
+          "ch": "情；想念",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/5d216e3449861b19c9b639ff66148366.wav"
+        },
+        {
+          "ab": "kaninu",
+          "ch": "對你；你的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/7572df401df53c49f3f8d7bd4863e9a7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "明媚的月光，更照亮了我的心。",
+      "ab": "semenan na ’ilras, pauwa tu pasenanay aku anger .",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/08161d6e1711cee3fd2175b864f119ed.wav",
+      "word": [
+        {
+          "ab": "semenan",
+          "ch": "明亮\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/262bfe399529f2bd7fd1df1fc540d33d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/b6fc35034dd06f7944bf034d24ec5229.wav"
+        },
+        {
+          "ab": "’ilras",
+          "ch": "月光；月亮\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/d9162184f1d5f6379663b32852fd6702.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pauwa",
+          "ch": "更加\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/b2621ad371fcae42f15e7a2ae8ab8777.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/801d6582c19a6114024c8b114a2c1db0.wav"
+        },
+        {
+          "ab": "pasenanay",
+          "ch": "照亮\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/6eb2d143c975f08255c02579e57d2346.wav"
+        },
+        {
+          "ab": "aku",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/27795c09cb2e0668ebd8fcb1a1a81515.wav"
+        },
+        {
+          "ab": "anger",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/74dbe44814d5fcc2479e32e133cd5c14.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "這綠島的夜，已經這樣沉靜。",
+      "ab": "i Sanasan atu ’aremengan, kemania kana marapengan.",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/05641c1aa8c9acecaf80fd3715ccc449.wav",
+      "word": [
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/2af95e896d7ac640347fef0c7baddd80.wav"
+        },
+        {
+          "ab": "Sanasan",
+          "ch": "綠島\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/7acc6b8a4fb3eecc9bdffe7ff1f88c25.wav"
+        },
+        {
+          "ab": "atu",
+          "ch": "它的\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/07d2c036e10c62ed8d6b228260483a37.wav"
+        },
+        {
+          "ab": "’aremengan",
+          "ch": "黑夜\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f2aba897760a30e2f45e46d24bc0ec02.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kemania",
+          "ch": "是這樣的\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/168b3d17f93422e412d2868bdae5f50c.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/6981f0c786abfc0c2dee2bc4dcd194b1.wav"
+        },
+        {
+          "ab": "marapengan",
+          "ch": "沉靜\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/79396199414afe8cada9af8be24e8c2a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "情郎唷！你為什麼還是默默無語。",
+      "ab": "inu nanku kinasaharan! mazu zi iniyan u za ngai, mapeng u ziya.",
+      "order": "8",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/9338df9daa224d0869cfda292e2d9e23.wav",
+      "word": [
+        {
+          "ab": "inu",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/cedede02ef93499a3c3e5e48e2504643.wav"
+        },
+        {
+          "ab": "nanku",
+          "ch": "我的\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/0c14127572ff76cd6725f4db6ecc40e7.wav"
+        },
+        {
+          "ab": "kinasaharan",
+          "ch": "情郎\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/7bcb5f10f996c43a8ae2396afd992a82.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mazu",
+          "ch": "為什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/df92d308bfe7fb2889ff209d32a487c3.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/f11fc522e17e7fbc45c5da73f752805d.wav"
+        },
+        {
+          "ab": "iniyan",
+          "ch": "沒有\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/646194e4e9a2aece98a4121a9254fbb3.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/570053cfe804e6bbc176a83e9b408999.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜格]\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/4130ddec2c76ea71e3ced15a92a16cff.wav"
+        },
+        {
+          "ab": "ngai",
+          "ch": "話語，話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/d4577345348886f57890177dcb9449d7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapeng",
+          "ch": "默默無語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/c75a8b67d7bb88f3595e8738de86ae2b.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/037dddb33996b0b4b7f57a4a32d41356.wav"
+        },
+        {
+          "ab": "ziya",
+          "ch": "還是\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/27/1cb7552b421ab5368d1e04dc6795baf1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

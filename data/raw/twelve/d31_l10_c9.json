@@ -1,6 +1,940 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "naquni nitaytan su tu lanas zau?",
+  "titleCh": "你對這件事的看法如何？",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "部落會議議程。時間：109年8月18日（星期一）；地點：活動中心；主持人：aus；紀錄：anu；與會人員：部落族人。",
+      "ab": "sahuygian na damu. deddan, 109 tasaw 8 bulan 18 deddan “ta lipay na 1”. qizuanan, ta siwRatan. pasasanuan, ti aus. pasudadan, ti anu. melabu ay, Raqit.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/425fbd8cd12d7ed14264bdd50d8da0b1.wav",
+      "word": [
+        {
+          "ab": "sahuygian",
+          "ch": "會議議程",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8305818a54ef4a93b0b7e2456f788b2a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/917d68cb9d2c3c61b7ff81beb8186897.wav"
+        },
+        {
+          "ab": "damu",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f2bff9ad2635019d73c3eef3d9be4a08.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "deddan",
+          "ch": "日期",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8e2f32d963726b000e9f6489f5352cfe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "109",
+          "ch": "109",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3d653baacb9b846339b5f57903f341e0.wav"
+        },
+        {
+          "ab": "tasaw",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/aff2f2fc36ca7a0ad068477106e12ba3.wav"
+        },
+        {
+          "ab": "8",
+          "ch": "8",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d8619f8b55d324ac137c7bac2e63dd42.wav"
+        },
+        {
+          "ab": "bulan",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e551b284ad7a366e42f48f93095d29df.wav"
+        },
+        {
+          "ab": "18",
+          "ch": "18",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4bfe0725327ee6f93ee3f47e82491ee9.wav"
+        },
+        {
+          "ab": "deddan",
+          "ch": "日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9589820048b36c3601d9c37444423452.wav"
+        },
+        {
+          "ab": "\"ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7d437e2ee2b6a52dd7c31ba13ae621bb.wav"
+        },
+        {
+          "ab": "lipay",
+          "ch": "星期",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4e51229aab15bd6ccdbabc3807cc2cc1.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/33192c6a9f0e304aa8ff60ace81a4d6e.wav"
+        },
+        {
+          "ab": "1\"",
+          "ch": "1",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e944a5f7ab6105d3d8814a8bd1c4de82.wav"
+        },
+        {
+          "ab": "qizuanan",
+          "ch": "地點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/90096e50520e0e69363854109958901e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f06067263051b3f5a73ddeebadf6faab.wav"
+        },
+        {
+          "ab": "siwRatan\r\n",
+          "ch": "活動中心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f1c204756f75e95bd82b957bb9a2727e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pasasanuan",
+          "ch": "主持人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/062adeb252cf5b5c1c09dab42e2ef738.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/00595c0d01d488a33a068852a0c6b2b8.wav"
+        },
+        {
+          "ab": "aus\r\n",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e732a37ee88a65aae3dabd172c4b6bdd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pasudadan",
+          "ch": "記錄者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1f6272478ce6c7ee9327701b0fc96c7a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d259cdbfe410454a67ee7b5f3b785b3b.wav"
+        },
+        {
+          "ab": "anu",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c317278e95b743db5c6c6e163ab789d6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "melabu",
+          "ch": "參加",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/06cbd114d7ee5c0f25c1c7323d7a77c0.wav"
+        },
+        {
+          "ab": "ay",
+          "ch": "[關係詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/da94af96160951a86f0df497974f438e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Raqit",
+          "ch": "部落族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ef0b299ea3eb6a0561b89647e4cd700a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "討論議題：我們要如何改善我們部落的河川與海洋之環境？",
+      "ab": "sasimsanuan, naqunian ta pa paqangi tu iRuR seRay Resapan ta?",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/bcee34fd0e76f362202cee13995f19cc.wav",
+      "word": [
+        {
+          "ab": "sasimsanuan",
+          "ch": "討論議題",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b5177cff34bb9c0e6f1b45b5a59e2ddc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "naqunian",
+          "ch": "要如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6e8a1355fecf26e9af392e9fa9c5a164.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/fb2c3016c3d6cf98d208b16510556e7e.wav"
+        },
+        {
+          "ab": "pa",
+          "ch": "(未來)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/466a6060224a220a590189b3efd47a8d.wav"
+        },
+        {
+          "ab": "paqangi",
+          "ch": "做好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/447df103d992db00f3778020b737fd22.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/32dc2344fe5ff44e42420d006b6312bc.wav"
+        },
+        {
+          "ab": "iRuR",
+          "ch": "河",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d92491cabdc652b5bdf31d39baf3a79e.wav"
+        },
+        {
+          "ab": "seRay\r\n",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/99bdd2e3f2534098e0c1baff5874e9f8.wav"
+        },
+        {
+          "ab": "Resapan",
+          "ch": "海岸邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ac9eed1695292d513db8567115f83dbc.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/48cb4cf4a96cd1474e94350a35692f7c.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "提案：我們要怎麼改善我們的環境？我們要不要拆除攔沙壩？",
+      "ab": "saqaussiq, naqunian ta pa paqangi tu iRuR ta? qatatasan uu mai qatatasan tapu na iRuR zau?",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/8c64900e3c048c0ca3d8bf7f5564e03b.wav",
+      "word": [
+        {
+          "ab": "saqaussiq",
+          "ch": "第一項",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1429d209311f30ca9e732c385f588636.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "naqunian",
+          "ch": "要如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0ca86f4675b000cbd75d1a06012da467.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/7b8ecda09f8ab5a32a089022ecfac5f1.wav"
+        },
+        {
+          "ab": "pa",
+          "ch": "(未來)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/785afe7f7ba19468e640e76bb32bc523.wav"
+        },
+        {
+          "ab": "paqangi",
+          "ch": "做好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3ab460961d1267b8406846f7dce7456f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/24630f8077ed79ae270d27e1e910c727.wav"
+        },
+        {
+          "ab": "iRuR",
+          "ch": "河",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/05d7bbce2237f465aeed0ba04992febb.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/eaa04c3aca5287c2b60df54013984d3e.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qatatasan",
+          "ch": "拆除",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/6247bae590c28a6f29f29f9370c4605c.wav"
+        },
+        {
+          "ab": "uu",
+          "ch": "或是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1612519d03aed403ae0129b23d7db361.wav"
+        },
+        {
+          "ab": "mai",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/06c92f8c7144426db592cf99f1aa57af.wav"
+        },
+        {
+          "ab": "qatatasan",
+          "ch": "拆除",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/b8da7b48e9a5de009008f0dba948705a.wav"
+        },
+        {
+          "ab": "tapu",
+          "ch": "攔沙壩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a3c88bf05d1323e0dee573219bd879ef.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2cc727ff16150b1c8fbeb0266b5fae75.wav"
+        },
+        {
+          "ab": "iRuR",
+          "ch": "河",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8b6423ead4ccb91e1011faa9db5ee4c1.wav"
+        },
+        {
+          "ab": "zau",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/67f5f6bb5b8cbbc3593fda172965b132.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "贊成方：做了攔沙壩後，我們的海岸線越來越窄，沙土堆積在河中，沒辦法流向海洋。",
+      "ab": "semulul ay, masangi ti tapu na iRuR nani, wiyati mepasid qazqaz ta, Rutapa ti buqan seRay melanay ta tebteban na iRuR, Rayngu ti masalin pasa lazing.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/14c2d5cfb446466f6f665c0ba02d3bcd.wav",
+      "word": [
+        {
+          "ab": "semulul",
+          "ch": "贊成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d1d96cecde75ed33a6a4fa3f7e00fb1e.wav"
+        },
+        {
+          "ab": "ay",
+          "ch": "[關係詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a007ceafea657e5e9488326e088593dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masangi",
+          "ch": "做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/761e0da615401088ed62e4aaf92fba08.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/178a7a5f39ab1ea59af1006f5645e6e8.wav"
+        },
+        {
+          "ab": "tapu",
+          "ch": "攔沙壩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6eb319b6466e32821f049ba9eafda981.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ae0e61a84d697474e48f631ccb0cfc97.wav"
+        },
+        {
+          "ab": "iRuR",
+          "ch": "河",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/fc1f2fc90d6a8d4da9d43ddb9a1c67e8.wav"
+        },
+        {
+          "ab": "nani",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a325bb461e4691cc10f03b999efbab24.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wiyati",
+          "ch": "越來越",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/97e166d8b659819cd531616800eca656.wav"
+        },
+        {
+          "ab": "mepasid",
+          "ch": "狹窄",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ed65d29dbae22c48a8a59a8c6b7ef102.wav"
+        },
+        {
+          "ab": "qazqaz",
+          "ch": "岸邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/792e3e4ce8552ed3d0dd92f54e7344a0.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/6f15aac623f851beea06a17ef7d83959.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Rutapa",
+          "ch": "堆積",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bd4cc228a6a753ba2b024997ee4a626d.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e225f54774a1fa1358ba9f23b2809ad5.wav"
+        },
+        {
+          "ab": "buqan",
+          "ch": "沙子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/eebb773aa63f07a93f1399f23609cf78.wav"
+        },
+        {
+          "ab": "seRay",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7f196add95f156e7ef9c054cd80057ae.wav"
+        },
+        {
+          "ab": "melanay",
+          "ch": "泥土",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/be72581392cf26619929a698b238d243.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f5bc7b92a3f4181205215465e9d940bb.wav"
+        },
+        {
+          "ab": "tebteban",
+          "ch": "中間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f001b51d5823674892dac487d4e23a1c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/69985c866bfebe95f0a8913157b75113.wav"
+        },
+        {
+          "ab": "iRuR",
+          "ch": "河",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/35b7d01136aac5d9496d9c3d43d92dae.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Rayngu",
+          "ch": "無法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1a19e53ab2fabaceb0011eae83473f3e.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f9cabf7618dbde87fbac9b003c04caad.wav"
+        },
+        {
+          "ab": "masalin",
+          "ch": "漂流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/efab2f9cb65aab797bdb830e70800870.wav"
+        },
+        {
+          "ab": "pasa",
+          "ch": "前往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e22ff9a0b6512bdeab2e8e30b21f7811.wav"
+        },
+        {
+          "ab": "lazing",
+          "ch": "海洋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ab7cb0348f5f68a88829ce2e80b6cfe7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "過去有很多鰻魚、螃蟹、吻仔魚會從海邊上岸，也因為有了攔沙壩無法上岸，所以我們贊成拆除。",
+      "ab": "masang muwaza lingay, umin, pudaw maqezi ta lazingan temuqaz, tangi yau ti tapu na buqan Rayngu ti temuqaz, Raqana semulul imi tu tatasan.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/702010521c85cf7460eedc602c8b1cea.wav",
+      "word": [
+        {
+          "ab": "masang",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/402af95541953f1eb1bf48e1d10fa643.wav"
+        },
+        {
+          "ab": "muwaza",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/afed529d846076b85732176dc5644335.wav"
+        },
+        {
+          "ab": "lingay",
+          "ch": "鰻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cd7678abe76fe8fa262d101dfcba3196.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "umin",
+          "ch": "毛蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8a3a8a2042c94c88f0e455bab99fc75e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pudaw",
+          "ch": "吻仔魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/901ca5aeaa56886ada9362e906c400ba.wav"
+        },
+        {
+          "ab": "maqezi",
+          "ch": "從這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e2684ea2157a2423b7463536886837b2.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2cb99534169784dc09cdf588012eb6a0.wav"
+        },
+        {
+          "ab": "lazingan",
+          "ch": "海邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a605a210266fcf2eca4819969a7d54e8.wav"
+        },
+        {
+          "ab": "temuqaz",
+          "ch": "爬上來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1ebf1720908a0863f83711f48cefde5d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tangi",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/58e25a238f48a1611ff9fcb270ddab41.wav"
+        },
+        {
+          "ab": "yau",
+          "ch": "有(存在)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a99fe9649b8fd60bde0893fd908dbecd.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f67b893872a69aa31206c2daa3b27e13.wav"
+        },
+        {
+          "ab": "tapu",
+          "ch": "攔沙壩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c742f07631375c2a579421e034a38086.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/db9d33bc8f2223addd780868928b4c20.wav"
+        },
+        {
+          "ab": "buqan",
+          "ch": "沙子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/960d4d76b5ff783580e983ae6a57c2ea.wav"
+        },
+        {
+          "ab": "Rayngu",
+          "ch": "無法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/df515135e9486ce557118e00bc99d7a3.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5151b8757a4afb16e18c0bd6f3e69e32.wav"
+        },
+        {
+          "ab": "temuqaz",
+          "ch": "爬上來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d86864571193079b42727c29db883c40.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Raqana",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/04beb026201ce4b3261d8d6f182e1e9a.wav"
+        },
+        {
+          "ab": "semulul",
+          "ch": "贊成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8a3b76f168c8a27273634ad1df29470c.wav"
+        },
+        {
+          "ab": "imi",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/79f9295a63aa81a4ba0865ea39530248.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8deddf03f08b1252c7983c2c650c0410.wav"
+        },
+        {
+          "ab": "tatasan",
+          "ch": "拆除",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/dfa6aa8d9cd2216d26a142cd6736fdea.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "反對方：攔沙壩不能拆除。以前沒有攔砂壩時，遇到颱風或河水暴漲，河裡的沙土會被掏空非常危險。現在有了攔沙壩就不怕了，所以我們堅決反對拆除攔沙壩。",
+      "ab": "mai semulul ay, tapu na buqan naRin tatasan, masang mai pama tu tapu na buqan, banged nani melaup ti iRuR, maqudqud melanay seRay buqan na iRuR qaqaytisan, setangi yau ti tapu na buqan, mai ti tu qaqaytisan, Raqana mai imi sulul tu tatasan.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/11aa628a9142189e3b2cb56587518b49.wav",
+      "word": [
+        {
+          "ab": "mai",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9ed695254285a3b7379aa3e2694489e3.wav"
+        },
+        {
+          "ab": "semulul",
+          "ch": "贊成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5ad6c8a669f9fe2adf5e404d5885ce2e.wav"
+        },
+        {
+          "ab": "ay",
+          "ch": "[關係詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8be143e16ed986b03216fd8d608c88fd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tapu",
+          "ch": "攔沙壩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/425b39bda3156cf22e7ddd3d33e9a496.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ea1d6af7146d36d87ec481c3bf83cb35.wav"
+        },
+        {
+          "ab": "buqan",
+          "ch": "沙子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0c1a2e4fcb6196d920a79012548ae488.wav"
+        },
+        {
+          "ab": "naRin",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/12822fceff82a918d411ab50b7a772d4.wav"
+        },
+        {
+          "ab": "tatasan",
+          "ch": "拆除",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0dc407456fd90efe149d76f99a0305a7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masang",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/935dac1bb0be8cda106bf90f473abe3c.wav"
+        },
+        {
+          "ab": "mai",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cb9769dcf2409e4746551c24b9dc3f42.wav"
+        },
+        {
+          "ab": "pama",
+          "ch": "還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b19bfb52fda2aa9c26c9d0858e03b0cc.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/efe1051fced36045b29328cfd75c99df.wav"
+        },
+        {
+          "ab": "tapu",
+          "ch": "攔沙壩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bc0ac5fa34748484ef7fc4c4620700e4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3ab4d114bd1a038316dad744fb19e844.wav"
+        },
+        {
+          "ab": "buqan",
+          "ch": "沙子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0709f4c88913c63624051d9e14501fec.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "banged",
+          "ch": "颱風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/aef22d9955fe4928146afa6c4754c5d5.wav"
+        },
+        {
+          "ab": "nani",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/61f5727176d8301926b7c19064396eb6.wav"
+        },
+        {
+          "ab": "melaup",
+          "ch": "河水暴漲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c04f564e6873829ed24f817189351a9b.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/998d1a7a0f0ab7a68db53f3b48ed2a18.wav"
+        },
+        {
+          "ab": "iRuR",
+          "ch": "河",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/56ef7b5a3c214bece7a72d8b42352829.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqudqud",
+          "ch": "被掏空",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4c6b12706f55c24d50239ff64abfc586.wav"
+        },
+        {
+          "ab": "melanay",
+          "ch": "泥土",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8aece181921be59089ef8a679d87ef75.wav"
+        },
+        {
+          "ab": "seRay",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/54c46af9d80b9eb85ad8f2fef1787136.wav"
+        },
+        {
+          "ab": "buqan",
+          "ch": "沙子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a572b78603a301e85627812e54777032.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/97d810f41d48561d74719865ce0841ef.wav"
+        },
+        {
+          "ab": "iRuR",
+          "ch": "河",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/487a927f745a1a5362436f97ecac2067.wav"
+        },
+        {
+          "ab": "qaqaytisan",
+          "ch": "非常危險",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a517c0412873dc9c1f5b25c65603c1f4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "setangi",
+          "ch": "現今",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/02b8d6c2775b756de170f01484720618.wav"
+        },
+        {
+          "ab": "yau",
+          "ch": "有(存在)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5d1c46732f4869197e9aae4d1f0bc888.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/793283e5b9a4241ae3686fbd174b89ed.wav"
+        },
+        {
+          "ab": "tapu",
+          "ch": "攔沙壩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ef7b503f2191b089f4b1dc7747d5e669.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/fc82c3993bd1e575e9e7935e29e432c3.wav"
+        },
+        {
+          "ab": "buqan",
+          "ch": "沙子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/395b58b4ce1a184748def71f03ea11b7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mai",
+          "ch": "不；沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/156d37951a6bf133efccd14c62b52fc4.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(完成貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9b78142c0d0acb2407de7eaed1a9474d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2e7d5d661198a9ad9bbecafe542ba61f.wav"
+        },
+        {
+          "ab": "qaqaytisan",
+          "ch": "危險的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/66768e0e15536977dee85c79af296f69.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Raqana",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ac56666c881fa1f025e740c2281754bf.wav"
+        },
+        {
+          "ab": "mai",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2e3ca9c3846806e7a5ad6e9b86edf800.wav"
+        },
+        {
+          "ab": "imi",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c15195a2b05a7c71389302876168bc05.wav"
+        },
+        {
+          "ab": "sulul",
+          "ch": "贊成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bfbd6bf20e9b1e2429ee021f958e23a2.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f9824361cad00166c0fa68104184d253.wav"
+        },
+        {
+          "ab": "tatasan",
+          "ch": "拆除",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/96420801c351e26ac0abc7c6347ee107.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

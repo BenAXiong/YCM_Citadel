@@ -1,6 +1,596 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Ludunqac",
+  "titleCh": "玉山",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "從前的長輩常常告訴孩子們：「玉山是我們的守護者」，經常再三叮嚀孩子們說，遷徙的話，不要離開玉山的「視界」。",
+      "ab": "Tupa ka madadaingaz qabas taqu tu, cia Ludunqac di ka maisiqabas, sina’da’an ita bunun, pangqa tumamantuk tukakiv taqu ki maikikingna tu, maca mulusqo’ a nitu sidahdah ki Ludunqac.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/15/126327057faf5853198cf5d3a78bb152.wav",
+      "word": [
+        {
+          "ab": "Tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/933aef03173f263ee5b7eb84a5dd19e1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/91ae48805e8e96055d454f043054059b.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "老人；祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/c1dc0d53fa25e0031be7a5fcba5b959a.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "過去；歷史",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/44c7f5d8df325a8dfa1140bbd5825d89.wav"
+        },
+        {
+          "ab": "taqu",
+          "ch": "告訴；說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/38c754fbd23954a232a7f84019ba8092.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/47a752e75a196b3b4edd825252ccf97f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cia",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/d6aa10b891aaa3200288eec87f4570f6.wav"
+        },
+        {
+          "ab": "Ludunqac",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/8fd647489f12678592421f0c386c74f0.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/012fa44d6752ee07c167165cb8c6f11c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/1b45b0f97ceab36bd24ee1e318824f4e.wav"
+        },
+        {
+          "ab": "maisiqabas",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/fc51f566fbeb56194ca2beaefc9aaf4b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sina’da’an",
+          "ch": "支持",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/080261e4427a081fc6e637b654f590ee.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/986fdf3725d4283a3a09ed95eb01e451.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/cfad29d2e975510540d112caa4bd85f8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pangqa",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/16805acc50701e4904620cfe12273731.wav"
+        },
+        {
+          "ab": "tumamantuk",
+          "ch": "真正",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/a8496550a837c055118d31ea22d69a4c.wav"
+        },
+        {
+          "ab": "tukakiv",
+          "ch": "留言；遺言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/08/75bd1f1effabe1b8b76bfd365f92a8db.mp3"
+        },
+        {
+          "ab": "taqu",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/393e4529c6e160b9ddc1aab3845fc35f.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/cb2363691a8351ee799c9108229c75b4.wav"
+        },
+        {
+          "ab": "maikikingna",
+          "ch": "後代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/d9a85435764da8e0d2abf374d6238402.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/67a381bd43fbf14a0a122b8ae1bb271a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/5ea8a1f62e96aa638379b4cdd5090013.wav"
+        },
+        {
+          "ab": "mulusqo’",
+          "ch": "移動；搬遷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/6eae7bd9224c4843dbc95c0401c417a1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/61c2bdccde74c93ef80c2f0077c07d77.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/59a1893346dbabd82e3aefb7039788d6.wav"
+        },
+        {
+          "ab": "sidahdah",
+          "ch": "保持距離",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/07e4abb34ca647b413095cbb910e5afa.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/3887768255fc3ba5063eb8df7046d194.wav"
+        },
+        {
+          "ab": "Ludunqac",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/03eaa1c29072b64c221464f5e3488c24.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "據長輩們的傳說，在洪水時期，布農族的祖先曾經沿著到玉山的路徑，而聚在一起避難。從此，布農族人就生活在玉山這個區域了。",
+      "ab": "Mopa’ i taqu ka madadaingaz tu, matu ican lainingavan na, maqat madadaingaz zi bunun na lanacan ni Ludunqac ta si’denpuc, paiskatudip pa bunun maqtu’in miqumic, mindua solaupaku.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/29/5ceda82de78ea91d4c01e536a0673341.wav",
+      "word": [
+        {
+          "ab": "Mopa’",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/a51d33efc990731cb31eb6e9bcf79670.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/d6b42adc78b90ec74f158118359ffa6b.wav"
+        },
+        {
+          "ab": "taqu",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/c1d124b6de65138005096879ceb69ae2.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/ff0ff1ca67906b0ffaef9f6eaff010c6.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "老人；祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/5ea25b4505991a8c3a9d598d09ae39ca.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/1db37ae750650dfac3ff2a7a911cf8a3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matu",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/4af35259e040dfc3e952faa7e78f30cf.wav"
+        },
+        {
+          "ab": "ican",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/c885743821cce93ad525c5919aa9faa9.wav"
+        },
+        {
+          "ab": "lainingavan",
+          "ch": "大洪水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/f54a08db5a4566edfcbb8958c7575556.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/0bf76210b3602105312e1c7f64972acf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqat",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/e05641a720572ccd068ba6a8ef9ff632.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "老人；祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/0c00d0b2133a405d5b410c2d0316f262.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/86a45a4457d64755695c585db7eacc82.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/60dc4921f9eff5fcda833ee031443ee9.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/0b0ec8510fc9ada0cbf71b40818884c6.wav"
+        },
+        {
+          "ab": "lanacan",
+          "ch": "沿著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/69acd488f0b7effcaf18a4ce85defc85.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/df5f39b59210605db5d0afb2ddac38a6.wav"
+        },
+        {
+          "ab": "Ludunqac",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/a4c88420f2dc70fc7c492de1612dce07.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/9a0ee07cccaf34531e452c4775245b1f.wav"
+        },
+        {
+          "ab": "si’denpuc",
+          "ch": "避難",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/d120db565ef6583b6b850738df6d89be.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paiskatudip",
+          "ch": "從那個時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/6cd29f23de85b1309128ff736c7efbf6.wav"
+        },
+        {
+          "ab": "pa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/80a373ef28ca3b24c02b24b5b9ad6731.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/c888f742e4c25846c0733b03607e6078.wav"
+        },
+        {
+          "ab": "maqtu’in",
+          "ch": "可以了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/4ca3920c83f980aac37bbb2bd8644d30.wav"
+        },
+        {
+          "ab": "miqumic",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/e3fae482c95fe489ccd717cbda2cab9a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mindua",
+          "ch": "增多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/0898a9ff5906583d224aa6a77228257b.wav"
+        },
+        {
+          "ab": "solaupaku",
+          "ch": "到現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/311fc1c7f3f28bd69e2cd124a4da3215.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "因此，玉山是我們布農族的守護神山，他照顧我們、繁衍養育我們，同時也是布農族遇到困難時的避難所。長者一再囑咐叮嚀說：「未來如果遭遇到災難厄運的話，就往玉山去避難，因為玉山會庇護我們。」",
+      "ab": "Anangqa, maqat Ludunqac di ka, malqaipu sasadu mapindua masnava’ min’uni icia bunun tu tongqabinan maca palandu ki kanang diklabahi. Tutoqna ka madadaingaz patnanulu tupa tu, maca qabasin ni palandu ki diklabahi’ a asatu makidakis sopa Ludunqac tungqabin, opa’i nasepukun ata Ludunqac di.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/24/5ff21d527429968e1ac51f8304ed4480.wav",
+      "word": [
+        {
+          "ab": "Anangqa",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/0b0ace8b6bdf7426f3fe628939e917d1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqat",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/3ff5f362073a3e37fcf98867f5b4f527.wav"
+        },
+        {
+          "ab": "Ludunqac",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/26a5a7a3e1700415f4f7cbde86c52ff0.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/daa632ba5b4cad54805b7b08e2e01ba9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/50c2e156c1502fb41bc5d51be51d76a3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "malqaipu",
+          "ch": "保護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/d4c02b76eecba653c50dc02f4d4ef6b1.wav"
+        },
+        {
+          "ab": "sasadu",
+          "ch": "注意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/5d1bfc800ab725e12f1ed161c3ba196a.wav"
+        },
+        {
+          "ab": "mapindua",
+          "ch": "增多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/83fe595a07a8da38ace7d7f82b749d4d.wav"
+        },
+        {
+          "ab": "masnava’",
+          "ch": "教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/1fcdaeeb2f3492b18aa16cd1e6217f09.wav"
+        },
+        {
+          "ab": "min’uni",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/bc8053498673363e45ef723633a02cc7.wav"
+        },
+        {
+          "ab": "icia",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/afb4ae095e2640ec1e64f1960a8f255c.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/983fed3ee5f2389b4ce0dc7486dfd8a8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/647b03d3d39b8b321671f8ae93dd12aa.wav"
+        },
+        {
+          "ab": "tongqabinan",
+          "ch": "躲避的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/ecb369befefc67e57056c2c89ab1af20.wav"
+        },
+        {
+          "ab": "maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/aef839279e3ca9ed64b3a248f2a47db1.wav"
+        },
+        {
+          "ab": "palandu",
+          "ch": "撞見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/97084587768c3d424f01174c4c008d59.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/07d9152e686ddb50c5330f7f9c1c58bc.wav"
+        },
+        {
+          "ab": "kanang",
+          "ch": "因素",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/9048aba49cde23c37ed446f1881d8b90.wav"
+        },
+        {
+          "ab": "diklabahi",
+          "ch": "壞運氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/39ecc5282d4511dca4c757113e1312d1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tutoqna",
+          "ch": "有意見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/f2024bb88e892c25cfab097cce2d24fa.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/6b73a98e257202fa19d25ef28645ac30.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/4db13496b022009c0221efe4b2e219bb.wav"
+        },
+        {
+          "ab": "patnanulu",
+          "ch": "注意；小心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/2162aa360552823da93fca82bf2a26f0.wav"
+        },
+        {
+          "ab": "tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/77564bf7319c01be8616ef37ce799098.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/733621458c9b6701100b8c4c19647a8d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/f9ce01a1933655aca02a76aea7eb41c6.wav"
+        },
+        {
+          "ab": "qabasin",
+          "ch": "以後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/94c83444ad7225785cf634d94a286da0.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/9eec317bd4fa2a64022cb64a0a6b45d6.wav"
+        },
+        {
+          "ab": "palandu",
+          "ch": "撞見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/2f4ce765370963b46cc97175da3eae88.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/f000a1de8374f743ccec2fe40a082bed.wav"
+        },
+        {
+          "ab": "diklabahi’",
+          "ch": "霉運",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/cd35e6dd7806c829f1dff22312d8f898.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/70df6d144f02d41e9388530058772c1f.wav"
+        },
+        {
+          "ab": "asatu",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/2c763e4edb2668e6e3db920ea66f64a8.wav"
+        },
+        {
+          "ab": "makidakis",
+          "ch": "向上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/197e931b3ee852997d554b092e9455cb.wav"
+        },
+        {
+          "ab": "sopa",
+          "ch": "前往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/10b56f2764c9a07ce26b86162142e1d7.wav"
+        },
+        {
+          "ab": "Ludunqac",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/33d06abacfaec40e2da0d9a46007c758.wav"
+        },
+        {
+          "ab": "tungqabin",
+          "ch": "逃避",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/89b2d96d7e05597d4f5cb5a8a0953c9d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "opa’i",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/7ae4b452af28fb2a994e10e14a8b2287.wav"
+        },
+        {
+          "ab": "nasepukun",
+          "ch": "將被照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/f091f92b1ea77a949f406c1e09dcb81b.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/2b1f292723cc6f4ca4761f8710141cbb.wav"
+        },
+        {
+          "ab": "Ludunqac",
+          "ch": "玉山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/fd642be2b73b62dd7d2f2935735f67c8.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/13/779259368ccf87da1146127db1360be8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

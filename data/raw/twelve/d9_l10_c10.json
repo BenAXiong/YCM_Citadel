@@ -1,6 +1,621 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Taivang",
+  "titleCh": "台灣",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "台灣！所有我們原住民真正生活的家鄉。他屹立在海的中央。在旁邊有塊大陸，叫做中國。",
+      "ab": "Taivang! Imita sikaupa Takisilazan miniqumis nanu iniqumisan tu asang. Ihaan naipa ning’av daingaz tu misqang makanduldul. Haiza andingalan nitu maqtu satpu’an saduu tu dalaqan, tupa’un tu Talu.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/0c78cd98d2fc75ace15e352273e4fd8a.wav",
+      "word": [
+        {
+          "ab": "Taivang",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/34a36809555aad78b1f6655ad3f012ca.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Imita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/81ea0fcc88f87dc34ec2351dc57b711c.wav"
+        },
+        {
+          "ab": "sikaupa",
+          "ch": "所有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b6d69c1c07b1d8d83b953b28563999ae.wav"
+        },
+        {
+          "ab": "Takisilazan",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/5f5c8f34195d8c08e2c6ce921a8e1e2d.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "人民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f2219a7d1d1420aa24b7bed93275510e.wav"
+        },
+        {
+          "ab": "nanu",
+          "ch": "真正",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/59aeb10ef68deeb91a09195d122d76d8.wav"
+        },
+        {
+          "ab": "iniqumisan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/548951f3b74ba7e6ee69f915953b0e44.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/61d11278e40c04c1a4b014546772dcf8.wav"
+        },
+        {
+          "ab": "asang",
+          "ch": "家鄉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d3771dbda05117c970b350da0021662c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/e455b820b9478a022f0ef44cf2f56db4.wav"
+        },
+        {
+          "ab": "naipa",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/6babc4f58d8d2e929d85fc2175025c92.wav"
+        },
+        {
+          "ab": "ning’av",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/caf5dd77448c8a7214415ff71e11c103.wav"
+        },
+        {
+          "ab": "daingaz",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1918451bbab7610b0e3f80ec60c76411.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/96d266834024baec8b64b960391c31e5.wav"
+        },
+        {
+          "ab": "misqang",
+          "ch": "中央",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/bdc9494fa925db9bd1dd4cc122c19f0d.wav"
+        },
+        {
+          "ab": "makanduldul",
+          "ch": "屹立",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b7644abae9d51f072401f013b5d42d53.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f4986d19a4b6457d7f67615518da9fa0.wav"
+        },
+        {
+          "ab": "andingalan",
+          "ch": "旁邊；鄰居",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/74fb76350e843096a4bff83ba35a17f2.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/60934168a4560680ede1fe1b1d03ab3e.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c2a58db8b46ccab0d043e74164407627.wav"
+        },
+        {
+          "ab": "satpu’an",
+          "ch": "看到盡頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/133a2ec99e2817a4327621df3f856ca2.wav"
+        },
+        {
+          "ab": "saduu",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/7ec49d235b3b7457aa6625a77f3d38d8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/9eb6efc1928a2c550b803bcd5d64faaf.wav"
+        },
+        {
+          "ab": "dalaqan",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/6d81df16fca504b6fb9280b11d2b0ae0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tupa’un",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b9460526dc7daf0e629f28efca761e7a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c9108dde6dd7b4e071129d2f9100fa55.wav"
+        },
+        {
+          "ab": "Talu",
+          "ch": "中國",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/db90a31ac5c9409572031b5ff841077a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "台灣是一個很大的島嶼，有兩千三百萬的人民居住在台灣的土地上。居住的人民可以分為原住民、閩南人、客家人及外省人。還有一些從別的國家因為婚姻關係而變成台灣人的台灣媳婦。",
+      "ab": "Madaing a Taivang tu mulungun, haiza dusa linuqus maang tu tau suqis sabah tu miniqumis, mal’a’asang ihaan Taivang tu dalaqanti. Maaq a mal’asang tu miniqumis a, maqtu pavazun tu Takisilazan, Puut, Ngaingai siin Tauluu. Haizang papia maisnahaan vaivi siduq tis’uni mapasiza, min’uni Taivang miniqumis tu pinilumaq.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/50a505acfcdc52e6e704164f1d65b474.wav",
+      "word": [
+        {
+          "ab": "Madaing",
+          "ch": "很大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1aebc7e51e61a787aa2d3419a3a96ae0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ecbd4df986ebf85c8a2873572e804803.wav"
+        },
+        {
+          "ab": "Taivang",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/fff75f52998a477f6e7b00e58af8d64a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/3bd80cc75f3bee69358296a3c4d8f01e.wav"
+        },
+        {
+          "ab": "mulungun",
+          "ch": "這個島嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8c2f64f08271fc4e4351c12acee2a932.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/3ca7176898afc20f480adfa00ab194bd.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a59687b426e9eb30465997eb54862a2e.wav"
+        },
+        {
+          "ab": "linuqus",
+          "ch": "千",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/2e544457e0583a48caeca4120b266684.wav"
+        },
+        {
+          "ab": "maang",
+          "ch": "萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a624873c42ee905ecc113ce243187740.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/28513c6ecd19265370792e81561c6011.wav"
+        },
+        {
+          "ab": "tau",
+          "ch": "三",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a25ae004eadf95406855ffbad5653993.wav"
+        },
+        {
+          "ab": "suqis",
+          "ch": "來回",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ef80af910fa07870e25b1a4c86d10402.wav"
+        },
+        {
+          "ab": "sabah",
+          "ch": "百",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/2167fcf808b8f383e7e44e25305a08a8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b296faad3a199ff1e2c55075e1f544d2.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "人民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/67e7cfd2e483fbbaaaa54b5523753e58.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mal’a’asang",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f004a7ecc4215ef1a36afca580fd6380.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/412301454090d60344e086faf8a54906.wav"
+        },
+        {
+          "ab": "Taivang",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f36b63f4ca5d8a47097f5c0b69d9d306.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/67ec81b79e603104769e55b6febbe4f1.wav"
+        },
+        {
+          "ab": "dalaqanti",
+          "ch": "這個土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/38838371c3a50f059b8c4894a59c745d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1b8058dee2800a7e966dcb494a5f1fed.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/2d5b1c6a842b1f669d976472cc52e371.wav"
+        },
+        {
+          "ab": "mal’asang",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c876da2dc35e298b13f5ce07b724065a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/5cec9e1e2fc34196c7c6574825863d16.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "人民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/9deac1b9659067d923084003d2ee75ff.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/87cbdccd7c4f57001c682af769ef9b15.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/1ae6ef6d58b4b5c4120321a9786c100d.wav"
+        },
+        {
+          "ab": "pavazun",
+          "ch": "區分",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ea4617226119a78dda076158cbaef41d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8108e7580d35a6df529b4cd78137c5aa.wav"
+        },
+        {
+          "ab": "Takisilazan",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a4cfff2f82da85e81bb59f671dc8bb1d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Puut",
+          "ch": "閩南人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8012c113f03996cd9a5511baa835b83e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ngaingai",
+          "ch": "客家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/68fc61f6fd79afe9607a3ec58f2e6ad1.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/55c6017b10a9755ef3681b09ccb01e94.wav"
+        },
+        {
+          "ab": "Tauluu",
+          "ch": "外省人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/01044cfd18dd5c0cde26733c11a3b542.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Haizang",
+          "ch": "還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d7c72809ba7006a048edb6a05f31bca5.wav"
+        },
+        {
+          "ab": "papia",
+          "ch": "一些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/c35624e2cceae64a8589f7aa04c411b2.wav"
+        },
+        {
+          "ab": "maisnahaan",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/10/d36ee0cca23f96f032490d1ce8494520.wav"
+        },
+        {
+          "ab": "vaivi",
+          "ch": "不同的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f2a40c043c478051e6230e5c6be59d0f.wav"
+        },
+        {
+          "ab": "siduq",
+          "ch": "國家；族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/3c1cd7b4cdd34596a73422ca7845c207.wav"
+        },
+        {
+          "ab": "tis’uni",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/fbff791ef0770855e599ea6f87d41653.wav"
+        },
+        {
+          "ab": "mapasiza",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/4ac61d3ece467a154921be8eb908680d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "min’uni",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b8719842648c05533160cb28de3df4aa.wav"
+        },
+        {
+          "ab": "Taivang",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/307c9b78e38a1992064cb0d9318b9102.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "人民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d108ce39d7f265448f15d0a68683ed17.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/468fcab5a34b87b67951ec18c257f13a.wav"
+        },
+        {
+          "ab": "pinilumaq",
+          "ch": "媳婦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/07b9384642f8b2168c0f43aca65f9580.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我們的台灣很美麗。當外國人第一次看到台灣時，全部都說：「福爾摩沙」。它的意思是：「美麗之島」。",
+      "ab": "Manau’az imita Taivangun. Maaq tu laupang a dangqas-qulbu tu miniqumis saduu Taivang qai, tupa amin tu “Vu’almusa”, sintupa naipa tu “Manau’az tu mulung.”",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f3e473999b625855bdf3f6a75f7b8f3a.wav",
+      "word": [
+        {
+          "ab": "Manau’az",
+          "ch": "很美麗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/d71b1233f519e433457aadcb2ebdc66e.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b99c61acedb54c5253819b7b4f2d88c6.wav"
+        },
+        {
+          "ab": "Taivangun",
+          "ch": "這個台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/8c5c3183cdd8d97e052a133bf8c39e60.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/febd49482c498ba0786ae291bbc2e9cb.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b3b7e214bca4bf6610aa460d9383bda8.wav"
+        },
+        {
+          "ab": "laupang",
+          "ch": "第一次；剛剛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a59e802e5d70af6b5169be0514427a4e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/146e984733b19bf173f9e7552ecd933b.wav"
+        },
+        {
+          "ab": "dangqas-qulbu",
+          "ch": "外國人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/241dfe5e876da942ca1dc3cd5986e093.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/ed86eaf4f8b892e9f596c77943561db3.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "人民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/3f2624ba9ffc5ebd40c98284e1379e99.wav"
+        },
+        {
+          "ab": "saduu",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f543cf8c172c7e78a2420a2d7555c2f1.wav"
+        },
+        {
+          "ab": "Taivang",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/965b31e51d54c2d604af3f8008dc1db6.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a607946dc79f1013740366224ff2b175.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/cfa3cd042a8f3e4fef1c323e4496c7d9.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/a3301f2aa1d198cf589d59c5b76d2df4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/6c19fec38725c11d5983f36ecf92f93a.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Vu’almusa",
+          "ch": "福爾摩沙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/bdd94213eae5e5178f6b2b8653b9b22f.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sintupa",
+          "ch": "意思是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/751867da54051e8825bb700aec021413.wav"
+        },
+        {
+          "ab": "naipa",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/0d01feff1aceccc2c637e4e0a7d302d2.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/cb2b01a7f6fb5da3ed42be4fcf80e4be.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Manau’az",
+          "ch": "很美麗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/f12de3887632b43871d23c31ab73902b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/7f55db33fbb1aeb3132ef7151d50c9d9.wav"
+        },
+        {
+          "ab": "mulung",
+          "ch": "島嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/18/b2d480a4453ebdf16df158c05281fe0a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

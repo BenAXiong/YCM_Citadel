@@ -1,6 +1,761 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "walro’o",
+  "titleCh": "狩獵",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "在男孩們年紀到了約17歲時，可以跟隨長輩們去打獵，要先準備陷阱用具及獵刀。長輩也會為要一起去打獵的男孩祈求上天保護，之後才出發去打獵。",
+      "ab": "kai lraswalralray lo akelranga mangealre si ’ito ka cayli, lo kalalekete to’a’ala idra tararodranga si tamatama mwa walro’o, ai ’adolo sa tokolo si labo. kwani tamatama ai ’asalisi kitobi yabelreng atharokai ki lolray ka sawalray kwani ai to’ala mwa walro’o lraiya.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/6e55b7ae5338b2113eb86e00e554d880.wav",
+      "word": [
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/57059f591928daaeb800384fdbef7627.wav"
+        },
+        {
+          "ab": "lraswalralray",
+          "ch": "男士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/cca71ff818bc73b972a818cafb2ae4ea.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/59e71f918bb65f922a5293db81a502ed.wav"
+        },
+        {
+          "ab": "akelranga",
+          "ch": "到了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/2a28a82669c333c4d264ccb1d8a8fb4b.wav"
+        },
+        {
+          "ab": "mangealre",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/236967662d22d6d574561f58dc3b8fdc.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/7148b43162c89352020755c27d3a7361.wav"
+        },
+        {
+          "ab": "’ito",
+          "ch": "七",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/b32ee517e4aea683ecaf892f38bd873d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/b32a72f00a14c2f3a01193e920e02708.wav"
+        },
+        {
+          "ab": "cayli",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/c310098ce0728b406d1abc1b04d96d74.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/b3037ee7921a2584f30e336641b966bb.wav"
+        },
+        {
+          "ab": "kalalekete",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d58ee6069cfe33295718c32aa7cc12d8.wav"
+        },
+        {
+          "ab": "to’a’ala",
+          "ch": "跟隨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/2525f97f9b4147cafecee84a8b031a78.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/6b27cbe5d253f75de939daf7df8e51ae.wav"
+        },
+        {
+          "ab": "tararodranga",
+          "ch": "長輩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d64eacb932a5d483336b1008fff7da34.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d7b845942fb4d059f4439481f74924c2.wav"
+        },
+        {
+          "ab": "tamatama",
+          "ch": "（父執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/810d9fa0678ef5577373c796d74e8ef4.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/a5ca24fc690c799310f2e0d33bed83ce.wav"
+        },
+        {
+          "ab": "walro’o",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/c612f7529f0108733e9574b101f568e2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/5954aab31b20ab1c654f77689fa95561.wav"
+        },
+        {
+          "ab": "’adolo",
+          "ch": "準備",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/22fb460442e9920fa2252c13cd1146fb.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/78d4d488f2e46e7bc577f557450ce2f5.wav"
+        },
+        {
+          "ab": "tokolo",
+          "ch": "陷阱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/e199aa49c659ce6975e2690109c2d30c.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d1c0f5c5307a454ab639674df3ab352a.wav"
+        },
+        {
+          "ab": "labo",
+          "ch": "獵刀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/93070d3ef4ffce1cfb556f43ab9aabe0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/48c82be580b1ae45513d71f9a597eefc.wav"
+        },
+        {
+          "ab": "tamatama",
+          "ch": "（父執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/3e51d9b5566a471230a7dabf580fc921.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/eacfdaeb30d44a59b6095199053f29f8.wav"
+        },
+        {
+          "ab": "’asalisi",
+          "ch": "拜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/c862dd658626745456a301227b189f93.wav"
+        },
+        {
+          "ab": "kitobi",
+          "ch": "祈求",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/50466b5ff1783ea3c86d8abd65184b0e.wav"
+        },
+        {
+          "ab": "yabelreng",
+          "ch": "上蒼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/4c56756898d633b36107f305da70351d.wav"
+        },
+        {
+          "ab": "atharokai",
+          "ch": "為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/be559ececa32c68efd42ca77b9f85c3b.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d3fab336f88ae7db7ec92209f719979b.wav"
+        },
+        {
+          "ab": "lolray",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/09300310549f2cbcbfb10a42489bb875.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/a83899657fbdf229558074cbdbe3aaad.wav"
+        },
+        {
+          "ab": "sawalray",
+          "ch": "男孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/ce02365e7cbf81007cbd278abf8ac48b.wav"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/02e084667725030cc0388563c530b1ba.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/a8b09ecc4e960d1931c3c84cfc394e9b.wav"
+        },
+        {
+          "ab": "to’ala",
+          "ch": "跟隨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/0ffdb0228bdfd565828b41bba5cce594.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/4ac07c110aaa5ec04a3f57ca4b4a8e9d.wav"
+        },
+        {
+          "ab": "walro’o",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/c493debc37f8b56ac5b83532d59d1efe.wav"
+        },
+        {
+          "ab": "lraiya",
+          "ch": "如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/38b1b79b13fd40681ad145d8fd06a793.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "如果去打獵的途中有人對你打噴嚏，長輩們說這樣不好，你就要折返不能去打獵。只能隔天再跟著團隊一起出發。在途中若有畫眉鳥的叫聲是「tralikaw」表示不好的預兆，就要折返；若畫眉鳥叫聲是「tralikaw kiri」表示好的預兆，可以繼續打獵。",
+      "ab": "lo yowa walro’o la ki baseng ai siyoli so kadro so kalalekete mwa walro’o malisi amiya kai tararodranga. lo azana ai davace to’a’ala sasevanga mwa walro’o. lo tralikaw mosowa ai siyoli so, kwani lo tralikaw malisi, lo tralikawkiri ka mathariri kalalekete mwa walro’o.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/44af5d2b14d8fbe57e2a9ab31e23d330.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/623d5ca49bfeb9c9a391e4eabeeaab0d.wav"
+        },
+        {
+          "ab": "yowa",
+          "ch": "要去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/eea1c0b51d71410b3eb79200715a3d60.wav"
+        },
+        {
+          "ab": "walro’o",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/9c2bee71286d52b7611051a8229b911b.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/797b232051f60b4b859ed7e3051ccf8d.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/3136d4c711ee22a7a54598bcf1daa732.wav"
+        },
+        {
+          "ab": "baseng",
+          "ch": "打噴嚏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/9e9e1f548cc480de4e1582d52f0757e6.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/5629243ccf442de1a89a181a488bba6c.wav"
+        },
+        {
+          "ab": "siyoli",
+          "ch": "折返",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/a335f40c2370d03621351b8aa3157a78.wav"
+        },
+        {
+          "ab": "so",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/0eaba71121c8d99c0b06c0452e5d8314.wav"
+        },
+        {
+          "ab": "kadro",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/7440107dd1103351e1c1ef647f404655.wav"
+        },
+        {
+          "ab": "so",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/62bd48ae561f96cedc9cacd5266ac9ab.wav"
+        },
+        {
+          "ab": "kalalekete",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/96f03b40f10104906b823065df07e8c6.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/a79d4d4a0aee199f9ffaf11baed6f180.wav"
+        },
+        {
+          "ab": "walro’o",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d7487c64f38fa5862194ce3c4ca130fb.wav"
+        },
+        {
+          "ab": "malisi",
+          "ch": "不好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/6c6418b792029402e818aaaf39ab867b.wav"
+        },
+        {
+          "ab": "amiya",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/9d6a548c8f78139a0e9f12f4ef1c5984.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/57d886a40052669316cda334b45fc326.wav"
+        },
+        {
+          "ab": "tararodranga",
+          "ch": "長輩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/aec20191259fca5c3508d586c0540da3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/01132a7c864e3a1c3e7a872392f4e42e.wav"
+        },
+        {
+          "ab": "azana",
+          "ch": "隔天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/02d4dfeefcfd17c7de0422dc60cde600.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/b5330f0a18c54be65f6a7d4a926d65c2.wav"
+        },
+        {
+          "ab": "davace",
+          "ch": "出發",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/923b8529f52ae407a0a5240adc96cb45.wav"
+        },
+        {
+          "ab": "to’a’ala",
+          "ch": "跟髓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/85d297fa7d4eabbce321215f0d45cb58.wav"
+        },
+        {
+          "ab": "sasevanga",
+          "ch": "團隊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/e018bea7382b77bf3a2ca8a4088b822c.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/087b347ecf334cbc2af919087dc555d7.wav"
+        },
+        {
+          "ab": "walro’o",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/7a8dd533bb16cc103f831b4ea1075ee3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d57aa6c349bbe2ed7ab7fc46d580568c.wav"
+        },
+        {
+          "ab": "tralikaw",
+          "ch": "（畫眉鳥叫聲）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/9e42ce4730352acda1034811aab01817.wav"
+        },
+        {
+          "ab": "mosowa",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/45a3e807b85386821f1f6cd105c09999.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/4b8f8cdf8746d395d3207e6496c472c1.wav"
+        },
+        {
+          "ab": "siyoli",
+          "ch": "折返",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/f8e2103deac7be5d32ae8ad59390c002.wav"
+        },
+        {
+          "ab": "so",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/390f9d14de10baba64c37611e3cc37a9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/3ec93a311493c6f2f7284487ed347446.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/61c076e86a3cdc3855a49f691c92afbb.wav"
+        },
+        {
+          "ab": "tralikaw",
+          "ch": "（畫眉鳥叫聲）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/715608d3dc19ce1d62266daee152ec19.wav"
+        },
+        {
+          "ab": "malisi",
+          "ch": "不好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/5c353d0c1c623c6c968283567e1d201e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d4cfa8e7e07ac531bc3cce0203f6b209.wav"
+        },
+        {
+          "ab": "tralikawkiri",
+          "ch": "（畫眉鳥叫聲）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/f39ab4e4f1135fd68862f122b6b22dd5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/a0ad3c5a5be5fb82bcbd1f81999c8e44.wav"
+        },
+        {
+          "ab": "mathariri",
+          "ch": "好的；美的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/efb5596ad6af5029905cd640c2dac9b4.wav"
+        },
+        {
+          "ab": "kalalekete",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/42023873e7f84937a389b66a0d358d55.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/87e4bedff38bedf99ed1a77a74213ee0.wav"
+        },
+        {
+          "ab": "walro’o",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/f5d5892764397d98feffa1d1ff55fd95.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "如果到很遠的地方放陷阱，就會在山上燻烤所獵到的山肉，這樣背起來會比較輕，回到家後就邀請親戚朋友、鄰居一起分享。既使是在下山的途中與人相遇，也要與巧遇的人分享並送他一份，如果沒有這樣做會違反傳統，無法受到上天的祝福，以後會再也獵不到任何的獵物。",
+      "ab": "lo mwadayli tokolo si lo ’ana ka bolrabolray lrai wakame, la kaliya’ai si kelra ’oodo mobaliyo, lo kelra baliyo la dawdawlro idra lraretesa sa’agiyagisi si bai ’acamacama ’akiso’ili. lo kimadradresengeta sa omase wa baita ’wakane, lo kaita bai ’wakane ka sakainino tolisiya kadroi ataromalamita ko Twaomase katai ’ananga.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/741c382aa01151a0995a343d11194b23.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/0823d86da948ef77b6e75f081aeed490.wav"
+        },
+        {
+          "ab": "mwadayli",
+          "ch": "到遠處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/b9784b41e878ae7875813e68f745cb65.wav"
+        },
+        {
+          "ab": "tokolo",
+          "ch": "陷阱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/7b854e1c9778aa8ff839837766cf71d3.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/a86c9a80fce82777f5a2cb10492d1687.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/1ab0418ab8dc5325176cd1e26660234f.wav"
+        },
+        {
+          "ab": "’ana",
+          "ch": "獵到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/e4566caacd694e2faf44709abc6a161d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/b579d45d24a3f60d61b22642f6d54d04.wav"
+        },
+        {
+          "ab": "bolrabolray",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/5785d5fac180b88a98a54f26f9cc15b9.wav"
+        },
+        {
+          "ab": "lrai",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/a46f0c3ed092dfcf9914593bea064d79.wav"
+        },
+        {
+          "ab": "wakame",
+          "ch": "燻烤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/27c38ee092bace33f1a24aed62beb22c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/ef9b125cc04c39f6bdd94783153745d3.wav"
+        },
+        {
+          "ab": "kaliya’ai",
+          "ch": "較輕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/46abad51da428d4a970aebad0af43dbf.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/8cc0ac7d47dcde31b14f499bceb2757b.wav"
+        },
+        {
+          "ab": "kelra",
+          "ch": "回來；到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/6a3f8e5443504151a7306f2a13fae303.wav"
+        },
+        {
+          "ab": "’oodo",
+          "ch": "背",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/0a263c34c41dc9435f6e35bc9563c394.wav"
+        },
+        {
+          "ab": "mobaliyo",
+          "ch": "回家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/efa57f545a5b7a7211c8538e65f35d98.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/fd4050ef07f6276001b75d5e3b93e46a.wav"
+        },
+        {
+          "ab": "kelra",
+          "ch": "回來；到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/85493640a07dd9d8ba3dd85a331ce1c9.wav"
+        },
+        {
+          "ab": "baliyo",
+          "ch": "部落；家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/d2289811ec24e8a05b4444a26d90e72e.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/bbc8f583b9286e81becaf9d0ff58a9fa.wav"
+        },
+        {
+          "ab": "dawdawlro",
+          "ch": "邀請",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/3dc987f91de1708e65c17147ad203680.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/c1c4126a951cc625069787a133c6cf11.wav"
+        },
+        {
+          "ab": "lraretesa",
+          "ch": "親戚朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/1754754f941af7bb9c557995d8d24c5b.wav"
+        },
+        {
+          "ab": "sa’agiyagisi",
+          "ch": "鄰居",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/dc58460601ab2b4e101cff43f30564f3.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/f9e2fbc248ef54f90805bb9a3ca45e5e.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/029420827115d475a544f054f61589e4.wav"
+        },
+        {
+          "ab": "’acamacama",
+          "ch": "分肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/3907dd43fc76becb2ff2f0d5936d87cb.wav"
+        },
+        {
+          "ab": "’akiso’ili",
+          "ch": "分享",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/b89275b9a8413b5a835c2996ceae8a5a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/5fb3a60b66133efab3986163f87cdbf2.wav"
+        },
+        {
+          "ab": "kimadradresengeta",
+          "ch": "相遇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/fa1e8b32fa958e2edaabbf3475161d0c.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/8c2b95288bb7b0655943c89cebda474c.wav"
+        },
+        {
+          "ab": "omase",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/a9936a726e54664e6ab6628e813a6a38.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/0e25d64a0f4e667f8839de12e2e25d4e.wav"
+        },
+        {
+          "ab": "baita",
+          "ch": "送他一份",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/b81c80de1ba89627da89c0f3ef9a148c.wav"
+        },
+        {
+          "ab": "’wakane",
+          "ch": "給吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/a93680ed2b6d13428b66022c3c18e8b5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/4a313d619fd92e27aee8868964f8b5f7.wav"
+        },
+        {
+          "ab": "kaita",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/f4c5202312d4c6e3dfd6f414c6da13a4.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/6208835cf0ad7b20c109b9749d51e845.wav"
+        },
+        {
+          "ab": "’wakane",
+          "ch": "給吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/d9dbddff84b0993be0f5f189014e5423.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/9aa748d193c6c2249e038fe9844d5d43.wav"
+        },
+        {
+          "ab": "sakainino",
+          "ch": "沒禮貌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/972dcef91505b92f3544bb2a32c804b3.wav"
+        },
+        {
+          "ab": "tolisiya",
+          "ch": "忌諱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/54c2d13cbe2ba69bdd572a7d7078b8ce.wav"
+        },
+        {
+          "ab": "kadroi",
+          "ch": "就不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/19ad33d04a1ab2be5d90b951f84a774e.wav"
+        },
+        {
+          "ab": "ataromalamita",
+          "ch": "賜給我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/8dc6ba1fda227da199075628b44d89bc.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/8853eb7bd2f10ea230ef86fe04a54c69.wav"
+        },
+        {
+          "ab": "Twaomase",
+          "ch": "上帝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/53e6eaaef1f6f8950aa4eac05e9609cf.wav"
+        },
+        {
+          "ab": "katai",
+          "ch": "就不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/d3b6ebbb44d43dfbb6457f0ecdc5d0a1.wav"
+        },
+        {
+          "ab": "’ananga",
+          "ch": "獵到了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/1ca23338ae8a594ade0f76c7e9e35618.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,490 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "aenengan nu mita",
+  "titleCh": "我們住的地方",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "撒奇萊雅族居住的部落名由來分別是美崙山（Pazik）上的鬼頭刀魚（pazik）；茄冬樹（sakul）下的撒固兒部落（Sakul）；到水璉部落（Ciwidian）要小心水蛭（widi）；到磯崎部落（Kaluluan）要小心滑下坡（lulu）；山興部落（Cilakayan）因有個叫Lakay的人在那裡過世而得名；飽干部落（Cipawkan）是由一位名叫Pawkan的強壯之人所建立；白鷺鷥把馬立雲部落（Maibul）的水弄混濁（ibuk）。人們若忘記土地的名字，土地也會忘記人們的名字。",
+      "ab": "u aenengan nu mita a niyazu’ i pabaway nu buyu’ u pazik a buting ku sakasingangan nu Pazik a niyazu’, i sasaay nu sakul a kilang u Sakul a niyazu’, katukuh i Ciwidian a niyazu’ pihaymawi tu widi. katukuh i Kaluluan a niyazu’ pihaymaw tu lulu. kapatayan ni Lakay i Cilakayan a niyazu’. icelangay ci Pawkan patizeng tu Cipawkan a niyazu’. u badakuwang i niyazu’ nu Maibul miibuk tu nanum. anu kapawanan nu tademaw ku ngangan nu lala’ sa, kapawanan nu lala’ ku ngangan nu tademaw.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/c2a669ed2217f4b8703c09ecdddb1dc0.mp3",
+      "word": [
+        {
+          "ab": "u",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e8d899dc21da6b397979704006e7b9d0.wav"
+        },
+        {
+          "ab": "aenengan",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/746761f1501b3b5325d8bfefc19de12e.mp3"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e97a05847987633d2b888cfc3fc28ab7.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/1eba54600ecb890f82d479187488d4df.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e06d84a181649c1bb8f92dccfc8edaba.wav"
+        },
+        {
+          "ab": "niyazu’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e26b78638818a53ee00db17b7f13ad99.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/2f886ce468cb42271d41a90b6473cc18.wav"
+        },
+        {
+          "ab": "pabaway",
+          "ch": "上面的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/ea259f9079b3a201edd9265e71988f27.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/05a02dfa133a8d4b11d174d2e5d84b78.wav"
+        },
+        {
+          "ab": "buyu’",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9404d403fe9faf011a7c395f1318d98f.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/529d6f0f52c0f89910efdc375b344268.mp3"
+        },
+        {
+          "ab": "pazik",
+          "ch": "鬼頭刀魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/da84c10a618326ff003925686a45c800.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b14f02cb4aa8eb73ce1f54729a72f84a.wav"
+        },
+        {
+          "ab": "buting",
+          "ch": "魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/c61e234565e93ef96de95cd8d73ca89f.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/5c531bff980a5344ac32f3a8af832ef2.wav"
+        },
+        {
+          "ab": "sakasingangan",
+          "ch": "因而命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/61b9002f3ed86432952810fa1d25334f.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/fe9e9fb39106c162aa27251d737eedd2.wav"
+        },
+        {
+          "ab": "Pazik",
+          "ch": "美崙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/371faee4c94ee8e520cac283bec75e29.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/c1a80e2c0ed9c4e9e686b61220b84260.wav"
+        },
+        {
+          "ab": "niyazu’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/8f729e24d9e8c362407c264366c2a947.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9f7f1199d835c574bed73772dcfbc6f9.wav"
+        },
+        {
+          "ab": "sasaay",
+          "ch": "下面的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e9d63785b2a16eadf652149a2b0ff708.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/546939e45903a5ecfd4ae2faa21991f3.wav"
+        },
+        {
+          "ab": "sakul",
+          "ch": "枷苳樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/1fc39d43e2c6c57fbc130081b3a50ddf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/ccf5ad2e561c2c168002a10313125f84.wav"
+        },
+        {
+          "ab": "kilang",
+          "ch": "樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/803cbe55602e840440942f76a22b3124.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7b7f879dc0b65cb1976cc4612334e408.wav"
+        },
+        {
+          "ab": "Sakul",
+          "ch": "撒固兒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/49e43a13a38d7040007aff0be7d2f2d0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/87c81e2d9cbd1ecd59fbbe7c2575d2e0.wav"
+        },
+        {
+          "ab": "niyazu’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/ac8544af34a9e19f6bc573cad1eb8766.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "katukuh",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b8d1494e4aa117ab746f21dfb081b22d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b78901810329c1a936b119e4e74a0285.wav"
+        },
+        {
+          "ab": "Ciwidian",
+          "ch": "水璉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/ab1fb53d3b76da2305c34a32d676e9ca.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/c1e2effc25370563ca0278b06cfd6e15.wav"
+        },
+        {
+          "ab": "niyazu’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/c159957d9e2e4309f48115335d2373da.mp3"
+        },
+        {
+          "ab": "pihaymawi",
+          "ch": "要小心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/d4a0899db5b330aaf549064a14479581.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b18f2fe31c35c7dd005cec45f80ebb29.wav"
+        },
+        {
+          "ab": "widi",
+          "ch": "水蛭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/1f2d707cafe476cb48abd674bed3f7b8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "katukuh",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/d2e37fc27e103e3311b39b9d1db1e17e.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/8512470596db4c1389eb5fc70b01f318.wav"
+        },
+        {
+          "ab": "Kaluluan",
+          "ch": "磯崎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/739ce734580d04cb55da3ad3a0c20b5a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/0f1d9bc47f9503c92a21c8869d84b9f7.mp3"
+        },
+        {
+          "ab": "niyazu’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/2ec645358e08827f30c9b8cffa39bd52.wav"
+        },
+        {
+          "ab": "pihaymaw",
+          "ch": "小心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/11d2f8311f2e239e8d715b83fbf0dc07.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/12a20b72207fe892164debc652a989af.wav"
+        },
+        {
+          "ab": "lulu",
+          "ch": "滑下波",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b51f1e6772bfe3de10bab904f5c0c04d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kapatayan",
+          "ch": "死去的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e2e9524d4c20334bcb47dc27a2e53968.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/a3d2db505489920142e50d005eab8eff.wav"
+        },
+        {
+          "ab": "Lakay",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/03f6911bd32f1ef86c8e4ae0846e24ff.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/cabb702a0a35967cf549d2f91494e989.wav"
+        },
+        {
+          "ab": "Cilakayan",
+          "ch": "山興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/981f7cd288a0f1ac2cb9b99078662261.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/d82afb27f4e44424531e3e21adff57d5.wav"
+        },
+        {
+          "ab": "niyazu’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/5fac3b94b824f684ad1f8bd355b20295.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "icelangay",
+          "ch": "強壯的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b127a035abc2c3957f3e914882d224a9.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7acccf55c279f4d0a270e729112f0b2f.wav"
+        },
+        {
+          "ab": "Pawkan",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9b79719f5015c62ffb5987f324fed5ec.wav"
+        },
+        {
+          "ab": "patizeng",
+          "ch": "建立",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e47a83db97b62a12b7415c5ae0f71194.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/f561e3442f2360f4faeaa15c81e54013.wav"
+        },
+        {
+          "ab": "Cipawkan",
+          "ch": "飽干",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/3d796bebe726821badaf9e2d3f48660c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/896006b7511d4a7e8564f6b57d6d26d7.wav"
+        },
+        {
+          "ab": "niyazu’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/6171403fef0f18afaf70351701629ff1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "u",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9df9cb353b50ae66020b81a626ad6eaf.wav"
+        },
+        {
+          "ab": "badakuwang",
+          "ch": "白鷺鷥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e3311fcb89d5ac6d62fd275cd0638cc5.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7304b6e0c85c7c7081ede47ae70e747c.wav"
+        },
+        {
+          "ab": "niyazu’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/31a69fca188fc144495391c00ba3fd43.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/83f74c737b4c15832e858dc675fc4bd6.wav"
+        },
+        {
+          "ab": "Maibul",
+          "ch": "馬立雲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/09cecba52bec4fd832630062e8be5d5e.wav"
+        },
+        {
+          "ab": "miibuk",
+          "ch": "弄混濁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7bc78077b173cfd0747e3b20e6c51f80.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/be3119c92b6b7ed6add0746b9fa26a90.wav"
+        },
+        {
+          "ab": "nanum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/f7a56c4559236d61f78b2fc036db12ac.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "anu",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/6b29e623eabc83d830c8c374bf5fbda5.wav"
+        },
+        {
+          "ab": "kapawanan",
+          "ch": "被遺忘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/3c0f365057a1e78f08d1afd92eb784b8.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/68e68ebcff376c74099bd105630b9b3d.wav"
+        },
+        {
+          "ab": "tademaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/ac16ada766a84da330763d31e36af6cd.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/5d99038d44f065c21383e5daea295933.wav"
+        },
+        {
+          "ab": "ngangan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9527bf7a5ce77883e08ee9ca60c9dd2e.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9d1c2483c8e11d3f64e65e627d6a459c.wav"
+        },
+        {
+          "ab": "lala’",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/8ddd389dc325faeb9e252d331df22b72.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/32ca885a1d6bfbd2a7098d84ca49038b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kapawanan",
+          "ch": "被遺忘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/4262cbfb74fc8b0fbaf620e3b3321e6b.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/16f6bc48da2ef0c419d4faf849fb7329.wav"
+        },
+        {
+          "ab": "lala’",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/a6115ed32394915aac1e5502382eaaea.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/714234ab026fa63f547176d4e8f4099b.wav"
+        },
+        {
+          "ab": "ngangan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e34f85db4cf0d3c5369a1b4698b0be87.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/d2825822b63de296b2b3de98aaff73f0.wav"
+        },
+        {
+          "ab": "tademaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/51d3cab6da2603ad816083eb371d13ad.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

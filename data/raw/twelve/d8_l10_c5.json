@@ -1,6 +1,809 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Huzuq",
+  "titleCh": "箭筍",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "竹筍種類很多，各不相同。由於海拔很高，天氣冷峻，只有箭竹可以生長。其他竹類如桂竹就無法生長了。",
+      "ab": "Maaq a huzuq a vaivivaivi, nitu mamaszang. Aupa ihaanin madaqvasan a, makazhavin a diqanin, kaupin taluma maqtu tal’ia. Maaq dau ka kakunanan a ni’in maqtu tal’ia.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/fa1e9c965314ccd7810fb5ea838303e5.wav",
+      "word": [
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/03fa2f7502f5f6b9169e67d17cbf51bb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/5a99158e0c52f9e7d290906c9d08268d.wav"
+        },
+        {
+          "ab": "huzuq",
+          "ch": "竹筍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/de594ef5c314372edec29b93cab9d72e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/65fc9fb4897a89789352e211ca2d398f.wav"
+        },
+        {
+          "ab": "vaivivaivi",
+          "ch": "各有不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/bbeb0c1b1fd44e392c7ce2fdbd137e87.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/403ea2e851b9ab04a996beab4a480a30.wav"
+        },
+        {
+          "ab": "mamaszang",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b628386c9b92481fab68fbf284bd6a64.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/ff2cc3b8c7caeaa068f2abbc234583f5.wav"
+        },
+        {
+          "ab": "ihaanin",
+          "ch": "已經在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/cdd96eedd7f695f4d61802f8105ba2b0.wav"
+        },
+        {
+          "ab": "madaqvasan",
+          "ch": "高處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/058d6f2fbe951a5a56d96b1f1a6bca1c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/ad47a008a2f806aa6eb1b53852cd8b37.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makazhavin",
+          "ch": "寒帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/7aee26c309def8c5a2a076eb250b8f36.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/fa2e8c4385712f9a1d24c363a2cbe5b8.wav"
+        },
+        {
+          "ab": "diqanin",
+          "ch": "氣候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/362387494f6be6613daea643a7706a42.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kaupin",
+          "ch": "唯有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/33267e5dc58fad346e92471c43fcccdc.wav"
+        },
+        {
+          "ab": "taluma",
+          "ch": "這些竹子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/c315f0320b7cd4ec85756fac52d78076.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/64a08e5f1e6c39faeb90108c430eb120.wav"
+        },
+        {
+          "ab": "tal’ia",
+          "ch": "生長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/4bbdcc0e821637155ac4217bdab70d2e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/03/60002d83f31cebc9f584fad16018b3e6.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/5e751896e527c862bf67251a474b3819.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b7f1f29db7c23648f2bb8d6a8ee0469b.wav"
+        },
+        {
+          "ab": "kakunanan",
+          "ch": "桂竹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/421b3ac5c24ee992edd6087611c60dbb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/08f38e0434442128fab5ead6217ca759.wav"
+        },
+        {
+          "ab": "ni’in",
+          "ch": "已經不了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/361440528766bbaaaa1901845cf4152b.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/ec1f850d934f440cfa8e4a18d2cf5463.wav"
+        },
+        {
+          "ab": "tal’ia",
+          "ch": "生長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/7f7c351ee977c765aa8cd5c7020bc38f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "追根究柢，箭竹本是熊的食物，祖先們嘗試著去吃後，就成為我們現今的食物了。",
+      "ab": "Almananu a, maaq dau ka talum una isia tumaz tun tu kakaunun, makuaq dau tu tanamun i madadaingaz mita maun a, min’unin amin imita kakaunun laupakadau.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/55c567fd4395ecef6d936cf77b8d5b2b.wav",
+      "word": [
+        {
+          "ab": "almananu",
+          "ch": "原本是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/1d49780520898fe37f0cd6b41c5311bf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/47fd3c87f42f55d4b233417d49c34783.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/9ff7c9eb9d37f434db778f59178012da.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/a4613e8d72a61b3b69b32d040f89ad81.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/56584778d5a8ab88d6393cc4cd11e090.wav"
+        },
+        {
+          "ab": "talum",
+          "ch": "竹子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/96f2b50b5d3613adf9c27049b2a888c7.wav"
+        },
+        {
+          "ab": "una",
+          "ch": "是這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/cdcb2f5c7b071143529ef7f2705dfbc4.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "誰的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/78f7d96ea21ccae89a7b581295f34135.wav"
+        },
+        {
+          "ab": "tumaz",
+          "ch": "熊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/22b1f2e0983160db6f7bb9f62f4dbb39.wav"
+        },
+        {
+          "ab": "tun",
+          "ch": "這個(近處)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/5a45828dead8c065099cb653a2185df1.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/531db99cb00833bcd414459069dc7387.wav"
+        },
+        {
+          "ab": "kakaunun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/1006ff12c465532f8c574aeaa4461b16.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makuaq",
+          "ch": "為什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/d37b3ca37106b2bfdeaa12647e3bb1c9.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/fc192b0c0d270dbf41870a63a8c76c2f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/030e65da2b1c944090548d36b244b28d.wav"
+        },
+        {
+          "ab": "tanamun",
+          "ch": "被試驗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b2ea5e977c5fc1ccfa74171a9723dd61.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/9dc372713683fd865d366d5d9ee810ba.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/044a23cadb567653eb51d4eb40acaa88.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/17693c91d9204b7a7646284bb3adb603.wav"
+        },
+        {
+          "ab": "maun",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/9a11883317fde3aef2e2432a58c86779.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/d58e2f077670f4de9cd7963c857f2534.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "min’unin",
+          "ch": "變成了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/7f141cf8e7136ce8701dc6636c2a6fe4.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b0bef4c9a6e50d43880191492d4fc827.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/566a9968b43628588e76be5a85a0f9e8.wav"
+        },
+        {
+          "ab": "kakaunun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/2b6921f2c64dee16ba21ebf17f3c2c92.wav"
+        },
+        {
+          "ab": "laupakadau",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/f804d21145597e42851fa736e221da3f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我們不像熊一樣吃竹子的葉子和箭筍，我們是吃的是竹「筍」。「筍」是指竹子的「孩子」。從前的先祖們學習日本語說「竹子的孩子」的說詞。",
+      "ab": "Nii sata maszang tumaz tu maun i lisav siin talum, sia mita huzuq a sizaun maun. Sintupa dau ka huzuq un tu “uvaz’az” i talum ta. Qabasang a maimadadaingaz ula’an i malasLipuun tu qalinga tupa tu “ takinuku ”.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/6490791e7abf6b29a381288cc23a8223.wav",
+      "word": [
+        {
+          "ab": "nii",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/98d8a23fd60826a2a474c5b4f5811707.wav"
+        },
+        {
+          "ab": "sata",
+          "ch": "我們(話)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/045cf83ab0722e782cf72d14e44adf98.wav"
+        },
+        {
+          "ab": "maszang",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/f75526659f31040afeb61cb7133e4e6d.wav"
+        },
+        {
+          "ab": "tumaz",
+          "ch": "熊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/f499d34bd87b42948b3960b8f6b82e74.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/44ac09ac6a149136a4102ee4b4103ae6.wav"
+        },
+        {
+          "ab": "maun",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/a7a3d70c6d17a73140918996d03c014f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/d8e1344e27a5b08cdfd5d027d9b8d6de.wav"
+        },
+        {
+          "ab": "lisav",
+          "ch": "葉子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/92bf5e6240737e0326ea59846a83e076.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/f565bb9efccaf6986443db0bf01018bc.wav"
+        },
+        {
+          "ab": "talum",
+          "ch": "竹子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/1cd138d0499a68f4bb72bee04bbec2d7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sia",
+          "ch": "是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/4a5876b450b45371f6cfe5047ac8cd45.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/6244b2ba957c48bc64582cf2bcec3d04.wav"
+        },
+        {
+          "ab": "huzuq",
+          "ch": "竹筍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b4a721cfb62f5d19ec61575114d8a2d1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/fd4f21f2556dad0ea8b7a5c04eabebda.wav"
+        },
+        {
+          "ab": "sizaun",
+          "ch": "被取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b1300291698eadedb559786c809cc592.wav"
+        },
+        {
+          "ab": "maun",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/d47844673f2db74d78da8687d794523d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sintupa",
+          "ch": "所謂的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/ae587cfeea5ac21a8f1c1ea51027fef0.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/60243f9b1ac2dba11ff8131c8f4431e0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5c02ec1f19fedba505619c3623a19a77.wav"
+        },
+        {
+          "ab": "huzuq",
+          "ch": "竹筍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/aeefb050911334869a7a5d9e4d0e1689.wav"
+        },
+        {
+          "ab": "un",
+          "ch": "這個(近處)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/5be278a9e02bed9248a4674ff62fea2c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/fb3f76858cb38e5b7fd113e0bc1c0721.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uvaz’az",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/2e0bff759d057e28460eaa5b2cb118e5.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/d210cf373cf002a04ec72ee395f66306.wav"
+        },
+        {
+          "ab": "talum",
+          "ch": "竹子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b19aa25ff58940d974234b48391b9549.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "他；那個(遠處)\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/ec0bfd000f253eff3acb1043e1c06979.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qabasang",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/ad82140cafe816c41a9c9974e9240b7a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/1264a061d82a2edae1574b07249800d6.wav"
+        },
+        {
+          "ab": "maimadadaingaz",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/4191ef5f6c1576762869ac49281130c9.wav"
+        },
+        {
+          "ab": "ula’an",
+          "ch": "染上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/e465ae46b07058f4ab5e96b98f101756.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/92779382430cc8bb21fdfee6e1f5953b.wav"
+        },
+        {
+          "ab": "malasLipuun",
+          "ch": "說日本語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/a7f592cef8b130a6967a90617db5681b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/e27a949795bbe863f31c3b79a2686770.wav"
+        },
+        {
+          "ab": "qalinga",
+          "ch": "話語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/74378afe5e8b20910cf1f939e57f0480.wav"
+        },
+        {
+          "ab": "tupa",
+          "ch": "說出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/952c3ff98a6acdc36497d839e31aa57c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2cd243cb7c7c2bb3f27a8aba957a5e7f.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "takinuku",
+          "ch": "竹之子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/0d9095b0d6bbe98ea0c9c02b11b59ee3.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現今的竹筍已經成為我們人類的蔬菜，吃了竹筍會使身體好起來，不會發胖。因為人們喜歡吃竹筍，也變成了買賣的商品。從三月開始採收竹筍，一直到掃墓節前結束。",
+      "ab": "Laupakadau ka huzuq min’unin imita bunun tu sanglav, maaq i minaunin i huzuq a minmasihal dau ka hubung, nitu tismuq. Aupa tis’uni tu kazimaunin mita bunun maun a, min’unin isbabaliv. Ihaan tau buan kitngaab malkahuhuzuq. Sauhaan Lus’an sabung tanangaus qanaqtung.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/0c8ce55163055c4da50a81e0a273468c.wav",
+      "word": [
+        {
+          "ab": "laupakadau",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/0fc170ecbb8ff1afb2c6de48ea5343e7.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/a3788c8c64fd65c470e23e7534c3ebc8.wav"
+        },
+        {
+          "ab": "huzuq",
+          "ch": "竹子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/2eb5657d37f474e4c4cf01e4882b8962.wav"
+        },
+        {
+          "ab": "min’unin",
+          "ch": "已經變成了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/d2d68442042ae13a79e0c737807c7edd.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/12ada11f95299804cf40e54417504d01.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/64c31821603ab476a318839606743bd6.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/95004aef5feebc0fe3e77b1f3c88a742.wav"
+        },
+        {
+          "ab": "sanglav",
+          "ch": "蔬菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/4ab52371762b735317125e6446a51e8f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/564645fbd0332f066cbd9d083ddd077c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/c0f971d8cd24364f2029fcb9ac7b71f5.wav"
+        },
+        {
+          "ab": "minaunin",
+          "ch": "吃過了的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/765d5fb115a9f6a3e0b23b80a5b2e4c4.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/d0010a6f34908640a4a6da2389772a78.wav"
+        },
+        {
+          "ab": "huzuq",
+          "ch": "竹筍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b4fd1d2cb085390fbbadae65e07876a7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/663772ea088360f95bac3dc7ffb841be.wav"
+        },
+        {
+          "ab": "minmasihal",
+          "ch": "好起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/227f6afd3b7f89b96c4bb91f95d50f6d.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/f3b7e5d3eb074cde5b76e26bc0fb5776.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/39d352b0395ba768e18f042c6e2a8621.wav"
+        },
+        {
+          "ab": "hubung",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/8e987cf1b2f1f6ffa6a43066798b4b7f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/f5b1b89d98b7286673128a5fb112cb9a.wav"
+        },
+        {
+          "ab": "tismuq",
+          "ch": "發胖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/4e2a6330465c8ffcaa696a5a16639176.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/182e6c2d3d78eef40e5dac7da77a748f.wav"
+        },
+        {
+          "ab": "tis’uni",
+          "ch": "為了…緣故",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/aee92f16efd522b9326c25cc3237ac15.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/56cb94cb34617aeadff1e79b53f38354.wav"
+        },
+        {
+          "ab": "kazimaunin",
+          "ch": "被喜愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/413b37a95069fc41c7e1ebd49d345f24.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/46f76a4bda9a9579eab38a8f6eabcda1.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b030afbb3a8af8fb0759241c97466ee4.wav"
+        },
+        {
+          "ab": "maun",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/3fc2c60b5782f641f76bcefc39fb2392.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/12311d05c9aa67765703984239511212.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "min’unin",
+          "ch": "變成了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/09b69adcd7cbae914c6204984097d2da.wav"
+        },
+        {
+          "ab": "isbabaliv",
+          "ch": "商品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/b139aeda1c2914e3b579aafd3ceeb1bd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/46b2644cbdf489fac0e2d192212d206d.wav"
+        },
+        {
+          "ab": "tau",
+          "ch": "三",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/0738069b244a1c43c83112b735140a16.wav"
+        },
+        {
+          "ab": "buan",
+          "ch": "月份",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/2bc8ae25856bc2a6a1333d1331a3b7a6.wav"
+        },
+        {
+          "ab": "kitngaab",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/6775a0635c302542da2c32aa19d86be0.wav"
+        },
+        {
+          "ab": "malkahuhuzuq",
+          "ch": "從事竹筍事業",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/6e0e24295e8a86282cb559b860416812.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sauhaan",
+          "ch": "一直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/353de26971b93af88da102641069b440.wav"
+        },
+        {
+          "ab": "lus’an",
+          "ch": "祭儀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/d0bb8259d8fe3c7df4554dab9d7da3c9.wav"
+        },
+        {
+          "ab": "sabung",
+          "ch": "墳墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/5d75b942ab4bd730bc2e819df9c9a4b5.wav"
+        },
+        {
+          "ab": "tanangaus",
+          "ch": "前面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/a78482ce76496fcf49085f2190e675b4.wav"
+        },
+        {
+          "ab": "qanaqtung",
+          "ch": "結束",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/12/3812f9a59b634c2a9c574610eaba5bed.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

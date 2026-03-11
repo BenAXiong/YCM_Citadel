@@ -1,6 +1,556 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Daqdaq",
+  "titleCh": "溫泉",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "南投的東埔部落，老人家從前都稱之為「Lausan」。因為那邊有溫泉，從地底自然湧出來的水是熱的，泡溫泉不小心的人會被燙傷。",
+      "ab": "Maaq Nan-tu tu Tumpu asang a, tupa’un qabas madadaingaz tu Lausan. Maupa i haiza ita daqdaq, mabaqis a maikus’anak tu minsuma danum a, kislausan dau bunun i nitu mananulu talhisuq.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4540de4c8e9e7d191512c55f749aaafd.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/6e3fb941ca1038c290e10cbad98f494b.wav"
+        },
+        {
+          "ab": "Nan-tu",
+          "ch": "南投",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/7c44f8b5abdadad504f328a5d46c16e4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/9a88fb44cf294c54ad19af25bce161ac.wav"
+        },
+        {
+          "ab": "Tumpu",
+          "ch": "東埔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/c1670d186ae57f7f64df94173fa02c42.wav"
+        },
+        {
+          "ab": "asang",
+          "ch": "村落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/1cdbc566ab18141dbf2586d9707cdfdc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/67d01a0cf030839a8b0fae6273976367.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tupa’un",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/46a36a35a3c58cdc8cccceef67833b78.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/cba2e39793995b3b682da78f854786f2.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "老人家們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/bd7ead7664ec93dd08719f2d91d354f8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/628454d202cf0a8b6e7f2a62a1c36d46.wav"
+        },
+        {
+          "ab": "Lausan",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/15d81ef95dd64458c70c72fce3f193f3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/91695dc00bccc36deb3f97431368f380.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/24664885f97cee26dacdb223f35f76db.wav"
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/220ef58ed3dc5807d767593835583c5f.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/c45bdebae9b7a7d8fe14bea207da4b25.wav"
+        },
+        {
+          "ab": "daqdaq",
+          "ch": "溫泉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f92f63172a3f74ff5261c053eb025d5e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mabaqis",
+          "ch": "很熱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2465517595f5ea9f225d52ed73a4d0db.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2b3c63c6c00ff7f8ea6323be685a2dbc.wav"
+        },
+        {
+          "ab": "maikus’anak",
+          "ch": "自動湧出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/14fede166649aae172c8b1ab5418e46e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/9fdbe9d3193358ceccdd9b6460185174.wav"
+        },
+        {
+          "ab": "minsuma",
+          "ch": "出現",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/b220745bc6d3dfc50abc81790741b113.wav"
+        },
+        {
+          "ab": "danum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e96822f795a48a236359926ee499b783.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/3eb1fb86a545217701e4eb161200aefb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kislausan",
+          "ch": "被燙到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/68d5b0923a8bb1387adfb044e105d512.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f0b9c7828b267d70641098732aaca656.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/59ec5b2bb17ded8902bb5cb4cd424933.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e6a6f0de57ba06b57e8d4a5120ce75b5.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/620d348d4551ea2870e4cb602881a1d8.wav"
+        },
+        {
+          "ab": "mananulu",
+          "ch": "注意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/adcaec3805aa912c0d0b14a81bedb6ff.wav"
+        },
+        {
+          "ab": "talhisuq",
+          "ch": "洗澡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/3e84320349c4aa9794519561dca5d550.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "於日本時代，日本人就很喜歡去泡溫泉。因為很燙的溫泉水，能夠治療人們的皮膚病。",
+      "ab": "Maaq tu siang Lipuun saipuk mita Taivangti qai, nanu’in Lipuun tu miniqumis mazima mun’ita talhisuq. Maupa i, maaq dau ka daqdaq mabaqis tu danum a, mapindaduu ki bunun tu unkalavan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/fabeb9b0fc389628ee3b9897132947c0.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4dac9d9b526cdbea9414ef6408fde364.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/cb04be454f5055701000fbd9a7c0dd15.wav"
+        },
+        {
+          "ab": "siang",
+          "ch": "還是…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2c4e561715e3181ffd2433227eebcdd6.wav"
+        },
+        {
+          "ab": "Lipuun",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/944eefd22dfe99fe7631b8ecc732c7cf.wav"
+        },
+        {
+          "ab": "saipuk",
+          "ch": "治理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/871507605e87e9fbe8db5459252c5416.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/fd278a8f5571d3db556bd83198beb09a.wav"
+        },
+        {
+          "ab": "Taivangti",
+          "ch": "台灣這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/74345122a5974e52cb46804362658ed6.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/33929b69461fed5d5e93a98dc968ac26.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nanu’in",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/31df640a39af675eae099e0d9ace7ea1.wav"
+        },
+        {
+          "ab": "Lipuun",
+          "ch": "日本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/37931a856fc72266e64211701199dc7d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f7c914bfc66b8f75f0272c63d8be3baa.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "人民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/9c2eb29b86c2f78703886e8c6524fc57.wav"
+        },
+        {
+          "ab": "mazima",
+          "ch": "很喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/c5c7f9399d1aab6cd84120add111c5c0.wav"
+        },
+        {
+          "ab": "mun’ita",
+          "ch": "去那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f0581ab7f8e6b8695051457df75cd9c0.wav"
+        },
+        {
+          "ab": "talhisuq",
+          "ch": "洗澡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/062254e2ddd67e61e49523b122d760ec.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/21f3473068796324e0d4bbae4b0142f1.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/3ef413c41b38a5cbc1e5a88d9ce5f3a8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/585ac7b63dbbf93432d8e4327c55dcf4.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/270a009cf37d7723c38fff4a2ef7eb57.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4b3ac70a62256956d9de54849321c78d.wav"
+        },
+        {
+          "ab": "daqdaq",
+          "ch": "溫泉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/3244ef4c2aeb17c03511c93cb43caef0.wav"
+        },
+        {
+          "ab": "mabaqis",
+          "ch": "熱的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/8f50a1836d707c75452249bfc9511ae4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/bbde1be83f91966ad44d7493bb40c434.wav"
+        },
+        {
+          "ab": "danum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/cb9233ed32223e52344649be4f3d1147.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2a354897d7fb1623d7f90eb60c9f6a4d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapindaduu",
+          "ch": "治癒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/924bb9af4bf5704d357a612b986e0256.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/b03790af6cacbfd6ae0639ab9b8d5b72.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/988ef4f8ac227c7770725d0903505447.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f24589b329c48eaad3ef1c9a9779f076.wav"
+        },
+        {
+          "ab": "unkalavan",
+          "ch": "皮膚病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e68e4a046a5a86de64238ca77d7970d5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在，旅遊拜訪的地方越來越多，可以和家人一起去旅遊。也可以到那邊認識那邊的郡社群朋友，買他們種植的蔬菜、豆和樹豆。",
+      "ab": "Laupaku, minsisiusin ita tu tantungu’an, maqtu pataskun tastulumaq tu taisis’aan mun’ita tantungu. Maqtu amin mapasaqal i taki’ita tu Isbukun tu kaviaz, mabaliv inaita sinsusuaz tu sanglav, bainu siin qalidang.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4d383d5cdcb4e8e52a3cbf0d9d6c02ff.wav",
+      "word": [
+        {
+          "ab": "Laupaku",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/d2123a5b7e099ace2aa5d230edd9e1fd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minsisiusin",
+          "ch": "一直增加了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4e93b1539963aec872bd0000973520fa.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f32d17a18e87b47c0dea1db1ee53774a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e0f65e2f1ebf696b7e868b2a06ee51cf.wav"
+        },
+        {
+          "ab": "tantungu’an",
+          "ch": "旅遊的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/27/d23841cbc5fe43089368c1dc9dbbf4b0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0322b0ce982b6f52251120354553b363.wav"
+        },
+        {
+          "ab": "pataskun",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e689582ff82cd8e9a50d4a89f811cd77.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2fa8fadcc0c3506875c09e7e7da28835.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/950a9f7312a63246f7e96fe4d17a4fc6.wav"
+        },
+        {
+          "ab": "taisis’aan",
+          "ch": "親戚朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/85bea3bb05e27edacbfd0a70ef277160.wav"
+        },
+        {
+          "ab": "mun’ita",
+          "ch": "去那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/bc9ebb08357dd4ea859912a69b5f9a0a.wav"
+        },
+        {
+          "ab": "tantungu",
+          "ch": "拜訪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e0eb3d5aa57420ff4d5c3c183ab411c6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0cac8ef0217411b26be6840a65e14e88.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f8ee3bdb4999cd30c1d8931585db1a7b.wav"
+        },
+        {
+          "ab": "mapasaqal",
+          "ch": "認識",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/37cb321154312a5a2f4c9e0e507e9a4c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/91728cf7dae9380f099fa6bd25969680.wav"
+        },
+        {
+          "ab": "taki’ita",
+          "ch": "住在那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/05d446b21e401cdc44ea5ddb67ff0031.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/524a502cb111c40b56529cf342c45a72.wav"
+        },
+        {
+          "ab": "Isbukun",
+          "ch": "郡社群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/9d4ab7e058d08362d5afd12b6d4e146c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/7f139acf3f38e85238e5f75c3ab24b72.wav"
+        },
+        {
+          "ab": "kaviaz",
+          "ch": "朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/707d151938a001b172e8029cbeccf67b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mabaliv",
+          "ch": "買",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0a743fa0de869f27f06d695734781401.wav"
+        },
+        {
+          "ab": "inaita",
+          "ch": "他們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e0ec4ca047662253f6d21b908c771c1a.wav"
+        },
+        {
+          "ab": "sinsusuaz",
+          "ch": "所種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2ec4332c62db928fdf1d0be6174df145.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2343f39dc8087790df9f644e8ddb5e1b.wav"
+        },
+        {
+          "ab": "sanglav",
+          "ch": "蔬菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0663b0ece707acb3b9fe47cd18ce8f8b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bainu",
+          "ch": "豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/27/d43e974aa93d103dea8cc8ff215c899a.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/cbc3f6f4fc0be8be1ac4e89bd93caf69.wav"
+        },
+        {
+          "ab": "qalidang",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0d38fd270d6f28bb2fc45ec2571b758e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

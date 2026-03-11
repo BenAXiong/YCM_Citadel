@@ -1,6 +1,578 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Isiqumic is madadaingaz qabas",
+  "titleCh": "傳統的經濟生活",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "布農族的傳統生計，是以山田燒墾為農耕方式。除了農耕之外，狩獵及採集亦是我們獲得糧食的來源。農耕的作物包含了小米、玉米、薯類、豆類等。",
+      "ab": "Maca madadaingaz is Bunun qabas ca malkacias quma, nanu’ tu makucia sapuzi’ pinqainsa’ is ludun kaquma. Na nii’ tu mu’haz malkaciat quma, maiza amin ca duma’ kukuzaun nai na minkakaunun, maupas tinqaqanup ciin mincicikmaz kilim is duma’ a kakaunun, uuca sincucuaz a na cias maduq, atipul, hutan, bainu.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/e9805f420cf6313f17a4d807871d9938.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/3ca43d27fa81f452a4d0b6ae09f809aa.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "老人，長者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/fe065cf78f3f3c12b6af5a4f1ee790fb.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/085041a0a9f34e2125087d2c53fe6291.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/b4915aab190bf02240b3c61bf46fbb58.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "過去，以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/22/17b1e89f519f8650ed80d8e0e488b307.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/22b880633e6c3b3c7bccc56c59ff11b9.wav"
+        },
+        {
+          "ab": "malkacias",
+          "ch": "從事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/7061e05fd01005f38567bfe463f680ed.wav"
+        },
+        {
+          "ab": "quma",
+          "ch": "農事，農作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/398a516d8fbfdd9158eec76b283dd9ce.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nanu’",
+          "ch": "真實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/6ac9ae1743524cdf9197f1ea50412d72.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/0ba398d67c2389e94a5acf3204716e30.wav"
+        },
+        {
+          "ab": "makucia",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/eecb119bb23b452aa17063227d6af855.wav"
+        },
+        {
+          "ab": "sapuzi’",
+          "ch": "用火",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/41bebf6a6be8fced8d8e6b0c773eed4c.wav"
+        },
+        {
+          "ab": "pinqainsa’",
+          "ch": "放火燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/ef05c1d21d1d4070adaf684257f2441a.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/9c51041127bc0f99dd1c98e72dd11d01.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/200734077bb5e01fbe9b973d0d50ee6a.wav"
+        },
+        {
+          "ab": "kaquma",
+          "ch": "開墾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/cd7a3678e92f33f1affad511486f68da.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/cf8e18367059d20cbb1650809d53e825.wav"
+        },
+        {
+          "ab": "nii’",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/9cdef155fb46f275b78d8c9eb523d7a0.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/c5d2c718008d3490546d029cab134fb7.wav"
+        },
+        {
+          "ab": "mu’haz",
+          "ch": "只有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/9aa3268dd5254fd709384d2b61d2a3a5.wav"
+        },
+        {
+          "ab": "malkaciat",
+          "ch": "從事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/fca1843a88d84796402f2cb5cf8fead4.wav"
+        },
+        {
+          "ab": "quma",
+          "ch": "農作，農事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/c8d128c127cc299c41e73a24f1158b7c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/77596ce7097c5f353cffcc865487d9e2.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/096df4145082cce9363b9974fcdd13d6.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/71e8c327273c4053d1fafa9df7fb415f.wav"
+        },
+        {
+          "ab": "duma’",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/01edfe9e99c2cb54c987700056bda338.wav"
+        },
+        {
+          "ab": "kukuzaun",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/40af6ba441c1a2781572dd9bc85cd4d0.wav"
+        },
+        {
+          "ab": "nai",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/3400f321cb9fe8a7c2efa0e1edb2eaf5.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/4139cb778ebae8996577f0a5533e4bb0.wav"
+        },
+        {
+          "ab": "minkakaunun",
+          "ch": "成為食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/143111b6b5ed85477eab06fe01e851e2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maupas",
+          "ch": "如同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/783900b1dad49f8e7665ebea90ccdfcc.wav"
+        },
+        {
+          "ab": "tinqaqanup",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/5b8b532425202aabea874712edabd2ac.wav"
+        },
+        {
+          "ab": "ciin",
+          "ch": "或是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/08678ae679dc79795862b29f7935f034.wav"
+        },
+        {
+          "ab": "mincicikmaz",
+          "ch": "拾取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/9cae15bbdd73dc7a84ee786318022fc8.wav"
+        },
+        {
+          "ab": "kilim",
+          "ch": "尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/17fa420c99b3094dcacdf8677789c983.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/dfba6121d0dbcf806a79e74a7ba58a7b.wav"
+        },
+        {
+          "ab": "duma’",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/4466f2c1e7eed04c491b8620b142ff72.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/f82b2a73a3f905eb4679a24495a79ee3.wav"
+        },
+        {
+          "ab": "kakaunun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/72e88ee102cc8afc75cbbb182cca9306.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uuca",
+          "ch": "就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/f829d0a47d2f435f6c452ebe867f6056.wav"
+        },
+        {
+          "ab": "sincucuaz",
+          "ch": "所種植的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/90c5b57809d8cb1703f89023c6d17060.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/58b311abb1f038c7371016670f355608.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/b6034e2aec7cf857f86ec2322eee1180.wav"
+        },
+        {
+          "ab": "cias",
+          "ch": "是它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/c92d9be2cd37afdf71b71194eca87614.wav"
+        },
+        {
+          "ab": "maduq",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/4f5dd3a39f66fa2e54bb98577ffb4ff0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "atipul",
+          "ch": "玉米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/71315bc6ea3c0b7c50d856508279487d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hutan",
+          "ch": "各類地瓜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/a510abf00d75925ab4d2c11e0e8d89a4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bainu",
+          "ch": "各種豆類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/2ca586bb2adf43e68fb77b916b0fc7db.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "傳統時期，布農族人是屬於自給自足的，所種植的作物及狩獵所得，幾乎用於日常生活的消耗之上，僅有少部分多餘的雜作物及獵物，拿至靠近平地的交易場所與當地的漢人交換布、鍋、鹽等生活物品。",
+      "ab": "Maca kinuzas bununi’ qabas a, sanaciin ca maqtu’in pi’abuq is maitatlumaq a bunun, cikaupa sincucuaz, sinpapanaq, na mu’amin iskucia nai ha’an cikaupa ka diqanin, na mu’hazin tukuc ca sincucuaz cina sinpapanaq, na satu’un nai punbukzav pakucuii pabaliv, na ispahuvaiv is isququmic ca qaihav, tipin, qacila.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/08/e63f5afa0a0697ce061ef4bf91432fb2.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/26324d8e2cc1957b8e581568a089a51c.wav"
+        },
+        {
+          "ab": "kinuzas",
+          "ch": "作過的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/ea8cd589f6cde4edf01ef2ad6b2d67d9.wav"
+        },
+        {
+          "ab": "bununi’",
+          "ch": "這族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/471f23c944fc170279354fb74ece7ce4.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/ba16fd41fab7b93931b2e628c6e62441.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/b42642e0e25d857ec10edd4bae859d1b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sanaciin",
+          "ch": "到時就…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/ebb9a55061af33b68d38f7ce72e4460f.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/27d6572f71396db20557679f273f76e8.wav"
+        },
+        {
+          "ab": "maqtu’in",
+          "ch": "已能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/90d048af68ca32e1bfb1d645e35ab644.wav"
+        },
+        {
+          "ab": "pi’abuq",
+          "ch": "飽足",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/77bd8919603ba3c00e26d92710171b8c.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/3b0d3acaf5e61ac97738f559aa43fb1d.wav"
+        },
+        {
+          "ab": "maitatlumaq",
+          "ch": "一家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/eb608512908266e46e6159b7554812a6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/8b71c85ef2c0088afedaf83ebb8ed0b2.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/729016c738c95503023f9c7bba4cb332.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cikaupa",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/c2e2be234ac059e1be0c0201da680753.wav"
+        },
+        {
+          "ab": "sincucuaz",
+          "ch": "作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/bf99ef9164ac828f4bef7a63710757b9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinpapanaq",
+          "ch": "獵取物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/3dcfdd8da0bc9ad027d2e7184439ad44.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/9de812f86fcb6f1cd0f661d684978665.wav"
+        },
+        {
+          "ab": "mu’amin",
+          "ch": "全數；都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/8d9a224f87de1920fca2833749d18df3.wav"
+        },
+        {
+          "ab": "iskucia",
+          "ch": "用來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/5eb97552583ad9440a45927fb0263bd8.wav"
+        },
+        {
+          "ab": "nai",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/98ca520693342b14bbf542cad41c5ff9.wav"
+        },
+        {
+          "ab": "ha’an",
+          "ch": "在，於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/f3db95bfda8bf707858c4c50a41e811a.wav"
+        },
+        {
+          "ab": "cikaupa",
+          "ch": "全數；都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/58135dbb6c9b1de7e45e7486908b2740.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/7f9e4c8e1de05725d2b30298eda1f306.wav"
+        },
+        {
+          "ab": "diqanin",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/1697fe5eb0141dca1379090a4d766cc7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/a66dbabd793deed367030aadfcfc59b9.wav"
+        },
+        {
+          "ab": "mu’hazin",
+          "ch": "只有；只能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/729f2c7eeeab66f50f4ab3677539a585.wav"
+        },
+        {
+          "ab": "tukuc",
+          "ch": "一點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/de96180969ef18d44b7c93571803bb16.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/9f2da2656cb730d8886db16b9cf661b2.wav"
+        },
+        {
+          "ab": "sincucuaz",
+          "ch": "作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/a4f87e21ec472bbff8435588d5b08a8f.wav"
+        },
+        {
+          "ab": "cina",
+          "ch": "或是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/c1020880214e7bbf222d0069b7c77cb7.wav"
+        },
+        {
+          "ab": "sinpapanaq",
+          "ch": "獵取物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/a6d01d2e4f6cc4bb41090e25bcc1fdcf.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/404d52bf50ab4f86fbf54376d0bcf0dd.wav"
+        },
+        {
+          "ab": "satu’un",
+          "ch": "被送至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/2f9a86313dbaaaa5e9c04d480df2ac41.wav"
+        },
+        {
+          "ab": "nai",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/d2914b5a87db31f698feaf32bfd1241f.wav"
+        },
+        {
+          "ab": "punbukzav",
+          "ch": "平地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/d2a7069e603da0c9e813ce0c6a376d10.wav"
+        },
+        {
+          "ab": "pakucuii",
+          "ch": "用金錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/9a8d909d7652448b2dc301613a123aab.wav"
+        },
+        {
+          "ab": "pabaliv",
+          "ch": "變賣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/55ae2484d29529c6925ac39b67603516.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/a56aaa84688618331d4b0e77756d6c0f.wav"
+        },
+        {
+          "ab": "ispahuvaiv",
+          "ch": "交換",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/b9d6b4f13602d540206ea2911ad2245d.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/fc6c370893059e7241288dc04db24ee7.wav"
+        },
+        {
+          "ab": "isququmic",
+          "ch": "經濟；生活品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/7774454112c26855582d154a5d5f81c0.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/b10d25cbe07aeb3bbf6ec350cec76fcc.wav"
+        },
+        {
+          "ab": "qaihav",
+          "ch": "布料",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/a96a15785e5a56e0c084326b8a6b6969.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tipin",
+          "ch": "鍋子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/db16fe601371c8ef1105fa442e445b07.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qacila",
+          "ch": "鹽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/9125e29b7315a6002729a6d03ff32047.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

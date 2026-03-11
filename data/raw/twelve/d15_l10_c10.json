@@ -1,6 +1,511 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "mwarokai ki daedae",
+  "titleCh": "尊重大自然",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "自古以來長輩們總是教導我們，如果進入山區請留意並愛護山林、水域大自然，土地供應著我們的生命。",
+      "ab": "ko nadoma kai tarwarodranga tara ’elraelraelramita, lo mobolraneta celra kathalai legelegeta ki lrawbobolro si drakeralre, kai yata daedae aodi’i mita niyaketa kaivai.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/c86876df3de431d485d366513b951963.wav",
+      "word": [
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/7b7fe0721f3de3a42fc36f6d904bfef1.wav"
+        },
+        {
+          "ab": "nadoma",
+          "ch": "過去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a85730f95d0f546e1027bbf730bae0f5.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/9edb6b9b7fc3b263b86740c635839dc4.wav"
+        },
+        {
+          "ab": "tarwarodranga",
+          "ch": "長輩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/79f87276253209015fd9d4755ecee399.wav"
+        },
+        {
+          "ab": "tara",
+          "ch": "總是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e810a0d552ec61be7e15e7ad8706f7d6.wav"
+        },
+        {
+          "ab": "’elraelraelramita",
+          "ch": "教導我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f69f55059ac4016a602686b38c87001c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/769fd06815f40b8961bfd6e8e2d0d272.wav"
+        },
+        {
+          "ab": "mobolraneta",
+          "ch": "進入山區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f28e9aa59e8ddfda9c8ae024d70df12f.wav"
+        },
+        {
+          "ab": "celra",
+          "ch": "留意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/94eec984eaa329b8d2c98d137a7bf432.wav"
+        },
+        {
+          "ab": "kathalai",
+          "ch": "愛護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/bb984c3d27d2a94c836f1ca8474356a7.wav"
+        },
+        {
+          "ab": "legelegeta",
+          "ch": "我們的山區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/66c57451a3cc625e1c928274421cfb49.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/42bf277438d06aeee5e6c7d600dd6a77.wav"
+        },
+        {
+          "ab": "lrawbobolro",
+          "ch": "山林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a59a7111f9162649a81a5bae734ed1f9.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2e89bd6f72666d799288e89361875f84.wav"
+        },
+        {
+          "ab": "drakeralre",
+          "ch": "溪流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ef787dffe53627045b60ebd58188fa30.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/598dbd07c9849954eca225d068787fc6.wav"
+        },
+        {
+          "ab": "yata",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/5a167ab037c806fea2da19a90e3818b7.wav"
+        },
+        {
+          "ab": "daedae",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/8f60743972268f0103ad2a744f028101.wav"
+        },
+        {
+          "ab": "aodi’i",
+          "ch": "供應",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/36289be5c2073b5bbb3e89999df1bb87.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/6b1f3791e142cf8423521e30624c952f.wav"
+        },
+        {
+          "ab": "niyaketa",
+          "ch": "生命",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/550c12438b706ab3df2e24b542c8f221.wav"
+        },
+        {
+          "ab": "kaivai",
+          "ch": "這是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/cf228342d3a177c436043a11bf1a1205.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "從過去長輩們所做的巡山工作和看顧，在我們土地的界線內保護「Taromak」的土地。我們河裡的水是全台東水質最好的，所以不要動水源頭，不要砍除樹木，不可隨意讓陌生人進來，長輩走的路我們要跟著走，一直延續至今。",
+      "ab": "kwadra taiyaiya ko nadoma moliyoso celre si drangalro talrokaiyaneta kai daedaeta Taromak, kai acilrai mathaithariringa naiya ka swa Balangalangaw la inita velrevelre tasikaiya dra acilrai, inita ca’ang thiyabe mwala dra angato, inita ’alayngi ’akelra sa omase lo yakai baza ai teke’e talrolrodra kai tarwarodranga ai lrolrodrota.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/2d58add177a4b2d8830f71ca677b4c63.wav",
+      "word": [
+        {
+          "ab": "kwadra",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e2aefabf8214e75d5cd947975b40d41e.wav"
+        },
+        {
+          "ab": "taiyaiya",
+          "ch": "做法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/7c2e1c3b4e3a1c5bba2e81635b1ad81a.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/8c7695898356f60cfdabfb38bab5b538.wav"
+        },
+        {
+          "ab": "nadoma",
+          "ch": "過去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/291db767ac8b96128d048e4d7942ea4e.wav"
+        },
+        {
+          "ab": "moliyoso",
+          "ch": "巡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/03d43fdf92b0155912c46d8cea46a874.wav"
+        },
+        {
+          "ab": "celre",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f809a98d985ac44a9ec8527788eed38e.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/3810ea0abde04c78411cbc776f4aeec1.wav"
+        },
+        {
+          "ab": "drangalro",
+          "ch": "看顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/4901dbcdcf1627b67e8aa29958da4af8.wav"
+        },
+        {
+          "ab": "talrokaiyaneta",
+          "ch": "界線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/fbca7c48c185890bd31f538b91ba5fbb.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/1c34bf1931d3009da403034004b2460a.wav"
+        },
+        {
+          "ab": "daedaeta",
+          "ch": "我們的土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/cb4eccaf040af1e8450a20cfb495a247.wav"
+        },
+        {
+          "ab": "Taromak",
+          "ch": "（部落名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/d054494ddc7a3d0cbea56d03c4217152.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/6dae90f127d0b89f423a13d71d355c01.wav"
+        },
+        {
+          "ab": "acilrai",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f41f70ae71978d8214b6f5fd1ebc888a.wav"
+        },
+        {
+          "ab": "mathaithariringa",
+          "ch": "最好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f17adbe191290e36a54c0f517a86697c.wav"
+        },
+        {
+          "ab": "naiya",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/203d2ce999aca98446253925f69cf18e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/1acf75ecd96a09b5e677c45d7913ffd3.wav"
+        },
+        {
+          "ab": "swa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/af03fa0ed0346907a6fa11b809f5601e.wav"
+        },
+        {
+          "ab": "Balangalangaw",
+          "ch": "台東地區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/39b6d5c1d3c6db11155b975f1b08059f.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/83630f232671763415650a4dc0cb03b7.wav"
+        },
+        {
+          "ab": "inita",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/81f1e2cb3513ac18c77dd0159ec182c3.wav"
+        },
+        {
+          "ab": "velrevelre",
+          "ch": "動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c41fc8f359d1658559c2d1c0043c76fb.wav"
+        },
+        {
+          "ab": "tasikaiya",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/141e56e4c85da3ff2e53c63db8ffb4eb.wav"
+        },
+        {
+          "ab": "dra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2ce26e1584240d17297b1fdb297987a1.wav"
+        },
+        {
+          "ab": "acilrai",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/d33dfcea8ac4d9f36252b0be9fa37642.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inita",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/1362f40a74f105fcd524bdb9bcf53885.wav"
+        },
+        {
+          "ab": "ca’ang",
+          "ch": "隨便",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/57b685cee8e83f5550ee4c7e065495b3.wav"
+        },
+        {
+          "ab": "thiyabe",
+          "ch": "砍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c5c214e1ede9e0075e0f054230e3b736.wav"
+        },
+        {
+          "ab": "mwala",
+          "ch": "除掉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f020add501125dba9ca6ded72ac45c86.wav"
+        },
+        {
+          "ab": "dra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/dbf0648d4262826f0cc8c073dc5a01b6.wav"
+        },
+        {
+          "ab": "angato",
+          "ch": "木柴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a0fd70df593b1e22bc87f20590ffdace.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inita",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/06ddbe2363e49e576a8fe5e4b2c66758.wav"
+        },
+        {
+          "ab": "’alayngi",
+          "ch": "隨便",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2d4b4ff940b9309d50568810760839b7.wav"
+        },
+        {
+          "ab": "’akelra",
+          "ch": "讓人進來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/963584c6444d20c88eafd309e5073619.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b39241142553703c1ffa8f770e4df23a.wav"
+        },
+        {
+          "ab": "omase",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/be120ecdf2621dac514e1197276e0f5a.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/8fd024f6dec10322aaefe0d5160e6856.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/580d3198bc15705382f47156ce749d07.wav"
+        },
+        {
+          "ab": "baza",
+          "ch": "外人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/d9b320207265bfe1bc49728cf81bb9b0.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2915495bcb202348c29fe65a88266347.wav"
+        },
+        {
+          "ab": "teke’e",
+          "ch": "阻擋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/60d038ff27992b07f4540ddb9d24eafd.wav"
+        },
+        {
+          "ab": "talrolrodra",
+          "ch": "走的路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/5f3934ee3fb895723593751c8889a35a.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e053eb137d4f7d04fcab31d97230380c.wav"
+        },
+        {
+          "ab": "tarwarodranga",
+          "ch": "長輩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c0936b995b74928362e5cf2db8b641bc.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/0ec6a5b00d2ed63506446f1f623917cd.wav"
+        },
+        {
+          "ab": "lrolrodrota",
+          "ch": "我們要經過的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/3210723336b7fa89920d5a31fb96c860.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在有年輕一代承接巡山工作，他們巡邏至「Drala’alinga」和「Ogoogole」，學習長輩們巡山把山區大自然守護得非常好。",
+      "ab": "kaiyasa iyaiyanenga kai lravavalrake moliyoliyoso celre kelra kawvai drala’alinga kelra kawvai ogoogole kiyalalaw nadoma moliyoliyoso, kai daedaeta mathariri ’aramoro.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/2456714520bf9a5226d5635ddde123da.wav",
+      "word": [
+        {
+          "ab": "kaiyasa",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/d5b2bfd0b78e93fb6333b29bb5312a23.wav"
+        },
+        {
+          "ab": "iyaiyanenga",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/bc2ef62f9838275c728b23fa0f0bceaf.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/199723158503538b8a685601d083511f.wav"
+        },
+        {
+          "ab": "lravavalrake",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/50d883b23abd87a43871f87734cbd227.wav"
+        },
+        {
+          "ab": "moliyoliyoso",
+          "ch": "巡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a82aa592bcb18927be6f9a65db1f7c06.wav"
+        },
+        {
+          "ab": "celre",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/fd7a678741b277712e348499f67ae839.wav"
+        },
+        {
+          "ab": "kelra",
+          "ch": "回來；到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/db9c8a093e5b867218bf42222b7cf2fc.wav"
+        },
+        {
+          "ab": "kawvai",
+          "ch": "那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/20024f5b1fde8c2186a773a50ca75fc2.wav"
+        },
+        {
+          "ab": "drala’alinga",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/66959043ed08a42639033d4409c8b0b1.wav"
+        },
+        {
+          "ab": "kelra",
+          "ch": "回來；到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/499b7de395a8bf72239a6e13948f6a79.wav"
+        },
+        {
+          "ab": "kawvai",
+          "ch": "那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/13e2a99ea53e73d8a2c2437f612362fa.wav"
+        },
+        {
+          "ab": "ogoogole",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/b33263c644a5d7ad51f9469a85c03887.wav"
+        },
+        {
+          "ab": "kiyalalaw",
+          "ch": "學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/00202c47b1ff31b8145b6502cca710f3.wav"
+        },
+        {
+          "ab": "nadoma",
+          "ch": "過去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/676b210f9db01bcc4946f5dd93cab87f.wav"
+        },
+        {
+          "ab": "moliyoliyoso",
+          "ch": "巡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a5d6aeadedbecb97856e1339f1cb2477.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2444324e2c1cfc844b7c367f70faf353.wav"
+        },
+        {
+          "ab": "daedaeta",
+          "ch": "我們的土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/eaa1bdc4a5a454b8db91583ba099e317.wav"
+        },
+        {
+          "ab": "mathariri",
+          "ch": "好的；美的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/57a8014fd9abcfc56efb9f276f64345f.wav"
+        },
+        {
+          "ab": "’aramoro",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/82e7970bd7ced603cbb5c77ae66eea0f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

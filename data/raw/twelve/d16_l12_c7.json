@@ -1,6 +1,822 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "qwaw",
+  "titleCh": "酒",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "酒。酒，來自爸爸媽媽的努力，開墾、播種、除草和收割，小米粒粒都是大人的血汗。",
+      "ab": "qwaw. qwaw ga, minkahul ’buk na yaba yaya mnayang, tmubux, mqumah ru kmloh, qutux qutux bwax trakis ga minkahul yabux na tayal.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/337f2e5610ee39883e14ea85f4f9cbc5.mp3",
+      "word": [
+        {
+          "ab": "qwaw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/10c061bcc850b5dca249a8f8e899adf7.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qwaw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/6df6c6453ec50ff1b81fce7afd546c9c.mp3"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/015a641e78f687a4a31dfdbd5ee526c7.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minkahul",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/12f4d7a389e368a5f833bea0acaff1d9.mp3"
+        },
+        {
+          "ab": "’buk",
+          "ch": "勞力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/eec8178610b061642f9f032717829342.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/7734dc401b0d2b8ffa1af3ea8d919e77.mp3"
+        },
+        {
+          "ab": "yaba",
+          "ch": "爸爸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/8c486bea5c7319a4126443f09bbe90c0.mp3"
+        },
+        {
+          "ab": "yaya",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/a0baa0c28e2ea8735c7b8aeb5d515b5e.mp3"
+        },
+        {
+          "ab": "mnayang",
+          "ch": "開墾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/8897bf228abc75610d5e8d6c79a5d686.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tmubux",
+          "ch": "撒種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/bd68b7c2a4dfcae27ff7866e82b93d38.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mqumah",
+          "ch": "鋤地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/36d3e306f2debbec03f2ff559e50c620.mp3"
+        },
+        {
+          "ab": "ru",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/744065e70c3bca453ae31d255b486157.mp3"
+        },
+        {
+          "ab": "kmloh",
+          "ch": "採收",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/2ac795be4033e1665889521bd7b88640.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qutux",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/e50a949fed4ebf36146214dff3293425.mp3"
+        },
+        {
+          "ab": "qutux",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/3fbebd4466c663ee0e1c2bae0663eed5.mp3"
+        },
+        {
+          "ab": "bwax",
+          "ch": "米粒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/3556540a520ae639cf35671931b95bb7.mp3"
+        },
+        {
+          "ab": "trakis",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/465b2c04b0c6e66bbe150917df344008.mp3"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/6cc27f289451a99f1a3d2f30c8bfa681.mp3"
+        },
+        {
+          "ab": "minkahul",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/f03923abada8ac4917edee2c9d817a71.mp3"
+        },
+        {
+          "ab": "yabux",
+          "ch": "汗水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/7cb4a978387158f09d0427c44d9a3e38.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/76a0b0064e6bad00a8b84b8c3d1dcefa.mp3"
+        },
+        {
+          "ab": "tayal",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/10b00df3b62d687c0d9f56d40df36e75.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "酒，聞起來好香醇喔，酸酸，甜甜，苦苦，辣辣，這是我媽媽釀酒專有的手藝。\r\n",
+      "ab": "qwaw, shhya balay snokal nya, plgan mngihuy sbing qmupang meloh, qaniy qu lhnyun balay snyan qwaw na yaya maku.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/6f9daad6e92f41aaa91c382de4c6b5d0.mp3",
+      "word": [
+        {
+          "ab": "qwaw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/b2467a8b3cbe05c9e63f1bd053700644.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "shhya",
+          "ch": "很香",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/e5fb16cbbd7862913387e957fce85ca3.mp3"
+        },
+        {
+          "ab": "balay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/e1526d8d91790a709db2e242bf636517.mp3"
+        },
+        {
+          "ab": "snokal",
+          "ch": "聞起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/5fda4c47dd2c3a6fa9a441fdeca5aae3.mp3"
+        },
+        {
+          "ab": "nya",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/ede0dbff63dd96ce5d23a7fd023c22d0.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "plgan",
+          "ch": "加起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/15fd441f1fb0b1eb6c74817cff3c540d.mp3"
+        },
+        {
+          "ab": "mngihuy",
+          "ch": "酸的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/e79e766d9ffa43a51e2a23648a1e0c0a.mp3"
+        },
+        {
+          "ab": "sbing",
+          "ch": "甜的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/80b312c0ec4e11047e6358759e5e544d.mp3"
+        },
+        {
+          "ab": "qmupang",
+          "ch": "澀澀的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/ed91d9b1d14f6ddd66c391073bb6dd96.mp3"
+        },
+        {
+          "ab": "meloh",
+          "ch": "辣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/8442eba27958e132e13016e7bdac80cd.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qaniy",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/a85f905b3a89ab55d6ce7288b8c37622.mp3"
+        },
+        {
+          "ab": "qu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/40cac81cd80ec0cbc9d8afe1b716fd7e.mp3"
+        },
+        {
+          "ab": "lhnyun",
+          "ch": "專長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/da192ed586dbac63bb62ec58d049fe34.mp3"
+        },
+        {
+          "ab": "balay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/c7364e25fe0b69f26b7738895ad2e659.mp3"
+        },
+        {
+          "ab": "snyan",
+          "ch": "放過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/ccd5265291b12b2ca5b4848a14f74244.mp3"
+        },
+        {
+          "ab": "qwaw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/27b033ef0b777d1d9fc3ea5df5627f59.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/ff2e8f05cb3d646b48954b9e3e265afc.mp3"
+        },
+        {
+          "ab": "yaya",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/e79145c1807314ba1494f22b4df52368.mp3"
+        },
+        {
+          "ab": "maku",
+          "ch": "我的",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "酒，是奉獻給祖靈，行祭儀、結婚、慶典和運動會的時候，祈求祖靈，能夠庇佑我們，降臨許多的祝福。\r\n",
+      "ab": "qwaw, spngsa ta utux na kinbkesan sptzyuwaw ta kbalay gaga, mbbiq squliq, smqas, ru mspung smlokah hi, tgalu ta utux na bnkis, klhangay ta nya, miq qoyat pbhuyaw qnxan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/11/30/a37f2b7cf023eb9beef57fe4638206c2.wav",
+      "word": [
+        {
+          "ab": "qwaw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/2d99bec54f381778ecd28cc3d1970ca4.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "spngsa",
+          "ch": "呈獻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/8af79d271cf8fe3da50b474dab37f185.mp3"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/43d94985f9317723fb03fa418e178fe6.mp3"
+        },
+        {
+          "ab": "utux",
+          "ch": "神靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/6eec092e97c3602712ee5562348e46e0.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/25ef23357ee7857f915ae6c11619e0fa.mp3"
+        },
+        {
+          "ab": "kinbkesan",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/95fffeb8611cbe525a14324e7c5ee557.mp3"
+        },
+        {
+          "ab": "sptzyuwaw",
+          "ch": "為此工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/f4ab6f5725ed6fe73fafcdaa4c63d782.mp3"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/93b2d8ccb0d4f1f05829af6444aec809.mp3"
+        },
+        {
+          "ab": "kbalay",
+          "ch": "實行",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/8e7387acf626a04d39ef43dcb1faaeff.mp3"
+        },
+        {
+          "ab": "gaga",
+          "ch": "依循；規範",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/4027e0f8da51539b710310bad78b1dc7.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mbbiq",
+          "ch": "相互給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/385d8eea0a8ebb1e8e82c7464c4641af.mp3"
+        },
+        {
+          "ab": "squliq",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/65149769e817b44e2c0337d3c3fe6f69.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "smqas",
+          "ch": "慶祝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/7dafc7a07faaa9e3e82307894d09a822.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ru",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/989a8b7cdba2e4215380841ffa89ea79.mp3"
+        },
+        {
+          "ab": "mspung",
+          "ch": "較勁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/e3d19b39fc59bfb77dadefe180b058e8.mp3"
+        },
+        {
+          "ab": "smlokah",
+          "ch": "鼓勵；運動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/2c37e839108dc5da1f3059a5d732dedf.mp3"
+        },
+        {
+          "ab": "hi",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/0c18297876af868a427d883a19f87ce1.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tgalu",
+          "ch": "祈求",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/0536a9f17578b68de3a1c63f5da8fda7.mp3"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/4a17015f7694e85f62d3347d94d82bc4.mp3"
+        },
+        {
+          "ab": "utux",
+          "ch": "神靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/98c9cf626be12bff585181b75cddb13c.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/77dccd89933c504db74a6a4f6aba4139.mp3"
+        },
+        {
+          "ab": "bnkis",
+          "ch": "耆老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/18266311169120bbc4ddc49223a57135.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "klhangay",
+          "ch": "眷顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/d7293586fa27a3dfed416d9fa4599618.mp3"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/0d62840d9710aaecddf6b9cbff36eb9d.mp3"
+        },
+        {
+          "ab": "nya",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/05434d1ee05ca546f61cd52fa59b1a9a.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "miq",
+          "ch": "賜予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/90f41e22fa50a81353db93d9d8397f79.mp3"
+        },
+        {
+          "ab": "qoyat",
+          "ch": "福氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/8346c8e6ae76aba73d48d794694358fe.mp3"
+        },
+        {
+          "ab": "pbhuyaw",
+          "ch": "增多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/6bd04e436517bd701df5d25556641505.mp3"
+        },
+        {
+          "ab": "qnxan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/b9c9ab0db1d20d91993254d60a03e53c.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "酒，過量的暴飲，是病痛的開始，痛風、癌症、風濕和種種的疑難雜症，好像魔鬼附身，吞食人們的身體。\r\n",
+      "ab": "qwaw, ini ta spung mnbuw lga, ringan na mnbu, puqu, gang, mxyalan mumu qni, kwara llamu na nbu mhtuw la, wiwal nyux khokun utux, mwah tmhiriq hi.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/11/30/9e999285b355fdc37bd0858e6e0c2a60.wav",
+      "word": [
+        {
+          "ab": "qwaw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/244f8cab44a55af73c84ba82f08976be.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/93192c7250f166752c15e430beb43a5f.mp3"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/8bfd1d9c77314dc775bb58622cbfa7c1.mp3"
+        },
+        {
+          "ab": "spung",
+          "ch": "節制",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/5bfcf81e47b9277c27994fb25070d596.mp3"
+        },
+        {
+          "ab": "mnbuw",
+          "ch": "喝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/711f15d23d73f0150ce338ba6745726f.mp3"
+        },
+        {
+          "ab": "lga",
+          "ch": "之後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/b197f662276b810b02f2066167aca67c.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ringan",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/071e939e9e6061b4b70ec5accc57317f.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/a868a4f00b3fe99cf12972cdd4ddf4d9.mp3"
+        },
+        {
+          "ab": "mnbu",
+          "ch": "喝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/01eba339ccc925f42cc410b40408e3bb.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "puqu",
+          "ch": "痛風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/bf16b14cb785ee8c44b4fcdd18b91e6c.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "gang",
+          "ch": "癌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/860fbe69cdf54d20b90faa94fcce1270.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mxyalan",
+          "ch": "疼痛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/173d0571f2cc26cea6b343a34552f3d6.mp3"
+        },
+        {
+          "ab": "mumu",
+          "ch": "關節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/edcfa4f46bda701ed66b3f220841f03a.mp3"
+        },
+        {
+          "ab": "qni",
+          "ch": "骨骼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/95fd70e8e3b53185243a3484d74ab1e8.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/246f1eab3194fd8db0058c7cc76c9802.mp3"
+        },
+        {
+          "ab": "llamu",
+          "ch": "所有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/474c8ebc10f4d34655693975ce22a25f.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/12c44819928ea1158f6a02f185c17a75.mp3"
+        },
+        {
+          "ab": "nbu",
+          "ch": "病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/5ce5296872a4e47782ed257842560640.mp3"
+        },
+        {
+          "ab": "mhtuw",
+          "ch": "出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/972cfec9c80a5c7c03acb5f212cdd226.mp3"
+        },
+        {
+          "ab": "la",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/459fc19d1240541b1f6dd5379f091e5f.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wiwal",
+          "ch": "就如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/b38b3934e2df72b47fdc12037c50db6b.mp3"
+        },
+        {
+          "ab": "nyux",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/8ffd9991b87e60527d959670fe7ca2ef.mp3"
+        },
+        {
+          "ab": "khokun",
+          "ch": "招惹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/f6e4d242474710ead9397a89a1247291.mp3"
+        },
+        {
+          "ab": "utux",
+          "ch": "神靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/e21c6cf3a7c6075e76804353632c7a3d.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mwah",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/2df64e9aa0a6e6e3644136a261c4ec48.mp3"
+        },
+        {
+          "ab": "tmhiriq",
+          "ch": "破壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/d64044184589b19e33148ad900357395.mp3"
+        },
+        {
+          "ab": "hi",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/81c183262dedf746829c240fba88ba73.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "酒，適量的喝，才不會傷害身體。手腳靈活，血脈暢通，眼力亮麗，身體健康，家庭每個人，生活幸福也美滿。\r\n",
+      "ab": "qwaw, spngun ta mnbuw, ini hiriq hi, mthelaw, gmayang ramu, smyax roziq, sklokah na hi, kwara qutux ngasal ga, m’blaq ta mqyanux.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/11/30/2ec12e4d3a6e11463598fbb820d4f5e2.wav",
+      "word": [
+        {
+          "ab": "qwaw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/b3fe89f7d3d3a65a9e37c67c94e343fa.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "spngun",
+          "ch": "節制",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/da2d04e106761593aa70dd7c55cf2adb.mp3"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/d5890d249c80f0cdd13ea40688b6b4f8.mp3"
+        },
+        {
+          "ab": "mnbuw",
+          "ch": "喝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/d53889a9801f5db524d8545cfccded7d.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/2ba6aab66e6a6fb3abb0b3aa6084f097.mp3"
+        },
+        {
+          "ab": "hiriq",
+          "ch": "破壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/2a58d84b6556fe37d3d0d6bd638aebff.mp3"
+        },
+        {
+          "ab": "hi",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/2482023b9199f1196f8f7aadaa4f26a0.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mthelaw",
+          "ch": "快速",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/5652013567276dd122dfcc5a4416ae61.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "gmayang",
+          "ch": "流通",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/880bb3fb093626a671f85925f9356296.mp3"
+        },
+        {
+          "ab": "ramu",
+          "ch": "血液",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/d2aeb344fb3f57c7d43d57f01ee33660.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "smyax",
+          "ch": "發亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/f4c61bf6196ddf98f3ee720f4900e4c0.mp3"
+        },
+        {
+          "ab": "roziq",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/374b4ba5f633af17d6676ea31b48764b.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sklokah",
+          "ch": "強健",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/f5ef92cb3a5e45aa4b0d49c013f56f57.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/592dbb5db0dec8a5b9f39174cbca14a2.mp3"
+        },
+        {
+          "ab": "hi",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/b71218435b320b376f9b7208932964f5.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/5aa047bddae2c9c3d44339ee64c15fa9.mp3"
+        },
+        {
+          "ab": "qutux",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/3b3745a137871aefeb0213fb71838ce4.mp3"
+        },
+        {
+          "ab": "ngasal",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/f0f7e336c29dd5ba0bcde50381d1f52f.mp3"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/7a3cb4bbf7153ab53abd629c08a7ca7f.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "m’blaq",
+          "ch": "和諧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/b77d27756c677f676e84377ae2472251.mp3"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/27/001dfd8ef5ba2b9977c9bc192eb63b78.mp3"
+        },
+        {
+          "ab": "mqyanux",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/c59520e51f938033098b98cb002706f2.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,979 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Matingaan",
+  "titleCh": "命名",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "布農族嬰孩滿月後，父母邀家族的長輩及親友，為嬰孩命名慶祝。",
+      "ab": "Maaq a Bunun tu uvaz’az i tinus’uvaz’azun tasbanin tastubuan qai, asa tama tina tu tan’ali ki tastulumaqan tu madadaingaz siin taisis’aan, lus’an patingaan i tinus’uvaz’azun tu hubuqta.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/f9176ff2293bd476fa79efd9201dfddf.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/d0130b66ced56e4d0d518c3f96531f29.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/950f66a3fafa122488785a9728ae6f14.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/aa4f48df80b9b9add2872af63855768c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/72107f64d6095a2fbeab165539009b66.wav"
+        },
+        {
+          "ab": "uvaz’az",
+          "ch": "小孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/ef6fac2fe57202f733b325bac96bbad4.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/75bf7adfd206e7ba15f3dafdf4f582b3.wav"
+        },
+        {
+          "ab": "tinus’uvaz’azun",
+          "ch": "被生出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/d54614d3419d57fbabde3ca7390e22de.wav"
+        },
+        {
+          "ab": "tasbanin",
+          "ch": "超過了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/ec906157102fc37dc8c2e575a347e966.wav"
+        },
+        {
+          "ab": "tastubuan",
+          "ch": "一個月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/e4858a3e7de208bc2a3e406b61910ace.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/3329361e098b5d6b1989cc4eded01ebe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "需要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/6c1d69dd61b4192c8ef551e5a5d6a873.wav"
+        },
+        {
+          "ab": "tama",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/e77e195e9cc234a86e2b5d85b05e5b1c.wav"
+        },
+        {
+          "ab": "tina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b26cd71fb0031be2394cf48817cc8de7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/c8f6bbf0115c8afd9eecdae2da472473.wav"
+        },
+        {
+          "ab": "tan’ali",
+          "ch": "邀請",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/6b5206c2c7774df19002450286c08202.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/61536b26f02832ed0bf885c0d9cec2f5.wav"
+        },
+        {
+          "ab": "tastulumaqan",
+          "ch": "整個家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/cf0f33003d4ab00fa5a5bc0b90fc5d48.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/29a061a30244414d4d73fd380f63d176.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "老人家們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/316b3bd64984fe1c47fc1e6f5fc27f5e.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b32071b0224b31b071ff8569f1b8af0d.wav"
+        },
+        {
+          "ab": "taisis’aan",
+          "ch": "親友們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/29b7a207e2af41eb990ffd864d4b2191.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lus’an",
+          "ch": "慶祝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b3d515cd95508bcdc51879d0d97e0848.wav"
+        },
+        {
+          "ab": "patingaan",
+          "ch": "命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/d75db69311394d0ff82a3255ed79a5b7.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/3f5fd072347bce672b2f2e91a8ce3007.wav"
+        },
+        {
+          "ab": "tinus’uvaz’azun",
+          "ch": "被生出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/e992f42a89fa4e7ce49e9533f14e0268.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/d5018ac97b902aba45d64398a51934f2.wav"
+        },
+        {
+          "ab": "hubuqta",
+          "ch": "那個嬰兒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b37083a204867cd9e8b5e4440ad0c59e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "長男嬰，襲祖父名。長女嬰，襲祖母名。弟妹照長幼順序，襲叔伯姨姑名。",
+      "ab": "Maaq tauktangus tu bananaz uvaz’az qai, isia qudas-nanaz tu ngaan a kanada’an siza ispatingaan. Tauktangus tu binanau’az uvaz’az qai, isia qudas-nau’az tu ngaan a kanada’an siza ispatingaan. Maaq a masinauba’in amin tu uvavaz’az qai, kanahaan pantama’un siin pantina’un tu ngaan a, andailaz siza ispatingaan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/5651790999e048f7d339e660eba2a770.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/0f8f246d9f866c989f3d12466c33afad.wav"
+        },
+        {
+          "ab": "tauktangus",
+          "ch": "最先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/e544dc4c6917c0754dcd58843aa76d69.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/64ebfe1bc1f92abc2498be8615e692d3.wav"
+        },
+        {
+          "ab": "bananaz",
+          "ch": "男子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/3a598b66965b755a2df6516e777bbebe.wav"
+        },
+        {
+          "ab": "uvaz’az",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/d0cf409eb912cc0cc950b41b6d892d07.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/9af8f73edcf395f494589e7a1d16c73b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "isia",
+          "ch": "是…的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/6268570838b68424633aeccb3be8eefc.wav"
+        },
+        {
+          "ab": "qudas-nanaz",
+          "ch": "祖父",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/f7d0b8c8dd46e7a543e7f1833695e70e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/f64d04a735498e73ebd096a11b29c5f2.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/6249068e4a69ce90bfa55c0a2c662918.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/3a0ed709ab51ed34b52797ce8121c3bd.wav"
+        },
+        {
+          "ab": "kanada’an",
+          "ch": "依據",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/bd2c443a738a0e082634fb090de787a1.wav"
+        },
+        {
+          "ab": "siza",
+          "ch": "取用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/e0b1279472599a26c145702be1acf385.wav"
+        },
+        {
+          "ab": "ispatingaan",
+          "ch": "用來命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/1b1870c5c1ec66eed0bf209e50a6ee25.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tauktangus",
+          "ch": "最先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/a2bab50d3a611bcf6e9c4af2d6a8dc4f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/09c204bbb5136d76ab867e59e3c2c434.wav"
+        },
+        {
+          "ab": "binanau’az",
+          "ch": "女孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/326e2d4f99fbeffe0da3241ba061c3bb.wav"
+        },
+        {
+          "ab": "uvaz’az",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/f8dd45309143892e2cab49a4a8709d3d.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/484eed033eb278d725ec20e6d9d580a9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "isia",
+          "ch": "是…的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/cd65ab9eda807233cd271e65ecbe26c4.wav"
+        },
+        {
+          "ab": "qudas-nau’az",
+          "ch": "祖母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/381ea8c597e366e5b27d847bb721e420.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/48168afc6a699601572cbe1c6527f09e.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/74a2c60721bce02aca87ec1f8794b981.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/3a7ce1e22d0abcbe3f460f49a4e47ec6.wav"
+        },
+        {
+          "ab": "kanada’an",
+          "ch": "依據",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/8a1ee2023212a250e293513c2004c222.wav"
+        },
+        {
+          "ab": "siza",
+          "ch": "取用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/bd5d4b8361338dad4483b7e4be375421.wav"
+        },
+        {
+          "ab": "ispatingaan",
+          "ch": "用來命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/ac6dfb334bdef94db4f3ed1a8c8beb47.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/902c67ec1f141a910b32c19939107b78.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/a1f0abbb9870878c2f17ee8ac70ba0f2.wav"
+        },
+        {
+          "ab": "masinauba’in",
+          "ch": "弟妹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/15bc0b83944a2fdebcedb455c87de5f5.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/bfc7ff98b1dab5260926b58e3358296f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/d887d7e22d3bc3ae2726a2bb9b79727a.wav"
+        },
+        {
+          "ab": "uvavaz’az",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/ff43b4a3793cd66e252c1986105736dc.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/904a3538af3798480803157ad3f4109c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kanahaan",
+          "ch": "依據",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/97d1011e2c661e937cba465b80997446.wav"
+        },
+        {
+          "ab": "pantama’un",
+          "ch": "（父執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/d59d2d58d8a6b1e897017d3ecbf5bfbf.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/eac733b0c098f0cfe3f60b07a6f771e2.wav"
+        },
+        {
+          "ab": "pantina’un",
+          "ch": "（母執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/77d973dd965069b020e8a39c90b841ff.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/ac99fed457bfde42f70e8461fc9ac34c.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/cea6e0b18604bc926d0fba9701e40359.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/e545ea71e8df722a62b0c15ffbbf10ce.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "andailaz",
+          "ch": "按順序",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/85b991ae924d726b0a109024f364c06e.wav"
+        },
+        {
+          "ab": "siza",
+          "ch": "取用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/4a4666027c104d44c93eb635474c3837.wav"
+        },
+        {
+          "ab": "ispatingaan",
+          "ch": "用來命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/ce8b0a8db47b0e3f3dcd282ccf095ffe.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "若有常生病的小孩，可換名字，而必須襲用其叔伯姨姑名。若有同名者，則加上綽號，彼此稱呼「ala」。",
+      "ab": "Maaki haiza tapuhalang tu uvaz’az a, maqtu patilusqu’un a ngaan. Qaitu, asa amin kanahaan inaita tastulumaqan tu pantama’un nait pantina’un tu ngaan, mapatilusqu matingaan. Maaki haiza maszang ngaan a, maqtu susan i sinpatinais tu ngaan, maaq naingka qai, mapatupa tu ala.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/e7a967c366f79273690657ccc13ab414.wav",
+      "word": [
+        {
+          "ab": "Maaki",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b7784c8bc13cfa7214f249fef97abfe9.wav"
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/c34a98c3289f0c78aba6021c88a2801f.wav"
+        },
+        {
+          "ab": "tapuhalang",
+          "ch": "經常生病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/2fe2186da00dfaa4bb4829cd7655ea0d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/cc78875c52b3c4cda1ddc65357b3cbc2.wav"
+        },
+        {
+          "ab": "uvaz’az",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/174edde7313a8f0cdead57d726ad6f97.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/6d5c23551a0742f24af8b240784092ea.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/cdf7e3f1aa105d2096fc0a27780faaf7.wav"
+        },
+        {
+          "ab": "patilusqu’un",
+          "ch": "被換掉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/5c59b7407857ece2ac686b61e35c0b75.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/12aef504346da6c3e5f5fc550478bdc2.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/936f87cd4ce16e1e60bea40b45b0596a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Qaitu",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/3ddb4575c30fc4bdc1f26a18c70aa693.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "需要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/e82415d9fa49657f4d2f8db1c3045ff6.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/03c893e1dca856a3f8c687074f447ae5.wav"
+        },
+        {
+          "ab": "kanahaan",
+          "ch": "依據",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/c33406799acf40d03a8feda10b0f8042.wav"
+        },
+        {
+          "ab": "inaita",
+          "ch": "他們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/db2a260d4f7658f6539f9c16f2efdf53.wav"
+        },
+        {
+          "ab": "tastulumaqan",
+          "ch": "整個家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/33f708f0a59850abdec13c16364cc98f.wav"
+        },
+        {
+          "ab": "pantama’un",
+          "ch": "（父執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b1e0573d4c5102218879e97f10367515.wav"
+        },
+        {
+          "ab": "nait",
+          "ch": "或是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/2d0bee1325dffbe41415a3f55fdbf5f2.wav"
+        },
+        {
+          "ab": "pantina’un",
+          "ch": "（母執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/a65f3958c006df49451b8d9ae82bc04e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/dd35fa3a0675c7b01c2a7e3979a70ed8.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/ea8a3ae7958cf7da309da20e2fe3278a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapatilusqu",
+          "ch": "換掉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/c4eae21c1c8d52c4171021de24f6a35c.wav"
+        },
+        {
+          "ab": "matingaan",
+          "ch": "命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/54831223ee7863174e0063b2c8538a4f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaki",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/760362f425a658b18c34904d211e74ee.wav"
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/8dd3994091b05534bc4ca8be033692c8.wav"
+        },
+        {
+          "ab": "maszang",
+          "ch": "一樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/05e2bca264ac0e5e38d1d527b6deab37.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/028f9f8fd9c9d67790844295b4afeef8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/48383ab15031481835fefdc17c5552dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/df3c9e0dcbf00b35914a2eedae9016c7.wav"
+        },
+        {
+          "ab": "susan",
+          "ch": "加上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/f98e8082f2b3924b8a137d1cfc12e08b.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b6c8c44c3282dadc725c8e6acd71cd6f.wav"
+        },
+        {
+          "ab": "sinpatinais",
+          "ch": "取綽號",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/3cbfcf28d6132b81b99dac63eadf3334.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/2629d36fa8d833c2d70f4011b2e48e43.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/d699bde41ec9ff15bf4121227e5b25c4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/990a1aeb1f5630064e5308716c308583.wav"
+        },
+        {
+          "ab": "naingka",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/c195ef012df313fdaf8a36f5141339ea.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/05d515d25b42721e5010ee484da15141.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapatupa",
+          "ch": "互相稱呼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/4bd1fb2dd3279549a4a351d40b271b0e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/36caf1aa3127fdf848c7767ab8027191.wav"
+        },
+        {
+          "ab": "ala",
+          "ch": "（同名時的稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/9d611c7c800e4c2f832932863f598324.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "命名前，父進山打獵，母在家釀酒，以宴請參加命名儀式的親朋好友。慶祝時，親友排列整齊祝福被命名的嬰孩，說：「你（妳）已長大了！」。同名親友最為高興。",
+      "ab": "Matingaan tu tanangaus, kahanus a tama qanup, ilumaq a tina mapindavus, na’ispatan’ali ispaka’un i minhamu lus’an matingaan tu taisis’aan. Maaki lus’anin a, tansasauluk dau ka taisis’aan tuqumis napatinganan tu hubuq. Tupa naingka tu, “Mindaingin asu!”. Maaq a pati’ala’an tu taisis’aan qai, mastaan manahip a is’aang.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/3cbb5fddf67a3cb4563971bd39043ae5.wav",
+      "word": [
+        {
+          "ab": "Matingaan",
+          "ch": "命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/99cac301fcbcd8ed44a8680b270fad51.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/661aa1a736361fc7fc9a283e4a9fe9ef.wav"
+        },
+        {
+          "ab": "tanangaus",
+          "ch": "之前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/fce838544a198853197cc576b394b9aa.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kahanus",
+          "ch": "事先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/695b2802463953f706905b693bc207ac.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/14e5157568524044f5fefda34cfb9bbe.wav"
+        },
+        {
+          "ab": "tama",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/6583fff6ffee9b0e3fed695023160a71.wav"
+        },
+        {
+          "ab": "qanup",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/7f01097030147526fd1e52adc0c87868.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ilumaq",
+          "ch": "在家裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/65824241fbf1e544814bef0a65f9d27d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/611b6aea1ae71f3f8d527ce8b95adc34.wav"
+        },
+        {
+          "ab": "tina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/f09d0a0c873cced9cc32d679dcee3467.wav"
+        },
+        {
+          "ab": "mapindavus",
+          "ch": "釀製酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/ae31af527be4515548e50abb05cd13fb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na’ispatan’ali",
+          "ch": "要邀宴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/2200e047fa3923ba17a3499234dbd19f.wav"
+        },
+        {
+          "ab": "ispaka’un",
+          "ch": "食用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/dfb2302f74a15a6dcc58e89e4012521f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/c64057265f47b9921dead3444bb051be.wav"
+        },
+        {
+          "ab": "minhamu",
+          "ch": "前來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b12d47c6bdf4f03d392c9bcb199154e4.wav"
+        },
+        {
+          "ab": "lus’an",
+          "ch": "慶典",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/3131e113e6bc5fa4522df284634088b5.wav"
+        },
+        {
+          "ab": "matingaan",
+          "ch": "命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/a3f09d0a0b4d7a165a925f2a0c0c525e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/0ba7e0f75158b6f7ead88fe8d7b1a25a.wav"
+        },
+        {
+          "ab": "taisis’aan",
+          "ch": "親友們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/472e2223b50ff5d95615da8f7d802454.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaki",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/becb0ead2d27114b8f433dc123bc49e8.wav"
+        },
+        {
+          "ab": "lus’anin",
+          "ch": "慶祝完了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/0b0ce2b3666b8840090f6a28b10425f4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/5b2e3fd827b507c6627fec7c5118af7e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tansasauluk",
+          "ch": "排列整齊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/0598eaafdbf72661120a634795f19ea1.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/2101ba880cdea42356404700b5ace895.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/898a0e46882c081b09170b0fe72108f4.wav"
+        },
+        {
+          "ab": "taisis’aan",
+          "ch": "親友們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/0949bfaf7406323e39d4ee35442de96a.wav"
+        },
+        {
+          "ab": "tuqumis",
+          "ch": "祝福",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/673e1e6d831554e52985f55ccaffad5a.wav"
+        },
+        {
+          "ab": "napatinganan",
+          "ch": "要被命名的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/329fea1da1608c744b6186b6d6ab003d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/0838ecfb969d782bae32f24d02057e26.wav"
+        },
+        {
+          "ab": "hubuq",
+          "ch": "嬰兒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b29e14f68f2e585810d44df57139d1ca.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/fb4234b9ac48b15f6ed278ab80f316d6.wav"
+        },
+        {
+          "ab": "naingka",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/f51cdc0fa493196f9a677416ca85adae.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b701b80b7bc848a5de0d752ec9b8e934.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mindaingin",
+          "ch": "已經長大了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/1541486d60ffcf72927474ec92f6fe7d.wav"
+        },
+        {
+          "ab": "asu",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/fa03318ad9aeaedaac4cc232b95dca7c.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/b2619bbe281deeefea3675dfed719fd7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/3fff4e04d0d9da14291826b1b19558df.wav"
+        },
+        {
+          "ab": "pati’ala’an",
+          "ch": "被稱為「ala」",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/07301c4a747cfdc45a522c16cca12141.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/a51d76f24cc3beafbecc2f213185bd7c.wav"
+        },
+        {
+          "ab": "taisis’aan",
+          "ch": "親友們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/6a07d775349e480f0687091fb0528372.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/a429ee6281b4bad77a94b44df89f4036.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mastaan",
+          "ch": "最",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/5bf9c0e5b82de913ef97e42368884676.wav"
+        },
+        {
+          "ab": "manahip",
+          "ch": "高興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/658b1f32ab20922923d45f15ab21fb36.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/04/d39d86991dcbd53cefac88a69116a8e4.wav"
+        },
+        {
+          "ab": "is’aang",
+          "ch": "心裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/21/c1b782bc1cdd29464a9d0e7298a91678.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

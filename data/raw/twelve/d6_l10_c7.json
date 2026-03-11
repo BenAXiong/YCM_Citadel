@@ -1,6 +1,586 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Inak liniqaiban tu paitasan",
+  "titleCh": "自傳",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "我的名字叫Kaut Qalavangan，我是卓社群的人，在曲冰部落出生，現在是高中一年級的學生。",
+      "ab": "Maca ngaan inaak a tupa’un tu Kaut Qalavangan, Takitudu azak, iha’an azak Lamungan Ququaz tu acang tisuvazun. Masipul caak haip is sipulandaqvas ta’a pangka’.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/d3d9007636be26969e05f6ba1d3cf7dd.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/222c44c26a02c54e3a9fd0d895b12df4.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f1f8d9e8023b645373b6363e6a6ec18c.wav"
+        },
+        {
+          "ab": "inaak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/3a451d508be07d684c2face70e6ecf9d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f00c0eeb95f5a928c3814bc3b3ee962b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tupa’un",
+          "ch": "叫做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/8eb7be5a13cc39a3e56b78aba08b2039.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4badf6fce1fb568ba4d71e1645e5da27.wav"
+        },
+        {
+          "ab": "Kaut",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/8fb4529686c80d0a7f8442f94024eb9f.wav"
+        },
+        {
+          "ab": "Qalavangan",
+          "ch": "（姓氏名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4f9959469b99179f25fd5cf84f4cde62.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Takitudu",
+          "ch": "卓社群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/8deb714d5a66d70cf8deac8cd3f79734.wav"
+        },
+        {
+          "ab": "azak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e913bfa37964c7073c81c32a6d750b99.wav"
+        },
+        {
+          "ab": "iha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/b46825e256dea79fb588e5455ed7fe58.wav"
+        },
+        {
+          "ab": "azak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/dd96eaef5612dd405d9d087ab539e38e.wav"
+        },
+        {
+          "ab": "Lamungan",
+          "ch": "南投",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/ed34d801ecf10f1a8178debdf0f365e0.wav"
+        },
+        {
+          "ab": "Ququaz",
+          "ch": "曲冰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/7e7e8e15d8dbc48087a8e372d9d4631a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/474e406fc68c5e3f0bce9a7206cdef5e.wav"
+        },
+        {
+          "ab": "acang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/817fa9146e77f93396b5b4a108f58cfa.wav"
+        },
+        {
+          "ab": "tisuvazun",
+          "ch": "出生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/942daac277daced487d09ddcbe753d73.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Masipul",
+          "ch": "唸書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/208983b70b0fc2f3844880698af78a6f.wav"
+        },
+        {
+          "ab": "caak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/546b5e6a6dfe42925b8a87ebcac1a9cb.wav"
+        },
+        {
+          "ab": "haip",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/c0c29d6e2dd3f877b24a575d79081598.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/3262c13088a37147f222c34b1a9029a4.wav"
+        },
+        {
+          "ab": "sipulandaqvas",
+          "ch": "高中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/d830f71ff178b3698996fb6614751c91.wav"
+        },
+        {
+          "ab": "ta’a",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f47dafa1b01fc67850d5576e5216df25.wav"
+        },
+        {
+          "ab": "pangka’",
+          "ch": "年級；桌子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/9424d06c850d9892f170a9a9d0039c7a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我的爺爺年紀很大了，但他的身體很硬朗，因為他常常去山上工作；我的爸爸40歲，他在學校當老師；我的媽媽也40歲了，他在家裡工作，照顧我們全家。",
+      "ab": "Maca qudasnanaz inaak a madia'in ca qamisan, utu makackacang ca hubung icia, maupa’i maqailic ca cia munha’an quma kuzakuza. Masipatun qamisan ca tama ki naak, iha’an a cia sipulan taqus uvava’az, masipatun amin qamisan ca tina kinaak, iha’an a cia lumaq kuzakuza, masaipuk zamun tatlumaq.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/7e4803d032f41a40da4d7d17eb026c93.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/9f882c9b443017597c70b4edaa542a0c.wav"
+        },
+        {
+          "ab": "qudasnanaz",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e6ec91cba600ca785d5e02beb0d0c8eb.wav"
+        },
+        {
+          "ab": "inaak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4ea59864816087bb60d6e5680c047a5e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e7d849ad71f30e44bed446ac00507f58.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madia'in",
+          "ch": "已很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/52ac89f6fd092a77578033a1b21594ff.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/4579b0511a0e6319628ffc17cc6b3998.wav"
+        },
+        {
+          "ab": "qamisan",
+          "ch": "歲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/2ff9dc13024f20c0d3cf1f9474c5a03f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "utu",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/ea16c8ad502b00dd6eb031b3fd35d738.wav"
+        },
+        {
+          "ab": "makackacang",
+          "ch": "硬朗，健康",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/493733b1ea397d196293bbf12b839a4f.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/c9ce98a38ebb27ccdb0e5083f2cfcde7.wav"
+        },
+        {
+          "ab": "hubung",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/abc8818c03e3574658e1a5dd95d2ff8d.wav"
+        },
+        {
+          "ab": "icia",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f915833c0979810086c2ea49db2993c6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maupa’i",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/89332a47697d46ed6543d51ac348bafb.wav"
+        },
+        {
+          "ab": "maqailic",
+          "ch": "常常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/974c7c43927ff8e3b61adb8b3d0841a8.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e51e03b93afcc9032d56360fbfa2a47d.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/9c2a685b97edf0e75fd9df1c075cd379.wav"
+        },
+        {
+          "ab": "munha’an",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/18b8ea83d814103c4a8f379165ce9a62.wav"
+        },
+        {
+          "ab": "quma",
+          "ch": "田裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/cc7480c6c9ec68feeecfb06f99a87671.wav"
+        },
+        {
+          "ab": "kuzakuza",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/ce546aedbd70c4d675551ad81bbe29fe.wav"
+        },
+        {
+          "ab": "Masipatun",
+          "ch": "四十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/87acc42a82fb7ace361a4c390d047f74.wav"
+        },
+        {
+          "ab": "qamisan",
+          "ch": "歲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/b4f6926d4794e9cdb293fa94a06b4577.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/ab7c5cdb20164d2d25769bddd2fe1493.wav"
+        },
+        {
+          "ab": "tama",
+          "ch": "爸爸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f0ff2eaef41dd9e6e3dcb49d53c1bf11.wav"
+        },
+        {
+          "ab": "ki naak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/24be833826002c7d2a8d9d5f021b7e43.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/b05f1c54b7595590394fdef928ede449.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/081d5e994ab762a68f8c0546a8968b00.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/c80d4a2cce159f2d35cf0faa3a838694.wav"
+        },
+        {
+          "ab": "sipulan",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e3e725d3b7d2339c41bb28ff92e8635d.wav"
+        },
+        {
+          "ab": "taqus",
+          "ch": "教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/64af19031c975bb2383a39153ff053f6.wav"
+        },
+        {
+          "ab": "uvava’az",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/2145031a345440c221d8992954a841db.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masipatun",
+          "ch": "已四十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/13/3e5965f21a5566262e728830fd67f847.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f138e593207a9b63ce9a539aa94337bc.wav"
+        },
+        {
+          "ab": "qamisan",
+          "ch": "歲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/ff10bdb362b3ea4aa07fae2dcd78cf79.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/0c114c9bb7c90c3ffbfb1ddd86ab9cda.wav"
+        },
+        {
+          "ab": "tina",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/2cf48a149caf6a7f6331511988d4174e.wav"
+        },
+        {
+          "ab": "kinaak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/561f4e83fce053679ab5bbc45e64d9e8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/6a0e4d2996f4d0a603dbbb30d0b0f17b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/9adbaadf095c8de0d2d0b53fe92a5dbb.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e945a4e090cd71acbf4cfcc6ff54ad9c.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "家裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/614794dbe82384e43122cc92e6a66f6f.wav"
+        },
+        {
+          "ab": "kuzakuza",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/e103d1ed1d6c41b0f098ff377dde2966.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masaipuk",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/f3062c61fcdbab5937095c1629b71d05.wav"
+        },
+        {
+          "ab": "zamun",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/23/77b1ae6be955316d7234f2bc5a409cdd.wav"
+        },
+        {
+          "ab": "tatlumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/07/4d3bfcae535d78a474de47756dc6c78a.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我有妹妹跟弟弟，他們也還在唸書，我以後的志願是想要當醫生，用我的能力照顧每一個人的健康。",
+      "ab": "Maizang naak nauba’nau’az ciin nauba’nanaz, maldaukang a nai amin masipul, maca inaak aikasangan it qabasin a asa min'unit ising, makucia kiqancaipan pincial hubung is tatitini ka bunun.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/25/63872132321e354b3cf4125670d67395.wav",
+      "word": [
+        {
+          "ab": "Maizang",
+          "ch": "還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/304153cda8ac325dcd383ed8e5026d8e.wav"
+        },
+        {
+          "ab": "naak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/5b48cf6d948c70034f7a239f8e5c566d.wav"
+        },
+        {
+          "ab": "nauba’nau’az",
+          "ch": "妹妹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/68f4f1c9069efc3169ccef543fc9b706.wav"
+        },
+        {
+          "ab": "ciin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/90a8d5aeed9822b634a21d1d5a2543c9.wav"
+        },
+        {
+          "ab": "nauba’nanaz",
+          "ch": "弟弟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/6ae87b539605df13856d273cca0da569.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maldaukang",
+          "ch": "還在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/d7445d18d5c5ab0ce2bbd3bc67c8d9f3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/96045cb4b220959781bbbff6f5367268.wav"
+        },
+        {
+          "ab": "nai",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/7afc2a63b4035420cd8d0822284f538a.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/69f6ef340da897006b00ad596a68abcd.wav"
+        },
+        {
+          "ab": "masipul",
+          "ch": "讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/24bb26bb300eefd5ecd1373e002d8df5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/221d772de257c968c2c15b9155d436ab.wav"
+        },
+        {
+          "ab": "inaak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/66e59e173c4f52d4f061e7037fa19c46.wav"
+        },
+        {
+          "ab": "aikasangan",
+          "ch": "志願；希望",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/4b6f0a34fce7b7679d959111f4875948.wav"
+        },
+        {
+          "ab": "it",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/a6eab5560609e8a2db70c40fd7499791.wav"
+        },
+        {
+          "ab": "qabasin",
+          "ch": "以後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/bd652bf1e9b66171ef77f1e0db2e9c1e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/059def4514ca1bc7ff5781ac48428572.wav"
+        },
+        {
+          "ab": "asa",
+          "ch": "我想",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/d2f8a028891ab3c7e90238798117e99d.wav"
+        },
+        {
+          "ab": "min'unit",
+          "ch": "變成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/05b755ace5b49029e32c3b90fb494edc.wav"
+        },
+        {
+          "ab": "ising",
+          "ch": "醫生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/54e86f8a9dd94e31f18fe3bc94f0ae75.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makucia",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/bd38184ee56f9f286f9a4e649a740e42.wav"
+        },
+        {
+          "ab": "kiqancaipan",
+          "ch": "能力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/70b546d3daac16b1d8a1fc46e6d63a72.wav"
+        },
+        {
+          "ab": "pincial",
+          "ch": "使變好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/71029625d9350f1fe3ce2c6f2211b692.wav"
+        },
+        {
+          "ab": "hubung",
+          "ch": "的身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/e5299a3f17ebbcce23d7a8c90adf81cc.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/de9cf7fc237bf2217c1c576e4f026fee.wav"
+        },
+        {
+          "ab": "tatitini",
+          "ch": "一個一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/86f77fb5fa5b26fbcb103e7de206d2f4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/2ee030658c15b8934be3d6202ded2b24.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/24/6e18b12a82c40871803b88fa42cc1a20.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

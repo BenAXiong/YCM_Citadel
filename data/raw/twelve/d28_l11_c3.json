@@ -1,6 +1,886 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Somorangi’",
+  "titleCh": "收養義子",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "收養義子（女）是賽夏的文化習俗。以前如有孩子難以照顧，就可將孩子給其他氏族收養，收養關係直到孩子長大就可以歸還義子身分了。",
+      "ab": "Somorangi’ noka SaySiyat ka kaspengan. kakhayza’an So: korkoring ’aewhay ka kalahangen, ’isa:a’ korkoring kayzaeh Sorangi’in noka ’aroma’ Sinrahoe’, Sinorangi’ tabin ’ibabaw ma’ kayzaeh minobih ka rangi’ ila.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e71bdea2417914f8825e5c7c4552be3e.wav",
+      "word": [
+        {
+          "ab": "Somorangi’",
+          "ch": "收養義子（女）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d6f4e43887622e2955730d553ef02612.wav"
+        },
+        {
+          "ab": "noka",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c219ce53f9a12ea8c5eb99bdfd62c766.wav"
+        },
+        {
+          "ab": "SaySiyat",
+          "ch": "賽夏族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/14/1b9a885903950eb7d41efd6ae8b5dd43.wav"
+        },
+        {
+          "ab": "ka ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/14/d50efe518da3fe9248595e54af0bb510.wav"
+        },
+        {
+          "ab": "kaspengan",
+          "ch": "傳統；文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/93a08b7919aadd8ddf48320e6ee69711.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kakhayza’an",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/38e8b0127a1398c1b376a01b4ada2583.wav"
+        },
+        {
+          "ab": "So:",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/684e2b982373cb9b9a99a86979b14542.wav"
+        },
+        {
+          "ab": "korkoring",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9a8da838c2aed234ae0ca57d74f2ab9c.wav"
+        },
+        {
+          "ab": "’aewhay",
+          "ch": "不好；壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/77a53cfaf122430dba7133ec0b096d70.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ddf32147dd2023cef2c92b06978beb61.wav"
+        },
+        {
+          "ab": "kalahangen",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cc6944e6e54a685b554201afc6ce9ef2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’isa:a’",
+          "ch": "因此；所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1bdfac094af76726a650eb1b85cfa291.wav"
+        },
+        {
+          "ab": "korkoring",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c4fcf49a6ca4ecb8dda8d5cf7d080269.wav"
+        },
+        {
+          "ab": "kayzaeh",
+          "ch": "好；可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/10c7e7309c6db9a8751afe44db83dbd7.wav"
+        },
+        {
+          "ab": "Sorangi’in",
+          "ch": "被收養為義子（女）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/86b7aca383f33e9164903466bb449017.wav"
+        },
+        {
+          "ab": "noka",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/76e937f675a5bf2aafba03aaca886f67.wav"
+        },
+        {
+          "ab": "’aroma’",
+          "ch": "別的；其他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/21ce93ebf55ed03394fab0866833bded.wav"
+        },
+        {
+          "ab": "Sinrahoe’",
+          "ch": "姓氏；品種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/773827fa62745e5d0cfc3695d1ce36e8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sinorangi’",
+          "ch": "被收養的義子（女）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fa4ee03714703f7a30945475a978d4e8.wav"
+        },
+        {
+          "ab": "tabin",
+          "ch": "到，至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/661842e117deb626ee787f91bcdd079e.wav"
+        },
+        {
+          "ab": "’ibabaw",
+          "ch": "高",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f7f4347fa5fc38430412b71c5cd7eac0.wav"
+        },
+        {
+          "ab": "ma’",
+          "ch": "也；就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3be75363671a46ec8888742dce1d4522.wav"
+        },
+        {
+          "ab": "kayzaeh",
+          "ch": "可以；好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/830c776c211e32bdb3ead64334a7406b.wav"
+        },
+        {
+          "ab": "minobih",
+          "ch": "歸還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/83c892b22a3456915372a5cc472f7c7f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a0691df3ff297f99df22847748915bd7.wav"
+        },
+        {
+          "ab": "rangi’",
+          "ch": "義（父母、子女）之互稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f5af3e851ed701faaaa6c3301b44781c.wav"
+        },
+        {
+          "ab": "ila",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/54f93c50b4ece3a391113d32bf82dc95.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "’away是我姑姑的孩子，日家人。從小常常生病及夜晚哭鬧不睡覺，不好照顧。因而依照賽夏文化傳統請人占卜尋找義父後，給我的叔叔收為義子，在風家取名為toway。",
+      "ab": "’away ’inmana’a ’ata’ ka korkoring, tanohila: Sinrahoe’. ’aring ’o’owa’ rengreng ’ayaeh o hae:wan homangih ’okay pae’rem, ’aewhay ka kalahangen. ’isa:a’ tani kaspengan noka SaySiyat Siparhaep Sikim:im ka rangi’, SipaSorangi’ ni mama’ ma’an, noka baba:i’ Sin mo:i’in.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ec87af825a1e6226f0a01c5391100004.wav",
+      "word": [
+        {
+          "ab": "’away",
+          "ch": "（女子名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/15d43710b51692ed226d45ed6025d5f1.wav"
+        },
+        {
+          "ab": "’inmana’a",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f4b299ef9cb071b946a8a1481088c2c5.wav"
+        },
+        {
+          "ab": "’ata’",
+          "ch": "（母執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c17acef5ea336ee4c3492ad9ba5150ab.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8b58f7758eda0ef04f48233516657783.wav"
+        },
+        {
+          "ab": "korkoring",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1a26f085abed05a0831f324fa1473690.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tanohila:",
+          "ch": "（氏族名，日）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6c1d61f415c3618c01fb560304264660.wav"
+        },
+        {
+          "ab": "Sinrahoe’",
+          "ch": "姓氏；品種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9d20b32049289b45b44ebd81ee9acfec.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’aring",
+          "ch": "從…；自從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/29dacfef20ca4c1a4290680674363523.wav"
+        },
+        {
+          "ab": "’o’owa’",
+          "ch": "嬰兒；娃娃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5339986162c092a1515931d2a2fd93c4.wav"
+        },
+        {
+          "ab": "rengreng",
+          "ch": "經常，常常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8358ee0e4471915cc6af47d9f1e73aa4.wav"
+        },
+        {
+          "ab": "’ayaeh",
+          "ch": "生病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a2891d57d893822abe11b61dd7cb16a6.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "及，和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7c9c932f81ab24960d50bcb9f3271772.wav"
+        },
+        {
+          "ab": "hae:wan",
+          "ch": "夜晚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/af1e1abbc8bf5c2e039f989837af8680.wav"
+        },
+        {
+          "ab": "homangih",
+          "ch": "哭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3a7929349fe319f78af02b115d1cb584.wav"
+        },
+        {
+          "ab": "’okay",
+          "ch": "沒有；不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c48b4a1a4663ccfbdfdab7f4268961f5.wav"
+        },
+        {
+          "ab": "pae’rem",
+          "ch": "睡覺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a7205a82e4e6cf7aa3e2697b07fc4c71.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’aewhay",
+          "ch": "不好；壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e3babce101cc651dc9f047d419214a42.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7742915cf4dd8e2c195c7649f98a0ad5.wav"
+        },
+        {
+          "ab": "kalahangen",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/59a71c333eabff57bd7fb6b8ce0b3341.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’isa:a’",
+          "ch": "因此；所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/919623d566407742f92b8bbcc41176ac.wav"
+        },
+        {
+          "ab": "tani",
+          "ch": "依照；跟隨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3a9660e504e426a783e576c3b78a07f2.wav"
+        },
+        {
+          "ab": "kaspengan",
+          "ch": "傳統；文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/34099815c2983577c45fffa3304ba64c.wav"
+        },
+        {
+          "ab": "noka",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6d70ce6a76432df607a25c6cbd486700.wav"
+        },
+        {
+          "ab": "SaySiyat",
+          "ch": "賽夏族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/28931d6e147bf56eb19ff318b12a7680.wav"
+        },
+        {
+          "ab": "Siparhaep",
+          "ch": "占卜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8affc0e0a62d2a9711b8ae34f8cf6aad.wav"
+        },
+        {
+          "ab": "Sikim:im",
+          "ch": "找尋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8b4033f4bb2fbe290ce615d97d128ed0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/dc5d62d4ef30d6530683d54d6e456389.wav"
+        },
+        {
+          "ab": "rangi’",
+          "ch": "義（父母、子女）之互稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/98af808857dde2a4d0b18efc2a5d76f4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "SipaSorangi’",
+          "ch": "使被收養為義子（女）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cc232a5c512614e8ffce595ec13b7934.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c0033fa43d0de53f71f414742c5af7b5.wav"
+        },
+        {
+          "ab": "mama’",
+          "ch": "（父執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d6bbf6d91c598e3f141461d97c7fd270.wav"
+        },
+        {
+          "ab": "ma’an",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9fa0a50c52bff9586594caa3c145660e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "noka",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e8143d716ab2b59bdfaf44dbfa9006b9.wav"
+        },
+        {
+          "ab": "baba:i’",
+          "ch": "（氏族名，風）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b29aa4aa8d68248f9b4bb42af3ec6cfa.wav"
+        },
+        {
+          "ab": "Sin",
+          "ch": "叫做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5acfc0c10ed7aa78babd3432f41a7227.wav"
+        },
+        {
+          "ab": "mo:i’in",
+          "ch": "（女子名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ea5de16c3dc5a53bb26d759701af3be6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "9月18日是’away歸還義子身分的日子，我們的親朋友好一起去到姑姑家，我們風家帶著酒和糯米飯，而日家準備豬肉和糯米糕以感謝照顧者。負責祭告的耆老說，在現在生活中，我們賽夏依然跟隨傳統沒有遺忘我們的文化，這樣子多好呀！還回義女身分的 ’away擁有了兩個名字，一個叫mo:i’，一個叫’away！她的生活也會漸漸的變好直到永遠。",
+      "ab": "ray hae’hae’ ’ilaS o lampez o maykaSpat hahila: hi ’away kapinobihan ka Sinorangi’an hahila:. yami baba:i’ ’aehae’ kapaSbaki’an ma’onhael rima’ kala ’ata’ ’ay taew’an. yami maraS ka pinobae:aeh ki Sinpaehpae:, lasiya tanohila: ’isa:a’ tal’awan ka baboy ki tinawbon ’am ma’alo’ ka kinalahangan. kamabalong komoSa’, ’isahini ’ita’ SaySiyat haysiya tani kaspengan ’okay ngowip ka kaspengan mita’, nakhini koza’ kin kayzaeh! pinobih ila ka rangi’ ’isa:a’ ’away hayza’ roSa’ ila ka raro:o’, ’aehae’ Sin mo:i’in, ’aehae’ Sin ’awayen! nisiya kin’i’iyaeh ma’ maySoSowaw ’am kayzaeh tabin mayhael o mayhael.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/41b250a242f01fe56044ad5aa71fb2ff.wav",
+      "word": [
+        {
+          "ab": "ray",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/25/4d0897f07f6c6229bdd893fcadfe7d4e.wav"
+        },
+        {
+          "ab": "hae’hae’",
+          "ch": "九",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/eed34ca41862cf471056042953696b78.wav"
+        },
+        {
+          "ab": "’ilaS",
+          "ch": "月；月亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3f44d8d6b6e956241ff05bdddd0283a4.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/03d81eddbea823b0b8e6739003c59c66.wav"
+        },
+        {
+          "ab": "lampez",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b5fd2379f79d305469612e38c45a946d.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/58eb0904bab02fa3d2f7b3e46be8c5ec.wav"
+        },
+        {
+          "ab": "maykaSpat",
+          "ch": "八",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a635b60375a959f7b4e8a0cefa081400.wav"
+        },
+        {
+          "ab": "hahila:",
+          "ch": "天；太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9c9db5e794358130fad328c55529abd4.wav"
+        },
+        {
+          "ab": "hi",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/65182eb2c285f17871023dd930a7e1a7.wav"
+        },
+        {
+          "ab": "’away",
+          "ch": "（女子名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7a358f78da55de5612cc817e7ebaaaae.wav"
+        },
+        {
+          "ab": "kapinobihan",
+          "ch": "要歸屬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bca7a1206e7145217489564f42c8e5e6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f0d7c180ff521deeb0b535c200c6229e.wav"
+        },
+        {
+          "ab": "Sinorangi’an",
+          "ch": "被收養義子（女）的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/badd8b849944e3ac8296215beb349f54.wav"
+        },
+        {
+          "ab": "hahila:",
+          "ch": "天；太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/654cc17b905e3f044137981e69a4bf97.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yami",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/83fba777c736fc022b9cb108666bf044.wav"
+        },
+        {
+          "ab": "baba:i’",
+          "ch": "（氏族名，風）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b55f1671bcd3083bd48d10809685b4b6.wav"
+        },
+        {
+          "ab": "’aehae’",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/128fee275bd93f8ecbb9b5ae53ceca0f.wav"
+        },
+        {
+          "ab": "kapaSbaki’an",
+          "ch": "家族，宗族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/14/c1908a7d44cfc2579345f21f096e3335.wav"
+        },
+        {
+          "ab": "ma’onhael",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2d5fb1ecd865bff5dd1b6afd6da8d2a4.wav"
+        },
+        {
+          "ab": "rima’",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/25f416338ed598da7c7c28b7f9f92c09.wav"
+        },
+        {
+          "ab": "kala",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bf7756fd54a6dcb2d32f4672f08af1ea.wav"
+        },
+        {
+          "ab": "’ata’",
+          "ch": "（母執輩稱呼）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/51a1c1307703d06f45bf3178b91d4546.wav"
+        },
+        {
+          "ab": "’ay",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1b3539a0ba04b7adc8175b377136defc.wav"
+        },
+        {
+          "ab": "taew’an",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a0fca83b490fe4765eadf9fee54575ff.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yami",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/88199eb384f19c0546a3124e312639e8.wav"
+        },
+        {
+          "ab": "maraS",
+          "ch": "攜帶，帶著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a216f32da63672fb22a0c0aca282f9d1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b6d47af3f16e74c77a68d734daeba91d.wav"
+        },
+        {
+          "ab": "pinobae:aeh",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fb6717536a5ba6881ad397ea10b12c0f.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "及，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/750cfbe54fafeae3e9c319494b46e58f.wav"
+        },
+        {
+          "ab": "Sinpaehpae:",
+          "ch": "糯米飯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/29f4a288ee80bc8fcdf87aa1493d1c12.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lasiya",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2242a2fef0b29e0337ba063013db4050.wav"
+        },
+        {
+          "ab": "tanohila:",
+          "ch": "日姓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/daacc720945f1934df33d8a708899824.wav"
+        },
+        {
+          "ab": "’isa:a’",
+          "ch": "（氏族名，日）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/aaaddc10f5b10f90b87df428a73b48e2.wav"
+        },
+        {
+          "ab": "tal’awan",
+          "ch": "準備",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d091f644a56f424f9e97ae7a14b5f5c0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a3bd7c5f6cd0b0aed7ae398fdbc77913.wav"
+        },
+        {
+          "ab": "baboy",
+          "ch": "豬隻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/19ea069b205e99ac9b05d4649cfb5f9a.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "及；跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a83cbec517062aa9ac4a16ed5c369211.wav"
+        },
+        {
+          "ab": "tinawbon",
+          "ch": "糯米糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7bcef67c947b73ebe78e136654cac342.wav"
+        },
+        {
+          "ab": "’am",
+          "ch": "（將）要；（將）會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/755eec6f6c957fa062a77bbb1e7a2e6b.wav"
+        },
+        {
+          "ab": "ma’alo’",
+          "ch": "謝謝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/6aa7ac2c7eb35ade1969953dfaeb4b9b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7ae5e79c2f0638670ad6b08fd1a44706.wav"
+        },
+        {
+          "ab": "kinalahangan",
+          "ch": "照顧（完成）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bc6fa0a0111bb3710f0a2fbbd7fd1648.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kamabalong",
+          "ch": "祭告者；演說者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8430feae1c7c123bdd762ffc23f30874.wav"
+        },
+        {
+          "ab": "komoSa’",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7b008bcd05d7087656ecb6f02f41dfb0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’isahini",
+          "ch": "現在；此時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cdd9adb4c103f3ac3fea98b065b9f425.wav"
+        },
+        {
+          "ab": "’ita’",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bbf99dd57d531baa78c65a027ac77044.wav"
+        },
+        {
+          "ab": "SaySiyat",
+          "ch": "賽夏族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cbc40d3adea4574d6bb08100780ef398.wav"
+        },
+        {
+          "ab": "haysiya",
+          "ch": "還在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d835a6d7d9289d8d2cb6873486b4a5e2.wav"
+        },
+        {
+          "ab": "tani",
+          "ch": "依照；跟隨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/42f7f653d38f7e329d63fd3bfee4bf17.wav"
+        },
+        {
+          "ab": "kaspengan",
+          "ch": "傳統；文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fe52eb1c6346ea1d85294d5621d984ac.wav"
+        },
+        {
+          "ab": "’okay",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bc12b797f4a1b03502b247645bae0e0b.wav"
+        },
+        {
+          "ab": "ngowip",
+          "ch": "忘記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9fa7eba173bb4c37e87ca615f1308e5c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[格位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ee320243e5347e7aedf4553773ba82b3.wav"
+        },
+        {
+          "ab": "kaspengan",
+          "ch": "傳統；文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1ca886bbe16376d97ca14e9ba5104cb9.wav"
+        },
+        {
+          "ab": "mita’",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/aa805d29c362dc6abce309d35387fe69.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nakhini",
+          "ch": "這樣；如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/14/d3c2138dba0c41134090a149fb7c00d3.wav"
+        },
+        {
+          "ab": "koza’",
+          "ch": "多少",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1dab56673a9a3169662aae8cda9178ec.wav"
+        },
+        {
+          "ab": "kin",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3b0d69143fbde837c85af76a5d6fb30a.wav"
+        },
+        {
+          "ab": "kayzaeh",
+          "ch": "好；可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ad22427c74d1396aec62aa93143ed1d3.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pinobih",
+          "ch": "歸還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/69d84cf018bbf8636df37d83636e4593.wav"
+        },
+        {
+          "ab": "ila",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2562a98053e482e6e32baeb88175bc47.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c2ca87e63d01711a3f48c00e8082f6db.wav"
+        },
+        {
+          "ab": "rangi’",
+          "ch": "義（父母、子女）之互稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/40518551c96582a906707c7b63429958.wav"
+        },
+        {
+          "ab": "’isa:a’",
+          "ch": "因此；所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/863ad3bfcc230a378e0a040071dea598.wav"
+        },
+        {
+          "ab": "’away",
+          "ch": "（女子名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/73261f206999d4b2f0a993bc591124b5.wav"
+        },
+        {
+          "ab": "hayza’",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a515bd04d3e6e45a4b74fe1a861d7b2a.wav"
+        },
+        {
+          "ab": "roSa’",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/13a751d9ef190acde677cefd6091486f.wav"
+        },
+        {
+          "ab": "ila",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/14ad9c003cd0c3f3d5a12383b986671a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4fb9ff8afefff2741cfef56f10895212.wav"
+        },
+        {
+          "ab": "raro:o’",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/25efaac42c4aff641b85df5200ae17e5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’aehae’",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ea4e969b85d8cd1ba8b2688f5d8cda49.wav"
+        },
+        {
+          "ab": "Sin",
+          "ch": "叫做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c4a2fad6102dffe9827e7d6740727f8a.wav"
+        },
+        {
+          "ab": "mo:i’in",
+          "ch": "（女子名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/462df5b7caaac3087651bb13e5c2db2b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’aehae’",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ef0bc147ca683fb4945b67fa7b9f6207.wav"
+        },
+        {
+          "ab": "Sin",
+          "ch": "叫做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bc492d1fe716bcc1e14c0c62f36b0e36.wav"
+        },
+        {
+          "ab": "’awayen",
+          "ch": "（女子名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cef1e61a195766488025cdbabfeb930a.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nisiya",
+          "ch": "她的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4f6c1443a850c37662e9d819752692db.wav"
+        },
+        {
+          "ab": "kin’i’iyaeh",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0b8d15b9be67bfc4e5e70f75220a12f3.wav"
+        },
+        {
+          "ab": "ma’",
+          "ch": "也；就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b5cb486c5dd7f2319bf7c2d33de5236e.wav"
+        },
+        {
+          "ab": "maySoSowaw",
+          "ch": "漸漸的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ac59f54faf1ffcc1acade3ad3935f4fd.wav"
+        },
+        {
+          "ab": "’am",
+          "ch": "（將）會；（將）要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1c721686268964c07b5e4bf6f28e24ee.wav"
+        },
+        {
+          "ab": "kayzaeh",
+          "ch": "好；可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f664f2243380780e07d80909ed0dca60.wav"
+        },
+        {
+          "ab": "tabin",
+          "ch": "到，至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2a5161553c6b8fad1b183176b6a1bff5.wav"
+        },
+        {
+          "ab": "mayhael",
+          "ch": "以後 ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a4f7f80e097b37c08fe17d5cb85e7abf.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "及，和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9d5599135bb6c2d91612571c4bf743e3.wav"
+        },
+        {
+          "ab": "mayhael",
+          "ch": "以後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2b7eee8e5d74f5c1941e00aa8a21a3c2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,776 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "pori wani rgyax",
+  "titleCh": "山藤心",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "在山林中生活有很多益處。樹木群對人的呼吸功能有益處。茂盛的樹林裡有很多動物遊串。樹林讓我們可以收取山藤心。",
+      "ab": "thoyay ta maki alang rgyax ga piyux ci knble’an nya. piyux khoni rgyax ga mosa mble msuna skutaw kwara c’oli. m’ru mrkyas khoni utux rgyax lga mosa piyux ksinu nya mlata kya. maki khoni lga piyux ci pori wani rgyax ba’un ta magan uyi.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/fa45e04412386eaef9d603bc349b5065.wav",
+      "word": [
+        {
+          "ab": "thoyay",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/2c99001baf236c5cdfc50b33db17b7f9.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/4a3cffe005397d4cffdee044f1c8d30e.wav"
+        },
+        {
+          "ab": "maki",
+          "ch": "存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/4cf06252cc21d496e754ad7185d0617d.wav"
+        },
+        {
+          "ab": "alang",
+          "ch": "部落；地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/7fb56a46e022f780f9de8fbd72aa091b.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/1ad31a8fd663d63f490bde6093821c7a.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/0d8b5e804141b2297b65df6ff6c9ce27.wav"
+        },
+        {
+          "ab": "piyux",
+          "ch": "眾多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/d203bbe1b9e242a034b376bafda15a99.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/cd50a6640d6284992905dc447fd7701d.wav"
+        },
+        {
+          "ab": "knble’an",
+          "ch": "益處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/df5665df072805334c14ca0c79bbe794.wav"
+        },
+        {
+          "ab": "nya",
+          "ch": "它的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/570f6ff5228e5ab43af45555c8710998.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "piyux",
+          "ch": "眾多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/262f3d665f3ebe0bb7af2a1044ea9d23.wav"
+        },
+        {
+          "ab": "khoni",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/a93dddc1fd67c3a6409fafb5801d7d50.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/36cc76f6dc57f50bdbda82f92aff1b94.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/bafd1b75c5f0ceb81050a853c9faa911.wav"
+        },
+        {
+          "ab": "mosa",
+          "ch": "成為；去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/aa8da3e60fb65cda2ae6b220268c4964.wav"
+        },
+        {
+          "ab": "mble",
+          "ch": "好好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/043ea4eb48d314b91e95fb5052d3d8f0.wav"
+        },
+        {
+          "ab": "msuna",
+          "ch": "呼吸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/0192adec1a16b0565dc3f70b5d235a40.wav"
+        },
+        {
+          "ab": "skutaw",
+          "ch": "胸腔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/3c63021df32e126a8dcf115d07e23f59.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/4641f63dd756285f550c6361c9da2e31.wav"
+        },
+        {
+          "ab": "c’oli",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/95e2b3bc377ab32c26e010300ce0081b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "m’ru",
+          "ch": "茂盛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/5a0948634378d18b07e1615c0f953076.wav"
+        },
+        {
+          "ab": "mrkyas",
+          "ch": "成長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/cdf039a172c2935f315a7d4cec997c35.wav"
+        },
+        {
+          "ab": "khoni",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/0e19a8bac63f97a513063dcb9a64442b.wav"
+        },
+        {
+          "ab": "utux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/10b3a190826923700349cc96979e8b48.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/68e0937d0f20f63d46f066cb42c048a0.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/6ea1301c76a2752155f93ff51443ad01.wav"
+        },
+        {
+          "ab": "mosa",
+          "ch": "成為；去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/6e188dc874a5c7bee808852f9020c0c9.wav"
+        },
+        {
+          "ab": "piyux",
+          "ch": "眾多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/bf15fc6473a38b79c0a233e9c6581775.wav"
+        },
+        {
+          "ab": "ksinu",
+          "ch": "獵物；山產",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/20872559d95722c9d6a71d973c1a00b5.wav"
+        },
+        {
+          "ab": "nya",
+          "ch": "它的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/eb5053f7d2403c84a849b040014903ac.wav"
+        },
+        {
+          "ab": "mlata",
+          "ch": "巡走",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/b4e996f75bdf4c28209feba4693ff228.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/ca6037b5974c5b0dac440bcdfb299bce.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maki",
+          "ch": "存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/042886829869470b75f63dddfd7e9d9d.wav"
+        },
+        {
+          "ab": "khoni",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/7207cc49aa823ca90c015aacf4e9c161.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/d13dda85502e18dac4bca8c4c429b86c.wav"
+        },
+        {
+          "ab": "piyux",
+          "ch": "眾多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/dba0ff02313bd467ce9d52df8d6c80e6.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/32f791428812696ee7ce8f161ecd490c.wav"
+        },
+        {
+          "ab": "pori wani rgyax",
+          "ch": "山藤心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/1f3994eeef613665217c07db797b64d0.wav"
+        },
+        {
+          "ab": "ba’un",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/efe7beaa44d6e14c30432d43b2522ba2.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/63e6bc520edcbaa95446b5690d989f30.wav"
+        },
+        {
+          "ab": "magan",
+          "ch": "摘取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/5898493fbdf4a44a24084021b2215f85.wav"
+        },
+        {
+          "ab": "uyi",
+          "ch": "也可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/c47a3ba2c793b5b9e21260f903c37d4d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]但是山藤心不能超收，因為拿光了山藤心就沒有山黃藤可用來編織。山黃藤可以用來編織背簍、藤帽、藤煙袋、刀柄套等，也可以用來綁竹屋頂架。因此，同心守護山林的樹木就不會斷絕了山林賜予的益處。",
+      "ab": "ana ga ini ta kpyuxiy magan pori wani rgyax, baha mcwa su’un magan kwara pori wani rgyax lga, mosa ungat ku wani ba’un ta magan ru galan ta tminun kesi la. wani rgyax ga piyux ci ba’un ta tminun, tunun naha kesi, kbubu, pusi ru ssabu bengan lalaw. ba’un ta mhun lmu’i sali ruma uyi. nanu yaca, mtna ta utux lungan ru le’un ta mlahang kwara khoni rgyax ga iyat mosa mkpyut nku kwara knble’an na kahun khoni babaw rgyax.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/86158a6b3924670a32dad65bbc41bd95.wav",
+      "word": [
+        {
+          "ab": "ana ga",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/f2671992766736eaee5018a1de716c86.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/10ada88209bc465aa0ebd61bc248733e.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/16b5e60b803fb3925ea88833ff398caf.wav"
+        },
+        {
+          "ab": "kpyuxiy",
+          "ch": "過量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/76a271c64a315732aa56eeb7277a63d4.wav"
+        },
+        {
+          "ab": "magan",
+          "ch": "摘取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/11084aaf0a5fc9561425a254a219f6f6.wav"
+        },
+        {
+          "ab": "pori wani rgyax",
+          "ch": "山藤心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/27bf6226213cf288dfbf62ffc02bad4f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "baha mcwa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/076fe937e59c252325e2a760ae2e4d37.wav"
+        },
+        {
+          "ab": "su’un",
+          "ch": "滿滿；用盡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/cef762ecebfd6ff463ce4fb05f095d92.wav"
+        },
+        {
+          "ab": "magan",
+          "ch": "摘取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/a22ede5d703532f281f393a5459571fd.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/0781c82b50d158791bfe033e631af1f0.wav"
+        },
+        {
+          "ab": "pori wani rgyax",
+          "ch": "山藤心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/2bd0715ad6441bfe81c6644c0c500205.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/fb7b1850ba96e427e01404c3ed805cc2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mosa",
+          "ch": "去；將成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/a793d307441615af6aaad7497a75de59.wav"
+        },
+        {
+          "ab": "ungat",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/f62a14520d684eec4080c6bd4c643b24.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/ebc82ddcaa790d66bba665311ead3045.wav"
+        },
+        {
+          "ab": "wani",
+          "ch": "黃藤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/251ea3991fd165bfd231aa53cd439968.wav"
+        },
+        {
+          "ab": "ba’un",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/d4a4ccddfa91dcb33b30f0b1e210c9eb.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/e1f5448f160187bcb4c4acaacfb3456c.wav"
+        },
+        {
+          "ab": "magan",
+          "ch": "摘取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/87c527cac12268901c64a3f56902fe6b.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "和，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/6a37887d2b55c87ad45dabf3ceb968b0.wav"
+        },
+        {
+          "ab": "galan",
+          "ch": "用來做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/723bd01f65708dcab0548d00d78b0741.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/3af6a013ffca8b7e22ce57d00090b754.wav"
+        },
+        {
+          "ab": "tminun",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/f3f22264dbacb7ea850f2108d0b8bdf3.wav"
+        },
+        {
+          "ab": "kesi",
+          "ch": "背簍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/e394c4fcf4858aeb877a99486c9c9418.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/097a266326991a991c77d203160c8563.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wani rgyax",
+          "ch": "山黃藤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/38dc1cfbbc29336d6e9dc76e9475d4e6.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/dd33a21f7b5d1e39ae66b67be7a6d253.wav"
+        },
+        {
+          "ab": "piyux",
+          "ch": "眾多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/b16d68771e66bcf6386df99368154934.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/2950b6afd1a54045c0659ae2368893c8.wav"
+        },
+        {
+          "ab": "ba’un",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/951ff4e98728489ab3949b77a11507e2.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/8db7b8a002edf0b81837b1d347a3657c.wav"
+        },
+        {
+          "ab": "tminun",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/5cc5786888fcd29fead92651a9ddd9c1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tunun",
+          "ch": "用來編織成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/a767b1393860de7db35a9954b1aa2f9d.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/43e0f65fa19829c2ba10cc1e04f6b147.wav"
+        },
+        {
+          "ab": "kesi",
+          "ch": "背簍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/1dec69fd432365f7affe596a50965e29.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kbubu",
+          "ch": "帽子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/12/b297e5da60fd41cda0d2e77b32dc8e48.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pusi",
+          "ch": "藤煙袋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/45efa623f6111a5e410641c6b86c85ea.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "和，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/999c6838f46b9a572fc823ee0590dd15.wav"
+        },
+        {
+          "ab": "ssabu",
+          "ch": "套子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/2cb1e384e0906033e91c4795c75ae6fb.wav"
+        },
+        {
+          "ab": "bengan lalaw",
+          "ch": "刀柄",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/39e9d130e6936441d85e8b7e28860823.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ba’un",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/050553d40196ef109fff37cbb40aaf28.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/0c14d9e1250da76981b5fac734227f0a.wav"
+        },
+        {
+          "ab": "mhun",
+          "ch": "綁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/8ef93f7f477aa4674324b551ee68529f.wav"
+        },
+        {
+          "ab": "lmu’i",
+          "ch": "茅草屋頂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/66894012670fbc5532ca44f2f87ef848.wav"
+        },
+        {
+          "ab": "sali ruma",
+          "ch": "竹屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/818e9b09babdd65d130adad9a4ca9274.wav"
+        },
+        {
+          "ab": "uyi",
+          "ch": "也可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/249b96bd669d584de425cc8761d2ca9f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nanu yaca",
+          "ch": "因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/872fb3fb0971627bd1e3eb852900a177.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mtna",
+          "ch": "同樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/9f9d7d036be82e3c8c373b3646d3ff8e.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/39a1dafc5f8576b47d615f12de932e09.wav"
+        },
+        {
+          "ab": "utux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/91836ea292e688863d5165ae32aef8ff.wav"
+        },
+        {
+          "ab": "lungan",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/3b87a374bf05212831dde204637f56cb.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "和，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/0fd48905c01efe57e06cef04e3d71038.wav"
+        },
+        {
+          "ab": "le’un",
+          "ch": "盡力的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/e775a20f0553c08010a113c9c67de544.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/1a62026e6b035b51682672932876a119.wav"
+        },
+        {
+          "ab": "mlahang",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/ae852ba7ae75fa4c5c7d186a61fcce92.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/7dc648573025e45ad653e535fabfd1ae.wav"
+        },
+        {
+          "ab": "khoni",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/972494a2e9aa540c53cdadab0caa401c.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/f4cfab7920e9cb176ab3b4e324d85f63.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/ab394288aed46588bdc90bf4b541ec0d.wav"
+        },
+        {
+          "ab": "iyat",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/75144d9c8780608425dd34bfaf7b96f0.wav"
+        },
+        {
+          "ab": "mosa",
+          "ch": "去；將成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/3ee7811d398ae2240f5d3f0684ecb8d3.wav"
+        },
+        {
+          "ab": "mkpyut",
+          "ch": "消失",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/cccb7ec704e828b99068ec1b9cf1fc03.wav"
+        },
+        {
+          "ab": "nku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/87beda256fb458032e2ca68974cc3acc.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/2723158d0ff85a73b387df5e2809f0bc.wav"
+        },
+        {
+          "ab": "knble’an",
+          "ch": "益處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/da1e732bc2b7ce5dafda6bfc58a4b5ec.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/69ee114722e3e7df044c4eaec11ff77c.wav"
+        },
+        {
+          "ab": "kahun",
+          "ch": "源於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/3f2798418e4bad12ef063cb9300805bd.wav"
+        },
+        {
+          "ab": "khoni",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/803ae237d2df8bdde7bcbd872396d192.wav"
+        },
+        {
+          "ab": "babaw rgyax",
+          "ch": "山林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/e64caaff8e5c0399ab73c9fe1e37bd79.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "所以，每當我們看到山林中出現山藤心時，就知道我們有守護了部落山林的樹林。",
+      "ab": "nanu yaca, texan ta royi pori wani rgyax cyu maki babaw rgyax lga, siy ba’i maha nyu ta le’un ci mlahang kwara khoni rgyax alang ta.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/c04a5ed0320644d5aa85fd487dc6f3b0.wav",
+      "word": [
+        {
+          "ab": "nanu yaca",
+          "ch": "因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/037a15f03246f075193b2a295ba4c466.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "texan",
+          "ch": "所看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/ee0f827fe45c91c956bacfd78d91d47b.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/e671ed4fbb952426558443e0827b7ea9.wav"
+        },
+        {
+          "ab": "royi",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/9edfa99c15e2845965b91b38e2b1311c.wav"
+        },
+        {
+          "ab": "pori wani rgyax",
+          "ch": "山藤心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/80c7c407281e2ea672696a0147d9fb12.wav"
+        },
+        {
+          "ab": "cyu",
+          "ch": "那裡有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/8efa9015a4ef4632a954e820eca834ad.wav"
+        },
+        {
+          "ab": "maki",
+          "ch": "存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/49c3816dd86defa0b8f4f6fa7ff8ef5e.wav"
+        },
+        {
+          "ab": "babaw rgyax",
+          "ch": "山林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/3af3d94fb6259a153cde3f009b02a81a.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "了呢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/f13b8707a8ea1da23e10c93b67bec70f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "siy ba’i",
+          "ch": "就會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/7884205c412107bdfe1dd6d1356c1d56.wav"
+        },
+        {
+          "ab": "maha",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/734805fc5d2ef6208c3e0e405b0b62ce.wav"
+        },
+        {
+          "ab": "nyu",
+          "ch": "這裡有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/8b4f8b2d42f965913f12bc47f15dddfe.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/39abd1c6e1d6aa57455adf5eda4325a8.wav"
+        },
+        {
+          "ab": "le’un",
+          "ch": "盡力的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/7b16a52cf3727c22984590c4f4c36039.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/dad1b0570ebcac40e06e54e2c566d452.wav"
+        },
+        {
+          "ab": "mlahang",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/131632cb7eeb986974e1be59af67e8fe.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/5bebd340c511be08c1e9e6536e2d36f4.wav"
+        },
+        {
+          "ab": "khoni",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/56d8b82bcfbf4e2637ba17d56b96516a.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/c5eb4987bf9d44097f3ed42e0697a546.wav"
+        },
+        {
+          "ab": "alang",
+          "ch": "部落；地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/73434c1432fa81daf8b4ee87589c509c.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/08/770e1aa37246979c9e2db7b82cfd9412.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

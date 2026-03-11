@@ -1,6 +1,2855 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "naki a xumak ka dusa a ina",
+  "titleCh": "我的家有兩個媽媽",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "「Taubas，你聽說了嗎？今天有新的同學喔！」\r\n\r\n「真的嗎？我還沒聽說。」\r\n\r\n「真的啊！好了，老師要到了。」\r\n\r\n",
+      "ab": "“Taubas, tumala pai siw lia? ohoni a daali ka nahaza xias a tadepex!”\r\n\r\n“ede? mayaw tumala haki yaku.”\r\n\r\n“ede ha! haw lia, pasakenay ki takaat lia.”\r\n",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2c3f1bc0f953c96c54378000efbd89ee.wav",
+      "word": [
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/305b686267e26bfe367b8a39e5f4cda1.wav"
+        },
+        {
+          "ab": "tumala",
+          "ch": "聽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/082cac4b95b8990ef9a352be5702bd41.wav"
+        },
+        {
+          "ab": "pai",
+          "ch": "疑問助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/319ab9a4b777e7a4a6a0b5be8660fe18.wav"
+        },
+        {
+          "ab": "siw",
+          "ch": "你.附著式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3884af766c21c7fe227eeb259c664e63.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d2bd4d70c6d237dfae9ad220ae27cc86.wav"
+        },
+        {
+          "ab": "ohoni",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/31767bb532fac5c6ef8c0a756db059c4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9cd1d512becdf31aa97318edbc3a49fb.wav"
+        },
+        {
+          "ab": "daali",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d10281af9c29873e404057536485c24a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/826aeb0fb55d1fe1a210ad987ab3cbb5.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/abd1e0e7cbb7d79066c2a0b46245ae2e.wav"
+        },
+        {
+          "ab": "xias",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f68947082caf3088e896aadb177fd613.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2bf5b870d85c665b43ecc3b7353f88aa.wav"
+        },
+        {
+          "ab": "tadepex",
+          "ch": "學生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2412ac5f6a0d692d0a9da02f555ee8f8.wav"
+        },
+        {
+          "ab": "ede",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/023c545925513b1a51277e312f8de7b7.wav"
+        },
+        {
+          "ab": "mayaw",
+          "ch": "還沒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6ce76c783970e0a4182a2daf5ba02eaa.wav"
+        },
+        {
+          "ab": "tumala",
+          "ch": "聽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fb76dd9dfc8defeceaeafd4c47b98c1c.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e1e7dc38bf2c09110c4e7971e27bd4bc.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a7621baba31f026bf2aecfd4cbce5968.wav"
+        },
+        {
+          "ab": "ede",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3c9ab18251d63318f83bc37b466f7447.wav"
+        },
+        {
+          "ab": "ha",
+          "ch": "語尾助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3daf8fdca9ef9b62c1140aa6c31dbc58.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e3733a5afed7f28ab4f77bfb80390690.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4fb2b2d85bed05601061e3beb3b345b0.wav"
+        },
+        {
+          "ab": "pasakenay",
+          "ch": "將抵達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a16d448de4acf9a6c06b80a69c762fe3.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/824a22f7f20c8744e9c490211d7cff0f.wav"
+        },
+        {
+          "ab": "takaat",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/061e35807c2be031178b2a329f1c7cd5.wav"
+        },
+        {
+          "ab": "lia\r\n",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8f730f60bdd2232048c9b87bbdc378a9.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "那時候老師和新同學抵達了教室，「大家，這位新同學叫Adunu，請相互問好。」老師如此說。\r\n",
+      "ab": "isia liaki takaat iu xias a tadepex ka pasaken di aitudu’an. “ita’ita dadua. xias a tadepex mini ka Adunu sen. tapakawasi haw iak si na!” laila ki takaat.\r\n",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/948fb3b041ba4950e5dac7b165342991.wav",
+      "word": [
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c60c376ba094eddcb2178971e2166b8d.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bb9752b8a4476fcf09b8b6220e913dea.wav"
+        },
+        {
+          "ab": "takaat",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f6b1047009d17238dea067c33606935f.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8d6a25bbc03f62c45337e6f38a6c6245.wav"
+        },
+        {
+          "ab": "xias",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3181b7bff893c23139f75dc4ea9980e8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c7e1cac7733918cf85ee95ce72e555d6.wav"
+        },
+        {
+          "ab": "tadepex",
+          "ch": "學生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5d9e4cfe79ba4f912701461884d26675.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/99a090c72547fe93a3ee5f9ead67207a.wav"
+        },
+        {
+          "ab": "pasaken",
+          "ch": "抵達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3c4ef01c0245f89f258473543afe9231.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/92b14663b9609b9b9fe972e20cdecaa4.wav"
+        },
+        {
+          "ab": "aitudu’an",
+          "ch": "教室",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/edc72bcfd1f9ef7428e34d9a33556abf.wav"
+        },
+        {
+          "ab": "ita’ita",
+          "ch": "咱們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/78569d7ce65d1550d731131530dca78a.wav"
+        },
+        {
+          "ab": "dadua",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a044345e65a3db2ff8a2f5f000927cc1.wav"
+        },
+        {
+          "ab": "xias",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e439ea10caadaf555b8e75c442affc7d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/54fb4af779a69dd1f7eb03623b3f1580.wav"
+        },
+        {
+          "ab": "tadepex",
+          "ch": "學生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fa4a9094bc852a53b3a64ab6ac40ec43.wav"
+        },
+        {
+          "ab": "mini",
+          "ch": "這個.附著式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/aeaa6bbdae0ed009ce5dd347830e012b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4441aee9a5d3206664223e0344cb7310.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3d886914759019296aff4344800ed36e.wav"
+        },
+        {
+          "ab": "sen",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/373761718578b6006efbb13f8b16504a.wav"
+        },
+        {
+          "ab": "tapakawasi",
+          "ch": "說！",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7727c56985c3ade2d93905fea28f3c3a.wav"
+        },
+        {
+          "ab": "haw'iak",
+          "ch": "很好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/89104657230d9f6d716d3cac8d0ffb52.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/af4d91c4b4d70b30173a0e8d3f8a390e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "語尾助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/328be7c8477bc50916a4e3cfa536aafc.wav"
+        },
+        {
+          "ab": "laila",
+          "ch": "如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/985015c189185cc21b2174173e2934d6.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/89e757495a23a81ddbffced91ca12168.wav"
+        },
+        {
+          "ab": "takaat\r\n",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/54adb42758f557f5e444b71c8814e1e2.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "那時吃午餐了，Adunu已經交了很多朋友，而Taubas則待在角落看著Adunu，「我真羨慕她，到了新的地方仍不會感到害羞。我跟她不一樣。」Taubas心想。\r\n",
+      "ab": "isia liaka meken daalian lia. matubatan dahu liaki Adunu a isia, iu Taubas ka kaidi zukuzuk a kiikita Adunu. “autian a imisiw hayaku. pasaken di xias a peet iu ini masikat. ini maaisiay haki yaku iu imisiw.” kaihénis laiki Taubas.\r\n",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e455d024b7ce33a00a919b740c7ab545.wav",
+      "word": [
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/33605e3d13fe2566bf1f055a18d1f551.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/917a61a45879598fab3280bc56f4c27e.wav"
+        },
+        {
+          "ab": "meken",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e9d7d69e1a865d41ace871b3a2f685be.wav"
+        },
+        {
+          "ab": "daalian",
+          "ch": "中午",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d91f1ba79514a0aa8933d93db698c12e.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ce842f913b0f087cb88af5a9233034c0.wav"
+        },
+        {
+          "ab": "matubatan",
+          "ch": "交朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6809cabd526feff0a44a279afd02d0cf.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0a45b92a4951d05f0666a60507867413.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ecfa6793a437766de12bf381a2dd7895.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8e5b83c92f183caa51b02240eb561c16.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/353097805c615360b8740ffd1c5486da.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/be9d6ed309de1a60e83a928335bcdfaf.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "而",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5fc91eb21eaf19d514a38203a00b9bbd.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/22cec7391bc32cde341c273a482b038a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e7f5714fe344159d767d8461112e86a4.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/18b92fc2a2e2cddb6f0f17e1cf28a2ae.wav"
+        },
+        {
+          "ab": "zukuzuk",
+          "ch": "角落、角",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/be540230843fc1cc725615696e426aa7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/25c3d1bac468a536d2b41e1cf0f626e1.wav"
+        },
+        {
+          "ab": "kiikita",
+          "ch": "正在看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9fa920b7e1a16185ac7565a871901719.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9647c1e3c30b6f0642ee65ebced7e349.wav"
+        },
+        {
+          "ab": "autian",
+          "ch": "羨慕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/16b2362a89be85684831a397350c4c47.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d0d29acfcb1ba36bc9ff8884c1c3a421.wav"
+        },
+        {
+          "ab": "imisiw",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d0d3662ba1d7f53cf07f198e3806a5a4.wav"
+        },
+        {
+          "ab": "hayaku",
+          "ch": "我.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/871dc14579b5b50dfd60cd4e33e69cd2.wav"
+        },
+        {
+          "ab": "pasaken",
+          "ch": "抵達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fd1af1253cc1f0968328a0221581a2d8.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6ed71d7f1d148b5dd8cddb54a48bc234.wav"
+        },
+        {
+          "ab": "xias",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0ba02065ea1552b9ccd5c68431c57913.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d7085a72931ce4cfd6b9cf5a5c40167e.wav"
+        },
+        {
+          "ab": "peet",
+          "ch": "地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0429ef6c94c4f94b6c2dd451f66039db.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8887921756a5bc2c5f3df9f003d3938b.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8972ad30b984eaf27006dc4bce01f432.wav"
+        },
+        {
+          "ab": "masikat",
+          "ch": "害臊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8c089995ecb4c576db553feb8902f824.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1a0105fcb17b8c4b516148b14b04a857.wav"
+        },
+        {
+          "ab": "maaisiay",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d8da94fa71be476c306745fa9aed29e2.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e83cf6c8b93b936318409c6cf16d3c1e.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/af0dda21f030745a5e6085d570679b2f.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bd279678befc63d50298f4a3b33857d9.wav"
+        },
+        {
+          "ab": "imisiw",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0a376c49bbde12ab715d740a7679d1ca.wav"
+        },
+        {
+          "ab": "kaihénis",
+          "ch": "心想",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/dd911aee5e31f2b81d8915359469b307.wav"
+        },
+        {
+          "ab": "laiki",
+          "ch": "如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2866c1617c79236f9b38b3123c1aeb97.wav"
+        },
+        {
+          "ab": "Taubas\r\n",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9c23f5b5789f68019704e944cfa5131b.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "「Adunu，Taubas，今天換你們負責掃教室。」像是老天爺的安排一樣，兩個人就這樣成為朋友了。\r\n",
+      "ab": "“Adunu, Taubas, ohoni ka tasapohi ki aitudu’an laimu.” maxahaiki sibaden u abababaw. dusa saw liaka maatubatan lia.\r\n",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/75c5c947fc15fab77e5088bfc6640422.wav",
+      "word": [
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/132f03cb69efccf6d5e62b40262c290a.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7c7f7ceb56b25dcd2ee867bc33c37f3c.wav"
+        },
+        {
+          "ab": "ohoni",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2a0a3a0a6af6727a8f1890169e1171f9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c51eb901664213f76d70c34c5a2ca352.wav"
+        },
+        {
+          "ab": "tasapohi",
+          "ch": "掃地！",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6d987fe8f6b4cfbff0b9601c5a4a249c.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2512ade9eb0d3d04089ac793b3cfc33c.wav"
+        },
+        {
+          "ab": "aitudu’an",
+          "ch": "教室",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2918e8bc5a269805cd8e638fa2fd91f2.wav"
+        },
+        {
+          "ab": "laimu",
+          "ch": "從你們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8cd78dbc33c12cbd2a96024f3defdd19.wav"
+        },
+        {
+          "ab": "maxahaiki",
+          "ch": "像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8b204068a2eb2f13f762c05ac1f0b075.wav"
+        },
+        {
+          "ab": "sibaden",
+          "ch": "被安排",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4b2c14fbc311aa23fe889199cf7e3816.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "賓格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7152b6cff3a604d1b4401417fd76bac2.wav"
+        },
+        {
+          "ab": "abababaw",
+          "ch": "天父",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1ce2a5c29df06c354aaf7cfc76e62e27.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b3d3134c88ec554de9879c30cd0b5487.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6d7dfdfdfaf446bdc46917b292b8f9cb.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ab67034a5c6139c66139678732fd8d7f.wav"
+        },
+        {
+          "ab": "maatubatan",
+          "ch": "相互成為朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/18a185f220706c5f1597915c19e82c82.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e8c384aea467bb26de70205ac0f3384b.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "「Taubas，明天要不要來我家玩？」\r\n\r\n「…好。」\r\n\r\n隔天，Taubas抵達後就被Adunu引領至屋內。Taubas看見兩個阿姨和一個男孩。",
+      "ab": "“Taubas, saawan ka alo tapahadasi di naki a xumak haw?”\r\n\r\n“…haw.”\r\n\r\nazang daali, pasaken di Adunu a xumak lia. Taubas haka mikita dusa tata iu azang akhéhan mamaleng.\r\n",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/031c0693a9bac5b76fcd8a6dfe9abc9c.wav",
+      "word": [
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3d7e9928c71ff99bb305990ba2386186.wav"
+        },
+        {
+          "ab": "saawan",
+          "ch": "明天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a99c0ee90a84e50d1b1b452855f8b32d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/017a88dd8decfc3b8bc4d598b2e6d2d3.wav"
+        },
+        {
+          "ab": "alo",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3f8e9bb15f94390a2fec9b2428c7a7b8.wav"
+        },
+        {
+          "ab": "tapahadasi",
+          "ch": "一起玩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1f73b3848775e48c6ea1f875126a7b92.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/555567d29365105c575cc2450e60dc9f.wav"
+        },
+        {
+          "ab": "naki",
+          "ch": "我.領屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/45a483253a6826014add5bc1d7d38217.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/aec1caae9d9e610ff5ad8d492a3194b6.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3877502ee749baa7ae9b166486389c31.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "好嗎？",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/62c7913d4295de6639b7143dfd7b4225.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2bfa6484a35874ba7be6005ea622c807.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e2be82c5c00a9c64860952b19bb263b1.wav"
+        },
+        {
+          "ab": "daali",
+          "ch": "日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/aaeb7f98961e6d46c00c13b3b776f455.wav"
+        },
+        {
+          "ab": "pasaken",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/eda4c58764cfe38da58fcf224842e21c.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4775a2bb037daca41c03a9ce9cb075d8.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c0913645a117822bcf9216947cd2b553.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/131ea0ae3fe526205fd837162d60b690.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/48bc541158bb55609795e085b9612448.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/cc6dd0f63dc2543fad92047c66af6b2d.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d0f92c376a8c7d5da184538570ee5fcc.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f9512dcbf35928e2ae670db1d4510aec.wav"
+        },
+        {
+          "ab": "mikita",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5de3033867c7083ae8196cf11ba85673.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/71d06b70b413e8f0ce9a51991edccf16.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "女性長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/53798f72270ad33e7f546003fc25d479.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3ccbc9e13b6e88638b01589fc9dfff40.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5daef2914d1a6fa753d80bf98cd263b4.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/81ce8e94679dd68603ff7b1b15957b26.wav"
+        },
+        {
+          "ab": "mamaleng",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e43eb7949c9fab6947456c74118ef860.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "「Taubas，我們歡迎你來！」\r\n\r\n「我叫做Akim，她是Lalu，我們兩個是Adunu的媽媽，還有這個小孩叫做Tabiliah。」Akim阿姨如此說。\r\n",
+      "ab": "“Taubas! mahatahatan a mukalawa isiw hayami!”\r\n\r\n“yaku ka Akim sen. imisiw ka Lalu sen. yami dusa ka Adunu a ina! iu akhéhan mini ka Tabiliah sen!” laila ki tata Akim.\r\n",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fb0f1e113b4667b259486200be2977fa.wav",
+      "word": [
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/30cec92df7898a824ccae4273409d339.wav"
+        },
+        {
+          "ab": "mahatahatan",
+          "ch": "開心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/be4503d03b25cac60fcffa9373cc8c14.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9709d041c46cf5e94ab6730aa911cd30.wav"
+        },
+        {
+          "ab": "mukalawa",
+          "ch": "迎接、承接",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ec3a64f043f3bbd8f96bab9a7a7203e8.wav"
+        },
+        {
+          "ab": "isiw",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6b190440a0bd00eaa93c6b7859744df2.wav"
+        },
+        {
+          "ab": "hayami",
+          "ch": "我們.排除式.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2fbb7d30a1a227e8a7e9ae3aa85438da.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/dedba6e6cc170a7a32e594b4e673caa5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/386fa370f92576821fb2799a8a3d1c10.wav"
+        },
+        {
+          "ab": "Akim",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4b8253ba53a507597b147efca75b8708.wav"
+        },
+        {
+          "ab": "sen",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6a615435afab848255dc320d0eb1aa8b.wav"
+        },
+        {
+          "ab": "imisiw",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d6c7c49100b27278aba18e5a51de12a5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5926cef5e40ab46465f029e5510c53f2.wav"
+        },
+        {
+          "ab": "Lalu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4db557b6db8416b1975929555f2006b8.wav"
+        },
+        {
+          "ab": "sen",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/be536bb09fa6900dca1bb169a5575b55.wav"
+        },
+        {
+          "ab": "yami",
+          "ch": "我們.排除式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7b6922d3d12a117b96a5d291e8757686.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3f911995999d755ca99573de3dce150a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a7dc702a9b6341fc96736bf6f687b55d.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bf7f1093943344f6c26fc13bd775ec9c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/36bda607530937848480796bc9bef74b.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/91c7e0c45d34a327542af55c69c88801.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "而",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9a1114cd70cfd2e5b76b45b334b70fb5.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/497f96726ea700b3cfd2c102614e2efe.wav"
+        },
+        {
+          "ab": "mini",
+          "ch": "這個.附著式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a38748fbfedf27926f6b316b47bbe6bd.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b27ca35363eb7bcb3130987129f4a7c3.wav"
+        },
+        {
+          "ab": "Tabiliah",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/89433a137464889f69f3466e6229ef18.wav"
+        },
+        {
+          "ab": "sen",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4e1fb4a363533d1544ab78202f4c9c85.wav"
+        },
+        {
+          "ab": "laila",
+          "ch": "如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/42881dd1d2906ce67ac4c8a86e162bfb.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7d4dab51e487cbf4f2b2be0d9dea5692.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "女性長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/932f3ddd15c195042018ed7c6a708681.wav"
+        },
+        {
+          "ab": "Akim",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c01b7677f5bb67f02be6c138d3caa859.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "「喔！兩個媽媽...等等！你們兩個是兩個女生結婚嗎？」那時Taubas感到驚訝。\r\n\r\n「是啊！她們兩個結婚了！Lalu媽媽，妳中午要煮什麼呀？」Adunu說。\r\n\r\nLalu阿姨回應「要煮魚、雞、菜，還有番茄湯。吃完午餐後還有百香果喔！」",
+      "ab": "“oh! dusa ina…maana! imu dusa ka maaezet u dusa mamais!?” isia liaka maxahapit ki Taubas. \r\n\r\n“hauay! maaezet liaki yamisw dusa! ina Lalu, daalian ka haaput mutalek axay pai siw?” laila ki Adunu.\r\n\r\ntata Lalu ka, “taatalekay u alaw, pataw, xalam, iu talup u uawan. mineken daalian liaka iu nahaza sikéko ha é!”\r\n",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/13dcf7feb202ff0b7bf9f18c236d3f46.wav",
+      "word": [
+        {
+          "ab": "oh",
+          "ch": "驚嘆詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b2fb6e2d33abfa6c1581f3f511eee209.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/591c5850b0106c3c482fff19e787c678.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a8107964798d5374fe40b80bd97a9d17.wav"
+        },
+        {
+          "ab": "maana",
+          "ch": "等等",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7eef25526cf58b9a826996718f5c6d97.wav"
+        },
+        {
+          "ab": "imu",
+          "ch": "你們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/34ad94119aec40a69aaf0b0b01dd7a7c.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9f34f68bd35e4194158fbc6c2d5b66e4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/27c85d6da5af408043e4442130be9d32.wav"
+        },
+        {
+          "ab": "maaezet",
+          "ch": "相互在一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bd145b953ca8fb44d6b1aed1f9acdc85.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "賓格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2b6a25ea13bf5d3f60fa8bc527fdadc6.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3891072c5ae3058cc0b457b82b6d2d46.wav"
+        },
+        {
+          "ab": "mamais",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/de339daf251a26445e09e26242e55f6a.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7ba4a51878ccb1b6d34731edd1abf4ba.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/09c6b26dd3779b0383eef60983373a64.wav"
+        },
+        {
+          "ab": "maxahapit",
+          "ch": "嚇到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5598dbef5e8e05a91473d35724fe522f.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e8e57083249fa00c06f57cce65ac390c.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a41ba67c6e9aa105f310732843f01c98.wav"
+        },
+        {
+          "ab": "hauay",
+          "ch": "是啊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4f02cebf5673725a4ef1b1f2f9a95080.wav"
+        },
+        {
+          "ab": "maaezet",
+          "ch": "相互在一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8e2432bbc88196ab238a39faeb9f4e7d.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5d7375ca37bee1c2489e1ec8fd28f778.wav"
+        },
+        {
+          "ab": "yamisw",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/693acf432bed30eedbe1d531e0f46bb3.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4b698bb54a9a301015e9b7e3cd722ca6.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3214e67977a0975eec0440bcf9d1e923.wav"
+        },
+        {
+          "ab": "Lalu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/63bb0e449d4b8e93cc1c84d8a94dcd58.wav"
+        },
+        {
+          "ab": "daalian",
+          "ch": "中午",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/90a4e345cf041221f46b5957d7b65535.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b7f250fc98aa2fa2cefc31463b8d5926.wav"
+        },
+        {
+          "ab": "haaput",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8e0730f049d51bc5a0cbc4184e023f44.wav"
+        },
+        {
+          "ab": "mutalek",
+          "ch": "烹煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/32571b19031aad9c1fa48dc5ae770f4f.wav"
+        },
+        {
+          "ab": "axay",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/10dbdeeba09813083743b776f7809d8f.wav"
+        },
+        {
+          "ab": "pai",
+          "ch": "疑問助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a2677fc9fbc61b9eba9f544be4d75c47.wav"
+        },
+        {
+          "ab": "siw",
+          "ch": "你.附著式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8b34a45c515c2528fdb22536e6eb07c5.wav"
+        },
+        {
+          "ab": "laila",
+          "ch": "如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9b60e896a866aa2c33e75e6dfdbca78d.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f07e6abc25da5555aad4a2ec5d347c82.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/71c0a14a71fb94de3bcbc6bb640ab435.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "女性長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b8fffb5519430ddf8f774fe6b11024c2.wav"
+        },
+        {
+          "ab": "Lalu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/728532dd4df6e245d992ff7a0681969b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fd3b3a68b421e854f1f0693d1125195e.wav"
+        },
+        {
+          "ab": "taatalekay",
+          "ch": "將要煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a88806e9098a5cc2d8888e3179180441.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "賓格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/aad14840a0edb629f291bc658eebf299.wav"
+        },
+        {
+          "ab": "alaw",
+          "ch": "魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/163c2b1d2d3d2c511ef27a59516de1cd.wav"
+        },
+        {
+          "ab": "pataw",
+          "ch": "雞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/25c0c423bd5a7c65ebd172ad81c752ad.wav"
+        },
+        {
+          "ab": "xalam",
+          "ch": "菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e83f5d685ea2504715bd865232e393d4.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2e2acc94f74c9d72ef663523e992e196.wav"
+        },
+        {
+          "ab": "talup",
+          "ch": "湯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/675973fa3de9d67c8ce9de19109cd226.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "賓格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bd3dc160d0159f3f76dc657637412f73.wav"
+        },
+        {
+          "ab": "uawan",
+          "ch": "番茄",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4a5b90d8f974df1b1eed9c65984705ec.wav"
+        },
+        {
+          "ab": "mineken",
+          "ch": "吃過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4f03e045769dc3a9a8f3c13bc8f29460.wav"
+        },
+        {
+          "ab": "daalian",
+          "ch": "中午",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6dbb762ff870c4eb50c50cb1d1a32c1a.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e7508e16b762bdab8d76f7fb989a9b74.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/96bdaff67382571d13558060c8eb82a0.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0f1f512694b459fc064ffda4daeda5a8.wav"
+        },
+        {
+          "ab": "sikéko",
+          "ch": "百香果（借詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/020978501ec513ecc3f3a04d5a8f8505.wav"
+        },
+        {
+          "ab": "ha é",
+          "ch": "語尾助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8784a05a63f4768f1724d6387b59945c.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "吃完午餐了，那時Taubas說「我真的很不好意思，在我的村莊只有一夫一妻而已，因此我才會驚訝！」Akim阿姨說「別感到不好意思！你第一次看到，當然會這樣啊！」後來Taubas問「Akim阿姨、Lalu阿姨是何時結婚的呀？」\r\n",
+      "ab": "mineken a daalian lia. isia liaki Taubas ka, “minasikasikat hayaku. aidi naki a eten ka nahaza mamais mamaleng eezaw, haka maxahapiden liaki yaku. ” tata Akim ka, “ana masikat! pialay mikita haisiw, haw haka monosu lia!” liaka padudu ki Taubas, “nukasayan a maaezet paiki tata Lalu iu tata Akim?”",
+      "order": "8",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e58518f60a24450ff47557995798402f.wav",
+      "word": [
+        {
+          "ab": "mineken",
+          "ch": "已吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ead1586c021ddc2af9096d2e3b1e2ea5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f4277d4c5e16b014aae99641f8b1f2f8.wav"
+        },
+        {
+          "ab": "daalian",
+          "ch": "中午",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6415d515061f331e6ff5a71d76d469fb.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/82594a1807e21abc6ea8b25d8c6213c6.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/632ff870a0cab06734e12d14611a4817.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/916bf2704dfd4b366c9ac6b32bee24be.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/525f1e0ebf0e43513f2f33ccc78ff8ce.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6134c51f6785c3bcd252a5c4c9dec670.wav"
+        },
+        {
+          "ab": "minasikasikat",
+          "ch": "非常羞愧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c9f80208fa99ae642bc2ce03bf3facc7.wav"
+        },
+        {
+          "ab": "hayaku",
+          "ch": "我.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e93694aead635820bd8fb5bee7e66f4c.wav"
+        },
+        {
+          "ab": "aidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/004b59e0eb4a1551722e14a293c81283.wav"
+        },
+        {
+          "ab": "naki",
+          "ch": "我.領屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9f66d744335548741f720b01b3fb53e4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/742d73bd8f3658979813b4bcddfbb82f.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/cb2e97c56a890498846f480b9d51ccd3.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0841401b9ab25b465a836267b31c62b3.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/113603a5ecb4f1892761ad4c259922ad.wav"
+        },
+        {
+          "ab": "mamais",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/747071dff3e65e24d927386682cfdcf2.wav"
+        },
+        {
+          "ab": "mamaleng",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/948925c904ba155c2ec2bab49e4aef87.wav"
+        },
+        {
+          "ab": "eezaw",
+          "ch": "而已",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ad5c4b1bd47299c080d1fd4398012ac6.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5a489ce6fe7656b70de6855a4e68e4f8.wav"
+        },
+        {
+          "ab": "maxahapiden",
+          "ch": "被嚇到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b3767ca23652576d42cdf3151f677dba.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7ab408a8790029e8842f77722428e139.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9b62eedb1c62bfde2e5f2ecbda0cb768.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "女性長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8b53175ced38aa464c36b53d653cdaf6.wav"
+        },
+        {
+          "ab": "Akim",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/47451d922ae2672db6eb267047cd37f4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0a7e486a4ec8354eee0bb338954a3fda.wav"
+        },
+        {
+          "ab": "ana",
+          "ch": "別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/75880adc27c1904ce631ee6b1c8d6c5f.wav"
+        },
+        {
+          "ab": "masikat",
+          "ch": "羞愧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4e4aaac59acae5552115ac3d62a5399f.wav"
+        },
+        {
+          "ab": "pialay",
+          "ch": "第一次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e08c11098a18559de9d10a7c36c3a49d.wav"
+        },
+        {
+          "ab": "mikita",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/037ea81bb33f7c4ae9616fd140e0a9e8.wav"
+        },
+        {
+          "ab": "haisiw",
+          "ch": "你.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/dad967681e3a443931c85fc023d253e4.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7796bfc0ef40597aa70040cbea529062.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/609076655be8055f1e75d004729addb9.wav"
+        },
+        {
+          "ab": "monosu",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a5aeb66b927e54a84b4479231466c71c.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/586cb0075cb260e35fe27c0c73db9b2f.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6791c149429665e8dc6f855edf54834e.wav"
+        },
+        {
+          "ab": "padudu",
+          "ch": "問",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/df75aef7c1517c618ff20451ddc2bd71.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7de6883d0e3b37b6f9d7a9d6189343a4.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a3d87078430dd5676c56befca3937607.wav"
+        },
+        {
+          "ab": "nukasayan",
+          "ch": "何時（過去）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4d567ab8eacae2286e8ce74efe981094.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/77680c9e07117f4eb7ef5de0d2c0abdd.wav"
+        },
+        {
+          "ab": "maaezet",
+          "ch": "相互在一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b824677c5acc369812d5ecb9b8134e4b.wav"
+        },
+        {
+          "ab": "paiki",
+          "ch": "主格標記.疑問",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9f7bdabda16969c8d05ccf7ce7090be2.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "女性長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9a05d5240cc8c3c7c0e20eb3503c442d.wav"
+        },
+        {
+          "ab": "Lalu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3665b9bd4f0a4c5da63e0808aee4932e.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fd1168ed47900378b46926fbd8e717cd.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "女性長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3d036cb16fb0e96a590b983afc7cde6b.wav"
+        },
+        {
+          "ab": "Akim",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/61d19a7bb1bf4c701798e514fb7bed5d.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "Adunu替媽媽回答，「已經二十年了！但是政府那時候只讓男女結婚而已，所以媽媽那時候只有互相交換戒指、宴請幾個朋友而已，所以不是真的結婚。十年過後，（同性）可以結婚，媽媽就去政府（戶政事務所），簽名後才正式結婚。朋友也見證了他們的結合。」",
+      "ab": "Adunu ka, “dusa isit a kawas lia kuila, taumala isia ka paaezet mamais iu mamaleng eezaw, haka isia liaki ina ka maapazili limuk tatudu, iu pakan xanixanisay a batan eezaw, haka uzay edede a inezedan lia. isit a kawas muazaw liaka iak a maaezet lia, ina haka mukusa di taumalaan, mubizu u langat liaka ede maaezet lia. namisiw a inezedan iu kitaen ni batan.” ",
+      "order": "9",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/94ddb45032d0833ff235f7a7c925a7a6.wav",
+      "word": [
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1e2a1e21f9b862c89675179943b61c27.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d6aefbbfcc94222db3c935d264380718.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2fc95e564759da7fc66ae4a7829b9249.wav"
+        },
+        {
+          "ab": "isit",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ae46e4c317957c26d063297bffb2b9fd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f38d13977ade4b346ceed531179f41e8.wav"
+        },
+        {
+          "ab": "kawas",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9ebc348acbcf676344960e94482af8e4.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/222c7eb24794c9732f37e83760123b4f.wav"
+        },
+        {
+          "ab": "kuila",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4fdd687efcbb5aca04b1bbbcb1ba75d7.wav"
+        },
+        {
+          "ab": "taumala",
+          "ch": "政府官員",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d0c7e7c287ee9ce3d43fc5fb5f23315b.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2ea700c594f6e4d6ab61edb3e96b8664.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/525a7521128d80101143a4ef9b246073.wav"
+        },
+        {
+          "ab": "paaezet",
+          "ch": "使（兩人）結合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/790455180e44bef5d5d3b0197c0811d4.wav"
+        },
+        {
+          "ab": "mamais",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a80efdc43d721352ac071bb9d20361cc.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f63b832dbffe2916b5118cfcf2dad012.wav"
+        },
+        {
+          "ab": "mamaleng",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/88fb7b1d4f8c2cce205282bfc6ad4bfe.wav"
+        },
+        {
+          "ab": "eezaw",
+          "ch": "而已",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2f61fb93f6c4b385fcfcdcf07e93840a.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/938122a415031edfc430922eb51865b8.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/984bd59e623e7cbf21bd5dd96db03c90.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b64756f5e6fbd66aa76e25f8b20965b8.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/702b13ce70bc8dc7b954c26ef2418c9c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/29853f1767382809b527b5ff13aebf04.wav"
+        },
+        {
+          "ab": "maapazili",
+          "ch": "互相交換",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f02b7d0bca9720f42a61d92852390f5f.wav"
+        },
+        {
+          "ab": "limuk tatudu",
+          "ch": "戒指",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f7f8ce7df80c18dc695989bfbae42781.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1d5608c8765f5bea1f70460cbe9495ec.wav"
+        },
+        {
+          "ab": "pakan",
+          "ch": "請客",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6de945b7269217b87ecde30d1ef7345e.wav"
+        },
+        {
+          "ab": "xanixanisay",
+          "ch": "幾個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3257e0e52a5259592797b60b2a27874e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0086acd9cef54958132d3f9259680d18.wav"
+        },
+        {
+          "ab": "batan",
+          "ch": "朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/11a9ca970126fe6487e1b8028dec1174.wav"
+        },
+        {
+          "ab": "eezaw",
+          "ch": "而已",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/12a4c56dd2bbe0a585cba0a8c313bb07.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6c070a9da0b79b60bd3c8a1e47703d00.wav"
+        },
+        {
+          "ab": "uzay",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f7cf964a96d10adfd5a7e446211807d3.wav"
+        },
+        {
+          "ab": "edede",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/08ed8048eaf33aad6cd3a596ae206b54.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2e87c4d19219a0fd331def6bab42e20d.wav"
+        },
+        {
+          "ab": "inezedan",
+          "ch": "婚姻（兩人結合的結果）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4e840bcfbedb929151b0e8cb999a4e2d.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b559c0cc5f37c7bf7bde4825dc911210.wav"
+        },
+        {
+          "ab": "isit",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3856d30da9b3e189d99fce7488dfb2aa.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1af72b50f578b4a8a39585a20c686a26.wav"
+        },
+        {
+          "ab": "kawas",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3449e83427b382246e92f2025f7277d1.wav"
+        },
+        {
+          "ab": "muazaw",
+          "ch": "度過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/167350dbc163fdaa099da2fa9ca96056.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e2ae4a3488e27e0f129e70864d820d22.wav"
+        },
+        {
+          "ab": "iak",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1c43e11855c60266e337c8afedf0ad66.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f6ed45142dbb4badcdb9b60c4b5072d9.wav"
+        },
+        {
+          "ab": "maaezet",
+          "ch": "相互結合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7527b74cd38d7bc83e42d08182c40e3c.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/05daeec46786f1f0acbf7ee20b6250c3.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7858447056373928c01fb3f1f8afcba0.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fc78c5c531161b70c1eb139a6bdf617b.wav"
+        },
+        {
+          "ab": "mukusa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/44ebdbda77fd9636a8b0f7cb93218dbc.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7eb004b6223bcbaa65500da94c27f389.wav"
+        },
+        {
+          "ab": "taumalaan",
+          "ch": "政府",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/79eb6cd304167711bde0a4b42ba70b91.wav"
+        },
+        {
+          "ab": "mubizu",
+          "ch": "書寫、繪畫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b5ea9177d132f07a54bf8c21add28d90.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "賓格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3624f0a260d9a207203bbf2df3356812.wav"
+        },
+        {
+          "ab": "langat",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/51f75011f4f1af51df88cb6d67b675b6.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d6b1f8a43294d814a730fba9d253d74d.wav"
+        },
+        {
+          "ab": "ede",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/edd57de31900de7fa62e376eb435a3b2.wav"
+        },
+        {
+          "ab": "maaezet",
+          "ch": "相互在一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/58ccfb707fa4fb667a156e5e639eec8b.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/91fafb354a6ceda5fcfc315a4ee12ef2.wav"
+        },
+        {
+          "ab": "namisiw",
+          "ch": "他們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e154f5bfd61f4385cc06c414880cd51e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4ed22a86c1ec06f7a82d0c725d994d52.wav"
+        },
+        {
+          "ab": "inezedan",
+          "ch": "婚姻（兩人結合的結果）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4aed5708c79151aa2b97a48446bd1a62.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0c7e61f8ce008e491937402d8d0419d9.wav"
+        },
+        {
+          "ab": "kitaen",
+          "ch": "被看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/949a58b7d9129cf2e1383ab1885aa829.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/12d1627f6001b8d01b58a736514dcca1.wav"
+        },
+        {
+          "ab": "batan",
+          "ch": "朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5044b866b306c3f55bc702e78e95d82b.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "「四年過後可以領養小孩了，她們兩個就領養了Tabiliah。Lalu是我的生母，所以我就叫做Adunu Lalu，Tabiliah則叫做Tabiliah Akim。」\r\n",
+      "ab": "“supat a kawas muazaw liaka iak a mudalum akhéhan lia, yamisiw dusa liaka mudalum Tabiliah. ina Lalu ka naki a pinaisan a ina, haka Adunu Lalu sen ki yaku. Tabiliah haka Tabiliah Akim sen.”\r\n",
+      "order": "10",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f3949fa34208fe26a430aed32434ebc8.wav",
+      "word": [
+        {
+          "ab": "supat",
+          "ch": "四",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8d60f87e20c1dfbc8390dec17f72e285.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7818e7dbee2c694b4fa9b4dd87fec922.wav"
+        },
+        {
+          "ab": "kawas",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ed03c3e5c71da2c25bc84fb82c63bb38.wav"
+        },
+        {
+          "ab": "muazaw",
+          "ch": "度過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8a601b65eb3221a910e0326e68ae50d9.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0da353b32783365a7b9971c15f042e09.wav"
+        },
+        {
+          "ab": "iak",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0284ce325732a4d651500cbc52843324.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/eab73586e77016f8abfcbc3745d8286f.wav"
+        },
+        {
+          "ab": "mudalum",
+          "ch": "收養、養育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e355531f2137b12d92eaddaeb7ef78b3.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/04cb3718028c5ba2b1968b323a594091.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/29159715ac9655b8274a7f2551d0b885.wav"
+        },
+        {
+          "ab": "yamisiw",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8549e3c60c335e7f41029016c433e5be.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8f6630f7d9377a098a019e8899ff27ee.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/12fd5488845f5fca818c7857404376e0.wav"
+        },
+        {
+          "ab": "mudalum",
+          "ch": "收養、養育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0e979dd63ee8679f1eef19cfff688bb8.wav"
+        },
+        {
+          "ab": "Tabiliah",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5b9103a28d7e561608c6abf0721b1fd8.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d1cd963c3c89678f057a4ede4ff98b06.wav"
+        },
+        {
+          "ab": "Lalu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/193014e055c4d2f2a36c4d6636964ae3.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ba912d3720b1cfbbcc9ea07dcf676042.wav"
+        },
+        {
+          "ab": "naki",
+          "ch": "我.領屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6f50169ff94117278ebe41abf7449833.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fcfb729a6facb13945a27d4039b96c44.wav"
+        },
+        {
+          "ab": "pinaisan",
+          "ch": "親生的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/aae97bff2fbbae119c5c04f39112529b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4f483a285925bf3824819dfea96992c4.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7a6edc862db0292f54cdaf4223161c98.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7b9a2ae2b9551eea93e4306ac121cb0a.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/50e136d02fc916e43cf5b77322b1ff40.wav"
+        },
+        {
+          "ab": "Lalu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9027c672216b8c4079684a0f0b67f9a1.wav"
+        },
+        {
+          "ab": "sen",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d5c8010fd0533cfbf06e1b6abf842f85.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9bcc40cbe886a019657602d2c8a46389.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/05a6f1c7f5f188f9d5579ca0f5a2538d.wav"
+        },
+        {
+          "ab": "Tabiliah",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/35a695c0bb9d9a848c7af7f9d4657403.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1c508c4e38f423a8c779ecd7a7d86279.wav"
+        },
+        {
+          "ab": "Tabiliah",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/28763b82d471712487be55729d6ed371.wav"
+        },
+        {
+          "ab": "Akim",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4c39d86994dd691055c33deb3fce0332.wav"
+        },
+        {
+          "ab": "sen\r\n",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c0bf0359ff85dbddbf5f494ca102e9df.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "那時Akim阿姨說「就是這樣我才要跟Lalu阿姨結婚！如果跟男生結婚，他可能不會把小孩給我！（跟我的姓）」\r\n\r\n那時Adunu笑了，「別騙人，妳喜歡Lalu媽媽的眼睛才是真正的原因！」",
+      "ab": "isia liaki tata Akim ka, “mononi haki maaezet maki tata Lalu hayaku! maaezet maki mamaleng ka, diala nang a mubaxa akhéhan di yakuan lia!”\r\n\r\nAdunu a isia liaka mahatan lia, “ana maahan! haaput ina Lalu a dauik haki ede ha!”",
+      "order": "11",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5b5646a10ed27900d61d78c48da2d881.wav",
+      "word": [
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/607b62fb698e85aa32964d2ec7c54380.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1359b7152d8475af36a781ba467ff3da.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "女性長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/72753d0ce03af4cc052068ad7bf3c8c3.wav"
+        },
+        {
+          "ab": "Akim",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ef31f6d7655174d3be7fba21d075c018.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/af5ac5c14d1c9ff9931fec5029230add.wav"
+        },
+        {
+          "ab": "mononi",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4a855f92ec4017b6773f28a48183b5d7.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/50c77d5d295493c6059187671a6f7bfb.wav"
+        },
+        {
+          "ab": "maaezet",
+          "ch": "在一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9095d1967310bf020e128e69d34a86fc.wav"
+        },
+        {
+          "ab": "maki",
+          "ch": "跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/db257844b7111a118c6b0429555c187d.wav"
+        },
+        {
+          "ab": "tata",
+          "ch": "女性長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b7c87ec14eff7cc1b2319bb772067143.wav"
+        },
+        {
+          "ab": "Lalu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3d34906531774317a0a958699efe53d4.wav"
+        },
+        {
+          "ab": "hayaku",
+          "ch": "我.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a7ec9dc58a7fa2c8b9cfecee3500f591.wav"
+        },
+        {
+          "ab": "maaezet",
+          "ch": "在一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b235535d2f1e991965dff6919d145858.wav"
+        },
+        {
+          "ab": "maki",
+          "ch": "跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b8908457eaf873b22aba1bbef4e9e26d.wav"
+        },
+        {
+          "ab": "mamaleng",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b7673a3071924cf6af46ddbb16e338e8.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f58ad998ae7274e4d5f17802ff3dde34.wav"
+        },
+        {
+          "ab": "diala",
+          "ch": "恐怕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6a40249c734d85e8da3d13a1e1a5a9cf.wav"
+        },
+        {
+          "ab": "nang",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/848456412f501cc6b51a50346f75698d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/41d5c579d9f083181ee0630ae19ae63e.wav"
+        },
+        {
+          "ab": "mubaxa",
+          "ch": "贈與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/388a2dd1fc8381b1b21591dbc45182a9.wav"
+        },
+        {
+          "ab": "akhéhan",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/279de54f87b3267bf0431e9195e4f9ef.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/289082b95bcf33f3a10a3a7bf9efce01.wav"
+        },
+        {
+          "ab": "yakuan",
+          "ch": "我.受格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e621d3efdbea4833695b7f8f979f9e23.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/78b45a9c07185e4a88df1e9dc01c80ca.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0601ccdc3e43eafa9f0a4b37aacbb2f2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f19bcc3f4450e5064a0345b1bb421c26.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4305f243be5faffe50b272610c679937.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/35bd989fddacebc72623088ee933213b.wav"
+        },
+        {
+          "ab": "mahatan",
+          "ch": "笑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0834e4fa85dee4f99c32dc74bb48dc2c.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/cd0511aba22f69f89e7aeff7241eab27.wav"
+        },
+        {
+          "ab": "ana",
+          "ch": "別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/eaa3580eade9e370beca2b9d602bca4e.wav"
+        },
+        {
+          "ab": "maahan",
+          "ch": "騙人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a945de0732fe2ade11615f94268da852.wav"
+        },
+        {
+          "ab": "haaput",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/345f161c023223ef75601be2ca60c22e.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5b9698d813fe94fe9ea833f628262d46.wav"
+        },
+        {
+          "ab": "Lalu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/92602f32881885edbb2ea636006d0468.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/73196a0222ae3776d1de93e7d7e2681f.wav"
+        },
+        {
+          "ab": "dauik",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bb7a33620ed23fd3ff8876e05583be40.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c9dea5757ec8b234079d235efb9d6328.wav"
+        },
+        {
+          "ab": "ede",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fe02ba986447192aaa47bec8d904126a.wav"
+        },
+        {
+          "ab": "ha",
+          "ch": "語尾助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/91d635104ac6bc276e2e40987549ecda.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "時間過得很快，那時已經傍晚了，Taubas要走了。\r\n\r\nTaubas說，「我要走了，謝謝你們請我吃飯！Adunu，也謝謝你讓我來你們這。」\r\n\r\n「不客氣，但為什麼要謝謝我呀？」\r\n\r\n",
+      "ab": "maidah a muazaw ki daali, isia liaka ahuan taating lia. Taubas haka mausay lia. \r\n\r\nTaubas ka, “tausai liaku. papateezaw ka pakan yaku haki imu! Adunu, iu papateezaw ka papuzah yaku di imuan haki isiw!”\r\n\r\n“ini kuila, saasay ki papateezaw yaku lia?” ",
+      "order": "12",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/970f6e9e9bc6f5d5c38caf903ba7468b.wav",
+      "word": [
+        {
+          "ab": "maidah",
+          "ch": "快速",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/559ed9b7c54e51c3abaedf303c880992.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/89e25caaa731ed2dffc52ab6b90f1342.wav"
+        },
+        {
+          "ab": "muazaw",
+          "ch": "度過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/07b157270bcd15eadcac803cf5b120a8.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/6e577670cdeac9a86e45fe90391c1bbf.wav"
+        },
+        {
+          "ab": "daali",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d3c365e5151643c74f3fda0ba4256d1e.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3bde1b1cc59b04fab3b087a066b2681e.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/253f48bee6aebe3d4cc9b2176b8008ad.wav"
+        },
+        {
+          "ab": "ahuan",
+          "ch": "晚上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c9e240f1e642fa995ec38f9164e35653.wav"
+        },
+        {
+          "ab": "taating",
+          "ch": "少、小",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ca8512863e4246bc66882e3dd03e7e53.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fb3d99a52ee96d5f6558dd35aec90a43.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f561c2a14415e19a827266d4a11f64aa.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b0c1c1b44ed3ca94f2fa81de8f344474.wav"
+        },
+        {
+          "ab": "mausay",
+          "ch": "要去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/404b3720ebe941deac24a8f1c6fbb97c.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/528e4db4c24b6214be91a33c435e73b9.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/357c8c59657bc45bc326bb2c6828199a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f227a378df95721d4a4e930305b75c00.wav"
+        },
+        {
+          "ab": "tausai",
+          "ch": "要走了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ea2577f375b4286bd7c709e52974cf1c.wav"
+        },
+        {
+          "ab": "liaku",
+          "ch": "了.我.附著式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b2088eb0fc8a74a73abc148f6679f77b.wav"
+        },
+        {
+          "ab": "papateezaw",
+          "ch": "謝謝（使付出）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c9bd49184f4c255e87f1ffb3c3e64d5c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0f9d4f7095904b2ac9c91a9cfeda0e38.wav"
+        },
+        {
+          "ab": "pakan",
+          "ch": "餵食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/26d509e2ab2ec76d87a9b5136239bed6.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/046baf4d27a74b63fe78976d7aa55bf6.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/82f2768e07c3008d3949a0c11cdadaa2.wav"
+        },
+        {
+          "ab": "imu",
+          "ch": "你們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d4eaab8846597196b747b5afdb80429f.wav"
+        },
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a3fe6d9086b057964c67556b33ff80cd.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e177ad3547a2b1938aee9079d947abec.wav"
+        },
+        {
+          "ab": "papateezaw",
+          "ch": "謝謝（使付出心力）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7ce36e49bd6d95be4c32e8e3d00c69ab.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/839444b86e08a90cc2a2767108fd9272.wav"
+        },
+        {
+          "ab": "papuzah",
+          "ch": "讓（我）來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b8c3a45d082293cb9f49c737260c16b2.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bffd7472e4276ac6d8a48feb497d144d.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/37206df49837ad427b125aa70471183b.wav"
+        },
+        {
+          "ab": "imuan",
+          "ch": "你們.受格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/15876ce6b20be40f3cfcad0341ab4e29.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/45a2672a7535117e0275633f89304625.wav"
+        },
+        {
+          "ab": "isiw\r\n\r\n“ini",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5ee439527fba15999cb67c9479ada0a7.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d0df3ad832916281f52ecd90cbd5efa1.wav"
+        },
+        {
+          "ab": "kuila",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c70e20ab31948aba0da6ba3e246ef678.wav"
+        },
+        {
+          "ab": "saasay",
+          "ch": "為什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4ac202ee0ebfb2aa58aea532d1f7addb.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/069320f48228bc98921b41aafa77fc92.wav"
+        },
+        {
+          "ab": "papateezaw",
+          "ch": "謝謝（使付出心力）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/22e3cb45630a1682fc6822cb27901666.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/a8fba7232b85ea00244c2de3c29135a7.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b739244a12a5fcb94e6cd52120dd43a1.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "「因為我沒有爸爸，所以看到每個同學都有爸爸媽媽，我就感到很羞愧。你們家也沒有爸爸，但是兩個媽媽疼愛妳們，讓我想起我的媽媽其實很疼愛我，所以我不會感到羞愧了。」\r\n",
+      "ab": "“yaku ka kuang a aba. kitaan di azang a tadepex ka nahaza ina aba, haka minasikasikat liaki yaku. nisiw a xumak iu kuang a aba kuila, dusa ina ka saisiman imu. paxakelat yaku ka saisiman yaku iu ina, haka ini masikat liaki yaku.”\r\n",
+      "order": "13",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/33374e43334e3b335e7305b9a84b555b.wav",
+      "word": [
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/582881daa603afe8f970987922d5eb0c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/881bee66929a490040b56ee5999fb019.wav"
+        },
+        {
+          "ab": "kuang",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fb91b594e2602082c9a2f489b7719440.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/710c329bc2b8c55674b10b1ec9d08544.wav"
+        },
+        {
+          "ab": "aba",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/693f71f1881ed1a9555f2fb416f13a19.wav"
+        },
+        {
+          "ab": "kitaan",
+          "ch": "看.處所焦點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/65bd53d2882f5ce289c282b613e7d931.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5be84a9bfc5377027f962532940ace69.wav"
+        },
+        {
+          "ab": "azang",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/576047d8466ba19e03199fc37b801bba.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2b769cc59990b12a2f0510b727baf4db.wav"
+        },
+        {
+          "ab": "tadepex",
+          "ch": "學生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9046cdcbed81394f522bd9d8e89e06b6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f9deda923b93d415d3ce232a3431795c.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d8dbe0baa6e0bbcc3b0d1e8219a5d2ad.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ced35dcf3cbd03ee31da7cc44750ea08.wav"
+        },
+        {
+          "ab": "aba",
+          "ch": "父",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7fea1b013e467e4d52347f1d22b74e91.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/fbda33062c4a2a378901f05d73c66275.wav"
+        },
+        {
+          "ab": "minasikasikat",
+          "ch": "非常羞愧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0334c007172459d4cf88cd6eeb8f985b.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/68e60ebab7cb216db13fd1666cb48bc4.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d5f6bb83ccce057e4987debebe073feb.wav"
+        },
+        {
+          "ab": "nisiw",
+          "ch": "你.領屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2fe61529a043492f092c738930fab5e7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/91936456d2b58cc76d7c4b36da651fbc.wav"
+        },
+        {
+          "ab": "xumak",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9f311587d937a7255b4e807e98bc97a2.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/9377d01ae0152af746a52c30ba69b401.wav"
+        },
+        {
+          "ab": "kuang",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/379833430e712f170bb61947e292ed12.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/48504c7eb99df7c3529588a578bc5731.wav"
+        },
+        {
+          "ab": "aba",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0a056ff5144d34e41f910a141ec6a061.wav"
+        },
+        {
+          "ab": "kuila",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/230c6cdae328fffdc5be57ecf39ae943.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/75b3a58d44481e5613f12832f41b3efa.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8d1b7d793d763f34334457b281f81bea.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2cc7065f27abb0a04817dffd402ffbfa.wav"
+        },
+        {
+          "ab": "saisiman",
+          "ch": "疼愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7d12d03aff21f0833d8b4d858bca3c64.wav"
+        },
+        {
+          "ab": "imu",
+          "ch": "你們.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0a11a880f63a3109d1daab220d3bad82.wav"
+        },
+        {
+          "ab": "paxakelat",
+          "ch": "使（我）想起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bb0abef770e3c32875f27ce7cd4f9eb7.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/8581fad6648c957923049f41d4d7d395.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/bdfc6a618265642fac8dd2530889760e.wav"
+        },
+        {
+          "ab": "saisiman",
+          "ch": "疼愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e8468e1d1656c629e50235b6a31c49c6.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d82b92d03748df348e8c0ebd12907c9d.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/b0652ffd92f0bc08d1fa3a3d04b64787.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/335c509687ce753c9779cb68b84faede.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/210b6b9803888ed8e57c84194c2af9f6.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d289a5432c0142ea636777a3a83e430e.wav"
+        },
+        {
+          "ab": "masikat",
+          "ch": "羞愧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/085529ab4c5323a2d5303b2b4bb6b371.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5d6db3a061762057fb683c1be7817f04.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0a0697fbd299c966616c780a5af8e592.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "Adunu告訴Taubas「我很開心你不會感到羞愧了。我喜歡你，因此（你）有爸爸或沒有，都很好。」\r\n",
+      "ab": "Adunu ka makuas di Taubasan, “ini masikat siw liaka mahatahatan hayaku! yaku ka haaput isiw, haka nahaza aba iu kuang, ka iak dadua.”\r\n",
+      "order": "14",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4c9b63b6e3d9395203f67aa5d5d4db38.wav",
+      "word": [
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5b82e0a2db1b617545631c60eeaa5593.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2274c1e26cdaf498a628a92401aa9dca.wav"
+        },
+        {
+          "ab": "makuas",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2ebae857d4e195d77047bc18fe83e5da.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/65611a1ce1e72bfbb57138512c657ede.wav"
+        },
+        {
+          "ab": "Taubasan",
+          "ch": "男子名.處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/cefb7387ea46b4c87d7720e2d74480d3.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/58bc618d23d01a092777d8ec8247923e.wav"
+        },
+        {
+          "ab": "masikat",
+          "ch": "羞愧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/60ddf1cf3216bbb794599b1c2ec2995e.wav"
+        },
+        {
+          "ab": "siw",
+          "ch": "你.附著式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3b24bcab8920422060e35043936d906d.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "主題標記.完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/87ff6c9fd50d469ac429e432e5fa4b12.wav"
+        },
+        {
+          "ab": "mahatahatan",
+          "ch": "開心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/dd20fd2ddcde80a50f21777230714876.wav"
+        },
+        {
+          "ab": "hayaku",
+          "ch": "我.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/81345b282f05a469f8fffd225c5cf0ef.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/851f2b33f3c78427852c9c200b792c45.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/02187269c7dc950a9efad077554fa049.wav"
+        },
+        {
+          "ab": "haaput",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/af554ca425aac3b84eed1e21392c905f.wav"
+        },
+        {
+          "ab": "isiw",
+          "ch": "你.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/699bb3c7d4577bfffeb0230cd0957fa4.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "主題標記.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3164069825b5a12d06e3fb68d3986d81.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/869c462c68b1e8abdd0d71d4f35190f2.wav"
+        },
+        {
+          "ab": "aba",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/394c2964da596ae4e6bd596eab1fe495.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "或",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/e9fd5d28bbd27f8333fbad8e6f782958.wav"
+        },
+        {
+          "ab": "kuang",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/71c5bc7696f517690cbdc599916736b1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f18fecc0d9c9832b59347bf1554657a5.wav"
+        },
+        {
+          "ab": "iak",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7412a78201706ef7dcd8109e39d6026b.wav"
+        },
+        {
+          "ab": "dadua\r\n",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ca8b7b9785a4bbc6dcf5bb251b7394e8.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "Taubas很開心，「我也喜歡妳喔！之後帶你的媽媽來我這吧，我媽媽也很會煮菜喔！」\r\n",
+      "ab": "mahatahatan ki Taubas, “yaku iu haaput isiw ha é! aubin a daali ka asui nisiw a ina di yakuan haw! naki a ina iu minabazabaza u mutalek ha é!”",
+      "order": "15",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7cc0fc5c09ffaec1b5162b87d2d32467.wav",
+      "word": [
+        {
+          "ab": "mahatahatan",
+          "ch": "開心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/c4f1eae425c4c9831f32cb7fa22d0b34.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7442b6cafb1a8ecd49fe194ce53849e3.wav"
+        },
+        {
+          "ab": "Taubas",
+          "ch": "男子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/2f2ab44693c557adb54abe32630f70bb.wav"
+        },
+        {
+          "ab": "yaku",
+          "ch": "我.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1a30ee16c533acfa69afd254a134e93e.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/252846935305edba6529286cd5d9b949.wav"
+        },
+        {
+          "ab": "haaput",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/460300c782fdb4256f68210cb7191c71.wav"
+        },
+        {
+          "ab": "isiw",
+          "ch": "你.中性格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/40011d6c55e14a6657d8a3d4a32a5ee2.wav"
+        },
+        {
+          "ab": "ha é",
+          "ch": "語尾助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/7a548a656163214093bff88780741e15.wav"
+        },
+        {
+          "ab": "aubin",
+          "ch": "後面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/1a4f489bf7fdab1383c4093a69711bfd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/72fa8719b4355f3002c82694e7e57ee1.wav"
+        },
+        {
+          "ab": "daali",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/70ec9072257d9a40aaf1beafdb491b65.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/cdf7e96d8d4f7a218ce044320ddfe1da.wav"
+        },
+        {
+          "ab": "asui",
+          "ch": "攜帶！",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/cdc987cde944a0ec560bf1fca2d3c020.wav"
+        },
+        {
+          "ab": "nisiw",
+          "ch": "你.領屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/5248765360736ae8441f99d06c168ea8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/d39bce378ef56f2050a344798f37c697.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/45a63d8aa64612bacf12a71c79c08156.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/531187cb7531a70779ac489fdccc503d.wav"
+        },
+        {
+          "ab": "yakuan",
+          "ch": "我.受格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/ada1543f2c8b0441f192e78ffc94e984.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/4dd082d2ac91021bfe73a2fa55e5f57c.wav"
+        },
+        {
+          "ab": "naki",
+          "ch": "我.領屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/3680dc17120afba6fdfae9304e65741b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/0b3e262ee97feff7ff1edf449cc28682.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/93f7f4220635c1a8233bb84973c0d3c8.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/db4479371eaba06ea052084163ff74c0.wav"
+        },
+        {
+          "ab": "minabazabaza",
+          "ch": "非常懂得、能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/738a672a1ac930ef0a01b891460be3eb.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "賓格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/03c5195223fe5c63111f60a274d85497.wav"
+        },
+        {
+          "ab": "mutalek",
+          "ch": "烹煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/18b717a965df4df09c08ec1b5c1fe765.wav"
+        },
+        {
+          "ab": "ha é",
+          "ch": "語尾助詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/78f5cca686037c306ca9c870a7660130.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "Adunu回應「好！我很期待！」",
+      "ab": "Adunu ka, “haw! maxukitakita hayaku!”\r\n",
+      "order": "16",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/959f64b1c7a97a10d6bc738d4989531e.wav",
+      "word": [
+        {
+          "ab": "Adunu",
+          "ch": "女子名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/711853a3367a52d66db0b129ab9734b5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/95c3131883d89b876bdffe49ae4cd922.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "好（應答）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/f6eca05e4deb6729600d74461cb79f88.wav"
+        },
+        {
+          "ab": "maxukitakita",
+          "ch": "期待",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/af870416ac67bd2afd6ec19e6fc445be.wav"
+        },
+        {
+          "ab": "hayaku",
+          "ch": "我.強調",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/26/acc000c4e9b437f289a7384f08246c27.wav"
+        }
+      ]
+    }
+  ]
 }

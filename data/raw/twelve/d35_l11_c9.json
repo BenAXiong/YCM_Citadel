@@ -1,6 +1,746 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "’abayane si sa’oalay",
+  "titleCh": "性別",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "傳統多納部落屬於階級嚴明的社會，有家屋承傳的特殊文化，繼承制度乃是由長男承家，是個偏向重男輕女的社會。",
+      "ab": "taiyanita ka Thakongadavane patolo na ta’acwavane saka’aagaini saka’alelebini ka wagingzie ka sakabaane. ’ikay ko syacocongolo da’ane na saka’ielane na bengka. ko nosicongolo ami ka, amani ko takatakanga sa’oalay. tidike’e na sa’oalay, latilapapay na ’abayane.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/60ba208749bd3a663bcdb3f1d8cede66.wav",
+      "word": [
+        {
+          "ab": "taiyanita",
+          "ch": "作法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/1e5fe06531d4d338e29b50dbef5da88f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/14a037d6205b92f4b334f3e8cc54a048.wav"
+        },
+        {
+          "ab": "Thakongadavane",
+          "ch": "多納族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/57850f3471eae58f45944616a1504128.wav"
+        },
+        {
+          "ab": "patolo",
+          "ch": "針對",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/e703447e79b470e551153b289c93f183.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/ad02d3148553766c9fcb84b701414ef7.wav"
+        },
+        {
+          "ab": "ta’acwavane",
+          "ch": "身份",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/a53e332fae656470fef595ac1c6ceff9.wav"
+        },
+        {
+          "ab": "saka’aagaini",
+          "ch": "高",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/92bac07311ccd1139c98461edf556a43.wav"
+        },
+        {
+          "ab": "saka’alelebini",
+          "ch": "低",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/e0d3807ce9e434a3db797d8942a2b77a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/cd271876872ec3bcc55e3a77529aa220.wav"
+        },
+        {
+          "ab": "wagingzie",
+          "ch": "很嚴明",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/34a58dcf1975437c9083a03535d940a3.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/5e74ebeb862495ad9d7a18771fb7d519.wav"
+        },
+        {
+          "ab": "sakabaane",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/bbbb6f50bc669556141b21ded48eb7d4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ikay",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/ea6b5eb2968bb7b7799c009b639e77ce.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/21a68e428d5053f9758bd6983cefaa3a.wav"
+        },
+        {
+          "ab": "syacocongolo",
+          "ch": "繼承",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/13962d429dbb7c55679afedd1b2b331b.wav"
+        },
+        {
+          "ab": "da’ane",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/22a90687d75b8a1c3c2728b509f6038c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/5f20cabf0a08c8c42f4adfa56d7eb918.wav"
+        },
+        {
+          "ab": "saka’ielane",
+          "ch": "特別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/8bb296d4db41d0cf59681236f26495a8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/b05600e0fc3ba7538f36878f9c23e948.wav"
+        },
+        {
+          "ab": "bengka",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/e2a9ecfc43137e4dc9141340dacbec3a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/d42d0f6f9c5e591293a9ae70c02c176b.wav"
+        },
+        {
+          "ab": "nosicongolo",
+          "ch": "將繼承",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/45cd472dba8c0acf2b4bf4524ec5a5ed.wav"
+        },
+        {
+          "ab": "ami",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f11a819f9558721976117ba36d093042.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/94afc8a13fd0cb34f07c549659ebe93a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/c42df55fd4835f67503e9e4714379099.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f9ca6e08c81b6e467e6b78c98c8a748d.wav"
+        },
+        {
+          "ab": "takatakanga",
+          "ch": "長嗣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/2125ec2124773f13af0aa515084b7d54.wav"
+        },
+        {
+          "ab": "sa’oalay",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/80900cf8f16632a0957f1342a6dcaa97.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tidike’e",
+          "ch": "重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/4fc74a305e2797402c18e14ef64f7c6b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/c6b2ac51057acfbfd4efdb740a450de2.wav"
+        },
+        {
+          "ab": "sa’oalay",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/6dffeb182abbe7cd2a7ce29226cf80d0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "latilapapay",
+          "ch": "而輕視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/1f598531bd53de9ee081bdf39310bd64.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/e341a1039b0c2eb720c79286f6bcca27.wav"
+        },
+        {
+          "ab": "’abayane",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f9fa22243322a69dc2cf5597edcc92d9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "但家庭中哪一個性別的階級較高，又會在家中擁有較高的權力，也就是階級在兩性關係中的重要性高過性別本身。",
+      "ab": "makasi, da’ane ko ’abayane si sa’oalay amanidra ko ma’aagae ko ta’acwavanini si la’ikay da’ane ecenge ma’agae ko kinglrini. laya nakay na ta’acwavane ko saka’againi dike’eanini ka waibate na ’abayane si sa’oalay.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/23/2f8df86205dcf1a3ed527844a4d81cd4.mp3",
+      "word": [
+        {
+          "ab": "makasi",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f99e3ebc4dbff779baa702fd7b2fa87b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "da’ane",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/508b3cf85bbb8c0f290c23f025c5654f.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/2636335c60de4f3e2236e07b12a8ed9b.wav"
+        },
+        {
+          "ab": "’abayane",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/6768637f05dab91eb6aeb5cde6df4d97.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/4e93cb106ffe13e1c1a92aaa7f9a30ee.wav"
+        },
+        {
+          "ab": "sa’oalay",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f854b2939846aec870849cb59412a533.wav"
+        },
+        {
+          "ab": "amanidra",
+          "ch": "那一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/c06b99da22ebeedfe8573d2b8a870c9c.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/422e27361bba8e7ed95428a9ea299e02.wav"
+        },
+        {
+          "ab": "ma’aagae",
+          "ch": "比較高",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/19421b53fd8e412d15949716f5cea94b.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/23033514037dc3ac5d07aefbca308142.wav"
+        },
+        {
+          "ab": "ta’acwavanini",
+          "ch": "身份",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/2efc1dbfc347754c69cb37ad297c6966.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/52a010213f98c7aac7b767ef262d2ba4.wav"
+        },
+        {
+          "ab": "la’ikay",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/2f40533aac016c9bc9f8252bd7a88d7f.wav"
+        },
+        {
+          "ab": "da’ane",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/b3bc845611e05fa3188e3ad9692a89cd.wav"
+        },
+        {
+          "ab": "ecenge",
+          "ch": "掌握",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/443a61991c416377d9c82a1b8c3d4c1c.wav"
+        },
+        {
+          "ab": "ma’agae",
+          "ch": "高的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/3659491b61fc9b6972afbad7fb164689.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/b8cde65a6558fcca23c6a5edc018a94b.wav"
+        },
+        {
+          "ab": "kinglrini",
+          "ch": "權力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9859ac4bd320db5b27c2dbca590e7f81.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "laya",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/6a9bd39d99e27e8730d9b486f75b7c4f.wav"
+        },
+        {
+          "ab": "nakay",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/2e5c061ef37137ee4c29bbbf323680f0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/3de514478b0ea5d17a4fa664cdd0be5a.wav"
+        },
+        {
+          "ab": "ta’acwavane",
+          "ch": "身份",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/a945ec2af067d877545d8af5e58b5475.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/cf9230bfbc7f6eda3922d0dbef7db3af.wav"
+        },
+        {
+          "ab": "saka’againi",
+          "ch": "高度",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/2322cdebdd316548126d7ffc388a362c.wav"
+        },
+        {
+          "ab": "dike’eanini",
+          "ch": "重要性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9b8096a5dbb8e86c8ed4be93ef79f40e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/8d3cedf9ebebf3632e1bd80f662c163b.wav"
+        },
+        {
+          "ab": "waibate",
+          "ch": "超過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/c7ae81a210bec7521b791e617c65baf3.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/e6b82229614ba92027c21ec42a5fcc55.wav"
+        },
+        {
+          "ab": "’abayane",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/141aa89aed9dc88bbca7c4a4b266325f.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/b1501626b787821ba39696156a301a53.wav"
+        },
+        {
+          "ab": "sa’oalay",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/b2f41cbb35188c59b9e696c5ce3e49d8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現代的部落職業婦女，掌握經濟大權因此在家中的地位提升，使過去魯凱重男輕女的傳統產生變化，特別是原住民族許多的禁忌都和性別相關，在多元文化的關切與性別的議題上，也應有更多的省思與關照來檢視部落現況。",
+      "ab": "nakaynga na ’iyakay ko kamolini na ’abayane ka, waecenge sa’avelevelini ka thakada’ane. lakitidike’enga na ’abayane. i’angiyaw ko booane tidike’e na sa’oalay latisakoa na ’abayane. ’odanga kita ka kacaysyane, madraw ko kaysyane maowane na sa’oalay si ’abayane. nakaynga ta’ikanita ka madrawnga ma’ielela na bengka. sa’oalay na ’abayane ko taiyanini ka, ni’ikay madraw ko pakidredremita. mathaai pasopaa cecengele tacekecekelane ko taiyanini.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/25/2730a42f9b769658392c61dd07fdcdfc.wav",
+      "word": [
+        {
+          "ab": "nakaynga",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/6a6b354cc963414af3802860f1ea4a32.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/22082e643d7ed3279642a312f7b965ac.wav"
+        },
+        {
+          "ab": "’iyakay",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/5b3ba00d888483697fb423058b1b57a9.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f98f7154f3dde3fde0274e400464f057.wav"
+        },
+        {
+          "ab": "kamolini",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/421a6e9fefe95d0189b439a1e66ee032.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/478d66ff6d5495731e9ed588801504eb.wav"
+        },
+        {
+          "ab": "’abayane",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/45f44973af34304f9538a668d7606b7f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/409e9737a34577cb34d03279419c8afd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "waecenge",
+          "ch": "掌握",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/7991a5330d435d61163050598ae5529b.wav"
+        },
+        {
+          "ab": "sa’avelevelini",
+          "ch": "經濟；用以維生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/0dd8f78ed4b30905cacf675f59f972d1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/e5cced85ea75f3fef1ac7fc03f333ee7.wav"
+        },
+        {
+          "ab": "thakada’ane",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9d30a58834b5eaeb6a961b5ba7c861ef.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lakitidike’enga",
+          "ch": "就受重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/06bf3fb7a15f70ea758a01cb2756d944.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/964b75fb5eadb29bc58ea173002958dc.wav"
+        },
+        {
+          "ab": "’abayane",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/b775b7a3500433ba00659f93fd23d396.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i’angiyaw",
+          "ch": "不像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/30df0cec0b9d42f4e6d741a2823ad06b.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9b477966a4c8f95f54d5b6e41d49368d.wav"
+        },
+        {
+          "ab": "booane",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/04493ff4450774e92b4e3dfd5cf7bb54.wav"
+        },
+        {
+          "ab": "tidike’e",
+          "ch": "重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/3f3312cfedf0cd7914024f60bb61d943.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/649443a007fd18fa6d9f01340be8ed8f.wav"
+        },
+        {
+          "ab": "sa’oalay",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/744a11d7c93beb3ee21177cb2d68b611.wav"
+        },
+        {
+          "ab": "latisakoa",
+          "ch": "輕視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/5fa6073702e5d6751ffd4e6e8168e568.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/994bb69e0c76d1ec3d5775183e6c44b7.wav"
+        },
+        {
+          "ab": "’abayane",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/702e9d69566fa2eb757f54a254ad4f7b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’odanga",
+          "ch": "尤其是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/3e3427c03f37c4245f2c85b790b06b4c.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f6502b3d3b3b1fb262ec145bdabc33bb.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/53dc3ff3417219c2d6f5bddabc1207a8.wav"
+        },
+        {
+          "ab": "kacaysyane",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/2e6aaaaad58ab2f2e105d021ae623eb2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madraw",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/81ae5a2e0930d1e52744414fd8461491.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/d06f6671747b4e5f09061537aef6c3e2.wav"
+        },
+        {
+          "ab": "kaysyane",
+          "ch": "禁忌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/143b9493ffefb7e07c9b697a55bca399.wav"
+        },
+        {
+          "ab": "maowane",
+          "ch": "相關",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/7a9234ba43c49ecfd79f371d2a6bca30.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/14428f1e59f37e29853c83117088d40c.wav"
+        },
+        {
+          "ab": "sa’oalay",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/449c054b8e377acdd3673a6a87a686f3.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/6d397855189c98cb833a40ec7d2a9f07.wav"
+        },
+        {
+          "ab": "’abayane",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9dc0923c96aa065368d2b10da5a19b86.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nakaynga",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f91530ad57e888dcba356668be153872.wav"
+        },
+        {
+          "ab": "ta’ikanita",
+          "ch": "我們所處的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/a0ab573e7f81eb317c96714c80e1a2f9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9951c36dd50e857e5567e3f0dcd6cf10.wav"
+        },
+        {
+          "ab": "madrawnga",
+          "ch": "更多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/df903599d57491e5ec50e3cdeda33eaa.wav"
+        },
+        {
+          "ab": "ma’ielela",
+          "ch": "不同的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/33f60977f9869ed7fa0c850c322091c8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/3e7566b3768726b16bd7850ead302032.wav"
+        },
+        {
+          "ab": "bengka",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/3e11b7d835b1cff63bc5cb4ae3e96f9b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa’oalay",
+          "ch": "男性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/8ab2f2a2029e87bd00498dd74c046bdc.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f0ad6178bef64ee49d4095edfe24128c.wav"
+        },
+        {
+          "ab": "’abayane",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/66a9c834fdd45fe172084eec0ff41c01.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/72faec2ec666d8dcd59a63cfda02bac8.wav"
+        },
+        {
+          "ab": "taiyanini",
+          "ch": "體制；樣貌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/8adce3ca1cef0c986b22310e369a0793.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/67c1b42219b9efde23d27c6720f5d1a9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/4084a19b5a67f58b405ce3be710a9328.wav"
+        },
+        {
+          "ab": "ni’ikay",
+          "ch": "應有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/60dc52cd0393d280588effcd8f29f477.wav"
+        },
+        {
+          "ab": "madraw",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/f4d22348958df11e89ae15fd5f1f43bc.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/a83776e43313661e87497dd4a3da75a6.wav"
+        },
+        {
+          "ab": "pakidredremita",
+          "ch": "我們應該思考",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/b0acb63a6a448739f444a951fc8af01a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mathaai",
+          "ch": "珍惜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/8cf6e1343d2b6a257c755ec437970de0.wav"
+        },
+        {
+          "ab": "pasopaa",
+          "ch": "幫助",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9c421de02446d472f89ae70ae90f5c3a.wav"
+        },
+        {
+          "ab": "cecengele",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9392b372cbb37d64fc3950d9fa8ad269.wav"
+        },
+        {
+          "ab": "tacekecekelane",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/9e83007afb586bef8f42dd3d811b55a2.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/ba295a7f03441673bb840370ddffa79c.wav"
+        },
+        {
+          "ab": "taiyanini",
+          "ch": "體制；樣貌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/19/5e76082f4bea73433b249410431a109b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

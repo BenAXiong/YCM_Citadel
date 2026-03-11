@@ -1,6 +1,857 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Pgkela klegan Cucin Taywan",
+  "titleCh": "介紹台灣的族群",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "台灣的族群，一般分為台灣原住民族和最大族群的漢族。近代，來到台灣的新住民人數也漸漸增加。",
+      "ab": "Cucin ga meniq Taywan hini saya peni, psnakun smepu di we maha Taywan Yencumincu daka rmabang ba knugrahul kesun Hancu. Ani si hbaro naq ka kesun Sincumin ga meyah tuumal hndure duri di.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/16/cad6a6e04ed9dd16f71a2e9ed0a7c3bf.wav",
+      "word": [
+        {
+          "ab": "Cucin",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/3abed30bf929cdbbc746669e21f2b2b8.wav"
+        },
+        {
+          "ab": "ga meniq",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/5a739944eb9dea15858e6625a5ea70e3.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/2b3ef015848a286a5bd95d2d50d4f2e9.wav"
+        },
+        {
+          "ab": "hini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/6d9a7f2adbf03779ae3e4b8b1c288423.wav"
+        },
+        {
+          "ab": "saya",
+          "ch": "現在；今天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/eb10f0352387c922f8aa228120980156.wav"
+        },
+        {
+          "ab": "peni",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/09f22a2d3529481d96cb37df642d3edd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "psnakun smepu",
+          "ch": "可分為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/7f542b7348c3589326a257c0306dd53d.wav"
+        },
+        {
+          "ab": "di we",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/e822eb93c2ab172e4c89bdba93857d60.wav"
+        },
+        {
+          "ab": "maha",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/04a54c1c09281d5eba33458ba89a5a8b.wav"
+        },
+        {
+          "ab": "Taywan Yencumincu",
+          "ch": "台灣原住民族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/16/fc744376c53b23a00d8402220ce458fb.wav"
+        },
+        {
+          "ab": "daka",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/f02544155742fe7bd2acdbefb5377558.wav"
+        },
+        {
+          "ab": "rmabang ba knugrahul",
+          "ch": "最眾多的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/16/3a1eda493fe218efb088d6019dc86c58.wav"
+        },
+        {
+          "ab": "kesun",
+          "ch": "稱謂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/b7c72b1b53ebc0b5af2bcf4c7c52e5aa.wav"
+        },
+        {
+          "ab": "Hancu",
+          "ch": "漢族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/c29b3351dd8939fe3563dda4aff051de.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ani si",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/24d78c489606c1a9fcb8f08c8069a5ad.wav"
+        },
+        {
+          "ab": "hbaro naq",
+          "ch": "多數",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/bb3f15ff09594201c50a436703667760.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/3fb94b11a97921910b97af5a89d91127.wav"
+        },
+        {
+          "ab": "kesun",
+          "ch": "稱謂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d1070be66c753b824050172721d47a53.wav"
+        },
+        {
+          "ab": "Sincumin",
+          "ch": "新住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d16233f3d7c417f1bb6594fe8749f0a4.wav"
+        },
+        {
+          "ab": "ga meyah tuumal",
+          "ch": "加入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/8f209d9846c7f261a200e5d767676839.wav"
+        },
+        {
+          "ab": "hndure",
+          "ch": "近代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/ae1e5fc3ea6c8ddea0562497fa85494f.wav"
+        },
+        {
+          "ab": "duri",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/b8c1ca2bded145de5e4533ae4f9b3b35.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/f7db6c52a36d1d2469a98964bc741501.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "台灣原住民族共有16族。泰雅族、賽夏族、布農族、鄒族、邵族、排灣族、魯凱族、卑南族、阿美族、達悟族、噶瑪蘭族、太魯閣族、撒奇萊雅族、賽德克族、拉阿魯哇族及卡那卡那富族。",
+      "ab": "Ita Seediq tnpusu bale Taywan hini, snpegan daha we 16 klegan ka Yencuming. So ka Tayal, Saysiyat, Bunun, Cou, Thau, Paywan, Rukai, Puyuma, Amis, Tao, Kavalan, Truku, Sakizaya, Seediq, Saaruwa ma Kanakanavu.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/cdec5b1983e3acf95ea01fde0e07c9b3.wav",
+      "word": [
+        {
+          "ab": "Ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/47fa1e27cc0c050aaf8f02272045eca0.wav"
+        },
+        {
+          "ab": "Seediq",
+          "ch": "原住民族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/93d6db6c098728cb60cdbdd2567150ab.wav"
+        },
+        {
+          "ab": "tnpusu bale",
+          "ch": "發源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/13dec0385c17ef4b459548218fe37fa8.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/44a59c1d9ff9b07e68ccf0903d4806d5.wav"
+        },
+        {
+          "ab": "hini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/c93fd94c6c44b2674f4e5c16e5a223eb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "snpegan",
+          "ch": "被分類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/66b26c0582cb963f5271672bb0d3c10b.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/13d3be50c8094e8c1ddef177d73fd1fe.wav"
+        },
+        {
+          "ab": "we",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/2f16fd62828c3604806fc60d69dcf495.wav"
+        },
+        {
+          "ab": "16 klegan",
+          "ch": "16族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/e33594b578d32f6a08810d0f45784cf9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/3ebb1ef3dd937b7cef205f4350ded255.wav"
+        },
+        {
+          "ab": "Yencuming",
+          "ch": "原住民族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/eb7bb938ff690a3db93b8865bdca391a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "So ka",
+          "ch": "如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/c23a8ece2c942f12d2f3f2f66a0ac0bc.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/760068c53be11fe9b6b6638985cf7da6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Saysiyat",
+          "ch": "賽夏族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/b8b73364ac6cd496668497fd5d6c3c81.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/4cca04f7f8c7da96be416403f6ccd791.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cou",
+          "ch": "鄒族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/595afbd7f5a99efd71556d99b39c268e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Thau",
+          "ch": "邵族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/d0246b69af05651f743d905c9adb2167.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Paywan",
+          "ch": "排灣族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/906f101975a14177b22cb707a76c211d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Rukai",
+          "ch": "魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/e64e0bc2f9183683031ae010a0a12645.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Puyuma",
+          "ch": "卑南族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/9d5a76df25154ff39e7052fa9c3234a6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Amis",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/1dc7f3464a4839e6009992502eabb7a1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tao",
+          "ch": "達悟族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/87245f4b1d0d12cf1aaa77bc289037d4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kavalan",
+          "ch": "噶瑪蘭族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/58d07ec4a553036d571ae5d22ca4f5ac.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Truku",
+          "ch": "太魯閣族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/764c47f97ee545d01ce2917632246555.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sakizaya",
+          "ch": "撒奇萊雅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/2f01807ad5d67de3e46e244252dd55e5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Seediq",
+          "ch": "賽德克族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/8eb3926a025bb86899f452f3dd675f04.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Saaruwa",
+          "ch": "拉阿魯哇族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/35dcd930df68a3b6194ad8764644721d.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "以及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/15/1424b9b97976fd6a10e46c9f8aa72597.wav"
+        },
+        {
+          "ab": "Kanakanavu",
+          "ch": "卡那卡那富",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/a64bcca2a087451831e31b6d339940b9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有些族群與漢人居住，如卑南族、噶瑪蘭族、撒奇萊雅族和阿美族。也有居住在獨立外島的達悟族人。",
+      "ab": "Niqan ka ga mtgimax meniq alang Plmukan duri, so ka Puyuma, Kavalan, Sakizaya ma Amis. Niqan duri ka ga murux meniq alang pntyusan rcilung, so ka seediq Tao.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/19a6d0f929f3eb593de51a3c1d035789.wav",
+      "word": [
+        {
+          "ab": "Niqan",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/c59115e88a6dbe2f1835af2d199ea43e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/135cef97327cdf9122478ae6b40374ed.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/75b4f712b9a4860516a726646282d56a.wav"
+        },
+        {
+          "ab": "mtgimax",
+          "ch": "融合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/d9b5b9cf15b1eb2ff0df06fc1644057f.wav"
+        },
+        {
+          "ab": "meniq",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/03/3ba901b4705920a0d8edd34e4c56c91f.mp3"
+        },
+        {
+          "ab": "alang Plmukan",
+          "ch": "漢人居住地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/8a9b0ba84645ef18e1848b5407a90dd2.wav"
+        },
+        {
+          "ab": "duri",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/04a0f17ab29f8724e9bfd0d282c8df06.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "so ka",
+          "ch": "如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/55f971e3a5a850cd1d795b9fa4d83471.wav"
+        },
+        {
+          "ab": "Puyuma",
+          "ch": "卑南族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/a6eea5aa95cc31102ab50d87b12ccde0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kavalan",
+          "ch": "噶瑪蘭族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/160288422abcfcdf9437b3f0157f5a4f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sakizaya",
+          "ch": "撒奇萊雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/39b7696525c15ab11f34386e3ae943ae.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "以及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/bf733cd11248d1bd93337bc4bf1acd55.wav"
+        },
+        {
+          "ab": "Amis",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/671df07e9737de590613ae321ea1b687.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Niqan duri",
+          "ch": "也有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/4f9604e8959af0faa3ba6316b5cd1b23.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/dd9316b0c48697b29b13d90c3c5e7e4d.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/ccf2d76e0c41868d7ad86138ea56ad67.wav"
+        },
+        {
+          "ab": "murux",
+          "ch": "獨自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/7f841c9b91fcd2891b7ffbc612b80934.wav"
+        },
+        {
+          "ab": "meniq",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/4dda1a5c7be4a1472c1d136f1cd568f6.wav"
+        },
+        {
+          "ab": "alang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/0bf0b26798f42e0ca56680ec6f103daa.wav"
+        },
+        {
+          "ab": "pntyusan rcilung",
+          "ch": "島嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/3eb5cad0d4b19f5889ed7d15d41d1a82.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "so ka",
+          "ch": "如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/8e7614ee0cfa2b42d0f626e439c86fb2.wav"
+        },
+        {
+          "ab": "seediq Tao",
+          "ch": "達悟族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/f2b67d3cc7652b7f442bfb816f1de1c7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "台灣是一個多元族群的國家，包含原住民族、閩南人、客家人及外省人。近幾年，更有東南亞新移民族群的加入。",
+      "ab": "Egu klegan Cucin ga meniq Taywan hini. Niqan Plmukan, Kihilang ma Telu. So hndure hari de niqan kesun Sincumin, ga meyah tuumal suupu ita Taywan hini duri di.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/16/495c5ffd43e6775fa40a5dab3ee7b2de.wav",
+      "word": [
+        {
+          "ab": "Egu klegan",
+          "ch": "多元",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/01/132dda4ea6bd1b0124b821d4f9d03d97.wav"
+        },
+        {
+          "ab": "Cucin",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/bd315d3230d476a1aeb8f9087a78310f.wav"
+        },
+        {
+          "ab": "ga meniq",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/0c7ffd2c83e41bf319881e1cab740089.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/f31b56f9432b4f03b3b5f4611be3fd96.wav"
+        },
+        {
+          "ab": "hini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/3467a9a96db4f23d5f45b0f5eaeaff06.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Niqan",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/94b6ce9c1dbb412dcc36e2850627056f.wav"
+        },
+        {
+          "ab": "Plmukan",
+          "ch": "閩南人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/44adaadb095f40b587f4b409ac55799b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kihilang",
+          "ch": "客家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/fb44aefd1a9882c906593efaf6f8ce40.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/e6b69a6732af1fbd1e8d4c63165205e9.wav"
+        },
+        {
+          "ab": "Telu",
+          "ch": "外省人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/570938f00c1f30c59530b15fc930dd0f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "So",
+          "ch": "如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/39a6a1cb74520a37864b27772ba8712b.wav"
+        },
+        {
+          "ab": "hndure hari",
+          "ch": "近幾年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/9b25fe42899f88af0aba784271eed051.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/0258165931c5aa8f9fd9869ad57afdf7.wav"
+        },
+        {
+          "ab": "niqan",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/813e47c671b543d5f07242be74950cd1.wav"
+        },
+        {
+          "ab": "kesun",
+          "ch": "稱謂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/a13ac1662c058ba4546f72ed24870537.wav"
+        },
+        {
+          "ab": "Sincumin",
+          "ch": "新住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/6d262337fe1acb367cab78bf0b9adf27.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ga meyah tuumal",
+          "ch": "移民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/847647505ad948065e21ce50d30bedaa.wav"
+        },
+        {
+          "ab": "suupu",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/3c80f81c51150399a3f5e931b620a433.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/708289aec640970becd344bbd535591a.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/e633725b1ff30de3c9fd8212087f931b.wav"
+        },
+        {
+          "ab": "hini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/6e3ecad52139bb39a39d592e0b206b53.wav"
+        },
+        {
+          "ab": "duri",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/4e89682b2120d78a013958d8e3776c45.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/5f74249208205551b0714e4c5dcca970.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "這樣多元族群的背景也帶給台灣豐富多元的文化。這不僅是融合台灣的多元族群文化，更是創造台灣成為一個多元文化的國家。",
+      "ab": "So nii ga ta niqan Taywan hini, kndudul mrana kana gaya ta uri. Ani naq wada mtgimax kana gaya ta, mgkela ta dungan. Bale ba dmudul psbeyax ooda daha ka psbleyaq Taywan ta duri.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/663a31eee69257b71578f91987b3ef44.wav",
+      "word": [
+        {
+          "ab": "So nii",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/c0db9e6e227519325ef2007b71cef88e.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/8e5fa18d56aaa32a82054e8e1433b160.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/034449c8eea9c7448f6623888d85976b.wav"
+        },
+        {
+          "ab": "niqan",
+          "ch": "居住地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/8e3b3550b00b4eae43a21cfb2eccf60d.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/dc586a5bb2b59910410cf4d6960c3f20.wav"
+        },
+        {
+          "ab": "hini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/5d5bbd55157f38a19f155390f2dc7430.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kndudul",
+          "ch": "漸漸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/8c6883dccf708d874a324dc762133c1d.wav"
+        },
+        {
+          "ab": "mrana",
+          "ch": "增加",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/3364667f3dabfa4055a7d13cd430dde5.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "全部；都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/098f2ddd79cd296bad7b7b41c2b68a3b.wav"
+        },
+        {
+          "ab": "gaya",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/dfa54381225d763cc2e6b12d2d6c64ac.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/44b4596c7a979aa7e4fc820c07fd78fe.wav"
+        },
+        {
+          "ab": "uri",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/92fd79ada7ac5803c79b9bd287492312.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ani naq",
+          "ch": "不僅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/17bfc1d7c4dad1d69cf2a78825516205.wav"
+        },
+        {
+          "ab": "wada",
+          "ch": "去；已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/a813dd53b48d27057751934eb852c345.wav"
+        },
+        {
+          "ab": "mtgimax",
+          "ch": "融合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/aa754b4ad5df220f9fd90953db9a33d2.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "全部；都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/705c03a1245566a3edb2d1c3ddcbb6ff.wav"
+        },
+        {
+          "ab": "gaya",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/9f66a575a6cfaaf7e43177317461d057.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/e6e97acfea8d0d3b34ffd456ab9f665c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mgkela",
+          "ch": "認同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/61501c1f651da2774f8bb6bbec365d84.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/c5fb84a736219077b64e92ba7d5c58e4.wav"
+        },
+        {
+          "ab": "dungan",
+          "ch": "又；還要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/2e584bf14f2b3b604af609a0d4ff1e8f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Bale ba",
+          "ch": "更是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/83b7afcfe4ad452c54ea6427b18960f8.wav"
+        },
+        {
+          "ab": "dmudul",
+          "ch": "創造",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/44ba0b0305bdd5dc2c839da46a4aa11a.wav"
+        },
+        {
+          "ab": "psbeyax ooda",
+          "ch": "發展",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/2465d4a06fe6abc5abc6e62b728796bb.wav"
+        },
+        {
+          "ab": "daha ka",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/82f2307042ab867c7b3d7d6a32ea52af.wav"
+        },
+        {
+          "ab": "psbleyaq",
+          "ch": "和平",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/6f0cdeedf664c24860cba8842e94b300.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/65d851427e109c75b5c2b2a28333c25f.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/16/8ff4a061e94d139f016b2ca7dd0a1541.wav"
+        },
+        {
+          "ab": "duri",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/02/fa2093fecd6973f4dfd4d8f2b7147d88.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

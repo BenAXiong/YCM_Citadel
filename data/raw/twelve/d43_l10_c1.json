@@ -1,6 +1,960 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "bnheci na Tayal",
+  "titleCh": "泰雅祖先",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "泰雅族起源於「Pinsbkan」，因人口不斷增加而遷徙到他處，分散到各個流域。但我們有著共同的祖先。",
+      "ab": "kinhulan na Tayal hiya ga minkahul Pinsbkan qabax, n_gyut khmay qa ccquliq, musa shyi binah na ppqmahun, wayan mgagay mqasux minnanak na llyung, ana ga qutux calay qa puqing ta.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/af08ae92d2121b39cf03cb4162440c76.wav",
+      "word": [
+        {
+          "ab": "kinhulan",
+          "ch": "起源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/dc07e93076253017193100356d788742.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/9b09b014d728789be5711b296a030b52.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/5e4d0656bb64e3eb891d872e4c705b57.wav"
+        },
+        {
+          "ab": "hiya",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/8cc517d3c93bf6cc4b072c85794f7613.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/29/8f3cbd8acd16aa7af1d71fef7ae823e0.wav"
+        },
+        {
+          "ab": "minkahul",
+          "ch": "已從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/4d23846f513a976ea538cdcba019a9a7.wav"
+        },
+        {
+          "ab": "Pinsbkan",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/b194c41cbdf4c2b779d2615875139971.wav"
+        },
+        {
+          "ab": "qabax",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/c263ece839aaa8c274b4f8a6a9317f15.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "n_gyut",
+          "ch": "不斷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/b1ade1877289dc7179ca228c0d1cda31.wav"
+        },
+        {
+          "ab": "khmay",
+          "ch": "增加",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/564a379d1109f9f1e9c863560c45d4e2.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/555d4939b10bf95704808379fb9d29d0.wav"
+        },
+        {
+          "ab": "ccquliq",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/5dc8c5a8868c77ddf8a8e1aa840c8884.wav"
+        },
+        {
+          "ab": "musa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/f2456637128949750284251766254fae.wav"
+        },
+        {
+          "ab": "shyi",
+          "ch": "遷徙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/684c02747b08547490f9fca80f2e5cf1.wav"
+        },
+        {
+          "ab": "binah",
+          "ch": "他處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/8d442c9385ba8503a95175b8099693a6.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/365aa59e779547d7e081b220f8fa67ac.wav"
+        },
+        {
+          "ab": "ppqmahun",
+          "ch": "耕地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/ff0d6a3101157e4b041c73e7e47d0808.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wayan",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/19373781a09c6f246e7d1ac54932745e.wav"
+        },
+        {
+          "ab": "mgagay",
+          "ch": "分散",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/5c126a6cc68cc505013ca40816d40532.wav"
+        },
+        {
+          "ab": "mqasux",
+          "ch": "分開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/37e36580889da69e7a35bf3fc379e974.wav"
+        },
+        {
+          "ab": "minnanak",
+          "ch": "各自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/88ec5df775e0829fcfda406ee2cebd69.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/7db335d0b996c9c9e498ba1d3fbe1e81.wav"
+        },
+        {
+          "ab": "llyung",
+          "ch": "流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/d206169bc7dfece738f2fe2467c21cde.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ana",
+          "ch": "不管",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/48c608a1f01cab11ed9cb892877b7c62.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/b0201e7c51572d78421bced1bc1e36e3.wav"
+        },
+        {
+          "ab": "qutux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/98c607c15e37617d01504227c5f5b597.wav"
+        },
+        {
+          "ab": "calay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/a950ec01c097f117ca776b46d2edc43a.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/ed6e6434010718773e2ab2d58ab2b428.wav"
+        },
+        {
+          "ab": "puqing",
+          "ch": "源頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/29858c81fe45027d55d1d2c79841ab9a.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/4428d361dbb6f73f849bf17d85c0aee7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "泰雅祖先有三兄弟從發源地「Pinsbkan」往北方遷徙，翻越梨山，下到碧綠溪，行經松茂部落，前往南湖溪與大甲溪與七加灣溪所匯聚的地方，就是現今「清泉橋」的位置。沿著溪河上游抵達勝光聚落，前進到勝光「Hlusan」鞍部，最後抵達思源埡口。",
+      "ab": "maki qa tyugan mcwahi mlikuy kahul kya Pinsbkan, wayan mshyi mkura kya te kraya, mtayil kya qalang Slamaw, mbiyaq kya gong Tyuku mkura qalang Tabuk, mbiyaq gong Topuk ki llyung Tamali wan msqun gong Sqyawan, maki kya hbun Sburuq, mkura kya llyung kraya ga baq nta kya quri Hlusan, pucing lga mqasux kya quri Sqabu la.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/eea861b0414ca472a6d3c12e3664db94.wav",
+      "word": [
+        {
+          "ab": "maki",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/e9bed5c471e79d0fb3c8b5f66bc02308.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/0200e7d55f2c73892cf54103fb7b6595.wav"
+        },
+        {
+          "ab": "tyugan",
+          "ch": "三個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/2913779eaaea51ea2ca2d21953d845c4.wav"
+        },
+        {
+          "ab": "mcwahi",
+          "ch": "兄弟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/962f4020d456aab602b356e57238ef42.wav"
+        },
+        {
+          "ab": "mlikuy",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/d797c16377b1498bb3fe153d37fedc89.wav"
+        },
+        {
+          "ab": "kahul",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/7f61d36c9a87ccb4776231dd48d45a79.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/14d203158e5c5fd54555ecd1bd9ed8e3.wav"
+        },
+        {
+          "ab": "Pinsbkan",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/ca3f6e75176256acc0e0756a3f8eccea.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wayan",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/b2c2fc5ac884cfbbf3f384adbacf2195.wav"
+        },
+        {
+          "ab": "mshyi",
+          "ch": "遷徙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/86a2cd9c81622bc127010daa5acce587.wav"
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/08af199148d071cd6a3bc0e53d77f619.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/5e7ce02afd479a1ff12bc405e3af182a.wav"
+        },
+        {
+          "ab": "te kraya",
+          "ch": "上方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/8f94f061698ba1df2c83661cd4ab9000.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mtayil",
+          "ch": "往上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/c1275cd129cc3d86e5880b1e8c546e6a.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/6111d0bb6f0c295edd4fd332d23328d5.wav"
+        },
+        {
+          "ab": "qalang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/d9cd172570d87a489155b135f3fee210.wav"
+        },
+        {
+          "ab": "Slamaw",
+          "ch": "梨山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/6464f626c63c3c7be4a97e711d55970c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mbiyaq",
+          "ch": "向下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/685677a17902e2dbc239ca05391544e1.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/e38d727ecdd5bd1591bb6f8ab47d38bd.wav"
+        },
+        {
+          "ab": "gong Tyuku",
+          "ch": "碧綠溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/aa721632f9066fae441aa6f0b09bd9e4.wav"
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/3543ef7a227da67062421310c6f52004.wav"
+        },
+        {
+          "ab": "qalang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/8f6a418c8c78d211e6fc70c05546f422.wav"
+        },
+        {
+          "ab": "Tabuk",
+          "ch": "松茂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/8b5b6156bcba19118b7e25c945d8b5b6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mbiyaq",
+          "ch": "下來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/30ab5b76bd1a6c3828ffa0b20a9b18e3.wav"
+        },
+        {
+          "ab": "gong Topuk",
+          "ch": "南湖溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/3cce7df3fe2fd70bd214726f58d08fa4.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/2232134fd759dc90a4d4a1f27ef741ae.wav"
+        },
+        {
+          "ab": "llyung Tamali",
+          "ch": "大甲溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/6d84ed6d6da45f4e5286237e4e32f21a.wav"
+        },
+        {
+          "ab": "wan",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/ebae6bc5deeca109d899c4ec7d9d30c0.wav"
+        },
+        {
+          "ab": "msqun",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/3688bc5db453523746c83fbedd11a267.wav"
+        },
+        {
+          "ab": "gong Sqyawan",
+          "ch": "七加灣溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/3cd9fd588c126cc9043850408c2c19ab.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maki",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/bb230dffabdb3f62c65202031ce32653.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/7a6665495228710119f605aff95d7b77.wav"
+        },
+        {
+          "ab": "hbun",
+          "ch": "河流交會處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/7d3b9ec77019956d04fd0fa003007e27.wav"
+        },
+        {
+          "ab": "Sburuq",
+          "ch": "清泉橋之處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/8042532a1caf8cab4c93569cb42469ba.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/d0c9acab2dcb6aaa94c495fd6f58a2ec.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/22f344bc2f5e9d8a2738fca7459ab810.wav"
+        },
+        {
+          "ab": "llyung",
+          "ch": "溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/6095b12ecdfcd301bf571ff6ca7a9edb.wav"
+        },
+        {
+          "ab": "kraya",
+          "ch": "上處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/be5b7dd09833f473d70afbf4c2f8642b.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/5aad38004a6546b2382974698dbcb264.wav"
+        },
+        {
+          "ab": "baq",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/2bf720f77d3874e07949cfcd1f75e91e.wav"
+        },
+        {
+          "ab": "nta",
+          "ch": "已到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/358793cf5d9f8a4842a137486ef6bf29.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/fb4f401f943fac2830a81ac63178e9a4.wav"
+        },
+        {
+          "ab": "quri Hlusan",
+          "ch": "勝光鞍部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/8f561e4c6896643f88e0d5ad1979f3a9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pucing",
+          "ch": "最後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/85273fbd72b7bba92a1312e03a0b590d.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "的時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/6190df6b9dfadcb413f0d0e3b768888a.wav"
+        },
+        {
+          "ab": "mqasux",
+          "ch": "分散",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/67501f726add7abaf5233c6596c39727.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/fe772ff1261b820e437821342b445539.wav"
+        },
+        {
+          "ab": "quri Sqabu",
+          "ch": "思源埡口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/29c3fda370b6ebfff6005c6ed2a35ce2.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/a5103ba2adf265252ccbbc8396725bd8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "長兄Lkbuta從思源埡口直接向北，往大霸尖山分散，陸續建立了新竹、桃園、台北地區各流域的泰雅族聚落。",
+      "ab": "qbsuyan Lkbuta hiya ga mkura kya quri Sqabu, tbang wayan mkura kya rgyax Papak waqa wan mqasux kya kki’an nha.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/9228db1427178a9ac1bd4709da0ca695.wav",
+      "word": [
+        {
+          "ab": "qbsuyan",
+          "ch": "兄長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/e4896488c5652d4055ab54948d9a6284.wav"
+        },
+        {
+          "ab": "Lkbuta",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/3e56b8187fd5a55054e2fb61a30092a6.wav"
+        },
+        {
+          "ab": "hiya",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/c6ef94de41b0abd7509a937022950f8b.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/e1bd06c3f8089e7552aa0552cb387c92.wav"
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/6bca76cea8f3c180cd035d70f9bc7b0c.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/0401ed6796f1f9b637d18a4ba337e1d6.wav"
+        },
+        {
+          "ab": "quri Sqabu",
+          "ch": "思源埡口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/975d9f0ff98ed5bc3f6c862609372b59.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tbang",
+          "ch": "側面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/87b66fcf2a06b8d5349051f30e0cc345.wav"
+        },
+        {
+          "ab": "wayan",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/a9d25b21e4dc63331981e0ad1d91b6ad.wav"
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/b303e3e45397755f4e15eaa2a662ec02.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/40a82d2bc17d9aa6c8ba7f0067d83a83.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/3e184e77033653ed680e6a72159e7d69.wav"
+        },
+        {
+          "ab": "Papak waqa",
+          "ch": "大霸尖山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/719abd1a6812c83dc9d328bdd8aa426c.wav"
+        },
+        {
+          "ab": "wan",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/9e4745a6b2bdebae79fa8fbe2c83b7ca.wav"
+        },
+        {
+          "ab": "mqasux",
+          "ch": "分散",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/e67a27ba8bb6ba92dc274342c874d373.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/331a046af78255a2d0642af437bc9d22.wav"
+        },
+        {
+          "ab": "kki’an",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/41220f414a6e40d921767181f83ae321.wav"
+        },
+        {
+          "ab": "nha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/cc23301d29ab16eab705b35856f3c415.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "大弟Lkmyaboh則從思源埡口直接下到南湖大山的河階地形區，是北方蘭陽溪溪頭群流域和東方南澳群流域的南澳泰雅人祖先。",
+      "ab": "qbsuyan swahi Lkmyaboh hiya ga mkura quri Sqabu wan kraya mkura rgyax Topuk, mqasux mbiyaq kya llyung Klesan ki llyung Mnibu, na hani qa pinqasux llyung Klesan ki llyung Mnibu.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/cade31c8e2246fccd04be40b69b60c98.wav",
+      "word": [
+        {
+          "ab": "qbsuyan swahi",
+          "ch": "大弟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/9640700c442214957adbe5aa77e2ace3.wav"
+        },
+        {
+          "ab": "Lkmyaboh",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/ce91e4af71deaa47491da4eeb35e4535.wav"
+        },
+        {
+          "ab": "hiya",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/d61d1b751765ab7039a9c40cea1bd6de.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/ba45dc26ae53e46ad94b491dc175ff05.wav"
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/baa0ceb9d3bf8583d22479f67f86d67d.wav"
+        },
+        {
+          "ab": "quri Sqabu",
+          "ch": "思源埡口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/a318ddaf4f30ac89246bd985f22088e4.wav"
+        },
+        {
+          "ab": "wan",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/2d676aeab38fa3680f4369dbbd4f3e52.wav"
+        },
+        {
+          "ab": "kraya",
+          "ch": "上處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/7bfe9bbb5c6f3e338caea40379659556.wav"
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/8a4032b5acf0ee3b57dd489ce6a672c1.wav"
+        },
+        {
+          "ab": "rgyax Topuk",
+          "ch": "南湖大山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/bb64c74f463ee92e6f877c47a130d645.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mqasux",
+          "ch": "分別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/ee1d01930813d9f10858db96fd9d58b1.wav"
+        },
+        {
+          "ab": "mbiyaq",
+          "ch": "往下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/960b0b807b8d3bab15ebec50b4cefa7e.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/3f5ba85b515bd4929fb7182bbaa71904.wav"
+        },
+        {
+          "ab": "llyung Klesan",
+          "ch": "南澳群流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/d3edfaac7b134307771e928cc3293131.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/2cd4b344154699fd4cf2d8fe416fd92f.wav"
+        },
+        {
+          "ab": "llyung Mnibu",
+          "ch": "溪頭群流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/587fa921165411090038e3250be05577.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/60b7f5df725c5166ab342f2eeb9244ad.wav"
+        },
+        {
+          "ab": "hani",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/96b7e445281a191b3922d814aae420ce.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/29/1a391d14fbf908bf14ad4833ed0f0c90.wav"
+        },
+        {
+          "ab": "pinqasux",
+          "ch": "已分別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/fd446d68b55157f52b803e6b6ada53cc.wav"
+        },
+        {
+          "ab": "llyung Klesan",
+          "ch": "南澳群流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/4424206bb5705836a4bced27f9dfa350.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/d15505e6d277a01b10c86b9137f57d69.wav"
+        },
+        {
+          "ab": "llyung Mnibu",
+          "ch": "溪頭群流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/54e0f485f4daf036e45e7ec3e246ef67.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "小弟Lkmayan則從思源埡口直接跨越到大甲溪，往大安溪流域，是苗栗地區及和平地區泰雅人的祖先。",
+      "ab": "swahi Lkmayan hiya ga mkura kya quri Sqabu wayan mta’il rgyax quri Hagay, mbiyaq kya llyung Tamali mkura llyung Penux. rhiyal roq llyung Penux ki llyung Tamali qani qa pinqasux ki’an nha.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/06eba2d012953dea388012e907110fc4.wav",
+      "word": [
+        {
+          "ab": "swahi",
+          "ch": "弟弟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/2d226ae8b7799415116096af48f96579.wav"
+        },
+        {
+          "ab": "Lkmayan",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/317d5338c2dd1182bd094370a1121ee4.wav"
+        },
+        {
+          "ab": "hiya",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/41974ba26aec1036c02ecd1d7647c37d.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/7398bb10be5667e31a146489d65cf5f6.wav"
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/ef152a79c2f6111858309f64e2d68ebd.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/a776d3cf1b33e6e4a43d00a11c2fa783.wav"
+        },
+        {
+          "ab": "quri Sqabu",
+          "ch": "思源埡口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/804d1c035371d0119be83a57d690b58f.wav"
+        },
+        {
+          "ab": "wayan",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/d957c740b68c99460027ce006a09d2ba.wav"
+        },
+        {
+          "ab": "mta’il",
+          "ch": "跨越",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/0d8a89515fe89cd53cdedd3c039a15b0.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/4aa6cce872668388d1a3187f047a7572.wav"
+        },
+        {
+          "ab": "quri Hagay",
+          "ch": "雪山山脈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/cfc1e52b72ce346b6ca748f650432953.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mbiyaq",
+          "ch": "往下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/985638dc60b4effd06b091e80f0b42eb.wav"
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/7b9543b0acae92f357c0d5d839ea3454.wav"
+        },
+        {
+          "ab": "llyung Tamali",
+          "ch": "大甲溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/1ab9f53c53dc087056a99065861a6f65.wav"
+        },
+        {
+          "ab": "mkura",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/e624cb54d5de3a33649f20440091dbf3.wav"
+        },
+        {
+          "ab": "llyung Penux",
+          "ch": "大安溪流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/092f49cd18767139eeb3f82834d5fcc0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rhiyal",
+          "ch": "地區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/1f035fdddd3111aba0a4dad801b4e874.wav"
+        },
+        {
+          "ab": "roq llyung Penux",
+          "ch": "苗栗地區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/b808f0a1150069f8ab4947f2d536ab0a.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/9ea2a3d45a641fd927eda133e9c1c248.wav"
+        },
+        {
+          "ab": "llyung Tamali",
+          "ch": "和平地區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/fa08b98c6ab37ef6b323c886b46d4104.wav"
+        },
+        {
+          "ab": "qani",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/77529156285dd3c81748b9da3671a9a1.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/b785f0c8bacf5ff5809928e60934704b.wav"
+        },
+        {
+          "ab": "pinqasux",
+          "ch": "已分散",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/f32fe8b226a4303632d2c749bb9304cc.wav"
+        },
+        {
+          "ab": "ki’an",
+          "ch": "住處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/3c8ae4a57a79f55c656501865e252ae9.wav"
+        },
+        {
+          "ab": "nha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/8c1345b426e232f5ffc7c8361e29e0ab.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "回朔祖先們艱苦的拓墾精神，是身為泰雅族人的價值與榮耀。",
+      "ab": "llungun qa kin’wiy pintiyaw binheci qani, kya blequn psbaq llaqi kinbahan qa kinbaqan binheci qani.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/86a9ac7667ec45a86614223897b4f765.wav",
+      "word": [
+        {
+          "ab": "llungun",
+          "ch": "回朔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/69f4b86205abcf82d67238baa762fba4.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/29/90b7eeb25913bee531b732e5a492ddf2.wav"
+        },
+        {
+          "ab": "kin’wiy",
+          "ch": "艱苦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/3fcedf144be9f3dff1145db6c515fb34.wav"
+        },
+        {
+          "ab": "pintiyaw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/c80ad097e6e2aadfc0f8c9f2feb6f8e7.wav"
+        },
+        {
+          "ab": "binheci",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/21d35e82a5c98554a8f5afc37b6d40cd.wav"
+        },
+        {
+          "ab": "qani",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/54cd27bf2796a9e86ae6944ea1d94597.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/552a03c21c9b30d05056639c4316c685.wav"
+        },
+        {
+          "ab": "blequn",
+          "ch": "好好地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/0ed04c5f61b5459b009b5b663c43bf94.wav"
+        },
+        {
+          "ab": "psbaq",
+          "ch": "教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/03/56a820cf02a31fcaad1cb77d7d76b8cc.wav"
+        },
+        {
+          "ab": "llaqi kinbahan",
+          "ch": "子孫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/9c378d1a05807d8cb9a0d28cd81e566d.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/46f712a2eada5a5870a2b5ff2bd2244e.wav"
+        },
+        {
+          "ab": "kinbaqan",
+          "ch": "體認",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/078d13da75a67637473e543d53ceca49.wav"
+        },
+        {
+          "ab": "binheci",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/21f0db5872591cdad329f08cd5a1f770.wav"
+        },
+        {
+          "ab": "qani",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/03/2131847b1d4cccf8c5e06f7bef69cf60.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

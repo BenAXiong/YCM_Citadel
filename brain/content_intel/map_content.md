@@ -13,9 +13,9 @@ This document serves as the master source of truth for "What data do we have, wh
 ---
 
 ## �📈 Global Metrics
-*   **Gross Records (GR)**: Total count of occurrences in the database. Currently **~231,000**.
-*   **Unique Semantic Souls (U-SOUL)**: Unique semantically unique sentences (ZH + Normalized AB). Currently **~145,000**.
-*   **Audio Coverage**: **~96,000** audio URLs verified (Remote CDN).
+*   **Gross Records (GR)**: Total count of occurrences in the database. Currently **~194,000** (plus **~293,000** ILRDF entries).
+*   **Unique Semantic Souls (U-SOUL)**: Unique semantically unique sentences (ZH + Normalized AB). Currently **~156,000**.
+*   **Audio Coverage**: **~110,000** audio URLs verified (Remote CDN).
 *   **Family Resolution**: 16 Language Families (GLID 01-16).
 *   **Dialectal Granularity**: 42 Official Dialects.
 *   **Global Redundancy Rate**: **37.2%** (Cross-source overlap).
@@ -28,8 +28,8 @@ This document serves as the master source of truth for "What data do we have, wh
 | :--- | :--- | :--- | :---: | :---: | :--- | :--- |
 | **Grmpts (Grammar)** | Sentential Grammar Drills | Sentences | ✅ | 0% | 🟢 ANNEXED | ~30k sentences |
 | **Essay (Cultural)** | Cultural/Traditional Stories | Prose/Dialogue | ✅ | 0% | 🟢 ANNEXED | ~100k sentences |
-| **Twelve-Year** | MOE School Curriculum | Pedagogy | ✅ | 0% | 🟢 ANNEXED | ~15k sentences |
-| **Nine-Year** | Foundational Literacy | Pedagogy | ✅ | 0% | 🟢 ANNEXED | ~40k sentences |
+| **Twelve-Year** | MOE School Curriculum | Pedagogy | ✅ | 0% | 🟢 ANNEXED | ~25k sentences (L1-12) |
+| **Nine-Year** | Foundational Literacy | Pedagogy | ✅ | 0% | 🟢 ANNEXED | ~21k sentences |
 | **ILRDF (Vocab)** | Dictionary/Lexicography | Words/Entries | ✅ | 0% | 🟢 ANNEXED | ~45k words |
 | **Dialogue** | Practical Situational Conversations | Contextual Pairs | ✅ | 0% | 🟢 ANNEXED | ~10k sentences |
 | **Read News** | Advanced Reading Content | News Articles | ✅ | 0% | ⚪ SCOUTED | TBD |
@@ -110,6 +110,42 @@ The following distribution utilizes the GLID mapping logic defined in the [**Klo
 
 ---
 
+## 📐 Corpus Structural Geometry (VS-3 Visualization Guide)
+
+This section maps the internal structural "logic" of each source to enable consistent cross-dialectal comparison.
+
+| Source | Primary Axis | Secondary Axis | Depth | Discovery / Gaps |
+| :--- | :--- | :--- | :---: | :--- |
+| **`nine_year`** | Level (1-9) | Lesson (1-10) | 10 sentences | Complete for 38 supported dialects. |
+| **`twelve`** | Level (1-12) | Lesson (1-10) | 10 sentences | **Annexed**: Includes Levels 10-12 (Senior High). |
+| **`grmpts`** | Level (1-4) | Type (t1 - t12) | ~100-300 rows | Focuses on grammatical patterns rather than semantic stories. |
+| **`essay`** | Story (TID) | Sentence Index | 10-30 rows | ~60-80 distinct essays per dialect. Title derived from first row. |
+| **`dialogue`** | Dialogue (TID) | Turn Index (A/B) | 5-20 rows | Situation-based conversational pairs. High semantic repetition. |
+
+### 🔬 Detailed Structural Fingerprints
+
+#### 1. MOE Standardized (Nine/Twelve)
+*   **Geometry**: $9 \times 10$ matrix per dialect.
+*   **Alignment**: Perfect structural parity. `lesson 1` in Amis is semantically identical to `lesson 1` in Atayal.
+*   **Visualization**: VS-2 (Heatmap) and VS-1 should prioritize these for high-fidelity comparisons.
+
+#### 2. Narrative/Contextual (Essay/Dialogue)
+*   **Geometry**: Flat list of Topic IDs (TIDs).
+*   **Alignment**: Asymmetric. TIDs are assigned sequentially per dialect, not globally.
+    *   *Example*: TID `35101` (Paiwan) and `34861` (Bunun) both map to the "Teacher arrives in class" story.
+*   **Portal Logic**: VS-3 must derive "Book Titles" from the first sentence of each TID to allow users to "match" stories visually until the structural metadata pass (Phase 11) automates the link.
+
+#### 3. Grammatical (Grmpts)
+*   **Geometry**: 4 Tiers of complexity.
+*   **Categories**:
+    *   `t1`: Noun Phrases
+    *   `t2`: Verbs & Aspect
+    *   `t4`: Negation & Question
+    *   `t10`: Complex Sentences (Subordination)
+
+
+---
+
 ## ⚙️ Klokah Site Architecture
 
 This section records the intrinsic behaviors of the Klokah content delivery system discovered during Phase 1-8 scraping.
@@ -126,9 +162,16 @@ This section records the intrinsic behaviors of the Klokah content delivery syst
 *   **Storage Best Practice**: To avoid OS-level file explorer lag (especially on Windows NTFS), do not dump 10,000 `.mp3` files in a single directory. The current plan shards them by the first two characters of the ID (e.g., `audio/43/43600.mp3`).
 
 ### 3. Network & Encoding Quirks (The "Mojibake" Problem)
-*   **Issue**: The raw text returned from `read_embed.php` and occasionally from JSON payloads often contains garbled characters (mojibake) like `Ã`, `Â`, `â`, `å`.
-*   **Cause**: The Klokah server occasionally reads legacy Big5 or Latin1-encoded data from its database but serves it over HTTP with a UTF-8 header, leading to double-encoding.
 *   **Solution**: Always apply a rescue decoding step. Logic: `s.encode("latin1", errors="strict").decode("utf-8", errors="strict")`. (This is embedded in `core/network.py`).
+
+### 4. Content Gaps & Semantic Fragmentation (The "Empty Row" Issue)
+Investigation during Phase 10 refactoring revealed why certain rows appear empty in comparative views (VS-1):
+*   **Actual Data Gaps**: In sources like `dialogue` and `essay`, certain curriculum points or dialogue lines exist as Chinese shell entries in the raw source but have empty indigenous text strings (`''`). These are faithfully ingested as "Empty AB" souls.
+*   **Semantic Drift (Merge Failure)**: The **"Soul Merge"** logic relies on exact (normalized) Chinese strings to unify results. 
+    *   Example: `謝謝老師。` (Twelve-Year) vs `B:好，謝謝老師。` (Dialogue) vs `謝謝老師` (Grmpts).
+    *   Because these strings are not identical, they are stored as separate semantic souls. A search for "老師" will return multiple rows, some of which may only be populated for specific dialects (e.g. the Atayal source included the period `。` while the Amis one didn't).
+*   **Asymmetric Scraping**: If a sentence was only scraped from the "Atayal Twelve-Year" curriculum and hasn't been cross-referenced with "Amis" yet, the Amis column will naturally be blank in VS-1.
+
 
 ### 4. API Inventory (Discovered Endpoints)
 1.  **Grammar Master JSON**: `https://web.klokah.tw/grmpts/json/{lid}.json`

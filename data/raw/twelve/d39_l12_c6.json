@@ -1,6 +1,405 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "pinasubil a araway",
+  "titleCh": "傳承的歌謠",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "同族分支",
+      "ab": "Pinakapazan",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/1644e6b5f7ed599c50111d1f12c2c543.wav",
+      "word": [
+        {
+          "ab": "Pinakapazan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/ea977ca70baab49153958b6c58f273ef.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "哀煙哀煙，再度吟唱的哀煙",
+      "ab": "Aiyēn u Aiyēn. Aiyēn u minah.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/da8ef52c3f3eaeee6ade3fa121775520.wav",
+      "word": [
+        {
+          "ab": "Aiyēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/a69ceb932caed3e0ed0039afbf8c7d3c.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/3c50042b272e5dd30af223a4d800b7ea.wav"
+        },
+        {
+          "ab": "Aiyēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/4bf40af506281a1a76b75a4967e8e646.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Aiyēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/72f497637a9a74430acc0782aee3c05c.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/3a970886fa97f4f32820636d0e9c9a91.wav"
+        },
+        {
+          "ab": "minah",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/a8a933859d973ec1a7f458191e4ececb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "咱們要講述久遠的傳說",
+      "ab": "taduduaw manu rahal u pinasubinan",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/986047202d2807a9ebd7cee462efbdaf.wav",
+      "word": [
+        {
+          "ab": "taduduaw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/3d3f099ac7da06503e2d58198279a095.wav"
+        },
+        {
+          "ab": "manu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/668a5051b8b132f0749771ac0f659ee5.wav"
+        },
+        {
+          "ab": "rahal",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/9bffccc8ca0662d61a2c8e8bfa025daf.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/9adef3cf5c1188d7c7a64659eae95a9f.wav"
+        },
+        {
+          "ab": "pinasubinan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/437ba26dc52ce8887d037d6155b04b19.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "有咱們的結盟姻親",
+      "ab": "nahada hiuwaz Pinakapazan nita.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/3f19e78c79191dfccf0073907ffb17fe.wav",
+      "word": [
+        {
+          "ab": "nahada",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/53de5d67897cee9f6cfceee5e825fddf.wav"
+        },
+        {
+          "ab": "hiuwaz",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/9d9739ef76c9d1ccc4f7b0a3f9664079.wav"
+        },
+        {
+          "ab": "Pinakapazan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/9b889ccb4fd62c8fd85424d0cd2ef8a3.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/b436daebafd885f895a233ce83546e7b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "居住在東勢生蕃那兒",
+      "ab": "malalēng di dua daaxu Sikidaya.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/7c8c76a8235108875d20bb7ab7ac7ea4.wav",
+      "word": [
+        {
+          "ab": "malalēng",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/2be47c78fe29c06d2be61ff8d129c05c.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/52f7f9d2271b3d8402b8561d26acbef6.wav"
+        },
+        {
+          "ab": "dua",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/e96de69af8995f8be4036d2cfc04b64f.wav"
+        },
+        {
+          "ab": "daaxu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/5dfa40208d7218b2a890f034e7ace237.wav"
+        },
+        {
+          "ab": "Sikidaya",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/3bf67d205e3466c9dbfe3c2728ad2879.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "正在那裡繁衍！那裡衣食無憂！",
+      "ab": "mauzuazuax’i dua. maxariariak’i dua",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/710474d4f5b8c047af09ffa1f4cfd352.wav",
+      "word": [
+        {
+          "ab": "mauzuazuax’i",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/5f89d00b78206451882c0304e39cefc0.wav"
+        },
+        {
+          "ab": "dua",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/bfabb39b7c19898dd0f0786914ead03d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maxariariak’i",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/310663df68679e8226446e7fe22021df.wav"
+        },
+        {
+          "ab": "dua",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/11a798795b61d9115b8de0af764a1191.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "遠方生蕃那親家的部落",
+      "ab": "lagi a rētēl kia manu daaxu.",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/949c624217af12eaf620837e7e564cc6.wav",
+      "word": [
+        {
+          "ab": "lagi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/1e1d62b03bd9619d7eeaa068cade3365.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/1a18b273b1f64ef0d51af069457393c0.wav"
+        },
+        {
+          "ab": "rētēl",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/8e30913579496f8f4c21aeb8f7fb4bd1.wav"
+        },
+        {
+          "ab": "kia",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/c7af203bdf7a141228107b5aa6040018.wav"
+        },
+        {
+          "ab": "manu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/a18b91010abfa51146a1cb89c5ce1796.wav"
+        },
+        {
+          "ab": "daaxu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/35bcbfde17556c6d2e5be26088630dba.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有山為界，有水相隔",
+      "ab": "lazi’an u binayu. walakiwak dalum.",
+      "order": "8",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/6f5a39eac2c291c0a7f182a00b62fb97.wav",
+      "word": [
+        {
+          "ab": "lazi’an",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/5a332eabe908db75b2c731c7f40c0501.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/5da0b50f6749d95a278d87c961c16465.wav"
+        },
+        {
+          "ab": "binayu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/b533c16f75ae53c55c4578a1f7359c0e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "walakiwak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/a3e3b355f56ca0bbeabf115e17a8d741.wav"
+        },
+        {
+          "ab": "dalum",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/c0d709132a60ee2a2fbeb9ecae0df429.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "上面的日子將會相聚",
+      "ab": "babaw a dali maa’isakup’ay.",
+      "order": "9",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/9c64ea55bafd09b159096b15654b338d.wav",
+      "word": [
+        {
+          "ab": "babaw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/0a0b201ae0acfc3f68a1fa459e4c7218.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/6a883bf061b1fa6593223b94c0ed03da.wav"
+        },
+        {
+          "ab": "dali",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/6a6203b91a9bcb22f8f9448af516f5f0.wav"
+        },
+        {
+          "ab": "maa’isakup’ay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/5d7d436f7961de0d849bac8ee368abc2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "話語是祖先所教導！",
+      "ab": "rahal ka mududu na’i apu’apuwan.",
+      "order": "10",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/f143a014afa8939b4b4c06c94b01e554.wav",
+      "word": [
+        {
+          "ab": "rahal",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/59777a44213cbc2f56e0ccc831fcdefa.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/a399ff3bae3dbb38b978f156589e2ae0.wav"
+        },
+        {
+          "ab": "mududu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/f306e78b8a444ab3c9233c10095f50fe.wav"
+        },
+        {
+          "ab": "na’i",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/006a619598215954d415c797af610d44.wav"
+        },
+        {
+          "ab": "apu’apuwan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/c8c4523eea86c20ec38177988bb04378.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "哀煙哀煙，吟唱內容至此結束",
+      "ab": "Aiyēn u Aiyēn. saysay yawira.",
+      "order": "11",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/12/fa3ff1d5bba02eabba4d7853bea937fa.wav",
+      "word": [
+        {
+          "ab": "Aiyēn",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Aiyēn",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "saysay",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yawira",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

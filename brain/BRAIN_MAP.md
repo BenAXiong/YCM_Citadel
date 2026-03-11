@@ -15,6 +15,7 @@
 | [**`P9_plan_vocab_integration.md`**](P9_plan_vocab_integration.md) | 📌 | 2026-03-10 | Phase 9 Word-Level implementation & Hover logic | **New Sub-Spec** |
 | [**`PORTAL_PLAN.md`**](../portal/PORTAL_PLAN.md) | 📌 | 2026-03-09 | Development phases for the Web Research UI | Frontend Roadmap |
 | [**`data_spec.md`**](data_spec.md) | 📌 | 2026-03-10 | Unified schema, Information Flow, JSONL Interchange | Master specification (v1.1) |
+| [**`SCRIPT_LOG.md`**](SCRIPT_LOG.md) | 📌 | 2026-03-10 | Exhaustive log of all scrapers, processors, and analyzers. | **New Inventory** |
 
 ---
 

@@ -1,6 +1,738 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Babizu ka’pakuasina",
+  "titleCh": "邀請卡",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "邀請卡是呼喚者為了呼喚其他人的書面通知，被邀請者能清楚依時間赴約，包括婚喪喜慶，各類集會活動都是如此。現在科技發達，也會用fb/line/Email.代替傳邀請卡，真方便耶！\r\n",
+      "ab": "babizu ka’pakuasina ka xara’ēn ni saw awnu pakabaza nu uka saw a babizu, kara’ēn a saw ka mabaza’ay ukusa di matēlēng a bintul, sidi matēlēng a daxē’an, ini madiak, kipus maara-rima, purihad asi mahatan a maa’isakēp iu saysay paaturaus a isia ka lai la. ohoni ka nahada xias a buburiak’ēn, iu baza’i kalu’un fb/line/Email siki babizu ka’pakuasina, papariak ee!",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/01/dfabba479a2006b481b4213705cbf863.wav",
+      "word": [
+        {
+          "ab": "babizu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0e531c87bd253689af35799712c5078f.wav"
+        },
+        {
+          "ab": "ka’pakuasina",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9e5cf4261cd110189c2db4f603424a6c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/50caf7b68d01d7d563ba89592efa07ea.wav"
+        },
+        {
+          "ab": "xara’ēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/d91f0758ad6b7027143d3f24f3e3a35a.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/e86efd4d2902a33142b6cf96d287ccf5.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/26b6fbd71b1335879f8daca787a71653.wav"
+        },
+        {
+          "ab": "awnu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/d7c8ed1847466a01be4717ce9534eb86.wav"
+        },
+        {
+          "ab": "pakabaza",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/77da6c0ffb72067c3065c12478b085d9.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/168bc522c9e0fd97f0f9de9b72164278.wav"
+        },
+        {
+          "ab": "uka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b94c2b9763b50e787ce51a4e49f23c97.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1ac283101b0c126bb21e3b5f83221c08.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3c516a766bc8bcab23f2a4978ab6d524.wav"
+        },
+        {
+          "ab": "babizu,",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b238f9767b1515fa7936eab4ef23a452.wav"
+        },
+        {
+          "ab": "kara’ēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b4346af211ea7142fa3969723c956c68.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a8b5035023a6bed9f3504118ab919bb6.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/94d49bb603b268758615bd7717a0a20a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9dc70afb70088c8b9b928748a0f1f369.wav"
+        },
+        {
+          "ab": "mabaza’ay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1048ab429cd30a21b6372aa71c76b766.wav"
+        },
+        {
+          "ab": "ukusa",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/14f8d76827e19b84315aa4f9b3ec5d68.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/548f2e30e6c47ec6be206118c64b8109.wav"
+        },
+        {
+          "ab": "matēlēng",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/aad102866953db663f9ecf6474bc1166.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9bfdc0fcbbea7a295893bc9418625b0e.wav"
+        },
+        {
+          "ab": "bintul",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/966368b2f6eed68475dd7f4367e60aaf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sidi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/55373db48eea0bd06ef83cd94bb34190.wav"
+        },
+        {
+          "ab": "matēlēng",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/69205a13b1e57060ce518abba3c5ccbe.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/6270a045d34233c4a16a57a425c60cfe.wav"
+        },
+        {
+          "ab": "daxē’an",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/4eab96fcb8426b26ff91aa64db5d710c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/682b345a2a1df6daf5790b8fbb45d73a.wav"
+        },
+        {
+          "ab": "madiak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a4a55b0e747e1fa52017969a87dc023e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kipus",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/afdb4f04e3d19a7112c78787538cc1d9.wav"
+        },
+        {
+          "ab": "maara-rima",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/2b5890340ca4debd7d4a84eb0b8f65cb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "purihad",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/646c2b23db6c7c5e55cd57e431082fd4.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/6d1a29ac1feb09239d1355fbaf64fa0c.wav"
+        },
+        {
+          "ab": "mahatan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/2dd30ce816edf1fc9efc24440d351126.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/cb837762b371bad6c39cc559928d98fd.wav"
+        },
+        {
+          "ab": "maa’isakēp",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/477819320918a5d2e7f2b4abc37513a0.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/2fd67581aa50a893ca9e62eef0b6081a.wav"
+        },
+        {
+          "ab": "saysay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/44d9bb96964b7db677697f011f414ad4.wav"
+        },
+        {
+          "ab": "paaturaus",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/47d87f0a2e34688366ee27c2a4d41a59.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/6bef8f37d78b2afbe86f938b9269e07f.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/419a87cfe0d355fefcec542f91ff8600.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a3f7780e0747e9d60b39339516b53eb4.wav"
+        },
+        {
+          "ab": "lai",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a065bc6f745f5def03ec7e0cff096af3.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0310adc876aae026dfff906ed6ba8364.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ohoni",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/11e2c0d5db01e5d29945016925121fec.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/722a088842cb023a949efd7c5f019c8f.wav"
+        },
+        {
+          "ab": "nahada",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/dd26b6a3103c0cdc4d8ee38b1862c1c8.wav"
+        },
+        {
+          "ab": "xias",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a2721882e83b5d8852c49c5f597f99a7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/6500e7bdde4a8218994f184e25d3ba48.wav"
+        },
+        {
+          "ab": "buburiak’ēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b51f26a5e24b2669a57bf9527725e93e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/cba49c1659e362dcdc402a3ae44a5b9a.wav"
+        },
+        {
+          "ab": "baza’i",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/665ded230b4bac42adcccb679a317d96.wav"
+        },
+        {
+          "ab": "kalu’un",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/7fbf67947efcd44ae59b7f512cae5d3e.wav"
+        },
+        {
+          "ab": "fb/line/Email",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/16805aa1a45d40d0150a7a75c450ec4b.wav"
+        },
+        {
+          "ab": "siki",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/2e380f4af8f28cad6218b16617aca07e.wav"
+        },
+        {
+          "ab": "babizu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9ac1cc84cf4c2f8549863097c2b6fd0c.wav"
+        },
+        {
+          "ab": "ka’pakuasina",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/739a3217455947265fe61d18dc847b1b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "papariak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b4aa6d7482bd0131089b75b7f16fa903.wav"
+        },
+        {
+          "ab": "ee!\r\n",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a1045a0637c505036811f9addc8ee25d.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "邀請者：烏牛欄巴宰文化協會",
+      "ab": "maxara’ēn a saw: balet linuzuaxan Saaturausan u Auran Pazeh.",
+      "order": "2",
+      "sound": null,
+      "word": [
+        {
+          "ab": "maxara’ēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/34a20f62e3d6ef62813072eff2472f51.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/c500388a6e351489d71974d847d23102.wav"
+        },
+        {
+          "ab": "saw:",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/410d006eed697efe2f2ce8766739d8cd.wav"
+        },
+        {
+          "ab": "balet",
+          "ch": "風俗習慣、文化",
+          "sound": null
+        },
+        {
+          "ab": "linuzuaxan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/cff344aa69d7e589e2f226be82cf0242.wav"
+        },
+        {
+          "ab": "Saaturausan",
+          "ch": "協會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0beeb3382615a23bf3145b7998a67864.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/78b1803767076223eeff457f2e2e270a.wav"
+        },
+        {
+          "ab": "Auran",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/fd7dcad8a10f059de8bdc8626519c4c6.wav"
+        },
+        {
+          "ab": "Pazeh",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ecf4104edc1a99db80658844620bbb1d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "受邀請者：苗栗縣巴宰文化協會",
+      "ab": "xara’ēn a saw: balet linuzuaxan Saaturausan u Baliran Pazeh.",
+      "order": "3",
+      "sound": null,
+      "word": [
+        {
+          "ab": "xara’ēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/33f4a652031d5680a32f953f1f4659ab.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/70e9371a402bc620369b317a916aa271.wav"
+        },
+        {
+          "ab": "saw:",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/f4e1a491c7139f2f96b0500a5a5b41c5.wav"
+        },
+        {
+          "ab": "balet",
+          "ch": "風俗習慣、文化",
+          "sound": null
+        },
+        {
+          "ab": "linuzuaxan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ee104ad2013385119b860fdb79415760.wav"
+        },
+        {
+          "ab": "Saaturausan",
+          "ch": "協會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/fdc38401c63076157ff6771bcdf9304c.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/44cfef980a92b617e47e11ab3455ed08.wav"
+        },
+        {
+          "ab": "Baliran",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/027456b0dc28763c69fd314b4e219069.wav"
+        },
+        {
+          "ab": "Pazeh",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/7f22047b8196ae45e0f7d38fbe113f99.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "目的：南投縣巴宰族群文化協會舉辦傳統過年。",
+      "ab": "hauriak'ay a kukusa: paarazēm niki paasubil Alikunl Saaturausan u Pazeh a yamisaysay.",
+      "order": "4",
+      "sound": null,
+      "word": [
+        {
+          "ab": "hauriak'ay",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/08/25da038ce33722c7e078847fa742b711.wav"
+        },
+        {
+          "ab": "kukusa",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paarazēm",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/036c327c54069cf95bfdf1de0aad1f5f.wav"
+        },
+        {
+          "ab": "niki",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a67a104a5bf4009eb21b27ab50fd2d3b.wav"
+        },
+        {
+          "ab": "paasubil",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/d86424676af6bd77dc50b8cfc0cfe2c1.wav"
+        },
+        {
+          "ab": "Alikunl",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Saaturausan",
+          "ch": "協會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/07ad07a04485ff8732a87110615eb402.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/eacb9a69f3c03ff5f850855546d95c54.wav"
+        },
+        {
+          "ab": "Pazeh",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/bfa9c486bd23ea90df00730a10ddf173.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/4aaaaeea1f55b0de7ea7cfc8640ab11a.wav"
+        },
+        {
+          "ab": "yamisaysay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5ad8619f664e30af341bf868fe9f0d0d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "日期：2022年11月12日。 ",
+      "ab": "siadali’an: mia dusa sahal u dusa isit dusa kawas u isit ida ilas isit dusa adali.",
+      "order": "5",
+      "sound": null,
+      "word": [
+        {
+          "ab": "siadali’an:",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/74f416747bb462b4abe659f40ec79043.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/88f3de507a9316d7a354ae2ca73129e3.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a77abc825a13701fa780b014e242a506.wav"
+        },
+        {
+          "ab": "sahal",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/f0a231dd81c82e3de242dd3187cbbbb6.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/e3595bfee6f740537477b6da0d2e7ed5.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3693244aac43c7e6a3518890d45913c1.wav"
+        },
+        {
+          "ab": "isit",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1aceeeacaade08e67e3ced96e9491f88.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/8482dd28b6e30a22155ce4549cafb28b.wav"
+        },
+        {
+          "ab": "kawas",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/c73e068f01bf18d6d591c4c750b84516.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/40cda3f123d1e0ac101e2f819c09eca8.wav"
+        },
+        {
+          "ab": "isit",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/f3db7ab46cbb1d990890ca825f0d6be5.wav"
+        },
+        {
+          "ab": "ida",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5b2bd0479dff7217f0b42588ecff03fe.wav"
+        },
+        {
+          "ab": "ilas",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0227633d75cb6384233d3c94c71ec29a.wav"
+        },
+        {
+          "ab": "isit",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5d58661d356fe3ef01808a60af038000.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1c373629b06261a63ad43dd7feefba2a.wav"
+        },
+        {
+          "ab": "adali",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9aea1f4bd3e99b4f16a5655c77bc9d0f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "時間：上午9點至下午3點。",
+      "ab": "mia bintul: sasunan xasēbisupat a bintul kaxu aahuan turu a bintul .",
+      "order": "6",
+      "sound": null,
+      "word": [
+        {
+          "ab": "mia",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/fff1f4a34c338643e1926d652c03546c.wav"
+        },
+        {
+          "ab": "bintul:",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0eecd309f50e52a2cf9f0fb9294a9233.wav"
+        },
+        {
+          "ab": "sasunan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/61bf6d7433466a2a29006bb2ab69048e.wav"
+        },
+        {
+          "ab": "xasēbisupat",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/d4cd96616ba4d80e7dac98570b63d5e8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/c01b02c7864ea8d074606892498b5987.wav"
+        },
+        {
+          "ab": "bintul",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/05d707b582b8105b90150aaa5277cdba.wav"
+        },
+        {
+          "ab": "kaxu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/e9c2b179e883b03fa31bb17dc2921860.wav"
+        },
+        {
+          "ab": "aahuan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9ce4f7ec2de1c17b53c76cfe3ac5b3f2.wav"
+        },
+        {
+          "ab": "turu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/4c32d40abb5a5227d863f37a87979bef.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5593f1aa6cd9885956454f1cfe8015a2.wav"
+        },
+        {
+          "ab": "bintul",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/926231317e725fab246c8bce382e4ed6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "地點：埔里鎮愛蘭長老教會。",
+      "ab": "daxē’an: kai Porisia a sasumadan Auran.",
+      "order": "7",
+      "sound": null,
+      "word": [
+        {
+          "ab": "daxē’an:",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/700dcf6cc667b5ed4f45158165853c43.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/160217626286e04d46df579a152cb692.wav"
+        },
+        {
+          "ab": "Porisia",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1c2f81e1f63c0a0dc8b3f0aac73156f0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5b93455db427199bf359dc2385cbc647.wav"
+        },
+        {
+          "ab": "sasumadan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/82e98833bc7e26d06b6784b4ed528653.wav"
+        },
+        {
+          "ab": "Auran",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/7828d23022d8d67ef504fd0d8ffea973.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

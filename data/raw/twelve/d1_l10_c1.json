@@ -1,6 +1,733 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "vativatiyan kana nirevuwa’an",
+  "titleCh": "發祥地傳說",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "不要忘記祖先的起源。據聞，在南部為了要找尋良好的獵場及農地。一群人搭乘竹筏往北方航行，不畏懼在海上遭遇颱風時將會如何。",
+      "ab": "amanan malalup zanta temuwamuwan, zanta nirevuwa’an. kinger ta mu, kemay i kezet maaya’ za ’inava za pa’alrupan, za uwa’umayan. muitras za tamina a salepunan na trau, ’azi mataraherenasan za kemakudaya i lrevek za variw masikasik mu’ami.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a0905fee545c5c3904259e37625e6bb1.wav",
+      "word": [
+        {
+          "ab": "amanan",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/268c6a071cd67a53d7b1b21ce595c64c.wav"
+        },
+        {
+          "ab": "malalup",
+          "ch": "忘記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e33af099bd011dfb53c6ab94bea065cb.wav"
+        },
+        {
+          "ab": "zanta",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/478b1e51fd5e42e61e5c0d367891f201.wav"
+        },
+        {
+          "ab": "temuwamuwan",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/496c5ec9635f46692fdbf58f3a0837f0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "zanta",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a94c78e03951ad040fc3623be1ecd46e.wav"
+        },
+        {
+          "ab": "nirevuwa’an",
+          "ch": "所起源的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d4249530242056d948420c5212f6f750.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kinger",
+          "ch": "聽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/86cac67aa0553e655c81353e029cebef.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8fd96245c06a6ac46546bd56face00c0.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/73794a8dd611658e439bf679998117e1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kemay",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f368379405164f119fdb38e72851ab05.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/89bed1f359dea17b2a99d101443507bc.wav"
+        },
+        {
+          "ab": "kezet",
+          "ch": "南方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d6b598a5d0a8f4a45bc2713399faab7b.wav"
+        },
+        {
+          "ab": "maaya’",
+          "ch": "在尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8c6a6a728a958953d7f49e31190e3d94.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/c143e6e4130d92cee80611cea22fa185.wav"
+        },
+        {
+          "ab": "’inava",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/6a52c5f0d8176dbd325654259c27a570.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/b8347d87b31c91b1d40aabd0fb298f1d.wav"
+        },
+        {
+          "ab": "pa’alrupan",
+          "ch": "獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2da02ef9dd0d2138f3f11948e1b692ac.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "za",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f93c871cdcf92b0802e7cac88b34414c.wav"
+        },
+        {
+          "ab": "uwa’umayan",
+          "ch": "耕地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a2f3f708598f11b216d14ec81f78f03f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muitras",
+          "ch": "搭乘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/49ac4dcbd03f3f39085f257edefb5d0d.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/ef8ff41b21cbfec973591cf88c54b6b7.wav"
+        },
+        {
+          "ab": "tamina",
+          "ch": "船",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/35c76c2cf6a1f61aacd6e62b771c4cea.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/489d1cce41cf1b051dfe7a04672ec139.wav"
+        },
+        {
+          "ab": "salepunan",
+          "ch": "一群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/1f2f0d1b308f5762b23d20301a1ca2cc.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f8c071270e5ebbad8ddda98fd1cbe475.wav"
+        },
+        {
+          "ab": "trau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a6625fb499ad28bee45129f3464c6bbf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’azi",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/ee192ce96115979aaf2b65b50010f1bf.wav"
+        },
+        {
+          "ab": "mataraherenasan",
+          "ch": "恐懼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8b18488349afbee6eb51551100fda776.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "原因",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/5ea8d485d2fe115d7b16e007fe453bb4.wav"
+        },
+        {
+          "ab": "kemakudaya",
+          "ch": "將會如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/142dfe4a33d624d2b830a9257e96726d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3367b557da3cd3ce928461613980a77c.wav"
+        },
+        {
+          "ab": "lrevek",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a25ba10bc2bab7c626fcc5d75907e999.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/09ea8690a859084c80f1fbbbf38766e8.wav"
+        },
+        {
+          "ab": "variw",
+          "ch": "颱風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/dd1ea9382335816da0932d10b0503922.wav"
+        },
+        {
+          "ab": "masikasik",
+          "ch": "出發",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e5276d5f83f03471948bf66f3f1e40cf.wav"
+        },
+        {
+          "ab": "mu’ami",
+          "ch": "往北方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/892690ce6f290b95b763398d21584f85.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有一天，遭遇了一個非常強烈的颱風，許多人在海上罹難，只剩下八個人，漂流到稱為「三和」的地方。他們煩惱著要往何處前進，只好各自分離，有的住到知本；有的住到建和；有的去到南王；有的去到利嘉、泰安、阿里擺、下賓朗；有的去到初鹿，各自建築房舍。就形成了卑南族現在的部落。",
+      "ab": "a azu kana wari muelep za salaw pakirev a variw, kazuwan na miyanatrayan i lrevek, muvaaw lra a wawalu. tu palinanay i kaziyu i Sanhe na kinuwa na dare’. mavangavang lra za uwaiyanan zi maruwadawaday maya’ zantu kaazuwan lra.\r\n[===]\r\nulra na kazu i Katratripulr, ulra na kazu i Kasavakan, ulra na mukuwa i Puyuma, ulra na mukuwa i Likavung, i Tamalrakaw, i ’Alripay, i Pinaski, ulra na mukuwa i Muliveivek, i Danadanaw karaparaharahan zantu raruma’an lra. mau na mudaway lra a zekalr na Pinuyumayan harem.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/5ccbe330b89a7174b3ffc12d0759990e.wav",
+      "word": [
+        {
+          "ab": "a",
+          "ch": "時間副詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/24/dacf05f87c6b259204857e7a62b3351d.wav"
+        },
+        {
+          "ab": "azu",
+          "ch": "那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/72b6cd68eaf531e6e5c1b5fe41717a92.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/c87d30e494eff438fe37b4c810167da0.wav"
+        },
+        {
+          "ab": "wari",
+          "ch": "日子；天氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8a0790a10f8836c02212d5a576278ba1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muelep",
+          "ch": "遭遇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/beb5dfa1d8e6812f2b520664bd77aff8.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/ff71cce3c3f1a3074a74b7f2f8b2ffad.wav"
+        },
+        {
+          "ab": "salaw",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3710f8d0f60702216ee4495fd76e4dd8.wav"
+        },
+        {
+          "ab": "pakirev",
+          "ch": "強烈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/790edde071e72cef3d8b04b5476de76f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2f749a416a64ff332cdde816bf5dc086.wav"
+        },
+        {
+          "ab": "variw",
+          "ch": "颱風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/09edf2c698a3b122d8118387ce2642ff.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kazuwan",
+          "ch": "很多人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/6a1ef1c7b7e27c627cd695b1e588a9e2.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f7d213aceecff80fbb390d721f08f923.wav"
+        },
+        {
+          "ab": "miyanatrayan",
+          "ch": "死亡的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/f0626882291b2add0f495cd3522c0422.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/c669ec95d59ea4a711ec7c0749c8a2ba.wav"
+        },
+        {
+          "ab": "lrevek",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/c65a46c16b70bf886e62e791cd4a80b3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muvaaw",
+          "ch": "存活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/67376b38e9d13c4d09c0fa86c60d3d65.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/9895b228de54f61cf02c48f77929a3d8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0147329eb8fab645a3fa94e3943482ce.wav"
+        },
+        {
+          "ab": "wawalu",
+          "ch": "八個人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/21fe20409703d8de3b0005d87e3e01ca.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f0fc9a87957f55a1b2c6f5408b8658f2.wav"
+        },
+        {
+          "ab": "palinanay",
+          "ch": "漂流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0f504ffc4ff68684c5b644c6912639b4.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/b4f0348c0f3c422a259571f8e102ee92.wav"
+        },
+        {
+          "ab": "kaziyu",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/28334cbd7f1b9a596e746bbb660b2814.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/eb8d67e83a1516eca825c2231aee81d7.wav"
+        },
+        {
+          "ab": "Sanhe",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/822a1055abf40766453cf3116f5a8044.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/30ed073085691825e4a8a078de862b80.wav"
+        },
+        {
+          "ab": "kinuwa",
+          "ch": "所謂的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d45fc5bc0b0ee5394740aef1ed589f84.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2e60ad7094b845b0340d88d52ef2545f.wav"
+        },
+        {
+          "ab": "dare’",
+          "ch": "土地；泥土",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/176b0265429ce947447f7c579a4aee45.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mavangavang",
+          "ch": "煩惱；忙碌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/228a722d70476dc268454318698cced8.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/6c5f850767ec606ecf7ddcab72ad8b6e.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f47acfef5d14778c2753e88d6b2c0f98.wav"
+        },
+        {
+          "ab": "uwaiyanan",
+          "ch": "將往何處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/45960f1030a3edd13c57520d2cced90c.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/fcc4799ca5fd1af38a4ea99d48bf2ced.wav"
+        },
+        {
+          "ab": "maruwadawaday",
+          "ch": "相互分離",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/feb90a9d974a41da3e2790a1a687de73.wav"
+        },
+        {
+          "ab": "maya’",
+          "ch": "找尋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/b6fedc71a2b785e0bfd5658719913863.wav"
+        },
+        {
+          "ab": "zantu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/1b783423c3b0fea67a7fd3b9f41128d8.wav"
+        },
+        {
+          "ab": "kaazuwan",
+          "ch": "要居住的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0cea79def03ef55c5bc5493a0be86b41.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/baa6cae40bbe14fb96606ec134b380e4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulra",
+          "ch": "有；存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/9d8b281de25ef60bb0c3c368ae3feb8d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/808ce61c243ee5ffc6642170097b0fc8.wav"
+        },
+        {
+          "ab": "kazu",
+          "ch": "居住；在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/fe0655e9ef6519ae61261ac458996912.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/72c4a0d8bbe3fdb6ca750cf50671f03a.wav"
+        },
+        {
+          "ab": "Katratripulr",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/ce96db346cd23e66b3b71a7c63003403.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulra",
+          "ch": "有；存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f960ece51976c3196e8347f8fa6d09c9.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/7eebbf5c24b8a986be05599a49683e76.wav"
+        },
+        {
+          "ab": "kazu",
+          "ch": "居住；在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/1097cb495b539caa7795b1ed8a22f07a.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/06851f10c581b0901d6e73448ed45ea1.wav"
+        },
+        {
+          "ab": "Kasavakan",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/6c46caa1a905c849486bfb4413562273.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulra",
+          "ch": "有；存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/a1654a3a3bb503f6c946f68b7c72b17b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/446e520ce36e073a153fed039e6d55fe.wav"
+        },
+        {
+          "ab": "mukuwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8ad297da4fc2cc28dfa3c0cb7df8ae63.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/9775efcc70ff0918ad952cc9c48a511a.wav"
+        },
+        {
+          "ab": "Puyuma",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/09b45ae46393da4adbd9b0bdb977d1aa.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulra",
+          "ch": "有；存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/858a2be748405d1cf063e97622abc791.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/5cc085288d7afc9d76f6aa846b7e5d5f.wav"
+        },
+        {
+          "ab": "mukuwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/53fa398e3a888d8f115b72a55aa8c7de.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f985f43b4ba330d5282dfd9be8003e62.wav"
+        },
+        {
+          "ab": "Likavung",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/9191e0c0fc4f0ff1d9e4bae7e118944e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/79d42eab00a128a46e98b8b109001eb9.wav"
+        },
+        {
+          "ab": "Tamalrakaw",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/42ec2edeeef40d139206959d61d82412.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8484665c6ae3b6ace2e827e3355da2dd.wav"
+        },
+        {
+          "ab": "’Alripay",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/5c80428f70abbc7e1df381f00eeddf74.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/d12cfd57f077ca324ce6578da67b7592.wav"
+        },
+        {
+          "ab": "Pinaski",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/366893c13ae0d73de4dfeaf64a9d86dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulra",
+          "ch": "有；存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3536acd5505961bd4729ef891b11e48a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/26d9795309a17089369801bdcdc86aeb.wav"
+        },
+        {
+          "ab": "mukuwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f9360aca7d64898473ebeaeb1271934e.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/df9f792c5e0d058314cc356c9017d02a.wav"
+        },
+        {
+          "ab": "Muliveivek",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/652a314905bc65097822da71bfb1f3cd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "karaparaharahan",
+          "ch": "各自建造",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/f7baed71448eaf4045987965e2078753.wav"
+        },
+        {
+          "ab": "zantu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/0c49e4b09eff54a771ea5ae4f10714ec.wav"
+        },
+        {
+          "ab": "raruma’an",
+          "ch": "要住的房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/03/49fd589489747afab8b77ddd9d4530d8.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e0d0f4c329f9c25d945e3b500541150a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/e4ab0e81b79460c8642efdf47fd4201d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/537786ef05a738d155fc78d7243e3030.wav"
+        },
+        {
+          "ab": "mudaway",
+          "ch": "形成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/b972d0ce67b67b73143629fc5ab8d790.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2ef65e75adac4be5f8a2bfafd2decbae.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/30b4f25f536778f198568a0030e8a586.wav"
+        },
+        {
+          "ab": "zekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/be5abab81bae109e1a01ea0ac2f6dde7.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/8c8a9c8f4584f50c3c88f2f70db0ee6b.wav"
+        },
+        {
+          "ab": "Pinuyumayan",
+          "ch": "卑南族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/ebaee1af0c501f22ddfe242fc16dae53.wav"
+        },
+        {
+          "ab": "harem",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/3710ad340b29c91d981f64fdc9263ae2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

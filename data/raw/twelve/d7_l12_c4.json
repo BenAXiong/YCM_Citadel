@@ -1,6 +1,1427 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Maqaltum tu sinkukuza",
+  "titleCh": "埋葬",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "以前人們快斷氣時，親友會殺一隻豬宴請來探望及安慰他的人，因為親友來安慰而心裡很高興。",
+      "ab": "Ma qabas sat bunun maca munga’in uka’an ni isang nga, mat taimilumaq qa mapataz zi babu’, paka’un ni mintivi’ cin si’ail tu bunun, tisuni manahip si’ailun ni tec’an.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/22/b2eba7c41f89e0772c360dbe61ec26ea.wav",
+      "word": [
+        {
+          "ab": "Ma",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/588561319b35fa0addc715ae7880e59f.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/57799be81b504cc479adaf4724301e9d.wav"
+        },
+        {
+          "ab": "sat",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6bcf6ba566c0ff0c5cfe7012c493e4a2.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/628bd30e7bb2229c482c1d0ee6bc89fe.wav"
+        },
+        {
+          "ab": "maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/d5dd6574c31cb1dbc623ccc7a9d737a4.wav"
+        },
+        {
+          "ab": "munga’in",
+          "ch": "即將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1e1bef4ae56359dd91274aec333c770c.wav"
+        },
+        {
+          "ab": "uka’an",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/9c2e9c60f5e42da1361aa50581813018.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/4642952a77bd7bd6a6315e1c62073fa0.wav"
+        },
+        {
+          "ab": "isang",
+          "ch": "氣息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/13a5741a2e51f458d5a1eb7fcf67dd9d.wav"
+        },
+        {
+          "ab": "nga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/cee42593861af8f24bac58b3fcd27b23.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mat",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/132e770b318c32c29f2ed3344396886a.wav"
+        },
+        {
+          "ab": "taimilumaq",
+          "ch": "親友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/55ca5caf7233740de3d1dea156bd9d62.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/0600a53a5a6110509737dea4aa5e0221.wav"
+        },
+        {
+          "ab": "mapataz",
+          "ch": "殺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/e8e6d2c05f33fcc45f21fa3682c7717d.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/5a498c7f561396e70d6685568f4f4ec0.wav"
+        },
+        {
+          "ab": "babu’",
+          "ch": "豬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1122e3cd6eb8b6e063c68a1845e12162.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paka’un",
+          "ch": "宴請",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/07a66d69ff6d14f7b2941eb40d9f85c3.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/298cfe7b9f1aca0612cd6f83a64742dc.wav"
+        },
+        {
+          "ab": "mintivi’",
+          "ch": "探望",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/081c5740c4a929aa31c5999d4cde3857.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b803097a293ed714906c4c5ff7b7ceeb.wav"
+        },
+        {
+          "ab": "si’ail",
+          "ch": "安慰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/2ce2e482f494b7b70408d7a57396ebf4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/64f850f7cba8fbb41c60f5483b89eb5a.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b51fb01095440d9197a72ff51af0c1fd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tisuni",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/021b6bce5935e67a855ac84f85218c32.wav"
+        },
+        {
+          "ab": "manahip",
+          "ch": "高興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/db1b94b170038a4de7af5eacdfb32cd4.wav"
+        },
+        {
+          "ab": "si’ailun",
+          "ch": "安慰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/91941d22da15c593bf6d512074c7c9eb.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "被",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b055964c9d78c8f7f4003abe24fed3aa.wav"
+        },
+        {
+          "ab": "tec’an",
+          "ch": "親友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/e8486849619756fa2ab7bc408fce41df.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "當人的心跳停止後，先將過世的人化妝成很漂亮的模樣。男人就讓他攜帶他的衣服、下襠布和胸帶；女人就給她帶上她的項鍊、綁腿和片裙。當要埋葬時，先將身體用繩子綑綁，再用布料好好的包覆之後，讓她用坐蹲的姿勢埋葬。",
+      "ab": "Maca uka’anin isang ngat bunun na, ngausunang mapino’az. Mat bananaz za padasan ni iciata tu huluc, tapic cin kuling, maca binano’az za padasan ni qoluc, bulalai cin tunhilan. Mat maqaltum ma, kuci’an dun maloquc, uqna’un kucia maqehav picihal mamuhmuh, na unin palangkozu maqaltum.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/22/c17d3a79de2ebfd341c9cadad705fe46.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6ade9140a1381f766983a9ec59711c85.wav"
+        },
+        {
+          "ab": "uka’anin",
+          "ch": "停止",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/9e1bcad11044107540d5ba548a639b0d.wav"
+        },
+        {
+          "ab": "isang",
+          "ch": "心跳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/40c05f51ad3834c2a642bb532877845f.wav"
+        },
+        {
+          "ab": "ngat",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/8a34a5c3be39b1f29480bcad6bf6b7e8.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/dfeac59dc5730d38d82b8b2a2de22bb1.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/fc8e908aed8ed610e8e3b86d1957fb41.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ngausunang",
+          "ch": "先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/49ab49607ddec24d52134ed8cddce9a8.wav"
+        },
+        {
+          "ab": "mapino’az",
+          "ch": "使…漂亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b64bc52f641a3e90c979cbf8ae059127.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mat",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/9d59782a428a637b9649807193024c2a.wav"
+        },
+        {
+          "ab": "bananaz",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/75e14984089636b5c266ec50894bdeb1.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/0d123b42cd1c2ada03088930362b005c.wav"
+        },
+        {
+          "ab": "padasan",
+          "ch": "使…攜帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/06d1f3b58fce020ee4806e4d83120865.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c45a8f1e06277cd404182790fc83ef3e.wav"
+        },
+        {
+          "ab": "iciata",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/79f9713b745758ab74ba9039f05be5a9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/a8548a040d218128708a215d7806659b.wav"
+        },
+        {
+          "ab": "huluc",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/32a8ccc7de62c95d79c946ecc64a93ca.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tapic",
+          "ch": "下襠布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/33fb32b8aa221d7d80c6965b757550c9.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/41e7b55cd8707d3edbf1d8a33fc4fc7f.wav"
+        },
+        {
+          "ab": "kuling",
+          "ch": "胸帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/9282c36e0a165d4573e366778bf2057c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1e54f1f11768888de1ae64031d474280.wav"
+        },
+        {
+          "ab": "binano’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/d211115ac33173a5960a061c11079e58.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/09376dafe4e56a05dceb0b901f8947fd.wav"
+        },
+        {
+          "ab": "padasan",
+          "ch": "帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/51d2eaa6268ea3664e6d7f12b39d2662.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/0158d7804a37e332ddfe464705657e08.wav"
+        },
+        {
+          "ab": "qoluc",
+          "ch": "項鍊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/66b0104e8f6144c6bf30ce13bbec4629.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bulalai",
+          "ch": "綁腿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/8706beb4e537355302d8013e7c300f05.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/51c55f8feab1e4d7b6e43cc65caf2fbe.wav"
+        },
+        {
+          "ab": "tunhilan",
+          "ch": "片裙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/8dc97661e10c5e34033016626ec7d7e4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mat",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/310b6b92a9b413fbb6452dd50bcfca4f.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/241864cadfa8c7b083bc1d9724e938bf.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/8b80f66f9041c224663ac2b28f11cd0c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuci’an",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/176a0fc456fe7b2dba06fd427e58a5d8.wav"
+        },
+        {
+          "ab": "dun",
+          "ch": "繩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/7c9c723a3d66410e73300d332cc73d77.wav"
+        },
+        {
+          "ab": "maloquc",
+          "ch": "綑綁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b0d92f6a982d806486c9adcbfb2dd1b2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uqna’un",
+          "ch": "再",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/3346b97717c7a746a3a04c566297d47c.wav"
+        },
+        {
+          "ab": "kucia",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b34b355a7f69b9035e083fee9b400b54.wav"
+        },
+        {
+          "ab": "maqehav",
+          "ch": "布料",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/435863cd273e3870ff07894afd2e6963.wav"
+        },
+        {
+          "ab": "picihal",
+          "ch": "好好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/85080cbc61cd3842d11e44154d059c63.wav"
+        },
+        {
+          "ab": "mamuhmuh",
+          "ch": "包覆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/a1a3a0d538a407c8bfd48908a471deec.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na unin",
+          "ch": "讓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/8444c09be3b36d25c651185dfe480540.wav"
+        },
+        {
+          "ab": "palangkozu",
+          "ch": "坐蹲姿勢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/2ae36c1db0677b58483d94cdadebb64c.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/5346c92b1744b369c38d6aa3814e28b4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "當埋葬時，男人的臉要朝向日落的西方；女人的臉要朝向日出的東方。當葬禮結束之後，全村的人要休息、不要工作，一起為過世的親友哀悼一整天。嚴禁喝酒，吃肉、甜食、鹹食及很辣的食物。也不能掃地、洗澡及洗臉。",
+      "ab": "Mat namaqaltum ma’, macia bananaz zat daqes sa masihan uqaivan vali. Macia binano’az zat daqes sa masihan insuma’an ni vali. Maca kanaqtungin maqaltum ma’, makat tastu’acang tu bubun na amin mal’u ni tu kukuza, muskun tisuni minudan tec’an masumsum tasdiqanin. Matusamu qu’ ’i davuc, ma’un ni qasu, madavuc, maqatbit cin makamun tu konunkonun. Ni amin maqtu ma’asik, taltuc, taldaqes.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/30/495e7fd2e3eb81f01261a8c75d02933e.wav",
+      "word": [
+        {
+          "ab": "Mat",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1449d712ce75f15b7c9798b39d5c10c6.wav"
+        },
+        {
+          "ab": "namaqaltum",
+          "ch": "將埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/861c4790167f194b03771b29a04a48b4.wav"
+        },
+        {
+          "ab": "ma’",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b6a1311b8221dd7e8560bc2f5beca9dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macia",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c722021ab2593994f17d553d08082f43.wav"
+        },
+        {
+          "ab": "bananaz",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/bb66a5584960c97a8d4acdb6eb48f5cf.wav"
+        },
+        {
+          "ab": "zat",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/42ba3d941c1b9d972e234adf415ffab6.wav"
+        },
+        {
+          "ab": "daqes",
+          "ch": "臉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/0872477960de33d8e2f123eba8a1f22d.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/66abb31709454d6d4f2cad0e4da52345.wav"
+        },
+        {
+          "ab": "masihan",
+          "ch": "朝向",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c537cd408d694af2c2f39807d8bcdb41.wav"
+        },
+        {
+          "ab": "uqaivan",
+          "ch": "日落西方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/669042a88a3c22f579559fdccaa41fcb.wav"
+        },
+        {
+          "ab": "vali",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/20f3009fdcf44fb83e2da5069c86ff9d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Macia",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1bf4b4c3d3ef2c2668531555d8d312fe.wav"
+        },
+        {
+          "ab": "binano’az",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/44fab6801b4dada59bb741c2c3937a49.wav"
+        },
+        {
+          "ab": "zat",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/f29ea171eae6e4bfbee0e81419f67b5e.wav"
+        },
+        {
+          "ab": "daqes",
+          "ch": "臉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/d9c911c97d26c325e9754b9b3c4ae4e4.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/044c83ceb0cff2ecf5981c8c5a0d031b.wav"
+        },
+        {
+          "ab": "masihan",
+          "ch": "朝向",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/4c666724adae0319fe655c26d258bc51.wav"
+        },
+        {
+          "ab": "insuma’an",
+          "ch": "日出東方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/401c44aa9cd1f30bd22506793ec7d3ec.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/f8a3b62a4d0eb4af61aaebcab12f8c1b.wav"
+        },
+        {
+          "ab": "vali",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/ecdb4b10a7f326377eef779ffbce920c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maca",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/58ff51b1546d52d6a4a1c8fd0829f292.wav"
+        },
+        {
+          "ab": "kanaqtungin",
+          "ch": "結束",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/7605aefdb469608124fb55bdbea3e4d8.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "葬禮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/26/a87a8158d6e400ec0776a921f1574c8b.wav"
+        },
+        {
+          "ab": "ma’",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/d6afa8e7bd2770397c11108c88802cbe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makat",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1a795009a68f3bc1f84f5b740316c10d.wav"
+        },
+        {
+          "ab": "tastu’acang",
+          "ch": "全村",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/7e6509bf50d526a1dd228b51077fe7ef.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/2809c78cbe88f868c18e13677345d68b.wav"
+        },
+        {
+          "ab": "bubun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c7944ac692fb2b24c0f8e00a002881d5.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/f3cb8921430cfd8ef93f508597fe5213.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "都要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/fa82690078c5651be2dbd983b2024b2f.wav"
+        },
+        {
+          "ab": "mal’u",
+          "ch": "休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/03717d3cbf990570e34b9618f9ea2442.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c4b5a16d4814630466efcd06fde60a0e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/ac5867935d40390ecd36717ac8579041.wav"
+        },
+        {
+          "ab": "kukuza",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/32a511434d5e6bb7a5763afdbadf9a01.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muskun",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/36429b8fe62cdb7c52c313a232c24db2.wav"
+        },
+        {
+          "ab": "tisuni",
+          "ch": "為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/501776beb31cc83ec4f431b35286d162.wav"
+        },
+        {
+          "ab": "minudan",
+          "ch": "過世的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/94ca24a3b4decc1310323aaf77233323.wav"
+        },
+        {
+          "ab": "tec’an",
+          "ch": "親友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/2222a1836afe31fdc8fa00ea83839668.wav"
+        },
+        {
+          "ab": "masumsum",
+          "ch": "哀悼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b62f99eb86cdd5d99a35b25dc047d997.wav"
+        },
+        {
+          "ab": "tasdiqanin",
+          "ch": "整天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6199908f4814f51c1441e063d9f5a8aa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Matusamu",
+          "ch": "嚴禁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/5c7e01c709934959f94c5a9d479d61a8.wav"
+        },
+        {
+          "ab": "qu’",
+          "ch": "喝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/0595b824bcb89399ec00d86e9009564d.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/87822e33d4832e1a93c9f28ae3cb6f49.wav"
+        },
+        {
+          "ab": "davuc",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/4a1c8bfd1493beeb282d9dd2a5ab38b0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’un",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/ae139f74eb957768578dcf27b20b26e0.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/36ab6c5edc4d6393468dbebf35d68ca3.wav"
+        },
+        {
+          "ab": "qasu",
+          "ch": "肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/4959130af53770ecbdf52338eef283c4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madavuc",
+          "ch": "甜食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/29ccb4b8d8a3d62e769f02e3b0a15ecd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqatbit",
+          "ch": "鹹食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/4f353ce3ecad7cfdcdcbb053e9a81f8e.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/26/6f681dc3bebbbc150851da60985c9ff4.wav"
+        },
+        {
+          "ab": "makamun",
+          "ch": "很辣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/771b7bdbc6290394468e1452d77494ad.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/0a91f4100a66c035d014d4d3b5fce167.wav"
+        },
+        {
+          "ab": "konunkonun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b1bb9cde389abc7090cf740f33b87e52.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ni",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/e3da9f4b307c3b5559b267d719fe4d73.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/f410a291ad56964a31c01555d11cbc0e.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6bb7b363cbcf1f499c8c8b0dd6cb5639.wav"
+        },
+        {
+          "ab": "ma’asik",
+          "ch": "掃地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/e76aa8112fa71e9a1db67ab648774ba1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taltuc",
+          "ch": "洗澡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/571dbc8529864347ab7a1eeaf2107f15.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taldaqes",
+          "ch": "洗臉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/32c5ab844ddef08e701280580609d7ec.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "埋葬的地點也不全然相同。如果是好死的，放在自己的家裡埋葬。父親和母親葬在床鋪底下，孩子們葬在庭院的中央埋葬。如果是因意外而死，像是跌倒、沉入水中、自殺、被蛇咬死、被人殺死等情形，他在哪裡死亡，就葬在死亡的處所，不能帶回家埋葬，因為會帶給家人霉運。",
+      "ab": "Makat dangi’an maqaltum ma ni amin tu maszang, maca macihal mudan na, hanun anak tu lumaq maqaltum. Makat tama tina ka hanun nastu’ ’i palan maqaltum, hanun nat uva’az micqang ngi deseq maqaltum. Mamaca mitdikla’ mataz za, mopa laplaq, mutboq, mungqas’az, kalatun ivut, patazun bunun na’, maca i’ica mataz za, pihanun ta maqaltum, ni tu maqtu dasun mulumaq, opa na kihaz zi tastulumaq.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/30/62b95b6adeed7dc050aa9f0e688c03fe.wav",
+      "word": [
+        {
+          "ab": "Makat",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/e237898c50fec92e4bba7ed1f6126495.wav"
+        },
+        {
+          "ab": "dangi’an",
+          "ch": "地點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/5bd903c65477c201b0e733817206ba00.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/f43548eb02bc6f142239d2054ea0c757.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/615ef4ec43cbd8f4050c6bac9a71a173.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1caca4e5e79d568c082fca001105d705.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/575e88644b5e0abcba094f91aae85bbc.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/afff5dfa65950302eb10894f8d37eb80.wav"
+        },
+        {
+          "ab": "maszang",
+          "ch": "相同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/09e03c153e2db77253d222591b891972.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6e406c55fb72f2bae77b1b9c450ec7ff.wav"
+        },
+        {
+          "ab": "macihal",
+          "ch": "好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/064a0c2453a04ec26976e802ad24c7a0.wav"
+        },
+        {
+          "ab": "mudan",
+          "ch": "死",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/beec573c011f25a9c4e08d308757a540.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6d4bdca9455fb3a1ade1140f753399e0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hanun",
+          "ch": "放在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/80ed678add0cb94b4461ca0d63823e2d.wav"
+        },
+        {
+          "ab": "anak",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1edf6bc377dd5c16112786a9a05c05aa.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/82259c2ecf8949d8aaa4e767ad74a0be.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/870b4960a4f7fd71fe96e2de168e7af9.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/fcf98f51a979368b55f0d0ca1ff12f28.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Makat",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/cbace406498bff113b9390e5a3c5a29f.wav"
+        },
+        {
+          "ab": "tama",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/bfbf7ceb74a96eb282e67f3145b3550b.wav"
+        },
+        {
+          "ab": "tina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/faa2258a7bd8fb98c5c3e213d372f248.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/0fbd3b56de5a5968a7bb1e7b541f4185.wav"
+        },
+        {
+          "ab": "hanun",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/7c88c85dc0f2d833516ebd9d04e15b20.wav"
+        },
+        {
+          "ab": "nastu’",
+          "ch": "底下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b52df5451bc8c74d5cdf774821efaf79.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/ce4ffa92bbf2b0b2a343997e7802f96a.wav"
+        },
+        {
+          "ab": "palan",
+          "ch": "床鋪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/92993bb5e763239ea4535720ac74c96e.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/8d34a1df1f92413d0b4451e96b3bc952.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hanun",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/7c2bd448dcbf40d8d6c7af3e8e1639d4.wav"
+        },
+        {
+          "ab": "nat",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/7e06833c67fb13919d1ad1631b10f563.wav"
+        },
+        {
+          "ab": "uva’az",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/a1d1436f948a1e6887e885976b3443d7.wav"
+        },
+        {
+          "ab": "micqang",
+          "ch": "中央",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/d94e0a84ec7a70fbe82bfc0a2457b540.wav"
+        },
+        {
+          "ab": "ngi",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b0efbbccfa172f1026dd3b6328e27467.wav"
+        },
+        {
+          "ab": "deseq",
+          "ch": "庭院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/cc9cf78e2816ff6ddae8f76d100da65f.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/f654abcd6429c8be6d3694004ad32919.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mamaca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/82e4703abad651e3e010c479f9da8427.wav"
+        },
+        {
+          "ab": "mitdikla’",
+          "ch": "意外",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/e26a66479e9736c5bc8e92ccd2e8a39d.wav"
+        },
+        {
+          "ab": "mataz",
+          "ch": "死",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/2130b1a5c71451e873d978db5feb22a6.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/de5b463b935909ca2dc2da06599c9488.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mopa",
+          "ch": "像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/caf1ec2336924a0694db5b40644ab893.wav"
+        },
+        {
+          "ab": "laplaq",
+          "ch": "跌倒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/fd5d4e01625b6db3f516e2277b5028c7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mutboq",
+          "ch": "溺水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6c862118b795ed3ebed0a262bb3ace6d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mungqas’az",
+          "ch": "自殺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/5281982893c44b14591f01ebf380fea5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kalatun",
+          "ch": "被…咬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1961cc8986551614cb2754ee24d59f09.wav"
+        },
+        {
+          "ab": "ivut",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6c911102d332d316066f024a491d914f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patazun",
+          "ch": "被…殺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b39d8fff8a3ebcf8dda2cd6348bd57f5.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/19988b1a16c7e704c71b6132f8b04ce7.wav"
+        },
+        {
+          "ab": "na’",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/ab99495b992a88e2ccb8490868c0f382.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/3afab379f8ef3ba1cdebe603b8846770.wav"
+        },
+        {
+          "ab": "i’ica",
+          "ch": "在哪裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/15f02285c072be1063042ff89fe9b2c8.wav"
+        },
+        {
+          "ab": "mataz",
+          "ch": "死亡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/3488670f153d58606d9018dd33916e88.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/bc37a7d750a5d52ff5b05a31388e79d3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pihanun",
+          "ch": "葬在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/00bc0b18d4fff31102dfcefd013d04e1.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "處所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/2a025b98bd0c867a9cc5ce15c5dadaf5.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/7f6a517fc9fc081efd84be44b16ed596.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ni",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/529cf7a95dda4aaa0f10d345025d29ae.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/3072cca0abcf319005a943be08bbee28.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c25055c9878f0baf00004cd2b3b2e2a6.wav"
+        },
+        {
+          "ab": "dasun",
+          "ch": "帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/fe7966528496c064b1ff02e30b051909.wav"
+        },
+        {
+          "ab": "mulumaq",
+          "ch": "回家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/8ad895132e5b754d4fc03b9386892e08.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "opa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b61a915cd5a9763240f0bcf7ebc32221.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/65c95e1b1deb7f8c4e37d57369f4d056.wav"
+        },
+        {
+          "ab": "kihaz",
+          "ch": "霉運",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/47522f7965d171a317b4838879f148db.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/85a89fb155b266c9ee50b6f686091acd.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/e99605bc2f7338f2967e4cdd04b46e6e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在，人們大部份都信仰基督教或天主教，已經依照教會埋葬的儀式埋葬親友。大家都會盼望在天國和過世的親人再相見，所以不會太傷心。",
+      "ab": "Ma lopado, makat bunun na madin na liskacia culukiu’ cin tensikiu’, sanacin itu kiukai tu sinluc’an maqaltum mi minudan. Maldidip amin tu na moqnang pasadu ki minudan tu tec’an han acang diqanin ta, anaqa ni tu muscuav macalpu.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/27/8ff19d967f321d434e09400f7020cd8f.wav",
+      "word": [
+        {
+          "ab": "Ma",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/fbf668ec3dac3dce1741227c70c301ab.wav"
+        },
+        {
+          "ab": "lopado",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/400e5b95e612e990cc5a1891d52b0212.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makat",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/26/95cc5cc4703d4f9c2b1bb83bafa6a1ac.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/24ebad661415bb82ae9f9e92167a80d2.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/8e693391276cd4fd2397434cdfb5480c.wav"
+        },
+        {
+          "ab": "madin",
+          "ch": "大部份",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/a8c9bd7685d48510c0a01c2537384363.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/05c5bec0698ccaeb128fd431b606b318.wav"
+        },
+        {
+          "ab": "liskacia",
+          "ch": "信仰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/209ae57722bd1bd436646951f80617cc.wav"
+        },
+        {
+          "ab": "culukiu’",
+          "ch": "基督教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/0af8637dafb8162a007e4b77d18fb40b.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "或",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6626af6aeae1245308601a9bed7fd286.wav"
+        },
+        {
+          "ab": "tensikiu’",
+          "ch": "天主教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/9276802db523c463421223d335bc1b50.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sanacin",
+          "ch": "依照",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/05a40e18087890612a0f9133c236a5b6.wav"
+        },
+        {
+          "ab": "itu",
+          "ch": "屬於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/7ec0e8a783cbdfef911107c7cb81eaaa.wav"
+        },
+        {
+          "ab": "kiukai",
+          "ch": "教會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/9d014aada20dfcef284cbe5461a5a1aa.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/a9d3bc1f211f70775f13a767b5148432.wav"
+        },
+        {
+          "ab": "sinluc’an",
+          "ch": "儀式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c6f6975ef08e6f2cc2118b7a7de7b242.wav"
+        },
+        {
+          "ab": "maqaltum",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/1aba6c5a6e728a1f5bc94e848715561e.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c5cc59d445fba5b3ad61cc32bfa80413.wav"
+        },
+        {
+          "ab": "minudan",
+          "ch": "亡者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/6244002d72b46d3ba1387a57145a711f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maldidip",
+          "ch": "盼望",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/21783f509facab3963e168b4257c620e.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "都會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/3105f9ef522f43425c33d49e6f50b592.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/9d7dd4507276b6931adb73a5951eaf08.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/52523c11d7ea4eb9863017a710f21285.wav"
+        },
+        {
+          "ab": "moqnang",
+          "ch": "再",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/5ff8c90b9cecf4adbc4af93ebdab192e.wav"
+        },
+        {
+          "ab": "pasadu",
+          "ch": "相見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/819801216f3b63c261bb111216f0be01.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/e58cf1dea55ee5daf844c38a7a19a857.wav"
+        },
+        {
+          "ab": "minudan",
+          "ch": "過世",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/9230f3420486992b1a577dff28eeff88.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/b419bde01a73067344fc471afffa7495.wav"
+        },
+        {
+          "ab": "tec’an",
+          "ch": "親人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/12a45b5747184c4f895d73b935684ea2.wav"
+        },
+        {
+          "ab": "han",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/2fa44ae8265d20e0ab8682d33ee2a02c.wav"
+        },
+        {
+          "ab": "acang diqanin",
+          "ch": "天國",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/d209816455773d7e4ddaacfd649f2503.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "處所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/376d1adb0b438497eecc181ce025171e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "anaqa",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/f62720ae3fb3a4546395ef7f78e546ea.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/d8cacad501c78bc6beaa8fe7360eebcc.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/c247986d9e5f29f1cf822f8ab28ebdf4.wav"
+        },
+        {
+          "ab": "muscuav",
+          "ch": "太",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/a99ed9ecd9fbcf177f58222d182ab63f.wav"
+        },
+        {
+          "ab": "macalpu",
+          "ch": "傷心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/05/4dfb3e6edddf5342c16d3c62d6ee2845.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

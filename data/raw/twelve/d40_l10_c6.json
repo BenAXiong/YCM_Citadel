@@ -1,6 +1,754 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "iak a eten ki Polisia",
+  "titleCh": "埔里是好的城鎮",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "    咱們噶哈巫的聚落位於埔里鎮，咱們的埔里鎮則位於台灣的中心。在埔里四處都有山，就像是被山包圍的城鎮，因此這個地方也叫做「山城」。\r\n",
+      "ab": "    nita Kaxabu a eten ka kaidi Polisia. nita Polisia haka kaidi Tatawan a wazan. mikita daya ahut ka nahaza sasabinayu, inangi libuen ni binayu liaki nita eten, haka imini a peet iu “binayu a eten” sen.\r\n",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e46c442ddc1948563a95028c2419a2c6.wav",
+      "word": [
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/339058dde825131f0e8b018cbfd33ef0.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b8fa93c6295c51708180a96d0ddbf7b5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/64ba881d795818cd7c19247b07b0b6a1.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊、城鎮、部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/a7c7076e120d619a53bea9502c77cdaf.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/56ccb25360b0d9e40771cee16ccf5b7e.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/851eed6ef687824406f8f056ca3545b3.wav"
+        },
+        {
+          "ab": "Polisia",
+          "ch": "埔里",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/44b77f86297fba003d7f72ce7618c8f6.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/ed1449fe03be0546060b669203a626c3.wav"
+        },
+        {
+          "ab": "Polisia",
+          "ch": "埔里",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/cc44871c36ad4e97bac2008081e5d22f.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就、就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/7510097df7cf335ffe6474eb9c6753a3.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/8a21f6d87c8af3db8b24539b244b07c4.wav"
+        },
+        {
+          "ab": "Tatawan",
+          "ch": "臺灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/99109fdaac998e88b65d4cb6f643ede9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f3b5879b626267eb626c700cfeadf119.wav"
+        },
+        {
+          "ab": "wazan",
+          "ch": "中間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b8baba62dafc4b96d8430a402f405503.wav"
+        },
+        {
+          "ab": "mikita",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/039a8b34ac1b49428acf29bb38e4010b.wav"
+        },
+        {
+          "ab": "daya",
+          "ch": "上游、東方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/77a1aec14766fd0d12ee4fda30818c5f.wav"
+        },
+        {
+          "ab": "ahut",
+          "ch": "下游、西方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/a2e138640fba80d7bd0363746d3dcde0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/480218d32c96be487a31e2958ce1b0c2.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/7bb37d500b58dca31306aa1ff19ab78a.wav"
+        },
+        {
+          "ab": "sasabinayu",
+          "ch": "很多山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/2c4d4317612e096c34f1fbd0c2d24232.wav"
+        },
+        {
+          "ab": "inangi",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/5a4f973974f48f8fd13fc3b033bd061d.wav"
+        },
+        {
+          "ab": "libuen",
+          "ch": "被包圍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/033ce9858f30ad5562dce528815d96ec.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "屬格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/06966763d62079f6f6f022b434c500f9.wav"
+        },
+        {
+          "ab": "binayu",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f63af25c506e08e573133f4fe04fd16b.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/2e4123e0f94e9301daf75ec531292468.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/2202080334e574eaaac7c1bcfe8e8082.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊、城鎮、部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d8eeca86d82d92aba518aae24e24496a.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "於是、就、就是",
+          "sound": null
+        },
+        {
+          "ab": "imini",
+          "ch": "這個",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": null
+        },
+        {
+          "ab": "pe’et",
+          "ch": "地方",
+          "sound": null
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": null
+        },
+        {
+          "ab": "binayu",
+          "ch": "山",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": null
+        },
+        {
+          "ab": "eten",
+          "ch": "城鎮、村莊、部落",
+          "sound": null
+        },
+        {
+          "ab": "sen",
+          "ch": "稱作",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "    想要從外地去日月潭、去清境農場，就要先經過埔里鎮。有了國道六號以後，咱們的埔里就像是河流的交會處，與周遭城鎮相連在一起。\r\n",
+      "ab": "   haapet mata maiyél mukusa di Thau a umaw, iu mukusa di tshing-king long-tiunn, muula ka haapet muazaw nita Polisia. nahaza kok-to lak-ho liaka, pato axong a masakupan haki nita Polisia. maasapasapan liaki Polisia iu taubalet a eten. \r\n",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b932240d923a52bbfa5c12c7ee0ae671.wav",
+      "word": [
+        {
+          "ab": "haapet",
+          "ch": "要、喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/0992ed5c1d2a61b3a253bfb6a030cae4.wav"
+        },
+        {
+          "ab": "mata",
+          "ch": "向、從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/dc764638f89e7fdb92b9611c67e396f9.wav"
+        },
+        {
+          "ab": "maiyél",
+          "ch": "外地、城市",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/cef03709786acbedd602e6d5f11762ad.wav"
+        },
+        {
+          "ab": "mukusa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/fca374f7dbc0cf8c7b1856ca9f3f0f36.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4c4fba16e731c283e4129a053a0fa160.wav"
+        },
+        {
+          "ab": "Thau",
+          "ch": "邵族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c3493ca53c747d808ea9262fe2b14555.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/fb89f09e14eec4d8b4bf1fe0a886b6ba.wav"
+        },
+        {
+          "ab": "umaw",
+          "ch": "潭、湖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/3e8099cc2078f2ff15e0341bd0814da2.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "以及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c90ad1aaaf05764f33e633fce0727600.wav"
+        },
+        {
+          "ab": "mukusa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/6a5a23f53a1e13a125c34eac8d1d03e6.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b4335f65064461dcc644273866cad3e8.wav"
+        },
+        {
+          "ab": "tshing-king long-tiunn",
+          "ch": "清境農場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/399e244a5bce1b7d2834a824235afcca.wav"
+        },
+        {
+          "ab": "muula",
+          "ch": "先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/b4be73c57bdc4072556c99d74f9bb7b4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/0a2868b9224268f7f2925392177a5041.wav"
+        },
+        {
+          "ab": "haapet",
+          "ch": "要、喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/0830a54610cf5d0cc098d31ce47d6816.wav"
+        },
+        {
+          "ab": "muazaw",
+          "ch": "過、度過（時間）、涉水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/adeb00d391423664bbd1836dd0e91c2b.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/aa563444f36ed686fcee201bc373143b.wav"
+        },
+        {
+          "ab": "Polisia",
+          "ch": "埔里",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/572191ca9e2a60d01ee6f8a082f67c3d.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/31261019fb062f67ef2b56319df845fd.wav"
+        },
+        {
+          "ab": "kok-to lak-ho",
+          "ch": "國道六號",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/265f95d5d7186a797b019b3bf09dae19.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/11714d5bddee3ea1fa927f607bb97213.wav"
+        },
+        {
+          "ab": "pato",
+          "ch": "好比、就像、例如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/63d62831707f0425cbc2b13ca83127b5.wav"
+        },
+        {
+          "ab": "axong",
+          "ch": "溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/86b62e720223e84ece43abbcfb9356d2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/18374ddebbda811cd08f32e659e08979.wav"
+        },
+        {
+          "ab": "masakupan",
+          "ch": "匯集處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/6984b1c95ea5f1db2f09f163a1509433.wav"
+        },
+        {
+          "ab": "haki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f153fca739828d3467c4e075035d5476.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f80d5795e2e8c367170befdd7dee9f73.wav"
+        },
+        {
+          "ab": "Polisia",
+          "ch": "埔里",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/36b84dd8a28a73a051dfc9abdbacc538.wav"
+        },
+        {
+          "ab": "maasapasapan",
+          "ch": "相互連接",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/5187a442e575d486ee2e69766877b0ab.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f8cccf7c80679b990d4573dec412a816.wav"
+        },
+        {
+          "ab": "Polisia",
+          "ch": "埔里社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/2450f030c8e06307dac7b5121f22e596.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和、或、且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e7664073fc2214b3739f97ef56d014cf.wav"
+        },
+        {
+          "ab": "taubalet",
+          "ch": "隔壁、鄰居、旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/486f48a3740154dcdab2389d418d4fcf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/8181510b261e7b1dd8e0819d30f5b874.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊、城鎮、部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c8b577cad695cbf4bd30c81b1e7abf53.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "    埔里雖然是個小小的城鎮，但是有很多可以玩的。像是虎頭山，在山頂有美麗的風景可以看，天氣好的時候也有很多人喜歡去玩飛行傘。\r\n",
+      "ab": "    nita Polisia ka tatiting a eten kula, dahu a saanu maxinga. pato nita hoo-thau suann, kaidi ituk babaw ka nahaza xinaw iak a kakita’an, iak a daali iu dahu a saw mukusa maxinga saahabaha.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c4be4faae262dc30eb510eec4e66a8a2.wav",
+      "word": [
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/43a68ea2b0a4fc2bcb65ac9a9290fc2c.wav"
+        },
+        {
+          "ab": "Polisia",
+          "ch": "埔里",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c349ddf8b0bff9822bb67f23c37c580e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d36882dbdbc9d85a0d8838101a9eb3a8.wav"
+        },
+        {
+          "ab": "tatiting",
+          "ch": "小",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/0eb7b227514a170aab53f5b8726af395.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/8f9ad42f7ccfff9f4a065b7e17cdeac8.wav"
+        },
+        {
+          "ab": "eten",
+          "ch": "村莊、城鎮、部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e05f1e54de85e0e67765d5c8831a6766.wav"
+        },
+        {
+          "ab": "kula",
+          "ch": "但是、不過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/647f649beeea97c05cd20018f9c7e510.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e6517d5bd3dd59d48d23b22b99a399d0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e6cbd094cc11302ab8ee214a47ad0f69.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來、為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/f43518ab421b8c55fe4f59530383b898.wav"
+        },
+        {
+          "ab": "maxinga",
+          "ch": "玩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/8138b6f305c2f08dc86547d95eafc2f6.wav"
+        },
+        {
+          "ab": "pato",
+          "ch": "好比、像是、例如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4178dd3a6d49a7e3e3d41493d4baf40a.wav"
+        },
+        {
+          "ab": "nita",
+          "ch": "咱們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/16357348660cfc5bcf4cae792c489599.wav"
+        },
+        {
+          "ab": "hoo-thau suann",
+          "ch": "虎頭山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c489666f8f74e093fb920912246f1141.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/3aadb41eb8dd4cdc038d1de361f48bfd.wav"
+        },
+        {
+          "ab": "ituk",
+          "ch": "頂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/ea892e45101847ea48f4e3542df61c3c.wav"
+        },
+        {
+          "ab": "babaw",
+          "ch": "上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/fcf3dadab5157d6be54c77f7c568ad87.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/554e2703b5f246fccc389d7fe21222fa.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/eda3c6470c1c75142d32220ba1411165.wav"
+        },
+        {
+          "ab": "xinaw iak",
+          "ch": "漂亮、美麗、好看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/c27d4109b198416a2ed26bd80d4656cd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/cdcd054f8cc77adf0c4bb0b534baa74e.wav"
+        },
+        {
+          "ab": "kakita’an",
+          "ch": "風景",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d4cc8dea8b7ec261fc1d011131048114.wav"
+        },
+        {
+          "ab": "iak",
+          "ch": "好、可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/4140a4a2128a1d356f879c91c51b793b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/564c02f517aa3771d520dab16ec49fc1.wav"
+        },
+        {
+          "ab": "daali",
+          "ch": "天、日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/005df3e8cfb1bbf6cf4be471c709ed2b.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/d60ac8bc82539fca88ab22602de5ad85.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/8867444b50aa2513f46e9ba86bfc1b20.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/11c22bc76abc7cde04a8a0c14fdbcc8b.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/7975b72b6e72f1004b3eeb27bdb5c8ac.wav"
+        },
+        {
+          "ab": "mukusa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/8580ffbdecc7bd38bb2d435db455f8fa.wav"
+        },
+        {
+          "ab": "maxinga",
+          "ch": "玩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/e6a54aeb71315127f95545841564b58c.wav"
+        },
+        {
+          "ab": "saahabaha",
+          "ch": "飛行傘（用來飛的）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/13/5237f37c2934f417aa4aebe7fb84962e.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "    很多人也喜歡去溪流、瀑布玩耍，然後看蝴蝶在溪邊、山裡飛。\r\n    很多不同的族群在這裡，因此有很多的故事在這裡。問了長輩，就會看到不一樣的埔里。\r\n",
+      "ab": "    dahu a saw iu haapet mahadas di axong iu bubok, liaka mikita tapiatapiaw mahabaha di bayu axong, lizik binayu.\r\n    dahu a ini maa’aisiyay a buxuan kaidini, haka dahu a pasukuan kaidini. padudu nita hakezeng liaka, pakita saw ini maaisiyay a Polisia.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6ec96b8abb2f3974ca55d8ff359a5af9.wav",
+      "word": [
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/aa8977d13e7749979fe34487f5cf18dc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/92201909b15bebff4b8271aef36c8675.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/05a9e2a567eeadfdb1d910a80c8913c8.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/fa5d710ee14db906c645b0bb2eaba5b3.wav"
+        },
+        {
+          "ab": "haapet",
+          "ch": "喜歡、要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6654c82ec21430c3890935a7c68a7a87.wav"
+        },
+        {
+          "ab": "mahadas",
+          "ch": "玩耍、出遊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/74b00e8a1f3949edb995a55dd013ab19.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/530a120db36fb9856b545dddc22bc10a.wav"
+        },
+        {
+          "ab": "axong",
+          "ch": "溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d3b01acbf4793ace335ae5adc350356e.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c08f04fda1ee8e5cd1cdbf90187f78c3.wav"
+        },
+        {
+          "ab": "bubok",
+          "ch": "瀑布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2830a44443ca44d30e9cf3243ac2e0d8.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a0c02a731489bc84af88234db35e0543.wav"
+        },
+        {
+          "ab": "mikita",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6be692e1c6da236f79d27557bc26560b.wav"
+        },
+        {
+          "ab": "tapiatapiaw",
+          "ch": "很多蝴蝶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/eebbd0bb45cc935d2d7b7842c69702e7.wav"
+        },
+        {
+          "ab": "mahabaha",
+          "ch": "飛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c5a01a8abe40ba9da72c5cd666f10ac5.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/ed6485acf4662c543148663f9d239379.wav"
+        },
+        {
+          "ab": "bayu",
+          "ch": "邊、旁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/bb33bc5ebb94ca8d6763e7d76b4ef25c.wav"
+        },
+        {
+          "ab": "axong",
+          "ch": "溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/da869cca715ab536bc57c12d0e2af966.wav"
+        },
+        {
+          "ab": "lizik",
+          "ch": "內、裡（如樹林裡、眼裡、櫃子裡）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d75bd7a4f8d3fdd9b691db61833d0b57.wav"
+        },
+        {
+          "ab": "binayu\r\n",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6dcae5ca5a59016e00005a4cbb7011fc.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2e6a5c75740bc3a7842389b20411f786.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/da7d815e35224099bea97cf42d6c22ed.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "動詞否定詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/478dc4e4a5858841da4c71cc246024ad.wav"
+        },
+        {
+          "ab": "maaisiyay",
+          "ch": "一樣（兩物比較）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a5a11e6ec3fa0fc45fc8158ee6fe810d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/900c5fba8b78a4c4ecb231087349b9c8.wav"
+        },
+        {
+          "ab": "buxuan",
+          "ch": "種族、種子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/1f7ba52e70aa0844f3094ef375f214e2.wav"
+        },
+        {
+          "ab": "kaidini",
+          "ch": "在這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e9038ab39032e46665bbe1a144f7a930.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "於是、就、就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/66878f6c09b18cf1d906e9c050d0a04b.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/0a6e6686f5829f64d5c43c5ac3214525.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/fdd58a134b7596e0d641541bf7feb56a.wav"
+        },
+        {
+          "ab": "pasukuan",
+          "ch": "故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/1e5175c0b8a661088b22de783ad71f6c.wav"
+        },
+        {
+          "ab": "kaidini",
+          "ch": "在這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a93aeacc1a237ace4e2a1bcd857b3fc3.wav"
+        },
+        {
+          "ab": "padudu",
+          "ch": "問",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/581c2fb206c07edb44f04aea9a29c374.wav"
+        },
+        {
+          "ab": "hakezeng",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4c7f8edb4b8d2424a336d63236a9933a.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/b1522862b425dbc6133194f449d547a8.wav"
+        },
+        {
+          "ab": "pakita",
+          "ch": "使其看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/3dae18e25d269b579af2be27a0db0a60.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2d1b30bc68f727f3d785313aa117a3a4.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "動詞否定詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e09e885aee76930e82ddac90d926e74f.wav"
+        },
+        {
+          "ab": "maaisiyay",
+          "ch": "一樣（兩物比較）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/7cf7af6896c4b2a0c5f52595aff3aa6f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/fe7e6cd04f1bb87fa44c2482818f8648.wav"
+        },
+        {
+          "ab": "Polisia",
+          "ch": "埔里",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6d3c968a1fd4d0e6d5e29ba9c48f9ddf.wav"
+        }
+      ]
+    }
+  ]
 }

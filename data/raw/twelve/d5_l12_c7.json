@@ -1,6 +1,365 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Sikvin",
+  "titleCh": "角落",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "灰塵停滯的地方",
+      "ab": "Panpupushuan",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/93e126ee0678da7614430f8770680d95.wav",
+      "word": [
+        {
+          "ab": "Panpupushuan",
+          "ch": "灰塵停滯的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/7981bac4178d278260b3e33af708add3.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "蜘蛛織網的地方",
+      "ab": "Pankatukatuan",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/4ab184db3a2e22e10e564267ae0ad070.wav",
+      "word": [
+        {
+          "ab": "Pankatukatuan",
+          "ch": "蜘蛛織網的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/4d84f6d57449a4d855c45c007f8d836a.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "老鼠的路徑",
+      "ab": "Daan tu aluaz",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/b97ce43162af6c4e16ddf3b964e86460.wav",
+      "word": [
+        {
+          "ab": "Daan",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/b1f4696b1f9ebcac8dcacc450e8321b2.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/6b8f76572792fa79961010f6bee11158.mp3"
+        },
+        {
+          "ab": "aluaz",
+          "ch": "老鼠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/6387d4ce82106a999d2cec3eb9e8cbc4.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "太陽迴旋的地方",
+      "ab": "Panhaizuzuan mas vali",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/02e6101960deef64797d81d2e7c47618.wav",
+      "word": [
+        {
+          "ab": "Panhaizuzuan",
+          "ch": "迴旋處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/98ee2ecda75230d40a4b036025be3130.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/8223b34f15931642075ccf4944b29627.mp3"
+        },
+        {
+          "ab": "vali",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/333f73fed3a20d1dc0cf69639236941a.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "微風蜷曲的地方",
+      "ab": "Sikamuzutan mas ’iv’iv",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d6e7cf83d7f689d4f014960937c87c28.wav",
+      "word": [
+        {
+          "ab": "Sikamuzutan",
+          "ch": "蜷曲",
+          "sound": null
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": null
+        },
+        {
+          "ab": "’iv’iv",
+          "ch": "微風",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "月亮藏身的地方",
+      "ab": "Sihahabinan mas buan",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/553b6e731d86f7a97fd4825216baeea7.wav",
+      "word": [
+        {
+          "ab": "Sihahabinan",
+          "ch": "藏身之處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/342d0684e66bbd24be52623d8d4788e1.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/0b6063eb8bec16f88954c6edb165aaa4.mp3"
+        },
+        {
+          "ab": "buan",
+          "ch": "月亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/4b4eb578a52b264c95da766cf60ae35f.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "孤兒落腳的地方",
+      "ab": "Panadadaan mas minintainalu",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/20297f7d6fd6e18a821a7376327b3592.wav",
+      "word": [
+        {
+          "ab": "Panadadaan",
+          "ch": "落腳處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/8dd36089e1be76fdd500883275924945.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/e6d7df10bd3ac77af5984525b2973585.mp3"
+        },
+        {
+          "ab": "minintainalu",
+          "ch": "孤兒 ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/c3178bd9342f89bcd246a386e0400971.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "星星探視的地方",
+      "ab": "Incicivian mas bintuhan",
+      "order": "8",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d5e7480ecef5499131a587bddd7825c2.wav",
+      "word": [
+        {
+          "ab": "Incicivian",
+          "ch": "探視處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/68d174e035ecaaa699f54b549b4d97ed.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/741bf424dcf90ae9c141c8bb1636fc3b.mp3"
+        },
+        {
+          "ab": "bintuhan",
+          "ch": "星星",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/7288f5509b9c080bac978b6f36a2fac5.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "貓潛伏的地方",
+      "ab": "Sasalungan mas naung",
+      "order": "9",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1657210f21a7242ced618405f1e70060.wav",
+      "word": [
+        {
+          "ab": "Sasalungan",
+          "ch": "潛伏處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/302a668a74bf41ee2f2241e36cecec1a.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/c3ca89fb2efabb23e8ce2f0a4403a8d2.mp3"
+        },
+        {
+          "ab": "naung",
+          "ch": "貓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/fd2a14266812d023d45f831a7db31034.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "百步蛇的石窟",
+      "ab": "Uul tu havit",
+      "order": "10",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/dfd1f0b6db15f88bd0e5cd32d5f0b26b.wav",
+      "word": [
+        {
+          "ab": "Uul",
+          "ch": "石窟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/054dd2d1ede332ee4efeeb382d2200b8.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/5792de824223e095bd66502ffaff5477.mp3"
+        },
+        {
+          "ab": "havit",
+          "ch": "百步蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/16e43bdbdd3136a2b33b55447284e859.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "大耳鬼的居寮",
+      "ab": "Tangkalilis tu taluhan",
+      "order": "11",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/87115c3f7809febc9377beaf31644b2f.wav",
+      "word": [
+        {
+          "ab": "Tangkalilis",
+          "ch": "大耳鬼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/17d395acad8ee8c4dec0feaeac17fd00.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/f0da05f05aec40d24a4576576704e8b1.mp3"
+        },
+        {
+          "ab": "taluhan",
+          "ch": "居寮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/15fc9b8cc56bb05844a22233010b6806.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "夜行者取暖的地方",
+      "ab": "Ismumuduan mas kanlalabian tu bunun",
+      "order": "12",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/66a73680d3aafd998d088ab3043e53e2.wav",
+      "word": [
+        {
+          "ab": "Ismumuduan",
+          "ch": "取暖的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/243f18c0d056fc8da6400e46fa0d297c.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/1fe7efd9406a9d5b08672722b1f25277.mp3"
+        },
+        {
+          "ab": "kanlalabian",
+          "ch": "夜行者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/3edd06e36262e3c6f64d7eaae30af950.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/b7210969a41adc5c1df8c127fdf5f605.mp3"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/f3d57830be54ce32cd6e8d97ee5a5642.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "耶穌被釘的地方",
+      "ab": "Paituhtuhan mas Iisu",
+      "order": "13",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/b068a3b7ea25d581f78ba308e5c878f3.wav",
+      "word": [
+        {
+          "ab": "Paituhtuhan",
+          "ch": "被釘的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/a2572c33c97fbc7bc3fe35d24b94238c.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/262eefaeb75c75e77d49a713bd748159.mp3"
+        },
+        {
+          "ab": "Iisu",
+          "ch": "耶穌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/c15a005cfc4e88f15a23e99819bf2d14.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "老子落腳的地方",
+      "ab": "Painadaan mas Laucu",
+      "order": "14",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/51289eeaf18394d88f9d80732608b7a1.wav",
+      "word": [
+        {
+          "ab": "Painadaan",
+          "ch": "落腳的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/9a67a7e21476f1cfee5419a1fae13afd.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/3482a05b15091336eb37a7e249d1aa35.mp3"
+        },
+        {
+          "ab": "Laucu",
+          "ch": "老子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/dd1a6303ff2d1709a563e10c8d85ee96.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "釋迦牟尼盤坐的地方",
+      "ab": "Ailinihian mas Amituhut",
+      "order": "15",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8f5dffc1782b49e0461d4360f25283c6.wav",
+      "word": [
+        {
+          "ab": "Ailinihian",
+          "ch": "盤坐的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/dff48f7f26bb04671a8a1f2516af52f7.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/05de2731d4687ac76dc800767d83599e.mp3"
+        },
+        {
+          "ab": "Amituhut",
+          "ch": "釋迦牟尼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/9139263affeb4089da0b938249940103.mp3"
+        }
+      ]
+    },
+    {
+      "chinese": "太陽迴旋的地方",
+      "ab": "Panhaizuzuan mas vali",
+      "order": "16",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1ede28ffbd2d6e3b2c018cae34aa295f.wav",
+      "word": [
+        {
+          "ab": "Panhaizuzuan",
+          "ch": "迴旋處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/ac232278d08a1e8e77c64c56ba72ef08.mp3"
+        },
+        {
+          "ab": "mas",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/d81e522aa7ad1b61ae65835143b6c0e0.mp3"
+        },
+        {
+          "ab": "vali",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/01/e4cb60c0cb6efcb50c7dfc72370c3283.mp3"
+        }
+      ]
+    }
+  ]
 }

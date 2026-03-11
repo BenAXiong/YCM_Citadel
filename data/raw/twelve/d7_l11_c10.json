@@ -1,6 +1,586 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Sehu tu sinqasam",
+  "titleCh": "法律與布農",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "以前布農族的律法是以天為證配上巫師，很多生活上的律法都是口頭約定。但所有族人都能遵守。不像現在，行爲需要法律白紙黑字、清楚說明，才能被約束。",
+      "ab": "Ma qabasang nga Bunun na sinhuzanghuzang nga amin sanacia ki diqanin, musasu heza’ a mamu’mu’ . Mamaca muliva’ asu ka, maqtu’ a mamu’mu’ a’ matimba’, pangqa ni’ a Bunun qalmang muliva’.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/16/da1e20e667d95a2611e54184554a3bca.wav",
+      "word": [
+        {
+          "ab": "Ma",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/c35df4f046da5a8e4a9fd66d517c926c.wav"
+        },
+        {
+          "ab": "qabasang",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/285111110e3341900dc8743bb2587e6c.wav"
+        },
+        {
+          "ab": "nga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/1d54b1b4b26ace337ba5ddb25cd914d8.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/49bc4a1c56f07122dfa52c2a25a7b937.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/ddfc090ea7414ee228ea1bdf0c42bd8e.wav"
+        },
+        {
+          "ab": "sinhuzanghuzang",
+          "ch": "行為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/4cd642a4b60792d32105782f878def56.wav"
+        },
+        {
+          "ab": "nga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/b646ea872d30da48c94cbb27be5a1852.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/1e284a010eb59d599d0e53ecffc12975.wav"
+        },
+        {
+          "ab": "sanacia",
+          "ch": "按照",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/25606b4b18c9a5d9579f2da24a8c0523.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/f27d62ef42e9f151cc49214b0ac12b42.wav"
+        },
+        {
+          "ab": "diqanin",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/bc01a2dec13d089d08c0d4951642827f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musasu",
+          "ch": "加上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/24b4ef6091e078519d05efb1594560ea.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/f4031b234cca8f668822ae160d895233.wav"
+        },
+        {
+          "ab": "heza’",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/91508c9d5e8f2a26ef85eb067d8997ad.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/25f26766dbefde8e0895e55ce02e9d4c.wav"
+        },
+        {
+          "ab": "mamu’mu’",
+          "ch": "巫師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/c7396f5d089a592b678624b4f8a31149.wav"
+        },
+        {
+          "ab": "mamaca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/035efc14762faa4bf811107be8abc9f2.wav"
+        },
+        {
+          "ab": "muliva’",
+          "ch": "犯錯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/16a9ef155d8347b8b34ae27bb7e0d494.wav"
+        },
+        {
+          "ab": "asu",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/ce7c33ae075211ab21af386045e9f75f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/872b94af2e168fb23ae400c03b14b189.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/a2cfaac9470f824c427f4d4ee05c846b.wav"
+        },
+        {
+          "ab": "a’",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/af078f8ea7e9cff155e269653db4646a.wav"
+        },
+        {
+          "ab": " mamu’mu’",
+          "ch": "巫師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/77d83f050f38312c68c8cae5903e0e89.wav"
+        },
+        {
+          "ab": "a’",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/dae922b126caaef4b80b514cfcea0e1b.wav"
+        },
+        {
+          "ab": "matimba’",
+          "ch": "詛咒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/c111e2209dcd275ff9ac418118155647.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pangqa",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/56b108cb3f4b1f89e9d52c50f22c3b4e.wav"
+        },
+        {
+          "ab": "ni’",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/835002034a1e0fc76d83dcecd6d4c88b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/6054e60085eee6aca93e25418143311d.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/dbed64941ba9a94a95b4d6341009a100.wav"
+        },
+        {
+          "ab": "qalmang",
+          "ch": "隨便",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/aa5d4ec62d6bb991db229d6f14074763.wav"
+        },
+        {
+          "ab": "muliva’",
+          "ch": "犯錯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/5afbc92fb36aac1d3c7dfa0db72f018b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "如果喝酒，就不能開車或騎機車；如果醉了，更不能開車，不然會被警察抓，那會被罰錢。如果測量值為0.25，將要罰三萬到十二萬元；如果是騎機車的話，將會罰兩萬五千到九萬元。",
+      "ab": "Mamaca qainu davuc ca, asa tu ni tu ma’unting lehleh cin lehleh pohpoh. Mamaca misbusuk, ni tu ma’unting lehleh, opa na diaqe damun kisacu’, na sihabucan madia tu cui. Mamaca 0.25 sintatnul la, na sihabucan tau mang sohan macanqan dusa mang cui. Mamaca lehleh pohpoh, na sihabucan dusa mang hima sing panhan siva mang cui.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/c35417290277d4b0d3ba6700e6a07232.wav",
+      "word": [
+        {
+          "ab": "Mamaca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/79ee4500fdc2b6a7bb740c8c7f5b15df.wav"
+        },
+        {
+          "ab": "qainu",
+          "ch": "喝過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/0c0ad5db12ab0e201b5a10aae8b391bb.wav"
+        },
+        {
+          "ab": "davuc",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/bd1f2ed4a8b87d249b6e019db021d150.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/1334fcee3c919b0725b7f2766afbbe85.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/499bfe25919f12c7e24c3492dcfa6a6a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/048f5733652ce0e3423cb2478e5b22fa.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/4b83565754c6ff0472ac11480ae9ffe4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/14/5e49ccbc35bad6412fbb18d3cafdda1c.mp3"
+        },
+        {
+          "ab": "ma’unting",
+          "ch": "駕駛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/04e5d992d17eae3885fd00137a0b7316.wav"
+        },
+        {
+          "ab": "lehleh",
+          "ch": "車子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/578a3c7234647950fd26ca793ef77600.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/e9d6b797069a450fa6db5d405773933e.wav"
+        },
+        {
+          "ab": "lehleh pohpoh",
+          "ch": "機車",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/6b22f4bd529b1968943d9a368feea914.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mamaca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/2126cbae4618b0f7e34de938d9984900.wav"
+        },
+        {
+          "ab": "misbusuk",
+          "ch": "酒醉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/aa64e21c25a00f4d11effa813b40a1ab.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ni",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/abb2eea27afe2fa918c6a19f2658577d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/14/e90c7d11eba4b252727f33f3857c7b4d.mp3"
+        },
+        {
+          "ab": "ma’unting",
+          "ch": "駕駛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/519a497384d1d708f9bfd0d59661924f.wav"
+        },
+        {
+          "ab": "lehleh",
+          "ch": "車子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/082a568631b28ff0a9cb22e4f10b9aa2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "opa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/28a94d406148a0fc7ff00dda7f3d3f66.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/262464c5012372b2b9ed50b67f2cdcb3.wav"
+        },
+        {
+          "ab": "diaqe",
+          "ch": "萬一被抓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/8d9d3e6f572a70dfae85129d00d66b36.wav"
+        },
+        {
+          "ab": "damun",
+          "ch": "被抓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/4055d7ef4c6558954e1cb5daca9eac8a.wav"
+        },
+        {
+          "ab": "kisacu’",
+          "ch": "警察",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/57c3020cebab58855a3e05701df3525f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/802e52bba60cc9b08325c563b03d3513.wav"
+        },
+        {
+          "ab": "sihabucan",
+          "ch": "被罰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/b912eb9ecd0f33335c87bbd4e84ffcf6.wav"
+        },
+        {
+          "ab": "madia",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/cfc4e3e3bd48711f51707e203508036e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/0eb25280315b8f20a4c1222ce910475c.wav"
+        },
+        {
+          "ab": "cui",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/df09a2887b675f66410ae93d7d72b840.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mamaca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/88fdf756618cc4771a2cedc42f812050.wav"
+        },
+        {
+          "ab": "0.25",
+          "ch": "此指酒測數值",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/31/551aed0bfb6505ae70fb6210fc94ee5a.wav"
+        },
+        {
+          "ab": "sintatnul",
+          "ch": "測",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/dde99014fc9eadc4e4e09e35525c7131.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/a9276c7ed034f19c130e80dbaef20214.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/ab20ef3f95c96777be918a8c35917906.wav"
+        },
+        {
+          "ab": "sihabucan",
+          "ch": "罰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/4632077e81e4ed5d194510669fdd3e47.wav"
+        },
+        {
+          "ab": "tau mang",
+          "ch": "三萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/9a2e248a2cdbf571e08a51b3ac3639dd.wav"
+        },
+        {
+          "ab": "sohan",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/0ed6aab45dc19a1999285e8722336c27.wav"
+        },
+        {
+          "ab": "macanqan dusa mang",
+          "ch": "十二萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/3916d1755b8f6adf658878ae0a38d635.wav"
+        },
+        {
+          "ab": "cui",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/ed46d9bce81796c921a32607655eabc4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mamaca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/aa2dd5163dafc318649bb402ee37b8a7.wav"
+        },
+        {
+          "ab": "lehleh pohpoh",
+          "ch": "機車",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/d21a16a6af62e1d98b35f1e9700fa959.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/120a2137c054bce8447551558cb79ed5.wav"
+        },
+        {
+          "ab": "sihabucan",
+          "ch": "罰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/dbabd564a7c3361d0325f553828c4124.wav"
+        },
+        {
+          "ab": "dusa mang hima sing",
+          "ch": "二萬五千",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/b8854b0fdd07c6f0a9611b745070223e.wav"
+        },
+        {
+          "ab": "panhan",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/6ac581c9520f8a763a5d8d285073190c.wav"
+        },
+        {
+          "ab": "siva mang",
+          "ch": "九萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/4d7ee30820cc4315c1f70cdc10f8c681.wav"
+        },
+        {
+          "ab": "cui",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/28c4ec2c3000a150a40a5cc0f09c2758.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "家暴可移送警察機關懲處。",
+      "ab": "Palicia tastulumaq pakahau tu sinhuzanghuzang, mamaca pakahau cin pa’a’anak ka, maqtu satu’un han kisacu’ ta’ na pinsaqtu’un.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/87dbab5fc707eea1f9f0d594006c359c.wav",
+      "word": [
+        {
+          "ab": "Palicia",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/77ce64fe04d452d35341058f9fb7ddb2.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/c0d35ec50f504f93e915d5643e0dee99.wav"
+        },
+        {
+          "ab": "pakahau",
+          "ch": "衝突",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/44f831f358aaca5d951059c08c0966cf.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/edd6825356540bb8c277cb0a4a18fe8c.wav"
+        },
+        {
+          "ab": "sinhuzanghuzang",
+          "ch": "行為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/573c05e88d3ad981bfb041a5ede967c2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mamaca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/07ce8281f796307db33adfac50aa91b5.wav"
+        },
+        {
+          "ab": "pakahau",
+          "ch": "衝突",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/872e30770f6c1302bd64d296bef8e9c6.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/ac6023068b47882e50a72a7401c5377f.wav"
+        },
+        {
+          "ab": "pa’a’anak",
+          "ch": "打架",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/d17d7e0b80d1c5cabfa865437a22cc27.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/975e0837ae06c5c511f9716bfc41681f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/7ed213e4a57bbab877df785f85415179.wav"
+        },
+        {
+          "ab": "satu’un",
+          "ch": "送",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/4b946ce558c84041ff1b5975b37ffb60.wav"
+        },
+        {
+          "ab": "han",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/d1abb50137a0b179f4dbcb76a57ee7e3.wav"
+        },
+        {
+          "ab": "kisacu’",
+          "ch": "警察",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/7c094042b226e43e730a8febe1c6315a.wav"
+        },
+        {
+          "ab": "ta’",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/a56a5d1171beef40adc24af72349c370.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/f38d11dae7d8e0ba5375da0bed20d003.wav"
+        },
+        {
+          "ab": "pinsaqtu’un",
+          "ch": "懲罰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/11/d74e1925ecdbec121baaeccf938fe139.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

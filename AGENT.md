@@ -25,6 +25,14 @@ The Yincumin Citadel is a high-fidelity research portal for 42 Indigenous Taiwan
 *   **Source Data Pollution**: Beware of "Hengchun Amis" lessons actually serving "Bunun" text, or other cross-language injections from the source CMS. See `klokah_data_pollution_issue.md` for current coverage.
 *   **Phonetic Variants**: The "Standardized Spelling" feature in the Portal is a **display-layer transformation**, not an underlying database rewrite.
 
+## 🏗️ Portal Architecture & Component Hygiene
+1.  **Avoid God Components**: No component should exceed 500 lines. If a file is growing large, extract logic into:
+    *   **Custom Hooks**: For state management and side effects (e.g., `usePersistedState`, `useClickOutside`).
+    *   **Sub-components**: For distinct UI sections (e.g., `Header`, `TopToolbar`, `VsXView`).
+2.  **Shared Types**: Use the central `portal/types/index.ts` for domain-specific interfaces to avoid circular dependencies and re-definitions.
+3.  **Client-Side Logic**: Keep heavy data processing (like normalization or massive table filtering) isolated in `useMemo` or dedicated utilities in `lib/`.
+4.  **Theming**: Maintain themes in `portal/app/globals.css` using CSS variables to ensure consistency across the portal.
+
 ## ✍️ Documentation Stewardship
 To maintain a high-resolution "Bwain", you must adhere to these hierarchy rules:
 1. **The Master Index**: Always update [**BRAIN_MAP.md**](file:///c:/Users/Ben/Documents/LL/6_ycm/YCM_Citadel/brain/BRAIN_MAP.md) when adding/removing docs.

@@ -1,6 +1,640 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Mal’uu",
+  "titleCh": "請假",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "親愛的Langus老師：",
+      "ab": "Kadidazun tu Langus masnanava.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/0ad3140ed0cf59e84008db87c8c1106c.wav",
+      "word": [
+        {
+          "ab": "Kadidazun",
+          "ch": "親愛的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/0c31dda78664045d19fd1c04dc76abab.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/082925bd6347f8309fa790aa78d86f34.wav"
+        },
+        {
+          "ab": "Langus",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/85e65e6138754b6cf6b99f10916325bc.wav"
+        },
+        {
+          "ab": "masnanava",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/535464f977a45ab62af2578604d3f9f2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我要向您說，我明天要請假。因為我的父母親要帶我參加我阿姨（姑姑）的結婚典禮。",
+      "ab": "Kutunin tu qani’anan, namasisaupa saak su’u tupa tu, namal’uu saak kutunin tu qani’anan. Tis’uni nadasun saam tama tina, hamu saam inaak pantina’un mapasiza tu lus’an.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/dec3b026b81ee6d890a8f82f75c94a2e.wav",
+      "word": [
+        {
+          "ab": "Kutunin",
+          "ch": "明天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/f73014e660222ada11fbe8c64342be26.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/26e49cf53d47b35b4527160c7aacd2df.wav"
+        },
+        {
+          "ab": "qani’anan",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/bce8cad7949fc4fbc98789c5303a7a3c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "namasisaupa",
+          "ch": "要向…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/97f7f89d26319a464bf6584c3d9d7051.wav"
+        },
+        {
+          "ab": "saak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/761b59a8e028e110dec4be2114ee567d.wav"
+        },
+        {
+          "ab": "su’u",
+          "ch": "您",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/124c6149f09717e388e1f286163b130b.wav"
+        },
+        {
+          "ab": "tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/34dc21dee723e965b9a5e5ee9c8965b1.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/d7f5be8c764dbb9e1625d65aae66491a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "namal’uu",
+          "ch": "請假；休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/8da60ddc961c6ee8b17d41858f80bb2c.wav"
+        },
+        {
+          "ab": "saak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/5b18caad9f604f12b0705acba0ed409e.wav"
+        },
+        {
+          "ab": "kutunin",
+          "ch": "明天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/504736d29d3917fc9ec39099737571da.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/1395b2ad1a4545fade286875936703da.wav"
+        },
+        {
+          "ab": "qani’anan",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/28c4661da88dffe967089b43666e4844.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tis’uni",
+          "ch": "為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/a9eea24ba5eb9664c1341d21cf78476e.wav"
+        },
+        {
+          "ab": "nadasun",
+          "ch": "要被帶著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/bb0848134966fc5db45aa411b8933a5d.wav"
+        },
+        {
+          "ab": "saam",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/712775bacd00b61567ca8eeb605853c8.wav"
+        },
+        {
+          "ab": "tama",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/09b15aeee2bc9c47f03de9e6180d28a5.wav"
+        },
+        {
+          "ab": "tina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/08bc6a3cf0983489f86e2c1c24719a22.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hamu",
+          "ch": "要參加",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/edd407e7a5c6cd76b8fc6a7435b7e316.wav"
+        },
+        {
+          "ab": "saam",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/c2f34ed953fbaf32dc52ccca8afc4389.wav"
+        },
+        {
+          "ab": "inaak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/f047575e706451ca0ed912cf3d11daba.wav"
+        },
+        {
+          "ab": "pantina’un",
+          "ch": "阿姨，姑姑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/b1211abafb24dcd0eea6ef6e8f4790a6.wav"
+        },
+        {
+          "ab": "mapasiza",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/76607c8d892045f92be8094007e338f5.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/a4700f244723a6277a576f50af1d387b.wav"
+        },
+        {
+          "ab": "lus’an",
+          "ch": "婚禮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/02/d802a3e63c700493242d9d104389c7df.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "因為我的阿姨（姑姑）住在花蓮的古風村，今天晚上必須提早到那邊。當婚禮結束時，我們會馬上回來。所以，要先向您說，我明天要請假。",
+      "ab": "Maupa’i ihaan inaak pantina’un Kalingku Kunhung tu asang, asa tu kansanus haip tu sanavan mudaan mun’ita. Maaki tunganin lus’an a, namatinsuu saam musuqis. Paaqpun, tangusang masisaupa su’u masnanava tupa tu, namal’uu saak kutun tu qani’anan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/ea290b1287e57f0e4583722a27a560fc.wav",
+      "word": [
+        {
+          "ab": "Maupa’i",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/0ac1cef7072226a707d9d83dd0d7b09f.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/3f2ad34b5e5d4a0532b9fb0f84ed250a.wav"
+        },
+        {
+          "ab": "inaak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/82df15728970ad490703dc812123423b.wav"
+        },
+        {
+          "ab": "pantina’un",
+          "ch": "阿姨，姑姑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/a7b344c58979fefcf891b91a8e5abb22.wav"
+        },
+        {
+          "ab": "Kalingku",
+          "ch": "花蓮縣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c6d2a8dcf8d14a3a515862e9f55e76ab.wav"
+        },
+        {
+          "ab": "Kunhung",
+          "ch": "古風村",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/248210163abcc765cc4b37cf971ef792.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/aef966acbd6e6613d6a25097ec869b53.wav"
+        },
+        {
+          "ab": "asang",
+          "ch": "村落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/e135d58b281b92bb666a29ef5219dc90.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c4fe52acdc372e792b7a43227f35cf28.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c2bc8f626b7aa52fb0eb9871805d865f.wav"
+        },
+        {
+          "ab": "kansanus",
+          "ch": "提早",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/826dea53ffe4aaaf46e0eccfa2e3ec59.wav"
+        },
+        {
+          "ab": "haip",
+          "ch": "今天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/74bc19702ed65099e64bf56390483043.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/598825e90a8ac1ce5c48306c53dc1609.wav"
+        },
+        {
+          "ab": "sanavan",
+          "ch": "晚上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/d5cbe173e3496a9a8cf33ff403326f36.wav"
+        },
+        {
+          "ab": "mudaan",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/2a260ea13b6858c3b7dc2cd0b54bb562.wav"
+        },
+        {
+          "ab": "mun’ita",
+          "ch": "到那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/e66f964a0173e4b88ac76dba912bba7e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaki",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/897f32f21090e0f077c7a4dc93a47994.wav"
+        },
+        {
+          "ab": "tunganin",
+          "ch": "結束了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/ae5ef52da81b8f483ac166475587ad87.wav"
+        },
+        {
+          "ab": "lus’an",
+          "ch": "婚禮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/683789c77bf37c8dea098b73af2b52e6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/29237848f862237c97d24f2cd71f89c9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "namatinsuu",
+          "ch": "會馬上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/0e21313c9c6df2403142cd294eeac019.wav"
+        },
+        {
+          "ab": "saam",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/59dde4945f938af0224dc8f323348f35.wav"
+        },
+        {
+          "ab": "musuqis",
+          "ch": "回來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/115627429ce0a6b0c876779fc835f1e1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Paaqpun",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/1d150e73a0f97f5a1682cf36e0ceb422.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tangusang",
+          "ch": "事先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/04e7a0ec8d1e93cc858d552490a56bcf.wav"
+        },
+        {
+          "ab": "masisaupa",
+          "ch": "向…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/88447d3a2c4e50237d32431a087518dd.wav"
+        },
+        {
+          "ab": "su’u",
+          "ch": "您",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/e7af60d00f3dadf1f03a3bdbb2bc6364.wav"
+        },
+        {
+          "ab": "masnanava",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/f1205094292fcfdcec7c1641a8c4e259.wav"
+        },
+        {
+          "ab": "tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/71e006321468ab235f04588c420eb82a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/e2aa765d127da9df8a5bbf1a9bb58be7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "namal’uu",
+          "ch": "請假；休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/3742d490ac2e1efc538d0d7c271839e7.wav"
+        },
+        {
+          "ab": "saak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/ac02166ad1e62e310dc1a89e2ec24ce7.wav"
+        },
+        {
+          "ab": "kutun",
+          "ch": "明天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/ed543025badd2a6d5d1a58126a067bc3.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/ec01a34f7fc3b03448cc52f2a89d52e8.wav"
+        },
+        {
+          "ab": "qani’anan",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/9451def51de888a8d6351dcaeb2a0e49.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "如果有要寫的作業，請告訴我的朋友Sani。我明天晚上會去她那邊詢問。我也會認真地寫。",
+      "ab": "Maaki haiza na’asa’un mapatas tu papatasun qai, taqu’i a inaak tu kaviaz Sani. Namun’ita saak kutun sanavan masingav istaa. Napisihalun amin zaku mapatas.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/7681530fd4955629b6260d4dfb682e5a.wav",
+      "word": [
+        {
+          "ab": "Maaki",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/209606e4460c1048ed2775928b81b2d0.wav"
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/8bee14e7f73fc44d9db69ff8bccfe36a.wav"
+        },
+        {
+          "ab": "na’asa’un",
+          "ch": "必須要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/e52372a4f3d15c76f7b4856190566d5f.wav"
+        },
+        {
+          "ab": "mapatas",
+          "ch": "寫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/5127a926ccdb6ec533a654008339c1dd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/a1a72c40f696aeee9d7110b922d3b534.wav"
+        },
+        {
+          "ab": "papatasun",
+          "ch": "要書寫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/703dffbd9a455e472c078ae59ad47528.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/6c79c78cd728ec85bca7b10b07082e65.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taqu’i",
+          "ch": "請告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/8416ebd086e39d2492a704f3e32eb198.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/23c7963ec66989c155759d1ed3a6cbea.wav"
+        },
+        {
+          "ab": "inaak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/8d2319b81e276feccb1fef2c93c65954.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/cfb691b0a89ce8f3505f58bf1e6d7409.wav"
+        },
+        {
+          "ab": "kaviaz",
+          "ch": "朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/8346a1ed91b8f4eb1a4a26f59b2f751f.wav"
+        },
+        {
+          "ab": "Sani",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/889823b59e4946c262348782d54afc70.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Namun’ita",
+          "ch": "要去那邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/a0c885732bf3788b2dbe03a625cd9114.wav"
+        },
+        {
+          "ab": "saak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/d72a3078329eb92e65687d7652fdc7e7.wav"
+        },
+        {
+          "ab": "kutun",
+          "ch": "明天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/21bd61bdd9d7ba7b0f5c6b806ec01262.wav"
+        },
+        {
+          "ab": "sanavan",
+          "ch": "晚上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/3367366e0bff001c5cfb5aedd10d8e31.wav"
+        },
+        {
+          "ab": "masingav",
+          "ch": "詢問",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/ebbd64681b7ba2379b3b4fe1ff1a2539.wav"
+        },
+        {
+          "ab": "istaa",
+          "ch": "她",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/e5337b6705bcd3099129719cee0d46e4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Napisihalun",
+          "ch": "會做好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/1c77d7a11855fdfde420194c050c147b.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/705dd9f97ecdfe098f71f2a1089d4fcc.wav"
+        },
+        {
+          "ab": "zaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/f026065498487d98a7f2052d48749913.wav"
+        },
+        {
+          "ab": "mapatas",
+          "ch": "書寫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c1c18ff65e38f52cedda5a47acc77320.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "祝福Langus老師全家平安！",
+      "ab": "Maqtu’ang Langus masnanava tastulumaq malisvala!",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/f1d540af53a0349d758a40ce4ea1380d.wav",
+      "word": [
+        {
+          "ab": "Maqtu’ang",
+          "ch": "希望，祝福",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/ce69714025385b379247c4d0e0444606.wav"
+        },
+        {
+          "ab": "Langus",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c7b09887f3a7811320f6efefdba9d564.wav"
+        },
+        {
+          "ab": "masnanava",
+          "ch": "老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/9269e1bdbed3c32a3052f3e88a49debc.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "全家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/c5d566ec3c2d5e81193cec5703b0c71c.wav"
+        },
+        {
+          "ab": "malisvala",
+          "ch": "平安",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/928aba88f19ec12d7ef6b85c7082e7d1.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "您所喜愛的學生Pini。109.12.20",
+      "ab": "Isuu kadidazun tu isnanava’an Puni. 109.12.20",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/f67a40a604d98f5ce83b771f6af57d91.wav",
+      "word": [
+        {
+          "ab": "Isuu",
+          "ch": "您的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/da131f482cdb12f749d91d9b5ea3248d.wav"
+        },
+        {
+          "ab": "kadidazun",
+          "ch": "喜愛的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/46dab6007ab29cf3b43fa7a858b42589.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/a32c3d8a7646c36579606201a633154b.wav"
+        },
+        {
+          "ab": "isnanava’an",
+          "ch": "學生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/6b7e5dd8e735ac7504cd75e04acc097b.wav"
+        },
+        {
+          "ab": "Puni",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/e9068bc85422c7253ec3d4fd32e5a285.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "109.12.20",
+          "ch": "109年12月20日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/05/b211fbc3abb1e39484b8a312c8423964.wav"
+        }
+      ]
+    }
+  ]
 }

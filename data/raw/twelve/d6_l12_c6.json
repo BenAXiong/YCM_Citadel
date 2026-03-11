@@ -1,6 +1,623 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Tina hungku",
+  "titleCh": "虹谷媽媽",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "來吧！虹谷媽媽，爸爸賜下飾品。瀑布的聲音，斧頭劈柴的聲音。Hadul射老鷹，貪吃的Landiq配飯吃。被Ma’ia搶走，Ma’ia一直搶著。反被Pailung搶走，一直反被Pailung搶著。病中的女人，腰頂背物，手環的響聲。\r\n",
+      "ab": "Nuin Tina hungku, aivan tama bainkin. Cius cius tastas, paqting paqting tunpu’. Manaq Hadul quic, quic Landiq nguzuc. Siqalavun Ma’ia, Ma’ia siqaqalavan. Siqungunun Pailung, Pailung siqungunun. Halang tu binau’az, pa’av tu inama, pasling tu bistunan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/11/c3e794b08e5c76ab66eed054cac5350b.wav",
+      "word": [
+        {
+          "ab": "Nuin",
+          "ch": "來吧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/b2647909a1e5c66b65e5020c9d611b62.wav"
+        },
+        {
+          "ab": "Tina",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/e1ee14cef150d54430b4be71e0e3ce00.wav"
+        },
+        {
+          "ab": "hungku",
+          "ch": "虹谷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/c3530302a6f1c132db547b0a10e944f1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aivan",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/d5213788ce889d68d44e4cb2e4d09f87.wav"
+        },
+        {
+          "ab": "tama",
+          "ch": "爸爸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/0a284ebb88ae38cc7c4f907fa681df29.wav"
+        },
+        {
+          "ab": "bainkin",
+          "ch": "飾品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/eeeda357ad4071285a30be60e867ccd8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cius",
+          "ch": "（狀聲詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/e1d7e605d564b19d3c027d3c691d01fc.wav"
+        },
+        {
+          "ab": "cius",
+          "ch": "（狀聲詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/4f2b013a6d0dbf1fede597641c8e356f.wav"
+        },
+        {
+          "ab": "tastas",
+          "ch": "瀑布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/65a2d9e25238c352dcfa3b65b416c9ff.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paqting",
+          "ch": "（狀聲詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/bcc4b17cd5157b1ec6db990a3055ab33.wav"
+        },
+        {
+          "ab": "paqting",
+          "ch": "（狀聲詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/1405e80055f312614c4d9db295fac944.wav"
+        },
+        {
+          "ab": "tunpu’",
+          "ch": "斧頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/52eaf0d000dd9b3ad510423ec0da67a9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Manaq",
+          "ch": "射",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/faa61b5e351ebb747054c25a05260989.wav"
+        },
+        {
+          "ab": "Hadul",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/25451c36c028c0134062ef326e02cad1.wav"
+        },
+        {
+          "ab": "quic",
+          "ch": "老鷹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/0c849b9abec86c9cb8c2744893feb71f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "quic",
+          "ch": "老鷹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/d264726aafeb534b5442ebf0be29525a.wav"
+        },
+        {
+          "ab": "Landiq",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/3792fb94bfa203020142c55e57c41b33.wav"
+        },
+        {
+          "ab": "nguzuc",
+          "ch": "貪吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/89b289848e983f09410d4a9c5e732baa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Siqalavun",
+          "ch": "搶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/04cf081088a85e67a1d92a27327dcba7.wav"
+        },
+        {
+          "ab": "Ma’ia",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/b9fd0fdc6ae0e8337f5792416a9e7536.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ma’ia",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/fdb6bb4fac3c1d63e34f4495ba03b969.wav"
+        },
+        {
+          "ab": "siqaqalavan",
+          "ch": "被…搶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/9156a120fa85978d6588bab3c28f1d4f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Siqungunun",
+          "ch": "反被",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/710b6432b6d3eeca35bad53b93a017c3.wav"
+        },
+        {
+          "ab": "Pailung",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/f82f5220176ee12ee052bf4ba56ff0fd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Pailung",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/473efa366b209c78866f91c5b7a3e154.wav"
+        },
+        {
+          "ab": "siqungunun",
+          "ch": "被…搶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/17df1cc2cc79a526e451567b61b1c1d6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Halang",
+          "ch": "疾病；懷孕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/530d43090b1a634aefc4eb0f8d228a7e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/32e22defd00c41909800cd14b9248f98.wav"
+        },
+        {
+          "ab": "binau’az",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/1231e0e57825caf87e4f7837acca2a04.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pa’av",
+          "ch": "在上面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/7a1e47075019672be0f7f3c099b8486d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/8dce6fb21d2c1f6f4d5a1daa48d952a2.wav"
+        },
+        {
+          "ab": "inama",
+          "ch": "背物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/5928d820b698464faf8e05f61a415b3a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pasling",
+          "ch": "聲響",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/823b7a98b3fe1fd04872d9a3bd64b860.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/e220fb0074bbdcfe619794eaf116620b.wav"
+        },
+        {
+          "ab": "bistunan",
+          "ch": "手環",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/f1a0870a19936a5e8f9f33c061df4225.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "給我針。拿針要做什麼？要縫袋子。為什麼要縫袋子？要裝薯榔。薯榔要做什麼？他們要拿來擦槍。為什麼要擦槍？要射山羌。為什麼要射山羌？要給Umai吃。為什麼要給他吃？編織所做的。幹嘛要編織呢？祭典要穿著。在哪裡行祭典？在另一端山頭。在哪個山頭？在Qulistung上方處。",
+      "ab": "Aiving mai’aas. Na’mima’az mai’aas? Na istaqais qaluup. Na mima’az taqaisun? Na tisda’an lalauc. Na mima’az lalauc? Na qusqus nai bucul. Na mima’az qusqusan? Na ispanaq is cakut. Na mima’az panaqun? \r\n[===]\r\nNa paqul Umai. Na mima’az paqulan? Na tin’un mai’uni. Na mima’az tin’unun? Na pinukun maistultul. I’ica maistultul? Itankinuz Tunbia. I’ica Tunbia? Idadaza’ Qulistung.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/11/27/29a482b9c37cec3268b6e1be8eade7b0.wav",
+      "word": [
+        {
+          "ab": "Aiving",
+          "ch": "給我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/ed1fa94a2fea805211fcdc71d9bd9c8d.wav"
+        },
+        {
+          "ab": "mai’aas",
+          "ch": "針",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/6164d258ba6aeaf431e6d7098a5c65e2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na’mima’az",
+          "ch": "做什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/9ac3b468faac53225a1da96061ce502b.wav"
+        },
+        {
+          "ab": "mai’aas",
+          "ch": "針",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/1a8264651588f5d5584005484c59221c.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/15c7ca62cfa42ba28678720f89e09d54.wav"
+        },
+        {
+          "ab": "istaqais",
+          "ch": "縫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/39db01115657b5e27d003d68a4da8cda.wav"
+        },
+        {
+          "ab": "qaluup",
+          "ch": "袋子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/b05129578482516f276dda7a3186e5c3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/18c42f07f4bd9cff943dbcb0c3f8fc3d.wav"
+        },
+        {
+          "ab": "mima’az",
+          "ch": "幹嘛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/196d2783f69bb5e16b66e559486f0069.wav"
+        },
+        {
+          "ab": "taqaisun",
+          "ch": "縫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/ed2dec57291fc26fdc3a0e55f764a033.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/30179488aa147e390f3d7ebd823999eb.wav"
+        },
+        {
+          "ab": "tisda’an",
+          "ch": "裝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/51be581fbe6f70493c2c035ed0637399.wav"
+        },
+        {
+          "ab": "lalauc",
+          "ch": "薯榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/5c754669533ea878a4cad1358565a55b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/0ccf44aab586b33b6675cf167439c1c2.wav"
+        },
+        {
+          "ab": "mima’az",
+          "ch": "做什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/fb9ab1f2e4cc1426df70a489741c0659.wav"
+        },
+        {
+          "ab": "lalauc",
+          "ch": "薯榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/dbb42f8ceb735dc9a23bb272367954f9.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/0a6922d7605ff64bdeb6871a48e770cd.wav"
+        },
+        {
+          "ab": "qusqus",
+          "ch": "擦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/448bf8442ef7a69067aa8fbf800a5657.wav"
+        },
+        {
+          "ab": "nai",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/ecc0d078ea1c01a9f5bfe73dae9c000c.wav"
+        },
+        {
+          "ab": "bucul",
+          "ch": "槍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/59a84071c11a4343e40f65949a507452.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/4b83acbf4470639ed26a42b91fe6e4f4.wav"
+        },
+        {
+          "ab": "mima’az",
+          "ch": "幹嘛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/b27684de3fc1c9f753ff6c7fef02a891.wav"
+        },
+        {
+          "ab": "qusqusan",
+          "ch": "擦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/4c9cd5629d4e96c79cefe0ad33d0f3c6.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/daf5cbd1194e89fc0b7dfbea0859be04.wav"
+        },
+        {
+          "ab": "ispanaq",
+          "ch": "射",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/631945bbd81f8d15f0cd2b2599186e8d.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/88182468507fa9c3329db2df25fe0637.wav"
+        },
+        {
+          "ab": "cakut",
+          "ch": "山羌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/f5e78963676492496f83afac3c6e27bc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/93d792b4df3b79f309dc835f595e11b7.wav"
+        },
+        {
+          "ab": "mima’az",
+          "ch": "幹嘛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/fbc896c57909d5d0c1ec03b4d785da15.wav"
+        },
+        {
+          "ab": "panaqun",
+          "ch": "射",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/e9f871635641e60f52af418233ae3449.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/eb9a4beecf5d56142385469d2236504d.wav"
+        },
+        {
+          "ab": "paqul",
+          "ch": "給…吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/3f1b27e1774deb19e5ce42d547b931c7.wav"
+        },
+        {
+          "ab": "Umai",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/5ed2f4f8aaaf721b01797fc63ec81269.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/50200aadb0507ed433fa54cae7704036.wav"
+        },
+        {
+          "ab": "mima’az",
+          "ch": "幹嘛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/19f087e66b2e1b2192a5cf2c1a17dbb1.wav"
+        },
+        {
+          "ab": "paqulan",
+          "ch": "給他吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/ffeb13ccbc63c9900a41382b00599e96.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/c9462f2cebf64a073c21157bf5ef0e5a.wav"
+        },
+        {
+          "ab": "tin’un",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/5f702c7913eaf1117519b521ea5d1c77.wav"
+        },
+        {
+          "ab": "mai’uni",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/e0012674dc165ab7736ae63016348136.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/e383f34582c95bc294c89490cd6666ba.wav"
+        },
+        {
+          "ab": "mima’az",
+          "ch": "做什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/968b446f2ff6442b988b2a65204ea169.wav"
+        },
+        {
+          "ab": "tin’unun",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/e0655d29fe0dbabdb5037399bcf3d316.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/f5e4a51662531c5e58ed7a9d4cc68d32.wav"
+        },
+        {
+          "ab": "pinukun",
+          "ch": "穿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/fdd60a6aa9c4f71631e241ac7ef912eb.wav"
+        },
+        {
+          "ab": "maistultul",
+          "ch": "祭典",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/17cdfdaae12b64486b5798c934c7da28.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "I’ica",
+          "ch": "在哪裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/1ada159b27e11ecf503deb37cd85f6db.wav"
+        },
+        {
+          "ab": "maistultul",
+          "ch": "舉行祭典",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/da1f6eac88ae78fc818e02a21dbd3322.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Itankinuz",
+          "ch": "山的那一邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/741085b14d285e517d3fa4e68f465a2c.wav"
+        },
+        {
+          "ab": "Tunbia",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/b9345057e5acb3bf4e0dc4865b726dfc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "I’ica",
+          "ch": "在哪裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/699d73a38c929377d8fde174bb8cb863.wav"
+        },
+        {
+          "ab": "Tunbia",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/431ec42ca4643d72a45b16d9364c4143.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Idadaza’",
+          "ch": "在…上面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/9bca2dae1dbe2661a68d7c7fe0a88832.wav"
+        },
+        {
+          "ab": "Qulistung",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/28/6135d4f7f9e003ee3657ff2fbeee4b73.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

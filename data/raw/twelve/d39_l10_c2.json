@@ -1,6 +1,831 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "daxē a pakalu’ēn",
+  "titleCh": "土壤用途",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "土，是我們生活中常見，卻很容易忽略的資源，學會如何分辨它的性質並使用，在以前是很重要的事，因此，長輩會根據他的經驗，來教導我們。",
+      "ab": "daxē, kitakita hai yamin isia rēzaw, kaakuay kuang kita’ēn a isia, nohoda a dali, babaza’aw, nu daxē a maa’angi iu pakalu ka mia’ida a imisu, maluhoni haimini, apuwan ka mutudu’ay yiamin no minurazarazaw yamisiwan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/11/a70ca8a365726705e2d851c0218cdb0b.wav",
+      "word": [
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3ae19685715d953e6de4a17d8b66aa2a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kitakita",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/8b413aabc58730bbb943815ecba1c4c7.wav"
+        },
+        {
+          "ab": "hai",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0b40889509f4fffe03a99b3b547ad30b.wav"
+        },
+        {
+          "ab": "yamin",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9c052db0352f42a4ff05fe6ab072c56b.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/4306de7b86c76aa8abd2f7195057e5dc.wav"
+        },
+        {
+          "ab": "rēzaw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/88af07336c8c6faab261448755abaf02.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kaakuay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/14/3e23a5abe42c89de5d6fe43ab0af6fc1.wav"
+        },
+        {
+          "ab": "kuang",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/d2efe7a9401339725000239b55099f1b.wav"
+        },
+        {
+          "ab": "kita’ēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/babb4f1dd3be69132cb9cd7cf804cdbc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ad607d7e7b6020b35ba00212ed907480.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5ddca40a59ebecf0e12984fa626a9c84.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nohoda",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/187f6736dee31e9a9a5a3abf544b27cc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/8df51e574f63f115c4d6fd0b5c967833.wav"
+        },
+        {
+          "ab": "dali",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/776e43d0b5023ef2f5d821b328c26829.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "babaza’aw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/db6e12e70c681b197492205828c5ccdf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/d6176a1a9d033a84eaf753589672896e.wav"
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/773ca08a99988a86308821845423f39e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/c82ef01fe7ed362d9c60e6c504e3f08b.wav"
+        },
+        {
+          "ab": "maa’angi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/e321190c26e4d689908be8569321a602.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/41ea6e0023550245d3e02457073701d0.wav"
+        },
+        {
+          "ab": "pakalu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1072345d086cf9ba49bda3f0e0dfa93a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/c63dc7a7af55798fcd77cfa15850cd75.wav"
+        },
+        {
+          "ab": "mia’ida",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/7166e3ea02e2a2ea5c847abc41fff1b3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/e1fe7f149ec83a9675b72153f84fd67c.wav"
+        },
+        {
+          "ab": "imisu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/235d4a91c1c46b361f68b2894ca8d51a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maluhoni",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3e5e8c9e076e89ef441f3a281e53c465.wav"
+        },
+        {
+          "ab": "haimini",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/30aa47c694c4249a2a1dc08b704b5564.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "apuwan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/52a5c455f93b3a8ed9c037f58eb1c7a3.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3e7fd7407ef02deaf4ed2f85f5cbe382.wav"
+        },
+        {
+          "ab": "mutudu’ay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/14/52043b9b984965f6f367b831f056b43d.wav"
+        },
+        {
+          "ab": "yiamin",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/c4d172992ecc8d0c7768530d86836652.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/7ab48ee4fcad70f27400f4d29d3ab828.wav"
+        },
+        {
+          "ab": "minurazarazaw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ff33fce6d1599cfa7d63fd7b6af88985.wav"
+        },
+        {
+          "ab": "yamisiwan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1ac804848e992325691d6f799e322bf4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "土質一般可分為 : 砂土、沃土、黏土，砂土排水性強，適合種植果樹之類，果樹如果種在黏土質的土壤，會影響根部發展，也就會影響果樹成長和結果。",
+      "ab": "daxē ma angi daxēdaxē parungul: bunat daxē, rapul  daxē , hēhēs daxē. bunat daxē pasanga, en dalum paxoruma madu kahoy ka haw riak. na madu kahoy paxoruma di mahēhēs u daxē ka ini riak a makamadu, ini riak ki pangu kahoy.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/11/5641488532acd186bcbc1d38d64c3628.wav",
+      "word": [
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9762d19a25743ec87b72f7b3bc750b0f.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b031adca7ec98f7342d6ad36231161a6.wav"
+        },
+        {
+          "ab": "angi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/84603ece29be90b8eb0614c7332e540b.wav"
+        },
+        {
+          "ab": "daxēdaxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/27c9b8d131c8d4ef53c25b37160c9365.wav"
+        },
+        {
+          "ab": "parungul",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/928f393aa42a431369a38d67b5244495.wav"
+        },
+        {
+          "ab": ":",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bunat",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1c0f102651309e3d02060b8ea03a98b5.wav"
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a0d1a7cbec4fd50ce8a49953d05fe02f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rapul",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/6020ed7d1d39d76da22370ef727a91e7.wav"
+        },
+        {
+          "ab": "",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/55872e105ea14e442b56df9467ac0537.wav"
+        },
+        {
+          "ab": "",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hēhēs",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1b00f0039bc04fa94a91e7c925e36794.wav"
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/822fa8747d3c9fc19a0d40c68f7af032.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bunat",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/76243a62aea0184c7d8f7fde1521f2b1.wav"
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/87fa2b317b945268ecd32cd902a0c3fd.wav"
+        },
+        {
+          "ab": "pasanga",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/97c3b735d70979724d67b6ec942595d2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "en",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/bedf9655df47faa67ec13a6ed5b92342.wav"
+        },
+        {
+          "ab": "dalum",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3139617eaa43bbe573f0906a7d3a45d4.wav"
+        },
+        {
+          "ab": "paxoruma",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/f531e1175be37f264d5d21b68cf36747.wav"
+        },
+        {
+          "ab": "madu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/fe079788e757247562f95e2337f84f51.wav"
+        },
+        {
+          "ab": "kahoy",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1829be9cf813cf78f294155e06e067c0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/97be212bb432db119b93da0004d3522d.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/00d156afa1762dd275b24905f05a71db.wav"
+        },
+        {
+          "ab": "riak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/21476ee7aefc525cc628cc54297f9c07.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/f9ea07293c3692e6a174e2f9ccdc41af.wav"
+        },
+        {
+          "ab": "madu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ea46303ba8ca8b67c116dce9785884f3.wav"
+        },
+        {
+          "ab": "kahoy",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a083ce591dbe7b95af372eb82032e1c7.wav"
+        },
+        {
+          "ab": "paxoruma",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5617afb4fabc3d079dc2175a71f62074.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/59cc887517c47ae4994e83a3296ecdc7.wav"
+        },
+        {
+          "ab": "mahēhēs",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/50d7350c160a6903262a0d913e5230e9.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b7dffcc636bad7dac556baadfed1560c.wav"
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/f7acdcd59b05194905767f0ce37ce70b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5de95a45af7a153c0f9182b665f5d797.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0dac47c5af1e48335ef33740f79e0311.wav"
+        },
+        {
+          "ab": "riak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/cd343d6bf0f0b29ea0b401a81adc2161.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/56f7260f766ca7d33fa3b1e061544b8c.wav"
+        },
+        {
+          "ab": "makamadu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1196f47cd5462fd6f9120ef15279265b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/8281319b175188b737a731b14232da43.wav"
+        },
+        {
+          "ab": "riak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ca3d616ad90d3be395cb63c18847a087.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/cba26ceaccc30988c53722b8e0cb3cc0.wav"
+        },
+        {
+          "ab": "pangu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/b23ce21e0cbd6f992110569f290ae502.wav"
+        },
+        {
+          "ab": "kahoy",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/d33b9823de6061b119eb0e97a5813412.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "沃土最適合種植疏菜水稻植物，疏菜因爲是種在沃土，長的又肥又脆。泥土是比較有黏性，用四角模具製成土确後，蓋房屋、及週圍土牆、穀倉、土壟等。了解環境，有智慧的善用，在對的地方用對的土，才發揮最大的功效。",
+      "ab": "apul daxē ka riak ki paxoruma, ay xalam, mulasi. rapul daxē kaidi sia ka. nahada, ay kiaarēn huhul a mulasi. xalam ka mataru iu makēxēm. mahēhēs  daxē ka xamaxamaēn, haw riak ki paxataxukat, matupaxumak, patu puniak, taxulawi. mabaza yaadisaysay, hada kalu ririakay, di matēlēng pērē kalu matēlēng daxē haka maxa mataru hakaan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/11/8e4882230268c85dacde034418f4c842.wav",
+      "word": [
+        {
+          "ab": "apul",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0413e4313aac98c48a2a7105c3ff5138.wav"
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/63c97c6d47d93e65e448b706f19044bf.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/88b89029726ce6f804f793206101269b.wav"
+        },
+        {
+          "ab": "riak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/0f1b815e0d3398c2ef6e78b02ec31948.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/1cf4bb61038c79eec796fe334a9cd70a.wav"
+        },
+        {
+          "ab": "paxoruma",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/7bfe0318f6fdbb81caf5b801fd013138.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/18a58fbb2302ec6ace5648a54e4dcb8a.wav"
+        },
+        {
+          "ab": "xalam",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3eb61883ad1710183f5270ce0e3a83b7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mulasi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/eeed906f71cfb582d5ace59d84f7398a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rapul",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5d08ed1ed02a5d9e7a8b603a774d940c.wav"
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/626af4282e42f797b70bea7804ee6a8e.wav"
+        },
+        {
+          "ab": "kaidi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/8bfab7bf3defe9913bda203abad6618f.wav"
+        },
+        {
+          "ab": "sia",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/7e4187dfcc7f7678fdb47521d232bf24.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/780b8fe0bdcb92449f6cabb0f46fa490.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nahada",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/56ba36e8e66ed6ed4813f2d38e73edad.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5763338d5e8da8dd93c85b310b9b3099.wav"
+        },
+        {
+          "ab": "kiaarēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/02d02a7138970986c1ac09c150a6668b.wav"
+        },
+        {
+          "ab": "huhul",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/95adf118912148d5f0e3830dd6f2fbdd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3ee1529bbd561aa584cb67cf6816f7fa.wav"
+        },
+        {
+          "ab": "mulasi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/54aa71911087f3b0ac9d3c45b94288ea.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "xalam",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/27f9b61010682871a2ebce6024f46ffb.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/6387a016a5d6e342b5f7f4ee64bc433a.wav"
+        },
+        {
+          "ab": "mataru",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/64344d1aa686eb78d3c4b2d12db32152.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/c3ada4dc8a2c4b3d55cf3a6457ea4a93.wav"
+        },
+        {
+          "ab": "makēxēm",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/eddc829e554a4724ceae51d020469849.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mahēhēs",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/54bf49c38234614c8ed0b688a740876f.wav"
+        },
+        {
+          "ab": "",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/a2079a2420098964fd92405cc04fb5b4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/758042a917a086f079afe2207a6767e4.wav"
+        },
+        {
+          "ab": "xamaxamaēn",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/4c8c7cf6089bc32787827f0f6963aeab.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haw",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/248db4bcf68ce3a83c013c44f880037c.wav"
+        },
+        {
+          "ab": "riak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/cf4ed2bc70e6aaf6543fe5911ab40e8c.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/23f43392c943f36f323f235367383c7f.wav"
+        },
+        {
+          "ab": "paxataxukat",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/58f8e12a5e169287cf5b3148758d2c18.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matupaxumak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/21f9f1fe408ee0b5582736b379b92172.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/3272d1b6246dfd18d16c52eea45713e0.wav"
+        },
+        {
+          "ab": "puniak",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/9e033c2e725ea9d1b0c9dfa7a1702993.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taxulawi",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/470d20755dbced69d04db37b087f648d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mabaza",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/889a7391211c21b145d628c62c3394ba.wav"
+        },
+        {
+          "ab": "yaadisaysay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/8c353132a26bca69a89c4868107bee57.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hada",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/61f389aaa4f9998aa4643916f4e5088b.wav"
+        },
+        {
+          "ab": "kalu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ebc00fc102d63f1ea324a25da878bd71.wav"
+        },
+        {
+          "ab": "ririakay",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/19f3f88beb164792ef3663e284bb8b4d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "di",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/77ab6d2f26be25d33e22ca3bb07d6f64.wav"
+        },
+        {
+          "ab": "matēlēng",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/dcf1ea5f3eb358001473ae01752c7ade.wav"
+        },
+        {
+          "ab": "pērē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ed887983bbd8c88d652d2ad8da91149a.wav"
+        },
+        {
+          "ab": "kalu",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/fe5c0b9d1c33731cf676b7d87b43d6c0.wav"
+        },
+        {
+          "ab": "matēlēng",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/5b9641f0ed47a01b150cc5d44e3cd7be.wav"
+        },
+        {
+          "ab": "daxē",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/6d26d7fe3a992aebff3ba75c6daaa243.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/7f7dc245c25c6703eb63b244708d2f58.wav"
+        },
+        {
+          "ab": "maxa",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/dd7d184152c313851acbb2fb977b5e8a.wav"
+        },
+        {
+          "ab": "mataru",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/817ddaff8d95c9348030facfa5a7a9c0.wav"
+        },
+        {
+          "ab": "hakaan",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/18/ee5cbaa30fa0694debbeb05aa6ed82e5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

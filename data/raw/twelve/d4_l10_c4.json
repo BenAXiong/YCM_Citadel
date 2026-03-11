@@ -1,6 +1,789 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "nanta dawa",
+  "titleCh": "我們的小米",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "自從以稻米為主食之後，稻米便逐漸替代了小米的經濟價值。",
+      "ab": "kemay kana milumay ta da kaakanan lra mu, na lumay marekasadu lra na venuras kana dawa kanantu cima’.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/23/959ab9a0695c467e7caf75431a872e5c.wav",
+      "word": [
+        {
+          "ab": "kemay",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/39e058b48b990ec22848b04dcb09ced5.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/caa78441d250d521530f57a8f0a39157.wav"
+        },
+        {
+          "ab": "milumay",
+          "ch": "有稻子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a5ac0c14445b5d44dfcb9e09b6d1ca9f.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/dd0907b8dd7246f8050290f4bc57a07a.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/7597b648896ff7c9b641518737feb51b.wav"
+        },
+        {
+          "ab": "kaakanan",
+          "ch": "主食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/5e0daad0b3c36da2b095211c1141a907.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/daf8545d125eeadc2c983cb6eb880739.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/41295100961ceec8468f2f88cc328ed5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/0e6cf9d31d44770e2ec111126cfd6a3b.wav"
+        },
+        {
+          "ab": "lumay",
+          "ch": "稻子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/bed9348bd05edc84217ad26fa852c7bc.wav"
+        },
+        {
+          "ab": "marekasadu",
+          "ch": "越來越多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/48998ffa415486835d16b9f7400806e7.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/af3d3e4b6d17684e18db145afc037cc5.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/d8a7e4e3bb8800fb86923997f5992234.wav"
+        },
+        {
+          "ab": "venuras",
+          "ch": "替代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/d7eb7d66997ca07fff105673fdd76ea8.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/7a0ecf6b42f67191a6d11a27cc26a2df.wav"
+        },
+        {
+          "ab": "dawa",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/2f317a7bf9f3e85a6a2894d049f45611.wav"
+        },
+        {
+          "ab": "kanantu",
+          "ch": "它的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/2714584fc9f16a2cd7df4466858f3d9a.wav"
+        },
+        {
+          "ab": "cima’",
+          "ch": "價值",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/545e8946adf5b4eaa3f878c0bf4f4423.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "已經很久沒有看見大量種植的小米田了。雖然如此，與小米息息相關的歲時祭儀文化，在部落裡仍延續不斷，不曾被遺忘過。",
+      "ab": "pa’eceng lra ’ami adi ta lra menana’u da pini’umayan a dawa, ara kemaduwa mu, na mikaraima diya kana dawa tu rehiyan mu, adi murareput di uniyan diya da kinalalupan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/23/263fc48aae39f219b4c71d9d4bb4aed2.wav",
+      "word": [
+        {
+          "ab": "pa’eceng",
+          "ch": "長時間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a675cdaaaea6d970edf507f9716e5227.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/818426dd61b2796a0d89864eba26da42.wav"
+        },
+        {
+          "ab": "’ami",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/bacd9174d1e7fc102548914bd9e5bade.wav"
+        },
+        {
+          "ab": "adi",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/49aa9846a8ada2e646092dbb40c21470.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a4d5d98b0b7f5743bb6e33753774fbdc.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/6fcac3657a3e0488f12473992c7143c7.wav"
+        },
+        {
+          "ab": "menana’u",
+          "ch": "再看見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a3c22a008dd1fdec5609122dfe6ffd5c.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/43b237705383de4cdea3a57091bf15bd.wav"
+        },
+        {
+          "ab": "pini’umayan",
+          "ch": "所種之…田",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a65728aa7058ff57ed96b365a9b84e8b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/b59a3c096b67927f96cb0461a466d117.wav"
+        },
+        {
+          "ab": "dawa",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/f4792354d961f9862ae260c61d86ab72.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ara",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/6e94de24df6aa3b307438f08276219fd.wav"
+        },
+        {
+          "ab": "kemaduwa",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/2f8bd8e672ea564c739acbe2c7d43449.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/1c58c5146fcc1bade9f6ff54e1fc6aa2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/048bc561e4298fd42343fcd5fa0384f7.wav"
+        },
+        {
+          "ab": "mikaraima",
+          "ch": "有關",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/5729e26881cabb03cedea056e551339c.wav"
+        },
+        {
+          "ab": "diya",
+          "ch": "只要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/0baaca4869b0b4a554b6f40e801ea0dd.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/bb3e6bcb32e4243425fad4b9c586bc7e.wav"
+        },
+        {
+          "ab": "dawa",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/4202e821d569d360f740e53d64d40234.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "它的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/7f68a22a558344658940c12d3fc6eb06.wav"
+        },
+        {
+          "ab": "rehiyan",
+          "ch": "祭儀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/ad97267def987a92c7a935fcb2ab3fc2.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/d4f3aa67c885441686da878fde70118f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "adi",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a6069a2d472d3ead40c12ce052138cd4.wav"
+        },
+        {
+          "ab": "murareput",
+          "ch": "將斷掉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/bca0cce3ca580e56d6fbd3a74e05e919.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/20481a29f68699537dc1eaa5a950aaec.wav"
+        },
+        {
+          "ab": "uniyan",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/9a08f4c63d37c637979be6820f0f2929.wav"
+        },
+        {
+          "ab": "diya",
+          "ch": "曾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/46c8429237b0155bc12bda2b0ef78853.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/1033643601585552d7258cb66bd0741d.wav"
+        },
+        {
+          "ab": "kinalalupan",
+          "ch": "被遺忘的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/bc61e56a64cf6926a035d4408a1bd935.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n在民族意識高漲的時代，這復振文化之根的「小米」，已是族人重要的傳承事務，也是我們要與孩子共學的親子教育。",
+      "ab": "kana marekaseme’er lra data kakuwayanan na haremanan mu, ini na vavasuken kimirami data kakuwayanan na “dawa” mu, mau lra nanta kinapadangal na pulralrepusan na kiyakarunan, di mau nanta temakesi di pananadaman kananta alrakan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/24/318482408796946b26d6f19e2d9cd721.mp3",
+      "word": [
+        {
+          "ab": "kana",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/fe6a2ee1576f2f9d6dd62a1e05bb9ea8.wav"
+        },
+        {
+          "ab": "marekaseme’er",
+          "ch": "越來越重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/d48f0414c54cc774091692d7ad9d3bc5.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/8054ce717d051d17a495ac728b28b772.wav"
+        },
+        {
+          "ab": "data",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/b55222ebb0b6a9367ea1a7fb000836d8.wav"
+        },
+        {
+          "ab": "kakuwayanan",
+          "ch": "習俗；傳統",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/9c101eb4e6342e37c2ae08c427fcf3f3.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/e5743fdb8f6fdeb20b328de71a8ebe43.wav"
+        },
+        {
+          "ab": "haremanan",
+          "ch": "現代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/1d6725e03ffd1fc8af927432a4f2fc45.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a33432e82a795072ba5aa7a16eeee170.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/1a46364c130bd808f7f08a20f87a714b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/c94d9ea371a7d06a8c602aab01fb3091.wav"
+        },
+        {
+          "ab": "vavasuken",
+          "ch": "復振",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/5c7fb23f3b338a538a31c6dc90b188dd.wav"
+        },
+        {
+          "ab": "kimirami",
+          "ch": "從根部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/fe090924f08bdaa569f4e6fcc1a70484.wav"
+        },
+        {
+          "ab": "data",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/6dccd7e853ae750d039d920801bd5da9.wav"
+        },
+        {
+          "ab": "kakuwayanan",
+          "ch": "習俗；傳統",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a8be20563f1dc75141732d917b67f4ae.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/4759d0a15696d7f48270a7cb320b1851.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dawa",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/e4dd000e94bb8c2bfd9793b7588b0c44.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mu",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/03c068247212af690a19b7b0b3f86299.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/342d027b49626f0015cbbc2ba21f65f7.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/802a4e7826fc7c9de160e911165f335e.wav"
+        },
+        {
+          "ab": "nanta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a05c1f53492cc55ba3e9aa65c1e438e0.wav"
+        },
+        {
+          "ab": "kinapadangal",
+          "ch": "最重要的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/c9cea7d670dfeabf6a7ad6495d234cf4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/96155e2ca8b25192966ce7664907dae0.wav"
+        },
+        {
+          "ab": "pulralrepusan",
+          "ch": "要傳承的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/d01f29ca3fcc719895b68e2e55b161ed.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/d78fec3e838a52c53b5dbfd9c2181867.wav"
+        },
+        {
+          "ab": "kiyakarunan",
+          "ch": "事務；工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/639358ff8e77778dd4d881dfc38f4399.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/045ea21539823cd68606177a4d1e60a9.wav"
+        },
+        {
+          "ab": "mau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/b114a33e8c8743672ef147a0f263fa64.wav"
+        },
+        {
+          "ab": "nanta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/7cf7b18f1dd384a338ea9e067abe2256.wav"
+        },
+        {
+          "ab": "temakesi",
+          "ch": "學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/06928b9f63ebf064f0e8174d86a80dd2.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/91d8c479ac8f6ca2291cd95a31c46b31.wav"
+        },
+        {
+          "ab": "pananadaman",
+          "ch": "要教授的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/4a213d9a51209d27177df4643708072b.wav"
+        },
+        {
+          "ab": "kananta",
+          "ch": "對我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/3b888341835dcf21f6fd77500f9aca96.wav"
+        },
+        {
+          "ab": "alrakan",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/6fbf0922153f913dd7da46c1b67a9e4e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我們的部落現在有耆老指導著孩子們，從根本上認識種植之土壤性質，及農墾的工作，讓孩子們親身體驗如何從播種到收割，在大家共襄盛舉的祭儀裡，分享大家一起烹煮的小米食物。這習俗是多麼地有意義又令人欣慰啊！",
+      "ab": "harem kanta i dekalr mu, ulra na dawdawan na pananadam kana lralrakan, kimirakad pakadalram data pinidare’an, di data kiyakarunan, padikes da lralrakan kana kemuda ta temuhus, palru kana mare’ani, mukasa ta semasahar, di pu’acar ta kananta dineruwan na dawa, ini na kakuwayanan mu, pukasa kana mipauwayan di pakamisemangalan!",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/23/3d387d2612f9027154ed3b99a7427da1.wav",
+      "word": [
+        {
+          "ab": "harem",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/dd822e2af65346c3c3baa76bfbddea4c.wav"
+        },
+        {
+          "ab": "kanta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/38244f9a374c16f4762cc42a1dba7afa.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/f69ea2e9985146c5b51e08d15494164f.wav"
+        },
+        {
+          "ab": "dekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/5bd6c0cf3292e5f9ece9da05afd61ce6.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/197559967b14279a504f8f1018607491.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulra",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/fba5dc5886ffca911f1ffaec1e7a231f.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/725ffa16b9f137c54b9336c2422dfcee.wav"
+        },
+        {
+          "ab": "dawdawan",
+          "ch": "耆老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/307e6e93ecc3ec895a135e426c907cc3.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/f891846243ad469e801675dfb3da17b5.wav"
+        },
+        {
+          "ab": "pananadam",
+          "ch": "教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/ca2e20a0917dd9fc0acbccd70ff2e74b.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/388ce397608c1464658db1f65a09af11.wav"
+        },
+        {
+          "ab": "lralrakan",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/9b6a747d73af015e524040137a2ae9b9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kimirakad",
+          "ch": "從頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/330e1029061501db08c7bf7e9b37a9a2.wav"
+        },
+        {
+          "ab": "pakadalram",
+          "ch": "讓…懂得",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/07bd669a6cb655dea68e085d3776ce74.wav"
+        },
+        {
+          "ab": "data",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/e0e9ac104fdeb3454b73430f773d56cd.wav"
+        },
+        {
+          "ab": "pinidare’an",
+          "ch": "所用的土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/bed0f11f6457c165a4f0ad9c7f31fdf7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/d012e88d4118d27a1851347c78781792.wav"
+        },
+        {
+          "ab": "data",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/15ae5e8f8c6126235d9b473718aaaa24.wav"
+        },
+        {
+          "ab": "kiyakarunan",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/ec8b57df2677669b6711b89585fbab7e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "padikes",
+          "ch": "讓…掌握",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/b690e76f786e5ee8b80ffe274c36003b.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/3d460bd503d97397181b6bfcd599fabf.wav"
+        },
+        {
+          "ab": "lralrakan",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/057af595bc489767589b16b83fb34814.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/4723291df294add10bb83d1384f5b768.wav"
+        },
+        {
+          "ab": "kemuda",
+          "ch": "如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/02b90701612e92d91d4f7f367cd52a6a.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/f1838e96517c1a67b55ac4712dd9e6dc.wav"
+        },
+        {
+          "ab": "temuhus",
+          "ch": "播種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/cd58ed1304bf4f9ea2e7ae14ca5d7b77.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "palru",
+          "ch": "直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/0a524941f56d7f4a7882eb54e8e472e8.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/920e558eec7b9ba7fd45d7fa420b7055.wav"
+        },
+        {
+          "ab": "mare’ani",
+          "ch": "收割",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/db69dc66dd78c4699759a81a221fcd2c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mukasa",
+          "ch": "共襄盛舉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/108a56b398bbc976fb7a78a061b340a2.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/1c88fe0eabd5c0ef9290b0a1d42bc1f9.wav"
+        },
+        {
+          "ab": "semasahar",
+          "ch": "慶祝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/a454072bbbaf08c33eeef1186cd86aff.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/831e914ffc2fc4484382d558baf17ebc.wav"
+        },
+        {
+          "ab": "pu’acar",
+          "ch": "分享",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/523214a6917368716293fedf901a3c5b.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/ba0ea568e42fafa2f82f6da07832fb37.wav"
+        },
+        {
+          "ab": "kananta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/2a4446737f5a050a092c188787cc69b7.wav"
+        },
+        {
+          "ab": "dineruwan",
+          "ch": "所烹煮的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/6bfc10d77ac1ba1ba5d25c409f1e4446.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/8084969c2863a07246992a4931f88303.wav"
+        },
+        {
+          "ab": "dawa",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/6940b65910bee438a36878f64438ff38.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/814a827b74482a16511fe0e8cec210c0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/f7e4c237463a45563e949343b1340770.wav"
+        },
+        {
+          "ab": "kakuwayanan",
+          "ch": "習俗；傳統",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/c411121a90213e19484e42713b89f5bd.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/5118cf43025d0a1446b9171f22bdda0b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pukasa",
+          "ch": "特別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/5d698309c72a349d6f38e411f453b255.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/92335e80aa7fa6b5b709a273f8294cfe.wav"
+        },
+        {
+          "ab": "mipauwayan",
+          "ch": "有意義",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/7cafa4a3aa6ae67880a614a6ee14161f.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/e5257c6091a15faa700a73edcd57ae2e.wav"
+        },
+        {
+          "ab": "pakamisemangalan",
+          "ch": "讓人欣慰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/17/78d4ca251e7fbf3ed003e5a73ac56fbc.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

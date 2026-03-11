@@ -1,6 +1,771 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "siatuturu a hlamama",
+  "titleCh": "父母的教育",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "在部落中，家庭教育很重要。父母承擔教育的責任，父親是兒子的榜樣，母親是女兒的榜樣。孩童時期，男女一起學習簡單的家事，如汲水、生火、掃地、背負及照顧弟妹。",
+      "ab": "[-AP1-]tam pualisʉhlʉ ma miararumana siatuturua pihlingi, hlamamana tumatuturu ta’iara siatuturuana, ama’a ia pakiaturuaisa ka mamaini hlahlusa, ina’a ia pakiaturuaisa ka mamaini ahlaina. akuisa mamainimana, mamaini hlahlusa hla ahlaina musuaturu matalakiahlʉ ta’iara salia, ausi kani’i mualaku, pusipi, maivʉtʉraʉ, taruihla hlimihlimilavaʉ hla maiiatuhluhlu ta’iaraisa.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/18/fd5693a5277fc5a1dbd31dbb4af9a1d8.wav",
+      "word": [
+        {
+          "ab": "tam ",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/76d0719ce1bef49ff8a0f230a1e49b10.wav"
+        },
+        {
+          "ab": "pualisʉhlʉ ",
+          "ch": "看重",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/24cb6df98eb09e7ee74fb868758c8cbe.wav"
+        },
+        {
+          "ab": "ma ",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/dd3e9cad5b48d89fd9629d889bc7d683.wav"
+        },
+        {
+          "ab": "miararumana ",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d40074de20e25de472779d74fcfd35af.wav"
+        },
+        {
+          "ab": "siatuturua ",
+          "ch": "教學",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/20/e26b15a615ee134e09dfc4da38a47295.mp3"
+        },
+        {
+          "ab": "pihlingi",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c4aba5b9d3fafc1967fb4ef11c9f7deb.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hlamamana ",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/8419b83db387680764850f9b294a1e23.wav"
+        },
+        {
+          "ab": "tumatuturu ",
+          "ch": "教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/313a35e1e870e7a85a5ab5c0b23bf7e3.wav"
+        },
+        {
+          "ab": "ta’iara ",
+          "ch": "事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d572563ca57a3f1a3e0778f2f9f37c63.wav"
+        },
+        {
+          "ab": "siatuturuana",
+          "ch": "教法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/dd863446aeb19db91002d1d5e7e58b0e.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ama’a ",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/034644b950c6bc1f2a61eae2b112abdc.wav"
+        },
+        {
+          "ab": "ia ",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/28e1ca1658136b6fffe7519320d9c2d1.wav"
+        },
+        {
+          "ab": "pakiaturuaisa ",
+          "ch": "他的老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/809608f8cc7801440eec027d19dd1b8f.wav"
+        },
+        {
+          "ab": "ka ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/5e7e49d9ac705cfa3a4ec1b2b4692404.wav"
+        },
+        {
+          "ab": "mamaini hlahlusa",
+          "ch": "男孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/11d971a0c0536a7829a3041863efb1fb.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ina’a ",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/79068284cfe78d8effda9338a9b56dae.wav"
+        },
+        {
+          "ab": "ia ",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/0a600c7b3fa95a17c1d91f3aacb2e49a.wav"
+        },
+        {
+          "ab": "pakiaturuaisa ",
+          "ch": "他的老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d572239786e2b5b632c8ad7aefd07a39.wav"
+        },
+        {
+          "ab": "ka ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a29ead67b4d12875320d78f54ecb0251.wav"
+        },
+        {
+          "ab": "mamaini ahlaina",
+          "ch": "女孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9891558484c899974996f6a3a2c4aa3d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "akuisa ",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/dcf1c38fa731187e3be1bfa1613fefa4.wav"
+        },
+        {
+          "ab": "mamainimana",
+          "ch": "還小孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/84197cb58253061874fcc43fce417a7c.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mamaini hlahlusa ",
+          "ch": "男孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9c6b8d05e85ea47d74f7ee93f13a376b.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/bc05aa23b91a3a988e14179077e9696c.wav"
+        },
+        {
+          "ab": "ahlaina ",
+          "ch": "女",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/13d423c869d1f12c22c6544d405f891b.wav"
+        },
+        {
+          "ab": "musuaturu ",
+          "ch": "要學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6e5796cf5b77f3f222b48a174f1393de.wav"
+        },
+        {
+          "ab": "matalakiahlʉ ",
+          "ch": "簡單",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/5cf7e7b2c9a47322d1d1d014706f8673.wav"
+        },
+        {
+          "ab": "ta’iara salia",
+          "ch": "家事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/2c0b2ab037c4472815b32100d815b865.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ausi ",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/10efc37459572ba5de3036fdb68fda87.wav"
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/0bb219a49d08cd9e2ffa8dde4a98f520.wav"
+        },
+        {
+          "ab": "mualaku",
+          "ch": "汲水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9feb087e8b284ef2c97c508984c0b3dd.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pusipi",
+          "ch": "生火",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a940b8136e1c67843e0109f819d5db47.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maivʉtʉraʉ",
+          "ch": "掃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/93081bbc27a59221cb20ea187a999b13.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taruihla ",
+          "ch": "揹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/cea68d6ebdfe9c190898c10aad14018a.wav"
+        },
+        {
+          "ab": "hlimihlimilavaʉ ",
+          "ch": "弟弟妹妹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9699c455ccc43c2cb3645618fb73dcc7.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/5a4df0d416fd29321a992d0edea55732.wav"
+        },
+        {
+          "ab": "maiiatuhluhlu ",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/3cb9f4028ab7fdc5350767d89200a307.wav"
+        },
+        {
+          "ab": "ta’iaraisa",
+          "ch": "他的事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/7a4dac4925ff62ea0ffe563eb2ee20f8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "到少年時期，男女一起學習砍柴、舂米，開始到田地幫忙除草、播種等。到成年期，男女開始有所區別，男子要學習狩獵、建築、揉皮，女子要學習釀酒、織布、縫紉。",
+      "ab": "miungucu alamuru, alamuru hlahlusa hla ahlaina musuaturu tarakiu, mianʉ, rumiacu musa umuma tumalʉlʉvʉ umasasapa, tarurapʉ hla usumanʉ ta’iara. miungucu mahlulʉpʉngʉ, ruamiacu hlahlusa ahlaina tarusiahlai musuturu ta’iara, hlahlusa musuaturu muruacʉka, mairuruma, rumurumu valaku hla usumanʉ ta’iara, ahlaina musuaturu picuamapaci, turarapuru, tumahlisua hla usumanʉ ta’iara.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b3094fc521bf501884b19b2c97b31dcf.wav",
+      "word": [
+        {
+          "ab": "miungucu ",
+          "ch": "到了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9ffe225ba41e115b9058e667aa62203a.wav"
+        },
+        {
+          "ab": "alamuru",
+          "ch": "少年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/7b3cb4472d233eceefe071eaca5ae664.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "alamuru hlahlusa ",
+          "ch": "少男",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/fd435b35edcd4c83d7075392928200d9.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/1e6e91e8acc6a343d78f0b5bc2f8012b.wav"
+        },
+        {
+          "ab": "ahlaina ",
+          "ch": "女",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/3a518277dba1294f8658479bd9a8308f.wav"
+        },
+        {
+          "ab": "musuaturu ",
+          "ch": "要學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9da16606ce7ee5770929d0609965272c.wav"
+        },
+        {
+          "ab": "tarakiu",
+          "ch": "砍柴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/869d3ecd6d9c9607983291702871a97b.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mianʉ",
+          "ch": "搗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/58f2e2c0a23fffecc13834f1fd7c4eb0.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rumiacu ",
+          "ch": "開始了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/cfe1b98c9d7f594b2c8a280142f8db34.wav"
+        },
+        {
+          "ab": "musa ",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/650c7c36b51c28474d673ce4bf597e16.wav"
+        },
+        {
+          "ab": "umuma ",
+          "ch": "田",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/8735d8e3e41365e6ec5c9cbff4d85fc8.wav"
+        },
+        {
+          "ab": "tumalʉlʉvʉ ",
+          "ch": "協助",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9fff279c396ab84db6f49570998d45d0.wav"
+        },
+        {
+          "ab": "umasasapa",
+          "ch": "除草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/1b8802313f5b9725c79126f59226898b.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tarurapʉ ",
+          "ch": "播種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/f9e1f4b6c9f88cafdbf7878e8e7c4002.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a37a8a53912e4cd63efc791ac22c8d60.wav"
+        },
+        {
+          "ab": "usumanʉ ta’iara",
+          "ch": "其他事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/89747d37161702bcd9d605b193405bba.wav"
+        },
+        {
+          "ab": ". ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "miungucu ",
+          "ch": "到了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/0fc3d6ccd55ee748b8d6910add0e89eb.wav"
+        },
+        {
+          "ab": "mahlulʉpʉngʉ",
+          "ch": "成年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/f19cda55dfb9f861e0a1427fcc521364.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ruamiacu ",
+          "ch": "開始了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ed9b993193379bed1373b3ce929f69bc.wav"
+        },
+        {
+          "ab": "hlahlusa ",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/80b3bba53c13751a2fafbc8f107ceef0.wav"
+        },
+        {
+          "ab": "ahlaina ",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/83227757f7487fbd0347617cc09a1c57.wav"
+        },
+        {
+          "ab": "tarusiahlai ",
+          "ch": "分別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/338907fb1e9a8f274b71d5ac775dc6f5.wav"
+        },
+        {
+          "ab": "musuturu ",
+          "ch": "學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/eab10b71d7ccd8715f34d7a52c4e8001.wav"
+        },
+        {
+          "ab": "ta’iara",
+          "ch": "事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/f4923b1111d18f411192a7536473d4e3.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hlahlusa ",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6089ac0f7b2a33d4ec0d75a8615b231f.wav"
+        },
+        {
+          "ab": "musuaturu ",
+          "ch": "要學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/f4ceea1af8db85c8629f0079b6b22bc6.wav"
+        },
+        {
+          "ab": "muruacʉka",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9af3ac21b61cc501d74cedcbade006c9.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mairuruma",
+          "ch": "建築",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6c42b03ef24ab04cafe5e3e55949ebb6.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rumurumu valaku ",
+          "ch": "揉皮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/99ad82ce8c9faac050de23fd0e35bfaa.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/4e849fcdf829fc1201ea4c450d115956.wav"
+        },
+        {
+          "ab": "usumanʉ ta’iara",
+          "ch": "其他事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/2fc19b731d0e79a28e20f126f0011d21.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ahlaina ",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/935c86b55d67c7dd84bc94b3fc873048.wav"
+        },
+        {
+          "ab": "musuaturu ",
+          "ch": "要學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/213ba4acc6c672a974684bebf98c67f9.wav"
+        },
+        {
+          "ab": "picuamapaci",
+          "ch": "釀酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/5194d39192f4c9d699b1f242f4569e18.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "turarapuru",
+          "ch": "織布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/0d0e52ba7b008a7f58b361c2aa8ef3f1.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tumahlisua ",
+          "ch": "縫紉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/08dcbc02933024170c61476fafc195a7.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c5d390f48e8f0fd4cbf2ab8d5c68cac8.wav"
+        },
+        {
+          "ab": "usumanʉ ta’iara",
+          "ch": "其他事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/5b972b6e55c4930f3c7a36c517f3d219.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "除學習技能外，更重要的是倫理教育，尊重長輩。早期吃飯沒有桌椅，都蹲坐在地上，最內圈的是祖父母和父母，父母後面才是孩子們。男生娶妻或女子出嫁，也是聽命父母。",
+      "ab": "kuucani aracahliaʉ a siaracahliana, mataingalʉ pualisʉhla musuturu siliatʉnʉlʉ hlamama, tumua pakiaturu hlimakuahlahlalua. kiariari uka’a tuu’u parana uumu hla ta’ʉhla, rianʉ tuakiki sasaruana uumu, tamutamua hla hlamama ia kicuamia aisa kʉlʉkʉlʉkʉ, kicua’ilikusu hlamamana mamamainia. hlahlusa malialimu ahla ahlaina alʉisa cucu’u, rianʉ pakiaturu hlamama.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/bd93b36ac0a3ad4f9f4c1c7bdc892e57.wav",
+      "word": [
+        {
+          "ab": "kuucani ",
+          "ch": "不只",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/5f3fb65ba436981668551c26873294e6.wav"
+        },
+        {
+          "ab": "aracahliaʉ ",
+          "ch": "要會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/7dacfacde0d14a841a49e3d07729d649.wav"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/4258dad0b6334336e4476e781688e824.wav"
+        },
+        {
+          "ab": "siaracahliana",
+          "ch": "技能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/1f04dfccc3bb2a27709dd86da409260c.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mataingalʉ ",
+          "ch": "更加",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/65f8d6b76fff8cc4f2e26c12f4012964.wav"
+        },
+        {
+          "ab": "pualisʉhla ",
+          "ch": "重要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/4cd26164ef848f71161a97386ba7ad87.wav"
+        },
+        {
+          "ab": "musuturu ",
+          "ch": "學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/55b3d9a9baf42ed8987fe9e9332a76a6.wav"
+        },
+        {
+          "ab": "siliatʉnʉlʉ ",
+          "ch": "尊敬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/7a67c6675a1305ca8afabbe854d49349.wav"
+        },
+        {
+          "ab": "hlamama",
+          "ch": "父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/337686c236e2a6f8a90d2f692a6b93af.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tumua ",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/9ca06af8dd471b5d95bfe23267375b18.wav"
+        },
+        {
+          "ab": "pakiaturu ",
+          "ch": "遵從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d976762e1f31e2f7b17e09be36538f91.wav"
+        },
+        {
+          "ab": "hlimakuahlahlalua",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/e1ce0beb79c2696f44b2234e1f5311aa.wav"
+        },
+        {
+          "ab": ". ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiariari ",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/83d0ae37d02ae1e3312005e5be89c2d6.wav"
+        },
+        {
+          "ab": "uka’a ",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/83970555ea0980a945765ff78baae11f.wav"
+        },
+        {
+          "ab": "tuu’u ",
+          "ch": "桌子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b04500d011f4bcd53cca1b41589614fa.wav"
+        },
+        {
+          "ab": "parana uumu ",
+          "ch": "吃飯地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c6f28411fd319d6a8c817a2fbe111c0c.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/2a7191ea413176f4b4b199846d33c5d0.wav"
+        },
+        {
+          "ab": "ta’ʉhla",
+          "ch": "椅子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/af982304d078eb53d6471f444a0f13fd.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rianʉ ",
+          "ch": "都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/f5b88e6fbe671362069591329a3d4e77.wav"
+        },
+        {
+          "ab": "tuakiki ",
+          "ch": "蹲著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/68ca51b50a20c5909f8c79c3fdadad90.wav"
+        },
+        {
+          "ab": "sasaruana ",
+          "ch": "地上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/def3135d5a2340a672eaa0528ff2a119.wav"
+        },
+        {
+          "ab": "uumu",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/2699a553580f039ce51cb742ed676ad2.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tamutamua ",
+          "ch": "祖父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c426e17c586fa667cb428b12228de2d0.wav"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/1558f76abb97106bb4e1c46a759ae737.wav"
+        },
+        {
+          "ab": "hlamama ",
+          "ch": "父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/3c61654eb02f1f8013068338446bab49.wav"
+        },
+        {
+          "ab": "ia ",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/73e5ab511a0a09375c75e884a4d76b01.wav"
+        },
+        {
+          "ab": "kicuamia ",
+          "ch": "要靠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/b0b68d2d7fa22c1ce659ded1b6b9d777.wav"
+        },
+        {
+          "ab": "aisa",
+          "ch": "中間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6dc6853534056e8ce52fe222135247cb.wav"
+        },
+        {
+          "ab": " kʉlʉkʉlʉkʉ",
+          "ch": "圍繞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c765359ed99df3209e5a4b6ab85bc0ee.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kicua’ilikusu ",
+          "ch": "要靠…後面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/6f66a0d73e9894e62fe0ee48c209911b.wav"
+        },
+        {
+          "ab": "hlamamana",
+          "ch": "父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/23/5cf78d8df56143d5b1948c75290f30dc.wav"
+        },
+        {
+          "ab": "mamamainia",
+          "ch": "小孩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/65b0332e2cd389f93ebc1afb4a5c0ed1.wav"
+        },
+        {
+          "ab": ". ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hlahlusa ",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/ba3ad1da50f54cea1802c5467d8fc696.wav"
+        },
+        {
+          "ab": "malialimu ",
+          "ch": "娶媳婦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/d7bbd832d54bdcc4b894376b05435660.wav"
+        },
+        {
+          "ab": "ahla ",
+          "ch": "或",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/bfb423a219f70d27c391fd1089629f2b.wav"
+        },
+        {
+          "ab": "ahlaina ",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/91ec047596dbbeb2650ea960c02c3d86.wav"
+        },
+        {
+          "ab": "alʉisa cucu’u",
+          "ch": "娶他人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/c51696d18da68da7de0341e53bb3e181.wav"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rianʉ ",
+          "ch": "都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/a404424d64bf675a4a58cd01a66532fe.wav"
+        },
+        {
+          "ab": "pakiaturu ",
+          "ch": "遵從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/941bea2bd357be22a88c3d7942d1740a.wav"
+        },
+        {
+          "ab": "hlamama",
+          "ch": "父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/20/af2f1c91fad4031dd156d983b00e1439.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

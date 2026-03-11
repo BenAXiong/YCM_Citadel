@@ -1,6 +1,958 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "O losay i palapatan",
+  "titleCh": "四季產物",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "在四季中有許多各式各樣的果樹。",
+      "ab": "I laloma’ nona sepatay a palapatan i, adihay ko kasasiromaroma^ no losay.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/97e00a0d7c1cf32347ac6ee7bf8fdf04.wav",
+      "word": [
+        {
+          "ab": "I",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/5b5abc705cc52b743cc9d6ad5fffdfa4.wav"
+        },
+        {
+          "ab": "laloma’",
+          "ch": "裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/88591b4d3219675bdeb33584b755f680.wav"
+        },
+        {
+          "ab": "nona",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/743d31dbcf0cda3033786c4b3e8d213f.wav"
+        },
+        {
+          "ab": "sepatay",
+          "ch": "四個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/37b11e06a807f69e206c3845ce4c748a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[ 助 ] ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/689b27115e5f4eed8885ffc808b69be7.wav"
+        },
+        {
+          "ab": "palapatan",
+          "ch": "季節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/b433da1b32b5ca96c0ba7fcb9edba97d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/0b518a250c90421f0a3b4f32e8312e3d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "adihay",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/73dd2e5d59ee0b29b52058d4393b170f.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/cae7115f44837c806c9b23ed00a1a28a.wav"
+        },
+        {
+          "ab": "kasasiromaroma^",
+          "ch": "各式各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/995d8b30b557a46be7d27e26b689ad55.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/2779fda014fbadb761f67dd708c1325e.wav"
+        },
+        {
+          "ab": "losay",
+          "ch": "果樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/450ad5ed12c018f57a29c8f0ea7008ff.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "春季是梅雨季節，每天都下著雨，樹木長得非常茂盛。",
+      "ab": "I kafodo’an no romi’ad, saromi’ami’ad sa ma’orad, fang:cal ko lengaw no kalomaamaan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/6356d91dc6015575d84dc35e14ef20e3.wav",
+      "word": [
+        {
+          "ab": "I",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/9b5474e725b0f83708e4b6dfa55b2512.wav"
+        },
+        {
+          "ab": "kafodo’an",
+          "ch": "梅雨季節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/514a70448c235ccb8b6842ef5e02ad3b.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f17a33840b3e520949d36b24ebad7fb0.wav"
+        },
+        {
+          "ab": "romi’ad",
+          "ch": "天氣；日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/41869b81c91e34f789fb0175802326d3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "saromi’ami’ad",
+          "ch": "每天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/982025df3dc7f9eae503a74980c29713.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/1f8c4b6a0115a4617e285b4494126fbf.wav"
+        },
+        {
+          "ab": "ma’orad",
+          "ch": "下雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/a4c22565dfafb162a17a7c357ca9e0be.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "fang:cal",
+          "ch": "很好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/ef1890585bae446a0668afed3012daa2.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/dbafb94acd0f5bb51afb63a64a03bf2f.wav"
+        },
+        {
+          "ab": "lengaw",
+          "ch": "生長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/37f2fc94430a30d7dba690d94d7e1223.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/90968598e1b1d4ae4838f0ad8e39bf11.wav"
+        },
+        {
+          "ab": "kalomaamaan",
+          "ch": "各種各類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/3e53ca3d4e69bc938071715257cc62b9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "也長出雨耳、箭荀、桂竹荀；也有攀爬的菜類如絲瓜、苦瓜、豆類等等。",
+      "ab": "Ira ko lalopela’, ira ko da’eci^, o tefo’ ato tekes; ira haca^ ko milaladay a dateng, mato roni^, kakorot, ato kalitang.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/5fe8fdc79ce292c39c5f209d734b7206.wav",
+      "word": [
+        {
+          "ab": "Ira",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/b578f2a52a0229873fefc2a4b06377fa.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/d78bded526b07ede88675c6412d63f3d.wav"
+        },
+        {
+          "ab": "lalopela’",
+          "ch": "雨耳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/61a10e6abb1149ad9d08f303267f9bc4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ira",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/da16202114b72b61f71124a219db6e3e.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/90c34175923a36ab7a5de4b981c1972f.wav"
+        },
+        {
+          "ab": "da’eci^",
+          "ch": "箭筍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f06adf060c098f11e76fa2ff1565ba70.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/9efb1a59d7b58e69996cf0e32cb71098.wav"
+        },
+        {
+          "ab": "tefo’",
+          "ch": "竹筍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/2e667fca5e24ac13dcee94ddc4aa751a.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/65a5e77645ee9f1918165a0a8c503297.wav"
+        },
+        {
+          "ab": "tekes",
+          "ch": "桂竹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/db0cf003e7db9592288d809665cfeb2a.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ira",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/410aa119a67d7a5fa5cac98bd7d78dda.wav"
+        },
+        {
+          "ab": "haca^",
+          "ch": "還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/059bbd8df7767d3bc7829e3735c221e2.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f40723ed94042ea9ea36bfb5ad4157b2.wav"
+        },
+        {
+          "ab": "milaladay",
+          "ch": "攀藤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/9c6947bd95ae487c81d4e19d3ed8cd6f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/9acf1b76f369030270de8f98f84d6707.wav"
+        },
+        {
+          "ab": "dateng",
+          "ch": "菜餚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/7684e5225ab986f6b32ed950eec5621d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mato",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/648f4baa45889f9c5f4f7add35862841.wav"
+        },
+        {
+          "ab": "roni^",
+          "ch": "絲瓜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/ac10ff1941c540cd87c107330996f4f6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kakorot",
+          "ch": "苦瓜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/1bda7493c968ded9800b3a754fc07e5c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/47e57c4836ae0c44f774f9d8497e0b4f.wav"
+        },
+        {
+          "ab": "kalitang",
+          "ch": "長豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/acb3a881c7ce9abcae0ce8c99c86a906.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在夏季得收割時期，長滿了長豆，這是祖先們主要的菜餚。",
+      "ab": "I kaciherangan i, o pipanayan to a palapatan ato kacihecian no kalitang, o tada sinafel no mato’asay konini iti:ya ho^.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/e6b738eca0e6792ba8a9cbcba6c1881d.wav",
+      "word": [
+        {
+          "ab": "I ",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/ce128c3e8f0c0ae4b3e843dc7cbab0f7.wav"
+        },
+        {
+          "ab": "kaciherangan",
+          "ch": "夏天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/018dbfb5fec8d864714ede49cef50343.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/6e71d53b8718fd5c285f6a1e12622bdd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/b974006f61bd5a3f95e3e9530a579d14.wav"
+        },
+        {
+          "ab": "pipanayan",
+          "ch": "收割季節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/4e96fc8ecd81da214039f63f34965275.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/40f6e633518b32939156a842c93a84be.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/e206926bfa7f09f2f95034e570aea982.wav"
+        },
+        {
+          "ab": "palapatan",
+          "ch": "季節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/859b755563f548d008f936906a959c8f.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/8ae7398026ed8f2172aefd6cbc856bc8.wav"
+        },
+        {
+          "ab": "kacihecian",
+          "ch": "結果實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/e1e4e65fddf79af60aab04457a6565a6.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/a53d1388191884b75c48bebb18709bfb.wav"
+        },
+        {
+          "ab": "kalitang",
+          "ch": "長豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f8a4c7893a5002d471308c5598d036f0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/20d749bc05f47d2bd3026ce457dcfd8e.wav"
+        },
+        {
+          "ab": "tada",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/b34517c68d949a02746108522f958479.wav"
+        },
+        {
+          "ab": "sinafel",
+          "ch": "菜餚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/2456b9cd2668fa69e3c7ecd6f51866bf.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/3ff4cea152080fd7d692a8286a587a67.wav"
+        },
+        {
+          "ab": "mato’asay",
+          "ch": "長輩；祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/c7c3e78e3c9d26cc1158a8735d548eaa.wav"
+        },
+        {
+          "ab": "konini",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f52166cd701447355be87cbf41d31ca4.wav"
+        },
+        {
+          "ab": "iti:ya",
+          "ch": "那時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/44e55ed981c434536b85d307e6215b26.wav"
+        },
+        {
+          "ab": "ho^",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/6e334169a5325adca8aec592cd14edd9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "如果打雷和下雨之後，在花生園或玉米園中會長滿一堆堆的野菇。",
+      "ab": "Ano mafotili’ ko kakarayan, masalaw to ko ’orad i, adihay ko lomengaway a folahata^ i liyok no kodasidasingan, ano eca^, i ’arirarirayan, masa’opo’opo^ ko nikalomengaw no folahata^.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/712c9040d78bafd4e375b8eba13b1cba.wav",
+      "word": [
+        {
+          "ab": "Ano",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/9a5b67bf56e576c4d0de7d90d3171644.wav"
+        },
+        {
+          "ab": "mafotili’",
+          "ch": "打雷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/c0faf875b8596a0999b426631c0b5ff8.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/8c2d7d2728733cad5681b6b79ae799e4.wav"
+        },
+        {
+          "ab": "kakarayan",
+          "ch": "天空",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/579600f6b6044f107758cdda0ca0aacb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masalaw",
+          "ch": "雨停了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/ecb565cd82de68494c294dc8d4b419a0.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/0decd736e9cee73e63418003b47d7d56.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f1ab58817d7385758d31890a4bca9968.wav"
+        },
+        {
+          "ab": "’orad",
+          "ch": "雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/a73305d5ba2857f26bd6ef46e3fbeae5.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/16a4d8f9442ec82c5d390079cad8f194.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "adihay",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/c71df24045cfddab4a963d3ac9bdc9a3.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/b0552ee02cfdfdd900542e0dfc08abfa.wav"
+        },
+        {
+          "ab": "lomengaway",
+          "ch": "生長出來的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/294e09f267683c7ddc6cc5134a7e68a8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/098d86c982354a96556bd861823ebfbd.wav"
+        },
+        {
+          "ab": "folahata^",
+          "ch": "菇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/c1ba099b22d65b3903891b885dc686f9.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/a979ca2444b34449a2c80b012749e9cd.wav"
+        },
+        {
+          "ab": "liyok",
+          "ch": "周圍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/691f73fdf1c5edeb3f600c515715a358.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/9c274b1e7ffd2213a3dfc155d8aee560.wav"
+        },
+        {
+          "ab": "kodasidasingan",
+          "ch": "花生園",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/8586b7474b339930b20ae959920a99a4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ano eca^",
+          "ch": "或者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/c77409b2f7dabc444a533b98d9381690.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f45cc474bff52cb1b2268a2f94a2abcf.wav"
+        },
+        {
+          "ab": "’arirarirayan",
+          "ch": "玉米園",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/75a6e5993aefba4f6cb07254637a6133.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masa’opo’opo^",
+          "ch": "一堆堆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/5dfd38837dc134b2fc764c102b29fc46.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/26ed695e9b7b9f6463ef4bc1fd74fc87.wav"
+        },
+        {
+          "ab": "nikalomengaw",
+          "ch": "生長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/6b5e9e267f7811ddab6e821d477fa859.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/dcf531edc9b229acfe0f4b87e1e278dd.wav"
+        },
+        {
+          "ab": "folahata^",
+          "ch": "菇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/04da717026605472461b05cf41f717ee.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "秋季時分為中秋文旦期節，月亮明潔，家家戶戶都有文旦，全家如同文旦與月亮圓滿。",
+      "ab": "O kafarawfawan a palapatan i, malo:fic ko karo’, makacikarokaro’ ko lomaloma’, nengneng han ko folad to dadaya^, sa taengad sa malikat, matiya^ o karo’ ato folad ko paro^ no loma’ a marikec.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/9834f76731937f8522200428bb9980ce.wav",
+      "word": [
+        {
+          "ab": "O",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/1e5eeb40a3fce716b244599862fd2200.wav"
+        },
+        {
+          "ab": "kafarawfawan",
+          "ch": "秋天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/071f8a36715a8a6b7f7ded54074cc8c6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f9d3a954de63277730a1c66d8b38dee3.wav"
+        },
+        {
+          "ab": "palapatan",
+          "ch": "季節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/d1a342bb3f725967660b92ec62db720f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/76c073d8a82d9ddaf993300be03ac70f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "malo:fic",
+          "ch": "茂盛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/a878dbebc902328b41dbf02aa87abb58.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/447d5c2ba3e790ec434c0bee994095ed.wav"
+        },
+        {
+          "ab": "karo’",
+          "ch": "柚子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/848ef33f5e745846994a756f211e530b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makacikarokaro’",
+          "ch": "文旦收成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/2d5b53f80151aea5fef0722f8b1edf99.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/1b6171ff276542bd344c1600aaca6165.wav"
+        },
+        {
+          "ab": "lomaloma’",
+          "ch": "家家戶戶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/e56eea9a45b153de634b23780365f976.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nengneng",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/cf3d273a325b1ea12c978ee2d4fafdcc.wav"
+        },
+        {
+          "ab": "han",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/f15f2020c8dfbe665c036e75c9176f7c.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/6bd29e2ef310ec9f30c649d646115523.wav"
+        },
+        {
+          "ab": "folad",
+          "ch": "月亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/4cfbc51c4d39c53146a0064ca373ddef.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/8493eeaccb772c0878f99d60a0bd2bb3.wav"
+        },
+        {
+          "ab": "dadaya^",
+          "ch": "夜晚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/67388f1834f7d6243b753ec33584a8df.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/99e314b1b43706773153e7ef375fc68c.wav"
+        },
+        {
+          "ab": "taengad",
+          "ch": "明亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/8553adf92deaf5279bcc6f9813c8fdcc.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/4c6515356f214aa275e07ddbbd922a5e.wav"
+        },
+        {
+          "ab": "malikat",
+          "ch": "點亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/82077c274c8b1917a195adc43f641529.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matiya^",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/48abd1b3f5452995d995eb78a77013c8.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/5cc33dfe7e069a757ca0fcbe6b95c89e.wav"
+        },
+        {
+          "ab": "karo’",
+          "ch": "柚子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/3181d59d19e76e902666df5c7821259a.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/c04032e188d81d0ce1afdf0ca6a1e820.wav"
+        },
+        {
+          "ab": "folad",
+          "ch": "月亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/529ec1f7ea830a51f00dafb5b06cf091.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[ 助 ] ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/e3fe94fa16b32ee774ba774ba951ce58.wav"
+        },
+        {
+          "ab": "paro^",
+          "ch": "成員；裝入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/890ff058169b5a1d1a7f07d467f1f57b.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/364c32263dd3f0df5095b65321f3cd79.wav"
+        },
+        {
+          "ab": "loma’",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/b6b201362b280ece488ddfaf3329ac04.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/91afd735eb9677bbd3c7abbb175f6112.wav"
+        },
+        {
+          "ab": "marikec",
+          "ch": "圓滿；緊密",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/b0eeffad438fd186126c11fecdceab44.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "冬季時分為芥菜時節，有許多芥菜與蘿蔔。祖先們將作物醃製，或做成蘿蔔乾，這樣可以把許多的菜類保存很久。",
+      "ab": "O kasienawan i, o kacikolangan, adihay ko kolang ato saytaw, malo sasakiroen no mato’asay ko saytaw, ta manga’ay a ma’anang ko kasasiromaroma^ no dateng.",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/a12c8a18fb30a6c090a2c59b78efa25f.wav",
+      "word": [
+        {
+          "ab": "O",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/7a8b8402b2f0fc78cf726ee484a0a2b7.wav"
+        },
+        {
+          "ab": "kasienawan",
+          "ch": "冬至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/cec2346566ba8ecd04bfd992fd193fb3.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/5ca41a86596a5ed567d15af0be224952.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/01632f7b7a127233fa1188bd6c2e42e1.wav"
+        },
+        {
+          "ab": "kacikolangan",
+          "ch": "當季芥蘭菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/a2c770e3cc20139f429ebfe6e8cdea0b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "adihay",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/03dadd644cb5856e1bb2c75dda01a4f0.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/8a2d334536b2f4146af8cf46acd85110.wav"
+        },
+        {
+          "ab": "kolang",
+          "ch": "芥蘭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/a8621fdfb85b64f3214f86af1e1504a2.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/41263b9a46f6f8f22668476661614478.wav"
+        },
+        {
+          "ab": "saytaw",
+          "ch": "蘿蔔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/ceccbaaff99be20a857e00767f70b481.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "malo",
+          "ch": "變成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/96fca94df72984fc97ee5095410d4dec.wav"
+        },
+        {
+          "ab": "sasakiroen",
+          "ch": "醃製品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/04/0517cc46abd1714f54c194c3c4bfebf3.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/421f8eb2f6d635fc5e09d0b16c59e281.wav"
+        },
+        {
+          "ab": "mato’asay",
+          "ch": "長輩；祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/4e4551a346eb4ca8e91a4651036c5aa9.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/e6d76b26416ca5de309d8fd741894447.wav"
+        },
+        {
+          "ab": "saytaw",
+          "ch": "蘿蔔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/2db3545a41db81329326dbb11caff449.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/cc75c256acc04ce25a291c4b7a9856c0.wav"
+        },
+        {
+          "ab": "manga’ay",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/ca5520b5672ea120b23bde75c46e76c6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/99bf3d153d4bf67d640051a1af322505.wav"
+        },
+        {
+          "ab": "ma’anang",
+          "ch": "收藏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/3bb39baf42957397d3fae8e0e66b6554.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/4d771504ddcd28037b4199740df767e6.wav"
+        },
+        {
+          "ab": "kasasiromaroma^",
+          "ch": "各式各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/77983cf4f308d34fe7865a10a25ae39d.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/5b7fce29c95e235aef97ee358962a3ca.wav"
+        },
+        {
+          "ab": "dateng",
+          "ch": "菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/03/3c63ec7be1b6c49e6c308397023fd8cd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

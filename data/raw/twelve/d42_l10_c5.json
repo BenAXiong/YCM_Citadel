@@ -1,6 +1,801 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "sitake ru malang",
+  "titleCh": "香菇與毛蟹",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "泰雅族人的生活中每一家都有不同的賴以維生方式。有的務農，有的到都市謀職，有的靠山上的工作維生。",
+      "ab": "knxan na Tayal ga piyux calay tu’i skyanux naha utux sali. kruma ga m’omah mayah, kruma ga mosa mtiyaw b’nux heci, kruma ga mtiyaw ptyawun na rgyax.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/04cd6b3a4a100219aef16baf900d804e.wav",
+      "word": [
+        {
+          "ab": "knxan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/8e887cf8e64ab8e7173701a979476567.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/0c48ff739d86fc927eeb6b53379cb782.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/a65eb348fb03103dcd48530b52b996a7.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/ad9f2f92fd04851d42d216a6954683c3.wav"
+        },
+        {
+          "ab": "piyux",
+          "ch": "多元",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/080eb9c2c128e1337fcc84d8680f404c.wav"
+        },
+        {
+          "ab": "calay",
+          "ch": "很；真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/27a5eaafdb88c45dd61732d6a6493421.wav"
+        },
+        {
+          "ab": "tu’i",
+          "ch": "方式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/fa10e81e2f9a723f528413a87675758e.wav"
+        },
+        {
+          "ab": "skyanux",
+          "ch": "賴以生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/12c5d905338ad27185308ae3269ef888.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/55e2c9d06a7261846e96b8bb2d4e1fe5.wav"
+        },
+        {
+          "ab": "utux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/3a3d255db4902a0001b094c2aa24146a.wav"
+        },
+        {
+          "ab": "sali",
+          "ch": "家庭；房屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/0a2b56600097fa2ea81bfc9774f1baaf.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kruma",
+          "ch": "有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/d8b02a85f7fff3856b9dad807b6d0469.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/2d6f787aa177215c3ac1e15c824e7891.wav"
+        },
+        {
+          "ab": "m’omah",
+          "ch": "耕種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/62a7e2da310bdb98fb0b60102a6876e2.wav"
+        },
+        {
+          "ab": "mayah",
+          "ch": "農田",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/0631ba089fcd29d70c2e3d2ae75f7cc9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kruma",
+          "ch": "有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/aa3f874fb850d8908be9af3a69af4289.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/4223a1d5b9e017dda51515829140e5d2.wav"
+        },
+        {
+          "ab": "mosa",
+          "ch": "去做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/5bb77e5c6d452aee283844d47756dc05.wav"
+        },
+        {
+          "ab": "mtiyaw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e2d083a5fd066b082d93042169313e21.wav"
+        },
+        {
+          "ab": "b’nux",
+          "ch": "平地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/b443471216b517cc30cb9eea354e023d.wav"
+        },
+        {
+          "ab": "heci",
+          "ch": "都市",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/6003950cffdc86970909a494861920c6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kruma",
+          "ch": "有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/7db181be25ab69447b69a185006d9b03.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/07d34e2419c61216a85a2156b2cf8ae4.wav"
+        },
+        {
+          "ab": "mtiyaw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/b5f30ed55c1e0b0c8be8d25edacb6f94.wav"
+        },
+        {
+          "ab": "ptyawun",
+          "ch": "工作類別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/8520cc3bc0a952ed24958ef3ba47c7e0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/676028519e3890cbff8d79635f830913.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/6a57122a72d2bd5e8a156c678952f88b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在葛蕾扇流域的部落，有很多家在山上的工作是靠種香菇維生。二十年前所有葛蕾扇流域的部落都曾種植香菇。他們進入山林，搬運段木後植入香菇菌種。一年過後就會收成香菇並賣出換錢。那是以前他們掙錢養家過活的方式。",
+      "ab": "ptyawun na rgyax ku alang llyung Mklesan ga piyux calay sali mnuhi sitake. pusan kawas wayan ga mnuhi sitake kwara Tayal na llyung Mklesan. mosa miyuk iyik rgyax, hmakut khoni ru tmheyun naha iyu sitake. babaw utux kawas lga, lmun naha sitake ru bisun naha pila la. yaca ga galan naha pila ru skyanux naha utux sali knxan lela.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/282ed79347cfc23fc4a700154d671e05.wav",
+      "word": [
+        {
+          "ab": "ptyawun",
+          "ch": "工作類別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/574ebc151c3252c2eb93d6504efdc5ab.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/84a2f99497af741e33d2ffa9f05857ba.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/045d197cc382e32312ecddbbab72eed6.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/bf8af7399db538a24dd5e9ce48e562d2.wav"
+        },
+        {
+          "ab": "alang",
+          "ch": "部落；地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/0b4189d291303f65bf1ade6178e13fab.wav"
+        },
+        {
+          "ab": "llyung Mklesan",
+          "ch": "葛蕾扇流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/db4195f88b8dae852e94bfcf0f2cc0b9.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/6b18886bc278247582704943f5c66eb9.wav"
+        },
+        {
+          "ab": "piyux",
+          "ch": "多元",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/9220e33481b237d9d5d19112688f6dd4.wav"
+        },
+        {
+          "ab": "calay",
+          "ch": "很；真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/cc0a521e0f695aa06ed11384fb616ac3.wav"
+        },
+        {
+          "ab": "sali",
+          "ch": "家庭；房屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/dfae769c739093f5225cecaf4d5a612f.wav"
+        },
+        {
+          "ab": "mnuhi",
+          "ch": "曾種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/930473a02d035f62b3c3c2628a284416.wav"
+        },
+        {
+          "ab": "sitake",
+          "ch": "香菇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/c42c101f89ec57e54230d611f74d5ae1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pusan",
+          "ch": "二十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/3f37c010783748f8e8577f732d74054c.wav"
+        },
+        {
+          "ab": "kawas",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/480167897cc43b2fb914238f45d7dbbf.wav"
+        },
+        {
+          "ab": "wayan",
+          "ch": "過去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/c48eb27d5b0a288f5bbf1545c218e001.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/47817658c89f15d634d488fabe77d4e2.wav"
+        },
+        {
+          "ab": "mnuhi",
+          "ch": "曾種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/56138186020206c2b1d99be41c8dc9b8.wav"
+        },
+        {
+          "ab": "sitake",
+          "ch": "香菇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/b01ccf4f29b57b0b1bdb9407050db28d.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/8164ca2fe04767628ac1c6813e8a0867.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/fd570928c75cc9b4e22488e1661d846e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/0b99dab71519032b917dc641cdd7ac5b.wav"
+        },
+        {
+          "ab": "llyung Mklesan",
+          "ch": "葛蕾扇流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/ef7d30fd7f6763d2c0c53229b27de2de.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mosa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/7316e11fe78963395fbab4a85d0b8f85.wav"
+        },
+        {
+          "ab": "miyuk",
+          "ch": "進入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/9b4192ee086949047cfc64d86d895c2e.wav"
+        },
+        {
+          "ab": "iyik",
+          "ch": "深",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/a4c07618e910823c1d3d95a2e696e75f.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/3cdad14c5d7c1e1fa307772a876b42d7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hmakut",
+          "ch": "搬運",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/1288625a4bdcf1109ff5adca3bd33753.wav"
+        },
+        {
+          "ab": "khoni",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/455a9ce9e0c8e8a0c7745eecd6a64be4.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "和，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/42ae58924107d3be8c6b7b7e3cfd4164.wav"
+        },
+        {
+          "ab": "tmheyun",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/bc264522d8cc7a47fb5e8f606a6013a9.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e5a5d1fa6871e3e01b1cb0d41dc5ffce.wav"
+        },
+        {
+          "ab": "iyu",
+          "ch": "藥；菌種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/ac4ff5e8dcf9daa23c293b96d8ea9ef5.wav"
+        },
+        {
+          "ab": "sitake",
+          "ch": "香菇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/30270b7a8f7d456b15e65e299b5bf199.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "babaw",
+          "ch": "上面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/ccbaefcc48cd5f8ec9309165ea694eb2.wav"
+        },
+        {
+          "ab": "utux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/bb9caf96076d335da9c6d368c385dcd3.wav"
+        },
+        {
+          "ab": "kawas",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/5113fbbf6c62901a412b2d5d24daff63.wav"
+        },
+        {
+          "ab": "lga",
+          "ch": "之後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/967162a0b2dc0483ad3d0f47dfb1e9ac.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lmun",
+          "ch": "摘取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/11997aab46c754fb90f36b9d8e4eaf99.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/9fa315bff7fae22608236c2aa527fbd8.wav"
+        },
+        {
+          "ab": "sitake",
+          "ch": "香菇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/0af62754d41faf4cabd69b68b2d0368f.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "和，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/a0f1a0686c4ecffbf795ea2d2a42817e.wav"
+        },
+        {
+          "ab": "bisun",
+          "ch": "賣出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/5456133e67453a4c86d63b50d1f8bc2e.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e3537ccce7b6d7ed1b54f9a585985716.wav"
+        },
+        {
+          "ab": "pila",
+          "ch": "錢財",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/76edf3aeec7870bdbf0d146a95e611cc.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/8dfe8cee5c46c3c42f3bfa933035d7aa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yaca ga",
+          "ch": "那是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/5695dd7bfdf01700983a66a5f2d57698.wav"
+        },
+        {
+          "ab": "galan",
+          "ch": "獲取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/c5a264a82289018331673285e24d9dd8.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/1d221442f2e2158c01747714f9bb00f5.wav"
+        },
+        {
+          "ab": "pila",
+          "ch": "錢財",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e3fc72518f213ad1f39ed9306da322b0.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "和，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/17463ec465317dc0558d5a5234b7b8ba.wav"
+        },
+        {
+          "ab": "skyanux",
+          "ch": "賴以生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/b4eb391ccdb1a22629fbf8a3b7950cb9.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/030586fa78fc1abdba85da161d943b08.wav"
+        },
+        {
+          "ab": "utux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/15501c5743a5376e7556886714f1d36f.wav"
+        },
+        {
+          "ab": "sali",
+          "ch": "家庭；房屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/2e8ce85304964f73969ede67c5d66498.wav"
+        },
+        {
+          "ab": "knxan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/3f9f19645d91da25c3dc1ae235999cc4.wav"
+        },
+        {
+          "ab": "lela",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e1e4fdbce97bad3d9230fb606165dc1b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "另外一個山上的工作就是去放置捕蟹簍。二十年前所捕獲的螃蟹會拿去賣錢來供養一家的生活。一直到今天，他們仍沒有放棄種香菇和放置捕蟹簍的方式，因為那是能夠維持葛蕾扇流域族人家計生活的方式。",
+      "ab": "utux loyi ku ptyawun na rgyax ga mosa cmi tara malang. pusan kawas wayan ga kwara kniyak naha malang ga bisun naha pila ru pranga naha kwara knxan na utux sali. beta micu hani ga ini naha laxiy ku muhi sitake ru cmi tara malang. baha mcwa yaca ku waya thoyay pkyanux knxan ita Tayal na llyung Mklesan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/23dc0af4dd299ca63fb05702bf686e6b.wav",
+      "word": [
+        {
+          "ab": "utux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/0a8a64171a9145f6a47e5b3544632e3b.wav"
+        },
+        {
+          "ab": "loyi",
+          "ch": "再",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/842ca578342915ccb8ae069595ba7233.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/bb8fbba83e94ed1b810468317bf9d286.wav"
+        },
+        {
+          "ab": "ptyawun",
+          "ch": "工作類別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e13dd027be0f2152ce387ac0ea83d863.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/100f962d991f6846fc9b3e6699ed9b13.wav"
+        },
+        {
+          "ab": "rgyax",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/117cdc17fa822afc77008dd9ba74b6af.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/40882bebd317419cfcea3adc3dcfae6c.wav"
+        },
+        {
+          "ab": "mosa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/ad7fe02e59ae7d37c32f8dd238662d0d.wav"
+        },
+        {
+          "ab": "cmi",
+          "ch": "放置",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/31c1d3f0e9138ff2f553f8a271dda663.wav"
+        },
+        {
+          "ab": "tara",
+          "ch": "簍子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/d3600ee41761c7da0116a12ea8b6588e.wav"
+        },
+        {
+          "ab": "malang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e53ba686b7ad2ec7825f0f4afff80a1b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pusan",
+          "ch": "二十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/efc52ad8c8b25e39ff87d69407971378.wav"
+        },
+        {
+          "ab": "kawas",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/49d8e07d99ea659f7b7c42fae98836a1.wav"
+        },
+        {
+          "ab": "wayan",
+          "ch": "過去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/05f56d5f042aa4dce70f211d2a981e15.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/1d075e2fdbc8e2e66a47b39a0652ce31.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/36d838a7f08b7ac8295662b7b104440b.wav"
+        },
+        {
+          "ab": "kniyak",
+          "ch": "所捕獲的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/8ef899fe33f78d18506d037fd734f900.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/908c762ed8a762118027b6aff6d866c2.wav"
+        },
+        {
+          "ab": "malang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/86f01e5c7135b53cf58b68d44c449156.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e30c5701e13a4e6e137d71eb71c416b4.wav"
+        },
+        {
+          "ab": "bisun",
+          "ch": "賣出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e3be1c8a8a04cde774ab30e06a41b5b2.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/2d8a7e57e629a238f50961910df61fe0.wav"
+        },
+        {
+          "ab": "pila",
+          "ch": "錢財",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/aeda4e5a3a22f1e1b0cfe7a8191fb21a.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "和，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e8ed252ad439861c556d1031b6d8d51f.wav"
+        },
+        {
+          "ab": "pranga",
+          "ch": "要餵養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/b7ead1d09ab4349af3d7158e3da29564.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/d7419ae04f248e5105ac3d0700389775.wav"
+        },
+        {
+          "ab": "kwara",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/9d51ecc3c1796c717e164b0102fd8a98.wav"
+        },
+        {
+          "ab": "knxan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/a77054e9d6c3fb75907aed15140ca1e6.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/f266449cd5af9f0a409d02703b414f94.wav"
+        },
+        {
+          "ab": "utux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/4acbedbe977480d19b7b682d4878cae2.wav"
+        },
+        {
+          "ab": "sali",
+          "ch": "家庭；房屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/d479263a1438a8f9e85937a3a2d4f4a8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "beta",
+          "ch": "直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/487648b2b65867706a16ae2fc325112e.wav"
+        },
+        {
+          "ab": "micu",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/5ad2eb46c0f9ac3bddd60f8eaca8a772.wav"
+        },
+        {
+          "ab": "hani",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/58efa70ac9501993f69ac68489db09ad.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/9ff0bbc7c4dde77be85a27a1c5ba6d6c.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/7da9599ceaa0dd2498d02cc7985f5bde.wav"
+        },
+        {
+          "ab": "naha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/ca6d44105c8d58368d11134a0e2146ff.wav"
+        },
+        {
+          "ab": "laxiy",
+          "ch": "捨棄",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/f334c47648f6c8f9eb0bc8c416f217a2.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/ea415b5f7047769aac77f70df7226a85.wav"
+        },
+        {
+          "ab": "muhi",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/88fce63f42b8b78770aae2e70ccb67bc.wav"
+        },
+        {
+          "ab": "sitake",
+          "ch": "香菇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/34f8150045a976a95a6a16248623f28b.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "和，跟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/bacdf41fd247d01b0203e599892f99ba.wav"
+        },
+        {
+          "ab": "cmi",
+          "ch": "放置",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/c0cb3720a75ae4f06cab3cd260c7be14.wav"
+        },
+        {
+          "ab": "tara",
+          "ch": "簍子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/177fdb0c18f85f1fa5dcfc76d9b2cdd9.wav"
+        },
+        {
+          "ab": "malang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/6aa3f7e91ef087b5e9f647e25241745f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "baha mcwa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e832d017315675c79731378fad5c15e6.wav"
+        },
+        {
+          "ab": "yaca",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/4375b1899f2a38ba3d4c7d08793325ec.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/92a795b46873063e419773b4f310fc29.wav"
+        },
+        {
+          "ab": "waya",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/d868f39a91226158ba7e495d145a0ad5.wav"
+        },
+        {
+          "ab": "thoyay",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/1bb2cdd9a728af16a32aee019a012fb0.wav"
+        },
+        {
+          "ab": "pkyanux",
+          "ch": "使生存",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/b0ba3ef0fbb84634cbda64006c598618.wav"
+        },
+        {
+          "ab": "knxan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/cb4e345e4246a6264a5050d32e227b79.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/b7e5d59efb3188413e6049cef06b2f5b.wav"
+        },
+        {
+          "ab": "Tayal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/6e7f6c38c238834f094d50661ec45fcd.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/de6e6702f8c798ff599809dc3729e5a1.wav"
+        },
+        {
+          "ab": "llyung Mklesan",
+          "ch": "葛蕾扇流域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/07/e87152a7cbeb2c3262d51598e1de52d5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,726 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "panshizaniza sa buut",
+  "titleCh": "身體生病了",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "如果身體不舒服，身體會發燒；頭會暈眩和疼痛；會拉肚子。如果有這些症狀，那就是生病了，要趕快去醫院看醫生。你要告訴醫生自己的身體有哪裡不舒服，醫生就會拿藥給你。",
+      "ab": "ya antu makalingkin sa buut amatata sa buut, amingqarimuzmuz sa punuq numa makashpar sa punuq, apushiqshiq painan. ya miazithu, panshizaniza sa buut, iahiawan utushi sa mriqariqaz shiz a taun, numa fuifuilh ihu shinshii mzai intua sa antu makalingkin, numa sa shinshii amara sa lhmir lhai ihun.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/14/4ac71cdf192679a986ad5b370cbe8335.mp3",
+      "word": [
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/eb30b651bf10ebbb60f6a7d9b17167a2.wav"
+        },
+        {
+          "ab": "antu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7f70a46e52aad7deb5d99913e8923a03.wav"
+        },
+        {
+          "ab": "makalingkin",
+          "ch": "舒服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7d8f4257cd076de8488812a008c5e355.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/35ded1ee84035fd315d0ab34ccdf69d8.wav"
+        },
+        {
+          "ab": "buut",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/62d191a19bda44ba011ebd37976b5a23.wav"
+        },
+        {
+          "ab": "amatata",
+          "ch": "發燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1a01d4765449d0ca43d17f33392014a4.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/88c9dc3c86b55bce08d0800cd4f2ebb9.wav"
+        },
+        {
+          "ab": "buut",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/649634bc7ca601b5907341f5df39f0a4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amingqarimuzmuz",
+          "ch": "暈眩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/fae708c82b10dfa79a09bb270e827e18.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/88abde0f12e557bfdb6059e842f63e57.wav"
+        },
+        {
+          "ab": "punuq",
+          "ch": "頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c4a0727b5773cede3b2b960165f11c3a.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f43886c531b689e61b79974a4bed99b0.wav"
+        },
+        {
+          "ab": "makashpar",
+          "ch": "痛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4432c725194f995056ec089b87543316.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f6f0bb7deeb1f63423324e2d462f710e.wav"
+        },
+        {
+          "ab": "punuq",
+          "ch": "頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d3ed7531009fd9ef3c3aabae8d7d687b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "apushiqshiq",
+          "ch": "拉肚子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6b7171488140901d29a8139235d430b8.wav"
+        },
+        {
+          "ab": "painan",
+          "ch": "可能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7344044c1efdb52cf7f286dd8e3abaab.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/533e37db0ee49552dd0717509513d61a.wav"
+        },
+        {
+          "ab": "miazithu",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3f8b41ca55adc5ad0b56522aed203f7f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "panshizaniza",
+          "ch": "生病了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/09924f6e3afce42fe947a40aff70dacb.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b0d3ad5d1f82ac0417e4e6483b766d6c.wav"
+        },
+        {
+          "ab": "buut",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/55796460dd9a41f45b2c8fe05a555fe6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iahiawan",
+          "ch": "快點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9037c8d6516fc5f9a5e1e7fd30459de2.wav"
+        },
+        {
+          "ab": "utushi",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/71bcaba8ce14f5224da6b38b2db3c81b.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/27c68abe81ada7e34c58c0c8a82cbb47.wav"
+        },
+        {
+          "ab": "mriqariqaz",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1315be98cceab0aaf238d399be214337.wav"
+        },
+        {
+          "ab": "shiz",
+          "ch": "病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4a2dd4fd7b6db6c7600ecb27cc83a7c4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/89f563302cccc20f324512bb6369c334.wav"
+        },
+        {
+          "ab": "taun",
+          "ch": "處所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/af9ce95313c86da5870c00e2bf90a39c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/57b589294127a7b1fa37d365f7de2a81.wav"
+        },
+        {
+          "ab": "fuifuilh",
+          "ch": "告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d460692b736e736cba826e240e6dead1.wav"
+        },
+        {
+          "ab": "ihu",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3d3372d39ac590bd55a77183bc48c725.wav"
+        },
+        {
+          "ab": "shinshii",
+          "ch": "醫生；祭司",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e92f8652bd0a7d03abf8dbba343fc3b2.wav"
+        },
+        {
+          "ab": "mzai",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/11b2988b7bfd6d90be985131502814be.wav"
+        },
+        {
+          "ab": "intua",
+          "ch": "在哪裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/81bb600ba54718cb87834f470ed159f2.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/108034cf94b14005454f08f0516dff99.wav"
+        },
+        {
+          "ab": "antu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/797d4cb7bd126ec1aced5691af658a88.wav"
+        },
+        {
+          "ab": "makalingkin",
+          "ch": "舒服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/792b2eb6ecb026c35f5d189a2d727003.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d28fda6d862ae4f14336f8544087570f.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/30ac4c52bd5bf0762504d49ecb92077d.wav"
+        },
+        {
+          "ab": "shinshii",
+          "ch": "醫生；祭司",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2bbc621dc78b4d3b5365996df9566d75.wav"
+        },
+        {
+          "ab": "amara",
+          "ch": "會拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/51b7f28943a5d99b071833e9886fd1fe.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/05442792614ce764064c912f5a95d721.wav"
+        },
+        {
+          "ab": "lhmir",
+          "ch": "藥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ce6c18636f856a65b7441c802701144c.wav"
+        },
+        {
+          "ab": "lhai",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3f08357f6b6c8a433cdd85a69ca9bc18.wav"
+        },
+        {
+          "ab": "ihun",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cce7f49cc93c47d849de1e17ef184c1b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "以前，如果覺得身體不舒服，我們的長輩們常說：「觸犯到禁忌了！身上的靈氣被惡靈拿走了！快一點呼請祭司來祭拜，把不好的靈掃除掉。」",
+      "ab": "kahiwan ya antu makalingkin sa buut, naam a tanatuqash miaqay mzai “puparsian dai! bahi minarawan sa antu maqitan a qali dai! iahiawan palalawan shinshii munai pulaulalu numa shmashaw sa antu maqitan a qali.”",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/14/8ff054cfec509da2826abc40a72d2e15.mp3",
+      "word": [
+        {
+          "ab": "kahiwan",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5ee786031eccc21675bb1d322d8c024a.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7cc67bd2ac2852fd3c9196308b7c1fd1.wav"
+        },
+        {
+          "ab": "antu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/afcda885c9f6ea323f2ec989d5cf4d92.wav"
+        },
+        {
+          "ab": "makalingkin",
+          "ch": "舒服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/275db609ebbdc7b03e227c97bbfa1fc5.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/898aa9a42b6cf3701792807fbfe3608d.wav"
+        },
+        {
+          "ab": "buut",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7bda1a1c4b780f467d4ece9a47eb5c1b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "naam",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/05cde1d6d8233b5502845d61823106d0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ab3af36d0bfd62e15276f46dbcb21592.wav"
+        },
+        {
+          "ab": "tanatuqash",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9756b8c0f002d729d89ed515f2c2d455.wav"
+        },
+        {
+          "ab": "miaqay",
+          "ch": "常常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9cb6cb6e1c6a47b97aaf0f2a1ec3d2de.wav"
+        },
+        {
+          "ab": "mzai",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/26013ffde5413a2b062afa00935c8cca.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "puparsian",
+          "ch": "觸犯禁忌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/76303a8c2487b99966337b480cbef75e.wav"
+        },
+        {
+          "ab": "dai",
+          "ch": "（語氣詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/24ee89e653e6e5cf2cd38b38353a9da2.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bahi",
+          "ch": "靈魂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1774b7c0f154368236ba8e79b7cee890.wav"
+        },
+        {
+          "ab": "minarawan",
+          "ch": "被拿走",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c82dfce026673c63c23304c4d040f505.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8537ca17b1e60d070c74232266223046.wav"
+        },
+        {
+          "ab": "antu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0db604f6f63917a9967c46d673d23064.wav"
+        },
+        {
+          "ab": "maqitan",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4945711118b8be0929a3de9fa103fed5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c1625b5fb4c9362a13aff889012c16b8.wav"
+        },
+        {
+          "ab": "qali",
+          "ch": "靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0952aa1000f88d1413b65c6f6fc868d8.wav"
+        },
+        {
+          "ab": "dai",
+          "ch": "（語氣詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e2e71bdee9bb15b874b357b8a6639ed3.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iahiawan",
+          "ch": "快點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6f45f2022d21a3ebf061a145d9b5ea3c.wav"
+        },
+        {
+          "ab": "palalawan",
+          "ch": "呼請",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2de7d0c3ccdae68cf66c4d7aafaae7cd.wav"
+        },
+        {
+          "ab": "shinshii",
+          "ch": "醫生；祭司",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/98a4fe5f4cd325b0d131fffdcb9f618c.wav"
+        },
+        {
+          "ab": "munai",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/92491efa7cda6552f740334c9e601855.wav"
+        },
+        {
+          "ab": "pulaulalu",
+          "ch": "祭拜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/092134aae142f8a44d57ae3787872b9d.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/615e032027c116febc187db837139ec9.wav"
+        },
+        {
+          "ab": "shmashaw",
+          "ch": "驅趕；掃除",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/059462857ce955b907bd79a9cf5a9e2c.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cdb0907442677808091608d489752349.wav"
+        },
+        {
+          "ab": "antu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cf43d95347129f87998d6a47f995bb23.wav"
+        },
+        {
+          "ab": "maqitan",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0fda7cda39198664818ea8074e8810a0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4a89925b4b27b8e6cbf1cfafadde4e16.wav"
+        },
+        {
+          "ab": "qali",
+          "ch": "靈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2f51fec74d2549dad27f0dc57c5c8ddc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在，我們知道為什麼身體會不舒服了。像是受了風寒；吃了骯髒的食物；沒有讓身體好好休息；身體常常太累、疲倦等等，都會使身體不舒服。",
+      "ab": "thuini mafazaq iamin minu qa a’antu makalingkin sa buut, miazai ya utun sa fari, ya kinaan sa maradaradak a akaanin, ya antu maqitan pangqawan sa buut, ya miaqay mathuathuaw maqiriz, mat’uraq sa buut, numanuma, a’antu makalingkin sa buut.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/14/84a25d386d0bcba895dae3788bd9aa61.mp3",
+      "word": [
+        {
+          "ab": "thuini",
+          "ch": "現今",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/312d68677ac673ac45c7477541c9b93e.wav"
+        },
+        {
+          "ab": "mafazaq",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/93f600838bff00a6da2283b90dbf31c8.wav"
+        },
+        {
+          "ab": "iamin",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8eb6c13d87ba59b39ba6d8f03f47dcbd.wav"
+        },
+        {
+          "ab": "minu",
+          "ch": "為什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3486f4031460180965996feb913fbb66.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/41a4f16be340241fc541152aa7c7b9d5.wav"
+        },
+        {
+          "ab": "a’antu",
+          "ch": "不好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/adb70a02574478c4ca2ecd2b5529189a.wav"
+        },
+        {
+          "ab": "makalingkin",
+          "ch": "舒服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4a8d2878a1ffe32070100ea57573218d.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/379452f887e0330e134a90c5329cc55e.wav"
+        },
+        {
+          "ab": "buut",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9d435d2e017f7a7384f4e1c6a6f2d169.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "miazai",
+          "ch": "像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/025482093f50e113ff4a3e6ab33c7e54.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/96017215746cfb9b3f0c43a26cc31aa7.wav"
+        },
+        {
+          "ab": "utun",
+          "ch": "受到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/497f28bcfb89d0f66f2a7ac355e8bbc9.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/279e15ba1f35e19bb1ca79a85a6d0a85.wav"
+        },
+        {
+          "ab": "fari",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/375414dbbfd4a32040300559e7961ecd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5a5c186d53a866426043cad5be6d4ad9.wav"
+        },
+        {
+          "ab": "kinaan",
+          "ch": "吃了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f7ddba6262b801bc2aae351a3b30851a.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/614104ba3125943285d47bbd60f5b6ed.wav"
+        },
+        {
+          "ab": "maradaradak",
+          "ch": "骯髒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/550730a8ac07ca5a875783e526529bfb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/654798fc20b6d08b12236106fff87920.wav"
+        },
+        {
+          "ab": "akaanin",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/37170aefc4db60014d57d0d83baa0997.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cc67469d525608e931bc9f4d64a9230e.wav"
+        },
+        {
+          "ab": "antu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5ad573dfa6b6a8b98bcdd89ede7fc36a.wav"
+        },
+        {
+          "ab": "maqitan",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9277e5d8e6044cd163b8d6dd65b6c6da.wav"
+        },
+        {
+          "ab": "pangqawan",
+          "ch": "休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/047fa8363682f54fa65b443edd7cf07d.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ddeb5989b321eee0e65b44afbdf4209d.wav"
+        },
+        {
+          "ab": "buut",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/188b8a4c8450ae946afdf57ca3012ead.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/aacfe532ad5037a09894ea841d6ff2ba.wav"
+        },
+        {
+          "ab": "miaqay",
+          "ch": "常常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5d22e4b881155e9f2c8655659f312b4c.wav"
+        },
+        {
+          "ab": "mathuathuaw",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1e8105077e7cdeabfcf1cd16db6c83a2.wav"
+        },
+        {
+          "ab": "maqiriz",
+          "ch": "累",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e6f9957ae1cc42e81573f2af3f4606b7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mat’uraq",
+          "ch": "疲倦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/abac2e160023bcce4ff4ed0ed446138f.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/84f43e5786a2cd6f508f9cf39b11f404.wav"
+        },
+        {
+          "ab": "buut",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d193d5190cc58aa6de2cab8ad7a589c8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "numanuma",
+          "ch": "等等",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/87c4b69c9d3811ec19bb825c44447a7d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a’antu",
+          "ch": "不好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f5998f417e460b6a7ce6824a1984d84d.wav"
+        },
+        {
+          "ab": "makalingkin",
+          "ch": "舒服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7aaabd0b9d37f1c631a144526eeafa06.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3acd38346fe1a0952f55a4bc4b38c3c5.wav"
+        },
+        {
+          "ab": "buut",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5881280e7ef2f3720600e16b2aa58a6b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,876 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Laning’avan",
+  "titleCh": "洪水",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "耆老們訴說傳說故事時會提到，在遠古時期，我們居住的這個島嶼是由土地及海洋兩個元素組成，但是海水看起來比較大。土地是由螃蟹來看守，海洋則由巨蛇來看顧。",
+      "ab": "Tupaka madadaingaz tu maqabas sa madia’ a bunun ican dalaq ti miqumic, sadu tu maqat dalaq cin ningav va nitu vevi madaing, qaitu cia danum ma madaing sadu’an, ananqa tupa kat madadaingaz tu, haiza’ a kakalang saipuk ki dalaq, cia ivutdaingaz za saipuk ki ning’av.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/07/1180b90166480ec54995386978282b06.wav",
+      "word": [
+        {
+          "ab": "Tupaka",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/21/d1a02dd9ae42fc92573ed55572cac344.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/4979a7b20a42638a04977d3615767bfd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/36a2d857e8c4d30b525eadb5040940cb.wav"
+        },
+        {
+          "ab": "maqabas",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/b2257789777f6fcd2d5e40318050a51f.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/f044c6276e36beb1492ca9e529efc680.wav"
+        },
+        {
+          "ab": "madia’",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/bd503b6e91ef50d1c4c169476158e8eb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/c9192bb327ea10b13ad82cc3c088164e.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d45121855efb5fa759a01b8def4ebe31.wav"
+        },
+        {
+          "ab": "ican",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/bd4fca5e22cc738b38eefec088eec2a6.wav"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/4d553e0c89b63525b7899bb1d5b2a36f.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "（限定詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/91648658a3e987ddb81913b06dbdc57a.wav"
+        },
+        {
+          "ab": "miqumic",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/bff45300ab6b66080f7f9337d470791c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sadu",
+          "ch": "看見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/393a02a8b46c706c42e3aa9795cc73ca.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/57b3c556c09ac06cd6e1b4db8ae208e4.wav"
+        },
+        {
+          "ab": "maqat",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/e0e0efac42bf67642b4904c893b46725.wav"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/9e4bbab2f64d76c5ec1acefe6d433b66.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/4ec1fe0905880d0cb4ab86abff563b86.wav"
+        },
+        {
+          "ab": "ningav",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d6a31df893267907bc8877ec5e1b7c04.wav"
+        },
+        {
+          "ab": "va",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/b20ec3227487235bbe4117ced1337719.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/21/69801f68d801035f0cdd653ecb8773d0.wav"
+        },
+        {
+          "ab": "vevi",
+          "ch": "不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/91cd93e0fc08ec1e3067cb9c49e8f92d.wav"
+        },
+        {
+          "ab": "madaing",
+          "ch": "很大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/40d670477ea432dea2ee336c54d03a9b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qaitu",
+          "ch": "可是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/f3296629e5e4964de099e204626f32fd.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/e5c0e8436f7cfb3effbf1fdf355a1917.wav"
+        },
+        {
+          "ab": "danum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d5eac06fe54b1f804e302e0e0423190a.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/380cbada0c579524d75d048afda52b77.wav"
+        },
+        {
+          "ab": "madaing",
+          "ch": "很大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/91da4e7241d7ad467cb4127f4374a3c4.wav"
+        },
+        {
+          "ab": "sadu’an",
+          "ch": "看起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/1c04abeb85a834a19e1ace9220311fe2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ananqa",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/0b845236da4ce3d6e20524161c1966c0.wav"
+        },
+        {
+          "ab": "tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/0bc62afce4c0004839d37c08c5f0528a.wav"
+        },
+        {
+          "ab": "kat",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/556dd6e75400f8f61f8e864ebef83147.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/f24996a1a235b16c90cbc11dcaaa6c5c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/5b2aad03528f0d771e8332451010d045.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza’",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/9e78649769df2c1e78ceb740d2305814.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/937304cff44c617ca508c6b84ffec3af.wav"
+        },
+        {
+          "ab": "kakalang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/56390d1113302e0c420d4393523ca92b.wav"
+        },
+        {
+          "ab": "saipuk",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/fe48607e3e6f573cc85d52ac66de093f.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/5a50de67f810f5450045a367a19fdb03.wav"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/edc584da9943130e5fe7b9f60e863f1f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cia",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/7ccf00b6949c12d2df1963c60fad4f25.wav"
+        },
+        {
+          "ab": "ivutdaingaz",
+          "ch": "巨蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/2af62a0f91808c286ad2023293b5ac91.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/b8eadb229854b2add23d0371cc31b937.wav"
+        },
+        {
+          "ab": "saipuk",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/95f8fbf9e0653a1c0fee3572b5a25042.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/03f79f537091922ce04021b6dd8c0d1a.wav"
+        },
+        {
+          "ab": "ning’av",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/024f19fc85e7662509e586c3f73273cd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n起初牠們相安無事，但因為牠們彼此互相挑釁，後來相約決鬥，看誰才是強者。",
+      "ab": "Maqat kakalang cin ivutdaingaz za, uka’i nanu tu kanang, mopa’ i haiza’ a kamana’u ka mapatupa tu napalis tuza’ ata palicuq, cima ca pinvai maca mapalu’daq.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/13/be5c95b2bae82a3c5500ee6476b7ab5d.wav",
+      "word": [
+        {
+          "ab": "Maqat",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/47a435a92e85fb6c9acebc449a3bfb6a.wav"
+        },
+        {
+          "ab": "kakalang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/5a85461739094491a96bb30267640454.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/214db8cdf991e0ee01c25656e28a4049.wav"
+        },
+        {
+          "ab": "ivutdaingaz",
+          "ch": "巨蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/fef6255b484a1dc0dac35fd87bb905ae.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/05b99715f32c973f929cd22735389966.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uka’i",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/991ef9a704469ce820a63388e908acc1.wav"
+        },
+        {
+          "ab": "nanu",
+          "ch": "本來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/e7cb3af0459b010c53533157ed3d1110.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/b8ab596fde54c47e4b01c9936389dccc.wav"
+        },
+        {
+          "ab": "kanang",
+          "ch": "原因",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/a2b4ca7ef77ef841d2e8fa25174f2336.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mopa’",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/c6f272198f6f6dd8aa7d0522dbbf789c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/aae58edc3a921e3bd0100a45406e72f6.wav"
+        },
+        {
+          "ab": "haiza’",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d9734d3817f40bb704b7cc4984ec39b0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/589571eb2abb82ce6ab1a954d9b1a08c.wav"
+        },
+        {
+          "ab": "kamana’u",
+          "ch": "挑釁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/21/3b63884f3d4bb3ee9fbdc0c603f818d0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/c8c1bbd9a89b90099896b3d83e03f6e1.wav"
+        },
+        {
+          "ab": "mapatupa",
+          "ch": "互相說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/164b9d82149e90db2876f473a6d4ee9a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/f9639421ad8666783822bcb2e5b8eb8b.wav"
+        },
+        {
+          "ab": "napalis\r\n",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/21/eafe543b056a767547667d13b5e1af59.wav"
+        },
+        {
+          "ab": "tuza’",
+          "ch": "約定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/21/3f8b1b3c6b38e2d877ed804ff8591c47.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/18fafc45a3d671c70c722ec3629e9602.wav"
+        },
+        {
+          "ab": "palicuq",
+          "ch": "互鬥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/ed7f667144702c051d40d6419ebfd12e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cima",
+          "ch": "誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/fae638868c63f0bc5f9e26b95b828049.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/009ff90f082aaa9fcd6e14caf65c7cc6.wav"
+        },
+        {
+          "ab": "pinvai",
+          "ch": "戰勝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/41d89d375c748da6a894ccb1b51523a1.wav"
+        },
+        {
+          "ab": "maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/9bb170d5a0adf8a2da13f042b4cffcab.wav"
+        },
+        {
+          "ab": "mapalu’daq",
+          "ch": "互爭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/ace213affb48c3db008eee07d97bfb94.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "螃蟹說：「你先咬我好了。 」巨蛇真的就張開大口，從螃蟹的背部咬下去，但是背部只有凹下去而已，並沒有將螃蟹咬死。巨蛇說：「換你夾我了。」螃蟹隨即舉起牠的巨螯往巨蛇夾去，巨蛇斷成三節而亡，海水隨即洩流。因此，山、樹木、平原、野草等地貌相繼出現了。當海水退去後，我們居住的島嶼就出現了。",
+      "ab": "Tupa ka kakalang tu su’ua ca tangus kalat zaku, tuza’ a ivut tu tinngacbaq kalat ti kakalang, mopa’ i maqetqet ta hiku’ i kakalang nga, mu’az mu’nu ka hiku’ i kakalang, tupin na ivut tu su’uin na makaltic zaku, tuza’a kakalang tu makucia ki panga’ ima maqaltic hiku’ i ivut, musasu ka ivut mintau muqengut mataz, musu ka danum musuaq, panangqa haizin na ludun, lukic, bukzav, ismut, tudipin na haizin na mulung daqlaq di ki.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/21/420c584372ac793129e29645064ccd94.wav",
+      "word": [
+        {
+          "ab": "Tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/72f5b0b36ff0b9d7fa00f22202ff79dc.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d72ed463540d810c634272bb19e3de1a.wav"
+        },
+        {
+          "ab": "kakalang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/05e41bc57a80ca4bbef3c523cc0d40d9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/3bc1b866e579d0a68ea1da41a4814d90.wav"
+        },
+        {
+          "ab": "su’ua",
+          "ch": "讓你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/25851845bd6a3cbf79e4341c1f6baa59.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/7b87b249b79fe3604cfa138d155eba82.wav"
+        },
+        {
+          "ab": "tangus",
+          "ch": "首先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/3238b5fdacca32ae65f7486caf88ee59.wav"
+        },
+        {
+          "ab": "kalat",
+          "ch": "咬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/4cfb97d554b8c9d23c91845a500deb03.wav"
+        },
+        {
+          "ab": "zaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/04c7ec3579a0033ab281960fbd7b84c3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tuza’",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/5dca5f20a1b1baf0ad0729137f901dc3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/1086b4e45982551b803783d6020ae68a.wav"
+        },
+        {
+          "ab": "ivut",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/be7b0d3ad04f5cb997e3031e00861c73.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/b51c6cd35bb3d7e8c54aa6a571379d8f.wav"
+        },
+        {
+          "ab": "tinngacbaq",
+          "ch": "開口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/1b2b3ee3c156732e9e50bfd4d963cc74.wav"
+        },
+        {
+          "ab": "kalat",
+          "ch": "咬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/634b9747aeb852449da30a415fb60aa9.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/ac1f0c7c7732c553e3a0ed4d99b17202.wav"
+        },
+        {
+          "ab": "kakalang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d84a2435404090b0e0c68c46b3a0a512.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mopa’",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/98439fa1d4bdc47bb4bb5282c7f3775c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/bdb4e8e60ca2bd614a1710438b37c08b.wav"
+        },
+        {
+          "ab": "maqetqet",
+          "ch": "很硬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/48b3aba5a6c4d0f9b8320bf816f586d3.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/b56c83155c640bf87af59210d57da3a9.wav"
+        },
+        {
+          "ab": "hiku’",
+          "ch": "背後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/44d5a62d31a467c4504308fb09c6c0cf.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/9c18e0234c3ef3417ccd511f41ad71d8.wav"
+        },
+        {
+          "ab": "kakalang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/ef056e71e00f5fe978ab7c54d55018f4.wav"
+        },
+        {
+          "ab": "nga",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/9f36cd14c6a9b227707682b12bcd6264.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mu’az",
+          "ch": "只有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/6c3b14f64524a7781460f4566bd754a0.wav"
+        },
+        {
+          "ab": "mu’nu",
+          "ch": "凹下去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/7b453137eec6a1d8f8a1528f8f40916e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/629f99dd4ec30e6903259174a7e790f8.wav"
+        },
+        {
+          "ab": "hiku’",
+          "ch": "背後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/efb02112a854f238b26fc03996342d96.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/be6c366ed704d698e0d352dd3e44fa2f.wav"
+        },
+        {
+          "ab": "kakalang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/89dd0bb688f2eb30d44361097c83be2c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tupin",
+          "ch": "說了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/8290207904a74d28e7c0afdd6a974745.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/0e058f713db02ce2d7b21ae8af5d3cff.wav"
+        },
+        {
+          "ab": "ivut",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/2ba87eec587d84115ba12e26d79ecc3e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/a6a262e3634c78f9629ddf8094cd3174.wav"
+        },
+        {
+          "ab": "su’uin",
+          "ch": "換你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/dd0bc433d9a5a097cf08a42aeeb14df2.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/1088cfbd540321e61be04e54d0502a70.wav"
+        },
+        {
+          "ab": "makaltic",
+          "ch": "剪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/7893b5468710641ad87f8b4aa1b8777d.wav"
+        },
+        {
+          "ab": "zaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/af9be397672697e4e58cd989f724c837.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tuza’a",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/0737b0147c6c1a0b30a476f3da728d5c.wav"
+        },
+        {
+          "ab": "kakalang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/2cadebae208572a73bcc7385d5de0710.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/01cc35f5215d76108f9789902a8881dc.wav"
+        },
+        {
+          "ab": "makucia",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/4200de485310ff951a2105ea0a9018a7.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/fcf21509b5dd8503aa090c93bbc8eb2c.wav"
+        },
+        {
+          "ab": "panga’",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/19/41524f4cd6b5ab7bb0a87e8b5d2042ae.wav"
+        },
+        {
+          "ab": "ima",
+          "ch": "手",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/8e7aec754122752b363723f8ea82b77d.wav"
+        },
+        {
+          "ab": "maqaltic",
+          "ch": "剪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/9173003064218a5f9e5a2504b53210ad.wav"
+        },
+        {
+          "ab": "hiku’",
+          "ch": "背後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d85626011c06e9cf0a41beaf4102e1fd.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/371d25d024755d6e87bbc2880e592a65.wav"
+        },
+        {
+          "ab": "ivut",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/9d2bb15499942a928e46eff5c43eaf02.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musasu",
+          "ch": "立即",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d7a3bcb26a98044b9813df9b1f394497.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/1e4bb9409318b6d3303cb415a351674f.wav"
+        },
+        {
+          "ab": "ivut",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/31f97ff19cc0aa5d7001a6b187dd2fa7.wav"
+        },
+        {
+          "ab": "mintau",
+          "ch": "變成三個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/878c04f03e333f1bc8707c8f0ad6a3e9.wav"
+        },
+        {
+          "ab": "muqengut",
+          "ch": "斷開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/19/beb55539c682e39bb0f9df25ff161395.wav"
+        },
+        {
+          "ab": "mataz",
+          "ch": "死亡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/6fcbe11b19a4827c0a8ef7cfc1e33eaf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musu",
+          "ch": "立即",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/6521867f37daced2a8ba3b973450bf6a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/99ee2d61ce22795acc55825466a1150f.wav"
+        },
+        {
+          "ab": "danum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/1c866cbb2df9ad14941c2f7d1ee0b027.wav"
+        },
+        {
+          "ab": "musuaq",
+          "ch": "洩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/b4536aef1fc34ecfa785c89235e2751c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "panangqa",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/738754a8dc187735701c05a35e80aff9.wav"
+        },
+        {
+          "ab": "haizin",
+          "ch": "有了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/3af1c3da98c65277781b9a92e2f1d4c8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/7aeaa881c9a72b62b4842549c501a8aa.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/7e94cbdb257cdd17c06f5ccf9daf9ce0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lukic",
+          "ch": "樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/f10d3bf5a7378662d917cbaba3d9182a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bukzav",
+          "ch": "平原",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/244450a5d4391583f3af2e4b23e44a09.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ismut",
+          "ch": "草原",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/6e46c13ed39fe5d1af9985e17d98b28a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tudipin",
+          "ch": "變成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/5ce2c548b89181fc2a9b18df3882603e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d6b5899123f0ff9402eee92003afb979.wav"
+        },
+        {
+          "ab": "haizin",
+          "ch": "有了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/c61085b95025e125ca4ef45f74c5f537.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/fb24fdefb6d2dd80651f6c1a87bc0d7f.wav"
+        },
+        {
+          "ab": "mulung",
+          "ch": "凸出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/61a44cb2d2dd2ca95103ef78b92121da.wav"
+        },
+        {
+          "ab": "daqlaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/d7de72bb6751415de803b44e8d6ac63f.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/2fdef625a264874c1a4081ca24dd479d.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/14/e3d014616e4c0c25acd6952731940be7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

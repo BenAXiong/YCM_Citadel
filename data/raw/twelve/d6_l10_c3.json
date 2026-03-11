@@ -1,6 +1,566 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Manau’az tu Danumqalavang",
+  "titleCh": "美麗的濁水溪",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "濁水溪是台灣最長的河流，由霧社水庫以下經萬大、曲冰至武界。",
+      "ab": "Maca mantan madauqpus a haul ha’an Taivang ti’a cia Danumqalavang, minaha’an ning’av Musia’ dii ca danum munqanu’, laqai’ is Vantai’, Ququaz sauha’an Buqaiz.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4f31c144c6398a39257dcc2f2684c732.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/dc11b1836ecb818fffa3e8045eb95a61.wav"
+        },
+        {
+          "ab": "mantan",
+          "ch": "最",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/55aeb76c83aa533b11cbc33f9e40aa95.wav"
+        },
+        {
+          "ab": "madauqpus",
+          "ch": "長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/dc826746e1b7919b6275ea3f14c5e1bd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c09461ce85141b05d3ee6f2aea257935.wav"
+        },
+        {
+          "ab": "haul",
+          "ch": "河流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/d744c4e196f729df5fa41bcb8df27eab.wav"
+        },
+        {
+          "ab": "ha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/bbeaf32ca49221a91a7ea7cf3e994069.wav"
+        },
+        {
+          "ab": "Taivang",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6c275a693a0e1764550078ac710873cf.wav"
+        },
+        {
+          "ab": "ti’a",
+          "ch": "指這地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/91d34433e0793908f20c5e6fdbcba61c.wav"
+        },
+        {
+          "ab": "cia",
+          "ch": "是它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/ebe44c013549fd1a935942582bea7b80.wav"
+        },
+        {
+          "ab": "Danumqalavang",
+          "ch": "濁水溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/1c88233ac30debaa338e6961c8bfaa14.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minaha’an",
+          "ch": "從…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/5bf23052a73a9ccd5f3d5d82b4ba148a.wav"
+        },
+        {
+          "ab": "ning’av",
+          "ch": "湖水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c5d644fa8a86ad83e43f040a9eeb4bbc.wav"
+        },
+        {
+          "ab": "Musia’",
+          "ch": "霧社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/ad0578a527187de255ab445a7e7fde0c.wav"
+        },
+        {
+          "ab": "dii",
+          "ch": "（指示詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/1acf95b7e5ff0d9189c38f0c60551d3d.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/169557952c3a937230c3c8880146f494.wav"
+        },
+        {
+          "ab": "danum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/9029d6a408295eb18b01022d5dc2c3a5.wav"
+        },
+        {
+          "ab": "munqanu’",
+          "ch": "流動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/94bf09ae05420a2cad375b2f167ad3e8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "laqai’",
+          "ch": "流經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/33afb1e731c09273db55e8df1f2a3f94.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/f3e981dfbe712bd8f93f170e8c0a2c0d.wav"
+        },
+        {
+          "ab": "Vantai’",
+          "ch": "萬大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/757d04921ff024de153f3c7f345c24f0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ququaz",
+          "ch": "萬豐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/9f1f4938963fa5f9ab4d57353afe2586.wav"
+        },
+        {
+          "ab": "sauha’an",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/35e7132c1742eaa9dacfedd5607b5f94.wav"
+        },
+        {
+          "ab": "Buqaiz",
+          "ch": "武界",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/76f3c5ffe7dcfd0b14841e7926dd832b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "濁水溪河谷較為寬廣，平緩的河階地是布農族卓社群耕種、狩獵、及文化活動的地區。",
+      "ab": "Maca vaqlac dii ha mantan mangaz’aq, mabukzav sala amin, maca dalaq mangki’ a nanu’ takdangi’as Takitudu malkaquma, qanup malkaciat alminanan tu iniqumican.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4b9f946525b8fc99573ed7ef8f2918ea.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/8591efe6006d839c23452153789dc667.wav"
+        },
+        {
+          "ab": "vaqlac",
+          "ch": "河床",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/94c3d035d0716674904fe08fdef1616f.wav"
+        },
+        {
+          "ab": "dii",
+          "ch": "（指示詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/11ca04268b41f39203efd92cd1f8b108.wav"
+        },
+        {
+          "ab": "ha",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/5833f44355c400ad3efd00141ecca9a7.wav"
+        },
+        {
+          "ab": "mantan",
+          "ch": "最",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/facab78f33d30ee6687e62bc731cb6dd.wav"
+        },
+        {
+          "ab": "mangaz’aq",
+          "ch": "寬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4edd5677e5cd6bd28b12373f1a14a3f0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mabukzav",
+          "ch": "平坦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/7efeb6400e09756814e99049835fa47b.wav"
+        },
+        {
+          "ab": "sala",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/201d7a97aad11bd86a94e02edd95bebb.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4b73c0453607648d723ab59b5905f61d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/a8757ce9dc90ea5def6a29b19503dbbb.wav"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/b2759da044ea9401e7e455f149116a40.wav"
+        },
+        {
+          "ab": "mangki’",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/96bc82d11851fad841c56bac26d777a6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/2ca59fd9c3117f138e722e13597f2b0b.wav"
+        },
+        {
+          "ab": "nanu’",
+          "ch": "確實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/8a4698917fe654cfb25a8be97c24b4b3.wav"
+        },
+        {
+          "ab": "",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "takdangi’as",
+          "ch": "…居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/f6423457ad5daa885f892d5abac69a43.wav"
+        },
+        {
+          "ab": "Takitudu",
+          "ch": "卓社群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/cadc00bf738b6e71ea1b481736554a25.wav"
+        },
+        {
+          "ab": "malkaquma",
+          "ch": "耕種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6b41f17abd11bbc46176560b301a4e24.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qanup",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c4bd5c1e2ad0c73f8682c1719013b642.wav"
+        },
+        {
+          "ab": "malkaciat",
+          "ch": "從事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/dce4d150d598f12d9b87a16283857712.wav"
+        },
+        {
+          "ab": "alminanan",
+          "ch": "全部；一切",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/9e8375d4bea951a9e639cf4fa7efa3dd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/44b8b1b5c2c259df31d9d9b0f53be68b.wav"
+        },
+        {
+          "ab": "iniqumican",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/511a767823e5718ace2b93439cd79ac2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現稱為法治村的武界部落，是一個濁水溪貫穿而過的典型布農族卓社群聚落；曲冰部落風景如畫，有峽谷、松林、野溪，當地原住民稱為「姊妹原」。",
+      "ab": "Maca acang tupa’un tu Buqaiz dii ha, makanvavi sala acang is Takitudu dii, kamicqangas Danumqalavang dii laqai pavaz. Maca Ququaz acang dii ha, niit liliva’ is sinkaqaningu, maiza hunghung, kalibusas caang, maiza amin ca punalpunal, patungaanas bunun tu Ququlu ca ngaan is dalaq dii.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/8158a29c3b5e8d4e8d591d607cfe77b0.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/b073ce3b662c38ab02c8fd02ce384a44.wav"
+        },
+        {
+          "ab": "acang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c113616dedb792f022356b9a8295c00d.wav"
+        },
+        {
+          "ab": "tupa’un",
+          "ch": "叫做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/9c677bd9ead4ea4926c59a7d0467881d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4609a0cb0481252ab39445f70503e48f.wav"
+        },
+        {
+          "ab": "Buqaiz",
+          "ch": "武界",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/28a9e012877103f89379467a0ceb53ea.wav"
+        },
+        {
+          "ab": "dii",
+          "ch": "（指示詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/edef0d9bd8c8efab754d2fabd3105338.wav"
+        },
+        {
+          "ab": "ha",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/683a1c93fba8f45836af5ebf08c662f8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makanvavi",
+          "ch": "特別；不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/863ae4a798069192865306197bff9428.wav"
+        },
+        {
+          "ab": "sala",
+          "ch": "最，極致",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6e7d63d4c467dd6145a0626cb68f4ec4.wav"
+        },
+        {
+          "ab": "acang",
+          "ch": "部落的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/13eceab6231994401b8ef828fe895117.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/8271e0c5b2024644a262f19b0b629416.wav"
+        },
+        {
+          "ab": "Takitudu",
+          "ch": "卓社群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/b628e37c03795232aea0b0addf6a192c.wav"
+        },
+        {
+          "ab": "dii",
+          "ch": "（指示詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/7a8ce750b58ea4593da1087db5a2c819.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kamicqangas",
+          "ch": "被介入中間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/cfe8517a9ddcfdb2ae7c5832947c3833.wav"
+        },
+        {
+          "ab": "Danumqalavang",
+          "ch": "濁水溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/306480606119b6515bb51e242379602a.wav"
+        },
+        {
+          "ab": "dii",
+          "ch": "（指示詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/587bc1927f599f98f888e9d244be8a17.wav"
+        },
+        {
+          "ab": "laqai",
+          "ch": "過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/36c5d795235ef304afd54a4c84934d00.wav"
+        },
+        {
+          "ab": "pavaz",
+          "ch": "分散，分開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/327d369a1675bdfdfaefd41d501b3fac.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e1f77a2c16cc54a43eb984f00fa27d14.wav"
+        },
+        {
+          "ab": "Ququaz",
+          "ch": "武界",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/3e8d4729046f2c5b7688f79da3871068.wav"
+        },
+        {
+          "ab": "acang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/414e181c908e9b035425e6c057c288e5.wav"
+        },
+        {
+          "ab": "dii",
+          "ch": "（指示詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c573f25877c971c5ca3aa000f1edca35.wav"
+        },
+        {
+          "ab": "ha",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/a962a696f2d82cff7b5425a562468a46.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "niit",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/fdb2b215aca454782c69bc1ee9a85d81.wav"
+        },
+        {
+          "ab": "liliva’",
+          "ch": "簡直",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/0faee5de651317d51e5e10cb21b53b77.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/aba0ef6b58163530836522227f29688d.wav"
+        },
+        {
+          "ab": "sinkaqaningu",
+          "ch": "如同畫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4cc3b79a3ac07136b6ba55e126a7836d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/0aa983d281d1cd5cb3bcc84965830a0e.wav"
+        },
+        {
+          "ab": "hunghung",
+          "ch": "山谷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/eeba04a59c6f2f48e2e3c94b8ca43403.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kalibusas",
+          "ch": "成了森林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/2e6d05713b01d919488e2fcdb17950b5.wav"
+        },
+        {
+          "ab": "caang",
+          "ch": "松樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c8f0521f5bda726a6f4380142e5b6e6a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4164f841b44e3eb8e122b78b0e40af4f.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/3041372c228449ada7c295d940697a3a.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/008bfef4efdd575ac3e9a5c0c43661e9.wav"
+        },
+        {
+          "ab": "punalpunal",
+          "ch": "整個河川",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/59af62180b0d04edd54a5f5ace7fb433.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patungaanas",
+          "ch": "取名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6c49d08dbf30c9e44e3c17b1ec6ebb67.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/0ba6900c12ea9aa7c874f4546a29fd90.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/cb40bc0ed14724e6f54a1f4a557807bb.wav"
+        },
+        {
+          "ab": "Ququlu",
+          "ch": "姊妹原",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6def9da7f04a4bb4d727b97cb4c3d179.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/446ad38f7c9d99ca52e91605c574b864.wav"
+        },
+        {
+          "ab": "ngaan",
+          "ch": "名稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/f36d576ded86c313dce14fa4b8e6c0d4.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/ba61ab7dab67e0845c2e530ba9fd5c2c.wav"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/3348d3e16aad5fee83edb0995eec7002.wav"
+        },
+        {
+          "ab": "dii",
+          "ch": "（指示詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c0c6489fa38c9835eabe342536b218cd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

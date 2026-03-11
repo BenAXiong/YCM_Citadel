@@ -1,6 +1,706 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Mabaas Tu Baiking",
+  "titleCh": "病毒",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "病毒，非常小，但會使人中毒，無法用人類的眼睛觀察到。牠一定要寄生在其它生物的身體，才能看到原來牠們是活生生的生物。",
+      "ab": "Baiking, mastaan tu atikis, mapibaas i bunun, nitu maqtu makusia bunun tu mata usaduan. Asa tu sukdu ihaan duma tu miniqumis tu  lutbu, tudiip maqtu usaduan tu malququmis qana aipa.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/6a8ceeefa2c42b104a67547efbe79c9d.wav",
+      "word": [
+        {
+          "ab": "Baiking",
+          "ch": "病毒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/7f97b7749c6cc6af94fddb1898de78d4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mastaan",
+          "ch": "最",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/cadc5ec64be94f3e60c8d3e5cc0c6051.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/bd26c6a5924c3aaea8dd03827df9a4e7.wav"
+        },
+        {
+          "ab": "atikis",
+          "ch": "微小",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2359f5172ec627d63d5300edae411bb0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapibaas",
+          "ch": "使…中毒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/d9b4a06254d114b216a6f17cbaec726a.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "對於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4ca7d70e2d683b8f4930dbfb1af37282.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/60267bac6732c7a81ec811cc5c9c0859.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/419e4410da152c74d727270283cb94ce.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0a16c20a58da7eb8f96f612b8cafd1ae.wav"
+        },
+        {
+          "ab": "makusia",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/41cf1e0f40e3e4cea7e40c8b8ae358ce.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f5fe1fa07eae84a6cc2c36aefff49592.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/9bf8d7d48a8543f9d4e60aa9da5e9ef9.wav"
+        },
+        {
+          "ab": "mata",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/324e9b29cffceb04eadde72f374f201c.wav"
+        },
+        {
+          "ab": "usaduan",
+          "ch": "看得到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/fba5d6743be39f51d4d8f0df95461653.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Asa",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/2965658b89b496b7c43d6a6ea3ac930b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/17397f76c707cd300612cac5898cbc36.wav"
+        },
+        {
+          "ab": "sukdu",
+          "ch": "停留；寄生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/ac4e60ea6e45a09da42c7e8fb15ce613.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/860f5834f8e7f8e2834fc2957042760e.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/bc633e62b0095c6ed17684297ee49db4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/a9ddacdd8891788c87fb2a7f31fa1ca0.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "生物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/c1aa157f9e8516370e3345f226ef62fc.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/7dfbfb4a386b98740005488c55f5ccbe.wav"
+        },
+        {
+          "ab": "lutbu",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f3951984ba66822371d22499b47cef00.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tudiip",
+          "ch": "到時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/a40dd893c0c55a729d56d7b96c2d1963.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/f3425fc9e36ea9f96ff355ee92f05c1c.wav"
+        },
+        {
+          "ab": "usaduan",
+          "ch": "看得到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/751dcf66194776732ac3798449c368c6.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/3febd22e349dbe5be9b3a996b1151039.wav"
+        },
+        {
+          "ab": "malququmis",
+          "ch": "活生生的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/2c9ef150b5e90fb54ba9a184e3547de1.wav"
+        },
+        {
+          "ab": "qana",
+          "ch": "原來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/05a99c00b975ff15c51fe48e9fac2f2a.wav"
+        },
+        {
+          "ab": "aipa",
+          "ch": "牠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/5238757b72f1a2c3c4828fcb05833135.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "病毒如何感染人類呢？他可以黏附在所有生物的身體，透過昆蟲嚙咬人類，感染使人生病。也可以透過蚊子、小黑蚊、蒼蠅、老鼠叮咬人類，傳染人類。牠可以透過人類的呼吸、所吐的痰、所打的噴嚏來傳染人類。",
+      "ab": "Maku’aq a Baikingun ma’ula bunun tu? Maqtu naipa sipdat haan kaupa miniqumis tu hubung, mapakahaan ivutaz makalati bunun a, mapa’ula’in mapihalang i bunun. Maqtu amin naipa kanahaan tikas, qatibing, liliu, qamutis makalat bunun a, mapa’ula’in i bunun. Maqtu naipa pakahaan bunun tu sinsumbangan, sinpasnipaq, sinqasbing, mapa’ula ki duma bunun.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/20506326141455bed7586439ef2537c4.wav",
+      "word": [
+        {
+          "ab": "Maku’aq",
+          "ch": "如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/ad6bf3efd234fc87c76f3158c2a973df.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/ebb884f6fc4d14827b8c55d8411d8213.wav"
+        },
+        {
+          "ab": "Baikingun",
+          "ch": "這個病毒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/273cfc835c96d80d6f1f254d6a8f0ffa.wav"
+        },
+        {
+          "ab": "ma’ula",
+          "ch": "傳染",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/78af92f2de822f11d0ce3ab27432b09f.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/c1898675cd8204e7bb265ad8decca404.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/3ad1108c03d602923d4b3384dbb26e20.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/dca3a3c7bdacd81d537aae4f5cea4523.wav"
+        },
+        {
+          "ab": "naipa",
+          "ch": "牠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/18b18272ed31e60bafbdef233b87afc0.wav"
+        },
+        {
+          "ab": "sipdat",
+          "ch": "黏附",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/5735438d64589c7672b1b246cc3b2b24.wav"
+        },
+        {
+          "ab": "haan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4c5bc9874d7876f9b7b6959d3c555f45.wav"
+        },
+        {
+          "ab": "kaupa",
+          "ch": "所有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/235e750be0043b6784a3f0d91f4bbd23.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "生物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/c8a52336a75c71009c0809142766eb24.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f7cfa8780f43a33e8c7cb304363bbe08.wav"
+        },
+        {
+          "ab": "hubung",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/8b95884dcc6ea520e0095f32f54e7064.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapakahaan",
+          "ch": "透過，經由",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/bb8bf48a4f86fb1a77d0d0953d87958e.wav"
+        },
+        {
+          "ab": "ivutaz",
+          "ch": "小昆蟲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/27554b4e74f998f4d3ba09d6ad8a7298.wav"
+        },
+        {
+          "ab": "makalati",
+          "ch": "嚙咬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/a415f28ee13ec97d6219867fbc7bbadb.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/cd5e6ee3930e5d315f8139d1a87bb106.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/3c6d4f6a20e08ad47557b4fc5e67dbc8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapa’ula’in",
+          "ch": "使…感染",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/8a608ab5ea3865ae688ac2f8b1cc3b61.wav"
+        },
+        {
+          "ab": "mapihalang",
+          "ch": "使…生病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4c6c5a798d2e7f2e007de69322bb2359.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4368a62c43ef247389e4fbceb672da63.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0fc07cffb3f013a42c34e9d1520d4bac.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/c13ce2ce7cd12830d03b9d996bc05388.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/eede2d28a4d05ac58f8b79102668ad34.wav"
+        },
+        {
+          "ab": "naipa",
+          "ch": "牠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0dcd298d1ddcf500f4d5b12159a7db11.wav"
+        },
+        {
+          "ab": "kanahaan",
+          "ch": "透過，經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/97eb3f8b957df0581e9721c4a2e59945.wav"
+        },
+        {
+          "ab": "tikas",
+          "ch": "蚊子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/057780a9e2f50918c3f2e1f3151e26b4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qatibing",
+          "ch": "小黑蚊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/bea3c20edb84a0dd83a99a9a7274bc67.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "liliu",
+          "ch": "蒼蠅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/aec4c452116ae7afc8e88a2e0533a93d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qamutis",
+          "ch": "老鼠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/5e7a1b6c04257d714c85fd3f0be580b2.wav"
+        },
+        {
+          "ab": "makalat",
+          "ch": "囓咬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/1e7281e2bfcaf5294ebeb7b4b8b60b27.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e633e2ac7a14a4d56384f38df943792b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/975ff777e4f3c121942a6b8f51e26e9c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapa’ula’in",
+          "ch": "使…感染",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/71103463cca58f868394462cc92e854d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/f66d6e86ad128c934d9f1c3ea9d19155.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/7ed0db3282702c02c3584ca227520374.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/80d4c0e3d8705d1ae4cfd19dd89fa34a.wav"
+        },
+        {
+          "ab": "naipa",
+          "ch": "牠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/0e6ecbd8766b1296dffb848e42581f6f.wav"
+        },
+        {
+          "ab": "pakahaan",
+          "ch": "透過，經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/33c1551e32887aef85c6007466e667a0.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/100173f99f8fbdbf4ed1b56e6cf50f9d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/4edde686312b058fa073122d13123c09.wav"
+        },
+        {
+          "ab": "sinsumbangan",
+          "ch": "所呼吸的氣息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/a21482d73b88d044ac722365b70cefc2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinpasnipaq",
+          "ch": "所吐的痰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/3f90bf0094b4d5585ba7bf466e6b90fd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinqasbing",
+          "ch": "所打的噴嚏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/248f5896d397dc08b3b3a28a3c3361f6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapa’ula",
+          "ch": "使…感染",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/e7c99e68cb32003243745d0510f687b4.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/1fd3b109321e7d1a99dd4cb213d3abb8.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/09c78e5e092faab26c371b2c3f13f514.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/21/7e286db248221621adc954f00e6a0255.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我們如何阻止病毒的傳染呢？一定要勤洗手和清潔生活環境。如果生病，要戴口罩，才不會傳染狠毒的病毒給別人。",
+      "ab": "Maku’aq ata mataqdut i Baikingtun tu sinpa’ula i? Asa tu maqaqasmav tal’ima, siin mapiningzav i dangi’anan. Maaki mihalang a, mapa’ia ki ngulus, tudiip nitu mapa’ula ki duma bunun mabass tu Baiking.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/bf232372187476bd5b8146e467fa85dc.wav",
+      "word": [
+        {
+          "ab": "Maku’aq",
+          "ch": "如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/bc59e38bc67f18b4ab36cd450302b8c6.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/63168d42036e611d664ef366dc1bf40e.wav"
+        },
+        {
+          "ab": "mataqdut",
+          "ch": "阻止",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/b68bcc008bf06986ac30f9be4452e879.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/b5577aba45689865029e06cbcfed73ca.wav"
+        },
+        {
+          "ab": "Baikingtun",
+          "ch": "這個病毒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/15a016fffb4a3dc0bb2c48d98d268be7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e84ac9a0edc8b549661205c41bbf297f.wav"
+        },
+        {
+          "ab": "sinpa’ula",
+          "ch": "使傳染…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6c2394673840081070b5b466f1c19da9.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/8f20fe72886d5849926d898864c46523.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Asa",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/3031746c0d0344107daebadeccbc2237.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/863f26505ec22ffe51927c6aef85b648.wav"
+        },
+        {
+          "ab": "maqaqasmav",
+          "ch": "很勤勞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6ed392482c2e0b20e166a3f9618dd6d9.wav"
+        },
+        {
+          "ab": "tal’ima",
+          "ch": "洗手",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/944a44559d151ead6928aae68985669c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/df6206a85a959857407d534df2e7e7f4.wav"
+        },
+        {
+          "ab": "mapiningzav",
+          "ch": "使…清潔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e04bc8909bb7969ae5488620e00f8c57.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/1e57feec7e1cc9adf0c96bea4b7d753a.wav"
+        },
+        {
+          "ab": "dangi’anan",
+          "ch": "居住的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/917fa0f2b70d8a6fd02b80674012c19c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaki",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e2b59155b6c9e8753f967f42ea5a4d3e.wav"
+        },
+        {
+          "ab": "mihalang",
+          "ch": "生病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/213fc014f650fdfb0403e75c6d750fe5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/322959058113d0592fbaaa5936f5c674.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapa’ia",
+          "ch": "遮蓋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/ec432e7c34b7c12e74545acca117230c.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6bbbbb2a10edb63babf298ec360b299b.wav"
+        },
+        {
+          "ab": "ngulus",
+          "ch": "嘴巴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/d5c59c68680ca73714e8192c86cbe178.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tudiip",
+          "ch": "才能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/66e96398da90a8d37c3c67d6e136fb03.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/7a99d93f4103a8e0f1796b8130d0c6d3.wav"
+        },
+        {
+          "ab": "mapa’ula",
+          "ch": "使…染",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/99794ade09cc058d0249ae0c41cb4971.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/bd0feb7098b8bf044d4f6eece41e349a.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/35d4f69ad714757ec15987abf27fbf05.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/fc4128d00c371e949ce07a2cdc1bfd3d.wav"
+        },
+        {
+          "ab": "mabass",
+          "ch": "狠毒的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/cf7c9eb42e65dd3d4801d9b1bcb7f6a2.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/2aa91733db82d84241f81900e5342971.wav"
+        },
+        {
+          "ab": "Baiking",
+          "ch": "病毒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/1c1b844e81f60edc6af816d8949a07b0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

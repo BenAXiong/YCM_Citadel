@@ -1,6 +1,816 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "toh’asunu",
+  "titleCh": "相互關係",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "過去是這麼說的，我們鄒族有八個氏族，他們有自己的歷史脈絡。隨著人口日漸增加，形成四十個家族，而每個家族都有自己的家族名稱。",
+      "ab": "mo maica ’o ohela eʉsvʉsvʉta, mo voyu no mav’ov’o ci cono yaemana ’e cou a’toana, mo acʉhʉ iachi yaa ceoceona, fihto hia ausuhcu botngonʉ ’o ma’o’oahngʉhe, micu msʉptʉhʉ ’emo mav’ov’o ci cono emoo. ’emo maconoemoo, mo acʉhʉ iachi yaa ongko no emoo.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/21/466b7b037c8efe47a97aecfeb0b0bede.mp3",
+      "word": [
+        {
+          "ab": "mo",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/b3818fe5d7be4f68863c6c2d62a2e5a5.wav"
+        },
+        {
+          "ab": "maica",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/3a0babb7888bd5976ce3df45743615af.wav"
+        },
+        {
+          "ab": "’o",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/0790335a670cb13c2fdb67fe2f8df9ba.wav"
+        },
+        {
+          "ab": "ohela",
+          "ch": "他們曾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/081875dc716014403e3e775d7e66c313.wav"
+        },
+        {
+          "ab": "eʉsvʉsvʉta",
+          "ch": "述說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/f755a666c7b832211b5ace7697fc446c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mo",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/6e53bd824399513c956d152f8684d489.wav"
+        },
+        {
+          "ab": "voyu",
+          "ch": "八",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/21/aa8558a77191c7f193e59885aad9a6e3.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/eb341a778d385ad6ebe16e90efb48c08.wav"
+        },
+        {
+          "ab": "mav’ov’o",
+          "ch": "各種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/80b5d920603b925f72c429ddba032e72.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/14c132158e2c7c2569876362c4a4770d.wav"
+        },
+        {
+          "ab": "cono",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/2a0f6ae46b679d0ecc5cb46de254d2fa.wav"
+        },
+        {
+          "ab": "yaemana",
+          "ch": "室內",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/7d1dff07b1d3fe8174a43588f9528ea4.wav"
+        },
+        {
+          "ab": "’e",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/89f19be5f8dca203e90ef8219d317b5a.wav"
+        },
+        {
+          "ab": "cou a’toana",
+          "ch": "鄒族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/2810533f3e8335c1e5842e38a66e2d41.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mo",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/115659fcb58162f25830b9f1e1d92891.wav"
+        },
+        {
+          "ab": "acʉhʉ",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/aea6c0e437f81733b7ee77dd06981aea.wav"
+        },
+        {
+          "ab": "iachi",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/96222e2017e74cb315de0384cc67ccec.wav"
+        },
+        {
+          "ab": "yaa",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/6e822618c30449cfabec9b22a7de1425.wav"
+        },
+        {
+          "ab": "ceoceona",
+          "ch": "路線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/e620e32a8fb45a92d9e0cd2d018bd932.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "fihto",
+          "ch": "依照",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/e83193bbca16feb25ca7c49559317a7d.wav"
+        },
+        {
+          "ab": "hia",
+          "ch": "方式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/65775a7994d1c6649114bd43b985f2c2.wav"
+        },
+        {
+          "ab": "ausuhcu",
+          "ch": "漸漸的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/1cac981fb61dc0e4a41e6a8508552803.wav"
+        },
+        {
+          "ab": "botngonʉ",
+          "ch": "人多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/d2d8c0f1e97017883799eeb270accbf4.wav"
+        },
+        {
+          "ab": "’o",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/bec8101e09b530094d4a9a5cb2aa8970.wav"
+        },
+        {
+          "ab": "ma’o’oahngʉhe",
+          "ch": "親戚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/2258d2991c26f9159cb37712732d2a1e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "micu",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/c8c09abcc0bcc60abbbedaa425d9d52d.wav"
+        },
+        {
+          "ab": "msʉptʉhʉ",
+          "ch": "四十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/8b7d6d65a6a11b276c00df310aa23cbd.wav"
+        },
+        {
+          "ab": "’emo",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/2f01222e0a208c0dd5818c558c5f88d4.wav"
+        },
+        {
+          "ab": "mav’ov’o",
+          "ch": "各種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/a456e3aa3c4eabc5db513f2eba293f7c.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/04d524031f29c89d78cae864bd6f0de7.wav"
+        },
+        {
+          "ab": "cono",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/5f2938f1950b0a2fc4c97ed71df05f63.wav"
+        },
+        {
+          "ab": "emoo",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/faff78ae9252e2aa0f2b9f721cb89398.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’emo",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/a32585ad80bac69aa80957afc6723ca6.wav"
+        },
+        {
+          "ab": "maconoemoo",
+          "ch": "各家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/0d36d554e131368685427acccc334be5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mo",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/54504ac4de692e2ed530130e8da592ae.wav"
+        },
+        {
+          "ab": "acʉhʉ",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/9d9901965e1072a85529f00e0a5e5aa6.wav"
+        },
+        {
+          "ab": "iachi",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/450f8bff9e8ec3ad6a53125d226fe3d0.wav"
+        },
+        {
+          "ab": "yaa",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/2eca514592970e4fcff0088ff242b157.wav"
+        },
+        {
+          "ab": "ongko",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/72862697c983169c44c697f95b0b6a80.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/f2021d97ccc17990246ea4e79cf39288.wav"
+        },
+        {
+          "ab": "emoo",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/93bd0c543241abee16cd8badbd6434a9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "所謂的氏族，他們有兄弟的關係，所以彼此不能婚嫁，要跟不同的家族結為姻親。同一個氏族，有共有的祭屋，也有共有的獵場，所以在小米祭時會聚集在氏族的祭屋。如在山上捕獲獵物，要互相分享。氏族之間本來就會互相往來，如果年老無子嗣，大家會互相幫忙照顧。",
+      "ab": "i’e isi yainca cono yaemana, lac’o yaa nanat’ot’ohaesa, ko’ko o’ala meelʉ yupa totovcongʉ; la mevcongʉ tomo h’unasi ci emoo. i’e cono yaemana, la toehungu to emonopeisia, toehungu to hupa. ko’koeno, mai hote homeyaya, tena te’teuyunu to ateuyunu emonopeisia, honci mayo hola cocoeconʉ ta fuengu, la yupa momofi. la maezo anana’o meelʉ yupa ’u’uso ’emo cono yaemana, honci uk’a ’o’oko ho micu mameoi, la toehunga to’usni ho aʉt’ʉca.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/488799044cb6d665d8e4abdcbc67064e.wav",
+      "word": [
+        {
+          "ab": "i’e",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/ff61ddcd91eabb0b2f962f111fcb7d87.wav"
+        },
+        {
+          "ab": "isi",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/7e4b58586bb3fe3cd328043e05947693.wav"
+        },
+        {
+          "ab": "yainca",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/9c233a30ed64fe4dcdaaef3d9c5855bb.wav"
+        },
+        {
+          "ab": "cono",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/db07a19be3070f93ecf0b9476b80ff49.wav"
+        },
+        {
+          "ab": "yaemana",
+          "ch": "室內",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/593368618521a88f292ff484da70b93f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lac’o",
+          "ch": "只",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/d249d1ca0d8e978bb074607430a35d6e.wav"
+        },
+        {
+          "ab": "yaa",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/07b23962a4a6ff6c3e13fc24e0e12caa.wav"
+        },
+        {
+          "ab": "nanat’ot’ohaesa",
+          "ch": "兄弟姊妹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/1005dba1a5cb9055ca64f1bc9a183c24.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ko’ko",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/17a9e577ab7b749bfb086d5ce17c87d9.wav"
+        },
+        {
+          "ab": "o’ala",
+          "ch": "都不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/9f56b9e200549a86ff36ac3aedfebf0e.wav"
+        },
+        {
+          "ab": "meelʉ",
+          "ch": "能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/941fdb5162acc0dfc9512156b0e25499.wav"
+        },
+        {
+          "ab": "yupa",
+          "ch": "互相",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/ea457ca6a58a357dd6be0f4509caa3a2.wav"
+        },
+        {
+          "ab": "totovcongʉ",
+          "ch": "嫁娶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/7716187589b68cdd772c0a19735a2381.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "通常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/82004274d9bc2c4b2035fe7a40b86fcd.wav"
+        },
+        {
+          "ab": "mevcongʉ",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/8ea2e910312e70cd89fca468251614ec.wav"
+        },
+        {
+          "ab": "tomo",
+          "ch": "那種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/cf1f4ec239ccde6ee3dd2a0a3f17ece2.wav"
+        },
+        {
+          "ab": "h’unasi",
+          "ch": "不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/bed9077cefb8790775187604fddec6ca.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/a272ca619613c7c5fbcb18288b76197f.wav"
+        },
+        {
+          "ab": "emoo",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/5f406a42adbf40fae0f9e85db1f07c5f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i’e",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/bf28465ba21ec97911a7576fc11b1081.wav"
+        },
+        {
+          "ab": "cono",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/ecbe681164e9e452c30fc0cce7dd6a8f.wav"
+        },
+        {
+          "ab": "yaemana",
+          "ch": "室內",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/a04976485542bdb29168d80813812d38.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "通常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/642007fc0cd18a132f0be0f4c6eaa2ca.wav"
+        },
+        {
+          "ab": "toehungu",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/5786b8cae000eea6e9754d5c89e9ec37.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/f85e2b96ecf640ceaa0c31c8ad75ac3d.wav"
+        },
+        {
+          "ab": "emonopeisia",
+          "ch": "祭屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/baa5b6a77f2d9b64825d5b0fe0f19a16.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "toehungu",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/31d269437210a40b17a3fa63882f7d03.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/a087c0fda4be188eefcb977962489ee3.wav"
+        },
+        {
+          "ab": "hupa",
+          "ch": "獵場；領域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/8ffce3d46f68ca02795dbffec64095f1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ko’koeno",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/314f4026011eb4fe2a0cdaddbd891625.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mai hote",
+          "ch": "就像即將要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/e56ad597b356b3ab163a9a6f11ea7716.wav"
+        },
+        {
+          "ab": "homeyaya",
+          "ch": "小米祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/0e484e49e58d231f51bed53917711904.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tena",
+          "ch": "就要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/e653ca0b5ac63eb4e7649bf5513038de.wav"
+        },
+        {
+          "ab": "te’teuyunu",
+          "ch": "集合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/f21a6477b9893c297b0fef69cfc91f80.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/ccaf616b8313bd5c432639bda0c84874.wav"
+        },
+        {
+          "ab": "ateuyunu",
+          "ch": "總",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/8440fb29dcff81960d6bb23f6b6daf38.wav"
+        },
+        {
+          "ab": "emonopeisia",
+          "ch": "祭屋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/efc79b4c3ec608d02fb47a54b4e8ba38.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "honci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/df2809ab3287fa7823a6513cf9bb7c60.wav"
+        },
+        {
+          "ab": "mayo",
+          "ch": "拿到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/919807a68a8d275b2e7dd47c1ad6a69c.wav"
+        },
+        {
+          "ab": "hola",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/4d8998ab66782eb546339a760850876c.wav"
+        },
+        {
+          "ab": "cocoeconʉ",
+          "ch": "走走",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/0222de3833afe9f975a00c3daf7ebc8b.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/4a340ab846372cc463a38803f1ff11ca.wav"
+        },
+        {
+          "ab": "fuengu",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/1cbf8fa8ad4b9a1152a8bebbb05548f4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "通常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/134989bc144d25bde7754e0d419f93bf.wav"
+        },
+        {
+          "ab": "yupa",
+          "ch": "互相",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/4e255ecbeb4705bae3c14669ca604187.wav"
+        },
+        {
+          "ab": "momofi",
+          "ch": "給；送",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/8eb62d4f172cc0d25febd7544dc6d51b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "通常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/fe71c7d9dccf6bdedc57ca778fd256d4.wav"
+        },
+        {
+          "ab": "maezo",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/ca0fbf913ae20d55ce41f795f42adc44.wav"
+        },
+        {
+          "ab": "anana’o",
+          "ch": "原本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/f336a38ca7e0bfc0d845ebe33c8b84d4.wav"
+        },
+        {
+          "ab": "meelʉ",
+          "ch": "能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/0b5f094bf9e2dd654d74092f7709f125.wav"
+        },
+        {
+          "ab": "yupa",
+          "ch": "互相",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/3b10454b7289cab6037243c9fc539c7a.wav"
+        },
+        {
+          "ab": "’u’uso",
+          "ch": "往來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/3257148f807812b1cb08950f2a41f7d6.wav"
+        },
+        {
+          "ab": "’emo",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/3bad48cdf807c5c610b810ce96de4f48.wav"
+        },
+        {
+          "ab": "cono",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/fa8ee95ffd242f386c8bdc7e7c25471c.wav"
+        },
+        {
+          "ab": "yaemana",
+          "ch": "室內",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/1d13cc462a9e47e78be2e8922697b96a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "honci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/b948aa07167c9acb17487657e96870e5.wav"
+        },
+        {
+          "ab": "uk’a",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/d6bd6c6726780502d3d08075e10deda5.wav"
+        },
+        {
+          "ab": "’o’oko",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/1ed7d2ba2413e16205063b4029038486.wav"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/2f949375f27ace8f384cddf7127935c3.wav"
+        },
+        {
+          "ab": "micu",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/201c891dc157dadb40702bfaa20e446b.wav"
+        },
+        {
+          "ab": "mameoi",
+          "ch": "老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/46da3b840bc37bc08a065c41516711ce.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "通常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/758462675294d255f6a8910d2230eb2b.wav"
+        },
+        {
+          "ab": "toehunga",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/d15961dc9af441e7c69136c5c24bf5d3.wav"
+        },
+        {
+          "ab": "to’usni",
+          "ch": "幫助",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/d153cf5d900b80f1e2dc7e61fd8b420d.wav"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/94b870f58e2983e5733b54dfa1049e04.wav"
+        },
+        {
+          "ab": "aʉt’ʉca",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/342454ec716816628a08909fb12f3b5e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "鄒族有八個不同的氏族，安氏、楊氏、石氏、湯氏、梁氏、汪氏、方氏和高氏。",
+      "ab": "i’e mo voyu no mav’ov’o cimo cono yaemana ta cou, zou yasiyungu, yakumangana, yaiskana, yulunana, niahosa, peongsi, tapangʉ ho yata’uyungana.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/9a190b2d3a7c7fae28cef4c7bf821b12.wav",
+      "word": [
+        {
+          "ab": "i’e",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/f2544b4c4774a97657f28ae9f50c834a.wav"
+        },
+        {
+          "ab": "mo",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/3e426911d34b34dfcff99725190f07d4.wav"
+        },
+        {
+          "ab": "voyu",
+          "ch": "八",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/5a45d168e9f33ec49f8a2d18d15cba8a.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/3219c26b0594baa5ff0275160f336b80.wav"
+        },
+        {
+          "ab": "mav’ov’o",
+          "ch": "各種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/c3170f8469d39e848065a3bfc10c1b1a.wav"
+        },
+        {
+          "ab": "cimo",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/3fe7b426e117c2b0aec8a038aef9d4fc.wav"
+        },
+        {
+          "ab": "cono",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/c8eddff10c79a90192bdcdd941f6e17c.wav"
+        },
+        {
+          "ab": "yaemana",
+          "ch": "室內",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/11da58e98011beec3b67a61672370d95.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/86b1e6fbf3a90e8b3ab1204eb7cce3c2.wav"
+        },
+        {
+          "ab": "cou",
+          "ch": "鄒族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/419d76aa53ce654c87d89ea5c20fac89.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "zou",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/1caa4f0d81d9bd4cc49812774d944585.wav"
+        },
+        {
+          "ab": "yasiyungu",
+          "ch": "安姓（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/67a7d76991503f1668b8541a532eb5a6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yakumangana",
+          "ch": "楊姓（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/f595665710db841ea95fe9697aa61b02.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yaiskana",
+          "ch": "石姓（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/9860553f175be4eaca7990688da2eb6b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yulunana",
+          "ch": "湯姓（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/55f2cad795eba35becb202877f4f7616.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "niahosa",
+          "ch": "陳梁姓（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/0fadfa80b239d5b355229895b7d606ba.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "peongsi",
+          "ch": "汪姓（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/03c6983b92693f885cd24255b5dcc597.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tapangʉ",
+          "ch": "方姓（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/d1412658ed7327d7e7f98101e50f9edc.wav"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/b1fbaa186c0a8c018bde3dbd8be76f5e.wav"
+        },
+        {
+          "ab": "yata’uyungana",
+          "ch": "高姓（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/15/00a87cce41371cf384b1dd4628dc5ea7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

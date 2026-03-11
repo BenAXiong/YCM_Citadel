@@ -43,7 +43,7 @@ export const SOURCES: SourceDef[] = [
     { value: "essay",         label: "ESSAY",        vs1: true,  vs2: false, vs3: true,  rawdb: true  },
 
     // grmpts: 31k rows. Grammar structure drill sentences from Klokah /grmpts/
-    { value: "grmpts",        label: "GRAMMAR",      vs1: true,  vs2: true,  vs3: true,  rawdb: true  },
+    { value: "grmpts",        label: "PATTERNS",      vs1: true,  vs2: true,  vs3: true,  rawdb: true  },
 
     // nine_year: 19k rows. 9-level foundational literacy curriculum from Klokah /nine/
     { value: "nine_year",     label: "NINE",         vs1: true,  vs2: true,  vs3: true,  rawdb: true  },

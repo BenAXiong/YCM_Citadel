@@ -1,6 +1,954 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "semalem ta kana kizay",
+  "titleCh": "種植釋迦",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "來台東遊玩絕對沒有不想吃到美味釋迦的人，品嘗過必定會豎起大拇指說「讚」。",
+      "ab": "zuwa kani i Valangaw kivangavanga na trau mu, ka’azi’azi patalram mekan kana kizay, nu patalram ziya mekan kana kizay mu, ka’azi pulihu.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0f2aab038be93ff407d92af691001e73.wav",
+      "word": [
+        {
+          "ab": "zuwa",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b5b51ea98a0fe3ba71787a570deee800.wav"
+        },
+        {
+          "ab": "kani",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/12bdd15f05fb2ed3a519510a429870cb.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/57fdaeed1184b9c00dea0dd43e60f30c.wav"
+        },
+        {
+          "ab": "Valangaw",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/71cf1c5a5b9a3228e65d835f6626e192.wav"
+        },
+        {
+          "ab": "kivangavanga",
+          "ch": "來玩；旅遊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/93d81f9b6e094e2b39a86a28bf86cbc8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/10d6341046104f8da139be10e62ff81d.wav"
+        },
+        {
+          "ab": "trau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/1a03292de420060cb8466afadcb215d1.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/780734c71e73c67df5e176eb89f7e96b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ka’azi’azi",
+          "ch": "絕對沒有不…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4c3c5ff54d089debe4cf09cca0fd7694.wav"
+        },
+        {
+          "ab": "patalram",
+          "ch": "試著；嘗試",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/1fbd02197ce9924616402392d2554987.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6b3f17518b2688667707f5983b4a462c.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8f92489268091e776af351e2e3a4dff9.wav"
+        },
+        {
+          "ab": "kizay",
+          "ch": "釋迦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/89df62c49c1d379e459cb5b0f51cf0f8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e5c3ca247e426460c90bd80ee8145757.wav"
+        },
+        {
+          "ab": "patalram",
+          "ch": "試著；嘗試\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/63872edc3fa52d645b3d48f6d98caf2c.wav"
+        },
+        {
+          "ab": "ziya",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9bfbed4b466ec9566f5ba303143e3226.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/80ee9dccddf2b904dcb463359f83c207.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/27f02e5945fc8aeb7e3c493b73bf5025.wav"
+        },
+        {
+          "ab": "kizay",
+          "ch": "釋迦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e51d744514b334228d43dd605d556a61.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/eb1315e39aeebda66317dfb2a714cedd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ka’azi",
+          "ch": "一定\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e6803a5618fa4ece07bd974e1819e2f4.wav"
+        },
+        {
+          "ab": "pulihu",
+          "ch": "稱讚\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6d5a7b7c05079da49530bccb7c461041.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "時代的改變，農業技術日趨進步，水果的種類越來越多，改良出來的水果，又大又美，吃起來甘甜。釋迦有不同的種類，有大目釋迦，也有鳳梨釋迦，吃起來非常香甜可口。",
+      "ab": "kana muvalivalis lra na kakuwayanan mu, na inaekan na vuwa’ marekamelrimelri, dadawan zi vulay, nu mekan ta mu tavu’ zi ngulringulr. harem na kizay mu, sazu lra na merekamelrimelri, ulra na dadawan nantu pinimatrayan zi, maw na pangudangudalr na kizay, nu mekan ta mu salaw kana imaran.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/27/9c4a0ec995fd14fc1b2604231d650954.wav",
+      "word": [
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2b27806676f152808879a10a18ab8f55.wav"
+        },
+        {
+          "ab": "muvalivalis",
+          "ch": "變遷；改變",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5baa0eb72ac0b73597c4c059aaa4958e.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/22/d955419685d89eaca94de03e50bc96ed.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/58bf703fc3de07019c04902398cd94c1.wav"
+        },
+        {
+          "ab": "kakuwayanan",
+          "ch": "習俗；文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/da8ce7c1058c54bddb22518a53451a2d.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a1471605ca31bec5bec78407ab993b08.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3bd8470ffd3898c743cac3f450557a56.wav"
+        },
+        {
+          "ab": "inaekan",
+          "ch": "可吃的；口味",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/153cb1ce33970ad7b1952280b5bcdb9b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/97c63371d787d3b365fbcdbbf6ef46b1.wav"
+        },
+        {
+          "ab": "vuwa’",
+          "ch": "水果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/22900bf8fb481610b32fa0006a2ed375.wav"
+        },
+        {
+          "ab": "marekamelrimelri",
+          "ch": "各式各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d713c1a19bbc6a57883e8a8104fe85a5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dadawan",
+          "ch": "很大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/57dd961da50cff25ff7bf1d1524599d1.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/1a052032e27d3e51c8751a7b7bc261db.wav"
+        },
+        {
+          "ab": "vulay",
+          "ch": "漂亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/12edf889eef399802b29a49f5c24263e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3e19a441a78e7d055464bf913d69082a.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9b2221f35c0ff6ff5c4595ddca32e1db.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/19b6815423e2f21f715bebd61174250b.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e247f5b17c985100cb4f3678cffb30cc.wav"
+        },
+        {
+          "ab": "tavu’",
+          "ch": "甜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/fdc8f3ae43c37211c4fb2fee7c6a301a.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f752ebbcee8eb4863e53243f281bc4c6.wav"
+        },
+        {
+          "ab": "ngulringulr",
+          "ch": "有香味",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/29290a390e2b63ac65fe6c3eaca7f222.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "harem",
+          "ch": "現在\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/7f5665c07a0648765eb0305be0d15535.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/415cdeb5f4d44dc30786f9704bcdc549.wav"
+        },
+        {
+          "ab": "kizay",
+          "ch": "釋迦\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/03051b60c38656fc7f20d77dc98cdc12.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/41638f66886d8cad3294a48cc5fb4bfe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sazu",
+          "ch": "很多\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/19745c49d2da422960c5dcce9837f468.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/27/9b7c391b7c3a04b8799df41b3cb95c74.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f7928b4f341d2561f60c27da99a94cd9.wav"
+        },
+        {
+          "ab": "merekamelrimelri",
+          "ch": "互不相同\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/cad1a66cb34f6458f7d893a2ccd3646c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulra",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/192efa842106e105486c56efdb207270.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0256342ba51df5367dc09b6739f7310e.wav"
+        },
+        {
+          "ab": "dadawan",
+          "ch": "很大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/dd6177a6fe985219110851109eb156fe.wav"
+        },
+        {
+          "ab": "nantu",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/bd784a324460ebde215f82d65d890a7a.wav"
+        },
+        {
+          "ab": "pinimatrayan",
+          "ch": "所結的目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/53e59252ac336ab9656b4291c8a536c3.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6e66c7aa1f38f778984d8d03d8d38526.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maw",
+          "ch": "是；還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b1d96f2da65e5627d54655e2baad7029.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/37cb2db5f15de57148ecbb05511c397d.wav"
+        },
+        {
+          "ab": "pangudangudalr",
+          "ch": "鳳梨\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f35aed4d4eab1a9880bc2ef2a3e0f2c4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f8e69b0a17e15c8c21a6e539680aa90a.wav"
+        },
+        {
+          "ab": "kizay",
+          "ch": "釋迦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/614f6482e8bfbbe4712c83211a1f1a0c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3b95c5967881658b18794f05a343e51d.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5a7bbdf4f19266db60da16c6d8457937.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/7dfb77981eb9a5af36595da66f6acacb.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0d5db791e260aff09b1844fbbf0b97d5.wav"
+        },
+        {
+          "ab": "salaw",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2e23afb496162b751f1be6d4f6168289.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/49ad0a5e25ddcad21403ee9bd53d995c.wav"
+        },
+        {
+          "ab": "imaran",
+          "ch": "好吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/600c7eed5c685964b1b2fc45324e802c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "台東的土質及天氣是最適合種植釋迦的地方。種植釋迦要施肥、噴藥；天黑時才能為花授粉；每兩個月要除草一次；結果時還要一顆顆為果實套袋，這些工作非常辛苦。",
+      "ab": "i kani kanta i Valangaw, tu pinidare’an zi, maw na wari, maw nantu kinirepauwayan semalem za kizay. nu semalem ta kana kizay mu, putayhi ta, putremer ta, nu ’aremeng mu, midintu ta mukuwa puvuwa’a \r\nkanantu ’aputr, nu zuwaya ’ilras lremepit ta parasan za tu tralunan; nu mivuwa’ lra mu mukuwa ta tremavuwa kana tu vuwa’ temukasakasaya, salaw kauleulep inia na kiyakarunan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/27/cb7c6ac5a009dffd6d49f7cfa739d971.wav",
+      "word": [
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/34a1dde26ec36b6fa918c8af4b70133f.wav"
+        },
+        {
+          "ab": "kani",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/50de016246f61bd386c05e033920d998.wav"
+        },
+        {
+          "ab": "kanta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/158502ccd142b08be2eee82a07c9a686.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/c443302213197368f6c43211d9a2c42e.wav"
+        },
+        {
+          "ab": "Valangaw",
+          "ch": "台東（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/bbda667d531ca49eb69f9c962a5c3105.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/14620b1735d066f1d529c3d5fc6160fd.wav"
+        },
+        {
+          "ab": "pinidare’an",
+          "ch": "土質",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d987fd77fb1625a51ef1139ba699319f.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3516e6f4575546f21b86d6149b93e5bd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maw",
+          "ch": "是；還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/bad87d193d7846b38df88d7ec5c3ec7a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2b0570dbbfa26a8f1599b9a125976042.wav"
+        },
+        {
+          "ab": "wari",
+          "ch": "天氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5049e9e34b4abf6155aacb2dc27d9f2a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maw",
+          "ch": "是；還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9b86df3dcfd5c02288a13eec217dbef8.wav"
+        },
+        {
+          "ab": "nantu",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/293e60f11b4764726fde44c616828deb.wav"
+        },
+        {
+          "ab": "kinirepauwayan",
+          "ch": "最適合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b691888bac47a2e8c14a2f5e4e7562a8.wav"
+        },
+        {
+          "ab": "semalem",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d1c1f053fea948e00f47893ff3e63d0d.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/31cb8b82a0f81eb1627f7ba3bef653f5.wav"
+        },
+        {
+          "ab": "kizay",
+          "ch": "釋迦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/27ff4e2280a304d1e199f9986539b3ff.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d845b1c796c792278ecc890bfd899594.wav"
+        },
+        {
+          "ab": "semalem",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5f173dc544ca977853ff56d2a56dd855.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/eb7809549ba835e16881e0285a68c145.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b7fd349fb43d7b7ba86e73ff8fa228cd.wav"
+        },
+        {
+          "ab": "kizay",
+          "ch": "釋迦\r\n\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b70188491798e86129a57180426213ff.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3b213fa1a664b6af90375478f6c5c5f8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "putayhi",
+          "ch": "施肥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3dd46a3cad4dc241d9725baec0c67c36.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/22/415974cf0efb9ca49027136cf2d88ad2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "putremer",
+          "ch": "噴藥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/76a93479e54844a3d351de509e356a56.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a79eb2a090f114be0b909879f792ba76.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/60dce8e7ee8f636dad944f24ef10b86f.wav"
+        },
+        {
+          "ab": "’aremeng",
+          "ch": "晚上\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f8037cbf534139f7f0a408c964fa1b36.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5f1a74542f377515c7f0e8529420fe66.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "midintu",
+          "ch": "帶頭燈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/564dbeaacb48a13028d8d9f4d596a186.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0cd8371ea3e672bd332f167763aa5d09.wav"
+        },
+        {
+          "ab": "mukuwa",
+          "ch": "去\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8b161c07c42de44bb3083707939aefe0.wav"
+        },
+        {
+          "ab": "puvuwa’a",
+          "ch": "授粉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/774032ee9750a99c20dabdaccfc52b05.wav"
+        },
+        {
+          "ab": "kanantu",
+          "ch": "它的[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/27/025684f3a6ef4b207530316ca8136d9e.wav"
+        },
+        {
+          "ab": "’aputr",
+          "ch": "花",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/45508c3f9513e7107fef51607b9ca13b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d2e733374ccbc013195e2696551b823c.wav"
+        },
+        {
+          "ab": "zuwaya",
+          "ch": "二個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/06/70930a2f74adf7bf322cc137c7b9ecd0.wav"
+        },
+        {
+          "ab": "’ilras",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/85c07abe4ea6242ad08034b14a75b6db.wav"
+        },
+        {
+          "ab": "lremepit",
+          "ch": "除草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/857e9753bf235db1fa58ef2162bb6e42.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/65036bf9cef9acc969c140b98a70ccfb.wav"
+        },
+        {
+          "ab": "parasan",
+          "ch": "一次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/16c0f87dabaedf9b9b7ad4110639813f.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/bfc836ae53cd9543e8f3a12970f48265.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3b4ac14a80cb0357e8255d55c694c922.wav"
+        },
+        {
+          "ab": "tralunan",
+          "ch": "草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0f8adb83a042059c41c46e2e93506d4b.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e2925b097549ccda96f0ca13d25ae102.wav"
+        },
+        {
+          "ab": "mivuwa’",
+          "ch": "結果實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a31cedae93e1b076254f28d4a9b71319.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/eeacd5859fd35537b101c87746488249.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f752cd0fba5b986e2addd3732e89408f.wav"
+        },
+        {
+          "ab": "mukuwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e0b250a3123283d06804526510b5443e.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ddbb85ad3e87604e65d162b13de8f562.wav"
+        },
+        {
+          "ab": "tremavuwa",
+          "ch": "果實套袋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/27/7e60d8941e723aa05e8a3f7d4ebdcdb3.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f10f3a9589ce9e4d1324fc38c1f7ac3d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/34cbc815a44fe6f0e21a03995a50be49.wav"
+        },
+        {
+          "ab": "vuwa’",
+          "ch": "水果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/bfdc2b8ad31567a0fe5894b24bfa61b1.wav"
+        },
+        {
+          "ab": "temukasakasaya",
+          "ch": "一顆一顆的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2cfec3acb2d15b1583cb5d9ee2c45fad.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "salaw",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/dcc268d404f8e07eeaa2f741a78966e1.wav"
+        },
+        {
+          "ab": "kauleulep",
+          "ch": "會很辛苦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ef97b6c02c99022fd59ea8a5ca15ad08.wav"
+        },
+        {
+          "ab": "inia",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3afecbc6dc480465cdb7511d35eae695.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f0a0ad3c9f6284a24bf36485e0ffd8ff.wav"
+        },
+        {
+          "ab": "kiyakarunan",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f13b3f203a45a0aa740b157669d050d3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "釋迦一年收穫兩次，如此的好價錢，能夠使我們生活過的更好，也能提升台東的觀光事業。",
+      "ab": "na kizay nu sa’ami maruwa ta parepuwan kikizay meniwan. kemani kana mitrima’, maruwa ta paka’inava zata iyavaaw, aruwa ta puitras i Valangaw zatu kivangaavangan.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2130c0bbdc766097cc2e1abf4fe09298.wav",
+      "word": [
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/719c42e8fb7d391f1f8481ccba539727.wav"
+        },
+        {
+          "ab": "kizay",
+          "ch": "釋迦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/39856a75e010ef47d947298bf0609433.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e22fe568df69988c34f3d50a1e30c678.wav"
+        },
+        {
+          "ab": "sa’ami",
+          "ch": "一年裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/76021a7e1269f7ff36ff3d638aec49e9.wav"
+        },
+        {
+          "ab": "maruwa",
+          "ch": "能夠，可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4c899ae2c34ed1013a31c498c32ff0d2.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/51b70588fb96efb74d14b8f878d43381.wav"
+        },
+        {
+          "ab": "parepuwan",
+          "ch": "兩次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/67eb5eb6925290af1e03aa5b7d2ebab2.wav"
+        },
+        {
+          "ab": "kikizay",
+          "ch": "採收釋迦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9f2f1528d61b48e771447f12f61720ac.wav"
+        },
+        {
+          "ab": "meniwan",
+          "ch": "去賣\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/62be7e32239cc4630b56882d9e3f95b2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kemani",
+          "ch": "這樣，如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a34938b02574c5bc0bc11a252b7edcc6.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a5dccabab1164f55a29347df7bf2e110.wav"
+        },
+        {
+          "ab": "mitrima’",
+          "ch": "有好價錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3fb73a2c611e80be88fcc6e4bfee57dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maruwa",
+          "ch": "能夠，可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/90beb9ba97ca549d784bd818794e8895.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ff818a5718fe413682dbeb2f5d0ade01.wav"
+        },
+        {
+          "ab": "paka’inava",
+          "ch": "讓…更好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/c73188fc1ddc95f6d0728dfe02bfcf7c.wav"
+        },
+        {
+          "ab": "zata",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/1a267f243f6115378b4f53596e285eb2.wav"
+        },
+        {
+          "ab": "iyavaaw",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/47f74be4082fa3a5561e973202e6b4a3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aruwa",
+          "ch": "可以，能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/01fb32d071ad70f25cddfb05b02108e9.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/50594af4af9931fbaebef89c4c7d7ce3.wav"
+        },
+        {
+          "ab": "puitras",
+          "ch": "提升",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/41e61295266e16e43e52f7adc4debb71.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/22/0cb114607a22a310b3bf4fab0e0dfafa.wav"
+        },
+        {
+          "ab": "Valangaw",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8423e19084f7698fc48f621a3bb607f8.wav"
+        },
+        {
+          "ab": "zatu",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f9e6be50e6254ad24f2bd86442ada1d3.wav"
+        },
+        {
+          "ab": "kivangaavangan",
+          "ch": "觀光之地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/440ba9fbc03f1946fed46673c14fc140.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

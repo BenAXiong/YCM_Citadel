@@ -1,6 +1,1366 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "magnuhyi’",
+  "titleCh": "遷徙",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "台灣的泰雅族，基本上是從中央山脈周邊遷徙而來的，部份是從南投霧社，或者是從新竹五峰遷徙過來，之後族人散居台灣各處。種種說法都有。",
+      "ab": "Itaal runi i Taywan ga, macka’ kiya kahabaag a inuwahan nha’ ka pinugnahian. minukahul i kaciyuciyuk na Cungyangsanmay, karuma’ ga minukahul i Nanto’-Us’, quga minukahul tagi Sincu’-Ufng, ru’ magagaang inuinu’ na Taywan. payux cubalay a pinungan ka kayi’.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/10/c5af86abf6e54e21d08d927bd10acd3b.wav",
+      "word": [
+        {
+          "ab": "Itaal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/0796c2c61b3514f256a4861eb8c4680d.wav"
+        },
+        {
+          "ab": "runi",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b2def474b8a15ee927c31fb13298c43f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/da783203fab360d6769da5dc1039ff72.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3d7a13e635719597d8b7a038c53594b9.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8fc6df3b06bd09b3fce205e6d81ecc9d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macka’",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/e6f86d46828e7fb24985ff411100d660.wav"
+        },
+        {
+          "ab": "kiya",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/54b90d6dde3f12e2e0af6159120bdcf0.wav"
+        },
+        {
+          "ab": "kahabaag",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/2651e19e10e22b3b904ac25774ae3180.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/87b8293e1bab2e6d0f01ad6a44116ff8.wav"
+        },
+        {
+          "ab": "inuwahan",
+          "ch": "來歷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/1786dea9ac8dbf3bef0534ca70bbb8fe.wav"
+        },
+        {
+          "ab": "nha’",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b11612f3852dbb5510e9a4d37d72ea89.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ffc042191db8a478f61d86421b95fec8.wav"
+        },
+        {
+          "ab": "pinugnahian",
+          "ch": "遷徙處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/5c2184cbef91da46b89b7cb9c24e4ea8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minukahul",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/e9cb3703ca2ee50e859ea5d5d0f2e4aa.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/aa8f5505df9955e4111eafd7b5ee3374.wav"
+        },
+        {
+          "ab": "kaciyuciyuk",
+          "ch": "周邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/dd8e04410426905dc4eef377c2188636.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d266527e53997edc3779669e636e2e52.wav"
+        },
+        {
+          "ab": "Cungyangsanmay",
+          "ch": "中央山脈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/97350e7c3e028bc03eece7dae4989345.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "karuma’",
+          "ch": "有的；另外",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/0baf9ca45e96e079568e2febfb9d2db4.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c8ea45f43c5a3bd8c9abe08a94ed661c.wav"
+        },
+        {
+          "ab": "minukahul",
+          "ch": "來自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c89b2b693b8781ffcc170fde08ad00cd.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3543c8d22f577288bda6e50695ded0c9.wav"
+        },
+        {
+          "ab": "Nanto’-Us’",
+          "ch": "南投霧社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/23/53a7d2aad5beac58a2c06966f1b3f8b8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "quga",
+          "ch": "或",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/70244d4d62f8905e94c4ca982b4e3c5d.wav"
+        },
+        {
+          "ab": "minukahul",
+          "ch": "來自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/68664bb5595a22918bddc5ce3d54608a.wav"
+        },
+        {
+          "ab": "tagi",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/a19e403d0a4563548a5002680d2cf9b2.wav"
+        },
+        {
+          "ab": "Sincu’-Ufng",
+          "ch": "新竹五峰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8e38c9d2d82146916223dcc7cee9578a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ru’",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/5625758969d7bf5499254dfae20b0e23.wav"
+        },
+        {
+          "ab": "magagaang",
+          "ch": "散佈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d4fa5108fc772fe31138e60ba5c65392.wav"
+        },
+        {
+          "ab": "inuinu’",
+          "ch": "各處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4de71e637e40c9033e3ecc0f7229359a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/397ca02f6873205d3de9613fa11487b8.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/26f7c101390c5d0274757448ba3b841b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "payux",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3e932136a2bd1caff410295352a777af.wav"
+        },
+        {
+          "ab": "cubalay",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/e3665dcbad37f2a6eb3ccc4e9dd809bf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/67c5b0a8e07df9c7419ae2b280a43a9b.wav"
+        },
+        {
+          "ab": "pinungan",
+          "ch": "聽過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/989865a4d5ed366b169236f0588b0acc.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c4b041e84b94a011ea0313a722b0b595.wav"
+        },
+        {
+          "ab": "kayi’",
+          "ch": "話；傳說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/2720238f3362409dcb8256234b25dfd4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "曾經聽耆老說過，我們汶水泰雅族群來說，較少遷居現象。某一天，跟Baycu’爺爺聊天，聊從小時候到老、農耕、生活等等，無所不談。他說汶水族群原本安居於後龍，自外來的閩南人外來並搶佔我們原本生活的領域，且族人又沒有能力抵禦外侮，即便心有不甘，也只能節節敗退而移居深山。說著說著，憶起從前生活上的點點滴滴，老人家眼眶不禁泛淚。",
+      "ab": "pinungan mu tikay ku nanabakis mha “ukas cuqaang a pinughian na asigi ita’ ka Matu’uwal”. riax ka qutux, musa’ ci maskakaru’ ki yutas Baycu’, aring cu hbu ruu’ cu nabakis, papinumuwa’, kinqiyanux... ukas a ini’ niyam paskakaruani, minbalballayq ti maqiyanux i Holung ka Matu’uwal mhama, muwah kumawp ku Kamciyulang lru ingacan cami niya’ cu qaqiynuxan, anauwi ga bali kiya a rngu’ niyam i cumru’ ru magagaang cami magiyay inuinu’ ga, papgiyayun cami kiya cku mini’iyani niyam qawnam, ruu’ asi cami lau langaag i ragraggiyax. sipanqaquu’ niya’ ku wawwaw ka inuwahan na Nanabakis ga, maimag makasiun ca rawweq niya’ ku booq na rawweq.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/10/61ad7bbcf7465df4bb1e5e73bd7073b9.wav",
+      "word": [
+        {
+          "ab": "pinungan",
+          "ch": "曾聽過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/296002557481bdac86e3d009e227a291.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/aafe0069c7596030315840a666c9b748.wav"
+        },
+        {
+          "ab": "tikay",
+          "ch": "一些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/6b8831c60c67f5be3dca4eab59f13746.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c6ff427472b744f1c941423a8fca03de.wav"
+        },
+        {
+          "ab": "nanabakis",
+          "ch": "耆老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/9994ecbb373b086a053d62bf9fb4f92e.wav"
+        },
+        {
+          "ab": "mha",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8ce4083bcf3583da9e40cd58da7b97bc.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ukas",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/a931e65d9cfa35d54e8757c6d1469976.wav"
+        },
+        {
+          "ab": "cuqaang",
+          "ch": "過於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/bacb92a51fe4aecd5e7486d1199148c0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/5e7663b03dd51b2b4b6a7e46b191bd49.wav"
+        },
+        {
+          "ab": "pinughian",
+          "ch": "遷徙處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3e41e463210a082e7d87b9081b73eb6c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/98b5c36de41bbb604a986c8d43ac777a.wav"
+        },
+        {
+          "ab": "asigi",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/7c0b69d757965a7d5ce10e2e5d23dfd3.wav"
+        },
+        {
+          "ab": "ita’",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/67e3ab1380479fbbfab9c4d99ff22f33.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/05a31ed7b188726ae92ddd6fc109a262.wav"
+        },
+        {
+          "ab": "Matu’uwal",
+          "ch": "汶水泰雅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/9c7f2768e4c8c68ba4f69e811a0e23dd.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "riax",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/a22d8b13d9d12161d052ce9b58994152.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/a04d0b0547b78849fb3dcf1e96abe760.wav"
+        },
+        {
+          "ab": "qutux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/25f7983396494fa29bc4ff06bd07001a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musa’",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d5e93be9c791efad9046caf71ce2d372.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/db0650d08c5ae96f1efa6c5d7a8d9b97.wav"
+        },
+        {
+          "ab": "maskakaru’",
+          "ch": "聊天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/909eaac5893e8744e88bc9b0cf7f27a1.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/cce3daec802095758634087529d8eecd.wav"
+        },
+        {
+          "ab": "yutas",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/dc19f8173a695b8fc864503124093db2.wav"
+        },
+        {
+          "ab": "Baycu’",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/12fc93bd6317232198e8781c60226cd5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aring",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b352fc6912bda109e2631552b6e70ce9.wav"
+        },
+        {
+          "ab": "cu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/a1a8146cdef8aa95703ba5dbe9631394.wav"
+        },
+        {
+          "ab": "hbu",
+          "ch": "孩提",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8050acdcf6192cc7187a1ba38b7daba1.wav"
+        },
+        {
+          "ab": "ruu’",
+          "ch": "直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/f928ed0fb7b0e858bb9b483080b2894c.wav"
+        },
+        {
+          "ab": "cu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d04687052c58de9f2174672aa7039e1a.wav"
+        },
+        {
+          "ab": "nabakis",
+          "ch": "老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c6e61ea9d09f2b9a2f6fe0d14a5a54a3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "papinumuwa’",
+          "ch": "農耕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/23/efa9e472bf264a5e2c265eb6849b10d0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kinqiyanux",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/804e0fb41246058e5eda8da583874acf.wav"
+        },
+        {
+          "ab": "...",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ukas",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/f8972d690ed9f896c0d849c5519dcef5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/576e1ebe501fc1bbd2baee578538f637.wav"
+        },
+        {
+          "ab": "ini’",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c671bea97d71f76d0e625a13c707a1bb.wav"
+        },
+        {
+          "ab": "niyam",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/0b8d5ad24e2e82455689aa83dd3a4481.wav"
+        },
+        {
+          "ab": "paskakaruani",
+          "ch": "聊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8d281ffdfe94bc45129ad7d9c50fed4f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minbalballayq",
+          "ch": "曾好好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ac6255fa4de086f8c58a333714f38ad3.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/66edd0ad44c18a788cb754e405bad246.mp3"
+        },
+        {
+          "ab": "maqiyanux",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ef8ab770d2e613e6959e4405b6c4bd68.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ea0add3cad317330ccf4777164fc3893.wav"
+        },
+        {
+          "ab": "Holung",
+          "ch": "後龍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/09d36648e59655678c8aa8601df1f9e9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/de89d79991c627025f725f7e492e2a1a.wav"
+        },
+        {
+          "ab": "Matu’uwal",
+          "ch": "汶水泰雅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ddfa8835a56a58b953d6d201cea795b6.wav"
+        },
+        {
+          "ab": "mhama",
+          "ch": "說的；說過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/f78c28e0117121e2f325712eef31da81.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muwah",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/e2583c68b3d46103a0e0bff635f9d8bc.wav"
+        },
+        {
+          "ab": "kumawp",
+          "ch": "外來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/240be157e8589f417bbfae13fc12f87f.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/24c5a6dbbacc9f2d5a902c9dfcfbfb63.wav"
+        },
+        {
+          "ab": "Kamciyulang",
+          "ch": "閩南",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/9a8a9d81dfaa790d1a5c84663a470490.wav"
+        },
+        {
+          "ab": "lru",
+          "ch": "之後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/13118c7daba7bf6dafb18380ed02d726.wav"
+        },
+        {
+          "ab": "ingacan",
+          "ch": "搶奪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/0a003c7feb222fcbb535025ee74f6f24.wav"
+        },
+        {
+          "ab": "cami",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8b3b5840437798433663a11b4f363235.wav"
+        },
+        {
+          "ab": "niya’",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/74c91053465b05ed15e816596fefa093.wav"
+        },
+        {
+          "ab": "cu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c24393a062633d6cb01632855eb3bbb9.wav"
+        },
+        {
+          "ab": "qaqiynuxan",
+          "ch": "領域；生活處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/cd0ddf99cb4eff306b433cb4d6937c27.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "anauwi",
+          "ch": "又",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/cfbdd53427adac998e0dd01f9c000b4d.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4aa4ee9f2cd03bb25f8b4284f612d50e.wav"
+        },
+        {
+          "ab": "bali",
+          "ch": "並非",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ca2f7fdcf33ed5880ed0afea97746a93.wav"
+        },
+        {
+          "ab": "kiya",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/5f2a9c0afc3a02dba77b4892875dbc50.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/291568918b9fffc013e924bc517f3591.wav"
+        },
+        {
+          "ab": "rngu’",
+          "ch": "力量；能力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3b2c790040663d735a4cd1f884844c83.wav"
+        },
+        {
+          "ab": "niyam",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b0f190dd0052b02cbe7711b1b049c685.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/a4145793847766676b41c2f50b1848c7.wav"
+        },
+        {
+          "ab": "cumru’",
+          "ch": "抵禦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/2752762405675a9821445ca568e75028.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "之後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/16675e65fcce144bb3f70ae02e53ceae.wav"
+        },
+        {
+          "ab": "magagaang",
+          "ch": "分散",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/2c49b41b3c6437566e10e15c8f79879a.wav"
+        },
+        {
+          "ab": "cami",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/536a548cb15065a95e2c40e8e83bd1e5.wav"
+        },
+        {
+          "ab": "magiyay",
+          "ch": "逃離",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/0c264443ccb28fb8e1aa80a7a536daa6.wav"
+        },
+        {
+          "ab": "inuinu’",
+          "ch": "任何地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/820c8dc6d47c4369c4adb079bdeca944.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/425fb3be780f37b11871f961e59daf25.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "papgiyayun",
+          "ch": "驅離",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/1b8d3c61def61c02af8199d804153dbb.wav"
+        },
+        {
+          "ab": "cami",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/dceb1ab51ad77e7f17da025fe11cbc5c.wav"
+        },
+        {
+          "ab": "kiya",
+          "ch": "哪裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/096d13276cb6494d93383dd0f3a23114.wav"
+        },
+        {
+          "ab": "cku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/18/891ca4d75ed842e3edd70989b4788e27.mp3"
+        },
+        {
+          "ab": "mini’iyani",
+          "ch": "原本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/12/25a322409185c0e44a8485d06e9aae58.mp3"
+        },
+        {
+          "ab": "niyam",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/18/deef61276a20fa53c81a8363424ea89e.mp3"
+        },
+        {
+          "ab": "qawnam",
+          "ch": "領域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/18/dc1b47af23fcb72726dbcead72a6b621.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ruu’",
+          "ch": "直至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ff13fe46cc3419aacb8e2b381eb7cd69.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "只能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c1af30db1022e8bf32f20613c24cd35a.wav"
+        },
+        {
+          "ab": "cami",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/37d3ab7226ced9f6a84b719c9a6f7660.wav"
+        },
+        {
+          "ab": "lau",
+          "ch": "只",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b08b338d5f826c3812454c5ab714fe6b.wav"
+        },
+        {
+          "ab": "langaag",
+          "ch": "目標",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/59ff739b3e76a203646f749677c996d3.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d0ac17d7d33508a424dce41beccebda3.wav"
+        },
+        {
+          "ab": "ragraggiyax",
+          "ch": "山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/234e39ed3034cd2c7ec66006e13399f8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sipanqaquu’",
+          "ch": "敘述",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/0ba669f359d0bcf3337729565b5fd1f4.wav"
+        },
+        {
+          "ab": "niya’",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4ab34f7d29985de004f8b8bd40880941.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/098402b49be4b19145965ec611770d02.wav"
+        },
+        {
+          "ab": "wawwaw",
+          "ch": "事務；故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/5b08ebc6c29822f9269b3c861af0ba75.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d6a2f67e258bfa21ab4f253cdb106b30.wav"
+        },
+        {
+          "ab": "inuwahan",
+          "ch": "來源；經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4180e644aaaac386fa9b47d1a1eec304.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/10f2d5eb05430a7503e44c9869255fb0.wav"
+        },
+        {
+          "ab": "Nanabakis",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c8e2da9be5e8ac592bec7ea66ae57e1b.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/daaa3c103d5c0389804921160d7a1312.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maimag",
+          "ch": "甚至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d1a0d99e17d10627c084650631900f55.wav"
+        },
+        {
+          "ab": "makasiun",
+          "ch": "滿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/f4315d0b674e55c4e4cd785e6a34d4d0.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ca0695ffbb8cd4af65fb340b1c8a2f36.wav"
+        },
+        {
+          "ab": "rawweq",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/e1643110ae727975967755cd94349897.wav"
+        },
+        {
+          "ab": "niya’",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/abeeea2eac6ce7846c8c555f5afa8bb4.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c743c20eb94746bd98017e82c07169ae.wav"
+        },
+        {
+          "ab": "booq",
+          "ch": "汁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/fa23d317452c540f956bdd4d00b34858.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/cffa50b2ffa0ef10382043662b726cf8.mp3"
+        },
+        {
+          "ab": "rawweq",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/f0fbb4703dbba4520a15a924351a98a9.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "原住民遷徙的故事很多；我聽說的是早期族人的生活拮据，買不起使農作物健全生長的肥料，所以族人們必須尋找未曾墾耕的土地；也有說這個地方住太久，獵物必然漸少，致使強壯身體、工作能量的肉類取得不易，移居他處也是原因之一；泰雅族有埋葬死者在寢室的習俗，這也會使族人遷居。總之，取得延續生命的好場域，當然也是原住民族的文化習俗之一。",
+      "ab": "payux a kakalan na papgahian na Itaal, tiku pinungan mu ga, aqeh a kinqiyanux na Itaal cunga’ ru ukas a babaynay cu xiriyu ka kakbalayq na papinumuwa’, asiki kumiyum lawwi cu iqaa pintuwawan ka nagaqaw; kiya uwi ku mha ingasug kakian ku qawnam ga, ukas cuqaang a qaqasinug ka kaklawkah na rngu’, ru magiyay qawnam cabuwinah. kiya a Gaga’ na Itaal ka gumbul cu minanahuqil ca iyk na qaqilpan, yani uwi ku sipagiyay cku kinakian. aniasisali ga yani ku balayq a kaqiyanuxan ku bahagun, Gaga’ ka qutux uwi na Itaal ku magnuhyi’ inuinu’.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/12/be4579c55a5d5d1028b6e813c1ec02a7.mp3",
+      "word": [
+        {
+          "ab": "payux",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c5ce546fd3d8a0eb52f9ae1c76350fde.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/e633b29cfa51a2b8d32b04bf9fdbf9b1.wav"
+        },
+        {
+          "ab": "kakalan",
+          "ch": "說法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b434973cfe66449b42625ebdc37f8013.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/78948d92b1e9351d5b1368dbba8c016e.wav"
+        },
+        {
+          "ab": "papgahian",
+          "ch": "遷居",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/22202c904f7ac26b48d408fe84bb179d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c7fb09f9c56c43a74af5d9512d277475.wav"
+        },
+        {
+          "ab": "Itaal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4d4563166e0fa0d41e7f5f2f6a4c1015.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tiku",
+          "ch": "至於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/eb349fdf49bdeb27381d36defa0bb682.wav"
+        },
+        {
+          "ab": "pinungan",
+          "ch": "聽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b2952aa88a957b9e8ad17406b22dacc1.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/daac45bf64b04902448fbfa12b5ba2d2.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/5618526c4a4bf312c5b608249ee23219.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aqeh",
+          "ch": "不好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4f12841e5e4cf1b6dfad0de917dcc289.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/a6ea8bbd87865fb2d878197c7018a8ef.wav"
+        },
+        {
+          "ab": "kinqiyanux",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ef5b8e0d85aaa3cb569d9ded50cb9482.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/1e05df8c044c4aea507b6660c765cb4f.wav"
+        },
+        {
+          "ab": "Itaal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/1a5c54088ac0f6f377d84f146399a8b0.wav"
+        },
+        {
+          "ab": "cunga’",
+          "ch": "早期",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/7384dd4f80ad06e0b987cac9613a5606.wav"
+        },
+        {
+          "ab": "ru",
+          "ch": "並且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8429d546a6863d2c7c05edca5babcebf.wav"
+        },
+        {
+          "ab": "ukas",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8f525be9215d86f58355460286cccd32.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/da7b2bbe18b45425340a6d56181af1b9.wav"
+        },
+        {
+          "ab": "babaynay",
+          "ch": "買",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/a183fce27d70bde6bcc015106c9c259a.wav"
+        },
+        {
+          "ab": "cu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b9d5510bf96567fdbb31243f14cb74b6.wav"
+        },
+        {
+          "ab": "xiriyu",
+          "ch": "肥料",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3901ab8c87d6531fbea3b294ac9bbd43.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/dd59c89a54ebaf71e06ecfd052dda943.wav"
+        },
+        {
+          "ab": "kakbalayq",
+          "ch": "使…好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ffd771c71fd86d04a5c5896a1546c043.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/2aa82cf154b2169c981851d507ece947.wav"
+        },
+        {
+          "ab": "papinumuwa’",
+          "ch": "農作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/e7d70023b5fbf7ef1d0a0cc420ec6ebe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asiki",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/63bc981f433daeb8e8a523a0d2fe8702.wav"
+        },
+        {
+          "ab": "kumiyum",
+          "ch": "尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/23/18269caa7e5664c33c22d8e9aa45dbed.wav"
+        },
+        {
+          "ab": "lawwi",
+          "ch": "又",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/6749c8400b781343b8f6691b6c436024.wav"
+        },
+        {
+          "ab": "cu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d5513907eea66512aba369120da6834c.wav"
+        },
+        {
+          "ab": "iqaa",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/9e155d47cc9be2e194fefcb7bfa64a7c.wav"
+        },
+        {
+          "ab": "pintuwawan",
+          "ch": "耕作地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/9f69f2d2b2d1896813f2cfbb15a8ed20.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/f861fe8b40a171f75259e2145c917a8e.wav"
+        },
+        {
+          "ab": "nagaqaw",
+          "ch": "未耕地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/15cf2a6901e8353904b55e46f9980a2a.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiya",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/fc0d094127ef1e1c2aab4b60985645da.wav"
+        },
+        {
+          "ab": "uwi",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ec44a61ed571ec450ee122ddb673b882.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4660fb9ff9dd10635a632e45500aff2f.wav"
+        },
+        {
+          "ab": "mha",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3957d2eac55a3295f2fe0de00931c95c.wav"
+        },
+        {
+          "ab": "ingasug",
+          "ch": "久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/ee06ed1e0e39ece1a1ea61ab0736626c.wav"
+        },
+        {
+          "ab": "kakian",
+          "ch": "住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4aab98836491b97f09ea65224749b804.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3b086cdde854f000d5808360c73a86d1.wav"
+        },
+        {
+          "ab": "qawnam",
+          "ch": "領域",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/04dd6ce603bf7e6cbcc15cef7ea0236e.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/4b3d1251a8d58b4733542911617ddf10.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ukas",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/677c81c66b71bdae67190fbfbf1650cc.wav"
+        },
+        {
+          "ab": "cuqaang",
+          "ch": "太",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/871ad872ad4982ea97b4c052ce2a6da7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/482ba5fcb855b39342ca72c27e402b0e.wav"
+        },
+        {
+          "ab": "qaqasinug",
+          "ch": "獸類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/e3126dd02f4d3d2dbe2c9b1b5bfc70bd.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/7897136ca384fdd290da27755e3a5c2d.wav"
+        },
+        {
+          "ab": "kaklawkah",
+          "ch": "健康",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/217b5eea71f3b61ef3e64b1ee416970f.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/9c3e3ae4b7c9c8b6770d98cdbc9a54bd.wav"
+        },
+        {
+          "ab": "rngu’",
+          "ch": "力量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/59f50f9ed5de22f6e8bff6b54a839d1a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ru",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/52b1ea4144e23313305f9062f9360d88.wav"
+        },
+        {
+          "ab": "magiyay",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/6c029b8e6dfcc2c96cc8526027fa4811.wav"
+        },
+        {
+          "ab": "qawnam",
+          "ch": "生活處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/af78251835f4227bda0fb009c88d85c4.wav"
+        },
+        {
+          "ab": "cabuwinah",
+          "ch": "他處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/1b592e27be649eb3b02a058c32a634bd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiya",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c867a281250f4d74aec46511a0ee7698.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/8b0d88415bd372b4185b57a5997bff29.wav"
+        },
+        {
+          "ab": "Gaga’",
+          "ch": "習俗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/07b49d9f127f84779bb800eb4c77f5ee.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/6113716edb1f1f4ef993f18eb3e0b864.wav"
+        },
+        {
+          "ab": "Itaal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/529899b132a683bcd4d5dbe44f8e123a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/de7427526bb346010489f2a4e8c3eae3.wav"
+        },
+        {
+          "ab": "gumbul",
+          "ch": "埋葬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/766730c1ffbefe913cb97f284bfabcc3.wav"
+        },
+        {
+          "ab": "cu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c43849cbd45349c95ecec36ba9ef6fec.wav"
+        },
+        {
+          "ab": "minanahuqil",
+          "ch": "死者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/328d64e41af28f8c1bfcb706d1da4755.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/83ace08a8dbaa98f35e9d2fdf3db7fb8.wav"
+        },
+        {
+          "ab": "iyk",
+          "ch": "底下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/b26db72567e029004afe008d355224a7.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/2eae1865395eb4d95e02191e28547d93.wav"
+        },
+        {
+          "ab": "qaqilpan",
+          "ch": "寢室",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/94a17d5b65298a7981e8f82b7eedc373.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yani",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/7186c027f5696883506f8e0f21b93bc1.wav"
+        },
+        {
+          "ab": "uwi",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/2390144af826e0c6b2b66975b48f4c63.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/5c6c72929622fec068c66a069b4b92fe.wav"
+        },
+        {
+          "ab": "sipagiyay",
+          "ch": "使…離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/c681ed43f80f0f1e13b9ce150b5c5256.wav"
+        },
+        {
+          "ab": "cku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/965b0636ffbdec327cb80bc9baac3a6a.wav"
+        },
+        {
+          "ab": "kinakian",
+          "ch": "住所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/9851a46b214d0df4d33afeb4e9550a17.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aniasisali",
+          "ch": "當然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/78f78a7ccaa428c7dcd3ef0505283fd4.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/67d332ff49ff05debc3ff6dd45184527.wav"
+        },
+        {
+          "ab": "yani",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/831fe247551c6c93d0317284b2e906b2.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/1c352c7ebe1a25e1b8f6d8627f22c6f6.wav"
+        },
+        {
+          "ab": "balayq",
+          "ch": "好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/368b70cbb361bfd6ef3084505fba9705.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/cea6f6de50910f0e3161386944cdc992.wav"
+        },
+        {
+          "ab": "kaqiyanuxan",
+          "ch": "居住條件",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d3f45dd7097210cd2a4739c11d4959a3.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/22fd86fb6fe8f4338db654e3235bf0ab.wav"
+        },
+        {
+          "ab": "bahagun",
+          "ch": "追逐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3a1fe12ce8b5f8f3da98723ca6991aa0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Gaga’",
+          "ch": "習俗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/36c043cbfe66c17310222aa8596a07c0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/18/f813203dac344d29185b6b4192fa90f2.mp3"
+        },
+        {
+          "ab": "qutux",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/18/d4c579a4d32ef6cced110211c0809b4b.mp3"
+        },
+        {
+          "ab": "uwi",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/2c9f6ea2b66ab9c3c88bab359780e119.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/00d7088addab4df49f188bed1206eb8a.wav"
+        },
+        {
+          "ab": "Itaal",
+          "ch": "泰雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/20409d1ec3ac0acf153ced33159067f0.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/d31669ba7f826ee9ebefe58e85d652ec.wav"
+        },
+        {
+          "ab": "magnuhyi’",
+          "ch": "遷徙處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/3a06f61c4c71a69d8960a76ea0456c9f.wav"
+        },
+        {
+          "ab": "inuinu’",
+          "ch": "他處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/adee3342db99c671a1c34497ede2b35a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/29/914730cc723a5e763707c047e1c29944.wav"
+        }
+      ]
+    }
+  ]
 }

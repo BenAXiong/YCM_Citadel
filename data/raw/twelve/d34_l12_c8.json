@@ -1,6 +1,889 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "tihlaravai takuliacʉ mulʉvʉ varatʉ",
+  "titleCh": "遊走在風中的惡靈",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "惡靈退散！快！嚴實戴好你的口罩， 空氣中蔓延著詭異的氣息，無色、無味，看不見的惡靈正偷偷的潛入風中，它帶著哀嚎、恐慌和令人無法招架的死亡，它迅速的讓你毫無防備，不知何時開始，風中的惡靈不斷增加，不斷侵入。 ",
+      "ab": "paliatatalalu tihlaravai takuliacʉ! pasakulai! maivacavacangʉkia maicavungusuu, varatʉna muamuamuarʉ aparivi’avi’a micalivi, kupitapaʉ, kupipahlu, kuakita tihlaravai takuliacʉ musakasakavʉ murʉmʉrʉmʉ mitalʉvʉngʉ varatʉ, \r\n[===]\r\nsahlava makuvavau tarauriuri muruahlʉahlʉ hla uka cucu’u uaramangʉ siapaci, tam makulai kupataruakʉhlaʉ uramangʉ, kuacacahliau kihlaumangʉiau rumia, tihlaravai varatʉ takuliacʉ kuiangʉtʉngʉtʉhlʉ aratumuhlu, kuiasau puaruma.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/05/25/789d4b5ce24563cc8cf18ad85b402f3c.wav",
+      "word": [
+        {
+          "ab": "paliatatalalu ",
+          "ch": "退散",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/60c690745fde870cdb423824739927cd.mp3"
+        },
+        {
+          "ab": "tihlaravai ",
+          "ch": "靈魂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/93d1ba45e40e3a096bb0480705436314.mp3"
+        },
+        {
+          "ab": "takuliacʉ",
+          "ch": "壞的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/db94b13535246689fefe1b009fde0958.mp3"
+        },
+        {
+          "ab": "! ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pasakulai",
+          "ch": "快點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/6c20ecef89cda3ac3142d472d718e435.mp3"
+        },
+        {
+          "ab": "! ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maivacavacangʉkia ",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c08138a6f2de144cbad50dfa5c769c1a.mp3"
+        },
+        {
+          "ab": "maicavungusuu",
+          "ch": "戴口罩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/cdb596bf99965244a64a5eb3d6866641.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "varatʉna ",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/daf983eff1652e3019e2acbe32961123.mp3"
+        },
+        {
+          "ab": "muamuamuarʉ ",
+          "ch": "慢慢的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/1967801263f5b5ac8988dc238c68c54e.mp3"
+        },
+        {
+          "ab": "aparivi’avi’a ",
+          "ch": "蔓延",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/fda64ce20997563edacfc9d61d540aa1.mp3"
+        },
+        {
+          "ab": "micalivi",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/eb82add1dde55839d8dc3db743233aba.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kupitapaʉ",
+          "ch": "沒有顏色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/809505b129f6de0a99196e2d7d8a6a00.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kupipahlu",
+          "ch": "沒有味道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c17feeddfdb8efa909cd30117ce9b217.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuakita ",
+          "ch": "看不見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/74d767e6051c60f1a88f3e94cc024624.mp3"
+        },
+        {
+          "ab": "tihlaravai ",
+          "ch": "靈魂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/17fbc8e0679663c2d5dd23b08e23c875.mp3"
+        },
+        {
+          "ab": "takuliacʉ ",
+          "ch": "壞的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/4d3552928a6d2282d3acdddc95c1f8b2.mp3"
+        },
+        {
+          "ab": "musakasakavʉ ",
+          "ch": "偷偷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/e00809f6f57af483a5e4012083870956.mp3"
+        },
+        {
+          "ab": "murʉmʉrʉmʉ ",
+          "ch": "潛入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/cec6a6d10852233bf0383a6f3941f3e9.mp3"
+        },
+        {
+          "ab": "mitalʉvʉngʉ ",
+          "ch": "藏起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/40cce97b4b9ead18e4f6f80e62395df8.mp3"
+        },
+        {
+          "ab": "varatʉ",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/8306ef53581c28ec02d9718df2347216.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sahlava ",
+          "ch": "被帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/aa9cabbdebac83f566995dbb38036632.mp3"
+        },
+        {
+          "ab": "makuvavau ",
+          "ch": "喊叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/2cfa427f1fde0570d3ad086abc8eb588.mp3"
+        },
+        {
+          "ab": "tarauriuri ",
+          "ch": "生病的呻吟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/260e065cd6313dc3f9446bb856218932.mp3"
+        },
+        {
+          "ab": "muruahlʉahlʉ ",
+          "ch": "恐慌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/78b2f63c99d2673a5867f5e5cae53692.mp3"
+        },
+        {
+          "ab": "hla ",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/ea04aebb1753794a087e40eff6ca1200.mp3"
+        },
+        {
+          "ab": "uka",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c24438d56a18ffe253d5036537836a7e.mp3"
+        },
+        {
+          "ab": "cucu’u ",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/cdb0bc50d642a7113e19eb99c672efed.mp3"
+        },
+        {
+          "ab": "uaramangʉ ",
+          "ch": "預防",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/3de322db835fa75361d349b9f95d6df2.mp3"
+        },
+        {
+          "ab": "siapaci",
+          "ch": "死亡的方法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/439d84b29d3255f3c6036d5d82bd7ef0.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tam ",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/4130c91218a54734f70545534c012688.mp3"
+        },
+        {
+          "ab": "makulai ",
+          "ch": "快",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/82ffdd56019eb9bc3948cabbf680ee1f.mp3"
+        },
+        {
+          "ab": "kupataruakʉhlaʉ ",
+          "ch": "完全無法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/3513fcff28344e68e0fce43b4f93390f.mp3"
+        },
+        {
+          "ab": "uramangʉ",
+          "ch": "預防",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/28082c7f77d140d28ebff5d3e23454c4.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuacacahliau ",
+          "ch": "不知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/030e9ae160f1ff07154de48703169e5f.mp3"
+        },
+        {
+          "ab": "kihlaumangʉiau ",
+          "ch": "何時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/d376da2a1dd32be63967ee4e9edab28a.mp3"
+        },
+        {
+          "ab": "rumia",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/7ee6410120c03eddea419fe5b56e8d16.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tihlaravai ",
+          "ch": "靈魂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/1f866a4d80ffe25a0f62eaab16f7d59d.mp3"
+        },
+        {
+          "ab": "varatʉ ",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/bb89e81382021e44145f06f120b7fead.mp3"
+        },
+        {
+          "ab": "takuliacʉ ",
+          "ch": "壞的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/bd38ce500653f34e1adc26da917e62fa.mp3"
+        },
+        {
+          "ab": "kuiangʉtʉngʉtʉhlʉ ",
+          "ch": "不斷的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/6d6b14a1b0b51add97e0853c3fe51509.mp3"
+        },
+        {
+          "ab": "aratumuhlu",
+          "ch": "變多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/f61a5e2778a8eea26840d70f25cfacd3.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuiasau ",
+          "ch": "不放棄",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/857ec41e982ab14648877d417613e9fc.mp3"
+        },
+        {
+          "ab": "puaruma",
+          "ch": "進入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/4febd0e01b6c703da17417840090c37f.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "人們開始想念以前的風，是那麼的乾淨，是那麼的沒有傷害。戰爭開始，能者站在前線不停忙碌，日日夜夜尋求解救的方法，人們害怕的開始足不出戶並尋求解藥，想進辦法阻止惡靈的蔓延。",
+      "ab": "rumia cucu’u atatʉhlʉngʉ varatʉ kiariari, tamuucu macuisa mapuhli, tamuucu macuisa kupisipaiakaka, rumiacu sitarikiacangihli, cucumacacahliana rianʉ mualualu kuiangʉtʉngʉtʉhlʉ taku’i’iarʉ, ariari ruvaruvaruvana ukikirimi sitahlamiamia siriacʉka. rumiacua cucu’u mʉrʉhlʉrʉhlʉ kucukiapuhlu vahlita, ukikirini sitaramahlʉngʉsavuanʉ, pacʉpʉcʉpʉngʉ sitahlamiamia siaramangʉ tihlaravai takuliacʉ.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/05/25/7cb58aa2c5cf6e92a21c23bbf734c695.wav",
+      "word": [
+        {
+          "ab": "rumia ",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/311fc029997fb00bb6127419686b49f2.mp3"
+        },
+        {
+          "ab": "cucu’u ",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/1df161c8cefe501c4a1618d8dc6f2917.mp3"
+        },
+        {
+          "ab": "atatʉhlʉngʉ ",
+          "ch": "想",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/4006459f3a94c6d79ad60b887305347c.mp3"
+        },
+        {
+          "ab": "varatʉ ",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/bef5e14d77cd5043033d67f3b00757fe.mp3"
+        },
+        {
+          "ab": "kiariari",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/5c31be8367721d034db228d428345c15.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tamuucu ",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/9e3b9762cc7b7c7c274f9adb1064890c.mp3"
+        },
+        {
+          "ab": "macuisa ",
+          "ch": "真正的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/98a1594be0204026ba82e63905317b70.mp3"
+        },
+        {
+          "ab": "mapuhli",
+          "ch": "白色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/801f5c9c873155aa32230550a4822564.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tamuucu ",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/db33f8a292f3380e7a16c4defc885b1b.mp3"
+        },
+        {
+          "ab": "macuisa ",
+          "ch": "真正的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/9916f7a2240dc7813d7b0873d1fc0835.mp3"
+        },
+        {
+          "ab": "kupisipaiakaka",
+          "ch": "沒有傷害",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/5329b3abdc251d6afa57c78129b58ec8.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rumiacu ",
+          "ch": "開始了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c16f6ae58ea793e26d4e8ca4c59157a7.mp3"
+        },
+        {
+          "ab": "sitarikiacangihli",
+          "ch": "戰爭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/b018689f8ec680156e161c911275d596.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cucumacacahliana ",
+          "ch": "能者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/46469bfd25e0d765a4e6753168d64bcb.mp3"
+        },
+        {
+          "ab": "rianʉ ",
+          "ch": "全都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/71e0a79dbb314fc53f24d65f2cf8c279.mp3"
+        },
+        {
+          "ab": "mualualu ",
+          "ch": "先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/a3c57132766914a0dd82354d9979e4ef.mp3"
+        },
+        {
+          "ab": "kuiangʉtʉngʉtʉhlʉ ",
+          "ch": "不斷的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/a78b6f7d8d000f7d20671acf74a0971f.mp3"
+        },
+        {
+          "ab": "taku’i’iarʉ",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/a614e83ca8b9a7868f7559ec83153a64.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ariari ",
+          "ch": "天天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/86415d3ac28944e490b0191d298b0e14.mp3"
+        },
+        {
+          "ab": "ruvaruvaruvana ",
+          "ch": "夜夜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/f16995b5c2e99ac5b7b8f97f14f8b300.mp3"
+        },
+        {
+          "ab": "ukikirimi ",
+          "ch": "尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/4a8ae315cc93775de207aeb3dde41278.mp3"
+        },
+        {
+          "ab": "sitahlamiamia siriacʉka",
+          "ch": "解救方法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/ee3828790accd2f9bdebadc2d408917b.mp3"
+        },
+        {
+          "ab": ". ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rumiacua ",
+          "ch": "開始了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/04ec2f9b274b170a2d4cdd6a36e32e66.mp3"
+        },
+        {
+          "ab": "cucu’u ",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/fca49873ef9c7eaf400a8e93dc79a136.mp3"
+        },
+        {
+          "ab": "mʉrʉhlʉrʉhlʉ ",
+          "ch": "害怕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/38d89058eeaef72970bf44e9036d2f3c.mp3"
+        },
+        {
+          "ab": "kucukiapuhlu ",
+          "ch": "不再出來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/3349669ed58d021fb42a1356fa68e477.mp3"
+        },
+        {
+          "ab": "vahlita",
+          "ch": "外面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/af5790344697ab750cee6372ddd8b0f3.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ukikirini ",
+          "ch": "尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/fca9817cd0add3800ad2c13b15eb4c6a.mp3"
+        },
+        {
+          "ab": "sitaramahlʉngʉsavuanʉ\r\n",
+          "ch": "解藥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/1cdfce88a62651946d905c656ff22a71.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pacʉpʉcʉpʉngʉ",
+          "ch": "使智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/49568afd95eeb29acbe91041c407c83d.mp3"
+        },
+        {
+          "ab": "sitahlamiamia ",
+          "ch": "辦法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/1f9c53399f64cc2279484142f58d15a5.mp3"
+        },
+        {
+          "ab": "siaramangʉ ",
+          "ch": "預防的方法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/f7ab4ef7579afb6d859c717980c2aae7.mp3"
+        },
+        {
+          "ab": "tihlaravai ",
+          "ch": "靈魂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/bb2386e3e199141e6fb4892821386164.mp3"
+        },
+        {
+          "ab": "takuliacʉ",
+          "ch": "壞的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/058b7e6806a19946539891e96e90235b.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "可惜的是，它們無處不在，它們大開殺戒、摧殘天地萬物， 世界一度落入惡靈的掌控，人們不斷的尋求，此刻， 終於找到了解藥。 ",
+      "ab": "kuanaʉ ia, uka’a kuacahliisa pʉrʉmʉrʉmʉ, papapaci, maiakaka patasuuru mangusipi masasaruanana, minisuacu a sasaruanana apacʉpʉngʉ tihlaravai takuliacʉ, cucu’u kuiatʉatʉhlʉnga ukikirimi, kani’i, ulavaisa maitʉahlicu siparamahlʉngʉ savuanʉ. ",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1f801df6d03d8ee05925b70ecddcbf97.wav",
+      "word": [
+        {
+          "ab": "kuanaʉ",
+          "ch": "可惜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/75bc41cd2cc029a7d5e36acb2bb9681e.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c7ea5bba60a09b47912b9c2b55fc0dba.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uka’a",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/1f80fd14c4d4afa250d44b11294a947a.mp3"
+        },
+        {
+          "ab": "kuacahliisa",
+          "ch": "它不可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/93cecc7c8ec46405930fbed174b3605c.mp3"
+        },
+        {
+          "ab": "pʉrʉmʉrʉmʉ",
+          "ch": "進入的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c9214029f8fdc154526a8975be00a823.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "papapaci",
+          "ch": "被殺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c25b07820aa797a536aa1e2ca7428654.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maiakaka",
+          "ch": "破壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c08ce09f9a21d3ba45b169edce4d7be6.mp3"
+        },
+        {
+          "ab": "patasuuru",
+          "ch": "反正",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/0ae643e2d6e2952889de479018f208d2.mp3"
+        },
+        {
+          "ab": "mangusipi",
+          "ch": "活的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/92e10fc6a6e1ba2cd0917d314ef4d408.mp3"
+        },
+        {
+          "ab": "masasaruanana",
+          "ch": "在地上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/6b07eef892ce6dd821fd770f48c355f7.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minisuacu",
+          "ch": "就這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/36d41186348f54cbaf9130578ce0ac8d.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/91fdd8655ee930bb3acb307101a2dd5a.mp3"
+        },
+        {
+          "ab": "sasaruanana",
+          "ch": "地上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/506ca038d969b3487cfe7bf5d2f0856c.mp3"
+        },
+        {
+          "ab": "apacʉpʉngʉ",
+          "ch": "使聰明的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c90726dd87762371274058e7f9d72a56.mp3"
+        },
+        {
+          "ab": "tihlaravai",
+          "ch": "靈魂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/a88b2ec185c1a86b2eab452e98eb8f3f.mp3"
+        },
+        {
+          "ab": "takuliacʉ",
+          "ch": "壞的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/3dea41ab96b858327629b28100eed0ff.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cucu’u",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/8b1e5fe3c433e15ca6b8cb0bb4bd8dd7.mp3"
+        },
+        {
+          "ab": "kuiatʉatʉhlʉnga",
+          "ch": "不斷的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c6320d6529b0483ec7da7df744c9853f.mp3"
+        },
+        {
+          "ab": "ukikirimi",
+          "ch": "尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/970eb43189704ff350c411df48844c0f.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kani’i",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/f1baa6a7af3409d04eaa9ede80b41999.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulavaisa",
+          "ch": "中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/400e88ba4c2eae2ebfeb5904d8c8475e.mp3"
+        },
+        {
+          "ab": "maitʉahlicu",
+          "ch": "找到了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/424d6baf6fddedc02daa7b9d08e47ffc.wav"
+        },
+        {
+          "ab": "siparamahlʉngʉ\r\n",
+          "ch": "解救",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c18e5e984653f68924ebe663e7229e5d.mp3"
+        },
+        {
+          "ab": "savuanʉ",
+          "ch": "藥物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/45659075df6280a924c6954366c3cf02.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "人們大聲歡呼，一個動作、一層保護，一份藥物、多層防禦，多年的抗爭，人們學會共處，惡靈暫時退去， 這戰爭沒有期限。",
+      "ab": "masangasangaricu a cucu’u makuvavau, sikuacania kutitipa, sipaicacani a maiiatuhluhlu, ucani virana savuanʉ, papapuhlisa matʉtʉpʉhlʉ manganʉ, micalivi matumuhlu caihli hlipasamanganʉ a maisukasʉ, macacahliacu cucu’una ararataʉ arukavacangʉisana, mu’alivatʉ tihlaravai takuliacʉna micikiri, kani’i sitarikiacangihlina kupicʉpʉngʉ.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/cb0e57795140264e1a766c75748610b0.wav",
+      "word": [
+        {
+          "ab": "masangasangaricu",
+          "ch": "高興了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/1a6aecd726cc7dfb7c654c4799e7444e.wav"
+        },
+        {
+          "ab": " a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/a019637841efbc5d379c9200b4412b5b.mp3"
+        },
+        {
+          "ab": "cucu’u ",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/b9eb50442f1a00da5ee5f3f1d9d068f8.mp3"
+        },
+        {
+          "ab": "makuvavau",
+          "ch": "呼喚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/cd2a583a8798022caff082dd18a745cd.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sikuacania ",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/6660fbfb1416694f2fe581b2fe8a07c0.mp3"
+        },
+        {
+          "ab": "kutitipa",
+          "ch": "動作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/40db3c820537afbcf7022b612f2f3878.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sipaicacani ",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/204afd1a20178686892cab7a7da13e34.mp3"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/981ba95c91902c3c7883682d30a441a6.mp3"
+        },
+        {
+          "ab": "maiiatuhluhlu",
+          "ch": "保護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/fa5b69e5a8b3c9233d32859cd4c3b1d8.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ucani ",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/c6f043d52b68af21ee47eed500e32f1e.mp3"
+        },
+        {
+          "ab": "virana ",
+          "ch": "份",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/06a84a2355b04fabf5515bed33ced063.mp3"
+        },
+        {
+          "ab": "savuanʉ",
+          "ch": "藥物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/dd899429bb70d4b30b326e75afc868a6.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "papapuhlisa ",
+          "ch": "它乾淨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/efb55deffe42230e2ff1b89c5901dd27.mp3"
+        },
+        {
+          "ab": "matʉtʉpʉhlʉ ",
+          "ch": "多層",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/8680364f3102ca37abf05d78c74f38e8.mp3"
+        },
+        {
+          "ab": "manganʉ",
+          "ch": "力量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/56690eb5846cce104816841b607ea520.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "micalivi ",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/d24c11341665c029fe039e744f212f80.mp3"
+        },
+        {
+          "ab": "matumuhlu ",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/0673b6c10b88554dfbcc603168c07ff7.mp3"
+        },
+        {
+          "ab": "caihli ",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/17bda8f813051ffe0f7c093021520e61.mp3"
+        },
+        {
+          "ab": "hlipasamanganʉ ",
+          "ch": "抗爭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/eb6facc8259bc8eb2827e246fd3737e2.mp3"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/1a133292ecd995c939d66775ce67165a.mp3"
+        },
+        {
+          "ab": "maisukasʉ",
+          "ch": "堅持",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/93cb1c1eaa25336427ca7a8b04a43b75.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macacahliacu ",
+          "ch": "學會了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/b251849a60bd77da340b0abe271f45b5.mp3"
+        },
+        {
+          "ab": "cucu’una ",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/d845b23ae919f99781359c2e41567ac6.mp3"
+        },
+        {
+          "ab": "ararataʉ",
+          "ch": "相處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/730fb7931a4a73287d02b50b355552f4.mp3"
+        },
+        {
+          "ab": "arukavacangʉisana",
+          "ch": "他們合好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/309991accc7edeb94b0e80c67f47366d.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mu’alivatʉ ",
+          "ch": "暫時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/3146e480b5130a77b5cab8bc3bfdb286.mp3"
+        },
+        {
+          "ab": "tihlaravai ",
+          "ch": "靈魂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/896f3e3763e225348d74354683a48ebb.mp3"
+        },
+        {
+          "ab": "takuliacʉna ",
+          "ch": "壞的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/08e919359740b6d4d95eaefcae4088ad.mp3"
+        },
+        {
+          "ab": "micikiri",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/ad3e232a6b1a802121f773a23c7adee9.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kani’i ",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/e61848055a495215983388ff60e65c6e.mp3"
+        },
+        {
+          "ab": "sitarikiacangihlina ",
+          "ch": "戰爭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/8b089f75e5a2d452c44363a93de2d177.mp3"
+        },
+        {
+          "ab": "kupicʉpʉngʉ",
+          "ch": "沒有期限",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/11/0810f5880a78d5aab5aaed2d99d118b8.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

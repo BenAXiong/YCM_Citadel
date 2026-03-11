@@ -1,6 +1,879 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "’asonagane",
+  "titleCh": "命名",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "有名，萬物之母。從動物、鳥類、樹木、植物草類到用具，我們就給他們名字，人類對自身亦如是此。如果沒有命名，我們就不知道如何稱呼彼此了。",
+      "ab": "kai nagane sanamanema ka siyanagane, kai lragolragolray lrazazam kai lrangato lrawbolro kai sarakaikaiyaneta le’eng, kaivai ka sini kadromana ka amanita ka omase ka ’asonagane. si lramanita ka omase lo kaita sonagane, lrai thingalreta sa manemaiyata dwawlro.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/06/52efb9ab696ae2b5cb51574b3e33a073.mp3",
+      "word": [
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8bad39e9e029c834f9f9cdf91030a15a.wav"
+        },
+        {
+          "ab": "nagane",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8a825424b64bc96b20d8e9a348bf40ba.wav"
+        },
+        {
+          "ab": "sanamanema",
+          "ch": "凡物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/005333820f17ed4bf20b575a3b16a630.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/29dd7ab432a57ec692ba5b4166bc1374.wav"
+        },
+        {
+          "ab": "siyanagane",
+          "ch": "有其名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6402f4e80239000855ac3d72146eb054.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1b87122d1970541414e5767fcc3ff310.wav"
+        },
+        {
+          "ab": "lragolragolray",
+          "ch": "動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/605b7b80b5f1623dce896ddfb9c97b5f.wav"
+        },
+        {
+          "ab": "lrazazam",
+          "ch": "鳥類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/437ba80388f7e223e46a98a4db76f030.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5c622791df2cd9d6880069aa2eed89b7.wav"
+        },
+        {
+          "ab": "lrangato",
+          "ch": "各種樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/05f6e248d6aeb174fc5732fd1e1e4e20.wav"
+        },
+        {
+          "ab": "lrawbolro",
+          "ch": "植物草類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/ef7d58bce42ba97eabb003a3b77a801d.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/801a0a6c34e6ced8b4f4dcbcac539235.wav"
+        },
+        {
+          "ab": "sarakaikaiyaneta",
+          "ch": "我們使用的東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b2ea3d0db78aeaa03e400b9f8212a9c5.wav"
+        },
+        {
+          "ab": "le’eng",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/80b88f884695e0bb1e9cda1e5d22e0f3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kaivai",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2a3d8b8f672c511a5e06075e50ac576d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/29785cbd036903e5322d8ca5272b5b7f.wav"
+        },
+        {
+          "ab": "sini kadromana",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/3a57d7e77471c5f76fa30bb81c3c8c3c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/85b205a9100b116a06fdfb7fb7ac30a1.wav"
+        },
+        {
+          "ab": "amanita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1cd367e5af91a28b867787f9d67a7a8b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5154d1567d463abf89c35ba4ebd689f9.wav"
+        },
+        {
+          "ab": "omase",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/9b5cccda2e7df730754dbb4164e1b17a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/16fc499e5b7c8933f1d785553caf4061.wav"
+        },
+        {
+          "ab": "’asonagane",
+          "ch": "命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6c2b5e07bb29e7396c1ad11533a9331d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/3cf07ca64d7aec009aba11f1d84abf9d.wav"
+        },
+        {
+          "ab": "lramanita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/d65fb8041c4c3c266dbef6c7d9db5d3b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2ad0711a1326d07ee9ddf73231263d11.wav"
+        },
+        {
+          "ab": "omase",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6dc8c40f16a31e724eaa232891b612b3.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/ce6db7cb1d113b0d3cd2dd3632b24e6e.wav"
+        },
+        {
+          "ab": "kaita",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6353c04acc7fe552deb940e42ae6864c.wav"
+        },
+        {
+          "ab": "sonagane",
+          "ch": "取名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/7ee328fa9a248756dd5398d71dd5a8e1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lrai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/a5cc5d50de15d3fdcdb8a35f741de48a.wav"
+        },
+        {
+          "ab": "thingalreta",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/012579835af5dec2ee188cb741b2221a.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b54e0fd700c67d338883ee62bf839df8.wav"
+        },
+        {
+          "ab": "manemaiyata",
+          "ch": "我們如何說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8ee77d1346531ce3960fd63093550d3e.wav"
+        },
+        {
+          "ab": "dwawlro",
+          "ch": "稱呼;叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/604529af2c8ae4cb056892a0f4d6bf5e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不可隨便稱呼或命名。我們有傳承的依據，如果生了孩子，則由長輩們一起商量，依據父系家族給孩子命名，若是第一胎就會直接取男方的名字。",
+      "ab": "kai nagane kadro akelakelraw ca’ange ’asonagane, yakai kwadra yata ka cocongolra ka nagane, si lo tolalaketa ma’elraelra kai tarwarodranga, ai’asianeaneta sonagane miya, si la ceelre idra ki lrolroda ki tama, lo athada ka tara swanagane kai talrisawalraza. ",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/f45a423d85dd851eac0374ed532656a6.wav",
+      "word": [
+        {
+          "ab": "kai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/9376334908c5db85c9201a4c4c5eb547.wav"
+        },
+        {
+          "ab": "nagane",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/72428134041b7bc2d782f37bf112bedf.wav"
+        },
+        {
+          "ab": "kadro",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/814050329a33794861f7d2855a4cf068.wav"
+        },
+        {
+          "ab": "akelakelraw",
+          "ch": "隨便",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/0875e5660b6628157f973b5de18e3a5d.wav"
+        },
+        {
+          "ab": "ca’ange",
+          "ch": "亂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/a7647f339faac3a6ffb3cc5d713c0a14.wav"
+        },
+        {
+          "ab": "’asonagane",
+          "ch": "稱呼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8fb971b6479b9da8ec4fdccf6ca1c860.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6a0a51db8048da88fb9cf05cfa24facf.wav"
+        },
+        {
+          "ab": "kwadra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5d64451ab0abbbb29eed7553029f8463.wav"
+        },
+        {
+          "ab": "yata",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8aa2094edafb64737677036a0e535e03.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/f2087b6bc71b334c07d9a20a48b7b1db.wav"
+        },
+        {
+          "ab": "cocongolra",
+          "ch": "傳承",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5833e41cf03fcc4f928b453c5b2c6ef2.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/9df844d8a4ddd9808665534e285e2b1a.wav"
+        },
+        {
+          "ab": "nagane",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/376e4d37e6e6d6875e6968b2c083762a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/f178eab3bcb69770b4933312486a9dd1.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/ebddda472c8972605bac35a84a533ad2.wav"
+        },
+        {
+          "ab": "tolalaketa",
+          "ch": "我們生孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/fd39810770efd337c0b2156c720b9c2f.wav"
+        },
+        {
+          "ab": "ma’elraelra",
+          "ch": "商量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1dd11c0a9f28f5c0c2d9985672199c16.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/749a1607f4daba3e1ad967b09395a9bf.wav"
+        },
+        {
+          "ab": "tarwarodranga",
+          "ch": "老人家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/121f568ed231057a4f5a09202a0448de.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ai’asianeaneta",
+          "ch": "取什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/d4a3b975dff0f4259a8d4e57993e62d8.wav"
+        },
+        {
+          "ab": "sonagane",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2548bb3fa64b29dfa7106e496d180316.wav"
+        },
+        {
+          "ab": "miya",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/343c86dcc1a38cb9be21bdb847f43813.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/acd3d51dacf49675478bbf1fd1e2b4dc.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/310e1445372694ceaa3f653ef3dd217d.wav"
+        },
+        {
+          "ab": "ceelre",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1289b78d3e2a098cd60058a97ac49eb6.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e0275a492e300ce0bd42667a6e1142d3.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6a63a1ded4423c113fc5d44ce4f453ab.wav"
+        },
+        {
+          "ab": "lrolroda",
+          "ch": "家族來源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/f330100ddb39b01c279aca2506023aab.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b991860d5b0b4651c704240a7ae08406.wav"
+        },
+        {
+          "ab": "tama",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/fa8e5b8f4d285ea5d17f2d5478dcc708.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/72ee78f02786175f91b5ee8d9a9a72da.wav"
+        },
+        {
+          "ab": "athada",
+          "ch": "頭一胎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/609a96757be0fc088b1fcbededaa80ac.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/9ac12324efc659eec3955f5c1c7329b4.wav"
+        },
+        {
+          "ab": "tara",
+          "ch": "一定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/a5fff5d1e2da6c2491b1ee1e973ed8c2.wav"
+        },
+        {
+          "ab": "swanagane",
+          "ch": "取名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/3f9ebee71b4657a870d9612f1299781c.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e6d842b8827e6bc0b4e39b46ec22b3aa.wav"
+        },
+        {
+          "ab": "talrisawalraza",
+          "ch": "男方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/26df7664dfa98c46b57949862ec37882.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "如果女方是頭目（貴族）嫁給平民，則須經過升級婚的儀式，孩子才能取頭目的名字。",
+      "ab": "lo talriyalralray kai talriababaza la ki’alang mwa ki kawkawlro la akilramaw lo tolalake kalralreketenga ’asonagane.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e67b543a4b94450848b3952f14f9287b.wav",
+      "word": [
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2cede1c87b0aa85a543625966a1c007b.wav"
+        },
+        {
+          "ab": "talriyalralray",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/f4fa8f932d5c16ade8e746feec43f597.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/110e28af1545030e0f12057d57c928be.wav"
+        },
+        {
+          "ab": "talriababaza",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/306c0e2396860c37212f0f93bacbac1d.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8d429dbc3fb98a3a830b4af25d3a075b.wav"
+        },
+        {
+          "ab": "ki’alang",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/9cf3907c96d6d60aaa0144df4fa1b5bc.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/7325eb6d32d31bdad43a7b214deaa961.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/15645f0128ff02920c374b4ba42f6df2.wav"
+        },
+        {
+          "ab": "kawkawlro",
+          "ch": "平民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2e04be8b5ebf542925ffbe5c4321de81.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/68793edb6b919aa3bebf25c59eb1a0cc.wav"
+        },
+        {
+          "ab": "akilramaw",
+          "ch": "升級婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/601199aa3a7a0ecf7a3ae2ad36896714.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/7cfdba8f29d0fe8d7f475e5fc26f4050.wav"
+        },
+        {
+          "ab": "tolalake",
+          "ch": "生小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/be438b411190ddb6e58fefc96bfa3ec4.wav"
+        },
+        {
+          "ab": "kalralreketenga",
+          "ch": "就可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5073e19de8086ed0193b887709edd921.wav"
+        },
+        {
+          "ab": "’asonagane",
+          "ch": "取名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/39834a2466ea8dd3d1f0f420ae5ad224.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有時剛生了孩子但不幸夭折，再生孩子時，就會隨便取名字，無論是蔬菜、蓬萊米、野草莓、植物都可以取用，只求孩子能活下去。有的是命理上注定沒有孩子，因此害怕自己的孩子夭折，就形式上將孩子過繼，並取其他家族的名字。也有的是婚後無子，就會領養，並為孩子取了自己家族的名字，不用多久就會懷孕生子。",
+      "ab": "yakai kwadra lo tolalake kadro matharithariri kadro ’awdriodri’i, si lo tolalake la akelakelrawnga ’asonagane sana odri’i miya, ’asi lraceng ’asi horaimay ’asi lilroko ’asi tralese, yakai kwadra mawlase sa lalake lo tolalake bai ’asilalake sa droma, la sonagane idra naganelrini, yakai kwadra kiya’alrang si kai tolalake, amala silalake la sonagane idra naganelrini, la kadro tarathaino maboy si tolalake lrasonagane idra naganelrini.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/06/79bfa975ea35b46db6c6d3ca41952a9c.mp3",
+      "word": [
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/659981646953a40be6da1cad9315a948.wav"
+        },
+        {
+          "ab": "kwadra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/a79fd2e49889a2e4a5474fceab35447e.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/de314774f1dd13068080b70e86c814c0.wav"
+        },
+        {
+          "ab": "tolalake",
+          "ch": "生小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/837bc87e8ef7988f4e15324e60cfaa4a.wav"
+        },
+        {
+          "ab": "kadro",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/07b5309b4d34ad4a85a54d649761ff35.wav"
+        },
+        {
+          "ab": "matharithariri",
+          "ch": "狀況不好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/0d2122156ac1cf3b1b251bdcd856ddc4.wav"
+        },
+        {
+          "ab": "kadro",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/24ac5592bcdc58b8127a81811a1e5c39.wav"
+        },
+        {
+          "ab": "’awdriodri’i",
+          "ch": "夭折了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/1ba8035b2359f33e18ca61133f045642.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/324dc0911c60f9337ee86fe4b8cda3a3.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/924f076289b21640371a259ac9a01811.wav"
+        },
+        {
+          "ab": "tolalake",
+          "ch": "生小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/575e1c97605725b9c967c54fdf9e2b0a.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8cbebba5ae8eb3cb276021b630e21fbb.wav"
+        },
+        {
+          "ab": "akelakelrawnga",
+          "ch": "隨便了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e59c93c240c464a5aab3a095724f789a.wav"
+        },
+        {
+          "ab": "’asonagane",
+          "ch": "取名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/42d5d1bb9f0fe74528831e6de0c38226.wav"
+        },
+        {
+          "ab": "sana",
+          "ch": "只要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/86a07da8eba1af175347c06b89c2ca97.wav"
+        },
+        {
+          "ab": "odri’i",
+          "ch": "活著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/796e2d22a6aa343fe1a937b0eefaf4c4.wav"
+        },
+        {
+          "ab": "miya",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/6d39660823340d7ecb1333eea5195884.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’asi",
+          "ch": "取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/5376aa42160eadc5d4ec1cf16b82f9cb.wav"
+        },
+        {
+          "ab": "lraceng",
+          "ch": "蔬菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8785237711f79be5e7dfec0c0784e3d7.wav"
+        },
+        {
+          "ab": "’asi",
+          "ch": "叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/c4feb36fb69414c899670c5af3a47228.wav"
+        },
+        {
+          "ab": "horaimay",
+          "ch": "蓬萊米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/ec05ce00e02699f3572a8d70c843d520.wav"
+        },
+        {
+          "ab": "’asi",
+          "ch": "叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e009ccf475896448ec8fd6f55e6dc9c2.wav"
+        },
+        {
+          "ab": "lilroko",
+          "ch": "野草莓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/dbf795f9391b6bfcf272f884788acfe6.wav"
+        },
+        {
+          "ab": "’asi",
+          "ch": "叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/eb433fc424da36ed87592b1e3405b216.wav"
+        },
+        {
+          "ab": "tralese",
+          "ch": "植物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/78120bf87565987eb16cd9f69c7d38c9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4b481edadb98b0287feb648da5a756aa.wav"
+        },
+        {
+          "ab": "kwadra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/574fffa66870afcbcb584bf5a18195ae.wav"
+        },
+        {
+          "ab": "mawlase",
+          "ch": "沒有孩子的命",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/4e409e9c816f5201230abcedabb2dc70.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/41d9e43d19f4f952804c55ced7c70a6b.wav"
+        },
+        {
+          "ab": "lalake",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/3a2304fc91b37ed83233a47bc821e0f7.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/739371ef4b712cb4868e397163c16b1c.wav"
+        },
+        {
+          "ab": "tolalake",
+          "ch": "生小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/fef78d7c9fc45d9d8de2316074e76341.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/ea9a635395384d316bef4e9044f06f1f.wav"
+        },
+        {
+          "ab": "’asilalake",
+          "ch": "過繼給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/55b762ca9d26b0b09725e7d662806862.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/42b7b6ffab83ed8832c74616a96314ba.wav"
+        },
+        {
+          "ab": "droma",
+          "ch": "別人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/d63299c44b51dc78b18df18168a3614b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/e11752ee9bcc5554bd9e2d1d3c59c36a.wav"
+        },
+        {
+          "ab": "sonagane",
+          "ch": "取名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/19259e38fb90a7732cc01388d5172e3d.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/cf18655dae5ba2b544d530cb24f1aee4.wav"
+        },
+        {
+          "ab": "naganelrini",
+          "ch": "他們家族的名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/47c53a0891fd60984b86e010c5877022.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2d76f8027dad490dcc33469816ae37e2.wav"
+        },
+        {
+          "ab": "kwadra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/dbc0b0bed1ee04e2c83971c137a96722.wav"
+        },
+        {
+          "ab": "kiya’alrang",
+          "ch": "結婚後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/8dfbb934f66295f4eb525d2af98301a6.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/08c814a899012e954ccfba60cde4b1e8.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b9960eadd5aadbad513598511fa2f2bf.wav"
+        },
+        {
+          "ab": "tolalake",
+          "ch": "生小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/f174fa8e75a65a3bb9ca84b474c21260.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amala",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/55edc23829cd4a405f224e29179bde3d.wav"
+        },
+        {
+          "ab": "silalake",
+          "ch": "生小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/285e161ff08d9968c62e1c7a5b46a291.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/2717c7f086e6fbcd11b919aa2aba72ce.wav"
+        },
+        {
+          "ab": "sonagane",
+          "ch": "取名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/d57db91af41bb6dc943ed7df5ba19de5.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/a1b4c45c99526901493a6dc45fd1f7c6.wav"
+        },
+        {
+          "ab": "naganelrini",
+          "ch": "他們家族的名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/c9e538ec6d117ffc2e8888daede01e87.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/0ff88ee6d644e1aeff8316e433d5f51a.wav"
+        },
+        {
+          "ab": "kadro",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/d7965905271656a502ab9c91191af1ae.wav"
+        },
+        {
+          "ab": "tarathaino",
+          "ch": "多久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/964268add5ca5f5bff4f1cf16879be6e.wav"
+        },
+        {
+          "ab": "maboy",
+          "ch": "懷孕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/61bbb21f06b8c60cd3f173c9206dce6b.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/cbe835c13dc67e47aa665e9458bb37e9.wav"
+        },
+        {
+          "ab": "tolalake",
+          "ch": "生小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/415488ef868f3a3f7ddba3cb4800ad02.wav"
+        },
+        {
+          "ab": "lrasonagane",
+          "ch": "就取名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/b660e21556a99ffc8ed2715639c61cac.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/54e5d4ebd8772a5282d9e718f0ce0df7.wav"
+        },
+        {
+          "ab": "naganelrini",
+          "ch": "他們的名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/31/fc2871e40cc694e9ed361fd5a9986588.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,986 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "pusaviki",
+  "titleCh": "訂婚",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "關於排灣族的「訂婚儀式」，排灣族男方的雙親必須依傳統的禮俗予以進行一些程序。要不時的向女方家庭串門子、問親，其問親也會開始進行一些訂婚到結婚的禮儀與規定。若一切都談妥且了解，就正式的辦理訂婚的儀式。",
+      "ab": "papusaviki/seman sudju, aza matjaljaljak nua paiwan nu pasa maqacuvung a aljak a uqaljay, paljelalaingan a sikipakakudan, kana venavalivalitan a sema tua na vavayan a umaq a kivala, a kisudju tja yavau, aza matjaljaljak nimadju temagilj anga kipuvarung tu kivadaq a sema tua na vavayan a umaq a patjara kivadaq a papusaviki sa papucekelj. nu makakivadaq sa ljemaui aza matjaljaljak a mareka kaka nua vavayan avanzua seman sudju anga.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/20/bf6c0defbe409de8959fb1d43c09a37f.mp3",
+      "word": [
+        {
+          "ab": "papusaviki/seman",
+          "ch": "訂婚；成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/50f95cc5723d62e7941e502b9c78dfa1.wav"
+        },
+        {
+          "ab": "sudju",
+          "ch": "情人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/4c414f1e711c5ae69ceece6cee9f425e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aza",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/e4c0f2bc5d18822b8df0aca961ece730.wav"
+        },
+        {
+          "ab": "matjaljaljak",
+          "ch": "雙親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/cc724aaffb6df592d1799e2d809559d0.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/6eade32fe3508dba1142aafbd3b5f578.wav"
+        },
+        {
+          "ab": "paiwan",
+          "ch": "排灣族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d8c08b8a48c2ce0318386938983bd1dd.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0733a2e4f4beb513cd042993a82da440.wav"
+        },
+        {
+          "ab": "pasa",
+          "ch": "向著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/faf52985ce74facadda5d45f61224084.wav"
+        },
+        {
+          "ab": "maqacuvung",
+          "ch": "青年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/801081995723a7cfcc8da12753989f1e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/a52cf07bf1cf6ca01a17f82647069f58.wav"
+        },
+        {
+          "ab": "aljak",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/ddb72d6e62456188ce08aad6d3bdd091.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/94a65dd483dc0e7cc07824aed6afd98d.wav"
+        },
+        {
+          "ab": "uqaljay",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/94dd620719b07efc1500cb2ec985505a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paljelalaingan",
+          "ch": "依循",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/416d2c4391e04ed3f46c0265506ea0bc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/f95d195002799c2413cdd34c03391704.wav"
+        },
+        {
+          "ab": "sikipakakudan",
+          "ch": "傳統的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/65957bb2b187853974b2f6f6455c7608.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kana",
+          "ch": "所有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/15f02af5117e36aa5d1cd41fac9b814c.wav"
+        },
+        {
+          "ab": "venavalivalitan",
+          "ch": "禮俗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/127e8ed6246ca2d82cb7a63f00f48014.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/e84bad21d1651f5841080878fa5b4122.wav"
+        },
+        {
+          "ab": "sema",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/5b4b809ccb8ef1ce87e5601a052fc6eb.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/36ec3add18ae59b3dc62c67b4a6440da.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/133c0dfe3a0525b1a3aa3f64b8a7aa8b.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d86a27de82e6113c8691ccb59137c413.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d6507557ab4a474e9b1f51c444cd06b8.wav"
+        },
+        {
+          "ab": "umaq",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/1cffc4d3e7e6f3b30cf1cd8ca3ad907b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/e060407b6fc1bad60fcff79eb2685960.wav"
+        },
+        {
+          "ab": "kivala",
+          "ch": "串門子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/db6d85f47254ff82b362db576b209e06.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/6acedcd5140615f72d34c616f3a21c6f.wav"
+        },
+        {
+          "ab": "kisudju",
+          "ch": "說親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/fbff6b217d6ebca8edafeef6f5dfe948.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/40a2d4ec3577eb61c342bc09dd5cb73b.wav"
+        },
+        {
+          "ab": "yavau",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d2998ef43933a174f67774351a67c8b8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aza",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/baa0a73625ace9acb32b2b9e9fec720e.wav"
+        },
+        {
+          "ab": "matjaljaljak",
+          "ch": "雙親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/e9f794222c043abbdaa8f00566d832ed.wav"
+        },
+        {
+          "ab": "nimadju",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/5f5b9f44a5853623dd69870228682bea.wav"
+        },
+        {
+          "ab": "temagilj",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/f298ae02f4c77b135c9e97a58290881a.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/23e04da13b411b1e086110fa0d403865.wav"
+        },
+        {
+          "ab": "kipuvarung",
+          "ch": "設法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9cf5094da2d605831735ce7d36929ac5.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/7d886378ae825649bdeeb8836a1e1977.wav"
+        },
+        {
+          "ab": "kivadaq",
+          "ch": "詢問",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/68f4811e5ab1077a272616850440f2ce.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/70115aaa5be6d32508a3d11eaf0ffe65.wav"
+        },
+        {
+          "ab": "sema",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0d1bc2f2310c2739f464f2ecbe6d14d3.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d5c3a09c68823cd32227eb0e81f01ba3.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/f482b89ee9029b6b8cb6e23dc21f83ff.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/e3d82d4357291c9faa3d9d908d0f29fe.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/eb84f7b8d692870599aa9b9f5a7beb14.wav"
+        },
+        {
+          "ab": "umaq",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/604d0aa976255812e68555605ddcf0d0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d6fa44f53e0b973eab55a6c3387770cf.wav"
+        },
+        {
+          "ab": "patjara",
+          "ch": "有關",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/20/c1c6179ecdf3d8dd15e07d2fef310d9a.mp3"
+        },
+        {
+          "ab": "kivadaq",
+          "ch": "詢問",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/4a404a8451f5b20fe4258edbc7235c3e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/f3df547735ae038e8a5ed83921f34508.wav"
+        },
+        {
+          "ab": "papusaviki",
+          "ch": "訂婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/bc770297ca3e0e226277659542b9b3bd.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/22124b4cf7d922ab6539a2b16e98f103.wav"
+        },
+        {
+          "ab": "papucekelj",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9c5f8677487e73a816c65d200fde1c66.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c9f975d99600fc2fe322b0cd67eb6436.wav"
+        },
+        {
+          "ab": "makakivadaq",
+          "ch": "結束",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/18b430e2e300cad91f19494b22c7711b.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/122a68a66482807aef9950a5ac2ae1c1.wav"
+        },
+        {
+          "ab": "ljemaui",
+          "ch": "同意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/97ef7c41ccb124afa536d9fc68bf7be1.wav"
+        },
+        {
+          "ab": "aza",
+          "ch": "男",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/64107869f95b7dd0a4dafbb153baec55.wav"
+        },
+        {
+          "ab": "matjaljaljak",
+          "ch": "雙親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0d9b05ffd1e180a821e70f5777be8524.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/301e623aed66082f086362f209919cb9.wav"
+        },
+        {
+          "ab": "mareka",
+          "ch": "些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/21902a7f2eeebe59f4a9840f342d32cd.wav"
+        },
+        {
+          "ab": "kaka",
+          "ch": "兄弟姊妹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0dc8f2b38b3689a9a610e69c53223c5b.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c7a1f2b86aadee7776f05f01d18f23ff.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/549561d65af5222794e6362b6a1fcab9.wav"
+        },
+        {
+          "ab": "avanzua",
+          "ch": "那樣就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d0f2513e86f6ed0cb1bdc8610d906036.wav"
+        },
+        {
+          "ab": "seman",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/bfa0a537ce6201da7766b2f031fb39ae.wav"
+        },
+        {
+          "ab": "sudju",
+          "ch": "情人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/1d4e5077752be15b3eefcec3617cc461.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c80eb236f569ae13e44bbed904cd6e08.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "要不時的向女方家庭串門子、問親，其問親也開始進行一些訂婚到結婚的一些禮儀與規定。當時候到了之後，男方就把所預備好的禮聘帶到女方家。",
+      "ab": "[-AP1-]aza na sauqaljay a matjaljaljak katua mareka kasusu penenetj tua qadaw tu pinungidain a seman sudju. sa nu marasudj a kaljavar niamadju aza sauqaljai venawanga mareka padjulu anga tua uri si lisi a djaljemedjem tu masan lisi. sa nu i qadaw anga, satjezen a mareka sini karasudj a sini penetj nua savavayan a lisi pasa tua na savavayan a umaq.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/20/19a53f3752d2fddfc6501190e7b57b34.mp3",
+      "word": [
+        {
+          "ab": "aza",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/938d43e283cfc4c2b6ce32afcb561881.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/1068c1d3c334a207f0e4cb00cb63f701.wav"
+        },
+        {
+          "ab": "sauqaljay",
+          "ch": "男方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/3e959f2b677ae48ab2d4b04458f98171.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/46a2088343353ec75679cd5351ad29f4.wav"
+        },
+        {
+          "ab": "matjaljaljak",
+          "ch": "雙親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/581bef93d1d51d36df3616ef2b5545a3.wav"
+        },
+        {
+          "ab": "katua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c2f0e73c942dbeae125e1979ae39ed4e.wav"
+        },
+        {
+          "ab": "mareka",
+          "ch": "一些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/380a68342428657d7b854027413eee37.wav"
+        },
+        {
+          "ab": "kasusu",
+          "ch": "親戚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/3c344051fc101a0f4accd0cee3fd0aae.wav"
+        },
+        {
+          "ab": "penenetj",
+          "ch": "決定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/dfbde8d3e545cec797d9bf1df6fb067c.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9f64d3759dbdeb1e1cf9a74b72e44c64.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c78de8c8070965fbecad39ce48caa2c6.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "應",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/1638cbe468903f8f0ead71d1adefa7da.wav"
+        },
+        {
+          "ab": "pinungidain",
+          "ch": "何時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/506759492d42912bb17c11559385b69e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/f59a79eadb7741d1485715ec87b85c30.wav"
+        },
+        {
+          "ab": "seman",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/25e9a604da6fd7910b204e0012ee6a14.wav"
+        },
+        {
+          "ab": "sudju",
+          "ch": "情人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/531d34adefaddf74252baec92704504f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0d1738dc69db321616f7f7f607ce0914.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/618378e3f2861cb52fbf09af84a0fd19.wav"
+        },
+        {
+          "ab": "marasudj",
+          "ch": "協調好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/b98e2557db8a08dcece0938f7a249e38.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/3d614add920bf4b7f451e48409a3cc4f.wav"
+        },
+        {
+          "ab": "kaljavar",
+          "ch": "討論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/5e514da6783e1b910ea9b5a0d85ff082.wav"
+        },
+        {
+          "ab": "niamadju",
+          "ch": "他們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c30356b42e5b878c91ecf007283d94af.wav"
+        },
+        {
+          "ab": "aza",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/77aaf6dea3b99171fccb5da62c98f176.wav"
+        },
+        {
+          "ab": "sauqaljai",
+          "ch": "男方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/aded0a90165c65427500b68d8100e0bf.wav"
+        },
+        {
+          "ab": "venawanga",
+          "ch": "釀酒了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/735e39f85564373ae55350892bcd710d.wav"
+        },
+        {
+          "ab": "mareka",
+          "ch": "一些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/a93fb0ade0c4850fbe769f4532ca8481.wav"
+        },
+        {
+          "ab": "padjulu",
+          "ch": "準備",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d0adcc9147eca5a35594cd360c1f71d4.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/846ee9981fbb77150f0b876586e71113.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/1584d181a85d392b3e9551ceb795f354.wav"
+        },
+        {
+          "ab": "uri",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/1bfaaf52aa6237f0a3dfd9375ec9dc83.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[工具]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/cbe8412e7469c2bba155a2a353401e5b.wav"
+        },
+        {
+          "ab": "lisi",
+          "ch": "禮俗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/726657a048ec5d534bf79599d8af79e3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/7cfb2b06a49f714080298edd1008f534.wav"
+        },
+        {
+          "ab": "djaljemedjem",
+          "ch": "帶好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/424c4557ad03a7ca3924e2b0eb0bee24.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/edadebf75e6716102593fdcff881ed1d.wav"
+        },
+        {
+          "ab": "masan",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/3d6c04b24e40cad50c36157edec8b056.wav"
+        },
+        {
+          "ab": "lisi",
+          "ch": "聘禮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/5fb705fb5ec8a2dcff974ca445c5b6f3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9d926a18419625c6496612b08af4391e.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/2d4b701f2ea6e4f27452e1c772c8aedc.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d67297828dd86c081525a7427b1904a9.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/edd4d04bae7705711eef2fc8e36f9e12.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/3e4d3587a9a26948d2e355c7f78d41b4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "satjezen",
+          "ch": "送",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/bd1a4a9beab4c7f698ef5c911d91a0fb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/f2c330e8b27ab64f9ee2abe6dd6bcbeb.wav"
+        },
+        {
+          "ab": "mareka",
+          "ch": "一些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/b730f9eb0c83dc2b0dd098e70de4d9ef.wav"
+        },
+        {
+          "ab": "sini",
+          "ch": "所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/25755d27def15c633caaeda1357366f0.wav"
+        },
+        {
+          "ab": "karasudj",
+          "ch": "整理的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0d123165b5f096aca5d4fb3e56bee093.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/e74815fb48307680a380e58f2bf460d7.wav"
+        },
+        {
+          "ab": "sini",
+          "ch": "所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/5aae0374233b7b220c04a6973b63d79a.wav"
+        },
+        {
+          "ab": "penetj",
+          "ch": "決定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/6366b6f4b983d09a1ff50a2541cea265.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/4ecabc3c5c90c04b5020fb417d4e2720.wav"
+        },
+        {
+          "ab": "savavayan",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/8fa4736f4da645b70e6f64609af9047a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/e31dbc1414a711b95d42721c3acd0646.wav"
+        },
+        {
+          "ab": "lisi",
+          "ch": "聘禮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/b587e332beff2a9f581548878f404547.wav"
+        },
+        {
+          "ab": "pasa",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9f1bb55242392b878a5183ad10614576.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c469feae54aeae50d1942d0519a63b6c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9a3b13eea5cf4b41a4171342e7eef35b.wav"
+        },
+        {
+          "ab": "savavayan",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/ec8a9c3541a92b1e3e32243357410e1a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/a76720ecd095ec4d392d3f06e2d0b8a7.wav"
+        },
+        {
+          "ab": "umaq",
+          "ch": "住家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/5464f85e215e393aa224f65542479c0f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "其中就會有豬、陶甕、琉璃珠、檳榔、荖葉、石灰，以及自製的小米酒。這些的聘禮，在經女方家屬長老清點無誤之後，就開始擺桌宴客，大家歡樂相聚。",
+      "ab": "izua dridri/qacang, dredretan, djilung/kaljat, zangaq, saviki, zangaw, qavu, katua djinulis a vinawa. aicu a namsan lisi, supuin anan nua namasan vuluvulung nua savavayan. nu na mapaqulid gaugaven nua savavayan, patausi anga namaqepu a masalu maleva tua sinan sudjuan a qadaw.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/20/f5e34e24041d4871d7515d8aa6e1f503.mp3",
+      "word": [
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/a6f89a0cdac6eef11306113527e3ac90.wav"
+        },
+        {
+          "ab": "dridri/qacang",
+          "ch": "豬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/4426b3dee5ef0e73ae4e5c2fed7e9fb4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dredretan",
+          "ch": "陶壺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/8ceee9a19dd65f56b3490863172414a5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "djilung/kaljat",
+          "ch": "陶甕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c4f242f13273cde752c4efe1665cc6f1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "zangaq",
+          "ch": "項鍊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/55feb091a44288b3d0660f6b2c633f28.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "saviki",
+          "ch": "檳榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/c3d0445d5c06cd5e4d57f9c906980f29.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "zangaw",
+          "ch": "荖藤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9aa32f677362a235a8ae39e011711f1b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qavu",
+          "ch": "石灰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0208ec6861d4344ea9db35ce4e4b7197.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "katua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/994b873ab5a00652ff87e5e1d7afdd21.wav"
+        },
+        {
+          "ab": "djinulis",
+          "ch": "紅藜的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/b9ecee85f574258cdaa504e8523f2520.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9aaeaa8b71475fed3f47603398b70dd2.wav"
+        },
+        {
+          "ab": "vinawa",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/6e7c956eb18ad0e0bd932d39b2781881.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aicu",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/533293cd120439c2b35fe9719f1a6dbf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/cc1d30b6c8e1f3c3c6b41b049791c96b.wav"
+        },
+        {
+          "ab": "namsan",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/1b6126cd0f2345e1fda58b85230190d2.wav"
+        },
+        {
+          "ab": "lisi",
+          "ch": "聘禮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0f630a15d1711c210726b53c7bc09290.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "supuin",
+          "ch": "清點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/83873a5e2f3a2ba2f36c9c184cbb5693.wav"
+        },
+        {
+          "ab": "anan",
+          "ch": "還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/58d31916b6c5574cbb657dfec83af150.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/779f3267d74d774bb16bb780d53dbe69.wav"
+        },
+        {
+          "ab": "namasan",
+          "ch": "作為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/9f848764949eec455320e4a1e73dafaa.wav"
+        },
+        {
+          "ab": "vuluvulung",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/767317dde0d0d72e9fe0c5ecc4125a38.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/3759dd916daa9fe2a7f09f8d3c2960bc.wav"
+        },
+        {
+          "ab": "savavayan",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/827911ed11763ddd123367a4689c72b0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/4bea0f49738fed3031996953b042efb0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/a8219f66f9bface857e7977727ad910a.wav"
+        },
+        {
+          "ab": "mapaqulid",
+          "ch": "確實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/b2894ae849a3bb441a3e90f3d8f6bb82.wav"
+        },
+        {
+          "ab": "gaugaven",
+          "ch": "接受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/77275db58087565d8adffad7c31908c3.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/ca0abc9a334e2d26343f3ebce920d3b5.wav"
+        },
+        {
+          "ab": "savavayan",
+          "ch": "女方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/d39e8fae2895f4068f04b8411505bb3a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patausi",
+          "ch": "宴客",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/489c8c3add09bad281150c12551e05cb.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/8e6b3f15e79dcafe03cef49c0ca46a47.wav"
+        },
+        {
+          "ab": "namaqepu",
+          "ch": "聚集",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/0b81cbc32c4db47be6ff74c99549a967.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/8b5f7222176703a42e1d42c8f2fe4146.wav"
+        },
+        {
+          "ab": "masalu",
+          "ch": "感謝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/bffb18d5f3f3842112903dce435adfee.wav"
+        },
+        {
+          "ab": "maleva",
+          "ch": "高興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/5dd49f73204d706874e62330fecafd1d.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/20203e0ada3c37f1ea334bd1e9df07c6.wav"
+        },
+        {
+          "ab": "sinan",
+          "ch": "所成為的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/ade6f9ad82224e0d3d88eb32c21b3b67.wav"
+        },
+        {
+          "ab": "sudjuan",
+          "ch": "情人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/bd2fd3a4586876710fcbebb7871752e4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/01/bebe6fecd6a298b0da0f8f35fb3064db.wav"
+        },
+        {
+          "ab": "qadaw",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/14/d2249733ef6340fdd752a5bc3422bd93.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

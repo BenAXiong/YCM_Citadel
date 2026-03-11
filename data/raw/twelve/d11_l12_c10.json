@@ -1,6 +1,796 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "galuguan nua qinaljan",
+  "titleCh": "部落大小聲",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "原住民部落常常會發生很多的事情成為族人討論的話題，過去很多的話題僅於自己部落及有關的部落討論，然而現今我們有了原住民電視台及廣播電台，當中有一個節目就是「部落大小聲」，常常探討與原住民生活及文化有關的議題。\r\n\r\n\t",
+      "ab": "kasicuayan, liaw aravac a sikazepezepan na i qinaljan, si kaljavaljavar na sikataqaljan, ljakua kana sikaljavar i qinaljan a tiamadju, inika kineljang nua zuma a qinaljan. ",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/ac498ca58a841601e084908418e92836.mp3",
+      "word": [
+        {
+          "ab": "kasicuayan",
+          "ch": "早先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/1dbe193d01ebc8c47c01d7e2cd903ae8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "liaw",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/4e3cdc351991dacf45d8fe605d47117d.wav"
+        },
+        {
+          "ab": "aravac",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/7bddbc533366fa9f52ca28f43bc714d7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/79711ebf72f5b9b09bd4c9d72315b4f6.wav"
+        },
+        {
+          "ab": "sikazepezepan",
+          "ch": "討論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/fb9b0305f8ec865cb02d56019c2d90c6.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/3544d6279113f387bc948261468a4e81.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/2c10feca2af17936c27b672bc7eb9538.wav"
+        },
+        {
+          "ab": "qinaljan",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/a64cb31956bdd3a8d3bb8a7b6332ab5c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/43a1d20728891631fd31a6d722ae381f.wav"
+        },
+        {
+          "ab": "kaljavaljavar",
+          "ch": "會商",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/05bd543bec864c827dbd535026961d2c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/6ddeccee68c0eae7b7e8852454abc18c.wav"
+        },
+        {
+          "ab": "sikataqaljan",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/24508596069aaaceab539ece09f5ec1f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ljakua",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/f0bd24949708047d2b49ce81a0c28462.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "只要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/899ea6703c30f8c14bec1c045be5cca0.wav"
+        },
+        {
+          "ab": "sikaljavar",
+          "ch": "商量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/8aed6c70410d3ebc0dfc0a8138096f29.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/43f3429967bb86e15ab853c5ae9ca7ba.wav"
+        },
+        {
+          "ab": "qinaljan",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/50f99d8e6e5b7b2da9d8e708a1208698.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/c41cf570fb5d422e6848c855dfab8fd9.wav"
+        },
+        {
+          "ab": "tiamadju\r\n",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/bd9a0660193570384e6d701dea142065.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "inika",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/2c26b5861ab56bdcb909f8caf6861c5b.wav"
+        },
+        {
+          "ab": "kineljang",
+          "ch": "知悉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/17e8aeb77efa9153816ac3275a657b8d.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/8357e7b0241861bd295d4e14858c6031.wav"
+        },
+        {
+          "ab": "zuma",
+          "ch": "他人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/52e993cbc8ecda319214da6e0e3c52fe.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/2adc5656ad44896e23e69078aeb50bde.wav"
+        },
+        {
+          "ab": "qinaljan",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/cc2242888d011bd87c55ab56710aed11.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "雖然可能是來自於一個部落問題，卻常常有時會是很多部落共同的問題，例如：狩獵、土地、語言等，這些問題都不分任何族群。透過媒體發聲的平台以及傳播的效應，可以同時讓許多的原住民及非原住民共同的了解及思考。",
+      "ab": "palemek tu sinicevungan a kemasi tua ita a qinaljan a pacugan, ljakua kinamamavan tua sicevungan nua kanakacalisian anga a qinaljan, paru tua qemaljup, kadjunangan, katua sikimanguaqan nua tja sikataqaljan a nemanema. sa nu maqati pakatiribi a pakeljang tjalja mapacun a inutunazua anga, sa siseljangan anga nua zuma a puvarung tua tja pinipupacuganan, sa keljangen anga nua sihu tu kudain a ljemenguaq a remasudj.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/e3a153e606462a08bff7ad3b66796be2.mp3",
+      "word": [
+        {
+          "ab": "palemek",
+          "ch": "可能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/9a462c356a674d8ff0501d87100ab5f3.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/fa4326a18bd6a69c21b08f5bb432bfe5.wav"
+        },
+        {
+          "ab": "sinicevungan",
+          "ch": "碰到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/c89dfb32a061d1c835fa0f20d9a286ca.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/5f9b6df53c6bf860c8509397660090aa.wav"
+        },
+        {
+          "ab": "kemasi",
+          "ch": "來自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/369409c9632840b53d0832922e9b26f3.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/bbe6415d49e7af4a230d2c355a0aa9c3.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/70dd27cad47fe5ba13a35fe06684cc60.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/adf89a0cc268a06440165329b4065daf.wav"
+        },
+        {
+          "ab": "qinaljan",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/bd2bd68b9c1725df0e1503bd38b01def.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/450a15f6044b4bb37b7e9ce8a323dc78.wav"
+        },
+        {
+          "ab": "pacugan",
+          "ch": "問題",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/431ad1e292ba6f647700999653aefb32.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ljakua",
+          "ch": "卻是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/e0fccd84d0b0840d384381967ae60a55.wav"
+        },
+        {
+          "ab": "kinamamavan",
+          "ch": "共同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/f7e9c2722ba4d94e34ba473072583074.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/c8d92f2b70a2adb73db78910bb0945ef.wav"
+        },
+        {
+          "ab": "sicevungan",
+          "ch": "碰到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/3e35b4d0986fc39086a5cb9180e64839.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/7a005551282f13a6571eaf924dfe2583.wav"
+        },
+        {
+          "ab": "kanakacalisian",
+          "ch": "很多族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/843c896494c94d232630d77942093f8b.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/c2cd64df74e69b002eec07d4dec0569d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/e7f5e45160986b558df4b0e5e76d1bb3.wav"
+        },
+        {
+          "ab": "qinaljan",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/209a41a6704dc33fff1691e81de6e966.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paru",
+          "ch": "例如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/52b3518e754cc80918af24916a4038be.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/fb08a0726d8e29c52ba25d81f756cfdd.wav"
+        },
+        {
+          "ab": "qemaljup",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/3f529cc2d09d45f6c542935d69da77e4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kadjunangan",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/74da368531061927dabfb4fd046d6822.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "katua",
+          "ch": "以及",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/5a48354052d7caf0d9372a4e0728087d.wav"
+        },
+        {
+          "ab": "sikimanguaqan",
+          "ch": "福祉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/0fa64bb89cc9c0ea5ebeb16fed6e24e3.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/3f0a085e4c1962dc1845e5b674e20429.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/c60ed47d19641e8c2ec029400a9564d0.wav"
+        },
+        {
+          "ab": "sikataqaljan",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/a001e6c8521b18b7139afe233dd39a99.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/3590c0141273f8f3e8c6f5eeafa345bc.wav"
+        },
+        {
+          "ab": "nemanema",
+          "ch": "這些問題",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/5f824e61f4af22eb44043b77aaebd61e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/1f779303bd3396dfc99525e60f4d6949.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/ffb7fa920cbbe36ef3b4f2fbcb01f90a.wav"
+        },
+        {
+          "ab": "maqati",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/a8f8e1fabc6ab3a737603bb9856ba332.wav"
+        },
+        {
+          "ab": "pakatiribi",
+          "ch": "透過媒體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/c21f675cb45dd833901cfafef596015b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/da9e1bea31b511c7abeedcefcfb43813.wav"
+        },
+        {
+          "ab": "pakeljang",
+          "ch": "傳播",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/30833192475f98ccf38af32ee91c51f7.wav"
+        },
+        {
+          "ab": "tjalja",
+          "ch": "最",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/7905e579efa9948b93de38ed0ff330a2.wav"
+        },
+        {
+          "ab": "mapacun",
+          "ch": "曝光",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/983627e14fa0a57ef729aeba7b602285.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/b5f75b6497b922e6260b9cc3752b2d76.wav"
+        },
+        {
+          "ab": "inutunazua",
+          "ch": "到處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/02/ff60e45f912185ef8e9e984597ef982a.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/a0d0fd6a4330b97a11c3cc7e050d9b69.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/f7430df62f3ba4dccf3279c69cc81117.wav"
+        },
+        {
+          "ab": "siseljangan",
+          "ch": "共同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/c8e9328109565023ec0d3245b3357728.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/a04a94a335c171ef79d7e7834b7be37c.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/1e21798ce2a488920ce77d8460869be1.wav"
+        },
+        {
+          "ab": "zuma",
+          "ch": "其他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/35a13aef2aba0fe386d30a5feadba52d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/d91dc00eb8e5d731cb2992e0c1bff817.wav"
+        },
+        {
+          "ab": "puvarung",
+          "ch": "關心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/35cfb21d6d2bca2595154e477d4e4f04.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/0e50cfb248a278270a727ba909288956.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/81c05143d519012f2317a3ee8f91e548.wav"
+        },
+        {
+          "ab": "pinipupacuganan",
+          "ch": "問題所在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/8e88f4005376efa0ae69b104f282f2d5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/3ce762420971867aa244fb11fcb8537c.wav"
+        },
+        {
+          "ab": "keljangen",
+          "ch": "了解",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/59fee71995c3e62f60fbea6afc8e7a65.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/427c739736855e6a017cbb0d316e7de8.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/2d6d5b5738deaf337a35a304c138b3ca.wav"
+        },
+        {
+          "ab": "sihu",
+          "ch": "政府",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/2808db3894ed74eace21a8c49bd690d3.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "以便",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/657739cba771e067ae7dbe519095ac60.wav"
+        },
+        {
+          "ab": "kudain",
+          "ch": "如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/10fdabd89b96a8ff0f52632ef2bf2fe0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/7889589ce2fc3805002ec75e6d9446a7.wav"
+        },
+        {
+          "ab": "ljemenguaq",
+          "ch": "解決",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/2cf7c035356f392deafcc9f1265f708e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/80bb984fab334eb55b1fc167b9656078.wav"
+        },
+        {
+          "ab": "remasudj",
+          "ch": "統整",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/b336514d489a4e9a2343edfc836cd031.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "因此，有了原住民專屬的媒體之後，我們就不僅是在講自己的事而已。媒體的報導更能讓原住民被主流社會看見，甚至可以與國際連結與交流，藉由媒體的使用讓世界看見原住民，原住民也可以看見更寬廣的世界。原住民有了屬於自己的媒體，也更能從自己的立場看各類的議題，並更準確的論述之。\r\n",
+      "ab": "qau, sinika manguaq naicu a tja tiribi katua tja raziyu na kacalisiyan, maqati anan a mapadjadjaludjalu tua i gaikuk a kacalisiyan, sa maqati itjen a makakeljakeljang sa matatulutulu, mapazazekazekatj tua pinare maretimaljimalji nu kakudakudanan. sa nu maitazua metalangtang anga a sipacunan katua sikeljangan nua tja sikataqaljan.\r\n",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/5fbfbfee8910e65434f2ccfb3225c8ee.mp3",
+      "word": [
+        {
+          "ab": "qau",
+          "ch": "因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/cc5329b1db17f0454027dd177f7b7534.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinika",
+          "ch": "使之",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/b493eb41a6f095b30a143643725b459a.wav"
+        },
+        {
+          "ab": "manguaq",
+          "ch": "改善",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/2adae2440480dc56a3f13b88b4248b0b.wav"
+        },
+        {
+          "ab": "naicu\r\n",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/d2cc38608e53da7b78dbfd5a11af157b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/a9e27160e62b22078b130833164824ae.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/f9103eab59c167bff89ed4d32474936e.wav"
+        },
+        {
+          "ab": "tiribi",
+          "ch": "媒體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/b214ac26371a53f4fc0ffe2b150b6534.wav"
+        },
+        {
+          "ab": "katua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/1322f3643f4d915afa18aa18375008b4.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/3c91ec977fd0e78b6546a6b317e5cb51.wav"
+        },
+        {
+          "ab": "raziyu",
+          "ch": "報導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/b33597002a719a2785e320485674125d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/4df33f2693426444e78aacf6327061df.wav"
+        },
+        {
+          "ab": "kacalisiyan",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/7935358a784257c1292c66b460385e17.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqati",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/eb940ac8cdf40675b03fd85a6f1a1830.wav"
+        },
+        {
+          "ab": "anan",
+          "ch": "再",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/843761dd644b06cc88694581196643c9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/d27111f9591a3031362722d922adc6eb.wav"
+        },
+        {
+          "ab": "mapadjadjaludjalu",
+          "ch": "連結",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/d1f25dcb5fe9af7f57279838193074b3.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/19372b8dba0d0460226829331a206a59.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/762a424dce90b1aaa61576c8140edc59.wav"
+        },
+        {
+          "ab": "gaikuk",
+          "ch": "國際",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/d00afdeafe11d50fcecedac911e278aa.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/48de32bd54944b6d5e4c850dab594a88.wav"
+        },
+        {
+          "ab": "kacalisiyan",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/21498481ca828fa93d69e6826aad4b6f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/036ee72a434ed96c219b3eff628f1849.wav"
+        },
+        {
+          "ab": "maqati",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/caebfb4d4cef81e7211b6bf072e085be.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/d33d66b4f3cc0703ab8d355754931476.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/a1e8dbf61458e1e33eddd68707e3109b.wav"
+        },
+        {
+          "ab": "makakeljakeljang",
+          "ch": "交流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/f196a51e3c9c72c018ab2a715380d877.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/bb79629f975328643d7525a2a683c7e1.wav"
+        },
+        {
+          "ab": "matatulutulu",
+          "ch": "彼此教育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/34b6eff27966a64068a781c904c6426f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapazazekazekatj",
+          "ch": "融合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/556f4270cc18bc7a58179d2536e32ab6.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/c3f8326e6f0cc970cc71e61358e19a81.wav"
+        },
+        {
+          "ab": "pinare",
+          "ch": "彼此間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/7eb3816bd26642d5ab86f240e3eee7aa.wav"
+        },
+        {
+          "ab": "maretimaljimalji",
+          "ch": "各類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/12351ec4a2f6a24f368279b31df2ec20.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/26f4fc8f762e8f92d3606ad244a5fefe.wav"
+        },
+        {
+          "ab": "kakudakudanan",
+          "ch": "事務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/f69e4da7aaae17d776eac9597851a50a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/97609ee50d6fd14ec05a4d8951d3a94f.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/71ce3f076ae65e5513bb8bd211f295d9.wav"
+        },
+        {
+          "ab": "maitazua",
+          "ch": "如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/1ebd61bb114e55c54d147e03ea94238f.wav"
+        },
+        {
+          "ab": "metalangtang",
+          "ch": "準確",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/431a8e1a4add7dea464ff9c531c16ce6.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/f0af3146bd8cef77a79e0a6e069f02da.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/1dff7eab36808af12ea4d4c1c1af739c.wav"
+        },
+        {
+          "ab": "sipacunan",
+          "ch": "看法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/8c08913f2db08944150e1a154c167235.wav"
+        },
+        {
+          "ab": "katua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/333cbeb2f167d76a4a875abec5e83111.wav"
+        },
+        {
+          "ab": "sikeljangan",
+          "ch": "論述",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/517d23b447e1d9442673732d3ee31684.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/d565623e2c90a88a700959ecbae18d85.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/47fa0b5c7f7352ed5db0ca1873af8d66.wav"
+        },
+        {
+          "ab": "sikataqaljan",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/22/82e8a7a0a5b0cf284727827c4d239746.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

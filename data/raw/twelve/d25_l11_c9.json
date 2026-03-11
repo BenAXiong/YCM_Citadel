@@ -1,6 +1,929 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "O maolahay a comikay ko ’Amis/Pangcah",
+  "titleCh": "阿美族熱愛賽跑",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "族人是熱愛跑步的民族。每年豐年祭的前一個月，阿美族部落都會舉辦賽跑，因為長老們想瞭解年輕人的體力。因此，青年之父召集部落族人在運動場舉行賽跑，依照不同的年齡層分級比賽。",
+      "ab": "O maolahay malalifet to cikay ko ’Amis/Pangcah hananay a finacadan. I ’ayaw no ka ilisinan to cecay a folad, caay ka eca a malalifelifet ko niyaro’. Sakafana’aw no mato’asay to ’icel no kapah a comikay, salaw papilifeten no mama no kapah ko kasakapot a comikay.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/f1615299364060ff3fce5eb0b0ba10ad.wav",
+      "word": [
+        {
+          "ab": "O",
+          "ch": "[名]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/064a266cb8b0b4a0570eac3d986a1745.mp3"
+        },
+        {
+          "ab": "maolahay",
+          "ch": "熱愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/1451697e7ef5ff0831c8bab04d65ad46.wav"
+        },
+        {
+          "ab": "malalifet",
+          "ch": "競賽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/eedb4f98fb335bc9fad732d6be17d0bd.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/4d74cd66a294cf02b8593631ba24583f.wav"
+        },
+        {
+          "ab": "cikay",
+          "ch": "跑步",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/2e13386c853c4620b93fef392659ef63.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/9a11bdaedaeb369ff8f250a19e586600.wav"
+        },
+        {
+          "ab": "’Amis/Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/00406a4dc6fb1cac9776ca304370ffe8.wav"
+        },
+        {
+          "ab": "hananay",
+          "ch": "這一類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/6f1c12208acdfb595c7dbcf628429045.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/4944608cd3f8fa90b43fcadc202c0de4.wav"
+        },
+        {
+          "ab": "finacadan",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/6c6e506cc733c41b784d098665311a89.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "I",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/5e146090aa46bfc8010de47223d13cbb.wav"
+        },
+        {
+          "ab": "’ayaw",
+          "ch": "之前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/da9ce7222402d647f9c78088a4b302b2.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/5c38dfae2692345ced49dc00d4d5f9d5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/bc841a3463099a4edd87d0a5663c6a86.wav"
+        },
+        {
+          "ab": "ilisinan",
+          "ch": "豐年祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/96546ee6114ee0a020192d7a2e99a831.mp3"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/a80a1c4eb14335ac6006c27cf45b507c.wav"
+        },
+        {
+          "ab": "cecay",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/a12943bf3be80953879edda71c83c4e3.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/0d5c4b3c58231acecac4efa444f49919.mp3"
+        },
+        {
+          "ab": "folad",
+          "ch": "一個月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/9e8f4905573ed62ac2dfee3dbbb702c4.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "caay",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/29cd2d60f082e0f944942aeb685605d9.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/fd654b9b2577fcc62f69195811a59f06.mp3"
+        },
+        {
+          "ab": "eca",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/66fc4d260db2818143d6faefda7b6d6d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/be2a73f909fb40f6d21da671256b523e.mp3"
+        },
+        {
+          "ab": "malalifelifet",
+          "ch": "比賽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/b5863b49cbe4e6a0ca3c97177fbe997a.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/b0aff3fb5783809bc8d18db186fb18aa.wav"
+        },
+        {
+          "ab": "niyaro’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/7420c7dce9f77f937277b84acae67d4d.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sakafana’aw",
+          "ch": "想要知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/e8182cbd058db2a0a0caecbceb29b1e1.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/3c426fa0da794c4fea42c1cede373a9c.wav"
+        },
+        {
+          "ab": "mato’asay",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/9e2a416e7439035a955231df9e7178cd.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/a7cfec64f9ed7c72d4c5a1eeee633949.mp3"
+        },
+        {
+          "ab": "’icel",
+          "ch": "力量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/9f4aeac9c3c412c9ab75f65f7716a6a0.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/2e92896aeb55717ea4cf4d3937783912.mp3"
+        },
+        {
+          "ab": "kapah",
+          "ch": "年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/796301da746a349d378caff191864116.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/cb278bd2aa5ea8902125a13e79e20f8b.mp3"
+        },
+        {
+          "ab": "comikay",
+          "ch": "跑步",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/adf769c7339e87350a1a15f175257769.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "salaw",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/2a7feb0c9d48d897cfe6c09946ef2e38.mp3"
+        },
+        {
+          "ab": "papilifeten",
+          "ch": "使之競賽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/bba305d088b8dc07aa77cc5037b66aae.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/4396e9d2f0b4d940d78172f75d24d8e4.wav"
+        },
+        {
+          "ab": "mama",
+          "ch": "父輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/926aaf9f79fa145ace232dfc640c714b.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/95331be22de8437c339e1ac2d8bca86f.mp3"
+        },
+        {
+          "ab": "kapah",
+          "ch": "青年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/a2266b31822e7d37840be647ad8bbdc0.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/76ed4f29edd93c0c24cbf761bb423b23.mp3"
+        },
+        {
+          "ab": "kasakapot",
+          "ch": "年齡階層",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/c29ffb9b3a1088dc21d883ba2d065115.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/5b783822d4c391484b475a0ced667dd9.mp3"
+        },
+        {
+          "ab": "comikay",
+          "ch": "跑步",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/25e31846d1e172013fccaecb51c3fd14.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "此外，競賽主要目的是要讓所有族人知道哪一位青壯年跑得最快，敏捷性最佳，以及體格和體力最好。因此，最重要的比賽分為兩個項目：",
+      "ab": "Ona pihaen to demak, hay maemin mafana’ ko finawlan cima ko sahacikayay, tariktikay ato nga’ayay ko tatirengan ato saci’icelay. Salaw  tosa ko tadamaanay lalifeten nona kacomikay.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/26/d3fe1132c09e95ca981cddbf01570f58.mp3",
+      "word": [
+        {
+          "ab": "Ona",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/efd875357b5ec7565dc4185453d81ec6.mp3"
+        },
+        {
+          "ab": "pihaen",
+          "ch": "之所以這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/37811a775905c1906bf9d61e826f3bcd.mp3"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/2fa75ba75e2a3bfea8d6b9c870e9c481.mp3"
+        },
+        {
+          "ab": "demak",
+          "ch": "事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/098e723915ad78d8c104db25422a7ca0.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hay",
+          "ch": "使得",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/764a605c369a11122ef91240fa604aeb.mp3"
+        },
+        {
+          "ab": "maemin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/aab9b9c88ced592662a442f328a49670.mp3"
+        },
+        {
+          "ab": "mafana’",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/7c397448d2deea0cc8495900a3cb7f81.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/03708f65a0313cf5bd04b15d58746ed9.mp3"
+        },
+        {
+          "ab": "finawlan",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/09e4617c3f0f19d52cdfd6d25dff1b0a.mp3"
+        },
+        {
+          "ab": "cima",
+          "ch": "誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/38bb1ec049fc86f35005ae77ed8831e6.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/ef1ba08532f8c95d987988f3a4819e61.mp3"
+        },
+        {
+          "ab": "sahacikayay",
+          "ch": "跑得最快",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/1811d46cfc9be9516c9ca2860337a2bf.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tariktikay",
+          "ch": "最敏捷的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/cb6ba80df9a482b38189961104590d18.mp3"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/1014d958e08b6e6085e8f04528155d62.mp3"
+        },
+        {
+          "ab": "nga’ayay",
+          "ch": "很好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/04aa02155f422ef0ca9097ea0da6abfd.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/9da88fae33f6842fd8f8740061cccfa7.mp3"
+        },
+        {
+          "ab": "tatirengan",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/af5ebec1fc4538f7cbfbf9b4206de61b.mp3"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/ab7e43d4761cc89aa004541424edd70d.mp3"
+        },
+        {
+          "ab": "saci’icelay",
+          "ch": "最有能力的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/13acc2215df1507c77f6455c115e8b18.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Salaw",
+          "ch": "因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/a04ef2b80e6002f11c600d8a8245a2b0.mp3"
+        },
+        {
+          "ab": "tosa",
+          "ch": "兩項",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/5cb68c0e3976269d321d839cd490acdb.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/aae2077dc36df8c3f2dc12ebbe050348.mp3"
+        },
+        {
+          "ab": "tadamaanay",
+          "ch": "很重要的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/32197e38e098031b37f702eb671b6c7f.mp3"
+        },
+        {
+          "ab": "lalifeten",
+          "ch": "競賽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/541daa7768976bfcf50c0f1f36f3c61a.mp3"
+        },
+        {
+          "ab": "nona",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/d8ae22fdcb0f8d8a644ea45f772874e5.mp3"
+        },
+        {
+          "ab": "kacomikay",
+          "ch": "跑步",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/bbfd4d3b94464adb66c136378d2a869a.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "第一項是短跑競賽，選拔四名速度最快的青壯年，優勝者會被訓練成為勇猛的戰士。一旦部落發生戰爭，他們是攻撃敵人的前鋒。",
+      "ab": "Sakacecay, kamoko’ay ko cacikayen, sasepatay ko aalaen to sahacikayay, o papakonlingen to ci’icelay a kapah. Ano ira ko kalalood no niyaro’, o malo sa’ayaway a misi’ayaw to lalooden a ’ada.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/26/353414d114094813c7c7f9aa6681b082.mp3",
+      "word": [
+        {
+          "ab": "Sakacecay",
+          "ch": "第一項",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/895e487725e049f5d51a955154695920.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kamoko’ay",
+          "ch": "短的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/8185bd5b4a127940d1717ad13dfb1ea7.wav"
+        },
+        {
+          "ab": "ko\r\n",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/323dc4fcef3482857c4a5a554be9c977.wav"
+        },
+        {
+          "ab": "cacikayen",
+          "ch": "要跑步的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/d0da10d4920c7d6a18358e25bbf23af8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sasepatay",
+          "ch": "四個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/dc82dd270dc95eb6d5a8ad92484ef928.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/a3a3569bb04f4ca70c387b9748ecdb96.wav"
+        },
+        {
+          "ab": "aalaen",
+          "ch": "要遴選",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/a0634c071cd61cad01e906c21aa23885.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/90d773bda5569cdca66336c3444aaa2e.wav"
+        },
+        {
+          "ab": "sahacikayay",
+          "ch": "跑最快的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/199eaed05d2bc02d12604408a3e943ee.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[名]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/b9ee9ce9136898731ece5a0c69cc2fa4.mp3"
+        },
+        {
+          "ab": "papakonlingen",
+          "ch": "要加以訓練的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/4ef5f375fdbc199fd9442c1df8665bef.mp3"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/bc4a8b4a7c2f41e36a41ced7d6cada2d.mp3"
+        },
+        {
+          "ab": "ci’icelay",
+          "ch": "有力量的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/93fc2417987e4a5a0a0d1d73c48afb5d.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/a4e6c8ab1196886a30a84d86c3a4d89d.mp3"
+        },
+        {
+          "ab": "kapah",
+          "ch": "年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/4ec10f9aada81ccf7b56de050baf097c.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ano",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/394a22233c1b6ab57eb4daa97c3ca4f1.mp3"
+        },
+        {
+          "ab": "ira",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/548219003f9e9595fefd32d2d3fe9e99.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/c6491472527add711dae4ffbe53d8d2d.mp3"
+        },
+        {
+          "ab": "kalalood",
+          "ch": "戰爭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/9d1e94b3fb271c9b8746083ca2d3f845.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/a634e173f4cbccb8fe73facf0e6d9267.mp3"
+        },
+        {
+          "ab": "niyaro’",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/8a7447c6244726373847e9386ca1c854.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[名]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/333551d88606ce4dcecf364631a2e380.mp3"
+        },
+        {
+          "ab": "malo",
+          "ch": "作為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/15/5055912387c5a4ba08be03fd1841057e.wav"
+        },
+        {
+          "ab": "sa’ayaway",
+          "ch": "最前線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/c31342903d8a7c4d90a2a883a8a3b50b.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/05b6aa5e54ab9119c8c0abf700ed6df7.mp3"
+        },
+        {
+          "ab": "misi’ayaw",
+          "ch": "面對",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/3c2327a7b3f979ae2e60cb10e6ed0d0d.mp3"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/cded134215e497e159a7ee0602622e45.mp3"
+        },
+        {
+          "ab": "lalooden",
+          "ch": "攻撃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/15/77e7bb1fbfd70003b2c6c8e81afc3f25.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/1a343d5be67d0bef9ed3698fa03223d5.mp3"
+        },
+        {
+          "ab": "’ada",
+          "ch": "敵人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/4496f3085a9d9bb4dbc03762a40b0675.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "第二項是長跑馬拉松比賽，凡屬年齡階級的青壯年一律要參賽，讓族人知道年輕人的體力狀況；同時要選拔十名優勝者，如果遠方有重大事件，以及部落之間發生戰爭，他們負責為頭目和族人傳遞有關戰争的信息和結果。",
+      "ab": "Sakatosa, malasong hananay ko cacikayen. O mamikihatiya ko kasakapot a maemin, hay mafana’ ko finawlan to ’icel no tatirengan no kapakapah, roma sato, o  mamipili’ to saidahiay a kapah mamoetep; ano ira ko tadamaanay a demak no iraayay, malalood ko kasaniyaro’, o cacomikay cangra a paratoh to lihaf ato saka laheci nora demak.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/26/33f98bb24615baeae1e06ab6b36dfeff.mp3",
+      "word": [
+        {
+          "ab": "Sakatosa",
+          "ch": "第二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/0df947172e91b3e2ae1b5b972f64d679.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "malasong",
+          "ch": "馬拉松",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/db6e6f04e40842e3f1f104fae6d65eb1.wav"
+        },
+        {
+          "ab": "hananay",
+          "ch": "如是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/78d131fc60dbde660ec9d0da012768d7.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/c849ab4673146a2557215523b907b57d.mp3"
+        },
+        {
+          "ab": "cacikayen",
+          "ch": "跑步項目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/84aff271a16ca13af7b37f4a882dd4a0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "O",
+          "ch": "[名]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/5b04aa0eb0c39e20ec18a5ea2ed8dc7b.mp3"
+        },
+        {
+          "ab": "mamikihatiya",
+          "ch": "要參與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/01fab556b347d6b3a56f716dbfec0190.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/0a07b1fa170a20367be5f0cea478a669.mp3"
+        },
+        {
+          "ab": "kasakapot",
+          "ch": "各年齡階級",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/da0c5d2bb67dd4b20f2111649251fe52.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/9321f807a30feeaa0fe17c312d4dd05a.wav"
+        },
+        {
+          "ab": "maemin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/644620041a9034978199841c32eb5dd3.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hay",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/22d55154f34a7ecb1badeefb847a6760.mp3"
+        },
+        {
+          "ab": "mafana’",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/f00bec00a96d7114ee4d440e70565fdc.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/f6ad655dd3e405b263c633f804872c01.mp3"
+        },
+        {
+          "ab": "finawlan",
+          "ch": "部落人民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/96b2922333774f5fa608e4dc9e8cc146.mp3"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/c956f013456d2ab0f1f1e6e9cc31c044.mp3"
+        },
+        {
+          "ab": "’icel",
+          "ch": "能力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/e6cae1a4b1bb4a9d7710d787954d23ab.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/fa02e78369eb0b8a01552c33ed17731e.mp3"
+        },
+        {
+          "ab": "tatirengan",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/18f34f6f5aac8a04d7a76a5779b17b22.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/67565dc4287bf385ac51e5e461cd49fb.wav"
+        },
+        {
+          "ab": "kapakapah",
+          "ch": "各青年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/16/8e20f33650fe757e539a14d40288a03f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "roma",
+          "ch": "其次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/c62b590e560073fc8195eb96d90d6a9d.mp3"
+        },
+        {
+          "ab": "sato",
+          "ch": "呢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/cddb5039cb089ccceeef5e94926deb75.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[名]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/8202f6b7a98c7a01436b44aa2d1e7a04.wav"
+        },
+        {
+          "ab": "mamipili’",
+          "ch": "選拔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/16/00a7955db8975a06e02458128c4acc30.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/57d926503f7734cbfd37436e4f403e2e.wav"
+        },
+        {
+          "ab": "saidahiay",
+          "ch": "稍強",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/d18d10710df22b3627918eb57ad52fd8.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/80e412a26682a3e68d8eb62cadc6b09f.wav"
+        },
+        {
+          "ab": "kapah",
+          "ch": "青年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/e4a19a9b2cbcb5483d69748d3a9b6ab2.wav"
+        },
+        {
+          "ab": "mamoetep",
+          "ch": "十個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/67e30cbfcd4f57535e4330903e75f069.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ano",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/217201cfee7bb52533480b816c0918b3.wav"
+        },
+        {
+          "ab": "ira",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/8d5a7d3f7856e668c7fa20336f9a97bc.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/d5a721029218a1fbc0d2b9f0968c9931.wav"
+        },
+        {
+          "ab": "tadamaanay",
+          "ch": "非常重要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/41d6c94a4861d495201322f37f01e78e.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/7f7e803ee2d1481fd805f34086a52c37.wav"
+        },
+        {
+          "ab": "demak",
+          "ch": "事件",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/3aa6d30b728a734861eb60d7a1840f6c.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/d0f4ee656de321e218f55432ae2de3b7.wav"
+        },
+        {
+          "ab": "iraayay",
+          "ch": "遠方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/c925f48a5704b0bfb6369cc1016a013b.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "malalood",
+          "ch": "戰亂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/7fcab1482b40fb5bab791d42b75e4d90.mp3"
+        },
+        {
+          "ab": "ko",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/d220b363fa173729b6b2851776d4e6db.wav"
+        },
+        {
+          "ab": "kasaniyaro’",
+          "ch": "各部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/92a2ca96b7a52c08a11f16c6c189741c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[名]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/f681fe11a85ee1b27b8ccd6f8ec4d950.mp3"
+        },
+        {
+          "ab": "cacomikay",
+          "ch": "跑步選手",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/9a12eb64538601a20bd876c3fd0f2ef9.mp3"
+        },
+        {
+          "ab": "cangra",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/28/cb54ee402c11b20ecc1ce1c5aa9c6fef.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/4208ce2d55a66510796839ccbcfa6ab2.wav"
+        },
+        {
+          "ab": "paratoh",
+          "ch": "傳信息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/86dc080e74a9e11f0ac8cb7c0551c46d.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/b91a539a06cb4cf25cdb33d9b2d68b8d.wav"
+        },
+        {
+          "ab": "lihaf",
+          "ch": "消息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/03f6e9b7ae7bb683be2849f211b2d292.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/5d38f2089c80d35ec55113f340c1878d.wav"
+        },
+        {
+          "ab": "saka",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/0e7063ba15aca69e0c15be29a4933852.wav"
+        },
+        {
+          "ab": "laheci",
+          "ch": "結果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/e3cb0afe3dbb0c8e27ff88a8af23e725.wav"
+        },
+        {
+          "ab": "nora",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/72c1aadda502ea552242d4324b36bfc6.wav"
+        },
+        {
+          "ab": "demak",
+          "ch": "事件",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/09/29f73a69bac80b7fc6960ab54c7129d5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

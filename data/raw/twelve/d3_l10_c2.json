@@ -1,6 +1,794 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "tu babuyulr kana Puyuma",
+  "titleCh": "普悠瑪的版圖",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "普悠瑪部落座落在都蘭山的南邊和南王山以東平坦的地方。",
+      "ab": "tu drekalr kana Puyuma i, ulraya i makatimul kana drenan i Truwangalan. i makalaudr kadri Patatalru kana marayarayas.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/fd776140aab62f05913ceb256a0f3e53.wav",
+      "word": [
+        {
+          "ab": "tu",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/5544ebd92c07821f2885bd61d81a1c92.wav"
+        },
+        {
+          "ab": "drekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/d17560b171db83743756e78a451679dd.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/05da4a4efa9b4576512883f4cf70e9f9.wav"
+        },
+        {
+          "ab": "Puyuma",
+          "ch": "普悠瑪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/87882f687b8de4cc256af5db6e53674f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/10d40c7415bbe87b03c68abf902329a3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulraya",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/a7c30da1c9e62aa57d3029450a03fc9a.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/fa143d653ed69ddf381924c0d3adf4d2.wav"
+        },
+        {
+          "ab": "makatimul",
+          "ch": "南邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/90f5467f1026ef5bed18d8e779a65830.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/668d17e713035d498574d832bdd3d7f7.wav"
+        },
+        {
+          "ab": "drenan",
+          "ch": "高山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/f27afa16d4e0bfd0882d237c09b37f9c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/e500813b0116a729232be5b587d4b2ff.wav"
+        },
+        {
+          "ab": "Truwangalan",
+          "ch": "都蘭山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/874b5c6c8543e2e915766e6e5e2266f9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/e3667b435e999b653dba291634579db1.wav"
+        },
+        {
+          "ab": "makalaudr",
+          "ch": "東邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/ad521bd409c9f3739ef19f7b00588163.wav"
+        },
+        {
+          "ab": "kadri",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/d0f2242f06c71960627ca66cd30a3f97.wav"
+        },
+        {
+          "ab": "Patatalru",
+          "ch": "南王山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/5b5b50e4cd37792ec9098ab5de1f8020.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/775a71a5c29c7d2ba473de27eb4c4d83.wav"
+        },
+        {
+          "ab": "marayarayas",
+          "ch": "平坦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/a1e89701ae990c30a96315f9e4212936.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "往北就是下賓朗、阿里擺、初鹿和龍過脈；往西就是泰安和利嘉。如果往南就是知本和建和；往東就到達寶桑。",
+      "ab": "muami i, amau na Pinaseki, Alripay, Mulibelibek aw i Danadanaw. mudraya i, amau na Tamalrakaw aw na Likabung. an mutimul i, amau na Katratripulr, na Kasabakan. mulaudr i, meredek i Papulu.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/30ba3b42c5598b875248f43e77fef697.wav",
+      "word": [
+        {
+          "ab": "muami",
+          "ch": "往北",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/c3d17476e8de221043c9484475ea8478.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/c9d66ae84b5ec509d7ffc70cde84570f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/0993aead8a1a41466930b3e4cef10a30.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/61c95d3d2916b3127ac95589955c48cf.wav"
+        },
+        {
+          "ab": "Pinaseki",
+          "ch": "下賓朗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/96bc1c161991fd52711258c9aa46fda7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Alripay",
+          "ch": "阿里擺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/080aa4b023fd3788e13b0aabb6ab3e58.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mulibelibek",
+          "ch": "初鹿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/3e5504c702d9c702a6cdd792544e86f3.wav"
+        },
+        {
+          "ab": "aw",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/2d84771cd7bd2e373f9be21ffd9f874b.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/2fc9b2f86742a837d656408067e219f3.wav"
+        },
+        {
+          "ab": "Danadanaw",
+          "ch": "龍過脈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/db030f903c08f4c8e1a8f1ce2069f80e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mudraya",
+          "ch": "往西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/e43413dad5828828360872c0381cf0cc.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/be48278689d709fcb8e7c34d9fc93ee5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/de2abfa5abaa55215881907c29c3174c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/d92e92099590eef5ed5ff308a135882c.wav"
+        },
+        {
+          "ab": "Tamalrakaw",
+          "ch": "泰安",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/01635c2c47e397d8737fd3c35947fbce.wav"
+        },
+        {
+          "ab": "aw",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/b7b039c6a9efeaa40d2fc8b4b7af4c82.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/0d076d0315a6b94e56e903f7fdbef3e9.wav"
+        },
+        {
+          "ab": "Likabung",
+          "ch": "利嘉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/07/1dd7a395671097926acc59543bef384c.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "an",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/1ee88528443fe627421dfec962b1833b.wav"
+        },
+        {
+          "ab": "mutimul",
+          "ch": "往南",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/2410e9d9252aefaa649689a32a70b1a0.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/64ecbc65159256792cacce64096c9c54.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/3c59a389d2ac3e0bcd92ca5fa2dd4b40.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/15590279f680d991c7d6784d2c33bf5e.wav"
+        },
+        {
+          "ab": "Katratripulr",
+          "ch": "知本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/8805aa79e8ff981d0cc7b32f72064b1a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/8be745a0c6670957f8d9bd163f27ecf8.wav"
+        },
+        {
+          "ab": "Kasabakan",
+          "ch": "建和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/55a3c8423eb4c12b794b1a1d92ba2294.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mulaudr",
+          "ch": "往東",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/2a085a920326bb969396f9975cb8559d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/a80afba10a88414d5521db94504cce48.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "meredek",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/495baa1aafe0c5645bc20d3d927e0104.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/1e7a14be6349a4d61e56ae52c61b82c9.wav"
+        },
+        {
+          "ab": "Papulu",
+          "ch": "寶桑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/31498b55e46828b11ab2d64fb10b85b1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "普悠瑪的傳說故事有兩種說法，其一是源自於三和，其二是源自於都蘭山。",
+      "ab": "na batibatiyan na karemasamasalr i Puyuma i, marekadruwa. na saya i, marebuwa i Panapanayan kema. na saya i, a kemay i Truwangalan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/2230987f754f7fef442022a8eb1e122e.wav",
+      "word": [
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/f2e406577191dcab66813cf201bae4c1.wav"
+        },
+        {
+          "ab": "batibatiyan",
+          "ch": "傳說；故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/b59fe034598ac9d11a6874a6d24aa278.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/4452a20b72619243841d5680730ca02d.wav"
+        },
+        {
+          "ab": "karemasamasalr",
+          "ch": "神話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/46dcde834b04466f4d7e70fd81ce2aa1.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/d54b7c38526426b0db6345a3f0e9aee0.wav"
+        },
+        {
+          "ab": "Puyuma",
+          "ch": "普悠瑪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/a7e862a941c24a7b2198b708a9f3f426.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/33f68b5283ce15ed81bb906444473742.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marekadruwa",
+          "ch": "兩種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/daccee669b2aa3d4e027af08c0d042eb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/b674ba68525a6e86baec1bd68fc893f5.wav"
+        },
+        {
+          "ab": "saya",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/daa01fd06d8c530f508dba396520d47e.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/3333e5b5d0653bd2f9cfe0de66014746.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marebuwa",
+          "ch": "源自",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/d23e2b5f89fe170f3521f59aff87694d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/441563c6e595fd83adac0038d66e6668.wav"
+        },
+        {
+          "ab": "Panapanayan",
+          "ch": "三和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/6ff5c9f431aac4af8634567189372da4.wav"
+        },
+        {
+          "ab": "kema",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/83061e46b21df5bc1d7c7b91863cce52.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/4992053cfea34ebbf0d80b7d72739b37.wav"
+        },
+        {
+          "ab": "saya",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/18fb6c9e8e61c5ec46564d632f95c578.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/2a9fa5acb84baf915a664bb69fcbda0a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/e2e07f1d6ea662fc7542f97cd6e62c41.wav"
+        },
+        {
+          "ab": "kemay",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/5ff871c5fd1e9468a8cf2926d1deed97.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/3f781c34c198414b5d4758460caa481e.wav"
+        },
+        {
+          "ab": "Truwangalan",
+          "ch": "都蘭山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/40d5dfbd81655acdcfdeb38456d39e74.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "小米的由來，傳說是祖先到蘭嶼取得的。綠島據說是Arasis家族的獵場。普悠瑪最強盛的時候，領域北至天祥，南至瑯嶠（恆春），向西跨越台南，這是祖先的足跡。",
+      "ab": "tu batibatiyan kana dawa i, amau ta temuwamuwan na muka i Butrulr malaka kema. i Sanasan i, tu paalrupan kana Arasis. \r\n[===]\r\nkanantu kinamakeseran kana Puyuma. tu babuyulr i, muami meredek i Takilris. mutimul i, palru i Lrungkiyaw aw mudraya pasapay i Tainan. idri i, amau tu dinapalran kanta temuwamuwan.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/5895888fadd7c862e38a2b27227ec2c2.wav",
+      "word": [
+        {
+          "ab": "tu",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/86a5c0031562bd6d54e2a117a74130a6.wav"
+        },
+        {
+          "ab": "batibatiyan",
+          "ch": "傳說；故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/c9b40700ea912da11bdb84f8bf04717f.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/92f88d21ca001d8cf992e4e00aec138f.wav"
+        },
+        {
+          "ab": "dawa",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/17d3d5c995abdb760f0c83b44e0e257e.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/5212e2d543ab29ea0aae8bb633be388a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/ca06de1352336b571a93ec0da84d841c.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/80868a31fae26f7434fdead7dc506025.wav"
+        },
+        {
+          "ab": "temuwamuwan",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/7851fb7750ddf346034bed629cfcc692.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/fa0c963bbca1ca646d93877ed0a41511.wav"
+        },
+        {
+          "ab": "muka",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/4c355cabac5535f6fddf0a16171b32cd.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/48d017ff417fea9de1db8bd8dabef7ed.wav"
+        },
+        {
+          "ab": "Butrulr",
+          "ch": "蘭嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/44511dd4c38db13b27835df562705759.wav"
+        },
+        {
+          "ab": "malaka",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/610bdb893d576f439c67175e91587676.wav"
+        },
+        {
+          "ab": "kema",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/03cea4ee469175628b6cc372d13ef696.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/e8acaaf2ca0a5faa2ca81748b99472f4.wav"
+        },
+        {
+          "ab": "Sanasan",
+          "ch": "綠島",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/a5028f943728237281fb37742b497de6.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/68256bd81812424818454f6dada05a54.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tu",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/2ae004bd50199cc77166f128309b5809.wav"
+        },
+        {
+          "ab": "paalrupan",
+          "ch": "獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/dc4fe6a449ec40dd981814f63eb9e2c9.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/12c06a1a8f575313e504575a06dc2e8a.wav"
+        },
+        {
+          "ab": "Arasis",
+          "ch": "（家族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/17bac96be7e0b796bd5c3071a7c2bebb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kanantu",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/c54c002153de0e8c5ce390d3df8c8c33.wav"
+        },
+        {
+          "ab": "kinamakeseran",
+          "ch": "最強盛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/751a3cdef2cca7cef6b7b05d6cd6e10f.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/e357356ad021b773fb568081ea4fbf51.wav"
+        },
+        {
+          "ab": "Puyuma",
+          "ch": "普悠瑪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/d43f89a766e7a667021767317acaf6e0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tu",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/5d410441a7ca9e56109da5728a7b48e3.wav"
+        },
+        {
+          "ab": "babuyulr",
+          "ch": "版圖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/434ce44c7bc64be9419a9aeb76409097.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/3770a89bdaf38cb8196317d6e6802d7f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muami",
+          "ch": "往北",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/4af2d9a50d3865593b973ff9a38c6d39.wav"
+        },
+        {
+          "ab": "meredek",
+          "ch": "到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/9476630396673074b98a68eb20e70245.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/c784e81410ae74f2c46c135d2db5e0f8.wav"
+        },
+        {
+          "ab": "Takilris",
+          "ch": "天祥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/4b59f87d7a404223de629d8fcfc2e290.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mutimul",
+          "ch": "往南",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/6648b1abd4a9b964566c3690613f20a6.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/6f2a5ee005225733202066a3adb8c861.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "palru",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/22d6e6ceb43db0b8e33310f5a9e5244d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/719ce8b0c3bd5596fc1398d54d17e360.wav"
+        },
+        {
+          "ab": "Lrungkiyaw",
+          "ch": "瑯嶠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/b162e724eefc288780e88b283a730645.wav"
+        },
+        {
+          "ab": "aw",
+          "ch": "而且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/186fd4121a6d7c09537c63e8c1b3b5a4.wav"
+        },
+        {
+          "ab": "mudraya",
+          "ch": "往西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/8e9e83a08cdb55638cf208362d59b213.wav"
+        },
+        {
+          "ab": "pasapay",
+          "ch": "橫跨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/6a1fd7c6dd463c972bb2d8b21df9f933.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/cd6ef1843e7d16d521d700df3e01ca71.wav"
+        },
+        {
+          "ab": "Tainan",
+          "ch": "台南",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/9c37f8c750b17dcbe34763ae7f886026.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "idri",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/ae7b9928e83dc64e969bd01b9562d693.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/68209dc20595f15c48ddcfbe866ef7b1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/debf48b09b591ef018c9d51f90a2a4d3.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/7373ec67c400a5d3aa36a304ccde7a13.wav"
+        },
+        {
+          "ab": "dinapalran",
+          "ch": "足跡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/2efd72163394ad3ba05c0ff0c1ea75d7.wav"
+        },
+        {
+          "ab": "kanta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/ac7086a657ce9a8ed9d68679019b6a62.wav"
+        },
+        {
+          "ab": "temuwamuwan",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/c3010f3c7aee6e4b442078b08cb9e898.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

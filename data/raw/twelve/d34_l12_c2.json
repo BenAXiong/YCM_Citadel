@@ -1,6 +1,966 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "hliasapucu a ta’iara",
+  "titleCh": "被忽略的大事",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "聖貝祭的第六天，男士集會所裡的灶火依舊不熄。在凌晨公雞第三啼時，主祭會帶領男士們到集會所，把五天前掛在樑上的豬頭取下煮熟，並把煮熟的肉置於篩子敬神。完畢後將肉切成塊，分給男士們當作便當，每個人準備著發酵麵團及肥肉。快天亮時，主祭再次帶領著男士們前往山中團獵，一組往東、一組往西，主祭並囑咐著午時，務必要趕到出發地點。",
+      "ab": "mialavalavaʉ siaʉnʉmʉ ari, apuhlu ma tapuhlaihliana kuausʉsʉpʉ, ma maivʉvʉrʉnga sipitatuluhluisa turukuka, ruavicicu raahlina hlahlahlusa mahlukua tapuhlaihlia umuhlunu laʉvʉisa pasakulai marungu vungutaruramʉ cumuhlu pusulʉpʉngʉ avava, pahlasuru vungutaruramʉ arisangia mikua talaku alʉcisa raahlina kilaliaili, kilʉpʉngʉ, \r\n[===]\r\naliailisa raahlina tapuhlaihlia tuvivira hla parucʉrʉa hlahlahlusa, tarisiacʉpʉcʉpʉngʉ hlahlahlusa maialalangʉ sipiatamuuisa, arasihlangicu, ruavicicua raahlina hlahlahlusa muasa mukamuhlu, ucani tarʉana mukakakua uruamitana, ucani tarʉana mukakakua tavula, kiahlahlamucua raahlina mualualu mahlipapuna tarisiacʉpʉcʉpʉngʉ puaili paranana.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/05/25/8dd2212cc23656aa46a6c5bf70db9247.wav",
+      "word": [
+        {
+          "ab": "mialavalavaʉ  ",
+          "ch": "祭典尾聲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/28/22f1acafcb20ef9327c88b79f66c1fe9.wav"
+        },
+        {
+          "ab": "siaʉnʉmʉ ",
+          "ch": "第六",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/dfb4553211d1a34eb8749e8d3e6904dd.mp3"
+        },
+        {
+          "ab": "ari",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2193c638ddf5aa76788a37d90edf91a0.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "apuhlu ",
+          "ch": "火",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/eb00402b945ba61ad12a81ffcef2a582.mp3"
+        },
+        {
+          "ab": "ma ",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/c03aebfb6714a818384197531c606ab8.mp3"
+        },
+        {
+          "ab": "tapuhlaihliana ",
+          "ch": "男子聚會所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/d0e629f68342a8bbd8ff55ccf57b3c28.mp3"
+        },
+        {
+          "ab": "kuausʉsʉpʉ ",
+          "ch": "不熄滅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/c0aec2a80e6b544c02b3c62e7e8213cb.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma ",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/0a2b13909a8656572181b3cf4be377cc.mp3"
+        },
+        {
+          "ab": "maivʉvʉrʉnga ",
+          "ch": "清晨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/55b14fcb80eba7d82a9f3a8a995e222d.mp3"
+        },
+        {
+          "ab": "sipitatuluhluisa ",
+          "ch": "第三啼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/7c7b961bc3e58a00a5c95118a39de01b.mp3"
+        },
+        {
+          "ab": "turukuka ",
+          "ch": "雞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/3bae97f08a8f25b88e0d74bae4478297.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ruavicicu ",
+          "ch": "帶領",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/8c5ff35e8e1af1d864106c0c3ec2e99b.mp3"
+        },
+        {
+          "ab": "raahlina ",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/b681c137f78775d8cab8f4cabbe65207.mp3"
+        },
+        {
+          "ab": "hlahlahlusa ",
+          "ch": "男子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/4aa566d179aae649caa12d2bc2a1a2b9.mp3"
+        },
+        {
+          "ab": "mahlukua",
+          "ch": "去；往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/da0e9036c3a5ae4fbed7d07fdff560d7.mp3"
+        },
+        {
+          "ab": "tapuhlaihlia ",
+          "ch": "男子聚會所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2d026f137ec216d6579d0be2874ba87c.mp3"
+        },
+        {
+          "ab": "umuhlunu ",
+          "ch": "使喚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/6c596e9da098d45a9a04759e6f09a08c.mp3"
+        },
+        {
+          "ab": "laʉvʉisa ",
+          "ch": "他的朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2bea329ba041f88feeef49dbc4ad3511.mp3"
+        },
+        {
+          "ab": "pasakulai ",
+          "ch": "趕快",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/c6a7cd1cb5907c2795c34dbad5720376.mp3"
+        },
+        {
+          "ab": "marungu ",
+          "ch": "掛在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/d6050b19515c43be7f8f806c4996d8b0.mp3"
+        },
+        {
+          "ab": "vungutaruramʉ ",
+          "ch": "豬頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/dcd015c6727259599a3a5ed362a2f18c.mp3"
+        },
+        {
+          "ab": "cumuhlu ",
+          "ch": "燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/895a79a99ed2d8a8911c52af9bb2c884.mp3"
+        },
+        {
+          "ab": "pusulʉpʉngʉ ",
+          "ch": "分切完畢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2e91892a4cf783a59716ced03fd7bb9a.mp3"
+        },
+        {
+          "ab": "avava",
+          "ch": "煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/9716155915d50f55ba73a9d653f0dc85.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pahlasuru ",
+          "ch": "煮熟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/a0576238af95808eb6f5ace87dee4ba5.mp3"
+        },
+        {
+          "ab": "vungutaruramʉ ",
+          "ch": "豬頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/b383ef47928636bde2e5a6884f6b58a0.mp3"
+        },
+        {
+          "ab": "arisangia ",
+          "ch": "盛出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/059736c08b1977ad2172d499ba7948f6.mp3"
+        },
+        {
+          "ab": "mikua ",
+          "ch": "放置",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/3c251c8211b73e1380ee88591ba517ae.mp3"
+        },
+        {
+          "ab": "talaku ",
+          "ch": "篩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/dd4931c84044ba198e8f779781c7c24d.mp3"
+        },
+        {
+          "ab": "alʉcisa ",
+          "ch": "他拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/7ede440897d440786040f811abe29365.mp3"
+        },
+        {
+          "ab": "raahlina ",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/428c77ffbb8c7d4dcd05509f7dc7204c.mp3"
+        },
+        {
+          "ab": "kilaliaili ",
+          "ch": "敬神",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/5564348237c37766c60848cf2b796c5a.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kilʉpʉngʉ",
+          "ch": "結束後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/fd21ac661b508f98a1644c4d8a8d0128.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aliailisa ",
+          "ch": "他拿著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2630b64397d963fc82fcbcc815c74a71.mp3"
+        },
+        {
+          "ab": "raahlina ",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/eaed49b3430270aa5a061db996d69fb7.mp3"
+        },
+        {
+          "ab": "tapuhlaihlia ",
+          "ch": "男子聚會所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/075a6d7010410cc7cc6551db8f7e9cbb.mp3"
+        },
+        {
+          "ab": "tuvivira ",
+          "ch": "切塊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/c4ea3bec89b262cc6247fbd6b9f0699a.mp3"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/25e26951287d76861fbeeaeb6a7065e1.mp3"
+        },
+        {
+          "ab": "parucʉrʉa ",
+          "ch": "裝在飯盒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/dff8047c5df576a55588f70314a014ba.mp3"
+        },
+        {
+          "ab": "hlahlahlusa",
+          "ch": "男子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/63dba51aefacc03486f0d5eb70a35c03.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tarisiacʉpʉcʉpʉngʉ ",
+          "ch": "每一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2498ca3ca2a330caa084a58faef921a1.mp3"
+        },
+        {
+          "ab": "hlahlahlusa ",
+          "ch": "男子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/8e34d490231d847a920943e3840e2b3b.mp3"
+        },
+        {
+          "ab": "maialalangʉ ",
+          "ch": "準備",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/5158ab9506f243fb8c2b974499bfc5f2.mp3"
+        },
+        {
+          "ab": "sipiatamuuisa",
+          "ch": "祭祖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/1fcaa671bcd9352b76c9eb0f2aeb54cc.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "arasihlangicu",
+          "ch": "天亮了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/533e7a5b89ae89c60d643c3db08e83f6.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ruavicicua ",
+          "ch": "帶領著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/c91a82ffe89f75a994016fa16b2a2f35.mp3"
+        },
+        {
+          "ab": "raahlina ",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/cb74ffbb9268b407c0e4787ce41d0d3b.mp3"
+        },
+        {
+          "ab": "hlahlahlusa ",
+          "ch": "男子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/a92d5fbd6ce37c71466e0590e8fbfe36.mp3"
+        },
+        {
+          "ab": "muasa",
+          "ch": "去；往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/486f165173247cf0703c73605cc1dea4.mp3"
+        },
+        {
+          "ab": " mukamuhlu ",
+          "ch": "團獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/998c9b6b4aaa4e7e9a1fa4e5b5d95283.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ucani ",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/b2a3907e8b17a60fec1b683ec8f5edd6.mp3"
+        },
+        {
+          "ab": "tarʉana",
+          "ch": "班；組",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/fb70f60ee281e38f697f8291528d9a56.mp3"
+        },
+        {
+          "ab": "mukakakua ",
+          "ch": "走往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/97edd0710f4a062bd2508c27d094c689.mp3"
+        },
+        {
+          "ab": "uruamitana ",
+          "ch": "往東邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/28bf1d93be45c3f3ede9e52bf9a1bd75.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ucani ",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/fbc78aa7c068db1081241c1d83f354b2.mp3"
+        },
+        {
+          "ab": "tarʉana ",
+          "ch": "班；組",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/aeda304f67b85f74c39109d7ec18f0c9.mp3"
+        },
+        {
+          "ab": "mukakakua ",
+          "ch": "走往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/7cf221b1a5e5689c3d9b025cebd21373.mp3"
+        },
+        {
+          "ab": "tavula ",
+          "ch": "北邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/4acff7c79261b0944a3495fc462905e0.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiahlahlamucua ",
+          "ch": "囑咐著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/8985709eeb112c579804af33c2cb2df0.mp3"
+        },
+        {
+          "ab": "raahlina ",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/5815eb2f0d958bd7604073c30affb590.mp3"
+        },
+        {
+          "ab": "mualualu ",
+          "ch": "先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/a8aca0401a1752a28ec19791358b8809.mp3"
+        },
+        {
+          "ab": "mahlipapuna ",
+          "ch": "中午",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/04cd72d6836e6f0ea78f9bacc09f94fe.mp3"
+        },
+        {
+          "ab": "tarisiacʉpʉcʉpʉngʉ ",
+          "ch": "每一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/318e73af5d899cd7f1c9f9cfdaafc20c.mp3"
+        },
+        {
+          "ab": "puaili ",
+          "ch": "回來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/c86d921935ed2a75abb731db3e116a99.mp3"
+        },
+        {
+          "ab": "paranana",
+          "ch": "原來之處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/a820e026128e454ec85f69dee9978af5.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n婦女們各自回家準備吃食，婦女各家拿起祭典前所用的酒渣，再一次加入沸騰過後已冷的泉水，重新擠壓放入陶甕。婦女們安靜地一起準備吃食，有些婦女蒸煮著糯米，有些婦女搗鼓著已蒸熟的糯米，將它們弄成又白又軟嫩的麻糬。一切的工作完畢後，婦女們將飯糰和酒搬到祭場，等待著狩獵回來的男士們。",
+      "ab": "tarisiacʉpʉcʉpʉngʉ ahlahlaina puaili maialalangʉ aanʉ, tarisiacʉpʉcʉpʉngʉ ahlahlaina umala hlipaiʉpʉcʉana cacalʉ pungahlangahla pusahlumu hla paiʉpʉcan taupangʉ, pasakulai ahlahlaina tarisiacʉpʉcʉpʉngʉ maialalangʉ aanʉ, maru ahlaina paucaciri tangusuhlu, maru ahlaina miararʉkʉrʉ hlicuhluku paipai, mailʉpʉngʉ ta’iara, kiakucucua ahlahlaina marikuaisana tausuarauvuana, upalupalu hlimʉrʉcʉka puaili.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/390375f1efd8927347bcecfe286a3cf5.mp3",
+      "word": [
+        {
+          "ab": "tarisiacʉpʉcʉpʉngʉ ",
+          "ch": "每一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/d6a34e223135412580c0a90e9d602a6f.mp3"
+        },
+        {
+          "ab": "ahlahlaina ",
+          "ch": "女士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/6a4d5205b2134c2706d7207df41ec78b.mp3"
+        },
+        {
+          "ab": "puaili ",
+          "ch": "回來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2f2c686df506c36c2d0cf614b47a5452.mp3"
+        },
+        {
+          "ab": "maialalangʉ ",
+          "ch": "準備",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/33fa069811c7a71cbe37be6587779176.mp3"
+        },
+        {
+          "ab": "aanʉ ",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/b60bb19959ab69fc96b963d57b995951.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tarisiacʉpʉcʉpʉngʉ ",
+          "ch": "每一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/e135b4820e1ae4f5251632b63e147347.mp3"
+        },
+        {
+          "ab": "ahlahlaina ",
+          "ch": "女士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/5177e7f6d4bf671845e391820eca148c.mp3"
+        },
+        {
+          "ab": "umala ",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/653780a45babcfd9de5db724f12520b9.mp3"
+        },
+        {
+          "ab": "hlipaiʉpʉcʉana ",
+          "ch": "擠過的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/22307f15a8b15b12ced31be0f7d09308.mp3"
+        },
+        {
+          "ab": "cacalʉ ",
+          "ch": "糯米飯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/6d58990dab7137911322153bc8d4a90b.mp3"
+        },
+        {
+          "ab": "pungahlangahla ",
+          "ch": "重新",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/4676227b563b38c61c93eaef49ef92af.mp3"
+        },
+        {
+          "ab": "pusahlumu ",
+          "ch": "加水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/59244423f90bae57bebf90d36e4a7ac5.mp3"
+        },
+        {
+          "ab": "hla ",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/9107d5a265bb6b0fe070bda1eb2b40c4.mp3"
+        },
+        {
+          "ab": "paiʉpʉcan ",
+          "ch": "擠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/a78e6ee8d58471a85a9089255b5670f7.mp3"
+        },
+        {
+          "ab": "taupangʉ ",
+          "ch": "桶子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/760e0374699db51b4104eb45c75819ba.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pasakulai ",
+          "ch": "趕快",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/11680a8aafd9caed099a9b3ed8479deb.mp3"
+        },
+        {
+          "ab": "ahlahlaina ",
+          "ch": "女士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/8a573a1a6d149604c43e8e19f58e2db9.mp3"
+        },
+        {
+          "ab": "tarisiacʉpʉcʉpʉngʉ ",
+          "ch": "每一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/4ddd3c151e6a9a5383e3dbd47a72d435.mp3"
+        },
+        {
+          "ab": "maialalangʉ ",
+          "ch": "準備",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/ec758674286caa08669ad74af7de5621.mp3"
+        },
+        {
+          "ab": "aanʉ ",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/5f60586d7a909ed3f45f1e138ad3f70d.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maru ",
+          "ch": "有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/53aff23997ba3955a08bb283aac56bde.mp3"
+        },
+        {
+          "ab": "ahlaina ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/454cfd70fb449a95af6a3a89a6a990e1.mp3"
+        },
+        {
+          "ab": "paucaciri ",
+          "ch": "蒸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/21ddddaa7937eb8570061140d3f47822.mp3"
+        },
+        {
+          "ab": "tangusuhlu",
+          "ch": "糯米飯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/0d7f4148267b216b8ad453fd9a12e5e0.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maru ",
+          "ch": "有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/65ad14a5c5bed56743fffd6d86137aa1.mp3"
+        },
+        {
+          "ab": "ahlaina ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/395927839cbb8f80b44d779b069a881a.mp3"
+        },
+        {
+          "ab": "miararʉkʉrʉ ",
+          "ch": "搗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/eaf064bff6675414c006d9133895a90a.mp3"
+        },
+        {
+          "ab": "hlicuhluku ",
+          "ch": "糯米糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/775738b92acbf8a4f23465b59791069f.mp3"
+        },
+        {
+          "ab": "paipai",
+          "ch": "無添加物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/6bb7a120aeedfcde13864235cc6bf59f.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mailʉpʉngʉ ",
+          "ch": "結束",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/b0578072c359b607c257aa5caf08adac.mp3"
+        },
+        {
+          "ab": "ta’iara ",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/9bca0fbd8195d2f687716221a2c3f92c.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kiakucucua ",
+          "ch": "全部共同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/7a214900a72c5d943ac807193bc238b3.mp3"
+        },
+        {
+          "ab": "ahlahlaina ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/2dcb01cefcfb13224754b326763c0628.mp3"
+        },
+        {
+          "ab": "marikuaisana ",
+          "ch": "帶它往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/8aa82fbd43a65066b45c96764e852527.mp3"
+        },
+        {
+          "ab": "tausuarauvuana",
+          "ch": "祭場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/9dac142311c60c4c2e7f0392b2982dea.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "upalupalu ",
+          "ch": "等待",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/22a9f38626f296e1648936585514b873.mp3"
+        },
+        {
+          "ab": "hlimʉrʉcʉka ",
+          "ch": "狩獵後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/e28c1271b226507bee1cdd030ca04b30.mp3"
+        },
+        {
+          "ab": "puaili ",
+          "ch": "回來的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/ed77b8a99a51f8a241507735f9a489de.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "午時，回到集會所的男子們，趕緊處理獵物並煮熟帶到祭場上。祭典場上，大家坐在地上聚在一起吃飯，有的婦女倒酒，有的就在那裡喝酒唱歌，唱著歡樂歌送神。主祭說：「 一連六天的聖貝祭，順利的、平安的，每位族人帶著聖貝給予滿滿的祝福結束了。我的族人啊，別忘了明年的聖貝祭再見。」",
+      "ab": "mahlipapucu puaiailicua hlimʉrʉcʉka hlahlahlusa, tarisiacʉpʉcʉpʉngicua hliumalala kuli’ina, maru a cumacuhlu marua uapau, takʉlʉpʉngʉ kiakucucu tulʉsʉtupuru kulʉsʉ uumu, marucu ahlaina pilangahlʉ, marucuisana pahlusahli mimamapaci, pahluasasahli sahli aiana, maluliricua raahliina, \r\n[===]\r\n“ma hlipatacungucunguhla ʉnʉmʉ ari miatungusuna, pasavacavacangʉ pasalʉpʉngʉ, mavahlaʉvaʉ, tuahlʉmana tamutamu takiarʉna umarua siriasingasinga, minisau pasalʉpʉngʉ, tuahlʉ cucutahlanata cucaihli mungahlangahla arupakakitamana.”",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/05/25/70de41100e1b51c55d42d1bbcb63fc0e.wav",
+      "word": [
+        {
+          "ab": "mahlipapucu ",
+          "ch": "中午",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/9836ab132647b14388191dd80a0b3481.mp3"
+        },
+        {
+          "ab": "puaiailicua",
+          "ch": "回來了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/a46dd09b1da50c68797951d0ee59d333.mp3"
+        },
+        {
+          "ab": "hlimʉrʉcʉka ",
+          "ch": "狩獵後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/f6d3d8e1fbd64cfc1bfa2f9398e1413c.mp3"
+        },
+        {
+          "ab": "hlahlahlusa",
+          "ch": "男子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/5984c34f252396bc77597fa9aa883ada.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tarisiacʉpʉcʉpʉngicua ",
+          "ch": "每一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/3e8cbd64305ff6fb3e4ad848427025d8.mp3"
+        },
+        {
+          "ab": "hliumalala ",
+          "ch": "拿到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/8c376778efa49d66e191e9107b778014.mp3"
+        },
+        {
+          "ab": "kuli’ina ",
+          "ch": "動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/895b904e6c4d4d712a4746b0a8b79d8f.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maru ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/79178b820a52f5513c878f46cdff0356.mp3"
+        },
+        {
+          "ab": "a ",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/e8ad1384e203da8968cbf84505b7abb9.mp3"
+        },
+        {
+          "ab": "cumacuhlu ",
+          "ch": "燒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/afff791887868f63272a99dda33d7988.mp3"
+        },
+        {
+          "ab": "marua ",
+          "ch": "有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/6a18bfc3d74e694ad00850d24d5132f2.mp3"
+        },
+        {
+          "ab": "uapau",
+          "ch": "剖切",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/0ade2f85997817851c32d1ef09eb8938.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "takʉlʉpʉngʉ ",
+          "ch": "完畢\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/29277e7b202040c610f639943e69c5e1.mp3"
+        },
+        {
+          "ab": "kiakucucu ",
+          "ch": "共同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/cec16f3f3a7aed6e51279e11da632573.mp3"
+        },
+        {
+          "ab": "tulʉsʉtupuru ",
+          "ch": "坐一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/0988fa8383249aa4c036336c8d6afb8e.mp3"
+        },
+        {
+          "ab": "kulʉsʉ ",
+          "ch": "一起吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/dde2fcbec23d9da91494fe7a060b6411.mp3"
+        },
+        {
+          "ab": "uumu",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/1136796e6096fdb036a9e674a535e579.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marucu ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/29bd1a904eee9a8c5c1f8073fe173c76.mp3"
+        },
+        {
+          "ab": "ahlaina ",
+          "ch": "女性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/0ec009e358ac556a395f37aece26347d.mp3"
+        },
+        {
+          "ab": "pilangahlʉ ",
+          "ch": "倒酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/4b3f33848e1d26e1441e5c0478e28928.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marucuisana ",
+          "ch": "就在那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/a72960905e1be4e66479d3553c5819df.mp3"
+        },
+        {
+          "ab": "pahlusahli ",
+          "ch": "唱歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/7e2b1331e94dff8b9152af53d63d80f6.mp3"
+        },
+        {
+          "ab": "mimamapaci",
+          "ch": "喝酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/5ea5a2bc2af6cb574cff04c42d3bc9e9.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pahluasasahli ",
+          "ch": "唱歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/e38a2a33910bc80457f4aa557f412732.mp3"
+        },
+        {
+          "ab": "sahli ",
+          "ch": "歌曲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/4914ade493a6b531420342104ab274a0.mp3"
+        },
+        {
+          "ab": "aiana ",
+          "ch": "曲目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/0b7794d9e263d362dffe08cf9cebe94f.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maluliricua",
+          "ch": "說話了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/e3883b39b825ab66a8ce6710fb2cc9a4.mp3"
+        },
+        {
+          "ab": "raahliina",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/30394f237dce677a56c3732759faf8eb.mp3"
+        },
+        {
+          "ab": ", ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma ",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/c0158a0c0c25b0e58639cf047c5c6681.mp3"
+        },
+        {
+          "ab": "hlipatacungucunguhla ",
+          "ch": "在聚集後的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/362a2794dd59de03325ab78232886086.mp3"
+        },
+        {
+          "ab": "ʉnʉmʉ ",
+          "ch": "六",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/73131f858f57b2120e115039c8bce3e6.mp3"
+        },
+        {
+          "ab": "ari ",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/1e25adfaefa5df9974ad077463865c6c.mp3"
+        },
+        {
+          "ab": "miatungusuna ",
+          "ch": "聖貝祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/04bde3911f84a4319cb88f7809a0150d.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pasavacavacangʉ ",
+          "ch": "很順利",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/6aee40111f8c1ddfeafaf9368222eb7e.mp3"
+        },
+        {
+          "ab": "pasalʉpʉngʉ",
+          "ch": "結束",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/c632a9ef7f6c924706b09a37d0dab742.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mavahlaʉvaʉ ",
+          "ch": "平安",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/f09def163521357d601b714ea6086db6.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tuahlʉmana ",
+          "ch": "還能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/e7cdd213a5bf6565ed125c2825bdc2f6.mp3"
+        },
+        {
+          "ab": "tamutamu takiarʉna",
+          "ch": "聖貝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/12c4376d94bd55b3c94bfd9e8c75fe58.mp3"
+        },
+        {
+          "ab": "umarua ",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/bc953129095fa85898e82ae50b18348b.mp3"
+        },
+        {
+          "ab": "siriasingasinga ",
+          "ch": "祝福",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/49c92a5df095835d2900ed4bf780e8f6.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minisau ",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/455e966ab4b45c7bb4f0fe43295461d1.mp3"
+        },
+        {
+          "ab": "pasalʉpʉngʉ",
+          "ch": "結束",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/5fafabb4a7da4da1e7f73fb3bc6fb2e1.mp3"
+        },
+        {
+          "ab": " , ",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tuahlʉ ",
+          "ch": "能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/b900a49047db0721ee2f634418e789d7.mp3"
+        },
+        {
+          "ab": "cucutahlanata ",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/b322674124d7457755a74f92b318eb73.mp3"
+        },
+        {
+          "ab": "cucaihli ",
+          "ch": "明年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/866c65a381165993674237b11c84142d.mp3"
+        },
+        {
+          "ab": "mungahlangahla ",
+          "ch": "重來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/302058514fa9016ac956fde2aa823f97.mp3"
+        },
+        {
+          "ab": "arupakakitamana",
+          "ch": "還要相見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/4e49a7fbd308c5ddfe7872492fdfc785.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

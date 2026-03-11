@@ -1,6 +1,871 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "pinaresaresan za vavayan za ma’inayan",
+  "titleCh": "性別平等",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "男生女生是平等的，在台灣的原住民族群，有的是結婚時，男生入贅住在女生家裡。夫妻一同務農，互相扶持、努力工作。丈夫非常重視與尊敬妻子的家人、親友，所有的工作都攬在身上。夫妻有了孩子，則以女方祖先的名字命名。",
+      "ab": "pinaresaresan na vavayan zi na ma’inayan, i Taiwan na ’inalrayan kana Yēncumin, ulra na ma’inayan nu mi’a’azin mukuwa musavaka kazu kana vavayan i ruma’. kazu mararesan za uwa’umayan kemirungetr puwalralarng za kiyakarunan. salaw penazangal kemaira za inusavakan zantu niruma’enan i ruma’ zantu wadadiyan pakasanay za eman ziya. mialrak na mare’azin tu pungadananay tu ngadan kana temuwamuwan tu ngadan na vavayan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d940ee47ee04431e015f97d1f70aae88.wav",
+      "word": [
+        {
+          "ab": "pinaresaresan",
+          "ch": "使平等；使一致",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/062cd45dd7f49bf3f3bcca173237ffaf.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7476fb8a357276f6afd5b569863ed6ec.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7dcd4bff3b5ea07afb71ea5306b95e4f.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/27074a6d2903309a9e4cb18590a711ba.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/fe16afd293bc4038086fbdf74718d077.wav"
+        },
+        {
+          "ab": "ma’inayan",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7ce94f8ecfde6f818fd95b6313e2c28e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/46613031f7638c896858cd6f4be29e60.wav"
+        },
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/86de77ac74126c75c2d2011f7a845959.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/02a03f97877f4f58c8bc1ddff733e520.wav"
+        },
+        {
+          "ab": "’inalrayan",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d11002689802ad8a6e4631d8fa2b4cc1.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c81545110d3c55bf7244a8086634145d.wav"
+        },
+        {
+          "ab": "Yēncumin",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/bef35db24f8ca98d5875aee3fdf95026.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ulra",
+          "ch": "有；存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/50ab42017e70b8a0846086dd9f90c747.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/8e98523ffa239808c6301e59e67d9933.wav"
+        },
+        {
+          "ab": "ma’inayan",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b06eed55a115c6908af75bd4a7ecd6e5.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當；如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5e5ac7d31de712da215cf9194a241b76.wav"
+        },
+        {
+          "ab": "mi’a’azin",
+          "ch": "將結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/406c1ba0ebbda78d23f6c2be9b1ef6dc.wav"
+        },
+        {
+          "ab": "mukuwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/04eab5084b1dbfe823289ed340a7078a.wav"
+        },
+        {
+          "ab": "musavaka",
+          "ch": "進入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ad55e398ed3507d800f529e3d8dd4279.wav"
+        },
+        {
+          "ab": "kazu",
+          "ch": "居住；在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4ca1c5e627cd764b1ae2a3a1969c44ed.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/103945184536a04de81a534a38d4a504.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/646de94a104527d8eb4d551f0507e98c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/92276dd8621cd0ab9e93f1e90eb80a2e.wav"
+        },
+        {
+          "ab": "ruma’",
+          "ch": "房子；家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/24d466f2d28a23350ff7b17e1b00fafd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kazu",
+          "ch": "居住；在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ce9ef514fb19e2de83fce2499c4ed8e3.wav"
+        },
+        {
+          "ab": "mararesan",
+          "ch": "相同，一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/20bc9c1cba852406a058a4eb94aa2db4.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/bfab7c9921675f37e7e2bc75d7d7f0b5.wav"
+        },
+        {
+          "ab": "uwa’umayan",
+          "ch": "耕地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5c4de404a77239822a16afacda6fa155.wav"
+        },
+        {
+          "ab": "kemirungetr",
+          "ch": "努力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1290f8ddaed5370bff8171a2c4ddd0db.wav"
+        },
+        {
+          "ab": "puwalralarng",
+          "ch": "幫助",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e2772b3f371bf78445baa7fafa8f1bc0.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/92f4182ad6795b13f8c01d90c09b2a52.wav"
+        },
+        {
+          "ab": "kiyakarunan",
+          "ch": "要做的工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a042ce595c8804074343e9b08bd047e9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "salaw",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7c5f57a2a2b274478cd0a9ed4622d34e.wav"
+        },
+        {
+          "ab": "penazangal",
+          "ch": "重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6eb299d64ab518f470d076774184698a.wav"
+        },
+        {
+          "ab": "kemaira",
+          "ch": "尊重",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a0917e3d4f0dbb7942fd849547f36ce6.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/cbf3761cd7093d6a0eac79dbe6bfb2ae.wav"
+        },
+        {
+          "ab": "inusavakan",
+          "ch": "所進入的\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/31684f760d836dee4d91cd5ae0a58c51.wav"
+        },
+        {
+          "ab": "zantu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/866f347aa27cc53d99287c788ca46c79.wav"
+        },
+        {
+          "ab": "niruma’enan",
+          "ch": "家屬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/96aae1bb4c6c705d47413d146954750e.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/f254f3ef81e5a81e22b75511504e6b8b.wav"
+        },
+        {
+          "ab": "ruma’",
+          "ch": "房子；家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b05d5641a48440c3b7ab88c1d617bc4a.wav"
+        },
+        {
+          "ab": "zantu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/028bc364cd0eb4f3ca0ffa101746f6b2.wav"
+        },
+        {
+          "ab": "wadadiyan",
+          "ch": "親友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/08d99db530cfd87762d003efecd79d6d.wav"
+        },
+        {
+          "ab": "pakasanay",
+          "ch": "包辦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/bece2570ebfcdb673054ffb8133a9a16.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b957029f8905a7736f50df5d128495fe.wav"
+        },
+        {
+          "ab": "eman",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/3cb18f3d3fb254cdf6c662179ce3350c.wav"
+        },
+        {
+          "ab": "ziya",
+          "ch": "（未完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d352aee742a7d0a7441f99706e05543d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mialrak",
+          "ch": "生孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/580aea56eef351124d3f1aa09cc2de66.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/96ede18295a1258ffbe1dca74eed34d0.wav"
+        },
+        {
+          "ab": "mare’azin",
+          "ch": "夫妻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d13d9eeabd80c0686f448b7161d8a2b6.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/069175e4a72f808aa6d0e2bcea679161.wav"
+        },
+        {
+          "ab": "pungadananay",
+          "ch": "命名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1b9ca6551a2937ad7473f45926252e5c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/2fc7a86b6686599eaa21e53d86a69510.wav"
+        },
+        {
+          "ab": "ngadan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1d120c86144523926d4f638bab708ca8.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/0ae7484a9f3bbd2a21df420050c032ae.wav"
+        },
+        {
+          "ab": "temuwamuwan",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6973786dc9c1de518c1a62446353dcbf.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b4ecdffb0871094353dede5a5e51c786.wav"
+        },
+        {
+          "ab": "ngadan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/98cdbd3e76d4a09ffecba00d56a1801b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5bf4203306b3594326ed667e133ea368.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/905bc51d22a823f1de2c6090a73bf6e9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有的族群非常不尊重女性，像是把女性當作家裡的僕人奴隸，毫無價值。家中如果沒有女性就像是沒有靈魂一樣。但是，無論是何種婚姻方式，如果社會沒有性別平等就不完美。",
+      "ab": "ulra na zuma na ’inalrayan i Taiwan na trau salaw ’azi penakapazangal kana vavayan, tu kamawanaw zanintaw pinakiyakarun kuli i ruma’, iniyan za trima’ nu kemianger ta. a saruma’enan nu iniyan za vavayan i savak kamawan za iniyan za tinavawan. mawmu, na mukuwa lra musavaka kana vavayan mi’azin, na melak za vavayan mi’azin kieman na siyakay amelri pinaresaresan ’azi ’inava.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e4a047eb3ee54070d4ae2ffffcc7cb7e.wav",
+      "word": [
+        {
+          "ab": "ulra",
+          "ch": "有；存在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ae02eb410d038c3ecd2d4b70077da119.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6135ca9d14d8dd9ad1bb1a7c696f2b05.wav"
+        },
+        {
+          "ab": "zuma",
+          "ch": "其他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/56ffce673e1b00dfae4d8849341676af.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c2e2866ff7c57cb7c34978c6cc20f7c1.wav"
+        },
+        {
+          "ab": "’inalrayan",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d43609c054d017747a6114e45c1615c6.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/cb2bcf62ec949b30b4ffe87834cbdb18.wav"
+        },
+        {
+          "ab": "Taiwan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a0161c65dc9f943adac0381c880e0ad4.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7d40f910bbd18715587677b383d11dbe.wav"
+        },
+        {
+          "ab": "trau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d9c4cb2c752f8198bf83455b4e70464c.wav"
+        },
+        {
+          "ab": "salaw",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/87d655b334d24764e1dd1b377f505922.wav"
+        },
+        {
+          "ab": "’azi",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c4882334139f79d7f534da605a7ac8a9.wav"
+        },
+        {
+          "ab": "penakapazangal",
+          "ch": "特別重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d3f1b378428c2328a4bb143d22a3d53b.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/42044595b9e6201765895242533aec45.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7a7e54e8f87c61eac15e1a66bed7551c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/27020e3d5a2d507e5cf4a836ca05b85b.wav"
+        },
+        {
+          "ab": "kamawanaw",
+          "ch": "當作是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/41967a48feae5a615cfd136ed2011072.wav"
+        },
+        {
+          "ab": "zanintaw",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ab1e242e7fbd869b1f73695533c018eb.wav"
+        },
+        {
+          "ab": "pinakiyakarun",
+          "ch": "在工作的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/2368290ddb5c672cd1cc240aee73322c.wav"
+        },
+        {
+          "ab": "kuli",
+          "ch": "苦力；僕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/461d2e7724268fab716cf630d9419bf1.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6f79287fb6ba44555025707f936f52d9.wav"
+        },
+        {
+          "ab": "ruma’",
+          "ch": "房子；家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6011e2cdf0cd58665384241464c1b7fb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iniyan",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4ebd6c10736654057ef11dbe8b918419.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/75db3504c9bfa7a1fe49cc715240d543.wav"
+        },
+        {
+          "ab": "trima’",
+          "ch": "買；價值",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/cb88c85733fd8241b9190750318f1e59.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當；如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/531a756746657615d2fb9e9536f17423.wav"
+        },
+        {
+          "ab": "kemianger",
+          "ch": "想",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4ec89e0721b7410286a63cb8137066f6.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ed27b7105d4df2a231c0daf9322f9642.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4e4215998a0d0d85a8e41affafea26c4.wav"
+        },
+        {
+          "ab": "saruma’enan",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/186ec175203ee14db6ef2e624a957346.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當；如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/8623f55aec40cdbd6cd2a306702c1a93.wav"
+        },
+        {
+          "ab": "iniyan",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a65a51fa1f2f7143532f95b84b8aa55d.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ed9a2cc78a4156ec80cf7c3fcfa1547a.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d31a11e03728c31016232dcee05ebae3.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/dae75ac444a981a306af808274c33a00.wav"
+        },
+        {
+          "ab": "savak",
+          "ch": "裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b0facf2d75c12cbd77786a1f5588fd56.wav"
+        },
+        {
+          "ab": "kamawan",
+          "ch": "好像，像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/367e1c293a8ac7f017483bed97b20265.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/97f8f258315884fb4aa57d182d425163.wav"
+        },
+        {
+          "ab": "iniyan",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5701f2db3b3e449c953c129fac75f358.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/0bf5b38dc40d099485c255ca595d16cd.wav"
+        },
+        {
+          "ab": "tinavawan",
+          "ch": "靈魂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/cae39754f8166d98655e8b6cd8fbb691.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mawmu",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/9a16ccf0f0842e8262a703f620458ec3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/569ab74376f3a62536de4b41b0a4e2b9.wav"
+        },
+        {
+          "ab": "mukuwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d76528990b76c9dcee24c02fbf02b565.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/3335282cc39791af63e21dbfabf8ff65.wav"
+        },
+        {
+          "ab": "musavaka",
+          "ch": "進入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/187db40827bc4e8e657caee663890041.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/dba2660fb302d58323c1f20ca0613e9d.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ef8150f2b84dc5b5bb28b46efa6340a1.wav"
+        },
+        {
+          "ab": "mi’azin",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/8b867113c6685bca4115b2387fdcd9e5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/89d357db2005292b824f5e0dfa914da6.wav"
+        },
+        {
+          "ab": "melak",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a2955c80146ec286428cd1f668d5262c.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ff68409e8c85acf57dd7fb185b6d066c.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/37e6e4e2119429cc706800caa00fb851.wav"
+        },
+        {
+          "ab": "mi’azin",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/212775091ebf7f6311816f2c3cbfa713.wav"
+        },
+        {
+          "ab": "kieman",
+          "ch": "關聯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/76d11e44260191381aa94c526f734b2e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/093bb1ee4737204b960546791c26b5e1.wav"
+        },
+        {
+          "ab": "siyakay",
+          "ch": "社會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/9d11019268550722bb5992d2d55bc717.wav"
+        },
+        {
+          "ab": "amelri",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/fcc227c2d329b504a8881a62ced71d19.wav"
+        },
+        {
+          "ab": "pinaresaresan",
+          "ch": "使平等；使一致",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4c2ff8194af750e7e0151b69dd27cffb.wav"
+        },
+        {
+          "ab": "’azi",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e7dd49a544e807a837e88e0f63398aef.wav"
+        },
+        {
+          "ab": "’inava",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5324a480df9a59e444f4b82aa1e29b30.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在時代逐漸在改變了，社會上女權逐漸受到重視。所以，男女平等的社會才是正常的社會。",
+      "ab": "hareman lra muvalis lra tu kakuwayanan kana siyakay, parukurena’u lra nantu kezang za vavayan i siyakay. semeneng, nanta siyakay pinaresaresan na vavayan na ma’inayan mu, mau na penatezelr na siyakay.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ab3104844ce867dd329391967c344ab8.wav",
+      "word": [
+        {
+          "ab": "hareman",
+          "ch": "現在的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6b6ba0635607f304d98520c51101c1da.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7146034614648cad695157ccf7bb4817.wav"
+        },
+        {
+          "ab": "muvalis",
+          "ch": "改變",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/9320bf2c7dd3f295462036091cbc1f76.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d00b0e19e74d7acf6be99291fe34f1b9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5fdf887dbddc237ba8c489a45c8ad53f.wav"
+        },
+        {
+          "ab": "kakuwayanan",
+          "ch": "文化；習俗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ee52598644ee7ced4c2db2072d7d25d9.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/57ad6bee934d6b887efb209d7377ad90.wav"
+        },
+        {
+          "ab": "siyakay",
+          "ch": "社會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a880ac58bb1addc21ab346b627da61e0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "parukurena’u",
+          "ch": "較為明顯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5469c7d240ff04406f79b2e03fff6d32.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "（完成式）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7417bfa500c45cb959abeb2b396cbc31.wav"
+        },
+        {
+          "ab": "nantu",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d224fb9a598cd663325dbde7b182046e.wav"
+        },
+        {
+          "ab": "kezang",
+          "ch": "力量；權力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/f85dc34c07c4426945b0c7d531131f8d.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/dae331b18fc83fdcb5ce51ad750cdac4.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/edc9266db9adb4ba63138139f59681cc.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a4be9b8d247e72e855ddee20c894c055.wav"
+        },
+        {
+          "ab": "siyakay",
+          "ch": "社會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c31fada1192b9f75d7cf924a227dfc9d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "semeneng",
+          "ch": "所以；因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1e457357c29937255dd771d9a08db6d2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nanta",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/f3c3efa755efc4550540f20c09d67c9a.wav"
+        },
+        {
+          "ab": "siyakay",
+          "ch": "社會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e28f74954a8f5a1553bdafd77efa6568.wav"
+        },
+        {
+          "ab": "pinaresaresan",
+          "ch": "使平等；使一致",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/8b3432e34d73182c191e65586b395c06.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4838b9169df06ee5715e5727c7007255.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5e37ca1d1570eb0774a0f48b4bdab58e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/bcbf0e0bd5325f9fa70e6df19731b6f1.wav"
+        },
+        {
+          "ab": "ma’inayan",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/181fac1c8bfb1ff34666c016dc829a46.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4f19db24df92ac01fb9e47786a2af831.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/150ddd71c042a911732c03cfc6c86ee1.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/911a7ab4611b9369b7b4b643a771113b.wav"
+        },
+        {
+          "ab": "penatezelr",
+          "ch": "正直",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/3a5a9f0d5c34043b619d6d279dfe88a2.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1afec504faa8095b6a5d1cd43e567bf9.wav"
+        },
+        {
+          "ab": "siyakay",
+          "ch": "社會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/84e442982e657fc263eca32c826d2bcb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

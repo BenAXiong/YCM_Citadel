@@ -1,6 +1,921 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Mudadan han ludun",
+  "titleCh": "登山",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "布農族人原本就住在山林裡生活，所以，我們的身體很自然地就能夠適應，尤其是能夠適應在高山的森林、懸崖峭壁、山脊稜線上奔走。",
+      "ab": "Maq ata bunun na maisnaqabas nanu tu iha’an ludun miqumic, ma’aq qa tal’ai’an ni hubung ka masidu sala iha’an ludun mudadan minkalapat ha’an kula’an, laqai i qelqel cin ihan libus mudadan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/18/6125df330613ed2c3fcf9ca4c63fd6ad.wav",
+      "word": [
+        {
+          "ab": "Maq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/8b335fa0f1f44814d43a9f6560794acd.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/67d9827f9c944051d5bf2823c94179fe.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/b2d5bd64d907dae48287beb7d2a0685b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/96a5eed17e24091f331ca8188757e215.wav"
+        },
+        {
+          "ab": "maisnaqabas",
+          "ch": "從以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/de707582b4659b64e43a26894bc2dd33.wav"
+        },
+        {
+          "ab": "nanu",
+          "ch": "本來就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/03dbeaa63095e87dfd054aeb6832c72d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/1e5150cfd4738a504723789416a43639.wav"
+        },
+        {
+          "ab": "iha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/0091e45c86dc2efef2743c810c61a3bb.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/34ff462c2eca7365339aa7b238a9c143.wav"
+        },
+        {
+          "ab": "miqumic",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/9117b58934e7639cd9a09be9db43fb7d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’aq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/b4c7c814fe156fb44bac5948ab179f82.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/9d73c511c577700b0c7a8bc05e3a2b08.wav"
+        },
+        {
+          "ab": "tal’ai’an",
+          "ch": "生長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/1003d98ad99b26605042ec3c65eaad87.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/88107ba931ed078f1a1d73d0bd575a32.wav"
+        },
+        {
+          "ab": "hubung",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/0a0f319f4d1b7acc7a879809f0f1063f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/b3e03ec5d08d7b1bb34bb1d75121badc.wav"
+        },
+        {
+          "ab": "masidu",
+          "ch": "適合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/37a02e4012f8ec6fc59da19e05d983e3.wav"
+        },
+        {
+          "ab": "sala",
+          "ch": "更",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/333a55a4dd50a0fafb33f7e2e5b0df03.wav"
+        },
+        {
+          "ab": "iha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/2ba26b01250c77738e68650b3f72924c.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/45bea76d85f0369f4ce7ac9253f9d5cb.wav"
+        },
+        {
+          "ab": "mudadan",
+          "ch": "活動；行走",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/18c7d3e908572f255a619c09e04b461a.wav"
+        },
+        {
+          "ab": "minkalapat",
+          "ch": "攀爬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/33d81348225fe436802063fc73e6f2c5.wav"
+        },
+        {
+          "ab": "ha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/6d6ababa05a025b3f8ffa1f4e765f6fe.wav"
+        },
+        {
+          "ab": "kula’an",
+          "ch": "岩壁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/39e42960b233b6999d195eae85d7290b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "laqai",
+          "ch": "經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/0bdfd4449d186fec3afb907865fad651.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/6c465ed53d17739467c95fe414d8e056.wav"
+        },
+        {
+          "ab": "qelqel",
+          "ch": "岩壁；懸崖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/9d5af8da227605ef5e9a1d0fbd39f412.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/4c5e8027a2dd42ca4ee1b0fcb4cd4fc5.wav"
+        },
+        {
+          "ab": "ihan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/350b50ff383f715fb131aaeecf586710.wav"
+        },
+        {
+          "ab": "libus",
+          "ch": "森林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/239ce949b3bcb25a0c47779fe37c80e0.wav"
+        },
+        {
+          "ab": "mudadan",
+          "ch": "行動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/7e83a4be61c9f15cb1e5686ea2c1edaa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "居住在台灣的人，喜歡進入山林裡，進行登山的活動。也喜歡看自然生成的樹木、野草、昆蟲、飛鳥；天然生成的瀑布、河流、 小溪、深谷的美景。在清澈夜裡，會看到滿天的星星，和皎潔的月圓。並且會看到雲海在山裡翻騰，飄細雨時也會看到彩虹。運氣好的話，還會看到各類的生物相互追逐，以及美麗的鳥兒們在森林裡飛翔。",
+      "ab": "Mopa ma’aq qa Takitaivang ti tu miniqumic tu bunun a’ madukin lopadau munha’an ludun libus ta’ tunluludun mudadan, madukin amin sasadu ki manu’az tu libusdaingaz dangi’an ni anak’anak tal’i’ia tu libus, ismut, kukua’, kusbabai tu luqe’, cin manu’az tu tastas, vanglaz, hongku. Maqe ha’an mataisqang tu sanavan na mansanbintuqan na diqanin cin heza’ mataisqang tu buan, maqtu amin sadu ki luhum ha’an ludun ululuzi’, maqe disdisan a maqtu amin sadu ki qainivalval, maqe maciala bahi’ a mintun palaqa’tung ngi tesmumut pasisinap cin mananau’az tu luqec kusbabai tu’i’ia ha’an libus.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/18/2305e14c3a0414ec62d6a2a29849e442.wav",
+      "word": [
+        {
+          "ab": "Mopa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/c2636c1bac9e9f0b4681955165240396.wav"
+        },
+        {
+          "ab": "ma’aq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/f01b7be7d43d51e505a307a223676662.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/806ce70b6b384fa1bf8f1a239ec32055.wav"
+        },
+        {
+          "ab": "Takitaivang",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/8e1d97d44ddafb6025fc1a0c97faff74.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "（限定詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/737e6e42f8a0c420edf0d2889f18a361.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/56fc31d371e2b988e7b0b3a96ea2ae42.wav"
+        },
+        {
+          "ab": "miniqumic",
+          "ch": "眾人；居民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/4a9ad9efd062c8172bbaa1b6288a4ac4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/b3d5cd16656bd872844d94e6c00ac9f3.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/b442e83a5556fa523514fdf47e8e4e1b.wav"
+        },
+        {
+          "ab": "a’",
+          "ch": "（限定詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/83ce1e0e289883951ca824020fb729db.wav"
+        },
+        {
+          "ab": "madukin",
+          "ch": "已經喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/ec1e28295c9fe4e013bbc4c45e2ed0ea.wav"
+        },
+        {
+          "ab": "lopadau",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/3cece0ea5371c5af680cdf2a0c9b72b4.wav"
+        },
+        {
+          "ab": "munha’an",
+          "ch": "前往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/dd14d0cf33a086b45ecbc374f16f589c.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/141d017707fd328a1765b139792b5371.wav"
+        },
+        {
+          "ab": "libus",
+          "ch": "森林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/1e0c883de22f484fe68d3e575e15fe27.wav"
+        },
+        {
+          "ab": "ta’",
+          "ch": "（限定詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/020dbda36ab026476da861751b09a0eb.wav"
+        },
+        {
+          "ab": "tunluludun",
+          "ch": "經過山區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/03/30089edaa1e625dcf84a3cf052d88ca1.wav"
+        },
+        {
+          "ab": "mudadan",
+          "ch": "行動；活動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/8da484a39300fd0463c0d9cf5cb13032.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madukin",
+          "ch": "已經喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/4ca0d95c86f2ee0ebd3a49b6f448efc8.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/3df77411dbeaa2e3c6b9ab2efdacb395.wav"
+        },
+        {
+          "ab": "sasadu",
+          "ch": "看看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/e5218ff81e22205eb3a32a767378f03f.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/0bbeb62dd6ee2b168c92a84bacfb2040.wav"
+        },
+        {
+          "ab": "manu’az ",
+          "ch": "很漂亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/bb2154b01bf1205b47271322eddf38ee.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/42999a62bd597f7f6fdc85c73e0daaf0.wav"
+        },
+        {
+          "ab": "libusdaingaz",
+          "ch": "很深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/a9e804913d2f557cd43b77a29d592ba3.wav"
+        },
+        {
+          "ab": "dangi’an",
+          "ch": "住著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/a1d742d648b1409658be0c7b97e9e743.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/75fb85412ecc9c9f7ffaea255d37156d.wav"
+        },
+        {
+          "ab": "anak’anak",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/cd803c8ab3c2afa5430eeb195bcebe6a.wav"
+        },
+        {
+          "ab": "tal’i’ia",
+          "ch": "生長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/18/503de90b888118bbb50fab3be1affe8a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/88e3fa7a7462c4ce017655ee2ea2ad46.wav"
+        },
+        {
+          "ab": "libus",
+          "ch": "深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/29903d43ded57b63765b195d7c0b4099.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ismut",
+          "ch": "草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/39ceea9d66d6fd7959821277b8d0af58.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kukua’",
+          "ch": "蟲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/57768606c3164d03a9f2fd033a9895ee.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kusbabai",
+          "ch": "飛來飛去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/92c7eacf759c266a7663d63876d84223.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/34718c45c1d3d4dfa6c1947397107bb1.wav"
+        },
+        {
+          "ab": "luqe’",
+          "ch": "鳥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/ac281a4f6613b8639870ae23016bbaeb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cin",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/7527a9a5e8ed7adc1389a59748913cb0.wav"
+        },
+        {
+          "ab": "manu’az",
+          "ch": "很漂亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/491471cd7bfaeb43d2b163a1d5b8a9d3.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/bb5e4f2974573e970a73419f0a5f7f41.wav"
+        },
+        {
+          "ab": "tastas",
+          "ch": "瀑布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/4d9569624460d7cf283a1aada0d3f2d3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "vanglaz",
+          "ch": "溪流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/34e81352505555b8fea122cba1403273.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hongku",
+          "ch": "山谷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/bf99455b9c632c2cca040bd026057559.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maqe",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/87984ef92f4eb26a3400598e2fe21c19.wav"
+        },
+        {
+          "ab": "ha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/5b310acc61b824bed34736ac28969bef.wav"
+        },
+        {
+          "ab": "mataisqang",
+          "ch": "很亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/1ae78e32391b4ac70f0f492717d88f48.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/de316fb56f066179bf15b2f2a69f53dd.wav"
+        },
+        {
+          "ab": "sanavan",
+          "ch": "晚上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/dbfd2cf7057917dab8d9070d88aa2c2c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/aae92066b9e2a57287b442383d7b88b6.wav"
+        },
+        {
+          "ab": "mansanbintuqan ",
+          "ch": "都是星星",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/e68b47c8b393b628155165e619a744ab.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/c31475eb51378905878a207f72d1cdae.wav"
+        },
+        {
+          "ab": "diqanin",
+          "ch": "天空",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/50c8932f79e0369ac94e06e9c6bd86e5.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/5416967f58f1726f626753b88ecefd40.wav"
+        },
+        {
+          "ab": "heza’",
+          "ch": "也有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/5efbc7ade455bf32fcaf601a75dbc0ee.wav"
+        },
+        {
+          "ab": "mataisqang",
+          "ch": "亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/a0604c9d9ef23fbf7cb7be5091201041.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/796e73dfbfd1d95967d2d55fce773f97.wav"
+        },
+        {
+          "ab": "buan",
+          "ch": "月亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/e3c807530bc8028842f255e179b1241b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/8688cb7c76fc1bd40704ac69becb564b.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/601d951f4f2552d36955ef1cd551253a.wav"
+        },
+        {
+          "ab": "sadu",
+          "ch": "看見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/fa14e26aa100e41821a2050bf4edfb67.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/12b5aec8a9910b09c5104fb61cb35336.wav"
+        },
+        {
+          "ab": "luhum",
+          "ch": "雲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/b2e2d846bb30c25159b2eac1b55bddcb.wav"
+        },
+        {
+          "ab": "ha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/30e34847e6a2bcd7a40f671acae634d5.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/080cc5a4ec71a747e260e274bdb13b64.wav"
+        },
+        {
+          "ab": "ululuzi’",
+          "ch": "跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/489d7aef9f2316d6ebde24ae1369d74c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqe",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/fe6e3e773c80c686e9a3bb0eafb2f13f.wav"
+        },
+        {
+          "ab": "disdisan",
+          "ch": "下毛毛雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/f3d834a3a299eb01418783d6777d65f0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "（限定詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/f155ac5c226e8768af958b4cbd4971b9.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/742ac6b5dc0109b50c1506eee8c8c895.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/dc25bde4ace85bea2546fe382b8b8488.wav"
+        },
+        {
+          "ab": "sadu",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/4b4d86b2606edb42770e8bd612491407.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/d0ed3ce01aa99d5f4101b196e85fba3a.wav"
+        },
+        {
+          "ab": "qainivalval",
+          "ch": "彩虹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/c981fdf79a3aed20f4b35e8786325056.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqe",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/0997c2372bc1538b84bc5ca587bf39e4.wav"
+        },
+        {
+          "ab": "maciala",
+          "ch": "很好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/5409d94570540a9c8f0e83ddd73e2453.wav"
+        },
+        {
+          "ab": "bahi’",
+          "ch": "運氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/311cf1b7f713e0e2233801f82486b33f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "（限定詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/be6a8bd950af30b17829a1d5c58d148f.wav"
+        },
+        {
+          "ab": "mintun",
+          "ch": "有時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/5f1a8a8fddbc8a5ff4bf0f111dc69ff4.wav"
+        },
+        {
+          "ab": "palaqa’tung",
+          "ch": "碰見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/8d4af10effffa338cc97d3ef4b2507dd.wav"
+        },
+        {
+          "ab": "ngi",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/4c473e1b45820c16bc6e4e38f0b26fc5.wav"
+        },
+        {
+          "ab": "tesmumut",
+          "ch": "野生動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/def4d5b3a34af9c93bb43bbb8868934e.wav"
+        },
+        {
+          "ab": "pasisinap",
+          "ch": "追逐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/3841efb99d3cff44808cbc5e20853a54.wav"
+        },
+        {
+          "ab": "cin",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/ea87054f09d1dd8fcb8448bed1a44d3e.wav"
+        },
+        {
+          "ab": "mananau’az",
+          "ch": "都很漂亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/bbd311d57a856ad0a5d57fb8781dda97.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/4d0218b33a232f675d53381ef38b5370.wav"
+        },
+        {
+          "ab": "luqec",
+          "ch": "小鳥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/27ce438e6e1f602971ea0443f5d4428e.wav"
+        },
+        {
+          "ab": "kusbabai",
+          "ch": "飛翔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/75534c35295bfd22689f8f9ce066ee06.wav"
+        },
+        {
+          "ab": "tu’i’ia",
+          "ch": "叫聲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/70b98d30e383df910ce3d693603404fb.wav"
+        },
+        {
+          "ab": "ha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/a634a27b1ca32aa976a71d0e1c062075.wav"
+        },
+        {
+          "ab": "libus",
+          "ch": "森林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/7d1ca441acca88b450e706d65533dbd2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "因為，從平原進入山林的訪客越來越多，居住在山林裡的布農人自然就成為了嚮導，並且從中得到報酬。現在的布農人又回到山林工作，成為嚮導員。",
+      "ab": "Opa malaupaku ka’ minmadia’in na menabaq tu tentungu, ma’aq qa takiludun tu Bunun na aivan ni tentungu cui min’unikin ni mamadas tu tataqu, lopadau, ma’aq a Bunun a maqtu’in mucuqes munha’an ludun min’uni ki madasmadas mudadan tataqu tu sinkukuza.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/18/3275ca713f2c4bce6d24d2a2440770e2.wav",
+      "word": [
+        {
+          "ab": "Opa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/5d582c50afcf15d63acdfa2df2f088e6.wav"
+        },
+        {
+          "ab": "malaupaku",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/f2d7d4a7b18730aee16f2a7dce5ec0ad.wav"
+        },
+        {
+          "ab": "ka’",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/dbc97b125b9f02dee3823b2ca58a0f2d.wav"
+        },
+        {
+          "ab": "minmadia’in",
+          "ch": "變多了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/57fb60bd7737412b1e8f63c3447dfc54.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/ec4a6c0d2b86d3993a40f23899d1fe82.wav"
+        },
+        {
+          "ab": "menabaq",
+          "ch": "從都市",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/35d97603af0a97686362d4a429e1ef28.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/66fc580be47fe3ede1959fca149140a8.wav"
+        },
+        {
+          "ab": "tentungu",
+          "ch": "遊客",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/b8a14b9ec11a79fce2a3c7331b289981.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’aq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/3f2f7f2c3c4e8ac3451f68d2ef2179b5.wav"
+        },
+        {
+          "ab": "qa",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/c355b4406b42f9ae5b0199a6e111e85a.wav"
+        },
+        {
+          "ab": "takiludun",
+          "ch": "山上的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/06c9894fdad8d1984b79596c0233d74e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/e87713e710083c4971b891adc76e2d6a.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/92f75eaab29dd31e16b4b88cff13c6fb.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/ad0896d82c8097a18dfb0206489abcac.wav"
+        },
+        {
+          "ab": "aivan",
+          "ch": "接受",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/83d165df8a35a163dea7821654e0efcf.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/1a5bcb251f149deea7fcb58c63e6885b.wav"
+        },
+        {
+          "ab": "tentungu",
+          "ch": "遊客",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/9cfc99e322c9ce9f0fcfe1843113b472.wav"
+        },
+        {
+          "ab": "cui",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/e6b5c4f9b23ce25d8722f4f8f395db85.wav"
+        },
+        {
+          "ab": "min’unikin",
+          "ch": "為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/0928acaf2ec92056174dcc69a81c2c2d.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "不可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/57c1b7b72487b5ad15e6f2abe2370c17.wav"
+        },
+        {
+          "ab": "mamadas",
+          "ch": "率領",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/280a8e9f937dc8c7b25269628a1ed964.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/63f3b385141b5cb91d2ea1f058384f06.wav"
+        },
+        {
+          "ab": "tataqu",
+          "ch": "講解",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/c6e9701b682ec8f4cc3f8923c1dbb1f8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lopadau",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/180d9ac0990bb42907fe9cc7aa3eb5a1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’aq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/04eccd0076a2ba4c0ab95a548cb90543.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/75096e37873d85045640e9f3fcfc182a.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族 ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/9242b325df55f86ba974e86709411eb6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/67922ca22fce5db5ecf15800257ef991.wav"
+        },
+        {
+          "ab": "maqtu’in",
+          "ch": "可以了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/eeb5314803674e4da55f004678273c39.wav"
+        },
+        {
+          "ab": "mucuqes",
+          "ch": "回來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/a2a46bf9bbc50155d2989ebdf9fabb99.wav"
+        },
+        {
+          "ab": "munha’an",
+          "ch": "前往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/3a8e92de76e8511cda8a11cbb937a020.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/700cebdcad58f747a49eb09671d15593.wav"
+        },
+        {
+          "ab": "min’uni",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/54a64b2e4c5969a0449a82b1ef1ecf70.wav"
+        },
+        {
+          "ab": "ki ",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/33349e909eba71677299d2fc97e158b7.wav"
+        },
+        {
+          "ab": "madasmadas",
+          "ch": "帶領",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/04/9e7c0cd2c7a4f38f96085debffa70d9d.wav"
+        },
+        {
+          "ab": "mudadan",
+          "ch": "走路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/faf05894ccc2cf4e7ac91178cf39a95b.wav"
+        },
+        {
+          "ab": "tataqu",
+          "ch": "傳達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/16/73b4eba4a389d8ec601275a1a8012e14.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/f0806492af0b71f5b53c3a79aed9b2f4.wav"
+        },
+        {
+          "ab": "sinkukuza",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/17/6b45d3c59f754d6fbdbf6b1501db4754.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

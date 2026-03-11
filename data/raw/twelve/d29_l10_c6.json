@@ -1,6 +1,886 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "mapeymeymon a kagling",
+  "titleCh": "驕傲的山羊",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "到蘭嶼旅遊，最吸引遊客目光的，是散佈在島嶼各處的山羊，特別是在人跡難至的峭壁邊，或是海邊的礁石上，常能見到山羊的蹤影。",
+      "ab": "no mangey o pangangavangan do Pongso a meylingalingey am, teyiyak da macita o to livon do Pongso a kagkagling. sira malapoapon a tomanek do ji akalat no tao a alalasyas, am maomao do keykeysakan o da peyzazowngan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/17/0c1c209d59f56413e484ca26e4a541b1.mp3",
+      "word": [
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/2bad3b25b993455f9c56a2fc868ca9cb.wav"
+        },
+        {
+          "ab": "mangey",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/0b3a86a506dfa027c0ad603992a2be84.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/6ac2722b65dd2f045f9f22f56e2b0df8.wav"
+        },
+        {
+          "ab": "pangangavangan",
+          "ch": "外族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/2f4e195b441580cf1d9cfc64d47e0ab2.wav"
+        },
+        {
+          "ab": "do",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/6b2faeab8a9ae46c57776a8359f489c4.wav"
+        },
+        {
+          "ab": "Pongso",
+          "ch": "島嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/dfd9daa9afec8fc846becb997c324968.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/80b2c811978f647a5ee540691ae611c1.wav"
+        },
+        {
+          "ab": "meylingalingey",
+          "ch": "觀光",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/cef48e566d987c2e91ace8d4912ca18c.wav"
+        },
+        {
+          "ab": "am",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/3c8f59e19237c94cc6a799e70eda8a38.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "teyiyak",
+          "ch": "好奇；驚訝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/e96b278b7691f3949a55cdc362fe5044.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/acc3424c949d56f69d1a5aeebff39b21.wav"
+        },
+        {
+          "ab": "macita",
+          "ch": "看到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/38a4a43f6f1fbba9d469e956fd7b504d.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/ee0e40f5fe618eeb9bba288d7384a7c7.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/e9d5922ffbdb77277a33e18367f5cdbb.wav"
+        },
+        {
+          "ab": "livon",
+          "ch": "環島",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/d073b0eb6e57ca6456430b73dc303685.wav"
+        },
+        {
+          "ab": "do",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/876a8cc9b9e7e41dc4e2a565ce31dcd4.wav"
+        },
+        {
+          "ab": "Pongso",
+          "ch": "島嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/7e14789fe83b34e8c0f2faff79c8975c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/e5d509187b28511874f125d6ce806196.wav"
+        },
+        {
+          "ab": "kagkagling",
+          "ch": "羊群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/21c4d74ccdfc49284eeac9667f4ab8ab.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sira",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/20b46671cd9422fe5afb7740096f63f2.wav"
+        },
+        {
+          "ab": "malapoapon",
+          "ch": "站立",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/f35d2ebad72de23e570c4f749d4f62c2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/e2ccb62d7f1f4030ac9a4cacdfbe7ec4.wav"
+        },
+        {
+          "ab": "tomanek",
+          "ch": "站立",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/9f96f0c23a6a55dbd2e9427729e24266.wav"
+        },
+        {
+          "ab": "do",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/7dccb5c706e0a14d9d4aacd47d8a1358.wav"
+        },
+        {
+          "ab": " ji akalat",
+          "ch": "無法攀爬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/832cb5843d4b85b3afb7d9a659cf9c41.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/e7eb5f94329a898510cdbcd06a419b4a.wav"
+        },
+        {
+          "ab": "tao",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/7686068674869a65771830aa499930ea.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/a9ab0735cd73dacd1156e578b6db26f2.wav"
+        },
+        {
+          "ab": "alalasyas",
+          "ch": "懸崖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/2c50841de735ce690a33ce6706b34d0d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "am",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/cb4e7af98667b2c91c442d0412640c4b.wav"
+        },
+        {
+          "ab": "maomao",
+          "ch": "岩石",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/b203ed7ab7ea60931739e7372bee79d0.wav"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/9b78e84af6e92738802d258e0967ed8d.wav"
+        },
+        {
+          "ab": "keykeysakan",
+          "ch": "潮間帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/75b40a18edb931f3ad12cb1455bc247d.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/a01aacb6c33f2446dfbd1c5da3e9ef64.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/e177f2a8bf06b0e24620e39e4f2b5018.wav"
+        },
+        {
+          "ab": "peyzazowngan",
+          "ch": "俯瞰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/29/8e4879aaea2ff95607f4b7351842ba81.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n山羊挺立在山崖邊，那種睥睨的神情，總給人高傲的感覺。蘭嶼的山羊是達悟族人財產的象徵，達悟族人會在其所豢養的山羊耳朵上做記號，並在各家族所屬的山林區域牧放，不知情的遊客常誤以為蘭嶼的山羊是野生的。",
+      "ab": "no ya manita sira o kagling am, ya akmey da ji acita o tao, a ya akmey mapeymeymon. ipanci da o aro so kagling ya teyminakem, am katenngan a tao, a apiya so peymeymasowdan. apzengan da no Tao o talinga no kagling da, ta itovil da do viniy da, palamen da sira do takey do peymowamowan da teyhesa ka tokon. no macita da no pangangavangan o kagkagling do pasalan am pongopongow do keysakan am, ipanci da vozow a kagling.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/aba31f174a9991d3021db917351abed0.mp3",
+      "word": [
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/afd60de4bffe2c82adf081b80115e444.mp3"
+        },
+        {
+          "ab": "ya",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/7625704754c8d6c50542e67fb4b23dca.mp3"
+        },
+        {
+          "ab": "manita",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/f809b399c09538acaa3be8c2bd8f5ef2.mp3"
+        },
+        {
+          "ab": "sira",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/6b217d4ea6999adafa171ca836612eb8.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/64f4e1fc14c6d71f5a6e7059395684d0.mp3"
+        },
+        {
+          "ab": "kagling",
+          "ch": "羊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/8fc5c550bf94c53cabbb57f3b7ae7b2a.mp3"
+        },
+        {
+          "ab": "am",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/89622cb680fe6918065af8e3410a515b.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ya",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/8a9dde2a942cfe1c953d7d5118aa109f.mp3"
+        },
+        {
+          "ab": "akmey",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/bb2d72f623d69a6faea3c0595cd2872b.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/16818c6198b4165ffa0e3e09083ddea8.mp3"
+        },
+        {
+          "ab": "ji acita",
+          "ch": "看不見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/0523f3a006bae1257b79e64f0eb1fe86.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/cfe9b1db13fcb93469f01c602fa6721f.mp3"
+        },
+        {
+          "ab": "tao",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/ae2618501e0991b41f98598fd5955d73.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[名]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/5c64f1d2c90810c2e6dce6764ee27630.mp3"
+        },
+        {
+          "ab": "ya",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/e9f84897b8dcbf07429081ef836750c1.mp3"
+        },
+        {
+          "ab": "akmey",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/3ce3c3312dcc76a665c7e0813d2aab10.mp3"
+        },
+        {
+          "ab": "mapeymeymon",
+          "ch": "高傲樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/d72815fcc82cca2f354903af473ab8ee.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ipanci",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/c553f255bdd79700f7adf5505fa49726.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/239b11b8bf790c384c7a434b9e5287d8.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/a2a784b4bd7277a0e3ecc40646828655.mp3"
+        },
+        {
+          "ab": "aro",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/c2bb9832da059d41ef6bf3186d087b28.mp3"
+        },
+        {
+          "ab": "so",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/776fa0b9ed11a6c1f7cb2c16f6976b51.mp3"
+        },
+        {
+          "ab": "kagling",
+          "ch": "羊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/90e4202538283cd5884af0ea35e3b222.mp3"
+        },
+        {
+          "ab": "ya",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/6f2b05d00cfe06f99d989b2859d35c17.mp3"
+        },
+        {
+          "ab": "teyminakem",
+          "ch": "有思想；有智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/7f42ca5d638a74e36594dfde41e202fb.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "am",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/279bc1c7c09a5ff5c64d0376e13d53aa.mp3"
+        },
+        {
+          "ab": "katenngan",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/135031aec62a6957d85bfa7e6cf9ddc3.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/c647e86a0c4c8604620bdf7961dd770d.mp3"
+        },
+        {
+          "ab": "tao",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/a28419a097c1340c987d24a3993e4ce1.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/38952f6589e088caa74c8916a202cec8.mp3"
+        },
+        {
+          "ab": "apiya",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/7248ca186ad9947e1b1b343c966cf19e.mp3"
+        },
+        {
+          "ab": "so",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/f39385853d3226ce24261783a80944a5.mp3"
+        },
+        {
+          "ab": "peymeymasowdan",
+          "ch": "家境富裕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/4d20a13f667dd1f2f3480e59fa48b727.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "apzengan",
+          "ch": "剪耳；做記號",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b9675bf44fedd2c543bfa3139b60f272.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/d232fe00d9b1e56454f2bf0512414a9f.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/4963d03be600f330e72033fae3913422.mp3"
+        },
+        {
+          "ab": "Tao",
+          "ch": "達悟族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/bc267e99e94e545c2e7ce0a45367eb5c.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/9cff682197ce3d01438aace6e1f5b1d9.mp3"
+        },
+        {
+          "ab": "talinga",
+          "ch": "耳朵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/5c2a9b8adeb3eac692cd65ce924bc70f.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/e931a8d973fcbf6c148d5ba9b926216c.mp3"
+        },
+        {
+          "ab": "kagling",
+          "ch": "羊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/122831263e81b4cd47f6406c8b47427b.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/db3dec601300d085a4257da8ab034901.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ta",
+          "ch": "因",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/1d772d5ef8c207caaffe279ce314baa7.mp3"
+        },
+        {
+          "ab": "itovil",
+          "ch": "記號；證明",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/11a7b7635007f3fb3f2c8f56e808de67.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/27ea307292c2b0ad2d63d6a1d4d2d09f.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/a153c6be219e4fcfd04bc6c6a876f0f6.mp3"
+        },
+        {
+          "ab": "viniy",
+          "ch": "牲畜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/2e6149174cb0d9c81d6bc34b00c747ae.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/2c49e8aac676a6385a354e48ff750223.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "palamen",
+          "ch": "牧羊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/6aa3d04dac9475431f94186d0a4469fe.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/4b840799181c94bfbe79b56f4bd42818.mp3"
+        },
+        {
+          "ab": "sira",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b9870cc661e3b3cdaa850aab3dd639bd.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b0b2946ff1abce31cdf3daa4663c2aa6.mp3"
+        },
+        {
+          "ab": "takey",
+          "ch": "山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/6ce8f565f27cd567d720943e30e77e28.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/8713c27f5be4d027e57c16eee91200ce.mp3"
+        },
+        {
+          "ab": "peymowamowan",
+          "ch": "果園",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/09237e03d1f263017b68db78e5435ead.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/2b28726582620d584f4004e52db63680.mp3"
+        },
+        {
+          "ab": "teyhesa",
+          "ch": "某個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/a6be228a2dddb3551d8cfec0189fa9d0.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/8d013cd63240ef3dfde3211e13ea59d5.mp3"
+        },
+        {
+          "ab": "tokon",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b6cc48be895f9062cdc2846cfcb3c07e.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/c4be4018a0b36a4d2e5a511cd9498a0c.mp3"
+        },
+        {
+          "ab": "macita",
+          "ch": "看見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/80dded1a6efcdc87b5fa4a3ff054d597.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/2714f490ed0542c01d88f8360578bf10.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/f8f80ed56b7d0b88d81bfddac6a135e2.mp3"
+        },
+        {
+          "ab": "pangangavangan",
+          "ch": "外族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/ba0dcf39ca6b6c2207aed2bec07089b3.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/de0434c8f0d5404b534482eda66498ef.mp3"
+        },
+        {
+          "ab": "kagkagling",
+          "ch": "羊群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/dc1b02fadd8617e1ffc58870978ffecc.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/59fc760e8a5558308f736abdc43bf865.mp3"
+        },
+        {
+          "ab": "pasalan",
+          "ch": "海邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/1dd45eb78b2dd4cbf3ad8bfb8865cd07.mp3"
+        },
+        {
+          "ab": "am",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/812066a6d5c7aa546b2be9b32a1b5d12.mp3"
+        },
+        {
+          "ab": "pongopongow",
+          "ch": "各岩石上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/6a33ec38d2114d29bb85c731205ca18e.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/e833619463a2cc41326d429a14e12e95.mp3"
+        },
+        {
+          "ab": "keysakan",
+          "ch": "潮間帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/93d9f6c28be9c9fd0cd6bdd404e09744.mp3"
+        },
+        {
+          "ab": "am",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/9e9b7d52bf51ad2120cc42cd767dd770.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ipanci",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/834ed8bcaabe3016ea5383198ef96f0a.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/4e85f660074df6ecc55358595627c89a.mp3"
+        },
+        {
+          "ab": "vozow",
+          "ch": "野山羊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b86729a912f63a92fabcf0a229df7a89.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/51caea14a83cbfc612235f7f5491d927.mp3"
+        },
+        {
+          "ab": "kagling",
+          "ch": "羊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b4b5f760db0733a43be7d28933b856a2.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "由於山羊常會跨越馬路，或悠閒地遊走於環島公路上，對騎機車環島的遊客而言，山羊成了蘭嶼的紅綠燈。",
+      "ab": "ya masanib o da palamen no taotao a kagkagling a ya mapeytawa so rarahan no aleleh a ya pangonongan, ori o da pancyan nya no pangangavangan so kagling eya, akmey tovil a zampo a hongliteng do rarahan do Pongso.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/2e6538f1d5c7000937d814274c43c4d6.mp3",
+      "word": [
+        {
+          "ab": "ya",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/aaa48f37019ee22b721a444b11e69cf9.mp3"
+        },
+        {
+          "ab": "masanib",
+          "ch": "經常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/80c65acf3274dd3bdd9c0f36a5956152.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/d8fe6fc5ed9c550a0c63b00a0b0fef57.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b158e779da0ca3375754fa12aa14ac9a.mp3"
+        },
+        {
+          "ab": "palamen",
+          "ch": "豢養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/4800aabfc77fdc41c448bc9f90af4f38.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b75b51b220c80c9801678769de60ffab.mp3"
+        },
+        {
+          "ab": "taotao",
+          "ch": "眾人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/38714318d79f43efee2fad480f76c24c.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/737c8f696d3ae6f22a0fe1cb9d711153.mp3"
+        },
+        {
+          "ab": "kagkagling",
+          "ch": "羊群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/70ebbed5678ee68687a733940f31b263.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/1d232ac7e5f077df9425388c0a2b3dc1.mp3"
+        },
+        {
+          "ab": "ya",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/9dd3511bd3b2e44ed5cf4bdbaf485d60.mp3"
+        },
+        {
+          "ab": "mapeytawa",
+          "ch": "劃分界線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/a47f7a827d4b5d0ab4ac22697d4a6337.mp3"
+        },
+        {
+          "ab": "so",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/ce665d0b9cae3778963ee3b2a1b1b005.mp3"
+        },
+        {
+          "ab": "rarahan",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/f1f9f69208b51aff83a487bb2951618a.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/62fa5ce9903051ecdb76c95e27ac823f.mp3"
+        },
+        {
+          "ab": "aleleh",
+          "ch": "車子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/449bac84076611cb2e53e2b502e3f826.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b7764da6aca213fc219384f28c452058.mp3"
+        },
+        {
+          "ab": "ya",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/3126871b6c35e2fb902a826e78047fe2.mp3"
+        },
+        {
+          "ab": "pangonongan",
+          "ch": "走路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/7e86ac079d95bb53fd1266c1f769dbd5.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ori",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/d900fffa7ed163d19d79111f6df7f73e.mp3"
+        },
+        {
+          "ab": "o",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b71024dc27f33be0c355b22243026fe6.mp3"
+        },
+        {
+          "ab": "da",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/d492d02456b2d488f4f4ce1618eff2a6.mp3"
+        },
+        {
+          "ab": "pancyan",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/611bb9cf2676ff838bcd530bd21beb4f.mp3"
+        },
+        {
+          "ab": "nya",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/fd759a20bad46c6a6d1ff388f8ac2217.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/3efe7767e121746f3183f2b88e5f0170.mp3"
+        },
+        {
+          "ab": "pangangavangan",
+          "ch": "外族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/47a3633944303b7c3de8fe48f0ae3163.mp3"
+        },
+        {
+          "ab": "so",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/632ecb8f470c1fae6981db2261b052b1.mp3"
+        },
+        {
+          "ab": "kagling",
+          "ch": "羊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/7c7853aea1389674f916bbeb970e5140.mp3"
+        },
+        {
+          "ab": "eya",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/ec921b369d4162d061a9ffcb49e37805.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "akmey",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/6ae21b02dbf617efdcd74a16217bc077.mp3"
+        },
+        {
+          "ab": "tovil",
+          "ch": "記號；證明",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/5ab05246057950e779e578b12ad39415.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/ba47b656acfd430f7af216a942b6f55b.mp3"
+        },
+        {
+          "ab": "zampo",
+          "ch": "燈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/17317c623ef3b8c959485928672ad835.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/b959a7fed724bebed767475f062ddf83.mp3"
+        },
+        {
+          "ab": "hongliteng",
+          "ch": "紅綠燈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/3e47e84e10ebe6c469a6449edc1dd16c.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/a4c695647f72a6848f1c4c2c08947605.mp3"
+        },
+        {
+          "ab": "rarahan",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/e904bd3147e49ecd08f8a357f528bbbc.mp3"
+        },
+        {
+          "ab": "do",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/57ef97c5923de4f192e3ca891d985756.mp3"
+        },
+        {
+          "ab": "Pongso",
+          "ch": "島嶼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/01/8dd4f4979da01cdd7cea3a02bbcf22ab.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

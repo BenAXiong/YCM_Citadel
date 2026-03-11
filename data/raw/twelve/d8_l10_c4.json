@@ -1,6 +1,826 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Mapasnava Ki Qaqanup Tu Bunun",
+  "titleCh": "向獵人學習",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "從前的男孩都被他們的耆老教導關於狩獵的事情。還沒有被教導的男生是不能夠進入獵場狩獵的。",
+      "ab": "Qabasanang tu banananaz isnava’an inaita madadaingaz isqaqanup tu sinkuzakuza. Maaq a niang inisnava’an tu banananaz nitu maqtu munhaan qanupan matqanup.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/14/bd2b2a554d58c33357ec7978097780a3.wav",
+      "word": [
+        {
+          "ab": "Qabasanang",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/11f524c3fbfeeca4aa916edcb6b6392e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/6be5336db2c119736cf48f475e051bfe.wav"
+        },
+        {
+          "ab": "banananaz",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/9fdb62f932adf55af2c0e09e55861964.wav"
+        },
+        {
+          "ab": "isnava’an",
+          "ch": "被教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d54e99a6c03704e95e6965532dec148b.wav"
+        },
+        {
+          "ab": "inaita",
+          "ch": "他們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/fc4ddc15f9f4b4b06ef7844d6bb53abf.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "耆老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/944626adf9e3b76a3919b50dc0b080a4.wav"
+        },
+        {
+          "ab": "isqaqanup",
+          "ch": "關於狩獵的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c91591a8d461c2869b9f535ded3e213e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/73e0f7487b8e5297182c5a711d20bf26.wav"
+        },
+        {
+          "ab": "sinkuzakuza",
+          "ch": "事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/77369e37b2aa1404f416275183ab055f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/65699726a3c601b9f31bf04019c8593c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/0609154fa35b3194026346c9cac2a248.wav"
+        },
+        {
+          "ab": "niang",
+          "ch": "還沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/04df4d434d481c5bb723be1b6df1ee65.wav"
+        },
+        {
+          "ab": "inisnava’an",
+          "ch": "被教導過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/ff7d0f525b3be596a51fb919492c099c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c44799b04a1c72e3c8593a53e8000c78.wav"
+        },
+        {
+          "ab": "banananaz",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/25/1229f0adcd91b6d3ed09662852411523.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/b432f34c5a997c8e7c806a895ecc5e25.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/65fc52ed8f88c81323a418ca94cec2ed.wav"
+        },
+        {
+          "ab": "munhaan",
+          "ch": "去到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/cb79f8fa58b91d3af6c9c991f63962d3.wav"
+        },
+        {
+          "ab": "qanupan",
+          "ch": "獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e74c0d42b4433905293aab661fcf8ddb.wav"
+        },
+        {
+          "ab": "matqanup",
+          "ch": "打獵、狩獵。",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/14/bc11a808e520d946c95ac877215bccd4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n在狩獵的事上有怎樣的教導呢？我分成三類清楚地給你們說明。第一、必須要溫馴，不可桀驁不馴。狩獵的事情不可以在他人面前誇耀。第二、不要多嘴多言，不隨便說話，說話要有節制，勿誇大不實，不可在他人面前炫耀自己的能力。第三、要看重他人，好好保護自己的家人，勿使自家父母和孩子們挨餓窮困。",
+      "ab": "Maaq dau ka isnanava ihaan isqaqanup tu sinkuzakuza tu? Nasiza aak taismaitau tu sinkuzakuza mapitqas taqu mu’u. Tas’a, asa dau tu madungdung a is’aang. Nitu makuniv. Nii dau ka isqaqanup un maqtu iskukuniv i bunun. Dusa, asa tu nitu matasbazbaz a ngulus. Nitu qalmang babazbaz, kasatnul, nitu tusmuav bazbaz, nitu silalaluan bazbaz, nitu pistataqaz i bunun anak’anak tu kainikuza’an. Tau, asa tu sasauqbung malkabunun, mapisihal saipuk i anak’anak tu tastulumaq, nitu mapisauqzang i tamatina siin uvavaz’az.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/f187a23c3ee681ef6913f31fd6d6446b.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "是誰，誰是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/8c8a58fa97c205ff222de3685497742c.wav"
+        },
+        {
+          "ab": "dau\r\n",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/44968aece94f667e4095002d140b5896.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/9f6992966d4c363ea0162a056cb45fe5.wav"
+        },
+        {
+          "ab": "isnanava",
+          "ch": "所教導的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/333222170ab9edca4785c39f55221fe7.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/b139e104214a08ae3f2ebcce149cdf6e.wav"
+        },
+        {
+          "ab": "isqaqanup",
+          "ch": "關於狩獵的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/0950ca92a4dcf426067cfd2246bb5ff3.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/5103c3584b063c431bd1268e9b5e76fb.wav"
+        },
+        {
+          "ab": "sinkuzakuza",
+          "ch": "所做的事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e5b294b70c9647dcf804d7baa1903918.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/5bce843dd76db8c939d5323dd3e54ec9.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nasiza",
+          "ch": "要用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/139f0874f2ded2e41b0393c4ac5644f7.wav"
+        },
+        {
+          "ab": "aak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/29530de21430b7540ec3f65135f7323c.wav"
+        },
+        {
+          "ab": "taismaitau",
+          "ch": "區分為三類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/15d185eaa7c954e77f5343d941e25fbd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/52d2752b150f9c35ccb6869cbf074e48.wav"
+        },
+        {
+          "ab": "sinkuzakuza",
+          "ch": "所做的事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/1e913e1b06ead0b66e30b6867bf63549.wav"
+        },
+        {
+          "ab": "mapitqas",
+          "ch": "清楚地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/8562ae5e286544710b2e7ebe9858833b.wav"
+        },
+        {
+          "ab": "taqu",
+          "ch": "告知",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/8d55a249e6baa5c06772297520da2051.wav"
+        },
+        {
+          "ab": "mu’u",
+          "ch": "你們是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/11108a3dbfe4636cb40b84b803b2fff6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tas’a",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/136f951362dab62e64eb8e841183c2a9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "應該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/ad4cc1fb9b068faecfb70914acc63395.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f22e4747da1aa27e363d86d40ff442fe.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/95e6834d0a3d99e9ea8811855ae9229d.wav"
+        },
+        {
+          "ab": "madungdung",
+          "ch": "溫馴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7af6266cc52234b5aa339b16695f7fc4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/519c84155964659375821f7ca576f095.wav"
+        },
+        {
+          "ab": "is’aang",
+          "ch": "心志，意念",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c3395dd46c34fa7fd8d729d8cf88b7a8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nitu",
+          "ch": "不可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/6f2688a5fce7d48c8d19762b88c32c3b.wav"
+        },
+        {
+          "ab": "makuniv",
+          "ch": "驕傲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/2d00f43f07911355d4151f13925ff292.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nii",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/de03beffeed9da5f3639a621bcab5dd4.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7ca57a9f85a19a6e4b9a248c1daca185.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/36ac8e558ac7690b6f44e2cb5ef93322.wav"
+        },
+        {
+          "ab": "isqaqanup",
+          "ch": "關於狩獵的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/03e7d2ebec1e820ac34d054df7e68f48.wav"
+        },
+        {
+          "ab": "un",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/6a508a60aa3bf9510ea6acb021c94b48.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/1113d7a76ffceca1bb350bfe145467c6.wav"
+        },
+        {
+          "ab": "iskukuniv",
+          "ch": "藉以傲視之",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/a38b16173474ba8b1a95bcbc30d3b8a5.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/5a7f963e5e0504740c3a6b10bb6d4fa5.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/378a063b8fdb1db941e34f4bde584c7d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e3408432c1a48a52fb6c74d926b38886.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "應該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/277a78fc05c8864a170e9a56ceeabc4c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d77f00766fd3be3f2189c843a6af3fb2.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/e4dd5528f7596dcdf871aa55cfccc53c.wav"
+        },
+        {
+          "ab": "matasbazbaz",
+          "ch": "多言多語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7f16109f1619fd7a733daf5a84c708c1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f106b7f99d2cb30c3db1c3cc0fde9ccb.wav"
+        },
+        {
+          "ab": "ngulus",
+          "ch": "嘴巴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/95f6870ff3dcd442254e334a9033d349.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nitu",
+          "ch": "不可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c215b446bcdf956d848a8419c1b5a920.wav"
+        },
+        {
+          "ab": "qalmang",
+          "ch": "隨便",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/39dcaf7a053dc372fbc391d4e6b5d693.wav"
+        },
+        {
+          "ab": "babazbaz",
+          "ch": "說話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d46e1fcf4c07ce4a69ee07e4134bcef1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kasatnul",
+          "ch": "適度，合宜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/3683af9d6f6c06acee72992f2977f67e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/a82d922b133be19c1171534e6594f754.wav"
+        },
+        {
+          "ab": "tusmuav",
+          "ch": "浮誇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/98c7242894844ecd6ec94af67ac8247d.wav"
+        },
+        {
+          "ab": "bazbaz",
+          "ch": "說話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4d8556695c262ab91ff51a943fdd6058.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/de73998802680548b916f1947ffbad76.wav"
+        },
+        {
+          "ab": "silalaluan",
+          "ch": "到處行騙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c4de8ced6214345614d33fb0b16a8acd.wav"
+        },
+        {
+          "ab": "bazbaz",
+          "ch": "說話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/deb54ffb41e085fd7f69a75b6359c989.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/3d863b367aa379f71c7afc0c9cdca41d.wav"
+        },
+        {
+          "ab": "pistataqaz",
+          "ch": "炫耀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7d2b92b6726c241134dae6cd3fb8c182.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/dd055f53a45702fe05e449c30ac80df9.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4afd521d77158e02aed37e2274b90c9c.wav"
+        },
+        {
+          "ab": "anak’anak",
+          "ch": "自己的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/405e28906322882c5be9b4b27f4c35fd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/798cebccb32617ad94123450fd137104.wav"
+        },
+        {
+          "ab": "kainikuza’an",
+          "ch": "做過的事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f80bf05527157a8c2a7bb63b22f49aaa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tau",
+          "ch": "三",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/b3b4d2dbedc99fe843fd3dedb02f086f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "應該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/fb87582825f9d28a8d42c5e5e5e8b23d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/1e4d36177d71bbb3558e43af9577d70e.wav"
+        },
+        {
+          "ab": "sasauqbung",
+          "ch": "尊重",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/1f36c15d6a3d18d52e8d493bc8187cb9.wav"
+        },
+        {
+          "ab": "malkabunun",
+          "ch": "對待人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/8c249675aea6c3cbd91661bbae767ff1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapisihal",
+          "ch": "使弄好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d68a18275455ae3eaa2c291eebb46e6d.wav"
+        },
+        {
+          "ab": "saipuk",
+          "ch": "保護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/9d7311ba459f9e45ed746755a32dcd11.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/09/85411d8f5371499c40d2637220d0b2de.mp3"
+        },
+        {
+          "ab": "anak’anak",
+          "ch": "自己的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4a3e00961a08879c34f91ca0070ea2f5.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/dc513ea4fbdaa7a14786ffdebc4ef64e.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/96055f5b06bf9381ac43879351642cf5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nitu",
+          "ch": "不可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d5c186983b52c4551ee00f72316c6eaa.wav"
+        },
+        {
+          "ab": "mapisauqzang",
+          "ch": "使挨餓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c5a4e7e6882845ea7bb4d9462868219b.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/008bd5ad93b754d500338c253d9c1770.wav"
+        },
+        {
+          "ab": "tamatina",
+          "ch": "父母",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/3f088ebeda03513be71d34d214291986.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/6351bf9dce654515bf1ddbd6426dfa97.wav"
+        },
+        {
+          "ab": "uvavaz’az",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/06964dce9addb1c5cb5d6e3d9838f733.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在的我們已經受到外族的習俗影響，失去了溫和的性格，謊話連篇，恃才傲物，嗜酒如命，未善盡保護家人的責任。因此，我們必須要回頭向獵人學習好的智慧教導。",
+      "ab": "Ula’anin ata isia duma siduq tu iniqumisan laupakadau. Uka’in a kaidungdungan, mapusasaksakin, makukunivin, masmuavin ququud davus, niin mapisihal saipuk i anak’anak tu tastulumaq. Paqpun asa ata tu musuqis mapasnava ki qaqanup bunun tu masisihal  sinpasnava tu taiklas.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/14/08331a162d0e4b82ce004fe21df8e69a.wav",
+      "word": [
+        {
+          "ab": "Ula’anin",
+          "ch": "被染上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c5b2cebf15b205503560c4e8e6d1ea78.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d0fb963ff976f9c37fc81fe03c21ea7b.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "誰的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4ba29b9f9e5732ed33761840f4ba6c53.wav"
+        },
+        {
+          "ab": "duma",
+          "ch": "其他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/a591024321c5e2bdbd23ed35f0574dde.wav"
+        },
+        {
+          "ab": "siduq",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d47268e9db2e9aa3827bba3afb7ff94a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/ea5a486c712a91e48443cd802642223d.wav"
+        },
+        {
+          "ab": "iniqumisan",
+          "ch": "行為；生活方式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/a00e5eb0973d24649a4a920fc53d9564.wav"
+        },
+        {
+          "ab": "laupakadau",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/ef8446f35513a8d6aa2308357a268a7e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Uka’in",
+          "ch": "消失了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/f1981e4bd8a0d6d8462016d2fc6276b3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d7a84628c025d30f7b2c52c958767e76.wav"
+        },
+        {
+          "ab": "kaidungdungan",
+          "ch": "溫馴的樣子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c8758b517083196f05ac29810b924aca.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapusasaksakin",
+          "ch": "謊話連篇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/253614bbac999b38b5b60cae531c4969.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makukunivin",
+          "ch": "驕傲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/8038da89e49ac5eabb489cfc6cea9fc1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masmuavin",
+          "ch": "極度的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/cee8d6b7ce52554fd70354e37bbf44a2.wav"
+        },
+        {
+          "ab": "ququud",
+          "ch": "酗酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/84ddfb34126fc3a48ee38d7044e87276.wav"
+        },
+        {
+          "ab": "davus",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/ea6b2efbdd4255a9f1b3bbc6399b58f4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "niin",
+          "ch": "不再是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/7b7a53e239400a13bd6be6c91c4f6c4e.wav"
+        },
+        {
+          "ab": "mapisihal",
+          "ch": "用心，善待",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/05a5cf06982ba7892ed2a6d38fe832d6.wav"
+        },
+        {
+          "ab": "saipuk",
+          "ch": "保護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/3a824154b16ed7dab899bf000b80eeee.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/07811dc6c422334ce36a09ff5cd6fe71.wav"
+        },
+        {
+          "ab": "anak’anak",
+          "ch": "自己的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/312351bff07989769097660a56395065.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/c92a10324374fac681719d63979d00fe.wav"
+        },
+        {
+          "ab": "tastulumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/9f62b8625f914a002496335037e9ad97.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Paqpun",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/093b60fd0557804c8ba0cbf1453da22f.wav"
+        },
+        {
+          "ab": "asa",
+          "ch": "應該",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/2d579dc29360d8bbfbb4aa541de5afa9.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/88ef51f0bf911e452e8dbb1d807a81ab.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/5352696a9ca3397beb79f116f3a33991.wav"
+        },
+        {
+          "ab": "musuqis",
+          "ch": "回頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/a5a61717dddc3501cfdf7a4e22d7dbaa.wav"
+        },
+        {
+          "ab": "mapasnava",
+          "ch": "請益",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/d198bd736a97e7cecfdf8f4f2027ef80.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/2b0f658cbffd284984fb11d90254081f.wav"
+        },
+        {
+          "ab": "qaqanup",
+          "ch": "獵人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/2557911c1bf75c2b643afb4ecbfc8ec2.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/a48564053b3c7b54800246348c7fa4a0.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/4c144c47ecba6f8318128703ca9e2601.wav"
+        },
+        {
+          "ab": "masisihal",
+          "ch": "善良的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/10/89885ff2c83a10305ee08bd507c1049c.wav"
+        },
+        {
+          "ab": "sinpasnava",
+          "ch": "教導，教育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/14/5a9e8f0086b8ae36e646dd83ad2474bd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "(介詞)的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/14/35d93e1eda881f6e3dde4e87428a975e.wav"
+        },
+        {
+          "ab": "taiklas",
+          "ch": "智慧。",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/14/5e19b2ce6bf7a02777c628427a44f34a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

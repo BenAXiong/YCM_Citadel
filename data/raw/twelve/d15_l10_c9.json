@@ -1,6 +1,691 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "sivetai",
+  "titleCh": "職業軍人",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "在過去日本和中國戰爭時，日本人徵召男士們去當兵。男士們去當兵，準備結婚的男女朋友就先結婚，三天後男方就去當兵，女方非常可憐。若要去當兵會彼此互相歡送、道別，有的當兵後就戰死了，也有的留在營區（戰區）沒有再回來。",
+      "ab": "ko nadroma kai Dri’ong si Lawtiya makicabicabiri, kai Dri’ong la ala ki lraswalralray asivetai. la mwa asivetai kai lraswalralray, lo yakai ka lrasiyasilranga ai ki’alrangenga lai’alrange, si makatololro la mwa asivetai, la matiyakoro kwani sakacekelre. lo dwavace mwa asivetai maki’osawsaw si makitobitobi. yakai kwani mwa asivetai maladaro ’acay yakai kwani ’asoro tasivetataiya kadrowanga kelra.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/92f78e7ce54fcc4b6b58821e69468cb0.mp3",
+      "word": [
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ee882158094c5e2bfe5f70d63d5deded.wav"
+        },
+        {
+          "ab": "nadroma",
+          "ch": "過去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a0147e5eacd37cc518db6721a0cb526d.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/8e90a6186c7b5065c8dc637769b9a6f8.wav"
+        },
+        {
+          "ab": "Dri’ong",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/37e8cc05426269f26f39d6dd143fc1aa.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/baf3ab08cd99f8baefbc6f7939d5ccd6.wav"
+        },
+        {
+          "ab": "Lawtiya",
+          "ch": "中國",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/eebcc51a61698c23dab1659c0e702f6b.wav"
+        },
+        {
+          "ab": "makicabicabiri",
+          "ch": "戰爭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a4681caf12de960e4e8c0349092ed93e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b98ee86215125aa5b01966e7891a4cf7.wav"
+        },
+        {
+          "ab": "Dri’ong",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/da3bef3394d1defd1a99129c4cc64a1a.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e761225721a45e8dad2375437acac50d.wav"
+        },
+        {
+          "ab": "ala",
+          "ch": "徵召",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/d191679a67bcb50d3488be82cf849b26.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f41e8f60dae8e820d2ed1a3d0ae29302.wav"
+        },
+        {
+          "ab": "lraswalralray",
+          "ch": "男士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c162223eaa6b3cf8e04d8ca10e533196.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/494129059d8b264d08bf4dc1a27a4ea5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/9ffa8b28f9c4eb9079e650602b5afb57.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/0e73496b43e0ede91c1e229610fc266a.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/503dc6ccfb839c1a40168112c836c149.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/9b6d7e37675eaaaada5136deacd7e09c.wav"
+        },
+        {
+          "ab": "lraswalralray",
+          "ch": "男士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/4cc9f7cad4cc3926e1a6738f58301b4a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/efac79b4253733c97def21651ba64a95.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/909e4e6b9fb959c303e6f5a1895eade8.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/3975136c706207d30398bfc2e675244a.wav"
+        },
+        {
+          "ab": "lrasiyasilranga",
+          "ch": "男女朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/817aa10dc004e9231063188905af4b52.wav"
+        },
+        {
+          "ab": "ai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e9a0c55e4af7d8c0bc3f2821aa30a64b.wav"
+        },
+        {
+          "ab": "ki’alrangenga",
+          "ch": "準備結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/9fd350e361e44db951e5e091d6002f89.wav"
+        },
+        {
+          "ab": "lai’alrange",
+          "ch": "要結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b3f6a8e5977093d17ddb4894830118dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/de33696bd64aff9a50f9a62ea681c7f8.wav"
+        },
+        {
+          "ab": "makatololro",
+          "ch": "三天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/35c140aeff40abccd87c1d639f139324.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/10a6d253e20e0d50728cba39712f0d17.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/53ba5bb19dddfe339330e09b2eeff372.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/97af6e4aabcd75c1baa337bbf91bce92.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a4461b9dbd372a66b6b80eb3b3e7fd01.wav"
+        },
+        {
+          "ab": "matiyakoro",
+          "ch": "可憐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ad4c08d9cbbd2e1c8a7239e8a64e57d0.wav"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/dd0a7b0955fbd7a34a91e1c7d5eaaec4.wav"
+        },
+        {
+          "ab": "sakacekelre",
+          "ch": "太太；先生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b5bb40441730f0944d97f1e85709e3d9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lo",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/506bdcd46ea3eb27c55dab1b87225b78.wav"
+        },
+        {
+          "ab": "dwavace",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c3708be08654590ab0a806991c909125.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/aab945cfabe23334172b7389862fb4f8.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2b4e178a90cfbb25b81ce2521ba862fa.wav"
+        },
+        {
+          "ab": "maki’osawsaw",
+          "ch": "互相歡送",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2685b09160d682645d4b900eb88d8279.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/d6e7bd3aca35a70c3191f2c7f1b485e8.wav"
+        },
+        {
+          "ab": "makitobitobi",
+          "ch": "道別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b7c4c423d3d32e2d6bc2f62276bb536d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/14e03d2a038ed93bc0d5e1dc901beda9.wav"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/073f456b185a4cdfae750c2cf03e598f.wav"
+        },
+        {
+          "ab": "mwa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/5adee18378e9baf36c35d194faa61989.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f50138e44513e32ed931886c24067ba7.wav"
+        },
+        {
+          "ab": "maladaro",
+          "ch": "直接",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a3b2404be3c558373c40906ef1dc5356.wav"
+        },
+        {
+          "ab": "’acay",
+          "ch": "死",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/88f8db49422bedbaeebe882c385fd0cc.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/4cc750904755550566c329bb0ce65138.wav"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/cfa137be7e5f48f0323a9ba94d70af93.wav"
+        },
+        {
+          "ab": "’asoro",
+          "ch": "留下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/0a459f133fe4e807c96992e5af0b1e00.wav"
+        },
+        {
+          "ab": "tasivetataiya",
+          "ch": "營區；戰區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/3e824bc607583c89b226aca58e9a7997.wav"
+        },
+        {
+          "ab": "kadrowanga",
+          "ch": "就沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/5ca004abbbd796edd8714384210f0fa0.wav"
+        },
+        {
+          "ab": "kelra",
+          "ch": "回來；到達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b02a121ffd9ad5268a48cc9d28bfad42.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現代軍中制度不斷改變，不論男士或女士都可以從軍成為職業軍人。為了改善家庭經濟，從軍可以選擇在地服務。",
+      "ab": "kaiyasanenga la moelranga kaitasivetaiya, kikai lraswalralray si lrabaybay kalraleketenga asivetai. atharokai tacekecekelra lramowa asivetai aowangaelra kai tacekecekelraneta kadrwa matiyakoro kalralrekete ’ili tolavalavay mobelese taikaiyanelini.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/b81ea2d2cf636174678198cddbf9333e.wav",
+      "word": [
+        {
+          "ab": "kaiyasanenga",
+          "ch": "現代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2cf63aecac48a1c2c50a36af182b09f2.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/95a839773a05891728a6a5977a16f18b.wav"
+        },
+        {
+          "ab": "moelranga",
+          "ch": "改變",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/603a658610edc94e1c950509500ad934.wav"
+        },
+        {
+          "ab": "kaitasivetaiya",
+          "ch": "軍中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ed46a5335e6903ce1d17144575bf3f10.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kikai",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/2393eec01c9478efad212889e1a73a1f.wav"
+        },
+        {
+          "ab": "lraswalralray",
+          "ch": "男士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/525839b729d6299a45cb653e3d16a849.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/5f12e21baf189361ed9cc4e0b9902b27.wav"
+        },
+        {
+          "ab": "lrabaybay",
+          "ch": "女士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/4feb09e4b4fb04e45ee559e393093975.wav"
+        },
+        {
+          "ab": "kalraleketenga",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ef6c6bd7a0dc9be0335a2f008fa1e210.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ae9962652ca72b43b47d23ca1a088f74.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "atharokai",
+          "ch": "為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/8410f5796c947d0daa718457831f4198.wav"
+        },
+        {
+          "ab": "tacekecekelra",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/904fe8bd350806eb5bfbae23e35cb252.wav"
+        },
+        {
+          "ab": "lramowa",
+          "ch": "就去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a453d4e40f4a0992adc2b27cfa0ce980.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/54c0fc7dc8ecc7b1cb805ddc99e53fc6.wav"
+        },
+        {
+          "ab": "aowangaelra",
+          "ch": "改善",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/7a94edf990bf437782775d470a1e8288.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a1fbe030c78e748e1940138a6e82e9d7.wav"
+        },
+        {
+          "ab": "tacekecekelraneta",
+          "ch": "我們的家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/03fb5b896749e5a8112389962908c7cf.wav"
+        },
+        {
+          "ab": "kadrwa",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/9a15cf819f493a21bc02770fc2fd1133.wav"
+        },
+        {
+          "ab": "matiyakoro",
+          "ch": "貧困",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c5c224bb9ab09afbdf4c1026e566dd2a.wav"
+        },
+        {
+          "ab": "kalralrekete",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/523f50e52ed68f04fe9471fdef82dec6.wav"
+        },
+        {
+          "ab": "’ili",
+          "ch": "選擇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/5b678a5a0025e991bbdc24dde1cd264c.wav"
+        },
+        {
+          "ab": "tolavalavay",
+          "ch": "職業",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/86092e999f4e35642998290edbfe788b.wav"
+        },
+        {
+          "ab": "mobelese",
+          "ch": "賺錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c6d4d12d31ecf2e39603aeeab48e7b14.wav"
+        },
+        {
+          "ab": "taikaiyanelini",
+          "ch": "在地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/5e4507c81f1110cd99f1dc04cae81ff5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "按月固定領取優渥薪資，所以女士就像男士一樣喜歡從軍。大家有錢了，可以存款，可以蓋房子，也可以買車，還有夫妻一起選擇成為職業軍人脫離貧困，大家都歡喜快樂。",
+      "ab": "kwadra kawniyo kibay taradamare ’aiso, la madalame ki lrabaybay asivetai tamayaki lraswalralray. la si ’aisonga makanaele la ’asekete ’aisolini yakai kwani todaane yakai kwadra lrangai sidosiya, yakai kwani tadrosa lramasakacekelre mowa asivetai kadwa ko matiyakoro kai lawmase kiyararagaynga makanaele.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/4dcef88862f40ffac5b2c9260f85bb00.wav",
+      "word": [
+        {
+          "ab": "kwadra",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/abf10924a290073ac1522aab6cd604d0.wav"
+        },
+        {
+          "ab": "kawniyo",
+          "ch": "薪水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e57dcc6c88f7db5bce1fa8a49191efd3.wav"
+        },
+        {
+          "ab": "kibay",
+          "ch": "領取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/27ffcc21c5948f9b8595a1c79c4045ed.wav"
+        },
+        {
+          "ab": "taradamare",
+          "ch": "每月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/4f4052ad98addc0f94d3910646bfdcff.wav"
+        },
+        {
+          "ab": "’aiso",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/3e354893f686fc0d79d6ab4306bbc7be.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/5f055dcb9222fa2d30646acfbf613c82.wav"
+        },
+        {
+          "ab": "madalame",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/95c81260d8272db8f68a1bf8b46afd8b.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/603ec80e671c74a8641d332712c458e8.wav"
+        },
+        {
+          "ab": "lrabaybay",
+          "ch": "女士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/4a018b8567118c4c28865abb748865c6.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ad283026a2a2a5be72051a4cf93750eb.wav"
+        },
+        {
+          "ab": "tamayaki",
+          "ch": "很像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/3772bf42ebf9a51da2b8de4746f814e0.wav"
+        },
+        {
+          "ab": "lraswalralray",
+          "ch": "男士們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/8e11cfb50c20f2a0b31d59926e9e42c7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b3344fb2a627574018919c5862a23ccd.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/508fe4764a00eff72b6f66ff500d9948.wav"
+        },
+        {
+          "ab": "’aisonga",
+          "ch": "有錢了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/f75c9424d81377e24b2ec54902f1e42f.mp3"
+        },
+        {
+          "ab": "makanaele",
+          "ch": "大家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/cc2de98ed0d4bd0e0a0d9aac3d9cbb5a.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/8a5bef4998bcf1e09d59f818b7846bd5.wav"
+        },
+        {
+          "ab": "’asekete",
+          "ch": "存錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f347dcae2644bc5aa4493cad40c653ff.wav"
+        },
+        {
+          "ab": "’aisolini",
+          "ch": "他們的錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c53782f1c81f2493bec1bfbce4b1d700.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/8ef7c63dce828c72e1dcc4e4ebd10912.wav"
+        },
+        {
+          "ab": "kwani",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/fcd00fab862bedcfb751b33b1e906e2c.wav"
+        },
+        {
+          "ab": "todaane",
+          "ch": "蓋房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/fbda93ee95346de5cd9a3a103389fb60.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/146bc30c345d31f3468fec764a1970e1.wav"
+        },
+        {
+          "ab": "kwadra",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/05/c8bb20be892f4d1a65c9d986bb1e0a04.wav"
+        },
+        {
+          "ab": "lrangai",
+          "ch": "買",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/d094cba1b003a58311ff266a501efa25.wav"
+        },
+        {
+          "ab": "sidosiya",
+          "ch": "汽車",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/10407fa0ad009ad32a94772cb1bccf00.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yakai",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/095afd86bad3839d7171a90d209e587f.wav"
+        },
+        {
+          "ab": "kwani",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/263dfe83041a90479c49d26e3bf00a3b.wav"
+        },
+        {
+          "ab": "tadrosa",
+          "ch": "兩位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/19a6078633acc216383555e080996c6d.wav"
+        },
+        {
+          "ab": "lramasakacekelre",
+          "ch": "夫妻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ba30a1b7f617543cc9958dee2e53ce5d.wav"
+        },
+        {
+          "ab": "mowa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f482bf8650fbda0e5306366687773118.wav"
+        },
+        {
+          "ab": "asivetai",
+          "ch": "當兵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b9601cf630ac45f809ce37c07f23969b.wav"
+        },
+        {
+          "ab": "kadwa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e28676ca3c2c458265ae86ddb47eb4d3.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/7b61b532c31919bdbdd10a8034e015b4.wav"
+        },
+        {
+          "ab": "matiyakoro",
+          "ch": "貧困",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/627905f21b5ae408516847694d6bf571.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e9be0437017065c85a5811cdf6398825.wav"
+        },
+        {
+          "ab": "lawmase",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ffbe5693bf88205270c9b7df9b46e83b.wav"
+        },
+        {
+          "ab": "kiyararagaynga",
+          "ch": "歡喜快樂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/6154380e9ab0624f7b2e418e923a9e22.wav"
+        },
+        {
+          "ab": "makanaele",
+          "ch": "大家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f7bfeff52c84e6d21e2796d565e6f737.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

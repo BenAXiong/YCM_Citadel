@@ -1,6 +1,436 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "curisi",
+  "titleCh": "勇士之歌",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "暗喻：大家自我標榜，大家像雲豹。\r\n",
+      "ab": "curisi tara kitjautjalavi tura kina likuljavan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/b3681c41d47c663201610b368fc20202.mp3",
+      "word": [
+        {
+          "ab": "curisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/c05063134ec3242f0123a226c243e7ce.wav"
+        },
+        {
+          "ab": "tara",
+          "ch": "暗喻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/8089532820067141cdda1bef0e24fe6e.wav"
+        },
+        {
+          "ab": "kitjautjalavi",
+          "ch": "自我標榜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/e21b648e43e0de5c5381093191276c1a.wav"
+        },
+        {
+          "ab": "tura",
+          "ch": "暗喻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/74426e1cf7f4411a0f16edd7a95929e3.wav"
+        },
+        {
+          "ab": "kina",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/0f29e1a2e5ad199a3afc17a2566a7bdf.wav"
+        },
+        {
+          "ab": "likuljavan",
+          "ch": "雲豹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/df66cb3b3e6f04b8a6cfa34ba697ef06.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "副歌：虛詞。",
+      "ab": "penciq, curihisi qai malulja i curisi.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/8d481cd309acb217b556894ab48c626a.mp3",
+      "word": [
+        {
+          "ab": "penciq",
+          "ch": "副歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/c6ad484fdd530d8bb03cd7f8d41facf1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "curihisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/2aa76487073352f0cb6dd53f2fe4162d.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/d56e6c54f4d7b18eb8e3e9077c06048e.wav"
+        },
+        {
+          "ab": "malulja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/ce9cbb2425dc831c096a0a8ba7987f00.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/5bcae017a77a45ae76cf92dbfcb02999.wav"
+        },
+        {
+          "ab": "curisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/39fab0e6fed20f1b40f627fdf72f0a54.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我從深山歸來，帶回豐碩的獵物。",
+      "ab": "curihisi, tjumaq aken a kasi vukid, na kemacu tu liyaw a qinaljupan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/a55e6f5e209342a03905f68c27c24fe6.mp3",
+      "word": [
+        {
+          "ab": "curihisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/2fe97fb3ebfe859ef7ddd761550c0fe7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tjumaq",
+          "ch": "回家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/4a8a4b6649c8cc77a9293d1a71eb2edb.wav"
+        },
+        {
+          "ab": "aken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/ae8ebb90a1bea810b223349df6f1740c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/1ed8824eea9ea062aac94a44964a46da.wav"
+        },
+        {
+          "ab": "kasi",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/2f45175b38c539f1ff2d8d410027efd0.wav"
+        },
+        {
+          "ab": "vukid",
+          "ch": "深山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/c29a04e6be2878a5e5bd788dc794f0fc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/79977e8cdd6cfb25bdac87183982687c.wav"
+        },
+        {
+          "ab": "kemacu",
+          "ch": "攜帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/2eba6ef37ac9b1344c9c466446d0072a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/c531e1cc120aabbf7a59d307cd85b3ed.wav"
+        },
+        {
+          "ab": "liyaw",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/6a44c0d8d9812abe6470d04c2dd59f40.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/1719bc70642f5bf6f1e29769b33cf2b7.wav"
+        },
+        {
+          "ab": "qinaljupan",
+          "ch": "獵物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/f11d4494ccda334108fa9383718c5fc4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "副歌：虛詞。",
+      "ab": "penciq, curihisi qai malulja i curisi.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/25f1d3df58afd7854a08d2258bd90333.mp3",
+      "word": [
+        {
+          "ab": "penciq\r\n",
+          "ch": "副歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/e38989cc1547ccfc4bf2902662f68c9c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "curihisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/a505c84b4a31e47d6267203fab6a6970.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/41b3d542117c27819f47a7b44ffadc5a.wav"
+        },
+        {
+          "ab": "malulja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/80da415b670aef931aaee2347bb1900f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在 ",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/b42d7c14094394bff575ec0b58aa4690.wav"
+        },
+        {
+          "ab": "curisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/9de149537c458567ed3ccbbc5a6d077b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我若遇到黑熊，絕不退縮逃跑。",
+      "ab": "curihisi nu secevung a tu qezengel pasulja ken na semirip.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/d3240f0edb0282e33880d9f4480224c9.mp3",
+      "word": [
+        {
+          "ab": "curihisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/316078ff8e6d7f604c61c017971ff102.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/41c667bf5fc258c5ea737dab04e3112e.wav"
+        },
+        {
+          "ab": "secevung",
+          "ch": "遇見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/4270dcd5874b5dece7e1ceec54d5e956.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/b14dc78ca4e4435d66d0da6d1fa6f3b4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/389eb25ecaa72339cc553742b5456bb2.wav"
+        },
+        {
+          "ab": "qezengel",
+          "ch": "黑色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/8354d88962410bd961bf234c7234d046.wav"
+        },
+        {
+          "ab": "pasulja",
+          "ch": "堅定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/f3c82d01fa66946ad1d31667cbd38a25.wav"
+        },
+        {
+          "ab": "ken",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/d565b2bd827ed5cc65377d0dea8ab1b8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/e5c817f690d01f4d281121b59ee92bcc.wav"
+        },
+        {
+          "ab": "semirip",
+          "ch": "畏縮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/aa0bcf6d953d76fc720c3099567064d4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "副歌：虛詞。",
+      "ab": "penciq, curihisi qai maluljai curisi.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/dc9d7cbc8c9da57527076bda340c45f8.mp3",
+      "word": [
+        {
+          "ab": "penciq",
+          "ch": "副歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/e4bc49d61a4e4349ccf3b9b2e53bac86.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "curihisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/e438d6913e4ac772e6c0d0b892b02051.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/9c6e8de2e052c0b3b33f9a0c4b4cde27.wav"
+        },
+        {
+          "ab": "maluljai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/418c53684987bc8a9fb556bfcb4b5315.wav"
+        },
+        {
+          "ab": "curisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/c4fff1f8b35f7b9a8aa9e9e79ee9239a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "假使頭目駕崩，我一定一馬當先到達弔喪。",
+      "ab": "curihisi nu maljivak a mulitan kalazuazung i elet.",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/a8507967ded54f3d4562b623d6d3375e.mp3",
+      "word": [
+        {
+          "ab": "curihisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/838b31da1f744fa8664f21457b7479ef.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/40ca54dd462b91628d8b3f38b52361de.wav"
+        },
+        {
+          "ab": "maljivak",
+          "ch": "駕崩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/bf25cde3e3cfe79c0b2984eea90a83e5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/aed978a25a45a4e25e8bc52e13953590.wav"
+        },
+        {
+          "ab": "mulitan",
+          "ch": "頭目\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/b737db32221acc4dc4858b24588f9a70.wav"
+        },
+        {
+          "ab": "kalazuazung",
+          "ch": "一馬當先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/4ea6ff67a2fe0b6eb617d336901b75b0.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/475ccea0a9ad46579dc95f25dc70bf0e.wav"
+        },
+        {
+          "ab": "elet",
+          "ch": "弔喪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/a653dd49a8df0ad7bc6cff4432fb96d5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "副歌：虛詞。",
+      "ab": "penciq, curihisi qai malulja i curisi.",
+      "order": "8",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/05/5f6a7e19441ece9980cd9296fcc9f6d8.mp3",
+      "word": [
+        {
+          "ab": "penciq",
+          "ch": "副歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/2b7b937162cec01b47a420ccc5a63f35.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "curihisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/c1b59cb199e944e70a079d1fba49b3a7.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/04c4f45aaace03b0c8952bb88c83d515.wav"
+        },
+        {
+          "ab": "malulja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/5539dd352b1077e3f43b51e1730b4a4b.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/cbe13cddeb88601d85a89536485abc2e.wav"
+        },
+        {
+          "ab": "curisi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/13/3889d1c09f190b0bb510abe03b30ac0a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,821 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Ngiyo ma qolic",
+  "titleCh": "貓與老鼠",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "有一幢房子曾經有老鼠出沒。一隻貓得知此事後，自言自語道：「那是我的職責。」於是，它來到房子門口站崗，把一隻老鼠抓來吃了。",
+      "ab": "Gaga saun mmteme qolic ka kingal sapah. Wada klaun taxa ngiyo de, mesa rmengo nanaq heya, “Nii si bale qpahun mu”. Kiya de, meyah qmburang rhengun sapah hiya ma, asi na qrapi ma wada na uqun ka kingal qolic.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/88d619ad97413b44d6659073b7b12f32.wav",
+      "word": [
+        {
+          "ab": "Gaga",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d70f195edbc052d647a288e3d46b3b2e.wav"
+        },
+        {
+          "ab": "saun",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/07c3f887cc69caf06f342a367cfe6304.wav"
+        },
+        {
+          "ab": "mmteme",
+          "ch": "進入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/2ca2f2883873b256532b5e0cba354cff.wav"
+        },
+        {
+          "ab": "qolic",
+          "ch": "老鼠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/4c4aa2205676a162ba900d37ea48e67d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/1297bcaf6f829c2afe9cae03f1975683.wav"
+        },
+        {
+          "ab": "kingal",
+          "ch": "一棟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/290f3bc899e6c7f69fff513048513324.wav"
+        },
+        {
+          "ab": "sapah",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/19ddc61af8f213d2c43c17204efab297.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Wada",
+          "ch": "被；已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/eba9940b6dcffe49a14de9a4899ab466.wav"
+        },
+        {
+          "ab": "klaun",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/ae0873455e7c9c44de2b0eb8aff4e258.wav"
+        },
+        {
+          "ab": "taxa",
+          "ch": "一隻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/092e9c75b6d721231d7a3b23bfbc88fd.wav"
+        },
+        {
+          "ab": "ngiyo",
+          "ch": "猫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/61f3024ed641390e498517b310f7a378.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/7cc785bf3d68a7840ea16c08b2863213.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mesa",
+          "ch": "說；這樣做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/92ca971e9ff727c8e9b0f882cafe003d.wav"
+        },
+        {
+          "ab": "rmengo",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/ba175daa622b2e728f513dbe744803f6.wav"
+        },
+        {
+          "ab": "nanaq",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f0f717dbbabbabab1a26beaf06fc3438.wav"
+        },
+        {
+          "ab": "heya",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/eb9a085c1aebf62bc524de6a3476dbe2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nii",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/ee091bf8c15bf02e47ba4b69d587fd03.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f6f256d9b3c807754c99925e78035b3f.wav"
+        },
+        {
+          "ab": "bale",
+          "ch": "真的；非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b5943cfb2b78a2694cc84c22b9381970.wav"
+        },
+        {
+          "ab": "qpahun",
+          "ch": "職務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5d5ef971a832156872b8ae6732280d0a.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/face3ee8cd23d4e678783e668802b7a6.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kiya",
+          "ch": "因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/56909640f93a509bda9494a0178e091e.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5909e98016c8d94baefc6def4f5b785e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "meyah",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/8cb984778464a4dabc3bdccdb3c60bde.wav"
+        },
+        {
+          "ab": "qmburang",
+          "ch": "守住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5a3f14123cb2123e5a861d42dfa7e14c.wav"
+        },
+        {
+          "ab": "rhengun",
+          "ch": "門口",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f8b9c9905a91ffd593f4ddc8293eb900.wav"
+        },
+        {
+          "ab": "sapah",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0ab605102670807b661d9a1a4e618745.wav"
+        },
+        {
+          "ab": "hiya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d82493b6823132975adf6bd97c53014e.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/9c88225457856ad8f19a6952c950ab32.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asi",
+          "ch": "即時，當下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/8d16fcbd56cdafde0fc1ba4e68c4636c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/9957d0d6c13e2cb00518c92af0df3b96.wav"
+        },
+        {
+          "ab": "qrapi",
+          "ch": "抓住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/53787d42c3aacb84dd97baa865a42eab.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/dacb8cf07e5031179a2da26abd616327.wav"
+        },
+        {
+          "ab": "wada",
+          "ch": "去；已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/9c87b4fa747d4b5675c82f561eb9cd4c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/add4f684a678d13d0ce8b389da309842.wav"
+        },
+        {
+          "ab": "uqun",
+          "ch": "吃掉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/dd17ee9e2355df4f69fd072a5bd3334d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e2edf8a3b6635786b076e998ffdd1052.wav"
+        },
+        {
+          "ab": "kingal",
+          "ch": "一隻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0982d54d18a026163f76888c0d226166.wav"
+        },
+        {
+          "ab": "qolic",
+          "ch": "老鼠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d0ceaba6d228fd9ad99831d5df783c7c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "終於，老鼠再也不能在那裡待下去了，牠們決定回自己的洞裡待著。「那就有點棘手了。」貓自言自語，「唯一能做的就是使個把戲把它們騙出來。」它細細琢磨了一下，然後爬上牆，把後腿掛在一個鉤子上，讓自己掛下來裝死。",
+      "ab": "So kiya de, uka daha brahan meniq hiya di ma, musa nanaq tksekur beling sapah daha. “Ma so uxe msleexan di” ma “Asi ku ka mnnangi mberiq” mesa rmengo dungan. Blequn na lmngelung ma mkaro qnabil ma, spqeya na kingal kodung ka bteriq papak na, mnnangi mhuqil di.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/263674f3b69459e3f1d42bccb8996777.wav",
+      "word": [
+        {
+          "ab": "So",
+          "ch": "終於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/78f25aa54f838ebef52df7eb2f4dabd8.wav"
+        },
+        {
+          "ab": "kiya",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/ef4fc148f9ea60330eb0df54b1349a2d.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/81bfe052679288bbb4558009aab788f9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uka",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/365aa6ebdc3dbf28e7b9ea1c1b4d2908.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們；和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/9981ae50de43432c6299c5a4c5d30050.wav"
+        },
+        {
+          "ab": "brahan",
+          "ch": "辧法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/3b782fa395459a50d498b04c3ed93093.wav"
+        },
+        {
+          "ab": "meniq",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/fc7acef4b85e5816052c710a655dbc47.wav"
+        },
+        {
+          "ab": "hiya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5b347a27844fa303dd8c02b7da1c9206.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b8a8ace231fae55cbad834ad5b66e3d6.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/4b0cb9685dd1da13cd7d85b3e4de824f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "musa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e82be97d50fa31e032f4789c6685ef05.wav"
+        },
+        {
+          "ab": "nanaq",
+          "ch": "自己的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c2cb1fc76f1bbf73ce680c2b78aa328f.wav"
+        },
+        {
+          "ab": "tksekur",
+          "ch": "縮捲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/1a95a20ee480d3c53bd76874aaf30773.wav"
+        },
+        {
+          "ab": "beling",
+          "ch": "洞穴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/65903d6bc9979bfb4817643c0e12b11e.wav"
+        },
+        {
+          "ab": "sapah",
+          "ch": "房子，家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/7560d81fe93291a77fe0c856f1e985b9.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們；和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/6dfbdd2796f306866bd7fa91b79f2339.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f3ff7b1a6f1b2455187c4a8b8c2c373c.wav"
+        },
+        {
+          "ab": "so",
+          "ch": "如此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/6f3249aa304055d63828af3bfab778f6.wav"
+        },
+        {
+          "ab": "uxe",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f512bcc142683f9185ea27c41855ed64.wav"
+        },
+        {
+          "ab": "msleexan",
+          "ch": "容易",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5963591837f554529b3d9c4e209b74a0.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0c0e943e54b33403a001386b2c3da054.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/723b06b9337aafbd3b995b1cd5da5e72.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Asi",
+          "ch": "當下，即刻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/4ecca9950b8e48cca47014655c2c4789.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/886551d6661c7e64f03ecdc16f7eae8b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/fa2b52148f1bfe3621b50ca9e3b3e5e2.wav"
+        },
+        {
+          "ab": "mnnangi",
+          "ch": "故意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/133b848dc15d027a626100a490de2430.wav"
+        },
+        {
+          "ab": "mberiq",
+          "ch": "欺騙",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/22/fed2a563bcb3f8c120b0a662a3e13b09.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mesa",
+          "ch": "說；這樣做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/2d02a252e43e9717a88413651fdddf4c.wav"
+        },
+        {
+          "ab": "rmengo",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0e45a87d6e065b04784891b6d20ceefb.wav"
+        },
+        {
+          "ab": "dungan",
+          "ch": "又；還要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/92ea7d01cd7d6245f19a2da8aa6534b4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Blequn",
+          "ch": "完整；認真",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/97652673df105b7ad2ba940585e53500.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/105dce1d1aed88877f7b1097e978f99e.wav"
+        },
+        {
+          "ab": "lmngelung",
+          "ch": "思考",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5f795ee135dd0eab5014a56ff3e47df7.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/8072e512102b794c08f3479a856c0796.wav"
+        },
+        {
+          "ab": "mkaro",
+          "ch": "爬上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5b33fd0ecf11b86e2c7cd51c43831a46.wav"
+        },
+        {
+          "ab": "qnabil",
+          "ch": "牆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e6e9d37a0f6a79c25564cade197a8e3c.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/be6534833d70c9056185831475fd92a1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "spqeya",
+          "ch": "掛在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d6367279eb84bf8e1e10b10a04bd4292.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/4a2cde3ca35a41a388c8cc1e19edcbdb.wav"
+        },
+        {
+          "ab": "kingal",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f5ca5e77fac3302dc36d319d35c7bf65.wav"
+        },
+        {
+          "ab": "kodung",
+          "ch": "掛鉤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/1687ed4415e7d615460cd56c8093de16.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/642c4259bd8c8543170336dba4615ade.wav"
+        },
+        {
+          "ab": "bteriq",
+          "ch": "大腿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/98b2dbdb2d01f629dcc9ab2d69238b2b.wav"
+        },
+        {
+          "ab": "papak",
+          "ch": "腳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0fe750ce2e6c522eb5392efe446d8a5b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/1801803254d671f2ea754a94e56df59a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mnnangi",
+          "ch": "故意；假裝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d73e1b0064831ecbe5d9d9b80b93e05d.wav"
+        },
+        {
+          "ab": "mhuqil",
+          "ch": "死",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e90d8b88bd5eff7998b57f730c10dd80.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e088ce1b8d5b9bcf57916a733e5ff5e3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "不久，一隻老鼠從隱蔽處出來，看到貓懸掛在那兒。「啊哈！」它大喊道，「女士，我想你太聰明了，即使你把自己變成一隻食品袋懸掛在那兒，也休想讓我們靠近你半步，以便你來抓住我們。」",
+      "ab": "Bsiyaq hari de, mgleing pkriyak ma qtaan na ngiyo gaga spqeya hiya. “O!” mesa pnparu rmengo, “Mqedil nii, malu ba tunux su, ani su naq mguso lubuy ppuqun spqeya we, ima naq maha smdaling isu hiya ma pqerac isu.”",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b51dd4eccb544a5c4979465f4d27e1e3.wav",
+      "word": [
+        {
+          "ab": "Bsiyaq",
+          "ch": "很久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/edbd47c8e4cabdf0b4e1e7f1069a226b.wav"
+        },
+        {
+          "ab": "hari",
+          "ch": "過些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/4b997c95a3cd22f4f5a45903bc4f319a.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b1a535724274b293f9623a791919c16e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mgleing",
+          "ch": "躲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0f4a21d571adbe663374dbe676987dbc.wav"
+        },
+        {
+          "ab": "pkriyak",
+          "ch": "露出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/2cb7b2952964c4a2501a2a7afd6f0b48.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/47e7fdb0ab1113aaef1f5029de4792b0.wav"
+        },
+        {
+          "ab": "qtaan",
+          "ch": "被看到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/344da4009ef2bab9620f67c8e3a337b5.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/eba62c424f4c5d83b7423290ff7ea552.wav"
+        },
+        {
+          "ab": "ngiyo",
+          "ch": "猫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e81ec2afd5cff35ce2d033ebb9558bc3.wav"
+        },
+        {
+          "ab": "gaga",
+          "ch": "在那裡…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d64c331c34bb99731a626c0002467c65.wav"
+        },
+        {
+          "ab": "spqeya",
+          "ch": "掛在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c4fa856e631d52fce97c4eb37d17bb19.wav"
+        },
+        {
+          "ab": "hiya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/16e289983cce14eda9b2ade90076c44d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "O",
+          "ch": "哦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/2d533c9bac8862a184b2ad4374a9090f.wav"
+        },
+        {
+          "ab": "!",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mesa",
+          "ch": "說；這樣做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/8fe69eac5027c59a1f7e4fba73cee0db.wav"
+        },
+        {
+          "ab": "pnparu",
+          "ch": "大聲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5994cf5ebd61f4806932d5f226cb64d0.wav"
+        },
+        {
+          "ab": "rmengo",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e4b976d55a102a5b6ff224fef96b74d1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mqedil",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e80a24f4b7d064f350d065d0a5c51123.wav"
+        },
+        {
+          "ab": "nii",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/4d83f681638e40203e88cb7cb014b74f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "malu",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d80c2e64d4eaec667e3a3e05d935fe8c.wav"
+        },
+        {
+          "ab": "ba",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/a9dcc146714bd053238b84413ef7a3ff.wav"
+        },
+        {
+          "ab": "tunux",
+          "ch": "頭；聰明",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c219b83bdbd3fc9bf4fa8526d4368ea1.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/a637b51c944078205e237f8694399ddc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ani",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/8557ce8d4d47173fb5788fa25b2aa3d9.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e0c79d99ee375ed5ae7f77eb0e469957.wav"
+        },
+        {
+          "ab": "naq",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d79f7940be5afa4e3fa70cd73295878f.wav"
+        },
+        {
+          "ab": "mguso",
+          "ch": "故意像…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/19/5c161c914735369523d560cf825e380a.wav"
+        },
+        {
+          "ab": "lubuy",
+          "ch": "袋子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0d87a1c0ff1500e3c4febc7582848dc2.wav"
+        },
+        {
+          "ab": "ppuqun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/8c4e1000e86191ffd2a27a253c0aad82.wav"
+        },
+        {
+          "ab": "spqeya",
+          "ch": "掛在那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/9802a535bbdbcec203871db6d9595586.wav"
+        },
+        {
+          "ab": "we",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/757be053baa902a28fef53520783d4c0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ima",
+          "ch": "誰要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/7f982c526e15dfa8be4c3eaa864c56ee.wav"
+        },
+        {
+          "ab": "naq",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/8abb69b3d54bf7e21e4aff5f1047801e.wav"
+        },
+        {
+          "ab": "maha",
+          "ch": "被…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b0784fd78e6211f2c634896ef544cfe0.wav"
+        },
+        {
+          "ab": "smdaling",
+          "ch": "接近…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/31429ccef08e1dfc4839ba23a3d2443a.wav"
+        },
+        {
+          "ab": "isu",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/6bf3f9188c022dc72696c329a4d47b8f.wav"
+        },
+        {
+          "ab": "hiya",
+          "ch": "那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/7c10793762778883d5b39d05bd64fea2.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/25d55f01734adca809111ca46b5344c0.wav"
+        },
+        {
+          "ab": "pqerac",
+          "ch": "使…被抓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/82d584b97651cd1b10ae553c61803c61.wav"
+        },
+        {
+          "ab": "isu",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/70fc8a17ae8984aaa705b62f3e9ef2df.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

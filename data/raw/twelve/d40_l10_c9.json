@@ -1,6 +1,784 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "mutu’un a bakabak",
+  "titleCh": "織布",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "    以前，若要穿衣服就要自己織布、自己縫衣服，才有得穿。後來有錢可以買衣服、買布，咱們噶哈巫也就很久沒織布了。\r\n",
+      "ab": "    ohoza, haapet masiatu ka haapet talima mutuun bakabak, talima musais siatu, haka nahaza a saanu masiatu lia. aubin liaka nahaza pai sabaiw siatu iu lalawa, haka ini mutuun mades liaki ita Kaxabu.\r\n",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/09b54502ea2bc99fa934ef433f681fb9.wav",
+      "word": [
+        {
+          "ab": "ohoza",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/94d4bc3454385a76c59597cc0c153be2.wav"
+        },
+        {
+          "ab": "haapet",
+          "ch": "要、喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6fca22a906c482de4f4bfa7f7a38396b.wav"
+        },
+        {
+          "ab": "masiatu",
+          "ch": "穿衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/11f9225970d9885cf7cc06f87cb9776d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/86cc021cee065505996c84a574bed180.wav"
+        },
+        {
+          "ab": "haapet",
+          "ch": "要、喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/0b59f42c7f38eb16a0b9f6ac557c116f.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6d27ed8824df671f9bf7982c1c0aa41f.wav"
+        },
+        {
+          "ab": "mutuun",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/5980c4b899f40a8e17a4dbfbf4b1e6c0.wav"
+        },
+        {
+          "ab": "bakabak",
+          "ch": "傳統手織布（以地機織產出的布料）、傳統服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/813cf2726f60c459016da65ccf8cc4ce.wav"
+        },
+        {
+          "ab": "talima",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/95f8f642022f8d960a4046d7f2b03ce8.wav"
+        },
+        {
+          "ab": "musais",
+          "ch": "縫線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/251b27608be2aa9eff1d5828070e6d91.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/3a5a2362f172820ac6f55d87fd1782c5.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就、就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2316d3e9113ba7e6cab8c11186d81acd.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/dc8497a2baa25c209271992b282131cd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4389d98c3289399bbc5c74a25e24916a.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來、為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2638362c840e9f06220017eff8f8bb90.wav"
+        },
+        {
+          "ab": "masiatu",
+          "ch": "穿衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/87df61d0bd4b18d2160648cd2a4b0b08.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/876b2fcfe5e0edff7e474d19dc2526e9.wav"
+        },
+        {
+          "ab": "aubin",
+          "ch": "後來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9e7c093ce2257f11119b80822a6b239c.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/8685fec340986aacff2e93d7a263c27b.wav"
+        },
+        {
+          "ab": "nahaza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/987d74431c68f399dd00ece8876c9223.wav"
+        },
+        {
+          "ab": "pai",
+          "ch": "錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/f242a681f39f5a70db379c339005e220.wav"
+        },
+        {
+          "ab": "sabaiw",
+          "ch": "用來買",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4f495a796a92e6a957d6d209861b3ca6.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/cc496702715d9872b6ecea72221b7a82.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/3857207a9544d6858add105392a217a5.wav"
+        },
+        {
+          "ab": "lalawa",
+          "ch": "一般的布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/206608a50a8514b7a74ebe4a30a1bacc.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就、就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2bc60db61f4b86974782e504d83224e9.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "動詞否定詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/760d8eba579a22f6bf0ef41f4718c914.wav"
+        },
+        {
+          "ab": "mutuun",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/f54ada28a85b17d5239700bba2559aab.wav"
+        },
+        {
+          "ab": "mades",
+          "ch": "很久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c92972d3a77be92a615c54ec4d727d25.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/27db91ce07a810f815699b4d5a19a2bd.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "咱們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c3b83371bcd4f0bb5f6e0221c445a6a5.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/483785633657581db9bd22d2f4a4ec7d.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "    以前的日本人曾紀錄（已寫）噶哈巫的習俗。（文獻中）是說用手織布或鹿皮製作衣服。以前，男人的衣服叫做siatu mamalemaleng，女人的衣服叫做siatu mamaimais。\r\n",
+      "ab": "    haw lia ohoza a xoaxo ka minubizu Kaxabu a balet. laila ka kalu bakabak iu luxut a apay sabuyak siatu. ohoza, mamaleng a siatu ka “siatu mamalemaleng” sen, mamais a siatu haka “siatu mamaimais” sen.\r\n",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c35b2790f35411a132476dedb0f7983a.wav",
+      "word": [
+        {
+          "ab": "haw",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/da63d1ef56678848090bbd83b53f20bf.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/31feb95aaa1f6a4cca9d933ddffb5eb9.wav"
+        },
+        {
+          "ab": "ohoza",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/ab27df7af1707a368d847f82f78127f5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/ac1418880b666745a010bbab8002334f.wav"
+        },
+        {
+          "ab": "xoaxo",
+          "ch": "日本人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c89e5ef0734eae162f3dcf855f8c9edb.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/fd7abf5ba54ed1ce1f9da6f954daaf78.wav"
+        },
+        {
+          "ab": "minubizu",
+          "ch": "已寫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c245446bf74d13d629482080a45eea97.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e058677bca3ab19f1ca4a425de10ef42.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/df124ffd63338664652dffefb204117d.wav"
+        },
+        {
+          "ab": "balet",
+          "ch": "風俗、習慣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/04de1827d5f7ea8262b9aa2b8a8b6bfc.wav"
+        },
+        {
+          "ab": "laila",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e5865b321d383078b7362e5231a9d077.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/300b3a6d3d46fbbe007229fa2029a828.wav"
+        },
+        {
+          "ab": "kalu",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4fe9ca9032b0c6e1936905e23ed44730.wav"
+        },
+        {
+          "ab": "bakabak",
+          "ch": "傳統手織布（地機產出的布料）、傳統服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/1fc9a6116b3be276ff2cf7eb862cde6d.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/42fe80b3852b8c001244c1e556c9fbd1.wav"
+        },
+        {
+          "ab": "luxut",
+          "ch": "鹿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/51a235a363d7827ca49346f93063d249.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/f088345c3415eb0a4bb8b8491fb78abc.wav"
+        },
+        {
+          "ab": "apay",
+          "ch": "皮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9e921dacd934a56a016c562471e3c853.wav"
+        },
+        {
+          "ab": "sabuyak",
+          "ch": "用來製作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/7044d36a390545de17cf07109eb2e71a.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/8a7c808d3d3bdf3333edf9f5d55314b2.wav"
+        },
+        {
+          "ab": "ohoza",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/8034bfe1c07de61e68720726b189338e.wav"
+        },
+        {
+          "ab": "mamaleng",
+          "ch": "男性、男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/95575d4a3ec2bf2aae8a252681c98f45.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/63a9193e9c36f3c716ac1f989add8049.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/140f4a9ac623b2adf3517e1bd6213115.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/540130166cf7c8b9817086ceee1626b9.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/fd77415e638ff5e29c826f5e16b28d5f.wav"
+        },
+        {
+          "ab": "mamalemaleng",
+          "ch": "男性、男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/173ed93305cbcc6b81a765fdd683af64.wav"
+        },
+        {
+          "ab": "sen",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4557306b912f37287989d28d85b3651f.wav"
+        },
+        {
+          "ab": "mamais",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/481dbdaf8402a3dbf9fd612ecfb5e4a8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/1070282985cf87cdda50e35233f701b4.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/ad769054324d85f4e8107a1366015b99.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就、就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c2a4a625ec863059161eec35317ba594.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/7a8c3fd23d6d5656f97d641e2d31ff07.wav"
+        },
+        {
+          "ab": "mamaimais",
+          "ch": "女性、女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/3c1769d75049b8067b8c01f747ed8b06.wav"
+        },
+        {
+          "ab": "sen\r\n",
+          "ch": "稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a1633e7d09e4da0d17af42f77cadeb02.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "    過年或是要娶媳婦，等等的…過重大節日時，要穿紅色的衣服。那時候噶哈巫人會養白狗。那時候採集狗毛，使毛被染色及撚成線之後就會用來織紅色的衣服，後來這種狗就沒了。\r\n",
+      "ab": "    haapet muazem iu asi maa maxiasu, iu isia isia… muazaw mataw a daali ka haapet masiatu lubahing. isia liaki Kaxabu a saw ka mudalum isilaw a wazu, liala maa wazu a bekes, saanu muzemu iu masapan, liaka satuun lubahing a siatu. aubin liaka kuang a wazu a imini lia.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/1a3dfbeae9e902f61cf99a8618301008.wav",
+      "word": [
+        {
+          "ab": "haapet",
+          "ch": "要、喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/df62a6465779448a73b2443c0077c02f.wav"
+        },
+        {
+          "ab": "muazem",
+          "ch": "過年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c395de540d39eeaf964a257078406345.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "或、和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/f91c79983f8afa19c661cdd5f5fad331.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "或是（台語借詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/35360bbe3e375532eee0c90b229514e5.wav"
+        },
+        {
+          "ab": "maa",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2fe18949a1129d3dd68b0998d0ce3f2a.wav"
+        },
+        {
+          "ab": "maxiasu",
+          "ch": "媳婦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/de34ecebf36d2a60070729b7e031dda3.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/780565e3c1f293c61e1ee6325c04f52a.wav"
+        },
+        {
+          "ab": "isia isia",
+          "ch": "等等、之類的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/3590aa936e3a73d9f724639cd192604e.wav"
+        },
+        {
+          "ab": "muazaw",
+          "ch": "過、度過（時間）、涉水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/5452378ce1a93046821a921b91bbf18e.wav"
+        },
+        {
+          "ab": "mataw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9d819b11cdee963f8ffd01efc28c239c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6e9e97dc717ca8edab76b6bee3bbb93a.wav"
+        },
+        {
+          "ab": "daali",
+          "ch": "日子、天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9107751211458d2ac97119eafcb67432.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c92fbd8548a458680b5ef2d7ada401d6.wav"
+        },
+        {
+          "ab": "haapet",
+          "ch": "要、喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/93e3bcaf017b04d9626705691bf959a3.wav"
+        },
+        {
+          "ab": "masiatu",
+          "ch": "穿衣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d8d9770b1bf1dfca0b1ae3800313b86e.wav"
+        },
+        {
+          "ab": "lubahing",
+          "ch": "紅色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/210eccfb9b0718fd7e9a5f71a184e1d9.wav"
+        },
+        {
+          "ab": "isia",
+          "ch": "那時、那個、他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/39ebea8ea084582e4cebf3be87ebc965.wav"
+        },
+        {
+          "ab": "liaki",
+          "ch": "主格標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/899c3c9ca697d0f2551d245a00352383.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/9e8352d80c1a579fd59fb7e70a369f70.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/ef3bc8f9a17268f194e6a2fcac34a896.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/864dbc54db53cb1d900ca1fa3f6ef848.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/795bd9b18f7f23c54cb78aa1e27271b0.wav"
+        },
+        {
+          "ab": "mudalum",
+          "ch": "養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/db425b4e65cec3f92fb5748bc445c345.wav"
+        },
+        {
+          "ab": "isilaw",
+          "ch": "白色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e58bd44a7aa361fddaf479c59a720a66.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/aae7a3d62bd20f7a364c7611f60ad088.wav"
+        },
+        {
+          "ab": "wazu",
+          "ch": "狗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/53c4d68cad3124bee9b1bb209eb274bc.wav"
+        },
+        {
+          "ab": "liala",
+          "ch": "那樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/b438a84d94948f705697cb098ba1112d.wav"
+        },
+        {
+          "ab": "maa",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/bf1bfaada11f8adbe4978357561174f2.wav"
+        },
+        {
+          "ab": "wazu",
+          "ch": "狗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d4c058f9ac31326ace4acccbca290617.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/ef423fe37dafd512647fb7ca249399fd.wav"
+        },
+        {
+          "ab": "bekes",
+          "ch": "毛髮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d579a0a133499487838ffd0082ae6f91.wav"
+        },
+        {
+          "ab": "saanu",
+          "ch": "用來、為了、被",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/183e436c5815c8237ab82257e1fdd14f.wav"
+        },
+        {
+          "ab": "muzemu",
+          "ch": "染色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e05f2589c24abf12e9e3bee36407b7d1.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/abad68d916dd96b749b0a54292f5812e.wav"
+        },
+        {
+          "ab": "masapan",
+          "ch": "連結",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/1293ddec9cff183c28a473233c7e0359.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就、就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e7e30cb2edeb539fa52d03812f425ce0.wav"
+        },
+        {
+          "ab": "satuun",
+          "ch": "用來編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/66cf549067a02a47d0b67742dcc0355c.wav"
+        },
+        {
+          "ab": "lubahing",
+          "ch": "紅色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/5c5c1ad74d4d326d2a84c8bf07be9f13.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c1489b4921a6f26c15bff0ceed828f4f.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/fa2151315c30bed4f5b2b9e2f6892dd6.wav"
+        },
+        {
+          "ab": "aubin",
+          "ch": "後來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/86e60af84e1e11bdd11f5bb25407bcd0.wav"
+        },
+        {
+          "ab": "liaka",
+          "ch": "然後、於是、接著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/37a3fc77b545865e199d4a415579f559.wav"
+        },
+        {
+          "ab": "kuang",
+          "ch": "沒有（名詞否定詞）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/f07056820e9ef297061d86c0c4c45737.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/1eb3a79137066ae3da7cba6c27e60f91.wav"
+        },
+        {
+          "ab": "wazu",
+          "ch": "狗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/cd07678d4b7a61fdf18d777b719ffd10.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d49aab9809526f5cd7ae175888697bfc.wav"
+        },
+        {
+          "ab": "imini",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/d02d4893a20abd575fda17fad9a1eec8.wav"
+        },
+        {
+          "ab": "lia",
+          "ch": "了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/aec6445416322400e2a207664975765a.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "    噶哈巫雖然很久沒有織布了，但前人存放很多文物在博物館中，到了現在，噶哈巫族人為了復振噶哈巫的服飾，就努力地學習織布，並且在博物館測量、紀錄文物。\r\n",
+      "ab": "    Kaxabu ka ini mutuun mades kula, dahu a axaxay ka aduen di sapakitaan. kahu ohoni, Kaxabu a saw haka maahapet a mubabaza mutuun bakabak, iu musuku, mubizu axaxay di sapakitaan, anu pakatababéya siatu Kaxabu. \r\n",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/b8811d34d454be08f90008373a16c4b7.wav",
+      "word": [
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/b5d422476ed50c6bcdbf45c4ffd15b69.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c5947d79b35fe9c40429967a95b8fbe9.wav"
+        },
+        {
+          "ab": "ini",
+          "ch": "動詞否定詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e6afc9fa2f0ddbf7f2e9e2c63a5e9ad6.wav"
+        },
+        {
+          "ab": "mutuun",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/0d5176db06e84f09d45443db81ab1f3b.wav"
+        },
+        {
+          "ab": "mades",
+          "ch": "很久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/b90da774cfc47b9b1b106d65dbd6a681.wav"
+        },
+        {
+          "ab": "kula",
+          "ch": "但是、不過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/5ef7702e786888f58dbd469d4286da95.wav"
+        },
+        {
+          "ab": "dahu",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/41839afa05c26b73fe250b249ff5b63b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/f7acf6945b29e849ea9691144fe9d0dc.wav"
+        },
+        {
+          "ab": "axaxay",
+          "ch": "各種東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/2a5cc02caaaf0b1b73653bb74a119de1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/3e32d5a70fbbe4e7b0650016d2b1e618.wav"
+        },
+        {
+          "ab": "aduen",
+          "ch": "被放置",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/fc17446bb5e087b84824b2747bf3bd2d.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/190ee0a9502204c8340cee81293edbbe.wav"
+        },
+        {
+          "ab": "sapakitaan",
+          "ch": "博物館等，可使人看的場所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/cc105f8c20c27af28e84f6d39a4527da.wav"
+        },
+        {
+          "ab": "kaxu",
+          "ch": "直到、至",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4892c3ac10b0b8d2872970342303d640.wav"
+        },
+        {
+          "ab": "ohoni",
+          "ch": "現在、今天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c8b547eb9b5ec67a245bfe4845c654e9.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/10a48604aebee32937f838801bab8ba2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/b3bd5afcad5f9c556fb5725f2914dc01.wav"
+        },
+        {
+          "ab": "saw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/4f29332188a2b1e531430dcd8b0195c3.wav"
+        },
+        {
+          "ab": "haka",
+          "ch": "就、就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e437add047a0aeb43346f930ac415980.wav"
+        },
+        {
+          "ab": "maahapet",
+          "ch": "努力地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/e05dd8d244110971a96d9bdbc2b9264c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "連接詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/c6b191aa17e36516e87bb08ec613ab4d.wav"
+        },
+        {
+          "ab": "mubabaza",
+          "ch": "學習、模仿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/90fd5dfc4c37ba2e4f841a8ccab831d5.wav"
+        },
+        {
+          "ab": "mutuun",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/eb1144d972efd2a5d618e1ea943145e0.wav"
+        },
+        {
+          "ab": "bakabak",
+          "ch": "傳統手織布、傳統服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/7306693034dc0b066a1f08662ce2950a.wav"
+        },
+        {
+          "ab": "iu",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/3a86af483cce8c6a4cf920df23aaa3b5.wav"
+        },
+        {
+          "ab": "musuku",
+          "ch": "測量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/7bedc006f133e391d4f6091048e6aeaf.wav"
+        },
+        {
+          "ab": "mubizu",
+          "ch": "寫、畫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/288c6602db74b318fdf33204db9d325e.wav"
+        },
+        {
+          "ab": "axaxay",
+          "ch": "各種東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/a66ee56e4233917246bc3f2c36a74a9b.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "處格",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/f17024ca962644e3cc0ad1bc20289d7d.wav"
+        },
+        {
+          "ab": "sapakitaan",
+          "ch": "博物館（可使人參觀的場所）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/6ae8ec7b00e38da55ba31ce2d1d63198.wav"
+        },
+        {
+          "ab": "anu",
+          "ch": "為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/32d1bd4f1dffa676bd7bd7edd9dc619b.wav"
+        },
+        {
+          "ab": "pakatababéya",
+          "ch": "使其迴轉、使其返回",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/99da5c5fb0d0ecdce974c5e3525cec8d.wav"
+        },
+        {
+          "ab": "siatu",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/818c1a472192ee9b4fd2858399c96424.wav"
+        },
+        {
+          "ab": "Kaxabu",
+          "ch": "噶哈巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/07/14/648510a556dc0e9466aa0f6e9504fd16.wav"
+        }
+      ]
+    }
+  ]
 }

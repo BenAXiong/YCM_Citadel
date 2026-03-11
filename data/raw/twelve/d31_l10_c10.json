@@ -1,6 +1,982 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "kemilim tu kenalingunan",
+  "titleCh": "找回記憶",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "很久以前，有一位名叫ateng的噶瑪蘭小孩，他的父母都在外地工作賺錢，把ateng留給祖父母，由祖父母撫養長大。",
+      "ab": "masang yau paqenanem sunis na kebalan ti ateng nangan na, tama na tina na nizu matiw ta qatian kelawkaway medaytan, subulinan na ti ateng ta baqi baian na, yau ya baqi bai na qemudu.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/f9be736d2fd73afddaef9c8e60e31386.wav",
+      "word": [
+        {
+          "ab": "masang",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/f9c91c92f9b48ff33e640906e80bc588.wav"
+        },
+        {
+          "ab": "yau",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/3db030c902a393b5e8603c64d88e40a8.wav"
+        },
+        {
+          "ab": "paqenanem",
+          "ch": "一位",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ddb53d2daaf1e43c35a2cf744997d6b0.wav"
+        },
+        {
+          "ab": "sunis",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/d0beb00479544393bbbaef0c735f8b05.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/4d4387fd3e0c4603e3969d65da8b03cb.wav"
+        },
+        {
+          "ab": "kebalan",
+          "ch": "噶瑪蘭族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/88fb5c7695333f12a8d9742e0f166e25.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/4e8db3cb295c919851c438266effdecc.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/015270782633c0b15af75b25322cad03.wav"
+        },
+        {
+          "ab": "nangan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/48a36767ccfa1ffba97cf86df7a9fcba.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "他[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/c5bbc0634e263b626edd07c1b03b43a9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tama",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/8430445454669181ee6a757a6cd3c53a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/b2be55e0a583d13be9a0e6a9df419a93.wav"
+        },
+        {
+          "ab": "tina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/f5d994ce3df227089208ed4137db8688.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/e30ead9e913ce69cdfb384135b9030d6.wav"
+        },
+        {
+          "ab": "nizu",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/63fe974524801fe745151a7c7bc0ab2b.wav"
+        },
+        {
+          "ab": "matiw",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/e7d3398dc6c729aae0edcdbecaf85dba.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9f90c9ccb0a7511faa2379d61ad6f22d.wav"
+        },
+        {
+          "ab": "qatian",
+          "ch": "外面；外地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/542c851650c2c1962d8c852785477ae4.wav"
+        },
+        {
+          "ab": "kelawkaway",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/5bfc38e4b61dfbcec432afe2401b7aab.wav"
+        },
+        {
+          "ab": "medaytan",
+          "ch": "賺錢",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/61d43ba87e4489ad818a72f1abe4e28c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "subulinan",
+          "ch": "留下來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ac91369bb37228bf2da3b201f0821907.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/daac05dd6b717bcd0ecedd8400830bda.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/c0a1c2f30f0c2e32a7b8c9e23b68d730.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/b468fa33c4d1d4f5660c0c77be421333.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/efd55fbdaf46e8a840437135ba0f8801.wav"
+        },
+        {
+          "ab": "baqi",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/357e3fcfd0d70949f2521580bb02f25f.wav"
+        },
+        {
+          "ab": "baian",
+          "ch": "奶奶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ba939af3dcadd92542ed5d4a0ade4dca.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "他[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/12041675483f3390dbf6dcab7542729b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yau",
+          "ch": "有(存在)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/329995168de8869ce0d6c4083026d5b0.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/d898b56d8d76a952291cad93c805877f.wav"
+        },
+        {
+          "ab": "baqi",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/de32eed7086734e3b7c31c0401443c9b.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "奶奶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/fd6dc0407d3e878b7b090d7a9eb66daa.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "他[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/a9f621f95b2b82441561752c0fc11124.wav"
+        },
+        {
+          "ab": "qemudu",
+          "ch": "撫養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/8998bab61981a0aa40fd1753db971408.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "小時候，ateng很喜歡在榕樹下玩耍。有時候會跟著祖父母去菜園拔花生，或去河流放蝦籠捕蝦蟹。",
+      "ab": "sunis pama ti ateng melizaq ta liyaban na lingtun mawRat, yauzuma kemulikuz tu baqi bai na matiw sa bawbi temutus tu puq uu matiw sa iRuR pabubu tu waRang seRay qabus.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/95e055845a33621f97307b9373e677e7.wav",
+      "word": [
+        {
+          "ab": "sunis",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/a1f326958470b4c96e94f95ba7610faf.wav"
+        },
+        {
+          "ab": "pama",
+          "ch": "還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/6c7dbdd98cd70f67f102524761f3b4d2.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/e528fff5c6807c9f797e110d49bb5154.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/b0ca1ff5b6edb75aa51a42f9f8abbbfb.wav"
+        },
+        {
+          "ab": "melizaq",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/7b54cb6c7740203b722d395215ed5ba2.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/0ff1a2dc87696229db870be7c0781faa.wav"
+        },
+        {
+          "ab": "liyaban",
+          "ch": "底下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/809442d8a3d7586f4d41725bcfdfa615.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/8a6d006fe664d5dc50f789d1713d12e1.wav"
+        },
+        {
+          "ab": "lingtun",
+          "ch": "榕樹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/bf19579baff4c95beca90f56531eeaff.wav"
+        },
+        {
+          "ab": "mawRat",
+          "ch": "玩耍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/33eac7280fc9cc9f8200aed72581518a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yauzuma",
+          "ch": "有時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/11/29/02c4b664982552a701c68a956011de31.wav"
+        },
+        {
+          "ab": "kemulikuz",
+          "ch": "跟著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/314ef76067e51e5d0472f7e10230391f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/2bea3829a036694d8c8970aabbf000ac.wav"
+        },
+        {
+          "ab": "baqi",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/68cb0fd246137def7b82228fbce9df30.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "奶奶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/21e65c491e54a6bb779104afc0f5935a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/13d7bacaeffaa43f1d6e5fa886547670.wav"
+        },
+        {
+          "ab": "matiw",
+          "ch": "前往；去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/f5fd3d48c74e45c81481dbe51a66c26b.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "去[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/1d5185083e4eb1c1b960a98994e08afc.wav"
+        },
+        {
+          "ab": "bawbi",
+          "ch": "菜園",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/51f383b1d6cd70f9aa5381ed9ce8127e.wav"
+        },
+        {
+          "ab": "temutus",
+          "ch": "拔出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/a572772b0aa1dfef269ea764887f3562.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/d1558eb865d438135f4eabde0e4eab55.wav"
+        },
+        {
+          "ab": "puq",
+          "ch": "花生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/74eb86f375db861b001eac7b23b24eb9.wav"
+        },
+        {
+          "ab": "uu",
+          "ch": "或是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/68e8e6860586596c1e7a37aa64d3fba4.wav"
+        },
+        {
+          "ab": "matiw",
+          "ch": "前往；去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/6117e52d027c82ea3813b123ab336f86.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "去[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9d9f0f9b0fba3d91c9fccdf1781f1123.wav"
+        },
+        {
+          "ab": "iRuR",
+          "ch": "河",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/2f523e30b442ece46e1b49e754c7f9f4.wav"
+        },
+        {
+          "ab": "pabubu",
+          "ch": "放魚簍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/cc5ae18df8b88e90b36ec87976a3438c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/99cb4bfb2f198050b5a8a952149a5f7e.wav"
+        },
+        {
+          "ab": "waRang",
+          "ch": "螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/cff4d3a598f3d4d13593cd7dda80fcc9.wav"
+        },
+        {
+          "ab": "seRay",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/a560bc874db8a76e4027a074cd908e62.wav"
+        },
+        {
+          "ab": "qabus",
+          "ch": "蝦子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/63a8b02f72c49c316f642d7f60bdda5f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "ateng的祖父很會編織各式各樣的手工藝，ateng會靜靜地在旁邊看著祖父編織。有時，祖父會邊做邊講故事給ateng聽，所以ateng的噶瑪蘭語講得非常好。",
+      "ab": "baqi ni ateng suppaR semangi tu naququni ay mezamet tu qenaliman, melimek ti ateng ta kinilan temayta tu baqi na semalit, yauzuma yau semalit yau pakungku baqi na ti atengan, Raqana suppaR ti ateng temankebalan.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/ee126af10b4c6dbf67813f4f8eb2e77d.wav",
+      "word": [
+        {
+          "ab": "baqi",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/0627b1e4656f796ae0ab4e0610b48781.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/06f1077d4bf6bddb64b673237de63e5b.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/4b9ef0c61196d0ca7fe417623c7ddfd1.wav"
+        },
+        {
+          "ab": "suppaR",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/6bd053f788ee8b059b4db65da4038c92.wav"
+        },
+        {
+          "ab": "semangi",
+          "ch": "製作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9f6f07fa40ae63dfac4770152dff8ef4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9c1eb1db7b56284ededfc3796bd4ef4f.wav"
+        },
+        {
+          "ab": "naququni",
+          "ch": "各式各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/328bfab5ab2a83185618ea2693392449.wav"
+        },
+        {
+          "ab": "ay",
+          "ch": "[關係詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/47254e14a9590f3737f251e7cabb5cc3.wav"
+        },
+        {
+          "ab": "mezamet",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/06/0316a00a3326e3940ebb0727987dc0c6.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9d52ae76df058b0454f754705cd92888.wav"
+        },
+        {
+          "ab": "qenaliman",
+          "ch": "手工藝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/7d8c2c4c2c87f597e658ec3b1bf35067.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "melimek",
+          "ch": "安靜地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/71bba973ffee05c52cea63b565611625.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/562d5cf7a7cbc5a80f48f5e13bfdfb2c.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/84c841d383893c0b73552d4962f23ad3.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/e3ec5603bb847c90aa85479441dac198.wav"
+        },
+        {
+          "ab": "kinilan",
+          "ch": "旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/83ac8b4d3275014fb480cf49c2a855c0.wav"
+        },
+        {
+          "ab": "temayta",
+          "ch": "觀看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/45c0dce7416c19d8725a4e87dba2bd72.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/03cae2063ce4c43fea747ad6e2de683e.wav"
+        },
+        {
+          "ab": "baqi",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/024cd885f9b00e7ee6b9cd521b08cf8f.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/74ad87cc7aafa51f309b8aa1d833c2b0.wav"
+        },
+        {
+          "ab": "semalit",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/d1ebecdb71a425029827639c7036d247.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yauzuma",
+          "ch": "有時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/c344e8012dda5f4bfd8c2d1b32d76054.wav"
+        },
+        {
+          "ab": "yau",
+          "ch": "有(存在)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/884c4beddd8c98bb3b016bdfcc1bcdf8.wav"
+        },
+        {
+          "ab": "semalit",
+          "ch": "編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/4b79edd356a1fcb0ee4d5173ac9d8d6f.wav"
+        },
+        {
+          "ab": "yau",
+          "ch": "有(存在)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/1e817cedd8c0bb014000784616d811c7.wav"
+        },
+        {
+          "ab": "pakungku",
+          "ch": "講故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/727cefd03bd8c4affe67217780b368f1.wav"
+        },
+        {
+          "ab": "baqi",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/73a58e070826d39b4031f53ca9fbe3de.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/3e37f888f6cb2d5bcd89a3af353ed91f.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/21d979c7e5711791d8baf23b89dc6772.wav"
+        },
+        {
+          "ab": "atengan",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/b3ec13a9c8f8d59a23034d57c6ef2efb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Raqana",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/8d5ac59ad4fc155ac3f4805aa30c9440.wav"
+        },
+        {
+          "ab": "suppaR",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/a2a16ef634b4226ccfffd6853193fa56.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/8c9e1e19a8582a231c3d807988f2ea73.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ade4a4eacb0fcd05662aefd394c60d10.wav"
+        },
+        {
+          "ab": "temankebalan",
+          "ch": "說噶瑪蘭語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9578aa9ce37ad68f4b9f61c02a933ba4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在ateng十二歲時，他的祖父母相繼過世，ateng的父母就把他帶到了都會區，在那裡讀書。畢業後，他也留在都會區工作。",
+      "ab": "ta Rabetin yau uzusa tasaw ni ateng, mepatay ti baqi bai na, azasan na ti na tama tina na ti ateng sa tukayan, yau ti tayan temaqsi ti ateng qaya, semanga temaqsi yau ta tukayan kelawkaway.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/15/5241748147b3a3d4b972ff35a60c435a.mp3",
+      "word": [
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/c60e7d24e22cb7c59788e690275ff4df.wav"
+        },
+        {
+          "ab": "Rabetin",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9aeeadc118ff7a6797e7b28f39e8d4d1.wav"
+        },
+        {
+          "ab": "yau",
+          "ch": "有(存在)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/35f6e50ae1b299f6efdf99b6490b712c.wav"
+        },
+        {
+          "ab": "uzusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ebc600e378cc8eeb290c35d95c60f223.wav"
+        },
+        {
+          "ab": "tasaw",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/89d831d0d9d4ef160196bd5d25ebc16c.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/2e41a00ea3b1e23f1578874f98b253ef.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/32edcfd69c649e4bbad807233bda2c04.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mepatay",
+          "ch": "死亡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/20345f721a0e8c1093862eb7fa435516.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/dd0762a3964edc4fe0057af0000a1287.wav"
+        },
+        {
+          "ab": "baqi",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/7aa218a196b0af23bfd41cc67d8bfeb0.wav"
+        },
+        {
+          "ab": "bai",
+          "ch": "奶奶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/624e50d2bca9c6314160403c2f83bc0c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "他[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/b5dc1765cd3246320620c388464b08e6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "azasan",
+          "ch": "帶領",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/e2e661ee1dcc89bfb2a4e44e5eaa5321.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/df1913f2b19b4b3cc1181f0f3327515c.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/452af3bb54807719c781915e21b85361.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/707c65f70cb3f60c6a1f7ced7e9bf1ca.wav"
+        },
+        {
+          "ab": "tama",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/71a04561e43c4ba6db6663c142598f96.wav"
+        },
+        {
+          "ab": "tina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/8ac0b7c1385516a341a29ca733144026.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "他 [屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9a5d620fa8f42447aa81f8133866cff1.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/c986fda799469a597defb26033cc70ea.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/1fb2752cacd05ac61672fe2ce28a539d.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "去[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/45c05025f5e55a43c97265cd2aa2433b.wav"
+        },
+        {
+          "ab": "tukayan",
+          "ch": "都會區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/15/a5315d05be1c6f89a256b5c7b1331102.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yau",
+          "ch": "有(存在)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/b95268897d16c109b82c59d16bc010bd.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/22a8e2e42717b659ac2f6f95bf44a647.wav"
+        },
+        {
+          "ab": "tayan",
+          "ch": "在那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/b5fe68b6226c2f3dc1e208a43adf72ef.wav"
+        },
+        {
+          "ab": "temaqsi",
+          "ch": "讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ed6298be95378c5d776959ee5255f067.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "[類別詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/f14bd28c30ceb28fb7fc84312699b618.wav"
+        },
+        {
+          "ab": "ateng",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/55d404bbe0be6ddedb426fc89415d57d.wav"
+        },
+        {
+          "ab": "qaya",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/f292fba0aaf7bf22361de9a356b5fb5e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "semanga",
+          "ch": "結束",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/c34f0cacd06827b96c163fe449a68905.wav"
+        },
+        {
+          "ab": "temaqsi",
+          "ch": "讀書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/1358e4831cf1f088a7f700f43ad446a1.wav"
+        },
+        {
+          "ab": "yau",
+          "ch": "有(存在)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/13e0bbb1a265a0723712d18d25bb88b3.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/689998e42c3f706932cdb313dfa05995.wav"
+        },
+        {
+          "ab": "tukayan",
+          "ch": "都會區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/1b3f3a160e148bd27db446141e9142c7.wav"
+        },
+        {
+          "ab": "kelawkaway",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ea46dccd4437f0e82fbaf34bc03e2aab.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他在都會區沒有族人可以聊天，所以他也漸漸地忘了怎麼說族語。現在，他的年紀大了，他想回鄉找回失去的記憶。",
+      "ab": "ta tukayan mai tu kebalan sasidadakan sikawma, Raqana, paqanas ti mekalingun tu sikawman na kebalan. setangi Raya ti tasaw na, kasianem ti aizipna tu tananan sa damu kilim tu qenalingun na.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/a3116fcb0ff78581d441a3de68287e73.wav",
+      "word": [
+        {
+          "ab": "ta",
+          "ch": "在[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/78a6b7fa7ac0d0ba1a26bb825924a2fe.wav"
+        },
+        {
+          "ab": "tukayan",
+          "ch": "都會區",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/d7b756fda89f6f983fd0ff19f21eab5a.wav"
+        },
+        {
+          "ab": "mai",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/cfb81b62e01104a7bb480170ae48098c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/5dec1dd9c7ca4454ec07671f1bc8f941.wav"
+        },
+        {
+          "ab": "kebalan",
+          "ch": "噶瑪蘭族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ecf70358ed0de219be953999a3c626ae.wav"
+        },
+        {
+          "ab": "sasidadakan",
+          "ch": "可以聊天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/11/ec9b2c4699c82367a388b3d5dda3dd82.wav"
+        },
+        {
+          "ab": "sikawma",
+          "ch": "說話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/3f0a0342bb2d3754e3ecc229e65613fa.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Raqana",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/e3723a16eee0ccbbe419cdc9eef8441f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paqanas",
+          "ch": "漸漸地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/190c16e5ec03f5f0c6d88e5f23d2f6c3.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/748350d6c0587e8591517220383a9945.wav"
+        },
+        {
+          "ab": "mekalingun",
+          "ch": "忘記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/06fa2eb2210eaa75108e5ef257d4c69b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/c21646ec4a648c37d38249623f8f2c8c.wav"
+        },
+        {
+          "ab": "sikawman",
+          "ch": "講話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/92de889f78c31fadd7efc7f01bf48c9a.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/467112cee2fcd913955a65c8cd322834.wav"
+        },
+        {
+          "ab": "kebalan",
+          "ch": "噶瑪蘭族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/234a44603f50339b47cb9d1d6baa1a3d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "setangi",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ce9542d0ca697892fa4a86fb6bacfc79.wav"
+        },
+        {
+          "ab": "Raya",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/ee91bf192ee17c186a710bcec716322e.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/138ec3dcca9c3b353880613a2452dc01.wav"
+        },
+        {
+          "ab": "tasaw",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/8af954d1509e853d1559c7653cc68ea1.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/fdb6e46b38fd38ec3ee5f823728ad30f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kasianem",
+          "ch": "想到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/d8c9ac4820ff3dd5ee855842f29ebc79.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "(起始貌)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/528b0bef28f9ed531353075bfc211b7d.wav"
+        },
+        {
+          "ab": "aizipna",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/c2f8cdd9152894d36edf05bf7c2e5fd4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/867b40a424378bfa56d7800e23f93070.wav"
+        },
+        {
+          "ab": "tananan",
+          "ch": "回去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/e0bd056ad00e30db167713b2fe6432b7.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "去[處]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/4192dbfc92c414a8950820281923f336.wav"
+        },
+        {
+          "ab": "damu",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/537982529d72bb012d61180f0351f4da.wav"
+        },
+        {
+          "ab": "kilim",
+          "ch": "尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/9419d316034355d68d1c8822274223b5.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/40b393d7b1a09e0eda62340f2baac8f2.wav"
+        },
+        {
+          "ab": "qenalingun",
+          "ch": "被遺忘的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/d2af662257c2d673d8cf29d630eb25ab.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/05/3e5589b2df55552e7716818b29ba2a2d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

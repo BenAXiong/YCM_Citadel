@@ -1,6 +1,636 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "cengu",
+  "titleCh": "薯榔",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "採集薯榔是我們排灣族以前很重要的生計之一，為爬藤類，且滿身是荊棘的植物，形狀有如（圓形）頭部。它大多會生長在大樹的旁邊，全身是黑的根莖植物，但是，若把它切開，內部的果肉是紅色的，也會流出紅色的汁液。",
+      "ab": "aicu a pinaka cengu, kasicuayan nia sinan pazangal a na masan racev a nemanga. katjedjuyan a vaudj, matu qulu nua anema. tjengelay a tjezua tua qapulu nua kasiw, qecengecengel a kinakemudan, ljakua nu tja peceviqen, qudjidjilj a kinakakanenan, pe ljitjeq tua qudjidjilj tauta.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/fa9462ba01ad26f19535be3c4c462a5e.wav",
+      "word": [
+        {
+          "ab": "aicu",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/9424b0565195c27cdbeda8ab7a2f508e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/ec8989a0f0984e9fae61e7937ffada8c.wav"
+        },
+        {
+          "ab": "pinaka",
+          "ch": "稱為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/37fe435a1d7956df247dde078074254b.wav"
+        },
+        {
+          "ab": "cengu",
+          "ch": "薯榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/dcbf540f6a9056d33884b1f54a610c1b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kasicuayan",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/a6e79d4197c9f9927b4102dfcc472dcb.wav"
+        },
+        {
+          "ab": "nia",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/13a5ec89e9c3f333d6f52ddc356ef7a1.wav"
+        },
+        {
+          "ab": "sinan",
+          "ch": "當作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/d427c6260c0564ba90d6ca27dc3b0bde.wav"
+        },
+        {
+          "ab": "pazangal",
+          "ch": "珍貴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/a810530b7f83102d17cdf2be8da59d2f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/6dea2617ffc5cbe1eccbec05d1ab6492.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "已經是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/bfe50086ca73fad392f894e58eb2bf4b.wav"
+        },
+        {
+          "ab": "masan",
+          "ch": "成為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/a4a20f88380da082080d475868e92412.wav"
+        },
+        {
+          "ab": "racev",
+          "ch": "貨品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/93ac943bbd3db1df6d5569e603155b52.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/89e7d05d94977c776e5200e7f24ba989.wav"
+        },
+        {
+          "ab": "nemanga",
+          "ch": "物品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/abcffd70f48bd3ddae7d048a0789eebf.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "katjedjuyan",
+          "ch": "有刺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/64f9b199132a3f597af54f875ba0078d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/d572f68116e37b6e798fd9260c43efe3.wav"
+        },
+        {
+          "ab": "vaudj",
+          "ch": "藤蔓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/611ba5ef155b93d1cc990c1e3dfebe03.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matu",
+          "ch": "很像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/bc6bcd392b617578f9aca2c29cae7036.wav"
+        },
+        {
+          "ab": "qulu",
+          "ch": "頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/0be77dd17d95207f515c6d0e47fffdba.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5a562b1ecd3433001cad71b66be9bb6d.wav"
+        },
+        {
+          "ab": "anema",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/34df2852129ea5fbbee17559970c3c49.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tjengelay",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/15d000a7bcd6e773b955d9dfbd2ac556.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/1364de8a601e80b366df4c0a722b73b2.wav"
+        },
+        {
+          "ab": "tjezua",
+          "ch": "長在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/c90425d6f7d882fb67038702d155e16b.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/8a45da3f21ea12d7948abeaf346c5bd1.wav"
+        },
+        {
+          "ab": "qapulu",
+          "ch": "樹頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/fbf90eedaedf0543d89caa9edcba273f.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/e8609464e1813ad2494416cb12676159.wav"
+        },
+        {
+          "ab": "kasiw",
+          "ch": "樹木",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/17cb0fd774819a31e16d20b88ca85326.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qecengecengel",
+          "ch": "黑色的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/7991414f1fb147d65ca8fb117934f94b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/92da6da0dd22c47af75d1a7d8c3e07b2.wav"
+        },
+        {
+          "ab": "kinakemudan",
+          "ch": "樣子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/8564a76485fc52dae3a88b7126baf106.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ljakua",
+          "ch": "但是，然而",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/ebc004ec5144030d8c365456db040dc1.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/d7961c9ebae53397725293db0c6dacfb.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/7888b16c52f277be1d5c0bbd7627ccbb.wav"
+        },
+        {
+          "ab": "peceviqen",
+          "ch": "切開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/24b486d95a59702839d3a4a2ce8c63cb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qudjidjilj",
+          "ch": "紅色的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/d4313b44820ce4dfe472d735f0df8ed0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/27f2d2e6436617e42e2f251113eeb791.wav"
+        },
+        {
+          "ab": "kinakakanenan",
+          "ch": "果實的樣貌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/7fb0e93718cc2bbf2ad75d2dfb497c77.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pe",
+          "ch": "冒出",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/1474f000f1dbb955cbd136f915b8c318.wav"
+        },
+        {
+          "ab": "ljitjeq",
+          "ch": "汁液",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/e3745a7cc89dd2e79c636a353d1525db.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/7812d18c11eba4daf3953e61cffd4028.wav"
+        },
+        {
+          "ab": "qudjidjilj",
+          "ch": "紅色的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/0634b340c5a13aa715f1c895fc18ce93.wav"
+        },
+        {
+          "ab": "tauta",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/99789bac26e72647e95cd4073dc9b2f1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "過去，部落生活非常的困苦。常有平地的漢人專門收購薯榔，作為我們家庭的收入，換取金錢用來生活的開銷。當我們從山上採收薯榔，就把它挑擔扛回家，這就是家庭經濟的來源。",
+      "ab": "kasicuayan, azua na semeturudj itjen, izua za pairang a veneliveli tua cengu, san paisuin tu sikivalit tua kakanen, tua lami. nu vaik a sema gadu a muri cengu, sa izua kinicengu, vacaqen a semaumaq, sa izua anga sikavaljutan nua tacemekeljan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/694385500bdfc505ba0a4a8e3d81af19.wav",
+      "word": [
+        {
+          "ab": "kasicuayan",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/2af6b176d618fcdcd130d32fcf2a14c0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "azua",
+          "ch": "那些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/36dc5f842d5514ee2dac7f048aa42ec9.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/9f460e30429cf3337216a4aab752994c.wav"
+        },
+        {
+          "ab": "semeturudj",
+          "ch": "窮困",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/45a28a0898c721646481d379f48a0526.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/19d65d99837a5ed52cb5f467c54e8db8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/0ce5eb1682917fc391e592aff20c35af.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/387fc7868a72d0c8387a6ea1ac011eb7.wav"
+        },
+        {
+          "ab": "pairang",
+          "ch": "平地人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/2d425507027fe5ccf5e23dc6bf98af4b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/963647d919d32f1c4b7998e9a5951e1e.wav"
+        },
+        {
+          "ab": "veneliveli",
+          "ch": "在購買",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/7e34103d20ea96e0304389a74c44b50d.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/d3e185f50dcdc22eea2dc03829bb4c6d.wav"
+        },
+        {
+          "ab": "cengu",
+          "ch": "薯榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/375bba25bed3d8132d86a6c65682c02c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "san",
+          "ch": "當成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5d4bacc197021d46db1445d67072835e.wav"
+        },
+        {
+          "ab": "paisuin",
+          "ch": "錢幣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/681e38a876f8eb9fd9822b8f56545438.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "用來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/a2ff20730c919c3c30bcfa4aac8b4314.wav"
+        },
+        {
+          "ab": "sikivalit",
+          "ch": "交換",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/15/a5568a744f4eb0daa2c61da7f7ad7986.mp3"
+        },
+        {
+          "ab": "tua",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/d53b6413363588d99b45a8cdfa5acad3.wav"
+        },
+        {
+          "ab": "kakanen",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/d3af6e88ef95e50bacebe1bd779ea52c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tua",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/4f367a687694d20193a6f04a8d3a2117.wav"
+        },
+        {
+          "ab": "lami",
+          "ch": "糧食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/3ac7628c3eb75bb399c544d8c382f0d8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5a2324749f3a68bfe52056efc563c837.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/3b5b763dc11cde2494f3089e199d4803.wav"
+        },
+        {
+          "ab": "vaik",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/99bc9f7d864b6291861728d671d61890.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/ac614ac034424f16edb918cf9c524e95.wav"
+        },
+        {
+          "ab": "sema",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/18c80ce8cbae9be00f9abc5375be7aa8.wav"
+        },
+        {
+          "ab": "gadu",
+          "ch": "山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/e16e18c08f9710f81d96325f8cbd9524.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/1148786f081772ed0fbfedee09d8d771.wav"
+        },
+        {
+          "ab": "muri",
+          "ch": "尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/5599b93313facb3b448b1124a75b23f7.wav"
+        },
+        {
+          "ab": "cengu",
+          "ch": "薯榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/28c2e57cafe13702f08bc17fb8800f11.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/56488ded4129d5e7fbad989e1dad1494.wav"
+        },
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/95595258ccedb3f8183500f93cd36f5a.wav"
+        },
+        {
+          "ab": "kinicengu",
+          "ch": "採的薯榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/0528dea9bbc7d49632849e66267cefd4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "vacaqen",
+          "ch": "挑擔扛起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/f2a81b73e23d0f0496ea3a14cdfbb4c7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/0d5e4b60c2e7f83a2a03b4ef26220fcc.wav"
+        },
+        {
+          "ab": "semaumaq",
+          "ch": "到家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/0289fc9e3bcd6db0d9a8dbfe050fa406.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/cbaafc6f429ace305bb4ead3bff5f73c.wav"
+        },
+        {
+          "ab": "izua",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/a8bd1df9197b78a2423b00a4e575f244.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/4bfa62213e6badab50fce7fc0c8d9b68.wav"
+        },
+        {
+          "ab": "sikavaljutan",
+          "ch": "生計",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/56acc3070ab7205fcdb09ec5c8071dac.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/fe21067b5bd2406e6a8f449af946d61b.wav"
+        },
+        {
+          "ab": "tacemekeljan",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/a050de22d78530d3428d02b553dceb7a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "關於薯榔它遇有另外一個特別，它可以用來作布料及魚網的染劑。",
+      "ab": "aicu a cengu, izuanan a manguaqan a masanitalj, maqati a tja siiraw tua kaliljaw, tua lekelek.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/b53e7dc2bf929b9f76ab8117eb16cdb2.wav",
+      "word": [
+        {
+          "ab": "aicu",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/806c472f05c8e1ec7b4eee6b9d2190b6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/e56cc1df7a311668c43b2084d3ad7400.wav"
+        },
+        {
+          "ab": "cengu",
+          "ch": "薯榔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/9b3e5c1c0754bc6a379163afabe2af79.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izuanan",
+          "ch": "還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/4e1213b3b6b7ff55099c76ffd9eb4b58.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/dc65c7b3e6b2ea3a7c5aac41eeb8fbe0.wav"
+        },
+        {
+          "ab": "manguaqan",
+          "ch": "用途",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/bbd792695f31428707ac8c744d04d05d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/23270334cb68c628783066181ece864b.wav"
+        },
+        {
+          "ab": "masanitalj",
+          "ch": "一種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/4389373532bb04b35e7af6c0dc171d7d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqati",
+          "ch": "可以，能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/9f78e8aa1530b26c85f555017d89e745.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/14/251af6ca96209380132e0a856b511708.mp3"
+        },
+        {
+          "ab": "tja",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/c0da153a42f724454914583e91772bc7.wav"
+        },
+        {
+          "ab": "siiraw",
+          "ch": "浸染",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/9339be1158aa50c53147b3b53bf0f259.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/04/3440724aa6155a22429e2a611aabe631.wav"
+        },
+        {
+          "ab": "kaliljaw",
+          "ch": "布料",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/5bdd7b3894ae607a4b733f292b710738.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/35345c34f44640ff8c1ec3454a5d5e86.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/1beb9d5a0e7509732f885737758a2c59.wav"
+        },
+        {
+          "ab": "lekelek",
+          "ch": "麻繩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/21/41afcf0f4146cebdceed1088402852d7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

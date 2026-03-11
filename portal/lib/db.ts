@@ -28,6 +28,7 @@ export function getDb() {
     }
 
     if (!globalForDb.conn) {
+        console.log(`[DB_DEBUG] Connecting to SQLite: ${dbPath}`);
         globalForDb.conn = new Database(dbPath, { readonly: true });
         // Add REGEXP support
         globalForDb.conn.function('REGEXP', { deterministic: true }, (regex: string, text: string) => {

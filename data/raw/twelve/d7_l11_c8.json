@@ -1,6 +1,934 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Itubunun tu petasan, haan inak tu pacabung u’luz",
+  "titleCh": "布農文學：在我墳上跳舞",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "在我墳上跳舞，如果這一天終於到來。如果你願意，請帶著小白花種在我墳前，柔柔的花瓣隨風飄搖。輕輕的，輕輕的。用花朵的香氣分送我的思念。",
+      "ab": "Hana daza’ i cabung nak uduli. Mamaca kadipin na inak tu qani’an na. Maca heza su’ a is’ang nga. Madasa’ madoqlac tu puaq iscuaz han cabung nak. Lavilavi ka puaq qi luvluv qaidingqaiding. Kandadauk, kandadauk. Makucia puaq tu hancum taqu inak tu ilickinan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/14/187e4b1a2919565e360aa1486292ca8d.wav",
+      "word": [
+        {
+          "ab": "Hana",
+          "ch": "在（地點）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/3297da50cb2d8228030786bb55c023ff.wav"
+        },
+        {
+          "ab": "daza’",
+          "ch": "在…之上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/400439aa031dfb48abadf0a9668096b2.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/ed3b919c399a5022e16924cc0e58307e.mp3"
+        },
+        {
+          "ab": "cabung",
+          "ch": "墳墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/99d48b30ed34863e423867a4d5b43b35.wav"
+        },
+        {
+          "ab": "nak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/04c6d73a0a1a151b23a030f1bb2023a7.wav"
+        },
+        {
+          "ab": "uduli\r\n",
+          "ch": "跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/978cf07a70f87eb230893739fb3ad6bb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mamaca",
+          "ch": "假如",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/27c48d118019a5e52b33a370b2a2e9cd.wav"
+        },
+        {
+          "ab": "kadipin",
+          "ch": "到了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/a4e8a82b9a969d1d06fbed8258273496.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/08ac64791b4bff89f0509a52b2d8fd6f.wav"
+        },
+        {
+          "ab": "inak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/4017a7fbca8172fb377b549a58c9883b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/39c128f62773954644440000e486ecea.wav"
+        },
+        {
+          "ab": "qani’an",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/928a671f2799db5d6689141990affd55.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/d538524a911bfa49c81b6e8cf9d20fec.wav"
+        },
+        {
+          "ab": "heza su’ a is’ang",
+          "ch": "你願意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/a7ae00ad0e37e0758c244302e195f54a.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/30e14096e391633acc23dfa1a52c9ac1.mp3"
+        },
+        {
+          "ab": "nga",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/8ce0b144c1b607fc718a09536914b035.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Madasa’",
+          "ch": "攜帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/3b3eac4c9eac08cad799f7fd9b59e802.wav"
+        },
+        {
+          "ab": "madoqlac",
+          "ch": "白色",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/8201b735014d68e89fd94799a6fb89fd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/ce8eb4b0b34bb46ef8276cc82fe5f7ca.mp3"
+        },
+        {
+          "ab": "puaq",
+          "ch": "花",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/084086e47277fbda445809a01de25280.wav"
+        },
+        {
+          "ab": "iscuaz",
+          "ch": "種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/7097725d0a7382b744c99bf6416044f4.wav"
+        },
+        {
+          "ab": "han",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/deb668eac8f1bf2fd2db1a1dce249cbb.wav"
+        },
+        {
+          "ab": "cabung",
+          "ch": "墳墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/48e3064f5546c4f53468ff13a5a3f4d9.wav"
+        },
+        {
+          "ab": "nak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/0bed54bb32d1a3ba3371cb81f3187395.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Lavilavi ",
+          "ch": "跟隨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/b2958d4d564f1201dde1da3ad5cac411.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/9eb314ab19c3ada3ec5e379e1e46603e.mp3"
+        },
+        {
+          "ab": "puaq",
+          "ch": "花",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/860a36d12a05089b59575a78727ff72d.mp3"
+        },
+        {
+          "ab": "qi",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/1a2325f9ee1a7eff2e74604f23cebeb7.mp3"
+        },
+        {
+          "ab": "luvluv",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/0beb7739c5f587f4d233f030de4aae7c.wav"
+        },
+        {
+          "ab": "qaidingqaiding",
+          "ch": "搖晃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/a841c4876022da7feda8eeee403abfd6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kandadauk",
+          "ch": "慢慢的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/473184d0c2231a9369566be640fd6423.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kandadauk",
+          "ch": "慢慢的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/fdfa3c351fe1686e74444ca39f02d13c.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Makucia",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/21acd39f6628a4def2669d7261ab4101.wav"
+        },
+        {
+          "ab": "puaq",
+          "ch": "花",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/b7599ec7ac49319ea82f96b57057bc53.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/38278f06f41731e5bde61e80dbf6fb5e.mp3"
+        },
+        {
+          "ab": "hancum",
+          "ch": "味道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/66a8969fcd1a93aa5d0706bc991ee87c.wav"
+        },
+        {
+          "ab": "taqu",
+          "ch": "告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/927aca55768ccf71662498f7045018da.wav"
+        },
+        {
+          "ab": "inak ",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/5c3b8e688108f044fe77b683b13acfdd.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/49674aca9fa942662010847b1624af80.mp3"
+        },
+        {
+          "ab": "ilickinan",
+          "ch": "思念",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/16ee56af6394fc4ff357562d12ef4056.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "假如你願意，請在我墳上跳舞，猶如翻土的舞姿寧靜而優雅。雙手如灑種，勾勒出優美的弧線，如吟唱祭槍歌的低吟而虔誠呼喊我的名字，報戰功般狂妄、自負的瘋狂嘶吼出對我的思念。",
+      "ab": "Mamaca heza su’ is’ang. Munhan na cabung nak uduli. Maszang ngi macoqaz zi dalaq tu matununciv mano’az. Maszang ngi mazaszas i qoqsa tu tinkaivungkaivung cin mavalval li ima su. Maszang ngi tusauc Pislahi tu maboungboung madungdung luklac ci ngan nak. Maszang ngi Malastapang tu istamasazan, makuniv maszang minanual kintuhoq taqu ki malkazaku tu kaicalpuan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/14/9e73ea40b5915e219761480d26a22af3.wav",
+      "word": [
+        {
+          "ab": "Mamaca ",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/17dac0029a5c7f883920e1ee3cf6ee9b.mp3"
+        },
+        {
+          "ab": "heza ",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/7646bc26527a1fa4f1abfba4ad304c2a.wav"
+        },
+        {
+          "ab": "su’",
+          "ch": "你、妳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/5a0ec1699a9f8a0732135d1bd252e23f.wav"
+        },
+        {
+          "ab": "is’ang",
+          "ch": "心(願)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/828dfe9256e9d300278e5c6f6a0c81cb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Munhan ",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/7a2a1ca7758ebaf29964b5e82fc0989e.mp3"
+        },
+        {
+          "ab": "na ",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/962ad1345c234e026cb257778085f3ca.mp3"
+        },
+        {
+          "ab": "cabung ",
+          "ch": "墳墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/983899ffad553a996cfc00ce38bb5f45.mp3"
+        },
+        {
+          "ab": "nak ",
+          "ch": "自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/8bcbf9d3a5d327095b73c95360f7c422.mp3"
+        },
+        {
+          "ab": "uduli",
+          "ch": "跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/e26fcbfc88bb03d267128899871f0caa.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maszang ",
+          "ch": "就像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/69f11f11279e4157c89b1675c44ff62c.mp3"
+        },
+        {
+          "ab": "ngi ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/df7ff72ba6937ecec42836bbeb803dc6.mp3"
+        },
+        {
+          "ab": "macoqaz ",
+          "ch": "翻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/612d988ba3a47d6690981c5e0dad5bc2.mp3"
+        },
+        {
+          "ab": "zi ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/b603b09882d2377a749a9c76e09c5afb.mp3"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/36f01bfa12741192d29f0e166a23b456.mp3"
+        },
+        {
+          "ab": "tu ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/091a819e2342dc113fdf9be7c295210f.mp3"
+        },
+        {
+          "ab": "matununciv",
+          "ch": "寧靜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/8a35d84bbeb460b0ea142909f3395f5f.mp3"
+        },
+        {
+          "ab": "mano’az",
+          "ch": "美麗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/704d1464904f1272347a965ce099eb2e.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maszang",
+          "ch": "就像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/fb8a985c63959b902ffeed35fa6a2879.mp3"
+        },
+        {
+          "ab": "ngi ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/d073dfe629b0dce79b51e3f5f3d7d9ca.mp3"
+        },
+        {
+          "ab": "mazaszas",
+          "ch": "撒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/7da43784591633a8b221524d439db351.mp3"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/91deaef164356d6d62478eceb9afaa6b.mp3"
+        },
+        {
+          "ab": "qoqsa",
+          "ch": "種子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/11/9293aabe78989c5fbb1b1b53b51aa367.wav"
+        },
+        {
+          "ab": "tu ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/dbbfa43eef839542428b19391b87eb74.mp3"
+        },
+        {
+          "ab": "tinkaivungkaivung",
+          "ch": "弧線、彎曲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/e49a891eb315776b2763edfd3b4d2b0a.mp3"
+        },
+        {
+          "ab": "cin ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/9288cf7202da46f9ae55724bda73b36f.mp3"
+        },
+        {
+          "ab": "mavalval",
+          "ch": "揮動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/d755c37bb6a40c883e18cd8c70156c49.mp3"
+        },
+        {
+          "ab": "li ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/b9b20adeedae945a03c7535a5fc0f905.mp3"
+        },
+        {
+          "ab": "ima",
+          "ch": "手",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/c0a9d462a236fd37c475364ec285a210.mp3"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/f528bf7257c9abb9c0a2a59af9a74023.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maszang ",
+          "ch": "就像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/f4a10a80febf291e6c065a7426071d0f.mp3"
+        },
+        {
+          "ab": "ngi ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/d96101f928d15681c54fbceba86424a3.mp3"
+        },
+        {
+          "ab": "tusauc",
+          "ch": "唱歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/0b84c350a1417debe7f7d3d81988ff7a.wav"
+        },
+        {
+          "ab": "Pislahi",
+          "ch": "祭槍歌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/e74ae0a72a50a7b3abc7e25a5898741f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/c57e7c3cb1c27f507f456f08b453f22a.mp3"
+        },
+        {
+          "ab": "maboungboung",
+          "ch": "低沉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/8864301bc04a9f92aaa0e2daa3c089ea.mp3"
+        },
+        {
+          "ab": "madungdung",
+          "ch": "虔誠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/beba71620a545d34a583046e3f10d2be.wav"
+        },
+        {
+          "ab": "luklac",
+          "ch": "呼喊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/c5b30187cb4fda76ac9e418ec9f7ae42.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/d6fe94b2b9d0ba717ebb6a63bcfc6f4a.mp3"
+        },
+        {
+          "ab": "ngan",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/1949608efed08b4dbfe126e8648161db.wav"
+        },
+        {
+          "ab": "nak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/7b771e4331ac19bc9619b7aa032ab29d.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maszang ",
+          "ch": "就像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/4a6b0ee16b68e42a80b1f53329f3920f.mp3"
+        },
+        {
+          "ab": "ngi ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/88e8b8a7fa1c3ceaa220d7a729009076.mp3"
+        },
+        {
+          "ab": "Malastapang",
+          "ch": "報戰功",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/c3eaecede178468e2d5cf59d15f819fe.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/fc6acb1685f8ab66ec89680e6ed95dd2.mp3"
+        },
+        {
+          "ab": "istamasazan",
+          "ch": "強有力的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/d66ba1cec5635bc879db6af5fe2644ca.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "makuniv",
+          "ch": "驕傲，狂妄",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/e5e72a6627df2c31979a19b22fd8f4e2.wav"
+        },
+        {
+          "ab": "maszang ",
+          "ch": "就像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/9320dbd7d82266bb959ae228b451e86b.mp3"
+        },
+        {
+          "ab": "minanual",
+          "ch": "瘋狂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/c480fa75b996b3dca3c3be9c79ba54dd.wav"
+        },
+        {
+          "ab": "kintuhoq",
+          "ch": "吶喊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/bf783be591886efb4657a0828eeeda37.wav"
+        },
+        {
+          "ab": "taqu",
+          "ch": "告訴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/05aa7ff3d9befea5c2f0a133d52def74.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/1cd22cb25d7db4ac63415e3bde141e2b.mp3"
+        },
+        {
+          "ab": "malkazaku",
+          "ch": "對我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/bb9ef31d0e6e5f8378fc3a23ab73b832.mp3"
+        },
+        {
+          "ab": "tu ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/f2ae8ea09f1662f8c15d1b12fccf054f.mp3"
+        },
+        {
+          "ab": "kaicalpuan",
+          "ch": "思念",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/e2f47b22a43572bdb5c0a680cbab3b36.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "在我墳上跳舞，雖然我的軀殼已經腐爛，但我依然能夠感知你的每一步。不必害怕震碎我的骨骸，那些存在的證明已經不復存。",
+      "ab": "Hana daza’ i cabung nak uduli. Altupa minpuhuqen nak ka hubung, maqtu’ang tupa cak qanciap i sinhuzanghuzang su. Ka tu mapising tu na lapulpul li inak tu toqnaz. Maupa i mat hinaizang nga min’uka’in amin.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/14/d330da9faa313b8b4116908f4b9403ea.wav",
+      "word": [
+        {
+          "ab": "Hana",
+          "ch": "在（地點）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/ab537e24690e977cfdab0a7fdb549f51.mp3"
+        },
+        {
+          "ab": "daza’",
+          "ch": "在…之上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/d55cc42e1f944a6e8eead9ce81f9e43b.mp3"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/51a6d74d9b9356a201ef0df631bfaf68.mp3"
+        },
+        {
+          "ab": "cabung ",
+          "ch": "墳墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/00954c3ab067dcaa3a3f33536c9568fa.mp3"
+        },
+        {
+          "ab": "nak ",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/26fd639f147af34b0c5075f46c943667.mp3"
+        },
+        {
+          "ab": "uduli",
+          "ch": "跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/814f0d3f9d0b247cc7cb9221875e84de.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Altupa",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/932c7acccdf364f1e5341303095b4c30.mp3"
+        },
+        {
+          "ab": "minpuhuqen",
+          "ch": "腐爛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/eb8f7fcc30a0b3c540dd0df5758acd38.wav"
+        },
+        {
+          "ab": "nak ",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/905c910022ca9f5d451a948e37df8372.mp3"
+        },
+        {
+          "ab": "ka ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/678c988332db74e70672039e053ff191.mp3"
+        },
+        {
+          "ab": "hubung",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/78c27dd5d8656b22b5adb531e6cb011c.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu’ang",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/966b89773689212bf12ee5a3092468e8.wav"
+        },
+        {
+          "ab": "tupa ",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/279c8e007b203b704e6d00b6d860989b.mp3"
+        },
+        {
+          "ab": "cak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/6a608f81ee1f67c1031608d90ffb2617.wav"
+        },
+        {
+          "ab": "qanciap ",
+          "ch": "得知",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/7e4d4bb19653ca5189ef8e8f0330a829.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/39838f3f801f15b889904318bc4dd78d.wav"
+        },
+        {
+          "ab": "sinhuzanghuzang",
+          "ch": "所跳的舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/1d76974f7677d29391e368bc79051c50.wav"
+        },
+        {
+          "ab": "su",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/ac12a4e9b38c221717de502e0af2859e.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ka",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/38a26a16270ce8f2cf503ba9650b6c94.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/c1981372e820494b18a4508f50ffc41a.wav"
+        },
+        {
+          "ab": "mapising",
+          "ch": "害怕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/48206314541fbaa87e03230dba6d0a5f.wav"
+        },
+        {
+          "ab": "tu ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/1bb2cf7e4c2cb771e43cc4258ad34958.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/2926edcae1c4e69a2466acdbc94a902d.mp3"
+        },
+        {
+          "ab": "lapulpul",
+          "ch": "弄碎掉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/28611ab1ffa394c900ada83e2d8c4869.wav"
+        },
+        {
+          "ab": "li",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/853f5e2dc06cf2d74059670d1e5c3f59.mp3"
+        },
+        {
+          "ab": "inak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/7fd740200cd13f6c7e66ef51e78f9a58.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/65cfb931070ae316bf98eeebda4e5f02.mp3"
+        },
+        {
+          "ab": "toqnaz",
+          "ch": "骨頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/747465c41588303407c95d34fc0ffc2f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maupa ",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/027f9b264bbbd3c9de3f33b0ed4d0c77.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/b264b3b9acb76ea2fe475bb64b0b4c2e.wav"
+        },
+        {
+          "ab": "mat",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/d4f9a1e9bbca2bfe126cfe34f93fe74a.mp3"
+        },
+        {
+          "ab": "hinaizang",
+          "ch": "存在的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/fc1c363c2f9fe096e0a448fed1621b04.wav"
+        },
+        {
+          "ab": "nga ",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/48e0881a9d47fee7d56867dbd37f4e0e.mp3"
+        },
+        {
+          "ab": "min’uka’in",
+          "ch": "沒有了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/05b893c13e23a922078a58a400268c73.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/950a1486430e593597e271be8f655c2d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在我墳上跳舞，親愛的，別怕打擾了我。在我墳上跳舞，如果你願意。",
+      "ab": "Hana daza’ i cabung nak uduli. Kadedazun tu bunun. Ka tu pising tu na patingquza’ zaku. Hana daza’ i cabung nak uduli. Maca haizang su’ is’ang.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/14/9e14766ba144baaa4b52c3bfaa7c6f45.wav",
+      "word": [
+        {
+          "ab": "Hana ",
+          "ch": "在（地點）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/b07b9d001fed22ce01b7e5dcb99604fe.mp3"
+        },
+        {
+          "ab": "daza’ ",
+          "ch": "在…之上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/b0daee4c9ac2e0107000d7e076ec22db.mp3"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/e781855104a40ccb815400a557814e31.mp3"
+        },
+        {
+          "ab": "cabung ",
+          "ch": "墳墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/aa09f1e33b6bc2662e998dbbeb8c2f79.mp3"
+        },
+        {
+          "ab": "nak ",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/cc108ad52ecbe4ebbee499789b4aac2d.mp3"
+        },
+        {
+          "ab": "uduli",
+          "ch": "跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/d3661826d1cc6b749cb73c9629f85a82.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kadedazun",
+          "ch": "我所愛的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/8910f0396d7e122f0ace97becd572052.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/b8cfb073fd221ca723895f6d1faa4312.mp3"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/5f4d8c1a29d412804e0e5e7c6190ae57.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ka",
+          "ch": "不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/5f9339374860a260b2b3238ce3003127.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "聯繫詞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/27/ffcee15d2397c0e5a79280a059282dd5.wav"
+        },
+        {
+          "ab": "pising",
+          "ch": "害怕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/7a2d8c9f4bccdaf7bb0eea74286fec40.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/24/0f01c43ec495aeafb9ab15f955d2d8a1.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "將",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/24/e837ae2f363e111ae0ce70dd2b6e8468.mp3"
+        },
+        {
+          "ab": "patingquza’ ",
+          "ch": "嚇到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/15/1c313eb2827d6b0f5fd35324876353e7.wav"
+        },
+        {
+          "ab": "zaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/305fefe7dc4c3024b411d6cdf3f58d33.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Hana",
+          "ch": "在（地點）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/a7601e195fa53f4fac0ad8da4fa6d7dc.mp3"
+        },
+        {
+          "ab": "daza’",
+          "ch": "在…之上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/608ebbf3972c54631764ffe181f4444b.mp3"
+        },
+        {
+          "ab": "i",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/1710a919333796af87fadc32a08f4af0.mp3"
+        },
+        {
+          "ab": "cabung ",
+          "ch": "墳墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/ba0a381597d617d2a841cae5cf78fb32.mp3"
+        },
+        {
+          "ab": "nak ",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/0b63da846832cc8bf80c77f755082ba9.mp3"
+        },
+        {
+          "ab": "uduli",
+          "ch": "跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/106d0eab4297638c26ad897087962722.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maca",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/b54bfd093c77c6d50de721f367fbf5e0.mp3"
+        },
+        {
+          "ab": "haizang",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/613e7e1786fe9760578d5d6a2bcdfdce.mp3"
+        },
+        {
+          "ab": "su’ ",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/638b8a35107126e5ebda42c37a91204d.mp3"
+        },
+        {
+          "ab": "is’ang",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/17/65d435e87ed785fb409f9acad8192a15.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,731 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "matash sa naak a ananak a ininthawan",
+  "titleCh": "自我介紹",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "我的名字叫做袁福果，我的爸爸是袁杜巴，我的媽媽是石莎薇。",
+      "ab": "zain naak a lhanaz Huqu Lhkashnawanan, naak ama zain Tuba Lhkashnawanan, numa naak a ina zain Shawi Lhkatafatu.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/14/5ccffe7bdd85794474262980daa5fc38.mp3",
+      "word": [
+        {
+          "ab": "zain",
+          "ch": "稱為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cdb895d9b33985892dc17901dd73aca1.wav"
+        },
+        {
+          "ab": "naak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3d7276745a5c4395742cd3458b589d23.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c98389ee0e2ffdf95aee68056eca9a37.wav"
+        },
+        {
+          "ab": "lhanaz",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c7a0fad706ca93d4ba2943437be176aa.wav"
+        },
+        {
+          "ab": "Huqu",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5d7f740f45869e701edcb2bb129f59ae.wav"
+        },
+        {
+          "ab": "Lhkashnawanan",
+          "ch": "袁（姓氏）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a3162e1ba0a0502c6231fd63fe4a535e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "naak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/21c316a365b4848f1be9c9e6831296b4.wav"
+        },
+        {
+          "ab": "ama",
+          "ch": "爸爸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9b6de235b15e99797a8068b015021cce.wav"
+        },
+        {
+          "ab": "zain",
+          "ch": "稱為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/82bb7d31835394f7d99bf81cc6334741.wav"
+        },
+        {
+          "ab": "Tuba",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/470f4da5200fbb3b8f0a0448fa03c03b.wav"
+        },
+        {
+          "ab": "Lhkashnawanan",
+          "ch": "袁（姓氏）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/645f554afc577bf9b2343b8ee532eadf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ae1e42f3b06c4a52820fefaef68a0750.wav"
+        },
+        {
+          "ab": "naak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/638890d3000ba3ed61234c4d398983e6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f2abd77319d0998a1ea917b9dbab1bd5.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c168f63a6d9ae39c96609868785f40d9.wav"
+        },
+        {
+          "ab": "zain",
+          "ch": "稱為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3caf2d9b17ad63105399b122e2061eb1.wav"
+        },
+        {
+          "ab": "Shawi",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d46f5c33e16b21edb0f1df3793b163a8.wav"
+        },
+        {
+          "ab": "Lhkatafatu",
+          "ch": "石（姓氏）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ca0bc70d8b3329cc7db71f7d1be1fc8f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "很早以前，我們的祖先來到這個湖泊的旁邊生活。不知道過了多少年，住在湖邊的邵族人漸漸地變多，有的搬遷到頭社、猫蘭、魚池等地方。我的祖先一直住在湖邊沒有離開。",
+      "ab": "mathuaw kahiwan naam a Thau a tanatuqash shinanai izai a wazaqan a shirshir minthau, tihauta lapiza wa kawash, initusi wazaqan a shirshir a Thau katdaudauk minmanashaiza, itia makitnatusi Shtafari, Thapuduq, Qabizay, numanuma wa pruq. naak a tanatuqash miarairain initusi isa wazaqan a shirshir, antu musha.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/14/ecb8bb3493f50c69c300eadeeca7906f.mp3",
+      "word": [
+        {
+          "ab": "mathuaw",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e0fac03349778f10d5f63113fe1c8b89.wav"
+        },
+        {
+          "ab": "kahiwan",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/46a51aaa95aba242aa3b478ea08f5b24.wav"
+        },
+        {
+          "ab": "naam",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ef7c870b38d0fa94c620deb0cd25029e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/21/4adc97a51090b4a51c309edb4a3ae761.wav"
+        },
+        {
+          "ab": "Thau",
+          "ch": "邵族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f485b39a8367a03915ec7b45d3ec1c0e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d080703465add42e5fc8a7a05ddc855f.wav"
+        },
+        {
+          "ab": "tanatuqash",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/55847854e3206556431d0c02b2906034.wav"
+        },
+        {
+          "ab": "shinanai",
+          "ch": "來到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/099ebea48ea9666a7da2177267983138.wav"
+        },
+        {
+          "ab": "izai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/63fd3c3e40bdf2ad4066a0f37dac1172.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2fe4aea394928b04d3bb6bb627c5c18b.wav"
+        },
+        {
+          "ab": "wazaqan",
+          "ch": "湖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/63d123be5d79464d8a8427982d0a2ab6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/67f6d2e9915d70fd0dd562623d86eb43.wav"
+        },
+        {
+          "ab": "shirshir",
+          "ch": "旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/49369ec618863ebb662b41c7ea1b6dd1.wav"
+        },
+        {
+          "ab": "minthau",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/551c44d4bd1d7ed9e2e0fbd25e10e21f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tihauta",
+          "ch": "不知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cb7fb37fdca009fce8f61733a6ae5652.wav"
+        },
+        {
+          "ab": "lapiza",
+          "ch": "多少",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7586b614ca0ba5d59d45e06f2f175e75.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/75ea6c4782bcc53ca0e23347dc0dbbfd.wav"
+        },
+        {
+          "ab": "kawash",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1b75989164e8c45c9e64bc98df117ce3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "initusi",
+          "ch": "住在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5026d409a3cbb10bfa009526630f381b.wav"
+        },
+        {
+          "ab": "wazaqan",
+          "ch": "湖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/42723e31a197e3f95bff0efe66221430.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b127d69ec0434a128b98783f2f074b2c.wav"
+        },
+        {
+          "ab": "shirshir",
+          "ch": "旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cfe0ccd2fe850715fbb0202c4769d159.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/152992da7045bc04505e1683d718bdc7.wav"
+        },
+        {
+          "ab": "Thau",
+          "ch": "邵族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/92fcee9e4d4c5516add42c160ea3d7aa.wav"
+        },
+        {
+          "ab": "katdaudauk",
+          "ch": "漸漸地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ef4c5d9fa35b878498729ed94db294ca.wav"
+        },
+        {
+          "ab": "minmanashaiza",
+          "ch": "變多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/04fa231dbab860eecd74f34b3c721140.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "itia",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a959bb55a9f1757e3d191243db29ba4a.wav"
+        },
+        {
+          "ab": "makitnatusi",
+          "ch": "搬到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/fcd7c0bcf9e68c58659e252163fe6622.wav"
+        },
+        {
+          "ab": "Shtafari",
+          "ch": "頭社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a02a2a049886d319122ce759b190f632.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Thapuduq",
+          "ch": "猫蘭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/59eb5a2d8545be496f20c01018f49a1d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Qabizay",
+          "ch": "魚池",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/544223e28dbed4968da4abe456a16b80.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "numanuma",
+          "ch": "等等",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/99d0b2e528cffdad48e3e68e0de00806.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d836f3a2f7248f528b940ecf1dea6373.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d84366ed5df8aa89cab069ffff861910.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "naak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cc882a3a954d8338606f55db837e5d4a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a03484a5e99e80013895e53349d4f338.wav"
+        },
+        {
+          "ab": "tanatuqash",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/16d2bbe08ed98e2a6362d19b49019304.wav"
+        },
+        {
+          "ab": "miarairain",
+          "ch": "常常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b2cd9a51b477305c3c36ef067d9382ca.wav"
+        },
+        {
+          "ab": "initusi",
+          "ch": "住在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/33b5590b4affbb66fc6311100e50a0c4.wav"
+        },
+        {
+          "ab": "isa",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/66b94281f8c6f8ba217609604ee6332f.wav"
+        },
+        {
+          "ab": "wazaqan",
+          "ch": "湖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7b9543028298685920afeacd01e4242f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6f9c3bf293c914cc0443b2419fd346ae.wav"
+        },
+        {
+          "ab": "shirshir",
+          "ch": "旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/620982009915db2a0b4a49e224bad30c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "antu",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b65bef8cf417d931a62afdd5ff6b1ff1.wav"
+        },
+        {
+          "ab": "musha",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d0d486f06c0b0cc28c3cf51bb0df648a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我現在是個學生，我要努力地讀書，以後考上一個可以成為老師的大學，因為我很喜歡教書的工作。若我可以成為一名老師，我要回到邵族的部落，教導邵族的孩子學習邵語和傳統文化。",
+      "ab": "thuini lhupilhupishuan a thau iaku, amakarishkish iaku lhmupish patashan, ya kahiza ya mutazam numa kmilhim sa mara’in a lhupilhupishan a taun, akmilhim iaku sa minshinshii a lhupilhupishan a taun, maqa mathuaw iaku mushnaw fuifuilh a palhkakrikriw. kahiza ya shduuiza iaku minshinshii, amushuqish iaku Thau a kataunan, fuifuilh Thau a azazak minfazaq tu Thau a lalawa numa kazakazash.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/14/33aa62224bd3407d2249e53ea9ad585d.mp3",
+      "word": [
+        {
+          "ab": "thuini",
+          "ch": "現今",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f28543cd7a80815cc0ce17893f2ac0ad.wav"
+        },
+        {
+          "ab": "lhupilhupishuan",
+          "ch": "在學",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/82fe25a27e8ed79a081a927d0bead98b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/56f0af78b4d40e4e38dcac5276abb441.wav"
+        },
+        {
+          "ab": "thau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5369ab7b6644ca89e1a131475082e2bf.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/74b42b16a788a99a94de156da06ab3ff.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amakarishkish",
+          "ch": "要努力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/eccbc7cdf4dfd00792d431e1a1d896fa.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9381251a7fdc250a2f1632114ba96681.wav"
+        },
+        {
+          "ab": "lhmupish",
+          "ch": "讀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/16a25a65e48b435beaf2c944a31d9410.wav"
+        },
+        {
+          "ab": "patashan",
+          "ch": "書",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b30d2d279b9f60292e49035a6e49a74b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ae5db9a2f9cfd69c9c92f3b701c53639.wav"
+        },
+        {
+          "ab": "kahiza",
+          "ch": "以後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8d1cfd2c6e32b56e53f9f39902e540c3.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/771dd529ffdd3fda1a93ad0659a99bba.wav"
+        },
+        {
+          "ab": "mutazam",
+          "ch": "考試",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a5a0170f696a74c0e5695a02836bd00d.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/db8f4ae3a92c3f6a85b2d0e84ba6e409.wav"
+        },
+        {
+          "ab": "kmilhim",
+          "ch": "尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/fcde6b65527c69ca4a0fa21816cc134c.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b41ac3760963abefc43da8fd6b5c9640.wav"
+        },
+        {
+          "ab": "mara’in",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bbb3af3d466d7231aa738ff95762091d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0433aed25ec1f9097194a826a55aa53d.wav"
+        },
+        {
+          "ab": "lhupilhupishan",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5067d86012c7982287f888c5c69983fb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d9687be677a820405d77009772535d9d.wav"
+        },
+        {
+          "ab": "taun",
+          "ch": "處所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cd3aa67a5247fc2bb69b52a516b2ffa7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "akmilhim",
+          "ch": "要尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/10d00dfe9fbb579bc105d807556fed73.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b5c686f6a251465c27f2c64f0135ed26.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2db82e0f698804408eafba7350d06542.wav"
+        },
+        {
+          "ab": "minshinshii",
+          "ch": "當老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b7aaed6d471134e647f62d24ff2629a7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bc05782622bc75384fc4730069494b17.wav"
+        },
+        {
+          "ab": "lhupilhupishan",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a51d72b873f07fa2316c1da1c3b47ce1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/51be12b3867a37636fddfee6716a6109.wav"
+        },
+        {
+          "ab": "taun",
+          "ch": "處所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/78c409525c3446e8a17748d27d532ab4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0f54cb96bece9d1a664bba2eb760deaa.wav"
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/75bd9046c248d285e6508f196817127e.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/18d68a9be821263ac8c0e7864a240bd3.wav"
+        },
+        {
+          "ab": "mushnaw",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d22050ea937ee457eeba22953aeea057.wav"
+        },
+        {
+          "ab": "fuifuilh",
+          "ch": "教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/21/947df0b0eb22f5709831202a5e640281.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/fe6f5a3672271867ac4e12dd96e9ee28.wav"
+        },
+        {
+          "ab": "palhkakrikriw",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2d6b193c726e8dca956ac5dca28667b5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kahiza",
+          "ch": "以後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9ed4b85d1972e63be1f9e92eaff72e45.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2c8dfb88b2177d60e9a531815b5cbc49.wav"
+        },
+        {
+          "ab": "shduuiza",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e65684906827b16a1c149056c80ccbfb.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bdb29d03a188bd00af2b4b54813fa633.wav"
+        },
+        {
+          "ab": "minshinshii",
+          "ch": "當老師",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b6daaf8d344718c8226894e3e66c216f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amushuqish",
+          "ch": "將返回",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2059f157c96fadee0179181132e852dd.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/75f1e9a5f35a1de49d6ee822330a2821.wav"
+        },
+        {
+          "ab": "Thau",
+          "ch": "邵族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2a0cfe893d891c41d6f46f1843794879.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/240f9147fff7024bc478f751a639e4eb.wav"
+        },
+        {
+          "ab": "kataunan",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e8985ee7dd0f062d4f3e2779c7505c8b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "fuifuilh",
+          "ch": "教",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/89b2f4d903627b2785dd0a6982f9423e.wav"
+        },
+        {
+          "ab": "Thau",
+          "ch": "邵族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9839d8acd505cc08e65789abfe118477.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0b9d44c334c70e51b392ed9d5350893a.wav"
+        },
+        {
+          "ab": "azazak",
+          "ch": "小孩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1c476149e6f9cb06fa0ebfbc0dd5e0e9.wav"
+        },
+        {
+          "ab": "minfazaq",
+          "ch": "學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8f5e787d34b8bb69ab6acc2e372c612d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[時間標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e845b1cfc02f512ed4b8a0d86459df68.wav"
+        },
+        {
+          "ab": "Thau",
+          "ch": "邵族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/09569cf5a51ca353a7b9eb5727dc363b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ddc2c94d27d2c6d46b33acf21b21a641.wav"
+        },
+        {
+          "ab": "lalawa",
+          "ch": "語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a7e757f20c3ef9c4b38091d94dc80828.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/85d90423ac2e119cac88666d8fd351cc.wav"
+        },
+        {
+          "ab": "kazakazash",
+          "ch": "傳統文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d6c5f686ce04a128c14cc2fbd35e9033.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

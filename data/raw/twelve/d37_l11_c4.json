@@ -1,6 +1,903 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Teldreka ku sarkéni sporace na lemengne",
+  "titleCh": "茂林的親屬稱謂",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "茂林的親屬稱謂表達了族人對親屬關係的認知，也規範了親屬間的互動方式。茂林的主要親屬稱謂如下：",
+      "ab": "Teldreka na sarkéni porceni lemngneni ku papréni urgunga madɨ matumaneni, si tumaneni mavavane. ina Teldreka nuporcemini ka tumékné.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/12/6702636daad843e7b5caf4ce95c4ff1c.wav",
+      "word": [
+        {
+          "ab": "Teldreka",
+          "ch": "茂林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/d0b145639a37709b178023cea13e8909.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/9d44115784c746b598318d99102512ac.wav"
+        },
+        {
+          "ab": "sarkéni",
+          "ch": "對",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/62644743015c9c2be02457dc9ba04f62.wav"
+        },
+        {
+          "ab": "porceni",
+          "ch": "取名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/68ab1b941b51669098c75075aeccafed.wav"
+        },
+        {
+          "ab": "lemngneni",
+          "ch": "親屬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/7900588adbaf6855115181ed0ee6723b.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/4176bbc829b30c3001e403a8cf7b4e42.wav"
+        },
+        {
+          "ab": "papréni",
+          "ch": "親戚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/62e8674be12bff65e88ea29948e59a50.wav"
+        },
+        {
+          "ab": "urgunga",
+          "ch": "認知",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/ef9dd9df5223edfd3beadeab7006c6a9.wav"
+        },
+        {
+          "ab": "madɨ",
+          "ch": "所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/3d4b237b9ac0edf8761743009c0c06a6.wav"
+        },
+        {
+          "ab": "matumaneni",
+          "ch": "一切",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/9046ed5637253f3d667dfcece08b5b5a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/fe3ea263437d00a26a381185e3fc4516.wav"
+        },
+        {
+          "ab": "tumaneni",
+          "ch": "如此這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/e7bf7fcf41c5411cd022b707c5178666.wav"
+        },
+        {
+          "ab": "mavavane",
+          "ch": "互動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/709119b05f9c05a9e2791f7ac8716bed.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ina",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/403d9ccd8337a573009536782d58a387.wav"
+        },
+        {
+          "ab": "Teldreka",
+          "ch": "茂林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/309691fe903eb8a33da119e906236f72.wav"
+        },
+        {
+          "ab": "nuporcemini",
+          "ch": "取名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/3abc33b2588b53b004b0409ce0c9df3a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/c39689420f2d3267040b208df9aa5293.wav"
+        },
+        {
+          "ab": "tumékné",
+          "ch": "這樣做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/d8cc78da8e14ba864947cfcd29e17b0f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "一、夫妻間，先生稱太太為「alie」，太太稱先生為「talé」。夫妻雙方偶然稱對方為「talé」。",
+      "ab": "1. lemataka ku spasirini. sovlé ka kokoni asirani alie ma. abéya na kokoni usirinia ka talé ma. makasi lemataka makaporceni na talé mia.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/12/a551179ce78b3eaf34669e57f6e8377c.wav",
+      "word": [
+        {
+          "ab": "1",
+          "ch": "1",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/29/7f87c26e81ba0bbd75b41be5843334d6.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lemataka",
+          "ch": "夫妻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/7fe983de9b624f7b4eddae1c99608172.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/261e9ec9eebb1b903db2d812a416de98.wav"
+        },
+        {
+          "ab": "spasirini",
+          "ch": "之間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/a403ddcfd18c24a92bb0abdbe30eaa89.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sovlé",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/8b1c5a61185757305832b6945cfcb428.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/b44538e6e447963455f91de77265d49c.wav"
+        },
+        {
+          "ab": "kokoni",
+          "ch": "叫時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/58aa19b2723cd2f486a0d2f2f065b176.wav"
+        },
+        {
+          "ab": "asirani",
+          "ch": "太太",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/512bd902321e39902f6896c2dd18170d.wav"
+        },
+        {
+          "ab": "alie ma",
+          "ch": "稱朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/5ba7af2958a400ac1f0a63b7a4847a51.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "abéya",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/0d46fd3f11b4abf2a35ca658eb671286.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/b1262f4486777bf8da09ef6a7cbe259f.wav"
+        },
+        {
+          "ab": "kokoni",
+          "ch": "叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/4fd03fc600971ffa266bc0444b71925f.wav"
+        },
+        {
+          "ab": "usirinia",
+          "ch": "先生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/b76f659cc9ba2c83568221b8b72b58a5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/70cf3d1bb236aa106c81af774749e421.wav"
+        },
+        {
+          "ab": "talé ma",
+          "ch": "叫朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/346e2d08be8076b57b25e4fc950da13b.wav"
+        },
+        {
+          "ab": "makasi",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/2ff4f5a1fb150bdf0248f04e9c08bb95.wav"
+        },
+        {
+          "ab": "lemataka",
+          "ch": "夫妻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/e6428a5cbf291cd7a39467adb6d2ac06.wav"
+        },
+        {
+          "ab": "makaporceni",
+          "ch": "互稱時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/4ca3a15bb47784b1ec8e2fdc448ff1f3.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/abee0f69f6d299ebc582d75f27658880.wav"
+        },
+        {
+          "ab": "talé mia",
+          "ch": "叫朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/4bf6bea9c0899810dd774ba5e3a6c23e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "二、男性長輩，稱「maw」。父親、伯叔、舅舅，甚至親屬外的長輩也可以稱「maw」。",
+      "ab": "2. marudrenge na sovalé. sekesɨsale maw mianga. muanga papréni lemengneninga marudrenge na sovalé ka udurumade porce maw mia.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/12/2909cc9261d2a90ba58b7bb23fd9e544.wav",
+      "word": [
+        {
+          "ab": "2",
+          "ch": "2",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/29/7ca77d33abeb2f56aafdc71caaf444e9.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marudrenge",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/7758c34c597c54f26f816f61813b68a6.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/b01df2dd8b110d3336d5d5e450eec73c.wav"
+        },
+        {
+          "ab": "sovalé",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/c02784359af887aece3e8723ce4bf60e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sekesɨsale",
+          "ch": "統稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/1fb93fe676c8faeacef3ed970ed1c8ef.wav"
+        },
+        {
+          "ab": "maw",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/6e67b38d6a2d73fa2b39ae0091a9a9d4.wav"
+        },
+        {
+          "ab": "mianga",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/6675ccfeb715820515716506d970bd13.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muanga",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/415a89e86b226db3adfe3b216f81706e.wav"
+        },
+        {
+          "ab": "papréni",
+          "ch": "親戚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/dd816493d8311cfd55ac82a8fe3f8e12.wav"
+        },
+        {
+          "ab": "lemengneninga",
+          "ch": "親屬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/ae1af7607fce12f749ee1eb6dc4d0f4f.wav"
+        },
+        {
+          "ab": "marudrenge",
+          "ch": "長老",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/e775b51c6ef1335d76d7244689690255.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/91036314fb4c1338277b3da6a01a6a36.wav"
+        },
+        {
+          "ab": "sovalé",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/26ec3e1a45b1eac4d0f9c6b3b2aa4361.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/f3bd7502521e16dbd6ceaac1e2375ed4.wav"
+        },
+        {
+          "ab": "udurumade",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/201c4d96ad1d55d60bee0b7e2ade077a.wav"
+        },
+        {
+          "ab": "porce",
+          "ch": "取名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/9c59d3e8bc1ac447dc7d6fcd745df4fb.wav"
+        },
+        {
+          "ab": "maw",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/1b81c9bba57785c4fcdd84e310bfb0c5.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/782ec8b36e62cd57e312c8b2b8df755f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "三、女性長輩，稱「naw」。母親、姑姑、阿姨，甚至親屬外的長輩也可以稱「naw」。",
+      "ab": "3. marudrenge na bébibé. sekesɨsale nao mianga. muanga lemengneninga marudrenge na bébibé ka udurumade porce naw mia.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/12/26da5acd5f466cf57d118aa138fa7cb9.wav",
+      "word": [
+        {
+          "ab": "3",
+          "ch": "3",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/29/da9295dd082bfea24b0182ecf135cfd3.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marudrenge",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/70a5d31922cec9f55a55b8e058f914eb.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/64d132673d34d06a9d7d8049b9ed9c8d.wav"
+        },
+        {
+          "ab": "bébibé",
+          "ch": "女的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/d10d6039c14ad2e92da12746dab11640.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sekesɨsale",
+          "ch": "都稱呼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/3cc8d4f8568f217b5340f05ead29fce6.wav"
+        },
+        {
+          "ab": "nao",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/a195b15745592550de39db38ad420628.wav"
+        },
+        {
+          "ab": "mianga",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/34b55b274b1f02e7a10a7f0a8654b8e1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muanga",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/da0995998b3c1d4e4eaf6bcc7e02beff.wav"
+        },
+        {
+          "ab": "lemengneninga",
+          "ch": "親屬們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/95b4ffecb161d36a3bb4cb67983d3431.wav"
+        },
+        {
+          "ab": "marudrenge",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/6d7b0a46cd373300c5579b9e5b607e49.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/3f6074b0adece567e38390917eb5c193.wav"
+        },
+        {
+          "ab": "bébibé",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/928d5a26fefffd185c6caf41382ab697.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/caaec6cb88ea6536c97d91c4b2220793.wav"
+        },
+        {
+          "ab": "udurumade",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/3571cfab2079de3077c1a90038103c8e.wav"
+        },
+        {
+          "ab": "porce",
+          "ch": "叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/68b223fb2c49918d32aadcc8b9c63115.wav"
+        },
+        {
+          "ab": "naw mia",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/14/89eb571c57ce12db75ec6214a5e41aed.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "四、祖孫輩。如爺爺、奶奶，男性統稱「mumu」，女性統稱「kongo」。親屬外的長輩也可以稱「mumu」、「kongo」。",
+      "ab": "4. marudrɨngenga. luka kongo seksɨsale. sovalé ka mumu mia. abéya ka kongo mia. muanga lemengneninga na marudrenga ka udurumade porce mumu, kongo mianga.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/09/4f1e35cd2b6995a01041d527f185b8df.wav",
+      "word": [
+        {
+          "ab": "4",
+          "ch": "4",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/29/fbcd7848419aa9b88ef31a0be87741f9.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "marudrɨngenga",
+          "ch": "耆老，長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/3c954ae278dfdd36026c23dee4d939ca.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "luka",
+          "ch": "都",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/a0d78c78fd17597ded521c5cb77e9266.wav"
+        },
+        {
+          "ab": "kongo",
+          "ch": "奶奶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/7b26f5afed2f3509b78c68f5125e5db9.wav"
+        },
+        {
+          "ab": "seksɨsale",
+          "ch": "統稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/b32707b6946f4eae31db7b3cb20d4f9f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sovalé",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/9232301ff1cdfe3f529de52da5cac1e1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/4a0a78262df507a4f043a9cd4bef3dcd.wav"
+        },
+        {
+          "ab": "mumu",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/9beb0c0b3122490a456145ddfbfbb60f.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/c6e677b6f21d8e8c250158969909a271.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "abéya",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/1fc6901d162aa51844139c169fd2f1ce.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/424a4568db730c91b06c8d5f50c02195.wav"
+        },
+        {
+          "ab": "kongo",
+          "ch": "奶奶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/4ad25ccfd978fc3abae2d03c1028936f.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/09ade2adc474aff501d4db8ed1d3c16e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muanga",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/aa74ea699deffa5852986f8fbc8b2f43.wav"
+        },
+        {
+          "ab": "lemengneninga",
+          "ch": "親屬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/2d10bdb62c6535e215664175b71d804d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/1f4e49600f0e5c6559b9756ef6d6aa9e.wav"
+        },
+        {
+          "ab": "marudrenga",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/91538ea42db840642a4b434c8142afa9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/f6b5f2dec1b10bbc560affab8c477af4.wav"
+        },
+        {
+          "ab": "udurumade",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/f07fbaf092ea62fdac9021be75b9ac24.wav"
+        },
+        {
+          "ab": "porce",
+          "ch": "取名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/30ba16b2b35a1867ad3bf8446db60f9d.wav"
+        },
+        {
+          "ab": "mumu",
+          "ch": "爺爺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/28/71e21404c4d628a7353e4542ddf66a19.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kongo",
+          "ch": "奶奶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/29/6389399480714757c01d8c98d8a2657a.mp3"
+        },
+        {
+          "ab": "mianga",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/dba0c0ad2bedec704fe92e0fcd85e424.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "五、平輩親屬，不分性別，直呼其名。或稱男性為「tale´」，女性為「alie」。",
+      "ab": "5. sekesɨsaleni (matumé ku cvédrana). patɨmane si patinane, poracedria ku aracɨdra. tumédra ina sovalé mkakokodra ka talé ma, si ina bébibé ka alie liya.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/12/51799f2f0faaf060d3ba3abe2d5e65d3.wav",
+      "word": [
+        {
+          "ab": "5",
+          "ch": "5",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/29/6f2c634cc5d36f832cfb7e1d78e3a981.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sekesɨsaleni",
+          "ch": "平輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/7fe7188346fb4e940eece708abf26ead.wav"
+        },
+        {
+          "ab": "(",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matumé",
+          "ch": "同樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/0ad2cdd7a275671e22d223ae4dc839d7.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/2b6409f694f54fc3240a8dc95707b5ae.wav"
+        },
+        {
+          "ab": "cvédrana",
+          "ch": "年齡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/e602246d9a2de5908a1d6a55180cbf38.wav"
+        },
+        {
+          "ab": ")",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patɨmane",
+          "ch": "不分",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/c632732bd82a9c8eb3b9aa1035d52ace.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/09afc8e044f0243ea40cfd79cf8a0b0d.wav"
+        },
+        {
+          "ab": "patinane",
+          "ch": "性別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/425ccbd149e2e334e4bea266f4d43df9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "poracedria",
+          "ch": "給他取名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/cb2dafbea5d2fb72bcdd861d9d4dac2b.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/6a9d7f4df94671f83b8ae459a2250820.wav"
+        },
+        {
+          "ab": "aracɨdra",
+          "ch": "他的名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/8e3e1bff789e82b1cd6316e48f5c7f06.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tumédra",
+          "ch": "假使",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/65047f221538a46e1d25b66e7e24d040.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/c67e99277efcbda2d92576ee51bd6cfb.wav"
+        },
+        {
+          "ab": "sovalé",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/25a9bf849098b5e561805576936a41c1.wav"
+        },
+        {
+          "ab": "mkakokodra",
+          "ch": "彼此稱呼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/e06649baf8ca20fb3306c5730c0a6968.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/19e89c0f4feeb905dd4a50b75b99e987.wav"
+        },
+        {
+          "ab": "talé",
+          "ch": "男的朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/69f699f0efbf505bf19caac166820a21.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/0c7307d5e03567db3b927e6d7480fd21.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/30d228abb9fff86574a9c26c5e00ec73.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/0816d5ee69734946054256c408b514f2.wav"
+        },
+        {
+          "ab": "bébibé",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/ffb950e2f6ec024eacf8f43ae2ffb90a.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/0fba2c6bf8d04ce5066fccad1449297c.wav"
+        },
+        {
+          "ab": "alie",
+          "ch": "朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/09d6850d36afc140694ce2288969deac.wav"
+        },
+        {
+          "ab": "liya",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/8d8006777829cd673bf5ee457c69612a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "六、晚輩。不分性別，可直呼名字。",
+      "ab": "6. thabthabre si bobaru na parvalelaya. kumidra na sovalé bébibé ka, poracɨngadria ku aracɨdra na kokodraiya. ",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/12/2b0ba252642c0aba00a1b9462513d6cb.wav",
+      "word": [
+        {
+          "ab": "6",
+          "ch": "6",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/29/d63e2cc57e603962d3aeca98e9709b06.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "thabthabre",
+          "ch": "未婚男子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/bd6e47ef4153d91498b9061425c44456.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/8da528a41d357ef04a90027b17729c7e.wav"
+        },
+        {
+          "ab": "bobaru",
+          "ch": "未婚女子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/67283063bab7fbb0fad5f8eb02315291.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/417838226b76b8ef5a154bf9af79b073.wav"
+        },
+        {
+          "ab": "parvalelaya",
+          "ch": "晚輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/28/fbf2aaa3b0abdf3184a9729f0afbe941.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kumidra",
+          "ch": "就算是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/4ca9f917ac2b5e3d6b2bfed63a9f0288.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/e33fcb4b5495ac02b74a65b42491c60e.wav"
+        },
+        {
+          "ab": "sovalé",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/d3dbcf8cdb7fc4ce21d37028798bfb37.wav"
+        },
+        {
+          "ab": "bébibé",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/3d203aba63594ee5cd07b9e8ff7959b6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/ffcbf0a6701eb2b04ff100dcef5d0f46.wav"
+        },
+        {
+          "ab": "poracɨngadria",
+          "ch": "已取名",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/02bbb7f980e1f34e53c57aa0cde19685.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/1c49624687b0922462ec489bd8957ccf.wav"
+        },
+        {
+          "ab": "aracɨdra",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/2d914638e4383f7dbd5a9f9ef735b7f5.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/28/76c1a6da603b21692f72eaaf808da14a.wav"
+        },
+        {
+          "ab": "kokodraiya",
+          "ch": "稱呼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/04/13/9461ab031501b06ab5b76de6a8b4b0aa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,1546 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "maagi’i Kongadavane",
+  "titleCh": "美麗的多納",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "多納社區是個傳統部落，有豐富的人文史料，120戶，人口約600人左右，部落的特色最具有代表性的傳統文化是——多納石板屋及多納溫泉。每年有兩大祭典，即7月（15日）的小米祭及11月（25日）的黑米祭，是多納部落為慶祝豐收平安的年度盛事。多納有精緻的傳統工法：木雕、石雕，用來雕刻各種圖騰，還有月桃編織及竹編。",
+      "ab": "Kongadavane ka syakibowane ’atacekecekelane, ’iyakay madraw ko bengkani ko ta’acoavanini. ’iyakay ’asaseane na iday ’amaposale na thakada’ane, coaw ka ’iyakay ’aeneme na iday moabale. Kongadavane ka ’ikay ko takiigo’anininga doo mya dayhiw ko taiyaniname ko booane; amani na bengkaname ka swadrekay, si ’alapi ka da’ane, lakamani ’ongsingi, ma’akacavilinga ka ’iyakay ’adrosa na legese, \r\n[===]\r\npito na dramae (’amangesale sika ima na va’iyane) tabesengane si mangesale sika saseane na dramae (’amaposale sika ima na va’iyane) tapakadraowane, tacekecekelane maesale mabeabee na sakibalibalini magyagi’i kitalekini, ’atawmomo ka dwape. Kongadavane ka ’iyakay madraw na maagi’i sawkwa ko sobiilini ko syaoo na gizice, twako na ’angato, twako na ’alapi si tisoasoasoa’a tiyococoaw, twako na sali, na balebale, timameane.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/31/e36ef46f71f15f7597b26dd601ad8c6a.wav",
+      "word": [
+        {
+          "ab": "Kongadavane",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2773b8df8be4e76f6d2c527061eec6a2.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3c00d99bc7b08007ab77df522d5ec674.wav"
+        },
+        {
+          "ab": "syakibowane",
+          "ch": "從以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2e59d3d14073ac9fd3e05553f575cca4.wav"
+        },
+        {
+          "ab": "’atacekecekelane",
+          "ch": "形成部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/03f25204f0bce66d3539d799ba996d9d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’iyakay",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/fe2e38a1efff963512f2ba04050065d7.wav"
+        },
+        {
+          "ab": "madraw",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4b1804252564a3d7eb836d3e4c9735b7.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4e4ab643907180059a3ca192314f182b.wav"
+        },
+        {
+          "ab": "bengkani",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/097479d81eef69b77fc1e5ac6345a8d5.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d45c0d3bcaf361eefd3adada264d68af.wav"
+        },
+        {
+          "ab": "ta’acoavanini",
+          "ch": "人的樣貌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ae6f3582d0ea4855e221819bc4403ce9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’iyakay",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e33e8d716e763b6c3718808a61c2594c.wav"
+        },
+        {
+          "ab": "’asaseane",
+          "ch": "一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9befd7a4d583e635f8ff8bf468dd2455.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/80d33963ab9dddea4d7f5954a1702b22.wav"
+        },
+        {
+          "ab": "iday",
+          "ch": "百",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9513f53d03692b9c77983d845290c91d.wav"
+        },
+        {
+          "ab": "’amaposale",
+          "ch": "二十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/40c2026e6f4de244e16cd0d70aca29c3.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d93135a07b9c7d439a23b5d95bbf96d3.wav"
+        },
+        {
+          "ab": "thakada’ane",
+          "ch": "家人；家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/679691c7154b72407c79d298c06873db.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "coaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8847d2d444768bb7cf38d0cb3bc66ab0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0fc632b0c1b7492ab059bc63e9a445c4.wav"
+        },
+        {
+          "ab": "’iyakay",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/08f6ea01dd784eceb16d110a01d40cdd.wav"
+        },
+        {
+          "ab": "’aeneme",
+          "ch": "六",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/32c56e238ef3a8e17cb884ca05244934.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0f961d10d4aa9f20dd45c61291d166c8.wav"
+        },
+        {
+          "ab": "iday",
+          "ch": "百",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d9a3a622c55fe34bd409a2235f9b675b.wav"
+        },
+        {
+          "ab": "moabale",
+          "ch": "大約",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4faf57e033eaa65158defcae7ae3d30f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kongadavane",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ebb12f283c9930d5ab4c1d5e5b7dc2fb.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0dee4477acdab52b41a44f30a7ecdd44.wav"
+        },
+        {
+          "ab": "’ikay",
+          "ch": "有；在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6dbcb03896cfbf3601fa31c53d1a9068.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/adabe157de85e49cbe67910a9b2a0e23.wav"
+        },
+        {
+          "ab": "takiigo’anininga",
+          "ch": "被知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/31395ced770693932096a8e169c6b25f.wav"
+        },
+        {
+          "ab": "doo",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2a98d370f94a08b73009be6b4e3921e3.wav"
+        },
+        {
+          "ab": "mya",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a136a27e8d6dc3e9909629f0d83f9dfa.wav"
+        },
+        {
+          "ab": "dayhiw",
+          "ch": "代表",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/14f04f196302019331819922e141e8a7.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/cdff826337522ff07d0c4e5258d2827a.wav"
+        },
+        {
+          "ab": "taiyaniname",
+          "ch": "生活型態",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d3f7b5b8cbe50ea2786d4e9f823fff3e.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b3ae9da1899d97aa282a019423f4ae11.wav"
+        },
+        {
+          "ab": "booane",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/203a69a2c245336bc90c82ad58d9994a.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e83895aeebabffaa312ab736c8b2a09c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/348e5daeacf16557c8cc671137d4b118.wav"
+        },
+        {
+          "ab": "bengkaname",
+          "ch": "我們的文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/fdf3bd2d9a625a843eedf591d44d5804.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/715a709dba82ce00968071a07e4fcc0c.wav"
+        },
+        {
+          "ab": "swadrekay",
+          "ch": "屬魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3dbd2a298a4b60c5b3e5983f45135cf1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/50b81eea59bdb845cbe488d2cf36e428.wav"
+        },
+        {
+          "ab": "’alapi",
+          "ch": "石板",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e041610bad9023e8a72703053a58eb83.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/13bbf9108581445d0193c9a014d632b9.wav"
+        },
+        {
+          "ab": "da’ane",
+          "ch": "房子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4e4247c3af05397a47861366a7802dfe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lakamani",
+          "ch": "還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/70c89ed09c282303e4610cc73aa56a3b.wav"
+        },
+        {
+          "ab": "’ongsingi",
+          "ch": "溫泉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/09af3d78b7b39d81752501bb6e3d6a66.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’akacavilinga",
+          "ch": "每年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/7802bb9a09167d10c8c2c1dace77c957.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8351c6b76359219682132b913a621036.wav"
+        },
+        {
+          "ab": "’iyakay",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/928f79fb355b2a0700c7e6330488322a.wav"
+        },
+        {
+          "ab": "’adrosa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d05acd9d4d9340ab14cdef644d6d0c65.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/c5c5c49476b6a334f7242147ce82eb07.wav"
+        },
+        {
+          "ab": "legese",
+          "ch": "祭典",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ecda908aa640eda15e278cdadd3e8225.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pito",
+          "ch": "七",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/cad7596d55a115a2fd4a72a8b93fe60c.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/92b7df9dc6888087c217b5a8abd078b2.wav"
+        },
+        {
+          "ab": "dramae",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/979ae3cfa4ee759e618cb975078e1813.wav"
+        },
+        {
+          "ab": "(",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’amangesale sika ima",
+          "ch": "十五",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/361324587accd8afa09767b9c086acb0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/17/61b7a6a660626663c104b6bcc58d31ac.mp3"
+        },
+        {
+          "ab": "va’iyane",
+          "ch": "日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/25a98f172804117c2f0fa861dc6c3619.wav"
+        },
+        {
+          "ab": ")",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tabesengane",
+          "ch": "小米祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ad60cf5f95f71f7165ad5d52bd1de894.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/c52f0d9f8fb84ea294975f6b595d5308.wav"
+        },
+        {
+          "ab": "mangesale sika saseane",
+          "ch": "十一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0b352414e83c92b3d5fa2ecdf5895e40.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/17/6ee19dbb5579ca5c413e4db316195531.mp3"
+        },
+        {
+          "ab": "dramae",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/cdda10f3b404e7bb216b0fd9d1f01135.wav"
+        },
+        {
+          "ab": "(",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’amaposale sika ima",
+          "ch": "二十五",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/910c2ebd70c60e273138c8d962ef5819.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/17/65e6c5c2ffb40b3dbd840253b00e30fd.mp3"
+        },
+        {
+          "ab": "va’iyane",
+          "ch": "日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/c6ffbb81bb68aa19d2cc2ba1505fbf98.wav"
+        },
+        {
+          "ab": ")",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tapakadraowane",
+          "ch": "黑米祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/36fa052832b69cc99d7fafee4e400f20.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tacekecekelane",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b9586664768defad5925bae266fe5464.wav"
+        },
+        {
+          "ab": "maesale",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/1ebdf1f316b832c331074c91dff61763.wav"
+        },
+        {
+          "ab": "mabeabee",
+          "ch": "高興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d2c0cd6014c31fd62570ce2d3388f401.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9c04e24ccde45a5419fabc2e918e750c.wav"
+        },
+        {
+          "ab": "sakibalibalini",
+          "ch": "接近",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3fd71386d2127877fa8dc9e5025ddb79.wav"
+        },
+        {
+          "ab": "magyagi’i",
+          "ch": "健康",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/7dac3b6b5935b319e1101c8b52f09246.wav"
+        },
+        {
+          "ab": "kitalekini",
+          "ch": "收穫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/465c02f6f498627a72f77ac7430531d8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’atawmomo",
+          "ch": "盛大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ccd1f8d5597eb566fd512b6b85c543dd.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4d1fd4b589745096b8321182e40d0f42.wav"
+        },
+        {
+          "ab": "dwape",
+          "ch": "事務；工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0f8d6c50cb0bfb6a7c1ae4475e24e881.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kongadavane",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/01f43cf905bc37f425c19c1bee3979a4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3a700241ca9e39c4cd9a48412b357433.wav"
+        },
+        {
+          "ab": "’iyakay",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/040199c14089ba1ecb80747ec28667cc.wav"
+        },
+        {
+          "ab": "madraw",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9499eecadab18229a29ada41aea9e2b7.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3707683e1b428db11aa97b12df8fdc1d.wav"
+        },
+        {
+          "ab": "maagi’i",
+          "ch": "好的；美的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b40a47615c456a7f461d1893cf515098.wav"
+        },
+        {
+          "ab": "sawkwa",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/bbc75d90a9fb50e339b0cb1202f72951.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e0daea4d341688039c558c0095b9a30f.wav"
+        },
+        {
+          "ab": "sobiilini",
+          "ch": "他留下來的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ff6f0d3bd5f4ac08b1df6ecac0611181.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6ea395e8a2f1814c9b2cfca2c06c5b2a.wav"
+        },
+        {
+          "ab": "syaoo",
+          "ch": "早期；先前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/1cea629cd21eb8d3e013d04c79b1c32e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/373477881f31f0f9c945344731341a25.wav"
+        },
+        {
+          "ab": "gizice",
+          "ch": "技術",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/debd1a977d186f2ff5ba98a4ebabdf51.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "twako",
+          "ch": "雕刻；編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/fb0c30dd0a0635c49a17e7f361525511.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/7f8d61290a0aa6ec39dbe67415490aff.wav"
+        },
+        {
+          "ab": "’angato",
+          "ch": "木頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/33276cd4a3902a21b7acac94278bdd0c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "twako",
+          "ch": "雕刻；編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/aeb86767b72e7cd5c8277bd085bca0f2.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/18e65b5eee7fa932b048ae301974c6bc.wav"
+        },
+        {
+          "ab": "’alapi",
+          "ch": "石板",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b8a09e3368e35ed888526190b3c79d07.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/cc18d3b2397eccbf04591b5b99dcc377.wav"
+        },
+        {
+          "ab": "tisoasoasoa’a",
+          "ch": "做百步蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/11/ef479b5c54f98495ee6c06c3d5b81825.mp3"
+        },
+        {
+          "ab": "tiyococoaw",
+          "ch": "做人像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/7d5a0f06ae56cadbd93c01e9891af950.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "twako",
+          "ch": "雕刻；編織",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0949baaf0ec2674bbe7f30c4972319a8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/154293234dcf93e1a988ff00a234ba11.wav"
+        },
+        {
+          "ab": "sali",
+          "ch": "月桃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/71f4d9b216adae85ae8a4cab5cd39111.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/64f10c3d417db179124e8e1aefd76598.wav"
+        },
+        {
+          "ab": "balebale",
+          "ch": "竹子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f57b31126c1435d431646de74a20d2f1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "timameane",
+          "ch": "織布；做衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/60bebe844c31734aec6859123a5e95ae.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "部落居民，民風純樸、熱情洋溢尚保存魯凱族傳統文化是全國少有的原住民群聚居地，雖然屬魯凱族但在語言上卻不盡相同，是非常特殊的部落。農耕及狩獵更是祖先留傳下來的重要技能，因此多納自古以來是物產豐富、居民安居樂業的地方。",
+      "ab": "tacekecekelane na coaw ka taiyanini matisolaw na kidredremini, patisameameaw na coaw, tayanini ’angiyaw ko sakaykainame ko boboboane na bengka ka swadrekai, nakay koka ka icengelela kimade na aminakay sa’ioboni cekecekele na kacaisyane, kwamini i’aswadrekai kiname ka ipaamawla na bakainame, amani kikay ta’asaka’ielaniname ka sakabaane. sa’akamokamoliname si saaloalopiname, ka sabobooini namiya sobiili ka gizece, nikwani Kongadavane ka syakibowane satetalekane, maagi’i na siikace mabeabee cekecekele ka sakabaane.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/31/bafbd1e438dcf6c434eb0c048ec05865.wav",
+      "word": [
+        {
+          "ab": "tacekecekelane",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e7c90ff2df64190196a688ab6e1e3f2b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8df95e3882aaec8f5c758b7bc0cdfa3e.wav"
+        },
+        {
+          "ab": "coaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/c21356a1fed6975365a6b4e015b8ba60.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0cac8ae920add9c78b101b1b6a567c9d.wav"
+        },
+        {
+          "ab": "taiyanini",
+          "ch": "規範",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/22f737e47d8261297d774f773ea41105.wav"
+        },
+        {
+          "ab": "matisolaw",
+          "ch": "純樸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d1ac55fb85059d577e41c993909d8b0f.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d45acc34122a070be07aa142a027c63c.wav"
+        },
+        {
+          "ab": "kidredremini",
+          "ch": "心裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b22b731aacae6d102e5d028c6e354491.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patisameameaw",
+          "ch": "熱情的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e027853595e737fe7398368be8ace65f.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/76bc29e1d0bf5e49454ce98cf25a2906.wav"
+        },
+        {
+          "ab": "coaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/25233c1d50651236fe72f94399f761c3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tayanini",
+          "ch": "形象；精神",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4506bc0969ecbea773624b6aea5af131.wav"
+        },
+        {
+          "ab": "’angiyaw",
+          "ch": "依循，依照",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/74928b0aee76008247e6a1769e0d0fcb.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9be4c82808eb2dc3cc44f12eea12de50.wav"
+        },
+        {
+          "ab": "sakaykainame",
+          "ch": "我們的特性",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2740fdfa07d35fd4ad3577d135b08ee8.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4b6b7cd8f333d811cf1a40c293bc9dbf.wav"
+        },
+        {
+          "ab": "boboboane",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9fd1db8e6903e633a413cf542bf4bf41.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a9e58530ac45b3431ae5ad3d64480de5.wav"
+        },
+        {
+          "ab": "bengka",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0ad297d11a0cde6f1a606bf7be811189.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/cb516b3a408dad2217333e0353549ff2.wav"
+        },
+        {
+          "ab": "swadrekai",
+          "ch": "屬魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9063abbb1fdf601ab7084411d7698053.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nakay",
+          "ch": "現在；這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/fb7de33c1582ba8f4bd8b97c456b2310.wav"
+        },
+        {
+          "ab": "koka",
+          "ch": "國家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9566025ac709c75bd0c6cffec9da12fa.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b39b53f3bb7ef2268463729e445517fc.wav"
+        },
+        {
+          "ab": "icengelela",
+          "ch": "還沒看到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/78344b8abff221294244b92ecbf5b0bd.wav"
+        },
+        {
+          "ab": "kimade",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e37330707cd192afa04493fd5526cbc8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ba0c19b0cc90ee073bfe533ad508f440.wav"
+        },
+        {
+          "ab": "aminakay",
+          "ch": "像這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3511decee1551d241b6d1a947422e6b0.wav"
+        },
+        {
+          "ab": "sa’ioboni",
+          "ch": "聚集的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/376bf60e57614f55010cf29d8587ef6b.wav"
+        },
+        {
+          "ab": "cekecekele",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8d34e07583d60a80b7a834a7651a46aa.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6c871a4a5d9962da0b58968d1c034ba4.wav"
+        },
+        {
+          "ab": "kacaisyane",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/7c6814e4ec4f3a7fb11e20d9a112e01a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kwamini",
+          "ch": "儘管",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e70df98a4e10d8ab0258bd2513e46507.wav"
+        },
+        {
+          "ab": "i’aswadrekai",
+          "ch": "不屬魯凱族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d16d90240ba0a930c460d24ac5c40451.wav"
+        },
+        {
+          "ab": "kiname",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f3870ab9dd8c494499dba8b4ddb3f524.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/15be3bb5e73e522c790ddab71139be87.wav"
+        },
+        {
+          "ab": "ipaamawla",
+          "ch": "不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/869aa4e590a3e5ade1653bae36af931f.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/debec436828e096fcdac3818b479e9c5.wav"
+        },
+        {
+          "ab": "bakainame",
+          "ch": "語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2d31cb28609a0ccb044e798fe73c023a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9167cc8accc959198587364ce47e85f1.wav"
+        },
+        {
+          "ab": "kikay",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9919b5be1e784220aed3424d2c7d4f92.wav"
+        },
+        {
+          "ab": "ta’asaka’ielaniname",
+          "ch": "不同的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4ded794853244f27260983a94dc0952d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0a8f5b11549f3328567e249fd99ef542.wav"
+        },
+        {
+          "ab": "sakabaane",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6adc41a67e52a9521321bac23b0d193f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa’akamokamoliname",
+          "ch": "工作的方式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4ad8cb70c1c96e29fc4e4f015b7098cf.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/809cae2ef19e36f177e905895934017d.wav"
+        },
+        {
+          "ab": "saaloalopiname",
+          "ch": "狩獵方式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d4e7b5bfadf45ce808f878850f4346bd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/16182005bd21b9be069cbdab1ab69b97.wav"
+        },
+        {
+          "ab": "sabobooini",
+          "ch": "傳授的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5ebbbe6623e9eff1ecee45c4b5fd6689.wav"
+        },
+        {
+          "ab": "namiya",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/176ed7e7db753ce84127d40491513441.wav"
+        },
+        {
+          "ab": "sobiili",
+          "ch": "留下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/43a077fcb428261f55a3446ea8a8fd6d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ef9e61f40a16debff9e117b3ba400370.wav"
+        },
+        {
+          "ab": "gizece",
+          "ch": "藝術品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/14c27feb915d73d39a09f471c9ae6e7e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nikwani",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/29a9f10726e82bdc215f4b809e4ee802.wav"
+        },
+        {
+          "ab": "Kongadavane",
+          "ch": "（部落名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/57d152c5c4943c5b0c5bbb33265febe2.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5cf1a7d89988952211e26ee6ff878f35.wav"
+        },
+        {
+          "ab": "syakibowane",
+          "ch": "從以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/893292bd94510dc1d447c3e00afaa2c5.wav"
+        },
+        {
+          "ab": "satetalekane",
+          "ch": "繁榮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/66075d445a7b98ee0306cd3fdfa59af4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maagi’i",
+          "ch": "好的；美的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/10ceadfa10eb9e86a3a466f800fe7220.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9f0fbe2d01a47e6e652d84e4f1fd0b89.wav"
+        },
+        {
+          "ab": "siikace",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f7680f89e664c51a80e0b887bd541bac.wav"
+        },
+        {
+          "ab": "mabeabee",
+          "ch": "高興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/38953413b87b8c82cd2fa9e01912605c.wav"
+        },
+        {
+          "ab": "cekecekele",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8a66e27259babb08e6d05f95212c2d9d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5eca4b8725ad6c88fd76c8fff7ea7b6c.wav"
+        },
+        {
+          "ab": "sakabaane",
+          "ch": "族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6c2a60785d1be4ad1e88e1cc69175b27.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "多納景觀自然優美，龍頭山、多納高吊橋、小長城步道、紅塵峽谷、蛇頭山、多納古戰場、多納溫泉、一線天、濁口溪，皆為多納部落的重要景觀據點，並且有特殊的環流丘地形，美不勝收，期待政府有關單位利用這些特殊且重要的資源規劃建設，促進多納觀光事業，帶動地方繁榮。",
+      "ab": "Kongadavane ka madraw na acengeceagelane, ’ataiyanini maagi’i i’ivelevelane, nakay Kobi’a, Kongadavane tatalodrane, cangcengtadavadavacane, taithane, alangaw, ’ongsingi, sobelebele, drakeale ka maesale kamani Kongadavane ko makocingacingaynga, na acengecengelane na ta’abebebeane. la’ikayla na drakeale ko acicilay ka syakikay tawingoane moalodro ’avathiya taa’osane ka drakeale, thoayngolo ko egeege, \r\n[===]\r\nmaagi’i sawkoanga no cengelimade si ta’adra’adraw na siife syadodwape nakay kokamolo, syakay na aminakay madraw na acengecengelane, sobiilini ko syaoo ’awcaw, na bengka malra kikake poboale, kyakay kita ka thakongadavane kipa’athingalane na ta’abebebeane, kyakay ka tacekecekelane satetalekane hatace.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/31/8c89ec4e577b08ccc2bdb9633fce28db.wav",
+      "word": [
+        {
+          "ab": "Kongadavane",
+          "ch": "（部落名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6f7c86134145de311a7f1b8e133ea9fc.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a44a8f0274cb4f31902b2b01dc478a00.wav"
+        },
+        {
+          "ab": "madraw",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0c036d41b0ecc6fe6278c05ac1c64f1b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3495a68015fbfb794d6389b8a9b84b30.wav"
+        },
+        {
+          "ab": "acengeceagelane",
+          "ch": "景觀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/46a4fdb48319e07300a68ecd20f2bd94.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ataiyanini",
+          "ch": "自然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f87db57f4e63f5720c522f459fe94e63.wav"
+        },
+        {
+          "ab": "maagi’i",
+          "ch": "好的；美的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4b8427719270eabd77fa7bb17e07c5a6.wav"
+        },
+        {
+          "ab": "i’ivelevelane",
+          "ch": "沒有改變過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9fcedc2a2f50d38a6e202493a14021dc.wav"
+        },
+        {
+          "ab": "nakay",
+          "ch": "現在；這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/17/cea33ca9a198efd318949697d12482dc.mp3"
+        },
+        {
+          "ab": "Kobi’a",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9f9ab38b1809e382c9ec0e93d85668bf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kongadavane",
+          "ch": "（部落名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0a5d02ba53d7c6d5d15cb6d95afcf0a2.wav"
+        },
+        {
+          "ab": "tatalodrane",
+          "ch": "橋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/1935652b5eb49521a98addc236582be6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cangcengtadavadavacane",
+          "ch": "長城步道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/36125352638845f5a20223ba6a55e522.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taithane",
+          "ch": "紅塵峽谷",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8923d70c1cfa2fb0690ca3b912600332.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "alangaw",
+          "ch": "古戰場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/89208ae97021c41fcef657cf29ebb014.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ongsingi",
+          "ch": "溫泉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/8412563220e0cd9cab237d8760b88820.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sobelebele",
+          "ch": "一線天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f49e83655b804ba2c8f0c309463cafe7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "drakeale",
+          "ch": "河川",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/423bc747421ee0d43ec8db423f5f82dd.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e7d11614e80b824a79f77f57934255dc.wav"
+        },
+        {
+          "ab": "maesale",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/65a3312ce06e73e0e3ab0554110df684.wav"
+        },
+        {
+          "ab": "kamani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ccf6d01f210f93a8601a9946e445d1ea.wav"
+        },
+        {
+          "ab": "Kongadavane",
+          "ch": "（部落名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/045d15245e5284c32f464332f09a99f2.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6fbc4c256d7058de80017981b2253c78.wav"
+        },
+        {
+          "ab": "makocingacingaynga",
+          "ch": "最重要的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/775b15dcd80d6b67223627218123edd7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e4bd04c70ceb80c8c6d544d75d235c8a.wav"
+        },
+        {
+          "ab": "acengecengelane",
+          "ch": "景觀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/caa3d0f8578cca5d7e5daf5d1ffd1425.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d5510b2e793187ba82840ef35588cd10.wav"
+        },
+        {
+          "ab": "ta’abebebeane",
+          "ch": "旅遊景點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/63ad5ea7af9f1c89c67341462e4ba9cd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la’ikayla",
+          "ch": "還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/56537e95d7b284e349468c25a97ac9b7.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3c965b7c5ab792d1e5ea0ad33e2959a0.wav"
+        },
+        {
+          "ab": "drakeale",
+          "ch": "河川",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b58d60916e2916392e997a6a1d78225e.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/80e026bcd09f75afdeadb5effc5ea9da.wav"
+        },
+        {
+          "ab": "acicilay",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5db64e62cd0745d584ec813f10deb223.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/d58b87277b4c279fccb3dde7c545f27c.wav"
+        },
+        {
+          "ab": "syakikay",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/de5656630437a7bdb8edbd098fcf9ba4.wav"
+        },
+        {
+          "ab": "tawingoane",
+          "ch": "西邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/1b5bba6d709e8a8d69e854b0643d1298.wav"
+        },
+        {
+          "ab": "moalodro",
+          "ch": "流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/3ad96b6f6313cfbac453056010b01a88.wav"
+        },
+        {
+          "ab": "’avathiya",
+          "ch": "往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ecb8ba45005a41152433214976c56736.wav"
+        },
+        {
+          "ab": "taa’osane",
+          "ch": "東邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/0ca9d7e107eb21fe03a304ce3ca49d0f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/49a73033903c2eb9369d51cdf2fac591.wav"
+        },
+        {
+          "ab": "drakeale",
+          "ch": "河川",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b942759fa2d68cec4f1c8efd4e38d56f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "thoayngolo",
+          "ch": "繞著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/00c9157a614a13927382c42cc26dbfd4.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/05eeb7e3a9da1d8c9337cfcd2cc9ebe6.wav"
+        },
+        {
+          "ab": "egeege",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/67794c5983045ac9b88a013b14240abf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maagi’i",
+          "ch": "好的；美的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/57f6bcf008fdf5d34788ba175cb1501b.wav"
+        },
+        {
+          "ab": "sawkoanga",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a54ddb402bd6590aa27965e4c34901e3.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "若，如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/b2ad6b3f8e9ecf45af1dd9f1cac68191.wav"
+        },
+        {
+          "ab": "cengelimade",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/2e8465a4b7312d8967b9c10f277e86fc.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/22947f7b314bdab94a01ca0657babeb7.wav"
+        },
+        {
+          "ab": "ta’adra’adraw",
+          "ch": "期待",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/15ee68a742f185d424f83a1825215eec.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/494dd6a5a5cbae03607435ddd8e2b514.wav"
+        },
+        {
+          "ab": "siife",
+          "ch": "政府",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/dd4683d340788634bed273ead9dc181b.wav"
+        },
+        {
+          "ab": "syadodwape",
+          "ch": "政府相關部門",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a65b4d7b5b945e1e2e9ab24926a58754.wav"
+        },
+        {
+          "ab": "nakay",
+          "ch": "現在；這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/a355762fdef10d04c1be03f647d7884e.wav"
+        },
+        {
+          "ab": "kokamolo",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/85e5cc8dd7c008d1322c828ca56bb5bf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "syakay",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5fac42e0f78f0a61ea68ebbc40966cca.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/5dc869708f170898b1c50bb49a852ad6.wav"
+        },
+        {
+          "ab": "aminakay",
+          "ch": "像這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ad2fac73376c59d115b480e89608e9ee.wav"
+        },
+        {
+          "ab": "madraw",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/38a978f88b70aa7322c6f2f7eb59751b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/c7c2098386c011dcd149faabe8f97e1f.wav"
+        },
+        {
+          "ab": "acengecengelane",
+          "ch": "景觀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f6afe246a4ee1b3d401a9c6c5be55434.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sobiilini",
+          "ch": "他留下來的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/867d32b10a8193535342987ac1d48756.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4010a395fab832d509d7759419f2c481.wav"
+        },
+        {
+          "ab": "syaoo",
+          "ch": "早期；先前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/4bddbdf08c3f717afcfd5f56ef91433a.wav"
+        },
+        {
+          "ab": "’awcaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/7d0b47d2db08b84009fcfef037f5896e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/f4e3fb498442499bc8b2f27d233ca293.wav"
+        },
+        {
+          "ab": "bengka",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/236c8d2149e8b843b7a5c9a554b27c88.wav"
+        },
+        {
+          "ab": "malra",
+          "ch": "拿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/be8122a3d793d8cc0a09b7febb8ed0ae.wav"
+        },
+        {
+          "ab": "kikake",
+          "ch": "計劃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/19150097978a3d831dff0be05f58236e.wav"
+        },
+        {
+          "ab": "poboale",
+          "ch": "被發現",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/e8cfa1b8296a5f4536585197256b2572.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kyakay",
+          "ch": "為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/013b7fade83b5085e7dfba59566f0d66.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/03fce5ea63c4049ad1b566abe72a8870.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/53abd181f19a7a882005f308b0eeafb5.wav"
+        },
+        {
+          "ab": "thakongadavane",
+          "ch": "多納人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/9d0dd684410713612b1f897ea8836aaa.wav"
+        },
+        {
+          "ab": "kipa’athingalane",
+          "ch": "被重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/11/d9a26c2c54dd559c62b6a3554b3b05bf.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ff1e7d75075d9e0f0e80d5c9c1372780.wav"
+        },
+        {
+          "ab": "ta’abebebeane",
+          "ch": "旅遊景點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/6113dd6db6f606f145b6cbfc40176f5a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kyakay",
+          "ch": "為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/fb60d93c210068b4a03cd16c0018d8dd.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ea70c74752ea49a1ad68a7ba9b7e7ce7.wav"
+        },
+        {
+          "ab": "tacekecekelane",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/ce294dccc40594d636d9bf662bbf9311.wav"
+        },
+        {
+          "ab": "satetalekane",
+          "ch": "繁榮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/82bf128d2047056417807afe22f00ea6.wav"
+        },
+        {
+          "ab": "hatace",
+          "ch": "發達",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/30/c58c235f047e91ab21fb8d3dc695ded9.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

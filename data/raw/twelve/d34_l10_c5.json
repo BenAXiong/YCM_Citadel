@@ -1,6 +1,498 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "musuvaru’u tikuru",
+  "titleCh": "舞出新衣",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "一件新皮衣，這是父親送我的16歲成年禮物。它不只代表了父親的慈愛，還包含了文化的傳承。這繁雜的過程，是我和父親一手一腳舞出來的。鋒利的刀片嘶嘶作響，一個小時後，完美的獸皮呈現在我眼前，針線架有如一幅藏寶圖，讓我驚艷得合不攏嘴。",
+      "ab": "ucani varu’u tikuru ’ahlici, kani’i ia pahlivinga hlipiracaucau laihla ʉnʉmʉ caihli hlialilʉpʉnga, kuucanihlaka siacalaia ama’a, alʉhlʉvʉ mʉmʉa vunguka hla sitahlusuhlusa, ma hlicaliva pakaritʉkʉhla ihlaku nua ama’a umaru cacani sapahlʉ umaru cacani ramacu siutuarilau.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/ac6265f96180216b2041c6e617607108.wav",
+      "word": [
+        {
+          "ab": "ucani",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/3ea81b4d4341a95946a929ff9f912de3.wav"
+        },
+        {
+          "ab": "varu’u",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/4f48170b6b584dce890c699802765d4b.wav"
+        },
+        {
+          "ab": "tikuru",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/ce7b9b331e6744b54d3b040a424d9be9.wav"
+        },
+        {
+          "ab": "’ahlici",
+          "ch": "皮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/a977835ce83c3ad285aebef5309a4ac6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kani’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/f06f03a970353985cf4f02ccb07f1c38.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/3bc5f0580009a0fff6d288c81efab206.wav"
+        },
+        {
+          "ab": "pahlivinga",
+          "ch": "物品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/5437922d6f7266de564ee0087b976db8.wav"
+        },
+        {
+          "ab": "hlipiracaucau",
+          "ch": "贈送",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/b046ab53692186cb90695fba388697e5.wav"
+        },
+        {
+          "ab": "laihla",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/21917a2318203b07201928748656e929.wav"
+        },
+        {
+          "ab": "ʉnʉmʉ",
+          "ch": "六",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/405f026f331a059c635b944ff59722de.wav"
+        },
+        {
+          "ab": "caihli",
+          "ch": "歲；年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/780e2a672321b76a2a707624cb429633.wav"
+        },
+        {
+          "ab": "hlialilʉpʉnga",
+          "ch": "結束",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/4a76b224c9f76c15289d2883e0bf93fd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kuucanihlaka",
+          "ch": "不只",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/b803a999ff8aafc51219d9118f0a88e1.wav"
+        },
+        {
+          "ab": "siacalaia",
+          "ch": "慈愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/8b151cf94d6ae80e03d99371db7bc8bc.wav"
+        },
+        {
+          "ab": "ama’a",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/831dd83cf1981832ca556c89f7c7156d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "alʉhlʉvʉ",
+          "ch": "包含",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/a131d2c50f69d09b10a8bd38b387f8af.wav"
+        },
+        {
+          "ab": "mʉmʉa",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/f0805a034301dd1396e662c4902a3824.wav"
+        },
+        {
+          "ab": "vunguka",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/9f24e731d11e9d9481cd449be30a22f3.wav"
+        },
+        {
+          "ab": "hla",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/4baefbf059489b4794a34aee2c9e3fbd.wav"
+        },
+        {
+          "ab": "sitahlusuhlusa",
+          "ch": "傳承",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/924164c1d98466f693f4455f4ce27bd5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/0ff04ba8416777d577dbd2719c5befa0.wav"
+        },
+        {
+          "ab": "hlicaliva",
+          "ch": "過程",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/dd6adf8d4f6062fd73e1f29acdbb585e.wav"
+        },
+        {
+          "ab": "pakaritʉkʉhla",
+          "ch": "特別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/6815038e0cf3e57f95d28c2ce1b2d2a7.wav"
+        },
+        {
+          "ab": "ihlaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/73de7f96f98fced11e229d691a3cbea0.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/a3f7b56015e32962ae1b88ba7eda9de8.wav"
+        },
+        {
+          "ab": "ama’a",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/45de4c355fdadb97e2d3711ebcc5ba1d.wav"
+        },
+        {
+          "ab": "umaru",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/db1f6004383e1300e3046b592899c1b2.wav"
+        },
+        {
+          "ab": "cacani",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/13cd762222c50c46919c328c3dbf87b3.wav"
+        },
+        {
+          "ab": "sapahlʉ",
+          "ch": "腳掌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/4c2c162733f754cf9860b031ba39daae.wav"
+        },
+        {
+          "ab": "umaru cacani",
+          "ch": "用一個個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/75d447ff881e7a5e48b43fe0ca091ae5.wav"
+        },
+        {
+          "ab": "ramacu",
+          "ch": "手",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/a98c8f7dbb46467b790e2ac1fbbd3f50.wav"
+        },
+        {
+          "ab": "siutuarilau",
+          "ch": "揮舞\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/20/34309fe518caef116cae4c583cd5a746.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在烈日和風的合作下，皮如盾甲般刀槍不入，這便是太陽和風功成身退的時候了。竹片將獸皮掛起，父親與我的默契無間，在陽光下唰唰作響，有如一支力與柔結合的舞蹈。針鋒相對中，一件獸衣完成了。這是我的新衣，更是我的驕傲。",
+      "ab": "maru macici tahliaria hla varatʉ hlipatarucuvungua ta’iarana, valaku ausi ramangʉ hlitakʉ hlahlitu kuialaluihli, kani’i ia hlitakʉlʉpʉngʉcisa tamu tahliaria nua tamu varatʉ, hlipuriasa racu’u patasaira valaku, \r\n[===]\r\nkisuaku ama’a arupatakʉcʉ, maru sihlangʉ tahliariana, ausi piucani manganʉ nua malaluvihli siusuarauvua, hlikisua pasamanganʉ takʉlʉpʉngacua ucani valaku tikuru, ihlaisa varu’u tikuru, ihlaisa sipausasakisakiriku.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/ec6f75eb35cb02bb969f3441998c51d7.wav",
+      "word": [
+        {
+          "ab": "maru",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/9c9a6cdd73cfb6759307cae2e46be2fa.wav"
+        },
+        {
+          "ab": "macici",
+          "ch": "熱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/62812d8eb06386505986efff8b5e43ac.wav"
+        },
+        {
+          "ab": "tahliaria",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/3f94588cae4c5e19c2d7e021f0fe8989.wav"
+        },
+        {
+          "ab": "hla",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/2f8b0302961227afff4a53bf461056c1.wav"
+        },
+        {
+          "ab": "varatʉ",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/093bb1938ac88002d16cf75cdfd8c8d4.wav"
+        },
+        {
+          "ab": "hlipatarucuvungua",
+          "ch": "相互合作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/c871d4ba38c83e9b1642f02872f7ef2f.wav"
+        },
+        {
+          "ab": "ta’iarana",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/a211e2a327358b9b3506fb16debf693f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "valaku",
+          "ch": "獸皮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/77656618388e134648db01eecf7e79ee.wav"
+        },
+        {
+          "ab": "ausi",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/781ecea5705ff4d65e0deb6e08499127.wav"
+        },
+        {
+          "ab": "ramangʉ",
+          "ch": "堅硬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/eac4850948fcfa111c6d94eeea6aec2d.wav"
+        },
+        {
+          "ab": "hlitakʉ",
+          "ch": "獵刀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/e8579cb1f6e92f980e7161c98ccf165b.wav"
+        },
+        {
+          "ab": "hlahlitu",
+          "ch": "槍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/755c1adfab9a0e4a2be72c25e7eeccca.wav"
+        },
+        {
+          "ab": "kuialaluihli",
+          "ch": "射不穿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/6b6f19508a3baa90b3503b7b2c0d784f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kani’i",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/2a903c3076a027bb5fde23447faa4447.wav"
+        },
+        {
+          "ab": "ia",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/0b16733d2aab9c27ffbe3a51b6995af0.wav"
+        },
+        {
+          "ab": "hlitakʉlʉpʉngʉcisa",
+          "ch": "他們完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/beb0b14df1067b4e73045b144be409fc.wav"
+        },
+        {
+          "ab": "tamu",
+          "ch": "祖輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/74bed796f1cda5e7c5376e917ef35b72.wav"
+        },
+        {
+          "ab": "tahliaria",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/5348528dcba5771a1c52d28c4e18e3a0.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/a0f83f9e724cc8d4cfdb28a71807fd84.wav"
+        },
+        {
+          "ab": "tamu",
+          "ch": "祖輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/c5202a9e78cd3cd349a566de30e8d463.wav"
+        },
+        {
+          "ab": "varatʉ",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/41887790c96a761ad8a2cbe9f235a2fc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hlipuriasa",
+          "ch": "被剖過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/b5e3a591db67998de74b874bb024fdb9.wav"
+        },
+        {
+          "ab": "racu’u",
+          "ch": "竹子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/94e005c18b383d12a8924d5d1367610d.wav"
+        },
+        {
+          "ab": "patasaira",
+          "ch": "讓…曬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/401f66b5b93edd22fc42055d09ff5425.wav"
+        },
+        {
+          "ab": "valaku",
+          "ch": "獸皮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/5e225bab709f12e774bfd18dddf6a20c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kisuaku",
+          "ch": "我一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/e167865a68a7d42a03bffd1e733674e6.wav"
+        },
+        {
+          "ab": "ama’a",
+          "ch": "父親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/950d8a346f93dfaa88fa9e1ea7c7b1aa.wav"
+        },
+        {
+          "ab": "arupatakʉcʉ",
+          "ch": "合作無間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/7105f7f2eff89eb19fc9014f6baa257a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maru",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/7c8a5b69351aa9c8b4c39e29721fd7dc.wav"
+        },
+        {
+          "ab": "sihlangʉ",
+          "ch": "光；亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/bf5c13b2138225938ec63f7ce0694431.wav"
+        },
+        {
+          "ab": "tahliariana",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/bf1cadb7ce2db224d722a67d28d65fb7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ausi",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/675186e757ff18294bc93b1cec68c75b.wav"
+        },
+        {
+          "ab": "piucani",
+          "ch": "有一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/a56612c9db38de8f62f993bc28da82e6.wav"
+        },
+        {
+          "ab": "manganʉ",
+          "ch": "力量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/7c793dbd27b2b9e1a0d808f46decb06f.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/bdcc66c66b8652e5486ad2bc0d2ff0ca.wav"
+        },
+        {
+          "ab": "malaluvihli",
+          "ch": "柔軟",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/3d24597bb554aab5367efa3dd073e22c.wav"
+        },
+        {
+          "ab": "siusuarauvua",
+          "ch": "舞蹈",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/0d11ea7c1dadb10a738ce4bbe0ec236b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hlikisua",
+          "ch": "兩個一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/976c543a9cd668a0557b340a2806ac60.wav"
+        },
+        {
+          "ab": "pasamanganʉ",
+          "ch": "努力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/790dabbf1d885f58333f2f86cc5afe5c.wav"
+        },
+        {
+          "ab": "takʉlʉpʉngacua",
+          "ch": "完成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/45a2526aa1cd63d0c2668f11aa0d0e83.wav"
+        },
+        {
+          "ab": "ucani",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/2197cfa61aff334182ca35a22711fc49.wav"
+        },
+        {
+          "ab": "valaku",
+          "ch": "獸皮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/3306a781c00bd431dc3a699c3e3d59c0.wav"
+        },
+        {
+          "ab": "tikuru",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/918d40f78adcbf5b64ef1515e96a1176.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "他是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/bfc2fa3f57a83549aef53e3c367d012b.wav"
+        },
+        {
+          "ab": "varu’u",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/5d9b66788269f5d37f8d0eb33a473fd1.wav"
+        },
+        {
+          "ab": "tikuru",
+          "ch": "衣服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/0e2eeb11b78f52fd4105af52b611fae0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihlaisa",
+          "ch": "它是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/7196dcaf911ac7e362e60f037d907115.wav"
+        },
+        {
+          "ab": "sipausasakisakiriku",
+          "ch": "我的驕傲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/21/c67d23a2eae47d4c6bbc96202f24e3eb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

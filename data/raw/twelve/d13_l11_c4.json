@@ -1,6 +1,841 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "palayat/nakuya a dremakelas",
+  "titleCh": "稱呼的禮貌",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "當生兒育女時，我們勢必教育他們敬老尊師的為人處世之道。",
+      "ab": "nu pualjak itjen tua uqaljay tu vavayan, tjara tja tuluan sakamaya tua papaqaljayan ta caucau tua namapaqaljay tua matjaljaljak tua tjavavulungan tua tjakakedriyan.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/20/a6573b68570c02374c8e234dd13691f5.wav",
+      "word": [
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/e237cb7d4032871fb56c954135f704d9.wav"
+        },
+        {
+          "ab": "pualjak",
+          "ch": "生子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/95be791fba4a58bbf7c491f63ed7f85c.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/c8bebdbb3817eaeaf25e33b23087a3d0.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/f7b9824d5c18f0646b05c3bdd20467b0.wav"
+        },
+        {
+          "ab": "uqaljay",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/e1cf979ccefd949635827be18d08c9cf.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/34d9dc817c6cc8292d64ae2982a737c9.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/13564714c7bead09c1906552e17afefc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tjara",
+          "ch": "必然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/14e35b61ef8270c228641d4cab07c2d0.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/c3408a6d10559eecda8efaa04d10f0f0.wav"
+        },
+        {
+          "ab": "tuluan",
+          "ch": "教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/6e36189e253d509795e40326f3de70f0.wav"
+        },
+        {
+          "ab": "sakamaya",
+          "ch": "必要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/34ca9bc48f5bc1173d4666a851db7c5d.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/9688facf2d846a5c147367c38dc939a3.wav"
+        },
+        {
+          "ab": "papaqaljayan",
+          "ch": "尊師重道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/c210955976ee48c515f4d192d566b77c.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/e9e818a563605fa9c5bc58f62e4828ed.wav"
+        },
+        {
+          "ab": "caucau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/d27dad0201b16b5791e2f6f02d5bc644.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/aee58e9bdc17914fc3bb0ae9642565dc.wav"
+        },
+        {
+          "ab": "namapaqaljay",
+          "ch": "受人尊敬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/c0e575a4e0066e9afe3b03c9a6412287.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/800242d07f9b0007737cbad2cf40c44a.wav"
+        },
+        {
+          "ab": "matjaljaljak",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/55761a04ab01d9cd37b42638c8a6b8b5.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/133636584e5a6be1697ad6cc9b6dfde1.wav"
+        },
+        {
+          "ab": "tjavavulungan",
+          "ch": "長者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/b35edf4e77df4f3988100fab56aa264f.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/3dd2b1e105c4da7735384dfca5522500.wav"
+        },
+        {
+          "ab": "tjakakedriyan",
+          "ch": "晚輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/dc8570256e03f4f5b68e424a5a4e6f55.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[-AP1-]年輕時長輩們嚴厲地警告或責備說：「如果你知道某人的輩份是『vuvu』級，就稱他為『vuvu』，如果你知道是叔伯級，即稱他為叔伯，若是姨母級，即稱姨母後再加其名字。但是在傳統領袖家族嚴厲的家教中，特別要注意，在任何場合遇見族人我們一定要主動打招呼，不加名諱。」",
+      "ab": "nu matucu a mamaqacuvungan itjen aza tatuluan tua sipalayatan nua marka tja vuvu nua tja matjaljaljak namaya tucu, “nu tjakinljang tu tja ljavuvuin ljemavuvu itjen, nu tjakeljangen tu tja ljakamain tu tja ljakinain tja ljakinain sa na tja tjemarungadan a pitjaivililj, ljakua aicu a sipalayatan izua za tatuluan a pita minamamazangiljanan, aicu a aljak itjen nua mamazangiljan nu kazumazuman nu i kinateveteveljan itjen saka secevung itjen tu seqepu itjen tua tjaljaljaljaljak a tjaramaljeng lja vuvu, lja kina, lja kama, lja kaka aya tja sipalayatan.”",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/08/04/3fdf6d6ae07331b0c0206c362c961e2c.wav",
+      "word": [
+        {
+          "ab": "nu",
+          "ch": "倘若",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/f25ab35066782a713ead95573a7cc08b.wav"
+        },
+        {
+          "ab": "matucu",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/47bcbfdd1b87d77c8701d3c8c10610fa.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/2be16f3d2ba6b0ae76437019407ece61.wav"
+        },
+        {
+          "ab": "mamaqacuvungan",
+          "ch": "長大成年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/9b551806f0b0dea2bc990d2d28fbd584.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/0beac5fd33ed22c4b05088db0eaf7459.wav"
+        },
+        {
+          "ab": "aza",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/cedbecf7178a48e3a8c667654c2067af.wav"
+        },
+        {
+          "ab": "tatuluan",
+          "ch": "教育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/9596b221d72f4c7c06d2c3443eb2d159.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/5a6ec84c2dd9a23335b567b4bd10df53.wav"
+        },
+        {
+          "ab": "sipalayatan",
+          "ch": "嚴厲責備，責罵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/0ae2e116ec7a00b35608977ee5d7986f.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/212c852c44624056ae152061f9246b23.wav"
+        },
+        {
+          "ab": "marka",
+          "ch": "我們每個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/492446ef7a314e3983a73efd5e9ea4a1.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/9f022df9a37fcbbe5d8d3e651f465f18.wav"
+        },
+        {
+          "ab": "vuvu",
+          "ch": "（祖父母輩稱謂）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/367566964ec3a65c4825dc8c143c5243.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/c2dcca6ae2b49f170c2d4af074b6b5a5.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/70bac048854feb49c1e7237ee7505d96.wav"
+        },
+        {
+          "ab": "matjaljaljak",
+          "ch": "（父母親的同輩長輩）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/569930f289d6185c42d5529d1c70c73a.wav"
+        },
+        {
+          "ab": "namaya",
+          "ch": "同樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/70dd361ea04b260cc50ab2835dce6df4.wav"
+        },
+        {
+          "ab": "tucu",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/15d8b32fe83f533ae51e70e33761250f.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/8e42f027db850dd8c96b813217eb5ab2.wav"
+        },
+        {
+          "ab": "tjakinljang",
+          "ch": "我們知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/1df76b6da6a5ebfe5308d51b30ca836f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/4c8c5d5b7055012fb9b7d0b1cc3ccd01.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/b1a6b21c60400742550aeee9e8245ec5.wav"
+        },
+        {
+          "ab": "ljavuvuin",
+          "ch": "稱之為祖字輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/e0588952f67aae1c77d96a3403af5714.wav"
+        },
+        {
+          "ab": "ljemavuvu",
+          "ch": "稱呼祖輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/7cd2a021f6f07b8e42ff773c6bd737ee.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/fba98d5071b5e89dc0f145894448cbf8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/0be1b1a2849136d5bf8fc5691fd8d378.wav"
+        },
+        {
+          "ab": "tjakeljangen",
+          "ch": "我們知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/5c0c3aa45d39381a4ac0d3a1e4355b47.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/e1b21581d4550b134d8e1eeaf8e153be.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/178454640a526ef0e7a33e670790ba59.wav"
+        },
+        {
+          "ab": "ljakamain",
+          "ch": "稱之為父字輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/3fb6848d509795397067d722c4552f5b.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/194adbcaa46104c43d41ad4f23c18407.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/c2066a2586157c0334cbb4ee787a102d.wav"
+        },
+        {
+          "ab": "ljakinain",
+          "ch": "稱呼母字輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/316dd2c1ec53ead0f61901eb4d0e3aad.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/278e3c3ff916dfd2230142c86f0f8065.wav"
+        },
+        {
+          "ab": "ljakinain",
+          "ch": "稱呼母字輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/3a23bb45a4cf5a17f59c8f0293d96158.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/a67f69c3a47753a1b3c8ef3d049e1995.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/d4e38a1f414b4ce109ef0f134487aedc.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/e2eee8f1a382343e2870039ba7328e7e.wav"
+        },
+        {
+          "ab": "tjemarungadan",
+          "ch": "稱呼名諱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/dab9a22492f872c267edef07c49cbfc3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/746afbebfe5437f01360982d739267bf.wav"
+        },
+        {
+          "ab": "pitjaivililj",
+          "ch": "在…其後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/2ee0473e3395546ac9f43a6f99014e69.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ljakua",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/33ed2e2ca0cac1671768b9c8cbc23f7d.wav"
+        },
+        {
+          "ab": "aicu",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/571a6b6831a8b7dec235dc33512b65cc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/5a72c84deb2d2f5f9fdf2763e2546f0a.wav"
+        },
+        {
+          "ab": "sipalayatan",
+          "ch": "嚴厲責備，責罵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/651b3148e7121cd0f065cbea4a79999d.wav"
+        },
+        {
+          "ab": "izua",
+          "ch": "有些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/88ff16ee949c8527df2e3dce2792aaea.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/d133b5a2d9eaffc2a627d11e892b01f2.wav"
+        },
+        {
+          "ab": "tatuluan",
+          "ch": "教育方式",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/84882c0986aa7daaef41fedbd2e3700e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/3bdf50f1f01df02bd9a23e6c5d3c9628.wav"
+        },
+        {
+          "ab": "pita",
+          "ch": "相關",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/90d3625c6e95fb90c50ea264233c92b7.wav"
+        },
+        {
+          "ab": "minamamazangiljanan",
+          "ch": "關於身為傳統領袖家族的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/bf3fb8c0b51c5f55ec9b99bcf1445009.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aicu",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/87790d780fcb098a59c07554cea98075.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/b199b4bb3ea0ea74bc259ebb66985570.wav"
+        },
+        {
+          "ab": "aljak",
+          "ch": "孩子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/e89e6e47fb4589f93d7a0b076c786de9.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/29a9ad1d9f59d0633914dcb8ba9ba2ba.wav"
+        },
+        {
+          "ab": "nua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/8f51fd52ab6b36bc723eb050d0a62ac0.wav"
+        },
+        {
+          "ab": "mamazangiljan",
+          "ch": "傳統領袖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/153080ca0c54e364840d1efbf337174a.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/01/c3510c1fcbe8d5e98e7b55ac19b2533f.mp3"
+        },
+        {
+          "ab": "kazumazuman",
+          "ch": "有一天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/122e1f8515ee4ea819509e218655e684.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/c2b4fdf77d72e1391ee2b3c677b54e43.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/d3679d3dc659f3a108aabe219db71d3e.wav"
+        },
+        {
+          "ab": "kinateveteveljan",
+          "ch": "聚集的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/1820b557f54ed4c272d6452c208a8c07.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/dcc3b8d980d8ab5ce5337c4393f14f0a.wav"
+        },
+        {
+          "ab": "saka",
+          "ch": "和；然後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/42ab6951ceb1076ee9d94966b879a9ad.wav"
+        },
+        {
+          "ab": "secevung",
+          "ch": "遇見",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/2a46dfb6400423af4cc8211ca71c5f99.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/67a113b566cb255642215a1909dbf90d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/17/a73dd43e281d70afbb08b794092469eb.wav"
+        },
+        {
+          "ab": "seqepu",
+          "ch": "相聚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/9b2d193a18a1747c7e423081f1b9494a.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/c5821b3e3cdfe93f1cff84950cfa75f6.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/cfafdbfc7d4684e076688207cfeb0002.wav"
+        },
+        {
+          "ab": "tjaljaljaljaljak",
+          "ch": "平民；族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/bf10c39d383d2fedeace73b3028df1b5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/634cd6754d31a422d03fd640baa10b48.wav"
+        },
+        {
+          "ab": "tjaramaljeng",
+          "ch": "較為年長者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/17/c31c82ea5f28ed0e2428d35ca0db5953.wav"
+        },
+        {
+          "ab": "lja vuvu",
+          "ch": "祖字輩稱謂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/96ac6d493f6f333512cc5478babc2142.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lja kina",
+          "ch": "母字輩稱謂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/348f211862b06e0a0aeecec30e3e4644.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lja kama",
+          "ch": "父字輩稱謂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/55c946d35c37222e48dd26af6691a298.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lja kaka",
+          "ch": "平輩稱謂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/1685eb582ea60e7fa26f54f42c8b6b0f.wav"
+        },
+        {
+          "ab": "aya",
+          "ch": "那樣說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/bc9f3b28b88733bbc7e5ab683424d12c.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/661227d504580e94f77c3de71b5b5b61.wav"
+        },
+        {
+          "ab": "sipalayatan",
+          "ch": "嚴厲責備，責罵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/7c3d68615aa8a83481c3f5765bcde46f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "但是若偶遇家族的長輩們，一定要打招呼並加其名諱在稱謂之後，這是敬重的表示，古有明訓，對平民百姓稱謂不加名諱是疼惜子民的表現。",
+      "ab": "ljakua nu seripadr itjen, nu seqepu itjen tua punasi a tjaramaljeng, pay nu naljemavuvu nu naljemakina nu naljemakama nu naljemakaka anga itjen tja tjarungadanen anga pitjaivililj ta tja papaqaljay, aza tja sipasulagav tua tjemarangadan tua tjaramaljeng a tjaljaljaljaljak tja papaqaljayan a sipalayatan a kemasicuay.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/20/9ddae8ad222fc81268705db5510ff4d5.wav",
+      "word": [
+        {
+          "ab": "ljakua",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/8d4e943ea62028002b54d1ddd8022b25.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/912bd9472e011e911020fe6cc0e5d4fd.wav"
+        },
+        {
+          "ab": "seripadr",
+          "ch": "不期而遇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/1250a12dcdcc76be6de67767dc92ce9d.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/a47f75df50d184b804bf01bf50088ea9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/cceb923b3b96ebc159c7e24adac48eb6.wav"
+        },
+        {
+          "ab": "seqepu",
+          "ch": "相聚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/e083a36885e0e7ea4fd5838b2116d728.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/5ff1fe7121cddf2a9014a5717fa79847.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/086f627bd5f6db73c07c05b5bd6b7cee.wav"
+        },
+        {
+          "ab": "punasi",
+          "ch": "社會階級秩序較高",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/871c87a0e5d5ba60234e254c8cfe62b9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/3223175dace139df3bf602bbbd8a4ad0.wav"
+        },
+        {
+          "ab": "tjaramaljeng",
+          "ch": "長輩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/95c9ae386a78687f3660e4ad4d7e99f4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pay",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/b025ca5b8fdb1354df3ed620c6e42bf1.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/d7b3a8e58fe69f756c1a10be7c3dfb5a.wav"
+        },
+        {
+          "ab": "naljemavuvu",
+          "ch": "稱呼為祖字輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/bbf85dabf9c57e32ceddb819352cc0e2.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/f06f8fd70e6adf5a0882699624545072.wav"
+        },
+        {
+          "ab": "naljemakina",
+          "ch": "稱呼為母字輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/3f190c0593ea95bbdadf18419e74cb25.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/bf8cb3eb947b66a015720034c9f6a033.wav"
+        },
+        {
+          "ab": "naljemakama",
+          "ch": "稱呼為父字輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/ca63ef7a32b18ab9d46e0ebc346325c9.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/7e9201dca8b16ca6536c052ea810ef70.wav"
+        },
+        {
+          "ab": "naljemakaka",
+          "ch": "稱呼平輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/cf74f81abf66a709e9df18f5e271be26.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/455f7fb0d6f5ff26c20974c66f5a20b8.wav"
+        },
+        {
+          "ab": "itjen",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/bb3cba832b08d475c10fbb5dab7d7d7e.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/bd358db9f741fcb693904125c7bdf6ef.wav"
+        },
+        {
+          "ab": "tjarungadanen",
+          "ch": "稱呼名諱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/ce63b6f6ce19bbe8522b538b94447aae.wav"
+        },
+        {
+          "ab": "anga",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/318a18087d4e4abb6642b60f4c06cf1d.wav"
+        },
+        {
+          "ab": "pitjaivililj",
+          "ch": "在…之後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/948d388fe3220ceb15d8f099b5df21db.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/a57573de73b185550ef23f14a8f0ca01.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/ba044d8bf49a601bba1c2b4c6b75f8cf.wav"
+        },
+        {
+          "ab": "papaqaljay",
+          "ch": "尊稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/20/2fb25876e8b77d40b0d459079158195d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aza",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/b68702244743703ff2b833afb4921c28.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/361290ae59788e24e75f1595a083e7f7.wav"
+        },
+        {
+          "ab": "sipasulagav",
+          "ch": "避諱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/34f638c01caabeaaf2454835c6aae3dc.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/33132123864376d9e09bce425ed2141c.wav"
+        },
+        {
+          "ab": "tjemarangadan",
+          "ch": "稱呼名諱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/f5cea9dd3bb2e4e0fc98fb5725c1c1b5.wav"
+        },
+        {
+          "ab": "tua",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/2dfd6f9511da32c96dacfdc7cfa75403.wav"
+        },
+        {
+          "ab": "tjaramaljeng",
+          "ch": "較為年長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/b3be507d04cdc2024f9c4bd9e0cdbb08.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/84ed9a6f7a285d2c7f2c4074edfc73aa.wav"
+        },
+        {
+          "ab": "tjaljaljaljaljak",
+          "ch": "平民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/17/a670883ac1c390c253c550a7f3957a05.wav"
+        },
+        {
+          "ab": "tja",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/39b8b44d5d55825c2771f85c08d3d508.wav"
+        },
+        {
+          "ab": "papaqaljayan",
+          "ch": "尊稱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/3ad0dcdbaa2e913336aca04079426148.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/1538c3a1b9fa94c8dbd56d59cf44846c.wav"
+        },
+        {
+          "ab": "sipalayatan",
+          "ch": "嚴厲責備，責罵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/42ed31f84b302f184e01225d077be22c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/1b7b9224472613d1b0d71935465e1b1e.wav"
+        },
+        {
+          "ab": "kemasicuay",
+          "ch": "從以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/05/17/2bc3dea5e2a90af23e2d5cf6c75efbef.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,879 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Sinpalataiklac is madadaingaz qabas",
+  "titleCh": "早期的教育",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "布農族的傳統生活中沒有學校，但有其獨特的教育方式。",
+      "ab": "Maca Bunun qabas uka’is nanu’ takdangi’an masipul, uutu maiza amin ca makanvaivi ka sinpalataiklac a sinkukuza, macqas amin tu na makua taqus maikikingna.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/78716b286b479e2c380f54ed824c20fc.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/bd4dc194caf49f7d81c7b5af68314c49.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/72654239f64e23b7e292b2ff8bdfd099.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/053d8a2a92bb58b04cc3ae7cc800b26a.wav"
+        },
+        {
+          "ab": "uka’is",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/88fa79c8a8da4b11c67773b922e38a7f.wav"
+        },
+        {
+          "ab": "nanu’",
+          "ch": "專門",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/131e780d74d36cfc2919b9f37959878f.wav"
+        },
+        {
+          "ab": "takdangi’an",
+          "ch": "地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/e656caa707b6084f4b83c08b745c5236.wav"
+        },
+        {
+          "ab": "masipul",
+          "ch": "上學",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/62c880f7baaa479a675b0851c87d6ee3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uutu",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/bd2a1a6e0107aeffa22ecd24ced240f8.wav"
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/172985d91d86103727d23c2173caaeee.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5e5ade707b12bec4b3c06ce7bc10de65.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b9e9567763877786d428f0d3f7731e97.wav"
+        },
+        {
+          "ab": "makanvaivi",
+          "ch": "不一樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/6cc027d1eec4ea0bb34b0d12647974d9.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/c7c968fb3363e4385611350933a1d585.wav"
+        },
+        {
+          "ab": "sinpalataiklac",
+          "ch": "指導；教育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ab3c42259b393fa11e2f4cf0142bab8b.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/05b4defdee45c6f2a4307c7392d9193d.wav"
+        },
+        {
+          "ab": "sinkukuza",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ed5bf03c1a6a63ff014fb1492fc40264.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "macqas",
+          "ch": "清楚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/f0fc8e9738793a103c437e0ee18f0d44.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/47d01fada1407b8b0529157e793e8a98.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4a154064b48c8a27f26bbc9d5be15029.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/98400807cb7ec4e5a03a15734225d1b2.wav"
+        },
+        {
+          "ab": "makua",
+          "ch": "如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/6c100265d3c1b160ac4808b884fdefda.wav"
+        },
+        {
+          "ab": "taqus",
+          "ch": "教育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ccfbd9034a4206efbc4b7a368c25937f.wav"
+        },
+        {
+          "ab": "maikikingna",
+          "ch": "少年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5db6a42099a907b1feb373b42f27e24d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "從布農族的傳說故事，也可看出族人如何教育孩童。布農族人非常重視善的德行。例如族人推崇勤勞、謙卑的德性。從很多的故事表達父母親負有傳遞他們的信仰、自然觀、生活禁忌、生活智慧。",
+      "ab": "Maca pintaiklac is uvava’az ca bunun, na pakaca’an is paliqabasan a qalinga, mantan ca Bununi’ kasauqbung saduus hinuzangan. Maca paliqabasan na qalinga mangki’ a maqtu’ ishaiqin is uva’az tu ma’az ca kadadu’un ciin ma’az ca kaisamuan, maszang is tu pinqasmav cina pisidungdung is is’ang, misnaca’an paliqabasani’ ca madadaingaz iskungunu nais laituza’an, talmaupa’an, kisamuan ciin taiklac is iniqumican.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/cf1a716622db5c2e3b6b94da2fe2b0e8.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/94e4178c1c437a82545d107148f59f2b.wav"
+        },
+        {
+          "ab": "pintaiklac",
+          "ch": "變聰慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/9e334d63efb840e5ac353c7f5c79eb89.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2e3d7dd2818089b4eebab93c0a2d5211.wav"
+        },
+        {
+          "ab": "uvava’az",
+          "ch": "孩童",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b851a627191c5386f854ca8cfa1f61e7.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/8a2f775540896fb5515e3bfeca127ba1.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2e2a4406b38f795cc3f98528f10f08f9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/380fdbc9b7d0cd06808b7e86ff1d881b.wav"
+        },
+        {
+          "ab": "pakaca’an",
+          "ch": "藉由",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/aed0b98243a6c02b066afadd324df936.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4bb7590e37f5c1980071e567806e0642.wav"
+        },
+        {
+          "ab": "paliqabasan",
+          "ch": "傳說故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/31a552bb330bdeaa5c4a9ab3ccbad369.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ff154d2b35cc5512c38e1d59a47d52da.wav"
+        },
+        {
+          "ab": "qalinga",
+          "ch": "語言；事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7a9e1383a44450cc7a2cebcfbd22dfab.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mantan",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7e646b4ec264dbfae5d3699abd1ab0c0.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/79e09b788706ab5b9c7ffa6fc5258642.wav"
+        },
+        {
+          "ab": "Bununi’",
+          "ch": "布農族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/e2f8f6feb2d59239e34f89bdc4bbaef5.wav"
+        },
+        {
+          "ab": "kasauqbung",
+          "ch": "重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/465f9232025978f8fd01ce1a0156be61.wav"
+        },
+        {
+          "ab": "saduus",
+          "ch": "看待",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/aeb508c85bacd86e6e8e1ccb71861123.wav"
+        },
+        {
+          "ab": "hinuzangan",
+          "ch": "行為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/1a5edc6251971a112d6ccc9b4ebc024b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/575bed0c9e0f0ada3f26b8dec98a1124.wav"
+        },
+        {
+          "ab": "paliqabasan",
+          "ch": "傳說故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/105321e99352835acf0670d977fc71f1.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/31cf4f6883398b06c96ce12144fc7deb.wav"
+        },
+        {
+          "ab": "qalinga",
+          "ch": "語言；事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4916e5a6c54ff59fdc11ff7dc64095a7.wav"
+        },
+        {
+          "ab": "mangki’",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a033925e44500edecfcfbb8ef8ea481d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/58876dddad5256db9056b80c45063ce4.wav"
+        },
+        {
+          "ab": "maqtu’",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/50667217d2bdc16127ffb6654d992383.wav"
+        },
+        {
+          "ab": "ishaiqin",
+          "ch": "勸戒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/aaaa6fd02fad7f2f80e3785c0d068e2d.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/324fd03958724e32847aa8b8e35b511f.wav"
+        },
+        {
+          "ab": "uva’az",
+          "ch": "孩童",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b0e080637c490a362a148e1b5f6d16e0.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/02d6717cb65448ed9604e5248bf612d1.wav"
+        },
+        {
+          "ab": "ma’az",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/674ee9b72570427a8d75addc9c5c11e9.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/13ad871d10a46f6e262e67f70cf55140.wav"
+        },
+        {
+          "ab": "kadadu’un",
+          "ch": "適合的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2379df1c1515a3c1bcb8b0a0c22775e3.wav"
+        },
+        {
+          "ab": "ciin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ded243bb4fb90d7e51588c49bae4324b.wav"
+        },
+        {
+          "ab": "ma’az",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/c3939fbc1f7e884a7a6d49dc3d027956.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b7cdd73f7c754b4933ade3fae2e68c31.wav"
+        },
+        {
+          "ab": "kaisamuan",
+          "ch": "傳統禁忌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/55d7db7b22f5e30b28c2b3098a44aa86.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maszang",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ceed547d51a5fd70d9c2ffd3f8e42789.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d81cda717480036a6a75b050d281e8dd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/e5c160fed70f0df34d43bda0de257970.wav"
+        },
+        {
+          "ab": "pinqasmav",
+          "ch": "變勤勞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/51c2f5f8f3b01b9758b4b614ff60b59a.wav"
+        },
+        {
+          "ab": "cina",
+          "ch": "或",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/58b97209841e5de1fae30b4fb378e02d.wav"
+        },
+        {
+          "ab": "pisidungdung",
+          "ch": "使謙卑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7360c835c9b6103251af6b719954d0d1.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/e4a29ee64f4cf8a75f40b04944a6dc98.wav"
+        },
+        {
+          "ab": "is’ang",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ad0fe262918b57501b894c2417fecc85.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "misnaca’an",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5916611a2ec8045849ee52e5048761cc.wav"
+        },
+        {
+          "ab": "paliqabasani’",
+          "ch": "傳說故事裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/393761e32aa190cbc757db476a0ea57e.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/19316b8689a5a7fa2a496ffa49c81862.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/92572f21ea27d89eef36cb45b3fd3218.wav"
+        },
+        {
+          "ab": "iskungunu",
+          "ch": "交待",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b1fd0e618d422ee2192eaf080f944a1c.wav"
+        },
+        {
+          "ab": "nais",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ae6f2541d5f2d9a1c97e2e626aa9c58b.wav"
+        },
+        {
+          "ab": "laituza’an",
+          "ch": "信仰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a8d63453f982bdb093879f2a7ff8e214.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "talmaupa’an",
+          "ch": "習慣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/bd2715676a02d0acd3ce72f8f7b99202.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kisamuan",
+          "ch": "禁忌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a3a28df8fa6954b96c62c6f705d3bd67.wav"
+        },
+        {
+          "ab": "ciin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/97b6f23839b99e2d3034647fdc715276.wav"
+        },
+        {
+          "ab": "taiklac",
+          "ch": "智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/668b3f3db10d787acaa015b85039ef35.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/21e567dac6574df0059e6a1c2fdd3fe8.wav"
+        },
+        {
+          "ab": "iniqumican",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/fec844d7612b2f1edac93f320d41a73e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "布農族的歌謠也反應了我們的生活寫照，有些是描述小孩在大自然中自由自在的玩耍，有些則是反映兒童負擔家務的辛苦。所以無論從故事或是歌謠來看，布農族是重視孩子的。",
+      "ab": "Mu’amin ca sintusauc is bununi’ tu maupin amin is tutuza’ a iniqumican, maiza ca palacias sintaldaingan is uvava’az, maiza amin ca kinangu’an maqaipus uvava’az. Daqat maca minaha’an ta paliqabasan ciin sintusauc tan’a saduu, mantan ca bununi’ kasauqbung saduus sintaldaingas uvava’az.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/488b61cdb2ed8e51ee8c634c3215e176.wav",
+      "word": [
+        {
+          "ab": "Mu’amin",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/81db22471c741538fe06130fd51b631a.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/3f9be7bfcc860f2ca029853f32748375.wav"
+        },
+        {
+          "ab": "sintusauc",
+          "ch": "歌曲",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/35552701b84a9ce4cd7f72ef85aae443.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a8fcacd0972b3244d9092be1d3c6f967.wav"
+        },
+        {
+          "ab": "bununi’",
+          "ch": "布農族的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a65daa2d77588f2fb99257b639871940.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/cd14ec673077aaf075159ad0e473d899.wav"
+        },
+        {
+          "ab": "maupin",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/23113d6d66b5b29925282e95f2dfcbc9.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/097e6b1e98259d370051ea4a3f13c9f0.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ba723c471a7847980706880aaee2ea40.wav"
+        },
+        {
+          "ab": "tutuza’",
+          "ch": "真正",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/cfc79e5b808e51c4494d5cdf8e4cac16.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5c619e25cc6d469dd3f17f2dd0dccc5d.wav"
+        },
+        {
+          "ab": "iniqumican",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/8f1505e23e9e5c12cf05651e8ac2cb7c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/458f2dc81e02222f34a3a2feb6f85c9c.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4e92cae1e0aedabebae84667a05b7e38.wav"
+        },
+        {
+          "ab": "palacias",
+          "ch": "關於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b52cc46efbb0de3ff323d1d5590c2f69.wav"
+        },
+        {
+          "ab": "sintaldaingan",
+          "ch": "成長的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/f04bb99bfef691a58e88a5c09b32ab2d.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/f91f6545bd201548e7bbcf3f0eca8511.wav"
+        },
+        {
+          "ab": "uvava’az",
+          "ch": "孩童",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a3a386d19a3eb341fc08798c30b9041a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7564e9ef63b82d7347f5a65537a73248.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/6ee5c1fe40950ffa4492d11aecb991df.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/68025a074ddbbf900014514fa0b498b8.wav"
+        },
+        {
+          "ab": "kinangu’an",
+          "ch": "辛苦",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/28708e1b5006bc72041346e3dd04d087.wav"
+        },
+        {
+          "ab": "maqaipus",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4e7c439488977c84cfd008abc3c838a3.wav"
+        },
+        {
+          "ab": "uvava’az",
+          "ch": "孩童",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7a687b49105524f6ae84e390438fe3c4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Daqat",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/8f74db8b795331b046912598e8d7c2fd.wav"
+        },
+        {
+          "ab": "maca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/16725de77447508ebc4c8c90a0033ad9.wav"
+        },
+        {
+          "ab": "minaha’an",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/8dafff3fa5c49afabf9dc0f87b659503.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/38dd514d76424d067c22fdf4b5bf800d.wav"
+        },
+        {
+          "ab": "paliqabasan",
+          "ch": "傳說故事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/f42fe38d01177377792cd467db65d352.wav"
+        },
+        {
+          "ab": "ciin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/37bc0388b66f6e70a8dbce5769e7caf2.wav"
+        },
+        {
+          "ab": "sintusauc",
+          "ch": "歌謠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/143aa4c79dde7a4d40e96098c5a492ea.wav"
+        },
+        {
+          "ab": "tan’a",
+          "ch": "聽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/cbe5ef162e41eefe897c138c1ff5f3bd.wav"
+        },
+        {
+          "ab": "saduu",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7c0d1a3ebf70c528338a93b779e17e08.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mantan",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2b6423c1be084b31ad5f76196ec9f9fe.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/674cf33419bca1222f1923bd5c02c9ab.wav"
+        },
+        {
+          "ab": "bununi’",
+          "ch": "布農族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/1160a01e35f799f4c9ea48bae315857d.wav"
+        },
+        {
+          "ab": "kasauqbung",
+          "ch": "重視",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/f0d92bf8e499cdd3a704321fc0410c0d.wav"
+        },
+        {
+          "ab": "saduus",
+          "ch": "看待",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/fddf1f013fc7ad7533d821dcd2cba1aa.wav"
+        },
+        {
+          "ab": "sintaldaingas",
+          "ch": "成長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/8c93583e55fccc9c5b8a5be7e5a100fd.wav"
+        },
+        {
+          "ab": "uvava’az",
+          "ch": "孩童",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/3ad61b203d39bb28c7a292b967d3f525.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "而在技藝學習上，學習初期是以觀察模仿為主，大人會實作給小孩看，例如打獵、織布、釀酒等。在不斷嘗試錯誤後，最終習得技能。",
+      "ab": "Maca ha’an pisqanciap matas’i mama’az mangki’, maca laupang kitnga’ andadasun ca uva’az pasaduu tataqu, maupas qanup, matin’un, pindavuc, na tudiipin ca uvava’az minqanciapin is sinkukuza mangki’.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/72f973ca1ea9ff65e4ca8485efe3188a.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "即是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/e86fd6b1aed763ba58e8bc8edd0d4ef3.wav"
+        },
+        {
+          "ab": "ha’an",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/6811ac1dd40cdf3897dd626cdf380f37.wav"
+        },
+        {
+          "ab": "pisqanciap",
+          "ch": "練習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/165f08230d04ddf846115d6c971327a6.wav"
+        },
+        {
+          "ab": "matas’i",
+          "ch": "做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2aee1f89f18d67f177d72ecb769287e9.wav"
+        },
+        {
+          "ab": "mama’az",
+          "ch": "東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4c69e28a53efc3567b468708fcdf22c2.wav"
+        },
+        {
+          "ab": "mangki’",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4fef019b80ee408244a74c360da53f18.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/9d5c7651967b84957472f939c8f7777f.wav"
+        },
+        {
+          "ab": "laupang",
+          "ch": "剛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ab7e290508da12583bcfdd6c87de8f32.wav"
+        },
+        {
+          "ab": "kitnga’",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/95fcab5a13aa0226c6c7ba7ee3aa113a.wav"
+        },
+        {
+          "ab": "andadasun",
+          "ch": "帶者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4a312fc4f116285153ca4cbb0d031c6d.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/dc823bed5df671ab204b95fe29f77ef5.wav"
+        },
+        {
+          "ab": "uva’az",
+          "ch": "孩童",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d9f862d4f366fa578aba371a75a6b4fc.wav"
+        },
+        {
+          "ab": "pasaduu",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/12f5918f01370c4fabca549e35657e86.wav"
+        },
+        {
+          "ab": "tataqu",
+          "ch": "教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/3d91a5ece54b086486d1573a93d2f94b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maupas",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2e6eea10fb809067edde1de6c95fcb90.wav"
+        },
+        {
+          "ab": "qanup",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d61de96bfcbd5f0a27b463697f542119.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matin’un",
+          "ch": "織布",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/6dd851bfb85f6da77ea83ecd9a6e0da6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pindavuc",
+          "ch": "釀酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d56ee2a612a9ea6885c3169c60ecea36.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4cf74f094d50e52c41911ca622abe608.wav"
+        },
+        {
+          "ab": "tudiipin",
+          "ch": "到時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/93e6b28464cecde882d108bfa2596447.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ead8eae731cb75f840406fd965b00c01.wav"
+        },
+        {
+          "ab": "uvava’az",
+          "ch": "孩童",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/bc9aebcae1f88e005a4e7e1e5f7dd541.wav"
+        },
+        {
+          "ab": "minqanciapin",
+          "ch": "學會了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/97b4698c5b7083c75216ea356acaf658.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ffb5401d6e4b8d9cb273d057787ef212.wav"
+        },
+        {
+          "ab": "sinkukuza",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5f43b3e0368a3b9fb0bc06ba06e95415.wav"
+        },
+        {
+          "ab": "mangki’",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/743638f324811a7fec094a10c1d30969.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

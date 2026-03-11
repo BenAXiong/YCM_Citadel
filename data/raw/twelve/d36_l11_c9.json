@@ -1,6 +1,798 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "matalriholriho’aengakai ka dhidhapeni a’ivivai la a’olalai",
+  "titleCh": "男女生的工作界線模糊了",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "過去的舊萬山，男女有明確的角色分工。例如狩獵可說是男人最重要的事情，女性在部落負責釀酒、刺繡、串珠繡、編織網袋、做背帶等工作。而在現代樣貌產生差異了，界線逐漸模糊。例如出席部落會議不再僅限於男性，女生也可以參與。他們認為：「我們可以選擇任何工作。」女生們可以當軍人。而且未來可能會去山上狩獵、電魚、抓魚。",
+      "ab": "ka’Oponohae ’aamadhalae ’a a’ivivai la a’olalai omiki tapaiconganae dhidhape. ’ina a’olalai ’a tokocingainga oloalopo. ’ina’i a’ivivai ’a tovaa iki valrio, paca’e, dhokici, dhorepe tocihoe koa. \r\n[===]\r\nla ’ina’i tapapia’engai menenga ’a maiconganaenga, ka matalriholriho’aengakai. kai la ’ina’i oradhopeelengakai ka a’olalai, odholroo a’ivivai moanga takapalra cinekelae lo ikini pa’oliliolini. “odholronga pilri ’i dhidhapaanai” mia. kai loa a’iviviai tadholronga moa hiitai. matalaki lo vilrilaenga, amodholro moa holrolo olopo, pobatilritilringi, ’ika’aka’ange.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e3382d04bf0fc4a4928f77199e206b7a.wav",
+      "word": [
+        {
+          "ab": "ka’Oponohae",
+          "ch": "舊萬山\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1918d2870e965831aa7746f3e21e98a1.wav"
+        },
+        {
+          "ab": "’aamadhalae",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a7e50ecc01a078e823631784d40f7c72.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ffd47b4f4378c5ef7aa7337ff348843f.wav"
+        },
+        {
+          "ab": "a’ivivai",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3c2540bc998fe1dbc862abf68a0098f7.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/48f80cac0ddc63054f8f6d2cc6b1d208.wav"
+        },
+        {
+          "ab": "a’olalai",
+          "ch": "男生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/416be900108ec7965d0277148a870471.wav"
+        },
+        {
+          "ab": "omiki",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d27db3eb564d31dd9e954002d414cc10.wav"
+        },
+        {
+          "ab": "tapaiconganae",
+          "ch": "區別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/eb52463368ecd850262863fc1bc53272.wav"
+        },
+        {
+          "ab": "dhidhape",
+          "ch": "事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9df24f76bfe31c165e5528b11749543f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ina",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/14f96bc6dcb010c1bce84b9f6616081d.wav"
+        },
+        {
+          "ab": "a’olalai",
+          "ch": "男生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8e6b024a041cef87f9dfa6d030ef051f.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/29683e970905822fe56a0cc56c24004d.wav"
+        },
+        {
+          "ab": "tokocingainga",
+          "ch": "最重要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8ed0f9f4393893ca9f077d85e09dcbcb.wav"
+        },
+        {
+          "ab": "oloalopo",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/efc4ba2ff3e924592e07704becb2ef4d.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/2880baa297ed4507039f9adaa19143ff.wav"
+        },
+        {
+          "ab": "a’ivivai",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/486546627d9dfe7ace3ab34962d98dbf.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a78851b4d565a7ffca95e6bec968afc8.wav"
+        },
+        {
+          "ab": "tovaa",
+          "ch": "釀酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/02415100f3b8f3a5b065f856911650ee.wav"
+        },
+        {
+          "ab": "iki",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e81e5a7900c3f18c08f5b00676463eba.wav"
+        },
+        {
+          "ab": "valrio",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/42ac0996649997f02e97ecf0d97f5b99.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paca’e",
+          "ch": "刺繡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/64483720db124c2c455dd7b0bb190f63.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dhokici",
+          "ch": "串珠繡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/08a2ce63a5c0e2d66d0abdf7f7a6b9b9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dhorepe",
+          "ch": "編織網袋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/019e31c1e38041339161784090dc589f.wav"
+        },
+        {
+          "ab": "tocihoe",
+          "ch": "做背帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/f3db4d34ea8490bf93603ba2dec09f34.wav"
+        },
+        {
+          "ab": "koa",
+          "ch": "什麼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/598291756b30a3d2d718c456fd4f3aae.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7623a1e5568349429cb17e895b98328e.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/db1177b7b201ea03130ecbc7b5b1531c.wav"
+        },
+        {
+          "ab": "tapapia’engai",
+          "ch": "他的樣貌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ef26d429afbd4f242084d4f8adf76f59.wav"
+        },
+        {
+          "ab": "menenga",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c4f4e5464a58227950cdb9416786ec36.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/12edff3a6d148607c597aa6ea092c2ae.wav"
+        },
+        {
+          "ab": "maiconganaenga",
+          "ch": "差異了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c264ec56f4718502ca0bf0b7c451a273.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b67459004539a93e6308460615ec85a2.wav"
+        },
+        {
+          "ab": "matalriholriho’aengakai",
+          "ch": "不一定知道了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/d9a62b4f7f61142b3de67b97b9f7211f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/568fe58ba4afa54d2db108fbd57a1f11.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8cb34cb40bcfd61da106959e312225bf.wav"
+        },
+        {
+          "ab": "’ina’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8697b4f0f58a67b0ddda7f97380e90e3.wav"
+        },
+        {
+          "ab": "oradhopeelengakai",
+          "ch": "不只有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3a25dac984087370eaa8f661da3a4cfe.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "否定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3e838e45969b3251c87de135f1a06aa5.wav"
+        },
+        {
+          "ab": "a’olalai",
+          "ch": "男生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1c592342af57fa39f416e7c857f032f2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "odholroo",
+          "ch": "也可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0b733a77e616e3cf3f47726c2ea60926.wav"
+        },
+        {
+          "ab": "a’ivivai",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e01f047ee365942e63c04ac752f887a8.wav"
+        },
+        {
+          "ab": "moanga",
+          "ch": "去了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/997232e873dab1d8420ed899245e9954.wav"
+        },
+        {
+          "ab": "takapalra",
+          "ch": "參加",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8a6b72281358afce56c9a63d75cc6559.wav"
+        },
+        {
+          "ab": "cinekelae",
+          "ch": "村民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9ad1682f05849763b797f2d2d33c109b.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/84069d41a042684dd176a305d5899c03.wav"
+        },
+        {
+          "ab": "ikini",
+          "ch": "他在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c12fb038b5c67263d252c314662910e6.wav"
+        },
+        {
+          "ab": "pa’oliliolini",
+          "ch": "他們討論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cec76740b203e24e43c5fe29aba64ccd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "odholronga",
+          "ch": "可以了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c3ebb7b73c58c0dfa809cb44c275d960.wav"
+        },
+        {
+          "ab": "pilri",
+          "ch": "選",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fb2e913df9baa5acf8ae28c8e956982b.wav"
+        },
+        {
+          "ab": "’i",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a3243dfbfcd574a188eb33aa558de8c0.wav"
+        },
+        {
+          "ab": "dhidhapaanai",
+          "ch": "我們的事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/251239b6ba31f7f0bb96398bf479b99c.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/36858e771d63218e76d040340aadf5fc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kai",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/73cdc715a3724b9b2b18e587faaa5e41.wav"
+        },
+        {
+          "ab": "loa",
+          "ch": "嘗試",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5f6822d5360cc578d12424b4ea6788dd.wav"
+        },
+        {
+          "ab": "a’iviviai",
+          "ch": "女生們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/448399a510ab511a724ec89e4cb28e45.wav"
+        },
+        {
+          "ab": "tadholronga",
+          "ch": "可以的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c6bfce8debe1c0e957d4aceed4d6f1b9.wav"
+        },
+        {
+          "ab": "moa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/597600e8640b2278f167977055871680.wav"
+        },
+        {
+          "ab": "hiitai",
+          "ch": "軍人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/18d519f79841a7629faa656ab8262791.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matalaki",
+          "ch": "而且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a32372169bac518df52e1984d5236aa0.wav"
+        },
+        {
+          "ab": "lo",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a7c67e58d4cc1c08df5ae493b533ab20.wav"
+        },
+        {
+          "ab": "vilrilaenga",
+          "ch": "以後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/7f2fd3b9d82e3cc3d534c115fa20c292.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amodholro",
+          "ch": "將可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/62364c48aaec770e24feaf4cc9822fe9.wav"
+        },
+        {
+          "ab": "moa",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/71eacac9c0386cad3d28329f2a6daca5.wav"
+        },
+        {
+          "ab": "holrolo",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cc5a19bbc9c5b712e120351f7ff2b156.wav"
+        },
+        {
+          "ab": "olopo",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1342a68771c92503ddbaf196ebba639e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pobatilritilringi",
+          "ch": "電魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a51653e0ab93c9a1d6e571f1cb8e43fe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ika’aka’ange",
+          "ch": "捕魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/bae9d273d9e2d208de5d740be95afd50.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在2018年公告男生和女生可以通婚，而多數的教會都表示反對，也有很多教會表示不可以這麼做。在萬山的語言中，沒有娘娘腔、男人婆的詞彙。我們全部稱呼男生是「ivoko」。女生則稱作「lamae」。而對於伴侶稱作「kili」。失去伴侶者，無論是女生或男生，我們為「’amaelaenga」。",
+      "ab": "[-AP1-]2018 caili pokavelenga ’aolai la ’avai dholronga maaoa ’acakelae mia. la kadhao kiokai taki’ihaohodho. omi’aa kapangalae ka madhaokai ka ta’ihaohodho pi’a ana mia. ona’i vahata ’Oponoho ikaodho ka ocao taapa’aka’avai, taapa’aka’aolai. cekelaemita ’aolai ’a “ivoko” omiamita. ’avai ’a “lamae” iia. lamengae ’a “kili” iamita. ’ina taikaodhonga lamengae nika’avalraadha, nika’aolalraadha, “ ’amaelaenga ” omiamita.",
+      "order": "2",
+      "sound": "https://alcd-nine.s3.ap-northeast-1.amazonaws.com/files/2022/03/26/f7dc71ab94bf6cdd4cd39012bab9a32b.wav",
+      "word": [
+        {
+          "ab": "2018",
+          "ch": "2018",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/9b55682cef16cacd51f5b1f0648668fa.wav"
+        },
+        {
+          "ab": "caili",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/707f9c1ae303db4f629db94f932d820a.wav"
+        },
+        {
+          "ab": "pokavelenga",
+          "ch": "公告了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/0d9e5b27f625651982416c512e3dc9b8.wav"
+        },
+        {
+          "ab": "’aolai",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/38caace1c94357f0d718dc33be59fa1e.wav"
+        },
+        {
+          "ab": "la",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3656a48f1fcd9c57ad149ef2f2dc333e.wav"
+        },
+        {
+          "ab": "’avai",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a3a1b9c132ac1384dfe1de533eaa88b4.wav"
+        },
+        {
+          "ab": "dholronga",
+          "ch": "可以了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/115a44d0ab65cbc8e2bf839908a21ef3.wav"
+        },
+        {
+          "ab": "maaoa",
+          "ch": "互相去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/92f9edf230cc6d1a88d042db3a431f4f.wav"
+        },
+        {
+          "ab": "’acakelae",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/33161d7e585c330b8ee80ced17fc344c.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a9e44685efac2005faa1435395378625.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ffc88999debfc698543cba8702e386f6.wav"
+        },
+        {
+          "ab": "kadhao",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c8980b0a030541759b5f4fd992dae7e3.wav"
+        },
+        {
+          "ab": "kiokai",
+          "ch": "教會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a6b849aa7790788ff8d9aff6dab19274.wav"
+        },
+        {
+          "ab": "taki’ihaohodho",
+          "ch": "不答應的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/3a2037dfe2884d96cebe1fffe1435897.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "omi’aa",
+          "ch": "也像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/eb3a4a4779f88523c2e935282e5c944d.wav"
+        },
+        {
+          "ab": "kapangalae",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4fcfbc4ff9cdc69101b1445c1f7330b8.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/27956af58b6f65f65d352303a017277d.wav"
+        },
+        {
+          "ab": "madhaokai",
+          "ch": "不多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/27acb9c854bc1b29c4fbe1373035251b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "否定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b0b7733f8b00b538a4a4785d5105cab0.wav"
+        },
+        {
+          "ab": "ta’ihaohodho",
+          "ch": "答應的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ba14249059fb285f8cac4be710865f48.wav"
+        },
+        {
+          "ab": "pi’a",
+          "ch": "做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b17760a5fdd499ed1dce83f01bff9d2d.wav"
+        },
+        {
+          "ab": "ana",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/617e3ff3655fae11d4ca3895419381c1.wav"
+        },
+        {
+          "ab": "mia",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/91b569345afea790aade072601596f62.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ona’i",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/b3fb90da621c1a7477a39ebdb662372a.wav"
+        },
+        {
+          "ab": "vahata",
+          "ch": "咱們的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4be26047d63b536034aa08a09886500d.wav"
+        },
+        {
+          "ab": "’Oponoho",
+          "ch": "萬山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/84407ee67b37657453b8f874e41e4e1f.wav"
+        },
+        {
+          "ab": "ikaodho",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/29eda8ee78391f8e944c7f9d97453c14.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5802db71544a36232aaf9a6a8ec934d2.wav"
+        },
+        {
+          "ab": "ocao",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/aeb360ab0b000fd943a4c0b8ea8f3c24.wav"
+        },
+        {
+          "ab": "taapa’aka’avai",
+          "ch": "娘娘腔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/054eaebd23d8168f0ebce5279eb69406.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "taapa’aka’aolai",
+          "ch": "男人婆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8d25b6d00cb2f7e7ebe4dcda8e4c6442.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cekelaemita",
+          "ch": "咱們全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/5b23b9971d12dab6a2dba32c531ab7ee.wav"
+        },
+        {
+          "ab": "’aolai",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4f5830d0d8fa91b8441e622947929974.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/39eb7eecfe26492082de5557cff8aa25.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ivoko",
+          "ch": "男性朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/33a4645a6e51cf3e74061c280b3c6b82.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "omiamita",
+          "ch": "我們這樣說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8356da6260ce57e2c54a29316e4f9366.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’avai",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/29e631948d3868f04a8bde7d836738d4.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/fb2fc49af9f6a23880d9842860bc3320.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lamae",
+          "ch": "女性朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/cbecdbe928a28d588732bc9827055254.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iia",
+          "ch": "也說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/185d5d35ffd5130d1b5446b9a7942ced.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lamengae",
+          "ch": "伴侶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e6d1387718fc9d321dac286a43da3505.wav"
+        },
+        {
+          "ab": "’a",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/996365e3fdef9ae134d1986f6ddf876d.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kili",
+          "ch": "伴侶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4e9341595e3be90d06ba6e97e7d83bdc.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iamita",
+          "ch": "咱們這樣說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a75122dd55cbd0d70de8dd21503d0873.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’ina",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/15b7e714ba19b8e622c99e9a0e5db93a.wav"
+        },
+        {
+          "ab": "taikaodhonga",
+          "ch": "沒有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/e71a0bee766f821cb1c8a1028d06ad41.wav"
+        },
+        {
+          "ab": "lamengae",
+          "ch": "伴侶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/228c41642e50f79e90cd74dd9bcae961.wav"
+        },
+        {
+          "ab": "nika’avalraadha",
+          "ch": "無論他是女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/4abf77bf9a6a0c43764322331e1fdc68.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nika’aolalraadha",
+          "ch": "無論他是男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8a4fc03065182e5794d9c0af0962fd8d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’amaelaenga",
+          "ch": "守寡了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ee1d613d264f4b6ea0e9d85075b998ff.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "omiamita",
+          "ch": "我們這樣說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/17ecafdb56f8d93940c0b914cee82983.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

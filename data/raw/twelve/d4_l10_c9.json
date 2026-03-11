@@ -1,6 +1,581 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "pinaresaresan na vavayan lra na ma’inayan lra",
+  "titleCh": "性別平等",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "根據部落耆老敘說，射馬干人向來注重兩性平等。傳統以來，在我們部落，都是以男女平權來看待族人的。",
+      "ab": "kinger ta i dekalr na dawdawan nu venavati kana pinaresaresan da ma’inayan di na vavayan mu, kanta dekalr i Kasavakan kema mu, kinaawacanan diya, na vavayan lra na ma’inayan lra mu, adi pinarekamelri mena’u kema.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/11/2a58f49626150f82e4d7ba4d4c923e09.wav",
+      "word": [
+        {
+          "ab": "kinger",
+          "ch": "聽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/9d5951f159af474d003c9fc6f35af462.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/4336f7e84ca672e3f6ea62a2d67c87af.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c31ba1daf2f50d6ab7e17182a067e003.wav"
+        },
+        {
+          "ab": "dekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/ac0cc045737916963285e58df2b820fd.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/aa31b79ac4dd4b9cd5ab279d70a507cd.wav"
+        },
+        {
+          "ab": "dawdawan",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/74c12bbaa74d13c2b891cd7673d61370.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/aa4e158fe64e07d8ce88c7d83f1efbcf.wav"
+        },
+        {
+          "ab": "venavati",
+          "ch": "解說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/eaa88660d97aa2a15400335bcf9d93ac.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a950a02b1b668e8ab259c8963d0aa144.wav"
+        },
+        {
+          "ab": "pinaresaresan",
+          "ch": "公平",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f4f9d243533e15138abf1f0894553b9d.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/575977901a43b7e5d68b119533189cb3.wav"
+        },
+        {
+          "ab": "ma’inayan",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/55f909c30e28f2ccfcf1a78a97a8e6fd.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b613186077f040e11f8af208d5dba204.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e003b11d909a9a57cb85ca4b81007644.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e57c6446502bd9c94cc78c3d92dc0c5c.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "的時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f364a1d9e81d39cf8b39ef670d193e86.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kanta",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/3a12d7c80a0ad80a67c03a10822fe92a.wav"
+        },
+        {
+          "ab": "dekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/7c72b3b74029b369b7a04864b098456d.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/e10187f8b82bef064d601912daefab39.wav"
+        },
+        {
+          "ab": "Kasavakan",
+          "ch": "建和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/527bba59407d77a16595c906fa7211b8.wav"
+        },
+        {
+          "ab": "kema",
+          "ch": "據說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/5404d88548d6c1475bcb23c1fe136dbe.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "的時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/cd53fc1ab204157351c91d2abd01c24d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kinaawacanan",
+          "ch": "自古以來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/3017443713db7627f38a1d94a7ca5860.wav"
+        },
+        {
+          "ab": "diya",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/bba9394daa8c273105960cfedd1d51d9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/a0678290f4aae6d46a585b357d2122fc.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/317a0b126253f5299567b437d8260796.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/f2f3e2f6504f5f7fffe0862f51002514.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/4ba675e15cfed4f021f1704da440ca81.wav"
+        },
+        {
+          "ab": "ma’inayan",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/cae75ffe416737061f5cefcca96873fb.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/28c4f21aff693f7cd036ee2f40cdb95f.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/21379351172bcf5a2ab06efa45b49125.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "adi",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/dcf9d91ef7fc13cf55691ba37c133a18.wav"
+        },
+        {
+          "ab": "pinarekamelri",
+          "ch": "分別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/c13eec7cb6bc9c1b1a0ad07f3b34db72.wav"
+        },
+        {
+          "ab": "mena’u",
+          "ch": "看待",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/b2e35af7079f64ee49e2721b62faea7f.wav"
+        },
+        {
+          "ab": "kema",
+          "ch": "據說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/11/00444c42e8e187eea8a86e5747775701.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "家中雜事大多由女性負責；男性則要擔憂家人生計，並負責較粗重的工作。",
+      "ab": "na kiyakarunan diya i savak mu, mau na vavayan na kiyakarun. na ma’inayan mu, mareanger datu iyavaaw i ruma’, di micepa diya kana kinaaludunan na kiyakarunan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/11/546c7db00a7ea7f4ee164855c22b1efe.wav",
+      "word": [
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/59b7237df7a09f847c5348517940b3fd.wav"
+        },
+        {
+          "ab": "kiyakarunan",
+          "ch": "工作；事務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/96a0960c8838d18af036df8efd037f0b.wav"
+        },
+        {
+          "ab": "diya",
+          "ch": "只要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/938e19cf8b4cab474ddea9f523c92c09.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/32e5aa8e5896ef5711e6ce1eb164a50d.wav"
+        },
+        {
+          "ab": "savak",
+          "ch": "家裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/754baa5bda2eeab536bb707609c07c90.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/046158f3d57633a07ccec00b8328f9c1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mau",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/fa2d2de2587509df5e86aa0585707748.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/0a4c60e3eaaae2e7d088a99296fa61d5.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/ad6f4bbacf0b7390ee2dc42592f619e0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/74c6b0cef2b73bba9ac5310a4bec5b4d.wav"
+        },
+        {
+          "ab": "kiyakarun",
+          "ch": "工作；事務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/d4f35d5eed406f74ff765deaaa5d4533.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/c68841175de74c0d74c4466b3c9b441a.wav"
+        },
+        {
+          "ab": "ma’inayan",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/f8cab1ed24cdf994deb0256388914cee.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/a6357a1a79db54c9e29099296d07d1dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mareanger",
+          "ch": "考慮；擔憂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/71c6943949d7358c09d58584b39448d4.wav"
+        },
+        {
+          "ab": "datu",
+          "ch": "它的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/a06a3d20957ec093b23ca8c5ca2cab98.wav"
+        },
+        {
+          "ab": "iyavaaw",
+          "ch": "生計",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/6ccebd7b4b98e58c763907edfe5ebadc.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/9a4064f6c5a6db6578aee082621ac72d.wav"
+        },
+        {
+          "ab": "ruma’",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/38550e6ffde6df7c36680aa1ac11906f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/5652c7b6979580eec0d23153c24c57cd.wav"
+        },
+        {
+          "ab": "micepa",
+          "ch": "負責",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/ba519f55abc88b5d3652a2040f4216e2.wav"
+        },
+        {
+          "ab": "diya",
+          "ch": "還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/80b6aaa218599bc0a78adefe18a7035d.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/8149979bb75c7eac633312dd6e668d23.wav"
+        },
+        {
+          "ab": "kinaaludunan",
+          "ch": "最粗重的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/e2707a63375feec11bfda48f778de2ac.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/94a0a115d904667a74b0bd83cf89d8e6.wav"
+        },
+        {
+          "ab": "kiyakarunan",
+          "ch": "工作；事務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/2ef13478be8327cde43fcac009fdcfae.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在部落裡，男性和女性都有各自負責的工作，所以沒有誰特別應該被尊敬、被疼惜、被歧視。如此分別看待的觀念是不存在的。",
+      "ab": "na vavayan di na ma’inayan ulra tu pinicepayan da kiyakarunan i dekalr. semalra uniyan na mianger da pinarekamelri kana i eman na kairayin kalramanen, di i eman na taraemanen na cau. uniyan na kemaani mianger.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/08/f3f798dc6b150abe265d77c3e46538a9.wav",
+      "word": [
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/fda2cb09a8e7517dc4c688a46e85c87a.wav"
+        },
+        {
+          "ab": "vavayan",
+          "ch": "女生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/a2117c56f9f664d54cb976d6cc7204e3.wav"
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/0f851295b7439f9357fb4279b4f4877d.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/3cba29f44fe3deed477946b8b03e9804.wav"
+        },
+        {
+          "ab": "ma’inayan",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/6494a35bdfaec8c96f1a0103fa6c3fd7.wav"
+        },
+        {
+          "ab": "ulra",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/74fb72c724ed41477a7482afdbb534a9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/70293bdc9468802e4edd3c569c462597.wav"
+        },
+        {
+          "ab": "pinicepayan",
+          "ch": "所負責的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/9b5083f7c90ee000e434e22dd75f0bfd.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/9892a4296380361dd94b997f088a4eae.wav"
+        },
+        {
+          "ab": "kiyakarunan",
+          "ch": "工作；事務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/dcff0b8dbd2a160ac24e366ba89b1840.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/00b5315b28ab5eb83128664d27849313.wav"
+        },
+        {
+          "ab": "dekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/1aaabe7d1a811594703c2093a4d64fec.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "semalra",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/2f7af1218062ed959a6f78522552df5c.wav"
+        },
+        {
+          "ab": "uniyan",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/2b45eff9c8b89150444adfeb1802a86b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/aba81f3021fe3f08fbe0587bc19c78e6.wav"
+        },
+        {
+          "ab": "mianger",
+          "ch": "想法；觀念",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/d59e59555118dca63504d13f17978dae.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/bbacd1b5952a04d411ce1cf5344d701f.wav"
+        },
+        {
+          "ab": "pinarekamelri",
+          "ch": "分別",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/059e725cdc1ae14e5317b71e9d10fa58.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/5cea3a8865bff68b1a9b46fe3512c7cb.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/580dd25a73c667f68717d0c233bb1ae4.wav"
+        },
+        {
+          "ab": "eman",
+          "ch": "誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/bade442c128e00657f3c7c06b2e1e939.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/ed5d6dbe34d076980766f2f90c00c543.wav"
+        },
+        {
+          "ab": "kairayin",
+          "ch": "尊敬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/7cf865cfc88ec59cc9d77babfc38e820.wav"
+        },
+        {
+          "ab": "kalramanen",
+          "ch": "疼惜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/4d11a238a3fd1c9801973dc00fba1b0d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "di",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/dda237ebe1964dc23810f077f592635f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/589bc7a2464aeb58cd3e56072722897a.wav"
+        },
+        {
+          "ab": "eman",
+          "ch": "誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/021b70ef48be3f049c8ec9864e251b89.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/c1ce1801e79939dfbea8ee42333c00fb.wav"
+        },
+        {
+          "ab": "taraemanen",
+          "ch": "歧視；糟蹋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/2c8f09773d40dd4b22aa43eec28f6618.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/d0ae205c142c0aa84e1f7a7c20c0c7e5.wav"
+        },
+        {
+          "ab": "cau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/110878bf5c0fa6010d8e984c83fd90c6.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uniyan",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/0098e61f46c4beacf233458d668f98de.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[功能詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/18/a7e1c3627a2620590c19820b3ed347b8.wav"
+        },
+        {
+          "ab": "kemaani",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/08/61ca67b3d734fb54a6107534360f0e58.wav"
+        },
+        {
+          "ab": "mianger",
+          "ch": "想法；觀念",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/07/08/14d81db5993e4eeb867e19d1c8df7a1a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

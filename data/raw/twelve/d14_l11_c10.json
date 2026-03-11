@@ -1,6 +1,885 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Marakace ku kinaumasane pasikay ki cekele",
+  "titleCh": "強身營造部落",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "「醫藥」這詞語稀奇又好笑，引用蛇的圖騰，出現在醫院、診所、軍醫等公共醫藥機構，意義及價值非凡。",
+      "ab": "Matiasamali lamatialrupi kikay vaga si pacase kikay “SULRAW” amia, arakay kikay nagane ki waudriudripi ka dulay. Lamialri ikay ki dukipi ki tarasulrasulraw ki takisulrasulravane ikay kaumasane, ki takisulrasulravane ki biwingi, ki kuapingi, maadraw turamuru ku luludane si patharevane.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/23/3a46407b6d05664f76f049fcc6090d46.wav",
+      "word": [
+        {
+          "ab": "Matiasamali",
+          "ch": "很驚奇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/bdb170be96b592c5d94c028177ad506b.wav"
+        },
+        {
+          "ab": "lamatialrupi",
+          "ch": "又好笑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/07/08be243023440e681740cf5e2ca710e4.mp3"
+        },
+        {
+          "ab": "kikay",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/bbac3789c86ac29378d029088842b038.wav"
+        },
+        {
+          "ab": "vaga",
+          "ch": "語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/d3a0f464f952e2953cd72827cdb1f488.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/6628d2b41dfa1bef9977e8661483f16b.wav"
+        },
+        {
+          "ab": "pacase",
+          "ch": "文字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/88546108b01794b8557eda2132352cd4.wav"
+        },
+        {
+          "ab": "kikay",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/4e1d54e321abea0bc57d27e038129d4a.wav"
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "SULRAW",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/f4b87e35f7951cff7c967781246b8bb6.wav"
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amia",
+          "ch": "之語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/0b14eccefe7719259c7246564f5da9b8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "arakay",
+          "ch": "用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/4fb755713c322ede1e960828d95b5116.wav"
+        },
+        {
+          "ab": "kikay",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/0191c34341b40188b90664968b55e8a6.wav"
+        },
+        {
+          "ab": "nagane",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/302ac80e3ff291e068d1c0840ac27ddc.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/4e3e2c1885949b623580f92078d56c7d.wav"
+        },
+        {
+          "ab": "waudriudripi",
+          "ch": "動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/c1bc4e63121e98993fd8dea7790a6c44.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/98f478b3df39dbd9e8c9a8cb220df680.wav"
+        },
+        {
+          "ab": "dulay",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/db86ecfc80a55d250be9d298957ce383.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Lamialri",
+          "ch": "同樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/d4a7fc411606c9d5cbc1b62ecca44697.wav"
+        },
+        {
+          "ab": "ikay",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/07140f1ba0734d4ddb04cdecaa88084d.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/a866220dc2fe5bea8c6c421cd42a2a1d.wav"
+        },
+        {
+          "ab": "dukipi",
+          "ch": "圖騰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/f82ced219a862a79ef2d425bedc9fbee.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/b0650996a61e827b8fa24449436fae48.wav"
+        },
+        {
+          "ab": "tarasulrasulraw",
+          "ch": "醫生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/057ce5407288289ceb12329f89eee2ca.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/599bcd985b43f329c8c391db4d90823a.wav"
+        },
+        {
+          "ab": "takisulrasulravane",
+          "ch": "醫院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/90a94e161d2eb45b6d900d6dafb47486.wav"
+        },
+        {
+          "ab": "ikay",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/1cf19e8ab7abf95934437fa147229f9b.wav"
+        },
+        {
+          "ab": "kaumasane",
+          "ch": "世上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/2bf9cc938c656faf01f2296f9774dd4b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/c2c032952299b1a07e4e005814af10c2.wav"
+        },
+        {
+          "ab": "takisulrasulravane",
+          "ch": "醫院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/1a886e4bc161341181b8efc16b80a891.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/58f7faf622e4c64c6b51fe7fcef5971a.wav"
+        },
+        {
+          "ab": "biwingi",
+          "ch": "醫院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/5804f1ad30d669a2fa653b583a64120d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/22f22992ecfe283d62041aa4578edcc6.wav"
+        },
+        {
+          "ab": "kuapingi",
+          "ch": "軍隊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/32dd50eeecc0aec96e142cad34896445.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maadraw",
+          "ch": "大",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/09fa030ac007095fe545efc8a0b77261.wav"
+        },
+        {
+          "ab": "turamuru",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/60adb41dbdfdd00b0b2e439ac03af991.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/b51ecddc44b03eb6722514fdfd365be5.wav"
+        },
+        {
+          "ab": "luludane",
+          "ch": "價值",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/592ce64f80d8d1051d8ade3b002309e0.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/90f99cceeb6d51c36fd14469e1767189.wav"
+        },
+        {
+          "ab": "patharevane",
+          "ch": "意義",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/31d39ab9c2bc8d5028fcc4ed34acc28c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "對此，有兩種説法：蛇，「是你給」的意思；陽光，是所有蛇類的總名稱。",
+      "ab": "Kikay drusa ka vaga, su-lraw, su wabaai amia, lraw ledra ki vai amia, sulraw amani ku nagane sanakadulay sanakasulraw.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/23/df93aaf99b661ceee31ea795f6639f3f.wav",
+      "word": [
+        {
+          "ab": "Kikay",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/3b4d8dc18bec4fa5b1020e9e6536a888.wav"
+        },
+        {
+          "ab": "drusa",
+          "ch": "兩個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/15aa80e8b3982272b3d8937057230c90.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/f7ea50cacd0952cdff52367bc5bbeab4.wav"
+        },
+        {
+          "ab": "vaga",
+          "ch": "語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/e5d10d995344f8dab8f7c1286a5ec295.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "su-lraw",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/75b412a21d861a7ec28bb6c30ccd2b05.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "su",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/b6e8faf31f2627f87597c5198faeabc5.wav"
+        },
+        {
+          "ab": "wabaai",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/3e81124c75e55e8e2ae60e11257cb908.wav"
+        },
+        {
+          "ab": "amia",
+          "ch": "之意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/2441840d33aec971b0ed6a785b3acdd7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lraw",
+          "ch": "陽光",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/099f3cefe2965d722bdb53d21e823754.wav"
+        },
+        {
+          "ab": "ledra",
+          "ch": "光線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/0bbb6cb1b62037d9ee12bfb67c8a0e26.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/8aecb318a7f5ec9640108d0dde452fcb.wav"
+        },
+        {
+          "ab": "vai",
+          "ch": "太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/9be3ba23545dbbda6d7459f844fd666c.wav"
+        },
+        {
+          "ab": "amia",
+          "ch": "之意",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/592a4aa65bb923c670da0d40a189380e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sulraw",
+          "ch": "醫治",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/adea085263d138419feb4d559bcb31dc.wav"
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/f455b946d4f44373090148f1184b9e22.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/0a96e3727461e7726bfce5ef0969cc15.wav"
+        },
+        {
+          "ab": "nagane",
+          "ch": "名字",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/b0881a25407fc4e5fdfef99ef79d9c36.wav"
+        },
+        {
+          "ab": "sanakadulay",
+          "ch": "任何蛇類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/07/01ca663a1d3af18122fa4aa2dcc74d70.mp3"
+        },
+        {
+          "ab": "sanakasulraw",
+          "ch": "所有蛇類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/07/4837b7057aa5e8c1f6f9909094b99dfc.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "以前是由祭司、女巫醫治病患的身體和心理問題。",
+      "ab": "Ku sidrumane, amani kikay taratulrisi ka sawvalay si taraivigi ka ababay, ka tarasulraw ki macaeme ku kinaumasane si kidremedreme.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/23/29c9f8da03cfa8530b6dda7036bd1ce8.wav",
+      "word": [
+        {
+          "ab": "Ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/ae3933a42afdfb86648b12b21efb435e.wav"
+        },
+        {
+          "ab": "sidrumane",
+          "ch": "古時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/e75ea4d3fce93464257edc9a0c641e63.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/d5f171e09cb3c7f9ed282fc97981b403.wav"
+        },
+        {
+          "ab": "kikay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/1df9425a2743bb2733dbad619d74a49d.wav"
+        },
+        {
+          "ab": "taratulrisi",
+          "ch": "作法者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/480e81d7c2a8a11611a67984400d6111.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/81ff7c1524b0a4ad035cb6629f304f68.wav"
+        },
+        {
+          "ab": "sawvalay",
+          "ch": "男士",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/a3f0bec59cebeb60553ec80bbfd5dfdf.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/fe2eb2f0560c8352918c5f805455a602.wav"
+        },
+        {
+          "ab": "taraivigi",
+          "ch": "女巫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/68ba02e59a7aca903b4f80a0deb123c4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/4a5ed828fc707c01c9d4bc30cb5bfc5a.wav"
+        },
+        {
+          "ab": "ababay",
+          "ch": "女士",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/23/017baf01ce4bc24aeeee0ee976299117.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/43355de92efc0d84ec267ba3044ad521.wav"
+        },
+        {
+          "ab": "tarasulraw",
+          "ch": "醫治",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/23/b57f42aa7a61eaa2ff6f1642da2137a5.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/e4d6ab173a186b9bf516613901e68b80.wav"
+        },
+        {
+          "ab": "macaeme",
+          "ch": "病患",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/8c767cde57fbe2c5ce63057cd5836a21.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/07/9f2f05ae5710420501597f3da397af85.wav"
+        },
+        {
+          "ab": "kinaumasane",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/1298f82c1c5e6d6fa6ae644c7a45b236.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/07/d1062b64e6c5d29c79cccc0ae295532a.wav"
+        },
+        {
+          "ab": "kidremedreme",
+          "ch": "心理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/e553b49257a2b973dd10f2f4f597be68.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在是以有正式醫學素養及技術，預防和抵抗疫情的人為主要醫護。",
+      "ab": "Alakamani kikaynga siasasanane kay patengatengane ka kiabulru ku tasulrasulravane si tasiraparapalane si tatusasulrasulravanane si kiakaruburu ki makucingalre ka lacaemane ka lasualrubu.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/04/bfbe0711a25a6faa3c098d34a244b97a.mp3",
+      "word": [
+        {
+          "ab": "Alakamani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/07/9299a0e2d542d2d605895d28b7e470bf.mp3"
+        },
+        {
+          "ab": "kikaynga",
+          "ch": "如今",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/500c5a6e28f748acf280867bfb3950cb.wav"
+        },
+        {
+          "ab": "siasasanane",
+          "ch": "現代的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/23/4cea9cd17f678c53abb1da62fce3af49.wav"
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/055fc070ac6cc728b4c2e7819c10e36d.wav"
+        },
+        {
+          "ab": "patengatengane",
+          "ch": "真實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/77d76b0dcfbe280604c70489c4f064ba.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/7c2c58011b8475657d8daefa023acf40.wav"
+        },
+        {
+          "ab": "kiabulru",
+          "ch": "受教育",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/6ad04796bf03283e7a67af744426d446.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/50b7c6f77168c7e75a9b067c4f70397a.wav"
+        },
+        {
+          "ab": "tasulrasulravane",
+          "ch": "醫術",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/77ad164956ebc32ae5ad5e9be4ef8fa7.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/a611ba6dfb09a873205aef660401fc3c.wav"
+        },
+        {
+          "ab": "tasiraparapalane",
+          "ch": "照護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/4b6ec9e4327f9d14627181047efb1958.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/3542d331258a71e6b5677fb23121b839.wav"
+        },
+        {
+          "ab": "tatusasulrasulravanane",
+          "ch": "醫院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/04/4f479fad9b9595111208c5228f55f959.mp3"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/a187c933e73c118ca6b78f66f772a5ce.wav"
+        },
+        {
+          "ab": "kiakaruburu",
+          "ch": "作戰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/5a543bdb1dd0f0adad0908c55d43df8b.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/5cc723b4f0b888633f4aa1e3b543769f.wav"
+        },
+        {
+          "ab": "makucingalre",
+          "ch": "嚴重",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/cc975e6b8728264fda0557cc573ab90d.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/4ced8f35dc1c393cca8c3c80148b86b3.wav"
+        },
+        {
+          "ab": "lacaemane",
+          "ch": "病症",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/20fe02b5a110fa45a145022688c4c8db.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/33a7215f9f6f7d44d596f568d25c777f.wav"
+        },
+        {
+          "ab": "lasualrubu",
+          "ch": "疫情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/267798a6412b54a00950ec280f15c01e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "同時，由政府制定和管理醫政、醫藥、醫生和護理師，減少因生病而傷亡的數據。",
+      "ab": "Kay suasihu lakamaninga ku wakadrenge kay takisulrasulravane si kitarumara ku lrigilane kikay ki lriakuisange si kathariri kay kinaumasane, kivalanga ku ngualay ki takacaemane si avetha ku niake, adravane ka maduay sulraw ku matiakuru.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/07/23/6a207504117405c4a2d388c738f09761.wav",
+      "word": [
+        {
+          "ab": "Kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/9ef42deebb9d9c21f0b179fa45e57fe3.wav"
+        },
+        {
+          "ab": "suasihu",
+          "ch": "政府",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/8eede753e92ff6605afa92fa899651fd.wav"
+        },
+        {
+          "ab": "lakamaninga",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/03f036d28e91949e61ee072818cfe9a3.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/2a9418b443189e91347b819e06c484ae.wav"
+        },
+        {
+          "ab": "wakadrenge",
+          "ch": "管理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/9482fa543ef013bd857cbb1efbd45bb0.wav"
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/b00bcd679d7b7bb6a3262db12c70ec0f.wav"
+        },
+        {
+          "ab": "takisulrasulravane",
+          "ch": "醫院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/ab9c29614d848c5d64e09f922925241d.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/5a30710a8af03567edee457eba3e9ada.wav"
+        },
+        {
+          "ab": "kitarumara",
+          "ch": "認可",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/72ad8dd8124336c31c6cecc648370d98.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/43fcc1029e8b83045c7f0ea6c5f10821.wav"
+        },
+        {
+          "ab": "lrigilane",
+          "ch": "智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/932aa1562dd6f6058db655430f763d95.wav"
+        },
+        {
+          "ab": "kikay",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/a44f4a070ec52de6d390f330bd960287.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/3cdb9715b5157401cb2840e11ad587d3.wav"
+        },
+        {
+          "ab": "lriakuisange",
+          "ch": "將當醫生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/14/f5dd9cac89a91c277ccf864a32f40383.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/6234ae8f77e0f63b0201ccbb89ab4542.wav"
+        },
+        {
+          "ab": "kathariri",
+          "ch": "健康",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/6ca6add12b33842eb9fc1b7929efcbf3.wav"
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/c0a3f0b9b12b94a2148df0ec62657973.wav"
+        },
+        {
+          "ab": "kinaumasane",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/f94252f260c789c4e0bfdc01bb7ab1ac.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kivalanga",
+          "ch": "減輕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/33dd0188d8540b90707e424a9afbba4e.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/8dad7c9b0f9ee3b1337b713f20a850a4.wav"
+        },
+        {
+          "ab": "ngualay",
+          "ch": "因著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/793bbaedb1c9cd3918e9bea3fec3585c.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/0b81789be475cb95e954d11f73f8bab2.wav"
+        },
+        {
+          "ab": "takacaemane",
+          "ch": "生病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/0a0fee1fc72008246d5503a791fb8a42.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/789cd44b61b3099d28c20bc884dcf62e.wav"
+        },
+        {
+          "ab": "avetha",
+          "ch": "冤枉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/a852ba1eb60b81dbab0676bc41c48b0c.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/8f0579982ce04e7437d8375776b3098d.wav"
+        },
+        {
+          "ab": "niake",
+          "ch": "生命",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/efcb1fd5cdae90833ec3921bcf30a009.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "adravane",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/a896806aa6d9ffb4a84a9c46913ea695.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/84f051d4dd105c20a13ecd026c819413.wav"
+        },
+        {
+          "ab": "maduay",
+          "ch": "容易",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/153f08f81bce94a093b6f55f77fded4f.wav"
+        },
+        {
+          "ab": "sulraw",
+          "ch": "醫治",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/3e2fcefa46474ca27423a2d1cd5fbdb1.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/8eac1005b9a320aedb75ea1b7d280d3e.wav"
+        },
+        {
+          "ab": "matiakuru",
+          "ch": "貧窮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/8050cb758ce927318e00bbcc31dd2891.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "人民身強體健才能報效國家，在世上稱心如意地生活。",
+      "ab": "Lukathariri ku kinaumasane ki mapaapangale katararakace ku lripasikay ki cekele, ngualualuadhane ku taikayyane kaumasane.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/01/21/1c508f548e902673c239b187a28cdb30.wav",
+      "word": [
+        {
+          "ab": "Lukathariri",
+          "ch": "若然好轉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/07/5abeff16f3c9c5f6642ca42e3f711495.mp3"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/572d14f536cfe06fd1cd38ff29c56941.wav"
+        },
+        {
+          "ab": "kinaumasane",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/9b13fabfa703d2eab40fea4538546076.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/2557751fc005850b3c7ec4c40723cf41.wav"
+        },
+        {
+          "ab": "mapaapangale",
+          "ch": "民眾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/60200e07c7e6463039ede4a8b62769bf.wav"
+        },
+        {
+          "ab": "katararakace",
+          "ch": "健壯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/e9de183a682c9f06a4bdba89dd15ca26.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/dcbaf6f4b43f0363afdf3d6aaacd924c.wav"
+        },
+        {
+          "ab": "lripasikay",
+          "ch": "服務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/4af42f2538ae50c1ca0f101c6989b4fc.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/7ec84281f87ce3a89b1fd161148a61ff.wav"
+        },
+        {
+          "ab": "cekele",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/83b406e2e99520e0cb7674b3edfdd382.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ngualualuadhane",
+          "ch": "心滿意足",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/31ad4a44598fad3659bd645252e96bd4.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/969697c82f370531b55172aabaf5d209.wav"
+        },
+        {
+          "ab": "taikayyane",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/0f00a4e589b955635384d303def531e3.wav"
+        },
+        {
+          "ab": "kaumasane",
+          "ch": "世上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/05/7cbc46c64f8eceb98cc6aa54f1b75d94.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

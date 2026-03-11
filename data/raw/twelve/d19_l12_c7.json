@@ -1,6 +1,682 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "aguw",
+  "titleCh": "酒",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "酒，在爸爸媽媽的努力，開墾、播種、除草和收割，小米粒粒都是大人的血汗。\r\n",
+      "ab": "aguw, minoh kinangṟat ni yaba’ yaya’ kora’, kunaga’uw, mamuhi’, kunlalabah lu kunloh, ututux ṟablung turakis abuk na nabkis kora’.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/22/babed57ddcc5cdbc9eef511ac83dc785.wav",
+      "word": [
+        {
+          "ab": "aguw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/a42e69e8eb93aae5e2d494e2726e0800.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minoh",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/fb81a761e184e687aca789fc399c410f.wav"
+        },
+        {
+          "ab": "kinangṟat",
+          "ch": "勤勞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/15463ed3cba51f042181197cfabb2ff5.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/51012ce5c30c9e061a25f5bdd3618ecc.wav"
+        },
+        {
+          "ab": "yaba’",
+          "ch": "爸爸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/4e428d156d26cff6bf8b418db8b4af74.wav"
+        },
+        {
+          "ab": "yaya’",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/8aa02b5ba9dedcf59db15aaee91f005a.wav"
+        },
+        {
+          "ab": "kora’",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/4d6575ab0c54ef0739b6c0de0dbd4c46.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kunaga’uw",
+          "ch": "開墾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/2ae6eacd3f2be116b041593bad8f235d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mamuhi’",
+          "ch": "種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/91203ba5c0cb300d90ce222661928f43.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kunlalabah",
+          "ch": "除草",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/b147eeed35eb32ad3772dd9b87e7fe37.wav"
+        },
+        {
+          "ab": "lu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/f2cd80867e00de20830037ec59164c42.wav"
+        },
+        {
+          "ab": "kunloh",
+          "ch": "收穫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/89114c4de8001168dfb0fafdb5ac48f8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ututux",
+          "ch": "一個個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/62fcdb3b92315d83b59f51191a7a23ec.wav"
+        },
+        {
+          "ab": "ṟablung",
+          "ch": "顆粒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/449f30cc8fed3aa3bde29de313daa62f.wav"
+        },
+        {
+          "ab": "turakis",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/d7f3f1e532df91af9cb02a0d330d0330.wav"
+        },
+        {
+          "ab": "abuk",
+          "ch": "辛勞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/85de83b91cd1c627fa9d0e2d8c0556af.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/41811618e605ca1813505ac058a2ecc8.wav"
+        },
+        {
+          "ab": "nabkis",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/0595103940a8b5c923667ba8c3d379f1.wav"
+        },
+        {
+          "ab": "kora’",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/0695f6518283f343ac0e0220f35adfc2.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "酒，聞起來好香醇，苦苦、甜甜、酸酸、辣辣，這是我媽媽釀酒專有的手藝。",
+      "ab": "aguw, ana kora’ sinkanaxan. sabisen, cacibing, mangangihuṟ, sa’urik kinuba’ ni yaya’ mu ka maguw hani.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/23/eed991a5d408f0478a5bfbb5e174b73b.wav",
+      "word": [
+        {
+          "ab": "aguw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/f7aae999d420bc176a855ce844221fb1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ana",
+          "ch": "不論",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/e193815082967202bd9294becf49245d.mp3"
+        },
+        {
+          "ab": "kora’",
+          "ch": "全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/08/f680643d3603ad75f4beaaff1ec02cdc.mp3"
+        },
+        {
+          "ab": "sinkanaxan",
+          "ch": "香氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/60dd4916199e05860d6f5d19b29b3890.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sabisen",
+          "ch": "澀的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/d60d8e3dfa06d6f6779f6ce0e1205e16.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "cacibing",
+          "ch": "甜的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/2d2fb1904012290a1a4f845eb8d92002.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mangangihuṟ",
+          "ch": "酸的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/ccabd3c39f257c0266f2b8b19e7aadc9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sa’urik",
+          "ch": "辣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/917a63e031b7feda351077ae7c29d7e9.wav"
+        },
+        {
+          "ab": "kinuba’",
+          "ch": "智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/0e13e0434704f77332ffa87d7112c311.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/7047e7a11350be68d800651f5abb5d8c.wav"
+        },
+        {
+          "ab": "yaya’",
+          "ch": "媽媽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/41948d0c52a59f055c17767848ed4aa0.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/284577d3ac5da4d7fba4f2a196d6af56.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/700037731b141edac141769c30d9a4ef.wav"
+        },
+        {
+          "ab": "maguw",
+          "ch": "釀酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/d6128a9a7319fa14a65514ef0429e913.wav"
+        },
+        {
+          "ab": "hani",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/3a9ab9c25e059e7e71a65253036b4827.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "酒，是奉獻給祖靈，行祭儀、結婚、慶典，和運動會的時候，祈求祖靈能夠庇祐我們，降臨許多的祝福。\r\n",
+      "ab": "aguw, bini’ ci lakkotas paslakotas, masuṟe’, sungsung lu masasli’ matatalang, hita gunlasuw itan ka lakkotas, be’an tani ci kinsababale’.\r\n\r\n",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/23/e63a401aee2343e4db5753d452714936.wav",
+      "word": [
+        {
+          "ab": "aguw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/287af76b907d46cc7784a0e857bb29dd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "bini’",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/0dea89b36b31ae3dc81ba12aed15b028.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/4718efd2a366c0bbdc583b9395903a02.wav"
+        },
+        {
+          "ab": "lakkotas",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/00997587a2a679a8204fdca6c34305c0.wav"
+        },
+        {
+          "ab": "paslakotas",
+          "ch": "祭祖",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/9c84b373e2adcf044fa5201b839f3318.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masuṟe’",
+          "ch": "結婚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/6abd1c40f7da7282f9dc57ed0af1b155.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sungsung",
+          "ch": "過節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/94a47164081db9c3a5efef9bc2b95384.wav"
+        },
+        {
+          "ab": "lu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/3bcff5744ad3cc0ccee6694e0db3c657.wav"
+        },
+        {
+          "ab": "masasli’",
+          "ch": "聚集",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/9e2cf9d2087957f747163f8a9b724d2b.wav"
+        },
+        {
+          "ab": "matatalang",
+          "ch": "跑步",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/df6ae5573837de60b104222ff1f18f3b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hita",
+          "ch": "希望",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/e8c1df5fecc2a081899d93ec143fd7ec.wav"
+        },
+        {
+          "ab": "gunlasuw",
+          "ch": "照顧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/cbf34d077d77ceb84dbd15a03be43168.wav"
+        },
+        {
+          "ab": "itan",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/1611d27148b1dd7f609ac770a89d60a1.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/223dacb503b1b7159ab4f6cb8a6a2c57.wav"
+        },
+        {
+          "ab": "lakkotas",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/d04ccc7ae03cc85440037e5d410b2941.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "be’an",
+          "ch": "給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/4bbb39ab639f012b39af3565870ca322.wav"
+        },
+        {
+          "ab": "tani",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/1b1448dfe22ffc15baa04a9d73f6e392.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/8f46a8a62849eef86dd9dce27f918180.wav"
+        },
+        {
+          "ab": "kinsababale’",
+          "ch": "祝福",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/5f12adaa20e12d7feb94fd4985794a33.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "酒，過量的暴飲，是病痛的開始，痛風、癌症，和種種的疑難雜症。",
+      "ab": "aguw, tanaguw caṟung ga, pu’ing na kinmuxal, muri’uṟ, gang, lanlamu’ na kinmuxal.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/23/37fe03edb094835eb8c2d0d3b1200dc7.wav",
+      "word": [
+        {
+          "ab": "aguw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/0db5c8e5d888c1707cf0d52e8bafb43d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tanaguw",
+          "ch": "酗酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/6f059407b46bbb889765d131a22ed9b1.wav"
+        },
+        {
+          "ab": "caṟung",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/837b640e1e8a3226e96fb1d20f67cbf5.wav"
+        },
+        {
+          "ab": "ga",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/e8bc8f886292d18fcfbe7b3dc7a927d0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pu’ing",
+          "ch": "根源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/f66e6ba7781c587a4a8d27777200076e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/9ec60d351d3fde393f90ac00879d8089.wav"
+        },
+        {
+          "ab": "kinmuxal",
+          "ch": "病因",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/7ea6f73ed15f82d90de4b41f9db779df.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muri’uṟ ",
+          "ch": "痛風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/9a0630e557a5be40686aa35572f4265c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "gang",
+          "ch": "癌症",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/3a62eff9845b185b673160ea282da164.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lanlamu’",
+          "ch": "各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/7f75e25f2488659898496c76c3bf8117.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/554d4c3a809ab69d1d4a01bae236e795.wav"
+        },
+        {
+          "ab": "kinmuxal",
+          "ch": "病因",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/35f54310e0770fdf9cd0fbad4facd6d3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "酒，適量的喝，才不會傷害身體，手腳靈活、血脈暢通、眼力亮麗，身體健康，家庭每個人，生活幸福也美滿。\r\n",
+      "ab": "aguw, capngun ma’abu’, kaca ka ini’ hiri’ ci hi’, halilaw ka papak, aba’, ini’ pahatul ramuṟux, pascex ka roṟi’, matakalang ka hi’, ututux hi’ utux moṟow, sababale’ ka kinanuxan.\r\n",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/12/23/ea8fc444c61c4a17fc1005c7b6f8e92f.wav",
+      "word": [
+        {
+          "ab": "aguw",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/97f9dcd8f84bd5adc525eeb232fc681b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "capngun",
+          "ch": "適量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/b8d0dbd85b87c061f827042aa89028de.wav"
+        },
+        {
+          "ab": "ma’abu’",
+          "ch": "喝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/feb9f16938f743064cf16f374082fcb1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kaca",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/22366bc881b97f72b830fa1489dcb450.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/0ddbf9fe6c27921b5e467e3ee09bb15e.wav"
+        },
+        {
+          "ab": "ini’",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/9b3d1aa2f5dd2616b21f4fddf5799b0c.wav"
+        },
+        {
+          "ab": "hiri’",
+          "ch": "破壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/de8219dae52cec492e5b3bc9840532e3.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/6c708b53620347bef401498ffbbdf7fd.wav"
+        },
+        {
+          "ab": "hi’",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/266ebc6865ad17dbbdb1796626464eb9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "halilaw",
+          "ch": "快速",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/932eb2dba7c29be97a30345f6cc6de40.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/d5857f865e21e70a633ff8c03c161edc.wav"
+        },
+        {
+          "ab": "papak",
+          "ch": "腳",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/c1fbd9d2e5dee574fb5c1320ceb5cf4a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aba’",
+          "ch": "手",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/822a487112102b1117cd2ad8509a42c8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini’",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/ef8f9b92c57885eb629974d07d7d60a8.wav"
+        },
+        {
+          "ab": "pahatul",
+          "ch": "受阻",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/18e9515bd556457073da5937b0c9f344.wav"
+        },
+        {
+          "ab": "ramuṟux",
+          "ch": "血",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/4c51a409918c20167e0960d9be2e25da.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pascex",
+          "ch": "亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/05cdc8986e2b8b24008d85413524ef54.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/612dab0f68988bda1d34ff52a39939d7.wav"
+        },
+        {
+          "ab": "roṟi’",
+          "ch": "眼睛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/40dc367df4b29e50f1d97d1398a842da.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matakalang",
+          "ch": "強壯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/d5bf47769dae596419508bcdd683b138.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/785799dadbad0e380cc14bc0af54dfc5.wav"
+        },
+        {
+          "ab": "hi’",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/9cd1b99c35464b0acac70297ede1c149.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ututux",
+          "ch": "一個個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/c1a186d512bd7263ec0e21d3afc7e1d1.wav"
+        },
+        {
+          "ab": "hi’",
+          "ch": "身體",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/2d95134ae0ff4eb79df25c1fe9d4c662.wav"
+        },
+        {
+          "ab": "utux",
+          "ch": "一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/d2d1d02ef1e53ee1936ec593727a58c4.wav"
+        },
+        {
+          "ab": "moṟow",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/7617419ded014149d33aebaa8b2960ee.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sababale’",
+          "ch": "安逸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/92888d472e5483b7596fa38f7ce97ca7.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/bc68a76b391ee7c612a45ba8a73c0b0c.wav"
+        },
+        {
+          "ab": "kinanuxan\r\n",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/05/07ff5113e9a8a00d8bddd21092b15d2a.wav"
+        },
+        {
+          "ab": ". ",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

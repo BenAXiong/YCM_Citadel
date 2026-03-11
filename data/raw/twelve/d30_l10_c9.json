@@ -1,6 +1,761 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Tai-waan mathuaw iaku mushnaw a pruq",
+  "titleCh": "台灣：我最熱愛的土地",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "台灣的旁邊都是很遼闊且深的海洋，有很多很高且漂亮的山，很多人生活在這片土地之上。",
+      "ab": "Tai-waan, thithu a shirshir az’az mathuaw maharan numa maruqruq a wazaqan, ianan sa manasha mathuaw marutaw numa lamaqitan riqazan a hudun, mathuaw manasha sa thau ininthawan isa inai a pruq.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/14/179f7f9a69411b0907b79fbcdf0cf4c4.mp3",
+      "word": [
+        {
+          "ab": "Tai-waan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8469efbc0d66b188ebbaac2364e88e6e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "thithu",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/11b7f61a5eba9553137a47806ee56d36.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a0bcef45d581146183bb8ec6214b8fc4.wav"
+        },
+        {
+          "ab": "shirshir",
+          "ch": "旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/99916d4a8f5c6aa065eecaba07e202c0.wav"
+        },
+        {
+          "ab": "az’az",
+          "ch": "都是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/97922f28a141580e20c5b69ca3dc0d92.wav"
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cf66505e76561dd297d932824c5e6af7.wav"
+        },
+        {
+          "ab": "maharan",
+          "ch": "廣闊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/dd1e54d3d54fd3e6c324ebfb9375e389.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f47e821d99f7c2da1a56175021ba25ae.wav"
+        },
+        {
+          "ab": "maruqruq",
+          "ch": "深",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/20cc4475972ff03c612b1720ac61098d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c0e08ab2ac018375e2a48f8f6c26bea2.wav"
+        },
+        {
+          "ab": "wazaqan",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/849061d7d01aad45203064af72ce9702.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ianan",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d3ef3305d1dd764bc297eb7551a977ba.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1812c2be1b7978f540f3a758646b3f44.wav"
+        },
+        {
+          "ab": "manasha",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1671377f1825c504031c77f6453299a3.wav"
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5704685022daaceb6b972f5061abbbff.wav"
+        },
+        {
+          "ab": "marutaw",
+          "ch": "高",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9881697ed4bb550696ebc68947199a8d.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/79c53c8a7dd335fccf83faa809e9286f.wav"
+        },
+        {
+          "ab": "lamaqitan",
+          "ch": "漂亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9e6bf3799254cf63582fe2a209accf78.wav"
+        },
+        {
+          "ab": "riqazan",
+          "ch": "看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/91eded4f218ab62125142f9980522869.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/59858d3cfbe53a896f7b5ca41339d0db.wav"
+        },
+        {
+          "ab": "hudun",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1e2575aa125c26a6585d6a50014a1da9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0649a96e795321782b6c924a9cc5b33d.wav"
+        },
+        {
+          "ab": "manasha",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/40b7052cfe732d8537dcfeef874e5b24.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c048127676ac993fe52ecc6e6c8e6a68.wav"
+        },
+        {
+          "ab": "thau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6edac638a51992d47a90626eb0a96802.wav"
+        },
+        {
+          "ab": "ininthawan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6aa4b8b16714b6902f7f1127bcd142d0.wav"
+        },
+        {
+          "ab": "isa",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/021dc8a02db486be71b957e17dd996d6.wav"
+        },
+        {
+          "ab": "inai",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f2ec3bd0b91771fdfc8b9f573caf50bb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c32630ae2bdafefe51a550bd69bfdd20.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9d0b0e0078685fb5243931357f9a8774.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "3500年前，台灣的土地上只有我們原住民族住在這裡，中國人是400年前才到台灣。現在只有55萬的原住民，數量非常少。",
+      "ab": "kahiwan makalhturuturu matilaw ianan tarima shaba wa kawash, izai Tai-waan a pruq muqay iamin naur lhkananai a thau, uka sa Tua-duu a thau inai, Tua-duu a thau muqay kahiwan shpaat shaba wa kawash minunaiza izai Tai-waan a pruq. mamzai thuini muqay marimaz makthin ianan tarima madarudaru naur lhkananai a thau, kanuniza itia mathuaw manasha sa Tua-duu a thau isa inai Tai-waan a pruq, iamin naur lhkananai a thau mathuaw ladadu.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/04/25/b17a35aea5a63a743a6609db6a66e9e6.mp3",
+      "word": [
+        {
+          "ab": "kahiwan",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c6a4e5ee4096de6d60f7b9ef20dc6412.wav"
+        },
+        {
+          "ab": "makalhturuturu",
+          "ch": "三",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a6d5abcceaf92001f20881c8472c7261.wav"
+        },
+        {
+          "ab": "matilaw",
+          "ch": "千",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/454cec43118791a3b9e494a2e5d8ad2a.wav"
+        },
+        {
+          "ab": "ianan",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/5f6559288945e54cf41e7e51b2299b14.wav"
+        },
+        {
+          "ab": "tarima",
+          "ch": "五",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/850219d79d29425cdc8d8b477cdfbc7b.wav"
+        },
+        {
+          "ab": "shaba",
+          "ch": "百",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/350ad2caead9cb0c5c9a8485e6b9cbc9.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/fe9ac9b6106b63606a2a7ba2c86884e0.wav"
+        },
+        {
+          "ab": "kawash",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bddde54376c4b5d017697d9897a0a93d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a2d82c8f85808639928e93a0aa85a866.wav"
+        },
+        {
+          "ab": "Tai-waan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/cccc450c911658ddbbb3c1cae93603e0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/43de90bf77895a6438d765cb27ced88a.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1f8253db8e2cd45e0ac62828fe01ff4b.wav"
+        },
+        {
+          "ab": "muqay",
+          "ch": "只",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d2aba651bbae6cdf365887ca20f519d6.wav"
+        },
+        {
+          "ab": "iamin",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/25af179b726d08fe4097cafacbae9a2e.wav"
+        },
+        {
+          "ab": "naur",
+          "ch": "原本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3286a08ceb896274bdd014e32fbd99fd.wav"
+        },
+        {
+          "ab": "lhkananai",
+          "ch": "住在這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/423d7c6043e489dbd8aa92246643b80f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2472781efeb8ca2e90963107d08eb886.wav"
+        },
+        {
+          "ab": "thau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/06a4829fc00c7b72ec83007010e0fb08.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uka",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8d77f1c5fd595f3c38ed6c137e674467.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1d62764187647aa74570a3a0f8f93ed1.wav"
+        },
+        {
+          "ab": "Tua-duu",
+          "ch": "中國",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a73b3ce4fc516b20162512ee82ae508f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ffd45a84a9db1246feea09dbfd815589.wav"
+        },
+        {
+          "ab": "thau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e28bde0952164f8aa648e288cab05f1b.wav"
+        },
+        {
+          "ab": "inai",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bfd7b0cfa3050bfc7edbe2bf8860861e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tua-duu",
+          "ch": "中國",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/999bb84ff9a5813ec209176cf121ac13.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b053127228ed76abed4f0b8a43c85918.wav"
+        },
+        {
+          "ab": "thau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/800c438dfe1bfcd536dc9d213f98333f.wav"
+        },
+        {
+          "ab": "muqay",
+          "ch": "只",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/98e46bff636d21be0c89ad8c2dd45473.wav"
+        },
+        {
+          "ab": "kahiwan",
+          "ch": "從前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1be663448369a59fbe217dc98018b510.wav"
+        },
+        {
+          "ab": "shpaat",
+          "ch": "四",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/28b751dcbfc8fd06752298d17a3ed25b.wav"
+        },
+        {
+          "ab": "shaba",
+          "ch": "百",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d08b97b44fa07b6bf74a6c15aad64dbd.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d0587ce3ade51f7805146d3edd6f1f8a.wav"
+        },
+        {
+          "ab": "kawash",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/eefb0322b2b8505d9348e4407db7e2a9.wav"
+        },
+        {
+          "ab": "minunaiza",
+          "ch": "來到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/21/e845463a2a9267155d7b028d6c7ff5d1.mp3"
+        },
+        {
+          "ab": "izai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c7424f795255aa0f1cf46c42134f53f9.wav"
+        },
+        {
+          "ab": "Tai-waan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9a2a0be4fddadf36f356adf3a549e38d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/995a41883c89bcd1e6d39ecd2d56eb5a.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/3c4b89fe51cf8f31baba41332bc872ed.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mamzai",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c570210429f23225a88501d636391c98.wav"
+        },
+        {
+          "ab": "thuini",
+          "ch": "今天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7f952f62bb69736f71ff3f04a99c0709.wav"
+        },
+        {
+          "ab": "muqay",
+          "ch": "只",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b2518060b99e87b333629133e91ee828.wav"
+        },
+        {
+          "ab": "marimaz",
+          "ch": "五十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b209fd1ad74aedc976a4dc9ae9f8a816.wav"
+        },
+        {
+          "ab": "makthin",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/03ff8da0245c26db758dea3fe5c40fb4.wav"
+        },
+        {
+          "ab": "ianan",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0e480368d457e13eb9117a57a2828170.wav"
+        },
+        {
+          "ab": "tarima",
+          "ch": "五",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f59cde6347594ba16d056e97b920a373.wav"
+        },
+        {
+          "ab": "madarudaru",
+          "ch": "萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/77996a155c0768cbe2f5ecd13984163c.wav"
+        },
+        {
+          "ab": "naur",
+          "ch": "原本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/dfbf1273c2d9337622ee1c533d703a46.wav"
+        },
+        {
+          "ab": "lhkananai",
+          "ch": "住在這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/08bd00674e4781cf80de8574a13a7e37.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0dc64a4b9b4c8d205734751c155d528f.wav"
+        },
+        {
+          "ab": "thau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/fbaad9d70033ea59d08b92e16f59c3a0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kanuniza",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/b4b6a8c8fc48b95f935e03ea5e9e3a21.wav"
+        },
+        {
+          "ab": "itia",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c5e84de96767b5d217316c52c0d20071.wav"
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/a39e192e60c1f60344115215247cb75f.wav"
+        },
+        {
+          "ab": "manasha",
+          "ch": "多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/769c9788f84bc1ec614e9235310d9862.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/7e97d66f2838c18200788809bbadff71.wav"
+        },
+        {
+          "ab": "Tua-duu",
+          "ch": "中國",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6f2740b60c7473a5961e3420dbe810fa.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d545aec70bf269122a71259e31c26a22.wav"
+        },
+        {
+          "ab": "thau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/dc90a9a71f42067621464d05693dcf1b.wav"
+        },
+        {
+          "ab": "isa",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f276700014285032bfaf7243a2a33da0.wav"
+        },
+        {
+          "ab": "inai",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/6b4d47206076dadf8f15c6cff8aea49d.wav"
+        },
+        {
+          "ab": "Tai-waan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8d26ec21c73ca91d2b8047505a6e7e1a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/4863492250efb997afd521bc8bebb1ec.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d64565c0beb5f0d0d8b6f0aeaef086ed.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iamin",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1146e5fcae5fe91e637d8027cc9e11c4.wav"
+        },
+        {
+          "ab": "naur",
+          "ch": "原本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/906da64ff57345a601bcf8807ad4e62d.wav"
+        },
+        {
+          "ab": "lhkananai",
+          "ch": "住在這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/706039cf9751a6d87cc7554a0b90a902.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f7ed7e82b77012e05560fccbee323ca7.wav"
+        },
+        {
+          "ab": "thau",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/e712f51157e80bcd533f92a9548d3f4b.wav"
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9d417c863e58bb27e57432e47bbd8ad7.wav"
+        },
+        {
+          "ab": "ladadu",
+          "ch": "少",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/8487b0689da6771599d41a721015a725.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "雖然媽媽生下了我，但是台灣這片土地卻滋養、照顧和培育了我。台灣這片土地也是我的母親，我愛台灣。",
+      "ab": "mamzai iaku palhi’azazakin naak a ina, kanuniza izai Tai-waan a pruq hmadana, lhungqizi numa lhungquz iakin, Tai-waan a pruq sa naak a ina mani, mathuaw mushnaw iaku Tai-waan a pruq.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/08/14/94af8252ecc535e590086e2530afc4f1.mp3",
+      "word": [
+        {
+          "ab": "mamzai",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/1661b79578c9a10b72cc4403977801bf.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c86b46f25cb83854c6b62bbe16826a44.wav"
+        },
+        {
+          "ab": "palhi’azazakin",
+          "ch": "被生下來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/877ab25f9cdd12bb55bf46bb7a827f64.wav"
+        },
+        {
+          "ab": "naak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/9e9983a30b34ddeb8afd1a56e273e608.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/0a7ba92248ec35ec6d0d090a607bbd27.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/288cd13d1a5602b2174fbbcb728a49a3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kanuniza",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/75c7845493e44cd0161f0fc073b67b7d.wav"
+        },
+        {
+          "ab": "izai",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2324d269629f81b27cfa212c566dca7f.wav"
+        },
+        {
+          "ab": "Tai-waan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/accaf235b0edc5850498425a0c0fb36f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/f373c0eaa6d88216be0f8f9085e8a5ec.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/bef82e2956130e747d913a74a1c2b85a.wav"
+        },
+        {
+          "ab": "hmadana",
+          "ch": "滋養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/13b09361f8f1cdf8872fae54c77570d1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lhungqizi",
+          "ch": "顧養",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/26cfc548f9e843b3e1769b2d13e9f465.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/24c50088504fe8e618239b175d4f1745.wav"
+        },
+        {
+          "ab": "lhungquz",
+          "ch": "成長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ffa21eede4ae8ecea1b787ded25bc9d5.wav"
+        },
+        {
+          "ab": "iakin",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/95c9654b2de4aac0ed1d572ca7ec8edb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tai-waan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/452b283efad05d7e7ff9f42ec80b06cb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/03bb325bb5df7e539868e8e930702d58.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/195091fcceeee097b7a2d6e5205d5364.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d1b79aa32325fcd608be01cb7671a5a5.wav"
+        },
+        {
+          "ab": "naak",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/ec0ce4611e7360d72c3a4f4504e63228.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/51bdcefc2ab286f87800924de7199273.wav"
+        },
+        {
+          "ab": "ina",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/2d12d2c6ab5e4de20d554ba48cdfb8fa.wav"
+        },
+        {
+          "ab": "mani",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c34501ec9b21f9e498f34c71e2f7d66e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/54542969c936ea0358beddabee102b58.wav"
+        },
+        {
+          "ab": "mushnaw",
+          "ch": "愛",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/505cd40e8b9932be3756458143e8e801.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/d17b2131323f6053b8a41c16ebc6733e.wav"
+        },
+        {
+          "ab": "Tai-waan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/c7f47984d2ba6476de9422ac9309b687.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/00780d1b74ca2bbca4e7a7710dacfb2d.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/02/04/71d8eca9ec9083aacff4580a6f808713.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

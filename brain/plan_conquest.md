@@ -42,31 +42,39 @@ Note: Originally Phase 8, this roadmap defined our transition to data sovereignt
     *   [ ] Portal integration: Word-level search and "Dictionary Hover" tooltips.
 *   **Sub-Spec**: [Phase 9 Vocab Integration](P9_plan_vocab_integration.md)
 
-### Phase 10: Data Quality (IN PROGRESS)
+### Phase 10: Portal Architecture Refactor (The Great Componentization) (DONE)
+*   [x] Break down monolithic 1,400+ line `page.tsx` into maintainable, highly cohesive components.
+*   [x] Extract `localStorage` logic and API calls into custom React hooks (`usePersistedState`, `useRawDbQuery`).
+*   [x] Separate UI views (VS-1, VS-2, VS-3, Raw DB) into dedicated module files in `components/views/`.
+*   [x] Isolate heavily repeated UI shells (Sidebar, Navbar) into `components/layout/`.
+*   [x] Centralize TypeScript definitions into `types/index.ts`.
+*   [x] Sub-Spec: [**Portal Refactoring Plan**](P10_portal_refactor_plan.md)
+
+### Phase 11: Data Quality (IN PROGRESS)
 *   [x] **Dialect Label Sanitization**: Implemented Tier 1 & 2 noise stripping (`族語短文`) to ensure cross-course name parity.
 *   [ ] **Corpus Structure/Geometry Documentation**: Build an exhaustive map of the structural geometry (levels × lessons × units) for each corpus source.
     *   [ ] Enumerate every `(source, dialect, level, category)` tuple present in the DB via SQL audit.
     *   [ ] Document expected geometry for each source (e.g. `twelve`: 12 階 × 10 課, `nine_year`: 9 階 × N 課).
     *   [ ] Identify missing cells (dialect × level combos with zero rows) and flag as scraping gaps.
     *   [ ] Export a machine-readable `corpus_geometry.json` for use in the portal's VS-3 and VS-2 views.
-    *   [ ] Link findings to [Structural Alignment Plan](analysis_nlp/P10_metadata_structural_alignment.md).
+    *   [ ] Link findings to [Structural Alignment Plan](analysis_nlp/P11_metadata_structural_alignment.md).
 *   [ ] **Data Purity Campaign**: Scrubbing the cross-language pollution identified in the [**Data Pollution Report**](analysis_nlp/klokah_data_pollution_issue.md).
     *   [ ] Build automated tests for wiring/alignment DB integrity.
     *   [ ] Study spelling discrepancies across corpora for the same dialects (e.g. u/o variations).
 *   [ ] **The Rosetta Pass**: Injecting English (EN) into the core corpus. [**Rosetta Plan**](analysis_nlp/plan_rosetta.md)
     *   [ ] Build automated cross-reference script against ILRDF vocab.
     *   [ ] Implement surgical denylist/override in `lib/mappings.ts`.
-*   [ ] **Reproducible Data Audit**: Final verification of database content exactitude. [**Audit Plan**](analysis_nlp/P10_reproducible_data_audit.md)
+*   [ ] **Reproducible Data Audit**: Final verification of database content exactitude. [**Audit Plan**](analysis_nlp/P11_reproducible_data_audit.md)
     *   [ ] Establish automated raw-to-db fidelity checks.
     *   [ ] Implement language plausibility/purity scan across 42 dialects.
     *   [ ] **Implement Pipeline Nullity Guard**: Add statistical schema assertions (preventing empty `zh` or `audio_url` ingestion) to `master_distiller` to prevent silent scraper failures.
 
-### Phase 11: Advanced NLP & Phonetic Forge (PLANNING)
+### Phase 12: Advanced NLP & Phonetic Forge (PLANNING)
 *   **Phonetic Forge**: Map phonetic correspondences (e.g., `kako` vs `kaku`) and semantic drift.
     *   [x] Build drift matrix from Nine-Year Syllabus. [Report](analysis_nlp/phonetic_drift_report.md)
     *   [x] Identify primary axes (Amis u/o, Bunun q/h, Puyuma l/r/b/v).
     *   [ ] Implement "Standardized Spelling" auto-transcription toggle (VS-1).
 
-### Phase 12 & Beyond: Cultural Immersion
+### Phase 13 & Beyond: Cultural Immersion
 *   **FILC Archive Retrieval**: Digital Library harvest (Essays, Stories, Podcasts).
 *   **Legislation Vault**: Modern policy and administrative term extraction.

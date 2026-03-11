@@ -1,6 +1,769 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Talmamaupa ka na isiqumic",
+  "titleCh": "自然資源",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "布農過去的財產，可分成三種。",
+      "ab": "Maca talmamaupa ka isiqumic is bunun maiza maitaauta’.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/68de521867c10fd6aeaa81ba29b5fa1f.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/577c9d7404b4bc76b436fa2d01c9e894.wav"
+        },
+        {
+          "ab": "talmamaupa",
+          "ch": "自然資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/0bbe06fc948464facdefda9671e52e13.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ed0871ac01726144474982051e55c5f4.wav"
+        },
+        {
+          "ab": "isiqumic",
+          "ch": "經濟資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a879abc3f7c1a28bc441ef47c4966c34.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/fa76a8b55905e1b26b96fbe9d30cd43f.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/3a457c2a89970f2bc961e1a5022a9d2d.wav"
+        },
+        {
+          "ab": "maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b518590f08f076fdba50508e189c8126.wav"
+        },
+        {
+          "ab": "maitaauta’",
+          "ch": "三種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ba93ad87e6e8232a4f7d856effb19059.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "有的是部落財產，凡人民可立即利用的自然財產，就屬部落財產，如河流、山林、可耕而為耕之地、石板等。有的是氏族財產，如獵場。有的是家族財產，如家屋、家具、農作物。",
+      "ab": "Maiza ca ituskuun is maitat’acang, ciat talmamaupa ka isiqumic mangki’. Maupas haul, punal, ludun, libus, maqtu’ kaqumaun a dalaq ciin iskucia ka bistav. Maiza ca isiqumic is maitatsiduq. Maupas qaqanupan. Maiza ca isiqumic is maitatlumaq. Maupas dangi’an miqumic a lumaq, sintata’i ka amin’amin, iskukuza ka amin’amin, sincucuaz a mama’az.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/3ec58d49c54013a816769322afc05a0d.wav",
+      "word": [
+        {
+          "ab": "Maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/66eb083cb341e95a271e085790ff19f4.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7415e69c20ec76786da9f127cfdbdf6f.wav"
+        },
+        {
+          "ab": "ituskuun",
+          "ch": "共有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/20cda14ceeb4c663f8c0833d3e6d83b9.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/26c06c4c7b3cea4b2523d05bdb967e05.wav"
+        },
+        {
+          "ab": "maitat’acang",
+          "ch": "同部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/93294e93d64ab02b26edd6a0abe681cf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ciat",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/85ba3100b71af0380ffcc68913ec009d.wav"
+        },
+        {
+          "ab": "talmamaupa",
+          "ch": "自然資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a5a5e4924b5cfe4ede50353c2fb77800.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/51547a1ed32b55220fb91cf0d113c448.wav"
+        },
+        {
+          "ab": "isiqumic",
+          "ch": "經濟資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/850bfb3c51bd8b3c2d070e00c403677e.wav"
+        },
+        {
+          "ab": "mangki’",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/6c87faed2444e7d59bc6b7f3a8a4f3cf.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maupas",
+          "ch": "像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b823f19082310b3fec02ea92bd8d4f91.wav"
+        },
+        {
+          "ab": "haul",
+          "ch": "河流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/cab6b97e6c1250f4945f1079df57f016.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "punal",
+          "ch": "小溪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b65e559a9aaba5330518f58fb8c2dbba.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ludun",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/677b797f346f82493ecf994c93f89637.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "libus",
+          "ch": "森林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d8520929eef4b367e8b8b5d54c0b0870.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu’",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/94dc7880379f66ce304dcbefa63709e8.wav"
+        },
+        {
+          "ab": "kaqumaun",
+          "ch": "耕作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/53ce42bbd3053c2fa16718a0562398f8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/273f77e61fbd5b19efee6343838fd019.wav"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d7300c9c5ceedf8e30a8e2ba30ce3d27.wav"
+        },
+        {
+          "ab": "ciin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/0d9d8a0c99a48de23be15a14b71e99ac.wav"
+        },
+        {
+          "ab": "iskucia",
+          "ch": "用來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a0c8a90d571f28788fad79c7b434eadd.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/308094003410ce476494c48d44e5d85a.wav"
+        },
+        {
+          "ab": "bistav",
+          "ch": "石板",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/8d239a3ae4d3c580b513bc16dd8fdda5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a7dc698bf81511a0fc9bc5ad1f3f4a88.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/9031f367928d970ed46be5f663dc4da1.wav"
+        },
+        {
+          "ab": "isiqumic",
+          "ch": "經濟資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/fa9aa2a1fda9ccf32abc14a151eb9980.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5d8f3b97e30d510831e8d34694613812.wav"
+        },
+        {
+          "ab": "maitatsiduq",
+          "ch": "同姓氏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/0d4790f265662dca8587f2ad66308fc3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maupas",
+          "ch": "像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/1c7bc3bf2c3ed4a45a7f0bab620800f9.wav"
+        },
+        {
+          "ab": "qaqanupan",
+          "ch": "獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a23931f8b93e01217c0951469015e3eb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/0e70795ae62dd6d04fb36eefd8aedf51.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a909b13cac8b22d8d39aa377e6b76efe.wav"
+        },
+        {
+          "ab": "isiqumic",
+          "ch": "經濟資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/fc0ace5ed8c7ac9338273239ebc64676.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a19f0207a709fea452bc348235271f45.wav"
+        },
+        {
+          "ab": "maitatlumaq",
+          "ch": "一家人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/75c29ee64502c26c89759ae727e5ca1a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maupas",
+          "ch": "像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/df4ad4f64517596ab2b5adaec4e26f3f.wav"
+        },
+        {
+          "ab": "dangi’an",
+          "ch": "地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/9bd51cc509958fd2249952bb7b0b3694.wav"
+        },
+        {
+          "ab": "miqumic",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/c557b23767dc7cf4798a59d8c99cd4a8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d76df41fb659582c4b8ceea4e2a3e074.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/39a759c624af4afca80e0b34a243cc77.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sintata’i",
+          "ch": "做的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/69e21159e4910fb562a50ad0d66d8010.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/0ff6ac92a71d1f59bb43f325a95cc8f6.wav"
+        },
+        {
+          "ab": "amin’amin",
+          "ch": "用具",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d4bf3275313253d1d6e4df174458f077.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iskukuza",
+          "ch": "工具",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/925ac74c7e721e121c5f9a09549710b0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d1d7ceb1fa5b3898c857ead67af8a419.wav"
+        },
+        {
+          "ab": "amin’amin",
+          "ch": "用具",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/72a88ef1b247b4893b9663b3737e8506.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sincucuaz",
+          "ch": "作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/214f26a01afe89a0342b7ffb105febcb.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/74720b076b7a8fc656052e1cbc013ebc.wav"
+        },
+        {
+          "ab": "mama’az",
+          "ch": "東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d75854a03bccba5ad96157ec2a2266bc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "依過去的習慣，東西都不能買賣的，但可以借他人使用。借用的人必須釀酒殺豬請原主人吃。",
+      "ab": "Maca talmaupa’as iniqumicas bunun qabas, nii’ tu maqtu’ pababaliv is mama’az, qaltu na mu’haz pasisimul, maca macuqais is isiqumic mangki’, na asat pa’adas tukuc is davuc cina qasu’ pucuqais masumsum.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7903c4114b05a28a597ca08b348554c8.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/f0d731e05cee08aa63007727338d5579.wav"
+        },
+        {
+          "ab": "talmaupa’as",
+          "ch": "習慣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/8d56d2eae33e59aae1475e5c0b430a56.wav"
+        },
+        {
+          "ab": "iniqumicas",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/1ae9369b37296c1814b0850f262963fc.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/3de50f8a000248a207f7b0c4c20aa357.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/521d065d6421675f41a557b0ec8e30ec.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nii’",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5ca15b56b207cea5903395718b794fec.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d0498776aeee138cedf4441b46e6fb7a.wav"
+        },
+        {
+          "ab": "maqtu’",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/3361a4286ebee28b0b87bb38d1d6ba91.wav"
+        },
+        {
+          "ab": "pababaliv",
+          "ch": "買賣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/42aec61b6295616863885203a1f3abf4.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2ebac5d7198b52ca3a020764d80cfb8b.wav"
+        },
+        {
+          "ab": "mama’az",
+          "ch": "東西",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2b5d91dad3a23178ce75ba6ad0edfd30.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qaltu",
+          "ch": "雖然",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/06a385c4c596e46ad37377bf2585d758.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/1011f9e1b2e7bb43596f77406c439608.wav"
+        },
+        {
+          "ab": "mu’haz",
+          "ch": "只有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/23a4f338ff0ec4559eef3dadbc87fa94.wav"
+        },
+        {
+          "ab": "pasisimul",
+          "ch": "互相借用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/92dc7ad213286f5cf282cc52ad7ff5d0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/9ea74423c60eb18ca2c7abc9cb82e1a0.wav"
+        },
+        {
+          "ab": "macuqais",
+          "ch": "歸還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/1e45feec8e4e895ab673c1c4f5fd187c.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/d43a3cbf93c9d484c2b7d9ded04c45d2.wav"
+        },
+        {
+          "ab": "isiqumic",
+          "ch": "經濟資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/776a802f52d317cbdd5ed90d345e7b3d.wav"
+        },
+        {
+          "ab": "mangki’",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/0b3b002d167ba6c299d69c850f03c813.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/35cb077cc575646712873c359c032003.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/05/f5f7f06f7454bbacf3fc48a80d315341.mp3"
+        },
+        {
+          "ab": "asat",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5e8eac2bd6dcbd164f827a1d432179fe.wav"
+        },
+        {
+          "ab": "pa’adas",
+          "ch": "帶",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/008104b045e7247567ea4eef3458a310.wav"
+        },
+        {
+          "ab": "tukuc",
+          "ch": "一些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5598222e655db25f4bb31cf307c5d7b2.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/8c395e828615ebd331780bd851b2c82e.wav"
+        },
+        {
+          "ab": "davuc",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/da61be13f8b865a7008113cf2bb780d1.wav"
+        },
+        {
+          "ab": "cina",
+          "ch": "或",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a7fbc3031f025a611ddee2ba9f02a6a4.wav"
+        },
+        {
+          "ab": "qasu’",
+          "ch": "肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/bcbc182fd2e6e2f4dd1eca947a725e54.wav"
+        },
+        {
+          "ab": "pucuqais",
+          "ch": "歸還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/f5e97c0193978d636807084bf658fc1c.wav"
+        },
+        {
+          "ab": "masumsum",
+          "ch": "答謝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4d06de4d35899ad1921d8acd30bc9852.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "現在的自然資源，由政府以法令界定所有權，族人現在無法在原有的河床及森林取得自然資源，也失去原有的獵場。",
+      "ab": "Maca iniqumicas bunun laupata’, pakacanunin paitasan pinsamu, nii’in maqtu’ maupa qabas tu sanaqumican siza’ is isiqumic mangki’. Nii’in tupa’un tu inak’anak nita’ ca haul, ludun ciin libus, uka’in amin is qanupas madadaingaz qabas.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/a3b630d458ca35f2d63085f32d928931.wav",
+      "word": [
+        {
+          "ab": "Maca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/301d80406a2e4fd8e8f89788ac22f1b7.wav"
+        },
+        {
+          "ab": "iniqumicas",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/15036e86ea256dc9e01ea2e24ae388c8.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b1428de3ed6baf02f86046ba618b1714.wav"
+        },
+        {
+          "ab": "laupata’",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/369cd17c562ebb06eba5d0994f2a3975.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pakacanunin",
+          "ch": "按照",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5faa3c4043150873f5c343dd9480f578.wav"
+        },
+        {
+          "ab": "paitasan",
+          "ch": "規定；法律",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4451fa5f04be94bb9bf84086319bada0.wav"
+        },
+        {
+          "ab": "pinsamu",
+          "ch": "禁止",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/bbd9d7dbf0bffd1c2c138103a48c49fb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nii’in",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2afdd997f68575669640c947104dee2a.wav"
+        },
+        {
+          "ab": "maqtu’",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/dacb286acf89d4a4793ea4ce4bdd5d97.wav"
+        },
+        {
+          "ab": "maupa",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/afba5c66bf917aaacb247189314408b8.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/b9bedf52a548ea22eea183a2d29a7a71.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5ecc314a865e959415e3cdd2f275d7a3.wav"
+        },
+        {
+          "ab": "sanaqumican",
+          "ch": "按照需求",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4d151f70aefd3434d7632e93df384c29.wav"
+        },
+        {
+          "ab": "siza’",
+          "ch": "取用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/4d502a1b208a0303e995e051756ab73f.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5024d438a98ba0544171befe6826ecf0.wav"
+        },
+        {
+          "ab": "isiqumic",
+          "ch": "經濟資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/c404587c1ea57f78ca21be19f9e86478.wav"
+        },
+        {
+          "ab": "mangki’",
+          "ch": "這些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/408561963d359103408e3577a43357dc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nii’in",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/09a34e37731b0acc055557e833a78eff.wav"
+        },
+        {
+          "ab": "tupa’un",
+          "ch": "叫做",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/7eeefd41e6c866b28547b02bd98dea3e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/2635e4ce9772dc2aab1afcbef79fe2e1.wav"
+        },
+        {
+          "ab": "inak’anak",
+          "ch": "自己的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/c618553382d5a838f6d849ccbf84d5bd.wav"
+        },
+        {
+          "ab": "nita’",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/e85a7a3fcb4e89ee9b119ae82d882ea2.wav"
+        },
+        {
+          "ab": "ca",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/74edfb683c558a4dbd5aeb91c75aaf8b.wav"
+        },
+        {
+          "ab": "haul",
+          "ch": "河流",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/82d4964b2032913c78b8c6c253b742d1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ludun",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/e05a938d923e82e22f307f747e7f5bea.wav"
+        },
+        {
+          "ab": "ciin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/57163833043dc410f02c3d7049c05355.wav"
+        },
+        {
+          "ab": "libus",
+          "ch": "森林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/ff1c064ddd4f456cdc0076abe75a68de.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uka’in",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/5d7e014e19e159afb48ef16754a4c9f4.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也；全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/c417ae1e153dcef5d3f4c03d326fec02.wav"
+        },
+        {
+          "ab": "is",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/05/21465c77e6fa1a7d05f510fe34f61f2a.mp3"
+        },
+        {
+          "ab": "qanupas",
+          "ch": "打獵的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/47298929058cb3a5363718734e10b1a5.wav"
+        },
+        {
+          "ab": "madadaingaz",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/72d5d10e7af76cd3062b99752a3cb12f.wav"
+        },
+        {
+          "ab": "qabas",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/19/9f33d8a3cfb2b45a580d8900ad3e0711.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

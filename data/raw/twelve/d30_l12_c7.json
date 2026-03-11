@@ -1,6 +1,797 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "az’az minfariza",
+  "titleCh": "化做千風",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "請不要佇立在我墳前哭泣，我不在那裡。",
+      "ab": "atawan ihu isa naak a minathay a tanamuqtha, maqa antu iaku isuhuya.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/0127c751875a1b38f0ee75e8cafab2ee.mp3",
+      "word": [
+        {
+          "ab": "atawan",
+          "ch": "請勿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/f90eeda7257bcde4dcac7bd80010e96a.wav"
+        },
+        {
+          "ab": "ihu",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/57d376b9e1b837dde084adc7941d1c92.wav"
+        },
+        {
+          "ab": "isa",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/c63e3aed4900ccb05561923b0c10c864.wav"
+        },
+        {
+          "ab": "naak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/51281afa89dcb46d47e245f87638b8c8.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/ece19d337bd58ea18b35ad15c5c85051.wav"
+        },
+        {
+          "ab": "minathay",
+          "ch": "墳墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/0034aea6c24b9404870141103a429197.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/8b5c7f9f35a3e0808248103de59e05b7.wav"
+        },
+        {
+          "ab": "tanamuqtha",
+          "ch": "前面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/10d7bfbfaef05e471030a969e61476a2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/4bae0a19075342268ba7317594e925c5.wav"
+        },
+        {
+          "ab": "antu",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/09/a06e587f8361fd8dd01f5788e41085b7.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/57d3b172ba27290e76f349bc2591923e.wav"
+        },
+        {
+          "ab": "isuhuya",
+          "ch": "在那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/04/09/b8a605c0fd7b25ade033c90171e0b155.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我沒有沉睡不醒，化為千風。",
+      "ab": "antu iaku mulha’aura, muqay iaku minmanashaiza sa fari.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/78718ba972eee2589961c8d65f3907a5.mp3",
+      "word": [
+        {
+          "ab": "antu",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/df620f342e93d223c12f4e51ba7001f0.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/aa8cc917a1a86963e2b447885c4b0e57.wav"
+        },
+        {
+          "ab": "mulha’aura",
+          "ch": "沉睡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b833bb3fca4bc2e9186b5b6fb0138e2a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "muqay",
+          "ch": "只是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/f6205b89a678a775a2bb4392e9ba14f0.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/986643fc6b7922c08848c410840140a9.wav"
+        },
+        {
+          "ab": "minmanashaiza",
+          "ch": "已化為眾多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/c124303d65973168fae1e15d429566ed.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/bebf87f00010e84aeb721f38fab56342.wav"
+        },
+        {
+          "ab": "fari",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/2039d1ceb4fe7e1ba205949ab6f415d5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我已化身為千縷微風，",
+      "ab": "iaku minmanashaiza matilatilaw numa muraduradu a fari,",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/f768e9865291927ebe6bbaecde55ddef.mp3",
+      "word": [
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/2dba5c8b843722e73431e27ae9b61105.wav"
+        },
+        {
+          "ab": "minmanashaiza",
+          "ch": "已化為眾多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/22c64e0dc504e75d6ecace952235b426.wav"
+        },
+        {
+          "ab": "matilatilaw",
+          "ch": "千千",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/59c582d8e7c832f7ffd819ed67d16f78.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/3741a3dd81f9614dd57f77c0204201f6.wav"
+        },
+        {
+          "ab": "muraduradu",
+          "ch": "萬萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/dc85d4ac767edc3c46f59dc734545041.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/88bc5cfa131eb3ac248f82c02c230c10.wav"
+        },
+        {
+          "ab": "fari",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/4c6c296515c65e17bc81a9052a85d8f9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "翱翔在無限寬廣的天空裡，",
+      "ab": "mar’ar’arfaz iaku isa uka sa lhakthi numa mathuaw maharan a qali,",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/59dcc6d901ade1c471880a493f29056c.mp3",
+      "word": [
+        {
+          "ab": "mar’ar’arfaz",
+          "ch": "飛翔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/9a6e8def3a267dece7625b5ecae5680d.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/15968fac9600512f5a3372c424241092.wav"
+        },
+        {
+          "ab": "isa",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/c78e76f123cdc8d6851c77c96dee6eea.wav"
+        },
+        {
+          "ab": "uka",
+          "ch": "無",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/068e61d4c740b77dc5c56440eea870ba.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b68e766461f1877e1aac670535d01210.wav"
+        },
+        {
+          "ab": "lhakthi",
+          "ch": "邊界",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/072abb0ac34735215996e9d3251e62b4.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/f5f796768950999d6dfa3b39ebea60e7.wav"
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b14aa229ddef5936537be5740fafde5b.wav"
+        },
+        {
+          "ab": "maharan",
+          "ch": "遼闊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/120976461509f375073eb19264de2f71.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/cea31e160b482e1a49e93fb529a25b71.wav"
+        },
+        {
+          "ab": "qali",
+          "ch": "天空",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/cd48ae8a66f2ea049dbdd8103bdfdaff.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "秋天，化身為陽光，照射在田地間，",
+      "ab": "mahaziwhiwiza wa qali, amintilhaz a malhialhias, lhiasan isa ripnu a pruq,",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/43081eabc89306f3b5754e79cab2071a.mp3",
+      "word": [
+        {
+          "ab": "mahaziwhiwiza",
+          "ch": "秋天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/599de8801339e020de2dcab2fab2a0ea.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/4cf9018394da9ad76e7c075443310b9c.wav"
+        },
+        {
+          "ab": "qali",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/e2ba763ee3c9c286290a3f4fb0ec1f32.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amintilhaz",
+          "ch": "將化為太陽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/8e1cda1c770b0df2a14814f6da3d0a57.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/a064be8ca47914f135abc3c198483eee.wav"
+        },
+        {
+          "ab": "malhialhias",
+          "ch": "光",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/9569d8739c2987789ef45eb7391af73a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lhiasan",
+          "ch": "照射",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/7bd0d241470133e570dbbe9b8ae26089.wav"
+        },
+        {
+          "ab": "isa",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/43bb06210f8f414eea16f1dc2677d8aa.wav"
+        },
+        {
+          "ab": "ripnu",
+          "ch": "田",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/9c84e4710a71191a4ebff9076e882e92.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/5a1a87d24df956ee2b88a0bbd519c3ce.wav"
+        },
+        {
+          "ab": "pruq",
+          "ch": "地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/aad74416d494073788660a83de99adef.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "冬天，化身為白雪，綻放鑽石光芒。",
+      "ab": "mashimzawiza wa qali, aminmapuzipuzi a ulhza iaku, numa pu’apa’apaw malhias miazai sa lamaqitan a fatu.",
+      "order": "6",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/536582fbf2f5c3287b61de7b433c1c5a.mp3",
+      "word": [
+        {
+          "ab": "mashimzawiza",
+          "ch": "冬天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/fc27606d14f242782fcad9cdf65d8e5a.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/ebc3a1f09da6a966925a448e37f3b6bb.wav"
+        },
+        {
+          "ab": "qali",
+          "ch": "天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/babb90e5035d1ee34b1af95efe8fa353.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aminmapuzipuzi",
+          "ch": "將化為白茫茫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/64386f7e6182ce738130e3605d519585.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/6df2bb3579aa856a577bea2466adc37c.wav"
+        },
+        {
+          "ab": "ulhza",
+          "ch": "雪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/40ffad2c2a29a562076fc368957cbc3d.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/a8778b3b8008231f790c0e5c7baec789.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "numa",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/67fbdb42db5b54d499aa25335f1aa381.wav"
+        },
+        {
+          "ab": "pu’apa’apaw",
+          "ch": "綻放",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/296feff0753b8ce45dd69c3e0ee5b020.wav"
+        },
+        {
+          "ab": "malhias",
+          "ch": "光芒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/338506e7d8c5f4d55558594aec128e7a.wav"
+        },
+        {
+          "ab": "miazai",
+          "ch": "像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/719debf330a3d831efcb0bf1b815c1c8.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b8dd143bb55b6c528949335026130faa.wav"
+        },
+        {
+          "ab": "lamaqitan",
+          "ch": "漂亮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/badf7168a243e9ef85ee67d4a7284667.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/2a23544569f0cf47ae71fe2427eb83c0.wav"
+        },
+        {
+          "ab": "fatu",
+          "ch": "石頭；鑽石",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b5dccf37b8e7b3a7eff0fc11cb9b88e3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "晨曦升起時，幻化為飛鳥，輕聲喚醒你，",
+      "ab": "mashantilhaz ya shashanuiza, aminmar’arfaz a rumfaz iaku, talalapa iaku fanuz ihun,",
+      "order": "7",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/f2cac8517d6493d9dcbd9788da58ca17.mp3",
+      "word": [
+        {
+          "ab": "mashantilhaz",
+          "ch": "太陽升起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/f576bf03a237d3b0cd5a5a7c971a95b4.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/38daa887ea22e6260fb50e322ec55b76.wav"
+        },
+        {
+          "ab": "shashanuiza",
+          "ch": "清晨時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/2d6571c2e38a9f51c8522cb0972a67b8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aminmar’arfaz",
+          "ch": "將化為飛翔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/06/3a2d4fd7970eeb1a6d4a9e4cb31f4588.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/c654df834f1b9495b2a75de4c7d2fbe4.wav"
+        },
+        {
+          "ab": "rumfaz",
+          "ch": "鳥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/f2b140bdd3a842507a2e5bb01a800110.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/c8b3ce17014a73dd2b61fb12c2e51f90.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "talalapa",
+          "ch": "輕聲地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/8e7e7b773cefd8e9ca19ed55670d21e4.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b5456ce2027ec332dba0e807044f4691.wav"
+        },
+        {
+          "ab": "fanuz",
+          "ch": "喚醒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/d081ed52a11a8f4207eebc316cf1869f.wav"
+        },
+        {
+          "ab": "ihun",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/107b3a1ce15bd2e54dbb8bda270f3ba7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "夜幕低垂時，幻化為星辰溫柔守護你。",
+      "ab": "tanlhualhuan a kpiz ya matanthathakiza, aminmanashaiza wa kilhpuz lhungqizi ihun.",
+      "order": "8",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/9f5f5a50e98d73fb7c83bc41c383f44c.mp3",
+      "word": [
+        {
+          "ab": "tanlhualhuan",
+          "ch": "夜晚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/7739f56464d6ed281fc3a1d36ef9f3d9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b64ee350751903540cee1336e6e1d340.wav"
+        },
+        {
+          "ab": "kpiz",
+          "ch": "毯子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/5c166168889318139482844ea9b10a46.wav"
+        },
+        {
+          "ab": "ya",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b35e3c3653e928fa0187b30f2425d40f.wav"
+        },
+        {
+          "ab": "matanthathakiza",
+          "ch": "低垂落下時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/7098d99fa570c1bf3bde85af3f8277e3.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aminmanashaiza",
+          "ch": "將化為千千萬萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/58f59e6beee75cd96d29b5e6b8f34001.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/4f3c04ae1057a3f0f0b28fb50d04ebcc.wav"
+        },
+        {
+          "ab": "kilhpuz",
+          "ch": "星星",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/249bcef148d3ac6bed1f1a5f805a06da.wav"
+        },
+        {
+          "ab": "lhungqizi",
+          "ch": "守護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/fc7c52be4665a15a2d8c7500d5e812b1.wav"
+        },
+        {
+          "ab": "ihun",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/9140b807e6d459a39534314706d0a8c8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "請不要佇立在我墳前哭泣，我不在那裡，我沒有離開人間。",
+      "ab": "atawan ihu ilhilhi isa naak a minathay a tanamuqtha thmanithanit, maqa antu iaku isuhui, antu iaku mushaiza.",
+      "order": "9",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/493b9da2fdf23ad30acd63ade0395fdc.mp3",
+      "word": [
+        {
+          "ab": "atawan",
+          "ch": "請不要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b47f443eb591e5887573061146ecfc83.wav"
+        },
+        {
+          "ab": "ihu",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/62887fe6219016cc98f5d44818acc71b.wav"
+        },
+        {
+          "ab": "ilhilhi",
+          "ch": "站立",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/082729967bf9702911c3970d2c1a719a.wav"
+        },
+        {
+          "ab": "isa",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/6b16b4cc895b4fb4119066a00b196bfd.wav"
+        },
+        {
+          "ab": "naak",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/2ea94a6ab2968293f153dffe3ca5a15a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/98053f14d8af088e48cad67e1347f37d.wav"
+        },
+        {
+          "ab": "minathay",
+          "ch": "墓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/6c28ac74694468ca2ac01c1c1d0546ec.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/af5ec70ede80c4a826e996ddfbc5152c.wav"
+        },
+        {
+          "ab": "tanamuqtha",
+          "ch": "前面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/ff04bd4e46e7eff31776d0d5664e33b3.wav"
+        },
+        {
+          "ab": "thmanithanit",
+          "ch": "一直哭泣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/b3c110c069510a1f05e29ee568c39d13.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/31f4d15db831a3e4a3141ad0f6629722.wav"
+        },
+        {
+          "ab": "antu",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/2dfa9121b459312eb5c71e117f2d5e82.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/ef2fcc1c0d7ba6d78ac75c9d9acf526a.wav"
+        },
+        {
+          "ab": "isuhui",
+          "ch": "在那裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/70158b6915179b7ac96cc6ff87198a02.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "antu",
+          "ch": "沒有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/cd93c8ff968482cb600ac9ca50a4405a.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/e08e9e8066a472ca908e46d19f214a8d.wav"
+        },
+        {
+          "ab": "mushaiza",
+          "ch": "離開",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/7f12b6d4c5961c89c50b2f9be9d3ebbb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "化為千風，我已化身為千縷微風，翱翔在無限寬廣的天空裡。",
+      "ab": "minmanashaiza iaku sa fari, minmatilatilaw numa minmuraduradu iaku sa fari, ma’arfarfaz iaku isa mathuaw maharan a qali.",
+      "order": "10",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/07/f7df0aff6df980fde49f93cd41a2182e.mp3",
+      "word": [
+        {
+          "ab": "minmanashaiza",
+          "ch": "已化為眾多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/09650ea100599f6fd05f8efa64abc29f.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/cc1624cf5806a9287b2d54a28349b802.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/e2207d9dce78e50c588b9e97b45dfedb.wav"
+        },
+        {
+          "ab": "fari",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/6e5a807d19f8811916e1479755db74b9.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minmatilatilaw",
+          "ch": "化身為千千",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/7913ff2370568fdf0ae64f4cf2a78bd4.wav"
+        },
+        {
+          "ab": "numa",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/777065c9ba402f28ade9cc4e3d1635e6.wav"
+        },
+        {
+          "ab": "minmuraduradu",
+          "ch": "萬萬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/d8e906eea88f5689ec3623bde7766cf5.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/3762694b8b3eca26d7f78275c9432d98.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[限定詞]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/ad3fb8472f9f6c6c6da3268c1f71dc91.wav"
+        },
+        {
+          "ab": "fari",
+          "ch": "風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/beafa41dac68202e5cd6c346cc1b7802.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’arfarfaz",
+          "ch": "飛翔",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/64ad993cd9c4d87a753440455f15974a.wav"
+        },
+        {
+          "ab": "iaku",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/aa6f1735d5d0c0fef740d61095930902.wav"
+        },
+        {
+          "ab": "isa",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/8081e62a3a700049efce51928d218a03.wav"
+        },
+        {
+          "ab": "mathuaw",
+          "ch": "無限",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/27f0f6f863600e43c17be49ff0d8b76b.wav"
+        },
+        {
+          "ab": "maharan",
+          "ch": "寬廣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/8abcdaa18667dd455cfbc68dd0ea8020.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/01bebb2d7ba153849b57477e476841c8.wav"
+        },
+        {
+          "ab": "qali",
+          "ch": "天空",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/02/15/bd9c7e621de82f5676d69b97947bb32c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

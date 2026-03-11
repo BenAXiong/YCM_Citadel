@@ -1,6 +1,689 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Ppuqun Seediq",
+  "titleCh": "飲食文化",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "我們賽德克族人很喜歡煮樹豆，那是我們族人的主要配菜。他們種植在農地上，也種植在雞舍附近。不用多久，樹豆便會果實滿滿時，就可以拿去煮食了。",
+      "ab": "Ita seediq we smkuxul ba hmanguc sunguc, kika pusu ba sdamac ma ppuqun Seediq. Sphuma daha neepah ma uyung kadu rodux ka sunguc nii. Mdakil hmeru ka sunguc, ini qbsiyaq idas de prading mhei, wada dmudul mtbeno ka sunguc nii de, saun daha hmeguc mangal.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/4f1beaf39805550dd06b5cac412cd19b.wav",
+      "word": [
+        {
+          "ab": "Ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/10cb86955eca81a8f9eebb545107c4b0.wav"
+        },
+        {
+          "ab": "seediq",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0251a15528768526c59c138f85525aa8.wav"
+        },
+        {
+          "ab": "we",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f16805d9fc37f021a682d86ab3013bb7.wav"
+        },
+        {
+          "ab": "smkuxul",
+          "ch": "喜歡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/482adb7cad038f014bf906602b347b4c.wav"
+        },
+        {
+          "ab": "ba",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/dc86327c4738b2c6f09825829e492b8d.wav"
+        },
+        {
+          "ab": "hmanguc",
+          "ch": "煮食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/2bed3c1ab71f19f8456e4366203e5562.wav"
+        },
+        {
+          "ab": "sunguc",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e5c1744e18ee06806b928a7b9129435f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kika",
+          "ch": "因為那是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/608e170b60b7fd6f11914a4ec9dfedbd.wav"
+        },
+        {
+          "ab": "pusu",
+          "ch": "主要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c872b22bc2ece6de7deafc6b5982b960.wav"
+        },
+        {
+          "ab": "ba",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d2b5afea3aa48308ae9cde8917e2ada9.wav"
+        },
+        {
+          "ab": "sdamac",
+          "ch": "配菜的食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/275451c8e61e2f192cd7c00e36f80a42.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/92d335c3524bf043daa63e2b284773bd.wav"
+        },
+        {
+          "ab": "ppuqun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/498b71407ed107b5a3f83951be5b4df4.wav"
+        },
+        {
+          "ab": "Seediq",
+          "ch": "賽德克族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d7729b60340108b41f64a8af2fb59920.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sphuma",
+          "ch": "所耕種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/86cd44d9fbd46fa7d4e40bc4dd5974a2.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們；和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/bacd7873c0e40a3b3c722bb0cc5de6bd.wav"
+        },
+        {
+          "ab": "neepah",
+          "ch": "耕種地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/7638ca8ac63c145195788f998393b1fa.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f432fa27b2b43ed5fd747a0a7096d5dd.wav"
+        },
+        {
+          "ab": "uyung",
+          "ch": "後院",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/535a60b1776bb47cc3b55a73fc486c54.wav"
+        },
+        {
+          "ab": "kadu rodux",
+          "ch": "雞舍",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/03/1133a0855f7eb6ce76d3a8466d008993.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e348c1b446fae14bfcf5ae20ee4c23f0.wav"
+        },
+        {
+          "ab": "sunguc",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/7d7da6daaf3732a05b10cd8b625c81fd.wav"
+        },
+        {
+          "ab": "nii",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/319b4401f81f42d06aec44e1fd6edd9a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mdakil",
+          "ch": "成長後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/45e0f0d91eb87a71812d4060b66cd113.wav"
+        },
+        {
+          "ab": "hmeru",
+          "ch": "生長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/77a8a15e83db795ece719efa7ce127da.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/795a87ea31ee42f7f0cdaff766a58238.wav"
+        },
+        {
+          "ab": "sunguc",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5db16d02db25b9673ff2f72440366df0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ini",
+          "ch": "不會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c358fd9b46b9fddccddd7a427e522f9b.wav"
+        },
+        {
+          "ab": "qbsiyaq",
+          "ch": "很久",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e988d81b705df34d7735e84bdd0220f9.wav"
+        },
+        {
+          "ab": "idas",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/29ee95b93fb0808302bdd375a72e2de5.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/499d139d7c871d4b41ca6aade4419e42.wav"
+        },
+        {
+          "ab": "prading",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c06debb249d4e75425c7f2c2c9e96a5c.wav"
+        },
+        {
+          "ab": "mhei",
+          "ch": "結果實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/03/f319baea7190f983b9e589fa63dff813.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "wada",
+          "ch": "去；已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c6447365729a6462ac3bf23804a39bd5.wav"
+        },
+        {
+          "ab": "dmudul",
+          "ch": "慢慢結果實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/dbc2b9f1b9817697af2f3052ab85321b.wav"
+        },
+        {
+          "ab": "mtbeno",
+          "ch": "果實滿滿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/21775204c891c30a8bdbce38be61b422.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/242042cd09eec2aa2770a7ba2a3cd2e8.wav"
+        },
+        {
+          "ab": "sunguc",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/320651f11c656e10c7c4259c89fd0de7.wav"
+        },
+        {
+          "ab": "nii",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/4135e6160b631ba9d74c58e11136d6f8.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/bc2a6d0560ca625e58ccb534b54a3435.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "saun",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/03/66592a7d0258926925662b2f8becbc41.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b520fbfb0d37fbb44382ab286af16a50.wav"
+        },
+        {
+          "ab": "hmeguc",
+          "ch": "抽離",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e03fa839212850ef81d52ee81dd1d7b5.wav"
+        },
+        {
+          "ab": "mangal",
+          "ch": "取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/7789a12ee7ca2b5d0728970ede4b0777.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "他們去收成樹豆並鋪曬在陽光下，等曬乾之後，他們將樹豆剝下，有的收藏在櫥櫃裡，有的就直接煮食。",
+      "ab": "Nngalan daha ka sunguc de, blequn daha pthido, betaq mdengu de, msuupu prading kmbegax mangal, duma sunguc we skuun daha paga, duma we asi daha hngedi.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/902f67ebc102db0a3a3baad4f763ae21.wav",
+      "word": [
+        {
+          "ab": "Nngalan",
+          "ch": "拿去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/70aa1f1169902ed3d0bcf89ded827461.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/96bd45d5e935c252c3aa57552a94af25.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/2b2d77b57f1438df4b47cd385c5a40c2.wav"
+        },
+        {
+          "ab": "sunguc",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/bfd6bb38a2386fbab71d56ecdb552b42.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/1455fe8974773676829466004e600e64.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "blequn",
+          "ch": "處理好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/328ffd5b7bac35dd51c914156e01007a.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/6392877325fd73711329e5df268cc96e.wav"
+        },
+        {
+          "ab": "pthido",
+          "ch": "日曬",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f925a12c1605eac85a75144b0043c343.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "betaq",
+          "ch": "直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/a0fb781fa35dbce6299c291eb39e0022.wav"
+        },
+        {
+          "ab": "mdengu",
+          "ch": "乾燥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/90a85209de63519f0c04728a1bdb9313.wav"
+        },
+        {
+          "ab": "de",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/e8c24eff00db574a00244e95d6e526ab.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "msuupu",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/13a0e2e9d803e8072b0d637d16f5fdb9.wav"
+        },
+        {
+          "ab": "prading",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/fa4d4173010f1596c1b3fa47493aaa62.wav"
+        },
+        {
+          "ab": "kmbegax",
+          "ch": "剝殼",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0ee538bb20ea7c803d4033366d8da20b.wav"
+        },
+        {
+          "ab": "mangal",
+          "ch": "取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/3e06c5b828dcafa030c827d58b2cc858.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "duma",
+          "ch": "有些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/85c19375f0c12c6793bf66b4e2666dc4.wav"
+        },
+        {
+          "ab": "sunguc",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/ae71f3fbfec5315779741343d709648c.wav"
+        },
+        {
+          "ab": "we",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/5796f99c5d3c7bac8c90cc042869a7ea.wav"
+        },
+        {
+          "ab": "skuun",
+          "ch": "收藏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/58e473658c4b6757ec8379817d35e6fa.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c230257fc8994f9835dc50c0b267db0e.wav"
+        },
+        {
+          "ab": "paga",
+          "ch": "擔架上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/a3577dabfbc7a0e6685b1a3b68a0ac84.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "duma",
+          "ch": "有些",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/869984f8baf167efc8123bf85fc1ccb4.wav"
+        },
+        {
+          "ab": "we",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b58face67d2ad0f6ae0de365c1fcd418.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "當下；即時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/3aca25419b5a8e3ac42e17f49c9ef75f.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/e7004e2ce735b7e8af316bdc0cb84fad.wav"
+        },
+        {
+          "ab": "hngedi",
+          "ch": "煮食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b789ce7f0c28e1831a5b0a1998e38d1e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "媽媽開始煮食樹豆，搭配飛鼠肉和排骨來煮湯。",
+      "ab": "Hmanguc sunguc ka bubu, spgimax na hei rapic ma teerang babuy, ngalan daha begu dmamac.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b2934262a65d2f051397cc8390f51dc9.wav",
+      "word": [
+        {
+          "ab": "Hmanguc",
+          "ch": "煮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/735f505f81a75048db0947fe995b58e9.wav"
+        },
+        {
+          "ab": "sunguc",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/c9d0389bac9d234bd66c88ef7be066d0.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/68c7db132a6299fb17d7ff6bc384a52f.wav"
+        },
+        {
+          "ab": "bubu",
+          "ch": "母親",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f230c4cd39d680d4cde59248861bdf9d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "spgimax",
+          "ch": "摻入",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d7524e44b42e52a688f6b5cc14bb3006.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/8aafb54966b79351c97837bfd3ba93b9.wav"
+        },
+        {
+          "ab": "hei",
+          "ch": "肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/16a153a27394122922a55fb102f602e3.wav"
+        },
+        {
+          "ab": "rapic",
+          "ch": "飛鼠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/06ea91951d35413d858b7975d8aee7e2.wav"
+        },
+        {
+          "ab": "ma",
+          "ch": "和，與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/c6c83f62c5f91327266b9b22e428d47a.wav"
+        },
+        {
+          "ab": "teerang",
+          "ch": "胸排骨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/edc71b273e6d98d3100757f3a52a11f6.wav"
+        },
+        {
+          "ab": "babuy",
+          "ch": "猪肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/f5b1b6321334fd64cd81d04b024e52a0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ngalan",
+          "ch": "拿來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/eb22f88f11afb43e5ad8075fc7b2491e.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/3a0b86bff1bab2d03baa6b260e578b50.wav"
+        },
+        {
+          "ab": "begu",
+          "ch": "湯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/764dcd0948171f52bcdad7dbe0f82f05.wav"
+        },
+        {
+          "ab": "dmamac",
+          "ch": "菜餚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/09ec0f40d1fec53253882a9f9f913cbd.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "族人在用餐時，孩子們會將樹豆配飯食用，而長輩們則配湯食用。",
+      "ab": "Mekan hnpure ka seediq, sgimax daha ido ka sunguc mekan ka lqlaqi, rudan we asi daha ngali begu mimah. Nii si malu pnuqan ita Seediq.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/f80f574e584495515259692b741b890e.wav",
+      "word": [
+        {
+          "ab": "Mekan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/ffbad8b9da2093d25ab5c2a67595a270.wav"
+        },
+        {
+          "ab": "hnpure",
+          "ch": "烹飪",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/55dd8b19cedb6f796ae360b13d484c62.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/962e0d9b970e41a93fc2340aa8b406dd.wav"
+        },
+        {
+          "ab": "seediq",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/6116829f7b4b521adc60043e97240958.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sgimax",
+          "ch": "摻合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/0b5130310a93e632cdfcf01eefd6b01e.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/fedc79bd71deb70ba0564157e3314fec.wav"
+        },
+        {
+          "ab": "ido",
+          "ch": "飯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/957c16082dfc126c427faaf49ea8c4c6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/562349ff823569877f0937b1bfc481ec.wav"
+        },
+        {
+          "ab": "sunguc",
+          "ch": "樹豆",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d28b6717d8f0015f84b874f9d6688ef7.wav"
+        },
+        {
+          "ab": "mekan",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d1c790abf37bba7049eb9e8c1e520334.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "格位標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/18/a63d7b428cb5ff3fb13a9f7bfdf385e0.wav"
+        },
+        {
+          "ab": "lqlaqi",
+          "ch": "孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/1020437f3495ce43edc5a85208ee60cf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rudan",
+          "ch": "老人，長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/b5026aa7758dc0e6f85ddb75f754ed14.wav"
+        },
+        {
+          "ab": "we",
+          "ch": "主題標記",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/6937a522264a52ef9e2ac283812fd4db.wav"
+        },
+        {
+          "ab": "asi",
+          "ch": "當下；那時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/398fe2ec0161a64eb0ce33ece464fc06.wav"
+        },
+        {
+          "ab": "daha",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/a6101db109c4529f60805430ce177318.wav"
+        },
+        {
+          "ab": "ngali",
+          "ch": "拿來；取用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/d66e6fd222e1c0f49746452faa415c1c.wav"
+        },
+        {
+          "ab": "begu",
+          "ch": "湯",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/3e1e19f4445b3d8bf303f4771e6973e6.wav"
+        },
+        {
+          "ab": "mimah",
+          "ch": "喝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/1b4a70ea8ec6487a12030c6dbde8e3d3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nii",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/42abbf1997bbf1bea463690de3451e39.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "才是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/9ffeb5b764e884cc28fef0104e64b5bc.wav"
+        },
+        {
+          "ab": "malu",
+          "ch": "好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/c7b0b99f0acbebe478568b59a486a714.wav"
+        },
+        {
+          "ab": "pnuqan",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/2a17484faefe755f2e0c4d4e12c9f0f9.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/13/f54bb19ce96f842004291085b3e32581.wav"
+        },
+        {
+          "ab": "Seediq",
+          "ch": "賽德克族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/01/8ebef38fe0b242f7c7a87e7f5b2de305.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

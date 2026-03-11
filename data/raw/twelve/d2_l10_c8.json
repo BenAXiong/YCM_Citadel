@@ -1,6 +1,937 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "kavarasa’an i zekalr na padadaulr",
+  "titleCh": "部落小米收穫祭邀請卡",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "邀請卡",
+      "ab": "padaadaulr",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/aaf8b58cdc29db1e71c09c4fff5cc3ac.wav",
+      "word": [
+        {
+          "ab": "padaadaulr",
+          "ch": "邀請卡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/01f2d6ac8b232e9e800919b15ddd0092.wav"
+        }
+      ]
+    },
+    {
+      "chinese": "台東縣知本部落謹訂於109年7月15日上午10時整，假知本部落聚會所舉行知本部落109年小米收穫祭系列活動開幕典禮，誠摯邀請。",
+      "ab": "i Valangaw na zekalr i Katratripulr mu, kinuretan nu 109 ’ami kapapitu ’ilras zi muketrep misama’ za lruwatra na wari nu semavalr muketrep tuki mu kaazu zekalr i Katratripulr natu waazukan uri kemirakad kana 109 ’amiyan na kapalisiyan na kavarasa’an zi maw na dadaulr ta kananta  wadadiyan maw inta na zinekalranan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/05/2ad39eeb55ea4d05c6930ccab04667e9.wav",
+      "word": [
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/247299ce1acd905563275d15e82fa7d4.wav"
+        },
+        {
+          "ab": "Valangaw",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5f87dae3ccf626f6e6722926c792b7dd.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/0306b6a2da55dc5be61841cd9b3284b2.wav"
+        },
+        {
+          "ab": "zekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/fd7a095a37333f49fb851671e15f7a6f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/868d9159218a23928937b35dfdf3f1cc.wav"
+        },
+        {
+          "ab": "Katratripulr",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e866aa8f7d7a7fb20aa9d5fdc705ad5b.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/bfb3162f43a9f0ad2828baa004084956.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kinuretan",
+          "ch": "訂定",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/2d36217f985d0e382e2513ae9eb67e4c.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/97aff1c953610ba14e7396f3ad467ce0.wav"
+        },
+        {
+          "ab": "109",
+          "ch": "一百零九",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4b88f19413d3dbf7ba0e8601ad27e9f6.wav"
+        },
+        {
+          "ab": "’ami",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c4d4b909295f800b55028efe723439f6.wav"
+        },
+        {
+          "ab": "kapapitu",
+          "ch": "第七個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/59f6bd7d38a36b8b04741a29424812cb.wav"
+        },
+        {
+          "ab": "’ilras",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/201b0494a1be1051215569d87d7b2bde.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/91a545de76f144772b8a3a3cfcdb34a4.wav"
+        },
+        {
+          "ab": "muketrep",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/db807a809d23df6a3f68cce1ce8e4646.wav"
+        },
+        {
+          "ab": "misama’",
+          "ch": "有餘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7de9af3e95dbad437f802c209699ad23.wav"
+        },
+        {
+          "ab": "za",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/0c641035c350e80b602d7cdfe60b357d.wav"
+        },
+        {
+          "ab": "lruwatra",
+          "ch": "五",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6b39ad14695e047b00517625fb1b7f3b.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/0e5c24ed448348c4cd5f02d740af20c3.wav"
+        },
+        {
+          "ab": "wari",
+          "ch": "日",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/733f3d1e7b02f704a80521ed8e9ad70f.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/954476186875a4a8859358e99d1ae07a.wav"
+        },
+        {
+          "ab": "semavalr",
+          "ch": "早晨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1cd41dfdcd632958bb5806b2ae446fc0.wav"
+        },
+        {
+          "ab": "muketrep",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b72cd5ad2b99120ceb3acafd4dfc9781.wav"
+        },
+        {
+          "ab": "tuki",
+          "ch": "點鐘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/65820f3e3a2bc8c37beb642afef559ad.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/8a48e241f2c22a1f335c2149eef73868.wav"
+        },
+        {
+          "ab": "kaazu",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/9500ce2c3f43b2ba3d846c027674690e.wav"
+        },
+        {
+          "ab": "zekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/cdaff290fcbc89f477135e01bf5efc06.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7508c12200be2eb3f9f16a97aac23a44.wav"
+        },
+        {
+          "ab": "Katratripulr",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/f767ef19b8f1ee6fd5235a13a1f731b0.wav"
+        },
+        {
+          "ab": "natu",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b0e90e736094c9348cbc8691500e9b7c.wav"
+        },
+        {
+          "ab": "waazukan",
+          "ch": "聚會所",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e7e5b5002d6cd7d1df8ad27f8e7d9352.wav"
+        },
+        {
+          "ab": "uri",
+          "ch": "將要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/99dc0af815ca4d14c574c599ba028da7.wav"
+        },
+        {
+          "ab": "kemirakad",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/365bcf11efd535cf9a099107847ab6ed.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ef892d4e3db2497df2962f1528e2c177.wav"
+        },
+        {
+          "ab": "109",
+          "ch": "一百零九",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5ecd38614293979602fda617931ea47b.wav"
+        },
+        {
+          "ab": "’amiyan",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c6f05bf764c61aef841f7eee47bda100.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/728922a0f5414f67573cb744ffcb5422.wav"
+        },
+        {
+          "ab": "kapalisiyan",
+          "ch": "祭儀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/587473c05877b5d8739638d6f4cac213.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6720a701476175b0767010ce4624dcec.wav"
+        },
+        {
+          "ab": "kavarasa’an",
+          "ch": "小米收穫祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4d269f869445498f33b1a2f00ec6bc12.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c27502dae80e2bf9ca07e869b8c4f272.wav"
+        },
+        {
+          "ab": "maw na",
+          "ch": "還有；因此",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/22/7b60f4d671b8f82f7190f5d5adfd471c.mp3"
+        },
+        {
+          "ab": "dadaulr",
+          "ch": "邀約",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c2e20c43872d8a0a35f90e2a2a51cafe.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/fb0b846795cf733c96f2f97afd3bb594.wav"
+        },
+        {
+          "ab": "kananta",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e6fdcda714be76eb91017f8628738774.wav"
+        },
+        {
+          "ab": "wadadiyan",
+          "ch": "親戚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/61230e3cf061788172123879ed07981e.wav"
+        },
+        {
+          "ab": "maw",
+          "ch": "是；還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/eac75edc18b8546c46893fe4b75ab995.wav"
+        },
+        {
+          "ab": "inta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/049d64bd087ad59d9e5320df965a4820.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/65764016b08d824cac38bade34b8d3f8.wav"
+        },
+        {
+          "ab": "zinekalranan",
+          "ch": "部落族人；民眾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/2efbed129c9ff397b03b038a3980ebbf.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "闔家蒞臨 共襄盛舉。",
+      "ab": "salrangana ta zuwa marasuda.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/87afb552b523238f50e7675be0ed5400.wav",
+      "word": [
+        {
+          "ab": "salrangana",
+          "ch": "來一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5ff3a198d0c8c33a15bc6eb7bba62f91.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/958e172c123ed88b927d8a3d0d74cb80.wav"
+        },
+        {
+          "ab": "zuwa",
+          "ch": "來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e1cf0926023ad0f43a56e9c79aa0a318.wav"
+        },
+        {
+          "ab": "marasuda",
+          "ch": "團結合作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ea69257ccd43db872022280a9024b72e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "知本部落部落主席Pakruku祭司長林茂盛、Mavaliw祭司長林文祥、Ruvaniyaw祭司長陳興福；台東縣議員陳正宗；知本部落發展協會理事長陳正源。敬邀。",
+      "ab": "na kaakezeng kanata zekalr i Katratripulr na rahan na Pakaruku i Sirung, rahan na Mavaliw i Siyo, rahan na Ruvaniyaw i Tatuden ; na kēnggiing i Acung ; na mitrepa venavakar i zekalr i Katratripulr i Sakuray. paruzang demaulr.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/22/61dbf0976623658d7c9f0169728e9877.mp3",
+      "word": [
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/04b87e76cf69fae8913f00c979d2fdf5.wav"
+        },
+        {
+          "ab": "kaakezeng",
+          "ch": "帶領",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c5ec3448a5b878298f0aaa0ad5961de7.wav"
+        },
+        {
+          "ab": "kanata",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/bbb75671c23b4cd367a1cee3b3d66451.wav"
+        },
+        {
+          "ab": "zekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6dd501b6d3a5f9b18e020f3d3366ebd8.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/60ca07f8f84043a0eada4248cb191568.wav"
+        },
+        {
+          "ab": "Katratripulr\r\n",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/267826b21870d525f3faf3fba8243ae0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/864aa34a04491df8e5c5db9ad71a9f2e.wav"
+        },
+        {
+          "ab": "rahan",
+          "ch": "祭司",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/fce57979b306be51ab23d5bc7ec80341.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/8f9386324d647edaf5fb5929272a5710.wav"
+        },
+        {
+          "ab": "Pakaruku",
+          "ch": "（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a8332c3cfa5211ee092650a92021d8a7.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/3dd074037564995e50e7fbea851bba0a.wav"
+        },
+        {
+          "ab": "Sirung",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/244c17e05deb609cc15de2e0806698d8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "rahan",
+          "ch": "祭司",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5ff7300a66f00b85ecdeb4ec3346b3b0.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c03de839a4a3659642321f50d8b0259d.wav"
+        },
+        {
+          "ab": "Mavaliw",
+          "ch": "（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/dcca3fb7d92465f056f7ab9b5d28f5b8.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/0ef9343fee30f61aacc258c578bdaf49.wav"
+        },
+        {
+          "ab": "Siyo",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a07e69cd4ba3338ab591593b16b3d7f0.wav"
+        },
+        {
+          "ab": "rahan",
+          "ch": "祭司",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/dc758f818dbff435bb317755ac0e1df7.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/82882576873a96f63150a93d2785d64c.wav"
+        },
+        {
+          "ab": "Ruvaniyaw",
+          "ch": "（氏族名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5288a5fb96d4e879af7b2cc17aef701b.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/14ea772b2ff13dd08ba65716b22cbaf8.wav"
+        },
+        {
+          "ab": "Tatuden",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/895a3e913d4bf092740a90e630358cd8.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a833fe62e6db834b5dede9b7313f7ddb.wav"
+        },
+        {
+          "ab": "kēnggiing",
+          "ch": "縣議員",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d2d14a860e8d76ddc192d8be47463544.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c9d81891f8bb368e5fbbdf07a2888982.wav"
+        },
+        {
+          "ab": "Acung\t\r\n",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5b1dddeb36cc7030507105b023e495fe.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/fb9747406f67a316a761832fe0422cea.wav"
+        },
+        {
+          "ab": "mitrepa",
+          "ch": "負責",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ff7c3e03e04ccc3a0c09225df6fe4548.wav"
+        },
+        {
+          "ab": "venavakar",
+          "ch": "發展",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a4bb4d60efd5991b47550535cbd2854c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/2576603ecb6678971b996d611796f806.wav"
+        },
+        {
+          "ab": "zekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e214786a5ff033e8ad5d57501bf82a16.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6f5b37376322e7e1b2871c7f40b182f7.wav"
+        },
+        {
+          "ab": "Katratripulr\t",
+          "ch": "（地名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ab0215dc7adc1c6f07bcb83e8962b61e.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d43cdc61e9b38c375db7f93ebb547810.wav"
+        },
+        {
+          "ab": "Sakuray\t",
+          "ch": "（人名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/09f333bf9ccbcd439b3db4a045fb0c09.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paruzang",
+          "ch": "專務",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/6ea4ce001aa663d9c80a2257ff27feac.wav"
+        },
+        {
+          "ab": "demaulr",
+          "ch": "邀請",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/48ff1341ae28516a95dcdc7a8ddcfaba.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "小米收穫祭活動內容：09:30~10:00  開幕典禮 敬告祖先儀式；10:00~10:30  部落主席致歡迎詞/介紹來賓/致詞；10:30~11:30  頒獎（馬拉松、摔角、最努力獎）；11:30~13:00  午宴並歌舞表演；14:30~18:00  祈福——精神舞；20:00~22:00  大會舞。",
+      "ab": "na kakudayan nu kavarasa’an tu pauwayan mu.\r\n9:30~10:00 puwateha ta lra kana kapalisiyan pakazalram ta kanata temuwamuwan; 10:00~10:30  na makezeng i zekalr rarengay kanatu ikasemaangal zatu izazuwa na ’alra’alra pakazalram kana ’alra’alra. na ’alra’alra mu marengaya kanatu puwakezang kaninta; 10:30~11:30  vaveray lra kana pakasahar kanazu na pavekas kana barasung, na mali’uli’us zi maw izu na marasurimerimet; 11:30~13:00 kara’a’alri zi palikakasaw pana’u kaninta;14:30~18:00 putrengalr; 20:00~22:00 mukasakasa ta muwarak semasaharan.",
+      "order": "5",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/22/5b09ad7a901f9bb90b61bcaa96d26b34.mp3",
+      "word": [
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/f51f497e2c9d4a67f6d50d70a3d13ee2.wav"
+        },
+        {
+          "ab": "kakudayan",
+          "ch": "要進行的事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/cae987d99695177177d0050adaa033e9.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/15c3eb84ab523c242cd2814e1f76dc01.wav"
+        },
+        {
+          "ab": "kavarasa’an",
+          "ch": "小米收穫祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b2af3a338e2ac3f0b4660943b79a49fa.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1fec9ca0e635a1cfbe0cf157e0e3f5e1.wav"
+        },
+        {
+          "ab": "pauwayan",
+          "ch": "意義",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/9a0e0e49115ee7b6b1a46495d08cd804.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ae73c1edace2417aa439df1a58081057.wav"
+        },
+        {
+          "ab": ":",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "9:30~10:00 ",
+          "ch": "九點半至十點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/22/28e6650c2108314ee4e1a5e67dc89007.mp3"
+        },
+        {
+          "ab": "puwateha",
+          "ch": "開始",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c432270cd05bd189ce6daccc55bdf650.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/084c752c33c43d09a9e46c26979486dc.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/99c93540b23b44e6b1ef8c956c559b84.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/960f8f80ae5a0ab70403c4edf1e20301.wav"
+        },
+        {
+          "ab": "kapalisiyan",
+          "ch": "祭儀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4bb30d596fae954dcadd7a23349b48bb.wav"
+        },
+        {
+          "ab": "pakazalram",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d6a6daf009db962b614822fceec0e375.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c73695142fecf6e35927458b27e063ca.wav"
+        },
+        {
+          "ab": "kanata",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1d59b579772ecebf86b98688c65277a6.wav"
+        },
+        {
+          "ab": "temuwamuwan",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ee8019dcda2e9cd7f4377fbd07b08122.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "10:00~10:30",
+          "ch": "十點至十點半",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5b414173ca9ad09a02478c7e9cd0b96e.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c043cc7d6ac4efd1e73733441e9a8990.wav"
+        },
+        {
+          "ab": "makezeng",
+          "ch": "領導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/902bec435028acc0abd75aa3480eda26.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[位]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/77ae847fac1e13385ac522f3022daa56.wav"
+        },
+        {
+          "ab": "zekalr",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/06b776515a220a24a9b0b2b0800db57d.wav"
+        },
+        {
+          "ab": "rarengay",
+          "ch": "說話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1f2d7879f366f97b76f9e29341ca3d06.wav"
+        },
+        {
+          "ab": "kanatu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/35d83e1acaf28051844f429aa5612bec.wav"
+        },
+        {
+          "ab": "ikasemaangal",
+          "ch": "所高興的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a25bdadb91ea1f5222cc274c8416909d.wav"
+        },
+        {
+          "ab": "zatu",
+          "ch": "他的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/2574da6ee571bcb313e00cbe0d7f789c.wav"
+        },
+        {
+          "ab": "izazuwa",
+          "ch": "…的來到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/497f80c5e7eb65d3b6cbf1db0f69fbf8.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/adf33adf73add840dd381a11fcdfd294.wav"
+        },
+        {
+          "ab": "’alra’alra",
+          "ch": "來賓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/41b91e10770cd11978002012d62c1eec.wav"
+        },
+        {
+          "ab": "pakazalram",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1837ca821cc39d472b9ebc3e442e4978.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/74872eee5d694451ad4be92de4a64ddc.wav"
+        },
+        {
+          "ab": "’alra’alra",
+          "ch": "來賓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/de257fcbbc5caceab08c537fa16524e4.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/99f2d602d360d8e79512a5f936f2e90a.wav"
+        },
+        {
+          "ab": "’alra’alra",
+          "ch": "來賓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/8b0c021c9495a446107f71c41642f341.wav"
+        },
+        {
+          "ab": "mu",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/10902a96fc384d6179469eaa01afc660.wav"
+        },
+        {
+          "ab": "marengaya",
+          "ch": "說話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4820a3ee92565a25590b4b1e2d56eb13.wav"
+        },
+        {
+          "ab": "kanatu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/3f525057ae137b068b53a794911bfa80.wav"
+        },
+        {
+          "ab": "puwakezang",
+          "ch": "勉勵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ffc0978c507577f2e1d0e7c17fd7457b.wav"
+        },
+        {
+          "ab": "kaninta",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/22/bf79a627c2d02407e01c54e8a24e40a8.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "10:30~11:30",
+          "ch": "十點半至十一點半",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ddffd490d40ec585d5f5b446a0b3424a.wav"
+        },
+        {
+          "ab": "vaveray",
+          "ch": "要給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1c0a15ad7e2cb7a6408c6b02d7deee13.wav"
+        },
+        {
+          "ab": "lra",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/aca4227d334d93a5e36a2c23a0701b00.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/ed42d9539b133d335b823f68fb241fea.wav"
+        },
+        {
+          "ab": "pakasahar",
+          "ch": "獎勵；禮物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/de3b06f8659bc47e2de28761b1750d6a.wav"
+        },
+        {
+          "ab": "kanazu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a78216fcfff14cc0410d5d8edbf29e93.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/fe2064aa4f0d9c80db478caf8801c05e.wav"
+        },
+        {
+          "ab": "pavekas",
+          "ch": "跑",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/632eda1e2dc44f090508d918512753fa.wav"
+        },
+        {
+          "ab": "kana",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/3a92dfc4a48719ffb62440555c15d6c4.wav"
+        },
+        {
+          "ab": "barasung",
+          "ch": "馬拉松",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/3b47e9cf8d52bd7974533a467facda53.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/292fc70294d07d4e5e1fcb6001ca3fe7.wav"
+        },
+        {
+          "ab": "mali’uli’us",
+          "ch": "摔角",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/a8193f71efe03d24f22f6e173ed3a2a5.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/9a7a4eae46ef4a8e039b39d591381260.wav"
+        },
+        {
+          "ab": "maw",
+          "ch": "是；還有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/d0e3dc7e1ec208888973ef994b418797.wav"
+        },
+        {
+          "ab": "izu",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/dfef8b86ee1c1d91fc2a40e43e543595.wav"
+        },
+        {
+          "ab": "na\r\n",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/c911351c93de768dd363a4a7e1d81312.wav"
+        },
+        {
+          "ab": "marasurimerimet",
+          "ch": "最勤勞的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/bb31bb1b1b3b1900fa619d1a7e3ebb92.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "11:30~13:00",
+          "ch": "十一點半至十三點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/34dabb2f38301f2535d121b0934b3fe9.wav"
+        },
+        {
+          "ab": "kara’a’alri",
+          "ch": "午餐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/0a978a0c1a9c028a9ac354f32cab726d.wav"
+        },
+        {
+          "ab": "zi",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/4dba4823659667719c404d41d85941bc.wav"
+        },
+        {
+          "ab": "palikakasaw",
+          "ch": "使跳舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/8e96206c19fa335a98b84093a2af34e1.wav"
+        },
+        {
+          "ab": "pana’u",
+          "ch": "給…看",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1145e5efb9dbf2e86c05bbad7cbca67e.wav"
+        },
+        {
+          "ab": "kaninta\r\n",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/46a5ebf673aab15c11e9337b848b2ed4.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "14:30~18:00",
+          "ch": "十四點半至十八點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e413eed02cd86ee0416424bad99da0aa.wav"
+        },
+        {
+          "ab": "putrengalr",
+          "ch": "精神舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/7425a48b5eb3932907b8a568c06b43f0.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "20:00~22:00",
+          "ch": "二十點至二十二點",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/e79f6a70f5af4e661b57d3a50bc419cd.wav"
+        },
+        {
+          "ab": "mukasakasa",
+          "ch": "聚集",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/5d0c0b2dad7608f91f795f04a3ea7ca3.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/b15e2b8a60ea36384313e2287452d89e.wav"
+        },
+        {
+          "ab": "muwarak",
+          "ch": "跳傳統舞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/63ccd0b03e947ade432e96542dca16e3.wav"
+        },
+        {
+          "ab": "semasaharan",
+          "ch": "慶祝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/06/1050091d8e3d071c50ec4d6254f01d35.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

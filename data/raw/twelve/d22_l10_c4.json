@@ -1,6 +1,821 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Kkla quri macu",
+  "titleCh": "認識小米",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "小米是我們族人的主食，適合種植於氣候乾燥、雨量適當的地區，小米通常在每年的二、三月開始播種，在播種前先舉「播種祭」儀式，儀式完成後就開始播種，生長期約六個月，於七、八個月間收割，收割前也會舉行「收割祭」。",
+      "ab": "Pusu bay uqun Sediq cbiyaw ka macu. Mnlngu bay phmaan karac mdngu mi knbaka qnyuxan, baka bay tkuyan kdiyax kngkingal kngkwasan  \r\n tudha mi tutru idas. Brah tmkuy macu ciida u, knama muda waya smratuc ka mpsratuc. Diyax kndkilan na u tumpitu mi tumspac idas daw kiya kmtuy da. Brah kmtuy ciida u muda mqaras waya mhu uri.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/bd80dc7f9ffa0a71c9bbb4f6c6c9e214.wav",
+      "word": [
+        {
+          "ab": "Pusu",
+          "ch": "基本上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/64926740435be6cbcd331ab8cb0bb0c0.wav"
+        },
+        {
+          "ab": "bay",
+          "ch": "非常；真正的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/3ce154e9fd3ffefc1646e6b18a35f0fa.wav"
+        },
+        {
+          "ab": "uqun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/e4eb156ab5ddb01cceec9a1bf29e3be5.wav"
+        },
+        {
+          "ab": "Sediq",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/9b37bcab81ad1a699c12819c79b0b4f7.wav"
+        },
+        {
+          "ab": "cbiyaw",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/0d7b5623befd766b2653210459ca74fc.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/35ce49daeea2bdae89607a6c0a8e8527.wav"
+        },
+        {
+          "ab": "macu",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/4e91896d95a8e2468961d0a1cc72b306.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mnlngu",
+          "ch": "適合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/3939e1a6347fb39e7ad765f88bf33a14.wav"
+        },
+        {
+          "ab": "bay",
+          "ch": "非常；真正的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/f3af38a9500cfc72614a7cb788e5a56b.wav"
+        },
+        {
+          "ab": "phmaan",
+          "ch": "使種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/e44b3e88cae690fa9ceed8c7289da52b.wav"
+        },
+        {
+          "ab": "karac",
+          "ch": "天氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/2a506b217a5a867a204d645bbd486ad3.wav"
+        },
+        {
+          "ab": "mdngu",
+          "ch": "乾旱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/bc423247fd3d1a10c6ad7d05b1134f86.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/5ab120054eaa6aa30c427d0d195dfcd5.wav"
+        },
+        {
+          "ab": "knbaka",
+          "ch": "足夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/2169a2cc59e83ed5c094702f589fdd1d.wav"
+        },
+        {
+          "ab": "qnyuxan",
+          "ch": "下雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/1f36d6d6dc6323eddcb9d0c5a007449d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "baka",
+          "ch": "足夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/6b770f3b7c281868ec42c36703320eb2.wav"
+        },
+        {
+          "ab": "bay",
+          "ch": "非常；真正的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/b1e2036afffdf8ccf026919359241934.wav"
+        },
+        {
+          "ab": "tkuyan",
+          "ch": "播種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/1b3bd97e8225ba7472e75231438c3603.wav"
+        },
+        {
+          "ab": "kdiyax",
+          "ch": "時常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/00dbfd8e8a227ad3db71ba7b32f57fb5.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/06/af08e21d7dbe2da8da84b8f4897adc7a.mp3"
+        },
+        {
+          "ab": "kngkingal",
+          "ch": "每一個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/cc88ced1e298d32dcad4c0aff35ab56f.wav"
+        },
+        {
+          "ab": "kngkwasan",
+          "ch": "年代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/cdeeafb8118bb5cf2fd45b00d389e03a.wav"
+        },
+        {
+          "ab": "tudha",
+          "ch": "第二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/79ad6a5eae2eac1f159b0ea9b2d726c0.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/4aa4ea2242e37a3ccc67f8516fb21ecd.wav"
+        },
+        {
+          "ab": "tutru",
+          "ch": "第三",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/5057e0b4cabe4f27d884d2a12eaf2bbf.wav"
+        },
+        {
+          "ab": "idas",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/69a278df0e948bfa4fdfcfcbda822c73.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Brah",
+          "ch": "前面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/783919a58a6cea9b67089921677bb689.wav"
+        },
+        {
+          "ab": "tmkuy",
+          "ch": "播種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/def2faa67d054cf3fa30ba0648eccb34.wav"
+        },
+        {
+          "ab": "macu",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/00f8e7cd652928cc21bad69b97a28a3f.wav"
+        },
+        {
+          "ab": "ciida",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/def56ed4673d65b37a66f8db6304cd28.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/95242a7a98a979781c075529eb26c9db.wav"
+        },
+        {
+          "ab": "knama",
+          "ch": "先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/b4af620dcf393e73991770297343e60a.wav"
+        },
+        {
+          "ab": "muda",
+          "ch": "經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/2493b7669dee5ae2492f56e4b176eb2e.wav"
+        },
+        {
+          "ab": "waya",
+          "ch": "文化；規範",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/6a778280a9bf980366ad158565840b93.wav"
+        },
+        {
+          "ab": "smratuc",
+          "ch": "播種祭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/b3471d349777b9b91b9a24b3f2979526.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/90ee81d4b0a4e17baec9fd7956ef26b3.wav"
+        },
+        {
+          "ab": "mpsratuc",
+          "ch": "祭司",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/06/9f4ffda500b9cd25666c96ecb0fb7123.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Diyax",
+          "ch": "日子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/2eb33140f3d093631fb0aefd60b457ba.wav"
+        },
+        {
+          "ab": "kndkilan",
+          "ch": "生長",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/c39fff1ad6a93b434b117d46dfdf6681.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/85ba19084919b81731aae4edcf6c5181.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/721954837adbdf1aeecdf6d31715536f.wav"
+        },
+        {
+          "ab": "tumpitu",
+          "ch": "第七",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/70431822025c237eddc9145838fc7046.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/9863c2d1f9c2fd8e0e10ba7838592b73.wav"
+        },
+        {
+          "ab": "tumspac",
+          "ch": "第八",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/927a76a0841cbed3ee15f5f1a3a25898.wav"
+        },
+        {
+          "ab": "idas",
+          "ch": "月",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/c81515bd823be1bece85f08897b0dcc1.wav"
+        },
+        {
+          "ab": "daw",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/59da4b9e77bff518243c6119241d441a.wav"
+        },
+        {
+          "ab": "kiya",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/4ce000edd5012969a87a83d06ea8f914.wav"
+        },
+        {
+          "ab": "kmtuy",
+          "ch": "收割",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/1cc41022fff57529588200b3e7d6cf96.wav"
+        },
+        {
+          "ab": "da",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/c7498c23c40caf66d815866fd8c0d398.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Brah",
+          "ch": "前面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/07273dd0571b92c3ee6817638418f839.wav"
+        },
+        {
+          "ab": "kmtuy",
+          "ch": "收割",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/ebfe4a43d46c01d811b34c14a3356904.wav"
+        },
+        {
+          "ab": "ciida",
+          "ch": "時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/ba0c3a8d191e1921f963c1ac3edcb044.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/f331614971dfec6c9c560629f1270dcb.wav"
+        },
+        {
+          "ab": "muda",
+          "ch": "經過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/45a2317a76448dd49776a9d0495631cc.wav"
+        },
+        {
+          "ab": "mqaras",
+          "ch": "慶祝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/13be619fe4333bac694c3bdfd3367cbd.wav"
+        },
+        {
+          "ab": "waya",
+          "ch": "文化；規範",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/fb3638b8aa4e3203268b32ab361b1c0f.wav"
+        },
+        {
+          "ab": "mhu",
+          "ch": "收割節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/4bd2907cbb192d8d579d82e73dc49ce1.wav"
+        },
+        {
+          "ab": "uri",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/19/e78e39ea372dddd546988c1f8e7bd0cb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "小米除了可以當主食外，亦可以作成糯米飯、米糕、醃肉及小米酒等；另在先人禮俗生活故事裡，時常提到小米的來源，播種小米的禮規，小米變成鳥的故事。",
+      "ab": "Uxay wana macu ka pusu uqun dha. Mtduwa nami smalu hlama dhquy, pkemu, qmamas wawa mi msinaw dnii; uxay uri u wwaya kndusan rdrudan u srngaw dha kddiyax ka pnyahan macu, waya tmkuy macu mi ndaan wada mqbhni ka macu.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/826c32dfd1a44f9b67f3865488cf5af6.wav",
+      "word": [
+        {
+          "ab": "Uxay",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/29/ccdbdb00bd84292973f3b29181a2b310.wav"
+        },
+        {
+          "ab": "wana",
+          "ch": "僅僅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c13aa14c57d4ad455bc0694eb98ea14b.wav"
+        },
+        {
+          "ab": "macu",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/29/4d4c9145a0a5352d6f6f6ba50a0c3f4f.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/f29c0f1c5f3cc955ceed26b4a4d6e1d9.wav"
+        },
+        {
+          "ab": "pusu",
+          "ch": "基本上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/74031546be2db65f0705bea4b1c0654b.wav"
+        },
+        {
+          "ab": "uqun",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/961fbfb28115cd7e4197ae1441c67a6f.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4b8dbaa429f18373947e25594eb17f40.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mtduwa",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/538aab08fddb788c5991e517b585d2ef.wav"
+        },
+        {
+          "ab": "nami",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/f5122fce80d998add6cc52c26495e207.wav"
+        },
+        {
+          "ab": "smalu",
+          "ch": "製作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/eb95aa2ba2ac0cb7a0fac8c427efdd4a.wav"
+        },
+        {
+          "ab": "hlama",
+          "ch": "米糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/01/29/82e3ebe0f114f3ccae8b82fc5c985f09.wav"
+        },
+        {
+          "ab": "dhquy",
+          "ch": "糯米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/5ccfc67c31fa6a9d5c29bc3a093bf779.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pkemu",
+          "ch": "米糕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6a2968e09d8df560a382a17b1e95a9a8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qmamas",
+          "ch": "醃製",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/9324bc62c6decea7edb29b0ab1269d72.wav"
+        },
+        {
+          "ab": "wawa",
+          "ch": "文化；規範",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/92e4843a78a00961da95e70eb859aef5.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e9c1f3f42d92dc3d6f18596cb04e307f.wav"
+        },
+        {
+          "ab": "msinaw",
+          "ch": "米酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/a12c91f950d3d701e593da8be17e2348.mp3"
+        },
+        {
+          "ab": "dnii",
+          "ch": "等等",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/6f0dfb1c8761a7a8c036f520b5b6d491.mp3"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "uxay uri u",
+          "ch": "此外",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/52356791d9ce11ba966ed5fe0abf9f28.mp3"
+        },
+        {
+          "ab": "wwaya",
+          "ch": "各種文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/26dafde7993caa5c22711946e18316e9.wav"
+        },
+        {
+          "ab": "kndusan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e291880334d18287db4f91c9cccb8e70.wav"
+        },
+        {
+          "ab": "rdrudan",
+          "ch": "祖先們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/30f7294e5c237c738e35a949f8e3f6fa.wav"
+        },
+        {
+          "ab": "u",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/ecab3a41264bb6ecc6a0ba7faec476fb.wav"
+        },
+        {
+          "ab": "srngaw",
+          "ch": "為誰…說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/850972b9b9e9e1d869107e2498745386.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/aec5e966a73ebdef615d3ea493d23c86.wav"
+        },
+        {
+          "ab": "kddiyax",
+          "ch": "每天；經常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/5ab1b34149fefd65f4d8029d5feb5b8c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/68be68a4c8ce0d9d97e5259a649ce6a4.wav"
+        },
+        {
+          "ab": "pnyahan",
+          "ch": "來源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/0b0ec6cad67953b011ceb4e83e6b18e7.wav"
+        },
+        {
+          "ab": "macu",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/aa00b07e9b911a4cbf011a4c345819b1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "waya",
+          "ch": "文化；規範",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/5c7368d5679563a902701bf8b46575fc.wav"
+        },
+        {
+          "ab": "tmkuy",
+          "ch": "播種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/7357b0fb2ec0541b99592b5612f87b92.wav"
+        },
+        {
+          "ab": "macu",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/f2ac7f02dacc8e59ec6cf110b4fe83ba.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/eb28374f4802e292833308d4ce74b69f.wav"
+        },
+        {
+          "ab": "ndaan",
+          "ch": "經歷；歷史",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c8f37e5d946dd3d2c1fdb4c9e0bf7b27.wav"
+        },
+        {
+          "ab": "wada",
+          "ch": "去了；已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/ab842558180de2e1578442390863f022.wav"
+        },
+        {
+          "ab": "mqbhni",
+          "ch": "變鳥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6080b4a414292cce8d1c1b197708fefb.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/1cfcf0911a356ff7dec8682d2c5cdbaa.wav"
+        },
+        {
+          "ab": "macu",
+          "ch": "小米",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/f8c3d303b667784148f7c66bc4d9845c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "由於時代進步、生活環境的影響，族人在山上的土地種植疏菜、果樹、茶樹及花卉等經濟作物，所種植的農產品透過農會、合作社或自行買賣，購買生活用品及其他開銷。",
+      "ab": "[-AP1-]Adaw wada kmdudul malu ka knxalan mi wada ruwan lnglingay ka kndusan dha. Saya daw wa phmaan pnwalang  ssama ,ocya mi phpah dnii ka alang dwiyaq. Spuda dha qmpringan Nonghwey mi Hocese mi pbbari nanaq pnhmaan dha. Kiya ka sdduwi mi sbbari ddiyun kndusan dha.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/5dbbcb68a98c178d7da615287fdf15bd.wav",
+      "word": [
+        {
+          "ab": "Adaw",
+          "ch": "由於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/a6e575484aad165f9027c92308bb784a.wav"
+        },
+        {
+          "ab": "wada",
+          "ch": "去了；已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/a6b25cc04de4031b55ef0aef421ec4a4.wav"
+        },
+        {
+          "ab": "kmdudul",
+          "ch": "漸漸地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/b9b30a509250079ed5b2b1773e829db0.wav"
+        },
+        {
+          "ab": "malu",
+          "ch": "很好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/0aa2946c67f639237f396261b8a894ab.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/845561665f33c461be03db0a1aeddf76.wav"
+        },
+        {
+          "ab": "knxalan",
+          "ch": "年代",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/36c21b6db36f2c7f7791373c93ca8d20.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/5e491d66377606ec44c27564123ab511.wav"
+        },
+        {
+          "ab": "wada",
+          "ch": "去了；已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/8f9c330d548fe4227c1e704642521ccf.wav"
+        },
+        {
+          "ab": "ruwan",
+          "ch": "裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/6dc5e880d0cbf7b811e5083f7242b044.wav"
+        },
+        {
+          "ab": "lnglingay",
+          "ch": "環境",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c481ea1fe4aae0944dbc6cafb5dec786.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/06/1cac0e3f26dccb898fa34b81e8f504b3.mp3"
+        },
+        {
+          "ab": "kndusan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4452b5fc39a78f284e94582992f29e55.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/da7959e6f2817d4a557c3ae995265eea.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Saya",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/14c2a205d6fb5fb3f80fe6b9b4f5bdec.wav"
+        },
+        {
+          "ab": "daw",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/556fe7056165f3f6490139ca118e1c49.wav"
+        },
+        {
+          "ab": "wa",
+          "ch": "[虛]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/68a822664a3ea25fc51ef70282d26185.wav"
+        },
+        {
+          "ab": "phmaan",
+          "ch": "使種植",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/0b6cf75f58aca50278bdcfc9c46576f4.wav"
+        },
+        {
+          "ab": "pnwalang",
+          "ch": "農作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/241eb5e57ee5720c2560daaee5747546.wav"
+        },
+        {
+          "ab": "ssama",
+          "ch": "各種疏菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/12/05/02743ed8ca021c02915953e1a625e011.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ocya",
+          "ch": "茶葉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/697a571d88c53996edc8d72759d40b1c.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/cae120afc9fda7ccb696a5510ddd45ea.wav"
+        },
+        {
+          "ab": "phpah",
+          "ch": "花",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/b07df8b25a35e44dbc8e33c4ef09d773.mp3"
+        },
+        {
+          "ab": "dnii",
+          "ch": "等等",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/15/f1a8733f66708dc5be5f6cb062eea5be.mp3"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e9c70e482f4fd9184a3fad51be54992c.wav"
+        },
+        {
+          "ab": "alang",
+          "ch": "部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/f59db0df527cd9bc7b7d71b6e35ee6d7.wav"
+        },
+        {
+          "ab": "dwiyaq",
+          "ch": "山上；山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/572085da02048c9d1e49c57b3db8cef8.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Spuda",
+          "ch": "藉著；透過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/752e87ebc1f2163a3bc81815ff3fc284.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/49abc8446790de821277fd78a4e41bb9.wav"
+        },
+        {
+          "ab": "qmpringan",
+          "ch": "團體，協會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e18455e21cdc9ba50c301e0bc99b56e7.wav"
+        },
+        {
+          "ab": "Nonghwey",
+          "ch": "農會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/48bb58ad9fad2df3441cd4452f9d24a6.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/8f8a85230f609c857b14f597caab4a2f.wav"
+        },
+        {
+          "ab": "Hocese",
+          "ch": "合作社",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/a1141964749a018122bcc2d44abecb1f.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/4056b88955b3937af025deed0c8606c0.wav"
+        },
+        {
+          "ab": "pbbari",
+          "ch": "使買賣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/7f2bbe4bef9df4c8b49a5603e31b0022.wav"
+        },
+        {
+          "ab": "nanaq",
+          "ch": "僅僅；自己",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/43e20093467ea41106ceebbb918308c3.wav"
+        },
+        {
+          "ab": "pnhmaan",
+          "ch": "種植過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c5020a0ea9c329b35bbf2eae076dd0aa.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/b5edeb788e84a0614ac91cf7394818b3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kiya",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/abbf27033c07c296a1d7cf850ecc1af6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/434fc976ae134d4da17ea66c64721e3d.wav"
+        },
+        {
+          "ab": "sdduwi",
+          "ch": "為使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/40a8e50752d27a50d1aed5747991505f.wav"
+        },
+        {
+          "ab": "mi",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/381476ddd3f32431fcab00d7cc68d791.wav"
+        },
+        {
+          "ab": "sbbari",
+          "ch": "使買賣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/d60aef7f82617ea585bb8b57bbe57732.wav"
+        },
+        {
+          "ab": "ddiyun",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/c9ce4c2325ee078ee17e3a108180fe1f.wav"
+        },
+        {
+          "ab": "kndusan",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/e1c03a94d8ec9cd62597c9910247a3de.wav"
+        },
+        {
+          "ab": "dha",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/22/dbe2b7e940f999dbd70a13eb1da19ea1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

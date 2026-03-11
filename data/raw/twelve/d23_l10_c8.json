@@ -1,6 +1,1434 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "O mamalahedaw kita",
+  "titleCh": "正在消失的我們",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "台灣是我們生長的地方。現在我們認為我們是原住民，但是未來幾年之後，你還能很自信地說你是原住民嗎？",
+      "ab": "O ka’oripan kalomahadan ita konini a Taywan. O ’Amis kako sa kita anini^, nika i rikor to no pinapi:na^ a mihecaan i, ao Pangcah kako sa a ci’icel ko faloco’ iso hakiya?",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/a1d438de7c606094c7a374b8da4418ad.wav",
+      "word": [
+        {
+          "ab": "O",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/119cfdda78d6eb10cb33fa329c735eb4.wav"
+        },
+        {
+          "ab": "ka’oripan",
+          "ch": "生活的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/049a632efba268d49b6a861759a4268a.wav"
+        },
+        {
+          "ab": "kalomahadan",
+          "ch": "成長的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/50cf0fe63e0ff857e1c9d01d827267ca.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fa12a7143c24200577be53e74c33f9f6.wav"
+        },
+        {
+          "ab": "konini",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/a74721c39a4065c138540602ec99d2cf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6f3ee5b43d930a54d31a59930b071adc.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/77bea4fdd88777d0914a739a47c775ea.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "O",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/78bbb28f2ca60a5b9e82650b8b297cd4.wav"
+        },
+        {
+          "ab": "’Amis",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/34b9e872ae045712e436677940befcff.wav"
+        },
+        {
+          "ab": "kako",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/31929d25d1c8e249e562153efe1dc65b.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0678ce3f8562ed9841f71ef92f6cb09a.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/c7b711619071c92bef604c7ad68380dd.wav"
+        },
+        {
+          "ab": "anini^",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/58ebafabd92e2e3a80d86b7bb7e88eda.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nika",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1275f65e9bb3ef27470c3c3b817233ef.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/658953f1f681915f543a40eef9acb562.wav"
+        },
+        {
+          "ab": "rikor",
+          "ch": "之後",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d1e7b08bdb7783ed4fb10abe92c22ffd.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1d73570ddb3abfb514cb3119b8569063.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/673de96b04fa3adcae1aacda704217ef.wav"
+        },
+        {
+          "ab": "pinapi:na^",
+          "ch": "不知多少",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/a522fbd52ff0d8e2c9faf085e7ec0966.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/67a365a363e759793d84a4868d22bb56.wav"
+        },
+        {
+          "ab": "mihecaan",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/30a250583bc20cf070ab6c9189508fcc.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2462645f0c87948776ebc6c0d2163885.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ao",
+          "ch": "必是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/8f065320a0ae71bd72bb0b981849ccff.wav"
+        },
+        {
+          "ab": "Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/eb2538078fc0e47beef6c4bd5188c471.wav"
+        },
+        {
+          "ab": "kako",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/20aeb8a8621709e3ac91e891e7c62f8f.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/94629eb2f9a4d7f9309239c4bcb96f0c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2d6304a207cd9469f776e651e81ed7f8.wav"
+        },
+        {
+          "ab": "ci’icel",
+          "ch": "有力量",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/486d016ed2f8a1de28c4b664be01f35f.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/12007262fce809193497e0dd36b00f8d.wav"
+        },
+        {
+          "ab": "faloco’",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/ca49dcab7677fd5d3108f9a9b250d604.wav"
+        },
+        {
+          "ab": "iso",
+          "ch": "你的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/a86aa57ade541fdb14f856fabd997a5e.wav"
+        },
+        {
+          "ab": "hakiya",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2f380b99d45812a211da102c04dc1ddb.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "以前我曾炫耀我有一個會日語的外公，後來我發現這是錯誤的觀念。",
+      "ab": "Iti:ya ho^, hemek sa kako a paseneng to nipakafana’ ni akong ako a misanoRipon a cinglaw, hilam han i, o moraraway aca^ ko matiraay a harateng.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0a6fbee9b5f6092233b7921f39554a33.wav",
+      "word": [
+        {
+          "ab": "Iti:ya",
+          "ch": "那時候",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/5ef20b89bab8fed38253e98a12f26316.wav"
+        },
+        {
+          "ab": "ho^",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d15bd083398976892b54fcdb1d92b0fe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hemek",
+          "ch": "高興；榮耀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/588cb956d6bbe67078f29f8de420a13d.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/7498903b9c4f0c4b86ba95bd83b8d379.wav"
+        },
+        {
+          "ab": "kako",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/67a3c1520c0b54c1f3be3fcfb4f1dca0.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fdf2aade29d18910051a6c76ae661860.wav"
+        },
+        {
+          "ab": "paseneng",
+          "ch": "炫耀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/efb53b87d5f5286f29b7791ec36a34f8.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e9f85782949743dcc42079e629332b5f.wav"
+        },
+        {
+          "ab": "nipakafana’",
+          "ch": "教導",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1a5c761b6d0717285d1da5c527cd9726.wav"
+        },
+        {
+          "ab": "ni",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/b30958093daeed059670b35173654dc9.wav"
+        },
+        {
+          "ab": "akong",
+          "ch": "外公",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/61180d33250addaa3b07e23e110c04f4.wav"
+        },
+        {
+          "ab": "ako",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6595f3201568e5db6f3cac0a73bff243.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/f57a221f4a392b9265d14c4835bc2544.wav"
+        },
+        {
+          "ab": "misanoRipon",
+          "ch": "講日語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/285baacbdf8fda1de94b19282acd23e2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d346256ad566cf97801e5cecc45a2557.wav"
+        },
+        {
+          "ab": "cinglaw",
+          "ch": "講話；語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/498bce62bd2bda584246701fa0166482.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hilam",
+          "ch": "原來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/711c6c3a8e58e31089c6ceb3242d8aff.wav"
+        },
+        {
+          "ab": "han",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/7212a6567c8a6c513f33b858d868ff80.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/45ea3375b621c477ab248d431b7acb87.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/67c2bd385b570d5cf44ea6f696865ed9.wav"
+        },
+        {
+          "ab": "moraraway",
+          "ch": "錯誤的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9a32ef65c42085537062753ec435750f.wav"
+        },
+        {
+          "ab": "aca^",
+          "ch": "原來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0bf31d0d702fcac8c8e07912f3347c31.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6412fe12d3b2f5591d7cc7f6121a8a01.wav"
+        },
+        {
+          "ab": "matiraay",
+          "ch": "那種事",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2c5a6c94ba9dea2c9a656407e1b9bd8c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1da38e9fc1f765ffa964a0ab64c8d8fe.wav"
+        },
+        {
+          "ab": "harateng",
+          "ch": "想法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0c383e8deecbd58d5cbdfd324132b91f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n由於我們袓先生長在這裡，所以在這裡延續發展了自己的語言文化。然而，我擔心哪一天我們原住民會在這裡消失。過去我們曾經被禁止說自己的語言，被強迫接受別人的教育。幾度改朝換代，他們的做法依然是強制我們學習他們的語言和文化。過去我的阿公竟然欣然接受他們的語言文化，現在我們是面臨語言可能消失的民族，我們也要接受這種做法嗎？我們要如何面對語言和文化的傳承呢？",
+      "ab": "Tona itini ko rayray no to’as ita a ma’orip, saka itini ko pipalamit no mita to sowal ato serangawan. Nikaorira, hacowa:ay a romi’ad, o mamalahedaw ko cinglaw ita o Pangcah sa ko harateng no mako. I ’a:yaw, na lalangan to no kitakit kita a misanoPangcah, mapaci^ci^ kita a minanam to sowal, likisi^ ato serangawan no tao. Kinapinapi:na^ to a mafafalic ko mikowanay a kitakit itini i Taywan, nika malecad to aca^ ko pipaci^ci^ nangra i titaanan a papinanam to sowal nangra. Lipahak sa ko akong ako a minanam to sowal no tao. Mafana’ to kita anini^, o mamalahedaw ko sowal ita itini tona Taywan. \r\n[===]\r\nMihayda ko faloco’ iso to matiniay a pinangan haw? O sasamaanen ita a misi’ayaw kona mamalahedaw a sowal ato serangawan no mita?",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/28bbd522fee8ef2020ff5828be644942.wav",
+      "word": [
+        {
+          "ab": "Tona",
+          "ch": "由於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/670f0c94cc5271fe6017eeffa642b7d3.wav"
+        },
+        {
+          "ab": "itini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2547399267ae0ffdef2b531c96c88a76.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/000e82a96e908e73372bed4e5cb98096.wav"
+        },
+        {
+          "ab": "rayray",
+          "ch": "傳統；程序",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/433a6ea5429d6d75f0be9bf9da26e24c.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/840aae12cd1e21200e2b729b1e151323.wav"
+        },
+        {
+          "ab": "to’as",
+          "ch": "袓先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/19781cfbcf60d73cb688a6c6ca5e55ff.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/c6344b0ae32e496be8b1b701e540d566.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/19f59064291ed0341ae3765060cc4ad7.wav"
+        },
+        {
+          "ab": "ma’orip",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1f10c3650a3aa5912dccc5789fd515e8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "saka",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/17ae6739cdbe8fda7dbf9d8a18bb6de0.wav"
+        },
+        {
+          "ab": "itini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/de4994a3a1ec0331d2c59d37631a4776.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/91e1fea50842570d5b4bd4bc2d23364b.wav"
+        },
+        {
+          "ab": "pipalamit",
+          "ch": "生根",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/ec5972de2ccb6e92baa69e11c892ca33.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/c6243fd9fd572cc14d21d70eedf07715.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/ffd3d44afe65e856eb4dc1c3fd40bc28.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/4abe8aa8f6fad818f0a9e15f657d75e9.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "話，語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e1c1c18c55ad8fad38e352a95bf4192e.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/cb2653f548f8709598e8b5156738cc51.wav"
+        },
+        {
+          "ab": "serangawan",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e27c71957d1e6c223e0d48a165da2ee1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nikaorira",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1c9884d82761f8718077f56cee0c1da4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "hacowa:ay",
+          "ch": "不知何時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fdec523bd0d2a84b9295c4787772944e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/5711796ea0dc17a1d5120d62732105f1.wav"
+        },
+        {
+          "ab": "romi’ad",
+          "ch": "日子；天氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/032d9c7d8705c3fde20e0df93c132203.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/5f96320c454aed712e4545adacdba754.wav"
+        },
+        {
+          "ab": "mamalahedaw",
+          "ch": "將要消失",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e8808f55fa5fe1efe93b16e8d3534992.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/8c458fc1ed9bb89c1cd16889cb7e7e68.wav"
+        },
+        {
+          "ab": "cinglaw",
+          "ch": "語言；講話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/878cbc9ed11d6c167ef0065805a85392.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9bd61ffe923a9953840d210e3b6111dd.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/51efec699670c82f306c1b8251b8a6ae.wav"
+        },
+        {
+          "ab": "Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0dceb0ffa039ab83600259310bccae25.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/3d928258c4682216574bbd478ea5ad1b.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/05d74c48b5b30514d8e9bd60320fc8f6.wav"
+        },
+        {
+          "ab": "harateng",
+          "ch": "想法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/8ce8ac3252f7a8981a64d5a473e48ea0.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/b55812911f2a27b05425d0692f19a039.wav"
+        },
+        {
+          "ab": "mako",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/cfd382c5eb817d52c7faf45a96f20b81.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "I",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/ac8645c4e666d447670bebf90cf8fbc2.wav"
+        },
+        {
+          "ab": "’a:yaw",
+          "ch": "以前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/553a1099bf1a5568f3e6153e44dbd6c7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "na",
+          "ch": "原本",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9e246510e26d4747c94a2ee2f122d2a8.wav"
+        },
+        {
+          "ab": "lalangan",
+          "ch": "被禁止",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6595d842ae9e6c1ecfd9f976dcb8e058.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9b34958c2bde3f10f457af458ed7cda4.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/8c71d6367dc1f7a95488ccff97c2f37e.wav"
+        },
+        {
+          "ab": "kitakit",
+          "ch": "國家；政府",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0dc23b6a0e4abc39904388dd3ffadcd1.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/459f9394f0bcd67a08a322b56db20dd3.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/8541259db852d274c5de8d45fc29ea21.wav"
+        },
+        {
+          "ab": "misanoPangcah",
+          "ch": "講阿美語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/a301fcd6ae4df201b8372aed34b0cbef.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mapaci^ci^",
+          "ch": "被強迫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/5957b59b3b33dbf65c5f66aecb0394f7.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/5fdfe2c20035ef27771422342d1842ff.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/c940ec3829dddd36b20afc15803a906b.wav"
+        },
+        {
+          "ab": "minanam",
+          "ch": "學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/7b72de504960bfce0e38c14bdfeda3f1.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/69748bbbc13bc56f17638e9f57b7a155.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "話，語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/62d88824119021834ca8e4cef6498f1c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "likisi^",
+          "ch": "歷史",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/80e4e458131f4edc49cacad3ec586437.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/91a0ac7c34ea63ffc3ef3e8d5ddd58bb.wav"
+        },
+        {
+          "ab": "serangawan",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/a6e94d012df993c363fb358bf365ee05.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1325cdae3b6f0f91a1b629307bf2d498.wav"
+        },
+        {
+          "ab": "tao",
+          "ch": "別人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/67e4423afd0ffd2f451890c0888e6f33.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kinapinapi:na^",
+          "ch": "好多次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1fc8c3d03b0021478a8c9ebdcd457c67.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9274eae5c531194f50bbf029e38f0046.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2e23b644278100ddab0f32d60fc1d078.wav"
+        },
+        {
+          "ab": "mafafalic",
+          "ch": "更換",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/41965fdab3cb2bd0fdc4536d321ad4fc.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fc50322932b29b26cfc46fd9a91ec474.wav"
+        },
+        {
+          "ab": "mikowanay",
+          "ch": "管理者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/f1a706591e15f81814fac5184b29e7b5.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/de65a3fb6d48ee7cd6f5f9309d16e3fb.wav"
+        },
+        {
+          "ab": "kitakit",
+          "ch": "國家；政府",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/31d64389a45aaeb7a61c9b76b72be555.wav"
+        },
+        {
+          "ab": "itini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9c453cf6194406f48a40272eec8de2a8.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/31ca4288044df70bbee259972d45b4a5.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9518dfaa68111174c238799ce9116e74.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nika",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/01390c18f72b8afe9e95fc57289a6675.wav"
+        },
+        {
+          "ab": "malecad",
+          "ch": "一樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d01f770d77f135a0762a9b8643607b39.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/780261c4b9a55cd803080619d0cc3e11.wav"
+        },
+        {
+          "ab": "aca^",
+          "ch": "原來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1f8d87e1161af68b81bace188a1ec624.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/aaa5ebec57257fa776a1990c2bd025c1.wav"
+        },
+        {
+          "ab": "pipaci^ci^",
+          "ch": "被強迫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e476163101ff7cc61670aec5dce3991c.wav"
+        },
+        {
+          "ab": "nangra",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/3152e3b1e52e2cb123363787d5f76c95.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/418b5015d870b2632c0840039bfec155.wav"
+        },
+        {
+          "ab": "titaanan",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/cc823b8f1c307b292c42b8d70c7a1714.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/7c63a554c36ea63c77723a472b7ca20f.wav"
+        },
+        {
+          "ab": "papinanam",
+          "ch": "使人學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d880e783834172e5ebd1868d84463d93.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9377fe00f10ec83e025ae6a77878ae62.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "話，語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/45713f6ff2041d3fdfae927b82488db8.wav"
+        },
+        {
+          "ab": "nangra",
+          "ch": "他們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/3c30bc3ec05967d33995f258b184fabb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Lipahak",
+          "ch": "高興",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6fc3d5c19d1dce101093e77b0bb4a365.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fc8ce6292e51ac8214f544324c56d10d.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/175cbada323f6874f9d26985f9378efb.wav"
+        },
+        {
+          "ab": "akong",
+          "ch": "外公",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e9f54fe5fc20785719006f84f1920703.wav"
+        },
+        {
+          "ab": "ako",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/80ca4ee101d7cf153771824cc0b00098.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/239786e7cc274460b889c47f6dcdc2f3.wav"
+        },
+        {
+          "ab": "minanam",
+          "ch": "學習",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fa14ace7b3ae2d7e7ee6f1bc3129fbec.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6e67691b60ed3e4a55935261314dd534.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "話，語言",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/f4380fd29ac34f2610014e8361d088fb.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/f2b1b9275b094c26ff1998a09cd9412d.wav"
+        },
+        {
+          "ab": "tao",
+          "ch": "別人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e2ce14e81dba66dbff9cbc35ecfdb704.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mafana’",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/7da9de56f480e009b5e9f18b279859d7.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2b2e7393b05b5b52af65bf2ed7f4ad4f.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1bd413de70f32142f4a33a94134c5690.wav"
+        },
+        {
+          "ab": "anini^",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/612b7f0d62f21fab8f0cbff2986fa81f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/23c00603aba5c59174ddbf016e55e984.wav"
+        },
+        {
+          "ab": "mamalahedaw",
+          "ch": "將會消失",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/f621f27661e5da0ee6019f6c7841bb47.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/39f741b5c68796daab4fea3ee7122a81.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "語言，話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/b599e8250e4481aaa405a715419c8179.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/7d9151910198dc0e9938f28d90b3723a.wav"
+        },
+        {
+          "ab": "itini",
+          "ch": "這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0a656cc19f3f5b41530182a9e03982a4.wav"
+        },
+        {
+          "ab": "tona",
+          "ch": "由於",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/3a97a9a154f2f62638393446815456fd.wav"
+        },
+        {
+          "ab": "Taywan",
+          "ch": "台灣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e40bd8dcd68f31945a04bc8fafca88fc.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Mihayda",
+          "ch": "允許",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/54dbaef707bbde46c875e9c0d9bc103e.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0300481b1e495e3c919b5214dda7b26c.wav"
+        },
+        {
+          "ab": "faloco’",
+          "ch": "心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/4440d927e935e3273252c4be793c9152.wav"
+        },
+        {
+          "ab": "iso",
+          "ch": "你的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/45e03f0f460f42940faebd081950bf57.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/bddcda5d65fcfdec9de3838794a77265.wav"
+        },
+        {
+          "ab": "matiniay",
+          "ch": "這樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/5b0ac7cee98097ae86b00dec0ceef066.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/08860acb2e1ce88385ffe4badc802922.wav"
+        },
+        {
+          "ab": "pinangan",
+          "ch": "行為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/bcc097feafe80f489ef54b0720ca059c.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "嗎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/604b37ea63ea51fa5fb3d8a89ec056e6.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "O",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2af1e9eaa807096a11b32ed26ecc2cbb.wav"
+        },
+        {
+          "ab": "sasamaanen",
+          "ch": "要如何",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/50bb4b781898459e99c81b050843896b.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/191b624691ab236e4958bcac976a1de6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e464656edca5e58850f8cec98cbb979b.wav"
+        },
+        {
+          "ab": "misi’ayaw",
+          "ch": "面對",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/aee5620fa0432e528275b8668581d9a8.wav"
+        },
+        {
+          "ab": "kona",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/699d9ce40d4528b2805aab05409614d6.wav"
+        },
+        {
+          "ab": "mamalahedaw",
+          "ch": "將要消失的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/c928d86ff00aeb89a39bd4a80e652a38.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2d680487650d66445b50d3d759eccad4.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "語言，話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/37bc5e7fb6931a50b3464ec66179085f.wav"
+        },
+        {
+          "ab": "ato",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/25926f529e257cfd6ee8ba86fd76cfe9.wav"
+        },
+        {
+          "ab": "serangawan",
+          "ch": "文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9576675320d0f299324b34331e85d31f.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e0f66d3186154abe76960f9e394c4621.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d63036cfba56a5c3cb75ab14b33fe677.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "我們接受外來的教育主導我們的思考，把自已母語忘得一乾二淨。所以我要請問，如果我說我是原住民，但是連自己的語言都不會說，那我還是原住民嗎？這是我們這一代面臨的重要課題，你是誰？你從哪裡來？",
+      "ab": "Tayni kita i picodadan no roma^ a finacadan, masolot no pasifana’ay ko harateng no mita, pawapawan han to ita ko sowal no to’as. Orasaka, o sowal no mako, ano o Pangcah kako sa kiso, nika ano caay ka fana’ to sowal no to’as i, o Pangcah ho^ kiso haw? O sasafaloco’en ita konini a demak. Cima^ kiso? O nanicowaay kiso?",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6dfa678a0fa26a0b36addfbc8fdc23e1.wav",
+      "word": [
+        {
+          "ab": "Tayni",
+          "ch": "來到這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/03/05/a48e0408b49da017e7640ec0e3fe1066.wav"
+        },
+        {
+          "ab": "kita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/135be22cf9925e829549d95e75bac07a.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/3d8d871debc0dcfeb788f3fbf310f07f.wav"
+        },
+        {
+          "ab": "picodadan",
+          "ch": "學校",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/740c6faec4dc6f885b63c458995f6332.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e17aeca56fab22ce30ac615e72cc64e5.wav"
+        },
+        {
+          "ab": "roma^",
+          "ch": "別的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/73a32464b3cb3ac9b59c7eb5b4356730.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/88059058ba56daa4bf889eb6cdf2e6c1.wav"
+        },
+        {
+          "ab": "finacadan",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/ffa62ed6b346a531ee4dfb738cefe38f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "masolot",
+          "ch": "被說服",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2bcb8d4c5956c9aa0345824df34c0d81.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/7d9d329731cad1688ade8b557b74c68c.wav"
+        },
+        {
+          "ab": "pasifana’ay",
+          "ch": "教導者",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/30f21d8fae944d4353b36d59500d9eaa.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/30b4a92517ace5825f5944c8a794ad3e.wav"
+        },
+        {
+          "ab": "harateng",
+          "ch": "想法",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fc4086d44c30e34b3ffe83b44db222a9.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/ca3561e334a0cea4074f487342754adf.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fc45350a5b080b7a6e1b17e00b61dc93.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pawapawan",
+          "ch": "就給忘了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6aed81cf880f4f9090f0fa8fc5c25d62.wav"
+        },
+        {
+          "ab": "han",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/a03fec24df877cc65c037673397ad5c0.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/f6d1ecd13a24f8caf9c014e14dda156d.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/b92f8ab7a47e21fb033068842d6663b0.wav"
+        },
+        {
+          "ab": "ko",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/c7a19fe3198a7cdef110e52e5b455e36.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "語言，話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/5c1f2cfaeb142bf38d5c31dae7247e3d.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/93e687f26147261192bd29531e7ee675.wav"
+        },
+        {
+          "ab": "to’as",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1f44ebfabbb703784f12a4e66632e720.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Orasaka",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/eb530d951695112cf80ff651371ceb38.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/1f1a330a04265fcc56b37df4f9bc529c.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "語言，話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/ceb9f6b8ffa77c49b6b4570ea19c76bf.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0db32de7aed05af092becfc3789e7700.wav"
+        },
+        {
+          "ab": "mako",
+          "ch": "我的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/fec3392b0dc073244d38eba1feb8e6b7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ano",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/153e7487e891837a34233c390e64c710.wav"
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6275d7071d005260ab9d0766d6df1145.wav"
+        },
+        {
+          "ab": "Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/8d3b78d62523e16a1c95a545651db6bf.wav"
+        },
+        {
+          "ab": "kako",
+          "ch": "我",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/13ec9935e17e00bed6ec8f06230e33a9.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/13c86fac19a52dbc843105b709dc71fc.wav"
+        },
+        {
+          "ab": "kiso",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/6425d167c06fe773378b10b546b6e923.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nika",
+          "ch": "但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d7ead5493404dfc648694a5793608bdf.wav"
+        },
+        {
+          "ab": "ano",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/17/e0b7b9f8e54886ed62941da9f0307326.mp3"
+        },
+        {
+          "ab": "caay",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/ebdc056de8b5669b744b8589add41f8c.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/988ffc07e6cc403de91ec70d5508767e.wav"
+        },
+        {
+          "ab": "fana’",
+          "ch": "知道",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/498b573da32e75698a7d71610328fdbb.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/154a6174eec6f10041543bf664d27408.wav"
+        },
+        {
+          "ab": "sowal",
+          "ch": "語言，話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d2949eb6aaa490c835219e945ff37dad.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/943ff7d741943755c9f4720a68d8fb9f.wav"
+        },
+        {
+          "ab": "to’as",
+          "ch": "袓先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/f5747f20029e7802e81c3352580ae422.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/c3df9051227efe58d6562d25e6a13dc8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/c6bcb74c53f3b1fbb7cc951f07923003.wav"
+        },
+        {
+          "ab": "Pangcah",
+          "ch": "阿美族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/dd4e2c1d8782aaecc1ca31b373b3faa8.wav"
+        },
+        {
+          "ab": "ho^",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9246eb8610d571d99a95f476a90a60b3.wav"
+        },
+        {
+          "ab": "kiso",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/3c56fe2f24038c4d22b9eb0aca78f590.wav"
+        },
+        {
+          "ab": "haw",
+          "ch": "嗎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/0758c9937b88cc03bd27f67e38a0ed6f.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "O",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d20a02a9e737c129366a62e99b77d14b.wav"
+        },
+        {
+          "ab": "sasafaloco’en",
+          "ch": "要思考的問題",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/9040276ea7561f9eb34bc0d3c32f47df.wav"
+        },
+        {
+          "ab": "ita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/bdba33c9c0089cabdd362693a28afd33.wav"
+        },
+        {
+          "ab": "konini",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/26325336b22306af9defd5aaad5e6151.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/d20d9896e5f7a733d09c07acb323154f.wav"
+        },
+        {
+          "ab": "demak",
+          "ch": "事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/3c8f9a173f749710d6377d3150cf90da.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Cima^",
+          "ch": "誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/a73d18446f20a30be28c26ab513da8d8.wav"
+        },
+        {
+          "ab": "kiso",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2a2f98d3597419498e4d734d8c2dd106.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "O",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/2d7f3f6e23f7cb31f2209ab8cc8f47a4.wav"
+        },
+        {
+          "ab": "nanicowaay",
+          "ch": "從哪裡來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/8c86c617f818ea789cd189816f16455f.wav"
+        },
+        {
+          "ab": "kiso",
+          "ch": "你",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/12/05/e6a88d08e6f74bd95b169002762b1841.wav"
+        },
+        {
+          "ab": "?",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

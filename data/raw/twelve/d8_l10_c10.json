@@ -1,6 +1,976 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Tai’uan",
+  "titleCh": "台灣",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "台灣是個美麗的寶島，台灣雖小，但五臟俱全。台灣這塊美麗的寶島生存著多元的民族。",
+      "ab": "Tutuza a Tai’uan tu manau’az, qaal a Tai’uan tu atikis a, minaqtung amin. Ihaan manau’az tu Tai’uan ti, madia vaivivaivi tu siduq iti miqumis.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/08040837089cdf46631a10aca5258e16.wav",
+      "word": [
+        {
+          "ab": "tutuza",
+          "ch": "確實，真實",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/cda72177eba360ff16b7f836e2754370.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/1373b284bc381890049e92d324f56de0.wav"
+        },
+        {
+          "ab": "Tai’uan",
+          "ch": "台灣（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/d010396ca8abf6ead8cacc2c2f2f26c7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/819c9fbfb075d62a16393b9fe4fcbaa5.wav"
+        },
+        {
+          "ab": "manau’az",
+          "ch": "美麗的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/f337d999d9ad116a7b4f3d409fcc6480.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "qaal",
+          "ch": "雖然，看起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/89ae0fe22c47d374bc9350ef99e01685.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/aff0a6a4521232970b2c1cf539ad0a19.wav"
+        },
+        {
+          "ab": "Tai’uan",
+          "ch": "台灣（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/204da255aea2cd4a75ace6018fad6b4d.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/35464c848f410e55a13bb9d78e7fddd0.wav"
+        },
+        {
+          "ab": "atikis",
+          "ch": "很小",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/c88d8d0a6097754525e02c2246d8d27f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/6b8eba43551742214453411664a0dcc8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minaqtung",
+          "ch": "完整無缺",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/4e6cd95227cb0c280e99a195be5f6615.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "所有，全部",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/351b33587c5fdd93bd42ef7ac9995a28.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/18ead4c77c3f40dabf9735432ac9d97a.wav"
+        },
+        {
+          "ab": "manau’az",
+          "ch": "美麗的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/98986c005e5def2da341b4e0627d4712.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/b2dd140336c9df867c087a29b2e66034.wav"
+        },
+        {
+          "ab": "Tai’uan",
+          "ch": "台灣（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/4e9cec1f583056459111d63e24f3b8ef.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/596f713f9a7376fe90a62abaaedecc2d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madia",
+          "ch": "許多的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/29921001f2f04bd3baee84a12e98098f.wav"
+        },
+        {
+          "ab": "vaivivaivi",
+          "ch": "各種不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/020c8bfac8de160d4c5543b96d1fdede.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/3a20f62a0af1aa152670bab3c602feed.wav"
+        },
+        {
+          "ab": "siduq",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/b132ecc1609bfcf302615847c1caa69a.wav"
+        },
+        {
+          "ab": "iti",
+          "ch": "在這裡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/92af93f73faf3cefc129b6bc55a748a9.wav"
+        },
+        {
+          "ab": "miqumis",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/facf9f743b083008a894eee7baa16469.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "由於生存環境的不同，居住在高山的民族稱之為高山民族，居住在海邊的則稱為海洋民族。高山民族有泰雅族、排灣族、卑南族、鄒族、魯凱族、賽德克族、太魯閣族、賽夏族、卡那卡那富族、拉阿魯哇族、撒奇萊雅族、噶瑪蘭族、邵族和我們布農族等，共十四支民族。屬海洋民族的有阿美族和達悟族兩個民族，而居住於平地的則有閩南人、客家人及漢人，近年來有了新興的新住民與我們在台灣共生。",
+      "ab": "Aupa ki maaq a iniqumisan a vaivivaivi, maaq i pavazun a, maaq a ihaan antaludun miqumis a tupaun naingka tu takiludun. Maszang i Akataial, Paivan, Pu’iuma, Tanaul, Lukai, Sezeq, Turuku, Saisia, Kanakanavu, Sa’alua, Sakilai’ia, Kavalaan, Itasau siin mita Bunun siduq. Haiza tu mas’an qan paat a siduq. Maaq a mantan sila-ning’av a, sia ki Bantalang siin Pankalkalan, dusa ka siduq. Maaq a takibukzavan a, sia ki Puut, Ngaingai siin Tauluu. Haiphaipin a minhaizin a baqlu tu siduq muskun mita miniqumis ihaan Tai’uan ti.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/d1a69640d53a32a9fb13e93d1c8f3104.wav",
+      "word": [
+        {
+          "ab": "aupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/d961e9f236177d65d21100592edb0769.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/18d10dc6e666eab6de9215ae5b3d54df.wav"
+        },
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/dfa92d8f817e5b08fcaafb50d03763cf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/655ea4bd3b5736d88afc30c9212ccddf.wav"
+        },
+        {
+          "ab": "iniqumisan",
+          "ch": "生活型態",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7949e456002b28988d38185bd30e77fd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7bd28f15a49d5e5848d6ec70e584e625.wav"
+        },
+        {
+          "ab": "vaivivaivi",
+          "ch": "各種不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/452bf208bf901322968557227b8f6efe.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/0d4f4805c36dc6853edfa4c7e1638b48.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/70efba66d3d8d53194fb1a8446ae07fa.wav"
+        },
+        {
+          "ab": "pavazun",
+          "ch": "被區分開來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/af5afd7f7c807171981d443ad4f4f648.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7e1d842d0f7ee600116ffc6b2d87d83f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/95d309f0b035d97f69902e7972c2b2e6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/ed4227734ed75d343320b6a5fd16ce57.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/dc5c768b5dc76a084531934b34601977.wav"
+        },
+        {
+          "ab": "antaludun",
+          "ch": "傾向山裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/88a199611ac2b85bd3f76e8ee7e55650.wav"
+        },
+        {
+          "ab": "miqumis",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/076023edc9187cf1ac1f1163470e479a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/228499b55310264a8ea0e27b6e7c6ab6.wav"
+        },
+        {
+          "ab": "tupaun",
+          "ch": "被稱作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/8f19793b2671094e63a15ab883d50137.wav"
+        },
+        {
+          "ab": "naingka",
+          "ch": "他們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/49af6c4e558a7569d80eee2e035e2bd7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/894b77f805bd94d292574c38c5d628d5.wav"
+        },
+        {
+          "ab": "takiludun",
+          "ch": "住在山裡面的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/dca5672ff3444c7e997aa9a2c4eb2094.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maszang",
+          "ch": "好像",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/bcb41ccdc4363c6848a1d760f26c28a0.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/5129a5ddcd0dcd755232baa04c231698.wav"
+        },
+        {
+          "ab": "Akataial",
+          "ch": "泰雅族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/d72fbbccd9fe64c3a14f85d225a046f4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Paivan",
+          "ch": "排灣族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/0ebcc77dc72360d0eb8e9504c78d38bd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Pu’iuma",
+          "ch": "卑南族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/d88518acbcc3d08d1f18da62f9bb26ec.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Tanaul",
+          "ch": "鄒族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/309fee4e541e51de2e41f21bebb342aa.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Lukai",
+          "ch": "魯凱族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/87ec2f451208df97228105657edb717f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sezeq",
+          "ch": "賽德克族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/83e8ef518174e1eb6be4a0778d050c9d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Turuku",
+          "ch": "太魯閣族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/9e984c108157cea74c894b5cf34efc44.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Saisia",
+          "ch": "賽夏族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/c559da2ba967eb820766939a658022c8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kanakanavu",
+          "ch": "卡那卡那富族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/1bc0249a6412ef49b07fe6f62e6dc8de.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sa’alua",
+          "ch": "拉阿魯哇族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/f3173935ed8ac4bf073c1bcd63171f8a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sakilai’ia\r\n",
+          "ch": "撒奇萊雅族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/a368b0de8b91cfb3f91892fbf1ebd4b2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Kavalaan",
+          "ch": "噶瑪蘭族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/f18a6d1cde4b205199de8729a6637b42.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Itasau",
+          "ch": "邵族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/495dabfd0ca768a3c3abd672079f48b6.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/9597353e41e6957b5e7aa79214fcb256.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/faafda66202d234463057972460c04f5.wav"
+        },
+        {
+          "ab": "Bunun",
+          "ch": "布農族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/a14ac55a4f27472c5d894ec1c3c743d2.wav"
+        },
+        {
+          "ab": "siduq",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7a6a74cbe87bc60030a4bd041dd47b78.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有\r\n",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/52947e0ade57a09e4a1386d08f17b656.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/69d658d0b2859e32cd4dc3b970c8496c.wav"
+        },
+        {
+          "ab": "mas’an",
+          "ch": "十",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/e9fd7c2c6623306db59b6aef5c0d5cac.wav"
+        },
+        {
+          "ab": "qan",
+          "ch": "餘數值",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/71a58e8cb75904f24cde464161c3e766.wav"
+        },
+        {
+          "ab": "paat",
+          "ch": "四",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/962e56a8a0b0420d87272a682bfd1e53.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/297fa7777981f402dbba17e9f29e292d.wav"
+        },
+        {
+          "ab": "siduq",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/f60bb6bb4c96d4df93c51bd69dcc15a0.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/d1dc3a8270a6f9394f88847d7f0050cf.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/806beafe154032a5b818e97b4420ad98.wav"
+        },
+        {
+          "ab": "mantan",
+          "ch": "偏向",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/4462bf0ddbe0d0da40e1e828ebebeb11.wav"
+        },
+        {
+          "ab": "sila-ning’av",
+          "ch": "鄰近海洋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/c7af0926b294e47e52e46cfebe173f20.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/fc528592c3858f90196fbfacc814f235.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sia",
+          "ch": "是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/9327969053c0068dd9e07c529866b94d.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/a981f2b708044d6fb4a71a1463242520.wav"
+        },
+        {
+          "ab": "Bantalang",
+          "ch": "阿美族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/bc573864331a9e42e4511de6f678aa83.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/97d0145823aeb8ed80617be62e08bdcc.wav"
+        },
+        {
+          "ab": "Pankalkalan",
+          "ch": "達悟族（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/efb76cff97aaf057654ef2f38cd77d73.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dusa",
+          "ch": "二",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/5c50b4df4b176845cd235b6a510c6903.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/46031b3d04dc90994ca317a7c55c4289.wav"
+        },
+        {
+          "ab": "siduq",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/6ba3af5d7b2790e73f0de32e5c8c1798.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "誰是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/21fe5b8ba755eeaece7a450849876228.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/6dd4e10e3296fa63738371ec0d5df818.wav"
+        },
+        {
+          "ab": "takibukzavan",
+          "ch": "居住在平地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/42a3964579017f3cb42b26605b9ae8ef.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/52c5189391854c93e8a0e1326e56c14f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sia",
+          "ch": "是，是誰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7e230522657ecdc50e4249581b861f8e.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/84f0f20482cde7e5eacaf7364a643d33.wav"
+        },
+        {
+          "ab": "Puut",
+          "ch": "閩南族群（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/81c650caac28cdefce4de5ddc18befa0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Ngaingai",
+          "ch": "客家族群（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/f670ef5d2d6bdf8f29450a970494dd64.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/04/195bbf60ce48c661e69616e1cf2a8700.wav"
+        },
+        {
+          "ab": "Tauluu",
+          "ch": "漢族群（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/89f03f7d02720160f1b04cf5b27f5ccb.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiphaipin",
+          "ch": "近來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/c1fea270c48e8079d8ddf7d06d26ab52.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/e4873aa9a05cc5ed839561d121516766.wav"
+        },
+        {
+          "ab": "minhaizin",
+          "ch": "已經有了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/8d420fa35754d1f1c19969c88780314d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7437d136770f5b35194cb46c1653efaa.wav"
+        },
+        {
+          "ab": "baqlu",
+          "ch": "新的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/96de2547f44254c97f5f4f1f402711c1.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/973a5f0ccbc4ee3524ccf035d35b284b.wav"
+        },
+        {
+          "ab": "siduq",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/be3e9d3f7d70537357c67bb3f4086846.wav"
+        },
+        {
+          "ab": "muskun",
+          "ch": "一起",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/207f88018f72237565570f8a9e5ca240.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/b147a61c1d07c1c999560f62add6dbc7.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/9d2682367c3935defcb1f9e247a97c0d.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/cc42acc8ce334185e0193753adb6cb77.wav"
+        },
+        {
+          "ab": "Tai’uan",
+          "ch": "台灣（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/712a3c9878efeae8ff06d57432016ceb.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/a40511cad8383e5ae8ddd8b855d135da.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "台灣各民族為了生存，必須珍惜語及善用大自然的資源。所謂：「靠山吃山、靠海吃海」。因此，成就了台灣各族群不同的生活方式。",
+      "ab": "Sikaupa ka takiTai’uan ti tu miniqumis, asa dau tu masaqlaz ikma’ia ki ikmama’aiun ihaan Tai’uan ti. Haiza qalinga tupa tu, “ Iludun a, sisdang ludun miqumis, isila ning’av a, sisdang i ning’av miqumis.” Paqpun minsiin amin a vaivivaivi siduq tu sin’iqumis ihaan Tai’uan ti.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/3fae55c80f88ed9417dceeed2a6c0956.wav",
+      "word": [
+        {
+          "ab": "sikaupa",
+          "ch": "所有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/c0560792e4a3c79e62f76cbf9fb277dd.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/e1696007be4eefb81b1a1d39ce48681b.wav"
+        },
+        {
+          "ab": "takiTai’uan",
+          "ch": "住在台灣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/9a4400501febb2a95e79248486a5f6d3.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7d12b66d3df6af8d429c1a357d8b9e1a.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/b2531e7bb29bf22e1daae486fae3417a.wav"
+        },
+        {
+          "ab": "miniqumis",
+          "ch": "族群，生物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/e449b9317dad920c0dd5ad0a2a2d5e49.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/4f398cb9d6bc79ae567298335b51ba8a.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/e8d92f99edd25e2cef48eca48320a1a5.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/86d7c8a08b4aaa1bc7c599473f5dddda.wav"
+        },
+        {
+          "ab": "masaqlaz",
+          "ch": "珍惜、視為寶貝",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/158fc2ddd52ec2cf54d3c161f2dd6517.wav"
+        },
+        {
+          "ab": "ikma’ia",
+          "ch": "使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/b0f2ad44d26e1a6f244201fe0fd864d1.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/cdf1035c34ec380218a8cc9a43d438f9.wav"
+        },
+        {
+          "ab": "ikmama’aiun",
+          "ch": "資源",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/7bf0e390e2e699192037459c19bcda56.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/647c722bf90a49140184672e0d3723e3.wav"
+        },
+        {
+          "ab": "Tai’uan",
+          "ch": "台灣（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/2451041557a22145b3701b0184109cab.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/a0f3601dc682036423013a5d965db9aa.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/757f843a169cc678064d9530d12a1881.wav"
+        },
+        {
+          "ab": "qalinga",
+          "ch": "話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/64f1f27bf1b4ec22924fd0acb550c235.wav"
+        },
+        {
+          "ab": "tupa",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/831c2f88a604a07ca94314b56a4921b8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/08e6bea8e90ba87af3c9554d94db6579.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "“",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "iludun",
+          "ch": "在山裡面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/2cb6b10338a7fc4117a80da24b582060.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/e6384711491713d29bc63fc5eeb5ba4f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sisdang",
+          "ch": "倚靠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/11d0e6287202fced83f79975ec59a3a6.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/f50a6c02a3fc5a3a5d4d9391f05f3efc.wav"
+        },
+        {
+          "ab": "miqumis",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/6a81681a7af700c6385d36577ebec359.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "isila",
+          "ch": "在旁邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/fddd7938a71db5f81fcc621673ab67b7.wav"
+        },
+        {
+          "ab": "ning’av",
+          "ch": "海洋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/1ef91c212e30e14bf125e9374262401f.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/5d79099fcdf499f12b79770834c0164a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sisdang",
+          "ch": "倚靠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/b618c3210e934362ac261db280128c22.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7fea637fd6d02b8f0adf6f7dc36aed93.wav"
+        },
+        {
+          "ab": "ning’av",
+          "ch": "海洋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/ae614c557843b1df326cb29c57225459.wav"
+        },
+        {
+          "ab": "miqumis",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/7c4ede33a62160a19586f6e26eaefacf.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "”",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paqpun",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/d43ab110ab2489d6b9b2caa394bf920f.wav"
+        },
+        {
+          "ab": "minsiin",
+          "ch": "成就了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/8303a79b1e19a194f1875981be5bdb6f.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/4921f95baf824205e1b13f22d60357a1.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/b59a51a3c0bf9c5228fde841714f523a.wav"
+        },
+        {
+          "ab": "vaivivaivi",
+          "ch": "各種不同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/26751be1181460baf78db8d5eb7aad39.wav"
+        },
+        {
+          "ab": "siduq",
+          "ch": "族群",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/e721a54a8cf18c8543d44782d9ef681f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/5cf21ce30208cfffaa832c6e44bb567d.wav"
+        },
+        {
+          "ab": "sin’iqumis",
+          "ch": "生活，生命",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/673271cc47c1a4e77f57e239ed4d28a7.wav"
+        },
+        {
+          "ab": "ihaan",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/9fe97fff97f089661135d0487843108e.wav"
+        },
+        {
+          "ab": "Tai’uan",
+          "ch": "台灣（專名）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/ef2a4be5473ab0b3cc286e67b1f59f44.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/09/01e00f2f4bfcbb7505cb641066f2859b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

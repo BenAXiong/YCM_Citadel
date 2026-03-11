@@ -1,6 +1,836 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "susuwa ki daedae",
+  "titleCh": "土地倫理",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "土地倫理在原住民族的任何一個部落都是極為重要的。如果不遵守土地倫理，會導致家族和親戚之間產生紛爭，甚至會成為各部落之間戰爭廝殺的導火線。因此，我們一定要遵守土地倫理，不侵犯也不超越界線。",
+      "ab": "kay susuwa ki daedae tinukucingalra tuhamuhu ikay ki cacekele ki kacalrisiya, sana kai pasuusu ku susuwa ki daedae, aidaulu ku amakakahivuwa ki masakacekecekele, ki mahetetese. ikay ki lacekele amani ku padalai ku amakahubuha amapapacadha, lakuni ku tahapasusumadu ku susuwa ki daedae, kadruwamadu ka pasilribate ki saagisa kadruwamadu ka mahahau.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/19/233f1dd0f3f537bcb7a338ea74d63483.wav",
+      "word": [
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/5e083bd37263c80781fff960e8f5e655.wav"
+        },
+        {
+          "ab": "susuwa",
+          "ch": "倫理規範",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/51fda174c360f4ea5d21de87c4c9a792.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/83004190b1793d7aa15f8d0d49a13eba.wav"
+        },
+        {
+          "ab": "daedae",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/3d9f8ee1db299aa712a029a0e3a2d6f4.wav"
+        },
+        {
+          "ab": "tinukucingalra",
+          "ch": "重要的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/1cf44d7975e6c86cffa70cae95b5fbb2.wav"
+        },
+        {
+          "ab": "tuhamuhu",
+          "ch": "非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/8ce241e1ed84937ee48322b170b9b18c.wav"
+        },
+        {
+          "ab": "ikay",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/e95a45d0b1f5afdf0ab9cde82b4b1d06.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/73f9ddba165b5c59c61dd64960ba8b2d.wav"
+        },
+        {
+          "ab": "cacekele",
+          "ch": "各部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/87019fb492fe6f03c3bdb29cf2ffb6eb.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/ea20aed6df7caa746052d227d194a395.wav"
+        },
+        {
+          "ab": "kacalrisiya",
+          "ch": "原住民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c11cb55c3d8dcc03a7ab7ab722703e0a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sana",
+          "ch": "所有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b6b3598b407b7f328e3129c74ca8ca94.wav"
+        },
+        {
+          "ab": "kai",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c5f7756d9f92a8954884ec415f79d120.wav"
+        },
+        {
+          "ab": "pasuusu",
+          "ch": "遵守",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/9b644ca9f37e3699ddf2055800130aa9.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/585eb4127afd003bd784f6e8dc132be2.wav"
+        },
+        {
+          "ab": "susuwa",
+          "ch": "倫理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/8606bdb6f1fa707fc6ca309943eea443.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b3592b0702998592368d3b4d4c45873a.wav"
+        },
+        {
+          "ab": "daedae",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/db5bdc8ad46ab6087d9cdfd8a8662ddf.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aidaulu",
+          "ch": "會引來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/7dab099bfda35ad14715763b75487b47.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/3e016029eeb9a92852a656f33fbf1dc6.wav"
+        },
+        {
+          "ab": "amakakahivuwa",
+          "ch": "相互吵架",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/516341c3e8f4543c8d465b0c514a6f92.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/be7ecaca534f98c4ca134e527b12d4c8.wav"
+        },
+        {
+          "ab": "masakacekecekele",
+          "ch": "部落間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c42af2fa7356818e0389593714f59b52.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ki",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/60a6c4002cc7b29142def8871531281a.wav"
+        },
+        {
+          "ab": "mahetetese",
+          "ch": "親戚間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/3dcf44c3136a27a28b3bb27586fd5fc5.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ikay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/77b830096c1888016b4d7a730bbe9731.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/1d01bd2e16f57892f0954902899f0692.wav"
+        },
+        {
+          "ab": "lacekele",
+          "ch": "各部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/6e2290dbf1e11f39d246e7ce5ac50a1e.wav"
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/664c7298d2b73b3c7fe2d1e8d1781c06.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/67b878df6cd42d142f2924f3ace85c78.wav"
+        },
+        {
+          "ab": "padalai",
+          "ch": "點燃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/f6a673f09493afcd8b129a0bcf1cd5bc.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/82599a4ec94aca066873c99b4c741ed8.wav"
+        },
+        {
+          "ab": "amakahubuha",
+          "ch": "彼此爭戰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/4e38d30e656da5ae9d3a425109ce9e04.wav"
+        },
+        {
+          "ab": "amapapacadha",
+          "ch": "相互殺戮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/2e64da0bae6a7533021c760d4ba5d621.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lakuni",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c055dcc749c2632fd4dd806301f05ba6.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/a749e38f556d5eb1dc13b9221d1f994f.wav"
+        },
+        {
+          "ab": "tahapasusumadu",
+          "ch": "一定遵守",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/8ab9bb97ce35080338be74dc6375e0ed.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/4f0bf7b7b1aca9ad15317a0b4efdca14.wav"
+        },
+        {
+          "ab": "susuwa",
+          "ch": "倫理規範",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b81132591828d622fc335860bffec150.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/fca758e52635df5a640f7063ddb9cdcb.wav"
+        },
+        {
+          "ab": "daedae",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/5112277ea658f7138694f079042cc3bb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kadruwamadu",
+          "ch": "不可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/257deb66f5366aab34a23d5fd0571da4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b18e8fb514012229891cf024b6436526.wav"
+        },
+        {
+          "ab": "pasilribate",
+          "ch": "超過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/836a0dcbf5d22652569dc3a708274c16.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/a3de03cb426b5e36f5c7167b21395323.wav"
+        },
+        {
+          "ab": "saagisa",
+          "ch": "界線",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/831b342d8a83408e5960e9b0c5f31f0c.wav"
+        },
+        {
+          "ab": "kadruwamadu",
+          "ch": "不可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/6b27e88fdd7269394bca4968b48d8df4.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/682e0e796084e163c5ca053dd8573b0c.wav"
+        },
+        {
+          "ab": "mahahau",
+          "ch": "貪心",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/9739efc4f01292e764c86caa59af353e.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "過去，土地、獵場和河川是由頭目掌管的。平民要使用時需租借，有收成、獵物或漁獲物也必須向頭目納貢。頭目會分配給子孫，當作聘禮。",
+      "ab": "ku igayga, kay daedae, talupa, drakehale, amani kay talyalalai ku wagemegeme, kay lakawkaulu sasyakaulu ki talyalalai, luikay ku nikitaleka, nipana, ku nitukaanga, aibaai ki talyalalai tusualupu. kay talyalalai yakai lupapithipithingi ki lalake lu tusabadha.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/19/094366eaa7a4b5d7f9ed227f212b3649.wav",
+      "word": [
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b93e78c67fd4ae3ee626d8ec0c412dec.wav"
+        },
+        {
+          "ab": "igayga",
+          "ch": "過去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c8cc6e90ccbff44c9cee23611711cdc4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/9965b21b3968b6abc41143236b035c8c.wav"
+        },
+        {
+          "ab": "daedae",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/3016a447172f3045b65f5fc83e04b554.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "talupa",
+          "ch": "獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/ef7a3d1d2f039be1cb6a695f856b5ca6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "drakehale",
+          "ch": "河川",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/e38e37a99f7de1f45d169efcdb288dd1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/9dfcf16f0adbc5e2a55ef02db36bac7f.wav"
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/93129bca9fb2d3cb3470e2b9cfde7f63.wav"
+        },
+        {
+          "ab": "talyalalai",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/41da609c519d77b29be442f8c1105647.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/64b327d40918ca7522ac22e3d02dc41c.wav"
+        },
+        {
+          "ab": "wagemegeme",
+          "ch": "掌管",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/752356ce55e0b436a9027914cb7e18a7.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b49fdab097253cac48e3dc628a49da5e.wav"
+        },
+        {
+          "ab": "lakawkaulu",
+          "ch": "平民",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/138aab288c363726990120413c62acee.wav"
+        },
+        {
+          "ab": "sasyakaulu",
+          "ch": "受差遣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/d34a281acc62c6bec66425f0ad6dd645.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/bc6fe82635b1429d3e886eec0fc34f49.wav"
+        },
+        {
+          "ab": "talyalalai",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/f69543a0f1b1c844dbd3eeee30ea0404.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "luikay",
+          "ch": "若有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/117ffc1acd844e431a4b73f0867adae5.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/30aaa42805c04522a16e12d7e5b87437.wav"
+        },
+        {
+          "ab": "nikitaleka",
+          "ch": "收成的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/1906f3350e1fa43adced642ff351c943.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "nipana",
+          "ch": "獵到的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/ad16fe8f92f051afbf656271afd7872d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/ca3a9be77f7e88708afb20c8cdf44b60.wav"
+        },
+        {
+          "ab": "nitukaanga",
+          "ch": "捕的魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/5f8e2fa1718d1bbcadf1cd9c7a54fb8c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "aibaai",
+          "ch": "要給",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/63ceea56ae1563b4477506246829b386.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c480540d4e8c0cf7ad03ba949e3a5280.wav"
+        },
+        {
+          "ab": "talyalalai",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/eba55fca4575e35eec8587f10ba60a43.wav"
+        },
+        {
+          "ab": "tusualupu",
+          "ch": "貢品",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/43a2348027cdb8d216f4fb15fd9e1e4f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/915e3742d51cb477268ba29275c3ce09.wav"
+        },
+        {
+          "ab": "talyalalai",
+          "ch": "頭目",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/7e6b20d014d1c659e4eaf20dc2dcd7eb.wav"
+        },
+        {
+          "ab": "yakai",
+          "ch": "有時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c24f4c5eef7ec01c46e003a9296c8645.wav"
+        },
+        {
+          "ab": "lupapithipithingi",
+          "ch": "分割成",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/e3d11d85deaf57a720d252cd069bcd37.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/eec96a7f788e88184c0e713456026f3f.wav"
+        },
+        {
+          "ab": "lalake",
+          "ch": "各孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/67b4e63655366f054314061dadd539a0.wav"
+        },
+        {
+          "ab": "lu",
+          "ch": "有時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/44590aa922914066f965ae67be0222d2.wav"
+        },
+        {
+          "ab": "tusabadha",
+          "ch": "當聘禮",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/deee9fe5195586bf4545518a76aff2f7.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "為了維護及不糟蹋土地，祖先把比較幽靜的河和茂密的森林視作禁地，禁止人類進入，擅自耕作或進行任何事，以免遭受咒詛而生病、家遭厄運。這是祖先發揮維護土地倫理，保護土地，充滿智慧的功效。",
+      "ab": "pakai ku akipalakeba si kaikitupava kay daedae, ku cucungulaneta amalra tutwalrisia idra matiasamilringi ka drakerale si angatungatu, patuicilri si telenge ki laumase ku auwa tupava tulisi, ngikakamani tumawma, amanilu mucugu si kacaeme, sulisi ku tacekecekela, kaivay amani ku sahakaiya padrumulru ikay susuwa si apakilibaka ikay daedae, ka tapatuthingala ku lrigila ki cucungulaneta.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/19/8682cc30db9c025ecd3fee433f8ab54c.wav",
+      "word": [
+        {
+          "ab": "pakai",
+          "ch": "為了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/f80ebff16ccaa9b48a0224d7c489cef4.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/8e0ce414531179ae9b7f60e20351ee8b.wav"
+        },
+        {
+          "ab": "akipalakeba",
+          "ch": "被維護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/a1ada9947e0d683b4625f94c74104d73.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/7658d0dd31ff8ec12a3933f064e000a1.wav"
+        },
+        {
+          "ab": "kaikitupava",
+          "ch": "不被破壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/0d82627e10660af39ea7eb69c3568955.wav"
+        },
+        {
+          "ab": "kay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/9969e5817467c11ff15639d0ed517c7a.wav"
+        },
+        {
+          "ab": "daedae",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/706bf9581a8f1747195e5c190835a9bc.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/9ed27554c893b5bad850a422c3538c15.wav"
+        },
+        {
+          "ab": "cucungulaneta",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/ca7e09eacf1ae34bc819d495c5adfed9.wav"
+        },
+        {
+          "ab": "amalra",
+          "ch": "拿來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/251d52afeb09449719aa7ba0b842c755.wav"
+        },
+        {
+          "ab": "tutwalrisia",
+          "ch": "禁忌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c2839bed26321da8b466c80a032e4714.wav"
+        },
+        {
+          "ab": "idra",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/fc1a36821b02abbd2503fd949bfc9131.wav"
+        },
+        {
+          "ab": "matiasamilringi",
+          "ch": "神秘的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/108670e12c6e0fcf4d959fc8d2eabef6.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/c8194823937cbafcfcef5b0c21de59bd.wav"
+        },
+        {
+          "ab": "drakerale",
+          "ch": "河川",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/9079ea527e08a24dfad44e3302d5f091.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/3a077e8acfc4a2b463c47f2125fdfac5.wav"
+        },
+        {
+          "ab": "angatungatu",
+          "ch": "樹林",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b5200c6107fc3d41d19a2b66835c3974.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patuicilri",
+          "ch": "禁止",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/95424358822e753eb993c97ee76a9076.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/e8e5f71237c3b05761cda9e029a5b3d2.wav"
+        },
+        {
+          "ab": "telenge",
+          "ch": "阻擋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b1adda14824f50ef24ff1c05bb66faf3.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/ec26fc2eb2b75aece19c70392dc744c2.wav"
+        },
+        {
+          "ab": "laumase",
+          "ch": "人們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/35fa44c247164c5e1683d18000b0a236.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/6d1e481bdcf159961818823e652a7725.wav"
+        },
+        {
+          "ab": "auwa",
+          "ch": "前往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/023d0a5671efd29e80b4deef8262e297.wav"
+        },
+        {
+          "ab": "tupava",
+          "ch": "浪費",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/cb7c403aa312160380010ee3dd4bfc53.wav"
+        },
+        {
+          "ab": "tulisi",
+          "ch": "破壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/3ae4f12b897c4bb51327a8e1c921df7d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ngikakamani",
+          "ch": "自行",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/a7bf3f5462cc82062e41b3a2262e1a21.wav"
+        },
+        {
+          "ab": "tumawma",
+          "ch": "作田",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/4fc41324cdfa35c1b9e2f8d59371eb20.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "amanilu",
+          "ch": "可能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/d828725179d622a56f951e527a966ed7.wav"
+        },
+        {
+          "ab": "mucugu",
+          "ch": "受詛咒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/ee80e0a74aac64251238cecee2b066ca.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "且",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/5f7695debd8cde8db5abcb9f161b49ea.wav"
+        },
+        {
+          "ab": "kacaeme",
+          "ch": "生病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/234e5dc39dc52740524f9d863bec963c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sulisi",
+          "ch": "災害",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/cc3f5463bc4d26bc38eadc8bcffbc654.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/97de76211cd2efdefa4b8226e6cbf649.wav"
+        },
+        {
+          "ab": "tacekecekela",
+          "ch": "家庭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/d7c18718502a444a1a88227b0915de84.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kaivay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/6804c9bca0a615bdb9374d00a9fcba59.wav"
+        },
+        {
+          "ab": "amani",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/35c1f9c50543aeedf1a3167bcb9d2756.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/18c7c32f90d25fbe5c1b9ac0e8d5e475.wav"
+        },
+        {
+          "ab": "sahakaiya",
+          "ch": "用來…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/0e230b1a582d76526b7ad7fc62ae937d.wav"
+        },
+        {
+          "ab": "padrumulru",
+          "ch": "推動",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/41ccc97e4f1b5de999aa6468ff787d89.wav"
+        },
+        {
+          "ab": "ikay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/aaea265a9054b3b8c5df99c64685ec2e.wav"
+        },
+        {
+          "ab": "susuwa",
+          "ch": "倫理",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/ae4503ec3da32f5e9033604744ec45ae.wav"
+        },
+        {
+          "ab": "si",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/8cfef17bee2b7a75a3ce09d40b497f6b.wav"
+        },
+        {
+          "ab": "apakilibaka",
+          "ch": "維護",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/a267f936e54d7c10a2bb70dbe6ad7a89.wav"
+        },
+        {
+          "ab": "ikay",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/fb6c4e0b4b90ebfb5a35ca7a9cbf1d16.wav"
+        },
+        {
+          "ab": "daedae",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/3488330ba18d83e3d0ab177178ca66eb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ka",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/d69768b3da745b77e82cdbddcc8bac98.wav"
+        },
+        {
+          "ab": "tapatuthingala",
+          "ch": "顯現處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/4ef42b32bccc9485b10b8183507e5d82.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/a2eab75e37ee14b3ed50bb2b74036617.wav"
+        },
+        {
+          "ab": "lrigila",
+          "ch": "智慧",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/1fbcf885f8f5c9afc9f37188b3f00afc.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[受]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/b7f7ada7d848002260ee5eb7d8835709.wav"
+        },
+        {
+          "ab": "cucungulaneta",
+          "ch": "祖先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2020/11/27/25048eb6a33209cb5a815bff0cf6887c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

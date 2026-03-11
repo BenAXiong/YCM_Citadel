@@ -1,6 +1,984 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Mapaqusil qainanup tu titi",
+  "titleCh": "獵物的分享",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "當到山上狩獵的年輕人回家時，那些從家族共同獵場所獵得的獵物，必須用心分配給一同參加狩獵的年輕人、家族的親家和鄰居親友。",
+      "ab": "Maaq a munluludun qanup tu maindudu’az i misnahaan ludun kansuqais mulumaq qai, asa ka misnahaan ituskuun qanupan qainanup tu titi a, pisihalun ispaqusil paisia mailavi qanup tu maindudu’az, tastulumaqan tu mavala siin takidingalan tu taisis’aan siin kaviaz.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/08/f94b20ccdf459e4d71bcb6ffec054566.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/2be578b93aa91c3112a8d96c93907ea9.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/03d1b3bde212b9a0b6fe1341c16d15d5.wav"
+        },
+        {
+          "ab": "munluludun",
+          "ch": "一直到山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/3c500379b0154348fec80c48b9c1e699.wav"
+        },
+        {
+          "ab": "qanup",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ae4f5ee8d2b7b7c38f49004c056cd0a9.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/e0d35c8de0bb827c51a247b00f9e4959.wav"
+        },
+        {
+          "ab": "maindudu’az",
+          "ch": "年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/d19ce21aec1c0b2091d67dc67419010f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/f57411ddef93adbdd34f2548e670b9aa.wav"
+        },
+        {
+          "ab": "misnahaan",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/824ef0a606e480acb4f3cb72abeb395a.wav"
+        },
+        {
+          "ab": "ludun",
+          "ch": "山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/608d8f21e908fc1774d02bed29e4edf4.wav"
+        },
+        {
+          "ab": "kansuqais",
+          "ch": "回程",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/5eda472d93c56cc2edbbedeaef17d445.wav"
+        },
+        {
+          "ab": "mulumaq",
+          "ch": "回家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/779b509edbe2fbd4d36d663d7a1dc82c.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/eefed0b716efe55ac5de80f8c67869d1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/02074fec578331dcf85c0d49f322c286.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/2ace686158ef59480715a907d3a7c11e.wav"
+        },
+        {
+          "ab": "misnahaan",
+          "ch": "從",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/053332729b63dfd21a8943628607e84b.wav"
+        },
+        {
+          "ab": "ituskuun",
+          "ch": "共同擁有的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/77ee28cfe4227e5ba30b75fe9184224a.wav"
+        },
+        {
+          "ab": "qanupan",
+          "ch": "獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/632de1680af37cb4c7ad330ec53f8449.wav"
+        },
+        {
+          "ab": "qainanup",
+          "ch": "所狩獵的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/de8396937457f5931dd3b6b41b5ca67e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/49f23022c1981bf3b68551c32a3fdbd1.wav"
+        },
+        {
+          "ab": "titi",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/4db715667aa7bdc04e87b3ab696d206a.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/493bafbbd5b4eb2346105c21983a49a8.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pisihalun",
+          "ch": "好好的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/88631d1056e095a793cde3d56c90eb23.wav"
+        },
+        {
+          "ab": "ispaqusil",
+          "ch": "用來分配",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7dd680d17bae49f538b669ffb1dbfcef.wav"
+        },
+        {
+          "ab": "paisia",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/2c914b698cd81d9dcdcdd7e362437d92.wav"
+        },
+        {
+          "ab": "mailavi",
+          "ch": "曾跟隨的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/83f84b828439c69c9a9bda5331f3a239.wav"
+        },
+        {
+          "ab": "qanup",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7a0b2d062dcd8c3396e9620078425095.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ca8a8f793acf8a0800488d8501177e0e.wav"
+        },
+        {
+          "ab": "maindudu’az",
+          "ch": "年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/1970aa7379156de174ee1c3f7083d253.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tastulumaqan",
+          "ch": "整個家族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/9f252d25b1e369df11fddecc638eb871.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/06/8db24098f097634c37780b6b4cd04c7e.wav"
+        },
+        {
+          "ab": "mavala",
+          "ch": "親家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/29f9d59decb71e338c5d0a835e11b03d.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/c8d195dc7fb3706c4afa320ea0370884.wav"
+        },
+        {
+          "ab": "takidingalan",
+          "ch": "隔壁鄰居",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/9a5795174d5811fc07b0a4f95f6ed1d5.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/06/761e41fb9b898176bbd9224f1c102f3b.wav"
+        },
+        {
+          "ab": "taisis’aan",
+          "ch": "親友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/4bf2dc7729a1cc7ae519539c9fdd3017.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/90dbef6859cf64029fed14ef9f5e0e33.wav"
+        },
+        {
+          "ab": "kaviaz",
+          "ch": "朋友",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ddaefa21215e3a711a6d41f628371b66.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在率領狩獵人的家分配所獵到的獵物。獵殺到獵物的人獲得獵物的頭部、一隻大腿及獵物的前腿。獵物的尾巴，分給先上去咬住獵物的狗。其餘獵肉，全部分給參與狩獵的年輕人。",
+      "ab": "Maaq qainanup tu titi a, pihanun lalavi’an tu lumaq mapaqusil. Sia minanaq tu bunun a sa’uni bungu, tas’a pinasaq siin takismumuut tu qainqain. Maaq dau takismumuut tu ikul a, paisia dau tintangus sinap makalat takismumuut tu asuta. Maaq a mutda tu titi qai, pinaqtungun ispaqusil mailavi qanup tu maindudu’az.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/08/aadf4f2bc8e42fc94a2284cc515ae194.wav",
+      "word": [
+        {
+          "ab": "Maaq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/2de901f1d8b2660b3e37d8e5663d2d51.wav"
+        },
+        {
+          "ab": "qainanup",
+          "ch": "所狩獵的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/78fa1b4c07f8922f9f348794f59e0db3.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ed9f1df5f565bbedb2a98d3e10bc6c04.wav"
+        },
+        {
+          "ab": "titi",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/cfc9cfd4c475390af4bb165c42a8ed60.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/301c4f58017c2419ff854c10662be4f1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "pihanun",
+          "ch": "放置在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7a919fb3b62fe2deeb712cb4e0e9febc.wav"
+        },
+        {
+          "ab": "lalavi’an",
+          "ch": "領導人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/dcb8d9bb26d808c4bfae00a671048ec8.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/833d4db87006bf2c3fb76a9036eff355.wav"
+        },
+        {
+          "ab": "lumaq",
+          "ch": "住家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/cb00ce14591783260d9c725ad198b604.wav"
+        },
+        {
+          "ab": "mapaqusil",
+          "ch": "分配",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/651215f50c96487518804e18c185f219.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Sia",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/a09b6dbfc5c50bfdd9d800100ee569d3.wav"
+        },
+        {
+          "ab": "minanaq",
+          "ch": "曾射中的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/930a96bd1711898088ddc1b6d85b514c.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/f685f0de9e5faf5352a1710b01fbfe3c.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/c181cdcd797aa593f796357b5aa72d4e.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/d4f55bae4c56f2c44533d61b6f5c89f4.wav"
+        },
+        {
+          "ab": "sa’uni",
+          "ch": "擁有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ec9c4627da8a4884a5a6babfe2f55c9d.wav"
+        },
+        {
+          "ab": "bungu",
+          "ch": "頭",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ea5fe2cde2ff9803f4827bce8469683f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tas’a",
+          "ch": "一條",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/3af3dc9f45cd8a850ca296dabe819940.wav"
+        },
+        {
+          "ab": "pinasaq",
+          "ch": "腿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/5803f670f46d8225b3962e0a69793951.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/d03025cc7d1ea9a2c636756674df9e9d.wav"
+        },
+        {
+          "ab": "takismumuut",
+          "ch": "野生動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/a348a30ab4018871f1ecba769ff747b5.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7bd0daf4c36607ceb1b05be79c4dd1c9.wav"
+        },
+        {
+          "ab": "qainqain",
+          "ch": "前腿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/bd67c503b9a3fcdbd64dfc2a45055aa1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/da416f40974cbe1d2eaec76ae5e5bce0.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/69dbc4410e9e44d8fa70fa6261b72838.wav"
+        },
+        {
+          "ab": "takismumuut",
+          "ch": "野生動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/911db67dc5eebd24d7787d69d4974ca4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/767c2163a253eef3f20770449d1829eb.wav"
+        },
+        {
+          "ab": "ikul",
+          "ch": "尾巴",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/8493662892d33f586f1af8975e9be522.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/52d6b5d0acea76ba75337fb28dbae9b1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paisia",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/6835aa5842f0e4afee8c1d3146f74267.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/e80751f68670fe7b2045a0626b00463c.wav"
+        },
+        {
+          "ab": "tintangus",
+          "ch": "最先",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/2b9f73fb229b87f6f3f9fd3a1511ff9a.wav"
+        },
+        {
+          "ab": "sinap",
+          "ch": "追逐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/91425f57566f2ea40142b239b1655a6f.wav"
+        },
+        {
+          "ab": "makalat",
+          "ch": "咬住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/a096b76bb2d84b486b60f2d2876e52c5.wav"
+        },
+        {
+          "ab": "takismumuut",
+          "ch": "野生動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/250e4e16ba71dc68da82f731e2777725.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/bb0b7438f271b0e808c92b613a2d3926.wav"
+        },
+        {
+          "ab": "asuta",
+          "ch": "那隻狗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/a2c0ac21937ba56307c59851c9818e96.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Maaq",
+          "ch": "那個",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/c26cc28bdc942c76a36a28d6e230cdfc.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/3e5c39e6359d13d57826c85e119ed584.wav"
+        },
+        {
+          "ab": "mutda",
+          "ch": "剩餘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/c16bfa745bf6d305adc2cf171f486c49.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/fb79ac5ecfa2f15d742957a19f3b609c.wav"
+        },
+        {
+          "ab": "titi",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/6139121fbeb379a29f3152e2197d53fd.wav"
+        },
+        {
+          "ab": "qai",
+          "ch": "[主題]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/9ac18ffe568e26b96bef06f3303ea1cd.wav"
+        },
+        {
+          "ab": "pinaqtungun",
+          "ch": "分配得恰到好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/3132b699c171e21259fc73b34c2c1f9b.wav"
+        },
+        {
+          "ab": "ispaqusil",
+          "ch": "用來分配",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/89a88dafa9460e2d3e72c678e9d812d7.wav"
+        },
+        {
+          "ab": "mailavi",
+          "ch": "曾經跟隨的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/02d70493931ba94a003a00fc6bb030f1.wav"
+        },
+        {
+          "ab": "qanup",
+          "ch": "狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ef4fe9abda8b3651db5ae3655194319e.wav"
+        },
+        {
+          "ab": "maindudu’az",
+          "ch": "年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/88239e6a85e8708164a8410bc63fa7f3.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "如果因誤闖別人獵場而獵到的獵物，一定要留一隻腿給獵場所有家族，然後將獵物帶回給獵到獵物的年輕人。不能偷偷將獵物藏起來帶回家。",
+      "ab": "Maaki haiza muliva tasban i qanupan manaq i takismumuut, asa tu mapala tas’a pinasaq paisia taimisia qanupanta tu maitastulumaq, dasun a pinanaqa suqaisun paisia  minanaq takismumuut tu maindudu’aza. Nitu maqtu kamingan maqabin mapulumaq.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/08/7670cc4426a36873cf7d4a0624347dac.wav",
+      "word": [
+        {
+          "ab": "Maaki",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/4f6466eeadfb9e78cd848ef1e34ba48b.wav"
+        },
+        {
+          "ab": "haiza",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/26/d0b60e40d5dc0abf64310679e8e352bc.mp3"
+        },
+        {
+          "ab": "muliva",
+          "ch": "失誤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/26/e987163fd4e07fcc57525c03f4e3aaac.mp3"
+        },
+        {
+          "ab": "tasban",
+          "ch": "超過",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/26/bf2f34f6029111c2e7c0d56e3017b727.mp3"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ef548b1604220ea5a5ebbb1f62bbf33c.wav"
+        },
+        {
+          "ab": "qanupan",
+          "ch": "獵場",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/0969564c18cf69fb6b4182f0f56e83bf.wav"
+        },
+        {
+          "ab": "manaq",
+          "ch": "射擊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/17165ada3cf9ed9e1c270380a3dd98a7.wav"
+        },
+        {
+          "ab": "pinanaq",
+          "ch": "所射擊的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/fa22881b3491c4af9294543ca0cd362f.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7d72d37e36269cb3719ec0154dde1be0.wav"
+        },
+        {
+          "ab": "takismumuut",
+          "ch": "野生動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ff5bfc8100ee213d0a03d280781d3bc1.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/3746df86b7befa462e28f3a0460ca9fb.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/14088449ea3e7d50c68e82f937cabeed.wav"
+        },
+        {
+          "ab": "mapala",
+          "ch": "留下",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/346eafa9a48cd238d27e2bee48efeeac.wav"
+        },
+        {
+          "ab": "tas’a",
+          "ch": "一條",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/62c54c427f90b0fa9af6feb4af4e36dc.wav"
+        },
+        {
+          "ab": "pinasaq",
+          "ch": "腿",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/8a9264e64bbcc7e6c0015a8164a094a4.wav"
+        },
+        {
+          "ab": "paisia",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/0a0babb2e5215f03846d5f6d3c8f401b.wav"
+        },
+        {
+          "ab": "taimisia",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/d4e3c9e6e8b5cce6b903edb4742ec635.wav"
+        },
+        {
+          "ab": "qanupanta",
+          "ch": "那個獵場的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/0e20e74d7ec01a14badb63e598883d63.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/de334bfcfaba207bbd3aa56b99f81ebb.wav"
+        },
+        {
+          "ab": "maitastulumaq",
+          "ch": "整個家族的人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/af6d195456b8c96f3cd1cbe5da32ae75.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "dasun",
+          "ch": "帶著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/b0cb22763cbfdc7c02d27fbfe89e6d86.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/2e74930c1650b088e4dc175bbabc1e6d.wav"
+        },
+        {
+          "ab": "pinanaqa",
+          "ch": "所狩獵的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/271afefd532164546cab9f167a3a390f.wav"
+        },
+        {
+          "ab": "suqaisun",
+          "ch": "送回去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/4903e8d4bf16fa448e138a0f4cec6b62.wav"
+        },
+        {
+          "ab": "paisia",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/aec0612eb8fa37e03c12fbbd24c585a6.wav"
+        },
+        {
+          "ab": "minanaq",
+          "ch": "曾射中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/da04762eb0c15088e2a13703d0e15388.wav"
+        },
+        {
+          "ab": "takismumuut",
+          "ch": "野生動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/2e0f200add2383d092e5b6d103fcaafb.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/bd50cdc1c73a5ad6f31b979f6cd53da4.wav"
+        },
+        {
+          "ab": "maindudu’aza",
+          "ch": "年輕人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7a3e0235ceeb25ee02646e87884a2798.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nitu",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/10/cd797161df14f93826858d058b031417.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "能夠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/0a6dc028c0432c0001956f293dbec1d5.wav"
+        },
+        {
+          "ab": "kamingan",
+          "ch": "偷偷的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/b6a9c87f9232d1b666ca857676a3a038.wav"
+        },
+        {
+          "ab": "maqabin",
+          "ch": "藏起來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/3de24a8f2d799fa4519918e58448dda4.wav"
+        },
+        {
+          "ab": "mapulumaq",
+          "ch": "帶回家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7441ff48c2da3592c56dfd31d7338faf.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "回家後，獵物一定要用酒潑灑，然後再來祭拜，希望能再次獵到獵物。小孩子不能吃所獵到山豬山羌的腦，因為吃了獵物的腦會變愚笨；也不能讓小孩吃山豬的豬蹄，因為說話時會口齒不清。",
+      "ab": "Maaki taunalumaqin a, asa ka titi tu tutvisan davus, patvisan tu maqtu’ang mumuqna upanaqan i titi. Nii dau uvavaz’az pakaunun i maivanis siin maisakut tu punuq, namataimang dau ki mina’un takismumuut tu punuq. Nii dau amin uvavaz’az pakaunan i maivanis tu sikis, maupa’i namangapus dau ki babazbazin qalinga.",
+      "order": "4",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/02/08/d87960e34f5ea990687db14faeddaf30.wav",
+      "word": [
+        {
+          "ab": "Maaki",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/3c924ce13a25602c3c81edb9f09c40d1.wav"
+        },
+        {
+          "ab": "taunalumaqin",
+          "ch": "回到家了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/12/71a0ebd01e7266cd2d9535beabba5fe7.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/eec437c54f0860d35fa164cf985fbcd0.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "asa",
+          "ch": "要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/98a98e334db28b842d67e1308c1cf0db.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/f35990c44a95b1a3878d25f126e5c01e.wav"
+        },
+        {
+          "ab": "titi",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/9f5f59ac77a5ead1a31c48d008fbd4dd.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/68e8c06516b5a1151b01a42faa6fbce4.wav"
+        },
+        {
+          "ab": "tutvisan",
+          "ch": "祭拜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/fdf34b5012453407450012d2b06c0d1e.wav"
+        },
+        {
+          "ab": "davus",
+          "ch": "酒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/c5dd06e6eddb2947c6d1416e78d44b50.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "patvisan",
+          "ch": "祭拜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/0997439e6dbf0bfd2f66e0a2b7f7392e.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/fe5c21998ecd0675b2775b83520fd351.wav"
+        },
+        {
+          "ab": "maqtu’ang",
+          "ch": "希望可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/8278041de9b8124ebdd68726521a689a.wav"
+        },
+        {
+          "ab": "mumuqna",
+          "ch": "一再的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ff4b107fff98bfb6470ab6f23963c084.wav"
+        },
+        {
+          "ab": "upanaqan",
+          "ch": "射中",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/4c8bd1a73e2ad2b49a11c17ef6838b16.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/a54d08826dd68015aceea50a514c66ed.wav"
+        },
+        {
+          "ab": "titi",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/19dd543792696717764203bdd2e91acf.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nii",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/f3feb1d92eef5ef942c8dce96886834b.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/d3fa3910dff48cd2c7ef1895a53d9b49.wav"
+        },
+        {
+          "ab": "uvavaz’az",
+          "ch": "小孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/17c2248d63dda73cfecf831083a299f7.wav"
+        },
+        {
+          "ab": "pakaunun",
+          "ch": "餵食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/36622a9fc56e54bf92a969189eb51b34.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/a5d7420f9fdc41087377b4d58c5fe94b.wav"
+        },
+        {
+          "ab": "maivanis",
+          "ch": "山豬肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7f5df9955441271e18c6c5279c91d34f.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "與",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/06/10/065889d7d19e97cc238919e9a8685de0.wav"
+        },
+        {
+          "ab": "maisakut",
+          "ch": "山羌肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/5df615db2bf94b8d3e41ce1cdecd9dad.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/0559fac2e809af15d56786b421ca3c00.wav"
+        },
+        {
+          "ab": "punuq",
+          "ch": "腦子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/7104e0d7a3cbf11a6489f3595e1533b4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "namataimang",
+          "ch": "會很愚笨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/4e54ac20dc3f531d0f69cd3ef5cda94c.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/5495c7da46b226e03460e96b143e727a.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/9ffa026350be3e44dfadae687b5fd534.wav"
+        },
+        {
+          "ab": "mina’un",
+          "ch": "吃過了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/d292288640f76927e1a299eabc8ee830.wav"
+        },
+        {
+          "ab": "takismumuut",
+          "ch": "野生動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/54c8e0629f6377fb6d34b7752944d1bb.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/23ea34a294a4861c94b9be3080507e58.wav"
+        },
+        {
+          "ab": "punuq",
+          "ch": "腦子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/bd36e32d5e80ef2f57057e4fb910f104.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "Nii",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/db7f5e750ff8382f22b8f122150da76b.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/ac3df97ea553d07878f346448d4ffca5.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/6a7f61aead3ca3c23306c1a67fef8156.wav"
+        },
+        {
+          "ab": "uvavaz’az",
+          "ch": "小孩子們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/8c84c7e9db960c44fbb32c8dd20fdffa.wav"
+        },
+        {
+          "ab": "pakaunan",
+          "ch": "餵食",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/60d26aa0cbb7eb65dd1d80a036a26ff3.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/fb9eeba1699c188d7bb9fa6ea4224e13.wav"
+        },
+        {
+          "ab": "maivanis",
+          "ch": "山豬肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/616e1c5f223dd01ace113941bc6a8627.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/3d0a718a25acf9ee4ba35712a9fab896.wav"
+        },
+        {
+          "ab": "sikis",
+          "ch": "蹄螃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/a343d8d993d999eb5a770b53c92cbcc4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maupa’i",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/2059ddb13aa43ba34440f3868a033c8b.wav"
+        },
+        {
+          "ab": "namangapus",
+          "ch": "會口吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/f353a0b86fe8712463a91c7ee326a978.wav"
+        },
+        {
+          "ab": "dau",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/01c74a420f0400484984d849b60527c1.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/99120e2c270ba2134c9b42a856dab2a4.wav"
+        },
+        {
+          "ab": "babazbazin",
+          "ch": "說話了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/1e3e72ead2fe65c70ebeb0b5905654fb.wav"
+        },
+        {
+          "ab": "qalinga",
+          "ch": "話語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/12/23/e4b41646e78701bc9fca3f7111f88f19.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

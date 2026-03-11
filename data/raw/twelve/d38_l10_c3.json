@@ -1,6 +1,610 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "liwliw nu aenengan",
+  "titleCh": "生活環境",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "撒奇萊雅族有的住海邊，有的則住在平原或靠山。靠海居住方便男人捕魚；靠山居住的族人則可以從大自然採摘許多野菜。飛魚季節時，靠海居住的男人都會去捕飛魚，還會與鄰居分享收穫。靠山的人則可以享受大自然的各種野菜，也會分享採摘回來的野菜。農閒時期，有的族人會上山打獵；有的到小河邊抓螃蟹；有的到溪邊撒網。長輩從以前到現在就是這樣生活的。",
+      "ab": "u liwliw nu aenengan nu Sakizaya, izaw ku mililisay i bayu, izaw ku i enalay atu micapiay tu buyu’, kyu mililisay tu bayu a tatama sa, yadah ku pibutingan, micapiay tu buyu’ sa, yadah ku tahakay a kalulami’. i kasitimuan a puu’ nu mihecaan, sabeleng sa ku i lilisay nu bayu a tatama mitimu, matineng a pawada’ tu belaw. micapiay tu buyu’ a tademaw, matineng a milami’ tu kalucanacanan nu tahakay. i kasilawadan sa, izaw ku tabuyu’ay a miadup, izaw ku tasauwacay a mikalang, izaw ku tayzaay i talawadaw a mitabukud, u mahiniay ku nikauzip nu babalaki naisumamad katukuh ayza mahini henay.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/04/219fa8b594b58df6f4258cc22c2dd87c.wav",
+      "word": [
+        {
+          "ab": "u",
+          "ch": "[格位標記]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/8e895696ef7c7fb3b388bf1cbe4b9966.wav"
+        },
+        {
+          "ab": "liwliw",
+          "ch": "環境",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/806cc0fb5aaea4c65be7d2426ee3eeb0.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/a622d08f07d0fb7e9b8e387cc75a2c00.wav"
+        },
+        {
+          "ab": "aenengan",
+          "ch": "居住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/1f9bf0131d0018ebc668923310bb7161.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/f0189453632ac4ced6f0c916bb0cad19.wav"
+        },
+        {
+          "ab": "Sakizaya",
+          "ch": "撒奇萊雅族",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/c0e920d48d69b4287130bcaf2bca88d6.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izaw",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/fc0bfa8385651aba8ca764cfbffc1575.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/89202350af983d0e793ea79697accf55.wav"
+        },
+        {
+          "ab": "mililisay",
+          "ch": "靠邊的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/4ecbaca2cf496340586c77676615d025.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/bfaa543c0bd80ed5e567ea123e913430.wav"
+        },
+        {
+          "ab": "bayu",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/aebe157da837d21512b5a1ad0f4e4221.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izaw",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/1a3f528a7f59019679c74f693310a5e1.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/2ae8d33bd854abb2635b15214eb3ed1f.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/c19dad5c1e3c2a9ff0c90213402d46ad.wav"
+        },
+        {
+          "ab": "enalay",
+          "ch": "平原的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/097d94c608f53cafc83121891ae9834c.wav"
+        },
+        {
+          "ab": "atu",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/c406f51031890dc72c70d4122ad82b11.wav"
+        },
+        {
+          "ab": "micapiay",
+          "ch": "靠近的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/5c646320f1b0e3e3975edb7742332640.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e439917608d60fc29ebf139028364072.wav"
+        },
+        {
+          "ab": "buyu’",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e854a9943e3cb196a19532854feb684e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kyu",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/5ff6fec3cec34b4a635eca3576724e8d.mp3"
+        },
+        {
+          "ab": "mililisay",
+          "ch": "靠邊的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/1db3ba9a3d958ca08786ad452621efac.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/ca89b7b947afed6fd6ad6b5e9f205805.wav"
+        },
+        {
+          "ab": "bayu",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/3592eda3e878dde5bc1bddde6ffabe36.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b8e952992d7dc9bf144a4b1b0f4208e9.wav"
+        },
+        {
+          "ab": "tatama",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/303a276abbf0c67e6c97675b7c1e5690.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/4d05095890f17ffc24077a7623dad869.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yadah",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/ede79a5ee534f274b5f109567e6c4722.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/638e4b67a5c863b01bec07ae05253341.wav"
+        },
+        {
+          "ab": "pibutingan",
+          "ch": "捕魚的地方",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7f660095e1c004352d07687ea629950b.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "micapiay",
+          "ch": "靠近的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/1b5c032612c95eab017aa71621705f40.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/709b6839d764651ee36ecdefdb0c486e.wav"
+        },
+        {
+          "ab": "buyu’",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/ee3da9b304de2f389d9ad1822dbe2dc9.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/57f2c7573dc33d0b4e43255ec0b01488.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "yadah",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/a747f844c54b2dc8ccae9a98061ddbb3.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b24877075cc69ad3634b9b7a5e51de96.wav"
+        },
+        {
+          "ab": "tahakay",
+          "ch": "大自然的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/fb12595fe3e3854389114b43d8cbc620.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/20b7abf024570c94263e8e41af910095.mp3"
+        },
+        {
+          "ab": "kalulami’",
+          "ch": "各種菜",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/4a466e42051f049289f7ad04cd13266c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9517cb26244e36390b432a48d55591e1.wav"
+        },
+        {
+          "ab": "kasitimuan",
+          "ch": "飛魚產季",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/1a3185e4781d6aba537d2ed1ff29e265.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/29b1b86fc7656f13a13d14ba38a29a4f.wav"
+        },
+        {
+          "ab": "puu’",
+          "ch": "季節",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/921266c92e912a7646927b2381b08ffc.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/136bcf84b2ca75cc88a0925582d3689c.wav"
+        },
+        {
+          "ab": "mihecaan",
+          "ch": "年",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/926eefd36e6dc0996191e69c08eb1f96.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sabeleng",
+          "ch": "一窩蜂",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/a11a8602c0bdfa64f344b691f2da4d0f.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/fb9fcbbdf53a951ad3d7a6dda5ea0f6a.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/05/14/a7b0f34d08549b4f4a822219766a8668.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/8ccdf4b1001867a8dea29e70a7abc3e6.wav"
+        },
+        {
+          "ab": "lilisay",
+          "ch": "靠邊的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7f81920b7c111f949ddf7e629936acae.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/d36c77b99feeb7272809f44f1f0b0fec.wav"
+        },
+        {
+          "ab": "bayu",
+          "ch": "海",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/115b73f419693ec19ee708211c80a2ce.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/04/536d0bd05a544a54dd65f8b5e9020f3b.wav"
+        },
+        {
+          "ab": "tatama",
+          "ch": "男人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/04/85dfd1b15633210ce50998b091bf3e63.wav"
+        },
+        {
+          "ab": "mitimu",
+          "ch": "捕飛魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/bc524410ff5d6e003e4f9b9714e1a13a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matineng",
+          "ch": "很會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/3125eef78fe80745d7276bd905527ddd.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/a8b65238c05ab1ca13dd23e3b6fe4167.wav"
+        },
+        {
+          "ab": "pawada’",
+          "ch": "分享",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/a60ced6e3254569ab0812dbf7de00f98.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/d4e238509268feb6bacff616f13ab2d7.wav"
+        },
+        {
+          "ab": "belaw",
+          "ch": "鄰居",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/0d61e032ac22da33acb0db3d54a8f4ec.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "micapiay",
+          "ch": "靠近的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/20b02e57f3c1a6b7d540329b76cd61a6.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/26be735080c109e08f5081b9adef306f.wav"
+        },
+        {
+          "ab": "buyu’",
+          "ch": "山",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/2e0633ced7713b71d9ea672e65a708f6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/f79f86226ad3c54388f0fc63d4299aec.wav"
+        },
+        {
+          "ab": "tademaw",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b6aa0417ebf4b5441cad8f5d05d884bd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "matineng",
+          "ch": "很會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9884c173cd8bcd36d44eb85ea8acfec2.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/340038fe3fc275f5a652ed034dcc89ff.wav"
+        },
+        {
+          "ab": "milami’",
+          "ch": "採摘",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/55af60d72c920924ad0b6eb4b93e9231.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[斜]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/3b19a3c579f379423b53cb218ba03baf.wav"
+        },
+        {
+          "ab": "kalucanacanan",
+          "ch": "各種各樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/15c4c5ca59e90c9a2d7c705887eb0c2a.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/28ed3995f95af51f2a41460ed0be12fc.wav"
+        },
+        {
+          "ab": "tahakay",
+          "ch": "大自然的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9602772d53f84448e1fee3068238405b.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i",
+          "ch": "介[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/d835b8549dd68a4ddd1f1830b863c2f7.wav"
+        },
+        {
+          "ab": "kasilawadan",
+          "ch": "空閒時間",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/598ef234adb6e3312d67098a4c38c875.wav"
+        },
+        {
+          "ab": "sa",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/e441ee64e0aae130223c66e31153cd5e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izaw",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7bfe70b9dc9bffecac158f82bf5495a9.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/22322c263d37e40f21571c48862aebb5.wav"
+        },
+        {
+          "ab": "tabuyu’ay",
+          "ch": "上山的人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/2137741e17c2868ead929b32a270f9f6.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7bd04c759e572f17540362dd02d2905f.wav"
+        },
+        {
+          "ab": "miadup",
+          "ch": "打獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/2281696efe1bb9dce95822a3e4b5c378.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izaw",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/5cc432ca3f54d647b60779a83d2bd101.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/aa9c98d2abfb8b73835ea9994f0f61a8.wav"
+        },
+        {
+          "ab": "tasauwacay",
+          "ch": "去溪邊的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/4e0e02586b05cc6d38f5aa07195dd8da.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/c59e2caa751cd45c1174cfc41775d680.wav"
+        },
+        {
+          "ab": "mikalang",
+          "ch": "抓螃蟹",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/f0489ba0bfdcceb489ec1273f9f7b7a4.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "izaw",
+          "ch": "有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/8dc29ff8a2b07fb81b5a3a771b8ef07a.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/debb2a090e0a7ab3f9010cf89f282971.wav"
+        },
+        {
+          "ab": "tayzaay",
+          "ch": "去的…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/24791969bd6d13823abb36ff5244ff03.mp3"
+        },
+        {
+          "ab": "i",
+          "ch": "[介]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/c1cd9556a382da2776e6c76ab6a33224.mp3"
+        },
+        {
+          "ab": "talawadaw",
+          "ch": "去河邊的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/13/f13f5f132efd6de6a22200b3840333ad.mp3"
+        },
+        {
+          "ab": "a",
+          "ch": "[連]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/96d48a79390d3a97b15be93e834ab9a0.wav"
+        },
+        {
+          "ab": "mitabukud",
+          "ch": "撒網",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/fb5a1f17079eb806a7cfc458950b4f65.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "u",
+          "ch": "（格位標記）",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/85c8901b589bc4c3c230c43c46164ab3.wav"
+        },
+        {
+          "ab": "mahiniay",
+          "ch": "這樣的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/b8b44ae10ba47f98199b767ca980e448.wav"
+        },
+        {
+          "ab": "ku",
+          "ch": "[主]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/25426a9fcea03b93d254bdd1adfd3c01.wav"
+        },
+        {
+          "ab": "nikauzip",
+          "ch": "生活",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/9cb9aa0ba3c0d66f244cfa4ff5e5ce66.wav"
+        },
+        {
+          "ab": "nu",
+          "ch": "[屬]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/05da04e8d32723e2286a3d5f33eacc5b.wav"
+        },
+        {
+          "ab": "babalaki",
+          "ch": "老人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/130007db6a7a425ceaba33cfe89e38da.wav"
+        },
+        {
+          "ab": "naisumamad",
+          "ch": "從早期",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/04/335c119e7e83d2c94758ffb79d148e45.wav"
+        },
+        {
+          "ab": "katukuh",
+          "ch": "到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7d95de8348a86db9e09fb991a7163ec4.wav"
+        },
+        {
+          "ab": "ayza",
+          "ch": "現在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2021/04/13/7adef8d882ccd5cb45a74f26a5665908.wav"
+        },
+        {
+          "ab": "mahini",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/17/d12bd5378033a10c4e9b631e234328a1.mp3"
+        },
+        {
+          "ab": "henay",
+          "ch": "還",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/10/17/d5cb6f6f7bd2fc0e825401975f3e513c.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

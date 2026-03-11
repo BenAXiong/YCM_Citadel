@@ -1,6 +1,1486 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "boepono",
+  "titleCh": "放陷阱",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "在古早時期食物不是很豐盛的時候，鄒族的男人會去山上設陷阱抓動物，男人去上山前會特去鳥占。出門前要把設陷阱的材具放置在背袋內，到了晚上巡繡眼畫眉鳥聲去設定繡眼畫眉鳥的棲息處。到了早上天未亮，需等待繡眼畫眉鳥的吉利聲音才可以出門，要是不吉利的鳥聲就不出門。",
+      "ab": "ne o’amohcu mosola atngaso no ’oanʉ ne noana’o, ’e haahocngʉ la na’nosi uhne fuengu ho boepono ho mayo no yuangsou, tena ko’ko bonʉ no fou ’e cou. ho tee e’ohʉ ho boepono ’e haahocngʉ, la hioa ’o isi yainca ma’zazomʉ/ma’vazomʉ. ho isicu aoyoca ’o tee titha boepono, maito eno siekotva, evomʉ, sapiei, lea soyoca to keʉpʉ, ho tac’u yofna tenac’u pcaceoni, talʉa ’o tasi yoni mtoevi to oaimʉ/oazmʉ, ho tac’u taseona, tena m’e’eopsi ho hafa ’o keʉpʉ ho uhto isi yoni mtoevi to oaimʉ/oazmʉ, talʉi na hiasi muni, honci ʉmnʉ na e’e no zomʉ, takocu meelʉ e’ohʉ ho boepono. \r\n[===]\r\nhonci o’te ʉmnʉ na e’esi no zomʉ, o’a leas’a emozou, isi eʉsvʉta ta zomʉ mionana ’oha ’aseolʉ ho tee e’ohʉ. ne noana’o, mosola man’i ’o peipeisiasi homo e’ohʉ, honci tmalʉ nomo pasngi ho miebocʉ, o’a tees’a emo’usnu maica. o’a tee meelʉ bonʉ no yoskʉ ho t’ocnga. o’a tee aaso no mamespingi. ho micu emo’usnumaica ho mʉlʉ no fkoi ho ngiaufuengu to ceonʉ, tee tosvo hocu maine’e, honci asngʉcʉ pasngi na micu e’ohʉ, tee maezo emoovei maine’e, ho i’vaho ma’vazomʉ/ma’zazomʉ ho micu hucma.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/f9df31f6c7a662bf4526af59800eb96f.wav",
+      "word": [
+        {
+          "ab": "ne",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/ec3edd82921efb9ac2b9587c27417a81.mp3"
+        },
+        {
+          "ab": "o’amohcu",
+          "ch": "還沒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/52066caed17ff6ffeda20c59538c9348.mp3"
+        },
+        {
+          "ab": "mosola",
+          "ch": "有曾經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/ced26cb48df46ee9c81475f5532d6097.wav"
+        },
+        {
+          "ab": "atngaso",
+          "ch": "豐盛；有財",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/7f519b0c6fc63cf4809b11e96e35b4ae.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/bc6f410a561d1126185507c86e75d8e9.mp3"
+        },
+        {
+          "ab": "’oanʉ",
+          "ch": "食物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/8e0766731ae149d68da9be70735eeae1.wav"
+        },
+        {
+          "ab": "ne",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/b15f3af6e2ec87c66c4d9b50a133ac8a.mp3"
+        },
+        {
+          "ab": "noana’o",
+          "ch": "古早",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/83f253733e6f3b8a914055b202cf1cd1.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "’e",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/650d2cc66874ca90f295e7b7e03a58ba.mp3"
+        },
+        {
+          "ab": "haahocngʉ",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/376b508b655c1b0c65bfc484305b52b9.mp3"
+        },
+        {
+          "ab": "la",
+          "ch": "通常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/297c88b64eca091fe8269356a64df70c.mp3"
+        },
+        {
+          "ab": "na’nosi",
+          "ch": "很；非常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/719f1cdb4ad8f61a774221e4f925ceab.wav"
+        },
+        {
+          "ab": "uhne",
+          "ch": "前往",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/24b13e136971328f6cf7ce1bda0fda05.mp3"
+        },
+        {
+          "ab": "fuengu",
+          "ch": "山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/95030e7ce265a69292a117051e001bf5.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/5d8a4ba1eab11bfc8ed07149b1eb6799.mp3"
+        },
+        {
+          "ab": "boepono",
+          "ch": "設陷阱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/59ed3e8380e35fdf8714c79d0f4b64e9.wav"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/df2978b122fe105f66b2b2f6a2ab35a7.mp3"
+        },
+        {
+          "ab": "mayo",
+          "ch": "拿；取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/37fd6c22355293041384af5a4abb139d.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/076d2ff1db83913747cf299dd30516a1.mp3"
+        },
+        {
+          "ab": "yuangsou",
+          "ch": "動物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/611fb4a6562bd6f00b64cbc66bf48983.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tena",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/7701bb8ec100bf0b41cc80e380923bfc.wav"
+        },
+        {
+          "ab": "ko’ko",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/65fd8062caeabc6086e05b046c1c7405.mp3"
+        },
+        {
+          "ab": "bonʉ",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/a63e607faf77a40be507d41d2c21a697.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/397526a1041d2ed0a2aff5f0c8a0425d.mp3"
+        },
+        {
+          "ab": "fou",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/7c59fa96c006f840af2a8c86092a2032.wav"
+        },
+        {
+          "ab": "’e",
+          "ch": "這",
+          "sound": null
+        },
+        {
+          "ab": "cou",
+          "ch": "鄒族；人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/b0af7a25dd2bf0b624535dcf7ad5ac81.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/c03d7ed4caac589ca843afed778050d6.mp3"
+        },
+        {
+          "ab": "tee",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/e63b32f5ec5960be202b3622dce48c6a.mp3"
+        },
+        {
+          "ab": "e’ohʉ",
+          "ch": "出發；狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/89f34a7819affc35c90ec5e169ab2ffb.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/0418eec2cd83d6956c30e653fb667e2f.mp3"
+        },
+        {
+          "ab": "boepono",
+          "ch": "設陷阱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/b747bc78bacc124ecadc9583eb1ca97e.mp3"
+        },
+        {
+          "ab": "’e",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/031114ec1d03365e323d471bf668e48f.mp3"
+        },
+        {
+          "ab": "haahocngʉ",
+          "ch": "男生",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/0399aeec28952b55b030c79cb486f3fc.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "la",
+          "ch": "通常",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/acaefab8074c6b71e105e95767448e1e.mp3"
+        },
+        {
+          "ab": "hioa",
+          "ch": "工作",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/af3f699409e3b7a499aca5c204a5983d.wav"
+        },
+        {
+          "ab": "’o",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/1e3c8980efa9e9328ec107e6364ed052.mp3"
+        },
+        {
+          "ab": "isi",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/0f688743d0b884c8685b41fddc376229.mp3"
+        },
+        {
+          "ab": "yainca",
+          "ch": "說",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/9a405ec2949559fe10f556b271002bb2.mp3"
+        },
+        {
+          "ab": "ma’zazomʉ",
+          "ch": "鳥占",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/4942987dc58b1900ecc45d331ce3fe98.wav"
+        },
+        {
+          "ab": "/",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’vazomʉ",
+          "ch": "鳥占",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/4c510c7b1e875c013a0d7a8088517491.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/e9ce2a1e70849f3b5c6248a35d343ef9.mp3"
+        },
+        {
+          "ab": "isicu",
+          "ch": "已經是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/55aaca776a345741e135641867e107e2.mp3"
+        },
+        {
+          "ab": "aoyoca",
+          "ch": "準備",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/9dcb876a03f0d77ea3cee5c9f240c5de.wav"
+        },
+        {
+          "ab": "’o",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/bdcf4e05499dd7c156e00e75009a6410.mp3"
+        },
+        {
+          "ab": "tee",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/571e3f193af1362970116da7e4df351b.mp3"
+        },
+        {
+          "ab": "titha",
+          "ch": "利用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/08fda0d5ba19938a826c88f2c7bc3aae.mp3"
+        },
+        {
+          "ab": "boepono",
+          "ch": "設陷阱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/f9d21d76de9f32f16d7e189bf0b729a7.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maito",
+          "ch": "像是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/f7cbf46084a7acb8235de972813f97f8.wav"
+        },
+        {
+          "ab": "eno",
+          "ch": "是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/effd845a023aee4a37f9b8e35c7a1d0d.wav"
+        },
+        {
+          "ab": "siekotva",
+          "ch": "陷阱其一",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/bae123989aa8414ee64f83ab60f18449.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "evomʉ",
+          "ch": "陷阱之一；豐收祭用來祈福的籤",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/c740aaa418e9d296953ae39e0f6d807a.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sapiei",
+          "ch": "鞋子",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/d6b4cd3a1e3c76a752165224df39e623.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "lea",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/7886d798acc974e10bbdbe2c76445b41.mp3"
+        },
+        {
+          "ab": "soyoca",
+          "ch": "準備好放著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/283aa84760d872a0a15a18b1860d1231.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/7260449458c20949872bcc3d371061fe.mp3"
+        },
+        {
+          "ab": "keʉpʉ",
+          "ch": "背袋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/7faf60898170c9bae0e5115e2d546f9c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/2aa32a1f0c3a8f193d6ed0ca5efdf281.mp3"
+        },
+        {
+          "ab": "tac’u",
+          "ch": "將要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/5929b1d1af7e3a772f53eaa148b9cf9c.mp3"
+        },
+        {
+          "ab": "yofna",
+          "ch": "晚上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/3c5f0aa1064ce45bf82cc377b4330733.wav"
+        },
+        {
+          "ab": "tenac’u",
+          "ch": "將要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/f1ad6e86dcedf927127a3ec1d1975d0f.wav"
+        },
+        {
+          "ab": "pcaceoni",
+          "ch": "循著足跡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/e469b5f7865830b376578c1bc7fa8e06.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "talʉa",
+          "ch": "記得；想念",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/af7dd557ab88161487c869093b066228.wav"
+        },
+        {
+          "ab": "’o",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/a2635b944fdde4a5a07da4c003a31ebd.mp3"
+        },
+        {
+          "ab": "tasi",
+          "ch": "它的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/5bbba052412229ceab256f7e8487cc4f.mp3"
+        },
+        {
+          "ab": "yoni",
+          "ch": "在；住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/20cefe2467b304ea6f05d995f0df0d7f.mp3"
+        },
+        {
+          "ab": "mtoevi",
+          "ch": "鳥類棲息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/2cefbd2c2db45df35179d0cb5d0a7917.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/e82d728249e7967a1d6d7f3a56e2d76d.mp3"
+        },
+        {
+          "ab": "oaimʉ/oazmʉ",
+          "ch": "繡眼畫眉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/99144a243e8c09c76e0bf19363a733eb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/c54bb64ff21be533e7b1254dde35c8ea.mp3"
+        },
+        {
+          "ab": "tac’u",
+          "ch": "將要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/f480447c362249b71f5532395630d29c.mp3"
+        },
+        {
+          "ab": "taseona",
+          "ch": "早上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/d8356068cbf3b44638035c7297e08ba2.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tena",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/57cb0d2e5c4efed103d34cd19c1d02d7.mp3"
+        },
+        {
+          "ab": "m’e’eopsi",
+          "ch": "在傍晚尋足跡",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/37c7e42a816d7df558110a5b877c3412.wav"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/a29f65902eab6e70e30e992f0442cf6c.mp3"
+        },
+        {
+          "ab": "hafa",
+          "ch": "帶著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/cd0eced0047358600d794d009b5c81e4.mp3"
+        },
+        {
+          "ab": "’o",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/0b408422bf55f0aa9bfc2846e420a5bc.mp3"
+        },
+        {
+          "ab": "keʉpʉ",
+          "ch": "背袋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/92e3a6c4b3ecca9e076e796252a79c68.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/c9fadcbde71713f17322befe4588eb0d.mp3"
+        },
+        {
+          "ab": "uhto",
+          "ch": "去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/cd7638450ea28b1fc3642ea8902e298f.mp3"
+        },
+        {
+          "ab": "isi",
+          "ch": "他就",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/2e86d6b9cfa3986eee4cba135837f56c.mp3"
+        },
+        {
+          "ab": "yoni",
+          "ch": "在；住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/2f9f380807f58a5281cce933e48ee5cb.mp3"
+        },
+        {
+          "ab": "mtoevi",
+          "ch": "鳥類棲息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/9d97e8ad7730f856759e683be8989ee4.mp3"
+        },
+        {
+          "ab": "to",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/f4e4f4a147191593df0c799a89ebc52e.mp3"
+        },
+        {
+          "ab": "oaimʉ/oazmʉ",
+          "ch": "繡眼畫眉鳥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/1312494e515d1d0ffd35048b30901ebc.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "talʉi",
+          "ch": "聽到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/952663bf38749c5bf0939da4ee50e318.wav"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/3f6e0c5c72d06a99f56a0609ab692759.mp3"
+        },
+        {
+          "ab": "hiasi",
+          "ch": "他很…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/b754993e1b7ee6daad8cc6840e9a9ded.mp3"
+        },
+        {
+          "ab": "muni",
+          "ch": "鳴叫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/4ef395c2dee70ffc8ea71bc20ae04cd2.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "honci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/1754f416193fbaf62b302fa005996c6b.mp3"
+        },
+        {
+          "ab": "ʉmnʉ",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/1dd80728eedce7a31bf295f0719e5583.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/4f504bf633d76aaf981980781d915f93.mp3"
+        },
+        {
+          "ab": "e’e",
+          "ch": "話語",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/1c06d2c128549329cdbeda22b7d0f4c0.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/19e748311b50aaa024d3935ce17221c4.mp3"
+        },
+        {
+          "ab": "zomʉ",
+          "ch": "鳥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/69ca914e98d114146f750802ec0f0d5c.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "takocu",
+          "ch": "你將要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/68fbfe099e43dba5b1a6bf6f031230cd.wav"
+        },
+        {
+          "ab": "meelʉ",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/76e256c75bea6f2b26bae34cfcf52be2.mp3"
+        },
+        {
+          "ab": "e’ohʉ",
+          "ch": "出發；狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/2cb518bf31ce1e4718e60a7dc6ae6863.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/4cf52add66f9e6e352b61b4e395966d6.mp3"
+        },
+        {
+          "ab": "boepono",
+          "ch": "設陷阱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/d0b8823c91189b70a21fb3ca5b801bc4.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "honci",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/1ad703ffc289896179d9f651ea4a3a83.mp3"
+        },
+        {
+          "ab": "o’te",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/25e26c7103028f41425018f83b8a6ab8.mp3"
+        },
+        {
+          "ab": "ʉmnʉ",
+          "ch": "好",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/4f23a1b9a0a3f0ef81dfdddb24fd3215.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/0116e0d0801832452a89abfc78372d72.mp3"
+        },
+        {
+          "ab": "e’esi",
+          "ch": "牠的話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/09905a162961afa30975becbbc453369.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/be79128b9c0e56999f1c7498f8f07b5d.mp3"
+        },
+        {
+          "ab": "zomʉ",
+          "ch": "打仗",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/f37e217b628ef48b6201e96681e73603.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o’a",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/0d69d6e720d35ccc28eed2c1cf6b5746.mp3"
+        },
+        {
+          "ab": "leas’a",
+          "ch": "會的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/11aa67348803cf848fe7b393ac3f61dd.mp3"
+        },
+        {
+          "ab": "emozou",
+          "ch": "要前去",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/f92161c0c4c0dc4480aeed1441f1a02c.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "isi",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/14b08d0f1c685b811e27e435dbdcc5bd.mp3"
+        },
+        {
+          "ab": "eʉsvʉta",
+          "ch": "告知",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/3ed9a1e47933a004327f9b54334242e9.mp3"
+        },
+        {
+          "ab": "ta",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/bec8bc04fb8c993a75c7734383271253.mp3"
+        },
+        {
+          "ab": "zomʉ",
+          "ch": "鳥",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/6036372a6a5e1ae34e17679ef654c848.mp3"
+        },
+        {
+          "ab": "mionana",
+          "ch": "真的這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/7b51464c2f059b3d2e03e094395ba7b8.mp3"
+        },
+        {
+          "ab": "’oha",
+          "ch": "不太",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/392c0a35d12e13dc1d195bda57e7f692.mp3"
+        },
+        {
+          "ab": "’aseolʉ",
+          "ch": "適合",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/bcafec2483e1dd270036c99d3aae041c.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/2f4f068986c38af8c9df7589959d1bc9.mp3"
+        },
+        {
+          "ab": "tee",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/499ff4424b195ba0df61da5d145db0c8.mp3"
+        },
+        {
+          "ab": "e’ohʉ",
+          "ch": "出發；狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/438a22a0565fd978d8604a28275d5057.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ne",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/76f8ddeefe153e84b01dcdb747e879cd.mp3"
+        },
+        {
+          "ab": "noana’o",
+          "ch": "古早",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/f600de1d0f5702c04a0a3fedda6ca537.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mosola",
+          "ch": "曾經是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/3692986ef9144acb70b9a24cfe242e0a.mp3"
+        },
+        {
+          "ab": "man’i",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/a72d62a8435f65d532f35877c281a4ae.mp3"
+        },
+        {
+          "ab": "’o",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/76adbde6b5472183b5f0cc6259afa6c3.mp3"
+        },
+        {
+          "ab": "peipeisiasi",
+          "ch": "它的禁忌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/9e14c94e9f1bc53274b87deea8b7cf7e.mp3"
+        },
+        {
+          "ab": "homo",
+          "ch": "當",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/e2b7d856c190d173d53470e98672f734.mp3"
+        },
+        {
+          "ab": "e’ohʉ",
+          "ch": "出發；狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/c798ca9dd9630292480dd666cc67a496.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "honci",
+          "ch": "要是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/7324873c1cce3c3694fd110ec7e49232.mp3"
+        },
+        {
+          "ab": "tmalʉ",
+          "ch": "聽",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/c71f55b354fa5709447de72cc755586f.mp3"
+        },
+        {
+          "ab": "nomo",
+          "ch": "那種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/a6766f47c8902a8fdd864d099f8d5f75.mp3"
+        },
+        {
+          "ab": "pasngi",
+          "ch": "打噴嚏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/678e24440fc2981f86a441d532e8ac48.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/8c2cc522674b21d352518a7dfcee9c86.mp3"
+        },
+        {
+          "ab": "miebocʉ",
+          "ch": "放屁",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/47b91e041ebac1ac6f69f540a92ca4f8.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o’a",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/d03963ee24c75489cf6d97bba97ed427.mp3"
+        },
+        {
+          "ab": "tees’a",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/f579492e328e4f22ee845b6003015e7b.mp3"
+        },
+        {
+          "ab": "emo’usnu",
+          "ch": "去往那個方向",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/1edc2c405a548bd02b29adeff5c9444d.mp3"
+        },
+        {
+          "ab": "maica",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/37da9b1a1c7f13cf45e3559312c3df1a.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o’a",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/3cb6f16fe99ee195810e3f32146d2b1d.mp3"
+        },
+        {
+          "ab": "tee",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/f6cd095291beb13bf43ab34c32c21d8d.mp3"
+        },
+        {
+          "ab": "meelʉ",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/1fff5f371b48a99f5cca41fbb97f67d7.mp3"
+        },
+        {
+          "ab": "bonʉ",
+          "ch": "吃",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/1e70992ae7850d605e43264ec5af21a3.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/2573e50a9eb325344af60666781c9fdb.mp3"
+        },
+        {
+          "ab": "yoskʉ",
+          "ch": "魚",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/b9c729aa9c7204ff7bcaa3219c98fe69.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/23a33440a36279e8fe37495b37877f93.mp3"
+        },
+        {
+          "ab": "t’ocnga",
+          "ch": "路橋",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/28/6f4f01112918afe457d9d9e9c1c7a331.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o’a",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/88f1b42d0af00d6bfaad6f6149ed7b92.mp3"
+        },
+        {
+          "ab": "tee",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/118ba025b1a1587623cf660703a128fb.mp3"
+        },
+        {
+          "ab": "aaso",
+          "ch": "碰觸",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/eade6533579917648d864423ea6d7151.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/41c4795428468761adab610a98852391.mp3"
+        },
+        {
+          "ab": "mamespingi",
+          "ch": "女人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/d3c1bb57050f420daec49e0bfdb1d273.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/c7d37590abe7686a85c883452bf0bbaa.mp3"
+        },
+        {
+          "ab": "micu",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/ffc60f9a33aac093461126cb70ffb2b4.mp3"
+        },
+        {
+          "ab": "emo’usnumaica",
+          "ch": "往…的方向",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/2a8ad2dfe82dd1862c771d67d2b97970.wav"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/171504b9b3f6ec2d77aae63e3a8c1321.mp3"
+        },
+        {
+          "ab": "mʉlʉ",
+          "ch": "遇到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/dbd146a24e3bc24319bf07050e2ec9b9.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/6afed74eb441805ef47e14dccee63a67.mp3"
+        },
+        {
+          "ab": "fkoi",
+          "ch": "蛇",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/4ed50918769c90cce66882a737718f38.wav"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/e326d7c3876e3b6a1521b97b33d867a0.mp3"
+        },
+        {
+          "ab": "ngiaufuengu",
+          "ch": "山貓",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/1ebfd05d0192732f6f16cec8365d58e5.wav"
+        },
+        {
+          "ab": "to",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/7b22f38dab3ed930999a2a0b9d76cb54.mp3"
+        },
+        {
+          "ab": "ceonʉ",
+          "ch": "路",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/96dd8bcc853a529d01379d0ea2336883.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tee",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/62c5ffcdd6c31a28b1c473f310ab5eca.mp3"
+        },
+        {
+          "ab": "tosvo",
+          "ch": "停止；休息",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/21743ecbd163314471df81e822dcbe9c.mp3"
+        },
+        {
+          "ab": "hocu",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/d9d73f8990303aac6f84556ca7161ea1.mp3"
+        },
+        {
+          "ab": "maine’e",
+          "ch": "回家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/6ad5f5860c94f3bdf9ad84c05ec9ca4e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "honci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/4800f0a80f909e8c2f3b5fb5a0d5dd85.mp3"
+        },
+        {
+          "ab": "asngʉcʉ",
+          "ch": "一直是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/14c6ef19ff7597cde0fe396d5ab3e385.mp3"
+        },
+        {
+          "ab": "pasngi",
+          "ch": "打噴嚏",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/52cb65241c233899fc77b2fd254a43d8.mp3"
+        },
+        {
+          "ab": "na",
+          "ch": "那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/c8419e6ce51753e4d54c961b9baf3023.mp3"
+        },
+        {
+          "ab": "micu",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/1559a998a4e7564a276a3046e6ff5452.mp3"
+        },
+        {
+          "ab": "e’ohʉ",
+          "ch": "出發；狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/ef2fc393ecfab2a2991e0a6f7e5cafae.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tee",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/d479b2e6a35d8a77c552c4cc80200730.mp3"
+        },
+        {
+          "ab": "maezo",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/ca63137d6310ed50f2de79449f548941.mp3"
+        },
+        {
+          "ab": "emoovei",
+          "ch": "折返",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/9d5839fbbf99dae34068a0b0b87ea2c5.wav"
+        },
+        {
+          "ab": "maine’e",
+          "ch": "回家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/60211ad8c1f499782369ea9a6f9b6ccf.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/e51fd2154feee12b0b3441aa5f920d0a.mp3"
+        },
+        {
+          "ab": "i’vaho",
+          "ch": "重新，再一次",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/4cf04729f720c848f6673d7d2f87cc96.wav"
+        },
+        {
+          "ab": "ma’vazomʉ",
+          "ch": "鳥占",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/60e172196f8ca3e0e1032f29f59a2237.mp3"
+        },
+        {
+          "ab": "/",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ma’zazomʉ",
+          "ch": "鳥占",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/1765a8376af3dd9346dc19a1915721eb.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/f439befe12d4ddc3a0d4b5e426a6caf4.mp3"
+        },
+        {
+          "ab": "micu",
+          "ch": "已經",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/e68784ed5ca4d44068b3abd1588d1851.mp3"
+        },
+        {
+          "ab": "hucma",
+          "ch": "隔一天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/82f3af9bca411cafbce05a971f9251e5.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "[---]\r\n在以前出獵時有很多禁忌，出發要是聽到有人打喷替或是放屁就不可以前往。也不能吃魚和蒜類。也不能和女人親近。已經出發了在路上遇到蛇和山貓，要停止往前且必須回返，在途中一直打喷涕也要折返，重新聽鳥占擇期再出發。 先祖交代叮嚀的禁忌我們都要記住，要是不遵守禁忌硬是去做，就會得不到保護神得護佑，擔心會遇上不吉利倒楣的事情就不好。",
+      "ab": "’e isi afu’a eutotaveia no nia mamameoito ci mapeipeisia, teela atatalʉa, honci ’ahʉhʉyʉ emo’usnu maica, o’a tesis’a tiʉt’ʉt’ʉca no noae’oca ta fuengu, isi yaeza yophia honci e’elʉ nomo ku’kuici ci a’a’ausna.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/fb6fb452ee6ebcc4dabc86c627ece0b3.wav",
+      "word": [
+        {
+          "ab": "’e",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/56b033cb74ae80202046313d8246c05f.mp3"
+        },
+        {
+          "ab": "isi",
+          "ch": "他",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/70377cc20fa4ea1d311c61804b6f37a3.mp3"
+        },
+        {
+          "ab": "afu’a",
+          "ch": "本來就…",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/6aea08c3a5f3cc3ed0177ab958c46fff.wav"
+        },
+        {
+          "ab": "eutotaveia",
+          "ch": "叮嚀；吩咐",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/7070ad0edb889858b42fe55d0258e7ed.mp3"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/e3f5ca7a703d1c57faedf2109aa61729.mp3"
+        },
+        {
+          "ab": "nia",
+          "ch": "去世的；以前的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/80caa7d93180e9d4671fa41d5955ac76.wav"
+        },
+        {
+          "ab": "mamameoito",
+          "ch": "長輩們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/2d056f209dcf40e219f1f06b172bf471.mp3"
+        },
+        {
+          "ab": "ci",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/939cbe2f841cdeee23a6d1408d47fead.mp3"
+        },
+        {
+          "ab": "mapeipeisia",
+          "ch": "各個禁忌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/ac9d83b5b346614919b816a17ea3f5bd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "teela",
+          "ch": "會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/ebf88cff026fb452c0695f6b93e28fbb.mp3"
+        },
+        {
+          "ab": "atatalʉa",
+          "ch": "要記住",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/7aea6cae5cf332dccd0f2aad404a945f.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "honci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/b7afa54cdfc38371f9eb9df2e4a56bf7.mp3"
+        },
+        {
+          "ab": "’ahʉhʉyʉ",
+          "ch": "一定要，堅持要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/8fe4ac43d16e70cad529f166c40f0eb0.wav"
+        },
+        {
+          "ab": "emo’usnu",
+          "ch": "往…方向",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/92d0170c0afcdff54fe84a943d8306b5.wav"
+        },
+        {
+          "ab": "maica",
+          "ch": "這樣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/0dce090efb5bcd42a62406537da44342.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "o’a",
+          "ch": "不",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/4712c41bbefc56d7976f3cf431281c28.mp3"
+        },
+        {
+          "ab": "tesis’a",
+          "ch": "將會",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/6d96343c63b2bc5be6c2e8f8005ca561.wav"
+        },
+        {
+          "ab": "tiʉt’ʉt’ʉca",
+          "ch": "被照顧到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/c16dd1a10160c51e97dc468ec0dbeff9.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/23741ff5842ef3df7464b96f964d20ce.mp3"
+        },
+        {
+          "ab": "noae’oca",
+          "ch": "依靠神",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/f757bb9b98e62438c2777582420b8cbc.wav"
+        },
+        {
+          "ab": "ta",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/d1c64fd3d53fd4567969f064bf7e8ecb.mp3"
+        },
+        {
+          "ab": "fuengu",
+          "ch": "山上",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/8abcab7ce4ce063ebfee1cfceb63ae58.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "isi",
+          "ch": "它",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/649e62924736277fca6dec00acf9fb5a.mp3"
+        },
+        {
+          "ab": "yaeza",
+          "ch": "也",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/b7de59c1b21cfc36078a1565b7d3e73b.mp3"
+        },
+        {
+          "ab": "yophia",
+          "ch": "擔心害怕",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/00fb6adbe8ed5b89539df9483659276b.wav"
+        },
+        {
+          "ab": "honci",
+          "ch": "如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/455af904e0e970fcc845691e5a431b42.mp3"
+        },
+        {
+          "ab": "e’elʉ",
+          "ch": "遇到；經歷到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/381ad92454de5a0895f8db2d0620ffc3.wav"
+        },
+        {
+          "ab": "nomo",
+          "ch": "那種",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/87b4e58824ff67ca20671227a4a605c7.mp3"
+        },
+        {
+          "ab": "ku’kuici",
+          "ch": "不好的事情",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/24/1374d1534ca19faa1eb99049a17c7bf2.wav"
+        },
+        {
+          "ab": "ci",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/15129a750ac668e2b20841cc39cce5c0.mp3"
+        },
+        {
+          "ab": "a’a’ausna",
+          "ch": "事情；情況",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/8c1a7207a3558bcb609b9d5a50ce7571.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "在今天，獵人還是都遵循祖先的禁忌，一切要小心謹慎。   ",
+      "ab": "ta maitan’e, i’ola afu’u e’ohʉ ho eya fou ci cou, leahen’a fifihi ’e anana’o peipeisia to mamameoi ne noana’o. ac’ʉhʉ maitan’e mion’a a’ʉmtʉ na’no buemealʉ ’e cou  hote akoyu no boepono ho e’ohʉ eya fou.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/f52a02e4a97ad34dcedb44b0490eab0d.mp3",
+      "word": [
+        {
+          "ab": "ta",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/18/32ebe6123fdcd504d61c5782a9585cac.mp3"
+        },
+        {
+          "ab": "maitan’e",
+          "ch": "今天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/74996b28ce38a6e066f50b8f712dbe23.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "i’ola",
+          "ch": "就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/1befe13c3d9d363ac2a0cfbf0dc02acb.mp3"
+        },
+        {
+          "ab": "afu’u",
+          "ch": "就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/157c41b84edd796ee20988631bb2bc1e.wav"
+        },
+        {
+          "ab": "e’ohʉ",
+          "ch": "出發；狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/af2e1b4d54cafd6e54b5123d5cecdd0b.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/3fa10d3f890312fcc61b5f79eeed290c.mp3"
+        },
+        {
+          "ab": "eya",
+          "ch": "找；取；尋找",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/64ece7d56bca9a6752ea7b14b4e3fb92.wav"
+        },
+        {
+          "ab": "fou",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/5fb1cdaf8f06a94c7d81533bb81efa7c.mp3"
+        },
+        {
+          "ab": "ci",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/149e3c2693bc4d4146f833979bd5a21c.mp3"
+        },
+        {
+          "ab": "cou",
+          "ch": "鄒族；人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/66a90ca33c0001ee0dca3e2bab75a840.mp3"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "leahen’a",
+          "ch": "他們還是有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/80d4762f5d2f67539b727b39af09f228.wav"
+        },
+        {
+          "ab": "fifihi",
+          "ch": "跟著",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/c8e9a86dcf1fe76c0d72793d2a37577a.wav"
+        },
+        {
+          "ab": "’e",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/7be13ff703fc9f7d00505cb7b30ca954.mp3"
+        },
+        {
+          "ab": "anana’o",
+          "ch": "本來就是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a4fc1886e94eef8d8402809b774eed89.wav"
+        },
+        {
+          "ab": "peipeisia",
+          "ch": "它的禁忌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/9f3705e9ff5700c5369dacd838ba6764.mp3"
+        },
+        {
+          "ab": "to",
+          "ch": "在",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/27ffe5eb41c78826d4f8dfe61fb45ea3.mp3"
+        },
+        {
+          "ab": "mamameoi",
+          "ch": "長輩",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/8ce9820f0cad511df7db0f0ba0bdfc16.mp3"
+        },
+        {
+          "ab": "ne",
+          "ch": "當時",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/e79eb35132023b80bd8610a4ee16e52d.mp3"
+        },
+        {
+          "ab": "noana’o",
+          "ch": "古早",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/bb12c00bda6d2379b6b5f7f80e0a3d44.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "ac’ʉhʉ",
+          "ch": "直到",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/8326c21cd18c0ae2fa04b779a6feca8c.mp3"
+        },
+        {
+          "ab": "maitan’e",
+          "ch": "今天",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/3855f320428b6869a18108cda2871b90.mp3"
+        },
+        {
+          "ab": "mion’a",
+          "ch": "還是有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/71ac96935e6b7e5029e4cb3fc3955c2f.wav"
+        },
+        {
+          "ab": "a’ʉmtʉ",
+          "ch": "真的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/a9e69fc194d5fd693e47c4d76a1cfa8d.mp3"
+        },
+        {
+          "ab": "na’no",
+          "ch": "很",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/b05ffc0f17c7bd6e42d9770b196164df.mp3"
+        },
+        {
+          "ab": "buemealʉ",
+          "ch": "小心；努力",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/ee6fdeaf7e4bc7af216cba613a912189.wav"
+        },
+        {
+          "ab": "’e",
+          "ch": "這",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/cb9fbaee8285e4b46bae96a4bfa2c6c4.mp3"
+        },
+        {
+          "ab": "cou",
+          "ch": "鄒族；人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/bdea85fd8141b41ab0c8d25658384ad4.mp3"
+        },
+        {
+          "ab": "hote",
+          "ch": "將要",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/1756251b5263842fb1ac5d076cc8502f.wav"
+        },
+        {
+          "ab": "akoyu",
+          "ch": "要是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2022/03/26/a3b8f8b0718ed27238f95e6ef5e4b46f.wav"
+        },
+        {
+          "ab": "no",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/43eb8e42d39c5039c6793fe08ae3758b.mp3"
+        },
+        {
+          "ab": "boepono",
+          "ch": "設陷阱",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/3f74681d83d36f24c2d63dd4a63b8207.mp3"
+        },
+        {
+          "ab": "ho",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/58381e62f0b4b75631f86ad7749d0963.mp3"
+        },
+        {
+          "ab": "e’ohʉ",
+          "ch": "出發；狩獵",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/5552c869e7146654373b9e7d36b89e04.mp3"
+        },
+        {
+          "ab": "eya",
+          "ch": "找；取",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/c17762648d8565fdefaf4abfa35916e5.mp3"
+        },
+        {
+          "ab": "fou",
+          "ch": "山肉",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/09/29/3fb983d3149f38f7188e8dcfc6593500.mp3"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

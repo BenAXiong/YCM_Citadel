@@ -1,6 +1,841 @@
 {
-  "title": null,
-  "titleCh": null,
+  "title": "Laupakadau tu teknik siin masihal tu iniqumisan",
+  "titleCh": "現代的科技與文明",
   "soundPath": null,
-  "sentence": []
+  "sentence": [
+    {
+      "chinese": "科技可以為我們創造有利的生活器械。如同我們的服飾、食品和住家。如果我們生病，可以被醫治，增加我們的農作物的產量，能利用網路與鄰居通話。",
+      "ab": "Maaq dau ka teknik una maqtu ka’uni ki na’is’insihal imita ikma’aiun tu qaimamangsut. Maszang imita tu al’ainukan, kakaunun, takdada’an siin tundadaza’an. Mihalangin ata ka maqtu ata pa’iu’an; sinsusuaz mita maqtu mindua ka sina’imaun, maqtu ikma’ia ki wangluu’ pababazbaz i pakatan’aa tu bunun.",
+      "order": "1",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/16/713a8af5ed3d33965d5067a4ab3acac0.wav",
+      "word": [
+        {
+          "ab": "maaq",
+          "ch": "這；那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a7ca80bfc4de449c826b6e6789179843.wav"
+        },
+        {
+          "ab": "dau ka",
+          "ch": "[助片]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/0d0426155d7ea18e6d6a4a81314638a7.wav"
+        },
+        {
+          "ab": "teknik",
+          "ch": "科學技術(借自英語)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/38a11c97cd88c0334db6fb3357d38057.wav"
+        },
+        {
+          "ab": "una",
+          "ch": "這；那(關代詞)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/17/fb35623d8522116a3af5275b23480ccd.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/18357170663078741d3e882bfe3c87b6.wav"
+        },
+        {
+          "ab": "ka’uni",
+          "ch": "製作；創造",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8e47d0fe45a1da17df52cfa10c38d32b.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a923f98c7391f8726171cb4a4f37d35b.wav"
+        },
+        {
+          "ab": "na’is’insihal",
+          "ch": "帶來好處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/37ad464eaeb7c6740784f83a4e6bd507.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/b11dbdbbc9e47361aab045b6a187c9ed.wav"
+        },
+        {
+          "ab": "ikma’aiun",
+          "ch": "被利用；被使用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/55df24f02b28552728f01d124a3181ae.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/e114b958d8b0adc7b02d7ba9efcda7dc.wav"
+        },
+        {
+          "ab": "qaimamangsut",
+          "ch": "事物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/54ee1f6540e9aa0e6bb050b7db549544.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maszang",
+          "ch": "相同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/bc60d970c334037e3351eb196094ca25.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1503b0fc55e724924cdb8e880c7dd805.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ef0e251298e532f79f4e1052617b790c.wav"
+        },
+        {
+          "ab": "al’ainukan",
+          "ch": "服飾",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/27f438893b9248e6d91435f50fbce67e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "kakaunun",
+          "ch": "飲食文化",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1177c8c5bf5afb1d78f9e6a293b62f55.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "takdada’an",
+          "ch": "住家",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1225ff1b8fe487f91040217acf9f8314.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/3d672863a9e2b200a43e3a916dceada8.wav"
+        },
+        {
+          "ab": "tundadaza’an",
+          "ch": "交通工具",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/b224c866c05c50d5d642cb5192515736.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "mihalangin",
+          "ch": "生病了",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/9f245a127fb6d888531eda480cbc1129.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/2d8f8989288a4de4cef326de76497f2e.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f43efef882417182a1b1e80edada51f1.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/66013a8af57998c8af26962e7db5d860.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1d2097746440fb35eb49e436805c5414.wav"
+        },
+        {
+          "ab": "pa’iu’an",
+          "ch": "被診治",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a2c425cff2e5ce5e78413dc7511fbbab.wav"
+        },
+        {
+          "ab": ";",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "sinsusuaz",
+          "ch": "農作物",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a224d7c77fd6d2233d8fef8284475e0e.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/73dbb2f3a29415ee53bda22ce43b993e.wav"
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/45ee999acff55b126b6062af79e1b500.wav"
+        },
+        {
+          "ab": "mindua",
+          "ch": "增加",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1d78f3f4834accb9159704c987975d40.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/e63c3063b7bf176fe670641833dd26d5.wav"
+        },
+        {
+          "ab": "sina’imaun",
+          "ch": "收成；收穫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/01eaf0ce2b1359218d21c00c1842a5bd.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ebec4d3d27e61b06fa2921485aa9e920.wav"
+        },
+        {
+          "ab": "ikma’ia",
+          "ch": "使用；利用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/3142260a58bffce9d5f621b2fe2fc9ca.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a145c76ff12e960166540ef4da1cd84e.wav"
+        },
+        {
+          "ab": "wangluu’",
+          "ch": "網路技術(借自中文)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6e16bb1a24e5a729be974a02bc42dd8d.wav"
+        },
+        {
+          "ab": "pababazbaz",
+          "ch": "對話",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1bd9d74361fee290346a035f73f6ac1c.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/24607476ec2114ac0f328f6aba1139fc.wav"
+        },
+        {
+          "ab": "pakatan’aa",
+          "ch": "鄰居；與…為鄰",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/300d4659992093625629b259d4f613da.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/af87ea3e914b3de5d18fb715a58282a0.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5fe3103e2c99dd22b6987bd7482a9785.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "然而，如果我們一味地使用科技，科技的惡習將會隨著而來。科技如同一把兩刃的匕首。",
+      "ab": "Muqa tu maaq i  nitu mananulu ikma’ia ki teknik tun a, maaq a teknik tun tu sinpindikla a nakankikinuz mapinkanaang mita. Maszang teknik un baungan tu dusa ka manusqaitan.",
+      "order": "2",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/a06020c2b4bde57a757d02e39eb55ce5.wav",
+      "word": [
+        {
+          "ab": "muqa tu",
+          "ch": "(轉折片語)但是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/02/07/fe1ea1672e61d0671166177d1046fb59.wav"
+        },
+        {
+          "ab": "maaq i",
+          "ch": "假片片)如果",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/519f7703035865997193f8764dea244d.wav"
+        },
+        {
+          "ab": "nitu",
+          "ch": "不是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/34613a83a90905c43dc83f515058426d.wav"
+        },
+        {
+          "ab": "mananulu",
+          "ch": "謹慎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/bd5d731550d098f94f8b1929d2f0e006.wav"
+        },
+        {
+          "ab": "ikma’ia",
+          "ch": "使用；利用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/97a853aea409ce473cfdaa898e67eccd.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/7112dcf7ede5d8c7283c5eaac68c7bf1.mp3"
+        },
+        {
+          "ab": "teknik",
+          "ch": "科學技術",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/42b2b16135038657b73a8260436ab321.wav"
+        },
+        {
+          "ab": "tun",
+          "ch": "這(關代詞)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5e996c6a4932c5b3fb68af0eef979057.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/7de943792a4a6007faadc3611512ed61.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maaq",
+          "ch": "這；那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/c6b481475dc285ba6e85d71ff7c5d52d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/56b3e2544ee46b432400e596f810747d.wav"
+        },
+        {
+          "ab": "teknik",
+          "ch": "科學技術",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/7b28579b3bd88dc42f9a70be1db05a81.wav"
+        },
+        {
+          "ab": "tun",
+          "ch": "這；那(關代詞)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/cdd144adf9349a2513c281f097340cc4.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/7a5de6664739b27a2c27cb2e0643d570.wav"
+        },
+        {
+          "ab": "sinpindikla",
+          "ch": "使…敗壞",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/c697a3f0368f1439272e9bbf809c6f8d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/688aea2a79dd96d935d6b754b5acfef3.wav"
+        },
+        {
+          "ab": "nakankikinuz",
+          "ch": "將隨之而來",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/9f9b5fab14965e80243f3f0964cbe57e.wav"
+        },
+        {
+          "ab": "mapinkanaang",
+          "ch": "使…困難",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/b1733b435aa84fa576c4696275a600f2.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/0573d9068ede55924f39f3e66482a29c.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maszang",
+          "ch": "相同",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/59d78d3434e7ff8f4cc1cb039a0f0cc8.wav"
+        },
+        {
+          "ab": "teknik",
+          "ch": "科學技術",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6377338f315d40290b2c8b5e164b4a17.wav"
+        },
+        {
+          "ab": "un",
+          "ch": "這；那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8b55472029f98f79d89fc3888db011e6.wav"
+        },
+        {
+          "ab": "baungan",
+          "ch": "匕首",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/af57f10088fef9bd3f6b0b17a20ab392.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1c47729a7139d9df16cf9b700ea2f6df.wav"
+        },
+        {
+          "ab": "dusa",
+          "ch": "二個；雙面",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/bbb97fdcd65884e3b571e775f25ea443.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6e47885a669896daf86fc095548e625e.wav"
+        },
+        {
+          "ab": "manusqaitan",
+          "ch": "鋒芒；刀鋒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/01/10/5a495967c4228064b53a1014cb000c11.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    },
+    {
+      "chinese": "由於我們過份地使用科技，天氣的冷熱起了異常改變，許多土地變成砂土和崩落，許多地區起了暴風雨和洪水，人類居住之地縮減了、空氣和水中毒了，人類的身體因此罹患疾病。近年來擁有了核子，可以滅絕地上的人類，所以我們必須謹慎地使用科技，人類才能夠從科技的給予中獲得真正的好處。",
+      "ab": "Aupa pismauvunin mita ka teknik un ikma’ia, minvaivi’in a diqanin tu kaibaqaisan siin kaikazhavan. Madia ka dalaq minbunuk siin muntutunuq, madia amin a asang balivusan, laning’avan, min’atikisin imita bunun tu dangi’anan. Basunin a hivhiv, danum. Tismaupa ti ka imita hubung mihalang, haiphaipin ti a haiza’in a niukulil, maqtu palatpu’ ki bunun nastu ti. Paqpun asa tu mananulu ikma’ia ki teknik ti, natudiipin ata tutuza tu usiza’an i itu teknik sinsaiv tu iskasihal imita’an.",
+      "order": "3",
+      "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/20/018d17113395c604a234a8d12d737921.mp3",
+      "word": [
+        {
+          "ab": "aupa",
+          "ch": "因為",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/75e9d109ae83bf66b7518002ad1dd923.wav"
+        },
+        {
+          "ab": "pismauvunin",
+          "ch": "過份地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/dae9f91415eabbd2b797bc896a472cb0.wav"
+        },
+        {
+          "ab": "mita",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1097f1217d12ac861d6fd07e51eaf040.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[代]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d4488acfe72bb3da5a38f7911ad711ad.wav"
+        },
+        {
+          "ab": "teknik",
+          "ch": "科學技術",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ccebad505559d69080c06f592bd89ceb.wav"
+        },
+        {
+          "ab": "un",
+          "ch": "這；那(關代詞)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1d5086bcc67c65f2623d1762bbb1d591.wav"
+        },
+        {
+          "ab": "ikma’ia",
+          "ch": "這；那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/3ebdffa235cf6ae5af749c6001cde809.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "minvaivi’in",
+          "ch": "已經改變",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/769ab3551b171fb23095a41efcf268ae.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6c456968846674f7596a6a31cbc2ca28.wav"
+        },
+        {
+          "ab": "diqanin",
+          "ch": "天氣",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8171457ea0f5d0d17cfb7a2c15bf2305.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/621c79945a81f927743cdd77e44cb184.wav"
+        },
+        {
+          "ab": "kaibaqaisan",
+          "ch": "氣溫",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/595a36e5c0d1a9653eb86783cc1b81fd.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/c6f544f07e0dd8786b1f6c3409dfc99c.wav"
+        },
+        {
+          "ab": "kaikazhavan",
+          "ch": "寒冷度",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5d85a6cbdc7a91f0cfbdfbc8f340b96f.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madia",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/66fecf7b2e6dbc45fa1013b33e272974.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5b4be72ae5f6e4da21ab81166d1515fe.wav"
+        },
+        {
+          "ab": "dalaq",
+          "ch": "土地",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6e75ebf1de998b66507e06445b28c2ed.wav"
+        },
+        {
+          "ab": "minbunuk",
+          "ch": "變成沙漠",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/a89fb2d41d6265698d6a860ddbbc2735.wav"
+        },
+        {
+          "ab": "siin",
+          "ch": "和",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/12db4ae1f45d30466841104d5d6ff592.wav"
+        },
+        {
+          "ab": "muntutunuq",
+          "ch": "崩塌",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6b4e571f25b03b83aecbcb4465339273.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "madia",
+          "ch": "很多",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/9a3045f0d7eb3b20fd324f81a381e70b.wav"
+        },
+        {
+          "ab": "amin",
+          "ch": "也是",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/3118e2b35fc1590745a7bb0fe890cf5c.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/dbd303c1241117ad5712b8379814e2d8.wav"
+        },
+        {
+          "ab": "asang",
+          "ch": "城市；部落",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/b785e6cad47982e29da5d763fef5cb6a.wav"
+        },
+        {
+          "ab": "balivusan",
+          "ch": "暴風雨",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/32ac8f3e6a700718008c242158c61dfb.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "laning’avan",
+          "ch": "洪災",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ba30da793b88a53aee055f0edd75bdc5.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "min’atikisin",
+          "ch": "變少",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/486adaa8d8316163463fae68fd334b8f.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5c790cd6944e5249316cbd171fdd4083.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "布農族人",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/3b477b8b013af63c75b97d459b83761e.mp3"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2024/07/10/e79cb57ba9e40dc16d0233747da82b96.mp3"
+        },
+        {
+          "ab": "dangi’anan",
+          "ch": "住處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6d9424bb423b42defc64c8504002515a.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "basunin",
+          "ch": "已經中毒",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/2c42c18f166d989a8a9127ab8e190dc4.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1b1052041dccc16934fb41d309c66c1b.wav"
+        },
+        {
+          "ab": "hivhiv",
+          "ch": "涼風",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5297b936d7359dac5d97bb159380841d.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "danum",
+          "ch": "水",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/94d3bb3e22496c991eee44841a5b10b1.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "tismaupa",
+          "ch": "因此之故",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/20/0465716bf7fb3f4ca9b8af0bd8429c57.mp3"
+        },
+        {
+          "ab": "ti",
+          "ch": "這；那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/bc028e3ef6a6d257c0fed6990c4b268b.wav"
+        },
+        {
+          "ab": "ka",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/e38a8e9fd4873aa94d7914d49c6f197d.wav"
+        },
+        {
+          "ab": "imita",
+          "ch": "我們的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1c1745b9127a49a55bb03483b60e22f8.wav"
+        },
+        {
+          "ab": "hubung",
+          "ch": "身軀",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/3d8c6e2bac7e69d30206457a3cbd6e52.wav"
+        },
+        {
+          "ab": "mihalang",
+          "ch": "生病",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/19/c2cd11b51d67ddbbda185722b0615963.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "haiphaipin",
+          "ch": "目前",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/208b00d79f314f7b56d51a56234f6c9d.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這；那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/5b6f89f4d867c36283a466b472259b14.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/ec9882dd8b16e1784f269f7735904ecd.wav"
+        },
+        {
+          "ab": "haiza’in",
+          "ch": "已有",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/8b7ea5b8b0c98518bd49751d9dc3c69d.wav"
+        },
+        {
+          "ab": "a",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6a76d75a908b043df1fa2d4f3a23f676.wav"
+        },
+        {
+          "ab": "niukulil",
+          "ch": "核子，核武(借自英文)",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/4e8af36dd707fe7d556412fda45f1c1e.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "maqtu",
+          "ch": "可以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/f7113cd9c27e15789fe0c5ccec845dff.wav"
+        },
+        {
+          "ab": "palatpu’",
+          "ch": "毀滅",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/03/17/60441689d16010f0bf70da0032f5c835.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/02077bd159c08095b9dc967cab60829e.wav"
+        },
+        {
+          "ab": "bunun",
+          "ch": "人類",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/cb952485ca75314f137dc603ef5d5f56.wav"
+        },
+        {
+          "ab": "nastu",
+          "ch": "地上；世界",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/11419a6400b6ebb7c39d02f4e66fc72a.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這；那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/3dad3f0d3ced15a1d1d89c02f1344168.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "paqpun",
+          "ch": "所以",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/73bde9d80a94de0f75978584e07f08bb.wav"
+        },
+        {
+          "ab": "asa tu",
+          "ch": "應該；必須",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/50721d6b1c244da674c1b19301ac183c.wav"
+        },
+        {
+          "ab": "mananulu",
+          "ch": "謹慎",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1d216e31d912b115320fe0416435e255.wav"
+        },
+        {
+          "ab": "ikma’ia",
+          "ch": "使用；利用",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/541a67a5f9e879c125d018348ac5afb8.wav"
+        },
+        {
+          "ab": "ki",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/53736d08c55d8c99763256ef9acd2852.wav"
+        },
+        {
+          "ab": "teknik",
+          "ch": "科學技術",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/08095952e9a498a570093ef11ff1a752.wav"
+        },
+        {
+          "ab": "ti",
+          "ch": "這；那",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/1081ad446b594d204d7955c2804f5939.wav"
+        },
+        {
+          "ab": ",",
+          "ch": "",
+          "sound": null
+        },
+        {
+          "ab": "natudiipin",
+          "ch": "才能",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/41aa4f205a105799ab74fbed32a784ca.wav"
+        },
+        {
+          "ab": "ata",
+          "ch": "我們",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/beaeaf74d6d9562f392e64c63a8dc650.wav"
+        },
+        {
+          "ab": "tutuza tu",
+          "ch": "(動片)真正的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/aa1b57052b9004f48376724837cc9b69.wav"
+        },
+        {
+          "ab": "usiza’an",
+          "ch": "獲得",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/c59d11ef249ad6dc536ff9cbc98bf60a.wav"
+        },
+        {
+          "ab": "i",
+          "ch": "[助]",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/13cf585d773da04690c01fa1a34457ff.wav"
+        },
+        {
+          "ab": "itu",
+          "ch": "她的；它的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/0beeadd6c460593f2a3b1b19574b583b.wav"
+        },
+        {
+          "ab": "teknik",
+          "ch": "科學技術",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/840446c35ee3466cc7ab074529616ad4.wav"
+        },
+        {
+          "ab": "sinsaiv",
+          "ch": "給予",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/6fd531fe08b9811a5175d2458d7bb8d7.wav"
+        },
+        {
+          "ab": "tu",
+          "ch": "的",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d82a2950dfc7a48696d8ef951f178e18.wav"
+        },
+        {
+          "ab": "iskasihal",
+          "ch": "好處",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2023/01/17/d08e32b9d63dbe0566c280afacc58a2c.wav"
+        },
+        {
+          "ab": "imita’an",
+          "ch": "在我們這邊",
+          "sound": "https://dzywvpqnys6mw.cloudfront.net/files/2025/03/25/b8a13cf7ab7d8b34a1bbabb9fed264de.wav"
+        },
+        {
+          "ab": ".",
+          "ch": "",
+          "sound": null
+        }
+      ]
+    }
+  ]
 }

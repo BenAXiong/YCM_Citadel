@@ -1,4 +1,4 @@
-# P10: Structural Alignment via Course Metadata
+# P11: Structural Alignment via Course Metadata
 
 ## 🎯 The Problem: Semantic Fragmentation
 Currently, the YCM Citadel uses **Chinese (ZH) literals** as the primary anchor for merging dialectal data. While effective, it fails when:
