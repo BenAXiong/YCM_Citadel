@@ -15,7 +15,7 @@ import Header from "@/components/layout/Header";
 import TopToolbar from "@/components/layout/TopToolbar";
 import { getSourceLabel } from "@/lib/utils";
 
-const THEMES = ["matrix", "sober", "ycm", "cidal", "rainbow"] as const;
+const THEMES = ["matrix", "sober", "ycm", "cidal", "rainbow", "custom"] as const;
 
 
 
@@ -28,7 +28,7 @@ export default function GlobalExplorer() {
   const [isSearching, setIsSearching] = useState(false);
   const [results, setResults] = useState<any[]>([]);
   const [dictResults, setDictResults] = useState<any[]>([]);
-  const [modules, setModules] = usePersistedState<string[]>("yc_modules", ["ALL"]);
+  const [modules, setModules] = usePersistedState<string[]>("yc_modules", ["dialogue", "essay", "grmpts", "nine_year", "twelve"]);
   const [showSources, setShowSources] = useState(false);
   const [level, setLevel] = useState(1);
   const [lesson, setLesson] = useState(1);
@@ -71,12 +71,14 @@ export default function GlobalExplorer() {
   const [essayId, setEssayId] = useState("32020");
   const [dbInfo, setDbInfo] = useState<any>(null);
   const [dictSource, setDictSource] = useState<"ILRDF" | "MOE">("ILRDF");
-  const [dictLayout, setDictLayout] = usePersistedState<"vertical" | "horizontal">("yc_dict_layout", "vertical");
-  const [dictColumns, setDictColumns] = usePersistedState<number | "AUTO">("yc_dict_columns", 2);
+  const [dictLayout, setDictLayout] = usePersistedState<"vertical" | "horizontal">("yc_dict_layout", "horizontal");
+  const [dictColumns, setDictColumns] = usePersistedState<number | "AUTO" | "FLEX+">("yc_dict_columns", "FLEX+");
   const [dictLevel, setDictLevel] = usePersistedState<number | "ALL">("yc_dict_level", "ALL");
   const [dictGenres, setDictGenres] = usePersistedState<string[]>("yc_dict_genres", ["ALL"]);
   const [dictStrict, setDictStrict] = usePersistedState<boolean>("yc_dict_strict", true);
-  const [dictDensity, setDictDensity] = usePersistedState<"standard" | "compact" | "preview">("yc_dict_density", "standard");
+  const [dictExact, setDictExact] = usePersistedState<boolean>("yc_dict_exact", true);
+  const [dictDensity, setDictDensity] = usePersistedState<"standard" | "compact" | "preview">("yc_dict_density", "compact");
+  const [dictAlignment, setDictAlignment] = usePersistedState<"flow" | "aligned">("yc_dict_alignment", "flow");
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
 
 
@@ -124,7 +126,7 @@ export default function GlobalExplorer() {
       } else if (mode === "VS-2") {
         url = `/api/search?mode=VS-2&level=${level}&lesson=${lesson}`;
       } else if (mode === "DICT") {
-        url = `/api/search?mode=DICT&q=${encodeURIComponent(query)}&level=${dictLevel}&genre=${dictGenres.join(',')}&strict=${dictStrict}&dialects=${Array.from(selectedDialects).join(',')}&module=${modules.join(',')}`;
+        url = `/api/search?mode=DICT&q=${encodeURIComponent(query)}&level=${dictLevel}&genre=${dictGenres.join(',')}&strict=${dictStrict}&exact=${dictExact}&dialects=${Array.from(selectedDialects).join(',')}&module=${modules.join(',')}`;
       } else if (mode === "EXAMS" || mode === "FLASHCARDS") {
         // Mocking for now as requested or until implementation
         setResults([]);
@@ -147,7 +149,7 @@ export default function GlobalExplorer() {
       setSlideIndex(0);
       setDisplayLimit(100);
 
-      if (mode === "VS-1" && query.trim().length > 1 && data.results?.length > 0) {
+      if ((mode === "VS-1" || mode === "DICT") && query.trim().length >= 1 && data.results?.length > 0) {
         addToHistory(query);
       }
     } catch (e) {
@@ -166,7 +168,7 @@ export default function GlobalExplorer() {
       handleSearch();
     }, 800);
     return () => clearTimeout(timer);
-  }, [mode, query, modules, level, lesson, standardize, essayId, dictLevel, dictGenres, dictStrict, selectedDialects]);
+  }, [mode, query, modules, level, lesson, standardize, essayId, dictLevel, dictGenres, dictStrict, dictExact, selectedDialects]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -219,10 +221,22 @@ export default function GlobalExplorer() {
 
 
   const cycleTheme = () => {
-    const nextIdx = (THEMES.indexOf(theme) + 1) % THEMES.length;
+    const nextIdx = (THEMES.indexOf(theme as any) + 1) % THEMES.length;
     const next = THEMES[nextIdx];
     setTheme(next);
   };
+    
+  const [customColors, setCustomColors] = useState<Record<string, string>>({
+    '--bg-deep': '#000000', '--bg-panel': '#111111', '--bg-sub': '#1a1a1a',
+    '--bg-highlight': '#222222', '--border-light': '#333333', '--border-dark': '#000000',
+    '--accent': '#ff0055', '--accent-glow': 'rgba(255,0,85,0.1)',
+    '--text-main': '#ffffff', '--text-sub': '#888888'
+  });
+
+  const [previewTheme, setPreviewTheme] = useState<Theme | null>(null);
+  const [previewColors, setPreviewColors] = useState<Record<string, string> | null>(null);
+
+  const [savedThemes, setSavedThemes] = usePersistedState<Array<{name: string, colors: Record<string, string>}>>("yc_saved_themes", []);
 
   const toggleSidebar = () => {
     setIsSidebarCollapsed(!isSidebarCollapsed);
@@ -358,8 +372,12 @@ export default function GlobalExplorer() {
 
   const s = UI_STRINGS[uiLang];
 
+  const currentTheme = previewTheme || theme;
+  const currentColors = previewColors || customColors;
+
   return (
-    <div className={`theme-${theme} flex h-screen w-full bg-[var(--bg-deep)] text-[var(--text-main)] font-sans overflow-hidden transition-all duration-500`}>
+    <div className={`theme-${THEMES.includes(currentTheme as any) ? currentTheme : 'custom'} flex h-screen w-full bg-[var(--bg-deep)] text-[var(--text-main)] font-sans overflow-hidden transition-all duration-500`}
+         style={(!THEMES.includes(currentTheme as any) || currentTheme === 'custom') ? (currentColors as React.CSSProperties) : undefined}>
 
       {/* SIDEBAR: GLID FILTERS */}
       <SidebarFilters
@@ -368,6 +386,14 @@ export default function GlobalExplorer() {
         toggleUiLang={toggleUiLang}
         cycleTheme={cycleTheme}
         theme={theme}
+        previewTheme={previewTheme}
+        setTheme={setTheme}
+        setPreviewTheme={setPreviewTheme}
+        setPreviewColors={setPreviewColors}
+        customColors={customColors}
+        setCustomColors={setCustomColors}
+        savedThemes={savedThemes}
+        setSavedThemes={setSavedThemes}
         sortedAllDialects={sortedAllDialects}
         standardDialects={standardDialects}
         selectedDialects={selectedDialects}
@@ -473,9 +499,13 @@ export default function GlobalExplorer() {
           setDictGenres={setDictGenres}
           dictStrict={dictStrict}
           setDictStrict={setDictStrict}
+          dictExact={dictExact}
+          setDictExact={setDictExact}
           setToastMessage={setToastMessage}
           dictDensity={dictDensity}
           setDictDensity={setDictDensity}
+          dictAlignment={dictAlignment}
+          setDictAlignment={setDictAlignment}
           hideEmpty={hideEmpty}
           setHideEmpty={setHideEmpty}
           displayLimit={displayLimit}
@@ -504,6 +534,7 @@ export default function GlobalExplorer() {
               layout={dictLayout}
               columns={dictColumns}
               dictDensity={dictDensity}
+              dictAlignment={dictAlignment}
               selectedDialects={selectedDialects}
             />
           ) : mode === "EXAMS" || mode === "FLASHCARDS" ? (

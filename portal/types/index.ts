@@ -1,4 +1,4 @@
-export type Theme = "matrix" | "sober" | "ycm" | "cidal" | "rainbow";
+export type Theme = string;
 
 export interface UIStrings {
   hub: string;

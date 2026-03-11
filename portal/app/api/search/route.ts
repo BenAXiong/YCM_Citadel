@@ -221,13 +221,14 @@ export async function GET(request: Request) {
             const genreFilter = searchParams.get('genre') || 'ALL';
             const moduleFilter = searchParams.get('module') || 'ALL';
             const strict = searchParams.get('strict') === 'true';
+            const exact = searchParams.get('exact') === 'true';
             
             if (!q) return NextResponse.json({ results: [] });
 
             const db = getDb();
             const pattern = `%${q}%`;
 
-            console.log(`[DICT_DEBUG] query="${q}" level="${levelFilter}" genre="${genreFilter}" strict=${strict}`);
+            console.log(`[DICT_DEBUG] query="${q}" level="${levelFilter}" genre="${genreFilter}" strict=${strict} exact=${exact}`);
             
             try {
                 const dialectFilter = searchParams.get('dialects') || '';
@@ -261,15 +262,22 @@ export async function GET(request: Request) {
                     try {
                         // NO HYBRID MATCHING: We matching only on the Aboriginal text (s.ab)
                         // This prevents semantic noise from Chinese matches that don't contain the target word.
-                        const abPattern = `%${w.ab.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')}%`;
-                        
+                        const escapedAb = w.ab.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+                        let queryPattern;
                         let exSql = `
                             SELECT DISTINCT s.zh, s.ab, o.dialect_name, o.audio_url, o.source, o.level, o.category, o.original_uuid
                             FROM sentences s 
                             JOIN occurrences o ON s.id = o.sentence_id 
-                            WHERE s.ab LIKE ? AND o.dialect_name = ?
+                            WHERE ${exact ? 's.ab REGEXP ?' : 's.ab LIKE ?'} AND o.dialect_name = ?
                         `;
-                        const params: any[] = [abPattern, w.dialect_name];
+                        
+                        if (exact) {
+                            // Word boundary check for Aboriginal text
+                            queryPattern = `(^|[^a-zA-Z0-9'’\\u00C0-\\u017F])${escapedAb}([^a-zA-Z0-9'’\\u00C0-\\u017F]|$)`;
+                        } else {
+                            queryPattern = `%${w.ab.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')}%`;
+                        }
+                        const params: any[] = [queryPattern, w.dialect_name];
 
                         // NO DIALECT FALLBACK: Data is granular enough to stay strictly within w.dialect_name.
 

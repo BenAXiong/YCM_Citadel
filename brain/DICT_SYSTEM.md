@@ -60,6 +60,16 @@ The following ideas were tested and explicitly rejected to maintain architectura
 - **Unified Labeling**: UI labels for sources (e.g., in Dictionary cards) are mapped through `lib/sources.ts` to ensure consistency between the explorer, dictionary, and syllabus.
 - **Persistence**: Layout preferences (columns, vertical/horizontal mode) are saved to browser local storage.
 
+## 🏷️ Structure Formatting (Tooltips)
+To ensure immediate contextual clarity when reviewing Dictionary Cards, the original database UUIDs (e.g. `dialogue_1_63126_0`) are mathematically mapped to human-readable curriculum structures based on `corpus_geometry.json`:
+- **Essays & Dialogues**: Mapped via TID to **3 Difficulties & 60 Lessons**:
+  - **INTRO (初級)**: Lessons 1-20
+  - **INTER (中級)**: Lessons 21-40
+  - **UPPER (中高)**: Lessons 41-60
+  *(Yielding formats like `UPPER L.45` or `INTRO L.12`)*
+- **9-Year / 12-Year**: Parsed directly to `L.{level} C.{class}` or `L.{level} L.{lesson}`.
+- **Patterns**: Maps directly to grammar units (`t{id}`).
+
 ---
 
 ## 🚀 Future Work

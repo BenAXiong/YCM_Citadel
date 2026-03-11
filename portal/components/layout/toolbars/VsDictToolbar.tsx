@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Trash2, Book, Layout, LayoutList, CheckSquare, Layers, Tags, ChevronDown, Shrink, Maximize, Eye } from "lucide-react";
+import { Search, Trash2, Book, Layout, LayoutList, CheckSquare, Layers, Tags, ChevronDown, Shrink, Maximize, Eye, Columns, AlignJustify } from "lucide-react";
 import { UIStrings } from "@/types";
 import { DICT_SOURCES } from "@/lib/sources";
 
@@ -18,39 +18,43 @@ interface VsDictToolbarProps {
   setDictSource: (val: "ILRDF" | "MOE") => void;
   dictLayout: "vertical" | "horizontal";
   setDictLayout: (val: "vertical" | "horizontal") => void;
-  dictColumns: number | "AUTO";
-  setDictColumns: (val: number | "AUTO") => void;
+  dictColumns: number | "AUTO" | "FLEX+";
+  setDictColumns: (v: number | "AUTO" | "FLEX+") => void;
   dictLevel: number | "ALL";
   setDictLevel: (val: number | "ALL") => void;
   dictGenres: string[];
   setDictGenres: (val: string[] | ((prev: string[]) => string[])) => void;
   dictStrict: boolean;
   setDictStrict: (val: boolean) => void;
+  dictExact: boolean;
+  setDictExact: (val: boolean) => void;
   setToastMessage: (msg: string | null) => void;
   showFullOnly: boolean;
   setShowFullOnly: (val: boolean) => void;
   modules: string[];
   setModules: (val: string[]) => void;
-  showSources: boolean;
-  setShowSources: (val: boolean) => void;
   dictDensity: "standard" | "compact" | "preview";
   setDictDensity: (v: "standard" | "compact" | "preview") => void;
+  dictAlignment: "flow" | "aligned";
+  setDictAlignment: (v: "flow" | "aligned") => void;
   [key: string]: any;
 }
 
 export default function VsDictToolbar({
   s, query, setQuery, showHistory, setShowHistory, searchHistory,
   handleHistorySelect, clearHistory, removeHistoryItem, dictResults,
-  dictSource, setDictSource, dictLayout, setDictLayout, 
-  dictColumns, setDictColumns, 
+  dictSource, setDictSource, dictLayout, setDictLayout,
+  dictColumns, setDictColumns,
   dictLevel, setDictLevel,
   dictGenres, setDictGenres,
   dictStrict, setDictStrict,
+  dictExact, setDictExact,
   setToastMessage,
   showFullOnly, setShowFullOnly,
   modules, setModules,
   showSources, setShowSources,
-  dictDensity, setDictDensity
+  dictDensity, setDictDensity,
+  dictAlignment, setDictAlignment
 }: VsDictToolbarProps) {
   const [isGridOpen, setIsGridOpen] = React.useState(false);
   const [isGenreOpen, setIsGenreOpen] = React.useState(false);
@@ -74,8 +78,8 @@ export default function VsDictToolbar({
         <div className="flex items-center w-full max-w-sm relative group" onClick={(e) => { e.stopPropagation(); setShowHistory(true); }}>
           <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-[var(--text-sub)] group-focus-within:text-[var(--accent)] transition" />
           <input
-            type="text" 
-            placeholder={s.dict || "Search Dictionary..."} 
+            type="text"
+            placeholder={s.dict || "Search Dictionary..."}
             value={query}
             onChange={(e) => { setQuery(e.target.value); setShowHistory(true); }}
             onFocus={() => setShowHistory(true)}
@@ -103,14 +107,36 @@ export default function VsDictToolbar({
 
         <div className="flex items-center space-x-2">
           <div className="flex items-center bg-[var(--bg-deep)] border border-[var(--border-dark)] rounded-full p-0.5">
-            <button 
+            <button
+              onClick={() => setDictExact(true)}
+              className={`px-3 py-1 rounded-full font-mono text-[9px] uppercase tracking-widest transition-all ${dictExact ? 'bg-[var(--accent)] text-black font-black shadow-lg' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
+              title="Exact match for sentences"
+            >
+              Exact
+            </button>
+            <button
+              onClick={() => {
+                setToastMessage("Dialect-specific fuzzy search is under development");
+                setTimeout(() => setToastMessage(null), 3000);
+              }}
+              className={`px-3 py-1 rounded-full font-mono text-[9px] uppercase tracking-widest transition-all ${!dictExact ? 'bg-[var(--accent)] text-black font-black shadow-lg' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
+              title="Allow dialect-specific variations (Development)"
+            >
+              Fuzzy
+            </button>
+          </div>
+
+          <div className="w-[1px] h-4 bg-[var(--border-dark)] mx-1" />
+
+          <div className="flex items-center bg-[var(--bg-deep)] border border-[var(--border-dark)] rounded-full p-0.5">
+            <button
               onClick={() => setDictStrict(true)}
               className={`px-3 py-1 rounded-full font-mono text-[9px] uppercase tracking-widest transition-all ${dictStrict ? 'bg-[var(--accent)] text-black font-black shadow-lg' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
               title="Only show formal ILRDF headwords"
             >
               Strict
             </button>
-            <button 
+            <button
               onClick={() => setDictStrict(false)}
               className={`px-3 py-1 rounded-full font-mono text-[9px] uppercase tracking-widest transition-all ${!dictStrict ? 'bg-[var(--accent)] text-black font-black shadow-lg' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
               title="Show headwords distilled from all corpora"
@@ -118,16 +144,16 @@ export default function VsDictToolbar({
               Global
             </button>
           </div>
-          
+
           <div className="w-[1px] h-4 bg-[var(--border-dark)] mx-1" />
 
-          <button 
+          <button
             onClick={() => setDictSource("ILRDF")}
             className={`px-3 py-1 rounded-full font-mono text-[9px] uppercase tracking-widest border transition-all ${dictSource === "ILRDF" ? 'border-[var(--accent)] text-[var(--accent)] bg-[var(--accent)]/5 shadow-[0_0_10px_rgba(var(--accent-rgb),0.1)]' : 'border-[var(--border-dark)] text-[var(--text-sub)] hover:border-[var(--text-sub)]'}`}
           >
             ILRDF_CORPUS
           </button>
-          <button 
+          <button
             onClick={() => {
               setToastMessage("MOE_DICT currently not available");
               setTimeout(() => setToastMessage(null), 3000);
@@ -136,7 +162,7 @@ export default function VsDictToolbar({
           >
             MOE_DICT
           </button>
-          
+
           <div className="w-[1px] h-4 bg-[var(--border-dark)] mx-1" />
 
           <button
@@ -184,7 +210,7 @@ export default function VsDictToolbar({
                   </button>
                 );
               })}
-              <button 
+              <button
                 onClick={() => setDictGenres(['ALL'])}
                 className={`px-3 py-1.5 rounded-md font-mono text-[9px] font-bold tracking-tighter text-left transition-all ${dictGenres.includes('ALL') ? 'bg-[var(--bg-highlight)] text-[var(--accent)] border border-[var(--accent)]/30' : 'text-[var(--text-sub)] hover:bg-[var(--bg-highlight)]'}`}
               >
@@ -195,13 +221,13 @@ export default function VsDictToolbar({
         </div>
 
         {/* Level Selector */}
-        <select 
+        <select
           value={dictLevel}
           onChange={(e) => setDictLevel(e.target.value === 'ALL' ? 'ALL' : Number(e.target.value))}
           className="bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-lg text-[10px] font-mono p-1.5 focus:outline-none focus:border-[var(--accent)] text-[var(--accent)] uppercase tracking-tighter"
         >
           <option value="ALL">ALL LEVELS</option>
-          {Array.from({length: 12}, (_, i) => i + 1).map(lv => (
+          {Array.from({ length: 12 }, (_, i) => i + 1).map(lv => (
             <option key={lv} value={lv}>LEVEL {lv}</option>
           ))}
         </select>
@@ -252,54 +278,84 @@ export default function VsDictToolbar({
 
         <div className="w-[1px] h-4 bg-[var(--border-dark)] mx-2" />
 
-        <button
-          onClick={() => setDictLayout("vertical")}
-          className={`p-2 rounded-lg transition ${dictLayout === "vertical" ? 'bg-[var(--accent)] text-black' : 'bg-[var(--bg-panel)] text-[var(--text-sub)] hover:text-[var(--text-main)] border border-[var(--border-dark)]'}`}
-          title="Vertical List"
-        >
-          <LayoutList className="w-4 h-4" />
-        </button>
-        <div 
-          className="relative inline-block"
-          onMouseEnter={() => { if(gridTimeout.current) clearTimeout(gridTimeout.current); setIsGridOpen(true); }}
-          onMouseLeave={() => { gridTimeout.current = setTimeout(() => setIsGridOpen(false), 300); }}
-        >
+        <div className="flex items-center bg-[var(--bg-deep)] border border-[var(--border-dark)] rounded-lg p-0.5">
           <button
-            onClick={() => setDictLayout("horizontal")}
-            className={`p-2 rounded-lg transition ${dictLayout === "horizontal" ? 'bg-[var(--accent)] text-black' : 'bg-[var(--bg-panel)] text-[var(--text-sub)] hover:text-[var(--text-main)] border border-[var(--border-dark)]'}`}
-            title="Horizontal Grid"
+            onClick={() => setDictLayout("vertical")}
+            className={`p-1.5 rounded-md transition-all ${dictLayout === "vertical" ? 'bg-[var(--accent)] text-black' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
+            title="Vertical List"
           >
-            <Layout className="w-4 h-4" />
-            {dictLayout === "horizontal" && (
-              <span className="absolute -top-1 -right-1 bg-black text-[var(--accent)] text-[8px] font-bold px-1 rounded-sm border border-[var(--accent)]">
-                {dictColumns === "AUTO" ? "FLEX" : `${dictColumns}X`}
-              </span>
-            )}
+            <LayoutList className="w-4 h-4" />
           </button>
 
-          {/* HOVER DROPDOWN */}
-          {isGridOpen && (
-            <div className="absolute top-full right-0 mt-2 pt-2 z-[150] animate-in fade-in zoom-in-95 duration-200">
-              <div className="bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-lg shadow-2xl overflow-hidden min-w-[80px]">
-                <div className="p-2 border-b border-[var(--border-dark)] text-[8px] font-mono text-[var(--text-sub)] uppercase tracking-tighter text-center">Columns</div>
-                <button
-                  onClick={(e) => { e.stopPropagation(); setDictColumns("AUTO"); setDictLayout("horizontal"); }}
-                  className={`w-full px-4 py-2 text-xs font-mono transition text-center hover:bg-[var(--accent)] hover:text-black ${dictColumns === "AUTO" ? 'text-[var(--accent)]' : 'text-[var(--text-sub)]'}`}
-                >
-                  FLEXIBLE
-                </button>
-                {[2, 3, 4, 5, 6].map(num => (
+          <div
+            className="relative inline-block"
+            onMouseEnter={() => { if (gridTimeout.current) clearTimeout(gridTimeout.current); setIsGridOpen(true); }}
+            onMouseLeave={() => { gridTimeout.current = setTimeout(() => setIsGridOpen(false), 300); }}
+          >
+            <button
+              onClick={() => setDictLayout("horizontal")}
+              className={`p-1.5 rounded-md transition-all relative ${dictLayout === "horizontal" ? 'bg-[var(--accent)] text-black' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
+              title="Horizontal Grid"
+            >
+              <Layout className="w-4 h-4" />
+              {dictLayout === "horizontal" && (
+                <span className={`absolute -top-2 -right-2 bg-black ${dictLayout === "horizontal" ? 'text-[var(--accent)]' : 'text-black'} text-[13px] font-black px-1 rounded-sm border-2 border-[var(--accent)] leading-none flex items-center justify-center min-w-[16px] h-[18px] shadow-2xl`}>
+                  {dictColumns === "AUTO" ? "X" : dictColumns === "FLEX+" ? "+" : `${dictColumns}`}
+                </span>
+              )}
+            </button>
+
+            {/* HOVER DROPDOWN */}
+            {isGridOpen && (
+              <div className="absolute top-full right-0 mt-2 pt-2 z-[150] animate-in fade-in zoom-in-95 duration-200">
+                <div className="bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-lg shadow-2xl overflow-hidden min-w-[80px]">
+                  <div className="p-2 border-b border-[var(--border-dark)] text-[8px] font-mono text-[var(--text-sub)] uppercase tracking-tighter text-center">Columns</div>
                   <button
-                    key={num}
-                    onClick={(e) => { e.stopPropagation(); setDictColumns(num); setDictLayout("horizontal"); }}
-                    className={`w-full px-4 py-2 text-xs font-mono transition text-center hover:bg-[var(--accent)] hover:text-black ${dictColumns === num ? 'text-[var(--accent)]' : 'text-[var(--text-sub)]'}`}
+                    onClick={(e) => { e.stopPropagation(); setDictColumns("AUTO"); setDictLayout("horizontal"); }}
+                    className={`w-full px-4 py-2 text-xs font-mono transition text-center hover:bg-[var(--accent)] hover:text-black ${dictColumns === "AUTO" ? 'text-[var(--accent)]' : 'text-[var(--text-sub)]'}`}
                   >
-                    {num}X
+                    FLEX
                   </button>
-                ))}
+                  <button
+                    onClick={(e) => { e.stopPropagation(); setDictColumns("FLEX+"); setDictLayout("horizontal"); }}
+                    className={`w-full px-4 py-2 text-xs font-mono transition text-center hover:bg-[var(--accent)] hover:text-black ${dictColumns === "FLEX+" ? 'text-[var(--accent)]' : 'text-[var(--text-sub)]'}`}
+                  >
+                    FLEX+
+                  </button>
+                  {[2, 3, 4, 5, 6].map(num => (
+                    <button
+                      key={num}
+                      onClick={(e) => { e.stopPropagation(); setDictColumns(num); setDictLayout("horizontal"); }}
+                      className={`w-full px-4 py-2 text-xs font-mono transition text-center hover:bg-[var(--accent)] hover:text-black ${dictColumns === num ? 'text-[var(--accent)]' : 'text-[var(--text-sub)]'}`}
+                    >
+                      {num}X
+                    </button>
+                  ))}
+                </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
+        </div>
+
+        <div className="w-[1px] h-4 bg-[var(--border-dark)] mx-1" />
+
+        <div className={`flex items-center bg-[var(--bg-deep)] border border-[var(--border-dark)] rounded-lg p-0.5 transition-all ${dictLayout === 'vertical' ? 'opacity-30 grayscale pointer-events-none' : ''}`} onClick={(e) => e.stopPropagation()}>
+          <button
+            onClick={() => setDictAlignment("flow")}
+            disabled={dictLayout === 'vertical'}
+            className={`p-1.5 rounded-md transition-all ${dictAlignment === 'flow' ? 'bg-[var(--accent)] text-black' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
+            title={dictLayout === 'vertical' ? "Alignment unavailable in list mode" : "Flow Layout (Interleaved)"}
+          >
+            <AlignJustify className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={() => setDictAlignment("aligned")}
+            disabled={dictLayout === 'vertical'}
+            className={`p-1.5 rounded-md transition-all ${dictAlignment === 'aligned' ? 'bg-[var(--accent)] text-black' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
+            title={dictLayout === 'vertical' ? "Alignment unavailable in list mode" : "Aligned Columns (Dialect-Specific)"}
+          >
+            <Columns className="w-3.5 h-3.5" />
+          </button>
         </div>
 
         <div className="w-[1px] h-4 bg-[var(--border-dark)] mx-1" />

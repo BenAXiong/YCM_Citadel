@@ -33,7 +33,14 @@ export const UI_STRINGS = {
     dict: "Dictionary",
     examples: "Usage Examples",
     exams: "Exams",
-    flashcards: "Flashcards"
+    flashcards: "Flashcards",
+    noExamples: "No example sentences found",
+    showLess: "Show Less",
+    showMore: "Show %n More Sentences",
+    selectDialects: "PLEASE SELECT DIALECTS FROM SIDEBAR",
+    noResultsDialect: "No results for this dialect",
+    searchVocab: "SEARCH FOR VOCABULARY",
+    dictDesc: "Dictionary results are grouped by dialect. Select at least one source to view vocabulary and examples."
   },
   zh: {
     hub: "族語衛城",
@@ -67,6 +74,13 @@ export const UI_STRINGS = {
     dict: "族語詞典",
     examples: "例句範例",
     exams: "族語測驗",
-    flashcards: "單字圖卡"
+    flashcards: "單字圖卡",
+    noExamples: "未找到例句",
+    showLess: "顯示較少",
+    showMore: "顯示更多 %n 句",
+    selectDialects: "請在側邊欄選擇方言",
+    noResultsDialect: "此方言無結果",
+    searchVocab: "搜尋單字",
+    dictDesc: "詞典結果按方言分組。請至少選擇一個語底以查看詞彙和例句。"
   }
 };

@@ -50,17 +50,21 @@ interface TopToolbarProps {
   setDictSource: (val: "ILRDF" | "MOE") => void;
   dictLayout: "vertical" | "horizontal";
   setDictLayout: (val: "vertical" | "horizontal") => void;
-  dictColumns: number | "AUTO";
-  setDictColumns: (val: number | "AUTO") => void;
+  dictColumns: number | "AUTO" | "FLEX+";
+  setDictColumns: (val: number | "AUTO" | "FLEX+") => void;
   dictLevel: number | "ALL";
   setDictLevel: (val: number | "ALL") => void;
   dictGenres: string[];
   setDictGenres: (val: string[] | ((prev: string[]) => string[])) => void;
   dictStrict: boolean;
   setDictStrict: (val: boolean) => void;
+  dictExact: boolean;
+  setDictExact: (val: boolean) => void;
   setToastMessage: (msg: string | null) => void;
   dictDensity: "standard" | "compact" | "preview";
   setDictDensity: (v: "standard" | "compact" | "preview") => void;
+  dictAlignment: "flow" | "aligned";
+  setDictAlignment: (v: "flow" | "aligned") => void;
   [key: string]: any; // Catch-all for extra props passed from page.tsx during refactor
 }
 
@@ -114,9 +118,13 @@ export default function TopToolbar({
   setDictGenres,
   dictStrict,
   setDictStrict,
+  dictExact,
+  setDictExact,
   setToastMessage,
   dictDensity,
   setDictDensity,
+  dictAlignment,
+  setDictAlignment,
   isSearching
 }: TopToolbarProps) {
   return (
@@ -199,6 +207,8 @@ export default function TopToolbar({
             setDictGenres={setDictGenres}
             dictStrict={dictStrict}
             setDictStrict={setDictStrict}
+            dictExact={dictExact}
+            setDictExact={setDictExact}
             setToastMessage={setToastMessage}
             showFullOnly={showFullOnly}
             setShowFullOnly={setShowFullOnly}
@@ -208,6 +218,8 @@ export default function TopToolbar({
             setShowSources={setShowSources}
             dictDensity={dictDensity}
             setDictDensity={setDictDensity}
+            dictAlignment={dictAlignment}
+            setDictAlignment={setDictAlignment}
           />
         )}
 
