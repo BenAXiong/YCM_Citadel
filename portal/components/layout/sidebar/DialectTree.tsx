@@ -64,7 +64,7 @@ export const DialectTree = React.memo(function DialectTree({
               {selectedCount > 0 && (
                 <button
                   onClick={(e) => toggleAllInFamily(glid, e)}
-                  className="text-[10px] font-mono bg-[var(--accent)] text-[var(--bg-deep)] px-1.5 rounded hover:opacity-80 transition active:scale-95"
+                  className="text-[10px] font-mono bg-[var(--btn-grad,var(--accent))] text-black px-1.5 rounded hover:brightness-110 transition active:scale-95"
                   title="Toggle All in Category"
                 >
                   {selectedCount}

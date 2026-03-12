@@ -42,11 +42,20 @@ body {
   --accent: #00bcd4; --accent-glow: rgba(0,188,212,0.1);
   --text-main: #fff; --text-sub: #999;
 }
-.theme-ycm {
+/* 
+.theme-ycm_legacy {
   --bg-deep: #0a0e0a; --bg-panel: #121812; --bg-sub: #1a221a;
   --bg-highlight: #222d22; --border-light: #2d3c2d; --border-dark: #080a08;
   --accent: #ff8c00; --accent-glow: rgba(255,140,0,0.1);
   --text-main: #f0f4f0; --text-sub: #90a090;
+}
+*/
+.theme-ycm {
+  --bg-deep: #0a0808; --bg-panel: #141212; --bg-sub: #1e1b1a;
+  --bg-highlight: #282422; --border-light: #3a3230; --border-dark: #000;
+  --accent: #f39200; --accent-glow: rgba(243,146,0,0.1);
+  --text-main: #fcfcfc; --text-sub: #a8a09b;
+  --btn-grad: linear-gradient(to bottom right, #f39200, #d47a00);
 }
 .theme-cidal {
   --bg-deep: #1a1a14; --bg-panel: #25251d; --bg-sub: #2f2f25;
@@ -65,7 +74,7 @@ body {
   background: radial-gradient(circle at 50% 50%, #111 0%, #080808 100%); 
 }
 .theme-ycm .theme-gradient-bg { 
-  background: linear-gradient(135deg, #0a0e0a 0%, #1a221a 100%); 
+  background: radial-gradient(circle at 0% 0%, #1e1b1a 0%, #0a0808 100%);
 }
 
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }

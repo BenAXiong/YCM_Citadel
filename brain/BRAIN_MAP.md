@@ -18,6 +18,10 @@
 | [**`DICT_SYSTEM.md`**](DICT_SYSTEM.md) | 📌 | 2026-03-11 | Comprehensive Dictionary Architecture (Strict/Global/Context) | **New Core System** |
 | [**`METALOG.md`**](METALOG.md) | 📌 | 2026-03-11 | Primary decision ledger & high-level intent stream | **Meta-Habit Anchor** |
 | [**`SCRIPT_LOG.md`**](SCRIPT_LOG.md) | 📌 | 2026-03-10 | Exhaustive log of all scrapers, processors, and analyzers. | **New Inventory** |
+| [**`AMIS_MOE_DICT_SCOUT.md`**](AMIS_MOE_DICT_SCOUT.md) | 📌 | 2026-03-11 | Scout report for Amis MOE Dictionary infiltration | **New Scout Task** |
+| [**`AMIS_MOE_DICT_INFILTRATION_LOG.md`**](AMIS_MOE_DICT_INFILTRATION_LOG.md) | 📌 | 2026-03-12 | Progress, findings & snags for MOE infiltration | **Active Log** |
+| [**`MOE_INFILTRATION_SPEC.md`**](MOE_INFILTRATION_SPEC.md) | 📌 | 2026-03-12 | Technical spec for the MOE dictionary pipeline | **Design Doc** |
+| [**`GOLDEN_TRIANGLE_CONCEPT.md`**](GOLDEN_TRIANGLE_CONCEPT.md) | 🔱 | 2026-03-12 | The "Incorruptible Soul": Triple-verified data core | **Architecture** |
 
 ---
 

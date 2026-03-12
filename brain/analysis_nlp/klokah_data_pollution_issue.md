@@ -1,5 +1,8 @@
 # Klokah Source Data Pollution Issue: Scope & Context
 
+> [!CAUTION]
+> **STALE DOCUMENT**: This document is currently ignored. The issues documented here were found to be related to a different corpus and the root causes lie elsewhere. To be updated later.
+
 ## 1. The Core Problem
 While using the YCM Citadel portal (specifically the VS-1 grid view which pivots data by Chinese translation), we discovered severe cross-language data pollution. Sentences belonging to completely different language families are appearing under incorrect dialect headers.
 

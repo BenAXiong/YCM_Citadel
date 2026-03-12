@@ -3,12 +3,15 @@
 import React from 'react';
 import { Square } from "lucide-react";
 import RawDbExplorer from "./RawDbExplorer";
+import MoeRawExplorer from "./MoeRawExplorer";
+import MoeMirrorView from "./MoeMirrorView";
+import MoeTestView from "./MoeTestView";
 
 interface ToolsOverlayProps {
   isOpen: boolean;
   onClose: () => void;
-  toolsTab: "heatmap" | "normalization" | "rosetta" | "raw_db";
-  setToolsTab: (tab: "heatmap" | "normalization" | "rosetta" | "raw_db") => void;
+  toolsTab: "heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test";
+  setToolsTab: (tab: "heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test") => void;
   handleCopy: (text: string, id: string) => void;
   copiedId: string | null;
 }
@@ -25,7 +28,7 @@ export default function ToolsOverlay({
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center p-8 bg-[var(--bg-deep)] bg-opacity-80 backdrop-blur-sm animate-in fade-in duration-300"
+      className="fixed inset-0 z-[200] flex items-center justify-center p-8 bg-[var(--bg-deep)] bg-opacity-80 backdrop-blur-sm animate-in fade-in duration-300"
       onClick={onClose}
     >
       <div
@@ -35,7 +38,7 @@ export default function ToolsOverlay({
         <button onClick={onClose} className="absolute top-4 right-4 p-2 hover:bg-[var(--bg-highlight)] rounded-full transition text-[var(--text-sub)] hover:text-[var(--text-main)] z-10"><Square className="w-5 h-5" /></button>
 
         <div className="flex border-b border-[var(--border-dark)] bg-[var(--bg-sub)]">
-          {["heatmap", "normalization", "rosetta", "raw_db"].map((tab) => (
+          {["heatmap", "normalization", "rosetta", "raw_db", "moe_raw", "moe_mirror", "moe_test"].map((tab) => (
             <button
               key={tab}
               onClick={() => setToolsTab(tab as any)}
@@ -124,6 +127,19 @@ export default function ToolsOverlay({
               copiedId={copiedId} 
               isActive={isOpen && toolsTab === 'raw_db'} 
             />
+          )}
+          {toolsTab === "moe_raw" && (
+            <MoeRawExplorer 
+              handleCopy={handleCopy} 
+              copiedId={copiedId} 
+              isActive={isOpen && toolsTab === 'moe_raw'} 
+            />
+          )}
+          {toolsTab === "moe_mirror" && (
+            <MoeMirrorView />
+          )}
+          {toolsTab === "moe_test" && (
+            <MoeTestView />
           )}
         </div>
       </div>

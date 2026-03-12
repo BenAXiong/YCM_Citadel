@@ -25,7 +25,7 @@ export function FilterPresets({
 
   return (
     <>
-      <button onClick={() => setSelectedDialects(new Set(sortedAllDialects))} className="flex-1 text-[10px] py-1.5 border border-[var(--border-light)] rounded hover:bg-[var(--bg-highlight)] transition text-[var(--text-main)] uppercase font-bold">{s.all}</button>
+      <button onClick={() => setSelectedDialects(new Set(sortedAllDialects))} className="flex-1 text-[10px] py-1.5 border border-[var(--border-light)] rounded hover:bg-[var(--accent)] hover:text-black transition text-[var(--text-main)] uppercase font-bold">{s.all}</button>
       <button onClick={() => setSelectedDialects(new Set())} className="flex-1 text-[10px] py-1.5 border border-[var(--border-light)] rounded hover:bg-[var(--bg-highlight)] transition text-[var(--text-main)] uppercase font-bold">{s.none}</button>
 
       <div className="relative">
@@ -80,7 +80,7 @@ export function FilterPresets({
                   setSavedFilters(next);
                 }
               }}
-              className="w-full text-center py-2 bg-[var(--accent)] text-black rounded font-mono text-[10px] font-bold hover:scale-[1.02] active:scale-[0.98] transition-all"
+              className="w-full text-center py-2 bg-[var(--btn-grad,var(--accent))] text-black rounded font-mono text-[10px] font-bold hover:brightness-110 active:scale-[0.98] transition-all"
             >
               + SAVE_CURRENT
             </button>

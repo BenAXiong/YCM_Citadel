@@ -130,9 +130,20 @@ export function ThemeIris({
                         <defs>
                           <linearGradient id={`grad-${idx}-${item.id.replace(/\s+/g, '-')}`} x1="0%" y1="0%" x2="100%" y2="100%">
                             {/* SMOOTH GRADIENT: DOMINANT ACCENT TO DARK EDGE */}
+                        {item.colors['--multi-1'] ? (
+                          <>
+                            <stop offset="0%" stopColor={item.colors['--multi-1']} stopOpacity="0.9" />
+                            <stop offset="50%" stopColor={item.colors['--accent']} stopOpacity="0.8" />
+                            <stop offset="80%" stopColor={item.colors['--multi-2'] || item.colors['--accent']} stopOpacity="0.7" />
+                            <stop offset="100%" stopColor={item.colors['--bg-deep']} />
+                          </>
+                        ) : (
+                          <>
                             <stop offset="0%" stopColor={item.colors['--accent']} stopOpacity="0.8" />
                             <stop offset="80%" stopColor={item.colors['--accent']} stopOpacity="0.5" />
                             <stop offset="100%" stopColor={item.colors['--bg-deep']} />
+                          </>
+                        )}
                           </linearGradient>
                           <filter id={`glow-${idx}-${item.id.replace(/\s+/g, '-')}`}>
                             <feGaussianBlur stdDeviation="2.5" result="coloredBlur" />
@@ -148,8 +159,8 @@ export function ThemeIris({
                           d="M50 0 L93.3 25 L93.3 75 L50 100 L6.7 75 L6.7 25 Z"
                           fill="transparent"
                           stroke={item.colors['--accent']}
-                          strokeWidth={theme === item.id ? "6" : "2"}
-                          strokeOpacity={theme === item.id ? "1" : "0.3"}
+                          strokeWidth={theme === item.id ? "4" : "1"}
+                          strokeOpacity={theme === item.id ? "0.8" : "0.2"}
                           className="transition-all duration-500"
                           filter={theme === item.id ? `url(#glow-${idx}-${item.id.replace(/\s+/g, '-')})` : ''}
                         />

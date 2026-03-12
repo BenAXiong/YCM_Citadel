@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Hexagon, LayoutGrid, Settings, Trash2 } from "lucide-react";
+import { Hexagon, LayoutGrid, Settings, Trash2, User, ChevronDown, LogIn, UserPlus } from "lucide-react";
 import { Theme, UILang, UIStrings } from "@/types";
 
 interface HeaderProps {
@@ -46,7 +46,8 @@ export default function Header({
   setVs3BodyPadding
 }: HeaderProps) {
   return (
-    <header className="h-16 border-b border-[var(--border-dark)] flex items-center px-6 justify-between bg-[var(--bg-panel)] z-[105] shadow-md sticky top-0 backdrop-blur-md border-t-4 border-t-[var(--accent)]">
+    <header className="h-16 border-b border-[var(--border-dark)] flex items-center px-6 justify-between bg-[var(--bg-panel)] z-[105] shadow-md sticky top-0 backdrop-blur-md">
+      <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[var(--accent)] via-[var(--accent)]/50 to-transparent"></div>
       <div className="flex items-center space-x-3 text-[var(--accent)] group cursor-pointer" onClick={() => setMode("VS-1")}>
         {isSidebarCollapsed && (
           <>
@@ -62,7 +63,7 @@ export default function Header({
             <button
               key={m}
               onClick={() => setMode(m as any)}
-              className={`w-24 py-1.5 rounded-lg font-mono text-xs font-bold transition-all duration-300 ${mode === m ? 'bg-[var(--accent)] text-black shadow-lg translate-y-[-1px]' : 'text-[var(--text-sub)] hover:text-[var(--text-main)] hover:bg-[var(--bg-highlight)]'}`}
+              className={`w-24 py-1.5 rounded-lg font-mono text-xs font-bold transition-all duration-300 ${mode === m ? 'bg-[var(--btn-grad,var(--accent))] text-black shadow-lg translate-y-[-1px]' : 'text-[var(--text-sub)] hover:text-[var(--text-main)] hover:bg-[var(--bg-highlight)]'}`}
             >
               {m === "DICT" ? s.dict : m === "EXAMS" ? s.exams : m === "FLASHCARDS" ? s.flashcards : m}
             </button>
@@ -76,7 +77,7 @@ export default function Header({
             <button
               key={m}
               onClick={() => setMode(m as any)}
-              className={`w-24 py-1.5 rounded-lg font-mono text-xs font-bold transition-all duration-300 ${mode === m ? 'bg-[var(--accent)] text-black shadow-lg translate-y-[-1px]' : 'text-[var(--text-sub)] hover:text-[var(--text-main)] hover:bg-[var(--bg-highlight)]'}`}
+              className={`w-24 py-1.5 rounded-lg font-mono text-xs font-bold transition-all duration-300 ${mode === m ? 'bg-[var(--btn-grad,var(--accent))] text-black shadow-lg translate-y-[-1px]' : 'text-[var(--text-sub)] hover:text-[var(--text-main)] hover:bg-[var(--bg-highlight)]'}`}
             >
               {m}
             </button>
@@ -173,6 +174,43 @@ export default function Header({
               </div>
             </div>
           )}
+        </div>
+
+        <div className="w-[1px] h-4 bg-[var(--border-dark)] mx-1" />
+        
+        {/* LOGIN / USER PROFILE */}
+        <div className="relative group">
+          <button className="flex items-center space-x-2 p-1.5 pr-3 rounded-full bg-[var(--bg-sub)] border border-[var(--border-dark)] hover:border-[var(--accent)]/50 transition-all hover:shadow-[0_0_15px_rgba(var(--accent-rgb),0.1)]">
+            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-[var(--bg-panel)] to-[var(--bg-highlight)] border border-[var(--border-dark)] flex items-center justify-center text-[var(--accent)]">
+              <User className="w-4 h-4" />
+            </div>
+            <div className="flex flex-col items-start -space-y-1 hidden sm:flex">
+              <span className="text-[10px] font-mono text-[var(--text-sub)] uppercase tracking-tighter">Guest</span>
+              <span className="text-[9px] font-mono text-[var(--accent)]/60">Not Logged In</span>
+            </div>
+            <ChevronDown className="w-3 h-3 text-[var(--text-sub)] ml-1" />
+          </button>
+          
+          <div className="absolute top-full right-0 mt-2 w-48 bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-xl shadow-2xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 z-[200]">
+            <div className="p-3 border-b border-[var(--border-dark)]">
+              <p className="text-[10px] font-mono text-[var(--text-sub)] uppercase">Account</p>
+            </div>
+            <div className="p-1">
+              <button className="w-full text-left px-3 py-2 text-xs font-mono text-[var(--text-main)] hover:bg-[var(--accent)] hover:text-black rounded-lg transition-colors flex items-center space-x-2">
+                <LogIn className="w-3 h-3" />
+                <span>Sign In</span>
+              </button>
+              <button className="w-full text-left px-3 py-2 text-xs font-mono text-[var(--text-main)] hover:bg-[var(--bg-highlight)] rounded-lg transition-colors flex items-center space-x-2">
+                <UserPlus className="w-3 h-3" />
+                <span>Register</span>
+              </button>
+            </div>
+            <div className="p-1 border-t border-[var(--border-dark)] mt-1">
+              <button className="w-full text-left px-3 py-2 text-xs font-mono text-[var(--text-sub)] hover:text-[var(--text-main)] transition-colors">
+                Help & Support
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </header>

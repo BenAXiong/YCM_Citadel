@@ -74,6 +74,10 @@ Note: Originally Phase 8, this roadmap defined our transition to data sovereignt
     *   [x] Build drift matrix from Nine-Year Syllabus. [Report](analysis_nlp/phonetic_drift_report.md)
     *   [x] Identify primary axes (Amis u/o, Bunun q/h, Puyuma l/r/b/v).
     *   [ ] Implement "Standardized Spelling" auto-transcription toggle (VS-1).
+*   **Amis MOE Dict Infiltration**:
+    *   [x] Scouting and source identification (g0v raw JSON). [Scout Report](AMIS_MOE_DICT_SCOUT.md)
+    *   [ ] Implementation of `amis_moe_harvester.py`.
+    *   [ ] Integration of MOE definitions into the Portal Dictionary View.
 
 ### Phase 13 & Beyond: Cultural Immersion
 *   **FILC Archive Retrieval**: Digital Library harvest (Essays, Stories, Podcasts).

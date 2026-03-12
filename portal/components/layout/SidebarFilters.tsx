@@ -71,7 +71,14 @@ export default function SidebarFilters({
   const THEME_FULL_COLORS: Record<string, Record<string, string>> = {
     matrix: { '--bg-deep': '#080808', '--bg-panel': '#111', '--accent': '#00ff88', '--text-main': '#e0e0e0' },
     sober: { '--bg-deep': '#121212', '--bg-panel': '#1e1e1e', '--accent': '#00bcd4', '--text-main': '#fff' },
-    ycm: { '--bg-deep': '#0a0e0a', '--bg-panel': '#121812', '--accent': '#ff8c00', '--text-main': '#f0f4f0' },
+    ycm: { 
+      '--bg-deep': '#0a0808', 
+      '--bg-panel': '#141212', 
+      '--accent': '#f39200', 
+      '--text-main': '#fcfcfc',
+      '--multi-1': '#E4141A', // Red
+      '--multi-2': '#94C12C'  // Green
+    },
     // ycm_legacy: { '--bg-deep': '#0a0e0a', '--bg-panel': '#121812', '--accent': '#ff8c00', '--text-main': '#f0f4f0' },
     cidal: { '--bg-deep': '#1a1a14', '--bg-panel': '#25251d', '--accent': '#ffcc33', '--text-main': '#fff5e6' },
     rainbow: { '--bg-deep': '#050510', '--bg-panel': '#0a0a1a', '--accent': '#ff00ff', '--text-main': '#ffffff' },
@@ -103,7 +110,7 @@ export default function SidebarFilters({
         onMouseDown={startResizing}
         className="absolute -right-1 top-0 bottom-0 w-2 cursor-col-resize z-30 hover:bg-[var(--accent)] transition-colors opacity-0 hover:opacity-100"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[var(--bg-panel)] pointer-events-none mix-blend-overlay"></div>
+      <div className="absolute inset-0 bg-[var(--bg-deep)] pointer-events-none opacity-50"></div>
       <div className="p-4 border-b border-[var(--border-dark)] flex flex-col space-y-4 relative z-[50]" style={{ overflow: 'visible' }}>
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2 text-[var(--accent)] cursor-pointer hover:opacity-80 transition-opacity" onClick={() => setMode("VS-1")}>
