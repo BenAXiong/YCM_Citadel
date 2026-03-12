@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Square } from "lucide-react";
+import { Square, X, Maximize2, Minimize2 } from "lucide-react";
 import RawDbExplorer from "./RawDbExplorer";
 import MoeRawExplorer from "./MoeRawExplorer";
 import MoeMirrorView from "./MoeMirrorView";
@@ -24,32 +24,62 @@ export default function ToolsOverlay({
   handleCopy,
   copiedId
 }: ToolsOverlayProps) {
+  const [isFull, setIsFull] = React.useState(false);
+  const [isHeaderHovered, setIsHeaderHovered] = React.useState(false);
+  
   if (!isOpen) return null;
 
   return (
     <div
-      className="fixed inset-0 z-[200] flex items-center justify-center p-8 bg-[var(--bg-deep)] bg-opacity-80 backdrop-blur-sm animate-in fade-in duration-300"
+      className={`fixed inset-0 z-[1000] flex items-center justify-center ${isFull ? 'p-0' : 'p-8'} bg-black/80 backdrop-blur-md animate-in fade-in duration-300 h-[100dvh]`}
+      style={{ pointerEvents: isOpen ? 'auto' : 'none' }}
       onClick={onClose}
     >
       <div
-        className="bg-[var(--bg-panel)] border border-[var(--border-dark)] rounded-xl shadow-2xl w-[85%] h-[85%] flex flex-col overflow-hidden relative shadow-[0_0_100px_rgba(0,0,0,0.5)]"
+        className={`bg-[var(--bg-panel)] border border-[var(--border-dark)] shadow-2xl flex flex-col overflow-hidden relative transition-all duration-300 ${isFull ? 'w-full h-[100dvh] rounded-none' : 'w-[90%] h-[90%] rounded-2xl shadow-[0_0_100px_rgba(0,0,0,0.8)]'}`}
         onClick={e => e.stopPropagation()}
       >
-        <button onClick={onClose} className="absolute top-4 right-4 p-2 hover:bg-[var(--bg-highlight)] rounded-full transition text-[var(--text-sub)] hover:text-[var(--text-main)] z-10"><Square className="w-5 h-5" /></button>
+        {/* TOP HOVER TRIGGER FOR NAV */}
+        {isFull && (
+          <div 
+            className="absolute top-0 left-0 right-0 h-4 z-[300]" 
+            onMouseEnter={() => setIsHeaderHovered(true)}
+          />
+        )}
 
-        <div className="flex border-b border-[var(--border-dark)] bg-[var(--bg-sub)]">
+        <div className="absolute top-4 right-4 flex items-center space-x-2 z-[400]">
+          <button 
+            onClick={() => setIsFull(!isFull)}
+            className="p-2 hover:bg-[var(--bg-highlight)] rounded-full transition text-[var(--text-sub)] hover:text-[var(--accent)] bg-[var(--bg-panel)]/50 backdrop-blur-md shadow-sm border border-[var(--border-dark)]"
+            title={isFull ? "Restore" : "Maximize"}
+          >
+            {isFull ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}
+          </button>
+          <button 
+            onClick={onClose} 
+            className="p-2 hover:bg-red-500/20 rounded-full transition text-[var(--text-sub)] hover:text-red-500 bg-[var(--bg-panel)]/50 backdrop-blur-md shadow-sm border border-[var(--border-dark)]"
+            title="Close"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+
+        <div 
+          className={`flex border-b border-[var(--border-dark)] bg-[var(--bg-sub)] pr-32 transition-all duration-500 ease-in-out z-[250] ${isFull ? (isHeaderHovered ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none') : 'translate-y-0'}`}
+          onMouseLeave={() => setIsHeaderHovered(false)}
+        >
           {["heatmap", "normalization", "rosetta", "raw_db", "moe_raw", "moe_mirror", "moe_test"].map((tab) => (
             <button
               key={tab}
               onClick={() => setToolsTab(tab as any)}
-              className={`px-8 py-4 font-mono text-xs uppercase tracking-widest transition-all ${toolsTab === tab ? 'bg-[var(--bg-panel)] text-[var(--accent)] border-b-2 border-[var(--accent)]' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
+              className={`px-6 py-4 font-mono text-xs uppercase tracking-widest transition-all ${toolsTab === tab ? 'bg-[var(--bg-panel)] text-[var(--accent)] border-b-2 border-[var(--accent)]' : 'text-[var(--text-sub)] hover:text-[var(--text-main)]'}`}
             >
               {tab}
             </button>
           ))}
         </div>
 
-        <div className="flex-1 overflow-auto p-8 custom-scrollbar">
+        <div className={`flex-1 overflow-auto custom-scrollbar ${isFull ? 'p-0' : 'p-8'}`}>
           {toolsTab === "heatmap" && (
             <div className="space-y-8 animate-in slide-in-from-bottom-4 duration-500">
               <div className="flex justify-between items-end">

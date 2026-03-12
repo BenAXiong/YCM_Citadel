@@ -90,22 +90,42 @@ The `amis.moedict.tw` frontend uses a robust client-side search architecture:
     *   **Problem**: Amis headwords like `to'as` or those with colons/quotes are invalid filenames on Windows.
     *   **Solution**: We bypassed the OS filesystem by using `git show HEAD:{path}` to pull blobs directly from the Git object store.
 
-2.  **The Triple-F Delimiter System**:
+2.  **The Triple-F Delimiter System (RESOLVED)**:
     *   The data uses hidden Unicode characters (`U+FFF9`, `U+FFFA`, `U+FFFB`) as layout triggers. 
     *   **Strategy**: Our parser now converts these into a structured `examples_json` block (AB/ZH/EN) to prevent rendering as "Mojibake".
 
-3.  **Dictionary Identity Shift**:
-    *   Initial scouts misidentified `m` as Wu Ming-yi. 
-    *   **Correction**: In this specific repo, `m` contains **Manoel Fey's** Amis-French data (101 high-density entries). Wu Ming-yi's data may be interleaved in larger blobs.
+3.  **Tooltip Visibility & Animation Conflict (NEW)**:
+    *   **Problem**: Using `animate-in` (Tailwind) on components with `opacity-0` caused tooltips to be visible and stuck on initial page load.
+    *   **Solution**: Switched to CSS `invisible` + `group-hover:visible` logic to ensure strict conditional rendering.
 
-4.  **License Compliance**:
-    *   Data is **CC BY-NC-SA 3.0**. 
-    *   **Requirement**: A permanent "Source Attribution" badge must be present in any UI displaying this data.
+4.  **Synonym (`同`) Injection logic**:
+    *   **Discovery**: The MOE dictionary stores synonyms in an `s` or `synonyms` field. 
+    *   **Refinement**: We now inject these into the definition string with a special `同` marker during harvesting, allowing the portal to render them as clickable links in the definition block.
+
+5.  **Search Case Sensitivity**:
+    *   **Problem**: Hoveringized markers like `Mato'asay` (capitalized) failed to find definitions in the DB keyed by `mato'asay`.
+    *   **Solution**: Implemented a `toLowerCase()` normalization in the summary fetcher and cache.
+
+---
+
+## 🏛️ Triangulation & Lab Testing Plan
+
+### 1. The Triangulation Engine (Phase 13)
+*   **Definition**: The process of merging entries from `s` (Safolu), `p` (Virginia Fey), and `m` (Wu Ming-yi) into a single "Golden Soul".
+*   **Mechanism**: 
+    1.  Fetch all rows for `word_ab`.
+    2.  Group by semantic intent (Definition distance).
+    3.  Create a unified `SoulID` that points to multiple dictionary sources.
+
+### 2. UI Lab Testings
+*   **Mock-up Replication**: Using `MoeMirrorView.tsx` as a sandbox to test "High-Fidelity" reconstruction of the `moedict.tw` interface.
+*   **Recursive Exploration**: Validating the "Side-Peek" drawer as a way to handle multi-level dictionary queries without losing session context.
 
 ---
 
 ## 🚀 Active Roadmap
-*   [x] **Mirror View**: Phase 12 complete. Deciphered site rendering logic.
-*   [ ] **The Triangulation Engine**: Automating the merge of `s` and `p` sources into "Master Souls".
+*   [x] **Mirror View**: Phase 12 complete. High-fidelity UI implemented.
+*   [x] **Tooltip Engine**: Fully functional with numbered definitions and grouped sources.
+*   [ ] **Mass Harvest Phase**: Full extraction of `docs/s/`, `docs/p/`, and `docs/m/`.
+*   [ ] **Soul Triangulation**: Automated merging of overlapping definitions.
 *   [ ] **Phonetic Sanitization**: Removing markers (`` ` ``, `~`) for search indexing while preserving them for display.
-*   [ ] **UX Lab**: Testing unified entry cards in `MOE_TEST`.

@@ -79,3 +79,15 @@ We are establishing a dual-track testing environment for the "Master Soul" conso
     *   **Phonetic Toggle**: A UI switch to hide/show the `` ` `` and `~` markers.
     *   **Source Hierarchy**: Visually distinguishing between the "Primary Soul" (Master) and "Archive References" (MOE).
     *   **Density Controls**: Testing how condensed we can make a verified entry before losing readability.
+
+---
+
+## ⚡ 5. The "Autolink" Migration (Phase 5)
+
+We are planning to port the **`autolink.js`** logic (Longest-Match-First Regex) to the broader Citadel ecosystem.
+
+### Target: Sovereign VS-1/VS-2 Corpus
+1.  **The Index**: Compile a high-confidence index from the ILRDF + Harvested MOE data.
+2.  **The Parser**: Build a Python/Node server-side utility that runs the "Greedy Match" against our 230,000 sentences.
+3.  **The Output**: Every static sentence in the VS-1 view will become a "Smart Map" where roots and conjugated forms are automatically tokenized and linked to their dictionary profiles.
+4.  **Linguistic Layering**: While the engine is purely pattern-based, we will layer it with our **Morphological Intelligence** to help distinguish between root-linking (e.g. linking `'orip` in `ma'orip`) versus suffix-linking (e.g. linking `ay`).

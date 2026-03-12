@@ -8,16 +8,31 @@ export async function GET(request: Request) {
         
         const keyword = searchParams.get('keyword');
         const dict_code = searchParams.get('dict_code');
+        const aggregate = searchParams.get('aggregate') === 'true';
         
-        console.log(`[API/MOE] Query: keyword="${keyword}", dict="${dict_code}"`);
+        console.log(`[API/MOE] Query: keyword="${keyword}", dict="${dict_code}", aggregate=${aggregate}`);
         
         const params: any[] = [];
         let sql = "SELECT * FROM moe_entries WHERE 1=1";
 
         if (keyword) {
-            sql += ` AND (word_ab LIKE ? OR definition LIKE ?)`;
-            params.push(`%${keyword}%`);
-            params.push(`%${keyword}%`);
+            if (aggregate) {
+                // Aggregation logic: find the exact word, AND any entries that share its stem, 
+                // AND any entries where the headword IS the stem of the keyword.
+                sql += ` AND (
+                    LOWER(word_ab) = LOWER(?) 
+                    OR LOWER(stem) = LOWER(?) 
+                    OR word_ab IN (SELECT DISTINCT stem FROM moe_entries WHERE LOWER(word_ab) = LOWER(?) AND stem IS NOT NULL AND stem != '')
+                )`;
+                params.push(keyword);
+                params.push(keyword);
+                params.push(keyword);
+            } else {
+                // Broad search for sidebar
+                sql += ` AND (word_ab LIKE ? OR definition LIKE ?)`;
+                params.push(`%${keyword}%`);
+                params.push(`%${keyword}%`);
+            }
         }
 
         if (dict_code && dict_code !== 'ALL') {
