@@ -29,3 +29,43 @@ The manifest is built using a tiered priority system:
 - `moe_heuristic_explorer.js`: Experimental script for identifying non-canonical roots.
 - `moe_morph_manifest.json`: The mapping file used by the frontend.
 - `moe_morph_stats.json`: The summary data for index headers.
+
+## 🏛️ Deep Restoration Strategy (The Pivot)
+
+Observed discrepancies (e.g., LOMA showing 88 branches in stats but a small visual tree) led to the following remediation plan:
+
+### 1. Absolute Sync via Database Injection
+To eliminate the gap between "Stats" and "Viz," the `moe_hierarchy_builder` now injects its manifest directly into a new SQLite table `moe_hierarchy`. The API and the Sidebar now query the **exact same table**, ensuring 1:1 parity between list counts and tree nodes.
+
+### 2. Semantic Salience (Tie-Breaking)
+When a word has multiple potential parents (e.g., `SAPI` vs `MAAN`), we will implement a "Salience" check. Roots with more official database children carry higher "Weight," preventing lexical families from being fragmented by coincidental substring collisions with grammatical prefixes.
+
+### 3. Gap-Bridging & Virtual Tiers
+To combat "Depth Death" caused by missing intermediate words in the dictionary:
+- **Virtual Tiers**: The UI will honor the manifest depth even if a parent link is missing, rendering the node at its "True" distance from the root with a dashed connection.
+- **MoE / MoE+ Toggle**: A future enhancement to allow switching between a **Strict DB-only** view and a **Heuristic Discovery** view.
+
+---
+*Last Updated: 2026-03-13*
+
+
+
+notes to format
+
+🕵️ "pacoos" Diagnostic Summary
+My investigation of the local amis-moedict mirror and the database revealed a critical gap in our data:
+
+What we found: The word coos (greedy) is present in the database from Source S (Tsai).
+What is missing: pacoos (the causative "to make greedy") is not in the DB and is also absent from the local files.
+The Root Cause: Your previous notes suggested Wu Ming-yi (Source M) contains the most comprehensive dialectal and causative forms. However, our local 
+
+docs/m/index.json
+ only contains 90 words (it should be roughly ~30,000).
+Verdict: We are missing 99.7% of Source M. The word pacoos likely exists in that missing slice.
+🚀 Recommendation
+The "pacoos" issue isn't a bug in the code, but a data deficit. To resolve it, we need to re-run the scraper specifically for source "m" against the live MoEDICT API.
+
+I have applied the UI changes to 
+
+KilangView.tsx
+. Shall we stop here to save credits, or would you like me to look at the scraper for Source M?

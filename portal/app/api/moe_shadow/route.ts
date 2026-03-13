@@ -8,22 +8,32 @@ export async function GET(request: Request) {
         
         const keyword = searchParams.get('keyword');
         const dict_code = searchParams.get('dict_code');
+        const mode = searchParams.get('mode') || 'plus'; // 'moe', 'plus', 'star'
         const aggregate = searchParams.get('aggregate') === 'true';
-        
-        console.log(`[API/MOE] Query: keyword="${keyword}", dict="${dict_code}", aggregate=${aggregate}`);
+        const sourceFilter = searchParams.get('source'); // 's', 'p', 'm', etc.
+        const tableName = mode === 'moe' ? 'moe_hierarchy_moe' : 
+                         mode === 'star' ? 'moe_hierarchy_star' : 
+                         'moe_hierarchy_plus';
+
+        console.log(`[API/MOE] Query: keyword="${keyword}", mode="${mode}", aggregate=${aggregate}`);
         
         if (keyword && aggregate) {
-            // UNIFIED SOURCE OF TRUTH: Querying the pre-calculated hierarchy table
-            const sql = `
-                SELECT e.*, h.parent_word, h.ultimate_root, h.depth as tier
+            let sql = `
+                SELECT e.*, h.parent_word, h.ultimate_root, h.depth as tier, h.sort_path
                 FROM moe_entries e
-                JOIN moe_hierarchy h ON e.word_ab = h.word_ab
+                JOIN ${tableName} h ON RTRIM(e.word_ab, '|') = h.word_ab
                 WHERE LOWER(h.ultimate_root) = LOWER(?)
             `;
             
+            const bindParams: any[] = [keyword];
+            if (sourceFilter && sourceFilter !== 'ALL') {
+                sql += ` AND h.sources LIKE ?`;
+                bindParams.push(`%${sourceFilter}%`);
+            }
+
             const stmt = db.prepare(sql);
-            const rows = stmt.all(keyword) as any[];
-            console.log(`[API/MOE] Manifest Sync found ${rows.length} family members for "${keyword}"`);
+            const rows = stmt.all(...bindParams) as any[];
+            console.log(`[API/MOE] Manifest Sync found ${rows.length} family members for "${keyword}" (Source: ${sourceFilter})`);
             return NextResponse.json({ rows });
         }
 

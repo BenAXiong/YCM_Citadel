@@ -48,8 +48,10 @@ Located in `portal/scripts/` — Specialized logic for Amis morphological struct
 
 | Script | Purpose | Focus Area |
 | :--- | :--- | :--- |
-| `moe_hierarchy_builder.js` | **The Architect**. Builds the definitive linguistic hierarchy using DB stems and global overlap. | Unified Manifest |
-| `moe_heuristic_explorer.js` | **The Explorer**. Heuristic script used to identify potential roots that may be missed by the official DB tags. | Discovery |
+| `moe_builder_strict.js` | Generates the **MoE** (Raw) manifest using only official DB stems. | Unified Manifest |
+| `moe_builder_plus.js` | Generates the **MoE+** (Heuristic) manifest using Phase 1 discovery logic. | Discovery |
+| `moe_builder_star.js` | Placeholder for **MoE*** (Experimental) future heuristics. | Experimental |
+| `moe_heuristic_explorer.js` | Experimental discovery tool for non-canonical roots. | Discovery |
 | `drift_matrix_builder.py` | Builds the phonetic correspondence heatmaps found in the portal. | Phonetic Drift |
 | `drift_scanner.py` | Scans the corpus for specific drift anchors (u/o, q/h). | Anchor Detection |
 | `drift_anchorer.py` | In-depth analysis of drift across the Amis axis. | Amis Axis |

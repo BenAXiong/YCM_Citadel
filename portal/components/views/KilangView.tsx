@@ -6,7 +6,7 @@ import {
   Boxes, GitBranch, Search, Filter, RefreshCw, BarChart3, Activity,
   ArrowUp, Columns, Rows, ExternalLink, Hash, BookOpen, Layers,
   Download, Image as ImageIcon, ChevronRight, ChevronDown, Maximize2, Minimize2, Zap, AlertCircle, HelpCircle,
-  Minimize, Maximize, Link2, TrendingUp, Minus, Plus, RotateCcw
+  Minimize, Maximize, Link2, TrendingUp, Minus, Plus, RotateCcw, XCircle
 } from 'lucide-react';
 import { toPng } from 'html-to-image';
 import './Kilang.css';
@@ -40,30 +40,45 @@ export default function KilangView() {
   const [rootData, setRootData] = useState<any>(null);
   const [showStatsOverlay, setShowStatsOverlay] = useState(false);
   const [summaryCache, setSummaryCache] = useState<Record<string, string[]>>({});
+  const [morphMode, setMorphMode] = useState<'moe' | 'plus' | 'star'>('moe');
 
   const [manifest, setManifest] = useState<any>(null);
+  const [sourceFilter, setSourceFilter] = useState<string>('ALL');
+
+  const MOE_SOURCES = [
+    { id: 'ALL', label: 'ALL SOURCES' },
+    { id: 's', label: 'Tsai (s)' },
+    { id: 'p', label: 'Pangcah (p)' },
+    { id: 'm', label: 'MoE Mac (m)' },
+  ];
 
   useEffect(() => {
-    fetch('/data/moe_morph_stats.json')
+    setLoading(true);
+    const statsFile = `/data/moe_stats_${morphMode}.json`;
+    const manifestFile = `/data/moe_manifest_${morphMode}.json`;
+
+    fetch(statsFile)
       .then(res => {
         if (!res.ok) throw new Error('Fetch failed');
         return res.json();
       })
       .then(data => {
         setStats(data);
-        // Load manifest in sequence
-        return fetch('/data/moe_morph_manifest.json');
+        return fetch(manifestFile);
       })
       .then(res => res.json())
       .then(m => {
         setManifest(m);
         setLoading(false);
+        // Clear selection when mode changes to prevent data mismatch
+        setSelectedRoot(null);
+        setRootData(null);
       })
       .catch(err => {
         console.error('Stats/Manifest fetch error:', err);
         setLoading(false);
       });
-  }, []);
+  }, [morphMode]);
 
   const FILTER_BUCKETS = [
     { label: '1', min: 1, max: 1 },
@@ -116,7 +131,11 @@ export default function KilangView() {
     setSelectedRoot(root);
     setRootData({ loading: true });
     try {
-      const res = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(root)}&aggregate=true`);
+      const res = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(root)}&aggregate=true&mode=${morphMode}&source=${sourceFilter}`);
+      if (!res.ok) {
+        const errData = await res.json();
+        throw new Error(errData.error || `HTTP ${res.status}`);
+      }
       const data = await res.json();
 
       let allRows = data.rows || [];
@@ -124,39 +143,55 @@ export default function KilangView() {
 
       const uniqueDerivativesMap = new Map();
       allRows.forEach((d: any) => {
-        const word = d.word_ab.toLowerCase().trim();
+        let word = d.word_ab.toLowerCase().trim();
+        if (word.endsWith('|')) word = word.slice(0, -1);
+
+        // Clean parent and root from API
+        let pWord = d.parent_word ? d.parent_word.trim() : null;
+        if (pWord && pWord.endsWith('|')) pWord = pWord.slice(0, -1);
+
+        let uRoot = d.ultimate_root ? d.ultimate_root.trim() : null;
+        if (uRoot && uRoot.endsWith('|')) uRoot = uRoot.slice(0, -1);
+
+        // HYBRID SHIFT-LEFT: Using pre-calculated sortPath from API if available
+        const dRow = {
+          ...d,
+          word_ab: word,
+          parentWord: pWord,
+          ultimateRoot: uRoot,
+          tier: Number(d.tier || 2),
+          sortPath: d.sort_path
+        };
+
         if (word !== lowRoot && !uniqueDerivativesMap.has(word)) {
-          uniqueDerivativesMap.set(word, {
-            ...d,
-            word_ab: d.word_ab.trim(),
-            parentWord: d.parent_word || null,
-            tier: d.tier || 1,
-            ultimateRoot: d.ultimate_root || null
-          });
+          uniqueDerivativesMap.set(word, dRow);
         }
       });
 
       let derivatives = Array.from(uniqueDerivativesMap.values());
 
-      const getAncestry = (word: any) => {
-        let path = [word.word_ab.toLowerCase()];
-        let curr = word;
-        for (let i = 0; i < 15; i++) {
-          if (!curr.parentWord) break;
-          const parent = derivatives.find((p: any) => p.word_ab.toLowerCase() === curr.parentWord.toLowerCase());
-          if (parent) {
-            path.unshift(parent.word_ab.toLowerCase());
-            curr = parent;
-          } else break;
-        }
-        return path.join('>');
-      };
-
-      derivatives = derivatives.map((d: any) => ({ ...d, sortPath: getAncestry(d) }));
+      // If sortPath was not pre-calculated by API (e.g. Star/Plus mode), fallback to client-side
+      if (!derivatives[0]?.sortPath) {
+        const getAncestry = (word: any) => {
+          let path = [word.word_ab.toLowerCase()];
+          let curr = word;
+          for (let i = 0; i < 15; i++) {
+            if (!curr.parentWord) break;
+            const parent = derivatives.find((p: any) => p.word_ab.toLowerCase() === curr.parentWord.toLowerCase());
+            if (parent) {
+              path.unshift(parent.word_ab.toLowerCase());
+              curr = parent;
+            } else break;
+          }
+          return path.join('>');
+        };
+        derivatives = derivatives.map((d: any) => ({ ...d, sortPath: getAncestry(d) }));
+      }
 
       let currentRow = 0;
       const assignTreeRows = (parentWord: string, startRow: number) => {
-        const children = derivatives.filter((d: any) => d.parentWord?.toLowerCase() === parentWord.toLowerCase());
+        const pNormalized = parentWord.toLowerCase().trim();
+        const children = derivatives.filter((d: any) => d.parentWord?.toLowerCase() === pNormalized);
         if (children.length === 0) return 1;
 
         let totalUsed = 0;
@@ -170,10 +205,11 @@ export default function KilangView() {
 
       assignTreeRows(lowRoot, 0);
 
-      const parentRes = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(root)}&exact=true`);
+      const parentRes = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(root)}&exact=true&mode=${morphMode}`);
       const parentData = await parentRes.json();
       const firstEntry = parentData.rows?.[0];
-      const parentStem = firstEntry?.stem && firstEntry.stem.toLowerCase() !== root.toLowerCase() ? firstEntry.stem : null;
+      let parentStem = firstEntry?.stem && firstEntry.stem.toLowerCase() !== root.toLowerCase() ? firstEntry.stem : null;
+      if (parentStem && parentStem.endsWith('|')) parentStem = parentStem.slice(0, -1);
 
       setRootData({
         word: root,
@@ -182,8 +218,13 @@ export default function KilangView() {
         parentStem: parentStem,
         loading: false
       });
-    } catch (e) {
-      setRootData({ error: true, loading: false });
+    } catch (e: any) {
+      console.error("[Kilang] Bloom Error:", e);
+      setRootData({
+        error: true,
+        errorMessage: e.message || "Unknown Error",
+        loading: false
+      });
     } finally {
       setRootData((prev: any) => ({ ...prev, loading: false }));
     }
@@ -219,7 +260,7 @@ export default function KilangView() {
     const key = word.toLowerCase();
     if (summaryCache[key]) return;
     try {
-      const res = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(word)}&aggregate=true`);
+      const res = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(word)}&aggregate=true&mode=${morphMode}`);
       const data = await res.json();
       const wordEntries = data.rows || [];
       if (wordEntries.length > 0) {
@@ -394,7 +435,7 @@ export default function KilangView() {
 
           <div className="h-4 w-[1px] bg-white/10 mx-1" />
 
-          {/* 2. Morphology Distribution Toggle (Single Button) */}
+          {/* 2. Morphology Distribution Toggle */}
           <button
             onClick={() => setShowStatsOverlay(true)}
             className={`flex items-center justify-center w-10 h-10 rounded-xl border transition-all ${showStatsOverlay ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg' : 'bg-white/5 border-white/10 text-kilang-text-muted hover:border-white/30 hover:text-white'}`}
@@ -402,6 +443,44 @@ export default function KilangView() {
           >
             <Activity className="w-5 h-5" />
           </button>
+
+          <div className="h-4 w-[1px] bg-white/10 mx-1" />
+
+          {/* 3. Morphology Mode Selector */}
+          <div className="flex bg-white/5 border border-white/10 rounded-xl p-0.5 overflow-hidden h-10 items-stretch">
+            {(['moe', 'plus', 'star'] as const).map(mode => (
+              <button
+                key={mode}
+                onClick={() => mode === 'moe' && setMorphMode(mode)}
+                disabled={mode !== 'moe'}
+                className={`px-3 flex items-center justify-center rounded-lg text-[10px] font-black tracking-widest transition-all ${morphMode === mode
+                  ? 'bg-blue-600 text-white shadow-lg'
+                  : mode === 'moe'
+                    ? 'text-kilang-text-muted hover:text-white hover:bg-white/5'
+                    : 'text-white/10 cursor-not-allowed'
+                  }`}
+              >
+                {mode === 'moe' ? 'MoE' : mode === 'plus' ? 'MoE+' : 'MoE*'}
+              </button>
+            ))}
+          </div>
+
+          <div className="h-4 w-[1px] bg-white/10 mx-1" />
+
+          {/* 4. MoE Source Filters (Only in MoE mode) */}
+          {morphMode === 'moe' && (
+            <div className="flex bg-white/5 border border-white/10 rounded-xl p-0.5 overflow-hidden h-10 items-stretch">
+              <select
+                value={sourceFilter}
+                onChange={(e) => setSourceFilter(e.target.value)}
+                className="bg-transparent text-[10px] font-black tracking-widest text-white/70 px-4 focus:outline-none hover:text-white transition-all cursor-pointer"
+              >
+                {MOE_SOURCES.map(s => (
+                  <option key={s.id} value={s.id} className="bg-kilang-bg text-white">{s.label}</option>
+                ))}
+              </select>
+            </div>
+          )}
         </div>
 
         {/* 3. Word + Views + Zoom + Export */}
@@ -472,28 +551,28 @@ export default function KilangView() {
             <>
               <CompactMetric
                 icon={<Boxes className="w-3 h-3" />}
-                label="Roots"
+                label="Stems"
                 value={stats.summary.total_roots}
                 color="blue"
                 description="Total unique semantic roots identified in the database."
               />
               <CompactMetric
                 icon={<Activity className="w-3 h-3" />}
-                label="Avg Br."
+                label="Branching"
                 value={stats.summary.average_branching}
                 color="indigo"
                 description="Average number of derived forms per semantic root."
               />
               <CompactMetric
                 icon={<Maximize className="w-3 h-3" />}
-                label="Depth"
+                label="Span"
                 value={stats.summary.max_depth}
                 color="emerald"
                 description="Maximum morphological depth (evolutionary layers) found."
               />
               <CompactMetric
                 icon={<TrendingUp className="w-3 h-3" />}
-                label="Vocab"
+                label="Flowers"
                 value={stats.summary.total_words}
                 color="blue"
                 description="Total vocabulary words mapped to established roots."
@@ -507,7 +586,25 @@ export default function KilangView() {
       <div className="flex-1 flex overflow-hidden">
         <aside className="w-96 border-r border-white/5 flex flex-col kilang-glass-panel">
           <div className="p-6 space-y-4">
-            <div className="relative group"><Search className="absolute left-3 top-3 w-4 h-4 text-kilang-text-muted group-focus-within:text-blue-500" /><input type="text" placeholder="Search semantic roots..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm text-white focus:outline-none focus:ring-2 focus:ring-blue-500/40" /></div>
+            <div className="relative group">
+              <Search className="absolute left-3 top-3 w-4 h-4 text-kilang-text-muted group-focus-within:text-blue-500" />
+              <input 
+                type="text" 
+                placeholder="Search semantic roots..." 
+                value={searchTerm} 
+                onChange={(e) => setSearchTerm(e.target.value)} 
+                className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-12 text-sm text-white focus:outline-none focus:ring-2 focus:ring-blue-500/40" 
+              />
+              {searchTerm && (
+                <button 
+                  onClick={() => setSearchTerm('')}
+                  className="absolute right-3 top-3 text-kilang-text-muted hover:text-white transition-colors"
+                  aria-label="Clear search"
+                >
+                  <XCircle className="w-4 h-4" />
+                </button>
+              )}
+            </div>
             <div className="flex items-center gap-2 text-xs font-bold text-kilang-text-muted uppercase tracking-widest px-1"><Filter className="w-3.5 h-3.5" /> Filter by Branches</div>
             <div className="grid grid-cols-5 gap-2">
               <button onClick={() => setBranchFilter('all')} className={`py-2 rounded-lg border text-[10px] font-black ${branchFilter === 'all' ? 'bg-blue-600/20 border-blue-500 text-blue-400' : 'bg-white/5 border-white/10 text-kilang-text-muted'}`}>ANY</button>
@@ -533,7 +630,15 @@ export default function KilangView() {
               <div className="flex-1 kilang-glass-panel rounded-3xl overflow-hidden relative flex flex-col border border-white/10 shadow-2xl">
                 {selectedRoot ? (
                   <div ref={treeRef} className="flex-1 overflow-auto custom-scrollbar p-16 bg-[#020617]/40 relative flex flex-col items-center">
-                    {rootData?.loading ? (
+                    {rootData?.error ? (
+                      <div className="h-full flex flex-col items-center justify-center space-y-4">
+                        <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
+                          <Activity className="w-8 h-8" />
+                        </div>
+                        <div className="text-red-500 font-mono text-sm tracking-widest uppercase">Forest Poisoned</div>
+                        <div className="text-red-400/60 text-[10px] font-mono italic max-w-xs text-center">{rootData.errorMessage}</div>
+                      </div>
+                    ) : rootData?.loading ? (
                       <div className="h-full flex flex-col items-center justify-center space-y-4"><RefreshCw className="w-10 h-10 text-blue-500 animate-spin opacity-50" /><div className="animate-pulse text-blue-500 font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div></div>
                     ) : (
                       <div
@@ -765,7 +870,9 @@ function CompactMetric({ icon, label, value, color, description }: { icon: any, 
       <div className={`${colorMap[color] || 'text-blue-400'} opacity-70 group-hover/metric:opacity-100 transition-opacity`}>{icon}</div>
       <div className="flex flex-col">
         <span className="text-[7px] font-black uppercase tracking-widest leading-none mb-0.5 text-kilang-text-muted">{label}</span>
-        <span className={`text-sm font-black ${colorMap[color] || 'text-white'} leading-none font-mono`}>{value.toLocaleString()}</span>
+        <span className={`text-sm font-black ${colorMap[color] || 'text-white'} leading-none font-mono`}>
+          {value !== undefined && value !== null ? value.toLocaleString() : '---'}
+        </span>
       </div>
 
       {/* Detailed Tooltip Overlay */}
