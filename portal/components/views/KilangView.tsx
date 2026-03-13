@@ -41,6 +41,7 @@ export default function KilangView() {
   const [showStatsOverlay, setShowStatsOverlay] = useState(false);
   const [summaryCache, setSummaryCache] = useState<Record<string, string[]>>({});
   const [morphMode, setMorphMode] = useState<'moe' | 'plus' | 'star'>('moe');
+  const [visibleChainsCount, setVisibleChainsCount] = useState(10);
 
   const [manifest, setManifest] = useState<any>(null);
   const [sourceFilter, setSourceFilter] = useState<string>('ALL');
@@ -260,7 +261,7 @@ export default function KilangView() {
     const key = word.toLowerCase();
     if (summaryCache[key]) return;
     try {
-      const res = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(word)}&aggregate=true&mode=${morphMode}`);
+      const res = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(word)}&exact=true&mode=${morphMode}`);
       const data = await res.json();
       const wordEntries = data.rows || [];
       if (wordEntries.length > 0) {
@@ -337,7 +338,7 @@ export default function KilangView() {
     );
   };
 
-  const KilangNode = ({ word, dictCode, tier = 2, isRoot = false }: { word: string; dictCode?: string; tier?: number; isRoot?: boolean }) => {
+  const WordTooltip = ({ word, children, dictCode }: { word: string; children: React.ReactNode; dictCode?: string }) => {
     const [isHovered, setIsHovered] = useState(false);
     const timeoutRef = useRef<any>(null);
     const cacheKey = word.toLowerCase();
@@ -347,46 +348,27 @@ export default function KilangView() {
       setIsHovered(true);
       fetchSummary(word);
     };
+
     const handleLeave = () => {
       timeoutRef.current = setTimeout(() => setIsHovered(false), 400);
     };
-    const getTierStyles = () => {
-      if (isRoot) return "";
-      if (tier === 2) return "border-blue-500/40 bg-blue-500/10 shadow-lg shadow-blue-500/10";
-      if (tier === 3) return "border-indigo-500/30 bg-indigo-500/5 opacity-80 scale-95 shadow-md shadow-indigo-500/5";
-      if (tier === 4) return "border-emerald-500/20 bg-emerald-500/5 opacity-60 scale-90 border-dashed";
-      return "border-white/10 bg-white/5 opacity-40 scale-75";
-    };
 
     return (
-      <div id={`node-${word.toLowerCase().replace(/\s/g, '-')}`} onMouseEnter={handleEnter} onMouseLeave={handleLeave} className="relative">
-        <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
-          {isRoot ? (
-            <div className="bg-[#0f172a] border-4 border-blue-600 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-10 relative min-w-[120px] flex items-center justify-center cursor-help">
-              <span className="text-white font-black text-2xl tracking-tighter">{word}</span>
-            </div>
-          ) : (
-            <div className={`transition-all text-sm group cursor-help ring-1 ring-white/5 relative z-10 border px-4 py-3 rounded-2xl ${getTierStyles()}`}>
-              <div className="flex items-center gap-2">
-                <Zap className={`w-3 h-3 ${tier === 2 ? 'text-blue-400' : tier === 3 ? 'text-indigo-400' : 'text-emerald-400'} opacity-50`} />
-                <span className="font-bold text-white group-hover:text-blue-300 transition-colors">{word}</span>
-              </div>
-            </div>
-          )}
-        </div>
+      <div className="relative" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+        {children}
         <div
           onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
           onMouseLeave={handleLeave}
-          className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-80 bg-[#0f172a] border border-blue-500/30 shadow-[0_0_50px_rgba(0,0,0,0.5)] rounded-2xl p-6 transition-all z-[2000] pointer-events-auto text-left duration-200 border-b-4 border-b-blue-500 ${isHovered ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 translate-y-2'}`}
+          className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-80 bg-[#0f172a] border border-blue-500/30 shadow-[0_0_50px_rgba(0,0,0,0.5)] rounded-2xl p-6 transition-all z-[2000] pointer-events-auto text-left leading-normal duration-200 border-b-4 border-b-blue-500 ${isHovered ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 translate-y-2'}`}
         >
           <div className="flex flex-col gap-1 mb-4 border-b border-white/10 pb-3">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between text-normal">
               <span className="text-2xl font-black text-white tracking-tighter uppercase">{word}</span>
               {dictCode && <span className="text-[10px] font-mono text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded-full uppercase">{dictCode}</span>}
             </div>
             <div className="h-0.5 w-16 bg-blue-500" />
           </div>
-          <div className="space-y-4 max-h-[250px] overflow-y-auto custom-scrollbar pr-2">
+          <div className="space-y-4 max-h-[250px] overflow-y-auto custom-scrollbar pr-2 leading-relaxed">
             {summaryCache[cacheKey] === undefined ? (
               <div className="flex items-center gap-2 italic text-blue-400/50 text-xs font-mono">
                 <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
@@ -396,7 +378,7 @@ export default function KilangView() {
               summaryCache[cacheKey].map((def: string, idx: number) => (
                 <div key={idx} className="flex gap-3">
                   <span className="text-blue-500 font-black text-xs mt-1">{idx + 1}.</span>
-                  <div className="text-sm text-gray-300 leading-relaxed font-medium">{def}</div>
+                  <div className="text-sm text-gray-300 font-medium">{def}</div>
                 </div>
               ))
             )}
@@ -404,6 +386,34 @@ export default function KilangView() {
           <div className="absolute top-full left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 w-3 h-3 bg-[#0f172a] border-r border-b border-blue-500/30" />
         </div>
       </div>
+    );
+  };
+
+  const KilangNode = ({ word, dictCode, tier = 2, isRoot = false }: { word: string; dictCode?: string; tier?: number; isRoot?: boolean }) => {
+    return (
+      <WordTooltip word={word} dictCode={dictCode}>
+        <div id={`node-${word.toLowerCase().replace(/\s/g, '-')}`} className="relative">
+          <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
+            {isRoot ? (
+              <div className="bg-[#0f172a] border-4 border-blue-600 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-10 relative min-w-[120px] flex items-center justify-center">
+                <span className="text-white font-black text-2xl tracking-tighter">{word}</span>
+              </div>
+            ) : (
+              <div className={`transition-all text-sm group ring-1 ring-white/5 relative z-10 border px-4 py-3 rounded-2xl ${
+                tier === 2 ? "border-blue-500/40 bg-blue-500/10 shadow-lg shadow-blue-500/10" :
+                tier === 3 ? "border-indigo-500/30 bg-indigo-500/5 opacity-80 scale-95 shadow-md shadow-indigo-500/5" :
+                tier === 4 ? "border-emerald-500/20 bg-emerald-500/5 opacity-60 scale-90 border-dashed" :
+                "border-white/10 bg-white/5 opacity-40 scale-75"
+              }`}>
+                <div className="flex items-center gap-2">
+                  <Zap className={`w-3 h-3 ${tier === 2 ? 'text-blue-400' : tier === 3 ? 'text-indigo-400' : 'text-emerald-400'} opacity-50`} />
+                  <span className="font-bold text-white group-hover:text-blue-300 transition-colors">{word}</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </WordTooltip>
     );
   };
 
@@ -428,8 +438,11 @@ export default function KilangView() {
               <GitBranch className="text-white w-5 h-5" />
             </div>
             <div className="flex flex-col">
-              <span className="text-sm font-black text-white tracking-[0.2em] leading-none uppercase">KILANG</span>
-              <span className="text-[8px] font-black text-blue-400/60 uppercase tracking-widest mt-1">MORPHO-ENGINE <span className="text-indigo-400 bg-indigo-500/10 px-1 rounded ml-1">BETA</span></span>
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-black text-white tracking-[0.2em] leading-none uppercase">KILANG</span>
+                <span className="text-[8px] font-black text-indigo-400 bg-indigo-500/10 px-1.5 py-0.5 rounded uppercase tracking-widest">BETA</span>
+              </div>
+              <span className="text-[8px] font-black text-blue-400/60 uppercase tracking-widest mt-1">MORPHO-ENGINE</span>
             </div>
           </div>
 
@@ -446,71 +459,79 @@ export default function KilangView() {
 
           <div className="h-4 w-[1px] bg-white/10 mx-1" />
 
-          {/* 3. Morphology Mode Selector */}
-          <div className="flex bg-white/5 border border-white/10 rounded-xl p-0.5 overflow-hidden h-10 items-stretch">
-            {(['moe', 'plus', 'star'] as const).map(mode => (
-              <button
-                key={mode}
-                onClick={() => mode === 'moe' && setMorphMode(mode)}
-                disabled={mode !== 'moe'}
-                className={`px-3 flex items-center justify-center rounded-lg text-[10px] font-black tracking-widest transition-all ${morphMode === mode
-                  ? 'bg-blue-600 text-white shadow-lg'
-                  : mode === 'moe'
-                    ? 'text-kilang-text-muted hover:text-white hover:bg-white/5'
+          {/* 3. Morphology Mode Selector + Source Dropdown */}
+          <div className="flex bg-white/5 border border-white/10 rounded-xl p-0.5 h-10 items-stretch relative">
+            {(['moe', 'plus', 'star'] as const).map(mode => {
+              if (mode === 'moe') {
+                return (
+                  <div key={mode} className="relative group flex h-full">
+                    <button
+                      onClick={() => setMorphMode('moe')}
+                      className={`px-4 h-full flex items-center justify-center rounded-lg text-[10px] font-black tracking-widest transition-all ${morphMode === 'moe'
+                        ? 'bg-blue-600 text-white shadow-lg'
+                        : 'text-kilang-text-muted hover:text-white hover:bg-white/5'
+                        }`}
+                    >
+                      <div className="flex items-center gap-1.5">
+                        <span>{sourceFilter === 'ALL' || morphMode !== 'moe' ? 'MoE' : (MOE_SOURCES.find(s => s.id === sourceFilter)?.label.split(' ')[0] || 'MoE')}</span>
+                        <ChevronDown className="w-2.5 h-2.5 opacity-40 shrink-0" />
+                      </div>
+                    </button>
+                    
+                    <div className="absolute top-full left-0 mt-1 w-48 bg-[#0f172a] border border-white/10 rounded-xl shadow-2xl p-1 hidden group-hover:block z-[3000] animate-in fade-in duration-200">
+                      {MOE_SOURCES.map(s => (
+                        <button
+                          key={s.id}
+                          onClick={() => {
+                            setSourceFilter(s.id);
+                            setMorphMode('moe');
+                          }}
+                          className={`w-full text-left px-4 py-2 rounded-lg text-[9px] font-black tracking-widest uppercase transition-all ${sourceFilter === s.id && morphMode === 'moe' ? 'bg-blue-600 text-white' : 'text-kilang-text-muted hover:bg-white/5 hover:text-white'}`}
+                        >
+                          {s.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+              return (
+                <button
+                  key={mode}
+                  onClick={() => setMorphMode(mode)}
+                  disabled={mode !== 'moe'}
+                  className={`px-4 flex items-center justify-center rounded-lg text-[10px] font-black tracking-widest transition-all ${morphMode === mode
+                    ? 'bg-blue-600 text-white shadow-lg'
                     : 'text-white/10 cursor-not-allowed'
-                  }`}
-              >
-                {mode === 'moe' ? 'MoE' : mode === 'plus' ? 'MoE+' : 'MoE*'}
-              </button>
-            ))}
+                    }`}
+                >
+                  {mode === 'plus' ? 'MoE+' : 'MoE*'}
+                </button>
+              );
+            })}
           </div>
-
-          <div className="h-4 w-[1px] bg-white/10 mx-1" />
-
-          {/* 4. MoE Source Filters (Only in MoE mode) */}
-          {morphMode === 'moe' && (
-            <div className="flex bg-white/5 border border-white/10 rounded-xl p-0.5 overflow-hidden h-10 items-stretch">
-              <select
-                value={sourceFilter}
-                onChange={(e) => setSourceFilter(e.target.value)}
-                className="bg-transparent text-[10px] font-black tracking-widest text-white/70 px-4 focus:outline-none hover:text-white transition-all cursor-pointer"
-              >
-                {MOE_SOURCES.map(s => (
-                  <option key={s.id} value={s.id} className="bg-kilang-bg text-white">{s.label}</option>
-                ))}
-              </select>
-            </div>
-          )}
         </div>
 
         {/* 3. Word + Views + Zoom + Export */}
         <div className="flex-1 flex items-center justify-center px-8 border-x border-white/5 mx-6 h-full">
           {selectedRoot ? (
             <div className="flex items-center gap-6 animate-in fade-in slide-in-from-top-2 duration-500">
-              <div className="flex flex-col items-center">
-                <span className="text-[7px] font-black text-blue-400/60 uppercase tracking-widest mb-1">Active Selection</span>
-                <h1 className="text-sm font-black text-white uppercase tracking-[0.3em] font-mono flex items-center gap-3">
-                  {selectedRoot}
-                  <span className="px-2 py-0.5 bg-blue-500/10 border border-blue-500/20 rounded text-[9px] font-black text-blue-400 lowercase">{rootData?.derivatives?.length ?? 0} forms</span>
-                </h1>
-              </div>
-
-              <div className="w-[1px] h-8 bg-white/5" />
-
-              <div className="flex flex-col items-center gap-1.5">
-                <span className="text-[7px] font-black text-kilang-text-muted uppercase tracking-widest">Layout</span>
+              <div className="flex items-center gap-3">
+                <span className="text-[8px] font-black text-kilang-text-muted uppercase tracking-widest">Layout</span>
                 <div className="flex items-center gap-1.5 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
                   {(['h1', 'h2', 'v1', 'v2'] as const).map(mode => (
                     <button
                       key={mode}
                       onClick={() => setLayoutMode(mode)}
-                      className={`w-6 h-6 flex items-center justify-center rounded text-[8px] font-black transition-all ${layoutMode === mode ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                      className={`w-7 h-7 flex items-center justify-center rounded text-[9px] font-black transition-all ${layoutMode === mode ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
                     >
                       {mode.toUpperCase()}
                     </button>
                   ))}
                 </div>
               </div>
+
+              <div className="w-[1px] h-8 bg-white/5" />
 
               <div className="flex items-center gap-1">
                 <button onClick={() => { setScale(1); setIsFit(false); }} className={`p-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all shadow-sm ${!isFit && scale === 1 ? 'text-blue-400' : 'text-white/50'}`} title="Reset Zoom">
@@ -524,12 +545,7 @@ export default function KilangView() {
                 </button>
                 <div className="w-[1px] h-4 bg-white/10 mx-2" />
                 <button
-                  onClick={() => toPng(treeRef.current!).then(dataUrl => {
-                    const link = document.createElement('a');
-                    link.download = `kilang-${selectedRoot}.png`;
-                    link.href = dataUrl;
-                    link.click();
-                  })}
+                  onClick={handleExport}
                   className="p-2 bg-white/5 border border-white/10 rounded-xl text-white/50 hover:bg-blue-600 hover:text-white hover:border-blue-400 transition-all shadow-md"
                   title="Export as PNG"
                 >
@@ -574,10 +590,10 @@ export default function KilangView() {
                 icon={<TrendingUp className="w-3 h-3" />}
                 label="Flowers"
                 value={stats.summary.total_words}
-                color="blue"
+                color="rose"
                 description="Total vocabulary words mapped to established roots."
               />
-              <div className="w-16 h-10 border border-white/5 bg-white/[0.01] rounded-xl border-dashed opacity-40" />
+              <div className="w-8 h-10 border border-white/5 bg-white/[0.01] rounded-xl border-dashed opacity-20 ml-2" />
             </>
           )}
         </div>
@@ -588,15 +604,15 @@ export default function KilangView() {
           <div className="p-6 space-y-4">
             <div className="relative group">
               <Search className="absolute left-3 top-3 w-4 h-4 text-kilang-text-muted group-focus-within:text-blue-500" />
-              <input 
-                type="text" 
-                placeholder="Search semantic roots..." 
-                value={searchTerm} 
-                onChange={(e) => setSearchTerm(e.target.value)} 
-                className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-12 text-sm text-white focus:outline-none focus:ring-2 focus:ring-blue-500/40" 
+              <input
+                type="text"
+                placeholder="Search semantic roots..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-12 text-sm text-white focus:outline-none focus:ring-2 focus:ring-blue-500/40"
               />
               {searchTerm && (
-                <button 
+                <button
                   onClick={() => setSearchTerm('')}
                   className="absolute right-3 top-3 text-kilang-text-muted hover:text-white transition-colors"
                   aria-label="Clear search"
@@ -732,29 +748,31 @@ export default function KilangView() {
       {showStatsOverlay && (
         <div className="fixed inset-0 z-[1000] flex items-center justify-center p-12 bg-[#020617]/80 backdrop-blur-2xl animate-in fade-in duration-300">
           <div className="w-full h-full bg-[#020617]/90 border border-white/10 rounded-[40px] shadow-2xl flex flex-col overflow-hidden relative">
-            <div className="flex items-center justify-between p-8 border-b border-white/5">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Activity className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-black text-white tracking-widest uppercase">Morphology Distribution</h2>
-                  <p className="text-[10px] text-indigo-400 font-black uppercase tracking-[0.3em] mt-1">Cross-lexical semantic analysis</p>
-                </div>
-              </div>
-              <button
-                onClick={() => setShowStatsOverlay(false)}
-                className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:bg-red-500 hover:text-white hover:border-red-400 transition-all shadow-lg"
-              >
-                <Minimize2 className="w-6 h-6" />
-              </button>
-            </div>
-
             <div className="flex-1 overflow-y-auto custom-scrollbar p-12 space-y-16">
-              <div className="grid grid-cols-1 gap-12">
-                <div className="space-y-6">
-                  <h3 className="text-xs font-black text-kilang-text-muted uppercase tracking-[0.3em]">Frequency Map</h3>
-                  <div className="flex flex-col gap-3">
+              <div className="flex items-center justify-between border-b border-white/5 pb-8 mb-4">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-lg">
+                    <Activity className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h2 className="text-2xl font-black text-white tracking-widest uppercase">Morphology Distribution</h2>
+                    <p className="text-[10px] text-indigo-400 font-black uppercase tracking-[0.3em] mt-1">Cross-lexical semantic analysis</p>
+                  </div>
+                </div>
+                <button
+                  onClick={() => setShowStatsOverlay(false)}
+                  className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:bg-red-500 hover:text-white hover:border-red-400 transition-all shadow-lg"
+                >
+                  <Minimize2 className="w-6 h-6" />
+                </button>
+              </div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+                {/* 1: Frequency Map */}
+                <div className="flex flex-col space-y-6">
+                  <h4 className="text-sm font-black text-indigo-400 mb-6 flex items-center gap-2 uppercase tracking-[0.2em] border-b border-indigo-500/20 pb-4">
+                    <BarChart3 className="w-4 h-4" /> Frequency Map
+                  </h4>
+                  <div className="flex-1 flex flex-col gap-3">
                     {(() => {
                       const dist = Object.entries(stats?.distribution || {}).map(([k, v]) => ({ branches: parseInt(k), count: v as number })).filter(d => d.branches > 0).sort((a, b) => a.branches - b.branches).slice(0, 30);
                       const maxFreq = Math.max(...dist.map(d => d.count), 1);
@@ -770,15 +788,14 @@ export default function KilangView() {
                     })()}
                   </div>
                 </div>
-              </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <div className="bg-[#020617]/50 rounded-2xl p-8 border border-white/5 space-y-8">
-                  <div>
+                <div className="flex flex-col gap-12 h-full">
+                  {/* 2: Vertical Depth */}
+                  <div className="bg-[#020617]/50 rounded-2xl p-8 border border-white/5 flex-1 flex flex-col">
                     <h4 className="text-sm font-black text-blue-400 mb-6 flex items-center gap-2 uppercase tracking-[0.2em] border-b border-blue-500/20 pb-4">
                       <Activity className="w-4 h-4" /> Vertical Depth
                     </h4>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 gap-4 flex-1 content-start">
                       {stats?.depth_distribution && Object.entries(stats.depth_distribution)
                         .sort(([a], [b]) => parseInt(a) - parseInt(b))
                         .map(([depth, count]: any) => {
@@ -800,26 +817,39 @@ export default function KilangView() {
                         })}
                     </div>
                   </div>
-                </div>
 
-                <div className="bg-[#020617]/50 rounded-2xl p-8 border border-white/5 space-y-8">
-                  <div>
+                  {/* 3: Top Roots */}
+                  <div className="bg-[#020617]/50 rounded-2xl p-8 border border-white/5 flex-1 flex flex-col">
                     <h4 className="text-sm font-black text-emerald-400 mb-6 flex items-center gap-2 uppercase tracking-[0.2em] border-b border-emerald-500/20 pb-4">
                       <TrendingUp className="w-4 h-4" /> Top Roots
                     </h4>
-                    <div className="grid grid-cols-2 gap-x-6 gap-y-2">
-                      {stats?.top_roots.slice(0, 20).map((r, i) => (
-                        <div key={i} onClick={() => { setShowStatsOverlay(false); fetchRootDetails(r.root); }} className="flex items-center justify-between p-2 bg-white/5 rounded-lg border border-white/10 group hover:border-blue-500 hover:bg-white/10 transition-all cursor-pointer">
-                          <div className="flex items-center gap-2 overflow-hidden">
-                            <span className="w-5 h-5 min-w-[20px] rounded-md bg-blue-500/20 text-blue-400 flex items-center justify-center text-[9px] font-black">{i + 1}</span>
-                            <span className="font-black text-white group-hover:text-blue-400 uppercase tracking-widest text-[11px] truncate">{r.root}</span>
-                          </div>
-                          <div className="flex items-baseline gap-1 bg-white/5 px-2 py-0.5 rounded-md border border-white/5 group-hover:border-blue-500/20 shrink-0">
-                            <span className="text-[11px] font-black text-white">{r.count}</span>
-                            <span className="text-[7px] text-kilang-text-muted uppercase font-black font-mono leading-none">br.</span>
-                          </div>
-                        </div>
-                      ))}
+                    <div className="grid grid-cols-3 gap-x-6 gap-y-2 flex-1 content-start">
+                      {(() => {
+                        const roots = stats?.top_roots.slice(0, 15) || [];
+                        const rows = 5;
+                        const cols = 3;
+                        const reordered = [];
+                        for (let r = 0; r < rows; r++) {
+                          for (let c = 0; c < cols; c++) {
+                            const index = r + c * rows;
+                            if (index < roots.length) reordered.push({ ...roots[index], originalIndex: index });
+                          }
+                        }
+                        return reordered.map((r, i) => (
+                          <WordTooltip word={r.root} key={i}>
+                            <div onClick={() => { setShowStatsOverlay(false); fetchRootDetails(r.root); }} className="flex items-center justify-between p-2 bg-white/5 rounded-lg border border-white/10 group hover:border-blue-500 hover:bg-white/10 transition-all cursor-pointer h-full">
+                              <div className="flex items-center gap-2 min-w-0">
+                                <span className="w-5 h-5 min-w-[20px] rounded-md bg-blue-500/20 text-blue-400 flex items-center justify-center text-[9px] font-black">{r.originalIndex + 1}</span>
+                                <span className="font-black text-white group-hover:text-blue-400 uppercase tracking-widest text-[11px] truncate">{r.root}</span>
+                              </div>
+                              <div className="flex items-baseline gap-1 bg-white/5 px-2 py-0.5 rounded-md border border-white/5 group-hover:border-blue-500/20 shrink-0">
+                                <span className="text-[11px] font-black text-white">{r.count}</span>
+                                <span className="text-[7px] text-kilang-text-muted uppercase font-black font-mono leading-none">br.</span>
+                              </div>
+                            </div>
+                          </WordTooltip>
+                        ));
+                      })()}
                     </div>
                   </div>
                 </div>
@@ -831,26 +861,50 @@ export default function KilangView() {
                     <Link2 className="w-6 h-6" /> Complex Chains
                   </h4>
                   <div className="grid grid-cols-1 gap-8">
-                    {Object.entries(stats?.deep_examples || {})
-                      .sort(([, a]: any, [, b]: any) => b.length - a.length)
-                      .slice(0, 40)
-                      .map(([root, chain]: any) => (
-                        <div key={root} onClick={() => { setShowStatsOverlay(false); fetchRootDetails(chain[chain.length - 1]); }} className="p-8 bg-[#0f172a]/80 rounded-[32px] border border-white/5 hover:border-blue-500/30 transition-all cursor-pointer group/chain shadow-xl space-y-6 flex items-center justify-between">
-                          <div className="flex items-center gap-6 overflow-x-auto custom-scrollbar-hide flex-1">
-                            <div className="px-5 py-2 bg-indigo-500/10 border border-indigo-500/20 rounded-full text-[12px] font-black text-indigo-400 uppercase tracking-[0.2em] shrink-0">DEPTH {chain.length}</div>
-                            <div className="flex items-center gap-2 flex-wrap">
-                              {chain.map((link: string, i: number) => (
-                                <React.Fragment key={i}>
-                                  <div className={`px-4 py-2 rounded-xl text-[11px] font-bold font-mono border ${i === 0 ? 'bg-white/5 border-white/10 text-white/40' : i === chain.length - 1 ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-[#1e293b] border-white/5 text-white/70 group-hover/chain:text-white group-hover/chain:border-blue-500/30'}`}>
-                                    {link}
+                    {(() => {
+                      const allChains = Object.entries(stats?.deep_examples || {})
+                        .sort(([, a]: any, [, b]: any) => b.length - a.length);
+                      
+                      const visibleChains = allChains.slice(0, visibleChainsCount);
+                      
+                      return (
+                        <>
+                          {visibleChains.map(([root, chain]: any) => (
+                            <WordTooltip word={chain[chain.length - 1]} key={root}>
+                              <div onClick={() => { setShowStatsOverlay(false); fetchRootDetails(chain[chain.length - 1]); }} className="p-8 bg-[#0f172a]/80 rounded-[32px] border border-white/5 hover:border-blue-500/30 transition-all cursor-pointer group/chain shadow-xl space-y-6 flex items-center justify-between h-full">
+                                <div className="flex items-center justify-between gap-6 flex-1">
+                                  <div className="flex items-center gap-2 flex-wrap min-w-0">
+                                    {chain.map((link: string, i: number) => (
+                                      <React.Fragment key={i}>
+                                        <WordTooltip word={link}>
+                                          <div className={`px-4 py-2 rounded-xl text-[11px] font-bold font-mono border ${i === 0 ? 'bg-white/5 border-white/10 text-white/40' : i === chain.length - 1 ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-[#1e293b] border-white/5 text-white/70 group-hover/chain:text-white group-hover/chain:border-blue-500/30'}`}>
+                                            {link}
+                                          </div>
+                                        </WordTooltip>
+                                        {i < chain.length - 1 && <ChevronRight className="w-4 h-4 text-white/20 shrink-0" />}
+                                      </React.Fragment>
+                                    ))}
                                   </div>
-                                  {i < chain.length - 1 && <ChevronRight className="w-4 h-4 text-white/20" />}
-                                </React.Fragment>
-                              ))}
+                                  <div className="px-5 py-2 bg-indigo-500/10 border border-indigo-500/20 rounded-full text-[12px] font-black text-indigo-400 uppercase tracking-[0.2em] shrink-0">DEPTH {chain.length}</div>
+                                </div>
+                              </div>
+                            </WordTooltip>
+                          ))}
+                          
+                          {allChains.length > visibleChainsCount && (
+                            <div className="flex justify-center pt-8">
+                              <button 
+                                onClick={() => setVisibleChainsCount(prev => prev + 10)}
+                                className="px-10 py-5 bg-indigo-600/20 hover:bg-indigo-600 border border-indigo-500/30 rounded-[24px] text-white font-black uppercase tracking-[0.3em] transition-all shadow-xl flex items-center gap-4 group"
+                              >
+                                <span>Load More Chains</span>
+                                <Plus className="w-5 h-5 group-hover:rotate-90 transition-transform" />
+                              </button>
                             </div>
-                          </div>
-                        </div>
-                      ))}
+                          )}
+                        </>
+                      );
+                    })()}
                   </div>
                 </div>
               </div>
@@ -863,7 +917,7 @@ export default function KilangView() {
 }
 
 function CompactMetric({ icon, label, value, color, description }: { icon: any, label: string, value: string | number, color: string, description: string }) {
-  const colorMap: any = { blue: 'text-blue-400', indigo: 'text-indigo-400', emerald: 'text-emerald-400', red: 'text-red-400' };
+  const colorMap: any = { blue: 'text-blue-400', indigo: 'text-indigo-400', emerald: 'text-emerald-400', red: 'text-red-400', rose: 'text-rose-400' };
 
   return (
     <div className="flex items-center gap-2.5 px-3 py-1.5 bg-white/[0.02] border border-white/10 rounded-xl hover:bg-white/[0.05] transition-all shrink-0 cursor-help group/metric relative" title={description}>

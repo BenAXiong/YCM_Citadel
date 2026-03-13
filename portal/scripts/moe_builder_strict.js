@@ -164,7 +164,7 @@ console.log('- Preparing deep chain examples...');
 const deepCandidates = sortedWords.sort((a, b) => depthMap.get(b) - depthMap.get(a)).slice(0, 500);
 deepCandidates.forEach(word => {
   const m = manifest[word];
-  if (m.d >= 4) {
+  if (m.d >= 3) {
     const chain = [m.w];
     let curr = word;
     while (parentMap.has(curr)) {
