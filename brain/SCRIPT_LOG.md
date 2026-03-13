@@ -43,11 +43,13 @@ Located in `core/` — Used to verify data integrity and detect "ghost bugs".
 
 ---
 
-## 🧬 Specialized NLP Analyzers
-Located in `core/` — Advanced logic for phonetic drift and grammatical patterns.
+## 🧬 Specialized NLP Analyzers (MoEDICT)
+Located in `portal/scripts/` — Specialized logic for Amis morphological structures.
 
 | Script | Purpose | Focus Area |
 | :--- | :--- | :--- |
+| `moe_hierarchy_builder.js` | **The Architect**. Builds the definitive linguistic hierarchy using DB stems and global overlap. | Unified Manifest |
+| `moe_heuristic_explorer.js` | **The Explorer**. Heuristic script used to identify potential roots that may be missed by the official DB tags. | Discovery |
 | `drift_matrix_builder.py` | Builds the phonetic correspondence heatmaps found in the portal. | Phonetic Drift |
 | `drift_scanner.py` | Scans the corpus for specific drift anchors (u/o, q/h). | Anchor Detection |
 | `drift_anchorer.py` | In-depth analysis of drift across the Amis axis. | Amis Axis |

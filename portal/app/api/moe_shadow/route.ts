@@ -12,27 +12,29 @@ export async function GET(request: Request) {
         
         console.log(`[API/MOE] Query: keyword="${keyword}", dict="${dict_code}", aggregate=${aggregate}`);
         
+        if (keyword && aggregate) {
+            // UNIFIED SOURCE OF TRUTH: Querying the pre-calculated hierarchy table
+            const sql = `
+                SELECT e.*, h.parent_word, h.ultimate_root, h.depth as tier
+                FROM moe_entries e
+                JOIN moe_hierarchy h ON e.word_ab = h.word_ab
+                WHERE LOWER(h.ultimate_root) = LOWER(?)
+            `;
+            
+            const stmt = db.prepare(sql);
+            const rows = stmt.all(keyword) as any[];
+            console.log(`[API/MOE] Manifest Sync found ${rows.length} family members for "${keyword}"`);
+            return NextResponse.json({ rows });
+        }
+
         const params: any[] = [];
         let sql = "SELECT * FROM moe_entries WHERE 1=1";
 
         if (keyword) {
-            if (aggregate) {
-                // Aggregation logic: find the exact word, AND any entries that share its stem, 
-                // AND any entries where the headword IS the stem of the keyword.
-                sql += ` AND (
-                    LOWER(word_ab) = LOWER(?) 
-                    OR LOWER(stem) = LOWER(?) 
-                    OR word_ab IN (SELECT DISTINCT stem FROM moe_entries WHERE LOWER(word_ab) = LOWER(?) AND stem IS NOT NULL AND stem != '')
-                )`;
-                params.push(keyword);
-                params.push(keyword);
-                params.push(keyword);
-            } else {
-                // Broad search for sidebar
-                sql += ` AND (word_ab LIKE ? OR definition LIKE ?)`;
-                params.push(`%${keyword}%`);
-                params.push(`%${keyword}%`);
-            }
+            // Broad search for sidebar
+            sql += ` AND (word_ab LIKE ? OR definition LIKE ?)`;
+            params.push(`%${keyword}%`);
+            params.push(`%${keyword}%`);
         }
 
         if (dict_code && dict_code !== 'ALL') {

@@ -36,7 +36,7 @@ export default function GlobalExplorer() {
   const [showFullOnly, setShowFullOnly] = useState(false);
   const [hideEmpty, setHideEmpty] = useState(true);
   const [isToolsOpen, setIsToolsOpen] = useState(false);
-  const [toolsTab, setToolsTab] = useState<"heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test">("heatmap");
+  const [toolsTab, setToolsTab] = useState<"heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test" | "kilang">("heatmap");
   const vs3SourceRef = useRef<HTMLDivElement>(null);
   // const rawDbSearchRef = useRef<HTMLDivElement>(null); // Moved to ToolsOverlay/RawDbExplorer
 

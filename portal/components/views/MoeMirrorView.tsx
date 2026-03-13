@@ -28,6 +28,7 @@ interface MoeEntry {
   examples_json: string;
   dialect_name: string;
   glid: string;
+  stem?: string;
 }
 
 export default function MoeMirrorView() {
@@ -44,30 +45,8 @@ export default function MoeMirrorView() {
   const [peekEntries, setPeekEntries] = useState<MoeEntry[]>([]);
   const [isPeekLoading, setIsPeekLoading] = useState(false);
 
+  // Summary Cache
   const [summaryCache, setSummaryCache] = useState<Record<string, string[]>>({});
-  
-  // Tooltip Grace Period State
-  const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
-  const tooltipTimeoutRef = useRef<any>(null);
-
-  const clearTooltipTimeout = () => {
-    if (tooltipTimeoutRef.current) {
-      clearTimeout(tooltipTimeoutRef.current);
-      tooltipTimeoutRef.current = null;
-    }
-  };
-
-  const handleLinkMouseEnter = (word: string) => {
-    clearTooltipTimeout();
-    setActiveTooltip(word);
-    fetchSummary(word);
-  };
-
-  const handleLinkMouseLeave = () => {
-    tooltipTimeoutRef.current = setTimeout(() => {
-      setActiveTooltip(null);
-    }, 400); // 400ms grace period
-  };
 
   // Fetch results list for the sidebar
   const fetchSidebarResults = async (term: string) => {
@@ -177,7 +156,6 @@ export default function MoeMirrorView() {
       <div className={`${bgColor} text-white px-4 py-2 ${isPeekMode ? 'text-[10px]' : 'text-sm'} font-bold flex justify-between items-center rounded-t-sm shadow-sm`}>
         <span>{title}</span>
         <div className="flex gap-4 opacity-80">
-            {!isPeekMode && <span className="text-[10px] font-normal">(詞幹: {selectedWord})</span>}
             <Share2 className={isPeekMode ? "w-3 h-3" : "w-3.5 h-3.5"} />
         </div>
       </div>
@@ -240,58 +218,86 @@ export default function MoeMirrorView() {
             linkTarget = innerParts[1];
         }
 
-        const cacheKey = linkTarget.toLowerCase();
-        const isHovered = activeTooltip === linkTarget;
-
         return (
-          <span 
-            key={i} 
-            onMouseEnter={() => handleLinkMouseEnter(linkTarget)}
-            onMouseLeave={handleLinkMouseLeave}
-            onClick={(e) => {
-              e.stopPropagation();
-              setPeekWord(linkTarget);
+          <MoeLink 
+            key={i}
+            linkTarget={linkTarget}
+            displayText={displayText}
+            summaryCache={summaryCache}
+            fetchSummary={fetchSummary}
+            onPeek={(word: string) => {
+              setPeekWord(word);
               setIsPeekOpen(true);
             }}
-            className="text-blue-600 hover:text-blue-800 hover:underline cursor-pointer transition-colors decoration-blue-300 decoration-1 underline-offset-2 relative group/link"
-          >
-            {displayText}
-            {/* RICH TOOLTIP - High Fidelity Replication - Growing Upwards with Grace Period */}
-            <div 
-              onMouseEnter={clearTooltipTimeout}
-              onMouseLeave={handleLinkMouseLeave}
-              className={`absolute bottom-full left-0 mb-3 w-80 bg-white border border-gray-200 shadow-[0_-20px_60px_rgba(0,0,0,0.15),0_20px_60px_rgba(0,0,0,0.1)] rounded-2xl p-6 transition-all z-[1000] pointer-events-auto text-left duration-200 ${
-                isHovered ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 translate-y-2'
-              }`}
-            >
-              <div className="flex flex-col gap-1 mb-4 border-b border-gray-200 pb-3">
-                 <span className="text-2xl font-bold text-gray-900 tracking-tight">{linkTarget}</span>
-                 <div className="h-0.5 w-16 bg-gray-200" />
-              </div>
-              
-              <div className="space-y-4 max-h-[250px] overflow-y-auto custom-scrollbar pr-2 overflow-x-visible">
-                {summaryCache[cacheKey] === undefined ? (
-                   <div className="flex items-center gap-2 italic text-gray-400 text-sm">
-                     <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
-                     讀取中...
-                   </div>
-                ) : (
-                  summaryCache[cacheKey].map((def, idx) => (
-                    <div key={idx} className="flex gap-3">
-                      <span className="text-blue-500 font-bold min-w-[1.2rem] text-sm leading-relaxed">{idx + 1}.</span>
-                      {renderDefinition(def, true)}
-                    </div>
-                  ))
-                )}
-              </div>
-              
-              <div className="absolute top-full left-8 -translate-y-1/2 rotate-45 w-3 h-3 bg-white border-r border-b border-gray-200" />
-            </div>
-          </span>
+          />
         );
       }
       return <span key={i}>{part}</span>;
     });
+  };
+
+  // Sub-component to isolate tooltip state
+  const MoeLink = ({ linkTarget, displayText, summaryCache, fetchSummary, onPeek }: any) => {
+    const [isHovered, setIsHovered] = useState(false);
+    const timeoutRef = useRef<any>(null);
+    const cacheKey = linkTarget.toLowerCase();
+
+    const handleEnter = () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      setIsHovered(true);
+      fetchSummary(linkTarget);
+    };
+
+    const handleLeave = () => {
+      timeoutRef.current = setTimeout(() => {
+        setIsHovered(false);
+      }, 400);
+    };
+
+    return (
+      <span 
+        onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave}
+        onClick={(e) => {
+          e.stopPropagation();
+          onPeek(linkTarget);
+        }}
+        className="text-blue-600 hover:text-blue-800 hover:underline cursor-pointer transition-colors decoration-blue-300 decoration-1 underline-offset-2 relative group/link"
+      >
+        {displayText}
+        {/* RICH TOOLTIP - High Fidelity Replication - Growing Upwards with Grace Period */}
+        <div 
+          onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
+          onMouseLeave={handleLeave}
+          className={`absolute bottom-full left-0 mb-3 w-80 bg-white border border-gray-200 shadow-[0_-20px_60px_rgba(0,0,0,0.15),0_20px_60px_rgba(0,0,0,0.1)] rounded-2xl p-6 transition-all z-[1000] pointer-events-auto text-left duration-200 ${
+            isHovered ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 translate-y-2'
+          }`}
+        >
+          <div className="flex flex-col gap-1 mb-4 border-b border-gray-200 pb-3">
+             <span className="text-2xl font-bold text-gray-900 tracking-tight">{linkTarget}</span>
+             <div className="h-0.5 w-16 bg-gray-200" />
+          </div>
+          
+          <div className="space-y-4 max-h-[250px] overflow-y-auto custom-scrollbar pr-2 overflow-x-visible">
+            {summaryCache[cacheKey] === undefined ? (
+               <div className="flex items-center gap-2 italic text-gray-400 text-sm">
+                 <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
+                 讀取中...
+               </div>
+            ) : (
+              summaryCache[cacheKey].map((def: string, idx: number) => (
+                <div key={idx} className="flex gap-3">
+                  <span className="text-blue-500 font-bold min-w-[1.2rem] text-sm leading-relaxed">{idx + 1}.</span>
+                  {renderDefinition(def, true)}
+                </div>
+              ))
+            )}
+          </div>
+          
+          <div className="absolute top-full left-8 -translate-y-1/2 rotate-45 w-3 h-3 bg-white border-r border-b border-gray-200" />
+        </div>
+      </span>
+    );
   };
 
   const groupEntries = (items: MoeEntry[]) => {
@@ -372,7 +378,6 @@ export default function MoeMirrorView() {
               <div className="flex items-center justify-between pb-6 border-b border-gray-200">
                 <div className="flex items-baseline gap-4">
                   <h1 className="text-4xl font-bold text-gray-800 tracking-tight">{selectedWord}</h1>
-                  <span className="text-gray-400 text-sm font-mono">(詞幹)</span>
                 </div>
                 <div className="flex gap-2">
                     <button className="p-2 hover:bg-gray-200 rounded-lg transition-colors text-gray-500"><Bookmark className="w-5 h-5" /></button>
@@ -386,15 +391,27 @@ export default function MoeMirrorView() {
                   <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
                 </div>
               ) : entries.length > 0 ? (
-                groupEntries(entries).map(([code, dictEntries], idx) => (
+                groupEntries(entries).map(([code, dictEntries]: [string, MoeEntry[]], idx: number) => (
                     <div key={idx} className="bg-white rounded shadow-md border border-gray-100 hover:shadow-lg transition-all relative z-[1] overflow-visible">
                       {renderSectionHeader(code)}
                       <div className="p-6 space-y-6 overflow-visible">
-                        {dictEntries.map((entry, eIdx) => (
+                        {dictEntries.map((entry: MoeEntry, eIdx: number) => (
                            <div key={eIdx} className="space-y-4">
-                             <div className="flex gap-4">
-                               <span className="text-blue-600 font-bold text-lg leading-relaxed">{eIdx + 1}.</span>
-                               {renderDefinition(entry.definition)}
+                             <div className="flex flex-col gap-1">
+                                <div className="flex gap-4">
+                                  <span className="text-blue-600 font-bold text-lg leading-relaxed">{eIdx + 1}.</span>
+                                  {renderDefinition(entry.definition)}
+                                </div>
+                                {entry.stem && entry.stem !== entry.word_ab && (
+                                  <div className="ml-9 text-xs text-gray-400 font-medium">
+                                    （詞幹：<span className="text-blue-500 hover:underline cursor-pointer" onClick={() => setSelectedWord(entry.stem || "")}>{entry.stem}</span>）
+                                  </div>
+                                )}
+                                {entry.word_ab !== selectedWord && (
+                                  <div className="ml-9 text-[10px] uppercase tracking-wider text-gray-400 font-bold mt-1">
+                                    From Entry: <span className="text-gray-600">{entry.word_ab}</span>
+                                  </div>
+                                )}
                              </div>
                              {parseExamples(entry.examples_json)}
                            </div>
@@ -452,11 +469,11 @@ export default function MoeMirrorView() {
                <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
              </div>
           ) : peekEntries.length > 0 ? (
-            groupEntries(peekEntries).map(([code, dictEntries], idx) => (
+            groupEntries(peekEntries).map(([code, dictEntries]: [string, MoeEntry[]], idx: number) => (
               <div key={idx} className="bg-white rounded border border-gray-200 shadow-sm overflow-visible">
                 {renderSectionHeader(code, true)}
                 <div className="p-6 space-y-6">
-                    {dictEntries.map((entry, eIdx) => (
+                    {dictEntries.map((entry: MoeEntry, eIdx: number) => (
                         <div key={eIdx} className="space-y-4">
                             <div className="flex gap-3">
                                 <span className="text-blue-500 font-bold text-sm leading-relaxed">{eIdx + 1}.</span>

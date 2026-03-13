@@ -6,12 +6,13 @@ import RawDbExplorer from "./RawDbExplorer";
 import MoeRawExplorer from "./MoeRawExplorer";
 import MoeMirrorView from "./MoeMirrorView";
 import MoeTestView from "./MoeTestView";
+import KilangView from "./KilangView";
 
 interface ToolsOverlayProps {
   isOpen: boolean;
   onClose: () => void;
-  toolsTab: "heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test";
-  setToolsTab: (tab: "heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test") => void;
+  toolsTab: "heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test" | "kilang";
+  setToolsTab: (tab: "heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test" | "kilang") => void;
   handleCopy: (text: string, id: string) => void;
   copiedId: string | null;
 }
@@ -24,7 +25,7 @@ export default function ToolsOverlay({
   handleCopy,
   copiedId
 }: ToolsOverlayProps) {
-  const [isFull, setIsFull] = React.useState(false);
+  const [isFull, setIsFull] = React.useState(true);
   const [isHeaderHovered, setIsHeaderHovered] = React.useState(false);
   
   if (!isOpen) return null;
@@ -42,7 +43,7 @@ export default function ToolsOverlay({
         {/* TOP HOVER TRIGGER FOR NAV */}
         {isFull && (
           <div 
-            className="absolute top-0 left-0 right-0 h-4 z-[300]" 
+            className="absolute top-0 left-0 right-0 h-4 z-[300] cursor-ns-resize" 
             onMouseEnter={() => setIsHeaderHovered(true)}
           />
         )}
@@ -65,10 +66,11 @@ export default function ToolsOverlay({
         </div>
 
         <div 
-          className={`flex border-b border-[var(--border-dark)] bg-[var(--bg-sub)] pr-32 transition-all duration-500 ease-in-out z-[250] ${isFull ? (isHeaderHovered ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none') : 'translate-y-0'}`}
+          className={`${isFull ? 'absolute top-0 left-0 right-0' : 'relative'} flex border-b border-[var(--border-dark)] bg-[var(--bg-sub)] pr-32 transition-all duration-300 ease-in-out z-[310] ${isFull ? (isHeaderHovered ? 'translate-y-0 opacity-100 shadow-2xl' : '-translate-y-full opacity-0 pointer-events-none') : 'translate-y-0'}`}
+          onMouseEnter={() => setIsHeaderHovered(true)}
           onMouseLeave={() => setIsHeaderHovered(false)}
         >
-          {["heatmap", "normalization", "rosetta", "raw_db", "moe_raw", "moe_mirror", "moe_test"].map((tab) => (
+          {["heatmap", "normalization", "rosetta", "raw_db", "moe_raw", "moe_mirror", "moe_test", "kilang"].map((tab) => (
             <button
               key={tab}
               onClick={() => setToolsTab(tab as any)}
@@ -170,6 +172,9 @@ export default function ToolsOverlay({
           )}
           {toolsTab === "moe_test" && (
             <MoeTestView />
+          )}
+          {toolsTab === "kilang" && (
+            <KilangView />
           )}
         </div>
       </div>
