@@ -105,8 +105,8 @@ export const useKilang = () => {
   // 4. Derived Data (Memoized)
   const nodeMap = useMemo(() => {
     if (!state.selectedRoot || !state.rootData?.derivatives) return {};
-    return calculateNodeMap(state.selectedRoot, state.rootData.derivatives, state.direction, state.arrangement);
-  }, [state.selectedRoot, state.rootData?.derivatives, state.direction, state.arrangement]);
+    return calculateNodeMap(state.selectedRoot, state.rootData.derivatives, state.direction, state.arrangement, state.layoutConfig);
+  }, [state.selectedRoot, state.rootData?.derivatives, state.direction, state.arrangement, state.layoutConfig]);
 
   // 5. Auto-Fit Calculation
   useEffect(() => {

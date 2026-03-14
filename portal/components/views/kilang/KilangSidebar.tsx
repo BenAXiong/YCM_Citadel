@@ -48,7 +48,7 @@ export const KilangSidebar = ({
             </button>
           )}
         </div>
-        <div className="flex items-center gap-2 text-xs font-bold text-kilang-text-muted uppercase tracking-widest px-1"><Filter className="w-3.5 h-3.5" /> Filter by Branches</div>
+        <div className="flex items-center gap-2 text-xs font-bold text-kilang-text-muted uppercase tracking-widest px-1"><Filter className="w-3.5 h-3.5" /> Filter by Number of Branches</div>
         <div className="grid grid-cols-5 gap-2">
           <button onClick={() => setBranchFilter('all')} className={`py-2 rounded-lg border text-[10px] font-black ${branchFilter === 'all' ? 'bg-blue-600/20 border-blue-500 text-blue-400' : 'bg-white/5 border-white/10 text-kilang-text-muted'}`}>ANY</button>
           {FILTER_BUCKETS.map((bucket) => (

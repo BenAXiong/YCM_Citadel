@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { GitBranch, Activity, ChevronDown, RotateCcw, Minus, Plus, ImageIcon, Boxes, Maximize, TrendingUp, ArrowRight, ArrowDown, LayoutGrid, Rows } from 'lucide-react';
+import { GitBranch, Activity, ChevronDown, RotateCcw, Minus, Plus, ImageIcon, Boxes, Maximize, TrendingUp, ArrowRight, ArrowDown, LayoutGrid, Rows, Scissors, Settings2, SlidersHorizontal, PencilLine } from 'lucide-react';
 
 interface CompactMetricProps {
   icon: React.ReactNode;
@@ -41,6 +41,13 @@ interface KilangHeaderProps {
   arrangement: 'aligned' | 'flow';
   scale: number;
   isFit: boolean;
+  lineStyle: 'classic' | 'shrunk';
+  layoutConfig: {
+    lineGapX: number;
+    lineGapY: number;
+    interTierGap: number;
+    interRowGap: number;
+  };
   showStatsOverlay: boolean;
   setMorphMode: (mode: 'moe' | 'plus' | 'star') => void;
   setSourceFilter: (filter: string) => void;
@@ -49,6 +56,8 @@ interface KilangHeaderProps {
   setArrangement: (arr: 'aligned' | 'flow') => void;
   setScale: (scale: number | ((prev: number) => number)) => void;
   setIsFit: (fit: boolean) => void;
+  toggleLineStyle: () => void;
+  updateLayoutConfig: (config: any) => void;
   handleExport: () => Promise<void>;
   MOE_SOURCES: Array<{ id: string; label: string }>;
 }
@@ -62,6 +71,8 @@ export const KilangHeader = ({
   arrangement,
   scale,
   isFit,
+  lineStyle,
+  layoutConfig,
   showStatsOverlay,
   setMorphMode,
   setSourceFilter,
@@ -70,9 +81,14 @@ export const KilangHeader = ({
   setArrangement,
   setScale,
   setIsFit,
+  toggleLineStyle,
+  updateLayoutConfig,
   handleExport,
   MOE_SOURCES
 }: KilangHeaderProps) => {
+  const [showTwitch, setShowTwitch] = React.useState(false);
+  const [showSpacing, setShowSpacing] = React.useState(false);
+
   return (
     <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between px-6 z-50 shrink-0">
       <div className="flex items-center gap-6">
@@ -198,6 +214,97 @@ export const KilangHeader = ({
                   >
                     <Rows className="w-3.5 h-3.5" />
                   </button>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2.5">
+                <span className="text-[8px] font-black text-kilang-text-muted uppercase tracking-widest">Lines</span>
+                <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg relative">
+                  <button
+                    onClick={toggleLineStyle}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${lineStyle === 'shrunk' ? 'bg-indigo-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    title={lineStyle === 'shrunk' ? "Shrunk Lines" : "Classic Lines"}
+                  >
+                    <Scissors className="w-3.5 h-3.5" />
+                  </button>
+                  
+                  {arrangement === 'aligned' && (
+                    <>
+                      <button
+                        onClick={() => setShowTwitch(!showTwitch)}
+                        className={`w-8 h-7 flex items-center justify-center rounded transition-all ${showTwitch ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                        title="Twitch Path Gaps"
+                      >
+                        <PencilLine className="w-3.5 h-3.5" />
+                      </button>
+
+                      {showTwitch && (
+                        <div className="absolute top-full mt-2 left-0 w-48 bg-[#0f172a] border border-white/10 p-4 rounded-2xl shadow-2xl z-[5000] space-y-4 animate-in fade-in slide-in-from-top-2">
+                          <div className="space-y-2">
+                            <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-blue-400">
+                              <span>Gap X</span>
+                              <span>{layoutConfig.lineGapX}px</span>
+                            </div>
+                            <input 
+                              type="range" min="0" max="300" step="5"
+                              value={layoutConfig.lineGapX} 
+                              onChange={(e) => updateLayoutConfig({ lineGapX: parseInt(e.target.value) })}
+                              className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-500"
+                            />
+                          </div>
+                          <div className="space-y-2">
+                            <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-blue-400">
+                              <span>Gap Y</span>
+                              <span>{layoutConfig.lineGapY}px</span>
+                            </div>
+                            <input 
+                              type="range" min="0" max="150" step="5"
+                              value={layoutConfig.lineGapY} 
+                              onChange={(e) => updateLayoutConfig({ lineGapY: parseInt(e.target.value) })}
+                              className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-500"
+                            />
+                          </div>
+                        </div>
+                      )}
+
+                      <button
+                        onClick={() => setShowSpacing(!showSpacing)}
+                        className={`w-8 h-7 flex items-center justify-center rounded transition-all ${showSpacing ? 'bg-emerald-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                        title="Adjust Grid Spacing"
+                      >
+                        <SlidersHorizontal className="w-3.5 h-3.5" />
+                      </button>
+
+                      {showSpacing && (
+                        <div className="absolute top-full mt-2 right-0 w-48 bg-[#0f172a] border border-white/10 p-4 rounded-2xl shadow-2xl z-[5000] space-y-4 animate-in fade-in slide-in-from-top-2">
+                          <div className="space-y-2">
+                            <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-emerald-400">
+                              <span>Tier (H)</span>
+                              <span>{layoutConfig.interTierGap}px</span>
+                            </div>
+                            <input 
+                              type="range" min="100" max="600" step="10"
+                              value={layoutConfig.interTierGap} 
+                              onChange={(e) => updateLayoutConfig({ interTierGap: parseInt(e.target.value) })}
+                              className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-emerald-500"
+                            />
+                          </div>
+                          <div className="space-y-2">
+                            <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-emerald-400">
+                              <span>Row (V)</span>
+                              <span>{layoutConfig.interRowGap}px</span>
+                            </div>
+                            <input 
+                              type="range" min="20" max="300" step="5"
+                              value={layoutConfig.interRowGap} 
+                              onChange={(e) => updateLayoutConfig({ interRowGap: parseInt(e.target.value) })}
+                              className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-emerald-500"
+                            />
+                          </div>
+                        </div>
+                      )}
+                    </>
+                  )}
                 </div>
               </div>
             </div>

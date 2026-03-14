@@ -215,15 +215,21 @@ export const calculateNodeMap = (
   root: string,
   derivatives: Derivation[],
   direction: 'horizontal' | 'vertical',
-  arrangement: 'aligned' | 'flow'
+  arrangement: 'aligned' | 'flow',
+  config?: { interTierGap: number; interRowGap: number }
 ): NodeMap => {
   const nodeMap: NodeMap = {};
-  const { ROOT_SIZE, ALIGN_CELL_W, ALIGN_CELL_H, GUTTER_H, GUTTER_V, NODE_WIDTH, NODE_HEIGHT } = LAYOUT_CONSTANTS;
-  const CENTER = 1000;
+  const { ROOT_SIZE, ALIGN_CELL_W: BASE_W, ALIGN_CELL_H: BASE_H, GUTTER_H, GUTTER_V, NODE_WIDTH, NODE_HEIGHT } = LAYOUT_CONSTANTS;
+  
+  const cellW = (arrangement === 'aligned' && config?.interTierGap) ? config.interTierGap : BASE_W;
+  const cellH = (arrangement === 'aligned' && config?.interRowGap) ? config.interRowGap : BASE_H;
 
-  // 1. Position Root (True Forest Center)
+  const CENTER_X = direction === 'horizontal' ? 200 : 1000; 
+  const CENTER_Y = direction === 'vertical' ? 200 : 1000;
+
+  // 1. Position Root
   const rootKey = normalizeWord(root) || root;
-  nodeMap[rootKey] = { x: CENTER, y: CENTER };
+  nodeMap[rootKey] = { x: CENTER_X, y: CENTER_Y };
 
   if (arrangement === 'aligned') {
     // 2. Centering Logic
@@ -237,13 +243,13 @@ export const calculateNodeMap = (
       
       if (direction === 'horizontal') {
         nodeMap[d.word_ab] = { 
-          x: CENTER + (tier * ALIGN_CELL_W + ROOT_SIZE / 2 + 100), 
-          y: CENTER + (row * ALIGN_CELL_H) 
+          x: CENTER_X + (tier * cellW + ROOT_SIZE / 2 + 100), 
+          y: CENTER_Y + (row * cellH) 
         };
       } else {
         nodeMap[d.word_ab] = { 
-          x: CENTER + (row * ALIGN_CELL_W), 
-          y: CENTER - (tier * ALIGN_CELL_H + ROOT_SIZE / 2 + 100) 
+          x: CENTER_X + (row * cellW), 
+          y: CENTER_Y - (tier * cellH + ROOT_SIZE / 2 + 100) 
         };
       }
     });
@@ -266,13 +272,13 @@ export const calculateNodeMap = (
 
         if (direction === 'horizontal') {
           nodeMap[node.word_ab] = { 
-            x: CENTER + (tierIndex * (NODE_WIDTH + GUTTER_H) + ROOT_SIZE / 2 + 50), 
-            y: CENTER + offset 
+            x: CENTER_X + (tierIndex * (NODE_WIDTH + GUTTER_H) + ROOT_SIZE / 2 + 50), 
+            y: CENTER_Y + offset 
           };
         } else {
           nodeMap[node.word_ab] = { 
-            x: CENTER + offset, 
-            y: CENTER - (tierIndex * (NODE_HEIGHT + GUTTER_H) + ROOT_SIZE / 2 + 50) // UP
+            x: CENTER_X + offset, 
+            y: CENTER_Y - (tierIndex * (NODE_HEIGHT + GUTTER_H) + ROOT_SIZE / 2 + 50) 
           };
         }
       });

@@ -9,9 +9,11 @@ interface LineageCanvasProps {
   direction: 'horizontal' | 'vertical';
   isFit: boolean;
   scale: number;
+  lineStyle: 'classic' | 'shrunk';
+  layoutConfig: { lineGapX: number; lineGapY: number };
 }
 
-const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale }: LineageCanvasProps) => {
+const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, lineStyle, layoutConfig }: LineageCanvasProps) => {
   const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
   
   const paths = derivatives.map(d => {
@@ -19,10 +21,13 @@ const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale }: 
     const t = nodeMap[d.word_ab];
     if (!s || !t) return null;
 
-    const sourceX = direction === 'horizontal' ? s.x + 120 : s.x;
-    const sourceY = direction === 'horizontal' ? s.y : s.y - 50; // TOP for UPWARD
-    const targetX = direction === 'horizontal' ? t.x - 120 : t.x;
-    const targetY = direction === 'horizontal' ? t.y : t.y + 50; // BOTTOM for CHILD
+    const GAP_X = layoutConfig.lineGapX;
+    const GAP_Y = layoutConfig.lineGapY;
+
+    const sourceX = direction === 'horizontal' ? s.x + GAP_X : s.x;
+    const sourceY = direction === 'horizontal' ? s.y : s.y - GAP_Y; 
+    const targetX = direction === 'horizontal' ? t.x - GAP_X : t.x;
+    const targetY = direction === 'horizontal' ? t.y : t.y + GAP_Y;
 
     if (direction === 'vertical') {
       const midY = (sourceY + targetY) / 2;
@@ -77,6 +82,13 @@ interface KilangCanvasProps {
   fetchSummary: (word: string) => Promise<void>;
   stats: any;
   fitTransform: { x: number; y: number; scale: number };
+  lineStyle: 'classic' | 'shrunk';
+  layoutConfig: {
+    lineGapX: number;
+    lineGapY: number;
+    interTierGap: number;
+    interRowGap: number;
+  };
 }
 
 export const KilangCanvas = ({
@@ -92,7 +104,9 @@ export const KilangCanvas = ({
   summaryCache,
   fetchSummary,
   stats,
-  fitTransform
+  fitTransform,
+  lineStyle,
+  layoutConfig
 }: KilangCanvasProps) => {
   const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
 
@@ -124,7 +138,7 @@ export const KilangCanvas = ({
                       width: '2000px', 
                       height: '2000px', 
                       transform: isFit 
-                        ? `translate(${fitTransform.x}px, ${fitTransform.y}px) scale(${fitTransform.scale})` 
+                        ? `scale(${fitTransform.scale}) translate(${fitTransform.x}px, ${fitTransform.y}px)` 
                         : `scale(${scale})`,
                       transformOrigin: 'center center'
                     }}
@@ -137,6 +151,8 @@ export const KilangCanvas = ({
                       direction={direction} 
                       isFit={isFit} 
                       scale={scale} 
+                      lineStyle={lineStyle}
+                      layoutConfig={layoutConfig}
                     />
 
                     {/* Nodes Layer - Absolutely Positioned */}

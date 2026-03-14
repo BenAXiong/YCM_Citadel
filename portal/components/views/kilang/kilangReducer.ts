@@ -24,6 +24,7 @@ export interface KilangState {
   arrangement: LayoutArrangement;
   scale: number;
   isFit: boolean;
+  lineStyle: 'classic' | 'shrunk';
   
   // UI State
   searchTerm: string;
@@ -32,6 +33,12 @@ export interface KilangState {
   visibleChainsCount: number;
   exporting: boolean;
   fitTransform: { x: number; y: number; scale: number };
+  layoutConfig: {
+    lineGapX: number;
+    lineGapY: number;
+    interTierGap: number;
+    interRowGap: number;
+  };
 }
 
 export type KilangAction =
@@ -44,6 +51,8 @@ export type KilangAction =
   | { type: 'SET_LAYOUT'; direction?: LayoutDirection; arrangement?: LayoutArrangement }
   | { type: 'SET_TRANSFORM'; scale?: number; isFit?: boolean }
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
+  | { type: 'TOGGLE_LINE_STYLE' }
+  | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean };
 
 export const initialState: KilangState = {
@@ -59,12 +68,19 @@ export const initialState: KilangState = {
   arrangement: 'flow',
   scale: 1,
   isFit: false,
+  lineStyle: 'shrunk',
   searchTerm: '',
   branchFilter: 'all',
   showStatsOverlay: false,
   visibleChainsCount: 10,
   exporting: false,
   fitTransform: { x: 0, y: 0, scale: 1 },
+  layoutConfig: {
+    lineGapX: 120,    // Default Shrunk
+    lineGapY: 50,     // Default Shrunk
+    interTierGap: 150, // Default GUTTER_H
+    interRowGap: 40    // Default GUTTER_V
+  },
 };
 
 export function kilangReducer(state: KilangState, action: KilangAction): KilangState {
@@ -109,6 +125,20 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       };
     case 'SET_FIT_TRANSFORM':
       return { ...state, fitTransform: action.transform };
+    case 'TOGGLE_LINE_STYLE': {
+      const isClassic = state.lineStyle === 'classic';
+      return { 
+        ...state, 
+        lineStyle: isClassic ? 'shrunk' : 'classic',
+        layoutConfig: {
+          ...state.layoutConfig,
+          lineGapX: isClassic ? 120 : 60,
+          lineGapY: isClassic ? 50 : 25
+        }
+      };
+    }
+    case 'SET_LAYOUT_CONFIG':
+      return { ...state, layoutConfig: { ...state.layoutConfig, ...action.config } };
     case 'SET_UI':
       return { ...state, ...action };
     default:
