@@ -499,7 +499,7 @@ export default function KilangView() {
                 <button
                   key={mode}
                   onClick={() => setMorphMode(mode)}
-                  disabled={mode !== 'moe'}
+                  disabled={true}
                   className={`px-4 flex items-center justify-center rounded-lg text-[10px] font-black tracking-widest transition-all ${morphMode === mode
                     ? 'bg-blue-600 text-white shadow-lg'
                     : 'text-white/10 cursor-not-allowed'
