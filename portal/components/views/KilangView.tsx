@@ -344,7 +344,7 @@ export default function KilangView() {
     );
   };
 
-  const WordTooltip = ({ word, children, dictCode }: { word: string; children: React.ReactNode; dictCode?: string }) => {
+  const WordTooltip = ({ word, children, dictCode, id }: { word: string; children: React.ReactNode; dictCode?: string; id?: string }) => {
     const [isHovered, setIsHovered] = useState(false);
     const timeoutRef = useRef<any>(null);
     const cacheKey = word.toLowerCase();
@@ -360,7 +360,7 @@ export default function KilangView() {
     };
 
     return (
-      <div className="relative inline-block" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+      <div id={id} className="relative inline-block" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
         {children}
         <div
           onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
