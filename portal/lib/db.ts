@@ -14,10 +14,15 @@ const globalForMoeDb = globalThis as unknown as {
 };
 
 export function getMoeDb() {
-    // Attempt to find it in the data folder relative to project root
-    let dbPath = path.join(process.cwd(), "data", "amis_moe_test.db");
+    // 1. Try local downloaded file (from build script curl)
+    let dbPath = path.join(process.cwd(), "amis_moe_test.db");
     
-    // If not found (e.g. running from portal/), try one level up
+    // 2. Try dev data folder
+    if (!fs.existsSync(dbPath)) {
+        dbPath = path.join(process.cwd(), "data", "amis_moe_test.db");
+    }
+    
+    // 3. Try parent data folder (when running from portal/)
     if (!fs.existsSync(dbPath)) {
         dbPath = path.join(process.cwd(), "..", "data", "amis_moe_test.db");
     }
@@ -25,7 +30,6 @@ export function getMoeDb() {
     if (!globalForMoeDb.moeConn) {
         if (!fs.existsSync(dbPath)) {
             console.error(`[DB_ERROR] MOE Shadow DB not found at: ${dbPath}`);
-            // Fallback to a dummy connection or throw to let the API handle it
             throw new Error(`MOE Shadow DB not found at: ${dbPath}`);
         }
         console.log(`[DB] Connecting to MOE Shadow: ${dbPath}`);
