@@ -17,23 +17,27 @@ export async function GET(request: Request) {
                          mode === 'star' ? 'moe_hierarchy_star' : 
                          'moe_hierarchy_plus';
 
-        console.log(`[API/MOE] Query: keyword="${keyword}", mode="${mode}", aggregate=${aggregate}, exact=${exact}`);
-        
-        if (keyword && aggregate) {
-            // ... [existing aggregate code]
+        if (!keyword) {
+            return NextResponse.json({ error: "Keyword parameter is required." }, { status: 400 });
+        }
+
+        if (aggregate) {
             let sql = `
                 SELECT e.*, h.parent_word, h.ultimate_root, h.depth as tier, h.sort_path
                 FROM moe_entries e
                 JOIN ${tableName} h ON RTRIM(e.word_ab, '|') = h.word_ab
                 WHERE LOWER(h.ultimate_root) = LOWER(?)
             `;
+            
             const bindParams: any[] = [keyword];
             if (sourceFilter && sourceFilter !== 'ALL') {
                 sql += ` AND h.sources LIKE ?`;
                 bindParams.push(`%${sourceFilter}%`);
             }
+
             const stmt = db.prepare(sql);
             const rows = stmt.all(...bindParams) as any[];
+            console.log(`[API/MOE] Aggregate found ${rows.length} results for "${keyword}"`);
             return NextResponse.json({ rows });
         }
 

@@ -277,20 +277,22 @@ export default function KilangView() {
     }
   };
 
-  const LineageCanvas = ({ root, derivatives, layoutMode = 'vertical', zoom = 1 }: { root: string; derivatives: any[]; layoutMode?: 'vertical' | 'horizontal'; zoom?: number }) => {
+  const LineageCanvas = ({ root, derivatives, layoutMode = 'vertical' }: { root: string; derivatives: any[]; layoutMode?: 'vertical' | 'horizontal' }) => {
     const [paths, setPaths] = useState<string[]>([]);
     const containerRef = useRef<SVGSVGElement>(null);
+    const effectiveZoom = isFit ? 0.5 : scale;
 
     const calculatePaths = () => {
       if (!containerRef.current) return;
       const containerRect = containerRef.current.getBoundingClientRect();
       const newPaths: string[] = [];
       const getCenter = (id: string, containerRect: DOMRect) => {
-        const el = document.getElementById(`node-${id.toLowerCase().replace(/\s/g, '-')}`);
+        const cleanId = `v3-node-${id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+        const el = document.getElementById(cleanId);
         if (!el) return null;
         const rect = el.getBoundingClientRect();
-        const cx = (rect.left + rect.width / 2 - containerRect.left) / zoom;
-        const cy = (rect.top + rect.height / 2 - containerRect.top) / zoom;
+        const cx = (rect.left + rect.width / 2 - containerRect.left) / effectiveZoom;
+        const cy = (rect.top + rect.height / 2 - containerRect.top) / effectiveZoom;
         return { x: cx, y: cy };
       };
       derivatives.forEach(d => {
@@ -311,16 +313,20 @@ export default function KilangView() {
 
     useEffect(() => {
       calculatePaths();
+      const timer = setTimeout(() => {
+        requestAnimationFrame(calculatePaths);
+      }, 500);
       const interval = setInterval(calculatePaths, 32);
       window.addEventListener('resize', calculatePaths);
       const observer = new MutationObserver(calculatePaths);
       observer.observe(document.body, { childList: true, subtree: true });
       return () => {
+        clearTimeout(timer);
         clearInterval(interval);
         window.removeEventListener('resize', calculatePaths);
         observer.disconnect();
       };
-    }, [derivatives, root, zoom, layoutMode]);
+    }, [derivatives, root, effectiveZoom, layoutMode]);
 
     return (
       <svg ref={containerRef} className="absolute inset-0 w-full h-full pointer-events-none z-0">
@@ -354,7 +360,7 @@ export default function KilangView() {
     };
 
     return (
-      <div className="relative" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+      <div className="relative inline-block" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
         {children}
         <div
           onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
@@ -390,12 +396,13 @@ export default function KilangView() {
   };
 
   const KilangNode = ({ word, dictCode, tier = 2, isRoot = false }: { word: string; dictCode?: string; tier?: number; isRoot?: boolean }) => {
+    const cleanId = `v3-node-${word.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
     return (
-      <WordTooltip word={word} dictCode={dictCode}>
-        <div id={`node-${word.toLowerCase().replace(/\s/g, '-')}`} className="relative">
+      <WordTooltip word={word} dictCode={dictCode} id={cleanId}>
+        <div className="relative">
           <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
             {isRoot ? (
-              <div className="bg-[#0f172a] border-4 border-blue-600 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-10 relative min-w-[120px] flex items-center justify-center">
+              <div className="bg-[#0f172a] border-4 border-blue-600 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-20 relative min-w-[120px] flex items-center justify-center">
                 <span className="text-white font-black text-2xl tracking-tighter">{word}</span>
               </div>
             ) : (
@@ -407,7 +414,7 @@ export default function KilangView() {
               }`}>
                 <div className="flex items-center gap-2">
                   <Zap className={`w-3 h-3 ${tier === 2 ? 'text-blue-400' : tier === 3 ? 'text-indigo-400' : 'text-emerald-400'} opacity-50`} />
-                  <span className="font-bold text-white group-hover:text-blue-300 transition-colors">{word}</span>
+                  <span className="font-bold text-white group-hover:text-blue-300 transition-colors uppercase tracking-widest text-[11px]">{word}</span>
                 </div>
               </div>
             )}
@@ -661,7 +668,7 @@ export default function KilangView() {
                         className={`min-h-[1000px] flex transition-all duration-700 origin-center ${isFit ? '!justify-center !items-center !p-0' : (layoutMode.startsWith('v') ? 'flex-col items-center pt-24 pb-96' : 'flex-row items-center py-32 pl-40 pr-96')} gap-12 w-full relative`}
                         style={{ transform: isFit ? 'scale(0.5)' : `scale(${scale})` }}
                       >
-                        <LineageCanvas root={selectedRoot} derivatives={rootData?.derivatives || []} layoutMode={layoutMode.startsWith('h') ? 'horizontal' : 'vertical'} zoom={isFit ? 0.45 : 1} />
+                        <LineageCanvas root={selectedRoot} derivatives={rootData?.derivatives || []} layoutMode={layoutMode.startsWith('h') ? 'horizontal' : 'vertical'} />
                         {layoutMode === 'v1' ? (
                           <>
                             {[10, 9, 8, 7, 6, 5, 4, 3, 2].map(tier => {
@@ -675,11 +682,11 @@ export default function KilangView() {
                                 </div>
                               );
                             })}
-                            <div className="relative z-50 shrink-0 mb-32" id={`node-${selectedRoot.toLowerCase().replace(/\s/g, '-')}`}><KilangNode word={selectedRoot} isRoot={true} /></div>
+                            <div className="relative z-50 shrink-0 mb-32"><KilangNode word={selectedRoot} isRoot={true} /></div>
                           </>
                         ) : layoutMode === 'h1' ? (
                           <>
-                            <div className={`relative z-50 shrink-0 ${isFit ? 'mr-10' : 'mr-20'}`} id={`node-${selectedRoot.toLowerCase().replace(/\s/g, '-')}`}><KilangNode word={selectedRoot} isRoot={true} /></div>
+                            <div className={`relative z-50 shrink-0 ${isFit ? 'mr-10' : 'mr-20'}`}><KilangNode word={selectedRoot} isRoot={true} /></div>
                             {[2, 3, 4, 5, 6, 7, 8, 9, 10].map(tier => {
                               const rawItems = rootData?.derivatives?.filter((d: any) => d.tier === tier) || [];
                               if (rawItems.length === 0) return null;
@@ -694,7 +701,7 @@ export default function KilangView() {
                           </>
                         ) : layoutMode === 'h2' ? (
                           <div className="flex items-center gap-24 py-10 relative pr-64">
-                            <div id={`node-${selectedRoot.toLowerCase().replace(/\s/g, '-')}`} className="shrink-0">
+                            <div className="shrink-0">
                               <KilangNode word={selectedRoot} isRoot={true} />
                             </div>
                             <div className="grid grid-cols-[repeat(10,240px)] gap-x-12 relative" style={{ gridTemplateRows: `repeat(${Math.max(1, ...rootData?.derivatives?.map((d: any) => d.treeRow) || [0]) + 1}, 80px)` }}>
@@ -705,7 +712,7 @@ export default function KilangView() {
                           </div>
                         ) : (
                           <div className="flex flex-col items-center gap-24 py-10 relative pb-64">
-                            <div id={`node-${selectedRoot.toLowerCase().replace(/\s/g, '-')}`} className="shrink-0 mb-12">
+                            <div className="shrink-0 mb-12">
                               <KilangNode word={selectedRoot} isRoot={true} />
                             </div>
                             <div className="grid grid-rows-[repeat(10,100px)] gap-y-12 relative" style={{ gridTemplateColumns: `repeat(${Math.max(1, ...rootData?.derivatives?.map((d: any) => d.treeRow) || [0]) + 1}, 240px)` }}>
