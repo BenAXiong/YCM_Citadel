@@ -7,13 +7,10 @@ import {
   reshapeDerivatives, 
   calculateTreeRows, 
   normalizeWord,
-  calculateNodeMap 
+  calculateNodeMap,
+  getForestBoundingBox 
 } from './kilangUtils';
-import { kilangReducer, initialState, KilangState, KilangAction } from './kilangReducer';
-
-export type MorphMode = 'moe' | 'plus' | 'star';
-export type LayoutDirection = 'horizontal' | 'vertical';
-export type LayoutArrangement = 'aligned' | 'flow';
+import { kilangReducer, initialState, KilangState, KilangAction, MorphMode, LayoutDirection, LayoutArrangement } from './kilangReducer';
 
 export const useKilang = () => {
   const [state, dispatch] = useReducer(kilangReducer, initialState);
@@ -110,6 +107,35 @@ export const useKilang = () => {
     if (!state.selectedRoot || !state.rootData?.derivatives) return {};
     return calculateNodeMap(state.selectedRoot, state.rootData.derivatives, state.direction, state.arrangement);
   }, [state.selectedRoot, state.rootData?.derivatives, state.direction, state.arrangement]);
+
+  // 5. Auto-Fit Calculation
+  useEffect(() => {
+    if (Object.keys(nodeMap).length === 0) return;
+    
+    const box = getForestBoundingBox(nodeMap);
+    const treeW = box.maxX - box.minX;
+    const treeH = box.maxY - box.minY;
+    
+    // Target a viewport area of roughly 1200x800 for fitting
+    const targetW = 1200;
+    const targetH = 800;
+    
+    const scaleW = targetW / Math.max(treeW, 100);
+    const scaleH = targetH / Math.max(treeH, 100);
+    const scale = Math.min(scaleW, scaleH, 1.2); // Limit max auto-scale
+    
+    const treeCenterX = (box.minX + box.maxX) / 2;
+    const treeCenterY = (box.minY + box.maxY) / 2;
+    
+    // Displacement from the forest center (1000, 1000)
+    const translateX = 1000 - treeCenterX;
+    const translateY = 1000 - treeCenterY;
+
+    dispatch({ 
+      type: 'SET_FIT_TRANSFORM', 
+      transform: { x: translateX, y: translateY, scale } 
+    });
+  }, [nodeMap]);
 
   return {
     state,

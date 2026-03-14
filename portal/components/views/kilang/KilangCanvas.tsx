@@ -20,9 +20,9 @@ const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale }: 
     if (!s || !t) return null;
 
     const sourceX = direction === 'horizontal' ? s.x + 120 : s.x;
-    const sourceY = direction === 'horizontal' ? s.y : s.y + 50;
+    const sourceY = direction === 'horizontal' ? s.y : s.y - 50; // TOP for UPWARD
     const targetX = direction === 'horizontal' ? t.x - 120 : t.x;
-    const targetY = direction === 'horizontal' ? t.y : t.y - 50;
+    const targetY = direction === 'horizontal' ? t.y : t.y + 50; // BOTTOM for CHILD
 
     if (direction === 'vertical') {
       const midY = (sourceY + targetY) / 2;
@@ -76,6 +76,7 @@ interface KilangCanvasProps {
   summaryCache: Record<string, string[]>;
   fetchSummary: (word: string) => Promise<void>;
   stats: any;
+  fitTransform: { x: number; y: number; scale: number };
 }
 
 export const KilangCanvas = ({
@@ -90,7 +91,8 @@ export const KilangCanvas = ({
   fetchRootDetails,
   summaryCache,
   fetchSummary,
-  stats
+  stats,
+  fitTransform
 }: KilangCanvasProps) => {
   const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
 
@@ -121,7 +123,9 @@ export const KilangCanvas = ({
                     style={{ 
                       width: '2000px', 
                       height: '2000px', 
-                      transform: isFit ? 'scale(0.5)' : `scale(${scale})`,
+                      transform: isFit 
+                        ? `translate(${fitTransform.x}px, ${fitTransform.y}px) scale(${fitTransform.scale})` 
+                        : `scale(${scale})`,
                       transformOrigin: 'center center'
                     }}
                   >

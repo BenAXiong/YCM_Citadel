@@ -205,6 +205,13 @@ export const KilangHeader = ({
             <div className="w-[1px] h-8 bg-white/5" />
 
             <div className="flex items-center gap-1">
+              <button 
+                onClick={() => setIsFit(!isFit)} 
+                className={`p-2 border rounded-xl transition-all shadow-sm ${isFit ? 'bg-blue-600 border-blue-400 text-white' : 'bg-white/5 border-white/10 text-white/50 hover:bg-white/10'}`} 
+                title="Smart Fit Tree"
+              >
+                <Maximize className="w-3 h-3" />
+              </button>
               <button onClick={() => { setScale(1); setIsFit(false); }} className={`p-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all shadow-sm ${!isFit && scale === 1 ? 'text-blue-400' : 'text-white/50'}`} title="Reset Zoom">
                 <RotateCcw className="w-3 h-3" />
               </button>

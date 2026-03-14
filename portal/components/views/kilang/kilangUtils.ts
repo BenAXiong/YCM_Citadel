@@ -141,35 +141,36 @@ export const calculateAncestryPath = (
 
 /**
  * Assigns treeRow indices for layout positioning using a recursive DFS.
+ * Returns { totalRows, centerRow } to support recursive centering.
  */
 export const calculateTreeRows = (
   derivatives: Derivation[],
   parentWord: string,
   startRow: number = 0
-): number => {
+): { totalRows: number; medianRow: number } => {
   const pNormalized = normalizeWord(parentWord);
   const children = derivatives.filter((d) => d.parentWord === pNormalized);
   
-  if (children.length === 0) return 1;
+  if (children.length === 0) return { totalRows: 1, medianRow: startRow };
 
   let totalUsed = 0;
+  const childMedians: number[] = [];
+
   children.forEach((child) => {
-    const rowsForChild = calculateTreeRows(derivatives, child.word_ab, startRow + totalUsed);
-    child.treeRow = startRow + totalUsed;
+    const { totalRows: rowsForChild, medianRow: childMedian } = calculateTreeRows(derivatives, child.word_ab, startRow + totalUsed);
+    child.treeRow = childMedian; // The child's Y position is its OWN subtree median
+    childMedians.push(childMedian);
     totalUsed += rowsForChild;
   });
   
-  return totalUsed;
+  // The parent's median is the average of its children's start/end spectrum
+  // Actually, more simply: the average of its first and last child's medians
+  const medianRow = (childMedians[0] + childMedians[childMedians.length - 1]) / 2;
+  
+  return { totalRows: totalUsed, medianRow };
 };
 
 // --- COORDINATE ENGINE ---
-
-export interface NodeCoordinate {
-  x: number;
-  y: number;
-}
-
-export type NodeMap = Record<string, NodeCoordinate>;
 
 // Standard "Bounding Box" for nodes to ensure consistent line connection points
 export const LAYOUT_CONSTANTS = {
@@ -179,7 +180,31 @@ export const LAYOUT_CONSTANTS = {
   GUTTER_H: 80,       // Distance between tiers
   GUTTER_V: 40,       // Distance between siblings in flow
   ALIGN_CELL_W: 280,  // Grid cell width for aligned mode
-  ALIGN_CELL_H: 120,  // Grid cell height for aligned mode
+  ALIGN_CELL_H: 140,  // Grid cell height for aligned mode (increased)
+};
+
+/**
+ * Calculates the total bounding box of the forest to support "Smart Fit" scaling.
+ */
+export const getForestBoundingBox = (nodeMap: NodeMap) => {
+  const coords = Object.values(nodeMap);
+  if (coords.length === 0) return { minX: 1000, minY: 1000, maxX: 1000, maxY: 1000 };
+
+  let minX = coords[0].x, minY = coords[0].y, maxX = coords[0].x, maxY = coords[0].y;
+  coords.forEach(p => {
+    minX = Math.min(minX, p.x);
+    minY = Math.min(minY, p.y);
+    maxX = Math.max(maxX, p.x);
+    maxY = Math.max(maxY, p.y);
+  });
+
+  // Pad by node dimensions
+  return {
+    minX: minX - 120,
+    minY: minY - 50,
+    maxX: maxX + 120,
+    maxY: maxY + 50
+  };
 };
 
 /**
@@ -201,10 +226,15 @@ export const calculateNodeMap = (
   nodeMap[rootKey] = { x: CENTER, y: CENTER };
 
   if (arrangement === 'aligned') {
+    // 2. Centering Logic
+    const normalizedRoot = normalizeWord(root) || root;
+    const { medianRow: rootMedian } = calculateTreeRows(derivatives, normalizedRoot, 0);
+
     // ALIGNED Mode: Uses treeRow for consistent branches
     derivatives.forEach(d => {
       const tier = d.tier - 1;
-      const row = d.treeRow ?? 0;
+      const row = (d.treeRow ?? 0) - rootMedian; // CENTERED recursive
+      
       if (direction === 'horizontal') {
         nodeMap[d.word_ab] = { 
           x: CENTER + (tier * ALIGN_CELL_W + ROOT_SIZE / 2 + 100), 
@@ -213,7 +243,7 @@ export const calculateNodeMap = (
       } else {
         nodeMap[d.word_ab] = { 
           x: CENTER + (row * ALIGN_CELL_W), 
-          y: CENTER + (tier * ALIGN_CELL_H + ROOT_SIZE / 2 + 100) 
+          y: CENTER - (tier * ALIGN_CELL_H + ROOT_SIZE / 2 + 100) 
         };
       }
     });
@@ -242,7 +272,7 @@ export const calculateNodeMap = (
         } else {
           nodeMap[node.word_ab] = { 
             x: CENTER + offset, 
-            y: CENTER + (tierIndex * (NODE_HEIGHT + GUTTER_H) + ROOT_SIZE / 2 + 50) 
+            y: CENTER - (tierIndex * (NODE_HEIGHT + GUTTER_H) + ROOT_SIZE / 2 + 50) // UP
           };
         }
       });

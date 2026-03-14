@@ -1,4 +1,7 @@
-import { MorphMode, LayoutDirection, LayoutArrangement } from './useKilangData';
+export type MorphMode = 'moe' | 'plus' | 'star';
+export type LayoutDirection = 'horizontal' | 'vertical';
+export type LayoutArrangement = 'aligned' | 'flow';
+
 import { RootStats, KilangRootData } from './kilangUtils';
 
 export interface KilangState {
@@ -28,6 +31,7 @@ export interface KilangState {
   showStatsOverlay: boolean;
   visibleChainsCount: number;
   exporting: boolean;
+  fitTransform: { x: number; y: number; scale: number };
 }
 
 export type KilangAction =
@@ -39,6 +43,7 @@ export type KilangAction =
   | { type: 'SET_CONFIG'; morphMode?: MorphMode; sourceFilter?: string }
   | { type: 'SET_LAYOUT'; direction?: LayoutDirection; arrangement?: LayoutArrangement }
   | { type: 'SET_TRANSFORM'; scale?: number; isFit?: boolean }
+  | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean };
 
 export const initialState: KilangState = {
@@ -59,6 +64,7 @@ export const initialState: KilangState = {
   showStatsOverlay: false,
   visibleChainsCount: 10,
   exporting: false,
+  fitTransform: { x: 0, y: 0, scale: 1 },
 };
 
 export function kilangReducer(state: KilangState, action: KilangAction): KilangState {
@@ -101,6 +107,8 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         ...(action.scale !== undefined && { scale: action.scale }),
         ...(action.isFit !== undefined && { isFit: action.isFit })
       };
+    case 'SET_FIT_TRANSFORM':
+      return { ...state, fitTransform: action.transform };
     case 'SET_UI':
       return { ...state, ...action };
     default:

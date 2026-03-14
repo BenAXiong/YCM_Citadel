@@ -185,6 +185,7 @@ export default function KilangView() {
           summaryCache={summaryCache}
           fetchSummary={fetchSummary}
           stats={stats}
+          fitTransform={state.fitTransform}
         />
       </div>
 
