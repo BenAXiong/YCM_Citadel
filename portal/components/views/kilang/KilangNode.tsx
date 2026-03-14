@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useRef } from 'react';
-import { Zap } from 'lucide-react';
+import { Zap, TreePine, GitCommit, GitBranch, Circle, Flower2, Sprout, Boxes } from 'lucide-react';
 
 interface WordTooltipProps {
   word: string;
@@ -70,28 +70,81 @@ interface KilangNodeProps {
   isRoot?: boolean;
   summaryCache: Record<string, string[]>;
   fetchSummary: (word: string) => Promise<void>;
+  config: {
+    nodeSize: number;
+    nodeOpacity: number;
+    nodeRounding: number;
+    rootColor: string;
+    branchColor: string;
+    showIcons: boolean;
+    nodeWidth: number;
+    nodePaddingY: number;
+  };
 }
 
-export const KilangNode = ({ word, dictCode, tier = 2, isRoot = false, summaryCache, fetchSummary }: KilangNodeProps) => {
+export const KilangNode = ({ word, dictCode, tier = 2, isRoot = false, summaryCache, fetchSummary, config }: KilangNodeProps) => {
   const cleanId = `v3-node-${word.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+
+  const getTierIcon = () => {
+    if (isRoot) return <TreePine className="w-5 h-5 text-yellow-400 shrink-0" />;
+    
+    const iconClass = `w-3 h-3 ${tier === 2 ? 'text-blue-400' : tier === 3 ? 'text-indigo-400' : 'text-emerald-400'} shrink-0`;
+    
+    switch (tier) {
+      case 2: return <GitCommit className={iconClass} />;
+      case 3: return <GitBranch className={iconClass} />;
+      case 4: return <Circle className={iconClass} />;
+      case 5: return <Flower2 className={iconClass} />;
+      case 6: return <Sprout className={iconClass} />;
+      default: return <Boxes className={iconClass} />;
+    }
+  };
+
   return (
     <WordTooltip word={word} dictCode={dictCode} id={cleanId} summaryCache={summaryCache} fetchSummary={fetchSummary}>
-      <div className="relative">
+      <div 
+        className="relative transition-all duration-500"
+        style={{ 
+          transform: `scale(${config.nodeSize})`,
+          opacity: config.nodeOpacity
+        }}
+      >
         <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
           {isRoot ? (
-            <div className="bg-[#0f172a] border-4 border-blue-600 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-20 relative min-w-[120px] flex items-center justify-center">
-              <span className="text-white font-black text-2xl tracking-tighter">{word}</span>
+            <div 
+              className="border-4 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-20 relative min-w-[120px] flex items-center justify-center transition-colors duration-500"
+              style={{ 
+                backgroundColor: `${config.rootColor}1A`, 
+                borderColor: config.rootColor,
+                paddingTop: `${config.nodePaddingY * 2}px`,
+                paddingBottom: `${config.nodePaddingY * 2}px`
+              }}
+            >
+              <div className="flex items-center gap-3">
+                {config.showIcons && getTierIcon()}
+                <span className="text-white font-black text-2xl tracking-tighter">{word}</span>
+              </div>
             </div>
           ) : (
-            <div className={`transition-all text-sm group ring-1 ring-white/5 relative z-10 border px-4 py-3 rounded-2xl ${
-              tier === 2 ? "border-blue-500/40 bg-blue-500/10 shadow-lg shadow-blue-500/10" :
-              tier === 3 ? "border-indigo-500/30 bg-indigo-500/5 opacity-80 scale-95 shadow-md shadow-indigo-500/5" :
-              tier === 4 ? "border-emerald-500/20 bg-emerald-500/5 opacity-60 scale-90 border-dashed" :
-              "border-white/10 bg-white/5 opacity-40 scale-75"
-            }`}>
+            <div 
+              className={`transition-all text-sm group ring-1 ring-white/5 relative z-10 border flex items-center justify-center ${
+                tier === 2 ? "border-blue-500/40 bg-blue-500/10 shadow-lg shadow-blue-500/10" :
+                tier === 3 ? "border-indigo-500/30 bg-indigo-500/5 opacity-80 scale-95 shadow-md shadow-indigo-500/5" :
+                tier === 4 ? "border-emerald-500/20 bg-emerald-500/5 opacity-60 scale-90 border-dashed" :
+                "border-white/10 bg-white/5 opacity-40 scale-75"
+              }`}
+              style={{ 
+                borderRadius: `${config.nodeRounding}px`,
+                borderColor: tier === 2 ? `${config.branchColor}66` : undefined,
+                backgroundColor: tier === 2 ? `${config.branchColor}1A` : undefined,
+                width: `${config.nodeWidth}px`,
+                paddingTop: `${config.nodePaddingY}px`,
+                paddingBottom: `${config.nodePaddingY}px`
+              }}
+            >
               <div className="flex items-center gap-2">
-                <Zap className={`w-3 h-3 ${tier === 2 ? 'text-blue-400' : tier === 3 ? 'text-indigo-400' : 'text-emerald-400'} opacity-50`} />
-                <span className="font-bold text-white group-hover:text-blue-300 transition-colors uppercase tracking-widest text-[11px]">{word}</span>
+                {config.showIcons && getTierIcon()}
+                <span className="font-bold text-white group-hover:text-blue-300 transition-colors uppercase tracking-widest text-[11px] truncate">{word}</span>
               </div>
             </div>
           )}

@@ -1,7 +1,32 @@
 'use client';
 
 import React from 'react';
-import { GitBranch, Activity, ChevronDown, RotateCcw, Minus, Plus, ImageIcon, Boxes, Maximize, TrendingUp, ArrowRight, ArrowDown, LayoutGrid, Rows, Scissors, Settings2, SlidersHorizontal, PencilLine } from 'lucide-react';
+import { 
+  GitBranch, 
+  Activity, 
+  ChevronDown, 
+  RotateCcw, 
+  Minus, 
+  Plus, 
+  ImageIcon, 
+  Boxes, 
+  Maximize2, 
+  TrendingUp, 
+  ArrowRight, 
+  ArrowDown, 
+  LayoutGrid, 
+  Rows, 
+  Settings2,
+  Search,
+  Info,
+  Download,
+  Filter,
+  Layers,
+  TreePine,
+  Zap,
+  Share2
+} from 'lucide-react';
+import { MorphMode, LayoutDirection, LayoutArrangement, KilangState } from './kilangReducer';
 
 interface CompactMetricProps {
   icon: React.ReactNode;
@@ -35,29 +60,22 @@ const CompactMetric = ({ icon, label, value, color, description }: CompactMetric
 interface KilangHeaderProps {
   stats: any;
   selectedRoot: string | null;
-  morphMode: 'moe' | 'plus' | 'star';
+  morphMode: MorphMode;
   sourceFilter: string;
-  direction: 'horizontal' | 'vertical';
-  arrangement: 'aligned' | 'flow';
+  direction: LayoutDirection;
+  arrangement: LayoutArrangement;
   scale: number;
   isFit: boolean;
-  lineStyle: 'classic' | 'shrunk';
-  layoutConfig: {
-    lineGapX: number;
-    lineGapY: number;
-    interTierGap: number;
-    interRowGap: number;
-  };
+  layoutConfig: KilangState['layoutConfig'];
   showStatsOverlay: boolean;
-  setMorphMode: (mode: 'moe' | 'plus' | 'star') => void;
+  setMorphMode: (mode: MorphMode) => void;
   setSourceFilter: (filter: string) => void;
   setShowStatsOverlay: (show: boolean) => void;
-  setDirection: (dir: 'horizontal' | 'vertical') => void;
-  setArrangement: (arr: 'aligned' | 'flow') => void;
+  setDirection: (dir: LayoutDirection) => void;
+  setArrangement: (arr: LayoutArrangement) => void;
   setScale: (scale: number | ((prev: number) => number)) => void;
   setIsFit: (fit: boolean) => void;
-  toggleLineStyle: () => void;
-  updateLayoutConfig: (config: any) => void;
+  updateLayoutConfig: (config: Partial<KilangState['layoutConfig']>) => void;
   handleExport: () => Promise<void>;
   MOE_SOURCES: Array<{ id: string; label: string }>;
 }
@@ -71,7 +89,6 @@ export const KilangHeader = ({
   arrangement,
   scale,
   isFit,
-  lineStyle,
   layoutConfig,
   showStatsOverlay,
   setMorphMode,
@@ -81,13 +98,10 @@ export const KilangHeader = ({
   setArrangement,
   setScale,
   setIsFit,
-  toggleLineStyle,
   updateLayoutConfig,
   handleExport,
   MOE_SOURCES
 }: KilangHeaderProps) => {
-  const [showTwitch, setShowTwitch] = React.useState(false);
-  const [showSpacing, setShowSpacing] = React.useState(false);
 
   return (
     <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between px-6 z-50 shrink-0">
@@ -137,7 +151,7 @@ export const KilangHeader = ({
                       <ChevronDown className="w-2.5 h-2.5 opacity-40 shrink-0" />
                     </div>
                   </button>
-                  
+
                   <div className="absolute top-full left-0 mt-1 w-48 bg-[#0f172a] border border-white/10 rounded-xl shadow-2xl p-1 hidden group-hover:block z-[3000] animate-in fade-in duration-200">
                     {MOE_SOURCES.map(s => (
                       <button
@@ -217,107 +231,26 @@ export const KilangHeader = ({
                 </div>
               </div>
 
-              <div className="flex items-center gap-2.5">
-                <span className="text-[8px] font-black text-kilang-text-muted uppercase tracking-widest">Lines</span>
-                <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg relative">
-                  <button
-                    onClick={toggleLineStyle}
-                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${lineStyle === 'shrunk' ? 'bg-indigo-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
-                    title={lineStyle === 'shrunk' ? "Shrunk Lines" : "Classic Lines"}
-                  >
-                    <Scissors className="w-3.5 h-3.5" />
-                  </button>
-                  
-                  {arrangement === 'aligned' && (
-                    <>
-                      <button
-                        onClick={() => setShowTwitch(!showTwitch)}
-                        className={`w-8 h-7 flex items-center justify-center rounded transition-all ${showTwitch ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
-                        title="Twitch Path Gaps"
-                      >
-                        <PencilLine className="w-3.5 h-3.5" />
-                      </button>
-
-                      {showTwitch && (
-                        <div className="absolute top-full mt-2 left-0 w-48 bg-[#0f172a] border border-white/10 p-4 rounded-2xl shadow-2xl z-[5000] space-y-4 animate-in fade-in slide-in-from-top-2">
-                          <div className="space-y-2">
-                            <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-blue-400">
-                              <span>Gap X</span>
-                              <span>{layoutConfig.lineGapX}px</span>
-                            </div>
-                            <input 
-                              type="range" min="0" max="300" step="5"
-                              value={layoutConfig.lineGapX} 
-                              onChange={(e) => updateLayoutConfig({ lineGapX: parseInt(e.target.value) })}
-                              className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-500"
-                            />
-                          </div>
-                          <div className="space-y-2">
-                            <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-blue-400">
-                              <span>Gap Y</span>
-                              <span>{layoutConfig.lineGapY}px</span>
-                            </div>
-                            <input 
-                              type="range" min="0" max="150" step="5"
-                              value={layoutConfig.lineGapY} 
-                              onChange={(e) => updateLayoutConfig({ lineGapY: parseInt(e.target.value) })}
-                              className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-500"
-                            />
-                          </div>
-                        </div>
-                      )}
-
-                      <button
-                        onClick={() => setShowSpacing(!showSpacing)}
-                        className={`w-8 h-7 flex items-center justify-center rounded transition-all ${showSpacing ? 'bg-emerald-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
-                        title="Adjust Grid Spacing"
-                      >
-                        <SlidersHorizontal className="w-3.5 h-3.5" />
-                      </button>
-
-                      {showSpacing && (
-                        <div className="absolute top-full mt-2 right-0 w-48 bg-[#0f172a] border border-white/10 p-4 rounded-2xl shadow-2xl z-[5000] space-y-4 animate-in fade-in slide-in-from-top-2">
-                          <div className="space-y-2">
-                            <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-emerald-400">
-                              <span>Tier (H)</span>
-                              <span>{layoutConfig.interTierGap}px</span>
-                            </div>
-                            <input 
-                              type="range" min="100" max="600" step="10"
-                              value={layoutConfig.interTierGap} 
-                              onChange={(e) => updateLayoutConfig({ interTierGap: parseInt(e.target.value) })}
-                              className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-emerald-500"
-                            />
-                          </div>
-                          <div className="space-y-2">
-                            <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-emerald-400">
-                              <span>Row (V)</span>
-                              <span>{layoutConfig.interRowGap}px</span>
-                            </div>
-                            <input 
-                              type="range" min="20" max="300" step="5"
-                              value={layoutConfig.interRowGap} 
-                              onChange={(e) => updateLayoutConfig({ interRowGap: parseInt(e.target.value) })}
-                              className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-emerald-500"
-                            />
-                          </div>
-                        </div>
-                      )}
-                    </>
-                  )}
-                </div>
+              <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
+                <button
+                  onClick={() => updateLayoutConfig({ showToolbox: !layoutConfig.showToolbox })}
+                  className={`w-8 h-7 flex items-center justify-center rounded transition-all ${layoutConfig.showToolbox ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                  title="Toggle Visual Toolbox"
+                >
+                  <Settings2 className="w-3.5 h-3.5" />
+                </button>
               </div>
             </div>
 
             <div className="w-[1px] h-8 bg-white/5" />
 
             <div className="flex items-center gap-1">
-              <button 
-                onClick={() => setIsFit(!isFit)} 
-                className={`p-2 border rounded-xl transition-all shadow-sm ${isFit ? 'bg-blue-600 border-blue-400 text-white' : 'bg-white/5 border-white/10 text-white/50 hover:bg-white/10'}`} 
+              <button
+                onClick={() => setIsFit(!isFit)}
+                className={`p-2 border rounded-xl transition-all shadow-sm ${isFit ? 'bg-blue-600 border-blue-400 text-white' : 'bg-white/5 border-white/10 text-white/50 hover:bg-white/10'}`}
                 title="Smart Fit Tree"
               >
-                <Maximize className="w-3 h-3" />
+                <Maximize2 className="w-3 h-3" />
               </button>
               <button onClick={() => { setScale(1); setIsFit(false); }} className={`p-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all shadow-sm ${!isFit && scale === 1 ? 'text-blue-400' : 'text-white/50'}`} title="Reset Zoom">
                 <RotateCcw className="w-3 h-3" />
@@ -365,7 +298,7 @@ export const KilangHeader = ({
               description="Average number of derived forms per semantic root."
             />
             <CompactMetric
-              icon={<Maximize className="w-3 h-3" />}
+              icon={<Maximize2 className="w-3 h-3" />}
               label="Span"
               value={stats.summary.max_depth}
               color="emerald"

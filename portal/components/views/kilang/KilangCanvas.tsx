@@ -1,6 +1,8 @@
 import { Activity, RefreshCw, TreePine } from 'lucide-react';
 import { KilangNode } from './KilangNode';
 import { NodeMap } from './kilangUtils';
+import { KilangToolbox } from './KilangToolbox';
+import { KilangAction } from './kilangReducer';
 
 interface LineageCanvasProps {
   root: string;
@@ -9,11 +11,10 @@ interface LineageCanvasProps {
   direction: 'horizontal' | 'vertical';
   isFit: boolean;
   scale: number;
-  lineStyle: 'classic' | 'shrunk';
-  layoutConfig: { lineGapX: number; lineGapY: number };
+  layoutConfig: { lineGapX: number; lineGapY: number; lineColor: string; lineColorMid: string; lineGradientEnd: string };
 }
 
-const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, lineStyle, layoutConfig }: LineageCanvasProps) => {
+const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, layoutConfig }: LineageCanvasProps) => {
   const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
   
   const paths = derivatives.map(d => {
@@ -47,9 +48,9 @@ const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, li
     >
       <defs>
         <linearGradient id="lineageGradient" x1="0%" y1="100%" x2="0%" y2="0%">
-          <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.4" />
-          <stop offset="50%" stopColor="#6366f1" stopOpacity="0.4" />
-          <stop offset="100%" stopColor="#10b981" stopOpacity="0.4" />
+          <stop offset="0%" stopColor={layoutConfig.lineColor} stopOpacity="0.4" />
+          <stop offset="50%" stopColor={layoutConfig.lineColorMid} stopOpacity="0.4" />
+          <stop offset="100%" stopColor={layoutConfig.lineGradientEnd} stopOpacity="0.4" />
         </linearGradient>
       </defs>
       {paths.map((d, i) => (
@@ -82,13 +83,25 @@ interface KilangCanvasProps {
   fetchSummary: (word: string) => Promise<void>;
   stats: any;
   fitTransform: { x: number; y: number; scale: number };
-  lineStyle: 'classic' | 'shrunk';
   layoutConfig: {
+    showToolbox: boolean;
     lineGapX: number;
     lineGapY: number;
     interTierGap: number;
     interRowGap: number;
+    nodeSize: number;
+    nodeOpacity: number;
+    nodeRounding: number;
+    rootColor: string;
+    branchColor: string;
+    lineColor: string;
+    lineColorMid: string;
+    lineGradientEnd: string;
+    showIcons: boolean;
+    nodeWidth: number;
+    nodePaddingY: number;
   };
+  dispatch: React.Dispatch<KilangAction>;
 }
 
 export const KilangCanvas = ({
@@ -105,8 +118,8 @@ export const KilangCanvas = ({
   fetchSummary,
   stats,
   fitTransform,
-  lineStyle,
-  layoutConfig
+  layoutConfig,
+  dispatch
 }: KilangCanvasProps) => {
   const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
 
@@ -118,6 +131,12 @@ export const KilangCanvas = ({
           <div className="flex-1 kilang-glass-panel rounded-3xl overflow-hidden relative flex flex-col border border-white/10 shadow-2xl">
             {selectedRoot ? (
               <div ref={treeRef} className="flex-1 overflow-auto custom-scrollbar bg-[#020617]/40 relative flex items-center justify-center p-32">
+                {/* Visual Toolbox Overlay */}
+                <KilangToolbox 
+                  layoutConfig={layoutConfig} 
+                  dispatch={dispatch} 
+                />
+
                 {rootData?.error ? (
                   <div className="h-full flex flex-col items-center justify-center space-y-4">
                     <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
@@ -151,7 +170,6 @@ export const KilangCanvas = ({
                       direction={direction} 
                       isFit={isFit} 
                       scale={scale} 
-                      lineStyle={lineStyle}
                       layoutConfig={layoutConfig}
                     />
 
@@ -170,7 +188,13 @@ export const KilangCanvas = ({
                               transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)` 
                             }}
                           >
-                            <KilangNode word={selectedRoot} isRoot={true} summaryCache={summaryCache} fetchSummary={fetchSummary} />
+                            <KilangNode 
+                              word={selectedRoot} 
+                              isRoot={true} 
+                              summaryCache={summaryCache} 
+                              fetchSummary={fetchSummary} 
+                              config={layoutConfig}
+                            />
                           </div>
                         );
                       })()}
@@ -195,6 +219,7 @@ export const KilangCanvas = ({
                               tier={d.tier} 
                               summaryCache={summaryCache} 
                               fetchSummary={fetchSummary} 
+                              config={layoutConfig}
                             />
                           </div>
                         );

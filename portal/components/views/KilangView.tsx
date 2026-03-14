@@ -144,7 +144,6 @@ export default function KilangView() {
         arrangement={arrangement}
         scale={scale}
         isFit={isFit}
-        lineStyle={state.lineStyle}
         showStatsOverlay={showStatsOverlay}
         setMorphMode={(m) => dispatch({ type: 'SET_CONFIG', morphMode: m as any })}
         setSourceFilter={(s) => dispatch({ type: 'SET_CONFIG', sourceFilter: s })}
@@ -156,7 +155,6 @@ export default function KilangView() {
           dispatch({ type: 'SET_TRANSFORM', scale: val });
         }}
         setIsFit={(f) => dispatch({ type: 'SET_TRANSFORM', isFit: f })}
-        toggleLineStyle={() => dispatch({ type: 'TOGGLE_LINE_STYLE' })}
         layoutConfig={state.layoutConfig}
         updateLayoutConfig={(config) => dispatch({ type: 'SET_LAYOUT_CONFIG', config })}
         handleExport={handleExport}
@@ -190,8 +188,8 @@ export default function KilangView() {
           fetchSummary={fetchSummary}
           stats={stats}
           fitTransform={state.fitTransform}
-          lineStyle={state.lineStyle}
           layoutConfig={state.layoutConfig}
+          dispatch={dispatch}
         />
       </div>
 

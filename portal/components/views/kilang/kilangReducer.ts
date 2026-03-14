@@ -24,7 +24,6 @@ export interface KilangState {
   arrangement: LayoutArrangement;
   scale: number;
   isFit: boolean;
-  lineStyle: 'classic' | 'shrunk';
   
   // UI State
   searchTerm: string;
@@ -34,10 +33,22 @@ export interface KilangState {
   exporting: boolean;
   fitTransform: { x: number; y: number; scale: number };
   layoutConfig: {
+    showToolbox: boolean;
     lineGapX: number;
     lineGapY: number;
     interTierGap: number;
     interRowGap: number;
+    nodeSize: number;
+    nodeOpacity: number;
+    nodeRounding: number;
+    rootColor: string;
+    branchColor: string;
+    lineColor: string;
+    lineColorMid: string;
+    lineGradientEnd: string;
+    showIcons: boolean;
+    nodeWidth: number;
+    nodePaddingY: number;
   };
 }
 
@@ -51,8 +62,8 @@ export type KilangAction =
   | { type: 'SET_LAYOUT'; direction?: LayoutDirection; arrangement?: LayoutArrangement }
   | { type: 'SET_TRANSFORM'; scale?: number; isFit?: boolean }
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
-  | { type: 'TOGGLE_LINE_STYLE' }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
+  | { type: 'RESET_LAYOUT_CONFIG' }
   | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean };
 
 export const initialState: KilangState = {
@@ -65,10 +76,9 @@ export const initialState: KilangState = {
   morphMode: 'moe',
   sourceFilter: 'ALL',
   direction: 'horizontal',
-  arrangement: 'flow',
+  arrangement: 'aligned', // Default Aligned
   scale: 1,
   isFit: false,
-  lineStyle: 'shrunk',
   searchTerm: '',
   branchFilter: 'all',
   showStatsOverlay: false,
@@ -76,10 +86,22 @@ export const initialState: KilangState = {
   exporting: false,
   fitTransform: { x: 0, y: 0, scale: 1 },
   layoutConfig: {
-    lineGapX: 120,    // Default Shrunk
-    lineGapY: 50,     // Default Shrunk
-    interTierGap: 150, // Default GUTTER_H
-    interRowGap: 40    // Default GUTTER_V
+    showToolbox: true,
+    lineGapX: 50,
+    lineGapY: 50,
+    interTierGap: 100,
+    interRowGap: 50,
+    nodeSize: 1,
+    nodeOpacity: 1,
+    nodeRounding: 16,
+    rootColor: '#2563eb',
+    branchColor: '#3b82f6',
+    lineColor: '#3b82f6',   
+    lineColorMid: '#6366f1',
+    lineGradientEnd: '#10b981', 
+    showIcons: false,
+    nodeWidth: 100,
+    nodePaddingY: 8,
   },
 };
 
@@ -125,20 +147,13 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       };
     case 'SET_FIT_TRANSFORM':
       return { ...state, fitTransform: action.transform };
-    case 'TOGGLE_LINE_STYLE': {
-      const isClassic = state.lineStyle === 'classic';
-      return { 
-        ...state, 
-        lineStyle: isClassic ? 'shrunk' : 'classic',
-        layoutConfig: {
-          ...state.layoutConfig,
-          lineGapX: isClassic ? 120 : 60,
-          lineGapY: isClassic ? 50 : 25
-        }
-      };
-    }
     case 'SET_LAYOUT_CONFIG':
       return { ...state, layoutConfig: { ...state.layoutConfig, ...action.config } };
+    case 'RESET_LAYOUT_CONFIG':
+      return { 
+        ...state, 
+        layoutConfig: initialState.layoutConfig
+      };
     case 'SET_UI':
       return { ...state, ...action };
     default:
