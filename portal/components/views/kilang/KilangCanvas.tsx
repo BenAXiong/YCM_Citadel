@@ -1,70 +1,43 @@
-'use client';
-
-import React, { useState, useEffect, useRef } from 'react';
 import { Activity, RefreshCw, TreePine } from 'lucide-react';
 import { KilangNode } from './KilangNode';
+import { NodeMap } from './kilangUtils';
 
 interface LineageCanvasProps {
   root: string;
   derivatives: any[];
-  layoutMode: 'vertical' | 'horizontal';
+  nodeMap: NodeMap;
+  direction: 'horizontal' | 'vertical';
   isFit: boolean;
   scale: number;
 }
 
-const LineageCanvas = ({ root, derivatives, layoutMode = 'vertical', isFit, scale }: LineageCanvasProps) => {
-  const [paths, setPaths] = useState<string[]>([]);
-  const containerRef = useRef<SVGSVGElement>(null);
-  const effectiveZoom = isFit ? 0.5 : scale;
+const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale }: LineageCanvasProps) => {
+  const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
+  
+  const paths = derivatives.map(d => {
+    const s = nodeMap[d.parentWord || normalize(root)];
+    const t = nodeMap[d.word_ab];
+    if (!s || !t) return null;
 
-  const calculatePaths = () => {
-    if (!containerRef.current) return;
-    const containerRect = containerRef.current.getBoundingClientRect();
-    const newPaths: string[] = [];
-    const getCenter = (id: string, containerRect: DOMRect) => {
-      const cleanId = `v3-node-${id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
-      const el = document.getElementById(cleanId);
-      if (!el) return null;
-      const rect = el.getBoundingClientRect();
-      const cx = (rect.left + rect.width / 2 - containerRect.left) / effectiveZoom;
-      const cy = (rect.top + rect.height / 2 - containerRect.top) / effectiveZoom;
-      return { x: cx, y: cy };
-    };
-    derivatives.forEach(d => {
-      const target = getCenter(d.word_ab, containerRect);
-      const source = getCenter(d.parentWord || root, containerRect);
-      if (source && target) {
-        if (layoutMode === 'vertical') {
-          const midY = (source.y + target.y) / 2;
-          newPaths.push(`M ${source.x} ${source.y} C ${source.x} ${midY} ${target.x} ${midY} ${target.x} ${target.y}`);
-        } else {
-          const midX = (source.x + target.x) / 2;
-          newPaths.push(`M ${source.x} ${source.y} C ${midX} ${source.y} ${midX} ${target.y} ${target.x} ${target.y}`);
-        }
-      }
-    });
-    setPaths(newPaths);
-  };
+    const source = { x: s.x, y: s.y };
+    const target = { x: t.x, y: t.y };
 
-  useEffect(() => {
-    calculatePaths();
-    const timer = setTimeout(() => {
-      requestAnimationFrame(calculatePaths);
-    }, 500);
-    const interval = setInterval(calculatePaths, 32);
-    window.addEventListener('resize', calculatePaths);
-    const observer = new MutationObserver(calculatePaths);
-    observer.observe(document.body, { childList: true, subtree: true });
-    return () => {
-      clearTimeout(timer);
-      clearInterval(interval);
-      window.removeEventListener('resize', calculatePaths);
-      observer.disconnect();
-    };
-  }, [derivatives, root, effectiveZoom, layoutMode]);
+    if (direction === 'vertical') {
+      const midY = (source.y + target.y) / 2;
+      return `M ${source.x} ${source.y} C ${source.x} ${midY} ${target.x} ${midY} ${target.x} ${target.y}`;
+    } else {
+      const midX = (source.x + target.x) / 2;
+      return `M ${source.x} ${source.y} C ${midX} ${source.y} ${midX} ${target.y} ${target.x} ${target.y}`;
+    }
+  }).filter(Boolean) as string[];
 
   return (
-    <svg ref={containerRef} className="absolute inset-0 w-full h-full pointer-events-none z-0">
+    <svg 
+      width="2000" 
+      height="2000" 
+      viewBox="0 0 2000 2000"
+      className="absolute inset-0 pointer-events-none z-0 overflow-visible"
+    >
       <defs>
         <linearGradient id="lineageGradient" x1="0%" y1="100%" x2="0%" y2="0%">
           <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.4" />
@@ -73,7 +46,16 @@ const LineageCanvas = ({ root, derivatives, layoutMode = 'vertical', isFit, scal
         </linearGradient>
       </defs>
       {paths.map((d, i) => (
-        <path key={i} d={d} stroke="url(#lineageGradient)" strokeWidth="1.5" fill="none" className="transition-all duration-700 opacity-20 hover:opacity-100" />
+        <path 
+          key={i} 
+          d={d} 
+          stroke="url(#lineageGradient)" 
+          strokeWidth="1.5" 
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none" 
+          className="transition-all duration-700 opacity-20 hover:opacity-100" 
+        />
       ))}
     </svg>
   );
@@ -82,7 +64,9 @@ const LineageCanvas = ({ root, derivatives, layoutMode = 'vertical', isFit, scal
 interface KilangCanvasProps {
   selectedRoot: string | null;
   rootData: any;
-  layoutMode: 'h1' | 'h2' | 'v1' | 'v2';
+  direction: 'horizontal' | 'vertical';
+  arrangement: 'aligned' | 'flow';
+  nodeMap: NodeMap;
   isFit: boolean;
   scale: number;
   treeRef: React.RefObject<HTMLDivElement | null>;
@@ -95,7 +79,9 @@ interface KilangCanvasProps {
 export const KilangCanvas = ({
   selectedRoot,
   rootData,
-  layoutMode,
+  direction,
+  arrangement,
+  nodeMap,
   isFit,
   scale,
   treeRef,
@@ -104,6 +90,8 @@ export const KilangCanvas = ({
   fetchSummary,
   stats
 }: KilangCanvasProps) => {
+  const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
+
   return (
     <main className="flex-1 overflow-hidden relative">
       <div className="h-full flex flex-col">
@@ -111,7 +99,7 @@ export const KilangCanvas = ({
         <div className="flex-1 p-8 pt-4 overflow-hidden flex flex-col">
           <div className="flex-1 kilang-glass-panel rounded-3xl overflow-hidden relative flex flex-col border border-white/10 shadow-2xl">
             {selectedRoot ? (
-              <div ref={treeRef} className="flex-1 overflow-auto custom-scrollbar p-16 bg-[#020617]/40 relative flex flex-col items-center">
+              <div ref={treeRef} className="flex-1 overflow-auto custom-scrollbar bg-[#020617]/40 relative flex items-center justify-center p-32">
                 {rootData?.error ? (
                   <div className="h-full flex flex-col items-center justify-center space-y-4">
                     <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
@@ -121,68 +109,75 @@ export const KilangCanvas = ({
                     <div className="text-red-400/60 text-[10px] font-mono italic max-w-xs text-center">{rootData.errorMessage}</div>
                   </div>
                 ) : rootData?.loading ? (
-                  <div className="h-full flex flex-col items-center justify-center space-y-4"><RefreshCw className="w-10 h-10 text-blue-500 animate-spin opacity-50" /><div className="animate-pulse text-blue-500 font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div></div>
+                  <div className="h-full flex flex-col items-center justify-center space-y-4">
+                    <RefreshCw className="w-10 h-10 text-blue-500 animate-spin opacity-50" />
+                    <div className="animate-pulse text-blue-500 font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div>
+                  </div>
                 ) : (
                   <div
-                    className={`min-h-[1000px] flex transition-all duration-700 origin-center ${isFit ? '!justify-center !items-center !p-0' : (layoutMode.startsWith('v') ? 'flex-col items-center pt-24 pb-96' : 'flex-row items-center py-32 pl-40 pr-96')} gap-12 w-full relative`}
-                    style={{ transform: isFit ? 'scale(0.5)' : `scale(${scale})` }}
+                    className="relative transition-all duration-700"
+                    style={{ 
+                      width: '2000px', 
+                      height: '2000px', 
+                      transform: isFit ? 'scale(0.5)' : `scale(${scale})`,
+                      transformOrigin: 'center center'
+                    }}
                   >
-                    <LineageCanvas root={selectedRoot} derivatives={rootData?.derivatives || []} layoutMode={layoutMode.startsWith('h') ? 'horizontal' : 'vertical'} isFit={isFit} scale={scale} />
-                    {layoutMode === 'v1' ? (
-                      <>
-                        {[10, 9, 8, 7, 6, 5, 4, 3, 2].map(tier => {
-                          const rawItems = rootData?.derivatives?.filter((d: any) => d.tier === tier) || [];
-                          if (rawItems.length === 0) return null;
-                          const tierItems = [...rawItems].sort((a, b) => a.sortPath.localeCompare(b.sortPath));
-                          return (
-                            <div key={tier} className="w-full flex flex-col items-center gap-10">
-                              <div className="flex flex-wrap justify-center gap-6 relative z-10">{tierItems.map((d: any) => <KilangNode key={d.word_ab} word={d.word_ab} dictCode={d.dict_code?.toUpperCase()} tier={d.tier} summaryCache={summaryCache} fetchSummary={fetchSummary} />)}</div>
-                              <div className="h-6 w-px bg-white/5" />
-                            </div>
-                          );
-                        })}
-                        <div className="relative z-50 shrink-0 mb-32"><KilangNode word={selectedRoot} isRoot={true} summaryCache={summaryCache} fetchSummary={fetchSummary} /></div>
-                      </>
-                    ) : layoutMode === 'h1' ? (
-                      <>
-                        <div className={`relative z-50 shrink-0 ${isFit ? 'mr-10' : 'mr-20'}`}><KilangNode word={selectedRoot} isRoot={true} summaryCache={summaryCache} fetchSummary={fetchSummary} /></div>
-                        {[2, 3, 4, 5, 6, 7, 8, 9, 10].map(tier => {
-                          const rawItems = rootData?.derivatives?.filter((d: any) => d.tier === tier) || [];
-                          if (rawItems.length === 0) return null;
-                          const tierItems = [...rawItems].sort((a, b) => a.sortPath.localeCompare(b.sortPath));
-                          return (
-                            <div key={tier} className="flex h-full items-center">
-                              <div className={`${isFit ? 'w-10' : 'w-20'} h-px bg-white/10`} />
-                              <div className="flex flex-col items-start gap-4">{tierItems.map((d: any) => <KilangNode key={d.word_ab} word={d.word_ab} dictCode={d.dict_code?.toUpperCase()} tier={d.tier} summaryCache={summaryCache} fetchSummary={fetchSummary} />)}</div>
-                            </div>
-                          );
-                        })}
-                      </>
-                    ) : layoutMode === 'h2' ? (
-                      <div className="flex items-center gap-24 py-10 relative pr-64">
-                        <div className="shrink-0">
-                          <KilangNode word={selectedRoot} isRoot={true} summaryCache={summaryCache} fetchSummary={fetchSummary} />
-                        </div>
-                        <div className="grid grid-cols-[repeat(10,240px)] gap-x-12 relative" style={{ gridTemplateRows: `repeat(${Math.max(1, ...rootData?.derivatives?.map((d: any) => d.treeRow) || [0]) + 1}, 80px)` }}>
-                          {rootData?.derivatives?.map((d: any) => (
-                            <div key={d.word_ab} className="relative" style={{ gridColumn: d.tier - 1, gridRow: (d.treeRow ?? 0) + 1 }}><KilangNode word={d.word_ab} dictCode={d.dict_code?.toUpperCase()} tier={d.tier} summaryCache={summaryCache} fetchSummary={fetchSummary} /></div>
-                          ))}
-                        </div>
-                      </div>
-                    ) : (
-                      <div className="flex flex-col items-center gap-24 py-10 relative pb-64">
-                        <div className="shrink-0 mb-12">
-                          <KilangNode word={selectedRoot} isRoot={true} summaryCache={summaryCache} fetchSummary={fetchSummary} />
-                        </div>
-                        <div className="grid grid-rows-[repeat(10,100px)] gap-y-12 relative" style={{ gridTemplateColumns: `repeat(${Math.max(1, ...rootData?.derivatives?.map((d: any) => d.treeRow) || [0]) + 1}, 240px)` }}>
-                          {rootData?.derivatives?.map((d: any) => (
-                            <div key={d.word_ab} className="relative flex items-center justify-center" style={{ gridRow: d.tier - 1, gridColumn: (d.treeRow ?? 0) + 1 }}>
-                              <KilangNode word={d.word_ab} dictCode={d.dict_code?.toUpperCase()} tier={d.tier} summaryCache={summaryCache} fetchSummary={fetchSummary} />
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
+                    {/* SVG Layer */}
+                    <LineageCanvas 
+                      root={selectedRoot} 
+                      derivatives={rootData?.derivatives || []} 
+                      nodeMap={nodeMap} 
+                      direction={direction} 
+                      isFit={isFit} 
+                      scale={scale} 
+                    />
+
+                    {/* Nodes Layer - Absolutely Positioned */}
+                    <div className="absolute inset-0">
+                      {/* Root Node */}
+                      {(() => {
+                        const pos = nodeMap[normalize(selectedRoot)];
+                        if (!pos) return null;
+                        return (
+                          <div 
+                            className="absolute transition-all duration-700"
+                            style={{ 
+                              left: 0, 
+                              top: 0, 
+                              transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)` 
+                            }}
+                          >
+                            <KilangNode word={selectedRoot} isRoot={true} summaryCache={summaryCache} fetchSummary={fetchSummary} />
+                          </div>
+                        );
+                      })()}
+
+                      {/* Derivative Nodes */}
+                      {rootData?.derivatives?.map((d: any) => {
+                        const pos = nodeMap[d.word_ab];
+                        if (!pos) return null;
+                        return (
+                          <div 
+                            key={d.word_ab} 
+                            className="absolute transition-all duration-700"
+                            style={{ 
+                              left: 0, 
+                              top: 0, 
+                              transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)` 
+                            }}
+                          >
+                            <KilangNode 
+                              word={d.word_ab} 
+                              dictCode={d.dict_code?.toUpperCase()} 
+                              tier={d.tier} 
+                              summaryCache={summaryCache} 
+                              fetchSummary={fetchSummary} 
+                            />
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
                 )}
               </div>

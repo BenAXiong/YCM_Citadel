@@ -1,12 +1,13 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { 
   MoeEntry, 
   KilangRootData, 
   reshapeDerivatives, 
   calculateTreeRows, 
-  normalizeWord 
+  normalizeWord,
+  calculateNodeMap 
 } from './kilangUtils';
 
 interface RootStats {
@@ -25,6 +26,8 @@ interface RootStats {
 }
 
 export type MorphMode = 'moe' | 'plus' | 'star';
+export type LayoutDirection = 'horizontal' | 'vertical';
+export type LayoutArrangement = 'aligned' | 'flow';
 
 export const useKilangData = (morphMode: MorphMode, sourceFilter: string) => {
   const [stats, setStats] = useState<RootStats | null>(null);
@@ -33,6 +36,10 @@ export const useKilangData = (morphMode: MorphMode, sourceFilter: string) => {
   const [selectedRoot, setSelectedRoot] = useState<string | null>(null);
   const [rootData, setRootData] = useState<any>(null);
   const [summaryCache, setSummaryCache] = useState<Record<string, string[]>>({});
+  
+  // Layout State
+  const [direction, setDirection] = useState<LayoutDirection>('horizontal');
+  const [arrangement, setArrangement] = useState<LayoutArrangement>('flow');
 
   // 1. Fetch Global Stats & Manifest
   useEffect(() => {
@@ -103,7 +110,13 @@ export const useKilangData = (morphMode: MorphMode, sourceFilter: string) => {
     }
   }, [morphMode, sourceFilter]);
 
-  // 4. Word Tooltip Summaries
+  // 4. Memoized Coordinate Map
+  const nodeMap = useMemo(() => {
+    if (!selectedRoot || !rootData?.derivatives) return {};
+    return calculateNodeMap(selectedRoot, rootData.derivatives, direction, arrangement);
+  }, [selectedRoot, rootData?.derivatives, direction, arrangement]);
+
+  // 5. Word Tooltip Summaries
   const fetchSummary = useCallback(async (word: string) => {
     const key = word.toLowerCase();
     if (summaryCache[key]) return;
@@ -133,6 +146,11 @@ export const useKilangData = (morphMode: MorphMode, sourceFilter: string) => {
     selectedRoot,
     rootData,
     summaryCache,
+    direction,
+    arrangement,
+    nodeMap,
+    setDirection,
+    setArrangement,
     fetchRootDetails,
     fetchSummary,
     setSelectedRoot

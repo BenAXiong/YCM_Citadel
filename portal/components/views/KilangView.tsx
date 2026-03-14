@@ -14,7 +14,6 @@ import { StatsOverlay } from './kilang/StatsOverlay';
 import { useKilangData, MorphMode } from './kilang/useKilangData';
 
 export default function KilangView() {
-  const [layoutMode, setLayoutMode] = useState<'h1' | 'h2' | 'v1' | 'v2'>('h1');
   const [searchTerm, setSearchTerm] = useState('');
   const [exporting, setExporting] = useState(false);
   const [scale, setScale] = useState(1);
@@ -32,8 +31,14 @@ export default function KilangView() {
     selectedRoot,
     rootData,
     summaryCache,
+    direction,
+    arrangement,
+    nodeMap,
+    setDirection,
+    setArrangement,
     fetchRootDetails,
     fetchSummary,
+    setSelectedRoot,
   } = useKilangData(morphMode, sourceFilter);
 
   const MOE_SOURCES = [
@@ -106,7 +111,7 @@ export default function KilangView() {
         }
       });
       const link = document.createElement('a');
-      link.download = `kilang-${selectedRoot.toLowerCase()}-${layoutMode}.png`;
+      link.download = `kilang-${selectedRoot.toLowerCase()}-${direction}-${arrangement}.png`;
       link.href = dataUrl;
       link.click();
     } catch (err) {
@@ -134,14 +139,16 @@ export default function KilangView() {
         selectedRoot={selectedRoot}
         morphMode={morphMode}
         sourceFilter={sourceFilter}
-        layoutMode={layoutMode}
+        direction={direction}
+        arrangement={arrangement}
         scale={scale}
         isFit={isFit}
         showStatsOverlay={showStatsOverlay}
         setMorphMode={(m) => setMorphMode(m as MorphMode)}
         setSourceFilter={setSourceFilter}
         setShowStatsOverlay={setShowStatsOverlay}
-        setLayoutMode={setLayoutMode}
+        setDirection={setDirection}
+        setArrangement={setArrangement}
         setScale={setScale}
         setIsFit={setIsFit}
         handleExport={handleExport}
@@ -164,7 +171,9 @@ export default function KilangView() {
         <KilangCanvas
           selectedRoot={selectedRoot}
           rootData={rootData}
-          layoutMode={layoutMode}
+          direction={direction}
+          arrangement={arrangement}
+          nodeMap={nodeMap}
           isFit={isFit}
           scale={scale}
           treeRef={treeRef}

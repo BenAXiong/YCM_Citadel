@@ -136,3 +136,93 @@ export const calculateTreeRows = (
   
   return totalUsed;
 };
+
+// --- COORDINATE ENGINE ---
+
+export interface NodeCoordinate {
+  x: number;
+  y: number;
+}
+
+export type NodeMap = Record<string, NodeCoordinate>;
+
+// Standard "Bounding Box" for nodes to ensure consistent line connection points
+export const LAYOUT_CONSTANTS = {
+  NODE_WIDTH: 240,    // Base width plus internal padding
+  NODE_HEIGHT: 100,   // Base height plus internal padding
+  ROOT_SIZE: 150,     // Root bubble is larger
+  GUTTER_H: 80,       // Distance between tiers
+  GUTTER_V: 40,       // Distance between siblings in flow
+  ALIGN_CELL_W: 280,  // Grid cell width for aligned mode
+  ALIGN_CELL_H: 120,  // Grid cell height for aligned mode
+};
+
+/**
+ * Deterministically calculates {x, y} coordinates for all nodes in the tree.
+ * This eliminates the need for DOM measurement (getBoundingClientRect).
+ */
+export const calculateNodeMap = (
+  root: string,
+  derivatives: Derivation[],
+  direction: 'horizontal' | 'vertical',
+  arrangement: 'aligned' | 'flow'
+): NodeMap => {
+  const nodeMap: NodeMap = {};
+  const { ROOT_SIZE, ALIGN_CELL_W, ALIGN_CELL_H, GUTTER_H, GUTTER_V, NODE_WIDTH, NODE_HEIGHT } = LAYOUT_CONSTANTS;
+  const CENTER = 1000;
+
+  // 1. Position Root (True Forest Center)
+  const rootKey = normalizeWord(root) || root;
+  nodeMap[rootKey] = { x: CENTER, y: CENTER };
+
+  if (arrangement === 'aligned') {
+    // ALIGNED Mode: Uses treeRow for consistent branches
+    derivatives.forEach(d => {
+      const tier = d.tier - 1;
+      const row = d.treeRow ?? 0;
+      if (direction === 'horizontal') {
+        nodeMap[d.word_ab] = { 
+          x: CENTER + (tier * ALIGN_CELL_W + ROOT_SIZE / 2 + 100), 
+          y: CENTER + (row * ALIGN_CELL_H) 
+        };
+      } else {
+        nodeMap[d.word_ab] = { 
+          x: CENTER + (row * ALIGN_CELL_W), 
+          y: CENTER + (tier * ALIGN_CELL_H + ROOT_SIZE / 2 + 100) 
+        };
+      }
+    });
+  } else {
+    // FLOW Mode: Uses tier grouping (V1 style)
+    const tiers: Record<number, Derivation[]> = {};
+    derivatives.forEach(d => {
+      if (!tiers[d.tier]) tiers[d.tier] = [];
+      tiers[d.tier].push(d);
+    });
+
+    Object.keys(tiers).forEach(tStr => {
+      const t = Number(tStr);
+      const tierNodes = tiers[t].sort((a, b) => a.word_ab.localeCompare(b.word_ab));
+      const tierIndex = t - 1;
+
+      tierNodes.forEach((node, i) => {
+        const spacing = (direction === 'horizontal' ? NODE_HEIGHT : NODE_WIDTH) + GUTTER_V;
+        const offset = (i - (tierNodes.length - 1) / 2) * spacing;
+
+        if (direction === 'horizontal') {
+          nodeMap[node.word_ab] = { 
+            x: CENTER + (tierIndex * (NODE_WIDTH + GUTTER_H) + ROOT_SIZE / 2 + 50), 
+            y: CENTER + offset 
+          };
+        } else {
+          nodeMap[node.word_ab] = { 
+            x: CENTER + offset, 
+            y: CENTER + (tierIndex * (NODE_HEIGHT + GUTTER_H) + ROOT_SIZE / 2 + 50) 
+          };
+        }
+      });
+    });
+  }
+
+  return nodeMap;
+};

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { GitBranch, Activity, ChevronDown, RotateCcw, Minus, Plus, ImageIcon, Boxes, Maximize, TrendingUp } from 'lucide-react';
+import { GitBranch, Activity, ChevronDown, RotateCcw, Minus, Plus, ImageIcon, Boxes, Maximize, TrendingUp, ArrowRight, ArrowDown, LayoutGrid, Rows } from 'lucide-react';
 
 interface CompactMetricProps {
   icon: React.ReactNode;
@@ -37,14 +37,16 @@ interface KilangHeaderProps {
   selectedRoot: string | null;
   morphMode: 'moe' | 'plus' | 'star';
   sourceFilter: string;
-  layoutMode: 'h1' | 'h2' | 'v1' | 'v2';
+  direction: 'horizontal' | 'vertical';
+  arrangement: 'aligned' | 'flow';
   scale: number;
   isFit: boolean;
   showStatsOverlay: boolean;
   setMorphMode: (mode: 'moe' | 'plus' | 'star') => void;
   setSourceFilter: (filter: string) => void;
   setShowStatsOverlay: (show: boolean) => void;
-  setLayoutMode: (mode: 'h1' | 'h2' | 'v1' | 'v2') => void;
+  setDirection: (dir: 'horizontal' | 'vertical') => void;
+  setArrangement: (arr: 'aligned' | 'flow') => void;
   setScale: (scale: number | ((prev: number) => number)) => void;
   setIsFit: (fit: boolean) => void;
   handleExport: () => Promise<void>;
@@ -56,14 +58,16 @@ export const KilangHeader = ({
   selectedRoot,
   morphMode,
   sourceFilter,
-  layoutMode,
+  direction,
+  arrangement,
   scale,
   isFit,
   showStatsOverlay,
   setMorphMode,
   setSourceFilter,
   setShowStatsOverlay,
-  setLayoutMode,
+  setDirection,
+  setArrangement,
   setScale,
   setIsFit,
   handleExport,
@@ -156,18 +160,45 @@ export const KilangHeader = ({
       <div className="flex-1 flex items-center justify-center px-8 border-x border-white/5 mx-6 h-full">
         {selectedRoot ? (
           <div className="flex items-center gap-6 animate-in fade-in slide-in-from-top-2 duration-500">
-            <div className="flex items-center gap-3">
-              <span className="text-[8px] font-black text-kilang-text-muted uppercase tracking-widest">Layout</span>
-              <div className="flex items-center gap-1.5 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
-                {(['h1', 'h2', 'v1', 'v2'] as const).map(mode => (
+            <div className="flex items-center gap-6">
+              <div className="flex items-center gap-2.5">
+                <span className="text-[8px] font-black text-kilang-text-muted uppercase tracking-widest">Growth</span>
+                <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
                   <button
-                    key={mode}
-                    onClick={() => setLayoutMode(mode)}
-                    className={`w-7 h-7 flex items-center justify-center rounded text-[9px] font-black transition-all ${layoutMode === mode ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    onClick={() => setDirection('horizontal')}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${direction === 'horizontal' ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    title="Horizontal Growth"
                   >
-                    {mode.toUpperCase()}
+                    <ArrowRight className="w-3.5 h-3.5" />
                   </button>
-                ))}
+                  <button
+                    onClick={() => setDirection('vertical')}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${direction === 'vertical' ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    title="Vertical Growth"
+                  >
+                    <ArrowDown className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2.5">
+                <span className="text-[8px] font-black text-kilang-text-muted uppercase tracking-widest">Pattern</span>
+                <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
+                  <button
+                    onClick={() => setArrangement('flow')}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${arrangement === 'flow' ? 'bg-indigo-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    title="Flow (Organized Groups)"
+                  >
+                    <LayoutGrid className="w-3.5 h-3.5" />
+                  </button>
+                  <button
+                    onClick={() => setArrangement('aligned')}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${arrangement === 'aligned' ? 'bg-indigo-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    title="Aligned (Chain Selection)"
+                  >
+                    <Rows className="w-3.5 h-3.5" />
+                  </button>
+                </div>
               </div>
             </div>
 
