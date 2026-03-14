@@ -19,15 +19,17 @@ const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale }: 
     const t = nodeMap[d.word_ab];
     if (!s || !t) return null;
 
-    const source = { x: s.x, y: s.y };
-    const target = { x: t.x, y: t.y };
+    const sourceX = direction === 'horizontal' ? s.x + 120 : s.x;
+    const sourceY = direction === 'horizontal' ? s.y : s.y + 50;
+    const targetX = direction === 'horizontal' ? t.x - 120 : t.x;
+    const targetY = direction === 'horizontal' ? t.y : t.y - 50;
 
     if (direction === 'vertical') {
-      const midY = (source.y + target.y) / 2;
-      return `M ${source.x} ${source.y} C ${source.x} ${midY} ${target.x} ${midY} ${target.x} ${target.y}`;
+      const midY = (sourceY + targetY) / 2;
+      return `M ${sourceX} ${sourceY} C ${sourceX} ${midY} ${targetX} ${midY} ${targetX} ${targetY}`;
     } else {
-      const midX = (source.x + target.x) / 2;
-      return `M ${source.x} ${source.y} C ${midX} ${source.y} ${midX} ${target.y} ${target.x} ${target.y}`;
+      const midX = (sourceX + targetX) / 2;
+      return `M ${sourceX} ${sourceY} C ${midX} ${sourceY} ${midX} ${targetY} ${targetX} ${targetY}`;
     }
   }).filter(Boolean) as string[];
 

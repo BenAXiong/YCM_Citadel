@@ -11,19 +11,17 @@ import { KilangCanvas } from './kilang/KilangCanvas';
 import { StatsOverlay } from './kilang/StatsOverlay';
 
 // Data Logic
-import { useKilangData, MorphMode } from './kilang/useKilangData';
+import { useKilang } from './kilang/useKilang';
 
 export default function KilangView() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [exporting, setExporting] = useState(false);
-  const [scale, setScale] = useState(1);
-  const [isFit, setIsFit] = useState(false);
   const treeRef = useRef<HTMLDivElement>(null);
-  const [branchFilter, setBranchFilter] = useState<string | 'all'>('all');
-  const [showStatsOverlay, setShowStatsOverlay] = useState(false);
-  const [morphMode, setMorphMode] = useState<MorphMode>('moe');
-  const [visibleChainsCount, setVisibleChainsCount] = useState(10);
-  const [sourceFilter, setSourceFilter] = useState<string>('ALL');
+  const {
+    state,
+    dispatch,
+    nodeMap,
+    fetchRootDetails,
+    fetchSummary,
+  } = useKilang();
 
   const {
     stats,
@@ -33,13 +31,16 @@ export default function KilangView() {
     summaryCache,
     direction,
     arrangement,
-    nodeMap,
-    setDirection,
-    setArrangement,
-    fetchRootDetails,
-    fetchSummary,
-    setSelectedRoot,
-  } = useKilangData(morphMode, sourceFilter);
+    scale,
+    isFit,
+    morphMode,
+    sourceFilter,
+    searchTerm,
+    branchFilter,
+    showStatsOverlay,
+    visibleChainsCount,
+    exporting
+  } = state;
 
   const MOE_SOURCES = [
     { id: 'ALL', label: 'ALL SOURCES' },
@@ -64,7 +65,7 @@ export default function KilangView() {
     if (!stats) return {};
     const hits: Record<string, number> = {};
     FILTER_BUCKETS.forEach(bucket => {
-      hits[bucket.label] = stats.top_roots.filter(r => r.count >= bucket.min && r.count <= bucket.max).length;
+      hits[bucket.label] = stats.top_roots.filter((r: any) => r.count >= bucket.min && r.count <= bucket.max).length;
     });
     return hits;
   }, [stats]);
@@ -74,18 +75,18 @@ export default function KilangView() {
     let roots = stats.top_roots;
 
     if (searchTerm) {
-      roots = roots.filter(r => r.root.toLowerCase().includes(searchTerm.toLowerCase()));
+      roots = roots.filter((r: any) => r.root.toLowerCase().includes(searchTerm.toLowerCase()));
     }
 
     if (branchFilter !== 'all') {
       const bucket = FILTER_BUCKETS.find(b => b.label === branchFilter);
       if (bucket) {
-        roots = roots.filter(r => r.count >= bucket.min && r.count <= bucket.max);
+        roots = roots.filter((r: any) => r.count >= bucket.min && r.count <= bucket.max);
       }
     }
 
     const uniqueRoots = new Map();
-    roots.forEach(r => {
+    roots.forEach((r: any) => {
       const low = r.root.toLowerCase();
       if (!uniqueRoots.has(low) || r.count > uniqueRoots.get(low).count) {
         uniqueRoots.set(low, r);
@@ -97,7 +98,7 @@ export default function KilangView() {
 
   const handleExport = async () => {
     if (!treeRef.current || !selectedRoot) return;
-    setExporting(true);
+    dispatch({ type: 'SET_UI', exporting: true });
     try {
       await new Promise(resolve => setTimeout(resolve, 500));
       const dataUrl = await toPng(treeRef.current, {
@@ -117,7 +118,7 @@ export default function KilangView() {
     } catch (err) {
       console.error('Export failed:', err);
     } finally {
-      setExporting(false);
+      dispatch({ type: 'SET_UI', exporting: false });
     }
   };
 
@@ -144,13 +145,16 @@ export default function KilangView() {
         scale={scale}
         isFit={isFit}
         showStatsOverlay={showStatsOverlay}
-        setMorphMode={(m) => setMorphMode(m as MorphMode)}
-        setSourceFilter={setSourceFilter}
-        setShowStatsOverlay={setShowStatsOverlay}
-        setDirection={setDirection}
-        setArrangement={setArrangement}
-        setScale={setScale}
-        setIsFit={setIsFit}
+        setMorphMode={(m) => dispatch({ type: 'SET_CONFIG', morphMode: m as any })}
+        setSourceFilter={(s) => dispatch({ type: 'SET_CONFIG', sourceFilter: s })}
+        setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
+        setDirection={(d) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
+        setArrangement={(a) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
+        setScale={(s) => {
+          const val = typeof s === 'function' ? s(scale) : s;
+          dispatch({ type: 'SET_TRANSFORM', scale: val });
+        }}
+        setIsFit={(f) => dispatch({ type: 'SET_TRANSFORM', isFit: f })}
         handleExport={handleExport}
         MOE_SOURCES={MOE_SOURCES}
       />
@@ -158,9 +162,9 @@ export default function KilangView() {
       <div className="flex-1 flex overflow-hidden">
         <KilangSidebar
           searchTerm={searchTerm}
-          setSearchTerm={setSearchTerm}
+          setSearchTerm={(s) => dispatch({ type: 'SET_UI', searchTerm: s })}
           branchFilter={branchFilter}
-          setBranchFilter={setBranchFilter}
+          setBranchFilter={(b) => dispatch({ type: 'SET_UI', branchFilter: b })}
           filteredRoots={filteredRoots}
           selectedRoot={selectedRoot}
           fetchRootDetails={fetchRootDetails}
@@ -186,10 +190,13 @@ export default function KilangView() {
 
       <StatsOverlay
         showStatsOverlay={showStatsOverlay}
-        setShowStatsOverlay={setShowStatsOverlay}
+        setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
         stats={stats}
         visibleChainsCount={visibleChainsCount}
-        setVisibleChainsCount={setVisibleChainsCount}
+        setVisibleChainsCount={(c) => {
+          const val = typeof c === 'function' ? c(visibleChainsCount) : c;
+          dispatch({ type: 'SET_UI', visibleChainsCount: val });
+        }}
         fetchRootDetails={fetchRootDetails}
       />
     </div>
