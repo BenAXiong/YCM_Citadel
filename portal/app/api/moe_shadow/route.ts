@@ -22,22 +22,26 @@ export async function GET(request: Request) {
         }
 
         if (aggregate) {
+            // Safety: moe_hierarchy_moe has sort_path and sources. plus/star do not.
+            const hasExtraColumns = (tableName === 'moe_hierarchy_moe');
+            
             let sql = `
-                SELECT e.*, h.parent_word, h.ultimate_root, h.depth as tier, h.sort_path
+                SELECT e.*, h.parent_word, h.ultimate_root, h.depth as tier
+                ${hasExtraColumns ? ', h.sort_path, h.sources' : ''}
                 FROM moe_entries e
                 JOIN ${tableName} h ON RTRIM(e.word_ab, '|') = h.word_ab
                 WHERE LOWER(h.ultimate_root) = LOWER(?)
             `;
             
             const bindParams: any[] = [keyword];
-            if (sourceFilter && sourceFilter !== 'ALL') {
+            if (sourceFilter && sourceFilter !== 'ALL' && hasExtraColumns) {
                 sql += ` AND h.sources LIKE ?`;
                 bindParams.push(`%${sourceFilter}%`);
             }
 
             const stmt = db.prepare(sql);
             const rows = stmt.all(...bindParams) as any[];
-            console.log(`[API/MOE] Aggregate found ${rows.length} results for "${keyword}"`);
+            console.log(`[API/MOE] Mode: ${mode}, Table: ${tableName}, Results: ${rows.length} for "${keyword}"`);
             return NextResponse.json({ rows });
         }
 
