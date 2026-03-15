@@ -10,9 +10,10 @@ interface WordTooltipProps {
   id?: string;
   summaryCache: Record<string, string[]>;
   fetchSummary: (word: string) => Promise<void>;
+  className?: string;
 }
 
-export const WordTooltip = ({ word, children, dictCode, id, summaryCache, fetchSummary }: WordTooltipProps) => {
+export const WordTooltip = ({ word, children, dictCode, id, summaryCache, fetchSummary, className = "relative inline-block" }: WordTooltipProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const timeoutRef = useRef<any>(null);
   const cacheKey = word.toLowerCase();
@@ -28,12 +29,12 @@ export const WordTooltip = ({ word, children, dictCode, id, summaryCache, fetchS
   };
 
   return (
-    <div id={id} className="relative inline-block" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+    <div id={id} className={className} onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
       {children}
       <div
         onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
         onMouseLeave={handleLeave}
-        className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-80 bg-[#0f172a] border border-blue-500/30 shadow-[0_0_50px_rgba(0,0,0,0.5)] rounded-2xl p-6 transition-all z-[2000] pointer-events-auto text-left leading-normal duration-200 border-b-4 border-b-blue-500 ${isHovered ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 translate-y-2'}`}
+        className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-80 bg-[#0f172a]/90 backdrop-blur-xl border border-blue-500/30 shadow-[0_0_50px_rgba(0,0,0,0.5)] rounded-2xl p-6 transition-all z-[2000] pointer-events-auto text-left leading-normal duration-200 border-b-4 border-b-blue-500 ${isHovered ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 translate-y-2'}`}
       >
         <div className="flex flex-col gap-1 mb-4 border-b border-white/10 pb-3">
           <div className="flex items-center justify-between text-normal">
@@ -114,8 +115,9 @@ export const KilangNode = ({ word, dictCode, tier = 2, isRoot = false, summaryCa
             <div 
               className="border-4 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-20 relative min-w-[120px] flex items-center justify-center transition-colors duration-500"
               style={{ 
-                backgroundColor: `${config.rootColor}1A`, 
+                backgroundColor: `${config.rootColor}33`, 
                 borderColor: config.rootColor,
+                boxShadow: `0 0 60px ${config.rootColor}40`,
                 paddingTop: `${config.nodePaddingY * 2}px`,
                 paddingBottom: `${config.nodePaddingY * 2}px`
               }}

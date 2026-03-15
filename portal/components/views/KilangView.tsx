@@ -93,7 +93,7 @@ export default function KilangView() {
       }
     });
 
-    return Array.from(uniqueRoots.values()).sort((a, b) => b.count - a.count);
+    return Array.from(uniqueRoots.values()).sort((a, b) => a.count - b.count);
   }, [stats, searchTerm, branchFilter]);
 
   const handleExport = async () => {
@@ -159,20 +159,30 @@ export default function KilangView() {
         updateLayoutConfig={(config) => dispatch({ type: 'SET_LAYOUT_CONFIG', config })}
         handleExport={handleExport}
         MOE_SOURCES={MOE_SOURCES}
+        showStats={state.showStats}
+        showDevTools={state.showDevTools}
+        showFilterPanel={state.showFilterPanel}
+        dispatch={dispatch}
       />
 
       <div className="flex-1 flex overflow-hidden">
-        <KilangSidebar
-          searchTerm={searchTerm}
-          setSearchTerm={(s) => dispatch({ type: 'SET_UI', searchTerm: s })}
-          branchFilter={branchFilter}
-          setBranchFilter={(b) => dispatch({ type: 'SET_UI', branchFilter: b })}
-          filteredRoots={filteredRoots}
-          selectedRoot={selectedRoot}
-          fetchRootDetails={fetchRootDetails}
-          bucketHits={bucketHits}
-          FILTER_BUCKETS={FILTER_BUCKETS}
-        />
+        {state.showFilterPanel && (
+          <KilangSidebar
+            searchTerm={searchTerm}
+            setSearchTerm={(s) => dispatch({ type: 'SET_UI', searchTerm: s })}
+            branchFilter={branchFilter}
+            setBranchFilter={(b) => dispatch({ type: 'SET_UI', branchFilter: b })}
+            filteredRoots={filteredRoots}
+            selectedRoot={selectedRoot}
+            fetchRootDetails={fetchRootDetails}
+            bucketHits={bucketHits}
+            FILTER_BUCKETS={FILTER_BUCKETS}
+            summaryCache={summaryCache}
+            fetchSummary={fetchSummary}
+            isCollapsed={state.sidebarCollapsed}
+            onToggle={() => dispatch({ type: 'SET_UI', sidebarCollapsed: !state.sidebarCollapsed })}
+          />
+        )}
 
         <KilangCanvas
           selectedRoot={selectedRoot}

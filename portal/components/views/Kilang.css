@@ -64,3 +64,15 @@
 .tree-node {
   animation: branchGrow 0.5s ease-out forwards;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.watering-can-cursor {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' style='font-size:24px'><text y='50%'>🚿</text></svg>") 10 10, pointer;
+}

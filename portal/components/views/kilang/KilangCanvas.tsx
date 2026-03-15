@@ -1,6 +1,7 @@
+import React from 'react';
 import { Activity, RefreshCw, TreePine } from 'lucide-react';
 import { KilangNode } from './KilangNode';
-import { NodeMap } from './kilangUtils';
+import { NodeMap, normalizeWord } from './kilangUtils';
 import { KilangToolbox } from './KilangToolbox';
 import { KilangAction } from './kilangReducer';
 
@@ -11,24 +12,50 @@ interface LineageCanvasProps {
   direction: 'horizontal' | 'vertical';
   isFit: boolean;
   scale: number;
-  layoutConfig: { lineGapX: number; lineGapY: number; lineColor: string; lineColorMid: string; lineGradientEnd: string };
+  layoutConfig: {
+    lineGapX: number;
+    lineGapY: number;
+    lineColor: string;
+    lineColorMid: string;
+    lineGradientEnd: string;
+    nodeWidth: number;
+    nodePaddingY: number;
+    nodeSize: number;
+    anchorX: number;
+    anchorY: number;
+  };
 }
 
 const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, layoutConfig }: LineageCanvasProps) => {
-  const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
-  
+  const nodeScale = layoutConfig.nodeSize || 1;
+  const isVert = direction === 'vertical';
+
+  // Recalibrated baselines: 
+  // Root is ~120x80 (H:60, V:40). Branches are nodeWidth x (padding*2 + 16)
+  const ROOT_R = (isVert ? 40 : 60) * nodeScale;
+  const BRANCH_W = (layoutConfig.nodeWidth / 2) * nodeScale;
+  const BRANCH_H = (layoutConfig.nodePaddingY + 8) * nodeScale; // text half-height is ~8px
+
   const paths = derivatives.map(d => {
-    const s = nodeMap[d.parentWord || normalize(root)];
+    const parentKey = d.parentWord || normalizeWord(root) || '';
+    const s = nodeMap[parentKey];
     const t = nodeMap[d.word_ab];
     if (!s || !t) return null;
 
-    const GAP_X = layoutConfig.lineGapX;
-    const GAP_Y = layoutConfig.lineGapY;
+    const isRootSource = parentKey === normalizeWord(root);
 
-    const sourceX = direction === 'horizontal' ? s.x + GAP_X : s.x;
-    const sourceY = direction === 'horizontal' ? s.y : s.y - GAP_Y; 
-    const targetX = direction === 'horizontal' ? t.x - GAP_X : t.x;
-    const targetY = direction === 'horizontal' ? t.y : t.y + GAP_Y;
+    let sourceX = s.x;
+    let sourceY = s.y;
+    let targetX = t.x;
+    let targetY = t.y;
+
+    if (direction === 'horizontal') {
+      sourceX += (isRootSource ? ROOT_R : BRANCH_W) + layoutConfig.lineGapX;
+      targetX -= (BRANCH_W + layoutConfig.lineGapX);
+    } else {
+      sourceY -= (isRootSource ? ROOT_R : BRANCH_H) + layoutConfig.lineGapY;
+      targetY += (BRANCH_H + layoutConfig.lineGapY);
+    }
 
     if (direction === 'vertical') {
       const midY = (sourceY + targetY) / 2;
@@ -40,9 +67,9 @@ const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, la
   }).filter(Boolean) as string[];
 
   return (
-    <svg 
-      width="2000" 
-      height="2000" 
+    <svg
+      width="2000"
+      height="2000"
       viewBox="0 0 2000 2000"
       className="absolute inset-0 pointer-events-none z-0 overflow-visible"
     >
@@ -54,15 +81,16 @@ const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, la
         </linearGradient>
       </defs>
       {paths.map((d, i) => (
-        <path 
-          key={i} 
-          d={d} 
-          stroke="url(#lineageGradient)" 
-          strokeWidth="1.5" 
+        <path
+          key={i}
+          d={d}
+          stroke="url(#lineageGradient)"
+          strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
-          fill="none" 
-          className="transition-all duration-700 opacity-20 hover:opacity-100" 
+          fill="none"
+          className="transition-all duration-700 opacity-20 hover:opacity-100"
+          style={{ zIndex: -1 }}
         />
       ))}
     </svg>
@@ -100,6 +128,8 @@ interface KilangCanvasProps {
     showIcons: boolean;
     nodeWidth: number;
     nodePaddingY: number;
+    anchorX: number;
+    anchorY: number;
   };
   dispatch: React.Dispatch<KilangAction>;
 }
@@ -122,6 +152,41 @@ export const KilangCanvas = ({
   dispatch
 }: KilangCanvasProps) => {
   const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
+  const [viewPos, setViewPos] = React.useState({ x: 0, y: 0, w: 0, h: 0 });
+
+  React.useEffect(() => {
+    const el = treeRef.current;
+    if (!el) return;
+
+    const updatePos = () => {
+      const container = treeRef.current;
+      const canvas = container?.querySelector('[style*="width: 2000px"]');
+      if (!container || !canvas) return;
+
+      const cRect = container.getBoundingClientRect();
+      const sRect = canvas.getBoundingClientRect();
+      const currentScale = isFit ? fitTransform.scale : scale;
+
+      setViewPos({
+        x: Math.round((cRect.left - sRect.left) / currentScale),
+        y: Math.round((cRect.top - sRect.top) / currentScale),
+        w: Math.round(cRect.width / currentScale),
+        h: Math.round(cRect.height / currentScale)
+      });
+    };
+
+    updatePos();
+    el.addEventListener('scroll', updatePos);
+    window.addEventListener('resize', updatePos);
+
+    const timer = setInterval(updatePos, 200); // Poll for transition-based moves
+
+    return () => {
+      el.removeEventListener('scroll', updatePos);
+      window.removeEventListener('resize', updatePos);
+      clearInterval(timer);
+    };
+  }, [selectedRoot, treeRef, isFit, scale, fitTransform]);
 
   return (
     <main className="flex-1 overflow-hidden relative">
@@ -129,13 +194,28 @@ export const KilangCanvas = ({
         <div className="p-4" />
         <div className="flex-1 p-8 pt-4 overflow-hidden flex flex-col">
           <div className="flex-1 kilang-glass-panel rounded-3xl overflow-hidden relative flex flex-col border border-white/10 shadow-2xl">
-            {selectedRoot ? (
-              <div ref={treeRef} className="flex-1 overflow-auto custom-scrollbar bg-[#020617]/40 relative flex items-center justify-center p-32">
-                {/* Visual Toolbox Overlay */}
-                <KilangToolbox 
-                  layoutConfig={layoutConfig} 
-                  dispatch={dispatch} 
+            {/* Visual Toolbox Overlay - Pinned relative to panel */}
+            {selectedRoot && (
+              <>
+                <KilangToolbox
+                  layoutConfig={layoutConfig}
+                  dispatch={dispatch}
                 />
+                <div className="absolute top-6 right-8 text-[10px] font-mono text-white/20 uppercase tracking-[0.2em] pointer-events-none select-none z-0 text-right">
+                  2000 x 2000 px<br />
+                  <div className="mt-2 text-white/10">
+                    VP TL: 0, 0 px<br />
+                    VP TR: {viewPos.w}, 0 px<br />
+                    ASPECT: {(viewPos.w / (viewPos.h || 1)).toFixed(2)}<br />
+                    CV TL: {-viewPos.x}, {-viewPos.y} px<br />
+                    CV TR: {2000 - viewPos.x}, {-viewPos.y} px
+                  </div>
+                </div>
+              </>
+            )}
+
+            {selectedRoot ? (
+              <div ref={treeRef} className="flex-1 overflow-auto no-scrollbar bg-[#020617]/40 relative flex items-center justify-center p-32">
 
                 {rootData?.error ? (
                   <div className="h-full flex flex-col items-center justify-center space-y-4">
@@ -153,46 +233,48 @@ export const KilangCanvas = ({
                 ) : (
                   <div
                     className="relative transition-all duration-700"
-                    style={{ 
-                      width: '2000px', 
-                      height: '2000px', 
-                      transform: isFit 
-                        ? `scale(${fitTransform.scale}) translate(${fitTransform.x}px, ${fitTransform.y}px)` 
+                    style={{
+                      width: '2000px',
+                      height: '2000px',
+                      transform: isFit
+                        ? `scale(${fitTransform.scale}) translate(${fitTransform.x}px, ${fitTransform.y}px)`
                         : `scale(${scale})`,
                       transformOrigin: 'center center'
                     }}
                   >
-                    {/* SVG Layer */}
-                    <LineageCanvas 
-                      root={selectedRoot} 
-                      derivatives={rootData?.derivatives || []} 
-                      nodeMap={nodeMap} 
-                      direction={direction} 
-                      isFit={isFit} 
-                      scale={scale} 
-                      layoutConfig={layoutConfig}
-                    />
+                    {/* 1. SVG Layer (Background) */}
+                    <div className="absolute inset-0 pointer-events-none" style={{ zIndex: 0 }}>
+                      <LineageCanvas
+                        root={selectedRoot}
+                        derivatives={rootData?.derivatives || []}
+                        nodeMap={nodeMap}
+                        direction={direction}
+                        isFit={isFit}
+                        scale={scale}
+                        layoutConfig={layoutConfig}
+                      />
+                    </div>
 
-                    {/* Nodes Layer - Absolutely Positioned */}
-                    <div className="absolute inset-0">
+                    {/* 2. Nodes Layer (Foreground) */}
+                    <div className="absolute inset-0" style={{ zIndex: 10 }}>
                       {/* Root Node */}
                       {(() => {
                         const pos = nodeMap[normalize(selectedRoot)];
                         if (!pos) return null;
                         return (
-                          <div 
+                          <div
                             className="absolute transition-all duration-700"
-                            style={{ 
-                              left: 0, 
-                              top: 0, 
-                              transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)` 
+                            style={{
+                              left: 0,
+                              top: 0,
+                              transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`
                             }}
                           >
-                            <KilangNode 
-                              word={selectedRoot} 
-                              isRoot={true} 
-                              summaryCache={summaryCache} 
-                              fetchSummary={fetchSummary} 
+                            <KilangNode
+                              word={selectedRoot}
+                              isRoot={true}
+                              summaryCache={summaryCache}
+                              fetchSummary={fetchSummary}
                               config={layoutConfig}
                             />
                           </div>
@@ -204,21 +286,21 @@ export const KilangCanvas = ({
                         const pos = nodeMap[d.word_ab];
                         if (!pos) return null;
                         return (
-                          <div 
-                            key={d.word_ab} 
+                          <div
+                            key={d.word_ab}
                             className="absolute transition-all duration-700"
-                            style={{ 
-                              left: 0, 
-                              top: 0, 
-                              transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)` 
+                            style={{
+                              left: 0,
+                              top: 0,
+                              transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`
                             }}
                           >
-                            <KilangNode 
-                              word={d.word_ab} 
-                              dictCode={d.dict_code?.toUpperCase()} 
-                              tier={d.tier} 
-                              summaryCache={summaryCache} 
-                              fetchSummary={fetchSummary} 
+                            <KilangNode
+                              word={d.word_ab}
+                              dictCode={d.dict_code?.toUpperCase()}
+                              tier={d.tier}
+                              summaryCache={summaryCache}
+                              fetchSummary={fetchSummary}
                               config={layoutConfig}
                             />
                           </div>

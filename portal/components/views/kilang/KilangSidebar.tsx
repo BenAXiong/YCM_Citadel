@@ -1,7 +1,8 @@
 'use client';
 
 import React from 'react';
-import { Search, Filter, XCircle } from 'lucide-react';
+import { Search, Filter, XCircle, ChevronLeft, ChevronRight } from 'lucide-react';
+import { WordTooltip } from './KilangNode';
 
 interface KilangSidebarProps {
   searchTerm: string;
@@ -13,6 +14,10 @@ interface KilangSidebarProps {
   fetchRootDetails: (root: string) => Promise<void>;
   bucketHits: Record<string, number>;
   FILTER_BUCKETS: Array<{ label: string; min: number; max: number }>;
+  summaryCache: Record<string, string[]>;
+  fetchSummary: (word: string) => Promise<void>;
+  isCollapsed: boolean;
+  onToggle: () => void;
 }
 
 export const KilangSidebar = ({
@@ -24,10 +29,42 @@ export const KilangSidebar = ({
   selectedRoot,
   fetchRootDetails,
   bucketHits,
-  FILTER_BUCKETS
+  FILTER_BUCKETS,
+  summaryCache,
+  fetchSummary,
+  isCollapsed,
+  onToggle
 }: KilangSidebarProps) => {
+  if (isCollapsed) {
+    return (
+      <aside className="w-16 border-r border-white/5 flex flex-col items-center py-6 kilang-glass-panel transition-all duration-300">
+        <button 
+          onClick={onToggle}
+          className="p-3 rounded-xl bg-white/5 border border-white/10 text-kilang-text-muted hover:text-white hover:bg-blue-600/20 hover:border-blue-500/50 transition-all shadow-lg"
+          title="Expand Filters"
+        >
+          <ChevronRight className="w-5 h-5" />
+        </button>
+        <div className="mt-8 flex flex-col items-center gap-6">
+          <Search className="w-5 h-5 text-kilang-text-muted/40" />
+          <Filter className="w-5 h-5 text-kilang-text-muted/40" />
+          <div className="h-px w-8 bg-white/5" />
+          <div className="[writing-mode:vertical-lr] text-[10px] font-black text-kilang-text-muted/30 uppercase tracking-[0.4em] rotate-180">
+            Tree Registry
+          </div>
+        </div>
+      </aside>
+    );
+  }
+
   return (
-    <aside className="w-96 border-r border-white/5 flex flex-col kilang-glass-panel">
+    <aside className="w-96 border-r border-white/5 flex flex-col kilang-glass-panel transition-all duration-300 relative">
+      <button 
+        onClick={onToggle}
+        className="absolute -right-4 top-10 w-8 h-8 rounded-full bg-[#1e293b] border border-white/10 flex items-center justify-center text-kilang-text-muted hover:text-white hover:border-blue-500 shadow-xl z-50 transition-all group"
+      >
+        <ChevronLeft className="w-4 h-4 group-hover:scale-110 transition-transform" />
+      </button>
       <div className="p-6 space-y-4">
         <div className="relative group">
           <Search className="absolute left-3 top-3 w-4 h-4 text-kilang-text-muted group-focus-within:text-blue-500" />
@@ -58,10 +95,18 @@ export const KilangSidebar = ({
       </div>
       <div className="flex-1 overflow-y-auto custom-scrollbar px-6 pb-6 space-y-2">
         {filteredRoots.map((r, i) => (
-          <div key={i} onClick={() => fetchRootDetails(r.root)} className={`px-4 py-2.5 rounded-xl cursor-pointer transition-all border flex items-center justify-between group ${selectedRoot === r.root ? 'bg-blue-600/20 border-blue-500/50' : 'bg-white/5 border-white/5 hover:border-white/20'}`}>
-            <span className="text-[13px] font-bold text-white uppercase tracking-tight">{r.root}</span>
-            <span className="text-xs font-black text-blue-500 bg-blue-500/10 px-2 py-1 rounded-md">{r.count}</span>
-          </div>
+          <WordTooltip 
+            key={i} 
+            word={r.root} 
+            summaryCache={summaryCache} 
+            fetchSummary={fetchSummary}
+            className="w-full block relative"
+          >
+            <div onClick={() => fetchRootDetails(r.root)} className={`px-4 py-2.5 rounded-xl watering-can-cursor transition-all border flex items-center justify-between group ${selectedRoot === r.root ? 'bg-blue-600/20 border-blue-500/50' : 'bg-white/5 border-white/5 hover:border-white/20'}`}>
+              <span className="text-[13px] font-bold text-white uppercase tracking-tight">{r.root}</span>
+              <span className="text-xs font-black text-blue-500 bg-blue-500/10 px-2 py-1 rounded-md">{r.count}</span>
+            </div>
+          </WordTooltip>
         ))}
       </div>
     </aside>

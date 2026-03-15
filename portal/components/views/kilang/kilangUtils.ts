@@ -216,7 +216,7 @@ export const calculateNodeMap = (
   derivatives: Derivation[],
   direction: 'horizontal' | 'vertical',
   arrangement: 'aligned' | 'flow',
-  config?: { interTierGap: number; interRowGap: number }
+  config?: { interTierGap: number; interRowGap: number; nodeWidth: number; anchorX: number; anchorY: number }
 ): NodeMap => {
   const nodeMap: NodeMap = {};
   const { ROOT_SIZE, ALIGN_CELL_W: BASE_W, ALIGN_CELL_H: BASE_H, GUTTER_H, GUTTER_V, NODE_WIDTH, NODE_HEIGHT } = LAYOUT_CONSTANTS;
@@ -224,8 +224,8 @@ export const calculateNodeMap = (
   const cellW = (arrangement === 'aligned' && config?.interTierGap) ? config.interTierGap : BASE_W;
   const cellH = (arrangement === 'aligned' && config?.interRowGap) ? config.interRowGap : BASE_H;
 
-  const CENTER_X = direction === 'horizontal' ? 200 : 1000; 
-  const CENTER_Y = direction === 'vertical' ? 200 : 1000;
+  const CENTER_X = config?.anchorX ?? (direction === 'horizontal' ? 400 : 1000); 
+  const CENTER_Y = config?.anchorY ?? (direction === 'vertical' ? 1300 : 1000);
 
   // 1. Position Root
   const rootKey = normalizeWord(root) || root;

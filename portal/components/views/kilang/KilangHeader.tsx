@@ -1,21 +1,21 @@
 'use client';
 
 import React from 'react';
-import { 
-  GitBranch, 
-  Activity, 
-  ChevronDown, 
-  RotateCcw, 
-  Minus, 
-  Plus, 
-  ImageIcon, 
-  Boxes, 
-  Maximize2, 
-  TrendingUp, 
-  ArrowRight, 
-  ArrowDown, 
-  LayoutGrid, 
-  Rows, 
+import {
+  GitBranch,
+  Activity,
+  ChevronDown,
+  RotateCcw,
+  Minus,
+  Plus,
+  ImageIcon,
+  Boxes,
+  Maximize2,
+  TrendingUp,
+  ArrowRight,
+  ArrowUp,
+  LayoutGrid,
+  Rows,
   Settings2,
   Search,
   Info,
@@ -78,6 +78,10 @@ interface KilangHeaderProps {
   updateLayoutConfig: (config: Partial<KilangState['layoutConfig']>) => void;
   handleExport: () => Promise<void>;
   MOE_SOURCES: Array<{ id: string; label: string }>;
+  showStats: boolean;
+  showDevTools: boolean;
+  showFilterPanel: boolean;
+  dispatch: any;
 }
 
 export const KilangHeader = ({
@@ -100,8 +104,13 @@ export const KilangHeader = ({
   setIsFit,
   updateLayoutConfig,
   handleExport,
-  MOE_SOURCES
-}: KilangHeaderProps) => {
+  MOE_SOURCES,
+  showStats,
+  showDevTools,
+  showFilterPanel,
+  dispatch
+}: KilangHeaderProps & { dispatch: React.Dispatch<any> }) => {
+  const [showSettings, setShowSettings] = React.useState(false);
 
   return (
     <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between px-6 z-50 shrink-0">
@@ -122,18 +131,7 @@ export const KilangHeader = ({
 
         <div className="h-4 w-[1px] bg-white/10 mx-1" />
 
-        {/* 2. Morphology Distribution Toggle */}
-        <button
-          onClick={() => setShowStatsOverlay(true)}
-          className={`flex items-center justify-center w-10 h-10 rounded-xl border transition-all ${showStatsOverlay ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg' : 'bg-white/5 border-white/10 text-kilang-text-muted hover:border-white/30 hover:text-white'}`}
-          title="Morphology Distribution"
-        >
-          <Activity className="w-5 h-5" />
-        </button>
-
-        <div className="h-4 w-[1px] bg-white/10 mx-1" />
-
-        {/* 3. Morphology Mode Selector + Source Dropdown */}
+        {/* 2. Morphology Mode Selector + Source Dropdown */}
         <div className="flex bg-white/5 border border-white/10 rounded-xl p-0.5 h-10 items-stretch relative">
           {(['moe', 'plus', 'star'] as const).map(mode => {
             if (mode === 'moe') {
@@ -206,7 +204,7 @@ export const KilangHeader = ({
                     className={`w-8 h-7 flex items-center justify-center rounded transition-all ${direction === 'vertical' ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
                     title="Vertical Growth"
                   >
-                    <ArrowDown className="w-3.5 h-3.5" />
+                    <ArrowUp className="w-3.5 h-3.5" />
                   </button>
                 </div>
               </div>
@@ -231,15 +229,17 @@ export const KilangHeader = ({
                 </div>
               </div>
 
-              <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
-                <button
-                  onClick={() => updateLayoutConfig({ showToolbox: !layoutConfig.showToolbox })}
-                  className={`w-8 h-7 flex items-center justify-center rounded transition-all ${layoutConfig.showToolbox ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
-                  title="Toggle Visual Toolbox"
-                >
-                  <Settings2 className="w-3.5 h-3.5" />
-                </button>
-              </div>
+              {showDevTools && (
+                <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
+                  <button
+                    onClick={() => updateLayoutConfig({ showToolbox: !layoutConfig.showToolbox })}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${layoutConfig.showToolbox ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    title="Toggle Visual Toolbox"
+                  >
+                    <Settings2 className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              )}
             </div>
 
             <div className="w-[1px] h-8 bg-white/5" />
@@ -281,7 +281,7 @@ export const KilangHeader = ({
 
       {/* 4. Stats Cards */}
       <div className="flex items-center gap-2">
-        {stats && (
+        {stats && showStats && (
           <>
             <CompactMetric
               icon={<Boxes className="w-3 h-3" />}
@@ -298,21 +298,78 @@ export const KilangHeader = ({
               description="Average number of derived forms per semantic root."
             />
             <CompactMetric
-              icon={<Maximize2 className="w-3 h-3" />}
-              label="Span"
-              value={stats.summary.max_depth}
-              color="emerald"
-              description="Maximum morphological depth (evolutionary layers) found."
-            />
-            <CompactMetric
               icon={<TrendingUp className="w-3 h-3" />}
               label="Flowers"
               value={stats.summary.total_words}
               color="rose"
               description="Total vocabulary words mapped to established roots."
             />
-            <div className="w-8 h-10 border border-white/5 bg-white/[0.01] rounded-xl border-dashed opacity-20 ml-2" />
+            <CompactMetric
+              icon={<Maximize2 className="w-3 h-3" />}
+              label="Span"
+              value={stats.summary.max_depth}
+              color="emerald"
+              description="Maximum morphological depth (evolutionary layers) found."
+            />
           </>
+        )}
+        
+        {stats && (
+          <div className="flex items-center gap-2">
+            <div className="w-[1px] h-4 bg-white/10 mx-1" />
+            
+            <button
+              onClick={() => setShowStatsOverlay(true)}
+              className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showStatsOverlay ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg' : 'bg-white/5 border-white/10 text-kilang-text-muted hover:border-white/30 hover:text-white'}`}
+              title="Morphology Distribution"
+            >
+              <Activity className="w-5 h-5" />
+            </button>
+
+            {/* Gear Settings Button */}
+            <div className="relative">
+              <button
+                onClick={() => setShowSettings(!showSettings)}
+                className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showSettings ? 'bg-blue-600 border-blue-400 text-white' : 'bg-white/5 border-white/10 text-kilang-text-muted hover:border-white/30 hover:text-white'}`}
+                title="Engine Settings"
+              >
+                <Settings2 className="w-5 h-5" />
+              </button>
+
+              {showSettings && (
+                <div className="absolute top-full right-0 mt-2 w-48 bg-[#0f172a] border border-white/10 rounded-xl shadow-2xl p-2 z-[4000] animate-in fade-in slide-in-from-top-2 duration-200">
+                  <div className="px-3 py-2 text-[8px] font-black text-white/30 uppercase tracking-widest border-b border-white/5 mb-1">Visibility</div>
+                  <button
+                    onClick={() => {
+                      const nextVal = !showDevTools;
+                      dispatch({ type: 'SET_UI', showDevTools: nextVal });
+                      updateLayoutConfig({ showToolbox: nextVal });
+                    }}
+                    className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
+                  >
+                    <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Dev Tools</span>
+                    <div className={`w-3 h-3 rounded-full border-2 ${showDevTools ? 'bg-blue-500 border-blue-400' : 'border-white/20'}`} />
+                  </button>
+                  <button
+                    onClick={() => dispatch({ type: 'SET_UI', showStats: !showStats })}
+                    className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
+                  >
+                    <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Stats Bar</span>
+                    <div className={`w-3 h-3 rounded-full border-2 ${showStats ? 'bg-indigo-500 border-indigo-400' : 'border-white/20'}`} />
+                  </button>
+                  <button
+                    onClick={() => dispatch({ type: 'SET_UI', showFilterPanel: !showFilterPanel })}
+                    className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
+                  >
+                    <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Filter Panel</span>
+                    <div className={`w-3 h-3 rounded-full border-2 ${showFilterPanel ? 'bg-emerald-500 border-emerald-400' : 'border-white/20'}`} />
+                  </button>
+                </div>
+              )}
+            </div>
+
+            <div className="w-8 h-10 border border-white/5 bg-white/[0.01] rounded-xl border-dashed opacity-20 ml-2" />
+          </div>
         )}
       </div>
     </header>
