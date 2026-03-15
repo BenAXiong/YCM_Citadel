@@ -131,6 +131,8 @@ export const KilangDesktopLayout = ({
           dispatch({ type: 'SET_UI', visibleChainsCount: val });
         }}
         fetchRootDetails={fetchRootDetails}
+        summaryCache={summaryCache}
+        fetchSummary={fetchSummary}
       />
     </div>
   );

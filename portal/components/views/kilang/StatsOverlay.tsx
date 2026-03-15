@@ -11,6 +11,8 @@ interface StatsOverlayProps {
   visibleChainsCount: number;
   setVisibleChainsCount: (count: number | ((prev: number) => number)) => void;
   fetchRootDetails: (root: string) => Promise<void>;
+  summaryCache: Record<string, string[]>;
+  fetchSummary: (word: string) => Promise<void>;
 }
 
 export const StatsOverlay = ({
@@ -19,7 +21,9 @@ export const StatsOverlay = ({
   stats,
   visibleChainsCount,
   setVisibleChainsCount,
-  fetchRootDetails
+  fetchRootDetails,
+  summaryCache,
+  fetchSummary
 }: StatsOverlayProps) => {
   if (!showStatsOverlay) return null;
 
@@ -114,7 +118,12 @@ export const StatsOverlay = ({
                       }
                     }
                     return reordered.map((r, i) => (
-                      <WordTooltip word={r.root} key={i}>
+                      <WordTooltip 
+                        word={r.root} 
+                        key={i} 
+                        summaryCache={summaryCache} 
+                        fetchSummary={fetchSummary}
+                      >
                         <div onClick={() => { setShowStatsOverlay(false); fetchRootDetails(r.root); }} className="flex items-center justify-between p-2 bg-white/5 rounded-lg border border-white/10 group hover:border-blue-500 hover:bg-white/10 transition-all cursor-pointer h-full">
                           <div className="flex items-center gap-2 min-w-0">
                             <span className="w-5 h-5 min-w-[20px] rounded-md bg-blue-500/20 text-blue-400 flex items-center justify-center text-[9px] font-black">{r.originalIndex + 1}</span>
@@ -148,13 +157,22 @@ export const StatsOverlay = ({
                   return (
                     <>
                       {visibleChains.map(([root, chain]: any) => (
-                        <WordTooltip word={chain[chain.length - 1]} key={root}>
+                        <WordTooltip 
+                          word={chain[chain.length - 1]} 
+                          key={root}
+                          summaryCache={summaryCache}
+                          fetchSummary={fetchSummary}
+                        >
                           <div onClick={() => { setShowStatsOverlay(false); fetchRootDetails(chain[chain.length - 1]); }} className="p-8 bg-[#0f172a]/80 rounded-[32px] border border-white/5 hover:border-blue-500/30 transition-all cursor-pointer group/chain shadow-xl space-y-6 flex items-center justify-between h-full">
                             <div className="flex items-center justify-between gap-6 flex-1">
                               <div className="flex items-center gap-2 flex-wrap min-w-0">
                                 {chain.map((link: string, i: number) => (
                                   <React.Fragment key={i}>
-                                    <WordTooltip word={link}>
+                                    <WordTooltip 
+                                      word={link}
+                                      summaryCache={summaryCache}
+                                      fetchSummary={fetchSummary}
+                                    >
                                       <div className={`px-4 py-2 rounded-xl text-[11px] font-bold font-mono border ${i === 0 ? 'bg-white/5 border-white/10 text-white/40' : i === chain.length - 1 ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-[#1e293b] border-white/5 text-white/70 group-hover/chain:text-white group-hover/chain:border-blue-500/30'}`}>
                                         {link}
                                       </div>

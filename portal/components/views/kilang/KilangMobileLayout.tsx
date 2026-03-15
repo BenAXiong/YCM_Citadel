@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { KilangState, KilangAction } from './kilangReducer';
 import { KilangCanvas } from './KilangCanvas';
+import { StatsOverlay } from './StatsOverlay';
 
 interface KilangMobileLayoutProps {
   state: KilangState;
@@ -285,6 +286,20 @@ export const KilangMobileLayout = ({
           </div>
         </div>
       )}
+
+      <StatsOverlay
+        showStatsOverlay={state.showStatsOverlay}
+        setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
+        stats={stats}
+        visibleChainsCount={state.visibleChainsCount}
+        setVisibleChainsCount={(c) => {
+          const val = typeof c === 'function' ? c(state.visibleChainsCount) : c;
+          dispatch({ type: 'SET_UI', visibleChainsCount: val });
+        }}
+        fetchRootDetails={fetchRootDetails}
+        summaryCache={summaryCache}
+        fetchSummary={fetchSummary}
+      />
     </div>
   );
 };
