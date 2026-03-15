@@ -5,16 +5,16 @@ import { toPng } from 'html-to-image';
 import './Kilang.css';
 
 // Modular components
-import { KilangHeader } from './kilang/KilangHeader';
-import { KilangSidebar } from './kilang/KilangSidebar';
-import { KilangCanvas } from './kilang/KilangCanvas';
-import { StatsOverlay } from './kilang/StatsOverlay';
+import { KilangDesktopLayout } from './kilang/KilangDesktopLayout';
+import { KilangMobileLayout } from './kilang/KilangMobileLayout';
+import { useIsMobile } from '@/hooks/useIsMobile';
 
 // Data Logic
 import { useKilang } from './kilang/useKilang';
 
 export default function KilangView() {
   const treeRef = useRef<HTMLDivElement>(null);
+  const isMobile = useIsMobile(1024); // Tablet/Mobile threshold
   const {
     state,
     dispatch,
@@ -27,19 +27,11 @@ export default function KilangView() {
     stats,
     loading,
     selectedRoot,
-    rootData,
     summaryCache,
     direction,
     arrangement,
-    scale,
-    isFit,
-    morphMode,
-    sourceFilter,
     searchTerm,
     branchFilter,
-    showStatsOverlay,
-    visibleChainsCount,
-    exporting
   } = state;
 
   const MOE_SOURCES = [
@@ -133,87 +125,23 @@ export default function KilangView() {
     );
   }
 
-  return (
-    <div className="kilang-container flex flex-col h-screen overflow-hidden">
-      <KilangHeader
-        stats={stats}
-        selectedRoot={selectedRoot}
-        morphMode={morphMode}
-        sourceFilter={sourceFilter}
-        direction={direction}
-        arrangement={arrangement}
-        scale={scale}
-        isFit={isFit}
-        showStatsOverlay={showStatsOverlay}
-        setMorphMode={(m) => dispatch({ type: 'SET_CONFIG', morphMode: m as any })}
-        setSourceFilter={(s) => dispatch({ type: 'SET_CONFIG', sourceFilter: s })}
-        setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
-        setDirection={(d) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
-        setArrangement={(a) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
-        setScale={(s) => {
-          const val = typeof s === 'function' ? s(scale) : s;
-          dispatch({ type: 'SET_TRANSFORM', scale: val });
-        }}
-        setIsFit={(f) => dispatch({ type: 'SET_TRANSFORM', isFit: f })}
-        layoutConfig={state.layoutConfig}
-        updateLayoutConfig={(config) => dispatch({ type: 'SET_LAYOUT_CONFIG', config })}
-        handleExport={handleExport}
-        MOE_SOURCES={MOE_SOURCES}
-        showStats={state.showStats}
-        showDevTools={state.showDevTools}
-        showFilterPanel={state.showFilterPanel}
-        dispatch={dispatch}
-      />
+  const layoutProps = {
+    state,
+    dispatch,
+    nodeMap,
+    fetchRootDetails,
+    fetchSummary,
+    filteredRoots,
+    bucketHits,
+    FILTER_BUCKETS,
+    MOE_SOURCES,
+    handleExport,
+    treeRef,
+  };
 
-      <div className="flex-1 flex overflow-hidden">
-        {state.showFilterPanel && (
-          <KilangSidebar
-            searchTerm={searchTerm}
-            setSearchTerm={(s) => dispatch({ type: 'SET_UI', searchTerm: s })}
-            branchFilter={branchFilter}
-            setBranchFilter={(b) => dispatch({ type: 'SET_UI', branchFilter: b })}
-            filteredRoots={filteredRoots}
-            selectedRoot={selectedRoot}
-            fetchRootDetails={fetchRootDetails}
-            bucketHits={bucketHits}
-            FILTER_BUCKETS={FILTER_BUCKETS}
-            summaryCache={summaryCache}
-            fetchSummary={fetchSummary}
-            isCollapsed={state.sidebarCollapsed}
-            onToggle={() => dispatch({ type: 'SET_UI', sidebarCollapsed: !state.sidebarCollapsed })}
-          />
-        )}
-
-        <KilangCanvas
-          selectedRoot={selectedRoot}
-          rootData={rootData}
-          direction={direction}
-          arrangement={arrangement}
-          nodeMap={nodeMap}
-          isFit={isFit}
-          scale={scale}
-          treeRef={treeRef}
-          fetchRootDetails={fetchRootDetails}
-          summaryCache={summaryCache}
-          fetchSummary={fetchSummary}
-          stats={stats}
-          fitTransform={state.fitTransform}
-          layoutConfig={state.layoutConfig}
-          dispatch={dispatch}
-        />
-      </div>
-
-      <StatsOverlay
-        showStatsOverlay={showStatsOverlay}
-        setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
-        stats={stats}
-        visibleChainsCount={visibleChainsCount}
-        setVisibleChainsCount={(c) => {
-          const val = typeof c === 'function' ? c(visibleChainsCount) : c;
-          dispatch({ type: 'SET_UI', visibleChainsCount: val });
-        }}
-        fetchRootDetails={fetchRootDetails}
-      />
-    </div>
+  return isMobile ? (
+    <KilangMobileLayout {...layoutProps} />
+  ) : (
+    <KilangDesktopLayout {...layoutProps} />
   );
 }
