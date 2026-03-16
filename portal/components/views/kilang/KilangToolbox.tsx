@@ -161,6 +161,13 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 unit="px"
                 onChange={(v) => updateConfig({ lineGapY: v })}
               />
+              <Slider
+                label="Thickness"
+                value={layoutConfig.lineWidth}
+                min={0.5} max={8} step={0.1}
+                unit="px"
+                onChange={(v) => updateConfig({ lineWidth: v })}
+              />
             </div>
           </section>
 

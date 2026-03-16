@@ -3,7 +3,7 @@ import { Activity, RefreshCw, TreePine } from 'lucide-react';
 import { KilangNode } from './KilangNode';
 import { NodeMap, normalizeWord } from './kilangUtils';
 import { KilangToolbox } from './KilangToolbox';
-import { KilangAction } from './kilangReducer';
+import { KilangAction, KilangState } from './kilangReducer';
 
 interface LineageCanvasProps {
   root: string;
@@ -12,24 +12,10 @@ interface LineageCanvasProps {
   direction: 'horizontal' | 'vertical';
   isFit: boolean;
   scale: number;
-  layoutConfig: {
-    lineGapX: number;
-    lineGapY: number;
-    lineColor: string;
-    lineColorMid: string;
-    lineGradientEnd: string;
-    nodeWidth: number;
-    nodePaddingY: number;
-    nodeSize: number;
-    anchorX: number;
-    anchorY: number;
-    spacingMode?: 'even' | 'log';
-    rootGap?: number;
-    coupleGaps?: boolean;
-  };
+  layoutConfig: KilangState['layoutConfig'];
 }
 
-const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, layoutConfig }: LineageCanvasProps) => {
+const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, layoutConfig, rootPos }: LineageCanvasProps & { rootPos: any }) => {
   const nodeScale = layoutConfig.nodeSize || 1;
   const isVert = direction === 'vertical';
 
@@ -77,25 +63,40 @@ const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, la
       className="absolute inset-0 pointer-events-none z-0 overflow-visible"
     >
       <defs>
-        <linearGradient id="lineageGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+        <linearGradient 
+          id="lineageGradient" 
+          gradientUnits="userSpaceOnUse"
+          x1="0" y1="0" x2="2000" y2="2000"
+        >
           <stop offset="0%" stopColor={layoutConfig.lineColor} stopOpacity="0.4" />
           <stop offset="50%" stopColor={layoutConfig.lineColorMid} stopOpacity="0.4" />
           <stop offset="100%" stopColor={layoutConfig.lineGradientEnd} stopOpacity="0.4" />
         </linearGradient>
       </defs>
-      {paths.map((d, i) => (
-        <path
-          key={i}
-          d={d}
-          stroke="url(#lineageGradient)"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-          className="transition-all duration-700 opacity-20 hover:opacity-100"
-          style={{ zIndex: -1 }}
-        />
-      ))}
+      {derivatives.map((d, i) => {
+        const pathData = paths[i];
+        if (!pathData) return null;
+        return (
+          <g
+            key={i}
+            className="animate-forest-bloom"
+            style={{ 
+              animationDelay: `${(d.tier - 2) * 120}ms`,
+              transformOrigin: `${rootPos.x}px ${rootPos.y}px`,
+            }}
+          >
+            <path
+              d={pathData}
+              stroke="url(#lineageGradient)"
+              strokeWidth={layoutConfig.lineWidth || 1.5}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+              className="opacity-20 hover:opacity-100 transition-all duration-700"
+            />
+          </g>
+        );
+      })}
     </svg>
   );
 };
@@ -114,29 +115,7 @@ interface KilangCanvasProps {
   fetchSummary: (word: string) => Promise<void>;
   stats: any;
   fitTransform: { x: number; y: number; scale: number };
-  layoutConfig: {
-    showToolbox: boolean;
-    lineGapX: number;
-    lineGapY: number;
-    interTierGap: number;
-    interRowGap: number;
-    nodeSize: number;
-    nodeOpacity: number;
-    nodeRounding: number;
-    rootColor: string;
-    branchColor: string;
-    lineColor: string;
-    lineColorMid: string;
-    lineGradientEnd: string;
-    showIcons: boolean;
-    nodeWidth: number;
-    nodePaddingY: number;
-    anchorX: number;
-    anchorY: number;
-    spacingMode: 'even' | 'log';
-    rootGap: number;
-    coupleGaps: boolean;
-  };
+  layoutConfig: KilangState['layoutConfig'];
   dispatch: React.Dispatch<KilangAction>;
 }
 
@@ -265,14 +244,7 @@ export const KilangCanvas = ({
                   const rootPos = nodeMap[normalizeWord(selectedRoot || '') || ''];
                   if (!rootPos) return null;
                   return (
-                    <div 
-                      key={`lines-${selectedRoot}-${rootData?.derivatives?.length}`}
-                      className="absolute inset-0 pointer-events-none animate-forest-bloom"
-                      style={{ 
-                        zIndex: 0,
-                        transformOrigin: `${rootPos.x}px ${rootPos.y}px`,
-                      }}
-                    >
+                    <div className="absolute inset-0 pointer-events-none" style={{ zIndex: 0 }}>
                       <LineageCanvas
                         root={selectedRoot || ''}
                         derivatives={rootData?.derivatives || []}
@@ -281,6 +253,7 @@ export const KilangCanvas = ({
                         isFit={isFit}
                         scale={scale}
                         layoutConfig={layoutConfig}
+                        rootPos={rootPos}
                       />
                     </div>
                   );
@@ -314,32 +287,31 @@ export const KilangCanvas = ({
                     );
                   })()}
 
-                  {/* Branches Forest: Blooms outwards from the stable root origin */}
+                  {/* Branches Forest: Tier-Staggered Bloom */}
                   {(() => {
                     const rootPos = nodeMap[normalizeWord(selectedRoot || '') || ''];
                     if (!rootPos) return null;
-                    return (
-                      <div 
-                        key={`branches-${selectedRoot}-${rootData?.derivatives?.length}`}
-                        className="absolute inset-0 animate-forest-bloom"
-                        style={{ 
-                          transformOrigin: `${rootPos.x}px ${rootPos.y}px`,
-                        }}
-                      >
-                        {rootData?.derivatives?.map((d: any) => {
-                          const pos = nodeMap[d.word_ab];
-                          if (!pos) return null;
-                          return (
-                            <div
-                              key={d.word_ab}
-                              className="absolute transition-all duration-500"
-                              style={{
-                                left: 0,
-                                top: 0,
-                                transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`,
-                                zIndex: 10
-                              }}
-                            >
+                    return rootData?.derivatives?.map((d: any) => {
+                      const pos = nodeMap[d.word_ab];
+                      if (!pos) return null;
+                      return (
+                        <div
+                          key={d.word_ab}
+                          className="absolute transition-all duration-500"
+                          style={{
+                            left: 0,
+                            top: 0,
+                            transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`,
+                            zIndex: 10
+                          }}
+                        >
+                          <div 
+                            className="animate-forest-bloom"
+                            style={{ 
+                              animationDelay: `${(d.tier - 2) * 120}ms`,
+                              transformOrigin: `${rootPos.x - pos.x}px ${rootPos.y - pos.y}px`
+                            }}
+                          >
                               <div className="tree-node">
                                 <KilangNode
                                   word={d.raw_word || d.word_ab}
@@ -351,11 +323,10 @@ export const KilangCanvas = ({
                                 />
                               </div>
                             </div>
-                          );
-                        })}
-                      </div>
-                    );
-                  })()}
+                          </div>
+                        );
+                      });
+                    })()}
                 </div>
               </div>
             </div>

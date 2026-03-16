@@ -65,6 +65,7 @@ export interface KilangState {
     spacingMode: 'even' | 'log';
     rootGap: number;
     coupleGaps: boolean;
+    lineWidth: number;
   };
 }
 
@@ -130,6 +131,7 @@ export const initialState: KilangState = {
     spacingMode: 'log',
     rootGap: 50,
     coupleGaps: false,
+    lineWidth: 3,
   },
 };
 

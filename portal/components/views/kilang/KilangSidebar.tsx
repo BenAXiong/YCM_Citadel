@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Search, Filter, XCircle, ChevronLeft, ChevronRight, Settings2, PenTool, LayoutPanelLeft, Box, RotateCcw, SlidersHorizontal, PencilLine, Scaling, Palette, Zap, ZapOff, Maximize2, Info, Bookmark, Pin, CheckCircle2, GitBranch, TreePine, Sprout } from 'lucide-react';
+import { Search, Filter, XCircle, ChevronLeft, ChevronRight, ChevronDown, Settings2, PenTool, LayoutPanelLeft, Box, RotateCcw, SlidersHorizontal, PencilLine, Scaling, Palette, Zap, ZapOff, Maximize2, Info, Bookmark, Pin, CheckCircle2, GitBranch, TreePine, Sprout } from 'lucide-react';
 import { WordTooltip } from './KilangNode';
 import { KilangState, KilangAction } from './kilangReducer';
 import { normalizeWord } from './kilangUtils';
@@ -42,6 +42,11 @@ export const KilangSidebar = ({
   const [customInputDirty, setCustomInputDirty] = React.useState(false);
   const [showPlusOne, setShowPlusOne] = React.useState(false);
   const [showMinusOne, setShowMinusOne] = React.useState(false);
+  const [collapsedSections, setCollapsedSections] = React.useState<Record<string, boolean>>({});
+
+  const toggleSection = (id: string) => {
+    setCollapsedSections(prev => ({ ...prev, [id]: !prev[id] }));
+  };
 
   // Load bookmarks on mount
   React.useEffect(() => {
@@ -412,11 +417,13 @@ export const KilangSidebar = ({
             </div>
 
             {/* Spacing */}
-            <section className="space-y-4">
-              <div className="flex items-center gap-2 text-[8px] font-black uppercase tracking-widest text-white/30">
-                <SlidersHorizontal className="w-3 h-3" />
-                <span>Layout Spacing</span>
-              </div>
+            <CollapsibleSection 
+              id="spacing" 
+              label="Layout Spacing" 
+              icon={<SlidersHorizontal className="w-3.5 h-3.5" />} 
+              isCollapsed={collapsedSections['spacing']} 
+              onToggle={() => toggleSection('spacing')}
+            >
               <div className="space-y-4 pl-1">
                 <SidebarSlider label="Tier (H)" value={layoutConfig.interTierGap} min={10} max={600} step={10} unit="px" onChange={(v: number) => updateConfig({ interTierGap: v })} />
                 <SidebarSlider label="Row (V)" value={layoutConfig.interRowGap} min={10} max={600} step={5} unit="px" onChange={(v: number) => updateConfig({ interRowGap: v })} />
@@ -435,26 +442,33 @@ export const KilangSidebar = ({
                   </button>
                 </div>
               </div>
-            </section>
+            </CollapsibleSection>
 
             {/* Path Twitch */}
-            <section className="space-y-4">
-              <div className="flex items-center gap-2 text-[8px] font-black uppercase tracking-widest text-white/30">
-                <PencilLine className="w-3 h-3" />
-                <span>SVG Path Twitch</span>
+            <CollapsibleSection 
+              id="paths" 
+              label="SVG Connection Styling" 
+              icon={<PencilLine className="w-3.5 h-3.5" />} 
+              isCollapsed={collapsedSections['paths']} 
+              onToggle={() => toggleSection('paths')}
+            >
+              <div className="space-y-4 pl-1">
+                <div className="grid grid-cols-2 gap-4">
+                  <SidebarSlider label="Gap X" value={layoutConfig.lineGapX} min={-100} max={300} step={5} unit="px" onChange={(v: number) => updateConfig({ lineGapX: v })} />
+                  <SidebarSlider label="Gap Y" value={layoutConfig.lineGapY} min={-100} max={300} step={5} unit="px" onChange={(v: number) => updateConfig({ lineGapY: v })} />
+                </div>
+                <SidebarSlider label="Line Thickness" value={layoutConfig.lineWidth} min={0.5} max={8} step={0.1} unit="px" onChange={(v: number) => updateConfig({ lineWidth: v })} />
               </div>
-              <div className="grid grid-cols-2 gap-4 pl-1">
-                <SidebarSlider label="Gap X" value={layoutConfig.lineGapX} min={-100} max={300} step={5} unit="px" onChange={(v: number) => updateConfig({ lineGapX: v })} />
-                <SidebarSlider label="Gap Y" value={layoutConfig.lineGapY} min={-100} max={300} step={5} unit="px" onChange={(v: number) => updateConfig({ lineGapY: v })} />
-              </div>
-            </section>
+            </CollapsibleSection>
 
             {/* Geometry */}
-            <section className="space-y-4">
-              <div className="flex items-center gap-2 text-[8px] font-black uppercase tracking-widest text-white/30">
-                <Scaling className="w-3 h-3" />
-                <span>Node Geometry</span>
-              </div>
+            <CollapsibleSection 
+              id="geometry" 
+              label="Node Geometry" 
+              icon={<Scaling className="w-3.5 h-3.5" />} 
+              isCollapsed={collapsedSections['geometry']} 
+              onToggle={() => toggleSection('geometry')}
+            >
               <div className="space-y-4 pl-1">
                 <div className="grid grid-cols-2 gap-4">
                   <SidebarSlider label="Size" value={layoutConfig.nodeSize} min={0.5} max={2} step={0.1} unit="x" onChange={(v: number) => updateConfig({ nodeSize: v })} />
@@ -474,14 +488,16 @@ export const KilangSidebar = ({
                   </button>
                 </div>
               </div>
-            </section>
+            </CollapsibleSection>
 
             {/* Anchors */}
-            <section className="space-y-4">
-              <div className="flex items-center gap-2 text-[8px] font-black uppercase tracking-widest text-white/30">
-                <Maximize2 className="w-3 h-3" />
-                <span>Root Anchor</span>
-              </div>
+            <CollapsibleSection 
+              id="anchors" 
+              label="Root Anchor" 
+              icon={<Maximize2 className="w-3.5 h-3.5" />} 
+              isCollapsed={collapsedSections['anchors']} 
+              onToggle={() => toggleSection('anchors')}
+            >
               <div className="space-y-4 pl-1">
                 <div className="grid grid-cols-2 gap-4">
                   <SidebarSlider label="X (px)" value={layoutConfig.anchorX} min={0} max={2000} step={10} unit="px" onChange={(v: number) => updateConfig({ anchorX: v })} />
@@ -492,14 +508,16 @@ export const KilangSidebar = ({
                   <SidebarSlider label="Y (%)" value={Math.round((layoutConfig.anchorY / 2000) * 100)} min={0} max={100} step={1} unit="%" onChange={(v: number) => updateConfig({ anchorY: (v / 100) * 2000 })} />
                 </div>
               </div>
-            </section>
+            </CollapsibleSection>
 
             {/* Aesthetics */}
-            <section className="space-y-4">
-              <div className="flex items-center gap-2 text-[8px] font-black uppercase tracking-widest text-white/30">
-                <Palette className="w-3 h-3" />
-                <span>Aesthetics</span>
-              </div>
+            <CollapsibleSection 
+              id="colors" 
+              label="Aesthetics" 
+              icon={<Palette className="w-3.5 h-3.5" />} 
+              isCollapsed={collapsedSections['colors']} 
+              onToggle={() => toggleSection('colors')}
+            >
               <div className="grid grid-cols-2 gap-4 pl-1">
                 <ColorPicker label="Root" value={layoutConfig.rootColor} onChange={(v: string) => updateConfig({ rootColor: v })} />
                 <ColorPicker label="Branch" value={layoutConfig.branchColor} onChange={(v: string) => updateConfig({ branchColor: v })} />
@@ -507,7 +525,7 @@ export const KilangSidebar = ({
                 <ColorPicker label="Line Mid" value={layoutConfig.lineColorMid} onChange={(v: string) => updateConfig({ lineColorMid: v })} />
                 <ColorPicker label="Line End" value={layoutConfig.lineGradientEnd} onChange={(v: string) => updateConfig({ lineGradientEnd: v })} />
               </div>
-            </section>
+            </CollapsibleSection>
 
             <div className="pb-20" />
           </div>
@@ -698,4 +716,30 @@ const ColorPicker = ({ label, value, onChange }: any) => (
       />
     </div>
   </div>
+);
+
+const CollapsibleSection = ({ id, label, icon, isCollapsed, onToggle, children }: any) => (
+  <section className="space-y-4">
+    <div 
+      onClick={onToggle}
+      className="flex items-center justify-between group cursor-pointer select-none"
+    >
+      <div className="flex items-center gap-2.5">
+        <div className="text-blue-400 group-hover:scale-110 transition-transform duration-300">
+          {icon}
+        </div>
+        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/50 group-hover:text-white transition-colors">
+          {label}
+        </span>
+      </div>
+      <div className="text-white/20 group-hover:text-white transition-colors">
+        {isCollapsed ? <ChevronRight className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+      </div>
+    </div>
+    {!isCollapsed && (
+      <div className="animate-in fade-in slide-in-from-top-2 duration-300">
+        {children}
+      </div>
+    )}
+  </section>
 );
