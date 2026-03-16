@@ -1,5 +1,5 @@
 import React from 'react';
-import { Activity, RefreshCw, TreePine } from 'lucide-react';
+import { Activity, RefreshCw, TreePine, ChevronRight } from 'lucide-react';
 import { KilangNode } from './KilangNode';
 import { normalizeWord } from './kilangUtils';
 import { NodeMap, Derivation } from './KilangTypes';
@@ -226,6 +226,30 @@ export const KilangCanvas = ({
     return chain;
   }, [activeHighlightNode, rootData?.derivatives, selectedRoot]);
 
+  const getLinearPath = React.useMemo(() => {
+    if (!activeHighlightNode || !rootData?.derivatives) return [];
+
+    const path: string[] = [];
+    const derivatives = rootData.derivatives;
+    const lowRoot = normalizeWord(selectedRoot || '');
+
+    let current = activeHighlightNode;
+    path.push(current);
+
+    while (current && current !== lowRoot) {
+      const entry = derivatives.find((d: Derivation) => d.word_ab === current);
+      if (entry && entry.parentWord) {
+        path.push(entry.parentWord);
+        current = entry.parentWord;
+      } else {
+        if (lowRoot && !path.includes(lowRoot)) path.push(lowRoot);
+        break;
+      }
+    }
+
+    return path.reverse();
+  }, [activeHighlightNode, rootData?.derivatives, selectedRoot]);
+
   return (
     <main className="flex-1 overflow-hidden relative">
       <div className="h-full flex flex-col">
@@ -416,6 +440,24 @@ export const KilangCanvas = ({
                       </button>
                     ))}
                   </div>
+                </div>
+              </div>
+            )}
+
+            {/* Chain Inscription Overlay */}
+            {getLinearPath.length > 0 && (
+              <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-[60] animate-in fade-in slide-in-from-bottom-4 duration-500 pointer-events-none">
+                <div className="bg-[#0f172a]/80 backdrop-blur-2xl border border-blue-500/30 px-8 py-4 rounded-[20px] shadow-[0_0_50px_rgba(0,0,0,0.5)] flex items-center gap-3">
+                  {getLinearPath.map((word: string, idx: number) => (
+                    <React.Fragment key={word}>
+                      <span className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all duration-300 ${idx === getLinearPath.length - 1 ? 'text-blue-400' : 'text-white/40'}`}>
+                        {word}
+                      </span>
+                      {idx < getLinearPath.length - 1 && (
+                        <ChevronRight className="w-3 h-3 text-white/10" />
+                      )}
+                    </React.Fragment>
+                  ))}
                 </div>
               </div>
             )}
