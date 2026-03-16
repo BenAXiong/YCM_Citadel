@@ -1,0 +1,170 @@
+'use client';
+
+import React from 'react';
+import { Settings2, RotateCcw, SlidersHorizontal, PencilLine, Scaling, Maximize2, Zap, ZapOff, Palette } from 'lucide-react';
+import { SidebarSlider, ColorPicker, CollapsibleSection } from './SidebarUI';
+
+interface StylingTabProps {
+  layoutConfig: any;
+  updateConfig: (config: any) => void;
+  dispatch: React.Dispatch<any>;
+  collapsedSections: Record<string, boolean>;
+  toggleSection: (id: string) => void;
+}
+
+export const StylingTab = ({
+  layoutConfig,
+  updateConfig,
+  dispatch,
+  collapsedSections,
+  toggleSection
+}: StylingTabProps) => {
+  return (
+    <div className="p-6 animate-in fade-in slide-in-from-left-4 duration-500 space-y-8">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <Settings2 className="w-4 h-4 text-blue-400" />
+          <h3 className="text-[10px] font-black uppercase tracking-widest text-white">Visual Styling</h3>
+        </div>
+        <button
+          onClick={() => dispatch({ type: 'RESET_LAYOUT_CONFIG' })}
+          className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 transition-all hover:text-white"
+          title="Reset Defaults"
+        >
+          <RotateCcw className="w-3.5 h-3.5" />
+        </button>
+      </div>
+
+      {/* Spacing */}
+      <CollapsibleSection
+        id="spacing"
+        label="Layout Spacing"
+        icon={<SlidersHorizontal className="w-3.5 h-3.5" />}
+        isCollapsed={collapsedSections['spacing']}
+        onToggle={() => toggleSection('spacing')}
+      >
+        <div className="space-y-4 pl-1">
+          <SidebarSlider label="Tier (H)" value={layoutConfig.interTierGap} min={10} max={600} step={10} unit="px" onChange={(v: number) => updateConfig({ interTierGap: v })} />
+          <SidebarSlider label="Row (V)" value={layoutConfig.interRowGap} min={10} max={600} step={5} unit="px" onChange={(v: number) => updateConfig({ interRowGap: v })} />
+          <SidebarSlider label="0-1 Gap" value={layoutConfig.coupleGaps ? layoutConfig.interTierGap : layoutConfig.rootGap} min={0} max={600} step={10} unit="px" disabled={layoutConfig.coupleGaps} onChange={(v: number) => updateConfig({ rootGap: v })} />
+
+          <div className="flex items-center justify-between pt-2">
+            <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Spacing Mode</span>
+            <button onClick={() => updateConfig({ spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' })} className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-indigo-600/20 border-indigo-500/40 text-indigo-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}>
+              <span className="text-[8px] font-black uppercase">{layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}</span>
+            </button>
+          </div>
+          <div className="flex items-center justify-between pt-1">
+            <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Coupled Gaps</span>
+            <button onClick={() => updateConfig({ coupleGaps: !layoutConfig.coupleGaps })} className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.coupleGaps ? 'bg-emerald-600/20 border-emerald-500/40 text-emerald-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}>
+              <span className="text-[8px] font-black uppercase">{layoutConfig.coupleGaps ? 'Coupled' : 'Decoupled'}</span>
+            </button>
+          </div>
+        </div>
+      </CollapsibleSection>
+
+      {/* Path Twitch */}
+      <CollapsibleSection
+        id="paths"
+        label="SVG Connection Styling"
+        icon={<PencilLine className="w-3.5 h-3.5" />}
+        isCollapsed={collapsedSections['paths']}
+        onToggle={() => toggleSection('paths')}
+      >
+        <div className="space-y-4 pl-1">
+          <div className="grid grid-cols-2 gap-4">
+            <SidebarSlider label="Gap X" value={layoutConfig.lineGapX} min={-100} max={300} step={5} unit="px" onChange={(v: number) => updateConfig({ lineGapX: v })} />
+            <SidebarSlider label="Gap Y" value={layoutConfig.lineGapY} min={-100} max={300} step={5} unit="px" onChange={(v: number) => updateConfig({ lineGapY: v })} />
+          </div>
+          <SidebarSlider label="Line Thickness" value={layoutConfig.lineWidth} min={0.5} max={8} step={0.1} unit="px" onChange={(v: number) => updateConfig({ lineWidth: v })} />
+        </div>
+      </CollapsibleSection>
+
+      {/* Geometry */}
+      <CollapsibleSection
+        id="geometry"
+        label="Node Geometry"
+        icon={<Scaling className="w-3.5 h-3.5" />}
+        isCollapsed={collapsedSections['geometry']}
+        onToggle={() => toggleSection('geometry')}
+      >
+        <div className="space-y-4 pl-1">
+          <div className="grid grid-cols-2 gap-4">
+            <SidebarSlider label="Size" value={layoutConfig.nodeSize} min={0.5} max={2} step={0.1} unit="x" onChange={(v: number) => updateConfig({ nodeSize: v })} />
+            <SidebarSlider label="Rounding" value={layoutConfig.nodeRounding} min={0} max={50} step={2} unit="px" onChange={(v: number) => updateConfig({ nodeRounding: v })} />
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <SidebarSlider label="Opacity" value={layoutConfig.nodeOpacity} min={0.1} max={1} step={0.05} unit="" onChange={(v: number) => updateConfig({ nodeOpacity: v })} />
+            <SidebarSlider label="Word Width" value={layoutConfig.nodeWidth} min={80} max={250} step={5} unit="px" onChange={(v: number) => updateConfig({ nodeWidth: v })} />
+          </div>
+          <SidebarSlider label="Vert Padding" value={layoutConfig.nodePaddingY} min={4} max={32} step={1} unit="px" onChange={(v: number) => updateConfig({ nodePaddingY: v })} />
+
+          <div className="flex items-center justify-between pt-2">
+            <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Tree Icons</span>
+            <button onClick={() => updateConfig({ showIcons: !layoutConfig.showIcons })} className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.showIcons ? 'bg-blue-600/20 border-blue-500/40 text-blue-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}>
+              {layoutConfig.showIcons ? <Zap className="w-3 h-3" /> : <ZapOff className="w-3 h-3" />}
+              <span className="text-[8px] font-black uppercase">{layoutConfig.showIcons ? 'Visible' : 'Hidden'}</span>
+            </button>
+          </div>
+        </div>
+      </CollapsibleSection>
+
+      {/* Anchors */}
+      <CollapsibleSection
+        id="anchors"
+        label="Root Anchor"
+        icon={<Maximize2 className="w-3.5 h-3.5" />}
+        isCollapsed={collapsedSections['anchors']}
+        onToggle={() => toggleSection('anchors')}
+      >
+        <div className="space-y-4 pl-1">
+          <div className="grid grid-cols-2 gap-4">
+            <SidebarSlider label="X (px)" value={layoutConfig.anchorX} min={0} max={2000} step={10} unit="px" onChange={(v: number) => updateConfig({ anchorX: v })} />
+            <SidebarSlider label="Y (px)" value={layoutConfig.anchorY} min={0} max={2000} step={10} unit="px" onChange={(v: number) => updateConfig({ anchorY: v })} />
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <SidebarSlider label="X (%)" value={Math.round((layoutConfig.anchorX / 2000) * 100)} min={0} max={100} step={1} unit="%" onChange={(v: number) => updateConfig({ anchorX: (v / 100) * 2000 })} />
+            <SidebarSlider label="Y (%)" value={Math.round((layoutConfig.anchorY / 2000) * 100)} min={0} max={100} step={1} unit="%" onChange={(v: number) => updateConfig({ anchorY: (v / 100) * 2000 })} />
+          </div>
+        </div>
+      </CollapsibleSection>
+
+      <CollapsibleSection
+        id="colors"
+        label="Tier Aesthetics"
+        icon={<Palette className="w-3.5 h-3.5" />}
+        isCollapsed={collapsedSections['colors']}
+        onToggle={() => toggleSection('colors')}
+      >
+        <div className="space-y-4 max-h-[400px] overflow-y-auto no-scrollbar pr-2">
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((tier) => (
+            <div key={tier} className="p-3 bg-white/5 border border-white/5 rounded-2xl space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-[9px] font-black uppercase tracking-widest text-blue-400">Tier {tier}</span>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <ColorPicker
+                  label="Fill"
+                  value={(layoutConfig as any)[`tier${tier}Fill`]}
+                  onChange={(v: string) => updateConfig({ [`tier${tier}Fill`]: v } as any)}
+                />
+                <ColorPicker
+                  label="Border"
+                  value={(layoutConfig as any)[`tier${tier}Border`]}
+                  onChange={(v: string) => updateConfig({ [`tier${tier}Border`]: v } as any)}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="mt-4 pt-4 border-t border-white/5 grid grid-cols-2 gap-4 pl-1">
+          <ColorPicker label="Line Start" value={layoutConfig.lineColor} onChange={(v: string) => updateConfig({ lineColor: v })} />
+          <ColorPicker label="Line Mid" value={layoutConfig.lineColorMid} onChange={(v: string) => updateConfig({ lineColorMid: v })} />
+          <ColorPicker label="Line End" value={layoutConfig.lineGradientEnd} onChange={(v: string) => updateConfig({ lineGradientEnd: v })} />
+        </div>
+      </CollapsibleSection>
+
+      <div className="pb-20" />
+    </div>
+  );
+};

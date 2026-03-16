@@ -226,6 +226,7 @@ export const calculateNodeMap = (
     rootGap?: number;
     coupleGaps?: boolean;
     nodePaddingY?: number;
+    nodeSize?: number;
   }
 ): NodeMap => {
   const nodeMap: NodeMap = {};
@@ -308,7 +309,12 @@ export const calculateNodeMap = (
       const offset = getTierOffset(t);
 
       tierNodes.forEach((node, i) => {
-        const spacing = (direction === 'horizontal' ? BASE_NODE_HEIGHT : nodeWidth) + GUTTER_V;
+        const rowGap = config?.interRowGap ?? GUTTER_V;
+        const nodeSize = config?.nodeSize ?? 1;
+        const dynamicHeight = ((config?.nodePaddingY ?? 8) * 2 + 16) * nodeSize;
+        const dynamicWidth = (config?.nodeWidth ?? 100) * nodeSize;
+        
+        const spacing = (direction === 'horizontal' ? dynamicHeight : dynamicWidth) + rowGap;
         const crossOffset = (i - (tierNodes.length - 1) / 2) * spacing;
 
         if (direction === 'horizontal') {
