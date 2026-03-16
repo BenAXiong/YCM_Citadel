@@ -11,6 +11,7 @@ import { useIsMobile } from '@/hooks/useIsMobile';
 
 // Data Logic
 import { useKilang } from './kilang/useKilang';
+import { SidebarProvider } from './kilang/SidebarContext';
 
 export default function KilangView() {
   const treeRef = useRef<HTMLDivElement>(null);
@@ -139,9 +140,22 @@ export default function KilangView() {
     treeRef,
   };
 
-  return isMobile ? (
-    <KilangMobileLayout {...layoutProps} />
-  ) : (
-    <KilangDesktopLayout {...layoutProps} />
+  return (
+    <SidebarProvider value={{
+      state,
+      dispatch,
+      filteredRoots,
+      fetchRootDetails,
+      bucketHits,
+      FILTER_BUCKETS,
+      summaryCache,
+      fetchSummary
+    }}>
+      {isMobile ? (
+        <KilangMobileLayout {...layoutProps} />
+      ) : (
+        <KilangDesktopLayout {...layoutProps} />
+      )}
+    </SidebarProvider>
   );
 }

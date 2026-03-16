@@ -78,6 +78,8 @@ export interface SidebarUIState {
     showPlusOne: boolean;
     showMinusOne: boolean;
   };
+  canvasHoverNode: string | null;
+  canvasSelectedNode: string | null;
 }
 
 export interface KilangContextProps extends SidebarUIState {

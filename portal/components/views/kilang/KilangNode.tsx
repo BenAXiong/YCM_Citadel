@@ -113,6 +113,9 @@ interface KilangNodeProps {
   isRoot?: boolean;
   summaryCache: Record<string, string[]>;
   fetchSummary: (word: string) => Promise<void>;
+  isHighlighted?: boolean;
+  isHovered?: boolean;
+  onInteraction?: (type: 'hover' | 'select', word: string | null) => void;
   config: {
     nodeSize: number;
     nodeOpacity: number;
@@ -133,7 +136,18 @@ interface KilangNodeProps {
   };
 }
 
-export const KilangNode = ({ word, dictCode, tier = 2, isRoot = false, summaryCache, fetchSummary, config }: KilangNodeProps) => {
+export const KilangNode = ({ 
+  word, 
+  dictCode, 
+  tier = 2, 
+  isRoot = false, 
+  summaryCache, 
+  fetchSummary, 
+  isHighlighted = false,
+  isHovered = false,
+  onInteraction,
+  config 
+}: KilangNodeProps) => {
   const cleanId = `v3-node-${word.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
 
   const getTierIcon = () => {
@@ -158,49 +172,53 @@ export const KilangNode = ({ word, dictCode, tier = 2, isRoot = false, summaryCa
   return (
     <WordTooltip word={word} dictCode={dictCode} id={cleanId} summaryCache={summaryCache} fetchSummary={fetchSummary}>
       <div
-        className="relative transition-all duration-500"
+        className={`relative transition-all duration-500 cursor-pointer ${isHighlighted ? 'z-30 scale-105' : isHovered ? 'z-20 scale-102' : 'z-10'}`}
         style={{
-          transform: `scale(${config.nodeSize})`,
+          transform: `scale(${config.nodeSize * (isHighlighted ? 1.05 : isHovered ? 1.02 : 1)})`,
           opacity: config.nodeOpacity
+        }}
+        onMouseEnter={() => onInteraction?.('hover', word)}
+        onMouseLeave={() => onInteraction?.('hover', null)}
+        onClick={(e) => {
+          e.stopPropagation();
+          onInteraction?.('select', word);
         }}
       >
         <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
           {isRoot ? (
             <div
-              className="border-4 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-20 relative min-w-[120px] flex items-center justify-center transition-colors duration-500"
+              className={`border-4 p-8 rounded-full z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_rgba(59,130,246,0.8)]' : 'shadow-[0_0_50px_rgba(59,130,246,0.5)]'}`}
               style={{
-                // Solid Alpha-Blended background using dynamic Tier 1 fill color
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} 20%, #020617)`,
-                borderColor: getTierColor('Border', 1),
-                boxShadow: `0 0 60px ${getTierColor('Fill', 1)}40`,
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} ${isHighlighted ? '40%' : '20%'}, #020617)`,
+                borderColor: isHighlighted ? '#60a5fa' : getTierColor('Border', 1),
+                boxShadow: isHighlighted ? `0 0 80px ${getTierColor('Fill', 1)}80` : `0 0 60px ${getTierColor('Fill', 1)}40`,
                 paddingTop: `${config.nodePaddingY * 2}px`,
                 paddingBottom: `${config.nodePaddingY * 2}px`
               }}
             >
               <div className="flex items-center gap-3">
                 {config.showIcons && getTierIcon()}
-                <span className="text-white font-black text-2xl tracking-tighter">{word}</span>
+                <span className={`text-white font-black text-2xl tracking-tighter transition-all ${isHighlighted ? 'scale-110 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]' : ''}`}>{word}</span>
               </div>
             </div>
           ) : (
             <div
-              className="transition-all text-sm group ring-1 ring-white/5 relative z-10 border flex items-center justify-center"
+              className={`transition-all text-sm group ring-1 relative z-10 border flex items-center justify-center ${isHighlighted ? 'ring-blue-400/50 shadow-[0_0_30px_rgba(59,130,246,0.4)]' : 'ring-white/5'}`}
               style={{
                 borderRadius: `${config.nodeRounding}px`,
-                // Dynamic border color with 40% alpha blend against transparency (glow look)
-                borderColor: `color-mix(in srgb, ${getTierColor('Border', tier)} 40%, transparent)`,
-                // Solid Alpha-Blended background for all tiers to block connection lines
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} ${tier === 2 ? '10%' : '5%'}, #020617)`,
+                borderColor: isHighlighted 
+                  ? `color-mix(in srgb, ${getTierColor('Border', tier)} 80%, white)` 
+                  : `color-mix(in srgb, ${getTierColor('Border', tier)} 40%, transparent)`,
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} ${isHighlighted ? '30%' : (tier === 2 ? '10%' : '5%')}, #020617)`,
                 width: `${config.nodeWidth}px`,
                 paddingTop: `${config.nodePaddingY}px`,
                 paddingBottom: `${config.nodePaddingY}px`,
-                // Structural offsets per tier (removed internal opacity to maintain blocking)
                 transform: tier === 3 ? 'scale(0.95)' : tier === 4 ? 'scale(0.9)' : tier >= 5 ? 'scale(0.85)' : 'none'
               }}
             >
               <div className="flex items-center gap-2">
                 {config.showIcons && getTierIcon()}
-                <span className="font-bold text-white group-hover:text-blue-300 transition-colors uppercase tracking-widest text-[11px] truncate">{word}</span>
+                <span className={`font-bold transition-colors uppercase tracking-widest text-[11px] truncate ${isHighlighted ? 'text-blue-200' : 'text-white group-hover:text-blue-300'}`}>{word}</span>
               </div>
             </div>
           )}

@@ -2,7 +2,7 @@ export type MorphMode = 'moe' | 'plus' | 'star';
 export type LayoutDirection = 'horizontal' | 'vertical';
 export type LayoutArrangement = 'aligned' | 'flow';
 
-import { RootStats, KilangRootData } from './kilangUtils';
+import { RootStats, KilangRootData } from './KilangTypes';
 
 const ANCHOR_DEFAULTS = {
   horizontal: { x: 100, y: 1000 },
@@ -43,6 +43,8 @@ export interface KilangState {
   sidebarCollapsed: boolean;
   sidebarTab: 'forest' | 'styling' | 'custom';
   fitTransform: { x: number; y: number; scale: number };
+  canvasHoverNode: string | null;
+  canvasSelectedNode: string | null;
   layoutConfig: {
     showToolbox: boolean;
     lineGapX: number;
@@ -92,6 +94,8 @@ export type KilangAction =
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
   | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
+  | { type: 'SET_CANVAS_HOVER'; node: string | null }
+  | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'SET_CUSTOM_DATA'; data: any | null };
 
 export const initialState: KilangState = {
@@ -119,6 +123,8 @@ export const initialState: KilangState = {
   sidebarCollapsed: false,
   sidebarTab: 'forest',
   fitTransform: { x: 0, y: 0, scale: 1 },
+  canvasHoverNode: null,
+  canvasSelectedNode: null,
   layoutConfig: {
     showToolbox: false,
     lineGapX: 0,
@@ -229,6 +235,10 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       };
     case 'SET_UI':
       return { ...state, ...action };
+    case 'SET_CANVAS_HOVER':
+      return { ...state, canvasHoverNode: action.node };
+    case 'SET_CANVAS_SELECT':
+      return { ...state, canvasSelectedNode: action.node };
     default:
       return state;
   }

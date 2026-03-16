@@ -10,7 +10,7 @@ export const SidebarProvider: React.FC<{
   value: Omit<KilangContextProps, keyof SidebarUIState | 'setSidebarTab' | 'setShowMyTrees' | 'toggleSection'>;
 }> = ({ children, value }) => {
   // Local UI State (Transient UX states not in the global reducer)
-  const [uiState, setUiState] = useState<Omit<SidebarUIState, 'sidebarTab' | 'searchTerm' | 'branchFilter'>>({
+  const [uiState, setUiState] = useState<Omit<SidebarUIState, 'sidebarTab' | 'searchTerm' | 'branchFilter' | 'canvasHoverNode' | 'canvasSelectedNode'>>({
     showMyTrees: false,
     collapsedSections: {},
     toast: null,
@@ -43,6 +43,8 @@ export const SidebarProvider: React.FC<{
     sidebarTab: value.state.sidebarTab,
     searchTerm: value.state.searchTerm,
     branchFilter: value.state.branchFilter,
+    canvasHoverNode: value.state.canvasHoverNode,
+    canvasSelectedNode: value.state.canvasSelectedNode,
     setSidebarTab,
     setShowMyTrees,
     toggleSection

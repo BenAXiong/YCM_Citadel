@@ -31,20 +31,7 @@ interface KilangSidebarProps {
 }
 
 export const KilangSidebar = (props: KilangSidebarProps) => {
-  return (
-    <SidebarProvider value={{
-      state: props.state, 
-      dispatch: props.dispatch, 
-      filteredRoots: props.filteredRoots, 
-      fetchRootDetails: props.fetchRootDetails, 
-      bucketHits: props.bucketHits, 
-      FILTER_BUCKETS: props.FILTER_BUCKETS, 
-      summaryCache: props.summaryCache, 
-      fetchSummary: props.fetchSummary 
-    }}>
-      <KilangSidebarInner {...props} />
-    </SidebarProvider>
-  );
+  return <KilangSidebarInner {...props} />;
 };
 
 const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {

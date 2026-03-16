@@ -1,7 +1,9 @@
 import React from 'react';
 import { Activity, RefreshCw, TreePine } from 'lucide-react';
 import { KilangNode } from './KilangNode';
-import { NodeMap, normalizeWord } from './kilangUtils';
+import { normalizeWord } from './kilangUtils';
+import { NodeMap, Derivation } from './KilangTypes';
+import { useSidebar } from './SidebarContext';
 import { KilangToolbox } from './KilangToolbox';
 import { KilangAction, KilangState } from './kilangReducer';
 
@@ -13,47 +15,17 @@ interface LineageCanvasProps {
   isFit: boolean;
   scale: number;
   layoutConfig: KilangState['layoutConfig'];
+  activeHighlightChain: Set<string>;
+  dispatch: React.Dispatch<KilangAction>;
 }
 
-const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, layoutConfig, rootPos }: LineageCanvasProps & { rootPos: any }) => {
+const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, layoutConfig, rootPos, activeHighlightChain, dispatch }: LineageCanvasProps & { rootPos: any }) => {
   const nodeScale = layoutConfig.nodeSize || 1;
   const isVert = direction === 'vertical';
 
-  // Recalibrated baselines: 
-  // Root is ~120x80 (H:60, V:40). Branches are nodeWidth x (padding*2 + 16)
   const ROOT_R = (isVert ? 40 : 60) * nodeScale;
   const BRANCH_W = (layoutConfig.nodeWidth / 2) * nodeScale;
-  const BRANCH_H = (layoutConfig.nodePaddingY + 8) * nodeScale; // text half-height is ~8px
-
-  const paths = derivatives.map(d => {
-    const parentKey = d.parentWord || normalizeWord(root) || '';
-    const s = nodeMap[parentKey];
-    const t = nodeMap[d.word_ab];
-    if (!s || !t) return null;
-
-    const isRootSource = parentKey === normalizeWord(root);
-
-    let sourceX = s.x;
-    let sourceY = s.y;
-    let targetX = t.x;
-    let targetY = t.y;
-
-    if (direction === 'horizontal') {
-      sourceX += (isRootSource ? ROOT_R : BRANCH_W) + layoutConfig.lineGapX;
-      targetX -= (BRANCH_W + layoutConfig.lineGapX);
-    } else {
-      sourceY -= (isRootSource ? ROOT_R : BRANCH_H) + layoutConfig.lineGapY;
-      targetY += (BRANCH_H + layoutConfig.lineGapY);
-    }
-
-    if (direction === 'vertical') {
-      const midY = (sourceY + targetY) / 2;
-      return `M ${sourceX} ${sourceY} C ${sourceX} ${midY} ${targetX} ${midY} ${targetX} ${targetY}`;
-    } else {
-      const midX = (sourceX + targetX) / 2;
-      return `M ${sourceX} ${sourceY} C ${midX} ${sourceY} ${midX} ${targetY} ${targetX} ${targetY}`;
-    }
-  }).filter(Boolean) as string[];
+  const BRANCH_H = (layoutConfig.nodePaddingY + 8) * nodeScale;
 
   return (
     <svg
@@ -73,26 +45,67 @@ const LineageCanvas = ({ root, derivatives, nodeMap, direction, isFit, scale, la
           <stop offset="100%" stopColor={layoutConfig.lineGradientEnd} stopOpacity="0.4" />
         </linearGradient>
       </defs>
-      {derivatives.map((d, i) => {
-        const pathData = paths[i];
-        if (!pathData) return null;
+      {derivatives.map((d: Derivation, i: number) => {
+        const parentKey = d.parentWord || normalizeWord(root) || '';
+        const s = nodeMap[parentKey];
+        const t = nodeMap[d.word_ab];
+        if (!s || !t) return null;
+
+        const isRootSource = parentKey === normalizeWord(root);
+        const isHighlighted = activeHighlightChain.has(d.word_ab) && activeHighlightChain.has(parentKey);
+
+        let sourceX = s.x;
+        let sourceY = s.y;
+        let targetX = t.x;
+        let targetY = t.y;
+
+        if (direction === 'horizontal') {
+          sourceX += (isRootSource ? ROOT_R : BRANCH_W) + layoutConfig.lineGapX;
+          targetX -= (BRANCH_W + layoutConfig.lineGapX);
+        } else {
+          sourceY -= (isRootSource ? ROOT_R : BRANCH_H) + layoutConfig.lineGapY;
+          targetY += (BRANCH_H + layoutConfig.lineGapY);
+        }
+
+        let pathData = '';
+        if (direction === 'vertical') {
+          const midY = (sourceY + targetY) / 2;
+          pathData = `M ${sourceX} ${sourceY} C ${sourceX} ${midY} ${targetX} ${midY} ${targetX} ${targetY}`;
+        } else {
+          const midX = (sourceX + targetX) / 2;
+          pathData = `M ${sourceX} ${sourceY} C ${midX} ${sourceY} ${midX} ${targetY} ${targetX} ${targetY}`;
+        }
+
         return (
           <g
             key={i}
-            className="animate-forest-bloom"
+            className="animate-forest-bloom pointer-events-auto cursor-pointer group"
             style={{
               animationDelay: `${(d.tier - 2) * 120}ms`,
               transformOrigin: `${rootPos.x}px ${rootPos.y}px`,
             }}
+            onMouseEnter={() => dispatch({ type: 'SET_CANVAS_HOVER', node: d.word_ab })}
+            onMouseLeave={() => dispatch({ type: 'SET_CANVAS_HOVER', node: null })}
+            onClick={(e) => {
+              e.stopPropagation();
+              dispatch({ type: 'SET_CANVAS_SELECT', node: d.word_ab });
+            }}
           >
+            {/* Outer Fat Path for Hover ease */}
             <path
               d={pathData}
-              stroke="url(#lineageGradient)"
-              strokeWidth={layoutConfig.lineWidth || 1.5}
+              stroke="transparent"
+              strokeWidth={20}
+              fill="none"
+            />
+            <path
+              d={pathData}
+              stroke={isHighlighted ? layoutConfig.lineColor : "url(#lineageGradient)"}
+              strokeWidth={isHighlighted ? (layoutConfig.lineWidth || 1.5) * 2 : layoutConfig.lineWidth || 1.5}
               strokeLinecap="round"
               strokeLinejoin="round"
               fill="none"
-              className="opacity-20 hover:opacity-100 transition-all duration-700"
+              className={`transition-all duration-300 ${isHighlighted ? 'opacity-100 shadow-[0_0_15px_rgba(59,130,246,0.5)]' : 'opacity-20 group-hover:opacity-60'}`}
             />
           </g>
         );
@@ -136,6 +149,7 @@ export const KilangCanvas = ({
   layoutConfig,
   dispatch
 }: KilangCanvasProps) => {
+  const value = useSidebar();
   const normalize = (w: string) => w.toLowerCase().trim().replace(/\|$/, '');
   const [viewPos, setViewPos] = React.useState({ x: 0, y: 0, w: 0, h: 0 });
 
@@ -173,6 +187,45 @@ export const KilangCanvas = ({
     };
   }, [selectedRoot, treeRef, isFit, scale, fitTransform]);
 
+  const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
+
+  const getActiveHighlightChain = React.useMemo(() => {
+    if (!activeHighlightNode || !rootData?.derivatives) return new Set<string>();
+
+    const chain = new Set<string>();
+    const derivatives = rootData.derivatives;
+    const lowRoot = normalizeWord(selectedRoot || '');
+
+    // 1. Find ancestors
+    let current = activeHighlightNode;
+    chain.add(current);
+
+    while (current && current !== lowRoot) {
+      const entry = derivatives.find((d: Derivation) => d.word_ab === current);
+      if (entry && entry.parentWord) {
+        chain.add(entry.parentWord);
+        current = entry.parentWord;
+      } else {
+        // Must be attached to root
+        if (lowRoot) chain.add(lowRoot);
+        break;
+      }
+    }
+
+    // 2. Find descendants
+    const addDescendants = (word: string) => {
+      derivatives.forEach((d: Derivation) => {
+        if (d.parentWord === word && !chain.has(d.word_ab)) {
+          chain.add(d.word_ab);
+          addDescendants(d.word_ab);
+        }
+      });
+    };
+    addDescendants(activeHighlightNode);
+
+    return chain;
+  }, [activeHighlightNode, rootData?.derivatives, selectedRoot]);
+
   return (
     <main className="flex-1 overflow-hidden relative">
       <div className="h-full flex flex-col">
@@ -200,7 +253,11 @@ export const KilangCanvas = ({
             )}
 
             {selectedRoot ? (
-              <div ref={treeRef} className="flex-1 overflow-auto no-scrollbar bg-[#020617]/40 relative flex items-center justify-center p-32">
+              <div 
+                ref={treeRef} 
+                className="flex-1 overflow-auto no-scrollbar bg-[#020617]/40 relative flex items-center justify-center p-32"
+                onClick={() => dispatch({ type: 'SET_CANVAS_SELECT', node: null })}
+              >
                 {/* 3. Primary Workspace Area */}
 
                 {/* Error handling remains an overlay-style block */}
@@ -247,13 +304,15 @@ export const KilangCanvas = ({
                       <div className="absolute inset-0 pointer-events-none" style={{ zIndex: 0 }}>
                         <LineageCanvas
                           root={selectedRoot || ''}
-                          derivatives={rootData?.derivatives || []}
+                          derivatives={(rootData?.derivatives || []) as Derivation[]}
                           nodeMap={nodeMap}
                           direction={direction}
                           isFit={isFit}
                           scale={scale}
                           layoutConfig={layoutConfig}
                           rootPos={rootPos}
+                          activeHighlightChain={getActiveHighlightChain}
+                          dispatch={dispatch}
                         />
                       </div>
                     );
@@ -282,6 +341,12 @@ export const KilangCanvas = ({
                             summaryCache={summaryCache}
                             fetchSummary={fetchSummary}
                             config={layoutConfig}
+                            isHighlighted={getActiveHighlightChain.has(normalizeWord(selectedRoot || '') || '')}
+                            isHovered={value.state.canvasHoverNode === normalizeWord(selectedRoot || '')}
+                            onInteraction={(type: 'hover' | 'select', word: string | null) => {
+                              if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
+                              else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
+                            }}
                           />
                         </div>
                       );
@@ -291,7 +356,7 @@ export const KilangCanvas = ({
                     {(() => {
                       const rootPos = nodeMap[normalizeWord(selectedRoot || '') || ''];
                       if (!rootPos) return null;
-                      return rootData?.derivatives?.map((d: any) => {
+                      return (rootData?.derivatives as Derivation[])?.map((d: Derivation) => {
                         const pos = nodeMap[d.word_ab];
                         if (!pos) return null;
                         return (
@@ -320,6 +385,12 @@ export const KilangCanvas = ({
                                   summaryCache={summaryCache}
                                   fetchSummary={fetchSummary}
                                   config={layoutConfig}
+                                  isHighlighted={getActiveHighlightChain.has(d.word_ab)}
+                                  isHovered={value.state.canvasHoverNode === d.word_ab}
+                                  onInteraction={(type: 'hover' | 'select', word: string | null) => {
+                                    if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
+                                    else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
+                                  }}
                                 />
                               </div>
                             </div>
