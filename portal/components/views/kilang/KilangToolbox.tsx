@@ -112,6 +112,32 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 unit="px"
                 onChange={(v) => updateConfig({ interRowGap: v })}
               />
+              <Slider
+                label="0-1 Gap"
+                value={layoutConfig.coupleGaps ? layoutConfig.interTierGap : layoutConfig.rootGap}
+                min={0} max={600} step={10}
+                unit="px"
+                disabled={layoutConfig.coupleGaps}
+                onChange={(v) => updateConfig({ rootGap: v })}
+              />
+              <div className="flex items-center justify-between pt-2">
+                <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Spacing Mode</span>
+                <button
+                  onClick={() => updateConfig({ spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' })}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-indigo-600/20 border-indigo-500/40 text-indigo-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}
+                >
+                  <span className="text-[8px] font-black uppercase">{layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}</span>
+                </button>
+              </div>
+              <div className="flex items-center justify-between pt-1">
+                <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Coupled Gaps</span>
+                <button
+                  onClick={() => updateConfig({ coupleGaps: !layoutConfig.coupleGaps })}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.coupleGaps ? 'bg-emerald-600/20 border-emerald-500/40 text-emerald-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}
+                >
+                  <span className="text-[8px] font-black uppercase">{layoutConfig.coupleGaps ? 'Coupled' : 'Decoupled'}</span>
+                </button>
+              </div>
             </div>
           </section>
 
@@ -248,7 +274,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 <div className="flex flex-col items-center gap-2">
                   <input
                     type="color"
-                    value={layoutConfig.rootColor}
+                    value={layoutConfig.rootColor ?? '#2563eb'}
                     onChange={(e) => updateConfig({ rootColor: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
@@ -260,7 +286,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 <div className="flex flex-col items-center gap-2">
                   <input
                     type="color"
-                    value={layoutConfig.branchColor}
+                    value={layoutConfig.branchColor ?? '#3b82f6'}
                     onChange={(e) => updateConfig({ branchColor: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
@@ -272,7 +298,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 <div className="flex flex-col items-center gap-2">
                   <input
                     type="color"
-                    value={layoutConfig.lineColor}
+                    value={layoutConfig.lineColor ?? '#3b82f6'}
                     onChange={(e) => updateConfig({ lineColor: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
@@ -284,7 +310,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 <div className="flex flex-col items-center gap-2">
                   <input
                     type="color"
-                    value={layoutConfig.lineColorMid}
+                    value={layoutConfig.lineColorMid ?? '#6366f1'}
                     onChange={(e) => updateConfig({ lineColorMid: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
@@ -296,7 +322,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 <div className="flex flex-col items-center gap-2">
                   <input
                     type="color"
-                    value={layoutConfig.lineGradientEnd}
+                    value={layoutConfig.lineGradientEnd ?? '#10b981'}
                     onChange={(e) => updateConfig({ lineGradientEnd: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
@@ -330,11 +356,12 @@ interface SliderProps {
   max: number;
   step: number;
   unit: string;
+  disabled?: boolean;
   onChange: (val: number) => void;
 }
 
-const Slider = ({ label, value, min, max, step, unit, onChange }: SliderProps) => (
-  <div className="space-y-2">
+const Slider = ({ label, value, min, max, step, unit, disabled, onChange }: SliderProps) => (
+  <div className={`space-y-2 transition-opacity duration-300 ${disabled ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}>
     <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-blue-400/80">
       <span>{label}</span>
       <span className="font-mono">{value}{unit}</span>
@@ -342,9 +369,10 @@ const Slider = ({ label, value, min, max, step, unit, onChange }: SliderProps) =
     <input
       type="range"
       min={min} max={max} step={step}
-      value={value}
+      value={value ?? min ?? 0}
+      disabled={disabled}
       onChange={(e) => onChange(parseFloat(e.target.value))}
-      className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-500 hover:accent-blue-400 transition-all"
+      className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-500 hover:accent-blue-400 transition-all disabled:cursor-not-allowed"
     />
   </div>
 );

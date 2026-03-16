@@ -34,7 +34,7 @@ export const WordTooltip = ({ word, children, dictCode, id, summaryCache, fetchS
       <div
         onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
         onMouseLeave={handleLeave}
-        className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-80 bg-[#0f172a]/90 backdrop-blur-xl border border-blue-500/30 shadow-[0_0_50px_rgba(0,0,0,0.5)] rounded-2xl p-6 transition-all z-[2000] pointer-events-auto text-left leading-normal duration-200 border-b-4 border-b-blue-500 ${isHovered ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 translate-y-2'}`}
+        className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-80 bg-[#0f172a]/95 backdrop-blur-xl border border-blue-500/40 shadow-[0_0_50px_rgba(0,0,0,0.8)] rounded-2xl p-6 transition-all z-[9999] pointer-events-auto text-left leading-normal duration-200 border-b-4 border-b-blue-500 ${isHovered ? 'visible opacity-100 translate-y-0' : 'invisible opacity-0 translate-y-2'}`}
       >
         <div className="flex flex-col gap-1 mb-4 border-b border-white/10 pb-3">
           <div className="flex items-center justify-between text-normal">

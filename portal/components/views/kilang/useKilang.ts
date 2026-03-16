@@ -59,6 +59,13 @@ export const useKilang = () => {
         ? normalizeWord(firstEntry.stem) 
         : null;
 
+      // Calculate auto-width for nodes based on the longest word in the tree
+      const words = [normalizedRoot, ...allRows.map(r => normalizeWord(r.word_ab) || '')];
+      const maxChars = Math.max(...words.map(w => w.length));
+      const autoWidth = Math.max(120, (maxChars * 11) + 40); // 11px per char + padding for icons/spacing
+
+      dispatch({ type: 'SET_LAYOUT_CONFIG', config: { nodeWidth: autoWidth } });
+
       dispatch({
         type: 'SET_ROOT_DATA',
         data: {

@@ -23,6 +23,9 @@ interface LineageCanvasProps {
     nodeSize: number;
     anchorX: number;
     anchorY: number;
+    spacingMode?: 'even' | 'log';
+    rootGap?: number;
+    coupleGaps?: boolean;
   };
 }
 
@@ -130,6 +133,9 @@ interface KilangCanvasProps {
     nodePaddingY: number;
     anchorX: number;
     anchorY: number;
+    spacingMode: 'even' | 'log';
+    rootGap: number;
+    coupleGaps: boolean;
   };
   dispatch: React.Dispatch<KilangAction>;
 }

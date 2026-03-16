@@ -60,6 +60,9 @@ export interface KilangState {
     nodePaddingY: number;
     anchorX: number;
     anchorY: number;
+    spacingMode: 'even' | 'log';
+    rootGap: number;
+    coupleGaps: boolean;
   };
 }
 
@@ -84,7 +87,7 @@ export const initialState: KilangState = {
   selectedRoot: null,
   rootData: null,
   summaryCache: {},
-  morphMode: 'moe',
+  morphMode: 'plus', //strict = moe
   sourceFilter: 'ALL',
   direction: 'horizontal',
   arrangement: 'aligned', // Default Aligned
@@ -119,6 +122,9 @@ export const initialState: KilangState = {
     nodePaddingY: 8,
     anchorX: ANCHOR_DEFAULTS.horizontal.x,
     anchorY: ANCHOR_DEFAULTS.horizontal.y,
+    spacingMode: 'log',
+    rootGap: 50,
+    coupleGaps: false,
   },
 };
 
