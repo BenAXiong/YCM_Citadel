@@ -6,7 +6,7 @@ import { useSidebar } from '../SidebarContext';
 interface ForestTabProps {
   bookmarks: import('../KilangTypes').Bookmark[];
   sortedBookmarks: import('../KilangTypes').Bookmark[];
-  saveBookmark: (root: string, type: 'db' | 'custom', data: any, count: number) => void;
+  saveBookmark: (root: string, type: 'db' | 'custom', data: import('../KilangTypes').KilangRootData, count: number) => void;
   togglePin: (id: string, e: React.MouseEvent) => void;
   deleteBookmark: (id: string, e: React.MouseEvent) => void;
   loadBookmark: (bookmark: import('../KilangTypes').Bookmark) => void;

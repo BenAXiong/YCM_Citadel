@@ -1,7 +1,8 @@
 'use client';
 
 import React from 'react';
-import { normalizeWord, Derivation, calculateTreeRows } from '../kilangUtils';
+import { normalizeWord, calculateTreeRows } from '../kilangUtils';
+import { Derivation } from '../KilangTypes';
 import { KilangAction } from '../kilangReducer';
 
 export const useCustomTree = (dispatch: React.Dispatch<KilangAction>) => {

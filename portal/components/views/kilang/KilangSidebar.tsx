@@ -148,10 +148,10 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
           <ForestTab
             bookmarks={bookmarks}
             sortedBookmarks={sortedBookmarks}
-            saveBookmark={(r:any, t:any, d:any, c:any) => saveBookmark(r, t, d, c, sidebarTab, customInputDirty)}
+            saveBookmark={(r, t, d, c) => saveBookmark(r, t, d, c, sidebarTab, customInputDirty)}
             togglePin={togglePin}
             deleteBookmark={deleteBookmark}
-            loadBookmark={(b:any) => loadBookmark(b, fetchRootDetails)}
+            loadBookmark={(b) => loadBookmark(b, fetchRootDetails)}
             showPlusOne={showPlusOne}
             showMinusOne={showMinusOne}
           />

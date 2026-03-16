@@ -3,59 +3,7 @@
  * Handles the extraction and reshaping of morphological derivation trees.
  */
 
-export interface MoeEntry {
-  id: number;
-  word_ab: string;
-  definition: string;
-  dict_code: string;
-  stem?: string;
-  parent_word?: string;
-  ultimate_root?: string;
-  tier?: number | string;
-  sort_path?: string;
-  [key: string]: any;
-}
-
-export interface Derivation extends MoeEntry {
-  word_ab: string;
-  parentWord: string | null;
-  ultimateRoot: string | null;
-  tier: number;
-  sortPath: string;
-  treeRow?: number;
-}
-
-export interface RootStats {
-  summary: {
-    total_roots: number;
-    max_depth: number;
-    max_branches: number;
-    total_words: number;
-    average_branching: number;
-    std_dev: number;
-  };
-  distribution: Record<string, number>;
-  depth_distribution: Record<string, number>;
-  deep_examples: Record<string, string[]>;
-  top_roots: Array<{ root: string; count: number }>;
-}
-
-export interface NodeCoordinate {
-  x: number;
-  y: number;
-}
-
-export type NodeMap = Record<string, NodeCoordinate>;
-
-export interface KilangRootData {
-  word: string;
-  derivatives: Derivation[];
-  totalInDb: number;
-  parentStem: string | null;
-  loading?: boolean;
-  error?: boolean;
-  errorMessage?: string;
-}
+import { MoeEntry, Derivation, RootStats, KilangRootData, NodeCoordinate, NodeMap } from './KilangTypes';
 
 /**
  * Normalizes word strings by trimming and removing trailing pipes.
