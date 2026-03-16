@@ -268,8 +268,11 @@ export const KilangSidebar = ({
                       fetchSummary={fetchSummary}
                       className="w-full block relative"
                     >
-                      <div className={`px-4 py-2.5 rounded-xl watering-can-cursor transition-all border flex items-center justify-between group/item ${selectedRoot === r.root ? 'bg-blue-600/20 border-blue-500/50 shadow-lg shadow-blue-500/5' : 'bg-white/5 border-white/5 hover:border-white/20'}`}>
-                        <span className="text-[13px] font-bold text-white uppercase tracking-tight" onClick={() => fetchRootDetails(r.root)}>{r.root}</span>
+                      <div 
+                        onClick={() => fetchRootDetails(r.root)}
+                        className={`px-4 py-2.5 rounded-xl cursor-pointer transition-all border flex items-center justify-between group/item ${selectedRoot === r.root ? 'bg-blue-600/20 border-blue-500/50 shadow-lg shadow-blue-500/5' : 'bg-white/5 border-white/5 hover:border-white/20'}`}
+                      >
+                        <span className="text-[13px] font-bold text-white uppercase tracking-tight">{r.root}</span>
                         <div className="flex items-center gap-2">
                           <button 
                             onClick={(e) => { e.stopPropagation(); saveBookmark(r.root, 'db', null, r.count); }}
@@ -278,7 +281,7 @@ export const KilangSidebar = ({
                           >
                             <Bookmark className={`w-4 h-4 ${bookmarks.find(b => b.root === r.root) ? 'fill-blue-400' : ''}`} />
                           </button>
-                          <span className="text-xs font-black text-blue-500 bg-blue-500/10 px-2 py-1 rounded-md" onClick={() => fetchRootDetails(r.root)}>{r.count}</span>
+                          <span className="text-xs font-black text-blue-500 bg-blue-500/10 px-2 py-1 rounded-md">{r.count}</span>
                         </div>
                       </div>
                     </WordTooltip>
