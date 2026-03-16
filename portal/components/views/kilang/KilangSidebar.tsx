@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Search, Filter, XCircle, ChevronLeft, ChevronRight, Settings2, PenTool, LayoutPanelLeft, Box, RotateCcw, SlidersHorizontal, PencilLine, Scaling, Palette, Zap, ZapOff, Maximize2, Info, Bookmark, Pin, CheckCircle2, GitBranch } from 'lucide-react';
+import { Search, Filter, XCircle, ChevronLeft, ChevronRight, Settings2, PenTool, LayoutPanelLeft, Box, RotateCcw, SlidersHorizontal, PencilLine, Scaling, Palette, Zap, ZapOff, Maximize2, Info, Bookmark, Pin, CheckCircle2, GitBranch, TreePine, Sprout } from 'lucide-react';
 import { WordTooltip } from './KilangNode';
 import { KilangState, KilangAction } from './kilangReducer';
 import { normalizeWord } from './kilangUtils';
@@ -40,6 +40,8 @@ export const KilangSidebar = ({
   const [toast, setToast] = React.useState<{ message: string, type: 'success' | 'info' } | null>(null);
   const [customInput, setCustomInput] = React.useState("Lamit\n  Ca'ang 1\n    Losay 1\n  Ca'ang 2\n    Losay 2\n      Varu\n        Udal\n  Ca'ang 3");
   const [customInputDirty, setCustomInputDirty] = React.useState(false);
+  const [showPlusOne, setShowPlusOne] = React.useState(false);
+  const [showMinusOne, setShowMinusOne] = React.useState(false);
 
   // Load bookmarks on mount
   React.useEffect(() => {
@@ -84,21 +86,40 @@ export const KilangSidebar = ({
     }
     
     const existing = bookmarks.find(b => b.root === rootToSave);
+    
+    if (existing) {
+      // Toggle off: Remove from bookmarks
+      const updated = bookmarks.filter(b => b.root !== rootToSave);
+      setBookmarks(updated);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+      showNotification(`${isCustom ? 'Custom Kilang' : 'Kilang'} removed from Library`, 'info');
+      
+      // Optional: trigger a different animation or no animation for removal
+      setShowMinusOne(true);
+      setTimeout(() => setShowMinusOne(false), 1000);
+      return;
+    }
+
     const newBookmark = {
-      id: existing?.id || Date.now().toString(),
+      id: Date.now().toString(),
       root: rootToSave,
       type: isCustom ? 'custom' : 'db',
       data: isCustom ? (dataOverride || (rootToSave === selectedRoot ? rootData : null)) : null,
       timestamp: new Date().toISOString(),
       count: countOverride ?? (rootToSave === selectedRoot ? rootData?.derivatives?.length : 0),
-      isPinned: existing?.isPinned || false
+      isPinned: false
     };
 
-    const updated = [newBookmark, ...bookmarks.filter(b => b.root !== rootToSave)];
+    const updated = [newBookmark, ...bookmarks];
     setBookmarks(updated);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
     
     showNotification(`${isCustom ? 'Custom Kilang' : 'Kilang'} saved to Library`);
+    
+    // Trigger +1 animation
+    setShowPlusOne(true);
+    setTimeout(() => setShowPlusOne(false), 1000);
+
     if (!rootOverride) setShowMyTrees(true);
   };
 
@@ -200,8 +221,8 @@ export const KilangSidebar = ({
       <div className="flex-1 overflow-y-auto custom-scrollbar no-scrollbar">
         {sidebarTab === 'forest' && (
           <div className="animate-in fade-in slide-in-from-left-4 duration-500">
-            {/* 1. Header Controls */}
-            <div className="p-6 pt-0 space-y-6">
+            {/* 1. Header Controls - Sticky */}
+            <div className="sticky top-0 z-[50] p-6 bg-[#0f172a]/95 backdrop-blur-xl border-b border-white/5 space-y-6">
               <div className="flex gap-2">
                 <div className="relative group flex-1">
                   <Search className="absolute left-3 top-3 w-4 h-4 text-kilang-text-muted group-focus-within:text-blue-500" />
@@ -224,13 +245,27 @@ export const KilangSidebar = ({
                     </button>
                   )}
                 </div>
-                <button
-                  onClick={() => setShowMyTrees(!showMyTrees)}
-                  className={`w-11 h-11 rounded-xl flex items-center justify-center border bg-blue-600/20 border-blue-500 text-blue-400 shadow-lg shadow-blue-500/10 transition-all hover:bg-blue-600/30 hover:scale-105 active:scale-95`}
-                  title={showMyTrees ? "Back to Forest" : "My Trees"}
-                >
-                  {showMyTrees ? <Filter className="w-5 h-5" /> : <Bookmark className="w-5 h-5" />}
-                </button>
+                <div className="relative">
+                  <button
+                    onClick={() => setShowMyTrees(!showMyTrees)}
+                    className={`w-11 h-11 rounded-xl flex items-center justify-center border bg-blue-600/20 border-blue-500 text-blue-400 shadow-lg shadow-blue-500/10 transition-all hover:bg-blue-600/30 hover:scale-105 active:scale-95`}
+                    title={showMyTrees ? "Back to Forest" : "My Trees"}
+                  >
+                    {showMyTrees ? <Filter className="w-5 h-5" /> : <Bookmark className="w-5 h-5" />}
+                  </button>
+                  {showPlusOne && (
+                    <div className="absolute top-1/2 left-1/2 flex items-center gap-1 text-blue-400 font-black pointer-events-none animate-bloom-pop z-[100] drop-shadow-[0_0_20px_rgba(59,130,246,0.8)]">
+                      <TreePine className="w-5 h-5" />
+                      <span className="text-sm tracking-tighter self-center">+1</span>
+                    </div>
+                  )}
+                  {showMinusOne && (
+                    <div className="absolute top-1/2 left-1/2 flex items-center gap-1 text-rose-500 font-black pointer-events-none animate-bloom-pop z-[100] drop-shadow-[0_0_20px_rgba(244,63,94,0.8)]">
+                      <Sprout className="w-5 h-5" />
+                      <span className="text-sm tracking-tighter self-center">-1</span>
+                    </div>
+                  )}
+                </div>
               </div>
 
               {!showMyTrees ? (
@@ -276,7 +311,7 @@ export const KilangSidebar = ({
                         <div className="flex items-center gap-2">
                           <button 
                             onClick={(e) => { e.stopPropagation(); saveBookmark(r.root, 'db', null, r.count); }}
-                            className={`opacity-0 group-hover/item:opacity-100 p-2 rounded-lg transition-all border shadow-lg ${bookmarks.find(b => b.root === r.root) ? 'bg-blue-600/20 border-blue-500/50 text-blue-400' : 'bg-transparent border-blue-500/20 text-blue-400/40 hover:text-blue-400 hover:border-blue-500/50'}`}
+                            className={`opacity-0 group-hover/item:opacity-100 p-2 rounded-lg transition-all border shadow-lg heart-cursor ${bookmarks.find(b => b.root === r.root) ? 'bg-blue-600/20 border-blue-500/50 text-blue-400' : 'bg-transparent border-blue-500/20 text-blue-400/40 hover:text-blue-400 hover:border-blue-500/50'}`}
                             title="Quick Save"
                           >
                             <Bookmark className={`w-4 h-4 ${bookmarks.find(b => b.root === r.root) ? 'fill-blue-400' : ''}`} />

@@ -61,6 +61,16 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes bloomPop {
+  0% { opacity: 0; transform: translate(-50%, 0) scale(0.5); }
+  30% { opacity: 1; transform: translate(-50%, -20px) scale(1.2); }
+  100% { opacity: 0; transform: translate(-50%, -40px) scale(1); }
+}
+
+.animate-bloom-pop {
+  animation: bloomPop 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
 .tree-node {
   animation: branchGrow 0.5s ease-out forwards;
 }
@@ -75,4 +85,8 @@
 
 .watering-can-cursor {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' style='font-size:24px'><text y='50%'>🚿</text></svg>") 10 10, pointer;
+}
+
+.heart-cursor {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' style='font-size:24px'><text y='50%'>❤️</text></svg>") 10 10, pointer;
 }
