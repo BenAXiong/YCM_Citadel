@@ -112,7 +112,7 @@ export const initialState: KilangState = {
     showToolbox: false,
     lineGapX: 0,
     lineGapY: 0,
-    interTierGap: 100,
+    interTierGap: 80,
     interRowGap: 50,
     nodeSize: 1,
     nodeOpacity: 1,

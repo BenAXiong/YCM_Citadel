@@ -225,6 +225,7 @@ export const calculateNodeMap = (
     spacingMode?: 'even' | 'log';
     rootGap?: number;
     coupleGaps?: boolean;
+    nodePaddingY?: number;
   }
 ): NodeMap => {
   const nodeMap: NodeMap = {};
@@ -239,24 +240,28 @@ export const calculateNodeMap = (
 
   // Spacing Helper
   const getTierOffset = (tier: number) => {
-    // tier is 1-indexed here. Tier 0 is Root.
-    if (tier === 0) return 0;
+    if (tier <= 1) return 0;
 
     const basePadding = ROOT_SIZE / 2;
-    const tier1Gap = config?.coupleGaps ? (config?.interTierGap ?? cellW) : (config?.rootGap ?? 100);
-    const subsequentG = config?.interTierGap ?? cellW;
+    const rootGap = config?.coupleGaps ? (config?.interTierGap ?? cellW) : (config?.rootGap ?? 100);
+    const interGap = config?.interTierGap ?? cellW;
     
-    // Tier 1 offset
-    let totalOffset = basePadding + tier1Gap;
+    // Calculate branch half-size based on current direction
+    // H: nodeWidth / 2 | V: (nodePaddingY + 8)
+    const halfSize = direction === 'horizontal' 
+      ? (nodeWidth / 2) 
+      : (config?.nodePaddingY ?? 8) + 8;
     
-    // Sum subsequent gaps
-    for (let i = 2; i <= tier; i++) {
-      let currentGap = subsequentG;
+    // Tier 2: Root Edge + Gap + Branch Half-Size (so edge touches edge)
+    let totalOffset = basePadding + rootGap + halfSize;
+    
+    // Subsequent layers: Previous Center + Half + Gap + Half
+    for (let i = 3; i <= tier; i++) {
+      let currentGap = interGap;
       if (config?.spacingMode === 'log') {
-        // Decay by 20% per tier step, starting after the first gap
-        currentGap = subsequentG * Math.pow(0.8, i - 1);
+        currentGap = interGap * Math.pow(0.8, i - 3);
       }
-      totalOffset += currentGap;
+      totalOffset += (halfSize * 2) + currentGap;
     }
     
     return totalOffset;
@@ -284,8 +289,8 @@ export const calculateNodeMap = (
         };
       } else {
         nodeMap[d.word_ab] = { 
-          x: CENTER_X + (row * cellW), 
-          y: CENTER_Y - offset 
+          x: CENTER_X + (row * cellH), // Cross-axis (siblings) uses Row Gap
+          y: CENTER_Y - offset         // Main axis (tiers) uses Tier Gap/Offset
         };
       }
     });
