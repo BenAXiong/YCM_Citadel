@@ -73,12 +73,12 @@ export const KilangSidebar = ({
       }
       return;
     }
-    
+
     // Safety check for custom data
-    const isCustom = typeOverride === 'custom' || 
-                   (rootData?.derivatives?.[0]?.dict_code === 'CUSTOM' && rootToSave === selectedRoot) ||
-                   (dataOverride?.derivatives?.[0]?.dict_code === 'CUSTOM') ||
-                   (sidebarTab === 'custom' && rootToSave === selectedRoot);
+    const isCustom = typeOverride === 'custom' ||
+      (rootData?.derivatives?.[0]?.dict_code === 'CUSTOM' && rootToSave === selectedRoot) ||
+      (dataOverride?.derivatives?.[0]?.dict_code === 'CUSTOM') ||
+      (sidebarTab === 'custom' && rootToSave === selectedRoot);
 
     if (isCustom && !rootData?.derivatives?.length && !dataOverride) {
       showNotification('Plant your Kilang first!', 'info');
@@ -89,16 +89,16 @@ export const KilangSidebar = ({
       showNotification('Plant your modified Kilang first!', 'info');
       return;
     }
-    
+
     const existing = bookmarks.find(b => b.root === rootToSave);
-    
+
     if (existing) {
       // Toggle off: Remove from bookmarks
       const updated = bookmarks.filter(b => b.root !== rootToSave);
       setBookmarks(updated);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
       showNotification(`${isCustom ? 'Custom Kilang' : 'Kilang'} removed from Library`, 'info');
-      
+
       // Optional: trigger a different animation or no animation for removal
       setShowMinusOne(true);
       setTimeout(() => setShowMinusOne(false), 1000);
@@ -118,9 +118,9 @@ export const KilangSidebar = ({
     const updated = [newBookmark, ...bookmarks];
     setBookmarks(updated);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
-    
+
     showNotification(`${isCustom ? 'Custom Kilang' : 'Kilang'} saved to Library`);
-    
+
     // Trigger +1 animation
     setShowPlusOne(true);
     setTimeout(() => setShowPlusOne(false), 1000);
@@ -309,13 +309,13 @@ export const KilangSidebar = ({
                       className="w-full block relative"
                       side="right"
                     >
-                      <div 
+                      <div
                         onClick={() => fetchRootDetails(r.root)}
                         className={`px-4 py-2.5 rounded-xl cursor-pointer transition-all border flex items-center justify-between group/item ${selectedRoot === r.root ? 'bg-blue-600/20 border-blue-500/50 shadow-lg shadow-blue-500/5' : 'bg-white/5 border-white/5 hover:border-white/20'}`}
                       >
                         <span className="text-[13px] font-bold text-white uppercase tracking-tight">{r.root}</span>
                         <div className="flex items-center gap-2">
-                          <button 
+                          <button
                             onClick={(e) => { e.stopPropagation(); saveBookmark(r.root, 'db', null, r.count); }}
                             className={`opacity-0 group-hover/item:opacity-100 p-2 rounded-lg transition-all border shadow-lg heart-cursor ${bookmarks.find(b => b.root === r.root) ? 'bg-blue-600/20 border-blue-500/50 text-blue-400' : 'bg-transparent border-blue-500/20 text-blue-400/40 hover:text-blue-400 hover:border-blue-500/50'}`}
                             title="Quick Save"
@@ -350,7 +350,7 @@ export const KilangSidebar = ({
                             className="w-full block relative"
                             side="right"
                           >
-                            <div 
+                            <div
                               onClick={() => loadBookmark(b)}
                               className={`group px-4 py-3 rounded-xl border transition-all cursor-pointer flex items-center justify-between ${selectedRoot === b.root ? 'bg-indigo-600/20 border-indigo-500/50' : 'bg-white/5 border-white/5 hover:border-white/20'}`}
                             >
@@ -369,14 +369,14 @@ export const KilangSidebar = ({
                                 </div>
                               </div>
                               <div className="flex items-center gap-1">
-                                <button 
+                                <button
                                   onClick={(e) => togglePin(b.id, e)}
                                   className={`p-1.5 rounded-lg transition-all ${b.isPinned ? 'text-yellow-500 bg-yellow-500/10' : 'text-white/10 hover:text-white/40 opacity-0 group-hover:opacity-100'}`}
                                   title={b.isPinned ? "Unpin" : "Pin to Top"}
                                 >
                                   <Pin className="w-3 h-3" />
                                 </button>
-                                <button 
+                                <button
                                   onClick={(e) => deleteBookmark(b.id, e)}
                                   className="opacity-0 group-hover:opacity-100 p-1.5 rounded-lg hover:bg-red-500/20 text-white/10 hover:text-red-400 transition-all"
                                 >
@@ -417,11 +417,11 @@ export const KilangSidebar = ({
             </div>
 
             {/* Spacing */}
-            <CollapsibleSection 
-              id="spacing" 
-              label="Layout Spacing" 
-              icon={<SlidersHorizontal className="w-3.5 h-3.5" />} 
-              isCollapsed={collapsedSections['spacing']} 
+            <CollapsibleSection
+              id="spacing"
+              label="Layout Spacing"
+              icon={<SlidersHorizontal className="w-3.5 h-3.5" />}
+              isCollapsed={collapsedSections['spacing']}
               onToggle={() => toggleSection('spacing')}
             >
               <div className="space-y-4 pl-1">
@@ -445,11 +445,11 @@ export const KilangSidebar = ({
             </CollapsibleSection>
 
             {/* Path Twitch */}
-            <CollapsibleSection 
-              id="paths" 
-              label="SVG Connection Styling" 
-              icon={<PencilLine className="w-3.5 h-3.5" />} 
-              isCollapsed={collapsedSections['paths']} 
+            <CollapsibleSection
+              id="paths"
+              label="SVG Connection Styling"
+              icon={<PencilLine className="w-3.5 h-3.5" />}
+              isCollapsed={collapsedSections['paths']}
               onToggle={() => toggleSection('paths')}
             >
               <div className="space-y-4 pl-1">
@@ -462,11 +462,11 @@ export const KilangSidebar = ({
             </CollapsibleSection>
 
             {/* Geometry */}
-            <CollapsibleSection 
-              id="geometry" 
-              label="Node Geometry" 
-              icon={<Scaling className="w-3.5 h-3.5" />} 
-              isCollapsed={collapsedSections['geometry']} 
+            <CollapsibleSection
+              id="geometry"
+              label="Node Geometry"
+              icon={<Scaling className="w-3.5 h-3.5" />}
+              isCollapsed={collapsedSections['geometry']}
               onToggle={() => toggleSection('geometry')}
             >
               <div className="space-y-4 pl-1">
@@ -491,11 +491,11 @@ export const KilangSidebar = ({
             </CollapsibleSection>
 
             {/* Anchors */}
-            <CollapsibleSection 
-              id="anchors" 
-              label="Root Anchor" 
-              icon={<Maximize2 className="w-3.5 h-3.5" />} 
-              isCollapsed={collapsedSections['anchors']} 
+            <CollapsibleSection
+              id="anchors"
+              label="Root Anchor"
+              icon={<Maximize2 className="w-3.5 h-3.5" />}
+              isCollapsed={collapsedSections['anchors']}
               onToggle={() => toggleSection('anchors')}
             >
               <div className="space-y-4 pl-1">
@@ -510,17 +510,35 @@ export const KilangSidebar = ({
               </div>
             </CollapsibleSection>
 
-            {/* Aesthetics */}
-            <CollapsibleSection 
-              id="colors" 
-              label="Aesthetics" 
-              icon={<Palette className="w-3.5 h-3.5" />} 
-              isCollapsed={collapsedSections['colors']} 
+            <CollapsibleSection
+              id="colors"
+              label="Tier Aesthetics"
+              icon={<Palette className="w-3.5 h-3.5" />}
+              isCollapsed={collapsedSections['colors']}
               onToggle={() => toggleSection('colors')}
             >
-              <div className="grid grid-cols-2 gap-4 pl-1">
-                <ColorPicker label="Root" value={layoutConfig.rootColor} onChange={(v: string) => updateConfig({ rootColor: v })} />
-                <ColorPicker label="Branch" value={layoutConfig.branchColor} onChange={(v: string) => updateConfig({ branchColor: v })} />
+              <div className="space-y-4 max-h-[400px] overflow-y-auto no-scrollbar pr-2">
+                {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((tier) => (
+                  <div key={tier} className="p-3 bg-white/5 border border-white/5 rounded-2xl space-y-3">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[9px] font-black uppercase tracking-widest text-blue-400">Tier {tier}</span>
+                    </div>
+                    <div className="grid grid-cols-2 gap-3">
+                      <ColorPicker
+                        label="Fill"
+                        value={(layoutConfig as any)[`tier${tier}Fill`]}
+                        onChange={(v: string) => updateConfig({ [`tier${tier}Fill`]: v } as any)}
+                      />
+                      <ColorPicker
+                        label="Border"
+                        value={(layoutConfig as any)[`tier${tier}Border`]}
+                        onChange={(v: string) => updateConfig({ [`tier${tier}Border`]: v } as any)}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-4 pt-4 border-t border-white/5 grid grid-cols-2 gap-4 pl-1">
                 <ColorPicker label="Line Start" value={layoutConfig.lineColor} onChange={(v: string) => updateConfig({ lineColor: v })} />
                 <ColorPicker label="Line Mid" value={layoutConfig.lineColorMid} onChange={(v: string) => updateConfig({ lineColorMid: v })} />
                 <ColorPicker label="Line End" value={layoutConfig.lineGradientEnd} onChange={(v: string) => updateConfig({ lineGradientEnd: v })} />
@@ -541,7 +559,7 @@ export const KilangSidebar = ({
                     <span>Custom Tree Architect</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <button 
+                    <button
                       onClick={() => setShowTips(!showTips)}
                       className={`p-1.5 rounded-lg transition-all ${showTips ? 'bg-blue-500/20 text-blue-400' : 'text-white/20 hover:text-white/40'}`}
                       title="Usage Tips"
@@ -562,7 +580,7 @@ export const KilangSidebar = ({
                     </ul>
                   </div>
                 )}
-                
+
                 <p className="text-[9px] text-white/40 leading-relaxed italic mb-4">
                   Type your root first, then derivative words on new lines. Use spaces or tab to define branching hierarchy.
                 </p>
@@ -585,7 +603,7 @@ export const KilangSidebar = ({
                       const newVal = customInput.substring(0, start) + "  " + customInput.substring(end);
                       setCustomInput(newVal);
                       setCustomInputDirty(true);
-                      
+
                       // Wait for re-render to set selection
                       setTimeout(() => {
                         target.selectionStart = target.selectionEnd = start + 2;
@@ -647,7 +665,7 @@ export const KilangSidebar = ({
                   onClick={() => saveBookmark()}
                   className={`w-full mt-2 py-3 rounded-xl border transition-all text-[10px] font-black uppercase tracking-widest flex items-center justify-center gap-2 
                     ${(bookmarks.find(b => b.root === selectedRoot) && !customInputDirty)
-                      ? 'bg-indigo-600/20 border-indigo-500/50 text-white shadow-lg shadow-indigo-500/10' 
+                      ? 'bg-indigo-600/20 border-indigo-500/50 text-white shadow-lg shadow-indigo-500/10'
                       : (!customInputDirty && selectedRoot)
                         ? 'bg-blue-600/20 border-blue-500 text-blue-400 shadow-lg shadow-blue-500/10'
                         : 'bg-white/5 border-white/10 text-white/20 hover:text-white/40 hover:bg-white/10'}`}
@@ -720,7 +738,7 @@ const ColorPicker = ({ label, value, onChange }: any) => (
 
 const CollapsibleSection = ({ id, label, icon, isCollapsed, onToggle, children }: any) => (
   <section className="space-y-4">
-    <div 
+    <div
       onClick={onToggle}
       className="flex items-center justify-between group cursor-pointer select-none"
     >

@@ -60,7 +60,7 @@ export const StatsOverlay = ({
                   const maxFreq = Math.max(...dist.map(d => d.count), 1);
                   return dist.map(({ branches, count }) => (
                     <div key={branches} className="flex items-center gap-4 group">
-                      <div className="w-12 text-right text-[10px] font-mono text-kilang-text-muted font-bold tracking-tighter uppercase">{branches} Br.</div>
+                      <div className="w-12 text-right text-[10px] font-mono text-kilang-text-muted font-bold tracking-tighter uppercase">{branches} Branches</div>
                       <div className="flex-1 h-3 bg-white/5 rounded-full overflow-hidden border border-white/5">
                         <div className="h-full bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-400 font-black" style={{ width: `${(count / maxFreq) * 100}%` }} />
                       </div>
@@ -118,10 +118,10 @@ export const StatsOverlay = ({
                       }
                     }
                     return reordered.map((r, i) => (
-                      <WordTooltip 
-                        word={r.root} 
-                        key={i} 
-                        summaryCache={summaryCache} 
+                      <WordTooltip
+                        word={r.root}
+                        key={i}
+                        summaryCache={summaryCache}
                         fetchSummary={fetchSummary}
                       >
                         <div onClick={() => { setShowStatsOverlay(false); fetchRootDetails(r.root); }} className="flex items-center justify-between p-2 bg-white/5 rounded-lg border border-white/10 group hover:border-blue-500 hover:bg-white/10 transition-all cursor-pointer h-full">
@@ -151,14 +151,14 @@ export const StatsOverlay = ({
                 {(() => {
                   const allChains = Object.entries(stats?.deep_examples || {})
                     .sort(([, a]: any, [, b]: any) => b.length - a.length);
-                  
+
                   const visibleChains = allChains.slice(0, visibleChainsCount);
-                  
+
                   return (
                     <>
                       {visibleChains.map(([root, chain]: any) => (
-                        <WordTooltip 
-                          word={chain[chain.length - 1]} 
+                        <WordTooltip
+                          word={chain[chain.length - 1]}
                           key={root}
                           summaryCache={summaryCache}
                           fetchSummary={fetchSummary}
@@ -168,7 +168,7 @@ export const StatsOverlay = ({
                               <div className="flex items-center gap-2 flex-wrap min-w-0">
                                 {chain.map((link: string, i: number) => (
                                   <React.Fragment key={i}>
-                                    <WordTooltip 
+                                    <WordTooltip
                                       word={link}
                                       summaryCache={summaryCache}
                                       fetchSummary={fetchSummary}
@@ -186,10 +186,10 @@ export const StatsOverlay = ({
                           </div>
                         </WordTooltip>
                       ))}
-                      
+
                       {allChains.length > visibleChainsCount && (
                         <div className="flex justify-center pt-8">
-                          <button 
+                          <button
                             onClick={() => setVisibleChainsCount(prev => (typeof prev === 'number' ? prev : 10) + 10)}
                             className="px-10 py-5 bg-indigo-600/20 hover:bg-indigo-600 border border-indigo-500/30 rounded-[24px] text-white font-black uppercase tracking-[0.3em] transition-all shadow-xl flex items-center gap-4 group"
                           >

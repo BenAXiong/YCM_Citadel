@@ -62,6 +62,16 @@ export interface KilangState {
     nodePaddingY: number;
     anchorX: number;
     anchorY: number;
+    // Tier Aesthetics (Fill & Border)
+    tier1Fill: string; tier1Border: string;
+    tier2Fill: string; tier2Border: string;
+    tier3Fill: string; tier3Border: string;
+    tier4Fill: string; tier4Border: string;
+    tier5Fill: string; tier5Border: string;
+    tier6Fill: string; tier6Border: string;
+    tier7Fill: string; tier7Border: string;
+    tier8Fill: string; tier8Border: string;
+    tier9Fill: string; tier9Border: string;
     spacingMode: 'even' | 'log';
     rootGap: number;
     coupleGaps: boolean;
@@ -128,6 +138,15 @@ export const initialState: KilangState = {
     nodePaddingY: 8,
     anchorX: ANCHOR_DEFAULTS.horizontal.x,
     anchorY: ANCHOR_DEFAULTS.horizontal.y,
+    tier1Fill: '#2563eb', tier1Border: '#3b82f6',
+    tier2Fill: '#3b82f6', tier2Border: '#60a5fa',
+    tier3Fill: '#6366f1', tier3Border: '#818cf8',
+    tier4Fill: '#10b981', tier4Border: '#34d399',
+    tier5Fill: '#f59e0b', tier5Border: '#fbbf24',
+    tier6Fill: '#ec4899', tier6Border: '#f472b6',
+    tier7Fill: '#8b5cf6', tier7Border: '#a78bfa',
+    tier8Fill: '#06b6d4', tier8Border: '#22d3ee',
+    tier9Fill: '#94a3b8', tier9Border: '#cbd5e1',
     spacingMode: 'log',
     rootGap: 50,
     coupleGaps: false,

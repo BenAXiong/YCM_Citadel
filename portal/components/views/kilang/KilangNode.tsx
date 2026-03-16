@@ -15,13 +15,13 @@ interface WordTooltipProps {
   side?: 'top' | 'right';
 }
 
-export const WordTooltip = ({ 
-  word, 
-  children, 
-  dictCode, 
-  id, 
-  summaryCache, 
-  fetchSummary, 
+export const WordTooltip = ({
+  word,
+  children,
+  dictCode,
+  id,
+  summaryCache,
+  fetchSummary,
   className = "relative inline-block",
   side = 'top'
 }: WordTooltipProps) => {
@@ -33,7 +33,7 @@ export const WordTooltip = ({
 
   const handleEnter = () => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    
+
     if (triggerRef.current) {
       const rect = triggerRef.current.getBoundingClientRect();
       if (side === 'right') {
@@ -42,7 +42,7 @@ export const WordTooltip = ({
         setCoords({ top: rect.top - 16, left: rect.left + rect.width / 2 });
       }
     }
-    
+
     setIsHovered(true);
     fetchSummary(word);
   };
@@ -56,11 +56,10 @@ export const WordTooltip = ({
     <div
       onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
       onMouseLeave={handleLeave}
-      className={`fixed w-80 bg-[#0f172a]/95 backdrop-blur-3xl border border-blue-500/40 shadow-[0_0_80px_rgba(0,0,0,0.9)] rounded-[24px] p-6 transition-all z-[99999] pointer-events-auto text-left leading-normal border-b-8 border-b-blue-500 animate-in fade-in duration-200 ${
-        side === 'right' 
-          ? 'translate-x-0 -translate-y-1/2' 
-          : '-translate-x-1/2 -translate-y-full'
-      }`}
+      className={`fixed w-80 bg-[#0f172a]/95 backdrop-blur-3xl border border-blue-500/40 shadow-[0_0_80px_rgba(0,0,0,0.9)] rounded-[24px] p-6 transition-all z-[99999] pointer-events-auto text-left leading-normal border-b-8 border-b-blue-500 animate-in fade-in duration-200 ${side === 'right'
+        ? 'translate-x-0 -translate-y-1/2'
+        : '-translate-x-1/2 -translate-y-full'
+        }`}
       style={{
         top: `${coords.top}px`,
         left: `${coords.left}px`,
@@ -89,12 +88,11 @@ export const WordTooltip = ({
         )}
       </div>
       {/* Arrow */}
-      <div 
-        className={`absolute w-4 h-4 bg-[#0f172a] border-blue-500/20 rotate-45 ${
-          side === 'right'
-            ? 'right-full top-1/2 -translate-y-1/2 translate-x-1/2 border-l border-b'
-            : 'top-full left-1/2 -translate-x-1/2 -translate-y-1/2 border-r border-b'
-        }`} 
+      <div
+        className={`absolute w-4 h-4 bg-[#0f172a] border-blue-500/20 rotate-45 ${side === 'right'
+          ? 'right-full top-1/2 -translate-y-1/2 translate-x-1/2 border-l border-b'
+          : 'top-full left-1/2 -translate-x-1/2 -translate-y-1/2 border-r border-b'
+          }`}
       />
     </div>,
     document.body
@@ -119,8 +117,16 @@ interface KilangNodeProps {
     nodeSize: number;
     nodeOpacity: number;
     nodeRounding: number;
-    rootColor: string;
-    branchColor: string;
+    // Dynamic Tiers 1-9 Fills & Borders
+    tier1Fill: string; tier1Border: string;
+    tier2Fill: string; tier2Border: string;
+    tier3Fill: string; tier3Border: string;
+    tier4Fill: string; tier4Border: string;
+    tier5Fill: string; tier5Border: string;
+    tier6Fill: string; tier6Border: string;
+    tier7Fill: string; tier7Border: string;
+    tier8Fill: string; tier8Border: string;
+    tier9Fill: string; tier9Border: string;
     showIcons: boolean;
     nodeWidth: number;
     nodePaddingY: number;
@@ -132,9 +138,9 @@ export const KilangNode = ({ word, dictCode, tier = 2, isRoot = false, summaryCa
 
   const getTierIcon = () => {
     if (isRoot) return <TreePine className="w-5 h-5 text-yellow-400 shrink-0" />;
-    
+
     const iconClass = `w-3 h-3 ${tier === 2 ? 'text-blue-400' : tier === 3 ? 'text-indigo-400' : 'text-emerald-400'} shrink-0`;
-    
+
     switch (tier) {
       case 2: return <GitCommit className={iconClass} />;
       case 3: return <GitBranch className={iconClass} />;
@@ -145,23 +151,28 @@ export const KilangNode = ({ word, dictCode, tier = 2, isRoot = false, summaryCa
     }
   };
 
+  const getTierColor = (type: 'Fill' | 'Border', t: number) => {
+    return (config as any)[`tier${t}${type}`] || (type === 'Fill' ? '#2563eb' : '#3b82f6');
+  };
+
   return (
     <WordTooltip word={word} dictCode={dictCode} id={cleanId} summaryCache={summaryCache} fetchSummary={fetchSummary}>
-      <div 
+      <div
         className="relative transition-all duration-500"
-        style={{ 
+        style={{
           transform: `scale(${config.nodeSize})`,
           opacity: config.nodeOpacity
         }}
       >
         <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
           {isRoot ? (
-            <div 
+            <div
               className="border-4 p-8 rounded-full shadow-[0_0_50px_rgba(59,130,246,0.5)] z-20 relative min-w-[120px] flex items-center justify-center transition-colors duration-500"
-              style={{ 
-                backgroundColor: `${config.rootColor}33`, 
-                borderColor: config.rootColor,
-                boxShadow: `0 0 60px ${config.rootColor}40`,
+              style={{
+                // Solid Alpha-Blended background using dynamic Tier 1 fill color
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} 20%, #020617)`,
+                borderColor: getTierColor('Border', 1),
+                boxShadow: `0 0 60px ${getTierColor('Fill', 1)}40`,
                 paddingTop: `${config.nodePaddingY * 2}px`,
                 paddingBottom: `${config.nodePaddingY * 2}px`
               }}
@@ -172,20 +183,19 @@ export const KilangNode = ({ word, dictCode, tier = 2, isRoot = false, summaryCa
               </div>
             </div>
           ) : (
-            <div 
-              className={`transition-all text-sm group ring-1 ring-white/5 relative z-10 border flex items-center justify-center ${
-                tier === 2 ? "border-blue-500/40 bg-blue-500/10 shadow-lg shadow-blue-500/10" :
-                tier === 3 ? "border-indigo-500/30 bg-indigo-500/5 opacity-80 scale-95 shadow-md shadow-indigo-500/5" :
-                tier === 4 ? "border-emerald-500/20 bg-emerald-500/5 opacity-60 scale-90 border-dashed" :
-                "border-white/10 bg-white/5 opacity-40 scale-75"
-              }`}
-              style={{ 
+            <div
+              className="transition-all text-sm group ring-1 ring-white/5 relative z-10 border flex items-center justify-center"
+              style={{
                 borderRadius: `${config.nodeRounding}px`,
-                borderColor: tier === 2 ? `${config.branchColor}66` : undefined,
-                backgroundColor: tier === 2 ? `${config.branchColor}1A` : undefined,
+                // Dynamic border color with 40% alpha blend against transparency (glow look)
+                borderColor: `color-mix(in srgb, ${getTierColor('Border', tier)} 40%, transparent)`,
+                // Solid Alpha-Blended background for all tiers to block connection lines
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} ${tier === 2 ? '10%' : '5%'}, #020617)`,
                 width: `${config.nodeWidth}px`,
                 paddingTop: `${config.nodePaddingY}px`,
-                paddingBottom: `${config.nodePaddingY}px`
+                paddingBottom: `${config.nodePaddingY}px`,
+                // Structural offsets per tier (removed internal opacity to maintain blocking)
+                transform: tier === 3 ? 'scale(0.95)' : tier === 4 ? 'scale(0.9)' : tier >= 5 ? 'scale(0.85)' : 'none'
               }}
             >
               <div className="flex items-center gap-2">
