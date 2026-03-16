@@ -86,12 +86,9 @@ export const KilangDesktopLayout = ({
       <div className="flex-1 flex overflow-hidden">
         {state.showFilterPanel && (
           <KilangSidebar
-            searchTerm={searchTerm}
-            setSearchTerm={(s) => dispatch({ type: 'SET_UI', searchTerm: s })}
-            branchFilter={branchFilter}
-            setBranchFilter={(b) => dispatch({ type: 'SET_UI', branchFilter: b })}
+            state={state}
+            dispatch={dispatch}
             filteredRoots={filteredRoots}
-            selectedRoot={selectedRoot}
             fetchRootDetails={fetchRootDetails}
             bucketHits={bucketHits}
             FILTER_BUCKETS={FILTER_BUCKETS}

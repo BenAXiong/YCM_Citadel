@@ -302,7 +302,7 @@ export const KilangCanvas = ({
                             }}
                           >
                             <KilangNode
-                              word={d.word_ab}
+                              word={d.raw_word || d.word_ab}
                               dictCode={d.dict_code?.toUpperCase()}
                               tier={d.tier}
                               summaryCache={summaryCache}

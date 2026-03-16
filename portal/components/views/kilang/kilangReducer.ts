@@ -19,6 +19,7 @@ export interface KilangState {
   selectedRoot: string | null;
   rootData: any | null;
   summaryCache: Record<string, string[]>;
+  customData: any[] | null;
 
   // Configuration
   morphMode: MorphMode;
@@ -40,6 +41,7 @@ export interface KilangState {
   showStats: boolean;
   showFilterPanel: boolean;
   sidebarCollapsed: boolean;
+  sidebarTab: 'filters' | 'styling' | 'custom';
   fitTransform: { x: number; y: number; scale: number };
   layoutConfig: {
     showToolbox: boolean;
@@ -78,7 +80,8 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean };
+  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'filters' | 'styling' | 'custom' }
+  | { type: 'SET_CUSTOM_DATA'; data: any | null };
 
 export const initialState: KilangState = {
   stats: null,
@@ -86,6 +89,7 @@ export const initialState: KilangState = {
   loading: true,
   selectedRoot: null,
   rootData: null,
+  customData: null,
   summaryCache: {},
   morphMode: 'plus', //strict = moe
   sourceFilter: 'ALL',
@@ -102,9 +106,10 @@ export const initialState: KilangState = {
   showStats: true,
   showFilterPanel: true,
   sidebarCollapsed: false,
+  sidebarTab: 'filters',
   fitTransform: { x: 0, y: 0, scale: 1 },
   layoutConfig: {
-    showToolbox: true,
+    showToolbox: false,
     lineGapX: 0,
     lineGapY: 0,
     interTierGap: 100,
@@ -149,6 +154,13 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return {
         ...state,
         summaryCache: { ...state.summaryCache, [action.word.toLowerCase()]: action.definitions }
+      };
+    case 'SET_CUSTOM_DATA':
+      return {
+        ...state,
+        customData: action.data,
+        selectedRoot: action.data?.root || null,
+        rootData: action.data
       };
     case 'SET_CONFIG':
       return {
