@@ -41,7 +41,7 @@ export interface KilangState {
   showStats: boolean;
   showFilterPanel: boolean;
   sidebarCollapsed: boolean;
-  sidebarTab: 'filters' | 'styling' | 'custom';
+  sidebarTab: 'forest' | 'styling' | 'custom';
   fitTransform: { x: number; y: number; scale: number };
   layoutConfig: {
     showToolbox: boolean;
@@ -80,7 +80,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'filters' | 'styling' | 'custom' }
+  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
   | { type: 'SET_CUSTOM_DATA'; data: any | null };
 
 export const initialState: KilangState = {
@@ -106,7 +106,7 @@ export const initialState: KilangState = {
   showStats: true,
   showFilterPanel: true,
   sidebarCollapsed: false,
-  sidebarTab: 'filters',
+  sidebarTab: 'forest',
   fitTransform: { x: 0, y: 0, scale: 1 },
   layoutConfig: {
     showToolbox: false,

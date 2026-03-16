@@ -25,7 +25,7 @@ export const WordTooltip = ({ word, children, dictCode, id, summaryCache, fetchS
   };
 
   const handleLeave = () => {
-    timeoutRef.current = setTimeout(() => setIsHovered(false), 400);
+    timeoutRef.current = setTimeout(() => setIsHovered(false), 200);
   };
 
   return (
