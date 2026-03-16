@@ -228,7 +228,7 @@ export const KilangSidebar = ({
                   <Search className="absolute left-3 top-3 w-4 h-4 text-kilang-text-muted group-focus-within:text-blue-500" />
                   <input
                     type="text"
-                    placeholder="Search semantic roots..."
+                    placeholder={showMyTrees ? "Search saved roots" : "Search semantic roots..."}
                     value={searchTerm}
                     onChange={(e) => {
                       dispatch({ type: 'SET_UI', searchTerm: e.target.value });

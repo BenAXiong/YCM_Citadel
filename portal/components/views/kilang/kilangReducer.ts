@@ -102,7 +102,7 @@ export const initialState: KilangState = {
   showStatsOverlay: false,
   visibleChainsCount: 10,
   exporting: false,
-  showDevTools: true,
+  showDevTools: false,
   showStats: true,
   showFilterPanel: true,
   sidebarCollapsed: false,

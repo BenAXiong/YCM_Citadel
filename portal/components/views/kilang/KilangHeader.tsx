@@ -132,14 +132,14 @@ export const KilangHeader = ({
         <div className="h-4 w-[1px] bg-white/10 mx-1" />
 
         {/* 2. Morphology Mode Selector + Source Dropdown */}
-        <div className="flex bg-white/5 border border-white/10 rounded-xl p-0.5 h-10 items-stretch relative">
+        <div className="flex bg-white/5 border border-white/10 rounded-lg p-0.5 h-8 items-stretch relative">
           {(['moe', 'plus', 'star'] as const).map(mode => {
             if (mode === 'moe') {
               return (
                 <div key={mode} className="relative group flex h-full">
                   <button
                     onClick={() => setMorphMode('moe')}
-                    className={`px-4 h-full flex items-center justify-center rounded-lg text-[10px] font-black tracking-widest transition-all ${morphMode === 'moe'
+                    className={`px-3 h-full flex items-center justify-center rounded text-[10px] font-black tracking-widest transition-all ${morphMode === 'moe'
                       ? 'bg-blue-600 text-white shadow-lg'
                       : 'text-kilang-text-muted hover:text-white hover:bg-white/5'
                       }`}
@@ -171,7 +171,7 @@ export const KilangHeader = ({
               <button
                 key={mode}
                 onClick={() => setMorphMode(mode)}
-                className={`px-4 flex items-center justify-center rounded-lg text-[10px] font-black tracking-widest transition-all ${morphMode === mode
+                className={`px-3 flex items-center justify-center rounded text-[10px] font-black tracking-widest transition-all ${morphMode === mode
                   ? 'bg-blue-600 text-white shadow-lg'
                   : 'text-kilang-text-muted hover:bg-white/5 hover:text-white'
                   }`}
@@ -190,17 +190,17 @@ export const KilangHeader = ({
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2.5">
                 <span className="text-[8px] font-black text-kilang-text-muted uppercase tracking-widest">Growth</span>
-                <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
+                <div className="flex items-center gap-1 p-0.5 bg-white/5 border border-white/10 rounded-lg">
                   <button
                     onClick={() => setDirection('horizontal')}
-                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${direction === 'horizontal' ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${direction === 'horizontal' ? 'bg-blue-600 text-white shadow-lg' : 'text-kilang-text-muted hover:text-white hover:bg-white/5'}`}
                     title="Horizontal Growth"
                   >
                     <ArrowRight className="w-3.5 h-3.5" />
                   </button>
                   <button
                     onClick={() => setDirection('vertical')}
-                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${direction === 'vertical' ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${direction === 'vertical' ? 'bg-blue-600 text-white shadow-lg' : 'text-kilang-text-muted hover:text-white hover:bg-white/5'}`}
                     title="Vertical Growth"
                   >
                     <ArrowUp className="w-3.5 h-3.5" />
@@ -210,17 +210,17 @@ export const KilangHeader = ({
 
               <div className="flex items-center gap-2.5">
                 <span className="text-[8px] font-black text-kilang-text-muted uppercase tracking-widest">Pattern</span>
-                <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
+                <div className="flex items-center gap-1 p-0.5 bg-white/5 border border-white/10 rounded-lg">
                   <button
                     onClick={() => setArrangement('flow')}
-                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${arrangement === 'flow' ? 'bg-indigo-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${arrangement === 'flow' ? 'bg-blue-600 text-white shadow-lg' : 'text-kilang-text-muted hover:text-white hover:bg-white/5'}`}
                     title="Flow (Organized Groups)"
                   >
                     <LayoutGrid className="w-3.5 h-3.5" />
                   </button>
                   <button
                     onClick={() => setArrangement('aligned')}
-                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${arrangement === 'aligned' ? 'bg-indigo-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
+                    className={`w-8 h-7 flex items-center justify-center rounded transition-all ${arrangement === 'aligned' ? 'bg-blue-600 text-white shadow-lg' : 'text-kilang-text-muted hover:text-white hover:bg-white/5'}`}
                     title="Aligned (Chain Selection)"
                   >
                     <Rows className="w-3.5 h-3.5" />
@@ -229,7 +229,7 @@ export const KilangHeader = ({
               </div>
 
               {showDevTools && (
-                <div className="flex items-center gap-1 p-0.5 bg-white/[0.02] border border-white/5 rounded-lg">
+                <div className="flex items-center gap-1 p-0.5 bg-white/5 border border-white/10 rounded-lg">
                   <button
                     onClick={() => updateLayoutConfig({ showToolbox: !layoutConfig.showToolbox })}
                     className={`w-8 h-7 flex items-center justify-center rounded transition-all ${layoutConfig.showToolbox ? 'bg-blue-600 text-white shadow-lg' : 'text-white/30 hover:text-white hover:bg-white/5'}`}
@@ -243,27 +243,27 @@ export const KilangHeader = ({
 
             <div className="w-[1px] h-8 bg-white/5" />
 
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-1 p-0.5 bg-white/5 border border-white/10 rounded-lg">
               <button
                 onClick={() => setIsFit(!isFit)}
-                className={`p-2 border rounded-xl transition-all shadow-sm ${isFit ? 'bg-blue-600 border-blue-400 text-white' : 'bg-white/5 border-white/10 text-white/50 hover:bg-white/10'}`}
+                className={`w-8 h-7 flex items-center justify-center rounded transition-all shadow-sm ${isFit ? 'bg-blue-600 text-white shadow-lg' : 'text-kilang-text-muted hover:text-white hover:bg-white/5'}`}
                 title="Smart Fit Tree"
               >
                 <Maximize2 className="w-3 h-3" />
               </button>
-              <button onClick={() => { setScale(1); setIsFit(false); }} className={`p-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all shadow-sm ${!isFit && scale === 1 ? 'text-blue-400' : 'text-white/50'}`} title="Reset Zoom">
+              <button onClick={() => { setScale(1); setIsFit(false); }} className={`w-8 h-7 flex items-center justify-center rounded hover:bg-white/10 transition-all shadow-sm ${!isFit && scale === 1 ? 'text-blue-400' : 'text-kilang-text-muted'}`} title="Reset Zoom">
                 <RotateCcw className="w-3 h-3" />
               </button>
-              <button onClick={() => { setScale(prev => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="p-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 text-white/50 hover:text-white transition-all shadow-sm" title="Out">
+              <button onClick={() => { setScale(prev => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-7 flex items-center justify-center rounded hover:bg-white/10 text-kilang-text-muted hover:text-white transition-all shadow-sm" title="Out">
                 <Minus className="w-3 h-3" />
               </button>
-              <button onClick={() => { setScale(prev => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="p-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 text-white/50 hover:text-white transition-all shadow-sm" title="In">
+              <button onClick={() => { setScale(prev => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-7 flex items-center justify-center rounded hover:bg-white/10 text-kilang-text-muted hover:text-white transition-all shadow-sm" title="In">
                 <Plus className="w-3 h-3" />
               </button>
-              <div className="w-[1px] h-4 bg-white/10 mx-2" />
+              <div className="w-[1px] h-4 bg-white/10 mx-1" />
               <button
                 onClick={handleExport}
-                className="p-2 bg-white/5 border border-white/10 rounded-xl text-white/50 hover:bg-blue-600 hover:text-white hover:border-blue-400 transition-all shadow-md"
+                className="w-8 h-7 flex items-center justify-center rounded text-kilang-text-muted hover:bg-blue-600 hover:text-white transition-all shadow-md"
                 title="Export as PNG"
               >
                 <ImageIcon className="w-3 h-3" />
