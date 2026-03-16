@@ -302,6 +302,7 @@ export const KilangSidebar = ({
                       summaryCache={summaryCache}
                       fetchSummary={fetchSummary}
                       className="w-full block relative"
+                      side="right"
                     >
                       <div 
                         onClick={() => fetchRootDetails(r.root)}
@@ -342,6 +343,7 @@ export const KilangSidebar = ({
                             summaryCache={summaryCache}
                             fetchSummary={fetchSummary}
                             className="w-full block relative"
+                            side="right"
                           >
                             <div 
                               onClick={() => loadBookmark(b)}
