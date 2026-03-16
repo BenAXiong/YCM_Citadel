@@ -1,14 +1,14 @@
 'use client';
 
 import { useEffect, useCallback, useMemo, useReducer } from 'react';
-import { 
-  MoeEntry, 
-  KilangRootData, 
-  reshapeDerivatives, 
-  calculateTreeRows, 
+import {
+  MoeEntry,
+  KilangRootData,
+  reshapeDerivatives,
+  calculateTreeRows,
   normalizeWord,
   calculateNodeMap,
-  getForestBoundingBox 
+  getForestBoundingBox
 } from './kilangUtils';
 import { kilangReducer, initialState, KilangState, KilangAction, MorphMode, LayoutDirection, LayoutArrangement } from './kilangReducer';
 
@@ -37,7 +37,7 @@ export const useKilang = () => {
   // 2. Fetch Root Details & Reshape
   const fetchRootDetails = useCallback(async (root: string) => {
     dispatch({ type: 'SET_ROOT', root });
-    
+
     try {
       const res = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(root)}&aggregate=true&mode=${state.morphMode}&source=${state.sourceFilter}`);
       if (!res.ok) {
@@ -54,9 +54,9 @@ export const useKilang = () => {
       const parentRes = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(root)}&exact=true&mode=${state.morphMode}`);
       const parentData = await parentRes.json();
       const firstEntry = parentData.rows?.[0];
-      
-      let parentStem = firstEntry?.stem && normalizeWord(firstEntry.stem) !== normalizedRoot 
-        ? normalizeWord(firstEntry.stem) 
+
+      let parentStem = firstEntry?.stem && normalizeWord(firstEntry.stem) !== normalizedRoot
+        ? normalizeWord(firstEntry.stem)
         : null;
 
       // Calculate auto-width for nodes based on the longest word in the tree
@@ -93,13 +93,13 @@ export const useKilang = () => {
   const fetchSummary = useCallback(async (word: string) => {
     const key = word.toLowerCase();
     if (state.summaryCache[key]) return;
-    
+
     try {
       const res = await fetch(`/api/moe_shadow?keyword=${encodeURIComponent(word)}&exact=true&mode=${state.morphMode}`);
       const data = await res.json();
       const wordEntries = data.rows || [];
-      
-      const definitions = wordEntries.length > 0 
+
+      const definitions = wordEntries.length > 0
         ? wordEntries.map((r: any) => r.definition)
         : ["No definition found."];
 
@@ -115,34 +115,42 @@ export const useKilang = () => {
     return calculateNodeMap(state.selectedRoot, state.rootData.derivatives, state.direction, state.arrangement, state.layoutConfig);
   }, [state.selectedRoot, state.rootData?.derivatives, state.direction, state.arrangement, state.layoutConfig]);
 
-  // 5. Auto-Fit Calculation
+  // 5. Auto-Fit Calculation (Anchor-Pinned Radial Fit)
   useEffect(() => {
     if (Object.keys(nodeMap).length === 0) return;
-    
-    const box = getForestBoundingBox(nodeMap);
-    const treeW = box.maxX - box.minX;
-    const treeH = box.maxY - box.minY;
-    
-    // Target a viewport area of roughly 1200x800 for fitting
-    const targetW = 1200;
-    const targetH = 800;
-    
-    const scaleW = targetW / Math.max(treeW, 100);
-    const scaleH = targetH / Math.max(treeH, 100);
-    const scale = Math.min(scaleW, scaleH, 1.2); // Limit max auto-scale
-    
-    const treeCenterX = (box.minX + box.maxX) / 2;
-    const treeCenterY = (box.minY + box.maxY) / 2;
-    
-    // Displacement from the forest center (1000, 1000)
-    const translateX = 1000 - treeCenterX;
-    const translateY = 1000 - treeCenterY;
 
-    dispatch({ 
-      type: 'SET_FIT_TRANSFORM', 
-      transform: { x: translateX, y: translateY, scale } 
-    });
-  }, [nodeMap]);
+    // To solve vertical sliding, we pin the translation to the Root node's anchor.
+    // We then calculate the scale based on the furthest branch to ensure everything fits.
+    const rootKey = normalizeWord(state.selectedRoot) || state.selectedRoot || '';
+    const rootPos = nodeMap[rootKey];
+    const box = getForestBoundingBox(nodeMap);
+
+    if (rootPos) {
+      // 1. Calculate the 'Radial Extent' (furthest point from the root in each direction)
+      const radialW = Math.max(rootPos.x - box.minX, box.maxX - rootPos.x) * 2;
+      const radialH = Math.max(rootPos.y - box.minY, box.maxY - rootPos.y) * 2;
+
+      // 2. Define target viewport area
+      const targetW = 1200;
+      const targetH = 800;
+
+      // 3. Calculate scale based on the radial extent (ensures symmetric fit around root)
+      const scaleW = targetW / Math.max(radialW, 100);
+      const scaleH = targetH / Math.max(radialH, 100);
+      const scale = Math.min(scaleW, scaleH, 1.2); 
+
+      // 4. Constant Translation: Pin the Root to the screen center (1000, 1000)
+      // Since rootPos.x/y are derived from stable layoutConfig anchors, 
+      // this remains constant across different trees, eliminating sliding.
+      const translateX = 1000 - rootPos.x;
+      const translateY = 1000 - rootPos.y;
+
+      dispatch({
+        type: 'SET_FIT_TRANSFORM',
+        transform: { x: translateX, y: translateY, scale }
+      });
+    }
+  }, [nodeMap, state.selectedRoot, dispatch]);
 
   return {
     state,

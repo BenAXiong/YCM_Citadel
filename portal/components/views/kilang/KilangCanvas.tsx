@@ -222,36 +222,59 @@ export const KilangCanvas = ({
 
             {selectedRoot ? (
               <div ref={treeRef} className="flex-1 overflow-auto no-scrollbar bg-[#020617]/40 relative flex items-center justify-center p-32">
+                {/* 3. Primary Workspace Area */}
+              
+              {/* Error handling remains an overlay-style block */}
+              {rootData?.error && (
+                <div className="absolute inset-0 z-50 flex flex-col items-center justify-center space-y-4 bg-[#020617]/80 backdrop-blur-sm">
+                  <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
+                    <Activity className="w-8 h-8" />
+                  </div>
+                  <div className="text-red-500 font-mono text-sm tracking-widest uppercase">Forest Poisoned</div>
+                  <div className="text-red-400/60 text-[10px] font-mono italic max-w-xs text-center">{rootData.errorMessage}</div>
+                </div>
+              )}
 
-                {rootData?.error ? (
-                  <div className="h-full flex flex-col items-center justify-center space-y-4">
-                    <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
-                      <Activity className="w-8 h-8" />
-                    </div>
-                    <div className="text-red-500 font-mono text-sm tracking-widest uppercase">Forest Poisoned</div>
-                    <div className="text-red-400/60 text-[10px] font-mono italic max-w-xs text-center">{rootData.errorMessage}</div>
-                  </div>
-                ) : rootData?.loading ? (
-                  <div className="h-full flex flex-col items-center justify-center space-y-4">
-                    <RefreshCw className="w-10 h-10 text-blue-500 animate-spin opacity-50" />
-                    <div className="animate-pulse text-blue-500 font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div>
-                  </div>
-                ) : (
-                  <div
-                    className="relative transition-all duration-700"
-                    style={{
-                      width: '2000px',
-                      height: '2000px',
-                      transform: isFit
-                        ? `scale(${fitTransform.scale}) translate(${fitTransform.x}px, ${fitTransform.y}px)`
-                        : `scale(${scale})`,
-                      transformOrigin: 'center center'
-                    }}
-                  >
-                    {/* 1. SVG Layer (Background) */}
-                    <div className="absolute inset-0 pointer-events-none" style={{ zIndex: 0 }}>
+              {/* Loading Spinner as a smooth overlay */}
+              {rootData?.loading && (
+                <div className="absolute inset-0 z-40 flex flex-col items-center justify-center space-y-4 bg-transparent pointer-events-none">
+                  <RefreshCw className="w-10 h-10 text-blue-500 animate-spin opacity-50" />
+                  <div className="animate-pulse text-blue-500 font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div>
+                </div>
+              )}
+
+              {/* THe Canvas: Stays mounted to preserve transition stability */}
+              <div
+                key={selectedRoot} // Trigger bloom animation on root change
+                className={`relative transition-all duration-700 animate-in zoom-in-90 ${rootData?.loading ? 'opacity-30' : 'opacity-100'}`}
+                style={{
+                  width: '2000px',
+                  height: '2000px',
+                  transform: isFit
+                    ? `scale(${fitTransform.scale}) translate(${fitTransform.x}px, ${fitTransform.y}px)`
+                    : `scale(${scale})`,
+                  transformOrigin: (() => {
+                    // Critical: Origin must match physical anchor to prevent zoom-sliding
+                    const pos = nodeMap[normalizeWord(selectedRoot || '') || ''];
+                    return pos ? `${pos.x}px ${pos.y}px` : 'center center';
+                  })()
+                }}
+              >
+                {/* 1. SVG Layer (Background) */}
+                {(() => {
+                  const rootPos = nodeMap[normalizeWord(selectedRoot || '') || ''];
+                  if (!rootPos) return null;
+                  return (
+                    <div 
+                      key={`lines-${selectedRoot}-${rootData?.derivatives?.length}`}
+                      className="absolute inset-0 pointer-events-none animate-forest-bloom"
+                      style={{ 
+                        zIndex: 0,
+                        transformOrigin: `${rootPos.x}px ${rootPos.y}px`,
+                      }}
+                    >
                       <LineageCanvas
-                        root={selectedRoot}
+                        root={selectedRoot || ''}
                         derivatives={rootData?.derivatives || []}
                         nodeMap={nodeMap}
                         direction={direction}
@@ -260,62 +283,82 @@ export const KilangCanvas = ({
                         layoutConfig={layoutConfig}
                       />
                     </div>
+                  );
+                })()}
 
-                    {/* 2. Nodes Layer (Foreground) */}
-                    <div className="absolute inset-0" style={{ zIndex: 10 }}>
-                      {/* Root Node */}
-                      {(() => {
-                        const pos = nodeMap[normalize(selectedRoot)];
-                        if (!pos) return null;
-                        return (
-                          <div
-                            className="absolute transition-all duration-700"
-                            style={{
-                              left: 0,
-                              top: 0,
-                              transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`
-                            }}
-                          >
-                            <KilangNode
-                              word={selectedRoot}
-                              isRoot={true}
-                              summaryCache={summaryCache}
-                              fetchSummary={fetchSummary}
-                              config={layoutConfig}
-                            />
-                          </div>
-                        );
-                      })()}
+                {/* 2. Nodes Layer (Foreground) */}
+                <div className="absolute inset-0" style={{ zIndex: 10 }}>
+                  {/* Root Node: Stable Anchor (No scale, just fade) */}
+                  {(() => {
+                    const pos = nodeMap[normalizeWord(selectedRoot || '') || ''];
+                    if (!pos) return null;
+                    return (
+                      <div
+                        key={`root-${selectedRoot}`}
+                        className="absolute transition-all duration-500 animate-in fade-in duration-1000"
+                        style={{
+                          left: 0,
+                          top: 0,
+                          transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`,
+                          zIndex: 20
+                        }}
+                      >
+                        <KilangNode
+                          word={selectedRoot || ''}
+                          isRoot={true}
+                          summaryCache={summaryCache}
+                          fetchSummary={fetchSummary}
+                          config={layoutConfig}
+                        />
+                      </div>
+                    );
+                  })()}
 
-                      {/* Derivative Nodes */}
-                      {rootData?.derivatives?.map((d: any) => {
-                        const pos = nodeMap[d.word_ab];
-                        if (!pos) return null;
-                        return (
-                          <div
-                            key={d.word_ab}
-                            className="absolute transition-all duration-700"
-                            style={{
-                              left: 0,
-                              top: 0,
-                              transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`
-                            }}
-                          >
-                            <KilangNode
-                              word={d.raw_word || d.word_ab}
-                              dictCode={d.dict_code?.toUpperCase()}
-                              tier={d.tier}
-                              summaryCache={summaryCache}
-                              fetchSummary={fetchSummary}
-                              config={layoutConfig}
-                            />
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
+                  {/* Branches Forest: Blooms outwards from the stable root origin */}
+                  {(() => {
+                    const rootPos = nodeMap[normalizeWord(selectedRoot || '') || ''];
+                    if (!rootPos) return null;
+                    return (
+                      <div 
+                        key={`branches-${selectedRoot}-${rootData?.derivatives?.length}`}
+                        className="absolute inset-0 animate-forest-bloom"
+                        style={{ 
+                          transformOrigin: `${rootPos.x}px ${rootPos.y}px`,
+                        }}
+                      >
+                        {rootData?.derivatives?.map((d: any) => {
+                          const pos = nodeMap[d.word_ab];
+                          if (!pos) return null;
+                          return (
+                            <div
+                              key={d.word_ab}
+                              className="absolute transition-all duration-500"
+                              style={{
+                                left: 0,
+                                top: 0,
+                                transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`,
+                                zIndex: 10
+                              }}
+                            >
+                              <div className="tree-node">
+                                <KilangNode
+                                  word={d.raw_word || d.word_ab}
+                                  dictCode={d.dict_code?.toUpperCase()}
+                                  tier={d.tier}
+                                  summaryCache={summaryCache}
+                                  fetchSummary={fetchSummary}
+                                  config={layoutConfig}
+                                />
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    );
+                  })()}
+                </div>
               </div>
+            </div>
             ) : (
               <div className="h-full flex flex-col items-center justify-center p-20 text-center space-y-8">
                 <div className="w-24 h-24 bg-blue-500/10 rounded-full flex items-center justify-center border border-blue-500/20">
