@@ -13,6 +13,7 @@ interface StatsOverlayProps {
   fetchRootDetails: (root: string) => Promise<void>;
   summaryCache: Record<string, string[]>;
   fetchSummary: (word: string) => Promise<void>;
+  manifest: any;
 }
 
 export const StatsOverlay = ({
@@ -23,7 +24,8 @@ export const StatsOverlay = ({
   setVisibleChainsCount,
   fetchRootDetails,
   summaryCache,
-  fetchSummary
+  fetchSummary,
+  manifest
 }: StatsOverlayProps) => {
   if (!showStatsOverlay) return null;
 
@@ -60,7 +62,7 @@ export const StatsOverlay = ({
                   const maxFreq = Math.max(...dist.map(d => d.count), 1);
                   return dist.map(({ branches, count }) => (
                     <div key={branches} className="flex items-center gap-4 group">
-                      <div className="w-12 text-right text-[10px] font-mono text-kilang-text-muted font-bold tracking-tighter uppercase">{branches} Branches</div>
+                      <div className="w-20 text-right text-[10px] font-mono text-kilang-text-muted font-bold tracking-tighter uppercase whitespace-nowrap">{branches} branches</div>
                       <div className="flex-1 h-3 bg-white/5 rounded-full overflow-hidden border border-white/5">
                         <div className="h-full bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-400 font-black" style={{ width: `${(count / maxFreq) * 100}%` }} />
                       </div>
@@ -131,7 +133,7 @@ export const StatsOverlay = ({
                           </div>
                           <div className="flex items-baseline gap-1 bg-white/5 px-2 py-0.5 rounded-md border border-white/5 group-hover:border-blue-500/20 shrink-0">
                             <span className="text-[11px] font-black text-white">{r.count}</span>
-                            <span className="text-[7px] text-kilang-text-muted uppercase font-black font-mono leading-none">br.</span>
+                            <span className="text-[7px] text-kilang-text-muted uppercase font-black font-mono leading-none">branches</span>
                           </div>
                         </div>
                       </WordTooltip>
@@ -149,8 +151,32 @@ export const StatsOverlay = ({
               </h4>
               <div className="grid grid-cols-1 gap-8">
                 {(() => {
-                  const allChains = Object.entries(stats?.deep_examples || {})
-                    .sort(([, a]: any, [, b]: any) => b.length - a.length);
+                  const mergedChains: Record<string, string[]> = { ...(stats?.deep_examples || {}) };
+
+                  if (manifest) {
+                    const entries = Object.values(manifest);
+                    if (entries.length > 0) {
+                      const maxDepth = Math.max(...entries.map((e: any) => e.d), 0);
+                      if (maxDepth >= 3) {
+                        const deepWords = entries.filter((e: any) => e.d === maxDepth);
+                        deepWords.forEach((wordObj: any) => {
+                          const path: string[] = [];
+                          let curr = wordObj;
+                          while (curr) {
+                            path.unshift(curr.w);
+                            curr = manifest[curr.p];
+                          }
+                          const key = path.join('>');
+                          if (!Object.values(mergedChains).some(c => (c as string[]).join('>') === key)) {
+                            mergedChains[wordObj.w] = path;
+                          }
+                        });
+                      }
+                    }
+                  }
+
+                  const allChains = Object.entries(mergedChains)
+                    .sort(([, a], [, b]) => b.length - a.length);
 
                   const visibleChains = allChains.slice(0, visibleChainsCount);
 
@@ -158,12 +184,12 @@ export const StatsOverlay = ({
                     <>
                       {visibleChains.map(([root, chain]: any) => (
                         <WordTooltip
-                          word={chain[chain.length - 1]}
+                          word={chain[0]}
                           key={root}
                           summaryCache={summaryCache}
                           fetchSummary={fetchSummary}
                         >
-                          <div onClick={() => { setShowStatsOverlay(false); fetchRootDetails(chain[chain.length - 1]); }} className="p-8 bg-[#0f172a]/80 rounded-[32px] border border-white/5 hover:border-blue-500/30 transition-all cursor-pointer group/chain shadow-xl space-y-6 flex items-center justify-between h-full">
+                          <div onClick={() => { setShowStatsOverlay(false); fetchRootDetails(chain[0]); }} className="p-8 bg-[#0f172a]/80 rounded-[32px] border border-white/5 hover:border-blue-500/30 transition-all cursor-pointer group/chain shadow-xl space-y-6 flex items-center justify-between h-full">
                             <div className="flex items-center justify-between gap-6 flex-1">
                               <div className="flex items-center gap-2 flex-wrap min-w-0">
                                 {chain.map((link: string, i: number) => (
@@ -173,7 +199,7 @@ export const StatsOverlay = ({
                                       summaryCache={summaryCache}
                                       fetchSummary={fetchSummary}
                                     >
-                                      <div className={`px-4 py-2 rounded-xl text-[11px] font-bold font-mono border ${i === 0 ? 'bg-white/5 border-white/10 text-white/40' : i === chain.length - 1 ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-[#1e293b] border-white/5 text-white/70 group-hover/chain:text-white group-hover/chain:border-blue-500/30'}`}>
+                                      <div className={`px-4 py-2 rounded-xl text-[11px] font-bold font-mono border ${i === 0 ? 'bg-indigo-600 border-indigo-400 text-white' : i === chain.length - 1 ? 'bg-white/5 border-white/10 text-white/40' : 'bg-[#1e293b] border-white/5 text-white/70 group-hover/chain:text-white group-hover/chain:border-blue-500/30'}`}>
                                         {link}
                                       </div>
                                     </WordTooltip>

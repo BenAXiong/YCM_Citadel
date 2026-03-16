@@ -299,6 +299,7 @@ export const KilangMobileLayout = ({
         fetchRootDetails={fetchRootDetails}
         summaryCache={summaryCache}
         fetchSummary={fetchSummary}
+        manifest={state.manifest}
       />
     </div>
   );

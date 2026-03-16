@@ -130,6 +130,7 @@ export const KilangDesktopLayout = ({
         fetchRootDetails={fetchRootDetails}
         summaryCache={summaryCache}
         fetchSummary={fetchSummary}
+        manifest={state.manifest}
       />
     </div>
   );
