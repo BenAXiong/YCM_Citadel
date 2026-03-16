@@ -1,9 +1,10 @@
 'use client';
 
 import React from 'react';
-import { normalizeWord } from '../kilangUtils';
+import { normalizeWord, Derivation, calculateTreeRows } from '../kilangUtils';
+import { KilangAction } from '../kilangReducer';
 
-export const useCustomTree = (dispatch: React.Dispatch<any>) => {
+export const useCustomTree = (dispatch: React.Dispatch<KilangAction>) => {
   const [customInput, setCustomInput] = React.useState("Lamit\n  Ca'ang 1\n    Losay 1\n  Ca'ang 2\n    Losay 2\n      Varu\n        Udal\n  Ca'ang 3");
   const [customInputDirty, setCustomInputDirty] = React.useState(false);
   const [showTips, setShowTips] = React.useState(false);
@@ -27,23 +28,25 @@ export const useCustomTree = (dispatch: React.Dispatch<any>) => {
   };
 
   const handlePlant = () => {
-    if (!customInput) return;
+    if (!customInput || !customInput.trim()) return;
     setCustomInputDirty(false);
+
     const lines = customInput.split('\n').filter(l => l.trim().length > 0);
     if (lines.length === 0) return;
 
     const root = lines[0].trim();
     const normalizedRoot = normalizeWord(root);
-    const derivatives: any[] = [];
+
+    const derivatives: Derivation[] = [];
     const stack: { word: string, normalized: string, indent: number }[] = [
-      { word: root, normalized: normalizedRoot!, indent: -1 }
+      { word: root, normalized: normalizedRoot || root.toLowerCase(), indent: -1 }
     ];
 
     for (let i = 1; i < lines.length; i++) {
       const line = lines[i];
       const indent = line.search(/\S/);
       const rawWord = line.trim();
-      const normalizedWordStr = normalizeWord(rawWord);
+      const normalizedWordStr = normalizeWord(rawWord) || rawWord.toLowerCase();
 
       while (stack.length > 1 && stack[stack.length - 1].indent >= indent) {
         stack.pop();
@@ -53,19 +56,33 @@ export const useCustomTree = (dispatch: React.Dispatch<any>) => {
       const tier = stack.length + 1;
 
       derivatives.push({
+        id: Date.now() + i, // Added ID for type safety
         word_ab: normalizedWordStr,
         raw_word: rawWord,
         parentWord: parentObj.normalized,
+        ultimateRoot: normalizedRoot,
         tier: tier,
-        dict_code: 'CUSTOM'
-      });
+        dict_code: 'CUSTOM',
+        definition: '',
+        sortPath: ''
+      } as any);
 
-      stack.push({ word: rawWord, normalized: normalizedWordStr!, indent });
+      stack.push({ word: rawWord, normalized: normalizedWordStr, indent });
     }
+
+    const normalizedFinalRoot = normalizedRoot || root;
+    calculateTreeRows(derivatives, normalizedFinalRoot, 0);
 
     dispatch({
       type: 'SET_CUSTOM_DATA',
-      data: { root, derivatives } as any
+      data: { 
+        word: root,
+        root: root, // Ensure both root and word are provided for reducer compatibility
+        derivatives,
+        totalInDb: derivatives.length,
+        parentStem: null,
+        loading: false
+      }
     });
   };
 

@@ -1,7 +1,5 @@
-'use client';
-
-import React from 'react';
 import { PenTool, Info, GitBranch, Bookmark, Search } from 'lucide-react';
+import { useSidebar } from '../SidebarContext';
 
 interface CustomTabProps {
   showTips: boolean;
@@ -12,10 +10,8 @@ interface CustomTabProps {
   onTabKeyDown: (e: React.KeyboardEvent<HTMLTextAreaElement>) => void;
   handlePlant: () => void;
   saveBookmark: () => void;
-  selectedRoot: string | null;
-  bookmarks: any[];
+  bookmarks: import('../KilangTypes').Bookmark[];
   customInputDirty: boolean;
-  setSidebarTab: (tab: 'forest' | 'styling' | 'custom') => void;
 }
 
 export const CustomTab = ({
@@ -27,11 +23,11 @@ export const CustomTab = ({
   onTabKeyDown,
   handlePlant,
   saveBookmark,
-  selectedRoot,
   bookmarks,
-  customInputDirty,
-  setSidebarTab
+  customInputDirty
 }: CustomTabProps) => {
+  const { state, setSidebarTab, setShowMyTrees } = useSidebar();
+  const { selectedRoot } = state;
   return (
     <div className="flex-1 overflow-y-auto p-4 custom-scrollbar animate-in slide-in-from-right duration-500">
       <div className="space-y-6">
@@ -101,7 +97,10 @@ export const CustomTab = ({
           </button>
 
           <button
-            onClick={() => setSidebarTab('forest')}
+            onClick={() => {
+              setSidebarTab('forest');
+              setShowMyTrees(true);
+            }}
             className="w-full mt-2 py-3 rounded-xl border border-white/5 bg-white/5 text-white/40 text-[10px] font-black uppercase tracking-widest hover:bg-white/10 hover:text-white transition-all flex items-center justify-center gap-2"
           >
             <Search className="w-3.5 h-3.5" />

@@ -8,6 +8,10 @@ import { KilangState, KilangAction } from './kilangReducer';
 import { useKilangBookmarks } from './hooks/useKilangBookmarks';
 import { useCustomTree } from './hooks/useCustomTree';
 
+// Shared Context & Types
+import { SidebarProvider, useSidebar } from './SidebarContext';
+import { Bookmark } from './KilangTypes';
+
 // Components
 import { ForestTab } from './components/ForestTab';
 import { StylingTab } from './components/StylingTab';
@@ -26,19 +30,32 @@ interface KilangSidebarProps {
   onToggle: () => void;
 }
 
-export const KilangSidebar = ({
-  state,
-  dispatch,
-  filteredRoots,
-  fetchRootDetails,
-  bucketHits,
-  FILTER_BUCKETS,
-  summaryCache,
-  fetchSummary,
-  isCollapsed,
-  onToggle
-}: KilangSidebarProps) => {
-  const { searchTerm, branchFilter, sidebarTab, selectedRoot, layoutConfig, rootData } = state;
+export const KilangSidebar = (props: KilangSidebarProps) => {
+  return (
+    <SidebarProvider value={{
+      state: props.state, 
+      dispatch: props.dispatch, 
+      filteredRoots: props.filteredRoots, 
+      fetchRootDetails: props.fetchRootDetails, 
+      bucketHits: props.bucketHits, 
+      FILTER_BUCKETS: props.FILTER_BUCKETS, 
+      summaryCache: props.summaryCache, 
+      fetchSummary: props.fetchSummary 
+    }}>
+      <KilangSidebarInner {...props} />
+    </SidebarProvider>
+  );
+};
+
+const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
+  const { 
+    state, dispatch, filteredRoots, fetchRootDetails, 
+    bucketHits, FILTER_BUCKETS, summaryCache, fetchSummary,
+    sidebarTab, setSidebarTab, showMyTrees, setShowMyTrees,
+    toggleSection, collapsedSections
+  } = useSidebar();
+
+  const { selectedRoot, layoutConfig, rootData } = state;
 
   const {
     bookmarks,
@@ -46,8 +63,6 @@ export const KilangSidebar = ({
     toast,
     showPlusOne,
     showMinusOne,
-    showMyTrees,
-    setShowMyTrees,
     saveBookmark,
     togglePin,
     deleteBookmark,
@@ -65,17 +80,8 @@ export const KilangSidebar = ({
     handlePlant
   } = useCustomTree(dispatch);
 
-  const setSidebarTab = (tab: 'forest' | 'styling' | 'custom') => {
-    dispatch({ type: 'SET_UI', sidebarTab: tab });
-  };
-
   const updateConfig = (config: Partial<KilangState['layoutConfig']>) => {
     dispatch({ type: 'SET_LAYOUT_CONFIG', config });
-  };
-
-  const [collapsedSections, setCollapsedSections] = React.useState<Record<string, boolean>>({});
-  const toggleSection = (id: string) => {
-    setCollapsedSections(prev => ({ ...prev, [id]: !prev[id] }));
   };
 
   if (isCollapsed) {
@@ -140,20 +146,8 @@ export const KilangSidebar = ({
       <div className="flex-1 overflow-y-auto custom-scrollbar no-scrollbar">
         {sidebarTab === 'forest' && (
           <ForestTab
-            searchTerm={searchTerm}
-            branchFilter={branchFilter}
-            dispatch={dispatch}
-            filteredRoots={filteredRoots}
-            fetchRootDetails={fetchRootDetails}
-            summaryCache={summaryCache}
-            fetchSummary={fetchSummary}
-            showMyTrees={showMyTrees}
-            setShowMyTrees={setShowMyTrees}
-            FILTER_BUCKETS={FILTER_BUCKETS}
-            bucketHits={bucketHits}
             bookmarks={bookmarks}
             sortedBookmarks={sortedBookmarks}
-            selectedRoot={selectedRoot}
             saveBookmark={(r:any, t:any, d:any, c:any) => saveBookmark(r, t, d, c, sidebarTab, customInputDirty)}
             togglePin={togglePin}
             deleteBookmark={deleteBookmark}
@@ -165,11 +159,7 @@ export const KilangSidebar = ({
 
         {sidebarTab === 'styling' && (
           <StylingTab
-            layoutConfig={layoutConfig}
             updateConfig={updateConfig}
-            dispatch={dispatch}
-            collapsedSections={collapsedSections}
-            toggleSection={toggleSection}
           />
         )}
 
@@ -183,10 +173,8 @@ export const KilangSidebar = ({
             onTabKeyDown={onTabKeyDown}
             handlePlant={handlePlant}
             saveBookmark={() => saveBookmark(undefined, undefined, undefined, undefined, sidebarTab, customInputDirty)}
-            selectedRoot={selectedRoot}
             bookmarks={bookmarks}
             customInputDirty={customInputDirty}
-            setSidebarTab={setSidebarTab}
           />
         )}
       </div>

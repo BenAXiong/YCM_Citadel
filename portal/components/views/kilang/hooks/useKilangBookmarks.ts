@@ -1,16 +1,18 @@
 'use client';
 
 import React from 'react';
-import { KilangState } from '../kilangReducer';
+import { KilangAction } from '../kilangReducer';
+import { Bookmark } from '../KilangTypes';
+import { KilangRootData } from '../kilangUtils';
 
 const STORAGE_KEY = 'kilang_bookmarked_trees';
 
 export const useKilangBookmarks = (
   selectedRoot: string | null,
-  rootData: any,
-  dispatch: React.Dispatch<any>
+  rootData: KilangRootData | null,
+  dispatch: React.Dispatch<KilangAction>
 ) => {
-  const [bookmarks, setBookmarks] = React.useState<any[]>([]);
+  const [bookmarks, setBookmarks] = React.useState<Bookmark[]>([]);
   const [toast, setToast] = React.useState<{ message: string, type: 'success' | 'info' } | null>(null);
   const [showPlusOne, setShowPlusOne] = React.useState(false);
   const [showMinusOne, setShowMinusOne] = React.useState(false);
@@ -78,13 +80,13 @@ export const useKilangBookmarks = (
       return;
     }
 
-    const newBookmark = {
+    const newBookmark: Bookmark = {
       id: Date.now().toString(),
       root: rootToSave,
       type: isCustom ? 'custom' : 'db',
       data: isCustom ? (dataOverride || (rootToSave === selectedRoot ? rootData : null)) : null,
       timestamp: new Date().toISOString(),
-      count: countOverride ?? (rootToSave === selectedRoot ? rootData?.derivatives?.length : 0),
+      count: (countOverride ?? (rootToSave === selectedRoot ? rootData?.derivatives?.length : 0)) || 0,
       isPinned: false
     };
 
@@ -114,7 +116,7 @@ export const useKilangBookmarks = (
     localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
   };
 
-  const loadBookmark = (bookmark: any, fetchRootDetails: (root: string) => Promise<void>) => {
+  const loadBookmark = (bookmark: Bookmark, fetchRootDetails: (root: string) => Promise<void>) => {
     if (bookmark.type === 'custom' && bookmark.data) {
       dispatch({ type: 'SET_CUSTOM_DATA', data: bookmark.data });
     } else {
