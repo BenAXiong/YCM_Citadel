@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Minimize2, Layers, Search, Sidebar, Columns, ArrowUpDown, Activity, Filter, Trash2 } from 'lucide-react';
+import { WordTooltip } from './KilangNode';
 
 const AFFIX_ALLOW_LIST: Record<string, string[]> = {
   suffix: ['pina'],
@@ -17,11 +18,15 @@ const NOISE_FILTERS: Record<string, string[]> = {
 interface AffixesOverlayProps {
   showAffixesOverlay: boolean;
   setShowAffixesOverlay: (show: boolean) => void;
+  summaryCache: Record<string, string[]>;
+  fetchSummary: (word: string) => Promise<void>;
 }
 
 export const AffixesOverlay = ({
   showAffixesOverlay,
   setShowAffixesOverlay,
+  summaryCache,
+  fetchSummary
 }: AffixesOverlayProps) => {
   const [showInfixes, setShowInfixes] = useState(true);
   const [showPrefixes, setShowPrefixes] = useState(true);
@@ -712,24 +717,35 @@ export const AffixesOverlay = ({
                         </div>
 
                         <div className="space-y-2">
-                          {getAffixExamples(selectedAffix).map((ex, i) => (
-                            <div key={i} className="p-4 rounded-2xl bg-white/5 border border-white/5 hover:border-white/20 transition-all flex flex-col gap-1.5 shadow-sm">
-                              <div className="flex items-center justify-between">
-                                <span className="text-[9px] text-blue-500/60 font-black uppercase flex items-center gap-1.5">
-                                  <div className={`w-1 h-1 rounded-full ${ex.mode === 'moe' ? 'bg-rose-500' : 'bg-blue-500'}`} />
-                                  {ex.mode}
-                                </span>
-                                <span className="text-[9px] text-blue-400 font-mono italic opacity-40">#{i + 1}</span>
-                              </div>
-                              <div className="flex items-center gap-3 mt-1">
-                                <span className="text-sm font-bold text-white/60">{ex.stem}</span>
-                                <div className="h-[1px] flex-1 bg-white/5 relative">
-                                  <ArrowUpDown className="absolute -top-1.5 left-1/2 -ml-1.5 w-3 h-3 text-white/10 rotate-90" />
+                          {getAffixExamples(selectedAffix).map((ex, i) => {
+                            return (
+                              <div 
+                                key={i} 
+                                className="p-4 rounded-2xl bg-white/5 border border-white/5 hover:border-white/20 transition-all flex flex-col gap-1.5 shadow-sm group/ex"
+                              >
+                                <div className="flex items-center justify-between">
+                                  <span className="text-[9px] text-blue-500/60 font-black uppercase flex items-center gap-1.5">
+                                    <div className={`w-1 h-1 rounded-full ${ex.mode === 'moe' ? 'bg-rose-500' : 'bg-blue-500'}`} />
+                                    {ex.mode}
+                                  </span>
+                                  <span className="text-[9px] text-blue-400 font-mono italic opacity-40">#{i + 1}</span>
                                 </div>
-                                <span className="text-sm font-black text-white tracking-widest uppercase">{ex.word}</span>
+                                <div className="flex items-center gap-3 mt-1">
+                                  <WordTooltip word={ex.stem} summaryCache={summaryCache} fetchSummary={fetchSummary}>
+                                    <span className="text-sm font-bold text-white/60 hover:text-blue-400 cursor-help transition-colors">{ex.stem}</span>
+                                  </WordTooltip>
+                                  
+                                  <div className="h-[1px] flex-1 bg-white/5 relative">
+                                    <ArrowUpDown className="absolute -top-1.5 left-1/2 -ml-1.5 w-3 h-3 text-white/10 rotate-90" />
+                                  </div>
+
+                                  <WordTooltip word={ex.word} summaryCache={summaryCache} fetchSummary={fetchSummary}>
+                                    <span className="text-sm font-black text-white tracking-widest uppercase hover:text-blue-400 cursor-help transition-colors">{ex.word}</span>
+                                  </WordTooltip>
+                                </div>
                               </div>
-                            </div>
-                          ))}
+                            );
+                          })}
                         </div>
                       </div>
                     ) : (

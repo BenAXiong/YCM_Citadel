@@ -144,6 +144,8 @@ export const KilangDesktopLayout = ({
       <AffixesOverlay
         showAffixesOverlay={state.showAffixesOverlay}
         setShowAffixesOverlay={(v) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
+        summaryCache={state.summaryCache}
+        fetchSummary={fetchSummary}
       />
     </div>
   );
