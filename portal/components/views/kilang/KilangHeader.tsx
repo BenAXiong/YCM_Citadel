@@ -31,34 +31,10 @@ import {
 import { MorphMode, LayoutDirection, LayoutArrangement, KilangState } from './kilangReducer';
 import { WeavingPattern } from './WeavingPattern';
 
-interface CompactMetricProps {
-  icon: React.ReactNode;
-  label: string;
-  value: string | number;
-  color: string;
-  description: string;
-}
+// Extracted Components
+import { CompactMetric } from './components/CompactMetric';
+import { DevToolItem } from './components/DevToolItem';
 
-const CompactMetric = ({ icon, label, value, color, description }: CompactMetricProps) => {
-  const colorMap: any = { blue: 'text-blue-400', indigo: 'text-indigo-400', emerald: 'text-emerald-400', red: 'text-red-400', rose: 'text-rose-400' };
-
-  return (
-    <div className="flex items-center gap-2.5 px-3 py-1.5 bg-white/[0.02] border border-white/10 rounded-xl hover:bg-white/[0.05] transition-all shrink-0 cursor-help group/metric relative" title={description}>
-      <div className={`${colorMap[color] || 'text-blue-400'} opacity-70 group-hover/metric:opacity-100 transition-opacity`}>{icon}</div>
-      <div className="flex flex-col">
-        <span className="text-[7px] font-black uppercase tracking-widest leading-none mb-0.5 text-kilang-text-muted">{label}</span>
-        <span className={`text-sm font-black ${colorMap[color] || 'text-white'} leading-none font-mono`}>
-          {value !== undefined && value !== null ? value.toLocaleString() : '---'}
-        </span>
-      </div>
-
-      {/* Detailed Tooltip Overlay */}
-      <div className="absolute top-full right-0 mt-2 w-48 bg-[#0f172a] border border-white/10 p-3 rounded-xl shadow-2xl opacity-0 invisible group-hover/metric:opacity-100 group-hover/metric:visible transition-all z-[9999] pointer-events-none">
-        <p className="text-[10px] text-gray-400 leading-relaxed font-medium">{description}</p>
-      </div>
-    </div>
-  );
-};
 
 interface KilangHeaderProps {
   stats: any;
@@ -89,37 +65,6 @@ interface KilangHeaderProps {
   dispatch: any;
 }
 
-
-
-const DevToolItem = ({ label, goal, isOn, isPlaceholder, onClick }: { label: string, goal: string, isOn?: boolean, isPlaceholder?: boolean, onClick?: () => void }) => {
-  const [isHovered, setIsHovered] = React.useState(false);
-  return (
-    <div 
-      className="relative group/tool"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <button
-        disabled={isPlaceholder}
-        onClick={onClick}
-        className={`flex items-center justify-between w-full px-2 py-1.5 rounded hover:bg-white/5 transition-all group ${isPlaceholder ? 'opacity-30 cursor-not-allowed' : ''}`}
-      >
-        <span className="text-[9px] font-bold uppercase text-white/40 group-hover:text-white/80 transition-colors">{label}</span>
-        {!isPlaceholder && (
-          <div className={`w-2 h-2 rounded-full border transition-all ${isOn ? 'bg-blue-500 border-blue-400' : 'border-white/20'}`} />
-        )}
-      </button>
-
-      {/* Goal Tooltip */}
-      {isHovered && (
-        <div className="absolute right-full mr-2 top-0 w-36 bg-[#1e293b] border border-white/10 p-2 rounded-lg shadow-xl z-[5000] pointer-events-none animate-in fade-in slide-in-from-right-2 duration-200">
-          <p className="text-[8px] font-medium leading-relaxed text-white/60 tracking-wider uppercase">{goal}</p>
-        </div>
-      )}
-    </div>
-  );
-};
-
 export const KilangHeader = ({
   stats,
   selectedRoot,
@@ -147,7 +92,7 @@ export const KilangHeader = ({
   showFilterPanel,
   showPerfMonitor,
   dispatch
-}: KilangHeaderProps & { dispatch: React.Dispatch<any> }) => {
+}: KilangHeaderProps) => {
   const [showSettings, setShowSettings] = React.useState(false);
   const [isPinned, setIsPinned] = React.useState(false);
   const [showDevSub, setShowDevSub] = React.useState(false);
@@ -203,13 +148,13 @@ export const KilangHeader = ({
                       }`}
                   >
                     <div className="flex items-center gap-1.5">
-                      <span>{sourceFilter === 'ALL' || morphMode !== 'moe' ? 'MoE' : (MOE_SOURCES.find(s => s.id === sourceFilter)?.label.split(' ')[0] || 'MoE')}</span>
+                      <span>{sourceFilter === 'ALL' || morphMode !== 'moe' ? 'MoE' : (MOE_SOURCES.find((s: { id: string; label: string }) => s.id === sourceFilter)?.label.split(' ')[0] || 'MoE')}</span>
                       <ChevronDown className="w-2.5 h-2.5 opacity-40 shrink-0" />
                     </div>
                   </button>
 
                   <div className="absolute top-full left-0 mt-1 w-48 bg-[#0f172a] border border-white/10 rounded-xl shadow-2xl p-1 hidden group-hover:block z-[3000] animate-in fade-in duration-200">
-                    {MOE_SOURCES.map(s => (
+                    {MOE_SOURCES.map((s: { id: string; label: string }) => (
                       <button
                         key={s.id}
                         onClick={() => {
@@ -309,10 +254,10 @@ export const KilangHeader = ({
               >
                 {isFit ? <Minimize2 className="w-3 h-3" /> : <Maximize2 className="w-3 h-3" />}
               </button>
-              <button onClick={() => { setScale(prev => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="Out">
+              <button onClick={() => { setScale((prev: number) => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="Out">
                 <Minus className="w-3 h-3" />
               </button>
-              <button onClick={() => { setScale(prev => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="In">
+              <button onClick={() => { setScale((prev: number) => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="In">
                 <Plus className="w-3 h-3" />
               </button>
               <button onClick={() => dispatch({ type: 'RESET_TRANSFORM' })} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="Reset Zoom">

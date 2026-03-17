@@ -282,3 +282,77 @@ export const calculateNodeMap = (
 
   return nodeMap;
 };
+
+/**
+ * Calculates a set of words that form the highlight chain (ancestors and descendants).
+ */
+export const getActiveHighlightChain = (
+  activeHighlightNode: string | null,
+  derivatives: Derivation[],
+  selectedRoot: string | null
+): Set<string> => {
+  if (!activeHighlightNode || !derivatives) return new Set<string>();
+
+  const chain = new Set<string>();
+  const lowRoot = normalizeWord(selectedRoot || '');
+
+  // 1. Find ancestors
+  let current: string | null = activeHighlightNode;
+  chain.add(current);
+
+  while (current && current !== lowRoot) {
+    const entry = derivatives.find((d: Derivation) => d.word_ab === current);
+    if (entry && entry.parentWord) {
+      chain.add(entry.parentWord);
+      current = entry.parentWord;
+    } else {
+      // Must be attached to root
+      if (lowRoot) chain.add(lowRoot);
+      break;
+    }
+  }
+
+  // 2. Find descendants
+  const addDescendants = (word: string) => {
+    derivatives.forEach((d: Derivation) => {
+      if (d.parentWord === word && !chain.has(d.word_ab)) {
+        chain.add(d.word_ab);
+        addDescendants(d.word_ab);
+      }
+    });
+  };
+  addDescendants(activeHighlightNode);
+
+  return chain;
+};
+
+/**
+ * Calculates the linear path from the root to the active node.
+ */
+export const getLinearPath = (
+  activeHighlightNode: string | null,
+  derivatives: Derivation[],
+  selectedRoot: string | null
+): string[] => {
+  if (!activeHighlightNode || !derivatives) return [];
+
+  const path: string[] = [];
+  const lowRoot = normalizeWord(selectedRoot || '');
+
+  let current: string | null = activeHighlightNode;
+  path.push(current);
+
+  while (current && current !== lowRoot) {
+    const entry = derivatives.find((d: Derivation) => d.word_ab === current);
+    if (entry && entry.parentWord) {
+      path.push(entry.parentWord);
+      current = entry.parentWord;
+    } else {
+      if (lowRoot && !path.includes(lowRoot)) path.push(lowRoot);
+      break;
+    }
+  }
+
+  return path.reverse();
+};
+

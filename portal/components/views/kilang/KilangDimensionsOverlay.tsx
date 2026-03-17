@@ -121,8 +121,8 @@ export const KilangDimensionsOverlay = ({
             {renderCoords(m, "font-bold text-emerald-400")}
           </tr>
           <tr className="border-b border-white/10">
-            <td className="px-2 py-0.5 text-left text-white/100 border-l-2 border-blue-500/50 font-bold uppercase">Canvas</td>
-            {renderCoords(c, "font-bold text-blue-400")}
+            <td className="px-2 py-0.5 text-left text-white/100 border-l-2 border-red-500/50 font-bold uppercase">Window</td>
+            {renderCoords(c, "font-bold text-red-400")}
           </tr>
           <tr className="h-4" />
           <tr className="border-b border-white/10 text-white/40">

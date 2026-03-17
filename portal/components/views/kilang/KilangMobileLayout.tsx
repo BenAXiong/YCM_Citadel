@@ -112,6 +112,7 @@ export const KilangMobileLayout = ({
           fitTransform={state.fitTransform}
           layoutConfig={state.layoutConfig}
           showDimensions={state.showDimensions}
+          showPerfMonitor={state.showPerfMonitor}
           resetToken={state.resetToken}
           dispatch={dispatch}
         />
