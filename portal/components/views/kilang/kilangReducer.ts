@@ -6,7 +6,7 @@ import { RootStats, KilangRootData } from './KilangTypes';
 
 const ANCHOR_DEFAULTS = {
   horizontal: { x: 100, y: 1000 },
-  vertical: { x: 600, y: 1300 }
+  vertical: { x: 1000, y: 1900 }
 };
 
 export interface KilangState {
@@ -46,6 +46,7 @@ export interface KilangState {
   fitTransform: { x: number; y: number; scale: number };
   canvasHoverNode: string | null;
   canvasSelectedNode: string | null;
+  resetToken: number;
   layoutConfig: {
     showToolbox: boolean;
     lineGapX: number;
@@ -97,7 +98,8 @@ export type KilangAction =
   | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
-  | { type: 'SET_CUSTOM_DATA'; data: any | null };
+  | { type: 'SET_CUSTOM_DATA'; data: any | null }
+  | { type: 'RESET_TRANSFORM' };
 
 export const initialState: KilangState = {
   stats: null,
@@ -127,6 +129,7 @@ export const initialState: KilangState = {
   fitTransform: { x: 0, y: 0, scale: 1 },
   canvasHoverNode: null,
   canvasSelectedNode: null,
+  resetToken: 0,
   layoutConfig: {
     showToolbox: false,
     lineGapX: 0,
@@ -241,6 +244,13 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return { ...state, canvasHoverNode: action.node };
     case 'SET_CANVAS_SELECT':
       return { ...state, canvasSelectedNode: action.node };
+    case 'RESET_TRANSFORM':
+      return {
+        ...state,
+        scale: 1,
+        isFit: false,
+        resetToken: state.resetToken + 1
+      };
     default:
       return state;
   }

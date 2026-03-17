@@ -111,6 +111,8 @@ export const KilangMobileLayout = ({
           stats={stats}
           fitTransform={state.fitTransform}
           layoutConfig={state.layoutConfig}
+          showDimensions={state.showDimensions}
+          resetToken={state.resetToken}
           dispatch={dispatch}
         />
 
@@ -263,7 +265,7 @@ export const KilangMobileLayout = ({
               <section className="grid grid-cols-2 gap-2">
                 <button 
                   onClick={() => {
-                    dispatch({ type: 'SET_TRANSFORM', isFit: true });
+                    dispatch({ type: 'RESET_TRANSFORM' });
                     setShowSettings(false);
                   }}
                   className="p-4 rounded-xl bg-white/5 border border-white/5 flex items-center gap-3"

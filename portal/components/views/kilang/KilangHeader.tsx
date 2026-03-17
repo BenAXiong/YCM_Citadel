@@ -11,6 +11,7 @@ import {
   ImageIcon,
   Boxes,
   Maximize2,
+  Minimize2,
   TrendingUp,
   ArrowRight,
   ArrowUp,
@@ -250,18 +251,18 @@ export const KilangHeader = ({
               <button
                 onClick={() => setIsFit(!isFit)}
                 className={`w-8 h-7 kilang-ctrl-btn ${isFit ? 'kilang-ctrl-btn-active' : 'kilang-ctrl-btn-inactive'}`}
-                title="Smart Fit Tree"
+                title={isFit ? "Expand to Actual Size" : "Fit Tree"}
               >
-                <Maximize2 className="w-3 h-3" />
-              </button>
-              <button onClick={() => { setScale(1); setIsFit(false); }} className={`w-8 h-7 kilang-ctrl-btn shadow-sm ${!isFit && scale === 1 ? 'text-blue-400 bg-white/10' : 'kilang-ctrl-btn-inactive'}`} title="Reset Zoom">
-                <RotateCcw className="w-3 h-3" />
+                {isFit ? <Minimize2 className="w-3 h-3" /> : <Maximize2 className="w-3 h-3" />}
               </button>
               <button onClick={() => { setScale(prev => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="Out">
                 <Minus className="w-3 h-3" />
               </button>
               <button onClick={() => { setScale(prev => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="In">
                 <Plus className="w-3 h-3" />
+              </button>
+              <button onClick={() => dispatch({ type: 'RESET_TRANSFORM' })} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="Reset Zoom">
+                <RotateCcw className="w-3 h-3" />
               </button>
               <div className="w-[1px] h-4 bg-white/10 mx-1" />
               <button
@@ -314,11 +315,11 @@ export const KilangHeader = ({
             />
           </>
         )}
-        
+
         {stats && (
           <div className="flex items-center gap-2">
             <div className="w-[1px] h-4 bg-white/10 mx-1" />
-            
+
             <button
               onClick={() => setShowStatsOverlay(true)}
               className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showStatsOverlay ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg' : 'bg-white/5 border-white/10 text-kilang-text-muted hover:border-white/30 hover:text-white'}`}
@@ -376,7 +377,6 @@ export const KilangHeader = ({
               )}
             </div>
 
-            <div className="w-8 h-10 border border-white/5 bg-white/[0.01] rounded-xl border-dashed opacity-20 ml-2" />
           </div>
         )}
       </div>

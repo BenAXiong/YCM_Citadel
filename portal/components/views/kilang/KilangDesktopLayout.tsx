@@ -116,6 +116,7 @@ export const KilangDesktopLayout = ({
           fitTransform={state.fitTransform}
           layoutConfig={state.layoutConfig}
           showDimensions={state.showDimensions}
+          resetToken={state.resetToken}
           dispatch={dispatch}
         />
       </div>

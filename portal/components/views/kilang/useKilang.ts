@@ -136,13 +136,13 @@ export const useKilang = () => {
       // 3. Calculate scale based on the radial extent (ensures symmetric fit around root)
       const scaleW = targetW / Math.max(radialW, 100);
       const scaleH = targetH / Math.max(radialH, 100);
-      const scale = Math.min(scaleW, scaleH, 1.2); 
+      const scale = Math.min(scaleW, scaleH, 1.2);
 
-      // 4. Constant Translation: Pin the Root to the screen center (1000, 1000)
-      // Since rootPos.x/y are derived from stable layoutConfig anchors, 
-      // this remains constant across different trees, eliminating sliding.
-      const translateX = 1000 - rootPos.x;
-      const translateY = 1000 - rootPos.y;
+      // 4. Constant Translation: 0
+      // We no longer move the root to 1000,1000. 
+      // We keep it at its anchor position so it doesn't "travel".
+      const translateX = 0;
+      const translateY = 0;
 
       dispatch({
         type: 'SET_FIT_TRANSFORM',
