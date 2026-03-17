@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Bookmark, Pin, XCircle } from 'lucide-react';
+import { Library, Pin, XCircle } from 'lucide-react';
 import { WordTooltip } from '../KilangNode';
 import { useSidebar } from '../SidebarContext';
 
@@ -32,7 +32,7 @@ export const BookmarkLibrary = React.memo(({
     return (
       <div className="py-12 flex flex-col items-center justify-center text-center px-4">
         <div className="w-12 h-12 rounded-full bg-indigo-500/10 flex items-center justify-center mb-4 border border-indigo-500/20">
-          <Bookmark className="w-5 h-5 text-indigo-400 opacity-20" />
+          <Library className="w-5 h-5 text-indigo-400 opacity-20" />
         </div>
         <p className="text-[10px] font-bold text-white/30 uppercase tracking-widest leading-relaxed">Your bookmark library is empty</p>
         <p className="text-[8px] text-white/10 mt-2">Click the bookmark icon in any tree to save it here</p>

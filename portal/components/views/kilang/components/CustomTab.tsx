@@ -1,4 +1,4 @@
-import { PenTool, Info, GitBranch, Bookmark, Search } from 'lucide-react';
+import { PenTool, Info, GitBranch, Library, Search } from 'lucide-react';
 import { useSidebar } from '../SidebarContext';
 
 interface CustomTabProps {
@@ -92,7 +92,7 @@ export const CustomTab = ({
                   ? 'bg-blue-600/20 border-blue-500 text-blue-400 shadow-lg shadow-blue-500/10'
                   : 'bg-white/5 border-white/10 text-white/20 hover:text-white/40 hover:bg-white/10'}`}
           >
-            <Bookmark className={`w-3.5 h-3.5 ${(bookmarks.find(b => b.root === selectedRoot) && !customInputDirty) ? 'fill-white' : ''}`} />
+            <Library className={`w-3.5 h-3.5 ${(bookmarks.find(b => b.root === selectedRoot) && !customInputDirty) ? 'fill-white' : ''}`} />
             {bookmarks.find(b => b.root === selectedRoot) && !customInputDirty ? 'Saved' : 'Save Kilang'}
           </button>
 
@@ -103,7 +103,7 @@ export const CustomTab = ({
             }}
             className="w-full mt-2 py-3 rounded-xl border border-white/5 bg-white/5 text-white/40 text-[10px] font-black uppercase tracking-widest hover:bg-white/10 hover:text-white transition-all flex items-center justify-center gap-2"
           >
-            <Search className="w-3.5 h-3.5" />
+            <Library className="w-3.5 h-3.5" />
             Go to Forest
           </button>
         </div>

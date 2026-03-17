@@ -26,10 +26,12 @@ export const KilangDimensionsOverlay = ({
   const header = typeof document !== 'undefined' ? document.querySelector('header') : null;
   const sidebar = typeof document !== 'undefined' ? document.querySelector('aside') || document.querySelector('[class*="Sidebar"]') : null;
   const main = treeRef.current?.closest('main');
+  const canvas = treeRef.current?.closest('.kilang-glass-panel');
 
   const hRect = header?.getBoundingClientRect();
   const sRect = sidebar?.getBoundingClientRect();
   const mRect = main?.getBoundingClientRect();
+  const cRect = canvas?.getBoundingClientRect();
 
   const formatPair = (rect?: DOMRect | null) => {
     if (!rect) return [['---', '---'], ['---', '---'], ['---', '---'], ['---', '---']];
@@ -44,6 +46,7 @@ export const KilangDimensionsOverlay = ({
   const h = formatPair(hRect);
   const s = formatPair(sRect);
   const m = formatPair(mRect);
+  const c = formatPair(cRect);
 
   const renderCoords = (coords: (string | number)[][], className = "") => (
     <>
@@ -90,9 +93,13 @@ export const KilangDimensionsOverlay = ({
               {renderCoords(s, "font-bold text-amber-400")}
             </tr>
           )}
-          <tr className="border-b border-white/10">
-            <td className="px-2 py-0.5 text-left text-white/100 border-l-2 border-emerald-500/50 font-bold uppercase">Main Pane</td>
+          <tr>
+            <td className="px-2 py-0.5 text-left text-white/100 border-l-2 border-emerald-500/50 font-bold uppercase">Main</td>
             {renderCoords(m, "font-bold text-emerald-400")}
+          </tr>
+          <tr className="border-b border-white/10">
+            <td className="px-2 py-0.5 text-left text-white/100 border-l-2 border-blue-500/50 font-bold uppercase">Canvas</td>
+            {renderCoords(c, "font-bold text-blue-400")}
           </tr>
           <tr className="h-4" />
           <tr className="border-b border-white/10 text-white/40">
@@ -107,7 +114,7 @@ export const KilangDimensionsOverlay = ({
             <td className="px-1 py-0.5">{viewPos.w}</td><td className="px-1 py-0.5">{viewPos.h}</td>
           </tr>
           <tr className="border-t border-white/5">
-            <td className="px-2 py-1 text-left text-blue-400 italic font-black uppercase">Viewing World</td>
+            <td className="px-2 py-1 text-left text-whte italic font-black uppercase">Viewing World</td>
             <td className="px-1 py-0.5 text-blue-400">{-viewPos.x}</td>
             <td className="px-1 py-0.5 text-blue-400">{-viewPos.y}</td>
             <td className="px-1 py-0.5 text-blue-400">{viewPos.w - viewPos.x}</td>

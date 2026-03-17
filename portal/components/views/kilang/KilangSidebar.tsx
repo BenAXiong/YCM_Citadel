@@ -35,8 +35,8 @@ export const KilangSidebar = (props: KilangSidebarProps) => {
 };
 
 const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
-  const { 
-    state, dispatch, filteredRoots, fetchRootDetails, 
+  const {
+    state, dispatch, filteredRoots, fetchRootDetails,
     bucketHits, FILTER_BUCKETS, summaryCache, fetchSummary,
     sidebarTab, setSidebarTab, showMyTrees, setShowMyTrees,
     toggleSection, collapsedSections

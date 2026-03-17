@@ -255,9 +255,7 @@ export const KilangCanvas = ({
 
   return (
     <main className="flex-1 overflow-hidden relative">
-      <div className="h-full flex flex-col">
-        <div className="p-4" />
-        <div className="flex-1 p-8 pt-4 overflow-hidden flex flex-col">
+      <div className="h-full flex flex-col p-8 overflow-hidden">
           <div className="flex-1 kilang-glass-panel rounded-3xl overflow-hidden relative flex flex-col border border-white/10 shadow-2xl">
             {/* Visual Toolbox Overlay - Pinned relative to panel */}
             {selectedRoot && (
@@ -267,7 +265,7 @@ export const KilangCanvas = ({
                   dispatch={dispatch}
                 />
 
-                <KilangDimensionsOverlay 
+                <KilangDimensionsOverlay
                   viewPos={viewPos}
                   treeRef={treeRef}
                   showDimensions={showDimensions}
@@ -462,7 +460,6 @@ export const KilangCanvas = ({
             )}
           </div>
         </div>
-      </div>
     </main>
   );
 };
