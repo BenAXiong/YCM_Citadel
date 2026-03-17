@@ -80,6 +80,7 @@ interface KilangHeaderProps {
   handleExport: () => Promise<void>;
   MOE_SOURCES: Array<{ id: string; label: string }>;
   showStats: boolean;
+  showDimensions: boolean;
   showDevTools: boolean;
   showFilterPanel: boolean;
   dispatch: any;
@@ -107,6 +108,7 @@ export const KilangHeader = ({
   handleExport,
   MOE_SOURCES,
   showStats,
+  showDimensions,
   showDevTools,
   showFilterPanel,
   dispatch
@@ -355,6 +357,13 @@ export const KilangHeader = ({
                   >
                     <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Stats Bar</span>
                     <div className={`w-3 h-3 rounded-full border-2 ${showStats ? 'bg-indigo-500 border-indigo-400' : 'border-white/20'}`} />
+                  </button>
+                  <button
+                    onClick={() => dispatch({ type: 'SET_UI', showDimensions: !showDimensions })}
+                    className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
+                  >
+                    <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Dimensions</span>
+                    <div className={`w-3 h-3 rounded-full border-2 ${showDimensions ? 'bg-rose-500 border-rose-400' : 'border-white/20'}`} />
                   </button>
                   <button
                     onClick={() => dispatch({ type: 'SET_UI', showFilterPanel: !showFilterPanel })}

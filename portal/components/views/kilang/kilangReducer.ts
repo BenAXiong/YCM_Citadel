@@ -39,6 +39,7 @@ export interface KilangState {
   exporting: boolean;
   showDevTools: boolean;
   showStats: boolean;
+  showDimensions: boolean;
   showFilterPanel: boolean;
   sidebarCollapsed: boolean;
   sidebarTab: 'forest' | 'styling' | 'custom';
@@ -93,7 +94,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
+  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'SET_CUSTOM_DATA'; data: any | null };
@@ -119,6 +120,7 @@ export const initialState: KilangState = {
   exporting: false,
   showDevTools: false,
   showStats: true,
+  showDimensions: true,
   showFilterPanel: true,
   sidebarCollapsed: false,
   sidebarTab: 'forest',

@@ -78,6 +78,7 @@ export const KilangDesktopLayout = ({
         handleExport={handleExport}
         MOE_SOURCES={MOE_SOURCES}
         showStats={state.showStats}
+        showDimensions={state.showDimensions}
         showDevTools={state.showDevTools}
         showFilterPanel={state.showFilterPanel}
         dispatch={dispatch}
@@ -114,6 +115,7 @@ export const KilangDesktopLayout = ({
           stats={stats}
           fitTransform={state.fitTransform}
           layoutConfig={state.layoutConfig}
+          showDimensions={state.showDimensions}
           dispatch={dispatch}
         />
       </div>
