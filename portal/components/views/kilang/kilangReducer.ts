@@ -40,6 +40,7 @@ export interface KilangState {
   showDevTools: boolean;
   showStats: boolean;
   showDimensions: boolean;
+  showPerfMonitor: boolean;
   showFilterPanel: boolean;
   sidebarCollapsed: boolean;
   sidebarTab: 'forest' | 'styling' | 'custom';
@@ -89,16 +90,16 @@ export type KilangAction =
   | { type: 'SET_ROOT'; root: string }
   | { type: 'SET_ROOT_DATA'; data: any }
   | { type: 'SET_SUMMARY'; word: string; definitions: string[] }
+  | { type: 'SET_CUSTOM_DATA'; data: any | null }
   | { type: 'SET_CONFIG'; morphMode?: MorphMode; sourceFilter?: string }
   | { type: 'SET_LAYOUT'; direction?: LayoutDirection; arrangement?: LayoutArrangement }
   | { type: 'SET_TRANSFORM'; scale?: number; isFit?: boolean }
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
+  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
-  | { type: 'SET_CUSTOM_DATA'; data: any | null }
   | { type: 'RESET_TRANSFORM' };
 
 export const initialState: KilangState = {
@@ -123,6 +124,7 @@ export const initialState: KilangState = {
   showDevTools: false,
   showStats: true,
   showDimensions: true,
+  showPerfMonitor: false,
   showFilterPanel: true,
   sidebarCollapsed: false,
   sidebarTab: 'forest',

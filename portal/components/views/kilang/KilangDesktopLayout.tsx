@@ -81,6 +81,7 @@ export const KilangDesktopLayout = ({
         showDimensions={state.showDimensions}
         showDevTools={state.showDevTools}
         showFilterPanel={state.showFilterPanel}
+        showPerfMonitor={state.showPerfMonitor}
         dispatch={dispatch}
       />
 
@@ -116,6 +117,7 @@ export const KilangDesktopLayout = ({
           fitTransform={state.fitTransform}
           layoutConfig={state.layoutConfig}
           showDimensions={state.showDimensions}
+          showPerfMonitor={state.showPerfMonitor}
           resetToken={state.resetToken}
           dispatch={dispatch}
         />

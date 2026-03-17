@@ -18,6 +18,7 @@ import {
   LayoutGrid,
   Rows,
   Settings2,
+  ChevronRight,
   Search,
   Info,
   Download,
@@ -84,8 +85,40 @@ interface KilangHeaderProps {
   showDimensions: boolean;
   showDevTools: boolean;
   showFilterPanel: boolean;
+  showPerfMonitor: boolean;
   dispatch: any;
 }
+
+
+
+const DevToolItem = ({ label, goal, isOn, isPlaceholder, onClick }: { label: string, goal: string, isOn?: boolean, isPlaceholder?: boolean, onClick?: () => void }) => {
+  const [isHovered, setIsHovered] = React.useState(false);
+  return (
+    <div 
+      className="relative group/tool"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <button
+        disabled={isPlaceholder}
+        onClick={onClick}
+        className={`flex items-center justify-between w-full px-2 py-1.5 rounded hover:bg-white/5 transition-all group ${isPlaceholder ? 'opacity-30 cursor-not-allowed' : ''}`}
+      >
+        <span className="text-[9px] font-bold uppercase text-white/40 group-hover:text-white/80 transition-colors">{label}</span>
+        {!isPlaceholder && (
+          <div className={`w-2 h-2 rounded-full border transition-all ${isOn ? 'bg-blue-500 border-blue-400' : 'border-white/20'}`} />
+        )}
+      </button>
+
+      {/* Goal Tooltip */}
+      {isHovered && (
+        <div className="absolute right-full mr-2 top-0 w-36 bg-[#1e293b] border border-white/10 p-2 rounded-lg shadow-xl z-[5000] pointer-events-none animate-in fade-in slide-in-from-right-2 duration-200">
+          <p className="text-[8px] font-medium leading-relaxed text-white/60 tracking-wider uppercase">{goal}</p>
+        </div>
+      )}
+    </div>
+  );
+};
 
 export const KilangHeader = ({
   stats,
@@ -112,9 +145,27 @@ export const KilangHeader = ({
   showDimensions,
   showDevTools,
   showFilterPanel,
+  showPerfMonitor,
   dispatch
 }: KilangHeaderProps & { dispatch: React.Dispatch<any> }) => {
   const [showSettings, setShowSettings] = React.useState(false);
+  const [isPinned, setIsPinned] = React.useState(false);
+  const [showDevSub, setShowDevSub] = React.useState(false);
+  const settingsRef = React.useRef<HTMLDivElement>(null);
+  const hoverTimeoutRef = React.useRef<any>(null);
+
+  // Auto-close on outside click
+  React.useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (settingsRef.current && !settingsRef.current.contains(event.target as Node)) {
+        setShowSettings(false);
+        setIsPinned(false);
+        setShowDevSub(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between px-3 lg:px-6 z-50 shrink-0">
@@ -332,53 +383,115 @@ export const KilangHeader = ({
             </button>
 
             {/* Gear Settings Button */}
-            <div className="relative">
+            <div 
+              ref={settingsRef}
+              className="relative"
+              onMouseEnter={() => {
+                if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
+                setShowSettings(true);
+              }}
+              onMouseLeave={() => {
+                if (!isPinned) {
+                  hoverTimeoutRef.current = setTimeout(() => {
+                    setShowSettings(false);
+                    setShowDevSub(false);
+                  }, 600); // 600ms grace period
+                }
+              }}
+            >
               <button
-                onClick={() => setShowSettings(!showSettings)}
-                className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showSettings ? 'bg-blue-600 border-blue-400 text-white' : 'bg-white/5 border-white/10 text-kilang-text-muted hover:border-white/30 hover:text-white'}`}
+                onClick={() => setIsPinned(!isPinned)}
+                className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showSettings || isPinned ? 'bg-blue-600 border-blue-400 text-white shadow-[0_0_15px_rgba(37,99,235,0.3)]' : 'bg-white/5 border-white/10 text-kilang-text-muted hover:border-white/30 hover:text-white'}`}
                 title="Engine Settings"
               >
-                <Settings2 className="w-5 h-5" />
+                <Settings2 className={`w-5 h-5 transition-transform duration-500 ${isPinned ? 'rotate-90' : 'group-hover:rotate-12'}`} />
               </button>
 
               {showSettings && (
-                <div className="absolute top-full right-0 mt-2 w-48 bg-[#0f172a] border border-white/10 rounded-xl shadow-2xl p-2 z-[4000] animate-in fade-in slide-in-from-top-2 duration-200">
-                  <div className="px-3 py-2 text-[8px] font-black text-white/30 uppercase tracking-widest border-b border-white/5 mb-1">Visibility</div>
-                  <button
-                    onClick={() => {
-                      const nextVal = !showDevTools;
-                      dispatch({ type: 'SET_UI', showDevTools: nextVal });
-                      updateLayoutConfig({ showToolbox: nextVal });
-                    }}
-                    className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
-                  >
-                    <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Dev Tools</span>
-                    <div className={`w-3 h-3 rounded-full border-2 ${showDevTools ? 'bg-blue-500 border-blue-400' : 'border-white/20'}`} />
-                  </button>
+                <div className="absolute top-full right-0 mt-2 w-56 bg-[#0f172a]/95 backdrop-blur-2xl border border-white/10 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] p-2 z-[4000] animate-in fade-in slide-in-from-top-2 duration-200">
+                  {isPinned && (
+                    <div className="absolute -top-2 -right-1 flex items-center gap-1 group">
+                       <div className="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.6)] animate-pulse" />
+                    </div>
+                  )}
+                  
                   <button
                     onClick={() => dispatch({ type: 'SET_UI', showStats: !showStats })}
                     className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
                   >
                     <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Stats Bar</span>
-                    <div className={`w-3 h-3 rounded-full border-2 ${showStats ? 'bg-indigo-500 border-indigo-400' : 'border-white/20'}`} />
+                    <div className={`w-3 h-3 rounded-full border-2 transition-all ${showStats ? 'bg-indigo-500 border-indigo-400' : 'border-white/20'}`} />
                   </button>
-                  <button
-                    onClick={() => dispatch({ type: 'SET_UI', showDimensions: !showDimensions })}
-                    className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
-                  >
-                    <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Dimensions</span>
-                    <div className={`w-3 h-3 rounded-full border-2 ${showDimensions ? 'bg-rose-500 border-rose-400' : 'border-white/20'}`} />
-                  </button>
-                  <button
-                    onClick={() => dispatch({ type: 'SET_UI', showFilterPanel: !showFilterPanel })}
-                    className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
-                  >
-                    <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Filter Panel</span>
-                    <div className={`w-3 h-3 rounded-full border-2 ${showFilterPanel ? 'bg-emerald-500 border-emerald-400' : 'border-white/20'}`} />
-                  </button>
+
+
+                  {/* Dev Tools Secondary Menu */}
+                  <div className="mt-2 pt-2 border-t border-white/5">
+                    <button
+                      onMouseEnter={() => setShowDevSub(true)}
+                      className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/10 transition-all group bg-blue-500/5"
+                    >
+                      <span className="text-[10px] font-black uppercase text-blue-400 group-hover:text-blue-300">Dev Tools</span>
+                      <ChevronRight className={`w-3 h-3 text-blue-400/50 transition-transform ${showDevSub ? 'rotate-90' : ''}`} />
+                    </button>
+
+                    {showDevSub && (
+                      <div className="mt-1 ml-2 pl-2 border-l border-white/10 space-y-1 animate-in slide-in-from-left-2 duration-200">
+                        <DevToolItem 
+                          label="Filter Panel" 
+                          goal="Toggle the left-side root navigation and search panel."
+                          isOn={showFilterPanel} 
+                          onClick={() => dispatch({ type: 'SET_UI', showFilterPanel: !showFilterPanel })}
+                        />
+                        <DevToolItem 
+                          label="Dimensions" 
+                          goal="Show viewport and canvas logical coordinate tables for spatial diagnostics."
+                          isOn={showDimensions} 
+                          onClick={() => dispatch({ type: 'SET_UI', showDimensions: !showDimensions })}
+                        />
+                        <DevToolItem 
+                          label="Visual Toolbox" 
+                          goal="Enable the floating control panel for manual layout property tuning."
+                          isOn={showDevTools} 
+                          onClick={() => {
+                            const nextVal = !showDevTools;
+                            dispatch({ type: 'SET_UI', showDevTools: nextVal });
+                            updateLayoutConfig({ showToolbox: nextVal });
+                          }}
+                        />
+                        <DevToolItem 
+                          label="Perf Monitor" 
+                          goal="Monitor real-time engine performance and frame rate (FPS)."
+                          isOn={showPerfMonitor}
+                          onClick={() => dispatch({ type: 'SET_UI', showPerfMonitor: !showPerfMonitor })}
+                        />
+                        <DevToolItem 
+                          label="Gravity Debug" 
+                          goal="[Disabled] Visualize row/tier bounding boxes and spatial constraints."
+                          isPlaceholder
+                        />
+                        <DevToolItem 
+                          label="Skeleton Mode" 
+                          goal="[Disabled] Hide node semantics to visualize raw graph architecture."
+                          isPlaceholder
+                        />
+                        <DevToolItem 
+                          label="Node Inspector" 
+                          goal="[Disabled] Deep-inspect raw JSON metadata of hovered forest nodes."
+                          isPlaceholder
+                        />
+                        <DevToolItem 
+                          label="State Snapshot" 
+                          goal="[Disabled] Capture current layout/zoom/config for development reproduction."
+                          isPlaceholder
+                        />
+                      </div>
+                    )}
+                  </div>
                 </div>
               )}
             </div>
+
+
 
           </div>
         )}
