@@ -16,7 +16,7 @@ interface LineageCanvasProps {
   rootPos: { x: number; y: number };
 }
 
-export const LineageCanvas = ({ 
+export const LineageCanvas = React.memo(({ 
   root, 
   derivatives, 
   nodeMap, 
@@ -111,11 +111,14 @@ export const LineageCanvas = ({
               strokeLinecap="round"
               strokeLinejoin="round"
               fill="none"
-              className={`transition-all duration-300 ${isHighlighted ? 'opacity-100 shadow-[0_0_15px_rgba(59,130,246,0.5)]' : 'opacity-20 group-hover:opacity-60'}`}
+              className={`transition-[opacity,stroke-width,filter] duration-300 ${isHighlighted ? 'opacity-100' : 'opacity-20 group-hover:opacity-60'}`}
+              style={{
+                filter: isHighlighted ? `drop-shadow(0 0 8px ${layoutConfig.lineColor}80)` : 'none'
+              }}
             />
           </g>
         );
       })}
     </svg>
   );
-};
+});

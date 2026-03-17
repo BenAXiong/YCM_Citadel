@@ -87,18 +87,55 @@ export const KilangCanvas = ({
       });
     };
 
+    const onWheel = (e: WheelEvent) => {
+      if (e.altKey) {
+        e.preventDefault();
+        const container = treeRef.current;
+        if (!container) return;
+
+        // Current metrics
+        const rect = container.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
+
+        // Mouse position in world coordinates (at current scale)
+        const currentScale = isFit ? fitTransform.scale : scale;
+        const worldX = (mouseX + container.scrollLeft) / currentScale;
+        const worldY = (mouseY + container.scrollTop) / currentScale;
+
+        // Calculate next scale
+        const zoomSpeed = 0.001;
+        const delta = -e.deltaY * zoomSpeed;
+        const nextScale = Math.min(Math.max(currentScale + delta, 0.1), 3);
+
+        if (nextScale === currentScale) return;
+
+        // Apply scale change immediately to state
+        dispatch({ type: 'SET_TRANSFORM', scale: nextScale, isFit: false });
+
+        // Calculate and apply scroll adjustment
+        const nextScrollLeft = (worldX * nextScale) - mouseX;
+        const nextScrollTop = (worldY * nextScale) - mouseY;
+
+        container.scrollLeft = nextScrollLeft;
+        container.scrollTop = nextScrollTop;
+      }
+    };
+
     updatePos();
     el.addEventListener('scroll', updatePos);
+    el.addEventListener('wheel', onWheel, { passive: false });
     window.addEventListener('resize', updatePos);
 
     const timer = setInterval(updatePos, 200); // Poll for transition-based moves
 
     return () => {
       el.removeEventListener('scroll', updatePos);
+      el.removeEventListener('wheel', onWheel);
       window.removeEventListener('resize', updatePos);
       clearInterval(timer);
     };
-  }, [selectedRoot, treeRef, isFit, scale, fitTransform]);
+  }, [selectedRoot, treeRef, isFit, scale, fitTransform, dispatch]);
 
   const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
 
@@ -207,7 +244,7 @@ export const KilangCanvas = ({
 
               <div
                 key={selectedRoot}
-                className={`relative transition-all duration-700 animate-in zoom-in-90 ${rootData?.loading ? 'opacity-30' : 'opacity-100'}`}
+                className={`relative animate-in zoom-in-90 transition-opacity duration-700 ${rootData?.loading ? 'opacity-30' : 'opacity-100'}`}
                 style={{
                   width: '4000px',
                   height: '4000px',

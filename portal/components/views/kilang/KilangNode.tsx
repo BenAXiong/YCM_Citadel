@@ -136,7 +136,7 @@ interface KilangNodeProps {
   };
 }
 
-export const KilangNode = ({ 
+export const KilangNode = React.memo(({ 
   word, 
   dictCode, 
   tier = 2, 
@@ -172,7 +172,7 @@ export const KilangNode = ({
   return (
     <WordTooltip word={word} dictCode={dictCode} id={cleanId} summaryCache={summaryCache} fetchSummary={fetchSummary}>
       <div
-        className={`relative transition-all duration-500 cursor-pointer ${isHighlighted ? 'z-30 scale-105' : isHovered ? 'z-20 scale-102' : 'z-10'}`}
+        className={`relative cursor-pointer transition-[opacity,transform] duration-300 ${isHighlighted ? 'z-30' : isHovered ? 'z-20' : 'z-10'}`}
         style={{
           transform: `scale(${config.nodeSize * (isHighlighted ? 1.05 : isHovered ? 1.02 : 1)})`,
           opacity: config.nodeOpacity
@@ -226,9 +226,9 @@ export const KilangNode = ({
       </div>
     </WordTooltip>
   );
-};
+});
 
-export const Metric = ({ label, value, color }: { label: string, value: string | number, color: string }) => {
+export const Metric = React.memo(({ label, value, color }: { label: string, value: string | number, color: string }) => {
   const colorMap: any = { blue: 'text-blue-400', red: 'text-red-400' };
   return (
     <div className="flex flex-col items-end">
@@ -236,4 +236,4 @@ export const Metric = ({ label, value, color }: { label: string, value: string |
       <span className={`text-3xl font-black ${colorMap[color]} font-mono tracking-tighter`}>{value}</span>
     </div>
   );
-};
+});
