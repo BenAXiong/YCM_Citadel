@@ -253,6 +253,40 @@ export const KilangCanvas = ({
     return path.reverse();
   }, [activeHighlightNode, rootData?.derivatives, selectedRoot]);
 
+  // Handle auto-centering when a root is bloomed
+  React.useLayoutEffect(() => {
+    if (!treeRef.current) return;
+    
+    const container = treeRef.current;
+    const center = () => {
+      if (!selectedRoot || rootData?.loading) return;
+      
+      const pos = nodeMap[normalizeWord(selectedRoot) || ''];
+      if (!pos) return;
+
+      if (isFit) {
+        container.scrollTo(0, 0);
+        return;
+      }
+
+      // Absolute World Coordinates + 128px padding (p-32)
+      // We don't multiply by scale because transform-origin is at (pos.x, pos.y)
+      const scrollLeft = (pos.x + 128) - (container.clientWidth / 2);
+      const scrollTop = (pos.y + 128) - (container.clientHeight / 2);
+      
+      container.scrollTo({
+        left: scrollLeft,
+        top: scrollTop,
+        behavior: 'instant'
+      });
+    };
+
+    center();
+    window.addEventListener('resize', center);
+    return () => window.removeEventListener('resize', center);
+  }, [selectedRoot, rootData?.loading, isFit]); // Corrected: keep array size stable. 
+  // NodeMap is derived from rootData, so loading/selectedRoot covers it.
+
   return (
     <main className="flex-1 overflow-hidden relative">
       <div className="h-full flex flex-col p-8 overflow-hidden">
@@ -277,7 +311,7 @@ export const KilangCanvas = ({
             {selectedRoot ? (
               <div
                 ref={treeRef}
-                className="flex-1 overflow-auto no-scrollbar bg-[#020617]/40 relative flex items-center justify-center p-32"
+                className="flex-1 overflow-auto no-scrollbar bg-[#020617]/40 relative p-32 scroll-smooth"
                 onClick={() => dispatch({ type: 'SET_CANVAS_SELECT', node: null })}
               >
                 {/* 3. Primary Workspace Area */}

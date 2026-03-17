@@ -20,20 +20,33 @@ export const KilangDimensionsOverlay = ({
   showDimensions,
   rootPos,
 }: KilangDimensionsOverlayProps) => {
+  const [hRect, setHRect] = React.useState<DOMRect | null>(null);
+  const [sRect, setSRect] = React.useState<DOMRect | null>(null);
+  const [mRect, setMRect] = React.useState<DOMRect | null>(null);
+  const [cRect, setCRect] = React.useState<DOMRect | null>(null);
+  const [win, setWin] = React.useState({ w: 0, h: 0 });
+
+  React.useLayoutEffect(() => {
+    if (!showDimensions) return;
+    const update = () => {
+      setHRect(document.querySelector('header')?.getBoundingClientRect() || null);
+      setSRect(document.querySelector('aside')?.getBoundingClientRect() || null);
+      setMRect(document.querySelector('main')?.getBoundingClientRect() || null);
+      setCRect(treeRef.current?.getBoundingClientRect() || null);
+      setWin({ w: window.innerWidth, h: window.innerHeight });
+    };
+    update();
+    window.addEventListener('resize', update);
+    const t = setInterval(update, 500);
+    return () => {
+      window.removeEventListener('resize', update);
+      clearInterval(t);
+    };
+  }, [treeRef, showDimensions]);
+
   if (!showDimensions) return null;
 
-  const bw = typeof window !== 'undefined' ? window.innerWidth : 0;
-  const bh = typeof window !== 'undefined' ? window.innerHeight : 0;
-
-  const header = typeof document !== 'undefined' ? document.querySelector('header') : null;
-  const sidebar = typeof document !== 'undefined' ? document.querySelector('aside') || document.querySelector('[class*="Sidebar"]') : null;
-  const main = treeRef.current?.closest('main');
-  const canvas = treeRef.current?.closest('.kilang-glass-panel');
-
-  const hRect = header?.getBoundingClientRect();
-  const sRect = sidebar?.getBoundingClientRect();
-  const mRect = main?.getBoundingClientRect();
-  const cRect = canvas?.getBoundingClientRect();
+  const scaleFactor = 0.1;
 
   const formatPair = (rect?: DOMRect | null) => {
     if (!rect) return [['---', '---'], ['---', '---'], ['---', '---'], ['---', '---']];
@@ -64,8 +77,8 @@ export const KilangDimensionsOverlay = ({
   return (
     <div className="absolute top-6 right-8 text-[9px] font-mono text-white tracking-widest pointer-events-none select-none z-0">
       <div className="mb-2 italic flex justify-between gap-4 border-b border-white/40 pb-2">
-        <span>VP: {bw} x {bh} px</span>
-        <span>ASPECT: {(bw / (bh || 1)).toFixed(2)}</span>
+        <span>VP: {win.w} x {win.h} px</span>
+        <span>ASPECT: {(win.w / (win.h || 1)).toFixed(2)}</span>
       </div>
       <table className="border-collapse text-right table-fixed w-[436px]">
         <thead>
@@ -116,7 +129,7 @@ export const KilangDimensionsOverlay = ({
             <td className="px-1 py-0.5">{viewPos.w}</td><td className="px-1 py-0.5">{viewPos.h}</td>
           </tr>
           <tr className="border-t border-white/5">
-            <td className="px-2 py-1 text-left text-whte italic font-black uppercase">Viewing World</td>
+            <td className="px-2 py-1 text-left text-white italic font-black uppercase tracking-tighter shrink-0">Viewing World</td>
             <td className="px-1 py-0.5 text-blue-400">{-viewPos.x}</td>
             <td className="px-1 py-0.5 text-blue-400">{-viewPos.y}</td>
             <td className="px-1 py-0.5 text-blue-400">{viewPos.w - viewPos.x}</td>
@@ -130,76 +143,142 @@ export const KilangDimensionsOverlay = ({
       </table>
 
       {/* Blueprint Mini-map */}
-      <div className="mt-6 flex flex-col gap-2">
+      <div className="mt-6 flex flex-col gap-2 relative z-10 pointer-events-auto">
         <div className="relative w-full aspect-square bg-[#020617]/60 rounded-xl border border-white/5 overflow-hidden flex items-center justify-center">
           {/* Scale Overlay */}
           <div className="absolute top-3 right-3 text-[7px] uppercase opacity-50 font-black">
-            Scale: 0.1x
+            Scale: {scaleFactor}x
           </div>
 
           {/* Legend Overlay */}
-          <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-sm border border-[#f43f5e] bg-[#f43f5e]/10" />
-              <span className="text-[6px] text-[#f43f5e] font-black uppercase tracking-tighter">Viewport (cRect)</span>
+          <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10 pointer-events-none">
+            {/* Window Context */}
+            <div className="flex flex-col gap-1.5 border-b border-white/5 pb-2 mb-1">
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-2 border border-blue-400" />
+                <span className="text-[8px] text-blue-400 font-black uppercase tracking-tighter">Viewport</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-2 border border-dashed border-[#3b82f6] bg-[#3b82f6]/5" />
+                <span className="text-[8px] text-blue-400 font-black uppercase tracking-tighter">Canvas</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-2 border border-[#f43f5e]" />
+                <span className="text-[8px] text-[#f43f5e] font-black uppercase tracking-tighter">"Hole"</span>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-sm border border-[#3b82f6] border-dashed bg-[#3b82f6]/10" />
-              <span className="text-[6px] text-[#3b82f6] font-black uppercase tracking-tighter">World (sRect)</span>
+
+            {/* Layout Regional Context */}
+            <div className="flex flex-col gap-1.5 border-b border-white/5 pb-2 mb-1">
+              <div className="flex items-center gap-2">
+                <div className="w-2.5 h-1.5 bg-[#818cf8]/60" />
+                <span className="text-[8px] text-[#818cf8] font-black uppercase tracking-tighter font-mono opacity-100">Header</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2.5 h-1.5 bg-[#fbbf24]/60" />
+                <span className="text-[8px] text-[#fbbf24] font-black uppercase tracking-tighter font-mono opacity-100">Sidebar</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2.5 h-1.5 bg-[#34d399]/60" />
+                <span className="text-[8px] text-[#34d399] font-black uppercase tracking-tighter font-mono opacity-100">Main View</span>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-blue-500 shadow-[0_0_4px_rgba(59,130,246,0.8)] animate-pulse" />
-              <span className="text-[6px] text-blue-400 font-black uppercase tracking-tighter">Root</span>
+
+            {/* Origin */}
+            <div className="flex items-center gap-2 mt-0.5">
+              <div className="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,1)] animate-pulse" />
+              <span className="text-[8px] text-blue-400 font-black uppercase tracking-tighter">Root</span>
             </div>
           </div>
 
           <svg width="240" height="240" viewBox="0 0 240 240" className="overflow-visible">
-            {/* 1. World Canvas (sRect) - The large area moving behind */}
-            <g transform={`translate(${120 - (viewPos.x * 0.1) - (viewPos.w * 0.1 / 2)}, ${120 - (viewPos.y * 0.1) - (viewPos.h * 0.1 / 2)})`}>
-              {/* Massive World Box */}
-              <rect 
-                width={200} 
-                height={200} 
-                fill="#3b82f6" 
-                fillOpacity="0.05" 
-                stroke="#3b82f6" 
-                strokeWidth="1" 
-                strokeDasharray="2 2"
-                className="transition-all duration-300"
-              />
-              {/* Root Anchor Point */}
-              {rootPos && (
-                <circle 
-                  cx={rootPos.x * 0.1} 
-                  cy={rootPos.y * 0.1} 
-                  r="2" 
-                  fill="#3b82f6" 
-                  className="animate-pulse"
-                />
-              )}
-            </g>
+            {(() => {
+              const vX = 120 - (win.w * scaleFactor / 2);
+              const vY = 120 - (win.h * scaleFactor / 2);
 
-            {/* 2. Fixed Viewport (cRect) - Stationary in the UI relative to monitor */}
-            <rect 
-              x={120 - (viewPos.w * 0.1 / 2)} 
-              y={120 - (viewPos.h * 0.1 / 2)} 
-              width={viewPos.w * 0.1} 
-              height={viewPos.h * 0.1} 
-              fill="none" 
-              stroke="#f43f5e" 
-              strokeWidth="1.5"
-              className="shadow-lg"
-            />
-            
-            {/* Origin Lines / Tracking */}
-            <line 
-              x1="0" y1="120" x2="240" y2="120" 
-              stroke="white" strokeOpacity="0.05" strokeWidth="0.5" 
-            />
-            <line 
-              x1="120" y1="0" x2="120" y2="240" 
-              stroke="white" strokeOpacity="0.05" strokeWidth="0.5" 
-            />
+              const getRelRect = (rect?: DOMRect | null, color?: string) => {
+                if (!rect) return null;
+                return (
+                  <rect
+                    x={vX + rect.left * scaleFactor}
+                    y={vY + rect.top * scaleFactor}
+                    width={rect.width * scaleFactor}
+                    height={rect.height * scaleFactor}
+                    fill={color}
+                    fillOpacity="0.05"
+                    stroke={color}
+                    strokeOpacity="0.1"
+                    strokeWidth="0.5"
+                    className="transition-all duration-500"
+                  />
+                );
+              };
+
+              return (
+                <g>
+                  {/* Layout Components */}
+                  {getRelRect(hRect, "#818cf8")} {/* Header */}
+                  {getRelRect(sRect, "#fbbf24")} {/* Sidebar */}
+                  {getRelRect(mRect, "#34d399")} {/* Main Workspace */}
+
+                  {/* World Canvas - Slides relative to the Hole (cRect) */}
+                  {cRect && (
+                    <g transform={`translate(${vX + cRect.left * scaleFactor - (viewPos.x * scaleFactor)}, ${vY + cRect.top * scaleFactor - (viewPos.y * scaleFactor)})`}>
+                      <rect
+                        width={2000 * scaleFactor}
+                        height={2000 * scaleFactor}
+                        fill="#3b82f6"
+                        fillOpacity="0.05"
+                        stroke="#3b82f6"
+                        strokeWidth="1"
+                        strokeDasharray="2 2"
+                        className="transition-all duration-300"
+                      />
+                      {rootPos && (
+                        <circle
+                          cx={rootPos.x * scaleFactor}
+                          cy={rootPos.y * scaleFactor}
+                          r="2.5"
+                          fill="#3b82f6"
+                          className="animate-pulse shadow-[0_0_10px_rgba(59,130,246,1)]"
+                        />
+                      )}
+                    </g>
+                  )}
+
+                  {/* Browser Viewport Outline (The Window) */}
+                  <rect
+                    x={vX}
+                    y={vY}
+                    width={win.w * scaleFactor}
+                    height={win.h * scaleFactor}
+                    fill="none"
+                    stroke="#3b82f6"
+                    strokeWidth="1.5"
+                    className="opacity-40"
+                  />
+
+                  {/* The Panel Hole (cRect) - Stationary within the UI */}
+                  {cRect && (
+                    <rect
+                      x={vX + cRect.left * scaleFactor}
+                      y={vY + cRect.top * scaleFactor}
+                      width={cRect.width * scaleFactor}
+                      height={cRect.height * scaleFactor}
+                      rx="4"
+                      fill="none"
+                      stroke="#f43f5e"
+                      strokeWidth="0.5"
+                      className="shadow-[0_0_15px_rgba(244,63,94,0.3)]"
+                    />
+                  )}
+                </g>
+              );
+            })()}
+
+            {/* Stage Grid Overlay */}
+            <line x1="0" y1="120" x2="240" y2="120" stroke="white" strokeOpacity="0.03" strokeWidth="0.5" />
+            <line x1="120" y1="0" x2="120" y2="240" stroke="white" strokeOpacity="0.03" strokeWidth="0.5" />
           </svg>
         </div>
       </div>
