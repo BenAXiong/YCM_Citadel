@@ -164,7 +164,7 @@ export const KilangCanvas = ({
 
     const updatePos = () => {
       const container = treeRef.current;
-      const canvas = container?.querySelector('[style*="width: 2000px"]');
+      const canvas = container?.querySelector('[style*="width: 4000px"]');
       if (!container || !canvas) return;
 
       const cRect = container.getBoundingClientRect();
@@ -260,6 +260,19 @@ export const KilangCanvas = ({
     return path.reverse();
   }, [activeHighlightNode, rootData?.derivatives, selectedRoot]);
 
+  const deepRoots = React.useMemo(() => {
+    if (!stats?.deep_examples) return [];
+
+    // The data is Record<root, string[]>, sort by length of the evolution path
+    const roots = Object.keys(stats.deep_examples).sort((a, b) => {
+      const lenA = Array.isArray(stats.deep_examples[a]) ? stats.deep_examples[a].length : 0;
+      const lenB = Array.isArray(stats.deep_examples[b]) ? stats.deep_examples[b].length : 0;
+      return lenB - lenA;
+    });
+
+    return roots.slice(0, 5);
+  }, [stats]);
+
   // Handle auto-centering when a root is bloomed
   React.useLayoutEffect(() => {
     if (!treeRef.current) return;
@@ -271,10 +284,14 @@ export const KilangCanvas = ({
       const pos = nodeMap[normalizeWord(selectedRoot) || ''];
       if (!pos) return;
 
+      // Direction-Aware Bias
+      const hBias = direction === 'horizontal' ? 0.15 : 0.5;
+      const vBias = direction === 'vertical' ? 0.85 : 0.5;
+
       // Absolute World Coordinates + 128px padding (p-32)
       // We don't multiply by scale because transform-origin is at (pos.x, pos.y)
-      const scrollLeft = (pos.x + 128) - (container.clientWidth / 2);
-      const scrollTop = (pos.y + 128) - (container.clientHeight / 2);
+      const scrollLeft = (pos.x + 128) - (container.clientWidth * hBias);
+      const scrollTop = (pos.y + 128) - (container.clientHeight * vBias);
 
       container.scrollTo({
         left: scrollLeft,
@@ -286,7 +303,7 @@ export const KilangCanvas = ({
     center();
     window.addEventListener('resize', center);
     return () => window.removeEventListener('resize', center);
-  }, [selectedRoot, rootData?.loading, isFit, resetToken]); 
+  }, [selectedRoot, rootData?.loading, isFit, resetToken, direction, arrangement]);
   // NodeMap is derived from rootData, so loading/selectedRoot covers it.
 
   return (
@@ -351,8 +368,8 @@ export const KilangCanvas = ({
                 key={selectedRoot} // Trigger bloom animation on root change
                 className={`relative transition-all duration-700 animate-in zoom-in-90 ${rootData?.loading ? 'opacity-30' : 'opacity-100'}`}
                 style={{
-                  width: '2000px',
-                  height: '2000px',
+                  width: '4000px',
+                  height: '4000px',
                   transform: isFit
                     ? `translate(${fitTransform.x}px, ${fitTransform.y}px) scale(${fitTransform.scale})`
                     : `scale(${scale})`,
@@ -476,12 +493,31 @@ export const KilangCanvas = ({
               <div className="max-w-md space-y-4">
                 <h3 className="text-2xl font-black text-white uppercase tracking-widest">Semantic Root Forest</h3>
                 <p className="text-kilang-text-muted leading-relaxed">Select a root from the left panel to visualize its morphological evolution and semantic growth patterns.</p>
-                <div className="flex flex-wrap justify-center gap-2 pt-4">
-                  {stats?.top_roots.slice(0, 5).map((r: any) => (
-                    <button key={r.root} onClick={() => fetchRootDetails(r.root)} className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-[10px] font-black hover:bg-white/10 text-white/60">
-                      {r.root}
-                    </button>
-                  ))}
+                <p className="text-kilang-text-muted leading-relaxed">Custom trees can be planted and saved using the custom tab.</p>
+                <div className="space-y-4 pt-4">
+                  <div className="space-y-2">
+                    <div className="text-[8px] font-black uppercase tracking-[0.2em] text-blue-400 opacity-60">Top Branching</div>
+                    <div className="flex flex-wrap justify-center gap-2">
+                      {(stats?.top_roots || []).slice(0, 5).map((r: any) => (
+                        <button key={r.root} onClick={() => fetchRootDetails(r.root)} className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-[10px] font-black hover:bg-white/10 text-white/60 transition-all hover:text-white hover:border-blue-500/30">
+                          {r.root}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {deepRoots.length > 0 && (
+                    <div className="space-y-2">
+                      <div className="text-[8px] font-black uppercase tracking-[0.2em] text-emerald-400 opacity-60">Top Depth</div>
+                      <div className="flex flex-wrap justify-center gap-2">
+                        {deepRoots.map((root) => (
+                          <button key={root} onClick={() => fetchRootDetails(root)} className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-[10px] font-black hover:bg-white/10 text-white/60 transition-all hover:text-white hover:border-emerald-500/30">
+                            {root}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

@@ -136,7 +136,7 @@ export const LAYOUT_CONSTANTS = {
  */
 export const getForestBoundingBox = (nodeMap: NodeMap) => {
   const coords = Object.values(nodeMap);
-  if (coords.length === 0) return { minX: 1000, minY: 1000, maxX: 1000, maxY: 1000 };
+  if (coords.length === 0) return { minX: 2000, minY: 2000, maxX: 2000, maxY: 2000 };
 
   let minX = coords[0].x, minY = coords[0].y, maxX = coords[0].x, maxY = coords[0].y;
   coords.forEach(p => {
@@ -184,8 +184,8 @@ export const calculateNodeMap = (
   const cellW = (arrangement === 'aligned' && config?.interTierGap) ? config.interTierGap : BASE_W;
   const cellH = (arrangement === 'aligned' && config?.interRowGap) ? config.interRowGap : BASE_H;
 
-  const CENTER_X = config?.anchorX ?? (direction === 'horizontal' ? 400 : 1000); 
-  const CENTER_Y = config?.anchorY ?? (direction === 'vertical' ? 1300 : 1000);
+  const CENTER_X = config?.anchorX ?? (direction === 'horizontal' ? 400 : 2000); 
+  const CENTER_Y = config?.anchorY ?? (direction === 'vertical' ? 1300 : 2000);
 
   // Spacing Helper
   const getTierOffset = (tier: number) => {

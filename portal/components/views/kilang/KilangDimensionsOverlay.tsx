@@ -54,7 +54,7 @@ export const KilangDimensionsOverlay = ({
 
   if (!showDimensions) return null;
 
-  const scaleFactor = 0.1;
+  const scaleFactor = 0.05;
 
   const formatPair = (rect?: DOMRect | null) => {
     if (!rect) return [['---', '---'], ['---', '---'], ['---', '---'], ['---', '---']];
@@ -133,12 +133,12 @@ export const KilangDimensionsOverlay = ({
             <td className="px-2 py-0.5 text-left text-white/100 italic uppercase">Canvas</td>
             <td className="px-1 py-0.5 text-blue-400">{-viewPos.x}</td>
             <td className="px-1 py-0.5 text-blue-400">{-viewPos.y}</td>
-            <td className="px-1 py-0.5 text-blue-400">{2000 - viewPos.x}</td>
+            <td className="px-1 py-0.5 text-blue-400">{4000 - viewPos.x}</td>
             <td className="px-1 py-0.5 text-blue-400">{-viewPos.y}</td>
             <td className="px-1 py-0.5 text-blue-400">{-viewPos.x}</td>
-            <td className="px-1 py-0.5 text-blue-400">{2000 - viewPos.y}</td>
-            <td className="px-1 py-0.5 text-blue-400">{2000 - viewPos.x}</td>
-            <td className="px-1 py-0.5 text-blue-400">{2000 - viewPos.y}</td>
+            <td className="px-1 py-0.5 text-blue-400">{4000 - viewPos.y}</td>
+            <td className="px-1 py-0.5 text-blue-400">{4000 - viewPos.x}</td>
+            <td className="px-1 py-0.5 text-blue-400">{4000 - viewPos.y}</td>
           </tr>
           <tr className="border-t border-white/5">
             <td className="px-2 py-1 text-left text-white italic font-black uppercase tracking-tighter shrink-0">Tree</td>
@@ -271,9 +271,9 @@ export const KilangDimensionsOverlay = ({
 
                         {/* 2. The Logical World Box (scales physically in minimap just like on screen) */}
                         <rect
-                          width={2000 * currentScale * scaleFactor}
-                          height={2000 * currentScale * scaleFactor}
-                          fill="#3b82f6"
+                          width={4000 * currentScale * scaleFactor}
+                          height={4000 * currentScale * scaleFactor}
+                          fill="none"
                           fillOpacity="0.05"
                           stroke="#3b82f6"
                           strokeWidth="1"

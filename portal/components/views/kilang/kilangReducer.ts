@@ -5,8 +5,8 @@ export type LayoutArrangement = 'aligned' | 'flow';
 import { RootStats, KilangRootData } from './KilangTypes';
 
 const ANCHOR_DEFAULTS = {
-  horizontal: { x: 100, y: 1000 },
-  vertical: { x: 1000, y: 1900 }
+  horizontal: { x: 2000, y: 2000 },
+  vertical: { x: 2000, y: 2000 }
 };
 
 export interface KilangState {

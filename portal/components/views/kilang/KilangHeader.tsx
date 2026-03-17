@@ -120,18 +120,21 @@ export const KilangHeader = ({
     <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between px-3 lg:px-6 z-50 shrink-0">
       <div className="flex items-center gap-2 sm:gap-6 shrink-0">
         {/* 1. Logo & Title */}
-        <div className="flex items-center gap-3 group cursor-default">
-          <div className="w-9 h-9 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-            <GitBranch className="text-white w-5 h-5" />
+        <button 
+          onClick={() => dispatch({ type: 'SET_ROOT', root: null })}
+          className="flex items-center gap-3 group cursor-pointer hover:opacity-80 active:scale-95 transition-all outline-none"
+        >
+          <div className="w-9 h-9 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-blue-500/20 transition-all">
+            <GitBranch className="text-white w-5 h-5 focus-visible:ring-0" />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col text-left">
             <div className="flex items-center gap-2">
               <span className="text-sm font-black text-white tracking-[0.2em] leading-none uppercase">KILANG</span>
               <span className="text-[8px] font-black text-indigo-400 bg-indigo-500/10 px-1.5 py-0.5 rounded uppercase tracking-widest">BETA</span>
             </div>
             <span className="text-[8px] font-black text-blue-400/60 uppercase tracking-widest mt-1 hidden sm:inline-block">MORPHO-ENGINE</span>
           </div>
-        </div>
+        </button>
 
         <div className="h-4 w-[1px] bg-white/10 mx-1" />
 
