@@ -27,6 +27,7 @@ import {
   Share2
 } from 'lucide-react';
 import { MorphMode, LayoutDirection, LayoutArrangement, KilangState } from './kilangReducer';
+import { WeavingPattern } from './WeavingPattern';
 
 interface CompactMetricProps {
   icon: React.ReactNode;
@@ -271,9 +272,8 @@ export const KilangHeader = ({
             </div>
           </div>
         ) : (
-          <div className="flex items-center gap-4 text-kilang-text-muted/30">
-            <GitBranch className="w-4 h-4 opacity-50" />
-            <span className="text-[10px] font-black uppercase tracking-[0.5em] text-center">Selected Root data will appear here</span>
+          <div className="flex items-center justify-center w-full">
+            <WeavingPattern />
           </div>
         )}
       </div>
