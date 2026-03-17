@@ -5,6 +5,7 @@ import { KilangHeader } from './KilangHeader';
 import { KilangSidebar } from './KilangSidebar';
 import { KilangCanvas } from './KilangCanvas';
 import { StatsOverlay } from './StatsOverlay';
+import { AffixesOverlay } from './AffixesOverlay';
 import { KilangState, KilangAction } from './kilangReducer';
 
 interface KilangDesktopLayoutProps {
@@ -63,9 +64,11 @@ export const KilangDesktopLayout = ({
         scale={scale}
         isFit={isFit}
         showStatsOverlay={showStatsOverlay}
+        showAffixesOverlay={state.showAffixesOverlay}
         setMorphMode={(m) => dispatch({ type: 'SET_CONFIG', morphMode: m as any })}
         setSourceFilter={(s) => dispatch({ type: 'SET_CONFIG', sourceFilter: s })}
         setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
+        setShowAffixesOverlay={(v) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
         setDirection={(d) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
         setArrangement={(a) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
         setScale={(s) => {
@@ -136,6 +139,11 @@ export const KilangDesktopLayout = ({
         summaryCache={summaryCache}
         fetchSummary={fetchSummary}
         manifest={state.manifest}
+      />
+
+      <AffixesOverlay
+        showAffixesOverlay={state.showAffixesOverlay}
+        setShowAffixesOverlay={(v) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
       />
     </div>
   );

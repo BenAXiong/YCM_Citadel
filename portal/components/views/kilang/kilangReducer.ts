@@ -35,6 +35,7 @@ export interface KilangState {
   searchTerm: string;
   branchFilter: string | 'all';
   showStatsOverlay: boolean;
+  showAffixesOverlay: boolean;
   visibleChainsCount: number;
   exporting: boolean;
   showDevTools: boolean;
@@ -97,7 +98,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
+  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'RESET_TRANSFORM' };
@@ -119,6 +120,7 @@ export const initialState: KilangState = {
   searchTerm: '',
   branchFilter: 'all',
   showStatsOverlay: false,
+  showAffixesOverlay: false,
   visibleChainsCount: 10,
   exporting: false,
   showDevTools: false,

@@ -20,11 +20,12 @@ const db = new sqlite(dbPath);
 console.log('🏗️ Building MOE Morphological Manifest...');
 
 // 1. Data Ingestion
-const allEntries = db.prepare("SELECT word_ab, stem FROM moe_entries WHERE word_ab != ''").all();
+const allEntries = db.prepare("SELECT word_ab, stem, dict_code FROM moe_entries WHERE word_ab != ''").all();
 console.log(`- Loaded ${allEntries.length} entries from database.`);
 
 const wordToDbStem = new Map();
 const wordToEntry = new Map();
+const wordToSource = new Map();
 const allWordsSet = new Set();
 const officialStems = new Set();
 
@@ -36,6 +37,7 @@ allEntries.forEach(e => {
   if (word && !word.includes(' ')) {
     const cleanWord = word.endsWith('|') ? word.slice(0, -1) : word;
     wordToEntry.set(cleanWord, (e.word_ab || '').trim());
+    wordToSource.set(cleanWord, e.dict_code || 's');
     allWordsSet.add(cleanWord);
     if (stem && stem !== cleanWord) {
       wordToDbStem.set(cleanWord, stem);
@@ -124,7 +126,37 @@ const stats = {
   distribution: {},
   depth_distribution: {},
   deep_examples: {},
+  affixes: {}, // affix -> frequency
   top_roots: []
+};
+
+const getAffixes = (word, stem) => {
+  if (!stem || word === stem) return [];
+  const index = word.indexOf(stem);
+  
+  if (index !== -1) {
+    const prefix = word.slice(0, index);
+    const suffix = word.slice(index + stem.length);
+    const results = [];
+    if (prefix) results.push(prefix + '-');
+    if (suffix) results.push('-' + suffix);
+    return results;
+  }
+
+  // Infix Detection (Split Match)
+  // Usually infixes in Amis insert after the first phoneme (onset)
+  for (let i = 1; i < stem.length; i++) {
+    const s1 = stem.slice(0, i);
+    const s2 = stem.slice(i);
+    if (word.startsWith(s1) && word.endsWith(s2)) {
+      const infix = word.slice(s1.length, word.length - s2.length);
+      if (infix.length > 0) {
+        return ['-' + infix + '-'];
+      }
+    }
+  }
+
+  return [];
 };
 
 console.log('- Resolving ultimate anchors...');
@@ -154,12 +186,22 @@ sortedWords.forEach(word => {
     w: cleanW,
     p: cleanP,
     r: cleanR,
-    d: depth
+    d: depth,
+    src: wordToSource.get(word)
   };
 
   // Stats counters
   stats.depth_distribution[depth] = (stats.depth_distribution[depth] || 0) + 1;
   if (depth > stats.summary.max_depth) stats.summary.max_depth = depth;
+
+  // Affix Tracking
+  if (parentMap.has(word)) {
+    const stem = parentMap.get(word);
+    const discovered = getAffixes(word, stem);
+    discovered.forEach(a => {
+      stats.affixes[a] = (stats.affixes[a] || 0) + 1;
+    });
+  }
 });
 
 // Calculate branch counts for roots only

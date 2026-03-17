@@ -5,7 +5,7 @@ export async function GET(request: Request) {
     try {
         const db = getMoeDb();
         const { searchParams } = new URL(request.url);
-        
+
         const keyword = searchParams.get('keyword');
         const dict_code = searchParams.get('dict_code');
         const mode = searchParams.get('mode') || 'plus';
@@ -13,9 +13,9 @@ export async function GET(request: Request) {
         const exact = searchParams.get('exact') === 'true';
         const sourceFilter = searchParams.get('source');
 
-        const tableName = mode === 'moe' ? 'moe_hierarchy_moe' : 
-                         mode === 'star' ? 'moe_hierarchy_star' : 
-                         'moe_hierarchy_plus';
+        const tableName = mode === 'moe' ? 'moe_hierarchy_moe' :
+            mode === 'star' ? 'moe_hierarchy_star' :
+                'moe_hierarchy_plus';
 
         if (!keyword) {
             return NextResponse.json({ error: "Keyword parameter is required." }, { status: 400 });
@@ -24,7 +24,7 @@ export async function GET(request: Request) {
         if (aggregate) {
             // Safety: moe_hierarchy_moe has sort_path and sources. plus/star do not.
             const hasExtraColumns = (tableName === 'moe_hierarchy_moe');
-            
+
             let sql = `
                 SELECT e.*, h.parent_word, h.ultimate_root, h.depth as tier
                 ${hasExtraColumns ? ', h.sort_path, h.sources' : ''}
@@ -32,7 +32,7 @@ export async function GET(request: Request) {
                 JOIN ${tableName} h ON RTRIM(e.word_ab, '|') = h.word_ab
                 WHERE LOWER(h.ultimate_root) = LOWER(?)
             `;
-            
+
             const bindParams: any[] = [keyword];
             if (sourceFilter && sourceFilter !== 'ALL' && hasExtraColumns) {
                 sql += ` AND h.sources LIKE ?`;

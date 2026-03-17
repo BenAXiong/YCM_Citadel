@@ -23,7 +23,7 @@ const db = new sqlite(dbPath);
 console.log('📖 Building STRICT MOE Hierarchy (Raw Data)...');
 
 // 1. Data Ingestion
-const allEntries = db.prepare("SELECT word_ab, stem FROM moe_entries WHERE word_ab != ''").all();
+const allEntries = db.prepare("SELECT word_ab, stem, dict_code FROM moe_entries WHERE word_ab != ''").all();
 console.log(`- Loaded ${allEntries.length} entries.`);
 
 const wordToDbStem = new Map();
@@ -99,7 +99,37 @@ const stats = {
   distribution: {},
   depth_distribution: {},
   deep_examples: {},
+  affixes: {}, // word -> frequency
   top_roots: []
+};
+
+const getAffixes = (word, stem) => {
+  if (!stem || word === stem) return [];
+  const index = word.indexOf(stem);
+  
+  if (index !== -1) {
+    const prefix = word.slice(0, index);
+    const suffix = word.slice(index + stem.length);
+    const results = [];
+    if (prefix) results.push(prefix + '-');
+    if (suffix) results.push('-' + suffix);
+    return results;
+  }
+
+  // Infix Detection (Split Match)
+  // Usually infixes in Amis insert after the first phoneme (onset)
+  for (let i = 1; i < stem.length; i++) {
+    const s1 = stem.slice(0, i);
+    const s2 = stem.slice(i);
+    if (word.startsWith(s1) && word.endsWith(s2)) {
+      const infix = word.slice(s1.length, word.length - s2.length);
+      if (infix.length > 0) {
+        return ['-' + infix + '-'];
+      }
+    }
+  }
+
+  return [];
 };
 
 console.log('- Resolving ultimate roots...');
@@ -137,6 +167,15 @@ sortedWords.forEach(word => {
 
   stats.depth_distribution[depth] = (stats.depth_distribution[depth] || 0) + 1;
   if (depth > stats.summary.max_depth) stats.summary.max_depth = depth;
+
+  // Affix Tracking
+  if (parentMap.has(word)) {
+    const stem = parentMap.get(word);
+    const discovered = getAffixes(word, stem);
+    discovered.forEach(a => {
+      stats.affixes[a] = (stats.affixes[a] || 0) + 1;
+    });
+  }
 });
 
 // Branch Counts

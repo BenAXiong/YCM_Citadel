@@ -47,9 +47,11 @@ interface KilangHeaderProps {
   isFit: boolean;
   layoutConfig: KilangState['layoutConfig'];
   showStatsOverlay: boolean;
+  showAffixesOverlay: boolean;
   setMorphMode: (mode: MorphMode) => void;
   setSourceFilter: (filter: string) => void;
   setShowStatsOverlay: (show: boolean) => void;
+  setShowAffixesOverlay: (show: boolean) => void;
   setDirection: (dir: LayoutDirection) => void;
   setArrangement: (arr: LayoutArrangement) => void;
   setScale: (scale: number | ((prev: number) => number)) => void;
@@ -76,9 +78,11 @@ export const KilangHeader = ({
   isFit,
   layoutConfig,
   showStatsOverlay,
+  showAffixesOverlay,
   setMorphMode,
   setSourceFilter,
   setShowStatsOverlay,
+  setShowAffixesOverlay,
   setDirection,
   setArrangement,
   setScale,
@@ -116,7 +120,7 @@ export const KilangHeader = ({
     <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between px-3 lg:px-6 z-50 shrink-0">
       <div className="flex items-center gap-2 sm:gap-6 shrink-0">
         {/* 1. Logo & Title */}
-        <button 
+        <button
           onClick={() => dispatch({ type: 'SET_ROOT', root: null })}
           className="flex items-center gap-3 group cursor-pointer hover:opacity-80 active:scale-95 transition-all outline-none"
         >
@@ -327,8 +331,16 @@ export const KilangHeader = ({
               <Activity className="w-5 h-5" />
             </button>
 
+            <button
+              onClick={() => setShowAffixesOverlay(true)}
+              className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showAffixesOverlay ? 'bg-blue-600 border-blue-400 text-white shadow-lg' : 'bg-white/5 border-white/10 text-kilang-text-muted hover:border-white/30 hover:text-white'}`}
+              title="Affixes Analysis"
+            >
+              <Layers className="w-5 h-5" />
+            </button>
+
             {/* Gear Settings Button */}
-            <div 
+            <div
               ref={settingsRef}
               className="relative"
               onMouseEnter={() => {
@@ -356,10 +368,10 @@ export const KilangHeader = ({
                 <div className="absolute top-full right-0 mt-2 w-56 bg-[#0f172a]/95 backdrop-blur-2xl border border-white/10 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] p-2 z-[4000] animate-in fade-in slide-in-from-top-2 duration-200">
                   {isPinned && (
                     <div className="absolute -top-2 -right-1 flex items-center gap-1 group">
-                       <div className="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.6)] animate-pulse" />
+                      <div className="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.6)] animate-pulse" />
                     </div>
                   )}
-                  
+
                   <button
                     onClick={() => dispatch({ type: 'SET_UI', showStats: !showStats })}
                     className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
@@ -381,51 +393,51 @@ export const KilangHeader = ({
 
                     {showDevSub && (
                       <div className="mt-1 ml-2 pl-2 border-l border-white/10 space-y-1 animate-in slide-in-from-left-2 duration-200">
-                        <DevToolItem 
-                          label="Filter Panel" 
+                        <DevToolItem
+                          label="Filter Panel"
                           goal="Toggle the left-side root navigation and search panel."
-                          isOn={showFilterPanel} 
+                          isOn={showFilterPanel}
                           onClick={() => dispatch({ type: 'SET_UI', showFilterPanel: !showFilterPanel })}
                         />
-                        <DevToolItem 
-                          label="Dimensions" 
+                        <DevToolItem
+                          label="Dimensions"
                           goal="Show viewport and canvas logical coordinate tables for spatial diagnostics."
-                          isOn={showDimensions} 
+                          isOn={showDimensions}
                           onClick={() => dispatch({ type: 'SET_UI', showDimensions: !showDimensions })}
                         />
-                        <DevToolItem 
-                          label="Visual Toolbox" 
+                        <DevToolItem
+                          label="Visual Toolbox"
                           goal="Enable the floating control panel for manual layout property tuning."
-                          isOn={showDevTools} 
+                          isOn={showDevTools}
                           onClick={() => {
                             const nextVal = !showDevTools;
                             dispatch({ type: 'SET_UI', showDevTools: nextVal });
                             updateLayoutConfig({ showToolbox: nextVal });
                           }}
                         />
-                        <DevToolItem 
-                          label="Perf Monitor" 
+                        <DevToolItem
+                          label="Perf Monitor"
                           goal="Monitor real-time engine performance and frame rate (FPS)."
                           isOn={showPerfMonitor}
                           onClick={() => dispatch({ type: 'SET_UI', showPerfMonitor: !showPerfMonitor })}
                         />
-                        <DevToolItem 
-                          label="Gravity Debug" 
+                        <DevToolItem
+                          label="Gravity Debug"
                           goal="[Disabled] Visualize row/tier bounding boxes and spatial constraints."
                           isPlaceholder
                         />
-                        <DevToolItem 
-                          label="Skeleton Mode" 
+                        <DevToolItem
+                          label="Skeleton Mode"
                           goal="[Disabled] Hide node semantics to visualize raw graph architecture."
                           isPlaceholder
                         />
-                        <DevToolItem 
-                          label="Node Inspector" 
+                        <DevToolItem
+                          label="Node Inspector"
                           goal="[Disabled] Deep-inspect raw JSON metadata of hovered forest nodes."
                           isPlaceholder
                         />
-                        <DevToolItem 
-                          label="State Snapshot" 
+                        <DevToolItem
+                          label="State Snapshot"
                           goal="[Disabled] Capture current layout/zoom/config for development reproduction."
                           isPlaceholder
                         />
