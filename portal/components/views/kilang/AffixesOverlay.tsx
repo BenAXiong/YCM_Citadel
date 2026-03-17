@@ -1,7 +1,18 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Minimize2, Layers, Search, Sidebar, Columns, ArrowUpDown, Activity } from 'lucide-react';
+import { Minimize2, Layers, Search, Sidebar, Columns, ArrowUpDown, Activity, Filter, Trash2 } from 'lucide-react';
+
+const AFFIX_ALLOW_LIST: Record<string, string[]> = {
+  suffix: ['pina'],
+  prefix: []
+};
+
+const NOISE_FILTERS: Record<string, string[]> = {
+  punctuation: [',', '.', '!', '?', ';', ':', '(', ')', '[', ']', '{', '}', '\'', '"', '...', '`', '~', '@', '#', '$', '%', '^', '&', '*', '_', '+', '=', '/', '\\', '>', '<', '|', '-'],
+  sequences: ['--', '-...', '...-'],
+  custom: []
+};
 
 interface AffixesOverlayProps {
   showAffixesOverlay: boolean;
@@ -15,6 +26,11 @@ export const AffixesOverlay = ({
   const [showInfixes, setShowInfixes] = useState(true);
   const [showPrefixes, setShowPrefixes] = useState(true);
   const [showSuffixes, setShowSuffixes] = useState(true);
+  const [showDuplixies, setShowDuplixies] = useState(true);
+  const [showFullDuplix, setShowFullDuplix] = useState(true);
+  const [activeFilters, setActiveFilters] = useState<string[]>(['punctuation', 'custom']);
+  const [filtersEnabled, setFiltersEnabled] = useState(true);
+  const [showFilterOptions, setShowFilterOptions] = useState(false);
   const [activeModes, setActiveModes] = useState<string[]>(['moe', 'plus']);
   const [statsData, setStatsData] = useState<Record<string, any>>({});
   const [manifests, setManifests] = useState<Record<string, any>>({});
@@ -112,6 +128,146 @@ export const AffixesOverlay = ({
     Promise.all([statsPromise, manifestPromise]).then(() => setLoading(false));
   }, [showAffixesOverlay]);
 
+  const checkIsDuplix = (affix: string, type: string, stem: string, s1?: string, s2?: string) => {
+    const clean = affix.replace(/-/g, '').toLowerCase();
+
+    // Allow List Override: Force standard category if pinned
+    if (type === 'suffix' && AFFIX_ALLOW_LIST.suffix.includes(clean)) return null;
+    if (type === 'prefix' && AFFIX_ALLOW_LIST.prefix.includes(clean)) return null;
+
+    if (clean.length < 3) return null;
+
+    // Full Duplix: Affix exactly matches stem
+    if (clean === stem.toLowerCase()) return 'full_duplix';
+
+    if (stem.toLowerCase().includes(clean)) return 'duplix';
+    
+    if (type === 'prefix') {
+      for (let len = clean.length - 1; len >= 3; len--) {
+        if (stem.toLowerCase().startsWith(clean.slice(-len))) return 'duplix';
+      }
+    } else if (type === 'suffix') {
+      for (let len = clean.length - 1; len >= 3; len--) {
+        if (stem.toLowerCase().endsWith(clean.slice(0, len))) return 'duplix';
+      }
+    } else if (type === 'infix' && s1 && s2) {
+      for (let len = clean.length; len >= 3; len--) {
+        const subStart = clean.slice(0, len);
+        const subEnd = clean.slice(-len);
+        if (s1.toLowerCase().endsWith(subStart) || s2.toLowerCase().startsWith(subEnd)) return 'duplix';
+      }
+    }
+    return null;
+  };
+
+  const detectAffixesForWord = (word: string, stem: string, standardTypeMap: Record<string, string>) => {
+    let localDetected: { affix: string; type: string; s1?: string; s2?: string }[] = [];
+    const isPrefix = word.endsWith(stem) && word.length > stem.length;
+    const isSuffix = word.startsWith(stem) && word.length > stem.length;
+
+    if (isPrefix || isSuffix) {
+      if (isPrefix) localDetected.push({ affix: `${word.slice(0, word.length - stem.length)}-`, type: 'prefix' });
+      if (isSuffix) localDetected.push({ affix: `-${word.slice(stem.length)}`, type: 'suffix' });
+    } else {
+      for (let i = 1; i < stem.length; i++) {
+        const s1 = stem.slice(0, i);
+        const s2 = stem.slice(i);
+        if (word.startsWith(s1) && word.endsWith(s2)) {
+          const content = word.slice(s1.length, word.length - s2.length);
+          if (content.length > 0) {
+            localDetected.push({ affix: `-${content}-`, type: 'infix', s1, s2 });
+            break;
+          }
+        }
+      }
+    }
+
+    return localDetected.map(d => {
+      let finalType = d.type;
+      if (standardTypeMap[d.affix]) {
+        finalType = standardTypeMap[d.affix];
+      } else {
+        const isDuplix = checkIsDuplix(d.affix, d.type, stem, d.s1, d.s2);
+        if (isDuplix) finalType = isDuplix;
+      }
+      return { affix: d.affix, type: finalType };
+    });
+  };
+
+  const analyzeSubset = (mode: string) => {
+    const filters = columnSources[mode] || ['ALL'];
+    const manifest = manifests[mode];
+    if (!manifest) return { affixesMap: {}, standardTypeMap: {} };
+    
+    const standardTypeMap: Record<string, string> = {}; 
+
+    // Pass 1: Identify standard types
+    Object.entries(manifest).forEach(([word, data]: [string, any]) => {
+      const entrySrc = data.src || 'OTHER';
+      const entrySources = entrySrc.split(',').map((s: string) => s.trim());
+      const isMatch = filters.includes('ALL') || entrySources.some((s: string) => filters.includes(s));
+      if (!isMatch) return;
+      const stem = data.p;
+      if (!stem || word === stem) return;
+
+      const isPrefix = word.endsWith(stem) && word.length > stem.length;
+      const isSuffix = word.startsWith(stem) && word.length > stem.length;
+      
+      if (isPrefix || isSuffix) {
+        const aff = isPrefix ? `${word.slice(0, word.length - stem.length)}-` : `-${word.slice(stem.length)}`;
+        const type = isPrefix ? 'prefix' : 'suffix';
+        // ONLY promote to standard if NOT a duplix in this case
+        if (!checkIsDuplix(aff, type, stem)) {
+          standardTypeMap[aff] = type;
+        }
+      } else {
+        for (let i = 1; i < stem.length; i++) {
+          const s1 = stem.slice(0, i);
+          const s2 = stem.slice(i);
+          if (word.startsWith(s1) && word.endsWith(s2)) {
+            const content = word.slice(s1.length, word.length - s2.length);
+            if (content.length > 0) {
+              const aff = `-${content}-`;
+              // ONLY promote if NOT a duplix in this case
+              if (!checkIsDuplix(aff, 'infix', stem, s1, s2)) {
+                if (!standardTypeMap[aff]) standardTypeMap[aff] = 'infix';
+              }
+              break;
+            }
+          }
+        }
+      }
+    });
+
+    const affixesMap: Record<string, { count: number, type: string, label: string }> = {};
+
+    Object.entries(manifest).forEach(([word, data]: [string, any]) => {
+      const entrySrc = data.src || 'OTHER';
+      const entrySources = entrySrc.split(',').map((s: string) => s.trim());
+      const isMatch = filters.includes('ALL') || entrySources.some((s: string) => filters.includes(s));
+      if (!isMatch) return;
+      const stem = data.p;
+      if (!stem || word === stem) return;
+      
+      const detected = detectAffixesForWord(word, stem, standardTypeMap);
+      detected.forEach(d => {
+        const key = `${d.affix}|${d.type}`;
+        if (!affixesMap[key]) affixesMap[key] = { count: 0, type: d.type, label: d.affix };
+        affixesMap[key].count++;
+      });
+    });
+
+    return { affixesMap, standardTypeMap };
+  };
+
+  const analysisData = React.useMemo(() => {
+    const results: Record<string, ReturnType<typeof analyzeSubset>> = {};
+    activeModes.forEach(mode => {
+      results[mode] = analyzeSubset(mode);
+    });
+    return results;
+  }, [manifests, activeModes, columnSources]);
+
   if (!showAffixesOverlay) return null;
 
   const toggleSource = (mode: string, sourceId: string) => {
@@ -142,64 +298,35 @@ export const AffixesOverlay = ({
     );
   };
 
+
+
   const getSortedAffixes = (mode: string) => {
-    const filters = columnSources[mode] || ['ALL'];
-    const manifest = manifests[mode];
-    
-    let affixesMap: Record<string, number> = {};
-
-    // Use pre-calculated stats if ALL is selected and we have them
-    if (filters.includes('ALL')) {
-      affixesMap = statsData[mode]?.affixes || {};
-    } else if (manifest) {
-      // Dynamic recalculation for specific sources
-      Object.entries(manifest).forEach(([word, data]: [string, any]) => {
-        const entrySrc = data.src || 'OTHER';
-        const entrySources = entrySrc.split(',').map((s: string) => s.trim());
-        const isMatch = entrySources.some((s: string) => filters.includes(s));
-        if (!isMatch) return;
-        const stem = data.p;
-        if (!stem || word === stem) return;
-
-        // Extract affixes (logic mirrored from builder)
-        const isPrefix = word.endsWith(stem) && word.length > stem.length;
-        const isSuffix = word.startsWith(stem) && word.length > stem.length;
-        
-        if (isPrefix || isSuffix) {
-          if (isPrefix) {
-            const p = `${word.slice(0, word.length - stem.length)}-`;
-            affixesMap[p] = (affixesMap[p] || 0) + 1;
-          }
-          if (isSuffix) {
-            const s = `-${word.slice(stem.length)}`;
-            affixesMap[s] = (affixesMap[s] || 0) + 1;
-          }
-          return; // Prioritize Prefix/Suffix over Infix
-        }
-
-        // Infix Split Match
-        for (let i = 1; i < stem.length; i++) {
-          const s1 = stem.slice(0, i);
-          const s2 = stem.slice(i);
-          if (word.startsWith(s1) && word.endsWith(s2)) {
-            const inf = `-${word.slice(s1.length, word.length - s2.length)}-`;
-            affixesMap[inf] = (affixesMap[inf] || 0) + 1;
-            break;
-          }
-        }
-      });
-    }
-
+    const { affixesMap } = analysisData[mode] || { affixesMap: {} };
     let entries = Object.entries(affixesMap)
-      .map(([affix, count]) => {
-        const type = (affix.startsWith('-') && affix.endsWith('-')) ? 'infix' :
-          affix.startsWith('-') ? 'suffix' : 'prefix';
-        return { affix, count: count as number, type };
-      })
+      .map(([key, { count, type, label }]) => ({ affix: label, count, type }))
       .filter(item => {
+        if (!filtersEnabled) return true;
+
+        // 1. Noise Filters
+        const clean = item.affix.replace(/-/g, '').toLowerCase();
+        
+        if (activeFilters.includes('punctuation')) {
+          const isPunctChar = [...clean].every(char => NOISE_FILTERS.punctuation.includes(char));
+          const isPunctSeq = NOISE_FILTERS.sequences.includes(item.affix);
+          if ((isPunctChar && clean.length > 0) || isPunctSeq) return false;
+        }
+        
+        if (activeFilters.includes('custom')) {
+          if (NOISE_FILTERS.custom.includes(clean)) return false;
+        }
+
+        // 2. Main Toggles
         if (item.type === 'infix' && !showInfixes) return false;
         if (item.type === 'prefix' && !showPrefixes) return false;
         if (item.type === 'suffix' && !showSuffixes) return false;
+        if (item.type === 'duplix' && !showDuplixies) return false;
+        if (item.type === 'full_duplix' && !showFullDuplix) return false;
+        
         return true;
       });
 
@@ -212,38 +339,30 @@ export const AffixesOverlay = ({
   };
 
 
-  const getInfixExamples = (affix: string) => {
-    const cleanAffix = affix.replace(/-/g, '');
+  const getInfixExamples = (affixObj: { affix: string; type: string }) => {
     const examples: Array<{ stem: string; word: string; mode: string }> = [];
-    
     activeModes.forEach(mode => {
+      const filters = columnSources[mode] || ['ALL'];
       const manifest = manifests[mode];
       if (!manifest) return;
-      
-      const filters = columnSources[mode] || ['ALL'];
+      const { standardTypeMap } = analysisData[mode] || { standardTypeMap: {} };
 
       Object.entries(manifest).forEach(([word, data]: [string, any]) => {
         if (examples.length >= 100) return;
         const entrySrc = data.src || 'OTHER';
         const entrySources = entrySrc.split(',').map((s: string) => s.trim());
-        const isMatch = entrySources.some((s: string) => filters.includes(s));
-        if (!filters.includes('ALL') && !isMatch) return;
+        const isMatch = filters.includes('ALL') || entrySources.some((s: string) => filters.includes(s));
+        if (!isMatch) return;
         
         const stem = data.p;
         if (!stem || word === stem) return;
-
-        // Split match logic
-        for (let i = 1; i < stem.length; i++) {
-          const s1 = stem.slice(0, i);
-          const s2 = stem.slice(i);
-          if (word.startsWith(s1) && word.endsWith(s2)) {
-            const inf = word.slice(s1.length, word.length - s2.length);
-            if (inf === cleanAffix) {
-              examples.push({ stem, word, mode });
-              break;
-            }
+        
+        const detected = detectAffixesForWord(word, stem, standardTypeMap);
+        detected.forEach(d => {
+          if (d.affix === affixObj.affix && d.type === affixObj.type) {
+            examples.push({ stem, word, mode });
           }
-        }
+        });
       });
     });
 
@@ -254,33 +373,32 @@ export const AffixesOverlay = ({
   };
 
   const getAffixExamples = (affixObj: { affix: string; type: string }) => {
-    if (affixObj.type === 'infix') return getInfixExamples(affixObj.affix);
+    const isInfixFormat = affixObj.affix.startsWith('-') && affixObj.affix.endsWith('-');
+    if (affixObj.type === 'infix' || isInfixFormat) return getInfixExamples(affixObj);
 
     const examples: Array<{ stem: string; word: string; mode: string }> = [];
     activeModes.forEach(mode => {
+      const filters = columnSources[mode] || ['ALL'];
       const manifest = manifests[mode];
       if (!manifest) return;
-      
-      const filters = columnSources[mode] || ['ALL'];
+      const { standardTypeMap } = analysisData[mode] || { standardTypeMap: {} };
 
       Object.entries(manifest).forEach(([word, data]: [string, any]) => {
         if (examples.length >= 100) return;
         const entrySrc = data.src || 'OTHER';
         const entrySources = entrySrc.split(',').map((s: string) => s.trim());
-        const isMatch = entrySources.some((s: string) => filters.includes(s));
-        if (!filters.includes('ALL') && !isMatch) return;
+        const isMatch = filters.includes('ALL') || entrySources.some((s: string) => filters.includes(s));
+        if (!isMatch) return;
 
         const stem = data.p;
         if (!stem || word === stem) return;
-
-        const isPrefix = affixObj.affix.endsWith('-');
-        const clean = affixObj.affix.replace('-', '');
-
-        if (isPrefix) {
-          if (word === clean + stem) examples.push({ stem, word, mode });
-        } else {
-          if (word === stem + clean) examples.push({ stem, word, mode });
-        }
+        
+        const detected = detectAffixesForWord(word, stem, standardTypeMap);
+        detected.forEach(d => {
+          if (d.affix === affixObj.affix && d.type === affixObj.type) {
+            examples.push({ stem, word, mode });
+          }
+        });
       });
     });
 
@@ -350,6 +468,69 @@ export const AffixesOverlay = ({
               >
                 Infixes
               </button>
+              <button
+                onClick={() => setShowDuplixies(!showDuplixies)}
+                className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showDuplixies ? 'bg-fuchsia-500/20 text-fuchsia-400 border border-fuchsia-500/10' : 'text-white/20 hover:text-white/40'}`}
+              >
+                Duplixies
+              </button>
+              <button
+                onClick={() => setShowFullDuplix(!showFullDuplix)}
+                className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showFullDuplix ? 'bg-fuchsia-500/40 text-fuchsia-300 border border-fuchsia-500/20 shadow-[0_0_15px_-3px_rgba(217,70,239,0.3)]' : 'text-white/20 hover:text-white/40'}`}
+                title="Full Duplixes (Affix = Stem)"
+              >
+                ²
+              </button>
+            </div>
+
+            <div 
+              className="relative"
+              onMouseEnter={() => setShowFilterOptions(true)}
+              onMouseLeave={() => setShowFilterOptions(false)}
+            >
+              <button
+                onClick={() => setFiltersEnabled(!filtersEnabled)}
+                className={`px-4 py-2 rounded-xl border transition-all flex items-center gap-2 h-9 ${
+                  filtersEnabled 
+                    ? 'bg-blue-500/20 border-blue-500/30 text-blue-400' 
+                    : 'bg-white/5 border-white/10 text-white/20 hover:text-white/40'
+                }`}
+              >
+                <Filter className={`w-3.5 h-3.5 ${filtersEnabled ? 'text-blue-400' : ''}`} />
+                <span className="text-[10px] font-black uppercase tracking-widest">
+                  {filtersEnabled ? `Filters (${activeFilters.length})` : 'Raw Mode'}
+                </span>
+              </button>
+
+              {/* Hover Dropdown */}
+              {showFilterOptions && (
+                <div className="absolute top-full right-0 mt-2 w-48 bg-[#0f172a] border border-white/10 rounded-xl shadow-2xl p-3 z-[1200] animate-in fade-in slide-in-from-top-2 duration-200">
+                  <div className="text-[9px] font-black uppercase tracking-widest text-white/30 mb-3 px-1">Noise Categories</div>
+                  <div className="space-y-1">
+                    {[
+                      { id: 'punctuation', label: 'Punctuation', tip: 'Hides singleton punctuation, dashes, and sequences like -- or ...' },
+                      { id: 'custom', label: 'Custom List', tip: 'Hides specific items defined in the custom ignore list' },
+                    ].map(f => (
+                      <label key={f.id} className="flex items-center justify-between group cursor-pointer hover:bg-white/5 p-2 rounded-lg transition-all" title={f.tip}>
+                        <span className="text-[10px] font-bold text-white/60 group-hover:text-white">{f.label}</span>
+                        <input
+                          type="checkbox"
+                          checked={activeFilters.includes(f.id)}
+                          onChange={() => {
+                            setActiveFilters(prev => 
+                              prev.includes(f.id) ? prev.filter(x => x !== f.id) : [...prev, f.id]
+                            );
+                          }}
+                          className="w-3 h-3 rounded bg-white/10 border-white/20 checked:bg-blue-500 cursor-pointer"
+                        />
+                      </label>
+                    ))}
+                  </div>
+                  <div className="mt-3 pt-2 border-t border-white/5 text-[8px] text-white/20 font-medium leading-tight px-1">
+                    Settings are applied globally when the master switch is ON.
+                  </div>
+                </div>
+              )}
             </div>
 
             <div className="h-6 w-[1px] bg-white/10" />
@@ -442,9 +623,9 @@ export const AffixesOverlay = ({
                       <div className="flex-1 overflow-y-auto custom-scrollbar p-6 space-y-2 bg-black/10">
                         {affixes.map(({ affix, count, type }, i) => (
                           <button
-                            key={affix}
+                            key={`${affix}-${type}`}
                             onClick={() => setSelectedAffix({ affix, type })}
-                            className={`w-full group flex items-center gap-4 p-3 rounded-xl transition-all border ${selectedAffix?.affix === affix
+                            className={`w-full group flex items-center gap-4 p-3 rounded-xl transition-all border ${selectedAffix?.affix === affix && selectedAffix?.type === type
                                 ? 'bg-white/10 border-white/20 shadow-lg'
                                 : 'hover:bg-white/5 border-transparent hover:border-white/10'
                               }`}
@@ -452,8 +633,12 @@ export const AffixesOverlay = ({
                             <span className="w-6 text-[10px] font-mono text-white/20 font-bold">{i + 1}</span>
                             <div className="flex-1 flex flex-col gap-1.5 text-left">
                               <div className="flex items-center justify-between">
-                                <span className={`text-sm font-black tracking-widest uppercase ${type === 'infix' ? 'text-orange-400' :
-                                  type === 'suffix' ? 'text-indigo-400' : 'text-emerald-400'
+                                <span className={`text-sm font-black tracking-widest uppercase ${
+                                  type === 'infix' ? 'text-orange-400' :
+                                  type === 'suffix' ? 'text-indigo-400' : 
+                                  type === 'duplix' ? 'text-fuchsia-400' :
+                                  type === 'full_duplix' ? 'text-fuchsia-300 drop-shadow-[0_0_8px_rgba(217,70,239,0.4)]' :
+                                  'text-emerald-400'
                                   }`}>
                                   {affix}
                                 </span>
@@ -461,8 +646,12 @@ export const AffixesOverlay = ({
                               </div>
                               <div className="h-1 bg-white/5 rounded-full overflow-hidden">
                                 <div
-                                  className={`h-full opacity-60 transition-all duration-1000 ${type === 'infix' ? 'bg-orange-500' :
-                                    type === 'suffix' ? 'bg-indigo-500' : 'bg-emerald-500'
+                                  className={`h-full opacity-60 transition-all duration-1000 ${
+                                    type === 'infix' ? 'bg-orange-500' :
+                                    type === 'suffix' ? 'bg-indigo-500' : 
+                                    type === 'duplix' ? 'bg-fuchsia-500' :
+                                    type === 'full_duplix' ? 'bg-fuchsia-400' :
+                                    'bg-emerald-500'
                                     }`}
                                   style={{ width: `${(count / maxCount) * 100}%` }}
                                 />
@@ -505,7 +694,12 @@ export const AffixesOverlay = ({
                       <div className="space-y-4">
                         <div className="mb-6 px-4 py-3 rounded-2xl bg-white/5 border border-white/5">
                           <div className="flex items-center justify-between">
-                            <h4 className={`text-2xl font-black uppercase tracking-tighter ${selectedAffix.type === 'infix' ? 'text-orange-400' : selectedAffix.type === 'suffix' ? 'text-indigo-400' : 'text-emerald-400'}`}>
+                            <h4 className={`text-2xl font-black uppercase tracking-tighter ${
+                              selectedAffix.type === 'infix' ? 'text-orange-400' : 
+                              selectedAffix.type === 'suffix' ? 'text-indigo-400' : 
+                              selectedAffix.type === 'duplix' ? 'text-fuchsia-400' :
+                              'text-emerald-400'
+                            }`}>
                               {selectedAffix.affix}
                             </h4>
                             {loading && (
