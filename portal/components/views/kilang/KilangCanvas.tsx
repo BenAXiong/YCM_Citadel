@@ -269,6 +269,7 @@ export const KilangCanvas = ({
                   viewPos={viewPos}
                   treeRef={treeRef}
                   showDimensions={showDimensions}
+                  rootPos={nodeMap[normalizeWord(selectedRoot || '') || ''] || null}
                 />
               </>
             )}
