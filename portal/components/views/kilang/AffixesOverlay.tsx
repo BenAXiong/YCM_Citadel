@@ -165,13 +165,16 @@ export const AffixesOverlay = ({
         const isPrefix = word.endsWith(stem) && word.length > stem.length;
         const isSuffix = word.startsWith(stem) && word.length > stem.length;
         
-        if (isPrefix) {
-          const p = `${word.slice(0, word.length - stem.length)}-`;
-          affixesMap[p] = (affixesMap[p] || 0) + 1;
-        }
-        if (isSuffix) {
-          const s = `-${word.slice(stem.length)}`;
-          affixesMap[s] = (affixesMap[s] || 0) + 1;
+        if (isPrefix || isSuffix) {
+          if (isPrefix) {
+            const p = `${word.slice(0, word.length - stem.length)}-`;
+            affixesMap[p] = (affixesMap[p] || 0) + 1;
+          }
+          if (isSuffix) {
+            const s = `-${word.slice(stem.length)}`;
+            affixesMap[s] = (affixesMap[s] || 0) + 1;
+          }
+          return; // Prioritize Prefix/Suffix over Infix
         }
 
         // Infix Split Match

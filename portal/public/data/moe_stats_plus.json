@@ -1,80 +1,80 @@
 {
   "summary": {
-    "total_roots": 3485,
-    "max_depth": 6,
-    "max_branches": 165,
+    "total_roots": 3482,
+    "max_depth": 8,
+    "max_branches": 157,
     "total_words": 42680,
-    "average_branching": 10.78,
+    "average_branching": 10.79,
     "std_dev": 0
   },
   "distribution": {
-    "1": 584,
-    "2": 460,
-    "3": 295,
-    "4": 204,
-    "5": 153,
-    "6": 123,
+    "1": 581,
+    "2": 465,
+    "3": 293,
+    "4": 203,
+    "5": 149,
+    "6": 124,
     "7": 126,
     "8": 80,
-    "9": 126,
+    "9": 125,
     "10": 94,
-    "11": 168,
-    "12": 118,
-    "13": 96,
-    "14": 82,
+    "11": 171,
+    "12": 117,
+    "13": 95,
+    "14": 83,
     "15": 74,
     "16": 67,
-    "17": 43,
-    "18": 35,
-    "19": 39,
-    "20": 37,
-    "21": 31,
-    "22": 32,
-    "23": 38,
-    "24": 25,
-    "25": 32,
-    "26": 22,
-    "27": 17,
+    "17": 41,
+    "18": 34,
+    "19": 40,
+    "20": 38,
+    "21": 33,
+    "22": 31,
+    "23": 36,
+    "24": 23,
+    "25": 33,
+    "26": 24,
+    "27": 18,
     "28": 19,
-    "29": 11,
-    "30": 12,
-    "31": 10,
-    "32": 13,
-    "33": 11,
+    "29": 10,
+    "30": 11,
+    "31": 12,
+    "32": 11,
+    "33": 12,
     "34": 7,
-    "35": 5,
+    "35": 4,
     "36": 8,
-    "37": 12,
-    "38": 11,
+    "37": 11,
+    "38": 12,
     "39": 8,
-    "40": 6,
+    "40": 8,
     "41": 5,
-    "42": 7,
+    "42": 6,
     "43": 6,
-    "44": 4,
-    "45": 6,
-    "46": 8,
-    "47": 4,
+    "44": 3,
+    "45": 7,
+    "46": 9,
+    "47": 5,
     "48": 3,
     "49": 3,
     "50": 3,
     "51": 6,
-    "52": 3,
+    "52": 4,
     "53": 4,
     "54": 3,
-    "55": 6,
+    "55": 5,
     "56": 8,
-    "57": 5,
-    "58": 5,
+    "57": 3,
+    "58": 6,
     "59": 4,
-    "60": 2,
+    "60": 1,
     "61": 2,
     "62": 1,
     "63": 1,
-    "64": 5,
-    "65": 2,
-    "66": 3,
-    "67": 4,
+    "64": 7,
+    "65": 1,
+    "66": 2,
+    "67": 5,
     "69": 1,
     "72": 1,
     "73": 1,
@@ -86,986 +86,1438 @@
     "81": 1,
     "82": 1,
     "83": 1,
-    "84": 1,
+    "84": 2,
     "85": 1,
     "86": 1,
-    "87": 1,
-    "88": 1,
+    "89": 1,
     "90": 1,
     "92": 3,
-    "93": 2,
+    "93": 1,
+    "94": 1,
     "95": 1,
     "99": 1,
     "102": 1,
     "103": 1,
     "104": 1,
     "112": 1,
+    "113": 1,
     "120": 1,
     "122": 1,
     "124": 1,
     "125": 1,
-    "132": 1,
     "135": 1,
-    "165": 1
+    "157": 1
   },
   "depth_distribution": {
     "1": 5110,
-    "2": 26522,
-    "3": 9954,
-    "4": 1007,
-    "5": 73,
-    "6": 14
+    "2": 11859,
+    "3": 14593,
+    "4": 8063,
+    "5": 2535,
+    "6": 458,
+    "7": 59,
+    "8": 3
   },
   "deep_examples": {
+    "kamo": [
+      "kamo",
+      "kamok",
+      "kamoko",
+      "kamoko'",
+      "sakamoko'",
+      "pisakamoko'",
+      "sapisakamoko'",
+      "sapisakamoko'aw"
+    ],
+    "wara": [
+      "wara",
+      "waraw",
+      "warawar",
+      "warawara",
+      "sawarawara",
+      "pisawarawara",
+      "sapisawarawara",
+      "sapisawarawaraaw"
+    ],
+    "loma": [
+      "loma",
+      "loma'",
+      "laloma'",
+      "talaloma'",
+      "patalaloma'",
+      "pipatalaloma'",
+      "sapipatalaloma'",
+      "sapipatalaloma'aw"
+    ],
     "apa": [
       "apa",
       "apac",
       "'apac",
       "'apacan",
       "'apacang",
-      "ma'apacang"
+      "ma'apacang",
+      "ma'apacangay"
     ],
-    "kiyo": [
-      "kiyo",
-      "lokiyo",
-      "lokiyol",
-      "palokiyol",
-      "palokiyolen",
-      "papalokiyolen"
-    ],
-    "kang": [
-      "kang",
-      "talafekang",
-      "patalafekang",
-      "pipatalafekang",
-      "sapipatalafekang",
-      "sapipatalafekangaw"
-    ],
-    "'edo": [
-      "'edo",
-      "'edong",
-      "ca'edong",
-      "cica'edongan",
-      "sakacica'edongan",
-      "sakacica'edonganaw"
-    ],
-    "hay": [
-      "hay",
-      "mahay",
-      "'mahay",
-      "'emahay",
-      "ka'emahay"
-    ],
-    "mora": [
-      "mora",
-      "moraw",
-      "amoraw",
-      "kamoraw",
-      "sakamoraw"
+    "ini": [
+      "ini",
+      "inik",
+      "sinik",
+      "pasinik",
+      "pipasinik",
+      "sapipasinik",
+      "sapipasinikaw"
     ],
     "kala": [
       "kala",
       "kalat",
       "kalati",
       "kalatim",
-      "sakalatim"
-    ],
-    "kamo": [
-      "kamo",
-      "kamok",
-      "kamoko",
-      "kamoko'",
-      "kamoko'ay"
-    ],
-    "han": [
-      "han",
-      "hana",
-      "hanaw",
-      "lihanaw",
-      "malihanaw"
+      "pikalatim",
+      "sapikalatim",
+      "sapikalatimaw"
     ],
     "cipi": [
       "cipi",
       "cipin",
       "ciping",
       "ciciping",
-      "cicipingay"
+      "kaciciping",
+      "sakaciciping",
+      "sakacicipingaw"
+    ],
+    "ira": [
+      "ira",
+      "aira",
+      "taira",
+      "pataira",
+      "papipataira",
+      "papipatairaen",
+      "papapipatairaen"
+    ],
+    "kiyo": [
+      "kiyo",
+      "lokiyo",
+      "lokiyol",
+      "palokiyol",
+      "pipalokiyol",
+      "sapipalokiyol",
+      "sapipalokiyolaw"
+    ],
+    "aro'": [
+      "aro'",
+      "maro'",
+      "kamaro'",
+      "pakamaro'",
+      "pipakamaro'",
+      "sapipakamaro'",
+      "sapipakamaro'aw"
+    ],
+    "heca": [
+      "heca",
+      "hecad",
+      "lahecad",
+      "palahecad",
+      "pipalahecad",
+      "sapipalahecad",
+      "sapipalahecadaw"
+    ],
+    "tiko": [
+      "tiko",
+      "tikol",
+      "patikol",
+      "pipatikol",
+      "papipatikol",
+      "papipatikolay",
+      "mapapipatikolay"
+    ],
+    "tori": [
+      "tori",
+      "toris",
+      "satoris",
+      "pasatoris",
+      "pipasatoris",
+      "sapipasatoris",
+      "sapipasatorisaw"
+    ],
+    "noka": [
+      "noka",
+      "nokay",
+      "panokay",
+      "pipanokay",
+      "papipanokay",
+      "pipapipanokay",
+      "pipapipanokayan"
+    ],
+    "tapes": [
+      "tapes",
+      "atapes",
+      "hatapes",
+      "sahatapes",
+      "pisahatapes",
+      "sapisahatapes",
+      "sapisahatapesaw"
+    ],
+    "kini": [
+      "kini",
+      "kinih",
+      "kakinih",
+      "sakakinih",
+      "pisakakinih",
+      "sapisakakinih",
+      "sapisakakinihaw"
+    ],
+    "cofel": [
+      "cofel",
+      "acofel",
+      "'acofel",
+      "pa'acofel",
+      "pipa'acofel",
+      "sapipa'acofel",
+      "sapipa'acofelaw"
+    ],
+    "apid": [
+      "apid",
+      "tapid",
+      "satapid",
+      "cisatapid",
+      "kacisatapid",
+      "sakacisatapid",
+      "sakacisatapidaw"
+    ],
+    "'edo": [
+      "'edo",
+      "'edong",
+      "ca'edong",
+      "pica'edong",
+      "papica'edong",
+      "mipapica'edong",
+      "mipapica'edongay"
+    ],
+    "fafa": [
+      "fafa",
+      "fafahi",
+      "cifafahi",
+      "kacifafahi",
+      "pakacifafahi",
+      "mapakacifafahi",
+      "mapakacifafahiay"
+    ],
+    "pali": [
+      "pali",
+      "palit",
+      "palita",
+      "sapalita",
+      "sapalitalita",
+      "misapalitalita",
+      "misapalitalitaan"
+    ],
+    "aray": [
+      "aray",
+      "rayaray",
+      "sarayaray",
+      "pasarayaray",
+      "pipasarayaray",
+      "sapipasarayaray",
+      "sapipasarayarayaw"
+    ],
+    "omi'": [
+      "omi'",
+      "romi'ad",
+      "saromi'ad",
+      "pasaromi'ad",
+      "pipasaromi'ad",
+      "sapipasaromi'ad",
+      "sapipasaromi'adaw"
+    ],
+    "kelong": [
+      "kelong",
+      "hakelong",
+      "lahakelong",
+      "palahakelong",
+      "pipalahakelong",
+      "sapipalahakelong",
+      "sapipalahakelongaw"
+    ],
+    "mora": [
+      "mora",
+      "moraw",
+      "amoraw",
+      "kamoraw",
+      "sakamoraw",
+      "sakamorawan"
+    ],
+    "oli": [
+      "oli",
+      "olin",
+      "polin",
+      "pipolin",
+      "sapipolin",
+      "sapipolinaw"
+    ],
+    "iyo": [
+      "iyo",
+      "iyop",
+      "siyop",
+      "pisiyop",
+      "sapisiyop",
+      "sapisiyopaw"
+    ],
+    "tira": [
+      "tira",
+      "atira",
+      "hatira",
+      "sahatira",
+      "masahatira",
+      "masahatiraay"
+    ],
+    "ako": [
+      "ako",
+      "akong",
+      "'akong",
+      "li'akong",
+      "mali'akong",
+      "mali'akongay"
+    ],
+    "ora": [
+      "ora",
+      "oray",
+      "cioray",
+      "kacioray",
+      "sakacioray",
+      "sakaciorayaw"
+    ],
+    "han": [
+      "han",
+      "hana",
+      "cihana",
+      "kacihana",
+      "sakacihana",
+      "sakacihanaaw"
     ],
     "'co": [
       "'co",
       "'eco",
       "da'eco",
       "da'econg",
-      "mida'econg"
-    ],
-    "pali": [
-      "pali",
-      "palit",
-      "pipalit",
-      "pipalita",
-      "pipalitaan"
-    ],
-    "'eso": [
-      "'eso",
-      "pi'eso",
-      "pi'esof",
-      "sapi'esof",
-      "sapi'esofaw"
-    ],
-    "eked": [
-      "eked",
-      "teked",
-      "sateked",
-      "pasateked",
-      "pasatekeday"
-    ],
-    "kapi": [
-      "kapi",
-      "pakapi",
-      "pakapi'",
-      "pakapi'en",
-      "papakapi'en"
-    ],
-    "'ik": [
-      "'ik",
-      "'iked",
-      "si'iked",
-      "misi'iked",
-      "misi'ikeday"
-    ],
-    "ini": [
-      "ini",
-      "inik",
-      "linik",
-      "lalinik",
-      "pakalalinik"
-    ],
-    "nga'": [
-      "nga'",
-      "nga'ay",
-      "songa'ay",
-      "sasonga'ay",
-      "masasonga'ay"
-    ],
-    "tali": [
-      "tali",
-      "talik",
-      "patalikol",
-      "mapatalikol",
-      "mapatalikolay"
-    ],
-    "mokel": [
-      "mokel",
-      "comokel",
-      "kacomokel",
-      "sakacomokel",
-      "sakacomokelaw"
-    ],
-    "feli": [
-      "feli",
-      "felin",
-      "fafelin",
-      "safafafelin",
-      "misafafafelin"
-    ],
-    "noli": [
-      "noli",
-      "inoli",
-      "salinolino",
-      "misalinolino",
-      "misalinolinoay"
-    ],
-    "pako": [
-      "pako",
-      "pakoyang",
-      "pipakoyang",
-      "sapipakoyang",
-      "sapipakoyangaw"
-    ],
-    "oli": [
-      "oli",
-      "olin",
-      "polin",
-      "alapolipolin",
-      "alapolipolinsa"
-    ],
-    "ciko": [
-      "ciko",
-      "cikocosta",
-      "kacikocosta",
-      "sakacikocosta",
-      "sakacikocostaaw"
-    ],
-    "kafuti'": [
-      "kafuti'",
-      "pakafuti'",
-      "pipakafuti'",
-      "sapipakafuti'",
-      "sapipakafuti'aw"
-    ],
-    "siwa": [
-      "siwa",
-      "siwakal",
-      "sasiwakawakal",
-      "misasiwakawakal",
-      "misasiwakawakalan"
-    ],
-    "iyo": [
-      "iyo",
-      "iyof",
-      "'iyof",
-      "ma'iyof"
-    ],
-    "ora": [
-      "ora",
-      "oray",
-      "roray",
-      "maroray"
-    ],
-    "ira": [
-      "ira",
-      "iray",
-      "'iray",
-      "ma'iray"
-    ],
-    "'efo": [
-      "'efo",
-      "'efon",
-      "'efong",
-      "ci'efong"
-    ],
-    "ako": [
-      "ako",
-      "akong",
-      "fakong",
-      "safakong"
-    ],
-    "kama": [
-      "kama",
-      "kamay",
-      "kamaya",
-      "sakamaya"
-    ],
-    "'emi": [
-      "'emi",
-      "'emin",
-      "'eming",
-      "ka'eming"
-    ],
-    "cifa": [
-      "cifa",
-      "icifa",
-      "icifang",
-      "ticifang"
-    ],
-    "kali": [
-      "kali",
-      "kalim",
-      "pakalim",
-      "pakalima"
-    ],
-    "moko": [
-      "moko",
-      "mokon",
-      "mokong",
-      "mimokong"
-    ],
-    "toko": [
-      "toko",
-      "tokon",
-      "tokong",
-      "mitokong"
-    ],
-    "siki": [
-      "siki",
-      "sikin",
-      "siking",
-      "misiking"
-    ],
-    "maha": [
-      "maha",
-      "mahad",
-      "cemahad",
-      "cemahaday"
-    ],
-    "'eca": [
-      "'eca",
-      "'ecaw",
-      "ki'ecaw",
-      "ki'ecawen"
-    ],
-    "dipi": [
-      "dipi",
-      "dipit",
-      "'adipit",
-      "mi'adipit"
-    ],
-    "asi": [
-      "asi",
-      "asip",
-      "sipasip",
-      "sipasipen"
-    ],
-    "'emo": [
-      "'emo",
-      "'emod",
-      "ta'emod",
-      "mita'emod"
-    ],
-    "cako": [
-      "cako",
-      "cakod",
-      "cakodaw",
-      "cakodawen"
-    ],
-    "cefa": [
-      "cefa",
-      "pacefa",
-      "pacefad",
-      "pacefaday"
-    ],
-    "'adi": [
-      "'adi",
-      "'adis",
-      "'adisaw",
-      "'adisawen"
-    ],
-    "kora": [
-      "kora",
-      "korah",
-      "korahot",
-      "mikorahot"
-    ],
-    "oles": [
-      "oles",
-      "foles",
-      "folesak",
-      "mafolesak"
-    ],
-    "mana": [
-      "mana",
-      "amanal",
-      "'amanal",
-      "'amanalay"
-    ],
-    "kako": [
-      "kako",
-      "kakoy",
-      "kakoyol",
-      "sakakoyol"
-    ],
-    "wata": [
-      "wata",
-      "wataw",
-      "watawat",
-      "piwatawat"
+      "mida'econg",
+      "mida'econgan"
     ],
     "kemo": [
       "kemo",
       "sakemo",
       "sakemot",
-      "pisakemot"
+      "pisakemot",
+      "sapisakemot",
+      "sapisakemotaw"
     ],
-    "kini": [
-      "kini",
-      "kinih",
-      "tokinih",
-      "matokinih"
+    "adal": [
+      "adal",
+      "padal",
+      "hapadal",
+      "pihapadal",
+      "sapihapadal",
+      "sapihapadalaw"
     ],
-    "roko": [
-      "roko",
-      "rokoh",
-      "rarokoh",
-      "rarokohan"
-    ],
-    "dimat": [
-      "dimat",
-      "dimata",
-      "dimata'",
-      "madimata'"
+    "kaso": [
+      "kaso",
+      "kasoy",
+      "pikasoy",
+      "papikasoy",
+      "mapapikasoy",
+      "mapapikasoyay"
     ],
     "raka": [
       "raka",
-      "taraka",
-      "tarakaw",
-      "tarakawen"
+      "rakat",
+      "harakat",
+      "saharakat",
+      "misaharakat",
+      "misaharakatan"
     ],
-    "taya": [
-      "taya",
-      "tayal",
-      "katayal",
-      "katayalan"
+    "hima": [
+      "hima",
+      "himaw",
+      "pihimaw",
+      "papihimaw",
+      "mipapihimaw",
+      "mipapihimaway"
+    ],
+    "kopi": [
+      "kopi",
+      "kopid",
+      "sakopid",
+      "pisakopid",
+      "sapisakopid",
+      "sapisakopidaw"
+    ],
+    "tafa": [
+      "tafa",
+      "tafak",
+      "patafak",
+      "pipatafak",
+      "sapipatafak",
+      "sapipatafakaw"
+    ],
+    "lafi": [
+      "lafi",
+      "lafin",
+      "halafin",
+      "sahalafin",
+      "misahalafin",
+      "misahalafinay"
+    ],
+    "pala": [
+      "pala",
+      "palal",
+      "pipalal",
+      "papipalal",
+      "mipapipalal",
+      "mipapipalalan"
+    ],
+    "'ayaw": [
+      "'ayaw",
+      "i'ayaw",
+      "i'ayawen",
+      "ki'ayawen",
+      "kaki'ayawen",
+      "pakaki'ayawen"
     ],
     "aliw": [
       "aliw",
       "caliw",
-      "caliwa'",
-      "micaliwa'"
+      "pacaliw",
+      "pipacaliw",
+      "sapipacaliw",
+      "sapipacaliwaw"
+    ],
+    "po'o": [
+      "po'o",
+      "po'ot",
+      "cipo'ot",
+      "kacipo'ot",
+      "sakacipo'ot",
+      "sakacipo'otaw"
+    ],
+    "nano": [
+      "nano",
+      "nanom",
+      "pinanom",
+      "papinanom",
+      "pipapinanom",
+      "pipapinanoman"
     ],
     "heci": [
       "heci",
       "ahecid",
       "kahecid",
-      "sakahecid"
-    ],
-    "kona": [
-      "kona",
-      "konac",
-      "'akonac",
-      "'akonacay"
-    ],
-    "toka": [
-      "toka",
-      "tokak",
-      "tokakar",
-      "mitokakar"
-    ],
-    "olah": [
-      "olah",
-      "kolah",
-      "kolahot",
-      "mikolahot"
-    ],
-    "tata": [
-      "tata",
-      "tata'",
-      "tata'ak",
-      "tata'aken"
-    ],
-    "'ali": [
-      "'ali",
-      "'alic",
-      "'alicay",
-      "'alicayan"
+      "sakahecid",
+      "misakahecid",
+      "misakahecidan"
     ],
     "oway": [
       "oway",
-      "doway",
-      "hadoway",
-      "mahadoway"
+      "'oway",
+      "si'oway",
+      "pisi'oway",
+      "sapisi'oway",
+      "sapisi'owayaw"
     ],
-    "komo": [
-      "komo",
-      "komod",
-      "takomod",
-      "mitakomod"
+    "tana": [
+      "tana",
+      "tanam",
+      "patanam",
+      "pipatanam",
+      "sapipatanam",
+      "sapipatanamaw"
     ],
-    "saka": [
-      "saka",
-      "sakas",
-      "sakasak",
-      "masakasak"
+    "ada'": [
+      "ada'",
+      "lada'",
+      "palada'",
+      "pipalada'",
+      "sapipalada'",
+      "sapipalada'aw"
     ],
-    "tera'": [
-      "tera'",
-      "matera",
-      "materaw",
-      "materaway"
-    ],
-    "sapi": [
-      "sapi",
-      "sapiwa",
-      "sapiwa'",
-      "sapiwa'an"
-    ],
-    "lawa": [
-      "lawa",
-      "lawal",
-      "walawal",
-      "mawalawal"
-    ],
-    "fowa": [
-      "fowa",
-      "fowas",
-      "lifowas",
-      "malifowas"
-    ],
-    "lafi": [
-      "lafi",
-      "lafin",
-      "'alafin",
-      "'alafinay"
+    "cemod": [
+      "cemod",
+      "picemod",
+      "apicemod",
+      "papicemod",
+      "mapapicemod",
+      "mapapicemoday"
     ],
     "liwa": [
       "liwa",
-      "liwal",
-      "'aliwal",
-      "'aliwalen"
+      "liway",
+      "saliway",
+      "pisaliway",
+      "sapisaliway",
+      "sapisaliwayaw"
     ],
-    "tafo": [
-      "tafo",
-      "tafok",
-      "tafokod",
-      "mitafokod"
+    "dato": [
+      "dato",
+      "datok",
+      "sadatok",
+      "pisadatok",
+      "sapisadatok",
+      "sapisadatokaw"
     ],
-    "aday": [
-      "aday",
-      "adayaw",
-      "dadayaw",
-      "fodadayaw"
-    ],
-    "kana": [
-      "kana",
-      "kanas",
-      "kanasal",
-      "mikanasal"
-    ],
-    "teko": [
-      "teko",
-      "tateko",
-      "tatekor",
-      "tatekoray"
-    ],
-    "felaw": [
-      "felaw",
-      "afelaw",
-      "safelaw",
-      "safelawen"
-    ],
-    "tafa": [
-      "tafa",
-      "tafad",
-      "tafaden",
-      "litafaden"
-    ],
-    "taha": [
-      "taha",
-      "tahad",
-      "tahadoy",
-      "citahadoy"
-    ],
-    "naw": [
-      "naw",
-      "nawir",
-      "nanawir",
-      "pananawir"
-    ],
-    "cofel": [
-      "cofel",
-      "acofel",
-      "'acofel",
-      "'acofelay"
-    ],
-    "fafa": [
-      "fafa",
-      "fafac",
-      "tofafac",
-      "mitofafac"
-    ],
-    "toda": [
-      "toda",
-      "todad",
-      "todadac",
-      "todadacen"
-    ],
-    "siwi": [
-      "siwi",
-      "siwil",
-      "masiwil",
-      "masiwilay"
-    ],
-    "onoh": [
-      "onoh",
-      "ponoh",
-      "daponoh",
-      "daponohay"
-    ],
-    "wani": [
-      "wani",
-      "waniw",
-      "niwaniw",
-      "miniwaniw"
-    ],
-    "ikor": [
-      "ikor",
-      "rikor",
-      "rikorar",
-      "rikoraren"
-    ],
-    "diko": [
-      "diko",
-      "dikoh",
-      "modikoh",
-      "samodikoh"
-    ],
-    "orira": [
-      "orira",
-      "torira",
-      "torirac",
-      "toriracsa"
-    ],
-    "elok": [
-      "elok",
-      "pelok",
-      "tipelok",
-      "tatipelok"
-    ],
-    "nika": [
-      "nika",
-      "nikar",
-      "monikar",
-      "monikaray"
-    ],
-    "fati": [
-      "fati",
-      "fatis",
-      "fatisaw",
-      "fatisawen"
-    ],
-    "tanga": [
-      "tanga",
-      "tangal",
-      "hitangal",
-      "mihitagal"
-    ],
-    "noka": [
-      "noka",
-      "nokas",
-      "nanokas",
-      "pananokas"
-    ],
-    "reko": [
-      "reko",
-      "mareko",
-      "mareko'",
-      "mareko'ay"
-    ],
-    "pala": [
-      "pala",
-      "palaw",
-      "lipalaw",
-      "malipalaw"
-    ],
-    "owa'": [
-      "owa'",
-      "towa'",
-      "fitowa'",
-      "fitowa'en"
+    "peco": [
+      "peco",
+      "pecoh",
+      "pipecoh",
+      "papipecoh",
+      "mipapipecoh",
+      "mipapipecohan"
     ],
     "kida": [
       "kida",
       "kidat",
       "sokidat",
-      "masokidat"
+      "pisokidat",
+      "sapisokidat",
+      "sapisokidataw"
     ],
-    "imec": [
-      "imec",
-      "'imec",
-      "'imecen",
-      "'a'imecen"
+    "lawa": [
+      "lawa",
+      "lawal",
+      "walawal",
+      "piwalawal",
+      "sapiwalawal",
+      "sapiwalawalaw"
     ],
-    "wara": [
-      "wara",
-      "waraw",
-      "warawar",
-      "mawarawar"
+    "tolo": [
+      "tolo",
+      "tolon",
+      "patolon",
+      "pipatolon",
+      "papipatolon",
+      "papipatolonen"
     ],
-    "aang": [
-      "aang",
-      "raang",
-      "feraang",
-      "saferaang"
+    "ta'i": [
+      "ta'i",
+      "ta'is",
+      "pata'is",
+      "pipata'is",
+      "sapipata'is",
+      "sapipata'isaw"
     ],
-    "aped": [
-      "aped",
-      "taped",
-      "tapedak",
-      "tapedakay"
+    "lefo": [
+      "lefo",
+      "lefod",
+      "palefod",
+      "pipalefod",
+      "sapipalefod",
+      "sapipalefodaw"
     ],
-    "tori": [
-      "tori",
-      "toris",
-      "torisiw",
-      "patorisiw"
+    "rana": [
+      "rana",
+      "ranam",
+      "karanam",
+      "sakaranam",
+      "misakaranam",
+      "misakaranamay"
     ],
-    "hada": [
-      "hada",
-      "hadak",
-      "mihadak",
-      "mihadakan"
+    "koni": [
+      "koni",
+      "konis",
+      "sakonis",
+      "pisakonis",
+      "sapisakonis",
+      "sapisakonisaw"
     ],
-    "fesi": [
-      "fesi",
-      "fesiw",
-      "tafesiw",
-      "tafesiwsa"
+    "kami": [
+      "kami",
+      "kamid",
+      "sakamid",
+      "pisakamid",
+      "sapisakamid",
+      "sapisakamidaw"
     ],
-    "cawa": [
-      "cawa",
-      "acawa",
-      "kacawas",
-      "sakacawas"
+    "fati": [
+      "fati",
+      "fatis",
+      "pafatis",
+      "pipafatis",
+      "sapipafatis",
+      "sapipafatisaw"
     ],
-    "'des": [
-      "'des",
-      "'edes",
-      "ca'edes",
-      "ca'edesay"
-    ],
-    "maan": [
-      "maan",
-      "simaan",
-      "asimaan",
-      "asimaanay"
-    ],
-    "kopi": [
-      "kopi",
-      "kopit",
-      "makopit",
-      "makopitay"
-    ],
-    "kasi": [
-      "kasi",
-      "kasid",
-      "cikasid",
-      "cikasiday"
-    ],
-    "liti": [
-      "liti",
-      "liti'",
-      "naliti'",
-      "minaliti'"
-    ],
-    "lima": [
-      "lima",
-      "limad",
-      "limadac",
-      "salimadac"
-    ],
-    "cedah": [
-      "cedah",
-      "acedah",
-      "kacedah",
-      "kacedahay"
-    ],
-    "kato": [
-      "kato",
-      "katop",
-      "katopih",
-      "pakatopih"
-    ],
-    "peco": [
-      "peco",
-      "peco'",
-      "mapeco'",
-      "mapeco'ay"
-    ],
-    "talo": [
-      "talo",
-      "talod",
-      "patalod",
-      "sapatarod"
-    ],
-    "wakay": [
-      "wakay",
-      "awakay",
-      "'awakay",
-      "'awakayen"
-    ],
-    "cepo": [
-      "cepo",
-      "cepo'",
-      "pacepo'",
-      "pacepo'an"
-    ],
-    "lisi": [
-      "lisi",
-      "lisin",
-      "ilisin",
-      "cilisinay"
-    ],
-    "kalo": [
-      "kalo",
-      "kalolo",
-      "mikalolo",
-      "mikalolol"
+    "tama": [
+      "tama",
+      "tama'",
+      "patama'",
+      "pipatama'",
+      "sapipatama'",
+      "sapipatama'aw"
     ],
     "tefo": [
       "tefo",
       "tefon",
       "satefon",
-      "misatefon"
+      "pisatefon",
+      "sapisatefon",
+      "sapisatefonaw"
     ],
-    "pasa": [
-      "pasa",
-      "pasasa",
-      "pipasasa",
-      "pipasasaan"
+    "tali": [
+      "tali",
+      "talip",
+      "citalip",
+      "kacitalip",
+      "sakacitalip",
+      "sakacitalipaw"
     ],
-    "etan": [
-      "etan",
-      "'etan",
-      "pi'etang",
-      "pi'etangan"
+    "kafi": [
+      "kafi",
+      "kafit",
+      "kakafit",
+      "pakakafit",
+      "pakakafitay",
+      "mipakakafitay"
     ],
-    "ngato": [
-      "ngato",
-      "lingato",
-      "alingato",
-      "alingatoen"
+    "holo": [
+      "holo",
+      "holol",
+      "piholol",
+      "papiholol",
+      "mipapiholol",
+      "mipapihololay"
     ],
-    "kaka": [
-      "kaka",
-      "lakaka",
-      "malakaka",
-      "malakakaay"
+    "lili": [
+      "lili",
+      "lilis",
+      "cililis",
+      "kacililis",
+      "sakacililis",
+      "sakacililisaw"
     ],
-    "mita": [
-      "mita",
-      "mita'ta",
-      "mita'ta'",
-      "mita'ta'ay"
+    "mare": [
+      "mare",
+      "marec",
+      "cimarec",
+      "kacimarec",
+      "sakacimarec",
+      "sakacimarecaw"
     ],
-    "'anin": [
-      "'anin",
-      "'aning",
-      "'aningen",
-      "'a'aningen"
+    "tafo": [
+      "tafo",
+      "tafok",
+      "tafokod",
+      "pitafokod",
+      "sapitafokod",
+      "sapitafokodaw"
     ],
-    "ofin": [
-      "ofin",
-      "yofin",
-      "yofing",
-      "pakayofing"
+    "ekim": [
+      "ekim",
+      "'ekim",
+      "ci'ekim",
+      "kaci'ekim",
+      "sakaci'ekim",
+      "sakaci'ekimaw"
+    ],
+    "kili": [
+      "kili",
+      "kilim",
+      "pikilim",
+      "papikilim",
+      "mipapikilim",
+      "mipapikiliman"
+    ],
+    "idek": [
+      "idek",
+      "cidek",
+      "lacidek",
+      "palacidek",
+      "palacidekay",
+      "mapalacidekay"
+    ],
+    "naya": [
+      "naya",
+      "nayar",
+      "panayar",
+      "pipanayar",
+      "sapipanayar",
+      "sapipanayaraw"
+    ],
+    "tala": [
+      "tala",
+      "talaw",
+      "patalaw",
+      "pipatalaw",
+      "sapipatalaw",
+      "sapipatalawaw"
+    ],
+    "komo": [
+      "komo",
+      "komod",
+      "pakomod",
+      "pipakomod",
+      "sapipakomod",
+      "sapipakomodaw"
+    ],
+    "rir": [
+      "rir",
+      "riri'",
+      "pariri'",
+      "pipariri'",
+      "sapipariri'",
+      "sapipariri'aw"
+    ],
+    "lisi": [
+      "lisi",
+      "lisin",
+      "salisin",
+      "pisalisin",
+      "sapisalisin",
+      "sapisalisinaw"
+    ],
+    "eked": [
+      "eked",
+      "teked",
+      "sateked",
+      "pisateked",
+      "sapisateked",
+      "sapisatekedaw"
+    ],
+    "kika": [
+      "kika",
+      "kikay",
+      "sakikay",
+      "pisakikay",
+      "sapisakikay",
+      "sapisakikayaw"
     ],
     "dada": [
       "dada",
       "adada",
-      "cadada",
-      "pisacadada"
+      "paadada",
+      "pipaadada",
+      "sapipaadada",
+      "sapipaadadaaw"
     ],
-    "kika": [
-      "kika",
-      "cokika",
-      "cokikang",
-      "macokikang"
+    "fiko": [
+      "fiko",
+      "fikod",
+      "hafikod",
+      "pihafikod",
+      "sapihafikod",
+      "sapihafikodaw"
     ],
-    "paro": [
-      "paro",
-      "parok",
-      "parokpok",
-      "maparokpok"
+    "'adi": [
+      "'adi",
+      "'adif",
+      "sa'adif",
+      "pisa'adif",
+      "sapisa'adif",
+      "sapisa'adifaw"
+    ],
+    "maha": [
+      "maha",
+      "mahad",
+      "cemahad",
+      "kacemahad",
+      "sakacemahad",
+      "sakacemahadaw"
+    ],
+    "dimat": [
+      "dimat",
+      "dimata",
+      "dimata'",
+      "pidimata'",
+      "sapidimata'",
+      "sapidimata'aw"
+    ],
+    "olah": [
+      "olah",
+      "kolah",
+      "kolahot",
+      "pikolahot",
+      "sapikolahot",
+      "sapikolahotaw"
+    ],
+    "atiw": [
+      "atiw",
+      "tatiw",
+      "citatiw",
+      "kacitatiw",
+      "sakacitatiw",
+      "sakacitatiwaw"
+    ],
+    "teka": [
+      "teka",
+      "teka'",
+      "pateka'",
+      "pipateka'",
+      "sapipateka'",
+      "sapipateka'aw"
+    ],
+    "wata": [
+      "wata",
+      "wataw",
+      "watawat",
+      "piwatawat",
+      "sapiwatawat",
+      "sapiwatawataw"
+    ],
+    "kota": [
+      "kota",
+      "kotay",
+      "pakotay",
+      "pipakotay",
+      "sapipakotay",
+      "sapipakotayaw"
+    ],
+    "kaho": [
+      "kaho",
+      "kahot",
+      "pakahot",
+      "pipakahot",
+      "sapipakahot",
+      "sapipakahotaw"
+    ],
+    "epah": [
+      "epah",
+      "^epah",
+      "sa^epah",
+      "pisa^epah",
+      "sapisa^epah",
+      "sapisa^epahaw"
+    ],
+    "kali": [
+      "kali",
+      "kalic",
+      "pakalic",
+      "pipakalic",
+      "sapipakalic",
+      "sapipakalicaw"
+    ],
+    "fola": [
+      "fola",
+      "folaw",
+      "pafolaw",
+      "pipafolaw",
+      "sapipafolaw",
+      "sapipafolawaw"
+    ],
+    "hada": [
+      "hada",
+      "hadak",
+      "pahadak",
+      "pipahadak",
+      "sapipahadak",
+      "sapipahadakaw"
+    ],
+    "coka": [
+      "coka",
+      "cokap",
+      "cicokap",
+      "kacicokap",
+      "sakacicokap",
+      "sakacicokapaw"
+    ],
+    "nga'": [
+      "nga'",
+      "sanga'",
+      "pisanga'",
+      "papisanga'",
+      "mipapisanga'",
+      "mipapisanga'ay"
+    ],
+    "aliki": [
+      "aliki",
+      "kaliki",
+      "sakaliki",
+      "pisakaliki",
+      "sapisakaliki",
+      "sapisakalikiaw"
+    ],
+    "palo": [
+      "palo",
+      "paloma",
+      "pipaloma",
+      "papipaloma",
+      "mapapipaloma",
+      "mapapipalomaay"
+    ],
+    "cefo": [
+      "cefo",
+      "cefong",
+      "pacefong",
+      "pipacefong",
+      "sapipacefong",
+      "sapipacefongaw"
+    ],
+    "yong": [
+      "yong",
+      "diyong",
+      "sadiyong",
+      "pisadiyong",
+      "sapisadiyong",
+      "sapisadiyongaw"
+    ],
+    "tado": [
+      "tado",
+      "patado",
+      "pipatado",
+      "papipatado",
+      "mipapipatado",
+      "mipapipatadoay"
+    ],
+    "feli": [
+      "feli",
+      "pafeli",
+      "pipafeli",
+      "papipafeli",
+      "papipafeliay",
+      "mapapipafeliay"
+    ],
+    "edeng": [
+      "edeng",
+      "cedeng",
+      "pacedeng",
+      "pipacedeng",
+      "sapipacedeng",
+      "sapipacedengaw"
+    ],
+    "amin": [
+      "amin",
+      "tamina",
+      "satamina",
+      "pisatamina",
+      "sapisatamina",
+      "sapisataminaaw"
+    ],
+    "adang": [
+      "adang",
+      "kadang",
+      "sakadang",
+      "pisakadang",
+      "sapisakadang",
+      "sapisakadangaw"
+    ],
+    "mata": [
+      "mata",
+      "matang",
+      "pamatang",
+      "pipamatang",
+      "sapipamatang",
+      "sapipamatangaw"
+    ],
+    "sala": [
+      "sala",
+      "salama",
+      "pisalama",
+      "papisalama",
+      "papisalamaen",
+      "papapisalamaen"
+    ],
+    "tapod": [
+      "tapod",
+      "tapodo",
+      "citapodo",
+      "kacitapodo",
+      "sakacitapodo",
+      "sakacitapodoaw"
+    ],
+    "tawa": [
+      "tawa",
+      "katawa",
+      "pakatawa",
+      "pipakatawa",
+      "sapipakatawa",
+      "sapipakatawaaw"
+    ],
+    "lasol": [
+      "lasol",
+      "ilasol",
+      "pailasol",
+      "pipailasol",
+      "sapipailasol",
+      "sapipailasolaw"
+    ],
+    "kaen": [
+      "kaen",
+      "pakaen",
+      "pipakaen",
+      "papipakaen",
+      "papipakaenay",
+      "mapapipakaenay"
     ],
     "lolo": [
       "lolo",
       "lolong",
       "'alolong",
-      "'alolongay"
+      "sa'alolong",
+      "masa'alolong",
+      "masa'alolongay"
     ],
-    "edeng": [
-      "edeng",
-      "'edeng",
-      "pa'edeng",
-      "mipa'edeng"
+    "cengo": [
+      "cengo",
+      "cengo'",
+      "cicengo'",
+      "kacicengo'",
+      "sakacicengo'",
+      "sakacicengo'aw"
     ],
-    "kara": [
-      "kara",
-      "karam",
-      "karamkam",
-      "karamkamen"
+    "ingki": [
+      "ingki",
+      "tingki",
+      "patingki",
+      "pipatingki",
+      "sapipatingki",
+      "sapipatingkiaw"
     ],
-    "eneng": [
-      "eneng",
-      "seneng",
-      "paseneng",
-      "sapaseneng"
+    "sata": [
+      "sata",
+      "pasata",
+      "pipasata",
+      "papipasata",
+      "papipasataen",
+      "papapipasataen"
+    ],
+    "dama": [
+      "dama",
+      "padama",
+      "pipadama",
+      "pipadamaan",
+      "sapipadamaan",
+      "sapipadamaanaw"
+    ],
+    "angah": [
+      "angah",
+      "mangah",
+      "samangah",
+      "pisamangah",
+      "sapisamangah",
+      "sapisamangahaw"
+    ],
+    "ta'o": [
+      "ta'o",
+      "fita'o",
+      "safita'o",
+      "pisafita'o",
+      "sapisafita'o",
+      "sapisafita'oaw"
+    ],
+    "kaka": [
+      "kaka",
+      "kakawa",
+      "likakawa",
+      "pilikakawa",
+      "sapilikakawa",
+      "sapilikakawaaw"
+    ],
+    "lido": [
+      "lido",
+      "lidong",
+      "palidong",
+      "pipalidong",
+      "sapipalidong",
+      "sapipalidongaw"
+    ],
+    "tiya": [
+      "tiya",
+      "hatiya",
+      "kihatiya",
+      "pikihatiya",
+      "sapikihatiya",
+      "sapikihatiyaaw"
+    ],
+    "'opo": [
+      "'opo",
+      "sa'opo",
+      "pasa'opo",
+      "pipasa'opo",
+      "sapipasa'opo",
+      "sapipasa'opoaw"
+    ],
+    "tanga": [
+      "tanga",
+      "tangal",
+      "fitangal",
+      "pifitangal",
+      "sapifitangal",
+      "sapifitangalaw"
     ],
     "anta'": [
       "anta'",
       "manta'",
       "simanta'",
-      "pisimanta'"
+      "pisimanta'",
+      "sapisimanta'",
+      "sapisimanta'aw"
     ],
-    "tiih": [
-      "tiih",
-      "latiih",
-      "talatiih",
-      "talatiihay"
+    "kero": [
+      "kero",
+      "sakero",
+      "pasakero",
+      "pipasakero",
+      "sapipasakero",
+      "sapipasakeroaw"
     ],
-    "sa": [
-      "sa",
-      "sanay",
-      "sanaysay",
-      "sanaysayen"
+    "tihi": [
+      "tihi",
+      "tatihi",
+      "satatihi",
+      "pisatatihi",
+      "sapisatatihi",
+      "sapisatatihiaw"
+    ],
+    "ilang": [
+      "ilang",
+      "kilang",
+      "sakilang",
+      "pisakilang",
+      "sapisakilang",
+      "sapisakilangaw"
+    ],
+    "teko": [
+      "teko",
+      "tateko",
+      "patateko",
+      "pipatateko",
+      "sapipatateko",
+      "sapipatatekoaw"
+    ],
+    "hala": [
+      "hala",
+      "halaka",
+      "sahalaka",
+      "pisahalaka",
+      "sapisahalaka",
+      "sapisahalakaaw"
+    ],
+    "pina": [
+      "pina",
+      "pinang",
+      "hapinang",
+      "pihapinang",
+      "sapihapinang",
+      "sapihapinangaw"
+    ],
+    "fa'i": [
+      "fa'i",
+      "fa'inay",
+      "cifa'inay",
+      "kacifa'inay",
+      "sakacifa'inay",
+      "sakacifa'inayaw"
+    ],
+    "sowal": [
+      "sowal",
+      "pasowal",
+      "pipasowal",
+      "papipasowal",
+      "mapapipasowal",
+      "mapapipasowalay"
+    ],
+    "cakat": [
+      "cakat",
+      "pacakat",
+      "pipacakat",
+      "papipacakat",
+      "mipapipacakat",
+      "mipapipacakatan"
+    ],
+    "sela'": [
+      "sela'",
+      "sasela'",
+      "pasasela'",
+      "pipasasela'",
+      "sapipasasela'",
+      "sapipasasela'aw"
+    ],
+    "hemay": [
+      "hemay",
+      "sahemay",
+      "pisahemay",
+      "papisahemay",
+      "papisahemayen",
+      "papapisahemayen"
+    ],
+    "'osi": [
+      "'osi",
+      "'osiyat",
+      "pi'osiyat",
+      "papi'osiyat",
+      "papi'osiyatay",
+      "mapapi'osiyatay"
+    ],
+    "koli": [
+      "koli",
+      "koliciw",
+      "sakoliciw",
+      "pisakoliciw",
+      "sapisakoliciw",
+      "sapisakoliciwaw"
+    ],
+    "fana'": [
+      "fana'",
+      "sifana'",
+      "pasifana'",
+      "pipasifana'",
+      "sapipasifana'",
+      "sapipasifana'aw"
+    ],
+    "sadak": [
+      "sadak",
+      "pasadak",
+      "pipasadak",
+      "papipasadak",
+      "papipasadakay",
+      "mapapipasadakay"
+    ],
+    "dawa": [
+      "dawa",
+      "fodawan",
+      "safodawan",
+      "pisafodawan",
+      "sapisafodawan",
+      "sapisafodawanaw"
+    ],
+    "corok": [
+      "corok",
+      "cacorok",
+      "pacacorok",
+      "pipacacorok",
+      "sapipacacorok",
+      "sapipacacorokaw"
+    ],
+    "dingo": [
+      "dingo",
+      "dadingo",
+      "sadadingo",
+      "pisadadingo",
+      "sapisadadingo",
+      "sapisadadingoaw"
+    ],
+    "cafay": [
+      "cafay",
+      "pacafay",
+      "pipacafay",
+      "papipacafay",
+      "mapapipacafay",
+      "mapapipacafayay"
+    ],
+    "liked": [
+      "liked",
+      "moliked",
+      "samoliked",
+      "pisamoliked",
+      "sapisamoliked",
+      "sapisamolikedaw"
+    ],
+    "comod": [
+      "comod",
+      "pacomod",
+      "pipacomod",
+      "papipacomod",
+      "mipapipacomod",
+      "mipapipacomodan"
+    ],
+    "falo": [
+      "falo",
+      "faloco'",
+      "cifaloco'",
+      "kacifaloco'",
+      "sakacifaloco'",
+      "sakacifaloco'aw"
+    ],
+    "sawad": [
+      "sawad",
+      "lasawad",
+      "palasawad",
+      "pipalasawad",
+      "sapipalasawad",
+      "sapipalasawadaw"
+    ],
+    "'ali": [
+      "'ali",
+      "'aliwac",
+      "pa'aliwac",
+      "pipa'aliwac",
+      "sapipa'aliwac",
+      "sapipa'aliwacaw"
+    ],
+    "taha": [
+      "taha",
+      "tahad",
+      "tahadoy",
+      "citahadoy",
+      "sakacitahadoy",
+      "sakacitahadoyaw"
+    ],
+    "so'ot": [
+      "so'ot",
+      "saso'ot",
+      "pasaso'ot",
+      "pipasaso'ot",
+      "sapipasaso'ot",
+      "sapipasaso'otaw"
+    ],
+    "aciya": [
+      "aciya",
+      "caciyaw",
+      "sacaciyaw",
+      "pisacaciyaw",
+      "sapisacaciyaw",
+      "sapisacaciyawaw"
+    ],
+    "lahok": [
+      "lahok",
+      "kalahok",
+      "sakalahok",
+      "pisakalahok",
+      "sapisakalahok",
+      "sapisakalahokaw"
+    ],
+    "rikat": [
+      "rikat",
+      "forikat",
+      "saforikat",
+      "pisaforikat",
+      "sapisaforikat",
+      "sapisaforikataw"
+    ],
+    "ramod": [
+      "ramod",
+      "raramod",
+      "hararamod",
+      "pihararamod",
+      "sapihararamod",
+      "sapihararamodaw"
+    ],
+    "naneng": [
+      "naneng",
+      "inaneng",
+      "sainaneng",
+      "pisainaneng",
+      "sapisainaneng",
+      "sapisainanengaw"
+    ],
+    "pered": [
+      "pered",
+      "sapered",
+      "pasapered",
+      "pipasapered",
+      "sapipasapered",
+      "sapipasaperedaw"
+    ],
+    "latek": [
+      "latek",
+      "olatek",
+      "saolatek",
+      "papisaolatek",
+      "mipapisaolatek",
+      "mipapisaolatekan"
+    ],
+    "kang": [
+      "kang",
+      "kangkang",
+      "sakangkang",
+      "pisakangkang",
+      "sapisakangkang",
+      "sapisakangkangaw"
+    ],
+    "todong": [
+      "todong",
+      "tatodong",
+      "patatodong",
+      "pipatatodong",
+      "sapipatatodong",
+      "sapipatatodongaw"
+    ],
+    "tamor": [
+      "tamor",
+      "tamorong",
+      "citamorong",
+      "kacitamorong",
+      "sakacitamorong",
+      "sakacitamorongaw"
+    ],
+    "awid": [
+      "awid",
+      "tawidwid",
+      "citawidwid",
+      "kacitawidwid",
+      "sakacitawidwid",
+      "sakacitawidwidaw"
     ]
   },
   "affixes": {
-    "i-": 61,
+    "i-": 60,
     "-w-": 1,
     "-f": 15,
     "-p": 17,
     "-l": 80,
     "-k": 61,
     "-r": 37,
-    "-a": 28,
-    "-n": 59,
-    "a-": 66,
+    "-a": 32,
+    "-n": 74,
+    "a-": 79,
     "-t": 65,
-    "-y": 74,
+    "-y": 82,
     "-'": 102,
     "--": 14,
     "-h": 60,
-    "-w": 85,
+    "-w": 86,
     "-s": 52,
     "-i": 23,
     "-o": 21,
     "-c": 60,
-    "na-": 70,
+    "na-": 124,
     "t-": 40,
-    "-an": 4792,
+    "-an": 4492,
     "-e-": 4,
-    "'-": 47,
-    "it-": 9,
+    "'-": 50,
     "-d": 76,
-    "ma-": 3642,
+    "ma-": 2961,
     "-m": 19,
-    "pi-": 1571,
-    "k-": 49,
+    "pi-": 1335,
+    "k-": 61,
     "-ac": 12,
-    "l-": 22,
+    "l-": 25,
     "f-": 23,
-    "-en": 5368,
-    "la-": 246,
+    "-en": 3524,
     "d-": 12,
-    "c-": 24,
+    "c-": 31,
     "r-": 11,
     "-g": 42,
     "-x": 5,
     "-yu": 1,
-    "p-": 29,
+    "p-": 43,
     "^-": 6,
-    "s-": 31,
+    "s-": 39,
     "-ek": 2,
-    "m-": 26,
-    "n-": 9,
+    "m-": 39,
+    "n-": 11,
     "-da": 2,
-    "ka-": 669,
     "-am": 2,
-    "sa-": 1630,
+    "sa-": 2481,
     "-ng": 85,
     "w-": 3,
-    "mi-": 4177,
+    "mi-": 2722,
     "-i'": 9,
+    "la-": 229,
     "-ak": 11,
     "-to": 5,
     "-ka": 4,
-    "-ay": 7318,
+    "-ay": 6909,
     "-ni": 3,
     "-om": 1,
-    "h-": 13,
+    "h-": 15,
     "-os": 8,
-    "ci-": 494,
+    "ci-": 288,
     "-ik": 4,
-    "-sa": 587,
+    "-sa": 596,
     "-yo": 3,
-    "-nay": 4,
-    "pa-": 2326,
+    "-nay": 5,
+    "pa-": 1604,
     "-ed": 10,
     "-or": 4,
     "-ma": 5,
     "-er": 2,
     "-es": 2,
-    "-aw": 2301,
+    "-aw": 2308,
     "y-": 3,
     "-ot": 7,
     "-^": 3,
@@ -1074,21 +1526,22 @@
     "u-": 1,
     "-ku": 4,
     "-ad": 3,
-    "-ho": 9,
-    "ca-": 220,
+    "-ho": 10,
+    "ca-": 209,
     "-'i": 1,
     "-'ik": 1,
-    "si-": 30,
+    "si-": 23,
     "-dis": 1,
+    "ka-": 792,
     "-ko": 7,
     "ti-": 12,
-    "li-": 66,
+    "li-": 46,
     "-lo": 5,
     "ya-": 9,
-    "'a-": 147,
-    "tah-": 10,
+    "'a-": 141,
+    "tah-": 6,
     "-kad": 2,
-    "fa-": 145,
+    "fa-": 142,
     "-tay-": 1,
     "ko-": 26,
     "fi-": 10,
@@ -1096,48 +1549,47 @@
     "-lis": 2,
     "-ki": 7,
     "co-": 12,
-    "ha-": 230,
+    "ha-": 226,
     "-si": 4,
-    "ta-": 413,
+    "ta-": 387,
     "-wa": 6,
     "-pa": 3,
-    "-han": 317,
+    "-han": 310,
     "te-": 2,
-    "ki-": 71,
+    "ki-": 49,
     "-ri": 3,
-    "ni-": 21,
+    "ni-": 26,
     "-la": 4,
     "-ti": 2,
     "-ya": 7,
     "-xo": 1,
     "-hi": 1,
-    "da-": 78,
-    "mo-": 64,
+    "da-": 74,
+    "mo-": 41,
     "-mo": 2,
     "-na": 2,
     "-di": 1,
     "-pil": 1,
-    "to-": 26,
+    "to-": 25,
     "'e-": 2,
-    "so-": 28,
+    "so-": 23,
     "'i-": 6,
     "-od": 9,
     "-ro": 1,
     "-im-": 1,
-    "-hay": 5,
-    "lo-": 15,
+    "-hay": 4,
+    "lo-": 14,
     "-pi": 2,
     "-in-": 5,
     "wa-": 26,
-    "pak-": 8,
-    "hi-": 22,
+    "hi-": 15,
     "-ken": 1,
     "ho-": 4,
     "-si'": 2,
     "fo-": 12,
     "ng-": 8,
     "po-": 5,
-    "-tata": 1,
+    "-ta": 6,
     "-get": 1,
     "-no": 3,
     "-kiw": 4,
@@ -1145,43 +1597,37 @@
     "me-": 1,
     "di-": 4,
     "-ih": 6,
-    "nan-": 4,
     "do-": 1,
     "-ca": 2,
     "se-": 2,
-    "-ta": 5,
     "-fi": 1,
     "-wi": 1,
-    "ai-": 8,
     "-fo": 4,
     "-ciw": 3,
     "ku-": 2,
     "-li": 4,
     "-iw": 10,
     "-po": 3,
-    "kan-": 4,
-    "mipa-": 728,
+    "mip-": 3,
     "-naw": 2,
     "-nan": 5,
     "an-": 2,
     "-'na": 1,
     "-om-": 21,
-    "ia-": 2,
     "-may": 3,
     "-fa": 3,
-    "-ic": 4,
+    "-ic": 3,
     "-wan": 6,
     "ad-": 1,
     "-ok": 1,
     "yo-": 1,
     "in-": 1,
-    "ri-": 13,
+    "ri-": 12,
     "-ong": 6,
     "pe-": 2,
     "-kas": 2,
     "-pay": 2,
-    "hali-": 74,
-    "kam-": 3,
+    "hali-": 41,
     "-had": 1,
     "awa-": 1,
     "nag-": 1,
@@ -1199,13 +1645,13 @@
     "-yra": 2,
     "-ing": 5,
     "-il": 7,
-    "pas-": 2,
+    "pas-": 10,
     "-mos": 1,
     "-ped": 1,
     "-yos": 2,
     "-met": 2,
     "-ar": 5,
-    "paka-": 319,
+    "paka-": 99,
     "-top": 1,
     "-yan": 5,
     "-oy": 3,
@@ -1221,25 +1667,23 @@
     "-hoy": 2,
     "-nem": 1,
     "-'ec": 1,
-    "pisa-": 290,
+    "pisa-": 47,
     "-oc": 3,
     "-lan": 4,
     "-fes": 2,
     "-ah": 1,
-    "ano-": 12,
+    "ano-": 15,
     "-rok": 2,
     "-kel": 1,
-    "ra-": 107,
+    "ra-": 105,
     "-mis": 1,
     "-faen": 1,
-    "le-": 3,
+    "le-": 4,
     "-fos": 2,
     "-al": 10,
     "ing-": 2,
     "-is": 5,
     "-tok": 2,
-    "misa-": 990,
-    "sapi-": 2422,
     "-neng": 2,
     "-noy": 1,
     "-as": 5,
@@ -1250,27 +1694,25 @@
     "kih-": 1,
     "-yoc": 1,
     "-wid": 3,
-    "ala-": 12,
     "-lod": 1,
     "pat-": 2,
     "ari-": 1,
-    "mas-": 2,
+    "mas-": 1,
     "-war": 1,
     "-dem": 1,
-    "-man": 4,
+    "-man": 3,
     "-'ac": 1,
     "cal-": 1,
     "-tid": 2,
     "-eli": 1,
     "-^ed": 1,
     "ce-": 3,
-    "kina-": 103,
-    "ro-": 10,
+    "ro-": 9,
+    "sapi-": 671,
     "ora-": 1,
     "-tan": 2,
     "-faw": 2,
     "-tal": 1,
-    "sapa-": 74,
     "-hak": 1,
     "-yas": 3,
     "liw-": 1,
@@ -1289,10 +1731,8 @@
     "-alo": 1,
     "-em-": 1,
     "-kih": 2,
-    "mala-": 200,
     "-dim": 1,
     "-da'": 2,
-    "pata-": 54,
     "-do'": 2,
     "-ker": 1,
     "-yac": 1,
@@ -1301,7 +1741,7 @@
     "-sta": 1,
     "sip-": 1,
     "-mec": 1,
-    "-'ay": 6,
+    "-'ay": 5,
     "aki-": 1,
     "kw-": 1,
     "-sik": 1,
@@ -1328,7 +1768,6 @@
     "-'if": 1,
     "-sam-": 1,
     "-'ol": 1,
-    "mika-": 77,
     "-lac": 1,
     "-tad": 1,
     "-waw": 2,
@@ -1361,17 +1800,15 @@
     "-…aw": 1,
     "-eloh": 2,
     "ci'-": 1,
-    "no-": 4,
+    "no-": 7,
     "-day": 1,
     "-pid": 1,
     "-ris": 1,
     "-pa'": 1,
     "-'an": 7,
     "-sya": 2,
-    "masa-": 586,
     "-nat": 1,
     "day-": 2,
-    "pala-": 103,
     "-fa-": 1,
     "-tiw": 1,
     "-o'": 2,
@@ -1381,13 +1818,13 @@
     "dah-": 1,
     "cih-": 1,
     "ciw-": 2,
+    "it-": 1,
     "-dep": 1,
     "-way": 1,
     "-'ok": 1,
     "-id": 4,
     "ang-": 1,
     "-ni'": 2,
-    "pasa-": 115,
     "-…sa": 1,
     "fah-": 1,
     "kay-": 1,
@@ -1395,8 +1832,7 @@
     "-daw": 2,
     "-wit": 1,
     "-yam": 1,
-    "raa-": 2,
-    "ina-": 1,
+    "raa-": 1,
     "-mir": 2,
     "-u": 1,
     "caa-": 1,
@@ -1406,12 +1842,9 @@
     "-it": 1,
     "-pel": 1,
     "-san": 3,
-    "-ayay": 2,
-    "papi-": 197,
     "san-": 1,
     "-co'": 1,
     "-con": 1,
-    "par-": 3,
     "-at": 1,
     "-on": 1,
     "-mal": 1,
@@ -1420,6 +1853,7 @@
     "wi-": 2,
     "ham-": 1,
     "-adem": 1,
+    "pasa-": 30,
     "hano-": 2,
     "-ket": 1,
     "-pis": 1,
@@ -1432,19 +1866,17 @@
     "-was": 1,
     "-wih": 1,
     "-rop": 1,
-    "'at-": 3,
+    "'at-": 2,
     "-sep": 1,
     "-wlo": 1,
-    "iha-": 2,
     "-'od": 1,
-    "halo-": 17,
+    "halo-": 8,
     "-epo": 1,
     "-ran": 1,
     "poh-": 1,
     "-kor": 1,
     "-hani": 1,
     "-kid": 1,
-    "-anay": 18,
     "-kar": 1,
     "-lic": 1,
     "'ad-": 1,
@@ -1454,14 +1886,15 @@
     "-amo": 1,
     "sar-": 1,
     "-sol": 1,
-    "saka-": 271,
+    "sak-": 4,
     "-saw": 1,
     "ol-": 1,
     "-caw": 1,
     "-liw": 1,
-    "tano-": 34,
+    "tano-": 15,
     "-car": 1,
-    "kin-": 1,
+    "pata-": 6,
+    "kin-": 3,
     "-mlo": 1,
     "coy-": 1,
     "-ina": 1,
@@ -1480,96 +1913,89 @@
     "-f^af": 1,
     "-'ian": 2,
     "saa-": 1,
-    "pako-": 19,
-    "pipa-": 473,
+    "pako-": 7,
     "hang-": 1,
     "-cima": 1,
     "-eta'": 1,
-    "pai-": 30,
-    "miha-": 55,
-    "tala-": 75,
-    "paha-": 24,
-    "-anan": 5,
-    "mali-": 55,
-    "cini-": 2,
+    "pai-": 11,
+    "mala-": 76,
+    "tala-": 32,
+    "saka-": 263,
+    "-anan": 2,
     "-ahsa": 1,
     "kalo-": 7,
-    "mata-": 64,
     "-waya": 1,
+    "miha-": 1,
+    "pala-": 19,
     "alo-": 2,
     "-kam": 1,
-    "maka-": 67,
     "-toan": 1,
-    "kala-": 74,
+    "kala-": 42,
     "-^eca": 1,
     "-kang": 2,
     "pay-": 1,
     "kok-": 1,
-    "hina-": 4,
-    "pasi-": 51,
+    "hina-": 3,
     "-pang": 1,
     "-wkiw": 1,
-    "maha-": 50,
-    "mapa-": 515,
-    "hama-": 1,
-    "maca-": 42,
     "ngo-": 3,
-    "mato-": 4,
-    "pasit-": 7,
+    "mato-": 2,
+    "mata-": 19,
+    "mipa-": 26,
     "-yang": 2,
     "-^emo": 2,
-    "mare-": 5,
+    "mare-": 2,
     "-nafa": 1,
     "-dan": 3,
     "-rih": 1,
     "kow-": 1,
     "-kani": 1,
     "-fak": 1,
-    "tada-": 15,
+    "tada-": 20,
     "-ngan": 2,
-    "kaci-": 97,
-    "ma'a-": 7,
+    "misa-": 135,
+    "kina-": 56,
+    "ma'a-": 4,
     "-'ko'": 2,
-    "malo-": 18,
+    "mapa-": 46,
+    "pasi-": 12,
+    "malo-": 12,
     "-mkam": 1,
     "-yaro": 1,
-    "hana-": 4,
+    "hana-": 3,
     "-^eli": 1,
     "-saho": 1,
     "-af-": 1,
     "-taay": 1,
     "dae-": 1,
-    "kaca-": 15,
-    "kara-": 92,
+    "maka-": 27,
+    "kara-": 48,
     "-ila'": 1,
-    "-nima": 4,
-    "nani-": 12,
+    "-nima": 1,
+    "nani-": 2,
+    "sapa-": 19,
     "-ced": 1,
     "ma'-": 1,
-    "kaha-": 7,
     "-nang": 1,
     "-dwad": 1,
     "-sret": 1,
     "-^efo": 2,
-    "katah-": 4,
-    "saha-": 20,
-    "kali-": 19,
-    "piha-": 38,
+    "nan-": 5,
     "pli-": 1,
     "-am-": 1,
-    "pisi-": 6,
+    "ala-": 8,
     "-^eta": 1,
     "-klis": 1,
     "-faki": 1,
     "-kiri": 1,
-    "mami-": 9,
+    "maca-": 11,
     "-iked": 1,
     "-fet": 1,
+    "kaca-": 6,
     "-klon": 1,
     "ma^-": 1,
     "-keng": 1,
     "-ecan": 1,
-    "ipa-": 2,
     "-dong": 1,
     "-'efo": 1,
     "tul-": 1,
@@ -1580,7 +2006,8 @@
     "kos-": 1,
     "cisi-": 1,
     "-'ka'": 2,
-    "hasa-": 9,
+    "hasa-": 5,
+    "kali-": 13,
     "-a'ot": 1,
     "-stol": 1,
     "-atec": 1,
@@ -1588,38 +2015,36 @@
     "-kat": 1,
     "ama-": 1,
     "-teng": 1,
-    "-moli": 4,
+    "-moli": 1,
     "tari-": 2,
-    "pakit-": 3,
+    "pak-": 2,
     "pong-": 2,
     "-pok": 1,
     "-faran": 1,
+    "mika-": 28,
     "riw-": 1,
-    "masi-": 8,
     "'afo-": 1,
     "akud-": 1,
     "-esi": 1,
-    "taha-": 75,
+    "taha-": 38,
     "-ala": 1,
     "ak-": 1,
-    "pila-": 8,
     "-aci": 2,
-    "haki-": 6,
+    "hak-": 2,
     "wang-": 1,
-    "kana-": 8,
-    "tatah-": 1,
+    "kana-": 3,
     "ong-": 1,
     "-'sa'": 1,
     "-onon": 1,
     "-wanan": 2,
     "-wfiw": 1,
     "-ktak": 1,
-    "-kasaan": 1,
+    "masa-": 128,
+    "-aan": 3,
     "fetf-": 1,
     "-ono": 1,
-    "-wiri": 3,
+    "-wiri": 1,
     "-iya": 1,
-    "noha-": 2,
     "pena-": 2,
     "-so": 2,
     "-kaya": 1,
@@ -1627,12 +2052,9 @@
     "-luya": 1,
     "-ktok": 1,
     "-noc": 1,
-    "mifo-": 1,
-    "mida-": 2,
+    "mida-": 1,
     "-ito": 1,
-    "mili-": 63,
-    "maso-": 6,
-    "mita-": 13,
+    "mita-": 2,
     "-isin": 1,
     "-oku": 1,
     "-ika": 1,
@@ -1648,145 +2070,124 @@
     "oyt-": 1,
     "-nger": 2,
     "kami-": 2,
-    "mahi-": 8,
     "-yday": 1,
     "-fii": 1,
-    "mama-": 7,
-    "hita-": 2,
     "-umi": 1,
     "kawa-": 2,
-    "pika-": 4,
+    "pika-": 1,
     "-efek": 1,
-    "miki-": 63,
-    "sama-": 14,
     "-mdac": 1,
     "-o^edo": 1,
-    "cika-": 8,
+    "cika-": 4,
     "say-": 1,
-    "-let": 2,
+    "-let": 1,
     "-ecen": 1,
     "-rang": 1,
-    "-wara": 7,
-    "-'ada": 5,
+    "-'ada": 3,
     "fara-": 1,
-    "-ira": 3,
-    "kasa-": 34,
+    "-ira": 2,
+    "maha-": 6,
     "-ela": 1,
     "-nono": 1,
     "-ngiw": 2,
     "al-": 2,
-    "iniy-": 2,
     "-cila": 1,
     "-kim": 1,
+    "kasa-": 26,
     "-tfit": 1,
     "-ga'": 1,
-    "laka-": 3,
-    "-apa": 3,
+    "laka-": 1,
+    "-apa": 1,
     "mifa-": 1,
     "-nciw": 1,
     "-'wa'": 1,
-    "mada-": 9,
     "taw-": 1,
-    "padi-": 3,
+    "padi-": 1,
     "-ocan": 1,
     "-htoh": 1,
     "-lat": 1,
     "-hang": 2,
     "-'ing": 1,
+    "kan-": 2,
+    "papi-": 28,
     "kae-": 1,
     "-enga": 1,
     "-sim": 2,
     "-ling": 4,
-    "cisa-": 14,
     "-kfok": 1,
     "-cing": 1,
     "-ngay": 4,
-    "tahat-": 1,
     "-sama": 1,
     "-faed": 1,
     "-groay": 1,
-    "pakat-": 3,
     "sini-": 1,
     "-efa": 1,
     "-wa'": 1,
     "-doki": 1,
-    "pili-": 22,
     "fali-": 2,
+    "pipa-": 21,
     "-roan": 1,
     "-skas": 1,
-    "mikit-": 1,
-    "kasi-": 4,
+    "mik-": 1,
     "da'-": 1,
-    "mila-": 9,
     "-cam": 1,
     "-'eng": 1,
-    "sali-": 6,
+    "sal-": 2,
     "-ngki": 1,
     "sai-": 2,
-    "ila-": 3,
     "kafe-": 1,
-    "piso-": 6,
     "-'ta'": 2,
     "kuw-": 1,
     "-gelac": 1,
     "-yaku": 1,
-    "cipa-": 4,
+    "cipa-": 1,
     "-'eki": 1,
-    "paca-": 16,
+    "paca-": 2,
     "-etip": 1,
-    "api-": 1,
-    "mia-": 1,
+    "mia-": 2,
     "-akom-": 1,
     "-ra": 1,
     "ata-": 1,
-    "pihi-": 6,
     "-ping": 1,
     "-'ki'": 1,
-    "pari-": 2,
+    "par-": 1,
     "fal-": 1,
-    "paa-": 3,
+    "mal-": 2,
     "-isis": 1,
     "-ngsa": 1,
-    "-awasa": 1,
+    "aw-": 1,
     "ongi-": 1,
-    "kiha-": 2,
     "sili-": 1,
-    "sina-": 5,
-    "i'a-": 2,
-    "isa-": 1,
+    "sina-": 4,
     "-msam": 1,
     "-'eka": 2,
-    "-roma": 8,
+    "-roma": 4,
     "'id-": 1,
     "-haen": 1,
     "-teka": 1,
-    "pali-": 37,
-    "mihi-": 12,
+    "pali-": 7,
     "-ykol": 1,
     "-ylec": 1,
+    "mili-": 8,
     "-cdac": 1,
     "-rir": 1,
     "'ng-": 1,
-    "misi-": 20,
-    "kari-": 5,
-    "-honi": 1,
+    "kari-": 4,
+    "hon-": 1,
     "os-": 1,
     "kiya-": 1,
     "-hanen": 1,
-    "miso-": 10,
     "-mad": 1,
     "-say": 2,
     "-tang": 1,
     "tamo-": 3,
     "-gsu": 1,
-    "-molo": 4,
+    "-molo": 1,
     "-rong": 1,
     "-scas": 1,
-    "cila-": 5,
     "hu-": 1,
     "sani-": 1,
     "way-": 1,
-    "salo-": 3,
     "-caho": 1,
     "moli-": 1,
     "-'a'm": 1,
@@ -1797,7 +2198,6 @@
     "-ef": 1,
     "-tepa": 1,
     "-fu": 1,
-    "-aan": 2,
     "-^ki'": 1,
     "-wang": 1,
     "-long": 1,
@@ -1810,53 +2210,50 @@
     "-pag": 1,
     "kace-": 1,
     "pati-": 3,
-    "para-": 14,
+    "para-": 5,
     "-medas": 1,
     "-'kiya": 1,
     "-olay": 1,
-    "tali-": 10,
+    "tali-": 7,
     "fafo-": 1,
     "sing-": 1,
-    "piki-": 31,
-    "sano-": 5,
-    "mina-": 4,
-    "pawa-": 3,
-    "talaa-": 2,
-    "mira-": 7,
+    "sano-": 3,
+    "mina-": 2,
+    "pawa-": 1,
+    "kaha-": 5,
+    "mira-": 3,
     "-mat": 1,
     "-cal": 1,
+    "misi-": 2,
     "-cedan": 1,
     "cin-": 1,
-    "kapi-": 7,
-    "papa-": 233,
+    "masi-": 1,
     "-loan": 1,
     "-wates": 2,
-    "paki-": 17,
+    "paki-": 4,
     "-da'ay": 2,
     "-aen": 1,
     "pina-": 11,
     "rare-": 1,
-    "maki-": 24,
     "ngih-": 1,
     "faf-": 1,
     "kimo-": 1,
     "dapo-": 1,
     "pi'-": 1,
-    "sakaci-": 432,
+    "piki-": 4,
     "-tidan": 1,
     "takoh-": 1,
     "pada-": 1,
     "-ratip": 1,
     "fadi-": 3,
-    "mipi-": 9,
+    "mali-": 14,
     "-^elif": 1,
-    "pira-": 6,
+    "pira-": 3,
     "-asip": 1,
-    "kadi-": 3,
+    "kadi-": 2,
     "-dokas": 1,
     "-a'an": 1,
-    "dafa-": 2,
-    "nipa-": 4,
+    "dafa-": 1,
     "-seret": 1,
     "-^enem": 1,
     "-cang": 2,
@@ -1867,94 +2264,90 @@
     "-cipac": 1,
     "sato-": 1,
     "-yalaw": 1,
+    "miki-": 8,
     "-kiyaw": 1,
     "-tenep": 1,
     "tapo-": 3,
-    "saki-": 4,
+    "saki-": 1,
     "-costa": 1,
     "tes-": 1,
+    "pari-": 1,
+    "mis-": 2,
     "-eko": 1,
     "-ksiya": 1,
     "tima-": 1,
+    "kaci-": 11,
     "-fako": 1,
     "-cip": 1,
-    "mafa-": 11,
-    "kada-": 6,
+    "mafa-": 3,
     "iro-": 1,
+    "mada-": 2,
     "-^enep": 1,
-    "mipo-": 3,
-    "pita-": 3,
+    "pita-": 1,
     "-simas": 1,
-    "kata-": 13,
-    "mipasa-": 28,
+    "kata-": 7,
+    "sali-": 5,
     "cede-": 1,
     "-li'": 3,
-    "kaka-": 13,
-    "hara-": 3,
+    "kaka-": 6,
     "-engac": 1,
     "-wa'iw": 1,
     "-ysiya": 1,
     "-elal": 1,
     "-^etec": 1,
-    "-alahan": 1,
     "-'olit": 1,
-    "sakam-": 2,
+    "pal-": 2,
+    "pili-": 5,
     "-amd-": 1,
     "-hfien": 1,
     "-o'co": 1,
-    "mapapi-": 84,
-    "palal-": 3,
+    "palal-": 1,
     "tako-": 4,
     "-ayan": 1,
     "-lot": 1,
-    "lali-": 6,
-    "sapis-": 2,
-    "sala-": 5,
+    "lali-": 2,
+    "sapis-": 3,
     "-aday": 1,
     "-eciw": 1,
     "rifo-": 1,
     "ngalo-": 1,
-    "anoha-": 2,
     "-kawad": 1,
     "-po'": 1,
     "saca-": 1,
     "aka-": 1,
     "-des": 1,
+    "paha-": 1,
     "caro-": 1,
-    "mipaka-": 116,
+    "tal-": 1,
     "palo-": 1,
     "-ailay": 1,
     "-co'co": 2,
     "sowa-": 1,
-    "sakoe-": 3,
+    "sakoe-": 1,
     "-toman": 3,
     "-yanan": 1,
     "tefa-": 1,
-    "pakata-": 6,
     "-ngdas": 1,
     "poe'l-": 1,
-    "mako-": 7,
+    "mako-": 5,
     "-^efit": 1,
     "'afa-": 1,
-    "kafa-": 2,
-    "anoma-": 2,
-    "imami-": 2,
+    "maki-": 3,
+    "sap-": 4,
     "-akit": 2,
     "-tomen": 1,
     "-mloan": 2,
-    "kamo-": 3,
-    "pi'a-": 5,
-    "kici-": 1,
-    "mara-": 17,
+    "kamo-": 1,
+    "pi'a-": 4,
+    "mara-": 8,
     "-riyal": 1,
     "pa'i-": 1,
     "tam-": 1,
     "-ides": 1,
-    "tadi-": 6,
+    "tadi-": 4,
     "isaka-": 1,
     "ping-": 1,
     "pahi-": 2,
-    "mipata-": 5,
     "fata-": 4,
     "-away": 1,
     "lalo-": 1,
@@ -1963,36 +2356,33 @@
     "fola-": 1,
     "-oday": 1,
     "-awan": 1,
-    "pafa-": 2,
-    "nano-": 8,
     "-^emel": 4,
     "-'koen": 1,
+    "nano-": 10,
     "'ama-": 1,
-    "-aren": 2,
+    "mama-": 2,
     "cado-": 1,
     "-emi'": 1,
     "-serep": 1,
+    "mila-": 1,
     "ta'-": 1,
     "-laday": 1,
-    "hasapa-": 4,
+    "kada-": 2,
     "-cen": 1,
     "ceca-": 1,
-    "talal-": 4,
+    "talal-": 1,
     "-ta'": 1,
-    "nama-": 2,
     "-lamlo": 2,
     "-fekes": 1,
-    "papo-": 3,
-    "mis-": 3,
     "nal-": 1,
     "nai…-": 1,
     "-…": 1,
     "-'emah": 1,
-    "paniy-": 4,
-    "hata-": 4,
+    "hata-": 2,
     "lo^e-": 1,
+    "kasi-": 1,
     "-apay": 1,
-    "temi-": 2,
+    "temi-": 1,
     "-elaw": 1,
     "pis-": 1,
     "-ekad": 2,
@@ -2001,15 +2391,12 @@
     "-cocay": 1,
     "haci-": 1,
     "kako-": 1,
-    "mipapi-": 148,
-    "sapisa-": 535,
     "nika-": 1,
     "-aciw": 1,
     "-sian": 1,
     "ming-": 1,
-    "miiko-": 3,
+    "miiko-": 1,
     "-fong": 1,
-    "pipapi-": 60,
     "poko-": 1,
     "sara-": 2,
     "-capos": 1,
@@ -2021,37 +2408,30 @@
     "-ngala": 1,
     "loma-": 1,
     "-kiyo'": 1,
-    "-yay": 1,
+    "cisa-": 3,
     "-^enoy": 1,
-    "kapa-": 5,
     "-so'ec": 1,
     "-to^em": 1,
     "-opoan": 1,
-    "talo-": 3,
-    "mikapi-": 2,
+    "talo-": 2,
     "-lik": 1,
     "-kesan": 1,
-    "kiri-": 4,
+    "kiri-": 2,
     "-ekac": 1,
     "-'koay": 1,
     "cif-": 1,
-    "mikam-": 1,
     "'ong-": 1,
-    "mapi-": 4,
     "-atan": 1,
     "mic-": 1,
     "-tiyor": 1,
     "-^iked": 2,
-    "tero-": 3,
-    "haka-": 8,
-    "mapo-": 2,
+    "tero-": 1,
+    "haka-": 2,
     "-paran": 1,
     "-dimay": 1,
-    "male-": 3,
     "calo-": 1,
     "mikata-": 1,
     "-namec": 1,
-    "leka-": 1,
     "-kahfi": 1,
     "kopi-": 1,
     "-ked": 2,
@@ -2062,14 +2442,12 @@
     "-teraw": 1,
     "'aro-": 3,
     "-anc-": 1,
-    "napi-": 34,
-    "alami-": 4,
     "-feloh": 1,
-    "cisapa-": 2,
     "tela-": 1,
+    "mami-": 2,
     "adi-": 1,
     "-sip": 1,
-    "saso-": 6,
+    "saso-": 3,
     "kano-": 1,
     "fohe-": 1,
     "da'e-": 1,
@@ -2077,31 +2455,25 @@
     "-faled": 1,
     "min-": 1,
     "-mocok": 1,
-    "sata-": 10,
-    "kai-": 1,
+    "sata-": 2,
     "-ngfo": 1,
     "-olaw": 1,
-    "mapaka-": 72,
     "-^eka'": 1,
-    "pakam-": 3,
-    "inaha-": 1,
+    "ina-": 1,
     "faca-": 3,
-    "nisa-": 4,
+    "nisa-": 2,
     "pa'a-": 1,
     "dadi-": 1,
     "fala-": 2,
     "-okay": 1,
-    "pasia-": 3,
     "-esis": 1,
-    "-icay": 1,
-    "-asaan": 1,
+    "nasaa-": 1,
     "-fo^fo": 1,
     "-'itay": 1,
-    "sapipa-": 463,
     "-tini": 1,
     "hado-": 1,
     "-futi'": 1,
-    "maro-": 2,
+    "maro-": 1,
     "-ra'ac": 1,
     "-asay": 1,
     "-cidoc": 1,
@@ -2118,22 +2490,16 @@
     "-co": 1,
     "-l'olan": 1,
     "-^eto": 1,
-    "misata-": 14,
-    "sapiha-": 34,
-    "sal-": 1,
-    "-fola": 4,
+    "-fola": 2,
     "dad-": 1,
     "rar-": 1,
     "-ger": 1,
-    "sami-": 2,
     "-ta'ta'": 1,
     "wida-": 1,
     "-nik": 1,
-    "-kimay": 1,
     "-konosa": 1,
     "-engay": 1,
     "-maylay": 1,
-    "-cimaan": 1,
     "pacae-": 1,
     "mar-": 1,
     "saako-": 1,
@@ -2141,131 +2507,92 @@
     "sapi^-": 1,
     "-kong": 1,
     "-mincyo": 1,
-    "-cinga": 4,
-    "masata-": 4,
+    "-cinga": 1,
     "-wali": 1,
-    "pipasa-": 14,
     "-ngen": 1,
-    "makiha-": 2,
+    "mapi-": 1,
     "taypu-": 1,
     "-kleden": 1,
-    "halipa-": 9,
+    "halipa-": 2,
     "'apa-": 1,
-    "sapihi-": 9,
     "-aran": 1,
     "nak-": 1,
     "-li^eki": 1,
-    "-cilaen": 1,
     "maka'-": 1,
-    "kacipa-": 1,
-    "sasa-": 42,
+    "kapi-": 1,
     "-pecpec": 1,
-    "sapasi-": 1,
-    "macaca-": 2,
+    "macaca-": 1,
     "saling-": 1,
-    "sapaka-": 2,
+    "salo-": 2,
     "-rohosa": 1,
-    "kasasi-": 2,
-    "malali-": 3,
+    "malali-": 1,
     "-seka": 1,
     "-afo'": 1,
     "-o'ong": 1,
-    "sakina-": 12,
-    "mapala-": 16,
     "-emohsa": 2,
     "-raden": 1,
-    "-anho": 1,
     "-caypan": 2,
-    "-honien": 1,
     "-ngalil": 1,
-    "katala-": 4,
+    "katala-": 2,
     "ringa-": 1,
-    "kalasi-": 3,
     "-tofong": 1,
-    "makaka-": 9,
-    "papipa-": 51,
     "-tamaay": 1,
     "mod-": 1,
     "-ninaay": 1,
-    "tadasa-": 3,
-    "imali-": 1,
-    "masasi-": 24,
     "-ako": 1,
     "pato-": 1,
     "-masmas": 1,
     "-ayr-": 1,
     "-dadi'o": 1,
-    "mapai-": 12,
     "-ngad": 1,
     "-rikeda": 1,
-    "sakasa-": 2,
     "-alan": 1,
     "-wsiwsa": 1,
-    "-peno": 2,
+    "-peno": 1,
     "-ngcomi": 1,
     "nga-": 37,
     "-xkax": 1,
     "micae-": 1,
-    "tapa-": 1,
     "tara-": 1,
     "-hcid": 1,
-    "mipai-": 19,
-    "manga-": 8,
-    "masama-": 2,
+    "manga-": 4,
     "-cad": 1,
-    "pikiha-": 2,
-    "pipaka-": 14,
     "re-": 1,
-    "-palo": 4,
+    "-palo": 2,
     "-…tala…": 1,
-    "haha-": 22,
     "-wkiyaw": 1,
-    "-meten": 1,
-    "-molosa": 2,
     "-daya": 1,
     "-ocen": 1,
-    "sapisi-": 12,
     "kafoh-": 1,
     "-minciw": 1,
-    "malaka-": 5,
-    "-warasa": 2,
-    "-leko": 2,
+    "-leko": 1,
     "taka-": 1,
     "-fali": 2,
-    "pakinah-": 3,
+    "sapisa-": 39,
+    "pakinah-": 1,
     "-nghing": 1,
     "-foh": 1,
-    "-meli": 2,
-    "sapita-": 9,
-    "satada-": 3,
+    "-meli": 1,
+    "sapita-": 1,
     "-kakkak": 1,
-    "mapasi-": 8,
     "-ohana": 1,
-    "kaki-": 13,
-    "sakapa-": 2,
+    "kaki-": 2,
     "-solen": 1,
     "caco'-": 1,
     "-^xiw": 1,
-    "-tawa": 3,
     "-kyok": 1,
-    "sakala-": 13,
-    "-'osi": 3,
+    "miso-": 1,
+    "-'osi": 1,
     "mimi-": 1,
     "-cngac": 1,
     "-tihi": 1,
     "-ting": 1,
-    "mikala-": 12,
+    "mikala-": 3,
     "-temok": 1,
     "-ngaw": 1,
     "yudu-": 1,
-    "kahenan-": 1,
-    "hasaka-": 2,
-    "pipai-": 12,
+    "kahe-": 1,
     "-'soi": 1,
-    "sapila-": 6,
-    "mase-": 2,
-    "lala-": 2,
-    "makali-": 3,
     "-cikroh": 1,
     "-ngawan": 1,
     "cango-": 1,
@@ -2274,65 +2601,50 @@
     "-piko": 1,
     "-emah": 1,
     "cari-": 1,
-    "pakana-": 4,
     "-wangay": 2,
-    "sakatah-": 1,
     "hafa-": 1,
     "-leng": 1,
-    "sapiki-": 30,
+    "sapik-": 1,
     "-dinto": 1,
     "-afo": 1,
-    "pisata-": 2,
-    "masaka-": 24,
-    "-misi": 2,
-    "caci-": 1,
-    "sakasi-": 1,
+    "-misi": 1,
     "-ynay": 1,
     "-o'co'": 1,
-    "sasi-": 2,
-    "sapiso-": 6,
     "-ey": 1,
+    "sakala-": 1,
     "-kkak": 2,
     "-^efa": 1,
-    "-po'o": 2,
-    "-coli": 2,
+    "-po'o": 1,
+    "-coli": 1,
     "-naikol": 1,
     "-kuli": 1,
     "-kolian": 1,
-    "-firo": 3,
+    "-firo": 1,
     "-foran": 1,
-    "-metay": 1,
+    "sapiha-": 2,
     "sa'e-": 2,
-    "sak-": 1,
-    "sapili-": 41,
     "-pina": 2,
-    "pasasi-": 10,
-    "-tiya": 3,
+    "mapai-": 1,
+    "sasa-": 5,
+    "-tiya": 1,
     "mi'a-": 1,
     "-etim": 1,
     "pasife-": 1,
-    "misapa-": 6,
+    "misapa-": 2,
     "-porang": 1,
-    "-apasa": 1,
-    "kahanan-": 1,
-    "mapasa-": 16,
+    "masasi-": 11,
     "-angay": 1,
     "-klokay": 1,
-    "papisa-": 29,
     "tadim-": 1,
-    "misaka-": 12,
-    "malata-": 3,
-    "mifi-": 3,
     "-hengan": 1,
-    "haca-": 3,
+    "haca-": 1,
     "-paynay": 1,
-    "mipasi-": 11,
+    "pila-": 1,
     "minin-": 1,
     "wikip-": 1,
     "-khokay": 1,
     "caka^-": 1,
     "-kiyang": 1,
-    "-iraen": 1,
     "'ari-": 1,
     "kaliw-": 1,
     "-filo": 1,
@@ -2340,293 +2652,223 @@
     "-masing": 1,
     "-dongac": 1,
     "-…taha…": 1,
-    "ikai-": 1,
     "-lingan": 1,
-    "-teposa": 2,
+    "sama-": 1,
+    "tepo-": 2,
     "talafe-": 1,
-    "sakama-": 5,
-    "masaha-": 6,
+    "maso-": 1,
+    "sasi-": 1,
+    "piso-": 1,
     "-ci'dil": 1,
-    "pakasa-": 3,
-    "milaki-": 2,
-    "-'alo": 2,
+    "milaki-": 1,
+    "-'alo": 1,
     "-^efeng": 1,
-    "naka-": 8,
     "-feriw": 1,
-    "-kala": 3,
-    "apipa-": 1,
-    "-wirisa": 1,
+    "api-": 1,
     "sayfan-": 1,
     "-mangaw": 1,
-    "-ayen": 2,
-    "pisaka-": 6,
-    "-cada": 2,
+    "-cada": 1,
+    "cila-": 1,
     "-aonay": 1,
     "-meleng": 1,
-    "cipadi-": 2,
-    "mapali-": 1,
-    "-talaen": 1,
     "kak-": 1,
     "-ngting": 1,
     "-oyos": 1,
-    "nala-": 2,
+    "male-": 1,
+    "-aren": 1,
+    "nala-": 1,
     "-afoh": 1,
     "-kili": 1,
     "-ohawa": 1,
     "-acaay": 1,
-    "mikaha-": 3,
-    "masala-": 5,
-    "makota-": 2,
-    "sapapi-": 1,
+    "sakaci-": 19,
+    "makota-": 1,
     "-'emer": 1,
-    "sipaso-": 2,
-    "pipara-": 6,
-    "misaha-": 6,
-    "sapira-": 2,
-    "saliya-": 3,
+    "sipaso-": 1,
+    "pisi-": 1,
+    "haha-": 3,
+    "saliya-": 2,
     "wawa-": 1,
     "-den": 1,
     "lari-": 1,
-    "rosoli-": 2,
-    "kasaso-": 1,
-    "sakada-": 2,
-    "pipasi-": 6,
-    "pisada-": 2,
-    "mitala-": 3,
-    "mapara-": 6,
-    "samowa-": 3,
-    "sapali-": 1,
-    "mana-": 3,
-    "manin-": 1,
+    "rosoli-": 1,
+    "samowa-": 1,
+    "mani-": 1,
     "seri-": 1,
     "katimo-": 1,
     "-hekelsa": 1,
     "kakafi-": 1,
-    "patala-": 20,
     "-lamloan": 1,
-    "satiko-": 3,
-    "mipatal-": 3,
-    "makasi-": 2,
-    "sa'isa-": 2,
-    "mipakam-": 3,
-    "sakimo-": 2,
-    "-mil": 2,
+    "satiko-": 1,
+    "mipatal-": 1,
+    "makasi-": 1,
+    "sa'isa-": 1,
+    "napi-": 9,
+    "-mil": 1,
     "cefo-": 1,
     "-kiyawan": 1,
     "cacali-": 1,
     "misa'a-": 1,
-    "mikona-": 3,
+    "mikona-": 1,
     "lawile-": 1,
     "-apohen": 1,
-    "hamama-": 3,
-    "sakila-": 1,
-    "pisala-": 2,
+    "hama-": 3,
     "-kucok": 1,
-    "mahata-": 2,
-    "makaha-": 2,
-    "masaso-": 5,
+    "sapipa-": 6,
     "^eli-": 1,
-    "satiyo-": 3,
-    "hasapi-": 1,
-    "mikali-": 3,
-    "mipala-": 21,
+    "satiyo-": 1,
+    "sapila-": 1,
     "kanala-": 1,
     "-aysa": 1,
     "-trotrok": 1,
     "heno-": 1,
-    "pipaca-": 2,
     "sadefa-": 1,
-    "misano-": 6,
-    "misaira-": 3,
+    "misaira-": 1,
+    "papa-": 8,
     "-aksa": 1,
-    "safoki-": 2,
+    "safoki-": 1,
     "lapo-": 1,
     "-ekal": 1,
-    "sapipasa-": 20,
+    "pipasi-": 1,
     "kera-": 1,
-    "pipala-": 12,
     "-okok": 1,
     "-itang": 1,
     "'ice-": 1,
-    "sadema-": 2,
+    "sadema-": 1,
     "ngero-": 1,
     "kalat-": 1,
-    "hani-": 2,
-    "pikali-": 2,
-    "mikasa-": 3,
-    "masara-": 2,
-    "saraka-": 3,
-    "tepo-": 1,
-    "lao-": 1,
+    "hani-": 1,
+    "saraka-": 1,
     "paloha-": 1,
-    "matali-": 2,
+    "matali-": 1,
     "karo-": 3,
-    "matatoo-": 2,
-    "pasata-": 4,
-    "caca-": 1,
-    "kacisa-": 1,
+    "matatoo-": 1,
     "-^en": 1,
-    "talimaa-": 2,
-    "satori-": 3,
-    "malosapa-": 2,
+    "satori-": 1,
     "koka-": 1,
-    "sapala-": 4,
-    "mikono-": 3,
-    "satowi-": 4,
+    "mikono-": 1,
+    "satowi-": 3,
     "cacoro-": 1,
-    "napaka-": 2,
-    "mapapa-": 5,
-    "maliya-": 2,
+    "maliya-": 1,
     "-ci'ci": 1,
-    "satefi-": 3,
-    "sawice-": 3,
-    "pakina-": 4,
-    "pihara-": 2,
-    "pihata-": 2,
-    "tadala-": 1,
+    "satefi-": 1,
+    "sawice-": 1,
     "safaha-": 1,
     "mingo-": 1,
+    "papipa-": 2,
     "kar-": 2,
     "-ecay": 1,
-    "sacako-": 2,
-    "sakapi-": 5,
+    "sacako-": 1,
     "toko-": 1,
-    "la'afa-": 2,
+    "la'afa-": 1,
     "-ha": 1,
-    "sahane-": 3,
+    "sahane-": 1,
     "-ko^edaw": 2,
     "cilala-": 1,
     "sa'ema-": 1,
-    "kalimaa-": 1,
-    "papata-": 2,
+    "mapaka-": 2,
+    "papata-": 1,
     "pik-": 1,
     "-ofan": 1,
     "kakawi-": 1,
-    "mapakam-": 2,
-    "misala-": 4,
+    "naka-": 3,
     "lalife-": 1,
     "saira-": 1,
     "sapike-": 1,
-    "hala-": 1,
-    "makona-": 2,
-    "mikaci-": 5,
+    "makona-": 1,
     "-^edah": 1,
-    "pacide-": 2,
-    "pisaha-": 2,
+    "makaka-": 2,
+    "pacide-": 1,
     "fafali-": 1,
+    "masas-": 1,
     "toro-": 1,
-    "miciri-": 3,
-    "pahata-": 3,
-    "satiri-": 3,
-    "matala-": 2,
-    "cida-": 2,
+    "miciri-": 1,
+    "satiri-": 1,
     "-na^enem": 1,
     "tanoka-": 2,
     "-mi'a-": 1,
-    "papipata-": 6,
-    "hahi-": 1,
-    "mikasi-": 2,
-    "tanosa-": 2,
+    "nama-": 1,
+    "mikasi-": 1,
     "-ciinafa": 1,
     "pasaso-": 2,
-    "malasa-": 2,
+    "misata-": 3,
     "sakoo-": 1,
-    "mahara-": 2,
     "tono-": 1,
-    "mapata-": 4,
     "-a'elal": 1,
     "iki-": 1,
-    "mahita-": 2,
+    "mahita-": 1,
     "-songla'": 1,
+    "pasas-": 1,
     "liyo-": 1,
-    "noka-": 1,
     "folo-": 1,
     "-ta^elif": 2,
-    "-ikel": 2,
-    "maciri-": 2,
-    "mahaka-": 1,
+    "-ikel": 1,
+    "maciri-": 1,
     "ngala-": 1,
-    "nami-": 2,
-    "-ansa": 4,
+    "-ansa": 2,
     "keri-": 1,
-    "masapa-": 3,
-    "-kapahan": 1,
-    "dadi'e-": 2,
-    "nasa-": 1,
-    "satali-": 3,
-    "sakara-": 2,
+    "patala-": 4,
+    "masapa-": 2,
+    "kapa-": 2,
+    "dadi'e-": 1,
+    "masaso-": 3,
+    "satali-": 1,
+    "sakapi-": 1,
     "miya-": 1,
     "faya-": 1,
     "-pong": 1,
     "sangol-": 1,
     "losa-": 1,
-    "safa-": 2,
+    "safa-": 1,
     "mapsife-": 1,
     "-'eda-": 1,
     "ciya-": 1,
     "-^eloh": 2,
-    "sapi'i-": 3,
+    "sapi'i-": 1,
     "-iyaran": 1,
     "-si^edil": 1,
     "deme-": 1,
-    "mipara-": 7,
     "parong-": 1,
     "-tawi'an": 1,
-    "mihata-": 3,
     "kasori-": 1,
-    "pakaki-": 3,
-    "pipakam-": 2,
-    "maheka-": 2,
-    "papapi-": 35,
-    "samena-": 3,
-    "sapipo-": 2,
-    "sacena-": 2,
+    "maheka-": 1,
+    "samena-": 1,
+    "sacena-": 1,
     "kucu-": 1,
     "mitali-": 1,
     "kacica-": 1,
-    "misafa-": 3,
-    "samiya-": 3,
+    "samiya-": 1,
     "-cor": 1,
     "ka'eti-": 1,
-    "pasila-": 3,
     "coro-": 1,
     "hapi-": 1,
-    "mipaca-": 2,
     "-wanay": 1,
     "-ekelan": 1,
     "-sa^elet": 1,
     "heli-": 1,
     "-lino-": 1,
     "-totsa": 1,
-    "teka-": 1,
     "ka'ami-": 1,
     "dema-": 1,
     "karipo-": 1,
     "loto-": 1,
-    "sa'ika-": 2,
-    "safeli-": 6,
-    "misakoe-": 3,
+    "sa'ika-": 1,
+    "safeli-": 3,
     "mahofo-": 1,
     "tatoo-": 1,
-    "sapero-": 3,
+    "sapili-": 4,
+    "sapero-": 1,
     "-asong": 1,
     "-kos": 1,
-    "niyaniy-": 1,
-    "la'isa-": 2,
-    "satako-": 4,
-    "sacika-": 3,
+    "niya-": 1,
+    "la'isa-": 1,
+    "satako-": 1,
     "-si^iked": 1,
-    "sarimo-": 3,
-    "sakili-": 2,
-    "pararaa-": 3,
-    "mapaca-": 2,
-    "kalomaa-": 1,
-    "sakapo-": 2,
-    "pisapa-": 2,
-    "taro-": 1,
-    "tahi-": 1,
-    "namara-": 1,
-    "pitala-": 2,
+    "sarimo-": 1,
+    "sakili-": 1,
+    "sakapo-": 1,
+    "pisapa-": 1,
+    "mipaka-": 1,
     "lak-": 1,
     "-atay": 1,
     "-rimocos": 1,
@@ -2635,772 +2877,422 @@
     "-amis": 1,
     "keli-": 2,
     "tepi-": 1,
-    "samela-": 3,
-    "papaka-": 3,
-    "nakam-": 1,
-    "masano-": 4,
+    "samela-": 1,
     "-pace-": 1,
     "-krihsa": 1,
-    "makara-": 4,
+    "makara-": 1,
     "-hir": 1,
     "-raronng": 1,
     "paf-": 1,
     "mah-": 1,
     "pifa-": 1,
     "-kirsa": 1,
-    "pisaene-": 2,
-    "-sekaen": 1,
-    "-waraen": 1,
-    "-'osisa": 1,
-    "papai-": 6,
+    "pisaene-": 1,
     "-kepa": 3,
     "papafah-": 1,
     "saene-": 3,
     "-ecakan": 1,
-    "sasali-": 1,
     "alapeka-": 1,
     "pakenah-": 1,
-    "sa'iko-": 2,
+    "sa'iko-": 1,
     "-'atingay": 1,
-    "satawi-": 3,
+    "satawi-": 1,
     "alapata-": 1,
-    "alalaso-": 2,
-    "napipa-": 7,
-    "alatele-": 2,
-    "alateke-": 2,
-    "-nimaen": 1,
-    "paifata-": 3,
-    "sapika-": 2,
+    "alalaso-": 1,
+    "alatele-": 1,
+    "alateke-": 1,
     "-ahaw": 1,
     "sisi-": 1,
     "kila-": 1,
-    "-pinaay": 1,
-    "sapisapa-": 2,
-    "-moloen": 1,
-    "kakina-": 6,
-    "sapipada-": 2,
-    "-akoan": 1,
+    "sapisapa-": 1,
     "lite-": 1,
     "pakika-": 1,
-    "alanini-": 3,
-    "-firoen": 1,
-    "sapisata-": 6,
-    "-penosa": 1,
+    "alanini-": 1,
     "-faan": 1,
-    "mapapipa-": 28,
-    "pisalo-": 2,
     "-towissa": 1,
-    "-tepasa": 1,
     "cale-": 1,
-    "-sekaay": 1,
     "caka-": 1,
-    "-romasa": 1,
-    "pipapipa-": 6,
     "-^eco": 1,
-    "alaceke-": 2,
-    "-nimaay": 2,
+    "alaceke-": 1,
     "sakata-": 2,
-    "-po'osa": 1,
     "-'afo": 1,
     "-nohir": 1,
     "sahefo-": 1,
-    "-kalaen": 1,
-    "sapipai-": 12,
+    "mana-": 1,
     "-kericsa": 1,
-    "-'alosa": 1,
-    "-tawaen": 1,
-    "papasi-": 4,
     "kori-": 1,
-    "mipatala-": 11,
-    "mipapipa-": 35,
     "-ngata": 1,
     "ala'ene-": 1,
-    "-firosa": 1,
     "kiy-": 1,
-    "alanoka-": 2,
-    "masasa-": 2,
+    "alanoka-": 1,
     "misako-": 1,
     "-'am'am": 1,
-    "itoko-": 1,
-    "-temoksa": 1,
     "kere-": 1,
     "-do^edo": 1,
     "-hecaan": 1,
-    "-lekoen": 1,
-    "-lasotsa": 1,
-    "-akoay": 1,
+    "lasot-": 1,
     "kakiti-": 1,
-    "karasa-": 2,
-    "sakacisa-": 8,
     "-'api": 1,
-    "-nimasa": 1,
     "-tepihan": 1,
-    "-kepasa": 1,
-    "-powarsa": 1,
+    "sakepa-": 1,
+    "powar-": 1,
     "-reko": 1,
     "misaama-": 1,
-    "pakaha-": 3,
     "-liyonsa": 1,
-    "sapilika-": 2,
-    "-melien": 1,
-    "-penoen": 1,
-    "misalo-": 3,
+    "sapilika-": 1,
     "'adi-": 1,
-    "palano-": 3,
+    "palano-": 1,
     "-canoor": 1,
-    "masaene-": 2,
-    "matari-": 2,
+    "masaene-": 1,
+    "matari-": 1,
+    "sala-": 1,
     "-wina": 1,
-    "mikatada-": 1,
     "-ta'dip": 1,
     "-ngatasa": 1,
-    "masalo-": 2,
-    "sapipaka-": 17,
     "-'angi": 1,
     "aa-": 1,
     "-ylayen": 1,
     "-kama": 2,
-    "-tomessa": 1,
-    "sa'iri-": 3,
+    "tomes-": 1,
+    "sa'iri-": 1,
     "-walian": 1,
-    "milaka-": 1,
-    "miapisa-": 1,
     "alasada-": 1,
-    "-'adaen": 1,
+    "pasasi-": 1,
     "-ycaysa": 1,
     "pisasi-": 1,
-    "sa'ako-": 2,
-    "-ngodo": 3,
-    "papasa-": 7,
-    "alacoko-": 3,
+    "sa'ako-": 1,
+    "-ngodo": 1,
+    "alacoko-": 1,
     "sakac-": 1,
     "-'iwi": 1,
-    "alasolo-": 3,
-    "-melisa": 1,
-    "-liti": 4,
+    "alasolo-": 1,
+    "-liti": 1,
     "-rate-": 1,
-    "sapipasi-": 8,
-    "kahina-": 1,
-    "alapatoo-": 2,
-    "mikeli-": 3,
-    "-katsa": 1,
-    "sapikiha-": 2,
-    "-tefodsa": 1,
-    "-lita": 2,
-    "masami-": 2,
+    "alapatoo-": 1,
+    "mikeli-": 1,
+    "tefod-": 1,
+    "-lita": 1,
     "-cefo'sa": 1,
     "-penaysa": 1,
     "-ki'oki'o": 1,
-    "satire-": 3,
-    "sapisaka-": 10,
+    "satire-": 1,
     "pisako-": 1,
-    "-molien": 1,
     "-a'ta'sa": 1,
-    "pipata-": 2,
-    "-tawasa": 1,
-    "sakacila-": 4,
-    "sacefa-": 2,
-    "-romaen": 2,
+    "nipa-": 1,
+    "sacefa-": 1,
     "-sikakoay": 1,
-    "pakaci-": 3,
     "-kiya": 1,
-    "tatala-": 1,
     "-koec": 1,
-    "-waraay": 3,
-    "sakali-": 1,
-    "-misisa": 1,
     "-ado^edoay": 1,
-    "salita-": 1,
     "-minaan": 1,
-    "alacefo-": 2,
-    "nakama-": 1,
-    "mip-": 2,
+    "alacefo-": 1,
     "-fasan": 1,
     "-rekosa": 1,
     "kalali-": 1,
-    "painiya-": 3,
-    "-molisa": 1,
-    "misaene-": 3,
+    "painiya-": 1,
+    "misaene-": 1,
     "-^epi": 1,
-    "-apaay": 1,
-    "papipai-": 3,
     "tateko-": 1,
-    "paipoko-": 1,
-    "sasaka-": 2,
     "sahari-": 1,
     "-tefirsa": 1,
     "-koay": 1,
     "rariti-": 1,
-    "makeli-": 2,
+    "makeli-": 1,
     "alacefi-": 1,
     "safadi-": 1,
-    "sakacipa-": 2,
     "alapoli-": 1,
-    "napa-": 1,
     "-komikomi": 1,
     "-fasay": 1,
-    "lalaka-": 1,
-    "sasina-": 1,
-    "-tiyaay": 2,
+    "mikaci-": 1,
     "kele-": 1,
-    "-folaen": 1,
-    "alacomo-": 2,
-    "alakawi-": 2,
+    "alacomo-": 1,
+    "alakawi-": 1,
     "-ferangan": 1,
-    "pipatala-": 8,
     "-codaw": 1,
     "-haf": 1,
     "haro-": 1,
-    "malatada-": 2,
-    "-melihan": 1,
-    "misapi'i-": 3,
-    "sapipala-": 12,
-    "malalime-": 2,
-    "kataha-": 1,
-    "misaciri-": 3,
-    "papara-": 2,
+    "mapala-": 1,
+    "papapi-": 1,
+    "mapapipa-": 3,
+    "malalime-": 1,
+    "misaciri-": 1,
     "-nac": 1,
     "-a'on": 3,
-    "misafoki-": 3,
-    "misararo-": 3,
-    "masatefi-": 2,
-    "sapisano-": 2,
-    "sapihara-": 2,
-    "palala'e-": 3,
-    "misaliya-": 6,
-    "kasaloma-": 1,
-    "mipakaki-": 3,
+    "misararo-": 1,
+    "palala'e-": 1,
+    "misaliya-": 1,
     "-co^enekaw": 1,
-    "sapiraka-": 2,
-    "masahina-": 2,
-    "misafeli-": 4,
-    "masatiri-": 2,
-    "mapapisa-": 10,
-    "mipako-": 3,
+    "sapiraka-": 1,
+    "masahina-": 1,
+    "misafeli-": 1,
     "tano'oka-": 1,
     "ngeri-": 1,
     "sapiyo-": 1,
-    "pisaliya-": 2,
-    "makakawi-": 1,
-    "masaciri-": 2,
-    "masakapo-": 2,
-    "malaliki-": 2,
+    "pisaliya-": 1,
+    "masaciri-": 1,
+    "malaliki-": 1,
     "funka--": 1,
     "kararoco-": 1,
-    "papala-": 6,
-    "misahina-": 3,
+    "misahina-": 1,
     "sanohi-": 2,
-    "-milsa": 1,
     "-setekhan": 1,
     "-aedah": 1,
-    "misaparo-": 3,
+    "misaparo-": 1,
     "-'enge-": 1,
     "tatoro-": 1,
-    "cirao-": 1,
-    "misaporo-": 3,
-    "masacika-": 2,
-    "misapero-": 3,
-    "halilami-": 2,
+    "cira-": 1,
+    "sapihi-": 1,
+    "misaporo-": 1,
+    "halilami-": 1,
     "sangri-": 1,
-    "hahata-": 1,
     "-apayan": 1,
-    "misapeno-": 3,
-    "kasadefa-": 1,
+    "misapeno-": 1,
     "-ysa": 1,
     "kasaro'i-": 1,
     "mipiki-": 1,
-    "sakapipa-": 1,
-    "masakote-": 2,
-    "kasapoko-": 1,
-    "masasawa-": 2,
-    "kakali-": 1,
+    "masakote-": 1,
+    "masasawa-": 1,
     "-la'sa": 1,
-    "masatori-": 2,
-    "makakere-": 2,
-    "pisaseka-": 2,
+    "makakere-": 1,
+    "pisaseka-": 1,
     "-simsa": 1,
-    "masapi'i-": 2,
-    "misatefi-": 1,
     "kasaramo-": 1,
     "sapoco-": 1,
     "-a'iwsa": 1,
-    "masadefa-": 2,
-    "masakili-": 2,
+    "kakina-": 1,
     "kasa'owa-": 1,
-    "pisatemi-": 1,
-    "tanosika-": 2,
+    "tanosika-": 1,
     "pakoniya-": 1,
-    "pakaloma-": 4,
     "-a^eta'sa": 1,
-    "mala'afa-": 2,
     "kasa'eta-": 1,
-    "misawali-": 3,
-    "nanopi-": 1,
-    "palaheca-": 3,
-    "-anen": 4,
-    "mala'odo-": 2,
-    "halopapa-": 2,
-    "pisacika-": 2,
-    "sapisaha-": 6,
+    "misawali-": 1,
+    "palaheca-": 1,
+    "mala'odo-": 1,
+    "halopapa-": 1,
     "patonga-": 1,
-    "kahaceca-": 1,
-    "tadama-": 1,
-    "pisakili-": 2,
-    "misacika-": 3,
-    "alakiti-": 2,
-    "masamiya-": 2,
-    "-ayaw": 2,
-    "masatowi-": 2,
-    "misahane-": 3,
-    "misakote-": 3,
-    "tadaka-": 3,
-    "misakili-": 3,
+    "alakiti-": 1,
+    "misakote-": 1,
     "dongo-": 1,
-    "satalimaa-": 1,
-    "misapi-": 1,
-    "sapipakam-": 2,
+    "sapala-": 2,
     "-korihhan": 1,
-    "sapitala-": 2,
     "pacaceko-": 1,
-    "misalina-": 3,
-    "sakatala-": 4,
-    "kasala-": 1,
+    "misalina-": 1,
     "-linoya-": 1,
-    "misarimo-": 1,
-    "sapatala-": 1,
-    "misasawa-": 3,
-    "masaseka-": 2,
+    "misasawa-": 1,
+    "masaseka-": 1,
     "lalesi-": 1,
     "pisafeli-": 1,
     "sakoto-": 1,
-    "-ekalan": 1,
-    "napisa-": 3,
-    "sapipaca-": 2,
-    "masararo-": 2,
-    "misamowa-": 3,
-    "malawile-": 1,
-    "kacida-": 1,
+    "masararo-": 1,
     "rengo-": 1,
-    "macacoro-": 2,
-    "misakimo-": 3,
-    "misamiya-": 3,
     "sahada-": 1,
-    "malasapa-": 4,
-    "misaraka-": 3,
-    "mapatala-": 2,
     "malalica-": 1,
-    "-tepochan": 1,
-    "misatiyo-": 1,
-    "pisawali-": 2,
-    "kaki'aya-": 1,
-    "masawice-": 2,
-    "mipapisa-": 7,
-    "nakafa-": 1,
-    "malaheca-": 2,
-    "misatowi-": 3,
-    "sapihata-": 2,
+    "tepoc-": 1,
+    "pisawali-": 1,
+    "kaki'ay-": 1,
+    "malaheca-": 1,
     "sapingo-": 1,
-    "sapipara-": 4,
-    "kalata-": 2,
-    "malaleca-": 2,
-    "masa'ika-": 2,
+    "malaleca-": 1,
     "misalowi-": 1,
     "-ta'edi-": 1,
-    "palakawa-": 3,
-    "masalina-": 2,
-    "pararoco-": 4,
-    "masaparo-": 2,
-    "nipipaka-": 2,
-    "matatemi-": 2,
-    "-manen": 1,
-    "sapikiri-": 2,
-    "nanota-": 1,
-    "masaliya-": 4,
+    "masalina-": 1,
+    "pararoco-": 1,
+    "masaparo-": 1,
+    "nipipaka-": 1,
     "malaloco-": 1,
-    "pakatoko-": 3,
-    "masafeli-": 2,
+    "pakatoko-": 1,
+    "masafeli-": 1,
     "sa'ini-": 1,
-    "malakala-": 2,
+    "malakala-": 1,
     "-rohorodsa": 1,
     "-elay": 1,
-    "hasasa-": 1,
-    "misatako-": 3,
-    "misakawa-": 3,
-    "kacila-": 1,
-    "misadema-": 3,
-    "-milen": 1,
-    "misasowa-": 3,
     "satemo-": 1,
-    "masarimo-": 2,
-    "malalife-": 2,
-    "mipasata-": 3,
-    "pipasata-": 2,
-    "masawali-": 2,
-    "pisalina-": 2,
-    "misaseka-": 3,
+    "nipi-": 2,
+    "masawali-": 1,
+    "pisalina-": 1,
+    "misaseka-": 1,
+    "mipapipa-": 1,
     "kasalowi-": 1,
     "masasasi-": 1,
-    "satadamaa-": 1,
+    "satada-": 1,
     "sasike-": 1,
     "-isi": 1,
-    "misakapo-": 3,
     "sasawa-": 1,
-    "misapoko-": 1,
-    "sakacisapa-": 2,
+    "masaka-": 2,
     "-^ec": 1,
-    "mapasila-": 2,
-    "-ensa": 1,
     "malapi-": 1,
-    "satalaoma-": 3,
+    "satalao-": 1,
     "-aedahen": 1,
-    "malapina-": 2,
     "-^eda^edah": 1,
-    "mipasila-": 3,
     "palacide-": 1,
     "sakapina-": 1,
-    "-ekalay": 1,
-    "mipapipata-": 6,
     "rongo-": 1,
-    "sasaha-": 1,
-    "malami-": 2,
     "saseto-": 1,
     "ala'iri-": 1,
     "fangca-": 1,
     "kasafali-": 1,
     "-fokoli": 1,
-    "nanoka-": 2,
-    "masamowa-": 2,
-    "matatoro-": 2,
-    "macacali-": 2,
+    "matatoro-": 1,
     "mikaa-": 1,
-    "papaca-": 1,
     "nipipa-": 1,
-    "pisararo-": 2,
-    "mikakawi-": 3,
-    "misakamo-": 3,
-    "mala'a-": 2,
-    "masapoko-": 2,
-    "alapa-": 2,
+    "pisararo-": 1,
+    "misaka-": 1,
     "-tedo": 1,
     "sa'ami-": 1,
     "halipapa-": 1,
-    "pakapoko-": 3,
     "hawa-": 1,
-    "kalasa-": 5,
-    "sapito-": 2,
-    "masaporo-": 2,
-    "malita-": 1,
-    "misatari-": 3,
-    "sapikali-": 2,
+    "masaporo-": 1,
+    "masaliya-": 1,
     "-^elohen": 1,
     "satere-": 1,
-    "masasowa-": 2,
-    "masahane-": 2,
-    "masapero-": 2,
-    "masatiyo-": 2,
-    "hasakasa-": 1,
-    "masadema-": 2,
-    "kakiri-": 1,
-    "masaraka-": 2,
-    "masamena-": 2,
-    "misawice-": 3,
-    "masakimo-": 2,
+    "hasaka-": 1,
+    "mipai-": 1,
     "-ngelan": 1,
     "kasakowa-": 1,
-    "mitadamaa-": 2,
+    "mitada-": 1,
     "-'eki'ekir": 1,
-    "-simen": 1,
+    "sasim-": 1,
     "-karothan": 1,
     "kasareka-": 1,
-    "sapisala-": 2,
     "kakeri-": 1,
-    "-cingasa": 1,
     "-romisa": 1,
-    "matateko-": 2,
-    "-litien": 1,
-    "-waraan": 2,
-    "pisa'iri-": 2,
-    "-'osian": 1,
-    "-folaay": 2,
-    "sakacipadi-": 2,
-    "-'adaay": 2,
-    "-'adaan": 1,
-    "-kalaan": 1,
-    "-romaay": 3,
-    "kasacefa-": 1,
-    "tanotire-": 2,
-    "misa'oda-": 3,
-    "-wiriay": 2,
+    "tanotire-": 1,
+    "misa'oda-": 1,
     "-polo": 1,
-    "-ananay": 2,
+    "-ananay": 1,
     "-'ok'oksa": 1,
     "-keni'": 1,
-    "-hafsa": 1,
     "-'ekedan": 1,
-    "-'ecosa": 1,
+    "-ecosa": 1,
     "-'ko'ko'ko'": 1,
-    "-kepaan": 2,
-    "lawida-": 1,
-    "palami-": 1,
     "sata'o-": 1,
     "kakinina-": 1,
-    "-^epiay": 1,
-    "sapikeli-": 2,
+    "sapikeli-": 1,
     "papada-": 1,
-    "-ngodoen": 2,
-    "-tawaay": 2,
-    "mapahali-": 2,
-    "-kepaay": 2,
-    "papapipa-": 8,
-    "-po'oay": 1,
     "-ki'ayaw": 1,
     "-ngerotsa": 1,
-    "sapipata-": 2,
-    "-kalaay": 2,
-    "-firoay": 2,
-    "alarongo-": 2,
-    "-'iwiay": 1,
+    "alarongo-": 1,
     "-papengsa": 1,
     "-felat": 1,
     "-aedahhan": 1,
-    "-ngataay": 1,
-    "masatawi-": 2,
-    "papatala-": 3,
     "sa'oda-": 1,
-    "misata'o-": 3,
+    "misata'o-": 1,
     "sapifadi-": 1,
-    "masarefo-": 2,
+    "masarefo-": 1,
     "-peti'sa": 1,
     "sapit-": 1,
     "-nifay": 1,
-    "masacefa-": 2,
-    "mipahali-": 3,
-    "-tawaan": 1,
     "-mola'": 1,
-    "-romaan": 2,
+    "kalasa-": 1,
+    "mipapi-": 1,
     "saapo-": 1,
     "-awsa": 1,
     "alaca'-": 1,
-    "misatawi-": 1,
-    "mipakaci-": 3,
     "-atfelat": 2,
-    "citatodo-": 2,
-    "-'iwian": 1,
-    "papisaa-": 1,
-    "-moloay": 1,
-    "masahefo-": 2,
+    "citatodo-": 1,
+    "papisa-": 1,
     "patera-": 1,
-    "mapapisi-": 2,
-    "-kamaay": 1,
+    "mapapisi-": 1,
     "kasafola-": 1,
-    "-wirian": 1,
-    "-'afoay": 1,
     "-^inga^inga": 1,
-    "-meliay": 1,
     "cacelo-": 1,
     "-'sa": 1,
-    "misama-": 2,
     "-keling": 1,
     "sasini-": 1,
-    "-milhan": 1,
-    "sapipatala-": 8,
-    "halotapa-": 3,
-    "sapisalo-": 2,
-    "-'osiay": 2,
-    "-penoay": 1,
     "malokaka-": 1,
     "-sengi": 1,
-    "-melian": 1,
     "mike-": 1,
     "-etepan": 1,
-    "-folaan": 1,
     "-kotay": 1,
-    "-'angiay": 1,
-    "-moliay": 2,
     "-ca^edong": 1,
-    "pipahali-": 2,
-    "nipi-": 1,
-    "malota-": 2,
     "-tafekang": 1,
-    "misasa-": 3,
-    "mapapada-": 2,
-    "-cingaen": 1,
-    "-tiyaen": 1,
-    "masada-": 2,
-    "-'apiay": 1,
+    "mapapada-": 1,
+    "masada-": 1,
+    "-ngodoen": 1,
     "fenge-": 1,
-    "masa'iri-": 2,
-    "masasili-": 2,
-    "pasacefa-": 3,
-    "-cadaay": 1,
     "-sa'er": 1,
-    "-kamaan": 2,
-    "sapapipala-": 1,
+    "sapapi-": 1,
     "-tekongsa": 1,
     "ciwke-": 1,
-    "misa'iri-": 2,
-    "-litaen": 1,
-    "-nimaan": 1,
-    "misaci-": 1,
-    "mapakaci-": 2,
     "-kerengsa": 1,
-    "anopa-": 1,
-    "-firoan": 1,
-    "-paloay": 1,
-    "-molian": 1,
     "hatosaan--": 1,
-    "makakiti-": 1,
-    "-coliay": 1,
     "nikasa-": 1,
-    "misacefa-": 1,
     "pahece-": 1,
     "raroco-": 1,
-    "-kiyaaw": 1,
-    "-moloan": 1,
-    "iciwke-": 1,
-    "matatongo-": 2,
-    "papapipata-": 1,
-    "-nacay": 1,
-    "masatemi-": 1,
-    "papapisa-": 2,
+    "matatongo-": 1,
+    "sapisata-": 1,
     "mamala-": 1,
     "-lock": 1,
     "-iyol": 1,
     "-iwidsa": 1,
     "-iyolsa": 1,
-    "sapipasila-": 2,
-    "sakala'afa-": 2,
-    "sap-": 1,
     "-angadaw": 1,
     "-asakolef-": 1,
-    "-tedosa": 1,
     "pikisa-": 1,
-    "-mayay": 1,
-    "sapipapi-": 1,
     "-si^ike^iked": 1,
     "masasipa-": 1,
-    "mitatongo-": 3,
+    "mitatongo-": 1,
     "pikaka-": 1,
-    "sakacida-": 2,
-    "-awaw": 1,
-    "napipaka-": 1,
-    "sapipasata-": 2,
     "malalenga-": 1,
     "sapisa^ene-": 1,
-    "sasacika-": 1,
-    "-litihan": 1,
-    "pakangala-": 3,
-    "-falihan": 1,
-    "sakapapisa-": 1,
-    "-nacan": 1,
     "masasi'ike-": 1,
     "-hawanghan": 1,
-    "-a'onan": 2,
-    "nikasala-": 1,
-    "mipatalala-": 1,
+    "-anay": 4,
+    "mipatala-": 1,
     "samihca-": 1,
     "-talitawsa": 1,
-    "-a'onay": 2,
-    "papasila-": 1,
     "-lahdawsa": 1,
-    "sapipatalal-": 2,
-    "masamola-": 2,
+    "masamola-": 1,
     "tatongo-": 1,
-    "kasakapo-": 1,
-    "-toktokhan": 1,
+    "toktok-": 1,
     "kararipa-": 1,
-    "-simay": 1,
-    "-'afohan": 1,
     "sakarasoli-": 1,
-    "mapapacafa-": 2,
+    "mapapacafa-": 1,
     "-kopkophan": 1,
-    "mapapalada-": 2,
-    "misatalaoma-": 3,
-    "makakafi-": 1,
+    "mapapalada-": 1,
     "masasori-": 1,
-    "-ikelay": 1,
     "kakakere-": 1,
     "-cicarefacef": 1,
-    "papasata-": 1,
     "-aro'": 1,
     "-tongihhan": 1,
-    "satalatoko-": 2,
-    "namikasa-": 1,
-    "-manay": 1,
-    "-enay": 1,
+    "satalatoko-": 1,
     "mikalaliwa-": 1,
     "sasa^ene-": 1,
-    "-litian": 2,
-    "mipakakiti-": 3,
-    "-poloay": 1,
-    "-keni'ay": 1,
-    "masasihini-": 2,
-    "-sengisa": 1,
-    "-folaaw": 1,
+    "masasihini-": 1,
     "masa'oda-": 1,
-    "-cingaan": 1,
-    "-waraaw": 1,
-    "-litaan": 1,
-    "misalita'a-": 3,
-    "-keni'an": 1,
+    "misalita'a-": 1,
     "-torowaksa": 1,
-    "-litiay": 2,
-    "sapipahali-": 2,
-    "masalita'a-": 2,
+    "masalita'a-": 1,
     "-sakapotsa": 1,
-    "satalido'e-": 3,
+    "satalido'e-": 1,
     "-ngdawsa": 1,
-    "-ngodoay": 2,
     "marari'a-": 1,
-    "-cingaay": 2,
-    "-anhan": 2,
-    "-mola'ay": 1,
-    "-ngodoan": 1,
-    "misapasene-": 3,
-    "mikada-": 1,
     "-'edo": 2,
-    "pasatori-": 1,
-    "-sengien": 1,
-    "-mola'an": 1,
     "ponini-": 1,
-    "-litaay": 1,
-    "-lingsa": 1,
     "tanofongo-": 1,
     "-paseta'han": 1,
-    "-iyolan": 1,
-    "mipapipatala-": 3,
-    "misafangca-": 3,
+    "sapipai-": 1,
     "-yananay": 1,
-    "-iyolay": 1,
-    "-anaw": 3,
     "-hafelothan": 1,
-    "-ki'ayawhan": 1,
-    "misatalatoko-": 3,
     "-matahan": 1,
     "-tafesiwhan": 1,
-    "milesi'anmi-": 1,
-    "masatalido^e-": 2,
-    "sapisalita'a-": 2,
-    "misatalido'e-": 3,
-    "mipasawida-": 1,
+    "milesi'an-": 1,
+    "masatalido^e-": 1,
+    "sapisalita'a-": 1,
+    "mipasa-": 1,
     "-fangcal": 1,
     "-tap'eciksa": 1,
     "-pasakerohan": 1,
-    "-fangcalay": 1,
-    "-tongingichan": 1
+    "tongingic-": 1
   },
   "top_roots": [
     {
       "root": "ini",
-      "count": 165
+      "count": 157
     },
     {
       "root": "tefo",
       "count": 135
-    },
-    {
-      "root": "ira",
-      "count": 132
     },
     {
       "root": "kang",
@@ -3417,6 +3309,10 @@
     {
       "root": "raka",
       "count": 120
+    },
+    {
+      "root": "ira",
+      "count": 113
     },
     {
       "root": "'adi",
@@ -3443,11 +3339,11 @@
       "count": 95
     },
     {
-      "root": "lolo",
-      "count": 93
+      "root": "kaen",
+      "count": 94
     },
     {
-      "root": "kaen",
+      "root": "lolo",
       "count": 93
     },
     {
@@ -3468,11 +3364,7 @@
     },
     {
       "root": "fola",
-      "count": 88
-    },
-    {
-      "root": "loma",
-      "count": 87
+      "count": 89
     },
     {
       "root": "feli",
@@ -3481,6 +3373,10 @@
     {
       "root": "fafa",
       "count": 85
+    },
+    {
+      "root": "loma",
+      "count": 84
     },
     {
       "root": "eneng",
@@ -3551,6 +3447,10 @@
       "count": 67
     },
     {
+      "root": "pala",
+      "count": 67
+    },
+    {
       "root": "moko",
       "count": 67
     },
@@ -3567,15 +3467,7 @@
       "count": 66
     },
     {
-      "root": "nano",
-      "count": 66
-    },
-    {
       "root": "eked",
-      "count": 65
-    },
-    {
-      "root": "maan",
       "count": 65
     },
     {
@@ -3591,11 +3483,19 @@
       "count": 64
     },
     {
+      "root": "nano",
+      "count": 64
+    },
+    {
       "root": "'aca",
       "count": 64
     },
     {
       "root": "ta'i",
+      "count": 64
+    },
+    {
+      "root": "maan",
       "count": 64
     },
     {
@@ -3607,16 +3507,12 @@
       "count": 62
     },
     {
-      "root": "pala",
+      "root": "saka",
       "count": 61
     },
     {
       "root": "cidal",
       "count": 61
-    },
-    {
-      "root": "saka",
-      "count": 60
     },
     {
       "root": "kemo",
@@ -3643,6 +3539,10 @@
       "count": 58
     },
     {
+      "root": "kini",
+      "count": 58
+    },
+    {
       "root": "pali",
       "count": 58
     },
@@ -3659,19 +3559,11 @@
       "count": 58
     },
     {
-      "root": "tawa",
-      "count": 57
-    },
-    {
       "root": "adang",
       "count": 57
     },
     {
       "root": "heci",
-      "count": 57
-    },
-    {
-      "root": "ngato",
       "count": 57
     },
     {
@@ -3716,10 +3608,6 @@
     },
     {
       "root": "sapi",
-      "count": 55
-    },
-    {
-      "root": "kini",
       "count": 55
     },
     {
@@ -3775,6 +3663,10 @@
       "count": 52
     },
     {
+      "root": "ngato",
+      "count": 52
+    },
+    {
       "root": "oli",
       "count": 51
     },
@@ -3823,11 +3715,11 @@
       "count": 49
     },
     {
-      "root": "aray",
+      "root": "tawa",
       "count": 48
     },
     {
-      "root": "lalan",
+      "root": "aray",
       "count": 48
     },
     {
@@ -3836,6 +3728,10 @@
     },
     {
       "root": "'emo",
+      "count": 47
+    },
+    {
+      "root": "palo",
       "count": 47
     },
     {
@@ -3875,6 +3771,10 @@
       "count": 46
     },
     {
+      "root": "lalan",
+      "count": 46
+    },
+    {
       "root": "edeng",
       "count": 46
     },
@@ -3884,6 +3784,10 @@
     },
     {
       "root": "hay",
+      "count": 45
+    },
+    {
+      "root": "tira",
       "count": 45
     },
     {
@@ -3908,10 +3812,6 @@
     },
     {
       "root": "toka",
-      "count": 44
-    },
-    {
-      "root": "palo",
       "count": 44
     },
     {
@@ -3951,10 +3851,6 @@
       "count": 42
     },
     {
-      "root": "'emi",
-      "count": 42
-    },
-    {
       "root": "kaso",
       "count": 42
     },
@@ -3983,11 +3879,11 @@
       "count": 41
     },
     {
-      "root": "yong",
+      "root": "'emi",
       "count": 41
     },
     {
-      "root": "mata",
+      "root": "yong",
       "count": 41
     },
     {
@@ -4011,7 +3907,15 @@
       "count": 40
     },
     {
+      "root": "kowat",
+      "count": 40
+    },
+    {
       "root": "dawa",
+      "count": 40
+    },
+    {
+      "root": "mata",
       "count": 40
     },
     {
@@ -4075,6 +3979,10 @@
       "count": 38
     },
     {
+      "root": "tali",
+      "count": 38
+    },
+    {
       "root": "taya",
       "count": 38
     },
@@ -4123,10 +4031,6 @@
       "count": 37
     },
     {
-      "root": "kowat",
-      "count": 37
-    },
-    {
       "root": "cemod",
       "count": 37
     },
@@ -4143,15 +4047,15 @@
       "count": 37
     },
     {
+      "root": "aday",
+      "count": 36
+    },
+    {
       "root": "safa",
       "count": 36
     },
     {
       "root": "masa",
-      "count": 36
-    },
-    {
-      "root": "tali",
       "count": 36
     },
     {
@@ -4176,10 +4080,6 @@
     },
     {
       "root": "iyo",
-      "count": 35
-    },
-    {
-      "root": "aday",
       "count": 35
     },
     {
@@ -4239,6 +4139,10 @@
       "count": 33
     },
     {
+      "root": "tata",
+      "count": 33
+    },
+    {
       "root": "lima",
       "count": 33
     },
@@ -4268,14 +4172,6 @@
     },
     {
       "root": "'ilo",
-      "count": 32
-    },
-    {
-      "root": "sapa",
-      "count": 32
-    },
-    {
-      "root": "tata",
       "count": 32
     },
     {
@@ -4355,6 +4251,14 @@
       "count": 31
     },
     {
+      "root": "telac",
+      "count": 31
+    },
+    {
+      "root": "hafel",
+      "count": 31
+    },
+    {
       "root": "fangcal",
       "count": 31
     },
@@ -4364,6 +4268,10 @@
     },
     {
       "root": "ceka",
+      "count": 30
+    },
+    {
+      "root": "sapa",
       "count": 30
     },
     {
@@ -4387,19 +4295,11 @@
       "count": 30
     },
     {
-      "root": "telac",
-      "count": 30
-    },
-    {
       "root": "ngodo",
       "count": 30
     },
     {
       "root": "nanaw",
-      "count": 30
-    },
-    {
-      "root": "hafel",
       "count": 30
     },
     {
@@ -4412,10 +4312,6 @@
     },
     {
       "root": "roko",
-      "count": 29
-    },
-    {
-      "root": "tira",
       "count": 29
     },
     {
@@ -4535,6 +4431,10 @@
       "count": 27
     },
     {
+      "root": "acek",
+      "count": 27
+    },
+    {
       "root": "soko",
       "count": 27
     },
@@ -4603,7 +4503,15 @@
       "count": 26
     },
     {
+      "root": "dama",
+      "count": 26
+    },
+    {
       "root": "tepi",
+      "count": 26
+    },
+    {
+      "root": "wata",
       "count": 26
     },
     {
@@ -4704,6 +4612,10 @@
     },
     {
       "root": "koto",
+      "count": 25
+    },
+    {
+      "root": "kita",
       "count": 25
     },
     {
@@ -4831,10 +4743,6 @@
       "count": 24
     },
     {
-      "root": "acek",
-      "count": 24
-    },
-    {
       "root": "tilo",
       "count": 24
     },
@@ -4844,10 +4752,6 @@
     },
     {
       "root": "naw",
-      "count": 24
-    },
-    {
-      "root": "kita",
       "count": 24
     },
     {
@@ -4915,15 +4819,7 @@
       "count": 23
     },
     {
-      "root": "dama",
-      "count": 23
-    },
-    {
       "root": "cawa",
-      "count": 23
-    },
-    {
-      "root": "toko",
       "count": 23
     },
     {
@@ -5075,6 +4971,14 @@
       "count": 22
     },
     {
+      "root": "toko",
+      "count": 22
+    },
+    {
+      "root": "tato",
+      "count": 22
+    },
+    {
       "root": "peno",
       "count": 22
     },
@@ -5091,14 +4995,6 @@
       "count": 22
     },
     {
-      "root": "raay",
-      "count": 22
-    },
-    {
-      "root": "mama",
-      "count": 22
-    },
-    {
       "root": "'angi",
       "count": 22
     },
@@ -5108,10 +5004,6 @@
     },
     {
       "root": "pawti",
-      "count": 22
-    },
-    {
-      "root": "telec",
       "count": 22
     },
     {
@@ -5203,10 +5095,6 @@
       "count": 21
     },
     {
-      "root": "tato",
-      "count": 21
-    },
-    {
       "root": "kera",
       "count": 21
     },
@@ -5227,7 +5115,15 @@
       "count": 21
     },
     {
+      "root": "kato",
+      "count": 21
+    },
+    {
       "root": "tadi",
+      "count": 21
+    },
+    {
+      "root": "mama",
       "count": 21
     },
     {
@@ -5240,6 +5136,10 @@
     },
     {
       "root": "setek",
+      "count": 21
+    },
+    {
+      "root": "telec",
       "count": 21
     },
     {
@@ -5340,6 +5240,10 @@
     },
     {
       "root": "cawi",
+      "count": 20
+    },
+    {
+      "root": "raay",
       "count": 20
     },
     {
@@ -5527,6 +5431,10 @@
       "count": 19
     },
     {
+      "root": "li'ay",
+      "count": 19
+    },
+    {
       "root": "'ena",
       "count": 19
     },
@@ -5691,10 +5599,6 @@
       "count": 18
     },
     {
-      "root": "li'ay",
-      "count": 18
-    },
-    {
       "root": "co'ay",
       "count": 18
     },
@@ -5784,14 +5688,6 @@
     },
     {
       "root": "toli",
-      "count": 17
-    },
-    {
-      "root": "wata",
-      "count": 17
-    },
-    {
-      "root": "kato",
       "count": 17
     },
     {
@@ -6219,6 +6115,10 @@
       "count": 15
     },
     {
+      "root": "kira",
+      "count": 15
+    },
+    {
       "root": "data",
       "count": 15
     },
@@ -6348,10 +6248,6 @@
     },
     {
       "root": "hopet",
-      "count": 15
-    },
-    {
-      "root": "felot",
       "count": 15
     },
     {
@@ -6679,6 +6575,10 @@
       "count": 14
     },
     {
+      "root": "felot",
+      "count": 14
+    },
+    {
       "root": "coled",
       "count": 14
     },
@@ -6821,10 +6721,6 @@
     {
       "root": "ca'engaw",
       "count": 14
-    },
-    {
-      "root": "sa",
-      "count": 13
     },
     {
       "root": "tepa",
@@ -7211,6 +7107,10 @@
       "count": 12
     },
     {
+      "root": "sa",
+      "count": 12
+    },
+    {
       "root": "sara",
       "count": 12
     },
@@ -7415,10 +7315,6 @@
       "count": 12
     },
     {
-      "root": "pili'",
-      "count": 12
-    },
-    {
       "root": "siyol",
       "count": 12
     },
@@ -7580,10 +7476,6 @@
     },
     {
       "root": "wikwik",
-      "count": 12
-    },
-    {
-      "root": "metmet",
       "count": 12
     },
     {
@@ -7759,6 +7651,10 @@
       "count": 11
     },
     {
+      "root": "anini",
+      "count": 11
+    },
+    {
       "root": "feto",
       "count": 11
     },
@@ -7916,6 +7812,10 @@
     },
     {
       "root": "ciro'",
+      "count": 11
+    },
+    {
+      "root": "pili'",
       "count": 11
     },
     {
@@ -8191,6 +8091,10 @@
       "count": 11
     },
     {
+      "root": "ngalay",
+      "count": 11
+    },
+    {
       "root": "na'ang",
       "count": 11
     },
@@ -8359,10 +8263,6 @@
       "count": 10
     },
     {
-      "root": "kira",
-      "count": 10
-    },
-    {
       "root": "copa",
       "count": 10
     },
@@ -8376,6 +8276,10 @@
     },
     {
       "root": "sato",
+      "count": 10
+    },
+    {
+      "root": "wa'a",
       "count": 10
     },
     {
@@ -8479,10 +8383,6 @@
       "count": 10
     },
     {
-      "root": "tayra",
-      "count": 10
-    },
-    {
       "root": "padek",
       "count": 10
     },
@@ -8583,6 +8483,10 @@
       "count": 10
     },
     {
+      "root": "singat",
+      "count": 10
+    },
+    {
       "root": "taneng",
       "count": 10
     },
@@ -8631,11 +8535,11 @@
       "count": 10
     },
     {
-      "root": "ngalay",
+      "root": "tistis",
       "count": 10
     },
     {
-      "root": "tistis",
+      "root": "metmet",
       "count": 10
     },
     {
@@ -8739,10 +8643,6 @@
       "count": 9
     },
     {
-      "root": "ina",
-      "count": 9
-    },
-    {
       "root": "noli",
       "count": 9
     },
@@ -8756,10 +8656,6 @@
     },
     {
       "root": "piti",
-      "count": 9
-    },
-    {
-      "root": "wa'a",
       "count": 9
     },
     {
@@ -8804,6 +8700,10 @@
     },
     {
       "root": "kepa",
+      "count": 9
+    },
+    {
+      "root": "nira",
       "count": 9
     },
     {
@@ -9235,6 +9135,10 @@
       "count": 8
     },
     {
+      "root": "ina",
+      "count": 8
+    },
+    {
       "root": "mare",
       "count": 8
     },
@@ -9311,10 +9215,6 @@
       "count": 8
     },
     {
-      "root": "tayni",
-      "count": 8
-    },
-    {
       "root": "sa'or",
       "count": 8
     },
@@ -9340,6 +9240,10 @@
     },
     {
       "root": "forac",
+      "count": 8
+    },
+    {
+      "root": "tayra",
       "count": 8
     },
     {
@@ -9420,10 +9324,6 @@
     },
     {
       "root": "'atim",
-      "count": 8
-    },
-    {
-      "root": "likol",
       "count": 8
     },
     {
@@ -9644,6 +9544,10 @@
     },
     {
       "root": "ngoto",
+      "count": 7
+    },
+    {
+      "root": "mamet",
       "count": 7
     },
     {
@@ -9983,10 +9887,6 @@
       "count": 7
     },
     {
-      "root": "nira",
-      "count": 7
-    },
-    {
       "root": "'a'olec",
       "count": 7
     },
@@ -10151,6 +10051,10 @@
       "count": 6
     },
     {
+      "root": "noya",
+      "count": 6
+    },
+    {
       "root": "sema",
       "count": 6
     },
@@ -10203,7 +10107,7 @@
       "count": 6
     },
     {
-      "root": "rahod",
+      "root": "tayni",
       "count": 6
     },
     {
@@ -10232,10 +10136,6 @@
     },
     {
       "root": "lofot",
-      "count": 6
-    },
-    {
-      "root": "toled",
       "count": 6
     },
     {
@@ -10352,6 +10252,10 @@
     },
     {
       "root": "'owic",
+      "count": 6
+    },
+    {
+      "root": "likol",
       "count": 6
     },
     {
@@ -10619,19 +10523,11 @@
       "count": 5
     },
     {
-      "root": "mamet",
-      "count": 5
-    },
-    {
       "root": "sa'er",
       "count": 5
     },
     {
       "root": "selal",
-      "count": 5
-    },
-    {
-      "root": "ciwa'",
       "count": 5
     },
     {
@@ -10652,6 +10548,10 @@
     },
     {
       "root": "saong",
+      "count": 5
+    },
+    {
+      "root": "rahod",
       "count": 5
     },
     {
@@ -10684,10 +10584,6 @@
     },
     {
       "root": "lifat",
-      "count": 5
-    },
-    {
-      "root": "safol",
       "count": 5
     },
     {
@@ -10744,10 +10640,6 @@
     },
     {
       "root": "podaw",
-      "count": 5
-    },
-    {
-      "root": "cekil",
       "count": 5
     },
     {
@@ -10884,10 +10776,6 @@
     },
     {
       "root": "leda'",
-      "count": 5
-    },
-    {
-      "root": "singat",
       "count": 5
     },
     {
@@ -11211,10 +11099,6 @@
       "count": 4
     },
     {
-      "root": "oya",
-      "count": 4
-    },
-    {
       "root": "kiso",
       "count": 4
     },
@@ -11244,6 +11128,10 @@
     },
     {
       "root": "likes",
+      "count": 4
+    },
+    {
+      "root": "ciwa'",
       "count": 4
     },
     {
@@ -11316,6 +11204,10 @@
     },
     {
       "root": "hetec",
+      "count": 4
+    },
+    {
+      "root": "safol",
       "count": 4
     },
     {
@@ -11443,10 +11335,6 @@
       "count": 4
     },
     {
-      "root": "lalen",
-      "count": 4
-    },
-    {
       "root": "fohok",
       "count": 4
     },
@@ -11559,6 +11447,10 @@
       "count": 4
     },
     {
+      "root": "kofet",
+      "count": 4
+    },
+    {
       "root": "keliw",
       "count": 4
     },
@@ -11659,10 +11551,6 @@
       "count": 4
     },
     {
-      "root": "anini",
-      "count": 4
-    },
-    {
       "root": "ngici'",
       "count": 4
     },
@@ -11688,10 +11576,6 @@
     },
     {
       "root": "ngalef",
-      "count": 4
-    },
-    {
-      "root": "mangal",
       "count": 4
     },
     {
@@ -12067,7 +11951,7 @@
       "count": 3
     },
     {
-      "root": "yo",
+      "root": "ayo",
       "count": 3
     },
     {
@@ -12271,10 +12155,6 @@
       "count": 3
     },
     {
-      "root": "kawaw",
-      "count": 3
-    },
-    {
       "root": "onaon",
       "count": 3
     },
@@ -12455,10 +12335,6 @@
       "count": 3
     },
     {
-      "root": "ita",
-      "count": 3
-    },
-    {
       "root": "sinil",
       "count": 3
     },
@@ -12475,6 +12351,10 @@
       "count": 3
     },
     {
+      "root": "nina'",
+      "count": 3
+    },
+    {
       "root": "cala'",
       "count": 3
     },
@@ -12488,10 +12368,6 @@
     },
     {
       "root": "roni",
-      "count": 3
-    },
-    {
-      "root": "kofet",
       "count": 3
     },
     {
@@ -12703,6 +12579,10 @@
       "count": 3
     },
     {
+      "root": "mangal",
+      "count": 3
+    },
+    {
       "root": "pawpaw",
       "count": 3
     },
@@ -12904,10 +12784,6 @@
     },
     {
       "root": "rotarot",
-      "count": 3
-    },
-    {
-      "root": "kawat",
       "count": 3
     },
     {
@@ -13247,6 +13123,10 @@
       "count": 2
     },
     {
+      "root": "oya",
+      "count": 2
+    },
+    {
       "root": "caok",
       "count": 2
     },
@@ -13483,6 +13363,10 @@
       "count": 2
     },
     {
+      "root": "toled",
+      "count": 2
+    },
+    {
       "root": "caroh",
       "count": 2
     },
@@ -13599,6 +13483,10 @@
       "count": 2
     },
     {
+      "root": "cekil",
+      "count": 2
+    },
+    {
       "root": "sefay",
       "count": 2
     },
@@ -13612,6 +13500,10 @@
     },
     {
       "root": "tolak",
+      "count": 2
+    },
+    {
+      "root": "kawaw",
       "count": 2
     },
     {
@@ -13652,6 +13544,10 @@
     },
     {
       "root": "polaw",
+      "count": 2
+    },
+    {
+      "root": "lalen",
       "count": 2
     },
     {
@@ -13803,6 +13699,10 @@
       "count": 2
     },
     {
+      "root": "ita",
+      "count": 2
+    },
+    {
       "root": "poces",
       "count": 2
     },
@@ -13816,10 +13716,6 @@
     },
     {
       "root": "keced",
-      "count": 2
-    },
-    {
-      "root": "nina'",
       "count": 2
     },
     {
@@ -14207,10 +14103,6 @@
       "count": 2
     },
     {
-      "root": "noya",
-      "count": 2
-    },
-    {
       "root": "dingac",
       "count": 2
     },
@@ -14312,6 +14204,10 @@
     },
     {
       "root": "'engiw",
+      "count": 2
+    },
+    {
+      "root": "'min",
       "count": 2
     },
     {
@@ -15068,10 +14964,6 @@
     },
     {
       "root": "temer",
-      "count": 1
-    },
-    {
-      "root": "ta",
       "count": 1
     },
     {
@@ -15959,10 +15851,6 @@
       "count": 1
     },
     {
-      "root": "'min",
-      "count": 1
-    },
-    {
       "root": "'ek'ek",
       "count": 1
     },
@@ -16007,7 +15895,7 @@
       "count": 1
     },
     {
-      "root": "ca",
+      "root": "aca",
       "count": 1
     },
     {
@@ -16448,10 +16336,6 @@
     },
     {
       "root": "ko'etim",
-      "count": 1
-    },
-    {
-      "root": "kofel",
       "count": 1
     },
     {

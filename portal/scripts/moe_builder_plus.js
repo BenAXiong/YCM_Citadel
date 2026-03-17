@@ -60,10 +60,22 @@ for (let i = 0; i < sortedWords.length; i++) {
   const word = sortedWords[i];
   let parent = null;
 
-  // PRIORITY 1: Absolute preference for the Database defined stem
+  // PRIORITY 1: Prefence for the Database defined stem
+  // BUT: check if there's an intermediate word between word and dbStem
   const dbStem = wordToDbStem.get(word);
   if (dbStem && allWordsSet.has(dbStem)) {
     parent = dbStem;
+    
+    // CHAIN REPAIR: Look for a "closer" parent that bridges word and dbStem
+    // Search backwards from the word's position to find the longest intermediate word
+    for (let j = i - 1; j >= 0; j--) {
+      const candidate = sortedWords[j];
+      if (candidate.length <= dbStem.length) break;
+      if (word.includes(candidate) && candidate.includes(dbStem)) {
+        parent = candidate;
+        break; 
+      }
+    }
   }
 
   // PRIORITY 2: Global Overlap (Longest internal word)

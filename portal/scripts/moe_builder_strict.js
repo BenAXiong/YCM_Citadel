@@ -58,15 +58,24 @@ allEntries.forEach(e => {
   if (!wordSources.has(cleanWord)) wordSources.set(cleanWord, new Set());
   wordSources.get(cleanWord).add(dCode);
 });
+const sortedWords = [...allWordsSet].sort((a,b) => a.length - b.length);
 
-sortedWords = [...allWordsSet].sort((a,b) => a.length - b.length);
+sortedWords.forEach((word, i) => {
+  const dbStem = wordToDbStem.get(word);
+  if (dbStem && allWordsSet.has(dbStem)) {
+    let parent = dbStem;
 
-console.log('- Resolving chains...');
-
-sortedWords.forEach(word => {
-  const stem = wordToDbStem.get(word);
-  if (stem && allWordsSet.has(stem)) {
-    parentMap.set(word, stem);
+    // CHAIN REPAIR: Look for a "closer" parent that bridges word and dbStem
+    // Search backwards from the word's position to find the longest intermediate word
+    for (let j = i - 1; j >= 0; j--) {
+      const candidate = sortedWords[j];
+      if (candidate.length <= dbStem.length) break;
+      if (word.includes(candidate) && candidate.includes(dbStem)) {
+        parent = candidate;
+        break; 
+      }
+    }
+    parentMap.set(word, parent);
   }
 });
 
