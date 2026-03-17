@@ -2,14 +2,13 @@
 
 import { useEffect, useCallback, useMemo, useReducer } from 'react';
 import {
-  MoeEntry,
-  KilangRootData,
   reshapeDerivatives,
   calculateTreeRows,
   normalizeWord,
   calculateNodeMap,
   getForestBoundingBox
 } from './kilangUtils';
+import { MoeEntry, KilangRootData } from './KilangTypes';
 import { kilangReducer, initialState, KilangState, KilangAction, MorphMode, LayoutDirection, LayoutArrangement } from './kilangReducer';
 
 export const useKilang = () => {

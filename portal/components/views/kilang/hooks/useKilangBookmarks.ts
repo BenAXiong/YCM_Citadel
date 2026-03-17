@@ -2,8 +2,7 @@
 
 import React from 'react';
 import { KilangAction } from '../kilangReducer';
-import { Bookmark } from '../KilangTypes';
-import { KilangRootData } from '../kilangUtils';
+import { Bookmark, KilangRootData } from '../KilangTypes';
 
 const STORAGE_KEY = 'kilang_bookmarked_trees';
 
