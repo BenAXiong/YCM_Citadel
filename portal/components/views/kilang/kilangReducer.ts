@@ -19,7 +19,8 @@ export interface KilangState {
   selectedRoot: string | null;
   rootData: any | null;
   summaryCache: Record<string, string[]>;
-  sourceCounts: Record<string, number>;
+  sourceCounts: Record<string, { r: number; e: number }>;
+  sidebarWidth: number;
   customData: any[] | null;
 
   // Configuration
@@ -92,7 +93,7 @@ export type KilangAction =
   | { type: 'SET_ROOT'; root: string }
   | { type: 'SET_ROOT_DATA'; data: any }
   | { type: 'SET_SUMMARY'; word: string; definitions: string[] }
-  | { type: 'SET_SOURCE_COUNTS'; counts: Record<string, number>; total: number }
+  | { type: 'SET_SOURCE_COUNTS'; counts: Record<string, { r: number; e: number }>; total: { r: number; e: number } }
   | { type: 'SET_CUSTOM_DATA'; data: any | null }
   | { type: 'SET_CONFIG'; morphMode?: MorphMode; sourceFilter?: string }
   | { type: 'SET_LAYOUT'; direction?: LayoutDirection; arrangement?: LayoutArrangement }
@@ -103,6 +104,7 @@ export type KilangAction =
   | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
+  | { type: 'SET_SIDEBAR_WIDTH'; width: number }
   | { type: 'RESET_TRANSFORM' };
 
 export const initialState: KilangState = {
@@ -114,6 +116,7 @@ export const initialState: KilangState = {
   customData: null,
   summaryCache: {},
   sourceCounts: {},
+  sidebarWidth: 328, // w-82 equivalent
   morphMode: 'plus', //strict = moe
   sourceFilter: 'ALL',
   direction: 'horizontal',
@@ -195,12 +198,21 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         summaryCache: { ...state.summaryCache, [action.word.toLowerCase()]: action.definitions }
       };
     case 'SET_SOURCE_COUNTS':
+      const totalR = action.total.r;
+      const totalE = action.total.e;
+      const branching = totalR > 0 ? (totalE / totalR).toFixed(2) : 0;
+
       return {
         ...state,
         sourceCounts: action.counts,
-        stats: state.stats ? { 
-          ...state.stats, 
-          summary: { ...state.stats.summary, total_words: action.total } 
+        stats: state.stats ? {
+          ...state.stats,
+          summary: {
+            ...state.stats.summary,
+            total_roots: totalR,
+            total_words: totalE,
+            average_branching: Number(branching)
+          }
         } : null
       };
     case 'SET_CUSTOM_DATA':
@@ -260,6 +272,8 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return { ...state, canvasHoverNode: action.node };
     case 'SET_CANVAS_SELECT':
       return { ...state, canvasSelectedNode: action.node };
+    case 'SET_SIDEBAR_WIDTH':
+      return { ...state, sidebarWidth: action.width };
     case 'RESET_TRANSFORM':
       return {
         ...state,

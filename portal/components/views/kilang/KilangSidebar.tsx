@@ -66,6 +66,33 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
     onTabKeyDown,
     handlePlant
   } = useCustomTree(dispatch);
+  const { sidebarWidth } = state;
+  const [isResizing, setIsResizing] = React.useState(false);
+
+  const handleMouseDown = React.useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    setIsResizing(true);
+    const startX = e.pageX;
+    const startWidth = sidebarWidth;
+
+    const handleMouseMove = (moveEvent: MouseEvent) => {
+      const newWidth = startWidth + (moveEvent.pageX - startX);
+      if (newWidth >= 260 && newWidth <= 600) {
+        dispatch({ type: 'SET_SIDEBAR_WIDTH', width: newWidth });
+      }
+    };
+
+    const handleMouseUp = () => {
+      setIsResizing(false);
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+      document.body.style.cursor = 'default';
+    };
+
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+    document.body.style.cursor = 'col-resize';
+  }, [sidebarWidth, dispatch]);
 
   const updateConfig = (config: Partial<KilangState['layoutConfig']>) => {
     dispatch({ type: 'SET_LAYOUT_CONFIG', config });
@@ -97,7 +124,15 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
   }
 
   return (
-    <aside className="w-96 border-r border-white/5 flex flex-col kilang-glass-panel transition-all duration-300 relative overflow-hidden">
+    <aside 
+      className={`border-r border-white/5 flex flex-col kilang-glass-panel relative group/sidebar ${isResizing ? '' : 'transition-all duration-300'}`}
+      style={{ width: `${sidebarWidth}px` }}
+    >
+      {/* Resizer Handle */}
+      <div
+        onMouseDown={handleMouseDown}
+        className="absolute top-0 right-0 w-1.5 h-full cursor-col-resize z-[70] hover:bg-blue-500/30 transition-colors group-hover/sidebar:bg-white/5 active:bg-blue-500/50"
+      />
       <button
         onClick={onToggle}
         className="absolute -right-4 top-10 w-8 h-8 rounded-full bg-[#1e293b] border border-white/10 flex items-center justify-center text-kilang-text-muted hover:text-white hover:border-blue-500 shadow-xl z-[60] transition-all group"

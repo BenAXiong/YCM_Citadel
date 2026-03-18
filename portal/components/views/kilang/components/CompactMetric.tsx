@@ -9,16 +9,16 @@ interface CompactMetricProps {
 }
 
 export const CompactMetric = ({ icon, label, value, color, description }: CompactMetricProps) => {
-  const colorMap: any = { 
-    blue: 'text-blue-400', 
-    indigo: 'text-indigo-400', 
-    emerald: 'text-emerald-400', 
-    red: 'text-red-400', 
-    rose: 'text-rose-400' 
+  const colorMap: any = {
+    blue: 'text-blue-400',
+    indigo: 'text-indigo-400',
+    emerald: 'text-emerald-400',
+    red: 'text-red-400',
+    rose: 'text-rose-400'
   };
 
   return (
-    <div className="flex items-center gap-2.5 px-3 py-1.5 bg-white/[0.02] border border-white/10 rounded-xl hover:bg-white/[0.05] transition-all shrink-0 cursor-help group/metric relative" title={description}>
+    <div className="flex items-center gap-2.5 px-3 py-1.5 bg-white/[0.02] border border-white/10 rounded-xl hover:bg-white/[0.05] transition-all shrink-0 cursor-help group/metric relative min-w-[80px]" title={description}>
       <div className={`${colorMap[color] || 'text-blue-400'} opacity-70 group-hover/metric:opacity-100 transition-opacity`}>{icon}</div>
       <div className="flex flex-col">
         <span className="text-[7px] font-black uppercase tracking-widest leading-none mb-0.5 text-kilang-text-muted">{label}</span>

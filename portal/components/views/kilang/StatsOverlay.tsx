@@ -14,6 +14,7 @@ interface StatsOverlayProps {
   summaryCache: Record<string, string[]>;
   fetchSummary: (word: string) => Promise<void>;
   manifest: any;
+  sourceFilter: string;
 }
 
 export const StatsOverlay = ({
@@ -25,7 +26,8 @@ export const StatsOverlay = ({
   fetchRootDetails,
   summaryCache,
   fetchSummary,
-  manifest
+  manifest,
+  sourceFilter
 }: StatsOverlayProps) => {
   if (!showStatsOverlay) return null;
 
@@ -156,9 +158,15 @@ export const StatsOverlay = ({
                   if (manifest) {
                     const entries = Object.values(manifest);
                     if (entries.length > 0) {
-                      const maxDepth = Math.max(...entries.map((e: any) => e.d), 0);
-                      if (maxDepth >= 3) {
-                        const deepWords = entries.filter((e: any) => e.d === maxDepth);
+                      // Filter manifest entries by source if filter is active
+                      const filteredEntries = sourceFilter === 'ALL' 
+                        ? entries 
+                        : entries.filter((e: any) => e.src && e.src.split(',').includes(sourceFilter));
+
+                      if (filteredEntries.length > 0) {
+                        const currentMaxDepth = stats?.summary?.max_depth || Math.max(...filteredEntries.map((e: any) => e.d), 0);
+                        const deepWords = filteredEntries.filter((e: any) => e.d === currentMaxDepth);
+                        
                         deepWords.forEach((wordObj: any) => {
                           const path: string[] = [];
                           let curr = wordObj;

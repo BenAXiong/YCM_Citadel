@@ -67,8 +67,8 @@ export const KilangDesktopLayout = ({
         showAffixesOverlay={state.showAffixesOverlay}
         setMorphMode={(m) => dispatch({ type: 'SET_CONFIG', morphMode: m as any })}
         setSourceFilter={(s) => dispatch({ type: 'SET_CONFIG', sourceFilter: s })}
-        setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
-        setShowAffixesOverlay={(v) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
+        setShowStatsOverlay={(v: boolean) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
+        setShowAffixesOverlay={(v: boolean) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
         setDirection={(d) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
         setArrangement={(a) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
         setScale={(s) => {
@@ -132,7 +132,7 @@ export const KilangDesktopLayout = ({
         setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
         stats={stats}
         visibleChainsCount={visibleChainsCount}
-        setVisibleChainsCount={(c) => {
+        setVisibleChainsCount={(c: number | ((prev: number) => number)) => {
           const val = typeof c === 'function' ? c(visibleChainsCount) : c;
           dispatch({ type: 'SET_UI', visibleChainsCount: val });
         }}
@@ -140,6 +140,7 @@ export const KilangDesktopLayout = ({
         summaryCache={summaryCache}
         fetchSummary={fetchSummary}
         manifest={state.manifest}
+        sourceFilter={state.sourceFilter}
       />
 
       <AffixesOverlay

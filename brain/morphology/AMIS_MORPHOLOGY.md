@@ -44,4 +44,5 @@ This system is highly transferable. By running a similar "Autolink" pass over ou
 ---
 
 ## 🪵 Maintenance & Logs
-- [**`PSEUDO_ROOTS_LOG.md`**](../PSEUDO_ROOTS_LOG.md): Case studies on irregular dictionary chains (e.g., `KAMOKO'`).
+- [**`KILANG_ENGINE.md`**](KILANG_ENGINE.md): Detailed technical arch of the Weaver (Morph Engine).
+- [**`PSEUDO_ROOTS_LOG.md`**](../PSEUDO_ROOTS_LOG.md): Case studies of dictionary chain breaks.

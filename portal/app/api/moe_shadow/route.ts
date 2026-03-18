@@ -60,7 +60,17 @@ export async function GET(request: Request) {
             const isFiltered = sourceFilter && sourceFilter !== 'ALL';
             const sourceWhere = isFiltered ? `AND e.dict_code = '${sourceFilter}'` : '';
 
-            // 1. Top Roots for this source
+            // 1. Total Roots (uncapped) for this source
+            const totalRootsSql = `
+                SELECT COUNT(DISTINCT h.ultimate_root) as count
+                FROM ${tableName} h
+                ${isFiltered ? `JOIN moe_entries e ON RTRIM(e.word_ab, '|') = h.word_ab` : ''}
+                WHERE 1=1 ${sourceWhere}
+            `;
+            const totalRootsResult = db.prepare(totalRootsSql).get() as any;
+            const totalRoots = totalRootsResult.count;
+
+            // 2. Top Roots (for the list)
             const topRootsSql = `
                 SELECT h.ultimate_root as root, COUNT(*) as count
                 FROM ${tableName} h
@@ -72,7 +82,7 @@ export async function GET(request: Request) {
             `;
             const topRoots = db.prepare(topRootsSql).all() as any[];
 
-            // 2. Depth Distribution
+            // 3. Depth Distribution
             const depthSql = `
                 SELECT h.depth, COUNT(*) as count
                 FROM ${tableName} h
@@ -82,16 +92,29 @@ export async function GET(request: Request) {
             `;
             const depths = db.prepare(depthSql).all() as any[];
             const depthDist: Record<string, number> = {};
-            depths.forEach(d => depthDist[d.depth] = d.count);
+            let maxDepth = 0;
+            depths.forEach(d => {
+                depthDist[d.depth] = d.count;
+                if (d.depth > maxDepth) maxDepth = d.depth;
+            });
 
-            // 3. Summary
+            // 4. Summary
             const totalWords = Object.values(depthDist).reduce((a, b) => a + b, 0);
-            const totalRoots = topRoots.length;
+            const averageBranching = totalRoots > 0 ? (totalWords / totalRoots).toFixed(2) : 0;
+
+            // For global (unfiltered) stats, ensure we get the absolute max_depth from the table
+            let globalMaxDepth = maxDepth;
+            if (!isFiltered) {
+                const globalMaxResult = db.prepare(`SELECT MAX(depth) as max_d FROM ${tableName}`).get() as any;
+                globalMaxDepth = globalMaxResult.max_d || maxDepth;
+            }
 
             return NextResponse.json({
                 summary: {
                     total_roots: totalRoots,
                     total_words: totalWords,
+                    max_depth: globalMaxDepth,
+                    average_branching: Number(averageBranching)
                 },
                 top_roots: topRoots,
                 depth_distribution: depthDist
@@ -126,7 +149,8 @@ export async function GET(request: Request) {
 
             const bindParams: any[] = [keyword];
             
-            // Apply source filter if provided
+            /* 
+            // Apply source filter if provided - DISABLED for aggregate to preserve tree integrity
             if (sourceFilter && sourceFilter !== 'ALL') {
                 if (hasExtraColumns) {
                     // Optimized for moe_hierarchy_moe which has a 'sources' CSV column
@@ -138,9 +162,17 @@ export async function GET(request: Request) {
                     bindParams.push(sourceFilter);
                 }
             }
+            */
 
             const stmt = db.prepare(sql);
             const rows = stmt.all(...bindParams) as any[];
+            
+            // SECOND PASS: If rows were filtered out of the subtree, we might have disconnected nodes.
+            // Morphological trees should generally remain intact. 
+            // If the user is specifically inspecting a root, we should show the full lineage.
+            // UNLESS the user explicitly wants to see only source-specific matches.
+            // For Kilang visualizer, we prefer seeing the full tree once a root is clicked.
+            
             console.log(`[API/MOE] Mode: ${mode}, Table: ${tableName}, Results: ${rows.length} for "${keyword}" (Source: ${sourceFilter || 'ALL'})`);
             return NextResponse.json({ rows });
         }

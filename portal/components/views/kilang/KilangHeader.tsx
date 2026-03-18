@@ -317,6 +317,13 @@ export const KilangHeader = ({
         {stats && showStats && (
           <>
             <CompactMetric
+              icon={<TrendingUp className="w-3 h-3" />}
+              label="Flowers"
+              value={stats.summary.total_words}
+              color="rose"
+              description="Total vocabulary words mapped to established roots."
+            />
+            <CompactMetric
               icon={<Boxes className="w-3 h-3" />}
               label="Stems"
               value={stats.summary.total_roots}
@@ -324,18 +331,11 @@ export const KilangHeader = ({
               description="Total unique semantic roots identified in the database."
             />
             <CompactMetric
-              icon={<Activity className="w-3 h-3" />}
+              icon={<GitBranch className="w-3 h-3" />}
               label="Branching"
               value={stats.summary.average_branching}
               color="indigo"
               description="Average number of derived forms per semantic root."
-            />
-            <CompactMetric
-              icon={<TrendingUp className="w-3 h-3" />}
-              label="Flowers"
-              value={stats.summary.total_words}
-              color="rose"
-              description="Total vocabulary words mapped to established roots."
             />
             <CompactMetric
               icon={<Maximize2 className="w-3 h-3" />}
