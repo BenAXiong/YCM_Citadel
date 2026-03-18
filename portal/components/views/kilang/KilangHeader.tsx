@@ -126,8 +126,13 @@ export const KilangHeader = ({
           onClick={() => dispatch({ type: 'SET_ROOT', root: null })}
           className="flex items-center gap-3 group cursor-pointer hover:opacity-80 active:scale-95 transition-all outline-none"
         >
-          <div className="w-9 h-9 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-blue-500/20 transition-all">
-            <GitBranch className="text-white w-5 h-5 focus-visible:ring-0" />
+          <div className="w-14 h-14 relative flex items-center justify-center group-hover:scale-110 transition-all duration-300">
+            <div className="absolute inset-0 bg-blue-500/20 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
+            <img 
+              src="/kilang/Kilang_5_nobg.png" 
+              alt="Kilang Logo" 
+              className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(59,130,246,0.6)]"
+            />
           </div>
           <div className="flex flex-col text-left">
             <div className="flex items-center gap-2">

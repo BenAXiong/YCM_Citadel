@@ -73,8 +73,12 @@ export const KilangMobileLayout = ({
           >
             <Search className="w-5 h-5" />
           </button>
-          <div className="flex flex-col">
-            <span className="text-[10px] font-black text-blue-500 uppercase tracking-widest leading-none">Kilang</span>
+          <div className="flex items-center gap-2">
+            <img 
+              src="/kilang/Kilang_5_nobg.png" 
+              alt="Kilang" 
+              className="w-11 h-11 object-contain drop-shadow-[0_0_10px_rgba(59,130,246,0.4)]"
+            />
             <span className="text-xs font-bold text-white truncate max-w-[120px]">
               {selectedRoot || 'Select Root'}
             </span>
