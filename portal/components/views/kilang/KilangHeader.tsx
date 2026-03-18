@@ -65,6 +65,7 @@ interface KilangHeaderProps {
   showDevTools: boolean;
   showFilterPanel: boolean;
   showPerfMonitor: boolean;
+  showThemeBar: boolean;
   dispatch: any;
 }
 
@@ -97,6 +98,7 @@ export const KilangHeader = ({
   showDevTools,
   showFilterPanel,
   showPerfMonitor,
+  showThemeBar,
   dispatch
 }: KilangHeaderProps) => {
   const [showSettings, setShowSettings] = React.useState(false);
@@ -448,6 +450,12 @@ export const KilangHeader = ({
                           goal="Monitor real-time engine performance and frame rate (FPS)."
                           isOn={showPerfMonitor}
                           onClick={() => dispatch({ type: 'SET_UI', showPerfMonitor: !showPerfMonitor })}
+                        />
+                        <DevToolItem
+                          label="Theme Bar"
+                          goal="Toggle the visual aesthetics and landing view customization panel."
+                          isOn={showThemeBar}
+                          onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !showThemeBar })}
                         />
                         <DevToolItem
                           label="Gravity Debug"

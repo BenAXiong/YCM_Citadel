@@ -4,6 +4,7 @@ import React from 'react';
 import { KilangHeader } from './KilangHeader';
 import { KilangSidebar } from './KilangSidebar';
 import { KilangCanvas } from './KilangCanvas';
+import { ThemeBar } from './components/ThemeBar';
 import { StatsOverlay } from './StatsOverlay';
 import { AffixesOverlay } from './AffixesOverlay';
 import { KilangState, KilangAction } from './kilangReducer';
@@ -53,7 +54,10 @@ export const KilangDesktopLayout = ({
   } = state;
 
   return (
-    <div className="kilang-container flex flex-col h-screen overflow-hidden">
+    <div 
+      className="kilang-container flex flex-col h-screen overflow-hidden"
+      style={{ '--sidebar-width': `${state.sidebarWidth}px` } as React.CSSProperties}
+    >
       <KilangHeader
         stats={stats}
         selectedRoot={selectedRoot}
@@ -86,6 +90,7 @@ export const KilangDesktopLayout = ({
         showDevTools={state.showDevTools}
         showFilterPanel={state.showFilterPanel}
         showPerfMonitor={state.showPerfMonitor}
+        showThemeBar={state.showThemeBar}
         dispatch={dispatch}
       />
 
@@ -148,6 +153,13 @@ export const KilangDesktopLayout = ({
         setShowAffixesOverlay={(v) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
         summaryCache={state.summaryCache}
         fetchSummary={fetchSummary}
+      />
+
+      <ThemeBar
+        show={state.showThemeBar}
+        onClose={() => dispatch({ type: 'SET_UI', showThemeBar: false })}
+        landingVersion={state.landingVersion}
+        setLandingVersion={(v) => dispatch({ type: 'SET_UI', landingVersion: v })}
       />
     </div>
   );

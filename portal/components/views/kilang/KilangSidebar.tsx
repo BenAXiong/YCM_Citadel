@@ -56,6 +56,11 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
     loadBookmark
   } = useKilangBookmarks(selectedRoot, rootData, dispatch);
 
+  const containerRef = React.useRef<HTMLElement | null>(null);
+  React.useEffect(() => {
+    containerRef.current = document.querySelector('.kilang-container');
+  }, []);
+
   const {
     customInput,
     setCustomInput,
@@ -78,12 +83,18 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
     const handleMouseMove = (moveEvent: MouseEvent) => {
       const newWidth = startWidth + (moveEvent.pageX - startX);
       if (newWidth >= 260 && newWidth <= 600) {
-        dispatch({ type: 'SET_SIDEBAR_WIDTH', width: newWidth });
+        if (containerRef.current) {
+          containerRef.current.style.setProperty('--sidebar-width', `${newWidth}px`);
+        }
       }
     };
 
-    const handleMouseUp = () => {
+    const handleMouseUp = (endEvent: MouseEvent) => {
       setIsResizing(false);
+      const finalWidth = startWidth + (endEvent.pageX - startX);
+      const constrainedWidth = Math.max(260, Math.min(600, finalWidth));
+      dispatch({ type: 'SET_SIDEBAR_WIDTH', width: constrainedWidth });
+      
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
       document.body.style.cursor = 'default';
@@ -126,7 +137,7 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
   return (
     <aside 
       className={`border-r border-white/5 flex flex-col kilang-glass-panel relative group/sidebar ${isResizing ? '' : 'transition-all duration-300'}`}
-      style={{ width: `${sidebarWidth}px` }}
+      style={{ width: 'var(--sidebar-width)' } as React.CSSProperties}
     >
       {/* Resizer Handle */}
       <div

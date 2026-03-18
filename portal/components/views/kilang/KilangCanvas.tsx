@@ -16,6 +16,7 @@ import { KilangAction, KilangState } from './kilangReducer';
 // Extracted Components
 import { PerformanceMonitor } from './components/PerformanceMonitor';
 import { LineageCanvas } from './components/LineageCanvas';
+import { KilangLanding } from './components/KilangLanding';
 
 interface KilangCanvasProps {
   selectedRoot: string | null;
@@ -348,41 +349,12 @@ export const KilangCanvas = ({
               </div>
             </div>
           ) : (
-            <div className="h-full flex flex-col items-center justify-center p-20 text-center space-y-8">
-              <div className="w-24 h-24 bg-blue-500/10 rounded-full flex items-center justify-center border border-blue-500/20">
-                <TreePine className="w-12 h-12 text-blue-500/40" />
-              </div>
-              <div className="max-w-md space-y-4">
-                <h3 className="text-2xl font-black text-white uppercase tracking-widest">Semantic Root Forest</h3>
-                <p className="text-kilang-text-muted leading-relaxed">Select a root from the left panel to visualize its morphological evolution and semantic growth patterns.</p>
-                <p className="text-kilang-text-muted leading-relaxed">Custom trees can be planted and saved using the custom tab.</p>
-                <div className="space-y-4 pt-4">
-                  <div className="space-y-2">
-                    <div className="text-[8px] font-black uppercase tracking-[0.2em] text-blue-400 opacity-60">Top Branching</div>
-                    <div className="flex flex-wrap justify-center gap-2">
-                      {(stats?.top_roots || []).slice(0, 5).map((r: any) => (
-                        <button key={r.root} onClick={() => fetchRootDetails(r.root)} className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-[10px] font-black hover:bg-white/10 text-white/60 transition-all hover:text-white hover:border-blue-500/30">
-                          {r.root}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-
-                  {deepRoots.length > 0 && (
-                    <div className="space-y-2">
-                      <div className="text-[8px] font-black uppercase tracking-[0.2em] text-emerald-400 opacity-60">Top Depth</div>
-                      <div className="flex flex-wrap justify-center gap-2">
-                        {deepRoots.map((root) => (
-                          <button key={root} onClick={() => fetchRootDetails(root)} className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-[10px] font-black hover:bg-white/10 text-white/60 transition-all hover:text-white hover:border-emerald-500/30">
-                            {root}
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
+            <KilangLanding
+              version={value.state.landingVersion || 1}
+              stats={stats}
+              deepRoots={deepRoots}
+              fetchRootDetails={fetchRootDetails}
+            />
           )}
 
           {/* Chain Inscription Overlay */}
