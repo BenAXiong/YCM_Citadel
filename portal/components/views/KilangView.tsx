@@ -37,9 +37,11 @@ export default function KilangView() {
 
   const MOE_SOURCES = [
     { id: 'ALL', label: 'ALL SOURCES' },
-    { id: 's', label: 'Tsai (s)' },
-    { id: 'p', label: 'Pangcah (p)' },
-    { id: 'm', label: 'MoE Mac (m)' },
+    { id: 'p', label: '蔡中涵 (p)' },
+    { id: 'm', label: '吳明義 (m)' },
+    { id: 's', label: '學習詞表 (s)' },
+    { id: 'a', label: '原住民族 (a)' },
+    { id: 'old-s', label: 'Old-S (Legacy)' },
   ];
 
   const FILTER_BUCKETS = [
@@ -136,6 +138,7 @@ export default function KilangView() {
     bucketHits,
     FILTER_BUCKETS,
     MOE_SOURCES,
+    sourceCounts: state.sourceCounts,
     handleExport,
     treeRef,
   };

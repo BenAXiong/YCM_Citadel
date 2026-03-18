@@ -35,16 +35,16 @@ export const LineageCanvas = React.memo(({
 
   return (
     <svg
-      width="2000"
-      height="2000"
-      viewBox="0 0 2000 2000"
+      width="4000"
+      height="4000"
+      viewBox="0 0 4000 4000"
       className="absolute inset-0 pointer-events-none z-0 overflow-visible"
     >
       <defs>
         <linearGradient
           id="lineageGradient"
           gradientUnits="userSpaceOnUse"
-          x1="0" y1="0" x2="2000" y2="2000"
+          x1="0" y1="0" x2="4000" y2="4000"
         >
           <stop offset="0%" stopColor={layoutConfig.lineColor} stopOpacity="0.4" />
           <stop offset="50%" stopColor={layoutConfig.lineColorMid} stopOpacity="0.4" />

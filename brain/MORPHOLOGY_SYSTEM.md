@@ -44,3 +44,8 @@ The "Smart Match" logic behind the markers is effectively a **Longest-Match-Firs
 4.  **Formatting**: The final output often looks like `` `surface`root~ `` where the `root` is the target for search/tooltips, while `surface` is what the user sees.
 
 **Goal**: Port this logic to our **VS-1/VS-2** datasets to automatically link sentences to the Master Vocabulary.
+
+---
+
+## 🧪 Data Integrity & Debugging
+- [**`PSEUDO_ROOTS_LOG.md`**](PSEUDO_ROOTS_LOG.md): Tracking cases where dictionaries skip intermediate morphological steps.

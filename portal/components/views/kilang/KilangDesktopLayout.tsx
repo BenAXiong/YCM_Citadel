@@ -80,6 +80,7 @@ export const KilangDesktopLayout = ({
         updateLayoutConfig={(config) => dispatch({ type: 'SET_LAYOUT_CONFIG', config })}
         handleExport={handleExport}
         MOE_SOURCES={MOE_SOURCES}
+        sourceCounts={state.sourceCounts}
         showStats={state.showStats}
         showDimensions={state.showDimensions}
         showDevTools={state.showDevTools}

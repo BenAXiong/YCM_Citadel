@@ -19,6 +19,7 @@ export interface KilangState {
   selectedRoot: string | null;
   rootData: any | null;
   summaryCache: Record<string, string[]>;
+  sourceCounts: Record<string, number>;
   customData: any[] | null;
 
   // Configuration
@@ -91,6 +92,7 @@ export type KilangAction =
   | { type: 'SET_ROOT'; root: string }
   | { type: 'SET_ROOT_DATA'; data: any }
   | { type: 'SET_SUMMARY'; word: string; definitions: string[] }
+  | { type: 'SET_SOURCE_COUNTS'; counts: Record<string, number>; total: number }
   | { type: 'SET_CUSTOM_DATA'; data: any | null }
   | { type: 'SET_CONFIG'; morphMode?: MorphMode; sourceFilter?: string }
   | { type: 'SET_LAYOUT'; direction?: LayoutDirection; arrangement?: LayoutArrangement }
@@ -111,6 +113,7 @@ export const initialState: KilangState = {
   rootData: null,
   customData: null,
   summaryCache: {},
+  sourceCounts: {},
   morphMode: 'plus', //strict = moe
   sourceFilter: 'ALL',
   direction: 'horizontal',
@@ -190,6 +193,15 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return {
         ...state,
         summaryCache: { ...state.summaryCache, [action.word.toLowerCase()]: action.definitions }
+      };
+    case 'SET_SOURCE_COUNTS':
+      return {
+        ...state,
+        sourceCounts: action.counts,
+        stats: state.stats ? { 
+          ...state.stats, 
+          summary: { ...state.stats.summary, total_words: action.total } 
+        } : null
       };
     case 'SET_CUSTOM_DATA':
       return {

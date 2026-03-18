@@ -12,6 +12,91 @@ export async function GET(request: Request) {
         const aggregate = searchParams.get('aggregate') === 'true';
         const exact = searchParams.get('exact') === 'true';
         const sourceFilter = searchParams.get('source');
+        const showCounts = searchParams.get('counts') === 'true';
+        const showStats = searchParams.get('stats') === 'true';
+
+        if (showCounts) {
+            // Count total entries per dict
+            const entryCounts = db.prepare(`
+                SELECT dict_code, COUNT(*) as count 
+                FROM moe_entries 
+                GROUP BY dict_code
+            `).all() as any[];
+            
+            // Count "Roots" (depth=1 in moe_hierarchy_moe) per dict
+            // We join with moe_entries to get the dict_code because h.sources is a string list and less reliable for exact counts
+            const rootCounts = db.prepare(`
+                SELECT e.dict_code, COUNT(DISTINCT e.word_ab) as count
+                FROM moe_entries e
+                JOIN moe_hierarchy_moe h ON RTRIM(e.word_ab, '|') = h.word_ab
+                WHERE h.depth = 1
+                GROUP BY e.dict_code
+            `).all() as any[];
+            
+            const totalEntries = db.prepare(`SELECT COUNT(*) as count FROM moe_entries`).get() as any;
+            const totalRoots = db.prepare(`SELECT COUNT(*) as count FROM moe_hierarchy_moe WHERE depth = 1`).get() as any;
+            
+            const countsMap: Record<string, { r: number; e: number }> = {};
+            entryCounts.forEach(c => {
+                if (!countsMap[c.dict_code]) countsMap[c.dict_code] = { r: 0, e: 0 };
+                countsMap[c.dict_code].e = c.count;
+            });
+            rootCounts.forEach(c => {
+                if (!countsMap[c.dict_code]) countsMap[c.dict_code] = { r: 0, e: 0 };
+                countsMap[c.dict_code].r = c.count;
+            });
+
+            return NextResponse.json({ 
+                counts: countsMap,
+                total: { r: totalRoots.count, e: totalEntries.count }
+            });
+        }
+
+        if (showStats) {
+            const tableName = mode === 'moe' ? 'moe_hierarchy_moe' :
+                mode === 'star' ? 'moe_hierarchy_star' :
+                    'moe_hierarchy_plus';
+            
+            const isFiltered = sourceFilter && sourceFilter !== 'ALL';
+            const sourceWhere = isFiltered ? `AND e.dict_code = '${sourceFilter}'` : '';
+
+            // 1. Top Roots for this source
+            const topRootsSql = `
+                SELECT h.ultimate_root as root, COUNT(*) as count
+                FROM ${tableName} h
+                ${isFiltered ? `JOIN moe_entries e ON RTRIM(e.word_ab, '|') = h.word_ab` : ''}
+                WHERE 1=1 ${sourceWhere}
+                GROUP BY h.ultimate_root
+                ORDER BY count DESC
+                LIMIT 100
+            `;
+            const topRoots = db.prepare(topRootsSql).all() as any[];
+
+            // 2. Depth Distribution
+            const depthSql = `
+                SELECT h.depth, COUNT(*) as count
+                FROM ${tableName} h
+                ${isFiltered ? `JOIN moe_entries e ON RTRIM(e.word_ab, '|') = h.word_ab` : ''}
+                WHERE 1=1 ${sourceWhere}
+                GROUP BY h.depth
+            `;
+            const depths = db.prepare(depthSql).all() as any[];
+            const depthDist: Record<string, number> = {};
+            depths.forEach(d => depthDist[d.depth] = d.count);
+
+            // 3. Summary
+            const totalWords = Object.values(depthDist).reduce((a, b) => a + b, 0);
+            const totalRoots = topRoots.length;
+
+            return NextResponse.json({
+                summary: {
+                    total_roots: totalRoots,
+                    total_words: totalWords,
+                },
+                top_roots: topRoots,
+                depth_distribution: depthDist
+            });
+        }
 
         const tableName = mode === 'moe' ? 'moe_hierarchy_moe' :
             mode === 'star' ? 'moe_hierarchy_star' :
@@ -26,22 +111,37 @@ export async function GET(request: Request) {
             const hasExtraColumns = (tableName === 'moe_hierarchy_moe');
 
             let sql = `
+                WITH RECURSIVE subtree(word_ab) AS (
+                    SELECT word_ab FROM ${tableName} WHERE LOWER(word_ab) = LOWER(?)
+                    UNION ALL
+                    SELECT h.word_ab FROM ${tableName} h JOIN subtree s ON h.parent_word = s.word_ab
+                )
                 SELECT e.*, h.parent_word, h.ultimate_root, h.depth as tier
                 ${hasExtraColumns ? ', h.sort_path, h.sources' : ''}
-                FROM moe_entries e
-                JOIN ${tableName} h ON RTRIM(e.word_ab, '|') = h.word_ab
-                WHERE LOWER(h.ultimate_root) = LOWER(?)
+                FROM subtree s
+                JOIN ${tableName} h ON s.word_ab = h.word_ab
+                JOIN moe_entries e ON RTRIM(e.word_ab, '|') = h.word_ab
+                WHERE 1=1
             `;
 
             const bindParams: any[] = [keyword];
-            if (sourceFilter && sourceFilter !== 'ALL' && hasExtraColumns) {
-                sql += ` AND h.sources LIKE ?`;
-                bindParams.push(`%${sourceFilter}%`);
+            
+            // Apply source filter if provided
+            if (sourceFilter && sourceFilter !== 'ALL') {
+                if (hasExtraColumns) {
+                    // Optimized for moe_hierarchy_moe which has a 'sources' CSV column
+                    sql += ` AND h.sources LIKE ?`;
+                    bindParams.push(`%${sourceFilter}%`);
+                } else {
+                    // Fallback to joining with moe_entries for plus/star modes
+                    sql += ` AND e.dict_code = ?`;
+                    bindParams.push(sourceFilter);
+                }
             }
 
             const stmt = db.prepare(sql);
             const rows = stmt.all(...bindParams) as any[];
-            console.log(`[API/MOE] Mode: ${mode}, Table: ${tableName}, Results: ${rows.length} for "${keyword}"`);
+            console.log(`[API/MOE] Mode: ${mode}, Table: ${tableName}, Results: ${rows.length} for "${keyword}" (Source: ${sourceFilter || 'ALL'})`);
             return NextResponse.json({ rows });
         }
 

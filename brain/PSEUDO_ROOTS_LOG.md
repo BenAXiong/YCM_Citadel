@@ -12,8 +12,17 @@ The current morphological index (`stem-words.json`) contains "Pseudo-Roots". The
   - *Reality*: `sapimaan` is a complex word derived from `maan`.
 - **`alomaylay`**: Acts as a root in some contexts.
   - *Reality*: Derived from `alomay`.
+- **`sakamoko'ay`**: Linked directly to `kamoko'` in dictionary.
+  - *Reality*: Nests under `sakamoko'` (Intermediate Stem) in our analyzer.
 
-## 3. Root Cause
+## 3. Case Study: The KAMOKO' Nested Hierarchy
+In **March 2026**, we identified a conflict between the raw MOE `stem` metadata and our recursive analyzer:
+*   **Dictionary View**: `kamoko'` -> `sakamoko'ay` (Direct / N+1)
+*   **Citadel Analyzer View**: `kamoko'` -> `sakamoko'` -> `sakamoko'ay` (Nested / N+2)
+
+**Decision**: We prioritize **Recursive Nesting** in the Kilang Canvas to reflect true morphological evolution, even if the source dictionary treats the intermediate form as "stable" or skips it.
+
+## 4. Root Cause
 The original MoEDICT scraper/indexator breaks the recursive chain when it encounters "stable" complex forms that are used as heads in phrases. It treats these stable derivatives as their own dictionary start-points rather than traversing back to the ultimate core root.
 
 ## 4. Remediation Plan

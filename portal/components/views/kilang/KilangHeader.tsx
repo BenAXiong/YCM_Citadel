@@ -59,6 +59,7 @@ interface KilangHeaderProps {
   updateLayoutConfig: (config: Partial<KilangState['layoutConfig']>) => void;
   handleExport: () => Promise<void>;
   MOE_SOURCES: Array<{ id: string; label: string }>;
+  sourceCounts: Record<string, { r: number; e: number }>;
   showStats: boolean;
   showDimensions: boolean;
   showDevTools: boolean;
@@ -90,6 +91,7 @@ export const KilangHeader = ({
   updateLayoutConfig,
   handleExport,
   MOE_SOURCES,
+  sourceCounts,
   showStats,
   showDimensions,
   showDevTools,
@@ -157,20 +159,41 @@ export const KilangHeader = ({
                     </div>
                   </button>
 
-                  <div className="absolute top-full left-0 mt-1 w-48 bg-[#0f172a] border border-white/10 rounded-xl shadow-2xl p-1 hidden group-hover:block z-[3000] animate-in fade-in duration-200">
-                    {MOE_SOURCES.map((s: { id: string; label: string }) => (
-                      <button
-                        key={s.id}
-                        onClick={() => {
-                          setSourceFilter(s.id);
-                          setMorphMode('moe');
-                        }}
-                        className={`w-full text-left px-4 py-2 rounded-lg text-[9px] font-black tracking-widest uppercase transition-all ${sourceFilter === s.id && morphMode === 'moe' ? 'bg-blue-600 text-white' : 'text-kilang-text-muted hover:bg-white/5 hover:text-white'}`}
-                      >
-                        {s.label}
-                      </button>
-                    ))}
-                  </div>
+                    <div className="absolute top-full left-0 mt-1 w-56 bg-[#0f172a]/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] p-1 hidden group-hover:block z-[3000] animate-in fade-in slide-in-from-top-2 duration-200">
+                      {MOE_SOURCES.map((s: { id: string; label: string }) => {
+                        const colors: Record<string, string> = {
+                          'p': 'bg-[#3366cc]',
+                          'm': 'bg-[#c07b0c]',
+                          's': 'bg-[#e53e3e]',
+                          'a': 'bg-[#8e44ad]',
+                          'old-s': 'bg-[#718096]',
+                          'ALL': 'bg-blue-600'
+                        };
+                        const isActive = sourceFilter === s.id && morphMode === 'moe';
+                        return (
+                          <button
+                            key={s.id}
+                            onClick={() => {
+                              setSourceFilter(s.id);
+                              setMorphMode('moe');
+                            }}
+                            className={`w-full text-left px-3 py-2 rounded-lg text-[9px] font-black tracking-widest uppercase transition-all flex items-center gap-3 ${isActive ? `${colors[s.id] || 'bg-blue-600'} text-white shadow-lg` : 'text-kilang-text-muted hover:bg-white/5 hover:text-white'}`}
+                          >
+                            <div className={`w-2 h-2 rounded-full ${colors[s.id] || 'bg-white/20'} ${isActive ? 'ring-2 ring-white/30' : ''}`} />
+                            <span className="flex-1">{s.label}</span>
+                            <span className={`text-[8px] font-mono px-1.5 py-0.5 rounded ${isActive ? 'bg-white/20 text-white' : 'bg-white/5 text-kilang-text-muted'}`}>
+                              {s.id === 'ALL' 
+                                ? `${Object.values(sourceCounts).reduce((a, b: any) => a + (b.r || 0), 0).toLocaleString()}/${Object.values(sourceCounts).reduce((a, b: any) => a + (b.e || 0), 0).toLocaleString()}` 
+                                : sourceCounts[s.id] 
+                                    ? `${sourceCounts[s.id].r.toLocaleString()}/${sourceCounts[s.id].e.toLocaleString()}` 
+                                    : '.../...'
+                              }
+                            </span>
+                            {isActive && <div className="w-1 h-1 rounded-full bg-white animate-pulse" />}
+                          </button>
+                        );
+                      })}
+                    </div>
                 </div>
               );
             }

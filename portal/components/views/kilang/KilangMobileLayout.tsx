@@ -26,6 +26,7 @@ interface KilangMobileLayoutProps {
   bucketHits: Record<string, number>;
   FILTER_BUCKETS: any[];
   MOE_SOURCES: any[];
+  sourceCounts: Record<string, { r: number; e: number }>;
   handleExport: () => Promise<void>;
   treeRef: React.RefObject<HTMLDivElement | null>;
 }
@@ -40,6 +41,7 @@ export const KilangMobileLayout = ({
   bucketHits,
   FILTER_BUCKETS,
   MOE_SOURCES,
+  sourceCounts,
   handleExport,
   treeRef,
 }: KilangMobileLayoutProps) => {
@@ -56,6 +58,7 @@ export const KilangMobileLayout = ({
     scale,
     isFit,
     morphMode,
+    sourceFilter,
     searchTerm,
   } = state;
 
@@ -234,6 +237,39 @@ export const KilangMobileLayout = ({
                   ))}
                 </div>
               </section>
+
+              {/* MOE Source Filter (Only visible if MoE mode is selected) */}
+              {morphMode === 'moe' && (
+                <section className="animate-in fade-in slide-in-from-top-2 duration-300">
+                  <div className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-3">MoE Source Filter</div>
+                  <div className="flex flex-wrap gap-2">
+                    {MOE_SOURCES.map((s) => {
+                       const isActive = sourceFilter === s.id;
+                       return (
+                        <button
+                          key={s.id}
+                          onClick={() => dispatch({ type: 'SET_CONFIG', sourceFilter: s.id })}
+                          className={`px-4 py-2 rounded-xl border font-bold text-[10px] uppercase tracking-widest transition-all flex items-center gap-2 ${
+                            isActive 
+                              ? 'bg-blue-600 border-blue-400 text-white shadow-lg shadow-blue-500/20' 
+                              : 'bg-white/5 border-white/5 text-white/40 hover:text-white'
+                          }`}
+                        >
+                          <span>{s.label}</span>
+                          <span className={`opacity-40 font-mono text-[8px] ${isActive ? 'text-white' : ''}`}>
+                            ({s.id === 'ALL' 
+                              ? `${Object.values(sourceCounts || {}).reduce((a, b: any) => a + (b.r || 0), 0).toLocaleString()}/${Object.values(sourceCounts || {}).reduce((a, b: any) => a + (b.e || 0), 0).toLocaleString()}` 
+                              : sourceCounts?.[s.id] 
+                                  ? `${sourceCounts[s.id].r.toLocaleString()}/${sourceCounts[s.id].e.toLocaleString()}` 
+                                  : '.../...'
+                            })
+                          </span>
+                        </button>
+                       );
+                    })}
+                  </div>
+                </section>
+              )}
 
               {/* Layout Control */}
               <section>

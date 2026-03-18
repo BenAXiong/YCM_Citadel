@@ -36,10 +36,16 @@
 
 ---
 
-## 🧬 Analysis & NLP
+| [**`PSEUDO_ROOTS_LOG.md`**](PSEUDO_ROOTS_LOG.md) | 📌 | 2026-03-18 | Case studies of dictionary chain breaks | **Morphology Audit** |
+
+---
+
+## 🧬 Analysis, NLP & Morphology
 
 | File | Status | Last Updated | Description | Notes |
 |---|---|---|---|---|
+| [**`MORPHOLOGY_SYSTEM.md`**](MORPHOLOGY_SYSTEM.md) | 📌 | 2026-03-11 | Roadmap for the 16-language Morph Engine | **Analysis Anchor** |
+| [**`MORPHOLOGY_STATS.md`**](MORPHOLOGY_STATS.md) | 📊 | 2026-03-17 | Distribution analysis of Amis tiers/depth | **New Report** |
 | [**`plan_rosetta.md`**](analysis_nlp/plan_rosetta.md) | 📌 | 2026-03-10 | EN Translation Strategy: Strategy, Batches, & Engine Choice | **Consolidated Rosetta Hub** |
 | [**`phonetic_drift_report.md`**](analysis_nlp/phonetic_drift_report.md) | 📌 | 2026-03-07 | Phonetic drift laws (u/o axis, q/h split, l/r triad) | From 1,367-rule matrix |
 | [**`klokah_data_pollution_issue.md`**](analysis_nlp/klokah_data_pollution_issue.md) | 📌 | 2026-03-10 | Report on cross-language contamination | **Target for Phase 10 Fixes** |

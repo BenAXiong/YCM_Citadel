@@ -40,3 +40,8 @@ Our investigation of the `g0v/amis-moedict` source code reveals that these marke
 
 ### Transferability:
 This system is highly transferable. By running a similar "Autolink" pass over our **VS-1/VS-2** sentence corpus using the **Sovereign ILRDF Vocabulary**, we can turn any static sentence into an interactive, clickable grammar map.
+
+---
+
+## 🪵 Maintenance & Logs
+- [**`PSEUDO_ROOTS_LOG.md`**](../PSEUDO_ROOTS_LOG.md): Case studies on irregular dictionary chains (e.g., `KAMOKO'`).

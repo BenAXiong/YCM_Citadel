@@ -22,10 +22,14 @@ export const useKilang = () => {
 
     Promise.all([
       fetch(statsFile).then(res => { if (!res.ok) throw new Error('Stats fetch failed'); return res.json(); }),
-      fetch(manifestFile).then(res => { if (!res.ok) throw new Error('Manifest fetch failed'); return res.json(); })
+      fetch(manifestFile).then(res => { if (!res.ok) throw new Error('Manifest fetch failed'); return res.json(); }),
+      fetch('/api/moe_shadow?counts=true').then(res => res.json())
     ])
-      .then(([stats, manifest]) => {
+      .then(([stats, manifest, countsData]) => {
         dispatch({ type: 'SET_GLOBAL_DATA', stats, manifest });
+        if (countsData.counts) {
+          dispatch({ type: 'SET_SOURCE_COUNTS', counts: countsData.counts, total: countsData.total });
+        }
       })
       .catch(err => {
         console.error('Initial data fetch error:', err);
@@ -87,6 +91,33 @@ export const useKilang = () => {
       });
     }
   }, [state.morphMode, state.sourceFilter]);
+
+  // 2b. Auto-refetch when filters change
+  useEffect(() => {
+    // 1. Refetch Root if one is selected
+    if (state.selectedRoot) {
+      fetchRootDetails(state.selectedRoot);
+    }
+    
+    // 2. Refetch Stats if source is filtered
+    if (state.sourceFilter !== 'ALL') {
+      fetch(`/api/moe_shadow?stats=true&source=${state.sourceFilter}&mode=${state.morphMode}`)
+        .then(res => res.json())
+        .then(data => {
+            dispatch({ type: 'SET_GLOBAL_DATA', stats: data, manifest: state.manifest });
+        })
+        .catch(err => console.error("[Hook] Source-Stats Fetch Error:", err));
+    } else {
+        // Fallback to static JSON if ALL is selected
+        const statsFile = `/data/moe_stats_${state.morphMode}.json`;
+        fetch(statsFile)
+            .then(res => res.json())
+            .then(data => {
+                dispatch({ type: 'SET_GLOBAL_DATA', stats: data, manifest: state.manifest });
+            })
+            .catch(err => console.error("[Hook] Global-Stats Fetch Error:", err));
+    }
+  }, [state.sourceFilter, state.morphMode]);
 
   // 3. Word Tooltip Summaries
   const fetchSummary = useCallback(async (word: string) => {

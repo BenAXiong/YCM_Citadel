@@ -222,7 +222,7 @@ export const KilangCanvas = ({
           {selectedRoot ? (
             <div
               ref={treeRef}
-              className="flex-1 overflow-auto no-scrollbar bg-[#020617]/40 relative p-32 scroll-smooth"
+              className="flex-1 overflow-auto custom-scrollbar bg-[#020617]/40 relative p-32 scroll-smooth"
               onClick={() => dispatch({ type: 'SET_CANVAS_SELECT', node: null })}
             >
               {rootData?.error && (
