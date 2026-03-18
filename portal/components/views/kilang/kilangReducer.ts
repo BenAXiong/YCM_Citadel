@@ -106,6 +106,7 @@ export type KilangAction =
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
   | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; showThemeBar?: boolean; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, { scale?: number; radius?: number; xOffset?: number; opacity?: number; glowIntensity?: number; glowColor?: string }>; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
+  | { type: 'RESET_LOGO_SETTINGS'; version: number }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'SET_SIDEBAR_WIDTH'; width: number }
@@ -123,11 +124,11 @@ export const initialState: KilangState = {
   sidebarWidth: 328, // w-82 equivalent
   showThemeBar: true,
   landingVersion: 1,
-  logoStyles: { 1: 'original', 2: 'original', 3: 'original' },
-  logoSettings: { 
-    1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0.3, glowColor: '#3b82f6' }, 
-    2: { scale: 1.5, radius: 45, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: '#3b82f6' }, 
-    3: { scale: 1.1, radius: 45, xOffset: 0, opacity: 0.8, glowIntensity: 0.1, glowColor: '#3b82f6' } 
+  logoStyles: { 1: 'square', 2: 'round', 3: 'round' },
+  logoSettings: {
+    1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: '#d9dc1e' },
+    2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: '#3b82f6' },
+    3: { scale: 1.6, radius: 44, xOffset: -320, opacity: 0.6, glowIntensity: 0.1, glowColor: '#3b82f6' }
   },
   morphMode: 'plus', //strict = moe
   sourceFilter: 'ALL',
@@ -278,19 +279,32 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
           anchorY: modeDefaults.y
         }
       };
+    case 'RESET_LOGO_SETTINGS':
+      const logoDefaults: Record<number, any> = {
+        1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: '#d9dc1e' },
+        2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: '#3b82f6' },
+        3: { scale: 1.6, radius: 44, xOffset: -320, opacity: 0.6, glowIntensity: 0.1, glowColor: '#3b82f6' }
+      };
+      return {
+        ...state,
+        logoSettings: {
+          ...state.logoSettings,
+          [action.version]: logoDefaults[action.version]
+        }
+      };
     case 'SET_UI':
       if (action.logoStyles || action.logoSettings) {
         const nextSettings = { ...state.logoSettings };
         if (action.logoSettings) {
-           Object.keys(action.logoSettings).forEach(v => {
-             const ver = Number(v);
-             nextSettings[ver] = { ...nextSettings[ver], ...action.logoSettings![ver] as any };
-           });
+          Object.keys(action.logoSettings).forEach(v => {
+            const ver = Number(v);
+            nextSettings[ver] = { ...nextSettings[ver], ...action.logoSettings![ver] as any };
+          });
         }
-        
+
         // Remove logoSettings from action before spread to avoid overwriting nextSettings with partial
         const { logoSettings: _, ...restAction } = action;
-        
+
         return {
           ...state,
           ...(restAction as any),

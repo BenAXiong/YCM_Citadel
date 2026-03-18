@@ -11,7 +11,8 @@ import {
   Sidebar as SidebarIcon,
   CircleDot,
   Square,
-  Aperture
+  Aperture,
+  RotateCcw
 } from 'lucide-react';
 
 interface ThemeBarProps {
@@ -23,6 +24,7 @@ interface ThemeBarProps {
   setLogoStyle: (s: 'original' | 'square' | 'round') => void;
   logoSettings: { scale: number; radius: number; xOffset: number; opacity: number; glowIntensity: number; glowColor: string };
   updateLogoSettings: (settings: { scale?: number; radius?: number; xOffset?: number; opacity?: number; glowIntensity?: number; glowColor?: string }) => void;
+  resetLogoSettings: () => void;
 }
 
 export const ThemeBar = ({
@@ -33,14 +35,15 @@ export const ThemeBar = ({
   logoStyle,
   setLogoStyle,
   logoSettings,
-  updateLogoSettings
+  updateLogoSettings,
+  resetLogoSettings
 }: ThemeBarProps) => {
   const [activeTab, setActiveTab] = React.useState<'themes' | 'landing' | 'fonts'>('landing');
 
   if (!show) return null;
 
   return (
-    <div className="fixed top-16 left-0 bottom-0 w-84 z-[2000] animate-in slide-in-from-left-full duration-500">
+    <div className="fixed top-16 left-0 bottom-0 w-82 z-[2000] animate-in slide-in-from-left-full duration-500">
       <div className="h-full bg-[#020617]/95 backdrop-blur-3xl border-r border-white/10 shadow-2xl flex flex-col overflow-hidden">
         {/* Header */}
         <div className="p-6 border-b border-white/5 flex items-center justify-between bg-white/[0.02]">
@@ -128,7 +131,17 @@ export const ThemeBar = ({
 
               {/* Logo Tuning (Sliders) */}
               <div className="space-y-3 p-4 rounded-2xl bg-white/[0.02] border border-white/5 animate-in slide-in-from-top-2 duration-300">
-                
+                <div className="flex items-center justify-between mb-1">
+                  <h3 className="text-[8px] font-black uppercase tracking-[0.2em] text-blue-400 opacity-60 ml-1">Logo Tuning</h3>
+                  <button
+                    onClick={resetLogoSettings}
+                    className="p-1.5 rounded-lg hover:bg-white/5 text-white/40 hover:text-white transition-all group"
+                    title="Reset to defaults"
+                  >
+                    <RotateCcw className="w-2.5 h-2.5 group-hover:rotate-[-45deg] transition-transform duration-300" />
+                  </button>
+                </div>
+
                 {/* Scale */}
                 <div className="flex items-center gap-3 h-6">
                   <span className="text-[7.5px] font-black uppercase tracking-widest text-white/40 w-16 shrink-0">Scale</span>
@@ -213,8 +226,8 @@ export const ThemeBar = ({
                     <span className="text-[7.5px] font-black uppercase tracking-widest text-white/40 w-16 shrink-0">Offset</span>
                     <input
                       type="range"
-                      min="-200"
-                      max="400"
+                      min="-400"
+                      max="436"
                       step="1"
                       value={logoSettings.xOffset ?? 0}
                       onChange={(e) => updateLogoSettings({ xOffset: parseInt(e.target.value) })}

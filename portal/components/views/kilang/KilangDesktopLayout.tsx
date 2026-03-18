@@ -166,6 +166,7 @@ export const KilangDesktopLayout = ({
         logoSettings={state.logoSettings[state.landingVersion]}
         setLogoStyle={(s) => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
         updateLogoSettings={(s) => dispatch({ type: 'SET_UI', logoSettings: { [state.landingVersion]: s } })}
+        resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
       />
     </div>
   );
