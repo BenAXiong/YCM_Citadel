@@ -108,8 +108,8 @@
     opacity: 0;
   }
 
-  20% {
-    opacity: 1;
+  50% {
+    opacity: 0.4;
   }
 
   100% {
@@ -131,6 +131,8 @@
 }
 
 .animate-forest-bloom {
+  opacity: 0;
+  will-change: transform, opacity;
   animation: forestBloom 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 

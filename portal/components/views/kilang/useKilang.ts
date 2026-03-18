@@ -25,6 +25,10 @@ export const useKilang = () => {
       } catch (e) {
         console.error("Failed to load theme settings:", e);
       }
+    } else {
+      // Responsive Strategy: V1 for Mobile, V2 for Desktop (When no session exists)
+      const isMobile = window.innerWidth < 1024;
+      dispatch({ type: 'SET_UI', landingVersion: isMobile ? 1 : 2 });
     }
   }, []);
 

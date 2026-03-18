@@ -21,13 +21,13 @@ export const ForestControls = ({ showPlusOne, showMinusOne }: ForestControlsProp
   } = useSidebar();
 
   return (
-    <div className="sticky top-0 z-[50] p-6 bg-transparent backdrop-blur-xl border-b border-white/5 space-y-6">
+    <div className="relative z-[50] p-6 space-y-6">
       <div className="flex gap-2">
         <div className="relative group flex-1">
           <Search className="absolute left-3 top-3 w-4 h-4 text-kilang-text-muted group-focus-within:text-blue-500" />
           <input
             type="text"
-            placeholder={showMyTrees ? "Search saved roots" : "Search semantic roots..."}
+            placeholder={showMyTrees ? "Search saved roots" : "Search roots"}
             value={searchTerm}
             onChange={(e) => {
               dispatch({ type: 'SET_UI', searchTerm: e.target.value });

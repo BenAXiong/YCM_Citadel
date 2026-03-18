@@ -227,7 +227,7 @@ export const KilangCanvas = ({
           {selectedRoot ? (
             <div
               ref={treeRef}
-              className="flex-1 overflow-auto custom-scrollbar bg-[#020617]/40 relative p-32 scroll-smooth"
+              className="flex-1 overflow-auto no-scrollbar bg-[#020617]/40 relative p-32 scroll-smooth"
               onClick={() => dispatch({ type: 'SET_CANVAS_SELECT', node: null })}
             >
               {rootData?.error && (
@@ -249,7 +249,7 @@ export const KilangCanvas = ({
 
               <div
                 key={selectedRoot}
-                className={`relative animate-in zoom-in-90 transition-opacity duration-700 ${rootData?.loading ? 'opacity-30' : 'opacity-100'}`}
+                className="relative"
                 style={{
                   width: '4000px',
                   height: '4000px',

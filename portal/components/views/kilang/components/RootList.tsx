@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Library } from 'lucide-react';
+import { Bookmark } from 'lucide-react';
 import { WordTooltip } from '../KilangNode';
 import { useSidebar } from '../SidebarContext';
 
@@ -43,7 +43,7 @@ export const RootList = React.memo(({ bookmarks, saveBookmark }: RootListProps) 
                 className={`opacity-0 group-hover/item:opacity-100 p-2 rounded-lg transition-all border shadow-lg heart-cursor ${bookmarks.find(b => b.root === r.root) ? 'bg-blue-600/20 border-blue-500/50 text-blue-400' : 'bg-transparent border-blue-500/20 text-blue-400/40 hover:text-blue-400 hover:border-blue-500/50'}`}
                 title="Quick Save"
               >
-                <Library className={`w-4 h-4 ${bookmarks.find(b => b.root === r.root) ? 'fill-blue-400' : ''}`} />
+                <Bookmark className={`w-4 h-4 ${bookmarks.find(b => b.root === r.root) ? 'fill-blue-400' : ''}`} />
               </button>
               <span className="text-xs font-black text-blue-500 bg-blue-500/10 px-2 py-1 rounded-md">{r.count}</span>
             </div>

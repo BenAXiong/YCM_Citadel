@@ -122,8 +122,8 @@ export const initialState: KilangState = {
   summaryCache: {},
   sourceCounts: {},
   sidebarWidth: 328, // w-82 equivalent
-  showThemeBar: true,
-  landingVersion: 1,
+  showThemeBar: false,
+  landingVersion: 2, // Desktop Default
   logoStyles: { 1: 'square', 2: 'round', 3: 'round' },
   logoSettings: {
     1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: '#d9dc1e' },

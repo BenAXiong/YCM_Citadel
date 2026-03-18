@@ -94,7 +94,7 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
       const finalWidth = startWidth + (endEvent.pageX - startX);
       const constrainedWidth = Math.max(260, Math.min(600, finalWidth));
       dispatch({ type: 'SET_SIDEBAR_WIDTH', width: constrainedWidth });
-      
+
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
       document.body.style.cursor = 'default';
@@ -111,14 +111,16 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
 
   if (isCollapsed) {
     return (
-      <aside className="w-16 border-r border-white/5 flex flex-col items-center py-6 kilang-glass-panel transition-all duration-300">
+      <aside className="w-16 border-r border-white/5 flex flex-col items-center py-6 kilang-glass-panel relative z-50 overflow-visible transition-all duration-300">
+        {/* Sidebar Expansion Tab (Collapsed State) */}
         <button
           onClick={onToggle}
-          className="p-3 rounded-xl bg-white/5 border border-white/10 text-kilang-text-muted hover:text-white hover:bg-blue-600/20 hover:border-blue-500/50 transition-all shadow-lg"
-          title="Expand Forest"
+          className="absolute -right-[21px] top-[22px] w-[22px] h-[48px] rounded-r-xl rounded-l-none bg-[#1e293b] border-y border-r border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:bg-blue-600/40 hover:border-blue-500/50 shadow-[4px_0_15px_rgba(0,0,0,0.3)] z-[100] transition-all group"
+          title="Expand"
         >
-          <ChevronRight className="w-5 h-5" />
+          <ChevronRight className="w-4 h-4 group-hover:scale-125 transition-transform" />
         </button>
+
         <div className="mt-8 flex flex-col items-center gap-6">
           <button onClick={() => { onToggle(); setSidebarTab('forest'); }} className={`p-2 rounded-lg transition-all ${sidebarTab === 'forest' ? 'text-blue-400 bg-blue-500/10' : 'text-kilang-text-muted/40 hover:text-white'}`}>
             <Search className="w-5 h-5" />
@@ -135,8 +137,8 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
   }
 
   return (
-    <aside 
-      className={`border-r border-white/5 flex flex-col kilang-glass-panel relative group/sidebar ${isResizing ? '' : 'transition-all duration-300'}`}
+    <aside
+      className={`border-r border-white/5 flex flex-col kilang-glass-panel relative z-50 overflow-visible group/sidebar ${isResizing ? '' : 'transition-all duration-300'}`}
       style={{ width: 'var(--sidebar-width)' } as React.CSSProperties}
     >
       {/* Resizer Handle */}
@@ -144,11 +146,13 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
         onMouseDown={handleMouseDown}
         className="absolute top-0 right-0 w-1.5 h-full cursor-col-resize z-[70] hover:bg-blue-500/30 transition-colors group-hover/sidebar:bg-white/5 active:bg-blue-500/50"
       />
+
+      {/* Sidebar Toggle Tab (Expanded State) */}
       <button
         onClick={onToggle}
-        className="absolute -right-4 top-10 w-8 h-8 rounded-full bg-[#1e293b] border border-white/10 flex items-center justify-center text-kilang-text-muted hover:text-white hover:border-blue-500 shadow-xl z-[60] transition-all group"
+        className="absolute -right-[22px] top-[22px] w-[22px] h-[30px] rounded-r-lg rounded-l-none bg-[#1e293b] border-y border-r border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:bg-blue-600/40 hover:border-blue-500/50 shadow-[4px_0_15px_rgba(0,0,0,0.3)] z-[100] transition-all group"
       >
-        <ChevronLeft className="w-4 h-4 group-hover:scale-110 transition-transform" />
+        <ChevronLeft className="w-4 h-4 group-hover:scale-125 transition-transform" />
       </button>
 
       {/* Tab Switcher */}
