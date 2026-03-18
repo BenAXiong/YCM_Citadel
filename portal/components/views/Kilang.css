@@ -151,8 +151,17 @@
   }
 }
 
-.animate-bloom-pop {
-  animation: bloomPop 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+@keyframes peacefulFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-peaceful-float {
+  animation: peacefulFloat 4s ease-in-out infinite;
+}
+
+.pause-on-hover:hover {
+  animation-play-state: paused;
 }
 
 .tree-node {

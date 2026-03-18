@@ -122,6 +122,7 @@ export const KilangMobileLayout = ({
           showPerfMonitor={state.showPerfMonitor}
           resetToken={state.resetToken}
           logoStyle={state.logoStyles[state.landingVersion]}
+          logoSettings={state.logoSettings[state.landingVersion]}
           dispatch={dispatch}
         />
 

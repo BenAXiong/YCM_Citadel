@@ -13,6 +13,30 @@ import { kilangReducer, initialState, KilangState, KilangAction, MorphMode, Layo
 
 export const useKilang = () => {
   const [state, dispatch] = useReducer(kilangReducer, initialState);
+  const STORAGE_KEY = 'kilang_theme_settings';
+
+  // 0. Persistence (Load)
+  useEffect(() => {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        const { landingVersion, logoStyles, logoSettings } = JSON.parse(saved);
+        dispatch({ type: 'SET_UI', landingVersion, logoStyles, logoSettings });
+      } catch (e) {
+        console.error("Failed to load theme settings:", e);
+      }
+    }
+  }, []);
+
+  // 0b. Persistence (Save)
+  useEffect(() => {
+    const themeSettings = {
+      landingVersion: state.landingVersion,
+      logoStyles: state.logoStyles,
+      logoSettings: state.logoSettings
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(themeSettings));
+  }, [state.landingVersion, state.logoStyles, state.logoSettings]);
 
   // 1. Fetch Global Stats & Manifest
   useEffect(() => {

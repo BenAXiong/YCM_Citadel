@@ -423,6 +423,10 @@ export const KilangHeader = ({
 
                     {showDevSub && (
                       <div className="mt-1 ml-2 pl-2 border-l border-white/10 space-y-1 animate-in slide-in-from-left-2 duration-200">
+                        {/* Workspace Section */}
+                        <div className="px-3 pt-3 pb-1 border-b border-white/5 mb-1">
+                          <span className="text-[7px] font-black uppercase text-white/30 tracking-[0.2em]">Layout & Workspaces</span>
+                        </div>
                         <DevToolItem
                           label="Filter Panel"
                           goal="Toggle the left-side root navigation and search panel."
@@ -430,10 +434,10 @@ export const KilangHeader = ({
                           onClick={() => dispatch({ type: 'SET_UI', showFilterPanel: !showFilterPanel })}
                         />
                         <DevToolItem
-                          label="Dimensions"
-                          goal="Show viewport and canvas logical coordinate tables for spatial diagnostics."
-                          isOn={showDimensions}
-                          onClick={() => dispatch({ type: 'SET_UI', showDimensions: !showDimensions })}
+                          label="Theme Bar"
+                          goal="Toggle the visual aesthetics and landing view customization panel."
+                          isOn={showThemeBar}
+                          onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !showThemeBar })}
                         />
                         <DevToolItem
                           label="Visual Toolbox"
@@ -445,18 +449,28 @@ export const KilangHeader = ({
                             updateLayoutConfig({ showToolbox: nextVal });
                           }}
                         />
+
+                        {/* Diagnostics Section */}
+                        <div className="px-3 pt-3 pb-1 border-b border-white/5 mt-1 mb-1">
+                          <span className="text-[7px] font-black uppercase text-white/30 tracking-[0.2em]">Performance & Spatial</span>
+                        </div>
+                        <DevToolItem
+                          label="Dimensions"
+                          goal="Show viewport and canvas logical coordinate tables for spatial diagnostics."
+                          isOn={showDimensions}
+                          onClick={() => dispatch({ type: 'SET_UI', showDimensions: !showDimensions })}
+                        />
                         <DevToolItem
                           label="Perf Monitor"
                           goal="Monitor real-time engine performance and frame rate (FPS)."
                           isOn={showPerfMonitor}
                           onClick={() => dispatch({ type: 'SET_UI', showPerfMonitor: !showPerfMonitor })}
                         />
-                        <DevToolItem
-                          label="Theme Bar"
-                          goal="Toggle the visual aesthetics and landing view customization panel."
-                          isOn={showThemeBar}
-                          onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !showThemeBar })}
-                        />
+
+                        {/* Experimental Section */}
+                        <div className="px-3 pt-3 pb-1 border-b border-white/5 mt-1 mb-1">
+                          <span className="text-[7px] font-black uppercase text-white/30 tracking-[0.2em]">Engine Experimental</span>
+                        </div>
                         <DevToolItem
                           label="Gravity Debug"
                           goal="[Disabled] Visualize row/tier bounding boxes and spatial constraints."

@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import { 
-  Palette, 
-  Layout, 
-  Type, 
+import {
+  Palette,
+  Layout,
+  Type,
   X,
   Layers,
   Monitor,
@@ -21,23 +21,27 @@ interface ThemeBarProps {
   setLandingVersion: (v: 1 | 2 | 3) => void;
   logoStyle: 'original' | 'square' | 'round';
   setLogoStyle: (s: 'original' | 'square' | 'round') => void;
+  logoSettings: { scale: number; radius: number; xOffset: number; opacity: number; glowIntensity: number; glowColor: string };
+  updateLogoSettings: (settings: { scale?: number; radius?: number; xOffset?: number; opacity?: number; glowIntensity?: number; glowColor?: string }) => void;
 }
 
-export const ThemeBar = ({ 
-  show, 
-  onClose, 
-  landingVersion, 
+export const ThemeBar = ({
+  show,
+  onClose,
+  landingVersion,
   setLandingVersion,
   logoStyle,
-  setLogoStyle
+  setLogoStyle,
+  logoSettings,
+  updateLogoSettings
 }: ThemeBarProps) => {
   const [activeTab, setActiveTab] = React.useState<'themes' | 'landing' | 'fonts'>('landing');
 
   if (!show) return null;
 
   return (
-    <div className="fixed top-16 right-0 bottom-0 w-80 z-[2000] animate-in slide-in-from-right-full duration-500">
-      <div className="h-full bg-[#020617]/95 backdrop-blur-3xl border-l border-white/10 shadow-2xl flex flex-col overflow-hidden">
+    <div className="fixed top-16 left-0 bottom-0 w-84 z-[2000] animate-in slide-in-from-left-full duration-500">
+      <div className="h-full bg-[#020617]/95 backdrop-blur-3xl border-r border-white/10 shadow-2xl flex flex-col overflow-hidden">
         {/* Header */}
         <div className="p-6 border-b border-white/5 flex items-center justify-between bg-white/[0.02]">
           <div className="flex items-center gap-3">
@@ -49,7 +53,7 @@ export const ThemeBar = ({
               <p className="text-[7px] font-black uppercase tracking-widest text-kilang-text-muted mt-0.5">Visual Diagnostics</p>
             </div>
           </div>
-          <button 
+          <button
             onClick={onClose}
             className="p-2 hover:bg-white/5 rounded-lg text-kilang-text-muted hover:text-white transition-all"
           >
@@ -107,28 +111,118 @@ export const ThemeBar = ({
                 <h3 className="text-[8px] font-black uppercase tracking-[0.2em] text-blue-400 opacity-60 ml-1">Logo Treatment</h3>
                 <div className="grid grid-cols-3 gap-2 p-1 bg-black/20 rounded-xl border border-white/5">
                   {[
-                    { id: 'original', label: 'ORIG', icon: <CircleDot className="w-3 h-3" /> },
-                    { id: 'square', label: 'SQ', icon: <Square className="w-3 h-3" /> },
-                    { id: 'round', label: 'MASK', icon: <Aperture className="w-3 h-3" /> }
+                    { id: 'original', label: 'ORIG' },
+                    { id: 'square', label: 'SQ' },
+                    { id: 'round', label: 'MASK' }
                   ].map((style) => (
                     <button
                       key={style.id}
                       onClick={() => setLogoStyle(style.id as any)}
-                      className={`flex flex-col items-center gap-1.5 py-3 rounded-lg transition-all ${logoStyle === style.id ? 'bg-blue-600 text-white shadow-lg' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      className={`flex items-center justify-center py-2 rounded-lg transition-all ${logoStyle === style.id ? 'bg-blue-600 text-white shadow-lg' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
                     >
-                      {style.icon}
                       <span className="text-[7px] font-black uppercase tracking-widest">{style.label}</span>
                     </button>
                   ))}
                 </div>
               </div>
 
-              <div className="p-4 rounded-2xl bg-indigo-500/5 border border-indigo-500/10">
-                <div className="flex items-center gap-2 mb-2">
-                  <Type className="w-3 h-3 text-indigo-400" />
-                  <span className="text-[8px] font-black uppercase tracking-widest text-indigo-400">Pro Tip</span>
+              {/* Logo Tuning (Sliders) */}
+              <div className="space-y-3 p-4 rounded-2xl bg-white/[0.02] border border-white/5 animate-in slide-in-from-top-2 duration-300">
+                
+                {/* Scale */}
+                <div className="flex items-center gap-3 h-6">
+                  <span className="text-[7.5px] font-black uppercase tracking-widest text-white/40 w-16 shrink-0">Scale</span>
+                  <input
+                    type="range"
+                    min="0.5"
+                    max="3.0"
+                    step="0.05"
+                    value={logoSettings.scale ?? 1.0}
+                    onChange={(e) => updateLogoSettings({ scale: parseFloat(e.target.value) })}
+                    className="flex-1 accent-blue-500 h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                  />
+                  <span className="text-[7.5px] font-mono text-blue-400 w-8 text-right shrink-0">{((logoSettings.scale ?? 1.0) * 100).toFixed(0)}%</span>
                 </div>
-                <p className="text-[8px] text-kilang-text-muted leading-relaxed">Logo treatments are applied at the component level using high-precision CSS masking, preserving the original resolution for large displays.</p>
+
+                {/* Opacity */}
+                <div className="flex items-center gap-3 h-6">
+                  <span className="text-[7.5px] font-black uppercase tracking-widest text-white/40 w-16 shrink-0">Opacity</span>
+                  <input
+                    type="range"
+                    min="0"
+                    max="1"
+                    step="0.01"
+                    value={logoSettings.opacity ?? 1.0}
+                    onChange={(e) => updateLogoSettings({ opacity: parseFloat(e.target.value) })}
+                    className="flex-1 accent-blue-500 h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                  />
+                  <span className="text-[7.5px] font-mono text-blue-400 w-8 text-right shrink-0">{((logoSettings.opacity ?? 1.0) * 100).toFixed(0)}%</span>
+                </div>
+
+                {/* Radius */}
+                {logoStyle === 'round' && (
+                  <div className="flex items-center gap-3 h-6 animate-in slide-in-from-left-2 duration-300">
+                    <span className="text-[7.5px] font-black uppercase tracking-widest text-white/40 w-16 shrink-0">Radius</span>
+                    <input
+                      type="range"
+                      min="10"
+                      max="100"
+                      step="1"
+                      value={logoSettings.radius ?? 45}
+                      onChange={(e) => updateLogoSettings({ radius: parseInt(e.target.value) })}
+                      className="flex-1 accent-blue-500 h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                    />
+                    <span className="text-[7.5px] font-mono text-blue-400 w-8 text-right shrink-0">{(logoSettings.radius ?? 45)}%</span>
+                  </div>
+                )}
+
+                {/* Glow & Color (V1 Only) */}
+                {landingVersion === 1 && (
+                  <>
+                    <div className="flex items-center gap-3 h-6 animate-in slide-in-from-left-2 duration-300">
+                      <span className="text-[7.5px] font-black uppercase tracking-widest text-white/40 w-16 shrink-0">Glow</span>
+                      <input
+                        type="range"
+                        min="0"
+                        max="1"
+                        step="0.01"
+                        value={logoSettings.glowIntensity ?? 0.3}
+                        onChange={(e) => updateLogoSettings({ glowIntensity: parseFloat(e.target.value) })}
+                        className="flex-1 accent-blue-500 h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                      />
+                      <span className="text-[7.5px] font-mono text-blue-400 w-8 text-right shrink-0">{((logoSettings.glowIntensity ?? 0.3) * 100).toFixed(0)}%</span>
+                    </div>
+                    <div className="flex items-center gap-3 h-6 animate-in slide-in-from-left-2 duration-300">
+                      <span className="text-[7.5px] font-black uppercase tracking-widest text-white/40 w-16 shrink-0">Tint</span>
+                      <div className="flex-1 flex items-center h-full">
+                        <input
+                          type="color"
+                          value={logoSettings.glowColor ?? '#3b82f6'}
+                          onChange={(e) => updateLogoSettings({ glowColor: e.target.value })}
+                          className="w-full h-2 rounded-full overflow-hidden bg-transparent border-none cursor-pointer p-0"
+                        />
+                      </div>
+                      <span className="text-[7.5px] font-mono text-blue-400 w-8 text-right shrink-0 uppercase tracking-tighter">{(logoSettings.glowColor ?? '#3b82f6').replace('#', '')}</span>
+                    </div>
+                  </>
+                )}
+
+                {/* Offset (V3 Only) */}
+                {landingVersion === 3 && (
+                  <div className="flex items-center gap-3 h-6 animate-in slide-in-from-left-2 duration-300">
+                    <span className="text-[7.5px] font-black uppercase tracking-widest text-white/40 w-16 shrink-0">Offset</span>
+                    <input
+                      type="range"
+                      min="-200"
+                      max="400"
+                      step="1"
+                      value={logoSettings.xOffset ?? 0}
+                      onChange={(e) => updateLogoSettings({ xOffset: parseInt(e.target.value) })}
+                      className="flex-1 accent-blue-500 h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                    />
+                    <span className="text-[7.5px] font-mono text-blue-400 w-8 text-right shrink-0">{(logoSettings.xOffset ?? 0)}px</span>
+                  </div>
+                )}
               </div>
             </div>
           )}

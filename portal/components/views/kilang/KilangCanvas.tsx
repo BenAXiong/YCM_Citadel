@@ -37,6 +37,7 @@ interface KilangCanvasProps {
   resetToken: number;
   showPerfMonitor: boolean;
   logoStyle: 'original' | 'square' | 'round';
+  logoSettings: { scale: number; radius: number; xOffset: number; opacity: number; glowIntensity: number; glowColor: string };
   dispatch: React.Dispatch<KilangAction>;
 }
 
@@ -59,6 +60,7 @@ export const KilangCanvas = ({
   resetToken,
   showPerfMonitor,
   logoStyle,
+  logoSettings,
   dispatch
 }: KilangCanvasProps) => {
   const value = useSidebar();
@@ -354,6 +356,7 @@ export const KilangCanvas = ({
             <KilangLanding
               version={value.state.landingVersion || 1}
               logoStyle={logoStyle}
+              logoSettings={logoSettings}
               stats={stats}
               deepRoots={deepRoots}
               fetchRootDetails={fetchRootDetails}
