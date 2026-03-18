@@ -23,6 +23,7 @@ export interface KilangState {
   sidebarWidth: number;
   showThemeBar: boolean;
   landingVersion: 1 | 2 | 3;
+  logoStyles: Record<number, 'original' | 'square' | 'round'>;
   customData: any[] | null;
 
   // Configuration
@@ -103,7 +104,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; showThemeBar?: boolean; landingVersion?: 1 | 2 | 3; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
+  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; showThemeBar?: boolean; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'SET_SIDEBAR_WIDTH'; width: number }
@@ -121,6 +122,7 @@ export const initialState: KilangState = {
   sidebarWidth: 328, // w-82 equivalent
   showThemeBar: true,
   landingVersion: 1,
+  logoStyles: { 1: 'original', 2: 'original', 3: 'original' },
   morphMode: 'plus', //strict = moe
   sourceFilter: 'ALL',
   direction: 'horizontal',
@@ -271,6 +273,13 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         }
       };
     case 'SET_UI':
+      if (action.logoStyles) {
+        return {
+          ...state,
+          ...action,
+          logoStyles: { ...state.logoStyles, ...action.logoStyles }
+        };
+      }
       return { ...state, ...action };
     case 'SET_CANVAS_HOVER':
       return { ...state, canvasHoverNode: action.node };

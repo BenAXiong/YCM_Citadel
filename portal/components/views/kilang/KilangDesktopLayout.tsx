@@ -128,6 +128,7 @@ export const KilangDesktopLayout = ({
           showDimensions={state.showDimensions}
           showPerfMonitor={state.showPerfMonitor}
           resetToken={state.resetToken}
+          logoStyle={state.logoStyles[state.landingVersion]}
           dispatch={dispatch}
         />
       </div>
@@ -160,6 +161,8 @@ export const KilangDesktopLayout = ({
         onClose={() => dispatch({ type: 'SET_UI', showThemeBar: false })}
         landingVersion={state.landingVersion}
         setLandingVersion={(v) => dispatch({ type: 'SET_UI', landingVersion: v })}
+        logoStyle={state.logoStyles[state.landingVersion]}
+        setLogoStyle={(s) => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
       />
     </div>
   );

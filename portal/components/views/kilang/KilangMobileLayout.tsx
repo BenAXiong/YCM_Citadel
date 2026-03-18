@@ -121,6 +121,7 @@ export const KilangMobileLayout = ({
           showDimensions={state.showDimensions}
           showPerfMonitor={state.showPerfMonitor}
           resetToken={state.resetToken}
+          logoStyle={state.logoStyles[state.landingVersion]}
           dispatch={dispatch}
         />
 
@@ -343,6 +344,7 @@ export const KilangMobileLayout = ({
         summaryCache={summaryCache}
         fetchSummary={fetchSummary}
         manifest={state.manifest}
+        sourceFilter={sourceFilter}
       />
     </div>
   );

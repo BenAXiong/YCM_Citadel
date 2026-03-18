@@ -8,7 +8,10 @@ import {
   X,
   Layers,
   Monitor,
-  Sidebar as SidebarIcon
+  Sidebar as SidebarIcon,
+  CircleDot,
+  Square,
+  Aperture
 } from 'lucide-react';
 
 interface ThemeBarProps {
@@ -16,9 +19,18 @@ interface ThemeBarProps {
   onClose: () => void;
   landingVersion: number;
   setLandingVersion: (v: 1 | 2 | 3) => void;
+  logoStyle: 'original' | 'square' | 'round';
+  setLogoStyle: (s: 'original' | 'square' | 'round') => void;
 }
 
-export const ThemeBar = ({ show, onClose, landingVersion, setLandingVersion }: ThemeBarProps) => {
+export const ThemeBar = ({ 
+  show, 
+  onClose, 
+  landingVersion, 
+  setLandingVersion,
+  logoStyle,
+  setLogoStyle
+}: ThemeBarProps) => {
   const [activeTab, setActiveTab] = React.useState<'themes' | 'landing' | 'fonts'>('landing');
 
   if (!show) return null;
@@ -61,8 +73,9 @@ export const ThemeBar = ({ show, onClose, landingVersion, setLandingVersion }: T
         {/* Content */}
         <div className="flex-1 overflow-y-auto p-4 custom-scrollbar no-scrollbar">
           {activeTab === 'landing' && (
-            <div className="space-y-6">
-              <div className="space-y-2">
+            <div className="space-y-8">
+              {/* Landing Presets */}
+              <div className="space-y-3">
                 <h3 className="text-[8px] font-black uppercase tracking-[0.2em] text-blue-400 opacity-60 ml-1">Landing Presets</h3>
                 <div className="grid grid-cols-1 gap-3">
                   {[
@@ -89,12 +102,33 @@ export const ThemeBar = ({ show, onClose, landingVersion, setLandingVersion }: T
                 </div>
               </div>
 
+              {/* Logo Treatment */}
+              <div className="space-y-3">
+                <h3 className="text-[8px] font-black uppercase tracking-[0.2em] text-blue-400 opacity-60 ml-1">Logo Treatment</h3>
+                <div className="grid grid-cols-3 gap-2 p-1 bg-black/20 rounded-xl border border-white/5">
+                  {[
+                    { id: 'original', label: 'ORIG', icon: <CircleDot className="w-3 h-3" /> },
+                    { id: 'square', label: 'SQ', icon: <Square className="w-3 h-3" /> },
+                    { id: 'round', label: 'MASK', icon: <Aperture className="w-3 h-3" /> }
+                  ].map((style) => (
+                    <button
+                      key={style.id}
+                      onClick={() => setLogoStyle(style.id as any)}
+                      className={`flex flex-col items-center gap-1.5 py-3 rounded-lg transition-all ${logoStyle === style.id ? 'bg-blue-600 text-white shadow-lg' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                    >
+                      {style.icon}
+                      <span className="text-[7px] font-black uppercase tracking-widest">{style.label}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
               <div className="p-4 rounded-2xl bg-indigo-500/5 border border-indigo-500/10">
                 <div className="flex items-center gap-2 mb-2">
                   <Type className="w-3 h-3 text-indigo-400" />
                   <span className="text-[8px] font-black uppercase tracking-widest text-indigo-400">Pro Tip</span>
                 </div>
-                <p className="text-[8px] text-kilang-text-muted leading-relaxed">Versions 2 and 3 are designed for multi-monitor setups and large canvas displays to provide permanent branding without obscuring central research.</p>
+                <p className="text-[8px] text-kilang-text-muted leading-relaxed">Logo treatments are applied at the component level using high-precision CSS masking, preserving the original resolution for large displays.</p>
               </div>
             </div>
           )}

@@ -4,13 +4,33 @@ import React from 'react';
 
 interface KilangLandingProps {
   version: 1 | 2 | 3;
+  logoStyle?: 'original' | 'square' | 'round';
   stats: any;
   deepRoots: string[];
   fetchRootDetails: (root: string) => Promise<void>;
 }
 
-export const KilangLanding = ({ version, stats, deepRoots, fetchRootDetails }: KilangLandingProps) => {
+export const KilangLanding = ({ 
+  version, 
+  logoStyle = 'original', 
+  stats, 
+  deepRoots, 
+  fetchRootDetails 
+}: KilangLandingProps) => {
   const logoUrl = '/kilang/Kilang_5_nobg.png';
+
+  // CSS classes for logo treatments
+  const getLogoClass = (base: string) => {
+    let classes = base;
+    if (logoStyle === 'square') {
+      classes += ' aspect-square object-cover';
+    } else if (logoStyle === 'round') {
+      // Circle mask just outside the tree to erase the golden ring
+      // Adjust percentage to perfectly frame the tree
+      classes += ' aspect-square object-cover [clip-path:circle(45%_at_50%_50%)]';
+    }
+    return classes;
+  };
 
   const commonButtons = (
     <div className="relative z-20 space-y-6 max-w-md mx-auto pointer-events-auto">
@@ -64,7 +84,7 @@ export const KilangLanding = ({ version, stats, deepRoots, fetchRootDetails }: K
           <img 
             src={logoUrl} 
             alt="Kilang Logo" 
-            className="w-48 h-48 lg:w-64 lg:h-64 object-contain drop-shadow-[0_0_50px_rgba(59,130,246,0.3)] group-hover:scale-105 transition-transform duration-700 invert-x pointer-events-none"
+            className={getLogoClass("w-48 h-48 lg:w-64 lg:h-64 object-contain drop-shadow-[0_0_50px_rgba(59,130,246,0.3)] group-hover:scale-105 transition-transform duration-700 invert-x pointer-events-none")}
           />
         </div>
         {commonButtons}
@@ -81,11 +101,11 @@ export const KilangLanding = ({ version, stats, deepRoots, fetchRootDetails }: K
     return (
       <div className="h-full flex flex-col items-center justify-center p-20 text-center relative overflow-hidden bg-[#020617]">
         {/* Full Window Faded Logo */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none pointer-events-none">
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <img 
             src={logoUrl} 
             alt="Kilang Logo Background" 
-            className="w-full h-full object-contain opacity-[0.05] scale-125 lg:scale-150 rotate-[15deg] transition-all duration-1000"
+            className={getLogoClass("w-full h-full object-contain opacity-[0.05] scale-125 lg:scale-150 rotate-[15deg] transition-all duration-1000")}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-[#020617]/40" />
         </div>
@@ -107,20 +127,20 @@ export const KilangLanding = ({ version, stats, deepRoots, fetchRootDetails }: K
         <div className="absolute left-0 top-0 bottom-0 w-1/4 flex items-center justify-start pointer-events-none overflow-hidden">
           <img 
             src={logoUrl} 
-            className="h-full w-auto object-contain opacity-20 -translate-x-1/2 scale-110 blur-[2px]"
+            className={getLogoClass("h-full w-auto object-contain opacity-20 -translate-x-1/2 scale-110 blur-[2px]")}
           />
         </div>
         <div className="absolute right-0 top-0 bottom-0 w-1/4 flex items-center justify-end pointer-events-none overflow-hidden">
           <img 
             src={logoUrl} 
-            className="h-full w-auto object-contain opacity-20 translate-x-1/2 scale-110 blur-[2px]"
+            className={getLogoClass("h-full w-auto object-contain opacity-20 translate-x-1/2 scale-110 blur-[2px]")}
           />
         </div>
 
         <div className="relative z-10">
           <div className="mb-12 flex items-center justify-center gap-8 opacity-20">
              <div className="w-24 h-[1px] bg-white/40" />
-             <img src={logoUrl} className="w-16 h-16 object-contain" />
+             <img src={logoUrl} className={getLogoClass("w-16 h-16 object-contain")} />
              <div className="w-24 h-[1px] bg-white/40" />
           </div>
           {commonButtons}
