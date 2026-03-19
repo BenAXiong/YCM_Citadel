@@ -368,7 +368,8 @@ export const generateTreeString = (
   depth: number = 0,
   filterSet?: Set<string>,
   focusNode?: string | null,
-  includeDefinitions?: boolean
+  includeDefinitions?: boolean,
+  includeSentences?: boolean
 ): string => {
   if (depth > 20) return prefix + '└── [Depth Limit Exceeded]\n';
   const normCurrent = normalizeWord(currentWord) || '';
@@ -396,7 +397,8 @@ export const generateTreeString = (
       depth + 1,
       filterSet,
       focusNode,
-      includeDefinitions
+      includeDefinitions,
+      includeSentences
     );
   });
   

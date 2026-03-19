@@ -100,7 +100,7 @@ export default function KilangView({ uiLang, toggleUiLang, s }: KilangViewProps)
 
   const handleExport = async () => {
     if (!selectedRoot) return;
-    const { mode, format, textFormat, textContent, includeDefinitions, background, area, resolution, margin } = state.exportSettings;
+    const { mode, format, textFormat, textContent, includeDefinitions, includeSentences, background, area, resolution, margin } = state.exportSettings;
     
     dispatch({ type: 'SET_UI', exporting: true });
 
@@ -137,9 +137,12 @@ export default function KilangView({ uiLang, toggleUiLang, s }: KilangViewProps)
         if (textFormat === 'json') {
           // JSON formatting: optionally filter out meta if clean export requested? 
           // For now, respect includeDefinitions by either mapping or keeping raw
-          const finalJson = includeDefinitions 
-            ? exportData 
-            : exportData.map(({ definition, ...rest }) => rest);
+          const finalJson = exportData.map(node => {
+            const newNode = { ...node };
+            if (!includeDefinitions) delete (newNode as any).definition;
+            if (!includeSentences) delete (newNode as any).sentences;
+            return newNode;
+          });
             
           blob = new Blob([JSON.stringify(finalJson, null, 2)], { type: 'application/json' });
           filename = `kilang-${selectedRoot.toLowerCase()}-${textContent}-${new Date().getTime()}.json`;
@@ -153,7 +156,8 @@ export default function KilangView({ uiLang, toggleUiLang, s }: KilangViewProps)
             0, 
             filterSet, 
             null, 
-            includeDefinitions
+            includeDefinitions,
+            includeSentences
           );
           
           blob = new Blob([treeStr], { type: 'text/plain' });

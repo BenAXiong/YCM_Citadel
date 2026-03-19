@@ -106,6 +106,8 @@ export const KilangDesktopLayout = ({
         showPerfMonitor={state.showPerfMonitor}
         showThemeBar={state.showThemeBar}
         showTreeTab={state.showTreeTab}
+        showExportDropdown={state.showExportDropdown}
+        exporting={state.exporting}
         showZoomIndicator={state.showZoomIndicator}
         moveZoomToCanvas={state.moveZoomToCanvas}
         moveGrowthToCanvas={state.moveGrowthToCanvas}
@@ -163,6 +165,7 @@ export const KilangDesktopLayout = ({
           setArrangement={setArrangement}
           handleExport={handleExport}
           exportSettings={state.exportSettings}
+          showExportDropdown={state.showExportDropdown}
           exporting={state.exporting}
           dispatch={dispatch}
         />

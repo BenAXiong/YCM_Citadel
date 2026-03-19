@@ -8,7 +8,6 @@ import {
   RotateCcw,
   Minus,
   Plus,
-  ImageIcon,
   Boxes,
   Maximize2,
   Minimize2,
@@ -27,14 +26,14 @@ import {
   TreePine,
   Zap,
   Share2,
-  FileText,
   Languages,
   Palette,
   Eye
 } from 'lucide-react';
-import { MorphMode, LayoutDirection, LayoutArrangement, KilangState } from './kilangReducer';
+import { MorphMode, LayoutDirection, LayoutArrangement, KilangState, KilangAction } from './kilangReducer';
 import { WeavingPattern } from './WeavingPattern';
-import { UILang, UIStrings } from '@/types';
+import { UILang, UIStrings } from '../../../types';
+import { KilangExportHUD } from './KilangExportHUD';
 
 // Extracted Components
 import { CompactMetric } from './components/CompactMetric';
@@ -81,6 +80,8 @@ interface KilangHeaderProps {
   dispatch: any;
   uiLang: UILang;
   toggleUiLang: () => void;
+  showExportDropdown: boolean;
+  exporting: boolean;
   s: UIStrings;
 }
 
@@ -116,6 +117,8 @@ export const KilangHeader = ({
   showPerfMonitor,
   showThemeBar,
   showTreeTab,
+  showExportDropdown,
+  exporting,
   showZoomIndicator,
   moveZoomToCanvas,
   moveGrowthToCanvas,
@@ -133,7 +136,6 @@ export const KilangHeader = ({
   const [showShareSub, setShowShareSub] = React.useState(false);
   const [showHowToSub, setShowHowToSub] = React.useState(false);
   const [isPaletteHovered, setIsPaletteHovered] = React.useState(false);
-  const [showExportDropdown, setShowExportDropdown] = React.useState(false);
   const settingsRef = React.useRef<HTMLDivElement>(null);
   const exportRef = React.useRef<HTMLDivElement>(null);
   const hoverTimeoutRef = React.useRef<any>(null);
@@ -151,12 +153,12 @@ export const KilangHeader = ({
         setShowHowToSub(false);
       }
       if (exportRef.current && !exportRef.current.contains(event.target as Node)) {
-        setShowExportDropdown(false);
+        dispatch({ type: 'SET_UI', showExportDropdown: false });
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
+  }, [dispatch]);
 
   return (
     <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between pl-0 pr-3 lg:pr-6 z-50 shrink-0">
@@ -417,199 +419,18 @@ export const KilangHeader = ({
               </>
             )}
 
-            <div className="w-[1px] h-8 bg-white/5" />
-
-            {/* Export Group */}
             {!moveCaptureToCanvas && (
-              <>
-                <div className="flex items-center gap-0.5 relative group" ref={exportRef}>
-                  <div className="kilang-ctrl-container">
-                    <button
-                      onClick={handleExport}
-                      className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive"
-                      title={`Export as ${exportSettings.format.toUpperCase()}`}
-                    >
-                      <Download className="w-3.5 h-3.5" />
-                    </button>
-                    <button
-                      onClick={() => setShowExportDropdown(!showExportDropdown)}
-                      className={`w-5 h-7 kilang-ctrl-btn ${showExportDropdown ? 'text-white bg-white/10' : 'kilang-ctrl-btn-inactive'}`}
-                      title="Export Settings"
-                    >
-                      <ChevronDown className="w-3 h-3" />
-                    </button>
-                  </div>
-
-                  {/* Export Settings Dropdown */}
-                  {showExportDropdown && (
-                    <div className="absolute top-full mt-2 left-0 w-56 bg-[#0f172a]/99 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl z-[120] p-4 animate-in fade-in slide-in-from-top-2 duration-200 text-left">
-                      <div className="space-y-4">
-                        {/* Mode Toggle */}
-                        <div className="flex bg-black/40 rounded-xl p-1 border border-white/5">
-                          {(['image', 'text'] as const).map(m => (
-                            <button
-                              key={m}
-                              onClick={() => dispatch({ type: 'SET_UI', exportSettings: { mode: m } })}
-                              className={`flex-1 py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all uppercase flex items-center justify-center gap-2 ${exportSettings.mode === m ? 'bg-blue-600 text-white shadow-[0_0_15px_rgba(37,99,235,0.4)] border border-blue-400/50' : 'text-white/20 hover:text-white/40'}`}
-                            >
-                              {m === 'image' ? <ImageIcon className="w-3 h-3" /> : <FileText className="w-3 h-3" />}
-                              {m}
-                            </button>
-                          ))}
-                        </div>
-
-                        {exportSettings.mode === 'image' ? (
-                          <div className="space-y-4 pt-1 animate-in fade-in slide-in-from-top-2 duration-300">
-                            {/* Format */}
-                            <div className="space-y-2">
-                              <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Image Type</label>
-                              <div className="flex bg-black/40 rounded-lg p-1 border border-white/5">
-                                {(['png', 'svg'] as const).map(f => (
-                                  <button
-                                    key={f}
-                                    onClick={() => dispatch({ type: 'SET_UI', exportSettings: { format: f } })}
-                                    className={`flex-1 py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.format === f ? 'bg-blue-500 text-white shadow-lg' : 'text-white/40 hover:text-white'}`}
-                                  >
-                                    {f}
-                                  </button>
-                                ))}
-                              </div>
-                            </div>
-
-                            {/* Area */}
-                            <div className="space-y-2">
-                              <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Capture Area</label>
-                              <div className="grid grid-cols-2 gap-1 bg-black/40 rounded-lg p-1 border border-white/5">
-                                {[
-                                  { id: 'window', label: 'Window' },
-                                  { id: 'all', label: 'Full Kilang' }
-                                ].map(a => (
-                                  <button
-                                    key={a.id}
-                                    onClick={() => dispatch({ type: 'SET_UI', exportSettings: { area: a.id as any } })}
-                                    className={`py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.area === a.id ? 'bg-blue-500 text-white shadow-lg' : 'text-white/40 hover:text-white'}`}
-                                  >
-                                    {a.label}
-                                  </button>
-                                ))}
-                              </div>
-                            </div>
-
-                            {/* Background */}
-                            <div className="space-y-2">
-                              <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Background</label>
-                              <div className="grid grid-cols-4 gap-1">
-                                {[
-                                  { id: 'origin', color: 'var(--kilang-bg, #020617)', label: 'Orig.' },
-                                  { id: 'white', color: '#ffffff', label: 'White' },
-                                  { id: 'black', color: '#000000', label: 'Black' },
-                                  { id: 'transparent', color: 'transparent', label: 'Trans' }
-                                ].map(b => (
-                                  <button
-                                    key={b.id}
-                                    onClick={() => dispatch({ type: 'SET_UI', exportSettings: { background: b.id as any } })}
-                                    className={`group relative h-10 rounded-lg border transition-all flex items-center justify-center overflow-hidden ${exportSettings.background === b.id ? 'border-blue-500 ring-1 ring-blue-500/50 shadow-lg' : 'border-white/5 hover:border-white/20'}`}
-                                    style={{ backgroundColor: b.color }}
-                                    title={b.label}
-                                  >
-                                    {b.id === 'transparent' && (
-                                      <div className="absolute inset-0 opacity-20 pointer-events-none" style={{ background: 'conic-gradient(#888 0.25turn, #444 0.25turn 0.5turn, #888 0.5turn 0.75turn, #444 0.75turn)', backgroundSize: '8px 8px' }} />
-                                    )}
-                                    <span className={`relative z-10 text-[8px] font-black uppercase tracking-tighter ${b.id === 'white' ? 'text-[#020617] opacity-80' : 'text-white'} ${exportSettings.background === b.id ? 'scale-110' : 'opacity-80'}`}>
-                                      {b.label}
-                                    </span>
-                                  </button>
-                                ))}
-                              </div>
-                            </div>
-
-                            {/* Quality & Margin */}
-                            <div className="grid grid-cols-2 gap-4">
-                              <div className="space-y-2">
-                                <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Quality</label>
-                                <select
-                                  value={exportSettings.resolution}
-                                  onChange={(e) => dispatch({ type: 'SET_UI', exportSettings: { resolution: Number(e.target.value) as any } })}
-                                  className="w-full h-8 bg-black/40 border border-white/10 rounded-lg text-[10px] font-bold text-white px-2 focus:border-blue-500/50 outline-none"
-                                >
-                                  <option value="1">1.0x (Std)</option>
-                                  <option value="2">2.0x (Hi)</option>
-                                  <option value="4">4.0x (Ult)</option>
-                                </select>
-                              </div>
-                              <div className="space-y-2">
-                                <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Margin</label>
-                                <select
-                                  value={exportSettings.margin}
-                                  onChange={(e) => dispatch({ type: 'SET_UI', exportSettings: { margin: Number(e.target.value) as any } })}
-                                  className="w-full h-8 bg-black/40 border border-white/10 rounded-lg px-2 text-[10px] font-bold text-white focus:border-blue-500/50 outline-none"
-                                >
-                                  <option value={0}>Tight</option>
-                                  <option value={5}>5%</option>
-                                  <option value={10}>10%</option>
-                                </select>
-                              </div>
-                            </div>
-                          </div>
-                        ) : (
-                          <div className="space-y-4 pt-1 animate-in fade-in slide-in-from-bottom-2 duration-300">
-                            {/* Text Format */}
-                            <div className="space-y-2">
-                              <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Data Format</label>
-                              <div className="flex bg-black/40 rounded-lg p-1 border border-white/5">
-                                {[
-                                  { id: 'json', label: '.json' },
-                                  { id: 'txt', label: '.txt' }
-                                ].map(f => (
-                                  <button
-                                    key={f.id}
-                                    onClick={() => dispatch({ type: 'SET_UI', exportSettings: { textFormat: f.id as any } })}
-                                    className={`flex-1 py-1 rounded-md text-[10px] font-bold transition-all lowercase ${exportSettings.textFormat === f.id ? 'bg-purple-600 text-white shadow-lg' : 'text-white/40 hover:text-white'}`}
-                                  >
-                                    {f.label}
-                                  </button>
-                                ))}
-                              </div>
-                            </div>
-
-                            {/* Content & Definitions */}
-                            <div className="space-y-2">
-                              <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Content Options</label>
-                              <div className="grid grid-cols-2 gap-1 bg-black/40 rounded-lg p-1 border border-white/5">
-                                {[
-                                  { id: 'kilang', label: 'Full Kilang' },
-                                  { id: 'chain', label: 'Chain only' }
-                                ].map(c => (
-                                  <button
-                                    key={c.id}
-                                    onClick={() => dispatch({ type: 'SET_UI', exportSettings: { textContent: c.id as any } })}
-                                    className={`py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.textContent === c.id ? 'bg-purple-600 text-white shadow-lg' : 'text-white/40 hover:text-white'}`}
-                                  >
-                                    {c.label}
-                                  </button>
-                                ))}
-                              </div>
-
-                              <button
-                                onClick={() => dispatch({ type: 'SET_UI', exportSettings: { includeDefinitions: !exportSettings.includeDefinitions } })}
-                                className={`w-full py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all uppercase flex items-center justify-center gap-2 border ${exportSettings.includeDefinitions ? 'bg-purple-600/20 text-purple-400 border-purple-500/40 shadow-[0_0_10px_rgba(147,51,234,0.2)]' : 'bg-white/5 text-white/20 border-white/5 hover:border-white/10'}`}
-                              >
-                                {exportSettings.includeDefinitions ? 'Definitions: ON' : 'Definitions: OFF'}
-                              </button>
-
-                              <p className="text-[9px] font-medium text-white/20 italic leading-tight px-1 mt-1">
-                                {exportSettings.textContent === 'kilang'
-                                  ? "Exports the entire morphological structure."
-                                  : "Exports only the selected evolutionary path."}
-                              </p>
-                            </div>
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </>
+              <KilangExportHUD
+                exportSettings={exportSettings}
+                showExportDropdown={showExportDropdown}
+                exporting={exporting}
+                dispatch={dispatch}
+                handleExport={handleExport}
+                dropdownPosition="top"
+                align="left"
+                variant="header"
+                className="relative ml-2 pl-4 border-l border-white/5 hidden lg:block"
+              />
             )}
           </div>
         ) : (
@@ -646,7 +467,7 @@ export const KilangHeader = ({
             />
             <CompactMetric
               icon={<Maximize2 className="w-3 h-3" />}
-              label="Span"
+              label="Max. span"
               value={stats.summary.max_depth}
               color="emerald"
               description="Maximum morphological depth (evolutionary layers) found."
@@ -781,7 +602,7 @@ export const KilangHeader = ({
                     >
                       <div className="flex items-center gap-2">
                         <Eye className="w-3.5 h-3.5 text-white/40 group-hover:text-blue-400" />
-                        <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">View Settings</span>
+                        <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">View</span>
                       </div>
                       <ChevronRight className={`w-3 h-3 text-white/20 transition-transform ${showViewSub ? 'rotate-90' : ''}`} />
                     </button>

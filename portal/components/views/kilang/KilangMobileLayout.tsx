@@ -158,6 +158,7 @@ export const KilangMobileLayout = ({
           setArrangement={(a) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
           handleExport={handleExport}
           exportSettings={state.exportSettings}
+          showExportDropdown={state.showExportDropdown}
           exporting={state.exporting}
           dispatch={dispatch}
         />
