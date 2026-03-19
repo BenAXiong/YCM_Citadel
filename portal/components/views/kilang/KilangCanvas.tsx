@@ -130,7 +130,7 @@ export const KilangCanvas = ({
     };
 
     const onWheel = (e: WheelEvent) => {
-      if (e.altKey) {
+      if (e.ctrlKey) {
         e.preventDefault();
         const container = treeRef.current;
         if (!container) return;
@@ -146,7 +146,7 @@ export const KilangCanvas = ({
         const worldY = (mouseY + container.scrollTop) / currentScale;
 
         // Calculate next scale
-        const zoomSpeed = 0.001;
+        const zoomSpeed = 0.0012;
         const delta = -e.deltaY * zoomSpeed;
         const nextScale = Math.min(Math.max(currentScale + delta, 0.1), 3);
 
@@ -159,8 +159,11 @@ export const KilangCanvas = ({
         const nextScrollLeft = (worldX * nextScale) - mouseX;
         const nextScrollTop = (worldY * nextScale) - mouseY;
 
-        container.scrollLeft = nextScrollLeft;
-        container.scrollTop = nextScrollTop;
+        container.scrollTo({
+          left: nextScrollLeft,
+          top: nextScrollTop,
+          behavior: 'auto'
+        });
       }
     };
 
@@ -214,11 +217,12 @@ export const KilangCanvas = ({
       const pos = nodeMap[normalizeWord(selectedRoot) || ''];
       if (!pos) return;
 
+      const currentScale = isFit ? fitTransform.scale : scale;
       const hBias = direction === 'horizontal' ? 0.15 : 0.5;
       const vBias = direction === 'vertical' ? 0.85 : 0.5;
 
-      const scrollLeft = (pos.x + 128) - (container.clientWidth * hBias);
-      const scrollTop = (pos.y + 128) - (container.clientHeight * vBias);
+      const scrollLeft = (pos.x * currentScale) - (container.clientWidth * hBias);
+      const scrollTop = (pos.y * currentScale) - (container.clientHeight * vBias);
 
       container.scrollTo({
         left: scrollLeft,
@@ -396,7 +400,7 @@ export const KilangCanvas = ({
                   transform: isFit
                     ? `translate(${fitTransform.x}px, ${fitTransform.y}px) scale(${fitTransform.scale})`
                     : `scale(${scale})`,
-                  transformOrigin: rootPos ? `${rootPos.x}px ${rootPos.y}px` : 'center center'
+                  transformOrigin: '0 0'
                 }}
               >
                 {/* 1. SVG Layer (Background) */}

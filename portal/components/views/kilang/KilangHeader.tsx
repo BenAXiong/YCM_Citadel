@@ -621,10 +621,6 @@ export const KilangHeader = ({
                                 <span className="text-[7.5px] font-black uppercase text-blue-400 tracking-wider">Canvas Interaction</span>
                               </div>
                               <div className="flex justify-between items-center text-[9px]">
-                                <span className="text-white/40 font-bold uppercase tracking-tight">Alt + Scroll</span>
-                                <span className="text-white font-mono bg-white/5 px-1 rounded">X-Scroll</span>
-                              </div>
-                              <div className="flex justify-between items-center text-[9px]">
                                 <span className="text-white/40 font-bold uppercase tracking-tight">Scroll</span>
                                 <span className="text-white font-mono bg-white/5 px-1 rounded">Y-Scroll</span>
                               </div>
