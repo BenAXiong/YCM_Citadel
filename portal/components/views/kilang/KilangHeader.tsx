@@ -282,77 +282,118 @@ export const KilangHeader = ({
 
         {/* 2. Metrics & Basic Controls with extra padding */}
         <div className="flex items-center gap-3 lg:gap-8 pl-10 pr-2 h-full">
-          {/* Morphology Mode Selector + Source Dropdown */}
-          <div className="flex bg-white/5 border border-white/10 rounded-lg p-0.5 h-8 items-stretch relative">
-            {(['moe', 'plus', 'star'] as const).map(mode => {
-              if (mode === 'moe') {
-                return (
-                  <div key={mode} className="relative group flex h-full">
-                    <button
-                      onClick={() => setMorphMode('moe')}
-                      className={`px-3 h-full kilang-ctrl-btn text-[10px] font-black tracking-widest ${morphMode === 'moe'
-                        ? 'kilang-ctrl-btn-active'
-                        : 'kilang-ctrl-btn-inactive'
-                        }`}
-                    >
-                      <div className="flex items-center gap-1.5">
-                        <span>{sourceFilter === 'ALL' || morphMode !== 'moe' ? 'MoE' : (MOE_SOURCES.find((s: { id: string; label: string }) => s.id === sourceFilter)?.label.split(' ')[0] || 'MoE')}</span>
-                        <ChevronDown className="w-2.5 h-2.5 opacity-40 shrink-0" />
-                      </div>
-                    </button>
+          {/* Consolidated Source & Mode Dropdown */}
+          <div className="relative group flex h-8 bg-white/5 border border-white/10 rounded-lg p-0.5 items-stretch">
+            <button
+              className="px-3 h-full kilang-ctrl-btn text-[10px] font-black tracking-widest flex items-center gap-2 group/btn"
+              title="Select Morphological Source & Mode"
+            >
+              <div className="flex items-center gap-1.5 min-w-[60px] justify-between">
+                <span>
+                  {morphMode === 'moe' 
+                    ? (sourceFilter === 'ALL' ? 'MoE (all)' : (MOE_SOURCES.find(s => s.id === sourceFilter)?.label.split(' ')[0] || 'MoE'))
+                    : (morphMode === 'plus' ? 'Kilang' : 'Kilang+')
+                  }
+                </span>
+                <ChevronDown className="w-2.5 h-2.5 opacity-40 shrink-0 group-hover/btn:scale-110 transition-transform" />
+              </div>
+            </button>
 
-                    <div className="absolute top-full left-0 mt-1 w-56 bg-[#0f172a]/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] p-1 hidden group-hover:block z-[3000] animate-in fade-in slide-in-from-top-2 duration-200">
-                      {MOE_SOURCES.map((s: { id: string; label: string }) => {
-                        const colors: Record<string, string> = {
-                          'p': 'bg-[#3366cc]',
-                          'm': 'bg-[#c07b0c]',
-                          's': 'bg-[#e53e3e]',
-                          'a': 'bg-[#8e44ad]',
-                          'old-s': 'bg-[#718096]',
-                          'ALL': 'bg-blue-600'
-                        };
-                        const isActive = sourceFilter === s.id && morphMode === 'moe';
-                        return (
-                          <button
-                            key={s.id}
-                            onClick={() => {
-                              setSourceFilter(s.id);
-                              setMorphMode('moe');
-                            }}
-                            className={`w-full text-left px-3 py-2 rounded-lg text-[9px] font-black tracking-widest uppercase transition-all flex items-center gap-3 ${isActive ? `${colors[s.id] || 'bg-blue-600'} text-white shadow-lg` : 'text-kilang-text-muted hover:bg-white/5 hover:text-white'}`}
-                          >
-                            <div className={`w-2 h-2 rounded-full ${colors[s.id] || 'bg-white/20'} ${isActive ? 'ring-2 ring-white/30' : ''}`} />
-                            <span className="flex-1">{s.label}</span>
-                            <span className={`text-[8px] font-mono px-1.5 py-0.5 rounded ${isActive ? 'bg-white/20 text-white' : 'bg-white/5 text-kilang-text-muted'}`}>
-                              {s.id === 'ALL'
-                                ? `${Object.values(sourceCounts).reduce((a, b: any) => a + (b.r || 0), 0).toLocaleString()}/${Object.values(sourceCounts).reduce((a, b: any) => a + (b.e || 0), 0).toLocaleString()}`
-                                : sourceCounts[s.id]
-                                  ? `${sourceCounts[s.id].r.toLocaleString()}/${sourceCounts[s.id].e.toLocaleString()}`
-                                  : '.../...'
-                              }
-                            </span>
-                            {isActive && <div className="w-1 h-1 rounded-full bg-white animate-pulse" />}
-                          </button>
-                        );
-                      })}
+            {/* CONSOLIDATED DROPDOWN MENU */}
+            <div className="absolute top-full left-0 mt-1 w-64 bg-[#0f172a]/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] p-1.5 hidden group-hover:block z-[3000] animate-in fade-in slide-in-from-top-2 duration-200">
+              {/* SECTION: MoE (ALL) */}
+              <div className="relative group/tip">
+                <button
+                  onClick={() => { setSourceFilter('ALL'); setMorphMode('moe'); }}
+                  className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 mb-1 ${sourceFilter === 'ALL' && morphMode === 'moe' ? 'bg-blue-600 text-white shadow-lg' : 'text-white/60 hover:bg-white/5 hover:text-white'}`}
+                >
+                  <div className={`w-2 h-2 rounded-full ${sourceFilter === 'ALL' && morphMode === 'moe' ? 'bg-white ring-2 ring-white/30' : 'bg-blue-600'}`} />
+                  <span className="flex-1">MoE (all)</span>
+                  {sourceFilter === 'ALL' && morphMode === 'moe' && <div className="w-1 h-1 rounded-full bg-white animate-pulse" />}
+                </button>
+                {/* Fixed Tooltip */}
+                <div className="absolute left-full ml-2 top-0 w-48 bg-black/90 backdrop-blur-xl border border-white/10 rounded-lg p-2.5 shadow-2xl z-[5000] invisible group-hover/tip:visible opacity-0 group-hover/tip:opacity-100 transition-all scale-95 group-hover/tip:scale-100 origin-left">
+                  <div className="text-[9px] text-white/70 leading-relaxed font-sans normal-case tracking-normal">
+                    Ministry of Education Amis Dictionary (Consolidated). Merges all selected authoritative sources into a single morphological view.
+                  </div>
+                </div>
+              </div>
+
+              <div className="h-[1px] bg-white/5 my-1 mx-2" />
+
+              {/* SECTION: MoE SPECIFIC DICS */}
+              <div className="space-y-0.5">
+                {MOE_SOURCES.filter((s: any) => s.id !== 'ALL').map((s: any) => {
+                  const colors: Record<string, string> = {
+                    'p': 'bg-[#3366cc]',
+                    'm': 'bg-[#c07b0c]',
+                    's': 'bg-[#e53e3e]',
+                    'a': 'bg-[#8e44ad]',
+                    'old-s': 'bg-[#718096]'
+                  };
+                  const isActive = sourceFilter === s.id && morphMode === 'moe';
+                  return (
+                    <div key={s.id} className="relative group/tip">
+                      <button
+                        onClick={() => { setSourceFilter(s.id); setMorphMode('moe'); }}
+                        className={`w-full text-left px-3 py-2 rounded-lg text-[11px] font-black tracking-widest uppercase transition-all flex items-center gap-3 ${isActive ? `${colors[s.id] || 'bg-blue-600'} text-white shadow-lg` : 'text-kilang-text-muted hover:bg-white/5 hover:text-white'}`}
+                      >
+                        <div className={`w-2 h-2 rounded-full ${colors[s.id] || 'bg-white/20'} ${isActive ? 'ring-2 ring-white/30' : ''}`} />
+                        <span className="flex-1">{s.label}</span>
+                        <span className={`text-[8px] font-mono px-1.5 py-0.5 rounded ${isActive ? 'bg-white/20 text-white' : 'bg-white/5 text-kilang-text-muted'}`}>
+                          {sourceCounts[s.id] ? `${sourceCounts[s.id].r.toLocaleString()}/${sourceCounts[s.id].e.toLocaleString()}` : '.../...'}
+                        </span>
+                      </button>
+                      {/* Dynamic Tooltip */}
+                      {s.tooltip && (
+                        <div className="absolute left-full ml-2 top-0 w-48 bg-black/90 backdrop-blur-xl border border-white/10 rounded-lg p-2.5 shadow-2xl z-[5000] invisible group-hover/tip:visible opacity-0 group-hover/tip:opacity-100 transition-all scale-95 group-hover/tip:scale-100 origin-left">
+                          <div className="text-[9px] text-white/70 leading-relaxed font-sans normal-case tracking-normal">
+                            {s.tooltip}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+
+              <div className="h-[1px] bg-white/5 mt-2 mb-1 mx-2" />
+
+              {/* SECTION: ADVANCED MODES (KILANG) */}
+              <div className="space-y-0.5">
+                <div className="relative group/tip">
+                  <button
+                    onClick={() => setMorphMode('plus')}
+                    className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 ${morphMode === 'plus' ? 'bg-emerald-600 text-white shadow-lg' : 'text-white/60 hover:bg-white/5 hover:text-white'}`}
+                  >
+                    <div className={`w-2 h-2 rounded-full ${morphMode === 'plus' ? 'bg-white ring-2 ring-white/30' : 'bg-emerald-600'}`} />
+                    <span className="flex-1">Kilang</span>
+                    {morphMode === 'plus' && <div className="w-1 h-1 rounded-full bg-white animate-pulse" />}
+                  </button>
+                  <div className="absolute left-full ml-2 top-0 w-48 bg-black/90 backdrop-blur-xl border border-white/10 rounded-lg p-2.5 shadow-2xl z-[5000] invisible group-hover/tip:visible opacity-0 group-hover/tip:opacity-100 transition-all scale-95 group-hover/tip:scale-100 origin-left">
+                    <div className="text-[9px] text-white/70 leading-relaxed font-sans normal-case tracking-normal">
+                      ENHANCED: Uses heuristic substring matching to bridge gaps in the official dictionary, revealing denser morphological clusters.
                     </div>
                   </div>
-                );
-              }
-              const displayLabel = mode === 'plus' ? 'MoE+' : 'MoE*';
-              return (
-                <button
-                  key={mode}
-                  onClick={() => setMorphMode(mode)}
-                  className={`px-3 h-full kilang-ctrl-btn text-[10px] font-black tracking-widest ${morphMode === mode
-                    ? 'kilang-ctrl-btn-active'
-                    : 'kilang-ctrl-btn-inactive'
-                    }`}
-                >
-                  {displayLabel}
-                </button>
-              );
-            })}
+                </div>
+
+                <div className="relative group/tip">
+                  <button
+                    onClick={() => setMorphMode('star')}
+                    className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 ${morphMode === 'star' ? 'bg-red-600 text-white shadow-lg' : 'text-white/60 hover:bg-white/5 hover:text-white'}`}
+                  >
+                    <div className={`w-2 h-2 rounded-full ${morphMode === 'star' ? 'bg-white ring-2 ring-white/30' : 'bg-red-600'}`} />
+                    <span className="flex-1">Kilang+</span>
+                    {morphMode === 'star' && <div className="w-1 h-1 rounded-full bg-white animate-pulse" />}
+                  </button>
+                  <div className="absolute left-full ml-2 top-0 w-48 bg-black/90 backdrop-blur-xl border border-white/10 rounded-lg p-2.5 shadow-2xl z-[5000] invisible group-hover/tip:visible opacity-0 group-hover/tip:opacity-100 transition-all scale-95 group-hover/tip:scale-100 origin-left">
+                    <div className="text-[9px] text-white/70 leading-relaxed font-sans normal-case tracking-normal">
+                      EXPERIMENTAL: Dialectal triangulation and phonetic law matching (e.g. u/o drift). High-connectivity exploratory mode.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -456,7 +456,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                           <div className="space-y-2 pl-2 border-l-4 border-blue-500/30">
                             {nodeData?.definitions && nodeData.definitions.length > 0 ? (
                               nodeData.definitions.map((def: string, i: number) => (
-                                <div key={i} className="text-lg text-blue-400 font-medium leading-relaxed">
+                                <div key={i} className="text-md text-blue-400 font-medium leading-relaxed">
                                   {nodeData.definitions!.length > 1 && <span className="text-blue-500/50 mr-2">{i + 1}.</span>}
                                   {def}
                                 </div>

@@ -43,12 +43,12 @@ export default function KilangView({ uiLang, toggleUiLang, s }: KilangViewProps)
   } = state;
 
   const MOE_SOURCES = [
-    { id: 'ALL', label: 'ALL SOURCES' },
-    { id: 'p', label: '蔡中涵 (p)' },
-    { id: 'm', label: '吳明義 (m)' },
-    { id: 's', label: '學習詞表 (s)' },
-    { id: 'a', label: '原住民族 (a)' },
-    { id: 'old-s', label: 'Old-S (Legacy)' },
+    { id: 'ALL', label: 'MoE (all)', tooltip: 'Ministry of Education Amis Dictionary (Consolidated). Merges all selected authoritative sources into a single morphological view.' },
+    { id: 'p', label: '蔡中涵 (p)', tooltip: 'Standard Modern Amis Dictionary by Safolu (蔡中涵). The primary repository for modern Amis usage and standardized definitions.' },
+    { id: 'm', label: '吳明義 (m)', tooltip: 'MoE Amis Dictionary by Wu Ming-yi (吳明義). Specialized Chinese definitions focusing on dialectal variations and cultural nuances.' },
+    { id: 's', label: '學習詞表 (s)', tooltip: 'Pedagogical: 9-Year & 12-Year Curriculum Word List. Foundational vocabulary used in standardized indigenous language education.' },
+    { id: 'a', label: '原住民族 (a)', tooltip: 'Council of Indigenous Peoples (CIP) Glossary. Official administrative and cultural terminology compiled by the Council.' },
+    { id: 'old-s', label: 'Old-S (Legacy)', tooltip: 'Legacy archival data from earlier MOE collections. Preserved for comparative linguistic and historical analysis.' },
   ];
 
   const FILTER_BUCKETS = [
