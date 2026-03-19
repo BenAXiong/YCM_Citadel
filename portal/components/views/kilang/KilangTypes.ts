@@ -22,6 +22,8 @@ export interface Derivation extends MoeEntry {
   tier: number;
   sortPath: string;
   treeRow?: number;
+  definitions?: string[];
+  allExamples?: any[];
 }
 
 export interface KilangRootData {

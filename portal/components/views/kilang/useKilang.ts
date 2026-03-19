@@ -97,11 +97,22 @@ export const useKilang = () => {
 
       dispatch({ type: 'SET_LAYOUT_CONFIG', config: { nodeWidth: autoWidth } });
 
+      // Collect all definitions for the root word specifically
+      const rootDefinitions = allRows
+        .filter(r => normalizeWord(r.word_ab) === normalizedRoot)
+        .map(r => r.definition);
+      
+      const rootExamples = allRows
+        .filter(r => normalizeWord(r.word_ab) === normalizedRoot && r.examples_json)
+        .flatMap(r => JSON.parse(r.examples_json!));
+
       dispatch({
         type: 'SET_ROOT_DATA',
         data: {
           word: root,
           derivatives: derivatives,
+          definitions: rootDefinitions,
+          allExamples: rootExamples,
           totalInDb: allRows.length,
           parentStem: parentStem,
           loading: false
@@ -166,6 +177,13 @@ export const useKilang = () => {
       dispatch({ type: 'SET_SUMMARY', word, definitions: ["Error loading definition."] });
     }
   }, [state.morphMode, state.summaryCache]);
+  
+  // 2c. Fetch summary for selected node
+  useEffect(() => {
+    if (state.canvasSelectedNode) {
+      fetchSummary(state.canvasSelectedNode);
+    }
+  }, [state.canvasSelectedNode, fetchSummary]);
 
   // 4. Derived Data (Memoized)
   const nodeMap = useMemo(() => {

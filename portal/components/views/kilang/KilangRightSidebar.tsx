@@ -27,8 +27,90 @@ interface KilangRightSidebarProps {
   nodeMap?: any;
 }
 
+// --- SUB-COMPONENTS ---
+
+const ChevronDown = ({ className }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="m6 9 6 6 6-6" />
+  </svg>
+);
+
+const SentenceItem = ({ ex, focusWord }: { ex: any, focusWord: string }) => {
+  // Parsing the Amis text to highlight focus words marked with `...~
+  const parseAmis = (text: string) => {
+    if (!text) return null;
+    const parts = text.split(/(`[^~]+~)/);
+    const lowFocus = normalizeWord(focusWord);
+
+    return parts.map((part, i) => {
+      if (part.startsWith('`') && part.endsWith('~')) {
+        const word = part.slice(1, -1);
+        const isMatch = normalizeWord(word) === lowFocus;
+        return <span key={i} className={isMatch ? "text-orange-400 font-bold" : ""}>{word}</span>;
+      }
+      return <span key={i}>{part}</span>;
+    });
+  };
+
+  return (
+    <div className="p-3 bg-white/5 rounded-xl border border-white/5 flex flex-col gap-2 group/sent transition-all hover:bg-white/10">
+      <div className="text-[16px] text-white/90 leading-relaxed font-sans">
+        {parseAmis(ex.ab)}
+      </div>
+      <div className="space-y-1 pl-2 border-l border-white/10">
+        {ex.zh && <div className="text-[15px] text-blue-300/60 leading-tight">{ex.zh}</div>}
+        {ex.en && <div className="text-[11px] text-white/30 italic leading-tight">{ex.en}</div>}
+      </div>
+    </div>
+  );
+};
+
+interface CollapsibleSectionProps {
+  title: string;
+  id: string;
+  icon: any;
+  isCollapsed: boolean;
+  onToggle: () => void;
+  children: React.ReactNode;
+  action?: React.ReactNode;
+}
+
+const CollapsibleSection = ({ title, icon: Icon, isCollapsed, onToggle, children, action }: CollapsibleSectionProps) => (
+  <section className="mb-6 border border-white/10 rounded-2xl bg-[#0f172a]/50 overflow-hidden shadow-lg">
+    <div
+      onClick={onToggle}
+      className={`flex items-center justify-between group cursor-pointer select-none px-4 py-3 transition-colors ${isCollapsed ? 'hover:bg-white/5' : 'bg-[#0f172a]/50 border-b border-white/5 hover:bg-white/10'}`}
+    >
+      <div className="flex items-center gap-2.5">
+        {Icon && (
+          <div className="text-blue-400 group-hover:scale-110 transition-transform duration-300">
+            <Icon className="w-3.5 h-3.5" />
+          </div>
+        )}
+        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/50 group-hover:text-white transition-colors">
+          {title}
+        </span>
+      </div>
+
+      <div className="flex items-center gap-2">
+        {action}
+        <div className="text-white/20 group-hover:text-white transition-colors">
+          {isCollapsed ? <ChevronRight className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+        </div>
+      </div>
+    </div>
+    {!isCollapsed && (
+      <div className="animate-in fade-in slide-in-from-top-2 duration-300 p-4 bg-black/40 font-mono text-[10px] overflow-x-auto custom-scrollbar max-h-[500px]">
+        {children}
+      </div>
+    )}
+  </section>
+);
+
+// --- MAIN COMPONENT ---
+
 export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nodeMap }: KilangRightSidebarProps) => {
-  const { rightSidebarTab, rightSidebarWidth, canvasSelectedNode, rootData, selectedRoot, showTreeTab } = state;
+  const { rightSidebarTab, rightSidebarWidth, canvasSelectedNode, rootData, selectedRoot, showTreeTab, summaryCache } = state;
   const [collapsedSections, setCollapsedSections] = React.useState<Record<string, boolean>>({});
 
   const toggleSection = (id: string) => {
@@ -56,9 +138,9 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
     document.addEventListener('mouseup', onMouseUp);
     document.body.style.cursor = 'col-resize';
   }, [rightSidebarWidth, dispatch]);
-  
+
   const [copiedId, setCopiedId] = React.useState<string | null>(null);
-  
+
   const handleCopy = (id: string, text: string) => {
     navigator.clipboard.writeText(text);
     setCopiedId(id);
@@ -72,6 +154,21 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
       dispatch({ type: 'SET_UI', rightSidebarTab: 'sent' });
     }
   }, [showTreeTab, rightSidebarTab, dispatch]);
+
+  const renderSentences = (jsonStr: string | null | undefined, focusWord: string) => {
+    if (!jsonStr) return <div className="text-[10px] text-white/20 italic pl-3 border-l border-white/5">No examples found</div>;
+    try {
+      const examples = JSON.parse(jsonStr);
+      if (!Array.isArray(examples) || examples.length === 0)
+        return <div className="text-[10px] text-white/20 italic pl-3 border-l border-white/5">No examples found</div>;
+
+      return examples.map((ex, idx) => (
+        <SentenceItem key={idx} ex={ex} focusWord={focusWord} />
+      ));
+    } catch (e) {
+      return <div className="text-red-400/50 text-[10px] italic">Error parsing examples</div>;
+    }
+  };
 
   return (
     <aside
@@ -136,11 +233,11 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                   action={(() => {
                     const activeNode = canvasSelectedNode || selectedRoot;
                     if (!activeNode) return null;
-                    const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
-                                   (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
+                    const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) ||
+                      (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
                     if (!nodeData) return null;
                     return (
-                      <button 
+                      <button
                         onClick={(e) => { e.stopPropagation(); handleCopy('json', JSON.stringify(nodeData, null, 2)); }}
                         className="p-1.5 rounded-md hover:bg-white/10 text-white/40 hover:text-white transition-all"
                         title="Copy JSON"
@@ -153,29 +250,29 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                   {(() => {
                     const activeNode = canvasSelectedNode || selectedRoot;
                     if (!activeNode) return <span className="text-white/20 italic">No data available</span>;
-                    const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
-                                   (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
-                    
+                    const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) ||
+                      (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
+
                     if (!nodeData) return <span className="text-white/20 italic">// {activeNode} details not found</span>;
-                    
+
                     return (
-                       <div className="space-y-0.5 leading-relaxed">
-                          {JSON.stringify(nodeData, null, 2).split('\n').map((line, i) => {
-                            const keyMatch = line.match(/^(\s*)"([^"]+)":/);
-                            if (keyMatch) {
-                              const indent = keyMatch[1];
-                              const key = keyMatch[2];
-                              const rest = line.substring(keyMatch[0].length);
-                              return (
-                                <div key={i}>
-                                  {indent}<span className="text-blue-400">"{key}"</span>:
-                                  <span className="text-orange-300">{rest}</span>
-                                </div>
-                              );
-                            }
-                            return <div key={i} className="text-white/40">{line}</div>;
-                          })}
-                       </div>
+                      <div className="space-y-0.5 leading-relaxed">
+                        {JSON.stringify(nodeData, null, 2).split('\n').map((line, i) => {
+                          const keyMatch = line.match(/^(\s*)"([^"]+)":/);
+                          if (keyMatch) {
+                            const indent = keyMatch[1];
+                            const key = keyMatch[2];
+                            const rest = line.substring(keyMatch[0].length);
+                            return (
+                              <div key={i}>
+                                {indent}<span className="text-blue-400">"{key}"</span>:
+                                <span className="text-orange-300">{rest}</span>
+                              </div>
+                            );
+                          }
+                          return <div key={i} className="text-white/40">{line}</div>;
+                        })}
+                      </div>
                     );
                   })()}
                 </CollapsibleSection>
@@ -190,26 +287,26 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                   action={(() => {
                     const activeNode = canvasSelectedNode || selectedRoot;
                     if (!activeNode || !rootData?.derivatives) return null;
-                    
-                    const filterSet = canvasSelectedNode 
-                      ? (trimDescendants 
-                          ? new Set(getLinearPath(canvasSelectedNode, rootData.derivatives, selectedRoot).map(w => normalizeWord(w) || ''))
-                          : getActiveHighlightChain(canvasSelectedNode, rootData.derivatives, selectedRoot))
+
+                    const filterSet = canvasSelectedNode
+                      ? (trimDescendants
+                        ? new Set(getLinearPath(canvasSelectedNode, rootData.derivatives, selectedRoot).map(w => normalizeWord(w) || ''))
+                        : getActiveHighlightChain(canvasSelectedNode, rootData.derivatives, selectedRoot))
                       : undefined;
 
                     const treeRoot = selectedRoot || activeNode;
                     const treeStr = generateTreeString(rootData.derivatives, treeRoot, '', true, 0, filterSet, canvasSelectedNode);
-                    
+
                     return (
                       <div className="flex items-center gap-1">
-                        <button 
+                        <button
                           onClick={(e) => { e.stopPropagation(); setTrimDescendants(!trimDescendants); }}
                           className={`p-1.5 rounded-md transition-all ${trimDescendants ? 'bg-orange-500/20 text-orange-400' : 'text-white/20 hover:text-white/40'}`}
                           title={trimDescendants ? "Show All Descendants" : "Trim All Descendants"}
                         >
                           <Scissors className="w-3 h-3" />
                         </button>
-                        <button 
+                        <button
                           onClick={(e) => { e.stopPropagation(); handleCopy('text', treeStr); }}
                           className="p-1.5 rounded-md hover:bg-white/10 text-white/40 hover:text-white transition-all"
                           title="Copy ASCII Tree"
@@ -224,13 +321,13 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     {(() => {
                       const activeNode = canvasSelectedNode || selectedRoot;
                       if (!activeNode || !rootData?.derivatives) return <span className="text-white/20 italic">Select a node to view its growth</span>;
-                      
-                      const filterSet = canvasSelectedNode 
-                        ? (trimDescendants 
-                            ? new Set(getLinearPath(canvasSelectedNode, rootData.derivatives, selectedRoot).map(w => normalizeWord(w) || ''))
-                            : getActiveHighlightChain(canvasSelectedNode, rootData.derivatives, selectedRoot))
+
+                      const filterSet = canvasSelectedNode
+                        ? (trimDescendants
+                          ? new Set(getLinearPath(canvasSelectedNode, rootData.derivatives, selectedRoot).map(w => normalizeWord(w) || ''))
+                          : getActiveHighlightChain(canvasSelectedNode, rootData.derivatives, selectedRoot))
                         : undefined;
-                      
+
                       const treeRoot = selectedRoot || activeNode;
                       return generateTreeString(rootData.derivatives, treeRoot, '', true, 0, filterSet, canvasSelectedNode);
                     })()}
@@ -250,9 +347,9 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     const childrenCount = rootData?.derivatives?.filter((d: any) => d.parentWord?.toLowerCase() === activeNode.toLowerCase()).length || 0;
                     const descendantsCount = rootData?.derivatives?.filter((d: any) => d.sortPath?.toLowerCase().includes(`>${activeNode.toLowerCase()}>`) || d.sortPath?.toLowerCase().endsWith(`>${activeNode.toLowerCase()}`)).length || 0;
                     const analysisStr = `WORD: ${activeNode}\nCHILDREN: ${childrenCount}\nSUBTREE SIZE: ${descendantsCount}\nTYPE: ${activeNode === selectedRoot ? 'ROOT STEM' : 'DERIVATIVE'}`;
-                    
+
                     return (
-                      <button 
+                      <button
                         onClick={(e) => { e.stopPropagation(); handleCopy('query', analysisStr); }}
                         className="p-1.5 rounded-md hover:bg-white/10 text-white/40 hover:text-white transition-all"
                         title="Copy Analysis Summary"
@@ -267,7 +364,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     if (!activeNode) return "Select a node to analyze";
                     const children = rootData?.derivatives?.filter((d: any) => d.parentWord?.toLowerCase() === activeNode.toLowerCase()) || [];
                     const allDescendants = rootData?.derivatives?.filter((d: any) => d.sortPath?.toLowerCase().includes(`>${activeNode.toLowerCase()}>`) || d.sortPath?.toLowerCase().endsWith(`>${activeNode.toLowerCase()}`)) || [];
-                    
+
                     return (
                       <div className="text-purple-400/90 space-y-2">
                         <div>WORD: <span className="text-white">{activeNode}</span></div>
@@ -290,11 +387,11 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                   {(() => {
                     const activeNode = canvasSelectedNode || selectedRoot;
                     if (!activeNode) return "Select a node to view attributes";
-                    const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
-                                   (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word: activeNode, isRoot: true, ...rootData } : null);
-                    
+                    const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) ||
+                      (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word: activeNode, isRoot: true, ...rootData } : null);
+
                     if (!nodeData) return <div className="text-white/20 italic">No entry data found</div>;
-                    
+
                     return (
                       <>
                         <div className="space-y-1">
@@ -303,23 +400,23 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                             Definition
                           </div>
                           <div className="text-white/80 leading-relaxed pl-2.5 border-l border-white/10 italic">
-                             {nodeData.definition || "No definition available"}
+                            {nodeData.definition || "No definition available"}
                           </div>
                         </div>
-                         <div className="grid grid-cols-2 gap-2">
-                           <div className="space-y-1">
-                              <div className="opacity-40 uppercase tracking-tighter text-[9px]">Pinyin</div>
-                              <div className="text-blue-400">{nodeData.pinyin || "-"}</div>
-                           </div>
-                           <div className="space-y-1">
-                              <div className="opacity-40 uppercase tracking-tighter text-[9px]">Bopomofo</div>
-                              <div className="text-emerald-400">{nodeData.bopomofo || "-"}</div>
-                           </div>
-                         </div>
-                         <div className="pt-2 border-t border-white/5">
-                           <div className="opacity-40 uppercase tracking-tighter text-[9px]">Source Code</div>
-                           <div className="text-white/40">{nodeData.dict_code || "Unknown"}</div>
-                         </div>
+                        <div className="grid grid-cols-2 gap-2">
+                          <div className="space-y-1">
+                            <div className="opacity-40 uppercase tracking-tighter text-[9px]">Pinyin</div>
+                            <div className="text-blue-400">{nodeData.pinyin || "-"}</div>
+                          </div>
+                          <div className="space-y-1">
+                            <div className="opacity-40 uppercase tracking-tighter text-[9px]">Bopomofo</div>
+                            <div className="text-emerald-400">{nodeData.bopomofo || "-"}</div>
+                          </div>
+                        </div>
+                        <div className="pt-2 border-t border-white/5">
+                          <div className="opacity-40 uppercase tracking-tighter text-[9px]">Source Code</div>
+                          <div className="text-white/40">{nodeData.dict_code || "Unknown"}</div>
+                        </div>
                       </>
                     );
                   })()}
@@ -328,9 +425,139 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
             )}
 
             {rightSidebarTab === 'sent' && (
-              <div className="flex flex-col items-center justify-center h-full opacity-20 py-20">
-                <MessageSquare className="w-12 h-12 mb-4" />
-                <p className="text-[10px] font-black uppercase tracking-widest">Sentences Coming Soon</p>
+              <div className="space-y-6">
+                {(() => {
+                  const activeNode = canvasSelectedNode || selectedRoot;
+                  if (!activeNode) return (
+                    <div className="flex flex-col items-center justify-center py-20 opacity-20 text-center">
+                      <MessageSquare className="w-12 h-12 mb-4" />
+                      <p className="text-[10px] font-black uppercase tracking-widest">Select a node to view usage</p>
+                    </div>
+                  );
+
+                  const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) ||
+                    (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word_ab: activeNode, isRoot: true, ...rootData } : null);
+
+                  const path = getLinearPath(activeNode, rootData?.derivatives || [], selectedRoot);
+                  const parentKeys = path.slice(0, -1);
+                  const parentNodes = parentKeys.map(pk => {
+                    return rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === pk.toLowerCase()) ||
+                      (selectedRoot?.toLowerCase() === pk.toLowerCase() ? { word_ab: selectedRoot, isRoot: true, ...rootData } : null);
+                  }).filter(Boolean);
+
+                  const childrenNodes = rootData?.derivatives?.filter((d: any) => d.parentWord?.toLowerCase() === activeNode.toLowerCase()) || [];
+
+                  return (
+                    <>
+                      {/* PRIMARY SELECTION */}
+                      <section className="space-y-4 mb-8">
+                        <div className="space-y-2">
+                          <h2 className="text-4xl font-black text-white uppercase tracking-tight">{activeNode}</h2>
+                          <div className="space-y-2 pl-2 border-l-4 border-blue-500/30">
+                            {nodeData?.definitions && nodeData.definitions.length > 0 ? (
+                              nodeData.definitions.map((def: string, i: number) => (
+                                <div key={i} className="text-lg text-blue-400 font-medium leading-relaxed">
+                                  {nodeData.definitions!.length > 1 && <span className="text-blue-500/50 mr-2">{i + 1}.</span>}
+                                  {def}
+                                </div>
+                              ))
+                            ) : (
+                              <div className="text-lg text-blue-400 font-medium leading-relaxed italic opacity-50">
+                                {nodeData?.definition || "No definition available"}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+
+                        <div className="space-y-3 pt-4">
+                          {renderSentences(nodeData?.examples_json, activeNode)}
+                        </div>
+                      </section>
+
+                      {/* GENEALOGICAL CONTEXT */}
+                      <div className="pt-6 border-t border-white/5 space-y-4">
+
+                        {/* PARENTS CONTEXT (FULL LINEAGE) */}
+                        {parentNodes.length > 0 && (
+                          <CollapsibleSection
+                            title={`Parents (${parentNodes.length})`}
+                            id="parents-sent"
+                            icon={null}
+                            isCollapsed={collapsedSections['parents-sent'] ?? true}
+                            onToggle={() => toggleSection('parents-sent')}
+                          >
+                            <div className="space-y-6">
+                              {parentNodes.map((pNode: any) => (
+                                <div key={pNode.word_ab} className="space-y-2">
+                                  <div className="text-[12px] font-bold text-white/90 uppercase tracking-widest border-b border-white/5 pb-1">{pNode.word_ab}</div>
+
+                                  {/* Multi-definition for ancestors */}
+                                  <div className="space-y-1 pl-2 mb-2">
+                                    {pNode.definitions && pNode.definitions.length > 0 ? (
+                                      pNode.definitions.map((def: string, i: number) => (
+                                        <div key={i} className="text-[12px] text-blue-300/60 leading-tight">
+                                          {pNode.definitions.length > 1 && <span className="opacity-40 mr-1">{i + 1}.</span>}
+                                          {def}
+                                        </div>
+                                      ))
+                                    ) : (
+                                      <div className="text-[10px] text-blue-300/40 italic">{pNode.definition}</div>
+                                    )}
+                                  </div>
+
+                                  <div className="space-y-3">
+                                    {renderSentences(pNode.examples_json, pNode.word_ab)}
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          </CollapsibleSection>
+                        )}
+
+                        {/* CHILDREN CONTEXT */}
+                        {childrenNodes.length > 0 && (
+                          <CollapsibleSection
+                            title={`Children (${childrenNodes.length})`}
+                            id="children-sent"
+                            icon={null}
+                            isCollapsed={collapsedSections['children-sent'] ?? true}
+                            onToggle={() => toggleSection('children-sent')}
+                          >
+                            <div className="space-y-6">
+                              {childrenNodes.map((child: any) => (
+                                <div key={child.word_ab} className="space-y-2">
+                                  <div className="text-[12px] font-bold text-white/90 uppercase tracking-widest border-b border-white/5 pb-1">{child.word_ab}</div>
+
+                                  {/* Multi-definition for children */}
+                                  <div className="space-y-1 pl-2 mb-2">
+                                    {child.definitions && child.definitions.length > 0 ? (
+                                      child.definitions.map((def: string, i: number) => (
+                                        <div key={i} className="text-[12px] text-blue-300/60 leading-tight">
+                                          {child.definitions.length > 1 && <span className="opacity-40 mr-1">{i + 1}.</span>}
+                                          {def}
+                                        </div>
+                                      ))
+                                    ) : (
+                                      <div className="text-[12px] text-blue-300/40 italic">{child.definition}</div>
+                                    )}
+                                  </div>
+
+                                  <div className="space-y-3">
+                                    {renderSentences(child.examples_json, child.word_ab)}
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          </CollapsibleSection>
+                        )}
+
+                        {parentNodes.length === 0 && childrenNodes.length === 0 && (
+                          <div className="text-[12px] italic text-white/20 text-center py-4">No morphological neighbors to compare</div>
+                        )}
+                      </div>
+                    </>
+                  );
+                })()}
               </div>
             )}
 
@@ -357,48 +584,3 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
   );
 };
 
-interface CollapsibleSectionProps {
-  title: string;
-  id: string;
-  icon: any;
-  isCollapsed: boolean;
-  onToggle: () => void;
-  children: React.ReactNode;
-  action?: React.ReactNode;
-}
-
-const CollapsibleSection = ({ title, icon: Icon, isCollapsed, onToggle, children, action }: CollapsibleSectionProps) => (
-  <section className="mb-6 border border-white/10 rounded-2xl bg-[#0f172a]/50 overflow-hidden shadow-lg">
-    <div 
-      onClick={onToggle}
-      className={`flex items-center justify-between group cursor-pointer select-none px-4 py-3 transition-colors ${isCollapsed ? 'hover:bg-white/5' : 'bg-[#0f172a]/50 border-b border-white/5 hover:bg-white/10'}`}
-    >
-      <div className="flex items-center gap-2.5">
-        <div className="text-blue-400 group-hover:scale-110 transition-transform duration-300">
-          <Icon className="w-3.5 h-3.5" />
-        </div>
-        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/50 group-hover:text-white transition-colors">
-          {title}
-        </span>
-      </div>
-      
-      <div className="flex items-center gap-2">
-        {action}
-        <div className="text-white/20 group-hover:text-white transition-colors">
-          {isCollapsed ? <ChevronRight className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
-        </div>
-      </div>
-    </div>
-    {!isCollapsed && (
-      <div className="animate-in fade-in slide-in-from-top-2 duration-300 p-4 bg-black/40 font-mono text-[10px] overflow-x-auto custom-scrollbar max-h-[500px]">
-        {children}
-      </div>
-    )}
-  </section>
-);
-
-const ChevronDown = ({ className }: { className?: string }) => (
-  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="m6 9 6 6 6-6" />
-  </svg>
-);

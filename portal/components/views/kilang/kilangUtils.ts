@@ -40,11 +40,35 @@ export const reshapeDerivatives = (
       parentWord: pWord,
       ultimateRoot: uRoot,
       tier: Number(row.tier || 2),
-      sortPath: row.sort_path || ''
+      sortPath: row.sort_path || '',
+      definitions: [row.definition],
+      allExamples: row.examples_json ? JSON.parse(row.examples_json) : []
     };
 
-    // Filter out the root itself and duplicates
-    if (word !== lowRoot && !uniqueDerivativesMap.has(word)) {
+    // Filter out the root itself (but we can collect its definitions if needed)
+    if (word === lowRoot) return;
+
+    if (uniqueDerivativesMap.has(word)) {
+      const existing = uniqueDerivativesMap.get(word)!;
+      // Merge definition if unique
+      if (!existing.definitions?.includes(row.definition)) {
+        existing.definitions?.push(row.definition);
+      }
+      // Merge examples
+      if (row.examples_json) {
+        try {
+          const newEx = JSON.parse(row.examples_json);
+          if (Array.isArray(newEx)) {
+            newEx.forEach(ex => {
+              // Simple duplicate check for examples (by Amis text 'ab')
+              if (!existing.allExamples?.some(e => e.ab === ex.ab)) {
+                 existing.allExamples?.push(ex);
+              }
+            });
+          }
+        } catch (e) {}
+      }
+    } else {
       uniqueDerivativesMap.set(word, dRow);
     }
   });
