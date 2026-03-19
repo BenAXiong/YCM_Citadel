@@ -9,8 +9,8 @@ import { KilangMobileLayout } from './kilang/KilangMobileLayout';
 import { useIsMobile } from '@/hooks/useIsMobile';
 
 // Data Logic
-import { useKilang } from './kilang/useKilang';
-import { getForestBoundingBox } from './kilang/kilangUtils';
+  import { useKilang } from './kilang/useKilang';
+  import { getForestBoundingBox, generateTreeString, getActiveHighlightChain, normalizeWord } from './kilang/kilangUtils';
 import { SidebarProvider } from './kilang/SidebarContext';
 import { UILang, UIStrings } from '@/types';
 
@@ -99,97 +99,150 @@ export default function KilangView({ uiLang, toggleUiLang, s }: KilangViewProps)
   }, [stats, searchTerm, branchFilter]);
 
   const handleExport = async () => {
-    if (!treeRef.current || !selectedRoot) return;
-    const { format, background, area, resolution, margin } = state.exportSettings;
+    if (!selectedRoot) return;
+    const { mode, format, textFormat, textContent, includeDefinitions, background, area, resolution, margin } = state.exportSettings;
     
     dispatch({ type: 'SET_UI', exporting: true });
 
     try {
-      // Small delay to ensure UI updates
-      await new Promise(resolve => setTimeout(resolve, 500));
+      if (mode === 'text') {
+        const { rootData, canvasSelectedNode } = state;
+        const derivatives = rootData?.derivatives || [];
+        const activeNode = canvasSelectedNode || selectedRoot;
+        
+        // 1. Determine Content (Filter & Root)
+        let exportData: any[] = [];
+        let exportRoot = selectedRoot;
+        let filterSet: Set<string> | undefined = undefined;
 
-      const forestInner = document.getElementById('kilang-forest-inner');
-      const container = treeRef.current;
-      const targetElement = forestInner || container; // Always prefer the inner content if available
-      
-      console.log('--- Export Debug ---');
-      console.log('Area:', area, 'Format:', format, 'Resolution:', resolution);
-      console.log('Target:', targetElement?.id || 'container');
-      
-      const options: any = {
-        pixelRatio: resolution,
-        quality: 1,
-        cacheBust: true,
-        skipAutoScale: true,
-      };
+        if (textContent === 'kilang') {
+          exportData = [
+            { word_ab: selectedRoot, isRoot: true }, // Simple root entry for structure
+            ...derivatives
+          ];
+        } else {
+          // chain: focuses on focal path + subtree
+          filterSet = getActiveHighlightChain(activeNode, derivatives, selectedRoot);
+          exportData = derivatives.filter((d: any) => filterSet!.has(normalizeWord(d.word_ab) || ''));
+          // Add root if it's part of the chain
+          if (filterSet.has(normalizeWord(selectedRoot) || '')) {
+             exportData.unshift({ word_ab: selectedRoot, isRoot: true });
+          }
+        }
 
-      // Handle Background
-      if (background === 'white') options.backgroundColor = '#ffffff';
-      else if (background === 'black') options.backgroundColor = '#000000';
-      else if (background === 'origin') {
-        options.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--kilang-bg').trim() || '#020617';
-      }
-      else if (background === 'transparent') options.backgroundColor = null;
+        // 2. Format
+        let blob: Blob;
+        let filename: string;
 
-      // Handle Area & Transformation
-      if (area === 'all' && forestInner) {
-        const bounds = getForestBoundingBox(nodeMap);
-        const padding = Math.max(bounds.maxX - bounds.minX, bounds.maxY - bounds.minY) * (margin / 100);
-        
-        options.width = (bounds.maxX - bounds.minX) + (padding * 2);
-        options.height = (bounds.maxY - bounds.minY) + (padding * 2);
-        
-        options.style = {
-          transformOrigin: '0 0',
-          transform: `translate(${-bounds.minX + padding}px, ${-bounds.minY + padding}px) scale(1)`,
-          borderRadius: '0',
-          background: options.backgroundColor || 'transparent',
-          width: '4000px',
-          height: '4000px'
-        };
-        
-        console.log('Full View - Bounds:', bounds, 'Output:', options.width, 'x', options.height);
-      } else {
-        // Window View - Must capture the inner forest but clipped to the container's viewport
-        // The container has p-32 (128px) padding, which offsets the target forestInner.
-        const { scale, isFit, fitTransform } = state;
-        const scrollX = container.scrollLeft;
-        const scrollY = container.scrollTop;
-        const PADDING_OFFSET = 128; // p-32 in Tailwind
-        
-        options.width = container.clientWidth;
-        options.height = container.clientHeight;
-        
-        const currentTransform = isFit
-          ? `translate(${fitTransform.x}px, ${fitTransform.y}px) scale(${fitTransform.scale})`
-          : `scale(${scale})`;
+        if (textFormat === 'json') {
+          // JSON formatting: optionally filter out meta if clean export requested? 
+          // For now, respect includeDefinitions by either mapping or keeping raw
+          const finalJson = includeDefinitions 
+            ? exportData 
+            : exportData.map(({ definition, ...rest }) => rest);
+            
+          blob = new Blob([JSON.stringify(finalJson, null, 2)], { type: 'application/json' });
+          filename = `kilang-${selectedRoot.toLowerCase()}-${textContent}-${new Date().getTime()}.json`;
+        } else {
+          // TXT formatting: ASCII Tree
+          const treeStr = generateTreeString(
+            derivatives, 
+            selectedRoot, 
+            '', 
+            true, 
+            0, 
+            filterSet, 
+            null, 
+            includeDefinitions
+          );
           
-        options.style = {
-          transformOrigin: '0 0',
-          // We shift the content by the negative scroll position PLUS the container's padding
-          transform: `translate(${PADDING_OFFSET - scrollX}px, ${PADDING_OFFSET - scrollY}px) ${currentTransform}`,
-          borderRadius: '0',
-          background: options.backgroundColor || 'transparent',
-          width: '4000px',
-          height: '4000px'
-        };
+          blob = new Blob([treeStr], { type: 'text/plain' });
+          filename = `kilang-${selectedRoot.toLowerCase()}-${textContent}-${new Date().getTime()}.txt`;
+        }
+
+        // Trigger Download
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filename;
+        link.click();
+        URL.revokeObjectURL(url);
         
-        console.log('Window View - Scroll:', scrollX, scrollY, 'Scale:', scale, 'Padding:', PADDING_OFFSET);
+      } else {
+        // IMAGE MODE
+        if (!treeRef.current) return;
+        // Small delay to ensure UI updates
+        await new Promise(resolve => setTimeout(resolve, 500));
+
+        const forestInner = document.getElementById('kilang-forest-inner');
+        const container = treeRef.current;
+        const targetElement = forestInner || container; 
+        
+        const options: any = {
+          pixelRatio: resolution,
+          quality: 1,
+          cacheBust: true,
+          skipAutoScale: true,
+        };
+
+        if (background === 'white') options.backgroundColor = '#ffffff';
+        else if (background === 'black') options.backgroundColor = '#000000';
+        else if (background === 'origin') {
+          options.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--kilang-bg').trim() || '#020617';
+        }
+        else if (background === 'transparent') options.backgroundColor = null;
+
+        if (area === 'all' && forestInner) {
+          const bounds = getForestBoundingBox(nodeMap);
+          const padding = Math.max(bounds.maxX - bounds.minX, bounds.maxY - bounds.minY) * (margin / 100);
+          
+          options.width = (bounds.maxX - bounds.minX) + (padding * 2);
+          options.height = (bounds.maxY - bounds.minY) + (padding * 2);
+          
+          options.style = {
+            transformOrigin: '0 0',
+            transform: `translate(${-bounds.minX + padding}px, ${-bounds.minY + padding}px) scale(1)`,
+            borderRadius: '0',
+            background: options.backgroundColor || 'transparent',
+            width: '4000px',
+            height: '4000px'
+          };
+        } else {
+          const { scale, isFit, fitTransform } = state;
+          const scrollX = container.scrollLeft;
+          const scrollY = container.scrollTop;
+          const PADDING_OFFSET = 128; 
+          
+          options.width = container.clientWidth;
+          options.height = container.clientHeight;
+          
+          const currentTransform = isFit
+            ? `translate(${fitTransform.x}px, ${fitTransform.y}px) scale(${fitTransform.scale})`
+            : `scale(${scale})`;
+            
+          options.style = {
+            transformOrigin: '0 0',
+            transform: `translate(${PADDING_OFFSET - scrollX}px, ${PADDING_OFFSET - scrollY}px) ${currentTransform}`,
+            borderRadius: '0',
+            background: options.backgroundColor || 'transparent',
+            width: '4000px',
+            height: '4000px'
+          };
+        }
+
+        const { toPng, toSvg } = await import('html-to-image');
+        const dataUrl = format === 'svg' 
+          ? await toSvg(targetElement!, options)
+          : await toPng(targetElement!, options);
+
+        const link = document.createElement('a');
+        link.download = `kilang-${selectedRoot.toLowerCase()}-${area}-${new Date().getTime()}.${format}`;
+        link.href = dataUrl;
+        link.click();
       }
-
-      // Import toSvg if needed (assuming html-to-image provides it)
-      const { toPng, toSvg } = await import('html-to-image');
-      const dataUrl = format === 'svg' 
-        ? await toSvg(targetElement!, options)
-        : await toPng(targetElement!, options);
-
-      const link = document.createElement('a');
-      link.download = `kilang-${selectedRoot.toLowerCase()}-${area}-${new Date().getTime()}.${format}`;
-      link.href = dataUrl;
-      link.click();
     } catch (err) {
       console.error('Export failed:', err);
-      alert('Export failed. Please try a smaller area or lower resolution.');
+      alert('Export failed. Please try a different setting.');
     } finally {
       dispatch({ type: 'SET_UI', exporting: false });
     }

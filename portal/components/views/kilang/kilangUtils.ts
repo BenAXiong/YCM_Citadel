@@ -356,3 +356,49 @@ export const getLinearPath = (
   return path.reverse();
 };
 
+
+/**
+ * Generates an ASCII tree string from a list of derivations.
+ */
+export const generateTreeString = (
+  nodes: any[], 
+  currentWord: string, 
+  prefix: string = '', 
+  isLast: boolean = true,
+  depth: number = 0,
+  filterSet?: Set<string>,
+  focusNode?: string | null,
+  includeDefinitions?: boolean
+): string => {
+  if (depth > 20) return prefix + '└── [Depth Limit Exceeded]\n';
+  const normCurrent = normalizeWord(currentWord) || '';
+  if (filterSet && !filterSet.has(normCurrent)) return '';
+  
+  const lowCurrent = normalizeWord(currentWord);
+  const children = nodes.filter(n => (normalizeWord(n.parentWord) === lowCurrent));
+  const filteredChildren = filterSet 
+    ? children.filter(c => filterSet.has(normalizeWord(c.word_ab) || ''))
+    : children;
+
+  const node = nodes.find(n => normalizeWord(n.word_ab) === lowCurrent);
+  const defStr = (includeDefinitions && node?.definition) ? ` : ${node.definition}` : '';
+
+  const marker = isLast ? '└─ ' : '├─ ';
+  let result = prefix + marker + (currentWord || normCurrent) + defStr + '\n';
+  
+  const newPrefix = prefix + (isLast ? '   ' : '│  ');
+  filteredChildren.forEach((child, index) => {
+    result += generateTreeString(
+      nodes, 
+      child.word_ab, 
+      newPrefix, 
+      index === filteredChildren.length - 1,
+      depth + 1,
+      filterSet,
+      focusNode,
+      includeDefinitions
+    );
+  });
+  
+  return result;
+};

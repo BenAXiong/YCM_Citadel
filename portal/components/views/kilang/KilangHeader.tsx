@@ -551,8 +551,8 @@ export const KilangHeader = ({
                           </div>
                         ) : (
                           <div className="space-y-4 pt-1 animate-in fade-in slide-in-from-bottom-2 duration-300">
-                             {/* Text Format */}
-                             <div className="space-y-2">
+                            {/* Text Format */}
+                            <div className="space-y-2">
                               <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Data Format</label>
                               <div className="flex bg-black/40 rounded-lg p-1 border border-white/5">
                                 {[
@@ -575,7 +575,7 @@ export const KilangHeader = ({
                               <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Content Options</label>
                               <div className="grid grid-cols-2 gap-1 bg-black/40 rounded-lg p-1 border border-white/5">
                                 {[
-                                  { id: 'kilang', label: 'Full tree' },
+                                  { id: 'kilang', label: 'Full Kilang' },
                                   { id: 'chain', label: 'Chain only' }
                                 ].map(c => (
                                   <button
@@ -587,7 +587,7 @@ export const KilangHeader = ({
                                   </button>
                                 ))}
                               </div>
-                              
+
                               <button
                                 onClick={() => dispatch({ type: 'SET_UI', exportSettings: { includeDefinitions: !exportSettings.includeDefinitions } })}
                                 className={`w-full py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all uppercase flex items-center justify-center gap-2 border ${exportSettings.includeDefinitions ? 'bg-purple-600/20 text-purple-400 border-purple-500/40 shadow-[0_0_10px_rgba(147,51,234,0.2)]' : 'bg-white/5 text-white/20 border-white/5 hover:border-white/10'}`}
@@ -596,8 +596,8 @@ export const KilangHeader = ({
                               </button>
 
                               <p className="text-[9px] font-medium text-white/20 italic leading-tight px-1 mt-1">
-                                {exportSettings.textContent === 'kilang' 
-                                  ? "Exports the entire morphological structure." 
+                                {exportSettings.textContent === 'kilang'
+                                  ? "Exports the entire morphological structure."
                                   : "Exports only the selected evolutionary path."}
                               </p>
                             </div>
@@ -707,7 +707,7 @@ export const KilangHeader = ({
                       <div className="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.6)] animate-pulse" />
                     </div>
                   )}
-                   {/* How to Kilang Secondary Menu */}
+                  {/* How to Kilang Secondary Menu */}
                   <div className="mb-1">
                     <button
                       onClick={() => setShowHowToSub(!showHowToSub)}
@@ -728,7 +728,7 @@ export const KilangHeader = ({
                             <span className="text-[9px] font-black uppercase text-white/40 group-hover:text-white">Instructions</span>
                             <div className="text-[8px] text-blue-400/50 group-hover:text-blue-400">?</div>
                           </button>
-                          
+
                           {/* Tooltip Content */}
                           <div className="absolute right-full mr-4 top-0 w-48 bg-black/99 backdrop-blur-md border border-white/10 rounded-lg p-2.5 shadow-2xl z-[5000] invisible group-hover/tooltip-instr:visible opacity-0 group-hover/tooltip-instr:opacity-100 transition-all scale-95 group-hover/tooltip-instr:scale-100 origin-right">
                             <div className="text-[9px] text-white/60 leading-relaxed italic">
@@ -742,7 +742,7 @@ export const KilangHeader = ({
                             <span className="text-[9px] font-black uppercase text-white/40 group-hover:text-white">Main Shortcuts</span>
                             <div className="text-[8px] text-blue-400/50 group-hover:text-blue-400">?</div>
                           </button>
-                          
+
                           {/* Tooltip Content */}
                           <div className="absolute right-full mr-4 top-0 w-48 bg-black/99 backdrop-blur-md border border-white/10 rounded-lg p-2.5 shadow-2xl z-[5000] invisible group-hover/tooltip:visible opacity-0 group-hover/tooltip:opacity-100 transition-all scale-95 group-hover/tooltip:scale-100 origin-right">
                             <div className="space-y-2">

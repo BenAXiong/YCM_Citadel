@@ -470,7 +470,7 @@ export const KilangCanvas = ({
                           <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Content Options</label>
                           <div className="grid grid-cols-2 gap-1 bg-black/40 rounded-lg p-1 border border-white/5">
                             {[
-                              { id: 'kilang', label: 'Full tree' },
+                              { id: 'kilang', label: 'Full Kilang' },
                               { id: 'chain', label: 'Chain only' }
                             ].map(c => (
                               <button
@@ -491,8 +491,8 @@ export const KilangCanvas = ({
                           </button>
 
                           <p className="text-[9px] font-medium text-white/20 italic leading-tight px-1 mt-1">
-                            {exportSettings.textContent === 'kilang' 
-                              ? "Exports the entire morphological structure." 
+                            {exportSettings.textContent === 'kilang'
+                              ? "Exports the entire morphological structure."
                               : "Exports only the selected evolutionary path."}
                           </p>
                         </div>

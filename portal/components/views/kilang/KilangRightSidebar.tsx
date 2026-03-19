@@ -13,9 +13,10 @@ import {
   Layout,
   Copy,
   Check,
-  Scissors
+  Scissors,
+  BookOpen
 } from 'lucide-react';
-import { getActiveHighlightChain, normalizeWord, getLinearPath } from './kilangUtils';
+import { getActiveHighlightChain, normalizeWord, getLinearPath, generateTreeString } from './kilangUtils';
 import { KilangState, KilangAction } from './kilangReducer';
 
 interface KilangRightSidebarProps {
@@ -26,42 +27,6 @@ interface KilangRightSidebarProps {
   nodeMap?: any;
 }
 
-const generateTreeString = (
-  nodes: any[], 
-  currentWord: string, 
-  prefix: string = '', 
-  isLast: boolean = true,
-  depth: number = 0,
-  filterSet?: Set<string>,
-  focusNode?: string | null
-): string => {
-  if (depth > 20) return prefix + '└── [Depth Limit Exceeded]\n';
-  if (filterSet && !filterSet.has(normalizeWord(currentWord) || '')) return '';
-  
-  const lowCurrent = normalizeWord(currentWord);
-  const children = nodes.filter(n => (n.parentWord?.toLowerCase() === lowCurrent?.toLowerCase()));
-  const filteredChildren = filterSet 
-    ? children.filter(c => filterSet.has(normalizeWord(c.word_ab) || ''))
-    : children;
-
-  const marker = isLast ? '└─ ' : '├─ ';
-  let result = prefix + marker + currentWord + '\n';
-  
-  const newPrefix = prefix + (isLast ? '   ' : '│  ');
-  filteredChildren.forEach((child, index) => {
-    result += generateTreeString(
-      nodes, 
-      child.word_ab, 
-      newPrefix, 
-      index === filteredChildren.length - 1,
-      depth + 1,
-      filterSet,
-      focusNode
-    );
-  });
-  
-  return result;
-};
 
 export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nodeMap }: KilangRightSidebarProps) => {
   const { rightSidebarTab, rightSidebarWidth, canvasSelectedNode, rootData, selectedRoot } = state;
@@ -131,7 +96,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
             {[
               { id: 'txt', icon: FileText, label: 'Tree' },
               { id: 'sent', icon: MessageSquare, label: 'Sentences' },
-              { id: 'met', icon: Database, label: 'Metadata' }
+              { id: 'met', icon: Database, label: 'Affixes' }
             ].map(tab => (
               <button
                 key={tab.id}
@@ -314,6 +279,54 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     })()}
                   </div>
                 </CollapsibleSection>
+
+                {/* DICT Section */}
+                <CollapsibleSection
+                  title="Dictionary View"
+                  id="dict"
+                  icon={BookOpen}
+                  isCollapsed={collapsedSections['dict']}
+                  onToggle={() => toggleSection('dict')}
+                >
+                  <div className="p-3 bg-black/40 rounded-lg border border-white/5 font-mono text-[10px] space-y-3">
+                    {(() => {
+                      const activeNode = canvasSelectedNode || selectedRoot;
+                      if (!activeNode) return "Select a node to view attributes";
+                      const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
+                                     (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word: activeNode, isRoot: true } : null);
+                      
+                      if (!nodeData) return <div className="text-white/20 italic">No entry data found</div>;
+                      
+                      return (
+                        <>
+                          <div className="space-y-1">
+                            <div className="flex items-center gap-1.5 opacity-40 uppercase tracking-tighter text-[9px]">
+                              <div className="w-1 h-1 bg-white/40 rounded-full" />
+                              Definition
+                            </div>
+                            <div className="text-white/80 leading-relaxed pl-2.5 border-l border-white/10 italic">
+                               {nodeData.definition || "No definition available"}
+                            </div>
+                          </div>
+                           <div className="grid grid-cols-2 gap-2">
+                             <div className="space-y-1">
+                                <div className="opacity-40 uppercase tracking-tighter text-[9px]">Pinyin</div>
+                                <div className="text-blue-400">{nodeData.pinyin || "-"}</div>
+                             </div>
+                             <div className="space-y-1">
+                                <div className="opacity-40 uppercase tracking-tighter text-[9px]">Bopomof</div>
+                                <div className="text-emerald-400">{nodeData.bopomofo || "-"}</div>
+                             </div>
+                           </div>
+                           <div className="pt-2 border-t border-white/5">
+                             <div className="opacity-40 uppercase tracking-tighter text-[9px]">Source Code</div>
+                             <div className="text-white/40">{nodeData.dict_code || "Unknown"}</div>
+                           </div>
+                        </>
+                      );
+                    })()}
+                  </div>
+                </CollapsibleSection>
               </div>
             )}
 
@@ -328,11 +341,11 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
               <div className="space-y-4">
                 <div className="flex items-center gap-2 mb-2">
                   <div className="w-1 h-4 bg-purple-500 rounded-full" />
-                  <h3 className="text-[11px] font-black uppercase tracking-widest text-white/80">Node Metadata</h3>
+                  <h3 className="text-[11px] font-black uppercase tracking-widest text-white/80">Affixes / Decomposition</h3>
                 </div>
                 <div className="p-4 bg-white/5 rounded-xl border border-white/5 text-center py-20">
                   <Layout className="w-8 h-8 mx-auto mb-3 opacity-20" />
-                  <p className="text-[9px] font-bold text-white/30 uppercase tracking-tighter">Properties Overlay Panel</p>
+                  <p className="text-[9px] font-bold text-white/30 uppercase tracking-tighter">Affix Mapping Coming Soon</p>
                 </div>
               </div>
             )}
