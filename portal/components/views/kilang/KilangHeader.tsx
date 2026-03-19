@@ -250,17 +250,17 @@ export const KilangHeader = ({
               {/* Palette Hover Dropdown (Horizontal) - No Container Styling */}
               <div className={`absolute left-full ml-1 flex items-center gap-2.5 p-1 transition-all duration-300 origin-left z-[100] ${isPaletteHovered ? 'opacity-100 scale-100 translate-x-0' : 'opacity-0 scale-90 -translate-x-2 pointer-events-none'}`}>
                 {[
-                  { color: '#3b82f6', label: 'Blue', glow: 'rgba(59,130,246,0.5)' },
-                  { color: '#10b981', label: 'Green', glow: 'rgba(16,185,129,0.5)' },
-                  { color: '#f97316', label: 'Orange', glow: 'rgba(249,115,22,0.5)' }
+                  { color: '#3b82f6', label: 'Kakarayan', id: 'kakarayan', glow: 'rgba(59,130,246,0.5)' },
+                  { color: '#10b981', label: 'Papah', id: 'papah', glow: 'rgba(16,185,129,0.5)' },
+                  { color: '#6366f1', label: 'Ngidan', id: 'ngidan', glow: 'rgba(99,102,241,0.5)' }
                 ].map((t, idx) => (
                   <button
                     key={idx}
-                    onClick={() => dispatch({ type: 'SET_UI', showThemeBar: true, themeBarTab: 'themes', sidebarTab: 'styling' })}
+                    onClick={() => dispatch({ type: 'SET_UI', showThemeBar: true, themeBarTab: 'themes', theme: t.id })}
                     className="w-12 h-12 flex items-center justify-center transition-all active:scale-95 group/item relative shrink-0"
                     title={t.label}
                   >
-                    {/* Dynamic Glow behind the logo - Tightened and slightly more transparent to avoid washing out */}
+                    {/* Dynamic Glow behind the logo */}
                     <div
                       className="absolute inset-2 blur-lg opacity-30 group-hover/item:opacity-60 transition-all duration-500 rounded-full z-0"
                       style={{ backgroundColor: t.color }}

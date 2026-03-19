@@ -114,6 +114,7 @@ export interface KilangState {
     rootGap: number;
     coupleGaps: boolean;
     lineWidth: number;
+    theme: string;
   };
 }
 
@@ -131,7 +132,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showTreeTab?: boolean; showExportDropdown?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showSidebarTooltips?: boolean; showTreeTooltips?: boolean; isFullView?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; moveChainToCanvas?: boolean; themeBarTab?: 'themes' | 'landing' | 'fonts'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom'; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number }
+  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showTreeTab?: boolean; showExportDropdown?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showSidebarTooltips?: boolean; showTreeTooltips?: boolean; isFullView?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; moveChainToCanvas?: boolean; theme?: string; themeBarTab?: 'themes' | 'landing' | 'fonts'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom'; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number }
   | { type: 'RESET_LOGO_SETTINGS'; version: number }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
@@ -148,7 +149,7 @@ export const initialState: KilangState = {
   summaryCache: {},
   sourceCounts: {},
   sidebarWidth: 328, // w-82 equivalent
-  showThemeBar: false,
+  showThemeBar: true,
   landingVersion: 2, // Desktop Default
   logoStyles: { 1: 'square', 2: 'round', 3: 'round' },
   logoSettings: {
@@ -176,7 +177,7 @@ export const initialState: KilangState = {
   sidebarCollapsed: false,
   sidebarTab: 'forest',
   rightSidebarTab: 'txt',
-  themeBarTab: 'landing',
+  themeBarTab: 'themes',
   rightSidebarWidth: 328,
   showRightSidebar: true,
   rightSidebarCollapsed: false,
@@ -237,6 +238,7 @@ export const initialState: KilangState = {
     rootGap: 50,
     coupleGaps: false,
     lineWidth: 3,
+    theme: 'kakarayan',
   },
 };
 
@@ -369,6 +371,7 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return {
         ...state,
         ...rest,
+        layoutConfig: rest.theme ? { ...state.layoutConfig, theme: rest.theme } : state.layoutConfig,
         logoStyles: logoStyles ? { ...state.logoStyles, ...logoStyles } : state.logoStyles,
         logoSettings: nextLogoSettings,
         exportSettings: exportSettings ? { ...state.exportSettings, ...exportSettings } : state.exportSettings,

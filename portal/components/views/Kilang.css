@@ -2,21 +2,110 @@
 
 :root {
   --kilang-primary: #3b82f6;
+  --kilang-primary-active: #2563eb;
   --kilang-secondary: #6366f1;
   --kilang-accent: #f43f5e;
+  
+  /* Backgrounds */
+  --kilang-bg-base: #020617;
+  --kilang-bg: #0f172a;
+  --kilang-card: #1e293b;
+  
+  /* Text */
+  --kilang-text: #f8fafc;
+  --kilang-text-muted: #94a3b8;
+  
+  /* Glass & Borders */
+  --kilang-glass: rgba(30, 41, 59, 0.7);
+  --kilang-border: rgba(255, 255, 255, 0.1);
+  --kilang-blur-std: blur(12px);
+  --kilang-blur-max: blur(32px);
+
+  /* Controls & Interactive States */
+  --kilang-ctrl-bg: rgba(255, 255, 255, 0.1);
+  --kilang-ctrl-border: rgba(255, 255, 255, 0.1);
+  --kilang-ctrl-active: var(--kilang-primary-active);
+  --kilang-ctrl-active-text: #ffffff;
+
+  /* Node Tiers (Base Theme) */
+  --kilang-tier-1-fill: #2563eb; --kilang-tier-1-border: #3b82f6;
+  --kilang-tier-2-fill: #3b82f6; --kilang-tier-2-border: #60a5fa;
+  --kilang-tier-3-fill: #6366f1; --kilang-tier-3-border: #818cf8;
+  --kilang-tier-4-fill: #10b981; --kilang-tier-4-border: #34d399;
+  --kilang-tier-5-fill: #f59e0b; --kilang-tier-5-border: #fbbf24;
+  --kilang-tier-6-fill: #ec4899; --kilang-tier-6-border: #f472b6;
+  --kilang-tier-7-fill: #8b5cf6; --kilang-tier-7-border: #a78bfa;
+  --kilang-tier-8-fill: #06b6d4; --kilang-tier-8-border: #22d3ee;
+  --kilang-tier-9-fill: #94a3b8; --kilang-tier-9-border: #cbd5e1;
+
+  /* Tooltip & HUD */
+  --kilang-tooltip-bg: rgba(15, 23, 42, 0.95);
+  --kilang-tooltip-border: rgba(59, 130, 246, 0.4);
+  --kilang-tooltip-accent: var(--kilang-primary);
+
+  /* Radii */
+  --kilang-radius-sm: 6px;
+  --kilang-radius-md: 16px;
+  --kilang-radius-lg: 24px;
+}
+
+[data-theme="kakarayan"] {
+  --kilang-primary: #3b82f6;
+  --kilang-primary-active: #2563eb;
+  --kilang-secondary: #6366f1;
+  --kilang-accent: #f43f5e;
+  --kilang-bg-base: #020617;
   --kilang-bg: #0f172a;
   --kilang-card: #1e293b;
   --kilang-text: #f8fafc;
   --kilang-text-muted: #94a3b8;
   --kilang-glass: rgba(30, 41, 59, 0.7);
   --kilang-border: rgba(255, 255, 255, 0.1);
+  --kilang-tooltip-border: rgba(59, 130, 246, 0.4);
+}
 
-  /* Controls & Interactive States */
-  --kilang-ctrl-bg: rgba(255, 255, 255, 0.1);
-  --kilang-ctrl-border: rgba(255, 255, 255, 0.1);
-  --kilang-ctrl-active: #2563eb;
-  /* Matches blue-600 */
-  --kilang-ctrl-active-text: #ffffff;
+.theme-bar-bnw {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+  font-size: 14px; /* Base increase */
+}
+
+.theme-bar-tab-btn {
+  font-size: 12px !important; /* From 10px */
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  letter-spacing: 0.25em !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  color: #ffffff !important;
+}
+
+[data-theme="papah"] {
+  --kilang-primary: #10b981;
+  --kilang-primary-active: #059669;
+  --kilang-secondary: #059669;
+  --kilang-accent: #ec4899;
+  --kilang-bg-base: #061a14;
+  --kilang-bg: #0f1c18;
+  --kilang-tooltip-border: rgba(16, 185, 129, 0.4);
+  --kilang-tier-1-fill: #065f46; --kilang-tier-1-border: #10b981;
+  --kilang-tier-2-fill: #059669; --kilang-tier-2-border: #34d399;
+  --kilang-tier-3-fill: #10b981; --kilang-tier-3-border: #6ee7b7;
+}
+
+[data-theme="ngidan"] {
+  --kilang-primary: #6366f1;
+  --kilang-primary-active: #4338ca;
+  --kilang-secondary: #4f46e5;
+  --kilang-accent: #f472b6;
+  --kilang-bg-base: #0c0a1f;
+  --kilang-bg: #15122b;
+  --kilang-tooltip-border: rgba(99, 102, 241, 0.4);
+  --kilang-tier-1-fill: #3730a3; --kilang-tier-1-border: #6366f1;
+  --kilang-tier-2-fill: #4338ca; --kilang-tier-2-border: #818cf8;
+  --kilang-tier-3-fill: #4f46e5; --kilang-tier-3-border: #a5b4fc;
 }
 
 .kilang-ctrl-container {

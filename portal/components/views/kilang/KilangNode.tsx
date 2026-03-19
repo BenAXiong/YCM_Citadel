@@ -58,7 +58,7 @@ export const WordTooltip = ({
     <div
       onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
       onMouseLeave={handleLeave}
-      className={`fixed w-80 bg-[#0f172a]/95 backdrop-blur-3xl border border-blue-500/40 shadow-[0_0_80px_rgba(0,0,0,0.9)] rounded-[24px] p-6 transition-all z-[99999] pointer-events-auto text-left leading-normal border-b-8 border-b-blue-500 animate-in fade-in duration-200 ${side === 'right'
+      className={`fixed w-80 bg-[var(--kilang-tooltip-bg)] backdrop-blur-3xl border border-[var(--kilang-tooltip-border)] shadow-[0_0_80px_rgba(0,0,0,0.9)] rounded-[var(--kilang-radius-lg)] p-6 transition-all z-[99999] pointer-events-auto text-left leading-normal border-b-8 border-b-[var(--kilang-tooltip-accent)] animate-in fade-in duration-200 ${side === 'right'
         ? 'translate-x-0 -translate-y-1/2'
         : '-translate-x-1/2 -translate-y-full'
         }`}
@@ -70,20 +70,20 @@ export const WordTooltip = ({
       <div className="flex flex-col gap-1 mb-4 border-b border-white/10 pb-3">
         <div className="flex items-center justify-between text-normal">
           <span className="text-2xl font-black text-white tracking-tighter uppercase">{word}</span>
-          {dictCode && <span className="text-[10px] font-mono text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded-full uppercase">{dictCode}</span>}
+          {dictCode && <span className="text-[10px] font-mono text-[var(--kilang-primary)] bg-blue-500/10 px-2 py-0.5 rounded-full uppercase">{dictCode}</span>}
         </div>
-        <div className="h-0.5 w-16 bg-blue-500" />
+        <div className="h-0.5 w-16 bg-[var(--kilang-primary)]" />
       </div>
       <div className="space-y-4 max-h-[250px] overflow-y-auto custom-scrollbar pr-2 leading-relaxed">
         {summaryCache[cacheKey] === undefined ? (
-          <div className="flex items-center gap-2 italic text-blue-400/50 text-xs font-mono">
-            <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
+          <div className="flex items-center gap-2 italic text-[var(--kilang-primary)]/50 text-xs font-mono">
+            <div className="w-2 h-2 bg-[var(--kilang-primary)] rounded-full animate-pulse" />
             DECODING SEMANTIC CORE...
           </div>
         ) : (
           summaryCache[cacheKey].map((def: string, idx: number) => (
             <div key={idx} className="flex gap-3">
-              <span className="text-blue-500 font-black text-xs mt-1">{idx + 1}.</span>
+              <span className="text-[var(--kilang-primary)] font-black text-xs mt-1">{idx + 1}.</span>
               <div className="text-sm text-gray-300 font-medium">{def}</div>
             </div>
           ))
@@ -91,7 +91,7 @@ export const WordTooltip = ({
       </div>
       {/* Arrow */}
       <div
-        className={`absolute w-4 h-4 bg-[#0f172a] border-blue-500/20 rotate-45 ${side === 'right'
+        className={`absolute w-4 h-4 bg-[var(--kilang-bg)] border-[var(--kilang-tooltip-border)] rotate-45 ${side === 'right'
           ? 'right-full top-1/2 -translate-y-1/2 translate-x-1/2 border-l border-b'
           : 'top-full left-1/2 -translate-x-1/2 -translate-y-1/2 border-r border-b'
           }`}
@@ -155,9 +155,9 @@ export const KilangNode = React.memo(({
   const cleanId = `v3-node-${word.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
 
   const getTierIcon = () => {
-    if (isRoot) return <TreePine className="w-5 h-5 text-yellow-400 shrink-0" />;
+    if (isRoot) return <TreePine className="w-5 h-5 text-yellow-500 shrink-0" />;
 
-    const iconClass = `w-3 h-3 ${tier === 2 ? 'text-blue-400' : tier === 3 ? 'text-indigo-400' : 'text-emerald-400'} shrink-0`;
+    const iconClass = `w-3 h-3 ${tier === 2 ? 'text-[var(--kilang-tier-2-border)]' : tier === 3 ? 'text-[var(--kilang-tier-3-border)]' : 'text-[var(--kilang-tier-4-border)]'} shrink-0`;
 
     switch (tier) {
       case 2: return <GitCommit className={iconClass} />;
@@ -170,7 +170,7 @@ export const KilangNode = React.memo(({
   };
 
   const getTierColor = (type: 'Fill' | 'Border', t: number) => {
-    return (config as any)[`tier${t}${type}`] || (type === 'Fill' ? '#2563eb' : '#3b82f6');
+    return (config as any)[`tier${t}${type}`] || (type === 'Fill' ? 'var(--kilang-tier-1-fill)' : 'var(--kilang-tier-1-border)');
   };
 
   return (
@@ -193,8 +193,8 @@ export const KilangNode = React.memo(({
             <div
               className={`border-4 p-8 rounded-full z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_rgba(59,130,246,0.8)]' : 'shadow-[0_0_50px_rgba(59,130,246,0.5)]'}`}
               style={{
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} ${isHighlighted ? '40%' : '20%'}, #020617)`,
-                borderColor: isHighlighted ? '#60a5fa' : getTierColor('Border', 1),
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} ${isHighlighted ? '40%' : '20%'}, var(--kilang-bg-base))`,
+                borderColor: isHighlighted ? 'var(--kilang-tier-2-border)' : getTierColor('Border', 1),
                 boxShadow: isHighlighted ? `0 0 80px ${getTierColor('Fill', 1)}80` : `0 0 60px ${getTierColor('Fill', 1)}40`,
                 paddingTop: `${config.nodePaddingY * 2}px`,
                 paddingBottom: `${config.nodePaddingY * 2}px`
@@ -207,13 +207,13 @@ export const KilangNode = React.memo(({
             </div>
           ) : (
             <div
-              className={`transition-all text-sm group ring-1 relative z-10 border flex items-center justify-center ${isHighlighted ? 'ring-blue-400/50 shadow-[0_0_30px_rgba(59,130,246,0.4)]' : 'ring-white/5'}`}
+              className={`transition-all text-sm group ring-1 relative z-10 border flex items-center justify-center ${isHighlighted ? 'ring-[var(--kilang-primary)]/50 shadow-[0_0_30px_rgba(59,130,246,0.4)]' : 'ring-white/5'}`}
               style={{
                 borderRadius: `${config.nodeRounding}px`,
                 borderColor: isHighlighted 
                   ? `color-mix(in srgb, ${getTierColor('Border', tier)} 80%, white)` 
                   : `color-mix(in srgb, ${getTierColor('Border', tier)} 40%, transparent)`,
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} ${isHighlighted ? '30%' : (tier === 2 ? '10%' : '5%')}, #020617)`,
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} ${isHighlighted ? '30%' : (tier === 2 ? '10%' : '5%')}, var(--kilang-bg-base))`,
                 width: `${config.nodeWidth}px`,
                 paddingTop: `${config.nodePaddingY}px`,
                 paddingBottom: `${config.nodePaddingY}px`,

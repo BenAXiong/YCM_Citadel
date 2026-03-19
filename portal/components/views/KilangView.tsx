@@ -6,6 +6,7 @@ import './Kilang.css';
 // Modular components
 import { KilangDesktopLayout } from './kilang/KilangDesktopLayout';
 import { KilangMobileLayout } from './kilang/KilangMobileLayout';
+import { ThemeBar } from './kilang/components/ThemeBar';
 import { useIsMobile } from '@/hooks/useIsMobile';
 
 // Data Logic
@@ -288,7 +289,8 @@ export default function KilangView({
   };
 
   return (
-    <SidebarProvider value={{
+    <div data-theme={state.layoutConfig.theme}>
+      <SidebarProvider value={{
       state,
       dispatch,
       filteredRoots,
@@ -303,6 +305,23 @@ export default function KilangView({
       ) : (
         <KilangDesktopLayout {...layoutProps} />
       )}
+
+      <ThemeBar
+        show={state.showThemeBar}
+        onClose={() => dispatch({ type: 'SET_UI', showThemeBar: false })}
+        activeTab={state.themeBarTab}
+        setActiveTab={(t: 'themes' | 'landing' | 'fonts') => dispatch({ type: 'SET_UI', themeBarTab: t })}
+        landingVersion={state.landingVersion}
+        setLandingVersion={(v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v })}
+        logoStyle={state.logoStyles[state.landingVersion]}
+        logoSettings={state.logoSettings[state.landingVersion]}
+        setLogoStyle={(s: 'original' | 'square' | 'round') => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
+        updateLogoSettings={(s: any) => dispatch({ type: 'SET_UI', logoSettings: { [state.landingVersion]: s } })}
+        resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
+        dispatch={dispatch}
+        layoutConfig={state.layoutConfig}
+      />
     </SidebarProvider>
+    </div>
   );
 }

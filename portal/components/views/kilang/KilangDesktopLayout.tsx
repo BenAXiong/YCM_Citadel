@@ -214,19 +214,6 @@ export const KilangDesktopLayout = ({
         fetchSummary={fetchSummary}
       />
 
-      <ThemeBar
-        show={state.showThemeBar}
-        onClose={() => dispatch({ type: 'SET_UI', showThemeBar: false })}
-        activeTab={state.themeBarTab}
-        setActiveTab={(t) => dispatch({ type: 'SET_UI', themeBarTab: t })}
-        landingVersion={state.landingVersion}
-        setLandingVersion={(v) => dispatch({ type: 'SET_UI', landingVersion: v })}
-        logoStyle={state.logoStyles[state.landingVersion]}
-        logoSettings={state.logoSettings[state.landingVersion]}
-        setLogoStyle={(s) => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
-        updateLogoSettings={(s) => dispatch({ type: 'SET_UI', logoSettings: { [state.landingVersion]: s } })}
-        resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
-      />
     </div>
   );
 };
