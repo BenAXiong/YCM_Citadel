@@ -330,14 +330,11 @@ export const KilangCanvas = ({
               <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit flex items-center gap-1">
                 <button
                   onClick={() => dispatch({ type: 'SET_UI', isFullView: !isFullView })}
-                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFullView ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                  className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all"
                   title={isFullView ? "Exit Full View (Esc)" : "Full View"}
                 >
                   {isFullView ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize className="w-3.5 h-3.5" />}
                 </button>
-                {isFullView && (
-                   <span className="text-[7px] font-black uppercase text-red-500/60 pr-2 tracking-widest animate-pulse">Live Full View</span>
-                )}
               </div>
             </div>
           )}
