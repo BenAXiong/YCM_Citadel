@@ -28,7 +28,9 @@ import {
   Share2,
   Languages,
   Palette,
-  Eye
+  Eye,
+  Copy,
+  Check
 } from 'lucide-react';
 import { MorphMode, LayoutDirection, LayoutArrangement, KilangState, KilangAction } from './kilangReducer';
 import { WeavingPattern } from './WeavingPattern';
@@ -36,6 +38,8 @@ import { UILang, UIStrings } from '../../../types';
 import { KilangExportHUD } from './KilangExportHUD';
 
 // Extracted Components
+import { getLinearPath, normalizeWord } from './kilangUtils';
+import { Derivation } from './KilangTypes';
 import { CompactMetric } from './components/CompactMetric';
 import { DevToolItem } from './components/DevToolItem';
 
@@ -72,7 +76,6 @@ interface KilangHeaderProps {
   showPerfMonitor: boolean;
   showThemeBar: boolean;
   showTreeTab: boolean;
-  showZoomIndicator: boolean;
   moveZoomToCanvas: boolean;
   moveGrowthToCanvas: boolean;
   moveCaptureToCanvas: boolean;
@@ -82,6 +85,10 @@ interface KilangHeaderProps {
   toggleUiLang: () => void;
   showExportDropdown: boolean;
   exporting: boolean;
+  moveChainToCanvas: boolean;
+  rootData: any;
+  canvasHoverNode: string | null;
+  canvasSelectedNode: string | null;
   s: UIStrings;
 }
 
@@ -119,7 +126,6 @@ export const KilangHeader = ({
   showTreeTab,
   showExportDropdown,
   exporting,
-  showZoomIndicator,
   moveZoomToCanvas,
   moveGrowthToCanvas,
   moveCaptureToCanvas,
@@ -127,6 +133,10 @@ export const KilangHeader = ({
   dispatch,
   uiLang,
   toggleUiLang,
+  moveChainToCanvas,
+  rootData,
+  canvasHoverNode,
+  canvasSelectedNode,
   s
 }: KilangHeaderProps) => {
   const [showSettings, setShowSettings] = React.useState(false);
@@ -136,6 +146,8 @@ export const KilangHeader = ({
   const [showShareSub, setShowShareSub] = React.useState(false);
   const [showHowToSub, setShowHowToSub] = React.useState(false);
   const [isPaletteHovered, setIsPaletteHovered] = React.useState(false);
+  const [copiedChain, setCopiedChain] = React.useState(false);
+
   const settingsRef = React.useRef<HTMLDivElement>(null);
   const exportRef = React.useRef<HTMLDivElement>(null);
   const hoverTimeoutRef = React.useRef<any>(null);
@@ -160,12 +172,23 @@ export const KilangHeader = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [dispatch]);
 
+  const handleCopyChain = (path: string[]) => {
+    navigator.clipboard.writeText(path.join(' > '));
+    setCopiedChain(true);
+    setTimeout(() => setCopiedChain(false), 2000);
+  };
+
+  const activeHighlightNode = canvasHoverNode || canvasSelectedNode;
+  const linearPath = React.useMemo(() => {
+    return getLinearPath(activeHighlightNode, rootData?.derivatives || [], selectedRoot);
+  }, [activeHighlightNode, rootData, selectedRoot]);
+
   return (
-    <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between pl-0 pr-3 lg:pr-6 z-50 shrink-0">
+    <header className="h-16 border-b border-white/5 bg-[#020617]/80 backdrop-blur-md flex items-center justify-between pl-0 pr-3 lg:pr-8 z-[150] shrink-0">
       <div className="flex items-center shrink-0 h-full">
         {/* Logo, Title & Discreet Icons Wrapper (Synced with Sidebar Width) */}
         <div
-          className="shrink-0 flex items-center h-full border-r border-white/10"
+          className="shrink-0 flex items-center h-full"
           style={{ width: 'var(--sidebar-width, 328px)', paddingLeft: 'clamp(0.75rem, 2vw, 1.5rem)' }}
         >
           <button
@@ -254,6 +277,7 @@ export const KilangHeader = ({
               </div>
             </div>
           </div>
+          <div className="w-[1px] h-4 bg-white/10 ml-4" />
         </div>
 
         {/* 2. Metrics & Basic Controls with extra padding */}
@@ -334,7 +358,7 @@ export const KilangHeader = ({
       </div>
 
       {/* 3. Word + Views + Zoom + Export */}
-      <div className="flex-1 min-w-0 flex items-center justify-center px-3 lg:px-8 border-x border-white/5 mx-2 lg:mx-6 h-full">
+      <div className="flex-1 min-w-0 flex items-center justify-center px-3 lg:px-8 mx-2 lg:mx-6 h-full">
         {selectedRoot ? (
           <div className="flex items-center gap-6 animate-in fade-in slide-in-from-top-2 duration-500 shrink-0">
             <div className="flex items-center gap-3 lg:gap-6">
@@ -438,6 +462,31 @@ export const KilangHeader = ({
             <WeavingPattern />
           </div>
         )}
+
+        {selectedRoot && !moveChainToCanvas && linearPath.length > 0 && !exporting && (
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-2 animate-in fade-in slide-in-from-top-1 duration-500 group">
+            <div className="bg-[#0f172a]/40 backdrop-blur-md border border-white/5 px-6 py-2 rounded-full flex items-center gap-2.5 shadow-xl relative">
+              {linearPath.map((word: string, idx: number) => (
+                <React.Fragment key={word}>
+                  <span className={`text-[10px] font-black uppercase tracking-widest transition-all duration-300 ${idx === linearPath.length - 1 ? 'text-blue-400' : 'text-white/30'}`}>
+                    {word}
+                  </span>
+                  {idx < linearPath.length - 1 && (
+                    <ChevronRight className="w-2.5 h-2.5 text-white/10" />
+                  )}
+                </React.Fragment>
+              ))}
+            </div>
+
+            <button
+              onClick={(e) => { e.stopPropagation(); handleCopyChain(linearPath); }}
+              className="p-1.5 rounded-lg bg-white/5 backdrop-blur-md border border-white/10 text-white/40 hover:text-white transition-all opacity-0 group-hover:opacity-100 shadow-lg shrink-0"
+              title="Copy Path"
+            >
+              {copiedChain ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
+            </button>
+          </div>
+        )}
       </div>
 
       {/* 4. Stats Cards */}
@@ -476,7 +525,7 @@ export const KilangHeader = ({
         )}
 
         {stats && (
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <div className="w-[1px] h-4 bg-white/10 mx-1" />
 
             <button
@@ -617,13 +666,6 @@ export const KilangHeader = ({
                           <div className={`w-2 h-2 rounded-full border transition-all ${showStats ? 'bg-indigo-500 border-indigo-400 shadow-[0_0_8px_rgba(99,102,241,0.5)]' : 'border-white/20'}`} />
                         </button>
 
-                        <button
-                          onClick={() => dispatch({ type: 'SET_UI', showZoomIndicator: !showZoomIndicator })}
-                          className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
-                        >
-                          <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Zoom Indicator</span>
-                          <div className={`w-2 h-2 rounded-full border transition-all ${showZoomIndicator ? 'bg-blue-500 border-blue-400 shadow-[0_0_8px_rgba(59,130,246,0.5)]' : 'border-white/20'}`} />
-                        </button>
 
                         <button
                           onClick={() => dispatch({ type: 'SET_UI', moveZoomToCanvas: !moveZoomToCanvas })}
@@ -650,12 +692,13 @@ export const KilangHeader = ({
                         </button>
 
                         <button
-                          onClick={() => dispatch({ type: 'SET_UI', showRightSidebar: !showRightSidebar })}
+                          onClick={() => dispatch({ type: 'SET_UI', moveChainToCanvas: !moveChainToCanvas })}
                           className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
                         >
-                          <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Explorer Panel</span>
-                          <div className={`w-2 h-2 rounded-full border transition-all ${showRightSidebar ? 'bg-purple-500 border-purple-400 shadow-[0_0_8px_rgba(168,85,247,0.5)]' : 'border-white/20'}`} />
+                          <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Chain Overlay</span>
+                          <div className={`w-2 h-2 rounded-full border transition-all ${moveChainToCanvas ? 'bg-blue-500 border-blue-400 shadow-[0_0_8px_rgba(59,130,246,0.5)]' : 'border-white/20'}`} />
                         </button>
+
                       </div>
                     )}
                   </div>
@@ -718,16 +761,15 @@ export const KilangHeader = ({
                           onClick={() => dispatch({ type: 'SET_UI', showRightSidebar: !showRightSidebar })}
                         />
                         <DevToolItem
-                          label="Theme Bar"
-                          goal="Toggle the visual aesthetics and landing view customization panel."
-                          isOn={showThemeBar}
-                          onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !showThemeBar })}
-                        />
-                        <DevToolItem
                           label="Tree Tab"
                           goal="Toggle the visibility of the primary structural 'Tree' tab in the Explorer panel."
                           isOn={showTreeTab}
                           onClick={() => dispatch({ type: 'SET_UI', showTreeTab: !showTreeTab })}
+                        />                        <DevToolItem
+                          label="Theme Bar"
+                          goal="Toggle the visual aesthetics and landing view customization panel."
+                          isOn={showThemeBar}
+                          onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !showThemeBar })}
                         />
                         <DevToolItem
                           label="Visual Toolbox"

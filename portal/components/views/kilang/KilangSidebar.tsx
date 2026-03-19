@@ -115,7 +115,7 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
         {/* Sidebar Expansion Tab (Collapsed State) */}
         <button
           onClick={onToggle}
-          className="absolute -right-[21px] top-[22px] w-[22px] h-[48px] rounded-r-xl rounded-l-none bg-[#1e293b] border-y border-r border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:bg-blue-600/40 hover:border-blue-500/50 shadow-[4px_0_15px_rgba(0,0,0,0.3)] z-[100] transition-all group"
+          className="absolute -right-[21px] top-[22px] w-[22px] h-[30px] rounded-r-lg rounded-l-none bg-[#1e293b] border-y border-r border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:bg-blue-600/40 hover:border-blue-500/50 shadow-[4px_0_15px_rgba(0,0,0,0.3)] z-[100] transition-all group"
           title="Expand"
         >
           <ChevronRight className="w-4 h-4 group-hover:scale-125 transition-transform" />

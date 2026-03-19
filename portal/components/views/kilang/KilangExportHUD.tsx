@@ -1,11 +1,11 @@
 'use client';
 
 import React from 'react';
-import { 
-  Download, 
-  ChevronDown, 
-  ImageIcon, 
-  FileText 
+import {
+  Download,
+  ChevronDown,
+  ImageIcon,
+  FileText
 } from 'lucide-react';
 import { KilangAction, KilangState } from './kilangReducer';
 
@@ -52,9 +52,9 @@ export const KilangExportHUD = ({
     ${variant === 'header' ? 'w-56 bg-[#0f172a]/99 backdrop-blur-xl border border-white/10 rounded-xl' : 'w-64 bg-[#020617]/90 backdrop-blur-xl border border-white/10 rounded-2xl'}
   `;
 
-  const containerClasses = variant === 'header' 
-    ? 'kilang-ctrl-container' 
-    : 'kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit';
+  const containerClasses = variant === 'header'
+    ? 'kilang-ctrl-container !gap-0'
+    : 'kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit !gap-0';
 
   const mainBtnClasses = variant === 'header'
     ? 'w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive'
@@ -218,24 +218,22 @@ export const KilangExportHUD = ({
                 {/* Content Toggles */}
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block font-mono">Content</label>
-                  <div className="space-y-1">
+                  <div className="grid grid-cols-2 gap-1 bg-black/40 rounded-lg p-1 border border-white/5">
                     <button
                       onClick={() => dispatch({ type: 'SET_UI', exportSettings: { includeDefinitions: !exportSettings.includeDefinitions } })}
-                      className={`w-full py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all uppercase flex items-center justify-between px-3 border ${exportSettings.includeDefinitions ? 'bg-purple-600/20 text-purple-400 border-purple-500/40 shadow-[0_0_10px_rgba(147,51,234,0.1)]' : 'bg-white/5 text-white/20 border-white/5 hover:border-white/10'}`}
+                      className={`py-1.5 rounded-md text-[8px] font-black tracking-widest transition-all uppercase flex items-center justify-center border ${exportSettings.includeDefinitions ? 'bg-purple-600 text-white shadow-lg border-purple-400/50' : 'bg-transparent text-white/20 border-transparent hover:text-white/40'}`}
                     >
-                      <span>Definitions</span>
-                      <div className={`w-1.5 h-1.5 rounded-full ${exportSettings.includeDefinitions ? 'bg-purple-500 animate-pulse' : 'bg-white/20'}`} />
+                      Definitions
                     </button>
                     <button
                       onClick={() => dispatch({ type: 'SET_UI', exportSettings: { includeSentences: !exportSettings.includeSentences } })}
-                      className={`w-full py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all uppercase flex items-center justify-between px-3 border ${exportSettings.includeSentences ? 'bg-purple-600/20 text-purple-400 border-purple-500/40 shadow-[0_0_10px_rgba(147,51,234,0.1)]' : 'bg-white/5 text-white/20 border-white/5 hover:border-white/10'}`}
+                      className={`py-1.5 rounded-md text-[8px] font-black tracking-widest transition-all uppercase flex items-center justify-center border ${exportSettings.includeSentences ? 'bg-purple-600 text-white shadow-lg border-purple-400/50' : 'bg-transparent text-white/20 border-transparent hover:text-white/40'}`}
                     >
-                      <span>Sentences</span>
-                      <div className={`w-1.5 h-1.5 rounded-full ${exportSettings.includeSentences ? 'bg-purple-500 animate-pulse' : 'bg-white/20'}`} />
+                      Sentences
                     </button>
                   </div>
                   <p className="text-[9px] font-medium text-white/20 italic leading-tight px-1 mt-1">
-                    Text mode exports to .json or .txt with the structure above.
+                    You can export the full tree structure or just the current selection. Add definitions and example sentences if needed and click the download button to export, or the copy button to copy to clipboard.
                   </p>
                 </div>
               </div>

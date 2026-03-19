@@ -27,7 +27,6 @@ interface KilangRightSidebarProps {
   nodeMap?: any;
 }
 
-
 export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nodeMap }: KilangRightSidebarProps) => {
   const { rightSidebarTab, rightSidebarWidth, canvasSelectedNode, rootData, selectedRoot, showTreeTab } = state;
   const [collapsedSections, setCollapsedSections] = React.useState<Record<string, boolean>>({});
@@ -76,7 +75,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
 
   return (
     <aside
-      className={`relative h-full flex flex-col bg-[#0f172a]/80 backdrop-blur-xl transition-all duration-300 ease-in-out z-40 ${isCollapsed ? 'w-0 border-l-0 overflow-visible' : 'border-l border-white/5 overflow-hidden'}`}
+      className={`relative h-full flex flex-col kilang-glass-panel transition-all duration-300 ease-in-out z-50 ${isCollapsed ? 'w-0 border-l-0 overflow-visible' : 'border-l border-white/5 overflow-visible'}`}
       style={{ width: isCollapsed ? '0px' : `${rightSidebarWidth}px` }}
     >
       {/* Resize Handle */}
@@ -90,15 +89,20 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
       {/* Collapse Toggle */}
       <button
         onClick={onToggle}
-        className="absolute -left-3 top-20 w-6 h-6 bg-[#1e293b] border border-white/10 rounded-full flex items-center justify-center text-white/40 hover:text-white hover:border-white/30 transition-all z-50 shadow-lg"
+        className={`absolute ${isCollapsed ? '-left-[21px]' : '-left-[22px]'} top-[22px] w-[22px] h-[30px] rounded-l-lg rounded-r-none flex items-center justify-center bg-[#1e293b] border-y border-l border-white/10 text-white/40 hover:text-white hover:bg-blue-600/40 hover:border-blue-500/50 shadow-[-4px_0_15px_rgba(0,0,0,0.3)] z-[100] transition-all group`}
+        title={isCollapsed ? "Expand" : "Collapse"}
       >
-        {isCollapsed ? <ChevronLeft className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
+        {isCollapsed ? (
+          <ChevronLeft className="w-4 h-4 group-hover:scale-125 transition-transform" />
+        ) : (
+          <ChevronRight className="w-4 h-4 group-hover:scale-125 transition-transform" />
+        )}
       </button>
 
       {/* Tabs */}
       <div className={`flex flex-col h-full ${isCollapsed ? 'items-center py-4' : ''}`}>
         {!isCollapsed && (
-          <div className="flex items-center gap-1 p-2 border-b border-white/5 bg-black/20">
+          <div className="flex border-b border-white/5 bg-[#0f172a]/50 p-1 m-4 rounded-2xl">
             {[
               { id: 'txt', icon: FileText, label: 'Tree', show: showTreeTab },
               { id: 'sent', icon: MessageSquare, label: 'Sentences', show: true },
@@ -107,10 +111,10 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
               <button
                 key={tab.id}
                 onClick={() => dispatch({ type: 'SET_UI', rightSidebarTab: tab.id as any })}
-                className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-lg transition-all ${rightSidebarTab === tab.id ? 'bg-blue-600/20 text-blue-400 border border-blue-500/30' : 'text-white/30 hover:text-white/60 hover:bg-white/5 border border-transparent'}`}
+                className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${rightSidebarTab === tab.id ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
               >
                 <tab.icon className="w-3.5 h-3.5" />
-                <span className="text-[10px] font-black uppercase tracking-wider">{tab.label}</span>
+                <span>{tab.label}</span>
               </button>
             ))}
           </div>
@@ -121,10 +125,6 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
           <div className="flex-1 overflow-y-auto custom-scrollbar p-4">
             {rightSidebarTab === 'txt' && (
               <div className="space-y-4">
-                <div className="flex items-center gap-2 mb-2">
-                  <div className="w-1 h-4 bg-blue-500 rounded-full" />
-                  <h3 className="text-[11px] font-black uppercase tracking-widest text-white/80">Structure Views</h3>
-                </div>
 
                 {/* JSON Section */}
                 <CollapsibleSection
@@ -150,39 +150,34 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     );
                   })()}
                 >
-                  <div className="p-3 bg-black/40 rounded-lg border border-white/5 font-mono text-[10px] overflow-x-auto custom-scrollbar max-h-[400px]">
-                    {(() => {
-                      const activeNode = canvasSelectedNode || selectedRoot;
-                      if (!activeNode) return <span className="text-white/20 italic">No data available</span>;
-                      const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
-                                     (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
-                      
-                      if (!nodeData) return <span className="text-white/20 italic">// {activeNode} details not found</span>;
-                      
-                      // Simple syntax highlighting component (internal inline)
-                      return (
-                         <div className="space-y-0.5 leading-relaxed">
-                            {JSON.stringify(nodeData, null, 2).split('\n').map((line, i) => {
-                              const keyMatch = line.match(/^(\s*)"([^"]+)":/);
-                              const valueMatch = line.match(/:(.*)$/);
-                              
-                              if (keyMatch) {
-                                const indent = keyMatch[1];
-                                const key = keyMatch[2];
-                                const rest = line.substring(keyMatch[0].length);
-                                return (
-                                  <div key={i}>
-                                    {indent}<span className="text-blue-400">"{key}"</span>:
-                                    <span className="text-orange-300">{rest}</span>
-                                  </div>
-                                );
-                              }
-                              return <div key={i} className="text-white/40">{line}</div>;
-                            })}
-                         </div>
-                      );
-                    })()}
-                  </div>
+                  {(() => {
+                    const activeNode = canvasSelectedNode || selectedRoot;
+                    if (!activeNode) return <span className="text-white/20 italic">No data available</span>;
+                    const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
+                                   (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
+                    
+                    if (!nodeData) return <span className="text-white/20 italic">// {activeNode} details not found</span>;
+                    
+                    return (
+                       <div className="space-y-0.5 leading-relaxed">
+                          {JSON.stringify(nodeData, null, 2).split('\n').map((line, i) => {
+                            const keyMatch = line.match(/^(\s*)"([^"]+)":/);
+                            if (keyMatch) {
+                              const indent = keyMatch[1];
+                              const key = keyMatch[2];
+                              const rest = line.substring(keyMatch[0].length);
+                              return (
+                                <div key={i}>
+                                  {indent}<span className="text-blue-400">"{key}"</span>:
+                                  <span className="text-orange-300">{rest}</span>
+                                </div>
+                              );
+                            }
+                            return <div key={i} className="text-white/40">{line}</div>;
+                          })}
+                       </div>
+                    );
+                  })()}
                 </CollapsibleSection>
 
                 {/* TEXT Section */}
@@ -225,7 +220,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     );
                   })()}
                 >
-                  <div className="p-3 bg-black/40 rounded-lg border border-white/5 font-mono text-[10px] text-emerald-400/90 whitespace-pre overflow-x-auto leading-relaxed custom-scrollbar">
+                  <div className="text-emerald-400/90 whitespace-pre">
                     {(() => {
                       const activeNode = canvasSelectedNode || selectedRoot;
                       if (!activeNode || !rootData?.derivatives) return <span className="text-white/20 italic">Select a node to view its growth</span>;
@@ -242,7 +237,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                   </div>
                 </CollapsibleSection>
 
-                {/* ? Section */}
+                {/* Analysis Section */}
                 <CollapsibleSection
                   title="Analysis"
                   id="query"
@@ -267,23 +262,21 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     );
                   })()}
                 >
-                  <div className="p-3 bg-black/40 rounded-lg border border-white/5 font-mono text-[10px] text-purple-400/90 space-y-2">
-                    {(() => {
-                      const activeNode = canvasSelectedNode || selectedRoot;
-                      if (!activeNode) return "Select a node to analyze";
-                      const children = rootData?.derivatives?.filter((d: any) => d.parentWord?.toLowerCase() === activeNode.toLowerCase()) || [];
-                      const allDescendants = rootData?.derivatives?.filter((d: any) => d.sortPath?.toLowerCase().includes(`>${activeNode.toLowerCase()}>`) || d.sortPath?.toLowerCase().endsWith(`>${activeNode.toLowerCase()}`)) || [];
-                      
-                      return (
-                        <>
-                          <div>WORD: <span className="text-white">{activeNode}</span></div>
-                          <div>CHILDREN: <span className="text-white">{children.length}</span></div>
-                          <div>SUBTREE SIZE: <span className="text-white">{allDescendants.length}</span></div>
-                          <div>TYPE: <span className="text-white">{activeNode === selectedRoot ? 'ROOT STEM' : 'DERIVATIVE'}</span></div>
-                        </>
-                      );
-                    })()}
-                  </div>
+                  {(() => {
+                    const activeNode = canvasSelectedNode || selectedRoot;
+                    if (!activeNode) return "Select a node to analyze";
+                    const children = rootData?.derivatives?.filter((d: any) => d.parentWord?.toLowerCase() === activeNode.toLowerCase()) || [];
+                    const allDescendants = rootData?.derivatives?.filter((d: any) => d.sortPath?.toLowerCase().includes(`>${activeNode.toLowerCase()}>`) || d.sortPath?.toLowerCase().endsWith(`>${activeNode.toLowerCase()}`)) || [];
+                    
+                    return (
+                      <div className="text-purple-400/90 space-y-2">
+                        <div>WORD: <span className="text-white">{activeNode}</span></div>
+                        <div>CHILDREN: <span className="text-white">{children.length}</span></div>
+                        <div>SUBTREE SIZE: <span className="text-white">{allDescendants.length}</span></div>
+                        <div>TYPE: <span className="text-white">{activeNode === selectedRoot ? 'ROOT STEM' : 'DERIVATIVE'}</span></div>
+                      </div>
+                    );
+                  })()}
                 </CollapsibleSection>
 
                 {/* DICT Section */}
@@ -294,44 +287,42 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                   isCollapsed={collapsedSections['dict']}
                   onToggle={() => toggleSection('dict')}
                 >
-                  <div className="p-3 bg-black/40 rounded-lg border border-white/5 font-mono text-[10px] space-y-3">
-                    {(() => {
-                      const activeNode = canvasSelectedNode || selectedRoot;
-                      if (!activeNode) return "Select a node to view attributes";
-                      const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
-                                     (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word: activeNode, isRoot: true } : null);
-                      
-                      if (!nodeData) return <div className="text-white/20 italic">No entry data found</div>;
-                      
-                      return (
-                        <>
-                          <div className="space-y-1">
-                            <div className="flex items-center gap-1.5 opacity-40 uppercase tracking-tighter text-[9px]">
-                              <div className="w-1 h-1 bg-white/40 rounded-full" />
-                              Definition
-                            </div>
-                            <div className="text-white/80 leading-relaxed pl-2.5 border-l border-white/10 italic">
-                               {nodeData.definition || "No definition available"}
-                            </div>
+                  {(() => {
+                    const activeNode = canvasSelectedNode || selectedRoot;
+                    if (!activeNode) return "Select a node to view attributes";
+                    const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
+                                   (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word: activeNode, isRoot: true, ...rootData } : null);
+                    
+                    if (!nodeData) return <div className="text-white/20 italic">No entry data found</div>;
+                    
+                    return (
+                      <>
+                        <div className="space-y-1">
+                          <div className="flex items-center gap-1.5 opacity-40 uppercase tracking-tighter text-[9px]">
+                            <div className="w-1 h-1 bg-white/40 rounded-full" />
+                            Definition
                           </div>
-                           <div className="grid grid-cols-2 gap-2">
-                             <div className="space-y-1">
-                                <div className="opacity-40 uppercase tracking-tighter text-[9px]">Pinyin</div>
-                                <div className="text-blue-400">{nodeData.pinyin || "-"}</div>
-                             </div>
-                             <div className="space-y-1">
-                                <div className="opacity-40 uppercase tracking-tighter text-[9px]">Bopomof</div>
-                                <div className="text-emerald-400">{nodeData.bopomofo || "-"}</div>
-                             </div>
+                          <div className="text-white/80 leading-relaxed pl-2.5 border-l border-white/10 italic">
+                             {nodeData.definition || "No definition available"}
+                          </div>
+                        </div>
+                         <div className="grid grid-cols-2 gap-2">
+                           <div className="space-y-1">
+                              <div className="opacity-40 uppercase tracking-tighter text-[9px]">Pinyin</div>
+                              <div className="text-blue-400">{nodeData.pinyin || "-"}</div>
                            </div>
-                           <div className="pt-2 border-t border-white/5">
-                             <div className="opacity-40 uppercase tracking-tighter text-[9px]">Source Code</div>
-                             <div className="text-white/40">{nodeData.dict_code || "Unknown"}</div>
+                           <div className="space-y-1">
+                              <div className="opacity-40 uppercase tracking-tighter text-[9px]">Bopomofo</div>
+                              <div className="text-emerald-400">{nodeData.bopomofo || "-"}</div>
                            </div>
-                        </>
-                      );
-                    })()}
-                  </div>
+                         </div>
+                         <div className="pt-2 border-t border-white/5">
+                           <div className="opacity-40 uppercase tracking-tighter text-[9px]">Source Code</div>
+                           <div className="text-white/40">{nodeData.dict_code || "Unknown"}</div>
+                         </div>
+                      </>
+                    );
+                  })()}
                 </CollapsibleSection>
               </div>
             )}
@@ -377,28 +368,33 @@ interface CollapsibleSectionProps {
 }
 
 const CollapsibleSection = ({ title, icon: Icon, isCollapsed, onToggle, children, action }: CollapsibleSectionProps) => (
-  <div className="border border-white/5 rounded-xl overflow-hidden bg-white/[0.02]">
-    <div className="flex items-center bg-white/[0.03] pr-2 hover:bg-white/[0.05] transition-colors group/header">
-      <button
-        onClick={onToggle}
-        className="flex-1 flex items-center gap-2 p-3 text-left"
-      >
-        <Icon className="w-3.5 h-3.5 text-white/30" />
-        <span className="text-[10px] font-black uppercase tracking-wider text-white/60">{title}</span>
-      </button>
+  <section className="mb-6 border border-white/10 rounded-2xl bg-[#0f172a]/50 overflow-hidden shadow-lg">
+    <div 
+      onClick={onToggle}
+      className={`flex items-center justify-between group cursor-pointer select-none px-4 py-3 transition-colors ${isCollapsed ? 'hover:bg-white/5' : 'bg-[#0f172a]/50 border-b border-white/5 hover:bg-white/10'}`}
+    >
+      <div className="flex items-center gap-2.5">
+        <div className="text-blue-400 group-hover:scale-110 transition-transform duration-300">
+          <Icon className="w-3.5 h-3.5" />
+        </div>
+        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/50 group-hover:text-white transition-colors">
+          {title}
+        </span>
+      </div>
       
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-2">
         {action}
-        <button 
-          onClick={onToggle}
-          className="p-1 text-white/20 hover:text-white transition-colors ml-1"
-        >
-          {isCollapsed ? <ChevronRight className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
-        </button>
+        <div className="text-white/20 group-hover:text-white transition-colors">
+          {isCollapsed ? <ChevronRight className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+        </div>
       </div>
     </div>
-    {!isCollapsed && <div className="p-1">{children}</div>}
-  </div>
+    {!isCollapsed && (
+      <div className="animate-in fade-in slide-in-from-top-2 duration-300 p-4 bg-black/40 font-mono text-[10px] overflow-x-auto custom-scrollbar max-h-[500px]">
+        {children}
+      </div>
+    )}
+  </section>
 );
 
 const ChevronDown = ({ className }: { className?: string }) => (

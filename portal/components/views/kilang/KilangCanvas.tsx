@@ -1,5 +1,5 @@
 import React from 'react';
-import { Activity, RefreshCw, TreePine, ChevronRight, Minimize2, Maximize2, Minus, Plus, RotateCcw, ArrowRight, ArrowUp, LayoutGrid, Rows } from 'lucide-react';
+import { Activity, RefreshCw, TreePine, ChevronRight, Minimize2, Maximize2, Minus, Plus, RotateCcw, ArrowRight, ArrowUp, LayoutGrid, Rows, Copy, Check, Monitor, Maximize } from 'lucide-react';
 import { KilangNode } from './KilangNode';
 import {
   normalizeWord,
@@ -39,10 +39,10 @@ interface KilangCanvasProps {
   showPerfMonitor: boolean;
   logoStyle: 'original' | 'square' | 'round';
   logoSettings: { scale: number; radius: number; xOffset: number; opacity: number; glowIntensity: number; glowColor: string };
-  showZoomIndicator: boolean;
   moveZoomToCanvas: boolean;
   moveGrowthToCanvas: boolean;
   moveCaptureToCanvas: boolean;
+  moveChainToCanvas: boolean;
   setScale: (s: number | ((prev: number) => number)) => void;
   setIsFit: (fit: boolean) => void;
   setDirection: (d: string) => void;
@@ -74,10 +74,10 @@ export const KilangCanvas = ({
   showPerfMonitor,
   logoStyle,
   logoSettings,
-  showZoomIndicator,
   moveZoomToCanvas,
   moveGrowthToCanvas,
   moveCaptureToCanvas,
+  moveChainToCanvas,
   setScale,
   setIsFit,
   setDirection,
@@ -232,6 +232,14 @@ export const KilangCanvas = ({
     return () => window.removeEventListener('resize', center);
   }, [selectedRoot, rootData?.loading, isFit, resetToken, direction, arrangement, nodeMap]);
 
+  const [copiedChain, setCopiedChain] = React.useState(false);
+
+  const handleCopyChain = (path: string[]) => {
+    navigator.clipboard.writeText(path.join(' > '));
+    setCopiedChain(true);
+    setTimeout(() => setCopiedChain(false), 2000);
+  };
+
   const forestBounds = React.useMemo(() => getForestBoundingBox(nodeMap), [nodeMap]);
   const rootPos = React.useMemo(() => nodeMap[normalizeWord(selectedRoot || '') || ''], [nodeMap, selectedRoot]);
 
@@ -241,7 +249,7 @@ export const KilangCanvas = ({
         <div className="flex-1 kilang-glass-panel rounded-3xl overflow-hidden relative flex flex-col border border-white/10 shadow-2xl">
           {showPerfMonitor && !exporting && <PerformanceMonitor />}
 
-          {(moveGrowthToCanvas || showZoomIndicator) && !exporting && selectedRoot && (
+          {moveGrowthToCanvas && !exporting && selectedRoot && (
             <div className="absolute top-6 left-6 z-[100] flex flex-col gap-3 animate-in slide-in-from-top-2 duration-300">
               {moveGrowthToCanvas && (
                 <div className="flex flex-col gap-2">
@@ -279,22 +287,26 @@ export const KilangCanvas = ({
                 </div>
               )}
 
-              {showZoomIndicator && (
-                <div className="px-3 py-1.5 bg-[#020617]/40 backdrop-blur-md rounded-xl border border-white/10 shadow-xl flex items-center gap-2 group self-start">
-                  <div className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse shadow-[0_0_8px_rgba(59,130,246,0.5)]" />
-                  <div className="flex flex-col">
-                    <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/60">Level</span>
-                    <span className="text-[12px] font-mono font-black text-blue-400">
-                      {isFit ? (fitTransform.scale * 100).toFixed(0) : (scale * 100).toFixed(0)}%
-                    </span>
-                  </div>
-                </div>
-              )}
             </div>
           )}
 
-          {moveZoomToCanvas && selectedRoot && !exporting && (
+          {/* Top Right: Full View (Stub) */}
+          {selectedRoot && !exporting && (
             <div className="absolute top-6 right-6 z-[100] animate-in slide-in-from-top-2 duration-300">
+              <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
+                <button
+                  className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all"
+                  title="Full View"
+                >
+                  <Maximize className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* Bottom Left: Zoom Controls */}
+          {moveZoomToCanvas && selectedRoot && !exporting && (
+            <div className="absolute bottom-6 left-6 z-[110] animate-in slide-in-from-bottom-2 duration-300">
               <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
                 <button
                   onClick={() => setIsFit(!isFit)}
@@ -316,6 +328,7 @@ export const KilangCanvas = ({
             </div>
           )}
 
+          {/* Bottom Right: Export Controls */}
           {moveCaptureToCanvas && selectedRoot && !exporting && (
             <KilangExportHUD
               exportSettings={exportSettings}
@@ -324,9 +337,9 @@ export const KilangCanvas = ({
               dispatch={dispatch}
               handleExport={handleExport}
               dropdownPosition="bottom"
-              align="left"
+              align="right"
               variant="canvas"
-              className="absolute bottom-6 left-6 z-[110]"
+              className="absolute bottom-6 right-6 z-[110]"
             />
           )}
 
@@ -491,9 +504,12 @@ export const KilangCanvas = ({
           )}
 
           {/* Chain Inscription Overlay */}
-          {linearPath.length > 0 && !exporting && (
-            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-[60] animate-in fade-in slide-in-from-bottom-4 duration-500 pointer-events-none">
-              <div className="bg-[#0f172a]/80 backdrop-blur-2xl border border-blue-500/30 px-8 py-4 rounded-[20px] shadow-[0_0_50px_rgba(0,0,0,0.5)] flex items-center gap-3">
+          {linearPath.length > 0 && !exporting && moveChainToCanvas && (
+            <div 
+              className="absolute bottom-10 left-1/2 -translate-x-1/2 z-[60] animate-in fade-in slide-in-from-bottom-4 duration-500 pointer-events-auto group"
+              onMouseEnter={(e) => e.stopPropagation()}
+            >
+              <div className="bg-[#0f172a]/90 backdrop-blur-2xl border border-blue-500/30 px-8 py-4 rounded-[20px] shadow-[0_0_50px_rgba(0,0,0,0.5)] flex items-center gap-3 relative">
                 {linearPath.map((word: string, idx: number) => (
                   <React.Fragment key={word}>
                     <span className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all duration-300 ${idx === linearPath.length - 1 ? 'text-blue-400' : 'text-white/40'}`}>
@@ -505,6 +521,14 @@ export const KilangCanvas = ({
                   </React.Fragment>
                 ))}
               </div>
+
+              <button
+                onClick={(e) => { e.stopPropagation(); handleCopyChain(linearPath); }}
+                className="p-2 rounded-xl bg-[#0f172a]/80 backdrop-blur-xl border border-white/10 text-white/40 hover:text-white transition-all opacity-0 group-hover:opacity-100 shadow-xl"
+                title="Copy Path"
+              >
+                {copiedChain ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
+              </button>
             </div>
           )}
         </div>

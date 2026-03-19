@@ -145,7 +145,6 @@ export const KilangMobileLayout = ({
           resetToken={state.resetToken}
           logoStyle={state.logoStyles[state.landingVersion]}
           logoSettings={state.logoSettings[state.landingVersion]}
-          showZoomIndicator={state.showZoomIndicator}
           moveZoomToCanvas={state.moveZoomToCanvas}
           moveGrowthToCanvas={state.moveGrowthToCanvas}
           moveCaptureToCanvas={state.moveCaptureToCanvas}
