@@ -14,13 +14,19 @@ import { useIsMobile } from '@/hooks/useIsMobile';
 import { SidebarProvider } from './kilang/SidebarContext';
 import { UILang, UIStrings } from '@/types';
 
+import { UI_STRINGS } from '@/lib/i18n';
+
 interface KilangViewProps {
-  uiLang: UILang;
-  toggleUiLang: () => void;
-  s: UIStrings;
+  uiLang?: UILang;
+  toggleUiLang?: () => void;
+  s?: UIStrings;
 }
 
-export default function KilangView({ uiLang, toggleUiLang, s }: KilangViewProps) {
+export default function KilangView({ 
+  uiLang = 'en', 
+  toggleUiLang = () => {}, 
+  s = UI_STRINGS['en'] 
+}: KilangViewProps) {
   const treeRef = useRef<HTMLDivElement>(null);
   const isMobile = useIsMobile(1024); // Tablet/Mobile threshold
   const {

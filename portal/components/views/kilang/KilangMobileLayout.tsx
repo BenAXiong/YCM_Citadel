@@ -18,7 +18,7 @@ import {
 import { KilangState, KilangAction } from './kilangReducer';
 import { KilangCanvas } from './KilangCanvas';
 import { StatsOverlay } from './StatsOverlay';
-import { UILang } from '@/types';
+import { UILang, UIStrings } from '@/types';
 
 interface KilangMobileLayoutProps {
   state: KilangState;
@@ -35,6 +35,7 @@ interface KilangMobileLayoutProps {
   treeRef: React.RefObject<HTMLDivElement | null>;
   uiLang: UILang;
   toggleUiLang: () => void;
+  s: UIStrings;
 }
 
 export const KilangMobileLayout = ({
@@ -52,6 +53,7 @@ export const KilangMobileLayout = ({
   treeRef,
   uiLang,
   toggleUiLang,
+  s,
 }: KilangMobileLayoutProps) => {
   const [showSearch, setShowSearch] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
@@ -148,13 +150,14 @@ export const KilangMobileLayout = ({
           moveZoomToCanvas={state.moveZoomToCanvas}
           moveGrowthToCanvas={state.moveGrowthToCanvas}
           moveCaptureToCanvas={state.moveCaptureToCanvas}
-          setScale={(s) => {
+          moveChainToCanvas={state.moveChainToCanvas}
+          setScale={(s: number | ((prev: number) => number)) => {
             const val = typeof s === 'function' ? s(scale) : s;
             dispatch({ type: 'SET_TRANSFORM', scale: val });
           }}
-          setIsFit={(f) => dispatch({ type: 'SET_TRANSFORM', isFit: f })}
-          setDirection={(d) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
-          setArrangement={(a) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
+          setIsFit={(f: boolean) => dispatch({ type: 'SET_TRANSFORM', isFit: f })}
+          setDirection={(d: string) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
+          setArrangement={(a: string) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
           handleExport={handleExport}
           exportSettings={state.exportSettings}
           showExportDropdown={state.showExportDropdown}
@@ -396,10 +399,10 @@ export const KilangMobileLayout = ({
 
       <StatsOverlay
         showStatsOverlay={state.showStatsOverlay}
-        setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
+        setShowStatsOverlay={(v: boolean) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
         stats={stats}
         visibleChainsCount={state.visibleChainsCount}
-        setVisibleChainsCount={(c) => {
+        setVisibleChainsCount={(c: number | ((prev: number) => number)) => {
           const val = typeof c === 'function' ? c(state.visibleChainsCount) : c;
           dispatch({ type: 'SET_UI', visibleChainsCount: val });
         }}
