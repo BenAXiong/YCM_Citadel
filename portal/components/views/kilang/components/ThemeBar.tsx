@@ -18,6 +18,8 @@ import {
 interface ThemeBarProps {
   show: boolean;
   onClose: () => void;
+  activeTab: 'themes' | 'landing' | 'fonts';
+  setActiveTab: (tab: 'themes' | 'landing' | 'fonts') => void;
   landingVersion: number;
   setLandingVersion: (v: 1 | 2 | 3) => void;
   logoStyle: 'original' | 'square' | 'round';
@@ -30,6 +32,8 @@ interface ThemeBarProps {
 export const ThemeBar = ({
   show,
   onClose,
+  activeTab,
+  setActiveTab,
   landingVersion,
   setLandingVersion,
   logoStyle,
@@ -38,7 +42,6 @@ export const ThemeBar = ({
   updateLogoSettings,
   resetLogoSettings
 }: ThemeBarProps) => {
-  const [activeTab, setActiveTab] = React.useState<'themes' | 'landing' | 'fonts'>('landing');
 
   if (!show) return null;
 

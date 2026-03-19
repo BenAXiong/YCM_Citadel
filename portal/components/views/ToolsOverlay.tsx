@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Square, X, Maximize2, Minimize2 } from "lucide-react";
+import { Theme, UILang, UIStrings } from "@/types";
 import RawDbExplorer from "./RawDbExplorer";
 import MoeRawExplorer from "./MoeRawExplorer";
 import MoeMirrorView from "./MoeMirrorView";
@@ -15,6 +16,9 @@ interface ToolsOverlayProps {
   setToolsTab: (tab: "heatmap" | "normalization" | "rosetta" | "raw_db" | "moe_raw" | "moe_mirror" | "moe_test" | "kilang") => void;
   handleCopy: (text: string, id: string) => void;
   copiedId: string | null;
+  uiLang: UILang;
+  toggleUiLang: () => void;
+  s: UIStrings;
 }
 
 export default function ToolsOverlay({
@@ -23,7 +27,10 @@ export default function ToolsOverlay({
   toolsTab,
   setToolsTab,
   handleCopy,
-  copiedId
+  copiedId,
+  uiLang,
+  toggleUiLang,
+  s
 }: ToolsOverlayProps) {
   const [isFull, setIsFull] = React.useState(true);
   const [isHeaderHovered, setIsHeaderHovered] = React.useState(false);
@@ -174,7 +181,11 @@ export default function ToolsOverlay({
             <MoeTestView />
           )}
           {toolsTab === "kilang" && (
-            <KilangView />
+            <KilangView 
+              uiLang={uiLang} 
+              toggleUiLang={toggleUiLang}
+              s={s}
+            />
           )}
         </div>
       </div>

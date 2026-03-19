@@ -521,6 +521,9 @@ export default function GlobalExplorer() {
           setToolsTab={setToolsTab}
           handleCopy={handleCopy}
           copiedId={copiedId}
+          uiLang={uiLang}
+          toggleUiLang={toggleUiLang}
+          s={s}
         />
 
         {/* CONTENT AREA */}

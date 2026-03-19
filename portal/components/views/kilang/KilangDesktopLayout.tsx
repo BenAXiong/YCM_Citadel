@@ -8,6 +8,7 @@ import { ThemeBar } from './components/ThemeBar';
 import { StatsOverlay } from './StatsOverlay';
 import { AffixesOverlay } from './AffixesOverlay';
 import { KilangState, KilangAction } from './kilangReducer';
+import { UILang, UIStrings } from '@/types';
 
 interface KilangDesktopLayoutProps {
   state: KilangState;
@@ -21,6 +22,9 @@ interface KilangDesktopLayoutProps {
   MOE_SOURCES: any[];
   handleExport: () => Promise<void>;
   treeRef: React.RefObject<HTMLDivElement | null>;
+  uiLang: UILang;
+  toggleUiLang: () => void;
+  s: UIStrings;
 }
 
 export const KilangDesktopLayout = ({
@@ -35,6 +39,9 @@ export const KilangDesktopLayout = ({
   MOE_SOURCES,
   handleExport,
   treeRef,
+  uiLang,
+  toggleUiLang,
+  s,
 }: KilangDesktopLayoutProps) => {
   const {
     stats,
@@ -52,6 +59,14 @@ export const KilangDesktopLayout = ({
     showStatsOverlay,
     visibleChainsCount,
   } = state;
+  
+  const setScale = (s: number | ((prev: number) => number)) => {
+    const val = typeof s === 'function' ? s(scale) : s;
+    dispatch({ type: 'SET_TRANSFORM', scale: val });
+  };
+  const setIsFit = (f: boolean) => dispatch({ type: 'SET_TRANSFORM', isFit: f });
+  const setDirection = (d: string) => dispatch({ type: 'SET_LAYOUT', direction: d as any });
+  const setArrangement = (a: string) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any });
 
   return (
     <div 
@@ -73,13 +88,10 @@ export const KilangDesktopLayout = ({
         setSourceFilter={(s) => dispatch({ type: 'SET_CONFIG', sourceFilter: s })}
         setShowStatsOverlay={(v: boolean) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
         setShowAffixesOverlay={(v: boolean) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
-        setDirection={(d) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
-        setArrangement={(a) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
-        setScale={(s) => {
-          const val = typeof s === 'function' ? s(scale) : s;
-          dispatch({ type: 'SET_TRANSFORM', scale: val });
-        }}
-        setIsFit={(f) => dispatch({ type: 'SET_TRANSFORM', isFit: f })}
+        setDirection={setDirection}
+        setArrangement={setArrangement}
+        setScale={setScale}
+        setIsFit={setIsFit}
         layoutConfig={state.layoutConfig}
         updateLayoutConfig={(config) => dispatch({ type: 'SET_LAYOUT_CONFIG', config })}
         handleExport={handleExport}
@@ -91,7 +103,15 @@ export const KilangDesktopLayout = ({
         showFilterPanel={state.showFilterPanel}
         showPerfMonitor={state.showPerfMonitor}
         showThemeBar={state.showThemeBar}
+        showZoomIndicator={state.showZoomIndicator}
+        moveZoomToCanvas={state.moveZoomToCanvas}
+        moveGrowthToCanvas={state.moveGrowthToCanvas}
+        moveCaptureToCanvas={state.moveCaptureToCanvas}
+        exportSettings={state.exportSettings}
         dispatch={dispatch}
+        uiLang={uiLang}
+        toggleUiLang={toggleUiLang}
+        s={s}
       />
 
       <div className="flex-1 flex overflow-hidden">
@@ -130,6 +150,17 @@ export const KilangDesktopLayout = ({
           resetToken={state.resetToken}
           logoStyle={state.logoStyles[state.landingVersion]}
           logoSettings={state.logoSettings[state.landingVersion]}
+          showZoomIndicator={state.showZoomIndicator}
+          moveZoomToCanvas={state.moveZoomToCanvas}
+          moveGrowthToCanvas={state.moveGrowthToCanvas}
+          moveCaptureToCanvas={state.moveCaptureToCanvas}
+          setScale={setScale}
+          setIsFit={setIsFit}
+          setDirection={setDirection}
+          setArrangement={setArrangement}
+          handleExport={handleExport}
+          exportSettings={state.exportSettings}
+          exporting={state.exporting}
           dispatch={dispatch}
         />
       </div>
@@ -160,6 +191,8 @@ export const KilangDesktopLayout = ({
       <ThemeBar
         show={state.showThemeBar}
         onClose={() => dispatch({ type: 'SET_UI', showThemeBar: false })}
+        activeTab={state.themeBarTab}
+        setActiveTab={(t) => dispatch({ type: 'SET_UI', themeBarTab: t })}
         landingVersion={state.landingVersion}
         setLandingVersion={(v) => dispatch({ type: 'SET_UI', landingVersion: v })}
         logoStyle={state.logoStyles[state.landingVersion]}

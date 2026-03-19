@@ -1,11 +1,11 @@
 import React from 'react';
-import { Activity, RefreshCw, TreePine, ChevronRight } from 'lucide-react';
+import { Activity, RefreshCw, TreePine, ChevronRight, Minimize2, Maximize2, Minus, Plus, RotateCcw, ArrowRight, ArrowUp, LayoutGrid, Rows, ChevronDown, Download } from 'lucide-react';
 import { KilangNode } from './KilangNode';
-import { 
-  normalizeWord, 
-  getForestBoundingBox, 
-  getActiveHighlightChain, 
-  getLinearPath 
+import {
+  normalizeWord,
+  getForestBoundingBox,
+  getActiveHighlightChain,
+  getLinearPath
 } from './kilangUtils';
 import { NodeMap, Derivation } from './KilangTypes';
 import { useSidebar } from './SidebarContext';
@@ -38,6 +38,17 @@ interface KilangCanvasProps {
   showPerfMonitor: boolean;
   logoStyle: 'original' | 'square' | 'round';
   logoSettings: { scale: number; radius: number; xOffset: number; opacity: number; glowIntensity: number; glowColor: string };
+  showZoomIndicator: boolean;
+  moveZoomToCanvas: boolean;
+  moveGrowthToCanvas: boolean;
+  moveCaptureToCanvas: boolean;
+  setScale: (s: number | ((prev: number) => number)) => void;
+  setIsFit: (fit: boolean) => void;
+  setDirection: (d: string) => void;
+  setArrangement: (a: string) => void;
+  handleExport: () => void;
+  exportSettings: KilangState['exportSettings'];
+  exporting: boolean;
   dispatch: React.Dispatch<KilangAction>;
 }
 
@@ -61,8 +72,32 @@ export const KilangCanvas = ({
   showPerfMonitor,
   logoStyle,
   logoSettings,
+  showZoomIndicator,
+  moveZoomToCanvas,
+  moveGrowthToCanvas,
+  moveCaptureToCanvas,
+  setScale,
+  setIsFit,
+  setDirection,
+  setArrangement,
+  handleExport,
+  exportSettings,
+  exporting,
   dispatch
 }: KilangCanvasProps) => {
+  const [showExportDropdown, setShowExportDropdown] = React.useState(false);
+  const exportRef = React.useRef<HTMLDivElement>(null);
+
+  // Auto-close export dropdown on outside click
+  React.useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      if (exportRef.current && !exportRef.current.contains(e.target as Node)) {
+        setShowExportDropdown(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
   const value = useSidebar();
   const [viewPos, setViewPos] = React.useState({ x: 0, y: 0, w: 0, h: 0 });
 
@@ -144,12 +179,12 @@ export const KilangCanvas = ({
 
   const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
 
-  const activeHighlightChain = React.useMemo(() => 
+  const activeHighlightChain = React.useMemo(() =>
     getActiveHighlightChain(activeHighlightNode, rootData?.derivatives, selectedRoot),
     [activeHighlightNode, rootData?.derivatives, selectedRoot]
   );
 
-  const linearPath = React.useMemo(() => 
+  const linearPath = React.useMemo(() =>
     getLinearPath(activeHighlightNode, rootData?.derivatives, selectedRoot),
     [activeHighlightNode, rootData?.derivatives, selectedRoot]
   );
@@ -202,9 +237,210 @@ export const KilangCanvas = ({
     <main className="flex-1 overflow-hidden relative">
       <div className="h-full flex flex-col p-8 overflow-hidden">
         <div className="flex-1 kilang-glass-panel rounded-3xl overflow-hidden relative flex flex-col border border-white/10 shadow-2xl">
-          {showPerfMonitor && <PerformanceMonitor />}
-          
-          {selectedRoot && (
+          {showPerfMonitor && !exporting && <PerformanceMonitor />}
+
+          {(moveGrowthToCanvas || showZoomIndicator) && !exporting && selectedRoot && (
+            <div className="absolute top-6 left-6 z-[100] flex flex-col gap-3 animate-in slide-in-from-top-2 duration-300">
+              {moveGrowthToCanvas && (
+                <div className="flex flex-col gap-2">
+                  <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
+                    <button
+                      onClick={() => setDirection('horizontal')}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'horizontal' ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      title="Horizontal Growth"
+                    >
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                    <button
+                      onClick={() => setDirection('vertical')}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'vertical' ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      title="Vertical Growth"
+                    >
+                      <ArrowUp className="w-3.5 h-3.5" />
+                    </button>
+                    <div className="w-[1px] h-4 bg-white/10 mx-1 self-center" />
+                    <button
+                      onClick={() => setArrangement('flow')}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'flow' ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      title="Flow Arrangement"
+                    >
+                      <LayoutGrid className="w-3.5 h-3.5" />
+                    </button>
+                    <button
+                      onClick={() => setArrangement('aligned')}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'aligned' ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      title="Aligned Arrangement"
+                    >
+                      <Rows className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {showZoomIndicator && (
+                <div className="px-3 py-1.5 bg-[#020617]/40 backdrop-blur-md rounded-xl border border-white/10 shadow-xl flex items-center gap-2 group self-start">
+                  <div className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse shadow-[0_0_8px_rgba(59,130,246,0.5)]" />
+                  <div className="flex flex-col">
+                    <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/60">Level</span>
+                    <span className="text-[12px] font-mono font-black text-blue-400">
+                      {isFit ? (fitTransform.scale * 100).toFixed(0) : (scale * 100).toFixed(0)}%
+                    </span>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {moveZoomToCanvas && selectedRoot && !exporting && (
+            <div className="absolute top-6 right-6 z-[100] animate-in slide-in-from-top-2 duration-300">
+              <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
+                <button
+                  onClick={() => setIsFit(!isFit)}
+                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                  title={isFit ? "Expand to Actual Size" : "Fit Tree"}
+                >
+                  {isFit ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
+                </button>
+                <button onClick={() => { setScale((prev: number) => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all" title="Out">
+                  <Minus className="w-3.5 h-3.5" />
+                </button>
+                <button onClick={() => { setScale((prev: number) => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all" title="In">
+                  <Plus className="w-3.5 h-3.5" />
+                </button>
+                <button onClick={() => dispatch({ type: 'RESET_TRANSFORM' })} className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all" title="Reset Zoom">
+                  <RotateCcw className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            </div>
+          )}
+
+          {moveCaptureToCanvas && selectedRoot && !exporting && (
+            <div className="absolute bottom-6 left-6 z-[110]" ref={exportRef}>
+              <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
+                <button
+                  onClick={handleExport}
+                  className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all"
+                  title={`Export as ${exportSettings.format.toUpperCase()}`}
+                >
+                  <Download className="w-3.5 h-3.5" />
+                </button>
+                <button
+                  onClick={() => setShowExportDropdown(!showExportDropdown)}
+                  className={`w-5 h-8 rounded-lg flex items-center justify-center transition-all ${showExportDropdown ? 'text-white bg-white/10' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                  title="Export Settings"
+                >
+                  <ChevronDown className="w-3.5 h-3.5" />
+                </button>
+              </div>
+
+              {/* Duplicate Export Settings Dropdown logic here - styled for canvas */}
+              {showExportDropdown && (
+                <div className="absolute bottom-full mb-3 left-0 w-64 bg-[#020617]/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl p-4 animate-in fade-in slide-in-from-bottom-2 duration-200 text-left">
+                  <div className="space-y-4">
+                    {/* Description */}
+                    <p className="text-[10px] font-medium text-white/40 leading-relaxed border-b border-white/5 pb-2">
+                      Change the settings below then click the download button to export the Kilang.
+                    </p>
+                    {/* Format */}
+                    <div className="space-y-2">
+                      <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block">Format</label>
+                      <div className="flex bg-black/40 rounded-lg p-1">
+                        {(['png', 'svg'] as const).map(f => (
+                          <button
+                            key={f}
+                            onClick={() => dispatch({ type: 'SET_UI', exportSettings: { format: f } })}
+                            className={`flex-1 py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.format === f ? 'bg-blue-500 text-white shadow-lg' : 'text-white/40 hover:text-white'}`}
+                          >
+                            {f}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Area */}
+                    <div className="space-y-2">
+                      <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block">Area</label>
+                      <div className="grid grid-cols-2 gap-1 bg-black/40 rounded-lg p-1">
+                        {[
+                          { id: 'window', label: 'Window' },
+                          { id: 'all', label: 'Full Kilang' }
+                        ].map(a => (
+                          <button
+                            key={a.id}
+                            onClick={() => dispatch({ type: 'SET_UI', exportSettings: { area: a.id as any } })}
+                            className={`py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.area === a.id ? 'bg-blue-500 text-white shadow-lg' : 'text-white/40 hover:text-white'}`}
+                          >
+                            {a.label}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Background */}
+                    <div className="space-y-2">
+                      <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block">Background</label>
+                      <div className="grid grid-cols-4 gap-1">
+                        {[
+                          { id: 'origin', color: 'var(--kilang-bg, #020617)', label: 'Orig.' },
+                          { id: 'white', color: '#ffffff', label: 'White' },
+                          { id: 'black', color: '#000000', label: 'Black' },
+                          { id: 'transparent', color: 'transparent', label: 'Trans' }
+                        ].map(b => (
+                          <button
+                            key={b.id}
+                            onClick={() => dispatch({ type: 'SET_UI', exportSettings: { background: b.id as any } })}
+                            className={`group relative h-10 rounded-lg border transition-all flex items-center justify-center overflow-hidden ${exportSettings.background === b.id ? 'border-blue-500 ring-1 ring-blue-500/50 shadow-lg' : 'border-white/5 hover:border-white/20'}`}
+                            style={{ backgroundColor: b.color }}
+                            title={b.label}
+                          >
+                            {b.id === 'transparent' && (
+                              <div className="absolute inset-0 opacity-20 pointer-events-none" style={{ background: 'conic-gradient(#888 0.25turn, #444 0.25turn 0.5turn, #888 0.5turn 0.75turn, #444 0.75turn)', backgroundSize: '8px 8px' }} />
+                            )}
+                            <span className={`relative z-10 text-[8px] font-black uppercase tracking-tighter ${b.id === 'white' ? 'text-[#020617] opacity-80' : 'text-white'} ${exportSettings.background === b.id ? 'scale-110' : 'opacity-80'}`}>
+                              {b.label}
+                            </span>
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Resolution & Margin Grid */}
+                    <div className="grid grid-cols-2 gap-4">
+                      {/* Resolution */}
+                      <div className="space-y-2">
+                        <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block">Quality</label>
+                        <select
+                          value={exportSettings.resolution}
+                          onChange={(e) => dispatch({ type: 'SET_UI', exportSettings: { resolution: Number(e.target.value) as any } })}
+                          className="w-full h-8 bg-black/40 border border-white/10 rounded-lg text-[10px] font-bold text-white px-2 cursor-pointer focus:border-blue-500/50 transition-all outline-none"
+                        >
+                          <option value="1">1.0x (Std)</option>
+                          <option value="2">2.0x (Hi)</option>
+                          <option value="4">4.0x (Ult)</option>
+                        </select>
+                      </div>
+
+                      {/* Margin */}
+                      <div className="space-y-2">
+                        <label className="text-[10px] font-bold text-white/30 uppercase tracking-widest block">Margin</label>
+                        <select
+                          value={exportSettings.margin}
+                          onChange={(e) => dispatch({ type: 'SET_UI', exportSettings: { margin: Number(e.target.value) as any } })}
+                          className="w-full h-8 bg-black/40 border border-white/10 rounded-lg px-2 text-[10px] font-bold text-white/80 focus:outline-none focus:border-blue-500 transition-all cursor-pointer"
+                        >
+                          <option value={0}>Tight</option>
+                          <option value={5}>5%</option>
+                          <option value={10}>10%</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {selectedRoot && !exporting && (
             <>
               <KilangToolbox
                 layoutConfig={layoutConfig}
@@ -248,6 +484,7 @@ export const KilangCanvas = ({
               )}
 
               <div
+                id="kilang-forest-inner"
                 key={selectedRoot}
                 className="relative"
                 style={{
@@ -364,7 +601,7 @@ export const KilangCanvas = ({
           )}
 
           {/* Chain Inscription Overlay */}
-          {linearPath.length > 0 && (
+          {linearPath.length > 0 && !exporting && (
             <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-[60] animate-in fade-in slide-in-from-bottom-4 duration-500 pointer-events-none">
               <div className="bg-[#0f172a]/80 backdrop-blur-2xl border border-blue-500/30 px-8 py-4 rounded-[20px] shadow-[0_0_50px_rgba(0,0,0,0.5)] flex items-center gap-3">
                 {linearPath.map((word: string, idx: number) => (

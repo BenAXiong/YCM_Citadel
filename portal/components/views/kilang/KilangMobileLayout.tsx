@@ -10,11 +10,14 @@ import {
   LayoutGrid,
   Zap,
   Layers,
-  Info
+  Info,
+  Languages,
+  Palette
 } from 'lucide-react';
 import { KilangState, KilangAction } from './kilangReducer';
 import { KilangCanvas } from './KilangCanvas';
 import { StatsOverlay } from './StatsOverlay';
+import { UILang } from '@/types';
 
 interface KilangMobileLayoutProps {
   state: KilangState;
@@ -29,6 +32,8 @@ interface KilangMobileLayoutProps {
   sourceCounts: Record<string, { r: number; e: number }>;
   handleExport: () => Promise<void>;
   treeRef: React.RefObject<HTMLDivElement | null>;
+  uiLang: UILang;
+  toggleUiLang: () => void;
 }
 
 export const KilangMobileLayout = ({
@@ -44,6 +49,8 @@ export const KilangMobileLayout = ({
   sourceCounts,
   handleExport,
   treeRef,
+  uiLang,
+  toggleUiLang,
 }: KilangMobileLayoutProps) => {
   const [showSearch, setShowSearch] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
@@ -87,6 +94,20 @@ export const KilangMobileLayout = ({
 
         <div className="flex items-center gap-2">
           <button 
+             onClick={toggleUiLang}
+             className="p-2 rounded-lg bg-white/5 text-white/60 hover:text-white hover:bg-white/10 active:scale-95 transition-all"
+             title="Toggle Language"
+          >
+            <Languages className="w-4 h-4" />
+          </button>
+          <button 
+             onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
+             className={`p-2 rounded-lg active:scale-95 transition-all ${state.showThemeBar ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'bg-white/5 text-white/60'}`}
+             title="Aesthetics"
+          >
+            <Palette className="w-4 h-4" />
+          </button>
+          <button 
              onClick={() => dispatch({ type: 'SET_TRANSFORM', isFit: !isFit })}
              className={`p-2 rounded-lg active:scale-95 transition-all ${isFit ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'bg-white/5 text-white/60'}`}
           >
@@ -123,6 +144,7 @@ export const KilangMobileLayout = ({
           resetToken={state.resetToken}
           logoStyle={state.logoStyles[state.landingVersion]}
           logoSettings={state.logoSettings[state.landingVersion]}
+          exporting={state.exporting}
           dispatch={dispatch}
         />
 

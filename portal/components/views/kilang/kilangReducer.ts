@@ -51,6 +51,18 @@ export interface KilangState {
   showFilterPanel: boolean;
   sidebarCollapsed: boolean;
   sidebarTab: 'forest' | 'styling' | 'custom';
+  themeBarTab: 'themes' | 'landing' | 'fonts';
+  exportSettings: {
+    format: 'png' | 'svg';
+    background: 'origin' | 'white' | 'black' | 'transparent';
+    area: 'window' | 'all';
+    margin: 0 | 5 | 10;
+    resolution: 1 | 2 | 4;
+  };
+  showZoomIndicator: boolean;
+  moveZoomToCanvas: boolean;
+  moveGrowthToCanvas: boolean;
+  moveCaptureToCanvas: boolean;
   fitTransform: { x: number; y: number; scale: number };
   canvasHoverNode: string | null;
   canvasSelectedNode: string | null;
@@ -105,7 +117,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; showThemeBar?: boolean; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, { scale?: number; radius?: number; xOffset?: number; opacity?: number; glowIntensity?: number; glowColor?: string }>; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
+  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; showThemeBar?: boolean; showZoomIndicator?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; themeBarTab?: 'themes' | 'landing' | 'fonts'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
   | { type: 'RESET_LOGO_SETTINGS'; version: number }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
@@ -149,6 +161,18 @@ export const initialState: KilangState = {
   showFilterPanel: true,
   sidebarCollapsed: false,
   sidebarTab: 'forest',
+  themeBarTab: 'landing',
+  exportSettings: {
+    format: 'png',
+    background: 'origin',
+    area: 'window',
+    margin: 5,
+    resolution: 2,
+  },
+  showZoomIndicator: false,
+  moveZoomToCanvas: true,
+  moveGrowthToCanvas: true,
+  moveCaptureToCanvas: true,
   fitTransform: { x: 0, y: 0, scale: 1 },
   canvasHoverNode: null,
   canvasSelectedNode: null,
@@ -269,7 +293,7 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return { ...state, fitTransform: action.transform };
     case 'SET_LAYOUT_CONFIG':
       return { ...state, layoutConfig: { ...state.layoutConfig, ...action.config } };
-    case 'RESET_LAYOUT_CONFIG':
+    case 'RESET_LAYOUT_CONFIG': {
       const modeDefaults = ANCHOR_DEFAULTS[state.direction];
       return {
         ...state,
@@ -279,7 +303,8 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
           anchorY: modeDefaults.y
         }
       };
-    case 'RESET_LOGO_SETTINGS':
+    }
+    case 'RESET_LOGO_SETTINGS': {
       const logoDefaults: Record<number, any> = {
         1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: '#d9dc1e' },
         2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: '#3b82f6' },
@@ -292,27 +317,35 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
           [action.version]: logoDefaults[action.version]
         }
       };
-    case 'SET_UI':
-      if (action.logoStyles || action.logoSettings) {
-        const nextSettings = { ...state.logoSettings };
-        if (action.logoSettings) {
-          Object.keys(action.logoSettings).forEach(v => {
-            const ver = Number(v);
-            nextSettings[ver] = { ...nextSettings[ver], ...action.logoSettings![ver] as any };
-          });
-        }
+    }
+    case 'SET_UI': {
+      const { 
+        type, 
+        logoStyles, 
+        logoSettings, 
+        exportSettings, 
+        ...rest 
+      } = action;
 
-        // Remove logoSettings from action before spread to avoid overwriting nextSettings with partial
-        const { logoSettings: _, ...restAction } = action;
+      const nextLogoSettings = logoSettings 
+        ? { ...state.logoSettings } 
+        : state.logoSettings;
 
-        return {
-          ...state,
-          ...(restAction as any),
-          logoStyles: { ...state.logoStyles, ...(action.logoStyles || {}) },
-          logoSettings: nextSettings
-        } as KilangState;
+      if (logoSettings) {
+        Object.entries(logoSettings).forEach(([ver, settings]) => {
+          const v = Number(ver);
+          nextLogoSettings[v] = { ...nextLogoSettings[v], ...settings };
+        });
       }
-      return { ...state, ...action } as any;
+
+      return {
+        ...state,
+        ...rest,
+        logoStyles: logoStyles ? { ...state.logoStyles, ...logoStyles } : state.logoStyles,
+        logoSettings: nextLogoSettings,
+        exportSettings: exportSettings ? { ...state.exportSettings, ...exportSettings } : state.exportSettings,
+      };
+    }
     case 'SET_CANVAS_HOVER':
       return { ...state, canvasHoverNode: action.node };
     case 'SET_CANVAS_SELECT':
