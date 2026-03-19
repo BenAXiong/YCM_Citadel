@@ -105,6 +105,7 @@ export const KilangDesktopLayout = ({
         showRightSidebar={state.showRightSidebar}
         showPerfMonitor={state.showPerfMonitor}
         showThemeBar={state.showThemeBar}
+        showTreeTab={state.showTreeTab}
         showZoomIndicator={state.showZoomIndicator}
         moveZoomToCanvas={state.moveZoomToCanvas}
         moveGrowthToCanvas={state.moveGrowthToCanvas}

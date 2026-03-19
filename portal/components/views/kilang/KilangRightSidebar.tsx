@@ -29,7 +29,7 @@ interface KilangRightSidebarProps {
 
 
 export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nodeMap }: KilangRightSidebarProps) => {
-  const { rightSidebarTab, rightSidebarWidth, canvasSelectedNode, rootData, selectedRoot } = state;
+  const { rightSidebarTab, rightSidebarWidth, canvasSelectedNode, rootData, selectedRoot, showTreeTab } = state;
   const [collapsedSections, setCollapsedSections] = React.useState<Record<string, boolean>>({});
 
   const toggleSection = (id: string) => {
@@ -68,6 +68,12 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
 
   const [trimDescendants, setTrimDescendants] = React.useState(false);
 
+  React.useEffect(() => {
+    if (!showTreeTab && rightSidebarTab === 'txt') {
+      dispatch({ type: 'SET_UI', rightSidebarTab: 'sent' });
+    }
+  }, [showTreeTab, rightSidebarTab, dispatch]);
+
   return (
     <aside
       className={`relative h-full flex flex-col bg-[#0f172a]/80 backdrop-blur-xl transition-all duration-300 ease-in-out z-40 ${isCollapsed ? 'w-0 border-l-0 overflow-visible' : 'border-l border-white/5 overflow-hidden'}`}
@@ -94,10 +100,10 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
         {!isCollapsed && (
           <div className="flex items-center gap-1 p-2 border-b border-white/5 bg-black/20">
             {[
-              { id: 'txt', icon: FileText, label: 'Tree' },
-              { id: 'sent', icon: MessageSquare, label: 'Sentences' },
-              { id: 'met', icon: Database, label: 'Affixes' }
-            ].map(tab => (
+              { id: 'txt', icon: FileText, label: 'Tree', show: showTreeTab },
+              { id: 'sent', icon: MessageSquare, label: 'Sentences', show: true },
+              { id: 'met', icon: Database, label: 'Affixes', show: true }
+            ].filter(t => t.show).map(tab => (
               <button
                 key={tab.id}
                 onClick={() => dispatch({ type: 'SET_UI', rightSidebarTab: tab.id as any })}
@@ -131,7 +137,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     const activeNode = canvasSelectedNode || selectedRoot;
                     if (!activeNode) return null;
                     const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
-                                   (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word: activeNode, isRoot: true } : null);
+                                   (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
                     if (!nodeData) return null;
                     return (
                       <button 
@@ -149,7 +155,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                       const activeNode = canvasSelectedNode || selectedRoot;
                       if (!activeNode) return <span className="text-white/20 italic">No data available</span>;
                       const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) || 
-                                     (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word: activeNode, isRoot: true } : null);
+                                     (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
                       
                       if (!nodeData) return <span className="text-white/20 italic">// {activeNode} details not found</span>;
                       

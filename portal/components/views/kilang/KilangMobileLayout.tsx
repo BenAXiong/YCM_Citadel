@@ -12,7 +12,8 @@ import {
   Layers,
   Info,
   Languages,
-  Palette
+  Palette,
+  FileText
 } from 'lucide-react';
 import { KilangState, KilangAction } from './kilangReducer';
 import { KilangCanvas } from './KilangCanvas';
@@ -144,6 +145,19 @@ export const KilangMobileLayout = ({
           resetToken={state.resetToken}
           logoStyle={state.logoStyles[state.landingVersion]}
           logoSettings={state.logoSettings[state.landingVersion]}
+          showZoomIndicator={state.showZoomIndicator}
+          moveZoomToCanvas={state.moveZoomToCanvas}
+          moveGrowthToCanvas={state.moveGrowthToCanvas}
+          moveCaptureToCanvas={state.moveCaptureToCanvas}
+          setScale={(s) => {
+            const val = typeof s === 'function' ? s(scale) : s;
+            dispatch({ type: 'SET_TRANSFORM', scale: val });
+          }}
+          setIsFit={(f) => dispatch({ type: 'SET_TRANSFORM', isFit: f })}
+          setDirection={(d) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
+          setArrangement={(a) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
+          handleExport={handleExport}
+          exportSettings={state.exportSettings}
           exporting={state.exporting}
           dispatch={dispatch}
         />
@@ -324,6 +338,32 @@ export const KilangMobileLayout = ({
                     </div>
                   </button>
                 </div>
+              </section>
+
+              {/* View Options */}
+              <section>
+                <div className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-3">View Options</div>
+                <button
+                  onClick={() => dispatch({ type: 'SET_UI', showTreeTab: !state.showTreeTab })}
+                  className={`w-full p-4 rounded-xl border flex items-center justify-between transition-all ${
+                    state.showTreeTab 
+                      ? 'bg-blue-600/10 border-blue-500/50 text-white shadow-[0_0_15px_rgba(59,130,246,0.1)]' 
+                      : 'bg-white/5 border-white/5 text-white/40'
+                  }`}
+                >
+                  <div className="flex items-center gap-3">
+                    <div className={`p-2 rounded-lg ${state.showTreeTab ? 'bg-blue-600 text-white' : 'bg-white/10 text-white/40'}`}>
+                      <FileText className="w-4 h-4" />
+                    </div>
+                    <div className="flex flex-col items-start">
+                      <span className="text-sm font-bold uppercase tracking-widest text-left">Tree Tab</span>
+                      <span className="text-[10px] opacity-40 uppercase text-left">Enable structural hierarchy view</span>
+                    </div>
+                  </div>
+                  <div className={`w-8 h-4 rounded-full p-0.5 transition-colors relative ${state.showTreeTab ? 'bg-blue-500' : 'bg-white/10'}`}>
+                    <div className={`w-3 h-3 bg-white rounded-full transition-transform ${state.showTreeTab ? 'translate-x-4' : 'translate-x-0'}`} />
+                  </div>
+                </button>
               </section>
 
               {/* Actions */}

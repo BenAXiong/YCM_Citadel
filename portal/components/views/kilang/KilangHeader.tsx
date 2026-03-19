@@ -72,6 +72,7 @@ interface KilangHeaderProps {
   showRightSidebar: boolean;
   showPerfMonitor: boolean;
   showThemeBar: boolean;
+  showTreeTab: boolean;
   showZoomIndicator: boolean;
   moveZoomToCanvas: boolean;
   moveGrowthToCanvas: boolean;
@@ -114,6 +115,7 @@ export const KilangHeader = ({
   showRightSidebar,
   showPerfMonitor,
   showThemeBar,
+  showTreeTab,
   showZoomIndicator,
   moveZoomToCanvas,
   moveGrowthToCanvas,
@@ -711,7 +713,6 @@ export const KilangHeader = ({
                   <div className="mb-1">
                     <button
                       onClick={() => setShowHowToSub(!showHowToSub)}
-                      onMouseEnter={() => setShowHowToSub(true)}
                       className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/10 transition-all group"
                     >
                       <div className="flex items-center gap-2">
@@ -776,7 +777,6 @@ export const KilangHeader = ({
                   <div className="mb-1">
                     <button
                       onClick={() => setShowViewSub(!showViewSub)}
-                      onMouseEnter={() => setShowViewSub(true)}
                       className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/10 transition-all group"
                     >
                       <div className="flex items-center gap-2">
@@ -843,7 +843,6 @@ export const KilangHeader = ({
                   <div className="mb-1">
                     <button
                       onClick={() => setShowShareSub(!showShareSub)}
-                      onMouseEnter={() => setShowShareSub(true)}
                       className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/10 transition-all group"
                     >
                       <div className="flex items-center gap-2">
@@ -872,7 +871,7 @@ export const KilangHeader = ({
                   {/* Dev Tools Secondary Menu */}
                   <div className="mt-2 pt-2 border-t border-white/5">
                     <button
-                      onMouseEnter={() => setShowDevSub(true)}
+                      onClick={() => setShowDevSub(!showDevSub)}
                       className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/10 transition-all group bg-blue-500/5"
                     >
                       <span className="text-[10px] font-black uppercase text-blue-400 group-hover:text-blue-300">Dev Tools</span>
@@ -902,6 +901,12 @@ export const KilangHeader = ({
                           goal="Toggle the visual aesthetics and landing view customization panel."
                           isOn={showThemeBar}
                           onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !showThemeBar })}
+                        />
+                        <DevToolItem
+                          label="Tree Tab"
+                          goal="Toggle the visibility of the primary structural 'Tree' tab in the Explorer panel."
+                          isOn={showTreeTab}
+                          onClick={() => dispatch({ type: 'SET_UI', showTreeTab: !showTreeTab })}
                         />
                         <DevToolItem
                           label="Visual Toolbox"
