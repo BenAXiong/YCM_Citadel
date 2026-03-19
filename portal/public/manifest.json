@@ -1,0 +1,29 @@
+{
+  "name": "Yincumin Citadel",
+  "short_name": "Citadel",
+  "description": "Sentence Fortress & Generative Language Forest",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/kilang/Kilang_5_nobg_noring2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/kilang/Kilang_5_nobg_noring2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/kilang/Kilang_5_nobg_noring2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

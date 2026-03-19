@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Yincumin Citadel",
   description: "Sentence Fortress",
+  icons: {
+    icon: "/kilang/Kilang_5_nobg_noring2.png",
+    apple: "/kilang/Kilang_5_nobg_noring2.png",
+  },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
