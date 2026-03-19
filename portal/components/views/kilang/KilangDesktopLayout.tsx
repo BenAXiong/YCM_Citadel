@@ -59,6 +59,7 @@ export const KilangDesktopLayout = ({
     branchFilter,
     showStatsOverlay,
     visibleChainsCount,
+    isFullView,
   } = state;
   
   const setScale = (s: number | ((prev: number) => number)) => {
@@ -72,9 +73,10 @@ export const KilangDesktopLayout = ({
   return (
     <div 
       className="kilang-container flex flex-col h-screen overflow-hidden"
-      style={{ '--sidebar-width': `${state.sidebarCollapsed ? 0 : state.sidebarWidth}px` } as React.CSSProperties}
+      style={{ '--sidebar-width': `${(state.sidebarCollapsed || isFullView) ? 0 : state.sidebarWidth}px` } as React.CSSProperties}
     >
-      <KilangHeader
+      {!isFullView && (
+        <KilangHeader
         stats={stats}
         selectedRoot={selectedRoot}
         morphMode={morphMode}
@@ -112,6 +114,8 @@ export const KilangDesktopLayout = ({
         moveGrowthToCanvas={state.moveGrowthToCanvas}
         moveCaptureToCanvas={state.moveCaptureToCanvas}
         moveChainToCanvas={state.moveChainToCanvas}
+        showSidebarTooltips={state.showSidebarTooltips}
+        showTreeTooltips={state.showTreeTooltips}
         exportSettings={state.exportSettings}
         rootData={state.rootData}
         canvasHoverNode={state.canvasHoverNode}
@@ -121,9 +125,10 @@ export const KilangDesktopLayout = ({
         toggleUiLang={toggleUiLang}
         s={s}
       />
+      )}
 
       <div className="flex-1 flex overflow-hidden">
-        {state.showFilterPanel && (
+        {state.showFilterPanel && !isFullView && (
           <KilangSidebar
             state={state}
             dispatch={dispatch}
@@ -170,10 +175,12 @@ export const KilangDesktopLayout = ({
           exportSettings={state.exportSettings}
           showExportDropdown={state.showExportDropdown}
           exporting={state.exporting}
+          showTreeTooltips={state.showTreeTooltips}
+          isFullView={isFullView}
           dispatch={dispatch}
         />
 
-        {state.showRightSidebar && (
+        {state.showRightSidebar && !isFullView && (
           <KilangRightSidebar
             state={state}
             dispatch={dispatch}

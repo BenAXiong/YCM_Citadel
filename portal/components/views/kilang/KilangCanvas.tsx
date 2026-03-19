@@ -51,6 +51,8 @@ interface KilangCanvasProps {
   exportSettings: KilangState['exportSettings'];
   showExportDropdown: boolean;
   exporting: boolean;
+  showTreeTooltips?: boolean;
+  isFullView?: boolean;
   dispatch: React.Dispatch<KilangAction>;
 }
 
@@ -86,9 +88,22 @@ export const KilangCanvas = ({
   exportSettings,
   showExportDropdown,
   exporting,
+  showTreeTooltips = true,
+  isFullView = false,
   dispatch
 }: KilangCanvasProps) => {
   const exportRef = React.useRef<HTMLDivElement>(null);
+
+  // Keyboard shortcuts (Esc to exit Full View)
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isFullView) {
+        dispatch({ type: 'SET_UI', isFullView: false });
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isFullView, dispatch]);
 
   // Auto-close export dropdown on outside click
   React.useEffect(() => {
@@ -264,8 +279,8 @@ export const KilangCanvas = ({
 
   return (
     <main className="flex-1 overflow-hidden relative">
-      <div className="h-full flex flex-col p-8 overflow-hidden">
-        <div className="flex-1 kilang-glass-panel rounded-3xl overflow-hidden relative flex flex-col border border-white/10 shadow-2xl">
+      <div className={`h-full flex flex-col overflow-hidden transition-all duration-500 ${isFullView ? 'p-0 bg-[#020617]' : 'p-8'}`}>
+        <div className={`flex-1 overflow-hidden relative flex flex-col transition-all duration-500 ${isFullView ? 'kilang-glass-panel-immersive' : 'kilang-glass-panel rounded-3xl border border-white/10 shadow-2xl'}`}>
           {showPerfMonitor && !exporting && <PerformanceMonitor />}
 
           {moveGrowthToCanvas && !exporting && selectedRoot && (
@@ -309,16 +324,20 @@ export const KilangCanvas = ({
             </div>
           )}
 
-          {/* Top Right: Full View (Stub) */}
+          {/* Top Right: Full View Toggle */}
           {selectedRoot && !exporting && (
-            <div className="absolute top-6 right-6 z-[100] animate-in slide-in-from-top-2 duration-300">
-              <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
+            <div className={`absolute z-[100] animate-in slide-in-from-top-2 duration-300 ${isFullView ? 'top-8 right-8' : 'top-6 right-6'}`}>
+              <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit flex items-center gap-1">
                 <button
-                  className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all"
-                  title="Full View"
+                  onClick={() => dispatch({ type: 'SET_UI', isFullView: !isFullView })}
+                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFullView ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                  title={isFullView ? "Exit Full View (Esc)" : "Full View"}
                 >
-                  <Maximize className="w-3.5 h-3.5" />
+                  {isFullView ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize className="w-3.5 h-3.5" />}
                 </button>
+                {isFullView && (
+                   <span className="text-[7px] font-black uppercase text-red-500/60 pr-2 tracking-widest animate-pulse">Live Full View</span>
+                )}
               </div>
             </div>
           )}
@@ -458,6 +477,7 @@ export const KilangCanvas = ({
                         config={layoutConfig}
                         isHighlighted={activeHighlightChain.has(normalizeWord(selectedRoot || '') || '')}
                         isHovered={value.state.canvasHoverNode === normalizeWord(selectedRoot || '')}
+                        showTooltip={showTreeTooltips}
                         onInteraction={(type: 'hover' | 'select', word: string | null) => {
                           if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
                           else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
@@ -498,6 +518,7 @@ export const KilangCanvas = ({
                               config={layoutConfig}
                               isHighlighted={activeHighlightChain.has(d.word_ab)}
                               isHovered={value.state.canvasHoverNode === d.word_ab}
+                              showTooltip={showTreeTooltips}
                               onInteraction={(type: 'hover' | 'select', word: string | null) => {
                                 if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
                                 else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });

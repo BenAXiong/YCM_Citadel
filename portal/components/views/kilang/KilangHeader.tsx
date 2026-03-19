@@ -80,6 +80,8 @@ interface KilangHeaderProps {
   moveGrowthToCanvas: boolean;
   moveCaptureToCanvas: boolean;
   exportSettings: KilangState['exportSettings'];
+  showSidebarTooltips: boolean;
+  showTreeTooltips: boolean;
   dispatch: any;
   uiLang: UILang;
   toggleUiLang: () => void;
@@ -137,6 +139,8 @@ export const KilangHeader = ({
   rootData,
   canvasHoverNode,
   canvasSelectedNode,
+  showSidebarTooltips,
+  showTreeTooltips,
   s
 }: KilangHeaderProps) => {
   const [showSettings, setShowSettings] = React.useState(false);
@@ -721,6 +725,22 @@ export const KilangHeader = ({
                           <div className={`w-2 h-2 rounded-full border transition-all ${showStats ? 'bg-indigo-500 border-indigo-400 shadow-[0_0_8px_rgba(99,102,241,0.5)]' : 'border-white/20'}`} />
                         </button>
 
+
+                        <button
+                          onClick={() => dispatch({ type: 'SET_UI', showSidebarTooltips: !showSidebarTooltips })}
+                          className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
+                        >
+                          <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Sidebar Tooltips</span>
+                          <div className={`w-2 h-2 rounded-full border transition-all ${showSidebarTooltips ? 'bg-blue-500 border-blue-400 shadow-[0_0_8px_rgba(59,130,246,0.5)]' : 'border-white/20'}`} />
+                        </button>
+
+                        <button
+                          onClick={() => dispatch({ type: 'SET_UI', showTreeTooltips: !showTreeTooltips })}
+                          className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-white/5 transition-all group"
+                        >
+                          <span className="text-[10px] font-black uppercase text-kilang-text-muted group-hover:text-white">Tree Tooltips</span>
+                          <div className={`w-2 h-2 rounded-full border transition-all ${showTreeTooltips ? 'bg-blue-500 border-blue-400 shadow-[0_0_8px_rgba(59,130,246,0.5)]' : 'border-white/20'}`} />
+                        </button>
 
                         <button
                           onClick={() => dispatch({ type: 'SET_UI', moveZoomToCanvas: !moveZoomToCanvas })}

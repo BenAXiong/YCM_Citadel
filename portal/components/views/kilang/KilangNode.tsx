@@ -13,6 +13,7 @@ interface WordTooltipProps {
   fetchSummary: (word: string) => Promise<void>;
   className?: string;
   side?: 'top' | 'right';
+  showTooltip?: boolean;
 }
 
 export const WordTooltip = ({
@@ -23,7 +24,8 @@ export const WordTooltip = ({
   summaryCache,
   fetchSummary,
   className = "relative inline-block",
-  side = 'top'
+  side = 'top',
+  showTooltip = true
 }: WordTooltipProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const [coords, setCoords] = useState({ top: 0, left: 0 });
@@ -99,9 +101,9 @@ export const WordTooltip = ({
   );
 
   return (
-    <div ref={triggerRef} id={id} className={className} onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+    <div ref={triggerRef} id={id} className={className} onMouseEnter={showTooltip ? handleEnter : undefined} onMouseLeave={showTooltip ? handleLeave : undefined}>
       {children}
-      {tooltipContent}
+      {showTooltip && tooltipContent}
     </div>
   );
 };
@@ -134,6 +136,7 @@ interface KilangNodeProps {
     nodeWidth: number;
     nodePaddingY: number;
   };
+  showTooltip?: boolean;
 }
 
 export const KilangNode = React.memo(({ 
@@ -146,7 +149,8 @@ export const KilangNode = React.memo(({
   isHighlighted = false,
   isHovered = false,
   onInteraction,
-  config 
+  config,
+  showTooltip = true
 }: KilangNodeProps) => {
   const cleanId = `v3-node-${word.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
 
@@ -170,7 +174,7 @@ export const KilangNode = React.memo(({
   };
 
   return (
-    <WordTooltip word={word} dictCode={dictCode} id={cleanId} summaryCache={summaryCache} fetchSummary={fetchSummary}>
+    <WordTooltip word={word} dictCode={dictCode} id={cleanId} summaryCache={summaryCache} fetchSummary={fetchSummary} showTooltip={showTooltip}>
       <div
         className={`relative cursor-pointer transition-[opacity,transform] duration-300 ${isHighlighted ? 'z-30' : isHovered ? 'z-20' : 'z-10'}`}
         style={{

@@ -75,6 +75,10 @@
   border: 1px solid var(--kilang-border);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
+.kilang-glass-panel-immersive {
+  background: var(--kilang-glass);
+  backdrop-filter: blur(12px);
+}
 
 .kilang-stat-card {
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);

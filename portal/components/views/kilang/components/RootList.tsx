@@ -31,6 +31,7 @@ export const RootList = React.memo(({ bookmarks, saveBookmark }: RootListProps) 
           fetchSummary={fetchSummary}
           className="w-full block relative"
           side="right"
+          showTooltip={state.showSidebarTooltips}
         >
           <div
             onClick={() => fetchRootDetails(r.root)}
