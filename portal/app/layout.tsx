@@ -17,9 +17,14 @@ export const metadata: Metadata = {
   description: "Sentence Fortress",
   icons: {
     icon: "/kilang/Kilang_5_nobg_noring2.png",
+    shortcut: "/kilang/Kilang_5_nobg_noring2.png",
     apple: "/kilang/Kilang_5_nobg_noring2.png",
   },
   manifest: "/manifest.json",
+};
+
+export const viewport = {
+  themeColor: "#020617",
 };
 
 export default function RootLayout({
