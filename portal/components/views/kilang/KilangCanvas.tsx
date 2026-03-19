@@ -130,6 +130,8 @@ export const KilangCanvas = ({
     };
 
     const onWheel = (e: WheelEvent) => {
+      const fineTuningFactor = e.altKey ? 0.1 : 1.0;
+
       if (e.ctrlKey) {
         e.preventDefault();
         const container = treeRef.current;
@@ -145,9 +147,9 @@ export const KilangCanvas = ({
         const worldX = (mouseX + container.scrollLeft) / currentScale;
         const worldY = (mouseY + container.scrollTop) / currentScale;
 
-        // Calculate next scale
+        // Calculate next scale with fine-tuning factor
         const zoomSpeed = 0.0012;
-        const delta = -e.deltaY * zoomSpeed;
+        const delta = -e.deltaY * zoomSpeed * fineTuningFactor;
         const nextScale = Math.min(Math.max(currentScale + delta, 0.1), 3);
 
         if (nextScale === currentScale) return;
@@ -164,6 +166,19 @@ export const KilangCanvas = ({
           top: nextScrollTop,
           behavior: 'auto'
         });
+      } else if (e.altKey) {
+        // Fine-tuned Panning
+        e.preventDefault();
+        const container = treeRef.current;
+        if (container) {
+          if (e.shiftKey) {
+            // Fine Horizontal
+            container.scrollLeft += e.deltaY * fineTuningFactor;
+          } else {
+            // Fine Vertical
+            container.scrollTop += e.deltaY * fineTuningFactor;
+          }
+        }
       }
     };
 

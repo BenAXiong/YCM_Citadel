@@ -632,6 +632,24 @@ export const KilangHeader = ({
                                 <span className="text-white/40 font-bold uppercase tracking-tight">Right Click</span>
                                 <span className="text-white font-mono bg-white/5 px-1 rounded">Pan</span>
                               </div>
+
+                              <div className="pt-2 mt-2 border-t border-white/5 space-y-2">
+                                <div className="flex justify-between items-center text-[9px]">
+                                  <span className="text-[#3b82f6] font-black uppercase tracking-widest text-[7px]">Precision (Alt)</span>
+                                </div>
+                                <div className="flex justify-between items-center text-[9px]">
+                                  <span className="text-white/40 font-bold uppercase tracking-tight">Alt + Scroll</span>
+                                  <span className="text-white font-mono bg-white/5 px-1 rounded">Fine V</span>
+                                </div>
+                                <div className="flex justify-between items-center text-[9px]">
+                                  <span className="text-white/40 font-bold uppercase tracking-tight">Alt+Shift+Sch</span>
+                                  <span className="text-white font-mono bg-white/5 px-1 rounded">Fine H</span>
+                                </div>
+                                <div className="flex justify-between items-center text-[9px]">
+                                  <span className="text-white/40 font-bold uppercase tracking-tight">Alt+Ctrl+Sch</span>
+                                  <span className="text-white font-mono bg-white/5 px-1 rounded">Fine Zoom</span>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
