@@ -39,7 +39,7 @@ export const KilangDimensionsOverlay = ({
     const update = () => {
       setHRect(document.querySelector('header')?.getBoundingClientRect() || null);
       setSRect(document.querySelector('aside')?.getBoundingClientRect() || null);
-      
+
       // Main row represents the workspace container
       const workspace = treeRef.current?.closest('main');
       setMRect(workspace?.getBoundingClientRect() || null);
@@ -47,7 +47,7 @@ export const KilangDimensionsOverlay = ({
       // Window row represents the view portal (the glass panel frame)
       const portal = treeRef.current?.closest('.kilang-glass-panel');
       setCRect(portal?.getBoundingClientRect() || null);
-      
+
       setWin({ w: window.innerWidth, h: window.innerHeight });
     };
     update();

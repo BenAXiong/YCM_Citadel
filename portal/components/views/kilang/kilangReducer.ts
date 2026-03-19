@@ -51,9 +51,17 @@ export interface KilangState {
   showFilterPanel: boolean;
   sidebarCollapsed: boolean;
   sidebarTab: 'forest' | 'styling' | 'custom';
+  rightSidebarTab: 'txt' | 'sent' | 'met';
   themeBarTab: 'themes' | 'landing' | 'fonts';
+  rightSidebarWidth: number;
+  showRightSidebar: boolean;
+  rightSidebarCollapsed: boolean;
   exportSettings: {
+    mode: 'image' | 'text';
     format: 'png' | 'svg';
+    textFormat: 'txt' | 'json';
+    textContent: 'kilang' | 'chain';
+    includeDefinitions: boolean;
     background: 'origin' | 'white' | 'black' | 'transparent';
     area: 'window' | 'all';
     margin: 0 | 5 | 10;
@@ -117,7 +125,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI'; searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; showThemeBar?: boolean; showZoomIndicator?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; themeBarTab?: 'themes' | 'landing' | 'fonts'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom' }
+  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showZoomIndicator?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; themeBarTab?: 'themes' | 'landing' | 'fonts'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom'; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number }
   | { type: 'RESET_LOGO_SETTINGS'; version: number }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
@@ -161,9 +169,17 @@ export const initialState: KilangState = {
   showFilterPanel: true,
   sidebarCollapsed: false,
   sidebarTab: 'forest',
+  rightSidebarTab: 'txt',
   themeBarTab: 'landing',
+  rightSidebarWidth: 328,
+  showRightSidebar: true,
+  rightSidebarCollapsed: false,
   exportSettings: {
+    mode: 'image',
     format: 'png',
+    textFormat: 'txt',
+    textContent: 'kilang',
+    includeDefinitions: true,
     background: 'origin',
     area: 'window',
     margin: 5,

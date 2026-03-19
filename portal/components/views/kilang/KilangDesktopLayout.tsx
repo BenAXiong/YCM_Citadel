@@ -4,6 +4,7 @@ import React from 'react';
 import { KilangHeader } from './KilangHeader';
 import { KilangSidebar } from './KilangSidebar';
 import { KilangCanvas } from './KilangCanvas';
+import { KilangRightSidebar } from './KilangRightSidebar';
 import { ThemeBar } from './components/ThemeBar';
 import { StatsOverlay } from './StatsOverlay';
 import { AffixesOverlay } from './AffixesOverlay';
@@ -71,7 +72,7 @@ export const KilangDesktopLayout = ({
   return (
     <div 
       className="kilang-container flex flex-col h-screen overflow-hidden"
-      style={{ '--sidebar-width': `${state.sidebarWidth}px` } as React.CSSProperties}
+      style={{ '--sidebar-width': `${state.sidebarCollapsed ? 0 : state.sidebarWidth}px` } as React.CSSProperties}
     >
       <KilangHeader
         stats={stats}
@@ -101,6 +102,7 @@ export const KilangDesktopLayout = ({
         showDimensions={state.showDimensions}
         showDevTools={state.showDevTools}
         showFilterPanel={state.showFilterPanel}
+        showRightSidebar={state.showRightSidebar}
         showPerfMonitor={state.showPerfMonitor}
         showThemeBar={state.showThemeBar}
         showZoomIndicator={state.showZoomIndicator}
@@ -163,6 +165,16 @@ export const KilangDesktopLayout = ({
           exporting={state.exporting}
           dispatch={dispatch}
         />
+
+        {state.showRightSidebar && (
+          <KilangRightSidebar
+            state={state}
+            dispatch={dispatch}
+            nodeMap={nodeMap}
+            isCollapsed={state.rightSidebarCollapsed}
+            onToggle={() => dispatch({ type: 'SET_UI', rightSidebarCollapsed: !state.rightSidebarCollapsed })}
+          />
+        )}
       </div>
 
       <StatsOverlay

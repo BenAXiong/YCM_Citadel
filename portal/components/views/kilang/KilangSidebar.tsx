@@ -111,7 +111,7 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
 
   if (isCollapsed) {
     return (
-      <aside className="w-16 border-r border-white/5 flex flex-col items-center py-6 kilang-glass-panel relative z-50 overflow-visible transition-all duration-300">
+      <aside className="w-0 border-r-0 flex flex-col items-center py-6 kilang-glass-panel relative z-50 overflow-visible transition-all duration-300">
         {/* Sidebar Expansion Tab (Collapsed State) */}
         <button
           onClick={onToggle}
@@ -121,7 +121,7 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
           <ChevronRight className="w-4 h-4 group-hover:scale-125 transition-transform" />
         </button>
 
-        <div className="mt-8 flex flex-col items-center gap-6">
+        <div className="hidden">
           <button onClick={() => { onToggle(); setSidebarTab('forest'); }} className={`p-2 rounded-lg transition-all ${sidebarTab === 'forest' ? 'text-blue-400 bg-blue-500/10' : 'text-kilang-text-muted/40 hover:text-white'}`}>
             <Search className="w-5 h-5" />
           </button>
