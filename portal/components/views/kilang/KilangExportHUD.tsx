@@ -54,7 +54,7 @@ export const KilangExportHUD = ({
 
   const containerClasses = variant === 'header'
     ? 'kilang-ctrl-container !gap-0'
-    : 'kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-2xl w-fit !gap-0';
+    : 'kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-2xl w-fit !gap-0';
 
   const mainBtnClasses = variant === 'header'
     ? 'w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive'
@@ -65,7 +65,13 @@ export const KilangExportHUD = ({
     : `w-5 h-8 rounded-lg flex items-center justify-center transition-all ${showExportDropdown ? 'text-[var(--kilang-text)] bg-[var(--kilang-text)]/10' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`;
 
   return (
-    <div className={`group ${className || 'relative'}`} ref={exportRef}>
+    <div 
+      className={`group ${className || 'relative'}`} 
+      ref={exportRef}
+      onMouseEnter={(e) => variant === 'canvas' && e.stopPropagation()}
+      onMouseMove={(e) => variant === 'canvas' && e.stopPropagation()}
+      onMouseOver={(e) => variant === 'canvas' && e.stopPropagation()}
+    >
       <div className={containerClasses}>
         <button
           onClick={handleExport}

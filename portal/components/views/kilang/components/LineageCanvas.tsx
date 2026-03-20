@@ -76,11 +76,11 @@ export const LineageCanvas = React.memo(({
         let pathData = '';
         const tension = layoutConfig.lineTension ?? 1;
         if (direction === 'vertical') {
-          const midY = sourceY + (targetY - sourceY) * 0.5 * tension;
-          pathData = `M ${sourceX} ${sourceY} C ${sourceX} ${midY} ${targetX} ${midY} ${targetX} ${targetY}`;
+          const midY = (sourceY + (targetY - sourceY) * 0.5 * tension).toFixed(1);
+          pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${sourceX.toFixed(1)} ${midY} ${targetX.toFixed(1)} ${midY} ${targetX.toFixed(1)} ${targetY.toFixed(1)}`;
         } else {
-          const midX = sourceX + (targetX - sourceX) * 0.5 * tension;
-          pathData = `M ${sourceX} ${sourceY} C ${midX} ${sourceY} ${midX} ${targetY} ${targetX} ${targetY}`;
+          const midX = (sourceX + (targetX - sourceX) * 0.5 * tension).toFixed(1);
+          pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${midX} ${sourceY.toFixed(1)} ${midX} ${targetY.toFixed(1)} ${targetX.toFixed(1)} ${targetY.toFixed(1)}`;
         }
 
         return (

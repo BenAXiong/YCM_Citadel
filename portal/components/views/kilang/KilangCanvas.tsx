@@ -20,6 +20,12 @@ import { LineageCanvas } from './components/LineageCanvas';
 import { KilangLanding } from './components/KilangLanding';
 import { KilangExportHUD } from './KilangExportHUD';
 
+// New Canvas Components
+import { ForestView } from './components/canvas/ForestView';
+import { CanvasControls } from './components/canvas/CanvasControls';
+import { CanvasOverlays } from './components/canvas/CanvasOverlays';
+import { ChainInscription } from './components/canvas/ChainInscription';
+
 interface KilangCanvasProps {}
 
 export const KilangCanvas = () => {
@@ -97,6 +103,11 @@ export const KilangCanvas = () => {
   const value = useSidebar();
   const [viewPos, setViewPos] = React.useState({ x: 0, y: 0, w: 0, h: 0 });
 
+  const latestStateRef = React.useRef({ scale, isFit, fitTransform });
+  React.useEffect(() => {
+    latestStateRef.current = { scale, isFit, fitTransform };
+  }, [scale, isFit, fitTransform]);
+
   React.useEffect(() => {
     const el = treeRef.current;
     if (!el) return;
@@ -108,7 +119,8 @@ export const KilangCanvas = () => {
 
       const cRect = container.getBoundingClientRect();
       const sRect = canvas.getBoundingClientRect();
-      const currentScale = isFit ? fitTransform.scale : scale;
+      const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestStateRef.current;
+      const currentScale = curFit ? curFitTrans.scale : curScale;
 
       const vp = {
         x: Math.round((cRect.left - sRect.left) / currentScale),
@@ -137,7 +149,8 @@ export const KilangCanvas = () => {
         const mouseY = e.clientY - rect.top;
 
         // Mouse position in world coordinates (at current scale)
-        const currentScale = isFit ? fitTransform.scale : scale;
+        const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestStateRef.current;
+        const currentScale = curFit ? curFitTrans.scale : curScale;
         const worldX = (mouseX + container.scrollLeft) / currentScale;
         const worldY = (mouseY + container.scrollTop) / currentScale;
 
@@ -189,7 +202,7 @@ export const KilangCanvas = () => {
       window.removeEventListener('resize', updatePos);
       clearInterval(timer);
     };
-  }, [selectedRoot, treeRef, isFit, scale, fitTransform, dispatch]);
+  }, [treeRef, dispatch]);
 
   const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
 
@@ -260,145 +273,53 @@ export const KilangCanvas = () => {
     <main className="flex-1 overflow-hidden relative">
       <div className={`h-full flex flex-col overflow-hidden transition-all duration-500 ${isFullView ? 'p-0 bg-[var(--kilang-bg-base)]' : 'p-8'}`}>
         <div className={`flex-1 overflow-hidden relative flex flex-col transition-all duration-500 ${isFullView ? 'kilang-glass-panel-immersive' : 'kilang-glass-panel rounded-3xl border border-[var(--kilang-border-std)] shadow-[var(--kilang-shadow-primary)]'}`}>
-          {showPerfMonitor && !exporting && <PerformanceMonitor />}
+          {/* Overlays Layer */}
+          <CanvasOverlays
+            showPerfMonitor={showPerfMonitor}
+            exporting={exporting}
+            selectedRoot={selectedRoot || ''}
+            layoutConfig={layoutConfig}
+            dispatch={dispatch}
+            viewPos={viewPos}
+            treeRef={treeRef as React.RefObject<HTMLDivElement>}
+            showDimensions={showDimensions}
+            rootPos={rootPos || null}
+            scale={scale}
+            isFit={isFit}
+            fitTransform={fitTransform}
+            forestBounds={forestBounds}
+          />
 
-          {moveGrowthToCanvas && !exporting && selectedRoot && (
-            <div className="absolute top-6 left-6 z-[100] flex flex-col gap-3 animate-in slide-in-from-top-2 duration-300">
-              {moveGrowthToCanvas && (
-                <div className="flex flex-col gap-2">
-                  <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
-                    <button
-                      onClick={() => setDirection('horizontal')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'horizontal' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
-                      title="Horizontal Growth"
-                    >
-                      <ArrowRight className="w-3.5 h-3.5" />
-                    </button>
-                    <button
-                      onClick={() => setDirection('vertical')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'vertical' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
-                      title="Vertical Growth"
-                    >
-                      <ArrowUp className="w-3.5 h-3.5" />
-                    </button>
-                    <div className="w-[1px] h-4 border-l border-[var(--kilang-border-std)] mx-1 self-center" />
-                    <button
-                      onClick={() => setArrangement('flow')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'flow' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
-                      title="Flow Arrangement"
-                    >
-                      <LayoutGrid className="w-3.5 h-3.5" />
-                    </button>
-                    <button
-                      onClick={() => setArrangement('aligned')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'aligned' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
-                      title="Aligned Arrangement"
-                    >
-                      <Rows className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
-                </div>
-              )}
+          {/* Controls Layer */}
+          <CanvasControls
+            selectedRoot={selectedRoot || ''}
+            exporting={exporting}
+            isFullView={isFullView}
+            isFit={isFit}
+            setIsFit={setIsFit}
+            direction={direction}
+            setDirection={setDirection}
+            arrangement={arrangement}
+            setArrangement={setArrangement}
+            scale={scale}
+            setScale={setScale}
+            moveZoomToCanvas={moveZoomToCanvas}
+            moveGrowthToCanvas={moveGrowthToCanvas}
+            moveCaptureToCanvas={moveCaptureToCanvas}
+            exportSettings={exportSettings}
+            showExportDropdown={showExportDropdown}
+            handleExport={handleExport}
+            dispatch={dispatch}
+          />
 
-            </div>
-          )}
-
-          {/* Top Right: Full View Toggle (Exit only when immersive) */}
-          {selectedRoot && !exporting && isFullView && (
-            <div className="absolute top-8 right-8 z-[100] animate-in fade-in slide-in-from-top-2 duration-500">
-              <button
-                onClick={() => dispatch({ type: 'SET_UI', isFullView: false })}
-                className="kilang-ctrl-container !p-1 shadow-2xl hover:scale-105 active:scale-95 transition-all text-[var(--kilang-primary)] bg-[var(--kilang-bg-base)]/80 backdrop-blur-xl border border-[var(--kilang-primary)]/30"
-                title="Exit Full View (Esc)"
-              >
-                <div className="flex items-center gap-2 px-2 py-1">
-                  <Minimize className="w-4 h-4" />
-                  <span className="text-[9px] font-black uppercase tracking-widest">Exit Full View</span>
-                </div>
-              </button>
-            </div>
-          )}
-
-          {/* Top Right: Fit Toggle */}
-          {selectedRoot && !exporting && !isFullView && (
-            <div className={`absolute z-[100] animate-in slide-in-from-top-2 duration-300 top-6 right-6`}>
-              <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
-                <button
-                  onClick={() => setIsFit(!isFit)}
-                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
-                  title={isFit ? "Expand to Actual Size" : "Fit Tree"}
-                >
-                  {isFit ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
-                </button>
-              </div>
-            </div>
-          )}
-
-          {/* Bottom Left: Zoom Controls */}
-          {moveZoomToCanvas && selectedRoot && !exporting && (
-            <div className="absolute bottom-6 left-6 z-[110] animate-in slide-in-from-bottom-2 duration-300">
-              <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
-                <button
-                  onClick={() => setIsFit(!isFit)}
-                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
-                  title={isFit ? "Expand to Actual Size" : "Fit Tree"}
-                >
-                  {isFit ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
-                </button>
-                <button onClick={() => { setScale((prev: number) => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-8 rounded-lg flex items-center justify-center text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] transition-all" title="Out">
-                  <Minus className="w-3.5 h-3.5" />
-                </button>
-                <button onClick={() => { setScale((prev: number) => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-8 rounded-lg flex items-center justify-center text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] transition-all" title="In">
-                  <Plus className="w-3.5 h-3.5" />
-                </button>
-                <button onClick={() => dispatch({ type: 'RESET_TRANSFORM' })} className="w-8 h-8 rounded-lg flex items-center justify-center text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] transition-all" title="Reset Zoom">
-                  <RotateCcw className="w-3.5 h-3.5" />
-                </button>
-              </div>
-            </div>
-          )}
-
-          {/* Bottom Right: Export Controls */}
-          {moveCaptureToCanvas && selectedRoot && !exporting && (
-            <KilangExportHUD
-              exportSettings={exportSettings}
-              showExportDropdown={showExportDropdown}
-              exporting={exporting}
-              dispatch={dispatch}
-              handleExport={handleExport}
-              dropdownPosition="bottom"
-              align="right"
-              variant="canvas"
-              className="absolute bottom-6 right-6 z-[110]"
-            />
-          )}
-
-          {selectedRoot && !exporting && (
-            <>
-              <KilangToolbox
-                layoutConfig={layoutConfig}
-                dispatch={dispatch}
-              />
-
-              <KilangDimensionsOverlay
-                viewPos={viewPos}
-                treeRef={treeRef}
-                showDimensions={showDimensions}
-                rootPos={rootPos || null}
-                scale={scale}
-                isFit={isFit}
-                fitTransform={fitTransform}
-                forestBounds={forestBounds}
-              />
-            </>
-          )}
-
+          {/* Core Content Layer */}
           {selectedRoot ? (
             <div
               ref={treeRef}
               className="flex-1 overflow-auto no-scrollbar bg-[var(--kilang-bg-base)]/40 relative p-32 scroll-smooth"
               onClick={() => dispatch({ type: 'SET_CANVAS_SELECT', node: null })}
             >
+              {/* Status Indicators */}
               {rootData?.error && (
                 <div className="absolute inset-0 z-50 flex flex-col items-center justify-center space-y-4 bg-[var(--kilang-bg-base)]/80 backdrop-blur-sm">
                   <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
@@ -416,113 +337,23 @@ export const KilangCanvas = () => {
                 </div>
               )}
 
-              <div
-                id="kilang-forest-inner"
-                key={selectedRoot}
-                className="relative"
-                style={{
-                  width: '4000px',
-                  height: '4000px',
-                  transform: isFit
-                    ? `translate(${fitTransform.x}px, ${fitTransform.y}px) scale(${fitTransform.scale})`
-                    : `scale(${scale})`,
-                  transformOrigin: '0 0'
-                }}
-              >
-                {/* 1. SVG Layer (Background) */}
-                {rootPos && (
-                  <div className="absolute inset-0 pointer-events-none" style={{ zIndex: 0 }}>
-                    <LineageCanvas
-                      root={selectedRoot || ''}
-                      derivatives={(rootData?.derivatives || []) as Derivation[]}
-                      nodeMap={nodeMap}
-                      direction={direction}
-                      isFit={isFit}
-                      scale={scale}
-                      layoutConfig={layoutConfig}
-                      rootPos={rootPos}
-                      activeHighlightChain={activeHighlightChain}
-                      dispatch={dispatch}
-                    />
-                  </div>
-                )}
-
-                {/* 2. Nodes Layer (Foreground) */}
-                <div className="absolute inset-0" style={{ zIndex: 10 }}>
-                  {/* Root Node */}
-                  {rootPos && (
-                    <div
-                      key={`root-${selectedRoot}`}
-                      className="absolute transition-all duration-500 animate-in fade-in duration-1000"
-                      style={{
-                        left: 0,
-                        top: 0,
-                        transform: `translate(-50%, -50%) translate(${rootPos.x}px, ${rootPos.y}px)`,
-                        zIndex: 20
-                      }}
-                    >
-                      <KilangNode
-                        word={selectedRoot || ''}
-                        isRoot={true}
-                        summaryCache={summaryCache}
-                        fetchSummary={fetchSummary}
-                        config={layoutConfig}
-                        isHighlighted={activeHighlightChain.has(normalizeWord(selectedRoot || '') || '')}
-                        isHovered={value.state.canvasHoverNode === normalizeWord(selectedRoot || '')}
-                        showTooltip={showTreeTooltips}
-                        onInteraction={(type: 'hover' | 'select', word: string | null) => {
-                          if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
-                          else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
-                        }}
-                      />
-                    </div>
-                  )}
-
-                  {/* Branches Forest */}
-                  {(rootData?.derivatives as Derivation[])?.map((d: Derivation) => {
-                    const pos = nodeMap[d.word_ab];
-                    if (!pos || !rootPos) return null;
-                    return (
-                      <div
-                        key={d.word_ab}
-                        className="absolute transition-all duration-500"
-                        style={{
-                          left: 0,
-                          top: 0,
-                          transform: `translate(-50%, -50%) translate(${pos.x}px, ${pos.y}px)`,
-                          zIndex: 10
-                        }}
-                      >
-                        <div
-                          className="animate-forest-bloom"
-                          style={{
-                            animationDelay: `${(d.tier - 2) * 120}ms`,
-                            transformOrigin: `${rootPos.x - pos.x}px ${rootPos.y - pos.y}px`
-                          }}
-                        >
-                          <div className="tree-node">
-                            <KilangNode
-                              word={d.raw_word || d.word_ab}
-                              dictCode={d.dict_code?.toUpperCase()}
-                              tier={d.tier}
-                              summaryCache={summaryCache}
-                              fetchSummary={fetchSummary}
-                              config={layoutConfig}
-                              isHighlighted={activeHighlightChain.has(d.word_ab)}
-                              isHovered={value.state.canvasHoverNode === d.word_ab}
-                              showTooltip={showTreeTooltips}
-                              onInteraction={(type: 'hover' | 'select', word: string | null) => {
-                                if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
-                                else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
-                              }}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
+              {/* The Tree */}
+              <ForestView
+                selectedRoot={selectedRoot || ''}
+                rootData={rootData}
+                nodeMap={nodeMap}
+                direction={direction}
+                arrangement={arrangement}
+                isFit={isFit}
+                scale={scale}
+                fitTransform={fitTransform}
+                layoutConfig={layoutConfig}
+                activeHighlightChain={activeHighlightChain}
+                summaryCache={summaryCache}
+                fetchSummary={fetchSummary}
+                showTreeTooltips={showTreeTooltips}
+                dispatch={dispatch}
+              />
             </div>
           ) : (
             <KilangLanding
@@ -535,34 +366,14 @@ export const KilangCanvas = () => {
             />
           )}
 
-          {/* Chain Inscription Overlay */}
-          {linearPath.length > 0 && !exporting && moveChainToCanvas && (
-            <div 
-              className="absolute bottom-10 left-1/2 -translate-x-1/2 z-[60] animate-in fade-in slide-in-from-bottom-4 duration-500 pointer-events-auto group"
-              onMouseEnter={(e) => e.stopPropagation()}
-            >
-              <div className="bg-[var(--kilang-bg)]/90 backdrop-blur-2xl border border-[var(--kilang-primary)]/30 px-8 py-4 rounded-[20px] shadow-[var(--kilang-shadow-primary)] flex items-center gap-3 relative">
-                {linearPath.map((word: string, idx: number) => (
-                  <React.Fragment key={word}>
-                    <span className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all duration-300 ${idx === linearPath.length - 1 ? 'text-[var(--kilang-primary)]' : 'text-[var(--kilang-text-muted)]'}`}>
-                      {word}
-                    </span>
-                    {idx < linearPath.length - 1 && (
-                      <ChevronRight className="w-3 h-3 text-[var(--kilang-border-std)]" />
-                    )}
-                  </React.Fragment>
-                ))}
-              </div>
-
-              <button
-                onClick={(e) => { e.stopPropagation(); handleCopyChain(linearPath); }}
-                className="p-2 rounded-xl bg-[var(--kilang-bg)]/80 backdrop-blur-xl border border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all opacity-0 group-hover:opacity-100 shadow-[var(--kilang-shadow-primary)]"
-                title="Copy Path"
-              >
-                {copiedChain ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
-              </button>
-            </div>
-          )}
+          {/* Chain Inscription Layer */}
+          <ChainInscription
+            linearPath={linearPath}
+            exporting={exporting}
+            moveChainToCanvas={moveChainToCanvas}
+            handleCopyChain={handleCopyChain}
+            copiedChain={copiedChain}
+          />
         </div>
       </div>
     </main>

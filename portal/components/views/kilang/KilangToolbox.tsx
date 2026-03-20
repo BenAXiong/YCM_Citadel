@@ -54,8 +54,11 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
   return (
     <div
       id="kilang-toolbox"
-      className="absolute top-6 left-6 w-72 bg-[var(--kilang-bg-base)]/90 backdrop-blur-xl border border-[var(--kilang-border-std)] rounded-2xl shadow-[var(--kilang-shadow-primary)] z-[5001] flex flex-col overflow-hidden animate-in fade-in slide-in-from-left-4 duration-500"
+      className="absolute top-6 left-6 w-72 bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] rounded-2xl shadow-2xl z-[5001] flex flex-col overflow-hidden animate-in fade-in slide-in-from-left-4 duration-500"
       style={!isCollapsed ? { height: `${height}px` } : {}}
+      onMouseEnter={(e) => e.stopPropagation()}
+      onMouseMove={(e) => e.stopPropagation()}
+      onMouseOver={(e) => e.stopPropagation()}
     >
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-3 border-b border-[var(--kilang-border-std)] bg-[var(--kilang-ctrl-bg)]">

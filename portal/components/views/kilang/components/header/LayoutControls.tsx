@@ -73,7 +73,7 @@ export const LayoutControls = () => {
           <button
             onClick={toggleFullView}
             className={`w-8 h-7 kilang-ctrl-btn ${isFullView ? 'kilang-ctrl-btn-active' : 'kilang-ctrl-btn-inactive'}`}
-            title={isFullView ? "Exit Full View" : "Enter Full View"}
+            title={isFullView ? "Exit Immersive Full View" : "Enter Immersive Full View (Hide UI)"}
           >
             {isFullView ? <Minimize className="w-3.5 h-3.5" /> : <Maximize className="w-3.5 h-3.5" />}
           </button>

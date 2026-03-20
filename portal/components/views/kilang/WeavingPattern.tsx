@@ -15,25 +15,30 @@
  * keyTimes: Defines the rhythm. 0-0.6 is the reveal, 0.6-0.9 is the hold, 0.9-1.0 is the fade out.
  */
 
+'use client';
+
+import React, { useMemo } from 'react';
+
 const generateBraidedPath = (yOffset: number, amplitude: number, period: number, wrapAmp: number, wrapFreq: number) => {
-  let path = `M -16 ${yOffset}`;
+  let path = `M -16 ${yOffset.toFixed(2)}`;
   // Higher resolution for smooth high-frequency waves
   for (let x = -16; x <= 272; x += 2) {
     const baseY = yOffset + amplitude * Math.sin(((x + 16) * Math.PI) / period);
     const wrapY = wrapAmp * Math.sin((x * Math.PI) / wrapFreq);
-    path += ` L ${x} ${baseY + wrapY}`;
+    const y = (baseY + wrapY).toFixed(2);
+    path += ` L ${x} ${y}`;
   }
   return path;
 };
 
 export const WeavingPattern = () => {
   // Main Strands (The base loom)
-  const mainPathA = generateBraidedPath(16, 12, 32, 0, 1);
-  const mainPathB = generateBraidedPath(16, -12, 32, 0, 1);
+  const mainPathA = useMemo(() => generateBraidedPath(16, 12, 32, 0, 1), []);
+  const mainPathB = useMemo(() => generateBraidedPath(16, -12, 32, 0, 1), []);
 
   // Wrapping Strands (The orbiting accents)
-  const wrapPathA = generateBraidedPath(16, 12, 32, 3.5, 10);
-  const wrapPathB = generateBraidedPath(16, -12, 32, 3.5, 12);
+  const wrapPathA = useMemo(() => generateBraidedPath(16, 12, 32, 3.5, 10), []);
+  const wrapPathB = useMemo(() => generateBraidedPath(16, -12, 32, 3.5, 12), []);
 
   return (
     <div className="relative w-64 h-8 overflow-hidden rounded-lg flex items-center justify-center">
