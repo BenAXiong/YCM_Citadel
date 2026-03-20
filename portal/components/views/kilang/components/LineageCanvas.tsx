@@ -33,6 +33,58 @@ export const LineageCanvas = React.memo(({
   const BRANCH_W = (layoutConfig.nodeWidth / 2) * nodeScale;
   const BRANCH_H = (layoutConfig.nodePaddingY + 8) * nodeScale;
 
+  const memoizedPaths = React.useMemo(() => {
+    return derivatives.map((d: Derivation) => {
+      const parentKey = d.parentWord || normalizeWord(root) || '';
+      const s = nodeMap[parentKey];
+      const t = nodeMap[d.word_ab];
+      if (!s || !t) return null;
+
+      const isRootSource = parentKey === normalizeWord(root);
+      const isHighlighted = activeHighlightChain.has(d.word_ab) && activeHighlightChain.has(parentKey);
+
+      let sourceX = s.x;
+      let sourceY = s.y;
+      let targetX = t.x;
+      let targetY = t.y;
+
+      if (direction === 'horizontal') {
+        sourceX += (isRootSource ? ROOT_R : BRANCH_W) + layoutConfig.lineGapX;
+        targetX -= (BRANCH_W + layoutConfig.lineGapX);
+      } else {
+        sourceY -= (isRootSource ? ROOT_R : BRANCH_H) + layoutConfig.lineGapY;
+        targetY += (BRANCH_H + layoutConfig.lineGapY);
+      }
+
+      let pathData = '';
+      const tension = layoutConfig.lineTension ?? 1;
+      if (direction === 'vertical') {
+        const midY = (sourceY + (targetY - sourceY) * 0.5 * tension).toFixed(1);
+        pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${sourceX.toFixed(1)} ${midY} ${targetX.toFixed(1)} ${midY} ${targetX.toFixed(1)} ${targetY.toFixed(1)}`;
+      } else {
+        const midX = (sourceX + (targetX - sourceX) * 0.5 * tension).toFixed(1);
+        pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${midX} ${sourceY.toFixed(1)} ${midX} ${targetY.toFixed(1)} ${targetX.toFixed(1)} ${targetY.toFixed(1)}`;
+      }
+
+      return {
+        id: `${parentKey}-${d.word_ab}`,
+        pathData,
+        isHighlighted,
+        isRootSource,
+        targetWord: d.word_ab,
+        tier: d.tier
+      };
+    }).filter(Boolean);
+  }, [derivatives, nodeMap, root, direction, layoutConfig.lineGapX, layoutConfig.lineGapY, layoutConfig.lineTension, activeHighlightChain, ROOT_R, BRANCH_W, BRANCH_H]);
+
+  const onHover = React.useCallback((node: string | null) => {
+    dispatch({ type: 'SET_CANVAS_HOVER', node });
+  }, [dispatch]);
+
+  const onSelect = React.useCallback((node: string) => {
+    dispatch({ type: 'SET_CANVAS_SELECT', node });
+  }, [dispatch]);
+
   return (
     <svg
       width="4000"
@@ -51,79 +103,46 @@ export const LineageCanvas = React.memo(({
           <stop offset="100%" stopColor="var(--kilang-link-end)" stopOpacity="var(--kilang-link-opacity)" />
         </linearGradient>
       </defs>
-      {derivatives.map((d: Derivation, i: number) => {
-        const parentKey = d.parentWord || normalizeWord(root) || '';
-        const s = nodeMap[parentKey];
-        const t = nodeMap[d.word_ab];
-        if (!s || !t) return null;
-
-        const isRootSource = parentKey === normalizeWord(root);
-        const isHighlighted = activeHighlightChain.has(d.word_ab) && activeHighlightChain.has(parentKey);
-
-        let sourceX = s.x;
-        let sourceY = s.y;
-        let targetX = t.x;
-        let targetY = t.y;
-
-        if (direction === 'horizontal') {
-          sourceX += (isRootSource ? ROOT_R : BRANCH_W) + layoutConfig.lineGapX;
-          targetX -= (BRANCH_W + layoutConfig.lineGapX);
-        } else {
-          sourceY -= (isRootSource ? ROOT_R : BRANCH_H) + layoutConfig.lineGapY;
-          targetY += (BRANCH_H + layoutConfig.lineGapY);
-        }
-
-        let pathData = '';
-        const tension = layoutConfig.lineTension ?? 1;
-        if (direction === 'vertical') {
-          const midY = (sourceY + (targetY - sourceY) * 0.5 * tension).toFixed(1);
-          pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${sourceX.toFixed(1)} ${midY} ${targetX.toFixed(1)} ${midY} ${targetX.toFixed(1)} ${targetY.toFixed(1)}`;
-        } else {
-          const midX = (sourceX + (targetX - sourceX) * 0.5 * tension).toFixed(1);
-          pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${midX} ${sourceY.toFixed(1)} ${midX} ${targetY.toFixed(1)} ${targetX.toFixed(1)} ${targetY.toFixed(1)}`;
-        }
-
-        return (
-          <g
-            key={i}
-            className="animate-forest-bloom pointer-events-auto cursor-pointer group"
+      {memoizedPaths.map((p: any) => (
+        <g
+          key={p.id}
+          className="animate-forest-bloom pointer-events-auto cursor-pointer group"
+          style={{
+            animationDelay: `${(p.tier - 2) * 120}ms`,
+            transformOrigin: `${rootPos.x}px ${rootPos.y}px`,
+          }}
+          onMouseEnter={() => onHover(p.targetWord)}
+          onMouseLeave={() => onHover(null)}
+          onClick={(e) => {
+            e.stopPropagation();
+            onSelect(p.targetWord);
+          }}
+        >
+          {/* Outer Fat Path for Hover ease */}
+          <path
+            d={p.pathData}
+            stroke="transparent"
+            strokeWidth={20}
+            fill="none"
+          />
+          <path
+            d={p.pathData}
+            stroke={p.isHighlighted ? layoutConfig.lineColor : "url(#lineageGradient)"}
+            strokeWidth={p.isHighlighted ? (layoutConfig.lineWidth || 1.5) * 2 : layoutConfig.lineWidth || 1.5}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+            strokeDasharray={layoutConfig.lineDashArray > 0 ? `${layoutConfig.lineDashArray} ${layoutConfig.lineDashArray}` : 'none'}
+            className={`transition-[opacity,stroke-width,filter] duration-300 ${p.isHighlighted ? 'opacity-100' : 'group-hover:opacity-60'} ${layoutConfig.lineFlowSpeed > 0 ? 'animate-link-flow' : ''}`}
             style={{
-              animationDelay: `${(d.tier - 2) * 120}ms`,
-              transformOrigin: `${rootPos.x}px ${rootPos.y}px`,
+              filter: p.isHighlighted 
+                ? `drop-shadow(0 0 8px ${layoutConfig.lineColor}80)` 
+                : (layoutConfig.lineBlur > 0 ? `blur(${layoutConfig.lineBlur}px)` : 'none'),
+              opacity: p.isHighlighted ? 1 : 'var(--kilang-link-opacity)'
             }}
-            onMouseEnter={() => dispatch({ type: 'SET_CANVAS_HOVER', node: d.word_ab })}
-            onMouseLeave={() => dispatch({ type: 'SET_CANVAS_HOVER', node: null })}
-            onClick={(e) => {
-              e.stopPropagation();
-              dispatch({ type: 'SET_CANVAS_SELECT', node: d.word_ab });
-            }}
-          >
-            {/* Outer Fat Path for Hover ease */}
-            <path
-              d={pathData}
-              stroke="transparent"
-              strokeWidth={20}
-              fill="none"
-            />
-            <path
-              d={pathData}
-              stroke={isHighlighted ? layoutConfig.lineColor : "url(#lineageGradient)"}
-              strokeWidth={isHighlighted ? (layoutConfig.lineWidth || 1.5) * 2 : layoutConfig.lineWidth || 1.5}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              fill="none"
-              strokeDasharray={layoutConfig.lineDashArray > 0 ? `${layoutConfig.lineDashArray} ${layoutConfig.lineDashArray}` : 'none'}
-              className={`transition-[opacity,stroke-width,filter] duration-300 ${isHighlighted ? 'opacity-100' : 'group-hover:opacity-60'} ${layoutConfig.lineFlowSpeed > 0 ? 'animate-link-flow' : ''}`}
-              style={{
-                filter: isHighlighted 
-                  ? `drop-shadow(0 0 8px ${layoutConfig.lineColor}80)` 
-                  : (layoutConfig.lineBlur > 0 ? `blur(${layoutConfig.lineBlur}px)` : 'none'),
-                opacity: isHighlighted ? 1 : 'var(--kilang-link-opacity)'
-              }}
-            />
-          </g>
-        );
-      })}
+          />
+        </g>
+      ))}
     </svg>
   );
 });

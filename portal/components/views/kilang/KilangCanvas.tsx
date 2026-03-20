@@ -202,7 +202,7 @@ export const KilangCanvas = () => {
       window.removeEventListener('resize', updatePos);
       clearInterval(timer);
     };
-  }, [treeRef, dispatch]);
+  }, [treeRef, dispatch, selectedRoot]);
 
   const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
 

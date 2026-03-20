@@ -42,6 +42,11 @@ export const ForestView: React.FC<ForestViewProps> = ({
   const { state: sidebarState } = useSidebar();
   const rootPos = React.useMemo(() => nodeMap[normalizeWord(selectedRoot || '') || ''], [nodeMap, selectedRoot]);
 
+  const handleInteraction = React.useCallback((type: 'hover' | 'select', word: string | null) => {
+    if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
+    else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
+  }, [dispatch]);
+
   return (
     <div
       id="kilang-forest-inner"
@@ -97,10 +102,7 @@ export const ForestView: React.FC<ForestViewProps> = ({
               isHighlighted={activeHighlightChain.has(normalizeWord(selectedRoot || '') || '')}
               isHovered={sidebarState.canvasHoverNode === normalizeWord(selectedRoot || '')}
               showTooltip={showTreeTooltips}
-              onInteraction={(type: 'hover' | 'select', word: string | null) => {
-                if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
-                else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
-              }}
+              onInteraction={handleInteraction}
             />
           </div>
         )}
@@ -138,10 +140,7 @@ export const ForestView: React.FC<ForestViewProps> = ({
                     isHighlighted={activeHighlightChain.has(d.word_ab)}
                     isHovered={sidebarState.canvasHoverNode === d.word_ab}
                     showTooltip={showTreeTooltips}
-                    onInteraction={(type: 'hover' | 'select', word: string | null) => {
-                      if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
-                      else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
-                    }}
+                    onInteraction={handleInteraction}
                   />
                 </div>
               </div>

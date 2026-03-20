@@ -53,7 +53,6 @@ export const WordTooltip = ({
     timeoutRef.current = setTimeout(() => setIsHovered(false), 200);
   };
 
-  // The tooltip content as a separate component or JSX
   const tooltipContent = isHovered && createPortal(
     <div
       onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
@@ -89,7 +88,6 @@ export const WordTooltip = ({
           ))
         )}
       </div>
-      {/* Arrow */}
       <div
         className={`absolute w-4 h-4 bg-[var(--kilang-bg)] border-[var(--kilang-tooltip-border)] rotate-45 ${side === 'right'
           ? 'right-full top-1/2 -translate-y-1/2 translate-x-1/2 border-l border-b'
@@ -122,7 +120,6 @@ interface KilangNodeProps {
     nodeSize: number;
     nodeOpacity: number;
     nodeRounding: number;
-    // Dynamic Tiers 1-9 Fills & Borders
     tier1Fill: string; tier1Border: string;
     tier2Fill: string; tier2Border: string;
     tier3Fill: string; tier3Border: string;
@@ -156,9 +153,7 @@ export const KilangNode = React.memo(({
 
   const getTierIcon = () => {
     if (isRoot) return <TreePine className="w-5 h-5 text-[var(--kilang-accent-text)] shrink-0" />;
-
     const iconClass = `w-3 h-3 ${tier === 2 ? 'text-[var(--kilang-tier-2-border)]' : tier === 3 ? 'text-[var(--kilang-tier-3-border)]' : 'text-[var(--kilang-tier-4-border)]'} shrink-0`;
-
     switch (tier) {
       case 2: return <GitCommit className={iconClass} />;
       case 3: return <GitBranch className={iconClass} />;
@@ -230,14 +225,25 @@ export const KilangNode = React.memo(({
       </div>
     </WordTooltip>
   );
+}, (prev, next) => {
+  const prevKey = prev.word.toLowerCase();
+  const nextKey = next.word.toLowerCase();
+
+  return (
+    prev.word === next.word &&
+    prev.dictCode === next.dictCode &&
+    prev.tier === next.tier &&
+    prev.isRoot === next.isRoot &&
+    prev.isHighlighted === next.isHighlighted &&
+    prev.isHovered === next.isHovered &&
+    prev.showTooltip === next.showTooltip &&
+    prev.config === next.config &&
+    prev.onInteraction === next.onInteraction &&
+    prev.summaryCache[prevKey] === next.summaryCache[nextKey]
+  );
 });
 
 export const Metric = React.memo(({ label, value, color }: { label: string, value: string | number, color: string }) => {
-  const colorMap: any = { 
-    blue: 'text-[var(--kilang-primary)]', 
-    red: 'text-[var(--kilang-secondary)]',
-    accent: 'text-[var(--kilang-accent)]'
-  };
   return (
     <div className="flex flex-col items-center gap-0.5">
       <span className="text-[9px] font-black text-[var(--kilang-text)]">{value}</span>
