@@ -136,6 +136,22 @@ export const tierVars = [
   { name: '--kilang-tier-9-text', type: 'color' }
 ];
 
+export const THEME_PRESETS = [
+  { id: 'kakarayan', label: 'Kakarayan', color: '#3b82f6' },
+  { id: 'papah', label: 'Papah', color: '#10b981' },
+  { id: 'ngidan', label: 'Ngidan', color: '#6366f1' },
+  { id: 'kakarayan4', label: 'Kakarayan 4', color: '#3b82f6' },
+  { id: 'kakarayan5', label: 'Kakarayan 5', color: '#3b82f6' },
+  { id: 'kakarayan6', label: 'Kakarayan 6', color: '#3b82f6' },
+  { id: 'kakarayan7', label: 'Kakarayan 7', color: '#3b82f6' },
+  { id: 'kakarayan8', label: 'Kakarayan 8', color: '#3b82f6' },
+  { id: 'kakarayan9', label: 'Kakarayan 9', color: '#3b82f6' },
+  { id: 'kakarayan10', label: 'Kakarayan 10', color: '#3b82f6' },
+  { id: 'kakarayan11', label: 'Kakarayan 11', color: '#3b82f6' },
+  { id: 'kakarayan12', label: 'Kakarayan 12', color: '#3b82f6' },
+  { id: 'kakarayan13', label: 'Kakarayan 13', color: '#3b82f6' }
+];
+
 export const THEME_VARS = [
   // --- 14 SURFACES ---
   '--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg',
@@ -183,6 +199,10 @@ export const ThemeBar = ({
   dispatch,
   layoutConfig
 }: ThemeBarProps) => {
+  const [slideIndex, setSlideIndex] = useState(0);
+  const itemsPerSlide = 3;
+  const totalSlides = Math.ceil(THEME_PRESETS.length / itemsPerSlide);
+
   const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['global']));
   const [overrides, setOverrides] = useState<Record<string, string>>({});
   const [collapsedSubsections, setCollapsedSubsections] = useState<Set<string>>(new Set());
@@ -346,30 +366,55 @@ export const ThemeBar = ({
           {activeTab === 'themes' && (
             <div className="animate-in fade-in duration-300">
 
-              <div className="p-6 flex items-center justify-center gap-6 border-b border-white/5">
-                {[
-                  { id: 'kakarayan', label: 'Kakarayan', color: '#3b82f6' },
-                  { id: 'papah', label: 'Papah', color: '#10b981' },
-                  { id: 'ngidan', label: 'Ngidan', color: '#6366f1' }
-                ].map((t) => (
-                  <button
-                    key={t.id}
-                    onClick={() => dispatch({ type: 'SET_UI', theme: t.id })}
-                    className="flex flex-col items-center gap-3 group relative"
-                  >
-                    <div className={`w-14 h-14 rounded-full flex items-center justify-center transition-all ${layoutConfig.theme === t.id ? 'scale-110' : 'opacity-60 grayscale-[0.5] hover:opacity-100 hover:grayscale-0'}`}>
-                      <div className="absolute inset-0 blur-xl opacity-40 rounded-full" style={{ backgroundColor: t.color }} />
-                      <img
-                        src="/kilang/kilang_5_nobg_noring2.png"
-                        className="w-10 h-10 relative z-10 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
-                        alt={t.label}
-                      />
-                    </div>
-                    <span className={`text-[8px] font-black uppercase tracking-widest text-white transition-opacity ${layoutConfig.theme === t.id ? 'opacity-100' : 'opacity-40 group-hover:opacity-100'}`}>
-                      {t.label}
-                    </span>
-                  </button>
-                ))}
+              <div className="relative border-b border-white/5 group/gallery">
+                {/* Pagination Dots (Upper Center) */}
+                <div className="absolute top-3 left-1/2 -translate-x-1/2 flex gap-1.5 transition-opacity duration-300 opacity-30 group-hover/gallery:opacity-100">
+                  {Array.from({ length: totalSlides }).map((_, i) => (
+                    <div
+                      key={i}
+                      className={`w-1 h-1 rounded-full transition-all duration-300 ${slideIndex === i ? 'bg-[var(--kilang-primary)]' : 'bg-white/20'}`}
+                    />
+                  ))}
+                </div>
+
+                {/* Left Arrow (Absolute Side) */}
+                <button
+                  onClick={() => setSlideIndex(prev => (prev > 0 ? prev - 1 : totalSlides - 1))}
+                  className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+
+                {/* Presets List (Faithful to Original) */}
+                <div className="p-6 flex items-center justify-center gap-6 min-h-[110px]">
+                  {THEME_PRESETS.slice(slideIndex * itemsPerSlide, (slideIndex + 1) * itemsPerSlide).map((t) => (
+                    <button
+                      key={t.id}
+                      onClick={() => dispatch({ type: 'SET_UI', theme: t.id })}
+                      className="flex flex-col items-center gap-3 group relative w-[72px]"
+                    >
+                      <div className={`w-14 h-14 rounded-full flex items-center justify-center transition-all ${layoutConfig.theme === t.id ? 'scale-110' : 'opacity-60 grayscale-[0.5] hover:opacity-100 hover:grayscale-0'}`}>
+                        <div className="absolute inset-0 blur-xl opacity-40 rounded-full" style={{ backgroundColor: t.color }} />
+                        <img
+                          src="/kilang/kilang_5_nobg_noring2.png"
+                          className="w-10 h-10 relative z-10 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
+                          alt={t.label}
+                        />
+                      </div>
+                      <span className={`text-[8px] font-black uppercase tracking-widest text-white transition-opacity text-center w-full truncate px-1 ${layoutConfig.theme === t.id ? 'opacity-100' : 'opacity-40 group-hover:opacity-100'}`}>
+                        {t.label}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+
+                {/* Right Arrow (Absolute Side) */}
+                <button
+                  onClick={() => setSlideIndex(prev => (prev < totalSlides - 1 ? prev + 1 : 0))}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
               </div>
 
               <SectionHeader
