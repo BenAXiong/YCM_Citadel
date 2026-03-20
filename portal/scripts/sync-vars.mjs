@@ -12,6 +12,8 @@ const MANIFEST = {};
 // Helper to categorize variables
 const getGroup = (name) => {
   if (name.includes('-tier-')) return 'node';
+  if (name.includes('-link-')) return 'links';
+  if (name.includes('-radius-')) return 'structural';
   if (name.includes('-text') || name.includes('-logo') || name.includes('-metric')) return 'text';
   if (name.includes('-border') || name.includes('-glass') || name.includes('-scrollbar')) return 'border';
   return 'surface';
@@ -51,11 +53,11 @@ const manifestEntries = Object.entries(MANIFEST)
     return `  "${name}": { group: '${data.group === 'node' ? (name.includes('fill') ? 'surface' : name.includes('border') ? 'border' : 'text') : data.group}', count: ${data.count}, files: ${files} }`;
   });
 
-const manifestCode = `const VARIABLE_MANIFEST: Record<string, { count: number, files: string[], group: 'surface' | 'border' | 'text' }> = {\n${manifestEntries.join(',\n')}\n};`;
+const manifestCode = `const VARIABLE_MANIFEST: Record<string, { count: number, files: string[], group: 'surface' | 'border' | 'text' | 'links' | 'structural' }> = {\n${manifestEntries.join(',\n')}\n};`;
 
 console.log(`📝 Updating ${TARGET_FILE}...`);
 let content = fs.readFileSync(TARGET_FILE, 'utf-8');
-content = content.replace(/const VARIABLE_MANIFEST: Record<string, \{ count: number, files: string\[\], group: 'surface' \| 'border' \| 'text' \}> = \{[\s\S]*?\};/, manifestCode);
+content = content.replace(/const VARIABLE_MANIFEST: Record<string, \{ count: number, files: string\[\], group: 'surface' \| 'border' \| 'text'( \| 'links' \| 'structural')? \}> = \{[\s\S]*?\};/, manifestCode);
 
 fs.writeFileSync(TARGET_FILE, content);
 console.log('✅ Update complete! Run "npm run dev" to see changes in the UI.');

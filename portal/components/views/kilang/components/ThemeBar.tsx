@@ -59,7 +59,15 @@ export const groupVars = {
     { name: '--kilang-overlay-bg', label: 'Overlay BG', type: 'color' },
     { name: '--kilang-input-bg', label: 'Input BG', type: 'color' },
     { name: '--kilang-ctrl-bg', label: 'Control Base', type: 'color' },
-    { name: '--kilang-shadow-color', label: 'Shadow Color', type: 'color' }
+    { name: '--kilang-shadow-color', label: 'Shadow Color', type: 'color' },
+    { name: '--kilang-background-secondary', label: 'BG Secondary', type: 'color' },
+    { name: '--kilang-primary', label: 'Primary Base', type: 'color' },
+    { name: '--kilang-secondary', label: 'Secondary Base', type: 'color' },
+    { name: '--kilang-accent', label: 'Accent Base', type: 'color' },
+    { name: '--kilang-primary-active', label: 'Primary Active', type: 'color' },
+    { name: '--kilang-tooltip-accent', label: 'Tooltip Accent', type: 'color' },
+    { name: '--kilang-resizer-hover', label: 'Resizer Hover', type: 'color' },
+    { name: '--kilang-resizer-active', label: 'Resizer Active', type: 'color' }
   ] as const,
   borders: [
     { name: '--kilang-border', label: 'Global Border', type: 'color' },
@@ -86,6 +94,15 @@ export const groupVars = {
     { name: '--kilang-tooltip-text', label: 'Tooltip Text', type: 'color' },
     { name: '--kilang-toast-text', label: 'Toast Text', type: 'color' },
     { name: '--kilang-metric-text', label: 'Metric Text', type: 'color' }
+  ] as const,
+  structural: [
+    { name: '--kilang-radius-lg', label: 'Large Radius', type: 'text' }
+  ] as const,
+  links: [
+    { name: '--kilang-link-start', label: 'Link Start', type: 'color' },
+    { name: '--kilang-link-mid', label: 'Link Mid', type: 'color' },
+    { name: '--kilang-link-end', label: 'Link End', type: 'color' },
+    { name: '--kilang-link-opacity', label: 'Link Opacity', type: 'text' }
   ] as const
 };
 
@@ -125,12 +142,15 @@ export const THEME_VARS = [
   '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow',
   '--kilang-ctrl-active', '--kilang-overlay-bg', '--kilang-input-bg',
   '--kilang-ctrl-bg', '--kilang-shadow-color',
+  '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent',
+  '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active',
+  '--kilang-radius-lg', '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end', '--kilang-link-opacity',
 
   // --- 12 BORDERS ---
   '--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border',
   '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std',
   '--kilang-ctrl-active-border', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border',
-  '--kilang-shadow-primary',
+  '--kilang-shadow-primary', 
 
   // --- 10 TEXT ---
   '--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text',
@@ -414,7 +434,7 @@ export const ThemeBar = ({
                         {
                           label: 'Backgrounds',
                           type: 'color',
-                          targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-tier-1-fill', '--kilang-tier-2-fill', '--kilang-tier-3-fill', '--kilang-tier-4-fill', '--kilang-tier-5-fill', '--kilang-tier-6-fill', '--kilang-tier-7-fill', '--kilang-tier-8-fill', '--kilang-tier-9-fill'],
+                          targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent', '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active', '--kilang-tier-1-fill', '--kilang-tier-2-fill', '--kilang-tier-3-fill', '--kilang-tier-4-fill', '--kilang-tier-5-fill', '--kilang-tier-6-fill', '--kilang-tier-7-fill', '--kilang-tier-8-fill', '--kilang-tier-9-fill'],
                           activeTargets: ['--kilang-ctrl-active']
                         },
                         {
@@ -446,6 +466,14 @@ export const ThemeBar = ({
                     {
                       group: `Nodes (${tierVars.length})`,
                       vars: tierVars
+                    },
+                    {
+                      group: `Structural (${groupVars.structural.length})`,
+                      vars: groupVars.structural
+                    },
+                    {
+                      group: `Tree Links (${groupVars.links.length})`,
+                      vars: groupVars.links
                     }
                   ]
                     .map((group) => (

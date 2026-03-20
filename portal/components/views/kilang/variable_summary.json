@@ -1,275 +1,758 @@
 {
-  "--kilang-secondary": {
-    "count": 26,
-    "files": [
-      "components\\BookmarkLibrary.tsx",
-      "components\\CompactMetric.tsx",
-      "components\\CustomTab.tsx",
-      "components\\ForestControls.tsx",
-      "components\\ThemeBar.tsx",
-      "KilangHeader.tsx",
-      "KilangNode.tsx",
-      "KilangRightSidebar.tsx"
-    ]
-  },
-  "--kilang-primary": {
-    "count": 131,
-    "files": [
-      "components\\BookmarkLibrary.tsx",
-      "components\\CompactMetric.tsx",
-      "components\\CustomTab.tsx",
-      "components\\ForestControls.tsx",
-      "components\\RootList.tsx",
-      "components\\ThemeBar.tsx",
-      "AffixesOverlay.tsx",
-      "KilangCanvas.tsx",
-      "KilangHeader.tsx",
-      "KilangNode.tsx",
-      "KilangRightSidebar.tsx",
-      "KilangSidebar.tsx"
-    ]
-  },
-  "--kilang-accent": {
-    "count": 10,
-    "files": [
-      "components\\CompactMetric.tsx",
-      "components\\ThemeBar.tsx",
-      "KilangHeader.tsx",
-      "KilangNode.tsx",
-      "KilangRightSidebar.tsx"
-    ]
-  },
-  "--kilang-bg-base": {
-    "count": 30,
-    "files": [
-      "components\\CustomTab.tsx",
-      "components\\ThemeBar.tsx",
-      "KilangCanvas.tsx",
-      "KilangExportHUD.tsx",
-      "KilangHeader.tsx",
-      "KilangNode.tsx",
-      "KilangRightSidebar.tsx",
-      "KilangSidebar.tsx"
-    ]
-  },
-  "--kilang-primary-glow": {
-    "count": 3,
-    "files": [
-      "components\\ForestControls.tsx",
-      "KilangHeader.tsx",
-      "KilangRightSidebar.tsx"
-    ]
-  },
-  "--kilang-secondary-glow": {
-    "count": 1,
-    "files": [
-      "components\\ForestControls.tsx"
-    ]
-  },
-  "--kilang-primary-active": {
-    "count": 9,
-    "files": [
-      "components\\ThemeBar.tsx",
-      "KilangCanvas.tsx",
-      "KilangNode.tsx"
-    ]
-  },
-  "--kilang-bg": {
-    "count": 7,
-    "files": [
-      "components\\ThemeBar.tsx",
-      "KilangCanvas.tsx",
-      "KilangExportHUD.tsx",
-      "KilangNode.tsx"
-    ]
-  },
   "--kilang-card": {
-    "count": 3,
     "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-text": {
-    "count": 15,
-    "files": [
-      "components\\ThemeBar.tsx",
-      "KilangHeader.tsx",
-      "KilangNode.tsx",
-      "KilangSidebar.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 8
   },
   "--kilang-text-muted": {
-    "count": 3,
     "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-glass": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-border": {
-    "count": 3,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-radius-md": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-1-fill": {
-    "count": 3,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-1-border": {
-    "count": 3,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-2-fill": {
-    "count": 3,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-2-border": {
-    "count": 4,
-    "files": [
-      "components\\ThemeBar.tsx",
-      "KilangNode.tsx"
-    ]
-  },
-  "--kilang-tier-3-fill": {
-    "count": 3,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-3-border": {
-    "count": 4,
-    "files": [
-      "components\\ThemeBar.tsx",
-      "KilangNode.tsx"
-    ]
-  },
-  "--kilang-tier-4-fill": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-4-border": {
-    "count": 3,
-    "files": [
-      "components\\ThemeBar.tsx",
-      "KilangNode.tsx"
-    ]
-  },
-  "--kilang-tier-5-fill": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-5-border": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-6-fill": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\AffixesOverlay.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\SidebarUI.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 178
   },
   "--kilang-tier-6-border": {
-    "count": 2,
     "files": [
-      "components\\ThemeBar.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
   },
-  "--kilang-tier-7-fill": {
-    "count": 2,
+  "--kilang-tier-2-fill": {
     "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-7-border": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-8-fill": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-8-border": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-9-fill": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-tier-9-border": {
-    "count": 2,
-    "files": [
-      "components\\ThemeBar.tsx"
-    ]
-  },
-  "--kilang-border-std": {
-    "count": 13,
-    "files": [
-      "KilangHeader.tsx",
-      "KilangNode.tsx",
-      "KilangRightSidebar.tsx",
-      "KilangSidebar.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
   },
   "--kilang-tooltip-bg": {
-    "count": 1,
     "files": [
-      "KilangNode.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 6
   },
-  "--kilang-tooltip-border": {
-    "count": 2,
+  "--kilang-accent-text": {
     "files": [
-      "KilangNode.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx"
+    ],
+    "count": 9
+  },
+  "--kilang-tier-5-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-5-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
   },
   "--kilang-radius-lg": {
-    "count": 1,
     "files": [
-      "KilangNode.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 2
+  },
+  "--kilang-tier-1-fill": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-resizer-active": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx"
+    ],
+    "count": 2
+  },
+  "--kilang-tier-6-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-secondary": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\BookmarkLibrary.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx"
+    ],
+    "count": 18
+  },
+  "--kilang-tier-3-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-ctrl-active": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 63
+  },
+  "--kilang-border-std": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\AffixesOverlay.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\SidebarUI.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 126
+  },
+  "--kilang-tier-8-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tooltip-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-toast-bg": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx"
+    ],
+    "count": 5
+  },
+  "--kilang-background-secondary": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\SidebarUI.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 2
+  },
+  "--kilang-node-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-9-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-6-fill": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-accent": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 6
+  },
+  "--kilang-tier-7-fill": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tooltip-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 7
+  },
+  "--kilang-accent-bg": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-link-opacity": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\LineageCanvas.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-primary-glow": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx"
+    ],
+    "count": 33
+  },
+  "--kilang-metric-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 5
+  },
+  "--kilang-toast-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-8-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-link-mid": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\LineageCanvas.tsx"
+    ],
+    "count": 1
+  },
+  "--kilang-tier-1-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 6
+  },
+  "--kilang-tier-3-fill": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-bg": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 8
+  },
+  "--kilang-primary-active": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 2
+  },
+  "--kilang-secondary-glow": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx"
+    ],
+    "count": 9
+  },
+  "--kilang-secondary-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx"
+    ],
+    "count": 18
+  },
+  "--kilang-primary-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 36
+  },
+  "--kilang-secondary-bg": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 5
+  },
+  "--kilang-tier-4-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 5
+  },
+  "--kilang-tier-4-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-accent-glow": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-secondary-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx"
+    ],
+    "count": 8
+  },
+  "--kilang-primary": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\AffixesOverlay.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\BookmarkLibrary.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\SidebarUI.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 122
+  },
+  "--kilang-primary-bg": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 11
+  },
+  "--kilang-scrollbar-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-primary-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CompactMetric.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\KilangLanding.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\SidebarUI.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 43
   },
   "--kilang-tooltip-accent": {
-    "count": 1,
     "files": [
-      "KilangNode.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 2
+  },
+  "--kilang-ctrl-active-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 6
+  },
+  "--kilang-glass": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-3-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 5
+  },
+  "--kilang-ctrl-active-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\AffixesOverlay.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx"
+    ],
+    "count": 54
+  },
+  "--kilang-logo-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx"
+    ],
+    "count": 6
+  },
+  "--kilang-shadow-primary": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\AffixesOverlay.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 53
+  },
+  "--kilang-tier-5-fill": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\SidebarUI.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 12
+  },
+  "--kilang-tier-7-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-8-fill": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-resizer-hover": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx"
+    ],
+    "count": 2
+  },
+  "--kilang-tier-1-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-2-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-ctrl-bg": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\AffixesOverlay.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 87
+  },
+  "--kilang-text": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\AffixesOverlay.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\RootList.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\SidebarUI.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 134
+  },
+  "--kilang-accent-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 5
+  },
+  "--kilang-tier-2-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 5
   },
   "--kilang-tier-": {
-    "count": 2,
     "files": [
-      "KilangNode.tsx"
-    ]
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-9-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-9-fill": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-link-end": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\LineageCanvas.tsx"
+    ],
+    "count": 1
+  },
+  "--kilang-toast-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx"
+    ],
+    "count": 6
+  },
+  "--kilang-shadow-color": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx"
+    ],
+    "count": 5
+  },
+  "--kilang-input-bg": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-7-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-link-start": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\LineageCanvas.tsx"
+    ],
+    "count": 1
+  },
+  "--kilang-muted-border": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-tier-4-fill": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
+  },
+  "--kilang-bg-base": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\AffixesOverlay.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\CustomTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ForestControls.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\StylingTab.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangCanvas.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangExportHUD.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangHeader.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangMobileLayout.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangNode.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangRightSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangSidebar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\KilangToolbox.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\StatsOverlay.tsx"
+    ],
+    "count": 58
+  },
+  "--kilang-overlay-bg": {
+    "files": [
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\ThemeBar.tsx",
+      "C:\\Users\\Ben\\Documents\\LL\\6_ycm\\YCM_Citadel\\portal\\components\\views\\kilang\\components\\VariableMap.tsx"
+    ],
+    "count": 4
   }
 }
