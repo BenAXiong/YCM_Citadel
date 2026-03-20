@@ -19,7 +19,8 @@ import {
   ChevronLeft,
   ChevronRight,
   Database,
-  Lightbulb
+  Lightbulb,
+  ExternalLink
 } from 'lucide-react';
 
 import { KilangAction, KilangState } from '../kilangReducer';
@@ -40,6 +41,112 @@ interface ThemeBarProps {
   dispatch: React.Dispatch<KilangAction>;
   layoutConfig: KilangState['layoutConfig'];
 }
+
+export const groupVars = {
+  surfaces: [
+    { name: '--kilang-bg-base', label: 'Base BG', type: 'color' },
+    { name: '--kilang-bg', label: 'Surface', type: 'color' },
+    { name: '--kilang-card', label: 'Card', type: 'color' },
+    { name: '--kilang-primary-bg', label: 'Primary BG', type: 'color' },
+    { name: '--kilang-secondary-bg', label: 'Secondary BG', type: 'color' },
+    { name: '--kilang-accent-bg', label: 'Accent BG', type: 'color' },
+    { name: '--kilang-tooltip-bg', label: 'Tooltip BG', type: 'color' },
+    { name: '--kilang-toast-bg', label: 'Toast BG', type: 'color' },
+    { name: '--kilang-primary-glow', label: 'Primary Glow', type: 'color' },
+    { name: '--kilang-secondary-glow', label: 'Sec Glow', type: 'color' },
+    { name: '--kilang-accent-glow', label: 'Accent Glow', type: 'color' },
+    { name: '--kilang-ctrl-active', label: 'Control Active', type: 'color' },
+    { name: '--kilang-overlay-bg', label: 'Overlay BG', type: 'color' },
+    { name: '--kilang-input-bg', label: 'Input BG', type: 'color' },
+    { name: '--kilang-ctrl-bg', label: 'Control Base', type: 'color' },
+    { name: '--kilang-shadow-color', label: 'Shadow Color', type: 'color' }
+  ] as const,
+  borders: [
+    { name: '--kilang-border', label: 'Global Border', type: 'color' },
+    { name: '--kilang-primary-border', label: 'Primary Border', type: 'color' },
+    { name: '--kilang-secondary-border', label: 'Secondary Border', type: 'color' },
+    { name: '--kilang-accent-border', label: 'Accent Border', type: 'color' },
+    { name: '--kilang-tooltip-border', label: 'Tooltip Border', type: 'color' },
+    { name: '--kilang-toast-border', label: 'Toast Border', type: 'color' },
+    { name: '--kilang-glass', label: 'Glass Effect', type: 'text' },
+    { name: '--kilang-border-std', label: 'Standard Border', type: 'color' },
+    { name: '--kilang-ctrl-active-border', label: 'Active Border', type: 'color' },
+    { name: '--kilang-muted-border', label: 'Muted Border', type: 'color' },
+    { name: '--kilang-node-border', label: 'Node Border', type: 'color' },
+    { name: '--kilang-scrollbar-border', label: 'Scroll Border', type: 'color' }
+  ] as const,
+    texts: [
+    { name: '--kilang-text', label: 'Text Main', type: 'color' },
+    { name: '--kilang-text-muted', label: 'Text Muted', type: 'color' },
+    { name: '--kilang-primary-text', label: 'Primary Text', type: 'color' },
+    { name: '--kilang-secondary-text', label: 'Secondary Text', type: 'color' },
+    { name: '--kilang-accent-text', label: 'Accent Text', type: 'color' },
+    { name: '--kilang-logo-text', label: 'Logo Text', type: 'color' },
+    { name: '--kilang-ctrl-active-text', label: 'Active Text', type: 'color' },
+    { name: '--kilang-tooltip-text', label: 'Tooltip Text', type: 'color' },
+    { name: '--kilang-toast-text', label: 'Toast Text', type: 'color' },
+    { name: '--kilang-metric-text', label: 'Metric Text', type: 'color' }
+  ] as const
+};
+
+export const tierVars = [
+  { name: '--kilang-tier-1-fill', type: 'color' },
+  { name: '--kilang-tier-1-border', type: 'color' },
+  { name: '--kilang-tier-1-text', type: 'color' },
+  { name: '--kilang-tier-2-fill', type: 'color' },
+  { name: '--kilang-tier-2-border', type: 'color' },
+  { name: '--kilang-tier-2-text', type: 'color' },
+  { name: '--kilang-tier-3-fill', type: 'color' },
+  { name: '--kilang-tier-3-border', type: 'color' },
+  { name: '--kilang-tier-3-text', type: 'color' },
+  { name: '--kilang-tier-4-fill', type: 'color' },
+  { name: '--kilang-tier-4-border', type: 'color' },
+  { name: '--kilang-tier-4-text', type: 'color' },
+  { name: '--kilang-tier-5-fill', type: 'color' },
+  { name: '--kilang-tier-5-border', type: 'color' },
+  { name: '--kilang-tier-5-text', type: 'color' },
+  { name: '--kilang-tier-6-fill', type: 'color' },
+  { name: '--kilang-tier-6-border', type: 'color' },
+  { name: '--kilang-tier-6-text', type: 'color' },
+  { name: '--kilang-tier-7-fill', type: 'color' },
+  { name: '--kilang-tier-7-border', type: 'color' },
+  { name: '--kilang-tier-7-text', type: 'color' },
+  { name: '--kilang-tier-8-fill', type: 'color' },
+  { name: '--kilang-tier-8-border', type: 'color' },
+  { name: '--kilang-tier-8-text', type: 'color' },
+  { name: '--kilang-tier-9-fill', type: 'color' },
+  { name: '--kilang-tier-9-border', type: 'color' },
+  { name: '--kilang-tier-9-text', type: 'color' }
+];
+
+export const THEME_VARS = [
+  // --- 14 SURFACES ---
+  '--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg',
+  '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow',
+  '--kilang-ctrl-active', '--kilang-overlay-bg', '--kilang-input-bg',
+  '--kilang-ctrl-bg', '--kilang-shadow-color',
+
+  // --- 12 BORDERS ---
+  '--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border',
+  '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std',
+  '--kilang-ctrl-active-border', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border',
+  '--kilang-shadow-primary',
+
+  // --- 10 TEXT ---
+  '--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text',
+  '--kilang-logo-text', '--kilang-ctrl-active-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text',
+
+  // --- 27 TREE TIERS ---
+  '--kilang-tier-1-fill', '--kilang-tier-1-border', '--kilang-tier-1-text',
+  '--kilang-tier-2-fill', '--kilang-tier-2-border', '--kilang-tier-2-text',
+  '--kilang-tier-3-fill', '--kilang-tier-3-border', '--kilang-tier-3-text',
+  '--kilang-tier-4-fill', '--kilang-tier-4-border', '--kilang-tier-4-text',
+  '--kilang-tier-5-fill', '--kilang-tier-5-border', '--kilang-tier-5-text',
+  '--kilang-tier-6-fill', '--kilang-tier-6-border', '--kilang-tier-6-text',
+  '--kilang-tier-7-fill', '--kilang-tier-7-border', '--kilang-tier-7-text',
+  '--kilang-tier-8-fill', '--kilang-tier-8-border', '--kilang-tier-8-text',
+  '--kilang-tier-9-fill', '--kilang-tier-9-border', '--kilang-tier-9-text'
+];
 
 export const ThemeBar = ({
   show,
@@ -62,112 +169,6 @@ export const ThemeBar = ({
   const [activeBulbs, setActiveBulbs] = useState<Record<string, boolean>>({});
   const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
   
-  const groupVars = {
-    surfaces: [
-      { name: '--kilang-bg-base', label: 'Base BG', type: 'color' },
-      { name: '--kilang-bg', label: 'Surface', type: 'color' },
-      { name: '--kilang-card', label: 'Card', type: 'color' },
-      { name: '--kilang-primary-bg', label: 'Primary BG', type: 'color' },
-      { name: '--kilang-secondary-bg', label: 'Secondary BG', type: 'color' },
-      { name: '--kilang-accent-bg', label: 'Accent BG', type: 'color' },
-      { name: '--kilang-tooltip-bg', label: 'Tooltip BG', type: 'color' },
-      { name: '--kilang-toast-bg', label: 'Toast BG', type: 'color' },
-      { name: '--kilang-primary-glow', label: 'Primary Glow', type: 'color' },
-      { name: '--kilang-secondary-glow', label: 'Sec Glow', type: 'color' },
-      { name: '--kilang-accent-glow', label: 'Accent Glow', type: 'color' },
-      { name: '--kilang-ctrl-active', label: 'Control Active', type: 'color' },
-      { name: '--kilang-overlay-bg', label: 'Overlay BG', type: 'color' },
-      { name: '--kilang-input-bg', label: 'Input BG', type: 'color' },
-      { name: '--kilang-ctrl-bg', label: 'Control Base', type: 'color' },
-      { name: '--kilang-shadow-color', label: 'Shadow Color', type: 'color' }
-    ] as const,
-    borders: [
-      { name: '--kilang-border', label: 'Global Border', type: 'color' },
-      { name: '--kilang-primary-border', label: 'Primary Border', type: 'color' },
-      { name: '--kilang-secondary-border', label: 'Secondary Border', type: 'color' },
-      { name: '--kilang-accent-border', label: 'Accent Border', type: 'color' },
-      { name: '--kilang-tooltip-border', label: 'Tooltip Border', type: 'color' },
-      { name: '--kilang-toast-border', label: 'Toast Border', type: 'color' },
-      { name: '--kilang-glass', label: 'Glass Effect', type: 'text' },
-      { name: '--kilang-border-std', label: 'Standard Border', type: 'color' },
-      { name: '--kilang-ctrl-active-border', label: 'Active Border', type: 'color' },
-      { name: '--kilang-muted-border', label: 'Muted Border', type: 'color' },
-      { name: '--kilang-node-border', label: 'Node Border', type: 'color' },
-      { name: '--kilang-scrollbar-border', label: 'Scroll Border', type: 'color' }
-    ] as const,
-    texts: [
-      { name: '--kilang-text', label: 'Text Main', type: 'color' },
-      { name: '--kilang-text-muted', label: 'Text Muted', type: 'color' },
-      { name: '--kilang-primary-text', label: 'Primary Text', type: 'color' },
-      { name: '--kilang-secondary-text', label: 'Secondary Text', type: 'color' },
-      { name: '--kilang-accent-text', label: 'Accent Text', type: 'color' },
-      { name: '--kilang-logo-text', label: 'Logo Text', type: 'color' },
-      { name: '--kilang-ctrl-active-text', label: 'Active Text', type: 'color' },
-      { name: '--kilang-tooltip-text', label: 'Tooltip Text', type: 'color' },
-      { name: '--kilang-toast-text', label: 'Toast Text', type: 'color' },
-      { name: '--kilang-metric-text', label: 'Metric Text', type: 'color' }
-    ] as const
-  };
-
-  const tierVars = [
-    { name: '--kilang-tier-1-fill', type: 'color' },
-    { name: '--kilang-tier-1-border', type: 'color' },
-    { name: '--kilang-tier-1-text', type: 'color' },
-    { name: '--kilang-tier-2-fill', type: 'color' },
-    { name: '--kilang-tier-2-border', type: 'color' },
-    { name: '--kilang-tier-2-text', type: 'color' },
-    { name: '--kilang-tier-3-fill', type: 'color' },
-    { name: '--kilang-tier-3-border', type: 'color' },
-    { name: '--kilang-tier-3-text', type: 'color' },
-    { name: '--kilang-tier-4-fill', type: 'color' },
-    { name: '--kilang-tier-4-border', type: 'color' },
-    { name: '--kilang-tier-4-text', type: 'color' },
-    { name: '--kilang-tier-5-fill', type: 'color' },
-    { name: '--kilang-tier-5-border', type: 'color' },
-    { name: '--kilang-tier-5-text', type: 'color' },
-    { name: '--kilang-tier-6-fill', type: 'color' },
-    { name: '--kilang-tier-6-border', type: 'color' },
-    { name: '--kilang-tier-6-text', type: 'color' },
-    { name: '--kilang-tier-7-fill', type: 'color' },
-    { name: '--kilang-tier-7-border', type: 'color' },
-    { name: '--kilang-tier-7-text', type: 'color' },
-    { name: '--kilang-tier-8-fill', type: 'color' },
-    { name: '--kilang-tier-8-border', type: 'color' },
-    { name: '--kilang-tier-8-text', type: 'color' },
-    { name: '--kilang-tier-9-fill', type: 'color' },
-    { name: '--kilang-tier-9-border', type: 'color' },
-    { name: '--kilang-tier-9-text', type: 'color' }
-  ];
-
-  const THEME_VARS = [
-    // --- 14 SURFACES ---
-    '--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg',
-    '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow',
-    '--kilang-ctrl-active', '--kilang-overlay-bg', '--kilang-input-bg',
-    '--kilang-ctrl-bg', '--kilang-shadow-color',
-
-    // --- 12 BORDERS ---
-    '--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border',
-    '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std',
-    '--kilang-ctrl-active-border', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border',
-    '--kilang-shadow-primary',
-
-    // --- 10 TEXT ---
-    '--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text',
-    '--kilang-logo-text', '--kilang-ctrl-active-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text',
-
-    // --- 27 TREE TIERS ---
-    '--kilang-tier-1-fill', '--kilang-tier-1-border', '--kilang-tier-1-text',
-    '--kilang-tier-2-fill', '--kilang-tier-2-border', '--kilang-tier-2-text',
-    '--kilang-tier-3-fill', '--kilang-tier-3-border', '--kilang-tier-3-text',
-    '--kilang-tier-4-fill', '--kilang-tier-4-border', '--kilang-tier-4-text',
-    '--kilang-tier-5-fill', '--kilang-tier-5-border', '--kilang-tier-5-text',
-    '--kilang-tier-6-fill', '--kilang-tier-6-border', '--kilang-tier-6-text',
-    '--kilang-tier-7-fill', '--kilang-tier-7-border', '--kilang-tier-7-text',
-    '--kilang-tier-8-fill', '--kilang-tier-8-border', '--kilang-tier-8-text',
-    '--kilang-tier-9-fill', '--kilang-tier-9-border', '--kilang-tier-9-text'
-  ];
-
   // Theme-Specific Persistence Logic
   useEffect(() => {
     const themeName = layoutConfig.theme;
@@ -285,7 +286,7 @@ export const ThemeBar = ({
           )}
         </button>
 
-        <div className="grid grid-cols-4 bg-white/[0.02] border-b border-white/10">
+        <div className="grid grid-cols-5 bg-white/[0.02] border-b border-white/10">
           {(['themes', 'landing', 'fonts', 'map'] as const).map(tab => (
             <button
               key={tab}
@@ -302,6 +303,22 @@ export const ThemeBar = ({
               </div>
             </button>
           ))}
+          <button
+            onClick={() => {
+              const width = 450;
+              const height = 900;
+              const left = window.screen.width - width;
+              const top = 0;
+              window.open(`${window.location.href}${window.location.search.includes('?') ? '&' : '?'}standalone=themebar`, 'ThemeWindow', `width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes,status=no,menubar=no`);
+            }}
+            className="theme-bar-tab-btn transition-all border-b-2 border-transparent text-[var(--kilang-primary-glow)]/40 hover:text-[var(--kilang-primary-glow)] hover:bg-white/[0.05] py-3"
+            title="POP OUT: Opens the theme studio in a dedicated standalone window for multi-monitor workflows."
+          >
+            <div className="flex flex-col items-center gap-1">
+              <ExternalLink className="w-3.5 h-3.5" />
+              <span className="text-[7px] font-black uppercase tracking-widest">Pop</span>
+            </div>
+          </button>
         </div>
 
         <div className="flex-1 overflow-y-auto custom-scrollbar no-scrollbar pb-10">

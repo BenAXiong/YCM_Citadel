@@ -141,7 +141,9 @@ export type KilangAction =
   | { type: 'RESET_LOGO_SETTINGS'; version: number }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
-  | { type: 'SET_SIDEBAR_WIDTH'; width: number }
+  | { type: 'SET_SIDEBAR_WIDTH', width: number }
+  | { type: 'SYNC_STATE', state: Partial<KilangState> }
+  | { type: 'SYNC_GLOBAL_THEME', theme: string, layoutConfig: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_TRANSFORM' };
 
 export const initialState: KilangState = {
@@ -393,6 +395,13 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return { ...state, canvasSelectedNode: action.node };
     case 'SET_SIDEBAR_WIDTH':
       return { ...state, sidebarWidth: action.width };
+    case 'SYNC_STATE':
+      return { ...state, ...action.state };
+    case 'SYNC_GLOBAL_THEME':
+      return { 
+        ...state, 
+        layoutConfig: { ...state.layoutConfig, ...action.layoutConfig, theme: action.theme } 
+      };
     case 'RESET_TRANSFORM':
       return {
         ...state,

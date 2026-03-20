@@ -6,7 +6,7 @@ import './Kilang.css';
 // Modular components
 import { KilangDesktopLayout } from './kilang/KilangDesktopLayout';
 import { KilangMobileLayout } from './kilang/KilangMobileLayout';
-import { ThemeBar } from './kilang/components/ThemeBar';
+import { ThemeBar, THEME_VARS } from './kilang/components/ThemeBar';
 import { useIsMobile } from '@/hooks/useIsMobile';
 
 // Data Logic
@@ -14,6 +14,8 @@ import { useIsMobile } from '@/hooks/useIsMobile';
   import { getForestBoundingBox, generateTreeString, getActiveHighlightChain, normalizeWord } from './kilang/kilangUtils';
 import { SidebarProvider } from './kilang/SidebarContext';
 import { UILang, UIStrings } from '@/types';
+import { useBroadcastSync } from './kilang/hooks/useBroadcastSync';
+import { ExternalLink } from 'lucide-react';
 
 import { UI_STRINGS } from '@/lib/i18n';
 
@@ -30,6 +32,7 @@ export default function KilangView({
 }: KilangViewProps) {
   const treeRef = useRef<HTMLDivElement>(null);
   const isMobile = useIsMobile(1024); // Tablet/Mobile threshold
+  const [isStandalone, setIsStandalone] = useState(false);
   const {
     state,
     dispatch,
@@ -37,6 +40,14 @@ export default function KilangView({
     fetchRootDetails,
     fetchSummary,
   } = useKilang();
+
+  React.useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.search.includes('standalone=themebar')) {
+      setIsStandalone(true);
+    }
+  }, []);
+
+  useBroadcastSync(state, dispatch, isStandalone);
 
   const {
     stats,
@@ -73,6 +84,41 @@ export default function KilangView({
     layoutConfig.lineDashArray,
     layoutConfig.lineFlowSpeed
   ]);
+
+  // Real-time CSS Variable Syncing (Master Link)
+  React.useEffect(() => {
+    const applyOverrides = () => {
+      const themeName = state.layoutConfig.theme;
+      const saved = localStorage.getItem(`kilang-custom-theme-${themeName}`);
+      if (!saved) return;
+      
+      try {
+        const parsed = JSON.parse(saved);
+        const root = document.documentElement;
+        const themedEl = document.querySelector('[data-theme]');
+        
+        Object.entries(parsed).forEach(([key, val]) => {
+          root.style.setProperty(key, val as string);
+          if (themedEl) (themedEl as HTMLElement).style.setProperty(key, val as string);
+        });
+      } catch (e) {
+        console.error('Failed to sync theme overrides:', e);
+      }
+    };
+
+    // Initial apply
+    applyOverrides();
+
+    // Listen for storage changes from other windows
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === `kilang-custom-theme-${state.layoutConfig.theme}`) {
+        applyOverrides();
+      }
+    };
+
+    window.addEventListener('storage', handleStorage);
+    return () => window.removeEventListener('storage', handleStorage);
+  }, [state.layoutConfig.theme]);
 
   const MOE_SOURCES = [
     { id: 'ALL', label: 'MoE (all)', tooltip: 'Ministry of Education Amis Dictionary (Consolidated). Merges all selected authoritative sources into a single morphological view.' },
@@ -129,6 +175,30 @@ export default function KilangView({
 
     return Array.from(uniqueRoots.values()).sort((a, b) => a.count - b.count);
   }, [stats, searchTerm, branchFilter]);
+
+  if (isStandalone) {
+    return (
+      <div data-theme={state.layoutConfig.theme}>
+        <div className="fixed inset-0 bg-[#0a0a0c] flex flex-col p-0 overflow-hidden">
+          <ThemeBar
+            show={true}
+            onClose={() => window.close()}
+            activeTab={state.themeBarTab || 'themes'}
+            setActiveTab={(tab) => dispatch({ type: 'SET_UI', themeBarTab: tab })}
+            landingVersion={state.landingVersion || 2}
+            setLandingVersion={(v) => dispatch({ type: 'SET_UI', landingVersion: v })}
+            logoStyle={state.logoStyles?.[state.landingVersion] || 'round'}
+            setLogoStyle={(s) => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
+            logoSettings={state.logoSettings?.[state.landingVersion] || { scale: 1, radius: 45, xOffset: 0, opacity: 1, glowIntensity: 0, glowColor: 'var(--kilang-primary)' }}
+            updateLogoSettings={(settings) => dispatch({ type: 'SET_UI', logoSettings: { [state.landingVersion]: settings } })}
+            resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
+            dispatch={dispatch}
+            layoutConfig={state.layoutConfig}
+          />
+        </div>
+      </div>
+    );
+  }
 
   const handleExport = async () => {
     if (!selectedRoot) return;
