@@ -23,6 +23,7 @@
 | [**`MOE_INFILTRATION_SPEC.md`**](MOE_INFILTRATION_SPEC.md) | 📌 | 2026-03-12 | Technical spec for the MOE dictionary pipeline | **Design Doc** |
 | [**`MOE_REVERSE_ENGINEERING.md`**](MOE_REVERSE_ENGINEERING.md) | 📌 | 2026-03-12 | Exhaustive report on Amis MOE Dict structure | **New Artifact** |
 | [**`GOLDEN_TRIANGLE_CONCEPT.md`**](GOLDEN_TRIANGLE_CONCEPT.md) | 🔱 | 2026-03-12 | The "Incorruptible Soul": Triple-verified data core | **Architecture** |
+| [**`sync-vars.mjs`**](../portal/scripts/sync-vars.mjs) | 📌 | 2026-03-20 | Design System Manifest Auto-Sync Tool | **`npm run sync-vars`** |
 
 ---
 

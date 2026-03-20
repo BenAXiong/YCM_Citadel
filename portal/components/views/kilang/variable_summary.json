@@ -1,0 +1,275 @@
+{
+  "--kilang-secondary": {
+    "count": 26,
+    "files": [
+      "components\\BookmarkLibrary.tsx",
+      "components\\CompactMetric.tsx",
+      "components\\CustomTab.tsx",
+      "components\\ForestControls.tsx",
+      "components\\ThemeBar.tsx",
+      "KilangHeader.tsx",
+      "KilangNode.tsx",
+      "KilangRightSidebar.tsx"
+    ]
+  },
+  "--kilang-primary": {
+    "count": 131,
+    "files": [
+      "components\\BookmarkLibrary.tsx",
+      "components\\CompactMetric.tsx",
+      "components\\CustomTab.tsx",
+      "components\\ForestControls.tsx",
+      "components\\RootList.tsx",
+      "components\\ThemeBar.tsx",
+      "AffixesOverlay.tsx",
+      "KilangCanvas.tsx",
+      "KilangHeader.tsx",
+      "KilangNode.tsx",
+      "KilangRightSidebar.tsx",
+      "KilangSidebar.tsx"
+    ]
+  },
+  "--kilang-accent": {
+    "count": 10,
+    "files": [
+      "components\\CompactMetric.tsx",
+      "components\\ThemeBar.tsx",
+      "KilangHeader.tsx",
+      "KilangNode.tsx",
+      "KilangRightSidebar.tsx"
+    ]
+  },
+  "--kilang-bg-base": {
+    "count": 30,
+    "files": [
+      "components\\CustomTab.tsx",
+      "components\\ThemeBar.tsx",
+      "KilangCanvas.tsx",
+      "KilangExportHUD.tsx",
+      "KilangHeader.tsx",
+      "KilangNode.tsx",
+      "KilangRightSidebar.tsx",
+      "KilangSidebar.tsx"
+    ]
+  },
+  "--kilang-primary-glow": {
+    "count": 3,
+    "files": [
+      "components\\ForestControls.tsx",
+      "KilangHeader.tsx",
+      "KilangRightSidebar.tsx"
+    ]
+  },
+  "--kilang-secondary-glow": {
+    "count": 1,
+    "files": [
+      "components\\ForestControls.tsx"
+    ]
+  },
+  "--kilang-primary-active": {
+    "count": 9,
+    "files": [
+      "components\\ThemeBar.tsx",
+      "KilangCanvas.tsx",
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-bg": {
+    "count": 7,
+    "files": [
+      "components\\ThemeBar.tsx",
+      "KilangCanvas.tsx",
+      "KilangExportHUD.tsx",
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-card": {
+    "count": 3,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-text": {
+    "count": 15,
+    "files": [
+      "components\\ThemeBar.tsx",
+      "KilangHeader.tsx",
+      "KilangNode.tsx",
+      "KilangSidebar.tsx"
+    ]
+  },
+  "--kilang-text-muted": {
+    "count": 3,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-glass": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-border": {
+    "count": 3,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-radius-md": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-1-fill": {
+    "count": 3,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-1-border": {
+    "count": 3,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-2-fill": {
+    "count": 3,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-2-border": {
+    "count": 4,
+    "files": [
+      "components\\ThemeBar.tsx",
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-tier-3-fill": {
+    "count": 3,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-3-border": {
+    "count": 4,
+    "files": [
+      "components\\ThemeBar.tsx",
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-tier-4-fill": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-4-border": {
+    "count": 3,
+    "files": [
+      "components\\ThemeBar.tsx",
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-tier-5-fill": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-5-border": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-6-fill": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-6-border": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-7-fill": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-7-border": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-8-fill": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-8-border": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-9-fill": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-tier-9-border": {
+    "count": 2,
+    "files": [
+      "components\\ThemeBar.tsx"
+    ]
+  },
+  "--kilang-border-std": {
+    "count": 13,
+    "files": [
+      "KilangHeader.tsx",
+      "KilangNode.tsx",
+      "KilangRightSidebar.tsx",
+      "KilangSidebar.tsx"
+    ]
+  },
+  "--kilang-tooltip-bg": {
+    "count": 1,
+    "files": [
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-tooltip-border": {
+    "count": 2,
+    "files": [
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-radius-lg": {
+    "count": 1,
+    "files": [
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-tooltip-accent": {
+    "count": 1,
+    "files": [
+      "KilangNode.tsx"
+    ]
+  },
+  "--kilang-tier-": {
+    "count": 2,
+    "files": [
+      "KilangNode.tsx"
+    ]
+  }
+}

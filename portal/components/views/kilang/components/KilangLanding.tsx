@@ -47,7 +47,7 @@ export const KilangLanding = ({
     <div className="relative z-20 space-y-6 max-w-md mx-auto pointer-events-auto">
       <div className="space-y-4">
         <div className="space-y-3">
-          <div className="text-[10px] font-black uppercase tracking-[0.3em] text-blue-400 opacity-60 text-center">Semantic Forest Entry Points</div>
+          <div className="text-[10px] font-black uppercase tracking-[0.3em] text-[var(--kilang-primary-text)]/60 text-center">Semantic Forest Entry Points</div>
           <div className="flex flex-wrap justify-center gap-2.5">
             {(stats?.top_roots || []).slice(0, 6).map((r: any) => (
               <button

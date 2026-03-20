@@ -67,24 +67,24 @@ export const WordTooltip = ({
         left: `${coords.left}px`,
       }}
     >
-      <div className="flex flex-col gap-1 mb-4 border-b border-white/10 pb-3">
+      <div className="flex flex-col gap-1 mb-4 border-b border-[var(--kilang-border-std)] pb-3">
         <div className="flex items-center justify-between text-normal">
-          <span className="text-2xl font-black text-white tracking-tighter uppercase">{word}</span>
-          {dictCode && <span className="text-[10px] font-mono text-[var(--kilang-primary)] bg-blue-500/10 px-2 py-0.5 rounded-full uppercase">{dictCode}</span>}
+          <span className="text-2xl font-black text-[var(--kilang-primary-text)] tracking-tighter uppercase">{word}</span>
+          {dictCode && <span className="text-[10px] font-mono text-[var(--kilang-primary-text)] bg-[var(--kilang-primary-bg)]/10 px-2 py-0.5 rounded-full uppercase">{dictCode}</span>}
         </div>
-        <div className="h-0.5 w-16 bg-[var(--kilang-primary)]" />
+        <div className="h-0.5 w-16 bg-[var(--kilang-primary-bg)]" />
       </div>
       <div className="space-y-4 max-h-[250px] overflow-y-auto custom-scrollbar pr-2 leading-relaxed">
         {summaryCache[cacheKey] === undefined ? (
-          <div className="flex items-center gap-2 italic text-[var(--kilang-primary)]/50 text-xs font-mono">
-            <div className="w-2 h-2 bg-[var(--kilang-primary)] rounded-full animate-pulse" />
+          <div className="flex items-center gap-2 italic text-[var(--kilang-primary-text)]/50 text-xs font-mono">
+            <div className="w-2 h-2 bg-[var(--kilang-primary-bg)] rounded-full animate-pulse" />
             DECODING SEMANTIC CORE...
           </div>
         ) : (
           summaryCache[cacheKey].map((def: string, idx: number) => (
             <div key={idx} className="flex gap-3">
               <span className="text-[var(--kilang-primary)] font-black text-xs mt-1">{idx + 1}.</span>
-              <div className="text-sm text-gray-300 font-medium">{def}</div>
+              <div className="text-sm text-[var(--kilang-text)] opacity-80 font-medium">{def}</div>
             </div>
           ))
         )}
@@ -155,7 +155,7 @@ export const KilangNode = React.memo(({
   const cleanId = `v3-node-${word.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
 
   const getTierIcon = () => {
-    if (isRoot) return <TreePine className="w-5 h-5 text-yellow-500 shrink-0" />;
+    if (isRoot) return <TreePine className="w-5 h-5 text-[var(--kilang-accent-text)] shrink-0" />;
 
     const iconClass = `w-3 h-3 ${tier === 2 ? 'text-[var(--kilang-tier-2-border)]' : tier === 3 ? 'text-[var(--kilang-tier-3-border)]' : 'text-[var(--kilang-tier-4-border)]'} shrink-0`;
 
@@ -170,7 +170,7 @@ export const KilangNode = React.memo(({
   };
 
   const getTierColor = (type: 'Fill' | 'Border', t: number) => {
-    return (config as any)[`tier${t}${type}`] || (type === 'Fill' ? 'var(--kilang-tier-1-fill)' : 'var(--kilang-tier-1-border)');
+    return (config as any)[`tier${t}${type}`] || (type === 'Fill' ? `var(--kilang-tier-${t}-fill)` : `var(--kilang-tier-${t}-border)`);
   };
 
   return (
@@ -191,23 +191,23 @@ export const KilangNode = React.memo(({
         <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
           {isRoot ? (
             <div
-              className={`border-4 p-8 rounded-full z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_rgba(59,130,246,0.8)]' : 'shadow-[0_0_50px_rgba(59,130,246,0.5)]'}`}
+              className={`border-4 p-8 rounded-full z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
               style={{
                 backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} ${isHighlighted ? '40%' : '20%'}, var(--kilang-bg-base))`,
-                borderColor: isHighlighted ? 'var(--kilang-tier-2-border)' : getTierColor('Border', 1),
-                boxShadow: isHighlighted ? `0 0 80px ${getTierColor('Fill', 1)}80` : `0 0 60px ${getTierColor('Fill', 1)}40`,
+                borderColor: isHighlighted ? 'var(--kilang-primary-active)' : getTierColor('Border', 1),
+                boxShadow: isHighlighted ? `0 0 80px color-mix(in srgb, ${getTierColor('Fill', 1)}, transparent 50%)` : `0 0 60px color-mix(in srgb, ${getTierColor('Fill', 1)}, transparent 70%)`,
                 paddingTop: `${config.nodePaddingY * 2}px`,
                 paddingBottom: `${config.nodePaddingY * 2}px`
               }}
             >
               <div className="flex items-center gap-3">
                 {config.showIcons && getTierIcon()}
-                <span className={`text-white font-black text-2xl tracking-tighter transition-all ${isHighlighted ? 'scale-110 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]' : ''}`}>{word}</span>
+                <span className={`text-[var(--kilang-tier-1-text)] font-black text-2xl tracking-tighter transition-all ${isHighlighted ? 'scale-110 drop-shadow-[0_0_10px_var(--kilang-primary-glow)]' : ''}`}>{word}</span>
               </div>
             </div>
           ) : (
             <div
-              className={`transition-all text-sm group ring-1 relative z-10 border flex items-center justify-center ${isHighlighted ? 'ring-[var(--kilang-primary)]/50 shadow-[0_0_30px_rgba(59,130,246,0.4)]' : 'ring-white/5'}`}
+              className={`transition-all text-sm group ring-1 relative z-10 border flex items-center justify-center ${isHighlighted ? 'ring-[var(--kilang-primary-border)]/50 shadow-[0_0_30px_var(--kilang-primary-glow)]' : 'ring-[var(--kilang-border)]'}`}
               style={{
                 borderRadius: `${config.nodeRounding}px`,
                 borderColor: isHighlighted 
@@ -222,7 +222,7 @@ export const KilangNode = React.memo(({
             >
               <div className="flex items-center gap-2">
                 {config.showIcons && getTierIcon()}
-                <span className={`font-bold transition-colors uppercase tracking-widest text-[11px] truncate ${isHighlighted ? 'text-blue-200' : 'text-white group-hover:text-blue-300'}`}>{word}</span>
+                <span className={`font-black uppercase tracking-widest truncate max-w-full text-center ${isRoot ? 'text-[var(--kilang-tier-1-text)]' : `text-[var(--kilang-tier-${tier}-text)] opacity-60 group-hover:opacity-100 group-hover:text-[var(--kilang-primary)]`}`}>{word}</span>
               </div>
             </div>
           )}
@@ -233,11 +233,15 @@ export const KilangNode = React.memo(({
 });
 
 export const Metric = React.memo(({ label, value, color }: { label: string, value: string | number, color: string }) => {
-  const colorMap: any = { blue: 'text-blue-400', red: 'text-red-400' };
+  const colorMap: any = { 
+    blue: 'text-[var(--kilang-primary)]', 
+    red: 'text-[var(--kilang-secondary)]',
+    accent: 'text-[var(--kilang-accent)]'
+  };
   return (
-    <div className="flex flex-col items-end">
-      <span className="text-[10px] font-black text-kilang-text-muted uppercase tracking-[0.2em]">{label}</span>
-      <span className={`text-3xl font-black ${colorMap[color]} font-mono tracking-tighter`}>{value}</span>
+    <div className="flex flex-col items-center gap-0.5">
+      <span className="text-[9px] font-black text-[var(--kilang-text)]">{value}</span>
+      <span className="text-[6px] font-black text-[var(--kilang-text-muted)] uppercase tracking-tighter leading-none">{label}</span>
     </div>
   );
 });

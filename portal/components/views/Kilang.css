@@ -6,26 +6,42 @@
   --kilang-secondary: #6366f1;
   --kilang-accent: #f43f5e;
   
-  /* Backgrounds */
+  /* Backgrounds (Surfaces) */
+  --kilang-primary-bg: var(--kilang-primary);
+  --kilang-secondary-bg: var(--kilang-secondary);
+  --kilang-accent-bg: var(--kilang-accent);
   --kilang-bg-base: #020617;
   --kilang-bg: #0f172a;
   --kilang-card: #1e293b;
   
-  /* Text */
+  /* Borders (Outlines) */
+  --kilang-primary-border: var(--kilang-primary);
+  --kilang-secondary-border: var(--kilang-secondary);
+  --kilang-accent-border: var(--kilang-accent);
+  --kilang-border: var(--kilang-border-std);
+  --kilang-border-std: rgba(255, 255, 255, 0.05); /* Lower base fallback */
+
+  /* Text (Content) */
+  --kilang-primary-text: var(--kilang-primary);
+  --kilang-secondary-text: var(--kilang-secondary);
+  --kilang-accent-text: var(--kilang-accent);
   --kilang-text: #f8fafc;
   --kilang-text-muted: #94a3b8;
+  --kilang-logo-text: var(--kilang-text);
   
   /* Glass & Borders */
-  --kilang-glass: rgba(30, 41, 59, 0.7);
-  --kilang-border: rgba(255, 255, 255, 0.1);
+  --kilang-glass: rgba(15, 23, 42, 0.8);
+  --kilang-primary-glow: color-mix(in srgb, var(--kilang-primary), transparent 70%);
+  --kilang-secondary-glow: color-mix(in srgb, var(--kilang-secondary), transparent 70%);
+  --kilang-accent-glow: color-mix(in srgb, var(--kilang-accent), transparent 70%);
   --kilang-blur-std: blur(12px);
   --kilang-blur-max: blur(32px);
 
   /* Controls & Interactive States */
-  --kilang-ctrl-bg: rgba(255, 255, 255, 0.1);
-  --kilang-ctrl-border: rgba(255, 255, 255, 0.1);
-  --kilang-ctrl-active: var(--kilang-primary-active);
-  --kilang-ctrl-active-text: #ffffff;
+  --kilang-ctrl-bg: var(--kilang-bg-base);
+  --kilang-ctrl-border: var(--kilang-border-std);
+  --kilang-ctrl-active: color-mix(in srgb, var(--kilang-primary), black 10%);
+  --kilang-ctrl-active-text: var(--kilang-text);
 
   /* Node Tiers (Base Theme) */
   --kilang-tier-1-fill: #2563eb; --kilang-tier-1-border: #3b82f6;
@@ -43,6 +59,14 @@
   --kilang-tooltip-border: rgba(59, 130, 246, 0.4);
   --kilang-tooltip-accent: var(--kilang-primary);
 
+  /* Toast & Notifications */
+  --kilang-toast-bg: rgba(15, 23, 42, 0.98);
+  --kilang-toast-border: rgba(59, 130, 246, 0.5);
+  
+  /* Indicators & Interactive Shell */
+  --kilang-resizer-hover: rgba(59, 130, 246, 0.3);
+  --kilang-resizer-active: rgba(59, 130, 246, 0.5);
+
   /* Radii */
   --kilang-radius-sm: 6px;
   --kilang-radius-md: 16px;
@@ -50,10 +74,16 @@
 }
 
 [data-theme="kakarayan"] {
-  --kilang-primary: #3b82f6;
-  --kilang-primary-active: #2563eb;
-  --kilang-secondary: #6366f1;
   --kilang-accent: #f43f5e;
+  --kilang-primary-bg: #3b82f6;
+  --kilang-secondary-bg: #6366f1;
+  --kilang-accent-bg: #f43f5e;
+  --kilang-primary-border: #3b82f6;
+  --kilang-secondary-border: #6366f1;
+  --kilang-accent-border: #f43f5e;
+  --kilang-primary-text: #3b82f6;
+  --kilang-secondary-text: #6366f1;
+  --kilang-accent-text: #f43f5e;
   --kilang-bg-base: #020617;
   --kilang-bg: #0f172a;
   --kilang-card: #1e293b;
@@ -61,7 +91,21 @@
   --kilang-text-muted: #94a3b8;
   --kilang-glass: rgba(30, 41, 59, 0.7);
   --kilang-border: rgba(255, 255, 255, 0.1);
-  --kilang-tooltip-border: rgba(59, 130, 246, 0.4);
+  --kilang-primary-glow: rgba(59, 130, 246, 0.5);
+  --kilang-secondary-glow: rgba(99, 102, 241, 0.5);
+  --kilang-accent-glow: rgba(244, 63, 94, 0.5);
+  --kilang-tooltip-border: rgba(59, 130, 246, 0.2);
+  --kilang-toast-border: rgba(59, 130, 246, 0.3);
+  --kilang-resizer-hover: rgba(59, 130, 246, 0.2);
+  --kilang-resizer-active: rgba(59, 130, 246, 0.4);
+
+  /* Rogue Mappings (Subdual) */
+  --kilang-border-std: color-mix(in srgb, var(--kilang-border), transparent 10%);
+  --kilang-ctrl-bg: color-mix(in srgb, var(--kilang-bg-base), white 3%);
+  --kilang-muted-border: color-mix(in srgb, var(--kilang-border-std), transparent 50%);
+  --kilang-shadow-color: color-mix(in srgb, var(--kilang-bg-base), black 40%);
+  --kilang-shadow-primary: 0 8px 32px 0 var(--kilang-shadow-color);
+  --kilang-ctrl-active: color-mix(in srgb, var(--kilang-primary), black 10%);
 }
 
 .theme-bar-bnw {
@@ -83,26 +127,63 @@
 }
 
 [data-theme="papah"] {
-  --kilang-primary: #10b981;
-  --kilang-primary-active: #059669;
-  --kilang-secondary: #059669;
   --kilang-accent: #ec4899;
+  --kilang-primary-bg: #10b981;
+  --kilang-secondary-bg: #059669;
+  --kilang-accent-bg: #ec4899;
+  --kilang-primary-border: #10b981;
+  --kilang-secondary-border: #059669;
+  --kilang-accent-border: #ec4899;
+  --kilang-primary-text: #10b981;
+  --kilang-secondary-text: #059669;
+  --kilang-accent-text: #ec4899;
   --kilang-bg-base: #061a14;
   --kilang-bg: #0f1c18;
-  --kilang-tooltip-border: rgba(16, 185, 129, 0.4);
+  --kilang-text: #f0fdf4;
+  --kilang-text-muted: #bbf7d0;
+  --kilang-glass: rgba(6, 78, 59, 0.7);
+  --kilang-primary-glow: color-mix(in srgb, var(--kilang-primary), transparent 50%);
+  --kilang-secondary-glow: color-mix(in srgb, var(--kilang-secondary), transparent 50%);
+  --kilang-accent-glow: color-mix(in srgb, var(--kilang-accent), transparent 50%);
+  --kilang-resizer-hover: color-mix(in srgb, var(--kilang-primary), transparent 80%);
+  --kilang-resizer-active: color-mix(in srgb, var(--kilang-primary), transparent 60%);
+
+  /* Rogue Mappings (Subdual) */
+  --kilang-border-std: color-mix(in srgb, var(--kilang-primary-border), transparent 80%);
+  --kilang-ctrl-bg: color-mix(in srgb, var(--kilang-bg-base), white 5%);
+  --kilang-muted-border: color-mix(in srgb, var(--kilang-border-std), transparent 50%);
+  --kilang-shadow-color: color-mix(in srgb, var(--kilang-bg-base), black 50%);
+  --kilang-shadow-primary: 0 8px 32px 0 var(--kilang-shadow-color);
   --kilang-tier-1-fill: #065f46; --kilang-tier-1-border: #10b981;
   --kilang-tier-2-fill: #059669; --kilang-tier-2-border: #34d399;
   --kilang-tier-3-fill: #10b981; --kilang-tier-3-border: #6ee7b7;
 }
 
 [data-theme="ngidan"] {
-  --kilang-primary: #6366f1;
-  --kilang-primary-active: #4338ca;
-  --kilang-secondary: #4f46e5;
   --kilang-accent: #f472b6;
+  --kilang-primary-bg: #6366f1;
+  --kilang-secondary-bg: #4f46e5;
+  --kilang-accent-bg: #f472b6;
+  --kilang-primary-border: #6366f1;
+  --kilang-secondary-border: #4f46e5;
+  --kilang-accent-border: #f472b6;
+  --kilang-primary-text: #6366f1;
+  --kilang-secondary-text: #4f46e5;
+  --kilang-accent-text: #f472b6;
   --kilang-bg-base: #0c0a1f;
   --kilang-bg: #15122b;
-  --kilang-tooltip-border: rgba(99, 102, 241, 0.4);
+  --kilang-text: #e0e7ff;
+  --kilang-text-muted: #818cf8;
+  --kilang-glass: rgba(67, 56, 202, 0.7);
+  --kilang-resizer-hover: color-mix(in srgb, var(--kilang-primary), transparent 80%);
+  --kilang-resizer-active: color-mix(in srgb, var(--kilang-primary), transparent 60%);
+
+  /* Rogue Mappings (Subdual) */
+  --kilang-border-std: color-mix(in srgb, var(--kilang-primary-border), transparent 80%);
+  --kilang-ctrl-bg: color-mix(in srgb, var(--kilang-bg-base), white 5%);
+  --kilang-muted-border: color-mix(in srgb, var(--kilang-border-std), transparent 50%);
+  --kilang-shadow-color: color-mix(in srgb, var(--kilang-bg-base), black 50%);
+  --kilang-shadow-primary: 0 8px 32px 0 var(--kilang-shadow-color);
   --kilang-tier-1-fill: #3730a3; --kilang-tier-1-border: #6366f1;
   --kilang-tier-2-fill: #4338ca; --kilang-tier-2-border: #818cf8;
   --kilang-tier-3-fill: #4f46e5; --kilang-tier-3-border: #a5b4fc;
@@ -110,7 +191,7 @@
 
 .kilang-ctrl-container {
   background: var(--kilang-ctrl-bg);
-  border: 1px solid var(--kilang-ctrl-border);
+  border: 1px solid var(--kilang-border);
   border-radius: 0.5rem;
   /* rounded-lg */
   display: flex;
@@ -133,8 +214,7 @@
 .kilang-ctrl-btn-active {
   background-color: var(--kilang-ctrl-active);
   color: var(--kilang-ctrl-active-text);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  /* shadow-lg */
+  box-shadow: var(--kilang-shadow-primary);
 }
 
 .kilang-ctrl-btn-inactive {
@@ -143,14 +223,13 @@
 
 .kilang-ctrl-btn-inactive:hover {
   color: var(--kilang-text);
-  background-color: rgba(255, 255, 255, 0.05);
-  /* hover:bg-white/5 */
+  background-color: var(--kilang-ctrl-bg);
 }
 
 .kilang-container {
   font-family: 'Inter', sans-serif;
   color: var(--kilang-text);
-  background: radial-gradient(circle at top left, #1e293b, #0f172a);
+  background: radial-gradient(circle at top left, var(--kilang-bg), var(--kilang-bg-base));
   min-height: 100vh;
 }
 
@@ -159,14 +238,13 @@
 }
 
 .kilang-glass-panel {
-  background: var(--kilang-glass);
-  backdrop-filter: blur(12px);
+  background: color-mix(in srgb, var(--kilang-bg), transparent 30%);
+  backdrop-filter: var(--kilang-blur-std);
   border: 1px solid var(--kilang-border);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: var(--kilang-shadow-primary);
 }
 .kilang-glass-panel-immersive {
-  background: var(--kilang-glass);
-  backdrop-filter: blur(12px);
+  background: var(--kilang-bg-base);
 }
 
 .kilang-stat-card {
@@ -186,12 +264,14 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--kilang-ctrl-bg);
+  border: 1px solid var(--kilang-border-std);
   border-radius: 10px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--kilang-ctrl-active);
+  opacity: 0.5;
 }
 
 /* Tree Animation Utilities */

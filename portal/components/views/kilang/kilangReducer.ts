@@ -52,7 +52,7 @@ export interface KilangState {
   sidebarCollapsed: boolean;
   sidebarTab: 'forest' | 'styling' | 'custom';
   rightSidebarTab: 'txt' | 'sent' | 'met';
-  themeBarTab: 'themes' | 'landing' | 'fonts';
+  themeBarTab: 'themes' | 'landing' | 'fonts' | 'map';
   rightSidebarWidth: number;
   showRightSidebar: boolean;
   rightSidebarCollapsed: boolean;
@@ -101,15 +101,15 @@ export interface KilangState {
     anchorX: number;
     anchorY: number;
     // Tier Aesthetics (Fill & Border)
-    tier1Fill: string; tier1Border: string;
-    tier2Fill: string; tier2Border: string;
-    tier3Fill: string; tier3Border: string;
-    tier4Fill: string; tier4Border: string;
-    tier5Fill: string; tier5Border: string;
-    tier6Fill: string; tier6Border: string;
-    tier7Fill: string; tier7Border: string;
-    tier8Fill: string; tier8Border: string;
-    tier9Fill: string; tier9Border: string;
+    tier1Fill: string; tier1Border: string; tier1Text: string;
+    tier2Fill: string; tier2Border: string; tier2Text: string;
+    tier3Fill: string; tier3Border: string; tier3Text: string;
+    tier4Fill: string; tier4Border: string; tier4Text: string;
+    tier5Fill: string; tier5Border: string; tier5Text: string;
+    tier6Fill: string; tier6Border: string; tier6Text: string;
+    tier7Fill: string; tier7Border: string; tier7Text: string;
+    tier8Fill: string; tier8Border: string; tier8Text: string;
+    tier9Fill: string; tier9Border: string; tier9Text: string;
     spacingMode: 'even' | 'log';
     rootGap: number;
     coupleGaps: boolean;
@@ -132,7 +132,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showTreeTab?: boolean; showExportDropdown?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showSidebarTooltips?: boolean; showTreeTooltips?: boolean; isFullView?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; moveChainToCanvas?: boolean; theme?: string; themeBarTab?: 'themes' | 'landing' | 'fonts'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom'; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number }
+  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showTreeTab?: boolean; showExportDropdown?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showSidebarTooltips?: boolean; showTreeTooltips?: boolean; isFullView?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; moveChainToCanvas?: boolean; theme?: string; themeBarTab?: 'themes' | 'landing' | 'fonts' | 'map'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom'; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number }
   | { type: 'RESET_LOGO_SETTINGS'; version: number }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
@@ -153,9 +153,9 @@ export const initialState: KilangState = {
   landingVersion: 2, // Desktop Default
   logoStyles: { 1: 'square', 2: 'round', 3: 'round' },
   logoSettings: {
-    1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: '#d9dc1e' },
-    2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: '#3b82f6' },
-    3: { scale: 1.6, radius: 44, xOffset: -320, opacity: 0.6, glowIntensity: 0.1, glowColor: '#3b82f6' }
+    1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: 'var(--kilang-primary)' },
+    2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: 'var(--kilang-primary)' },
+    3: { scale: 1.6, radius: 44, xOffset: -320, opacity: 0.6, glowIntensity: 0.1, glowColor: 'var(--kilang-primary)' }
   },
   morphMode: 'plus', //strict = moe
   sourceFilter: 'ALL',
@@ -171,7 +171,7 @@ export const initialState: KilangState = {
   exporting: false,
   showDevTools: false,
   showStats: true,
-  showDimensions: true,
+  showDimensions: false,
   showPerfMonitor: false,
   showFilterPanel: true,
   sidebarCollapsed: false,
@@ -215,25 +215,25 @@ export const initialState: KilangState = {
     nodeSize: 1,
     nodeOpacity: 1,
     nodeRounding: 16,
-    rootColor: '#2563eb',
-    branchColor: '#3b82f6',
-    lineColor: '#3b82f6',
-    lineColorMid: '#6366f1',
-    lineGradientEnd: '#10b981',
+    rootColor: 'var(--kilang-primary)',
+    branchColor: 'var(--kilang-secondary)',
+    lineColor: 'var(--kilang-primary)',
+    lineColorMid: 'var(--kilang-secondary)',
+    lineGradientEnd: 'var(--kilang-accent)',
     showIcons: false,
     nodeWidth: 100,
     nodePaddingY: 8,
     anchorX: ANCHOR_DEFAULTS.horizontal.x,
     anchorY: ANCHOR_DEFAULTS.horizontal.y,
-    tier1Fill: '#2563eb', tier1Border: '#3b82f6',
-    tier2Fill: '#3b82f6', tier2Border: '#60a5fa',
-    tier3Fill: '#6366f1', tier3Border: '#818cf8',
-    tier4Fill: '#10b981', tier4Border: '#34d399',
-    tier5Fill: '#f59e0b', tier5Border: '#fbbf24',
-    tier6Fill: '#ec4899', tier6Border: '#f472b6',
-    tier7Fill: '#8b5cf6', tier7Border: '#a78bfa',
-    tier8Fill: '#06b6d4', tier8Border: '#22d3ee',
-    tier9Fill: '#94a3b8', tier9Border: '#cbd5e1',
+    tier1Fill: 'var(--kilang-tier-1-fill)', tier1Border: 'var(--kilang-tier-1-border)', tier1Text: 'var(--kilang-tier-1-text)',
+    tier2Fill: 'var(--kilang-tier-2-fill)', tier2Border: 'var(--kilang-tier-2-border)', tier2Text: 'var(--kilang-tier-2-text)',
+    tier3Fill: 'var(--kilang-tier-3-fill)', tier3Border: 'var(--kilang-tier-3-border)', tier3Text: 'var(--kilang-tier-3-text)',
+    tier4Fill: 'var(--kilang-tier-4-fill)', tier4Border: 'var(--kilang-tier-4-border)', tier4Text: 'var(--kilang-tier-4-text)',
+    tier5Fill: 'var(--kilang-tier-5-fill)', tier5Border: 'var(--kilang-tier-5-border)', tier5Text: 'var(--kilang-tier-5-text)',
+    tier6Fill: 'var(--kilang-tier-6-fill)', tier6Border: 'var(--kilang-tier-6-border)', tier6Text: 'var(--kilang-tier-6-text)',
+    tier7Fill: 'var(--kilang-tier-7-fill)', tier7Border: 'var(--kilang-tier-7-border)', tier7Text: 'var(--kilang-tier-7-text)',
+    tier8Fill: 'var(--kilang-tier-8-fill)', tier8Border: 'var(--kilang-tier-8-border)', tier8Text: 'var(--kilang-tier-8-text)',
+    tier9Fill: 'var(--kilang-tier-9-fill)', tier9Border: 'var(--kilang-tier-9-border)', tier9Text: 'var(--kilang-tier-9-text)',
     spacingMode: 'log',
     rootGap: 50,
     coupleGaps: false,
@@ -336,9 +336,9 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
     }
     case 'RESET_LOGO_SETTINGS': {
       const logoDefaults: Record<number, any> = {
-        1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: '#d9dc1e' },
-        2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: '#3b82f6' },
-        3: { scale: 1.6, radius: 44, xOffset: -320, opacity: 0.6, glowIntensity: 0.1, glowColor: '#3b82f6' }
+        1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: 'var(--kilang-primary)' },
+        2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: 'var(--kilang-primary)' },
+        3: { scale: 1.6, radius: 44, xOffset: -320, opacity: 0.6, glowIntensity: 0.1, glowColor: 'var(--kilang-primary)' }
       };
       return {
         ...state,
@@ -349,16 +349,16 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       };
     }
     case 'SET_UI': {
-      const { 
-        type, 
-        logoStyles, 
-        logoSettings, 
-        exportSettings, 
-        ...rest 
+      const {
+        type,
+        logoStyles,
+        logoSettings,
+        exportSettings,
+        ...rest
       } = action;
 
-      const nextLogoSettings = logoSettings 
-        ? { ...state.logoSettings } 
+      const nextLogoSettings = logoSettings
+        ? { ...state.logoSettings }
         : state.logoSettings;
 
       if (logoSettings) {

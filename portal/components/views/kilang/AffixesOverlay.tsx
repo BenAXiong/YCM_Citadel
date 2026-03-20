@@ -429,35 +429,35 @@ export const AffixesOverlay = ({
   };
 
   return (
-    <div className="fixed inset-0 z-[1100] flex items-center justify-center p-8 bg-[#020617]/90 backdrop-blur-3xl animate-in fade-in duration-300">
-      <div className="w-full h-full max-w-[90vw] bg-[#020617]/95 border border-white/10 rounded-[40px] shadow-2xl flex flex-col overflow-hidden relative">
+    <div className="fixed inset-0 z-[1100] flex items-center justify-center p-8 bg-[var(--kilang-bg-base)]/90 backdrop-blur-3xl animate-in fade-in duration-300">
+      <div className="w-full h-full max-w-[90vw] bg-[var(--kilang-bg-base)]/95 border border-[var(--kilang-border-std)] rounded-[40px] shadow-[var(--kilang-shadow-primary)] flex flex-col overflow-hidden relative">
 
         {/* Header */}
-        <div className="flex items-center justify-between px-10 py-5 border-b border-white/5 bg-white/2">
+        <div className="flex items-center justify-between px-10 py-5 border-b border-[var(--kilang-border-std)] bg-[var(--kilang-bg-base)]/20">
           <div className="flex items-center gap-5">
-            <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/20">
-              <Layers className="w-5 h-5 text-white" />
+            <div className="w-10 h-10 bg-[var(--kilang-primary)] rounded-xl flex items-center justify-center shadow-lg shadow-[var(--kilang-primary)]/20">
+              <Layers className="w-5 h-5 text-[var(--kilang-ctrl-active-text)]" />
             </div>
             <div className="flex flex-col">
-              <h2 className="text-xl font-black text-white tracking-widest uppercase italic leading-none">Affixes Comparison</h2>
-              <p className="text-[9px] text-blue-400 font-bold uppercase tracking-[0.4em] opacity-80 mt-1.5 leading-none">Heuristic Morphological Pattern Analysis</p>
+              <h2 className="text-xl font-black text-[var(--kilang-text)] tracking-widest uppercase italic leading-none">Affixes Comparison</h2>
+              <p className="text-[9px] text-blue-500 font-bold uppercase tracking-[0.4em] opacity-80 mt-1.5 leading-none">Heuristic Morphological Pattern Analysis</p>
             </div>
           </div>
 
           <div className="flex items-center gap-6">
             <button
               onClick={() => setSortMode(sortMode === 'count' ? 'alpha' : 'count')}
-              className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-[10px] font-black uppercase tracking-widest text-white/60 hover:text-white transition-all flex items-center gap-2 h-9"
+              className="px-4 py-2 rounded-xl bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] text-[10px] font-black uppercase tracking-widest text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all flex items-center gap-2 h-9"
               title="Toggle Sort Mode"
             >
               <ArrowUpDown className="w-3.5 h-3.5" />
               {sortMode === 'count' ? 'By Frequency' : 'Alphabetical'}
             </button>
 
-            <div className="flex bg-white/5 border border-white/10 rounded-xl p-1 gap-1 h-9 items-center">
+            <div className="flex bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] rounded-xl p-1 gap-1 h-9 items-center">
               <button
                 onClick={() => setShowPrefixes(!showPrefixes)}
-                className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showPrefixes ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/10' : 'text-white/20 hover:text-white/40'}`}
+                className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showPrefixes ? 'bg-[var(--kilang-primary)]/20 text-[var(--kilang-primary)] border border-[var(--kilang-primary)]/10' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
               >
                 Prefixes
               </button>
@@ -475,13 +475,13 @@ export const AffixesOverlay = ({
               </button>
               <button
                 onClick={() => setShowDuplixies(!showDuplixies)}
-                className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showDuplixies ? 'bg-fuchsia-500/20 text-fuchsia-400 border border-fuchsia-500/10' : 'text-white/20 hover:text-white/40'}`}
+                className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showDuplixies ? 'bg-fuchsia-500/10 text-fuchsia-400 border border-fuchsia-500/5' : 'text-white/20 hover:text-white/40'}`}
               >
                 Duplixies
               </button>
               <button
                 onClick={() => setShowFullDuplix(!showFullDuplix)}
-                className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showFullDuplix ? 'bg-fuchsia-500/40 text-fuchsia-300 border border-fuchsia-500/20 shadow-[0_0_15px_-3px_rgba(217,70,239,0.3)]' : 'text-white/20 hover:text-white/40'}`}
+                className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showFullDuplix ? 'bg-fuchsia-500/40 text-fuchsia-300 border border-fuchsia-500/20 shadow-[0_0_15px_-3px_rgba(217,70,239,0.4)]' : 'text-white/20 hover:text-white/40'}`}
                 title="Full Duplixes (Affix = Stem)"
               >
                 ²
@@ -497,11 +497,11 @@ export const AffixesOverlay = ({
                 onClick={() => setFiltersEnabled(!filtersEnabled)}
                 className={`px-4 py-2 rounded-xl border transition-all flex items-center gap-2 h-9 ${
                   filtersEnabled 
-                    ? 'bg-blue-500/20 border-blue-500/30 text-blue-400' 
+                    ? 'bg-[var(--kilang-primary)]/20 border-[var(--kilang-primary)]/30 text-[var(--kilang-primary)]' 
                     : 'bg-white/5 border-white/10 text-white/20 hover:text-white/40'
                 }`}
               >
-                <Filter className={`w-3.5 h-3.5 ${filtersEnabled ? 'text-blue-400' : ''}`} />
+                <Filter className={`w-3.5 h-3.5 ${filtersEnabled ? 'text-[var(--kilang-primary)]' : ''}`} />
                 <span className="text-[10px] font-black uppercase tracking-widest">
                   {filtersEnabled ? `Filters (${activeFilters.length})` : 'Raw Mode'}
                 </span>
@@ -652,11 +652,11 @@ export const AffixesOverlay = ({
                               <div className="h-1 bg-white/5 rounded-full overflow-hidden">
                                 <div
                                   className={`h-full opacity-60 transition-all duration-1000 ${
-                                    type === 'infix' ? 'bg-orange-500' :
-                                    type === 'suffix' ? 'bg-indigo-500' : 
-                                    type === 'duplix' ? 'bg-fuchsia-500' :
-                                    type === 'full_duplix' ? 'bg-fuchsia-400' :
-                                    'bg-emerald-500'
+                                    type === 'infix' ? 'bg-orange-400' :
+                                    type === 'suffix' ? 'bg-indigo-400' : 
+                                    type === 'duplix' ? 'bg-fuchsia-400' :
+                                    type === 'full_duplix' ? 'bg-fuchsia-300' :
+                                    'bg-blue-500'
                                     }`}
                                   style={{ width: `${(count / maxCount) * 100}%` }}
                                 />

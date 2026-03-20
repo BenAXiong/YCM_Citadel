@@ -40,6 +40,7 @@ Located in `core/` — Used to verify data integrity and detect "ghost bugs".
 | `diag_distiller.py` | Targeted debugging for the distillation pipeline. | Merge Logic |
 | `audio_tester.py` | Validates remote CDN audio URL availability. | Broke Links |
 | `audio_annexer.py` | Logic for local audio backup (Legacy usage). | Asset Management |
+| `sync-vars.mjs` | (Node) Automatically synchronizes the Kilang Design System manifest. | **`npm run sync-vars`** |
 
 ---
 

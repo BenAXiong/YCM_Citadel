@@ -38,19 +38,19 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
         {id === 'spacing' && (
           <>
             <div className="flex items-center justify-between pt-2">
-              <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Spacing Mode</span>
+              <span className="text-[8px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]/80">Spacing Mode</span>
               <button 
                 onClick={() => updateConfig({ spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' })} 
-                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-indigo-600/20 border-indigo-500/40 text-indigo-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}
+                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-bg)] hover:text-[var(--kilang-text)]'}`}
               >
                 <span className="text-[8px] font-black uppercase">{layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}</span>
               </button>
             </div>
             <div className="flex items-center justify-between pt-1">
-              <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Coupled Gaps</span>
+              <span className="text-[8px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]/80">Coupled Gaps</span>
               <button 
                 onClick={() => updateConfig({ coupleGaps: !layoutConfig.coupleGaps })} 
-                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.coupleGaps ? 'bg-emerald-600/20 border-emerald-500/40 text-emerald-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}
+                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.coupleGaps ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-bg)] hover:text-[var(--kilang-text)]'}`}
               >
                 <span className="text-[8px] font-black uppercase">{layoutConfig.coupleGaps ? 'Coupled' : 'Decoupled'}</span>
               </button>
@@ -59,10 +59,10 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
         )}
         {id === 'geometry' && (
           <div className="flex items-center justify-between pt-2">
-            <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Tree Icons</span>
+            <span className="text-[8px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]/80">Tree Icons</span>
             <button 
               onClick={() => updateConfig({ showIcons: !layoutConfig.showIcons })} 
-              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.showIcons ? 'bg-blue-600/20 border-blue-500/40 text-blue-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.showIcons ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-bg)] hover:text-[var(--kilang-text)]'}`}
             >
               {layoutConfig.showIcons ? <Zap className="w-3 h-3" /> : <ZapOff className="w-3 h-3" />}
               <span className="text-[8px] font-black uppercase">{layoutConfig.showIcons ? 'Visible' : 'Hidden'}</span>
@@ -77,12 +77,12 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
     <div className="p-6 animate-in fade-in slide-in-from-left-4 duration-500 space-y-8">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Settings2 className="w-4 h-4 text-blue-400" />
-          <h3 className="text-[10px] font-black uppercase tracking-widest text-white">Visual Styling</h3>
+          <Settings2 className="w-4 h-4 text-[var(--kilang-primary-text)]" />
+          <h3 className="text-[10px] font-black uppercase tracking-widest text-[var(--kilang-logo-text)]">Visual Styling</h3>
         </div>
         <button
           onClick={() => dispatch({ type: 'RESET_LAYOUT_CONFIG' })}
-          className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 transition-all hover:text-white"
+          className="p-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)] transition-all hover:text-[var(--kilang-text)]"
           title="Reset Defaults"
         >
           <RotateCcw className="w-3.5 h-3.5" />
@@ -123,9 +123,9 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
       >
         <div className="space-y-4 max-h-[400px] overflow-y-auto no-scrollbar pr-2">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((tier) => (
-            <div key={tier} className="p-3 bg-white/5 border border-white/5 rounded-2xl space-y-3">
+            <div key={tier} className="p-3 bg-[var(--kilang-bg-base)]/40 border border-[var(--kilang-border-std)] rounded-2xl space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-[9px] font-black uppercase tracking-widest text-blue-400">Tier {tier}</span>
+                <span className="text-[9px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]">Tier {tier}</span>
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <ColorPicker
@@ -142,7 +142,7 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
             </div>
           ))}
         </div>
-        <div className="mt-4 pt-4 border-t border-white/5 grid grid-cols-2 gap-4 pl-1">
+        <div className="mt-4 pt-4 border-t border-[var(--kilang-border-std)]/40 grid grid-cols-2 gap-4 pl-1">
           <ColorPicker label="Line Start" value={layoutConfig.lineColor} onChange={(v: string) => updateConfig({ lineColor: v })} />
           <ColorPicker label="Line Mid" value={layoutConfig.lineColorMid} onChange={(v: string) => updateConfig({ lineColorMid: v })} />
           <ColorPicker label="Line End" value={layoutConfig.lineGradientEnd} onChange={(v: string) => updateConfig({ lineGradientEnd: v })} />

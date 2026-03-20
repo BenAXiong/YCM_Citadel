@@ -46,20 +46,20 @@ const SentenceItem = ({ ex, focusWord }: { ex: any, focusWord: string }) => {
       if (part.startsWith('`') && part.endsWith('~')) {
         const word = part.slice(1, -1);
         const isMatch = normalizeWord(word) === lowFocus;
-        return <span key={i} className={isMatch ? "text-orange-400 font-bold" : ""}>{word}</span>;
+        return <span key={i} className={isMatch ? "text-[var(--kilang-primary-text)] font-bold drop-shadow-[0_0_8px_var(--kilang-primary-glow)]" : ""}>{word}</span>;
       }
       return <span key={i}>{part}</span>;
     });
   };
 
   return (
-    <div className="p-3 bg-white/5 rounded-xl border border-white/5 flex flex-col gap-2 group/sent transition-all hover:bg-white/10">
-      <div className="text-[16px] text-white/90 leading-relaxed font-sans">
+    <div className="p-3 bg-[var(--kilang-bg-base)]/40 rounded-xl border border-[var(--kilang-border-std)] flex flex-col gap-2 group/sent transition-all hover:bg-[var(--kilang-ctrl-active)]/5">
+      <div className="text-[16px] text-[var(--kilang-text)] leading-relaxed font-sans">
         {parseAmis(ex.ab)}
       </div>
-      <div className="space-y-1 pl-2 border-l border-white/10">
-        {ex.zh && <div className="text-[15px] text-blue-300/60 leading-tight">{ex.zh}</div>}
-        {ex.en && <div className="text-[11px] text-white/30 italic leading-tight">{ex.en}</div>}
+      <div className="space-y-1 pl-2 border-l border-[var(--kilang-border-std)]">
+        {ex.zh && <div className="text-[15px] text-[var(--kilang-secondary-text)] opacity-60 leading-tight">{ex.zh}</div>}
+        {ex.en && <div className="text-[11px] text-[var(--kilang-text-muted)] italic leading-tight">{ex.en}</div>}
       </div>
     </div>
   );
@@ -76,31 +76,31 @@ interface CollapsibleSectionProps {
 }
 
 const CollapsibleSection = ({ title, icon: Icon, isCollapsed, onToggle, children, action }: CollapsibleSectionProps) => (
-  <section className="mb-6 border border-white/10 rounded-2xl bg-[#0f172a]/50 overflow-hidden shadow-lg">
+  <section className="mb-6 border border-[var(--kilang-border-std)] rounded-2xl bg-[var(--kilang-bg-base)]/50 overflow-hidden shadow-[var(--kilang-shadow-primary)]">
     <div
       onClick={onToggle}
-      className={`flex items-center justify-between group cursor-pointer select-none px-4 py-3 transition-colors ${isCollapsed ? 'hover:bg-white/5' : 'bg-[#0f172a]/50 border-b border-white/5 hover:bg-white/10'}`}
+      className={`flex items-center justify-between group cursor-pointer select-none px-4 py-3 transition-colors ${isCollapsed ? 'hover:bg-[var(--kilang-ctrl-bg)]' : 'bg-[var(--kilang-bg-base)]/50 border-b border-[var(--kilang-border-std)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
     >
       <div className="flex items-center gap-2.5">
         {Icon && (
-          <div className="text-blue-400 group-hover:scale-110 transition-transform duration-300">
+          <div className="text-[var(--kilang-primary-text)] group-hover:scale-110 transition-transform duration-300">
             <Icon className="w-3.5 h-3.5" />
           </div>
         )}
-        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/50 group-hover:text-white transition-colors">
+        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)] transition-colors">
           {title}
         </span>
       </div>
 
       <div className="flex items-center gap-2">
         {action}
-        <div className="text-white/20 group-hover:text-white transition-colors">
+        <div className="text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)] transition-colors">
           {isCollapsed ? <ChevronRight className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
         </div>
       </div>
     </div>
     {!isCollapsed && (
-      <div className="animate-in fade-in slide-in-from-top-2 duration-300 p-4 bg-black/40 font-mono text-[10px] overflow-x-auto custom-scrollbar max-h-[500px]">
+      <div className="animate-in fade-in slide-in-from-top-2 duration-300 p-4 bg-[var(--kilang-bg-base)]/40 font-mono text-[10px] overflow-x-auto custom-scrollbar max-h-[500px]">
         {children}
       </div>
     )}
@@ -156,11 +156,11 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
   }, [showTreeTab, rightSidebarTab, dispatch]);
 
   const renderSentences = (jsonStr: string | null | undefined, focusWord: string) => {
-    if (!jsonStr) return <div className="text-[10px] text-white/20 italic pl-3 border-l border-white/5">No examples found</div>;
+    if (!jsonStr) return <div className="text-[10px] text-[var(--kilang-text-muted)] italic pl-3 border-l border-[var(--kilang-border-std)]">No examples found</div>;
     try {
       const examples = JSON.parse(jsonStr);
       if (!Array.isArray(examples) || examples.length === 0)
-        return <div className="text-[10px] text-white/20 italic pl-3 border-l border-white/5">No examples found</div>;
+        return <div className="text-[10px] text-[var(--kilang-text-muted)] italic pl-3 border-l border-[var(--kilang-border-std)]">No examples found</div>;
 
       return examples.map((ex, idx) => (
         <SentenceItem key={idx} ex={ex} focusWord={focusWord} />
@@ -172,21 +172,21 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
 
   return (
     <aside
-      className={`relative h-full flex flex-col kilang-glass-panel transition-all duration-300 ease-in-out z-50 ${isCollapsed ? 'w-0 border-l-0 overflow-visible' : 'border-l border-white/5 overflow-visible'}`}
+      className={`relative h-full flex flex-col kilang-glass-panel transition-all duration-300 ease-in-out z-50 ${isCollapsed ? 'w-0 border-l-0 overflow-visible' : 'border-l border-[var(--kilang-border-std)] overflow-visible'}`}
       style={{ width: isCollapsed ? '0px' : `${rightSidebarWidth}px` }}
     >
       {/* Resize Handle */}
       {!isCollapsed && (
         <div
           onMouseDown={handleResize}
-          className="absolute left-0 top-0 w-1 h-full cursor-col-resize hover:bg-blue-500/50 transition-colors z-50"
+          className="absolute left-0 top-0 w-1 h-full cursor-col-resize hover:bg-[var(--kilang-primary)]/50 transition-colors z-50"
         />
       )}
 
       {/* Collapse Toggle */}
       <button
         onClick={onToggle}
-        className={`absolute ${isCollapsed ? '-left-[21px]' : '-left-[22px]'} top-[22px] w-[22px] h-[30px] rounded-l-lg rounded-r-none flex items-center justify-center bg-[#1e293b] border-y border-l border-white/10 text-white/40 hover:text-white hover:bg-blue-600/40 hover:border-blue-500/50 shadow-[-4px_0_15px_rgba(0,0,0,0.3)] z-[100] transition-all group`}
+        className={`absolute ${isCollapsed ? '-left-[21px]' : '-left-[22px]'} top-[22px] w-[22px] h-[30px] rounded-l-lg rounded-r-none flex items-center justify-center bg-[var(--kilang-bg-base)] border-y border-l border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-primary)]/20 hover:border-[var(--kilang-primary)]/50 shadow-[-4px_0_15px_var(--kilang-shadow-color)] z-[100] transition-all group`}
         title={isCollapsed ? "Expand" : "Collapse"}
       >
         {isCollapsed ? (
@@ -199,7 +199,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
       {/* Tabs */}
       <div className={`flex flex-col h-full ${isCollapsed ? 'items-center py-4' : ''}`}>
         {!isCollapsed && (
-          <div className="flex border-b border-white/5 bg-[#0f172a]/50 p-1 m-4 rounded-2xl">
+          <div className="flex border border-[var(--kilang-border-std)] bg-[var(--kilang-bg-base)]/50 p-1 m-4 rounded-2xl shadow-[var(--kilang-shadow-primary)]">
             {[
               { id: 'txt', icon: FileText, label: 'Tree', show: showTreeTab },
               { id: 'sent', icon: MessageSquare, label: 'Sentences', show: true },
@@ -208,7 +208,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
               <button
                 key={tab.id}
                 onClick={() => dispatch({ type: 'SET_UI', rightSidebarTab: tab.id as any })}
-                className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${rightSidebarTab === tab.id ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${rightSidebarTab === tab.id ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-active)]/5'}`}
               >
                 <tab.icon className="w-3.5 h-3.5" />
                 <span>{tab.label}</span>
@@ -239,7 +239,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     return (
                       <button
                         onClick={(e) => { e.stopPropagation(); handleCopy('json', JSON.stringify(nodeData, null, 2)); }}
-                        className="p-1.5 rounded-md hover:bg-white/10 text-white/40 hover:text-white transition-all"
+                        className="p-1.5 rounded-md hover:bg-[var(--kilang-ctrl-active)]/5 text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all"
                         title="Copy JSON"
                       >
                         {copiedId === 'json' ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
@@ -249,11 +249,11 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                 >
                   {(() => {
                     const activeNode = canvasSelectedNode || selectedRoot;
-                    if (!activeNode) return <span className="text-white/20 italic">No data available</span>;
+                    if (!activeNode) return <span className="text-[var(--kilang-text-muted)] italic">No data available</span>;
                     const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) ||
                       (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? rootData : null);
 
-                    if (!nodeData) return <span className="text-white/20 italic">// {activeNode} details not found</span>;
+                    if (!nodeData) return <span className="text-[var(--kilang-text-muted)] italic">// {activeNode} details not found</span>;
 
                     return (
                       <div className="space-y-0.5 leading-relaxed">
@@ -265,12 +265,12 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                             const rest = line.substring(keyMatch[0].length);
                             return (
                               <div key={i}>
-                                {indent}<span className="text-blue-400">"{key}"</span>:
-                                <span className="text-orange-300">{rest}</span>
+                                {indent}<span className="text-[var(--kilang-primary-text)]">"{key}"</span>:
+                                <span className="text-[var(--kilang-secondary-text)]">{rest}</span>
                               </div>
                             );
                           }
-                          return <div key={i} className="text-white/40">{line}</div>;
+                          return <div key={i} className="text-[var(--kilang-text-muted)] opacity-60">{line}</div>;
                         })}
                       </div>
                     );
@@ -301,26 +301,26 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                       <div className="flex items-center gap-1">
                         <button
                           onClick={(e) => { e.stopPropagation(); setTrimDescendants(!trimDescendants); }}
-                          className={`p-1.5 rounded-md transition-all ${trimDescendants ? 'bg-orange-500/20 text-orange-400' : 'text-white/20 hover:text-white/40'}`}
+                          className={`p-1.5 rounded-md transition-all ${trimDescendants ? 'bg-[var(--kilang-accent)]/20 text-[var(--kilang-accent-text)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
                           title={trimDescendants ? "Show All Descendants" : "Trim All Descendants"}
                         >
                           <Scissors className="w-3 h-3" />
                         </button>
                         <button
                           onClick={(e) => { e.stopPropagation(); handleCopy('text', treeStr); }}
-                          className="p-1.5 rounded-md hover:bg-white/10 text-white/40 hover:text-white transition-all"
+                          className="p-1.5 rounded-md hover:bg-[var(--kilang-ctrl-active)]/5 text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all"
                           title="Copy ASCII Tree"
                         >
-                          {copiedId === 'text' ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
+                          {copiedId === 'text' ? <Check className="w-3 h-3 text-[var(--kilang-primary-text)]" /> : <Copy className="w-3 h-3" />}
                         </button>
                       </div>
                     );
                   })()}
                 >
-                  <div className="text-emerald-400/90 whitespace-pre">
+                  <div className="text-[var(--kilang-accent-text)] whitespace-pre">
                     {(() => {
                       const activeNode = canvasSelectedNode || selectedRoot;
-                      if (!activeNode || !rootData?.derivatives) return <span className="text-white/20 italic">Select a node to view its growth</span>;
+                      if (!activeNode || !rootData?.derivatives) return <span className="text-[var(--kilang-text-muted)] italic">Select a node to view its growth</span>;
 
                       const filterSet = canvasSelectedNode
                         ? (trimDescendants
@@ -351,26 +351,26 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                     return (
                       <button
                         onClick={(e) => { e.stopPropagation(); handleCopy('query', analysisStr); }}
-                        className="p-1.5 rounded-md hover:bg-white/10 text-white/40 hover:text-white transition-all"
+                        className="p-1.5 rounded-md hover:bg-[var(--kilang-ctrl-active)]/5 text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all"
                         title="Copy Analysis Summary"
                       >
-                        {copiedId === 'query' ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
+                        {copiedId === 'query' ? <Check className="w-3 h-3 text-[var(--kilang-primary-text)]" /> : <Copy className="w-3 h-3" />}
                       </button>
                     );
                   })()}
                 >
                   {(() => {
                     const activeNode = canvasSelectedNode || selectedRoot;
-                    if (!activeNode) return "Select a node to analyze";
+                    if (!activeNode) return <span className="text-[var(--kilang-text-muted)]">Select a node to analyze</span>;
                     const children = rootData?.derivatives?.filter((d: any) => d.parentWord?.toLowerCase() === activeNode.toLowerCase()) || [];
                     const allDescendants = rootData?.derivatives?.filter((d: any) => d.sortPath?.toLowerCase().includes(`>${activeNode.toLowerCase()}>`) || d.sortPath?.toLowerCase().endsWith(`>${activeNode.toLowerCase()}`)) || [];
 
                     return (
-                      <div className="text-purple-400/90 space-y-2">
-                        <div>WORD: <span className="text-white">{activeNode}</span></div>
-                        <div>CHILDREN: <span className="text-white">{children.length}</span></div>
-                        <div>SUBTREE SIZE: <span className="text-white">{allDescendants.length}</span></div>
-                        <div>TYPE: <span className="text-white">{activeNode === selectedRoot ? 'ROOT STEM' : 'DERIVATIVE'}</span></div>
+                      <div className="text-[var(--kilang-text-muted)] space-y-2">
+                        <div>WORD: <span className="text-[var(--kilang-primary-text)]">{activeNode}</span></div>
+                        <div>CHILDREN: <span className="text-[var(--kilang-text)]">{children.length}</span></div>
+                        <div>SUBTREE SIZE: <span className="text-[var(--kilang-text)]">{allDescendants.length}</span></div>
+                        <div>TYPE: <span className="text-[var(--kilang-text)]">{activeNode === selectedRoot ? 'ROOT STEM' : 'DERIVATIVE'}</span></div>
                       </div>
                     );
                   })()}
@@ -386,38 +386,38 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                 >
                   {(() => {
                     const activeNode = canvasSelectedNode || selectedRoot;
-                    if (!activeNode) return "Select a node to view attributes";
+                    if (!activeNode) return <span className="text-[var(--kilang-text-muted)]">Select a node to view attributes</span>;
                     const nodeData = rootData?.derivatives?.find((d: any) => d.word_ab.toLowerCase() === activeNode.toLowerCase()) ||
                       (selectedRoot?.toLowerCase() === activeNode.toLowerCase() ? { word: activeNode, isRoot: true, ...rootData } : null);
 
-                    if (!nodeData) return <div className="text-white/20 italic">No entry data found</div>;
+                    if (!nodeData) return <div className="text-[var(--kilang-text-muted)] italic">No entry data found</div>;
 
                     return (
-                      <>
+                      <div className="space-y-4">
                         <div className="space-y-1">
                           <div className="flex items-center gap-1.5 opacity-40 uppercase tracking-tighter text-[9px]">
-                            <div className="w-1 h-1 bg-white/40 rounded-full" />
+                            <div className="w-1 h-1 bg-[var(--kilang-text-muted)] rounded-full" />
                             Definition
                           </div>
-                          <div className="text-white/80 leading-relaxed pl-2.5 border-l border-white/10 italic">
+                          <div className="text-[var(--kilang-text)]/80 leading-relaxed pl-2.5 border-l border-[var(--kilang-border-std)] italic">
                             {nodeData.definition || "No definition available"}
                           </div>
                         </div>
                         <div className="grid grid-cols-2 gap-2">
-                          <div className="space-y-1">
-                            <div className="opacity-40 uppercase tracking-tighter text-[9px]">Pinyin</div>
-                            <div className="text-blue-400">{nodeData.pinyin || "-"}</div>
+                          <div className="flex flex-col">
+                            <span className="text-[8px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest opacity-60">WORD</span>
+                            <span className="text-sm font-black text-[var(--kilang-primary-text)] uppercase tracking-widest">{activeNode}</span>
                           </div>
-                          <div className="space-y-1">
-                            <div className="opacity-40 uppercase tracking-tighter text-[9px]">Bopomofo</div>
-                            <div className="text-emerald-400">{nodeData.bopomofo || "-"}</div>
+                          <div className="flex flex-col items-end">
+                            <span className="text-[8px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest opacity-60">CHILDREN</span>
+                            <span className="text-sm font-black text-[var(--kilang-text)] font-mono">{rootData?.derivatives?.filter((d: any) => d.parentWord?.toLowerCase() === activeNode.toLowerCase()).length || 0}</span>
                           </div>
                         </div>
-                        <div className="pt-2 border-t border-white/5">
+                        <div className="pt-2 border-t border-[var(--kilang-border-std)]">
                           <div className="opacity-40 uppercase tracking-tighter text-[9px]">Source Code</div>
-                          <div className="text-white/40">{nodeData.dict_code || "Unknown"}</div>
+                          <div className="text-[var(--kilang-text-muted)] font-mono">{nodeData.dict_code || "Unknown"}</div>
                         </div>
-                      </>
+                      </div>
                     );
                   })()}
                 </CollapsibleSection>
@@ -430,8 +430,8 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                   const activeNode = canvasSelectedNode || selectedRoot;
                   if (!activeNode) return (
                     <div className="flex flex-col items-center justify-center py-20 opacity-20 text-center">
-                      <MessageSquare className="w-12 h-12 mb-4" />
-                      <p className="text-[10px] font-black uppercase tracking-widest">Select a node to view usage</p>
+                      <MessageSquare className="w-12 h-12 mb-4 text-[var(--kilang-text-muted)]" />
+                      <span className="text-[10px] font-black uppercase tracking-[0.3em] text-[var(--kilang-text-muted)]">Select a node to view its structural properties</span>
                     </div>
                   );
 
@@ -452,17 +452,17 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                       {/* PRIMARY SELECTION */}
                       <section className="space-y-4 mb-8">
                         <div className="space-y-2">
-                          <h2 className="text-4xl font-black text-white uppercase tracking-tight">{activeNode}</h2>
-                          <div className="space-y-2 pl-2 border-l-4 border-blue-500/30">
+                          <h2 className="text-2xl font-black text-[var(--kilang-primary-text)] tracking-tighter uppercase mb-6 drop-shadow-[0_0_10px_var(--kilang-primary-glow)]">{activeNode}</h2>
+                          <div className="border-l-4 border-[var(--kilang-primary-border)]/30 pl-8 space-y-6 py-4">
                             {nodeData?.definitions && nodeData.definitions.length > 0 ? (
                               nodeData.definitions.map((def: string, i: number) => (
-                                <div key={i} className="text-md text-blue-400 font-medium leading-relaxed">
-                                  {nodeData.definitions!.length > 1 && <span className="text-blue-500/50 mr-2">{i + 1}.</span>}
+                                <div key={i} className="text-md text-[var(--kilang-primary-text)] font-medium leading-relaxed">
+                                  {nodeData.definitions!.length > 1 && <span className="text-[var(--kilang-primary-text)]/50 mr-2">{i + 1}.</span>}
                                   {def}
                                 </div>
                               ))
                             ) : (
-                              <div className="text-lg text-blue-400 font-medium leading-relaxed italic opacity-50">
+                              <div className="text-lg text-[var(--kilang-primary-text)] font-medium leading-relaxed italic opacity-50">
                                 {nodeData?.definition || "No definition available"}
                               </div>
                             )}
@@ -475,7 +475,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                       </section>
 
                       {/* GENEALOGICAL CONTEXT */}
-                      <div className="pt-6 border-t border-white/5 space-y-4">
+                      <div className="pt-6 border-t border-[var(--kilang-border-std)] space-y-4">
 
                         {/* PARENTS CONTEXT (FULL LINEAGE) */}
                         {parentNodes.length > 0 && (
@@ -489,19 +489,19 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                             <div className="space-y-6">
                               {parentNodes.map((pNode: any) => (
                                 <div key={pNode.word_ab} className="space-y-2">
-                                  <div className="text-[12px] font-bold text-white/90 uppercase tracking-widest border-b border-white/5 pb-1">{pNode.word_ab}</div>
+                                  <div className="text-[12px] font-bold text-[var(--kilang-text)]/90 uppercase tracking-widest border-b border-[var(--kilang-border-std)] pb-1">{pNode.word_ab}</div>
 
                                   {/* Multi-definition for ancestors */}
                                   <div className="space-y-1 pl-2 mb-2">
                                     {pNode.definitions && pNode.definitions.length > 0 ? (
                                       pNode.definitions.map((def: string, i: number) => (
-                                        <div key={i} className="text-[12px] text-blue-300/60 leading-tight">
+                                        <div key={i} className="text-[12px] text-[var(--kilang-secondary-text)] leading-tight">
                                           {pNode.definitions.length > 1 && <span className="opacity-40 mr-1">{i + 1}.</span>}
                                           {def}
                                         </div>
                                       ))
                                     ) : (
-                                      <div className="text-[10px] text-blue-300/40 italic">{pNode.definition}</div>
+                                      <div className="text-[10px] text-[var(--kilang-secondary-text)] opacity-40 italic">{pNode.definition}</div>
                                     )}
                                   </div>
 
@@ -526,19 +526,19 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                             <div className="space-y-6">
                               {childrenNodes.map((child: any) => (
                                 <div key={child.word_ab} className="space-y-2">
-                                  <div className="text-[12px] font-bold text-white/90 uppercase tracking-widest border-b border-white/5 pb-1">{child.word_ab}</div>
+                                  <div className="text-[12px] font-bold text-[var(--kilang-text)]/90 uppercase tracking-widest border-b border-[var(--kilang-border-std)] pb-1">{child.word_ab}</div>
 
                                   {/* Multi-definition for children */}
                                   <div className="space-y-1 pl-2 mb-2">
                                     {child.definitions && child.definitions.length > 0 ? (
                                       child.definitions.map((def: string, i: number) => (
-                                        <div key={i} className="text-[12px] text-blue-300/60 leading-tight">
+                                        <div key={i} className="text-[12px] text-[var(--kilang-secondary-text)] leading-tight">
                                           {child.definitions.length > 1 && <span className="opacity-40 mr-1">{i + 1}.</span>}
                                           {def}
                                         </div>
                                       ))
                                     ) : (
-                                      <div className="text-[12px] text-blue-300/40 italic">{child.definition}</div>
+                                      <div className="text-[12px] text-[var(--kilang-secondary-text)] opacity-40 italic">{child.definition}</div>
                                     )}
                                   </div>
 
@@ -552,7 +552,7 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
                         )}
 
                         {parentNodes.length === 0 && childrenNodes.length === 0 && (
-                          <div className="text-[12px] italic text-white/20 text-center py-4">No morphological neighbors to compare</div>
+                          <div className="text-[12px] italic text-[var(--kilang-text-muted)] text-center py-4">No morphological neighbors to compare</div>
                         )}
                       </div>
                     </>
@@ -564,12 +564,13 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
             {rightSidebarTab === 'met' && (
               <div className="space-y-4">
                 <div className="flex items-center gap-2 mb-2">
-                  <div className="w-1 h-4 bg-purple-500 rounded-full" />
-                  <h3 className="text-[11px] font-black uppercase tracking-widest text-white/80">Affixes / Decomposition</h3>
+                  <div className="w-1 h-4 bg-[var(--kilang-accent)] rounded-full" />
+                  <h3 className="text-[11px] font-black uppercase tracking-widest text-[var(--kilang-text)]/80">Affixes / Decomposition</h3>
                 </div>
-                <div className="p-4 bg-white/5 rounded-xl border border-white/5 text-center py-20">
-                  <Layout className="w-8 h-8 mx-auto mb-3 opacity-20" />
-                  <p className="text-[9px] font-bold text-white/30 uppercase tracking-tighter">Affix Mapping Coming Soon</p>
+                <div className="mt-4 p-5 bg-[var(--kilang-ctrl-bg)] rounded-2xl border border-[var(--kilang-border-std)] transition-all">
+                  <p className="text-xs font-medium text-[var(--kilang-text)] leading-relaxed italic opacity-80">
+                    “{rootData?.definition || 'No semantic definition mapped for this node yet...'}”
+                  </p>
                 </div>
               </div>
             )}
@@ -583,4 +584,3 @@ export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nod
     </aside>
   );
 };
-

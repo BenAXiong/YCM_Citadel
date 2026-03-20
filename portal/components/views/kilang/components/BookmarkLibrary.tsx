@@ -31,8 +31,8 @@ export const BookmarkLibrary = React.memo(({
   if (bookmarks.length === 0) {
     return (
       <div className="py-12 flex flex-col items-center justify-center text-center px-4">
-        <div className="w-12 h-12 rounded-full bg-indigo-500/10 flex items-center justify-center mb-4 border border-indigo-500/20">
-          <Library className="w-5 h-5 text-indigo-400 opacity-20" />
+        <div className="w-12 h-12 rounded-full bg-[var(--kilang-secondary)]/10 flex items-center justify-center mb-4 border border-[var(--kilang-secondary)]/20">
+          <Library className="w-5 h-5 text-[var(--kilang-secondary)] opacity-20" />
         </div>
         <p className="text-[10px] font-bold text-white/30 uppercase tracking-widest leading-relaxed">Your bookmark library is empty</p>
         <p className="text-[8px] text-white/10 mt-2">Click the bookmark icon in any tree to save it here</p>
@@ -55,15 +55,15 @@ export const BookmarkLibrary = React.memo(({
             >
               <div
                 onClick={() => loadBookmark(b)}
-                className={`group px-4 py-3 rounded-xl border transition-all cursor-pointer flex items-center justify-between ${selectedRoot === b.root ? 'bg-indigo-600/20 border-indigo-500/50' : 'bg-white/5 border-white/5 hover:border-white/20'}`}
+                className={`group px-4 py-3 rounded-xl border transition-all cursor-pointer flex items-center justify-between ${selectedRoot === b.root ? 'bg-[var(--kilang-secondary)]/20 border-[var(--kilang-secondary)]/50' : 'bg-white/5 border-white/5 hover:border-[var(--kilang-primary)]/20'}`}
               >
                 <div className="flex items-center gap-4">
-                  <span className="text-[10px] font-black text-blue-500 bg-blue-500/10 px-2.5 py-1 rounded-lg min-w-[32px] text-center">{b.count || 0}</span>
+                  <span className="text-[10px] font-black text-[var(--kilang-primary)] bg-[var(--kilang-primary)]/10 px-2.5 py-1 rounded-lg min-w-[32px] text-center">{b.count || 0}</span>
                   <div className="flex flex-col gap-1">
                     <div className="flex items-center gap-2">
                       <span className="text-sm font-black text-white uppercase tracking-tight">{b.root}</span>
                       {b.type === 'custom' && (
-                        <span className="text-[7px] px-1.5 py-0.5 rounded font-black uppercase bg-blue-500/20 text-blue-400">
+                        <span className="text-[7px] px-1.5 py-0.5 rounded font-black uppercase bg-[var(--kilang-primary)]/20 text-[var(--kilang-primary)]">
                           custom
                         </span>
                       )}

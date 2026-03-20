@@ -199,7 +199,7 @@ export default function KilangView({
         if (background === 'white') options.backgroundColor = '#ffffff';
         else if (background === 'black') options.backgroundColor = '#000000';
         else if (background === 'origin') {
-          options.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--kilang-bg').trim() || '#020617';
+          options.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--kilang-bg-base').trim() || '#020617';
         }
         else if (background === 'transparent') options.backgroundColor = null;
 
@@ -263,8 +263,8 @@ export default function KilangView({
     return (
       <div className="kilang-container flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
-          <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin" />
-          <div className="text-blue-500 font-bold tracking-widest uppercase">Growing the Kilang...</div>
+          <div className="w-12 h-12 border-4 border-[var(--kilang-primary)] border-t-transparent rounded-full animate-spin" />
+          <div className="text-[var(--kilang-primary)] font-bold tracking-widest uppercase">Growing the Kilang...</div>
         </div>
       </div>
     );
@@ -308,9 +308,9 @@ export default function KilangView({
 
       <ThemeBar
         show={state.showThemeBar}
-        onClose={() => dispatch({ type: 'SET_UI', showThemeBar: false })}
+        onClose={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
         activeTab={state.themeBarTab}
-        setActiveTab={(t: 'themes' | 'landing' | 'fonts') => dispatch({ type: 'SET_UI', themeBarTab: t })}
+        setActiveTab={(t: 'themes' | 'landing' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: t })}
         landingVersion={state.landingVersion}
         setLandingVersion={(v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v })}
         logoStyle={state.logoStyles[state.landingVersion]}

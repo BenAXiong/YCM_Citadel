@@ -280,39 +280,39 @@ export const KilangCanvas = ({
   return (
     <main className="flex-1 overflow-hidden relative">
       <div className={`h-full flex flex-col overflow-hidden transition-all duration-500 ${isFullView ? 'p-0 bg-[var(--kilang-bg-base)]' : 'p-8'}`}>
-        <div className={`flex-1 overflow-hidden relative flex flex-col transition-all duration-500 ${isFullView ? 'kilang-glass-panel-immersive' : 'kilang-glass-panel rounded-3xl border border-white/10 shadow-2xl'}`}>
+        <div className={`flex-1 overflow-hidden relative flex flex-col transition-all duration-500 ${isFullView ? 'kilang-glass-panel-immersive' : 'kilang-glass-panel rounded-3xl border border-[var(--kilang-border-std)] shadow-[var(--kilang-shadow-primary)]'}`}>
           {showPerfMonitor && !exporting && <PerformanceMonitor />}
 
           {moveGrowthToCanvas && !exporting && selectedRoot && (
             <div className="absolute top-6 left-6 z-[100] flex flex-col gap-3 animate-in slide-in-from-top-2 duration-300">
               {moveGrowthToCanvas && (
                 <div className="flex flex-col gap-2">
-                  <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
+                  <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
                     <button
                       onClick={() => setDirection('horizontal')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'horizontal' ? 'bg-[var(--kilang-primary-active)] text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'horizontal' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                       title="Horizontal Growth"
                     >
                       <ArrowRight className="w-3.5 h-3.5" />
                     </button>
                     <button
                       onClick={() => setDirection('vertical')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'vertical' ? 'bg-[var(--kilang-primary-active)] text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'vertical' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                       title="Vertical Growth"
                     >
                       <ArrowUp className="w-3.5 h-3.5" />
                     </button>
-                    <div className="w-[1px] h-4 bg-white/10 mx-1 self-center" />
+                    <div className="w-[1px] h-4 border-l border-[var(--kilang-border-std)] mx-1 self-center" />
                     <button
                       onClick={() => setArrangement('flow')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'flow' ? 'bg-[var(--kilang-primary-active)] text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'flow' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                       title="Flow Arrangement"
                     >
                       <LayoutGrid className="w-3.5 h-3.5" />
                     </button>
                     <button
                       onClick={() => setArrangement('aligned')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'aligned' ? 'bg-[var(--kilang-primary-active)] text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'aligned' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                       title="Aligned Arrangement"
                     >
                       <Rows className="w-3.5 h-3.5" />
@@ -327,10 +327,10 @@ export const KilangCanvas = ({
           {/* Top Right: Full View Toggle */}
           {selectedRoot && !exporting && (
             <div className={`absolute z-[100] animate-in slide-in-from-top-2 duration-300 ${isFullView ? 'top-8 right-8' : 'top-6 right-6'}`}>
-              <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
+              <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
                 <button
                   onClick={() => setIsFit(!isFit)}
-                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-[var(--kilang-primary-active)] text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                   title={isFit ? "Expand to Actual Size" : "Fit Tree"}
                 >
                   {isFit ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
@@ -342,21 +342,21 @@ export const KilangCanvas = ({
           {/* Bottom Left: Zoom Controls */}
           {moveZoomToCanvas && selectedRoot && !exporting && (
             <div className="absolute bottom-6 left-6 z-[110] animate-in slide-in-from-bottom-2 duration-300">
-              <div className="kilang-ctrl-container !bg-[#020617]/40 backdrop-blur-md !border-white/10 !p-1 shadow-2xl w-fit">
+              <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
                 <button
                   onClick={() => setIsFit(!isFit)}
-                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                   title={isFit ? "Expand to Actual Size" : "Fit Tree"}
                 >
                   {isFit ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
                 </button>
-                <button onClick={() => { setScale((prev: number) => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all" title="Out">
+                <button onClick={() => { setScale((prev: number) => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-8 rounded-lg flex items-center justify-center text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] transition-all" title="Out">
                   <Minus className="w-3.5 h-3.5" />
                 </button>
-                <button onClick={() => { setScale((prev: number) => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all" title="In">
+                <button onClick={() => { setScale((prev: number) => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-8 rounded-lg flex items-center justify-center text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] transition-all" title="In">
                   <Plus className="w-3.5 h-3.5" />
                 </button>
-                <button onClick={() => dispatch({ type: 'RESET_TRANSFORM' })} className="w-8 h-8 rounded-lg flex items-center justify-center text-white/40 hover:text-white hover:bg-white/5 transition-all" title="Reset Zoom">
+                <button onClick={() => dispatch({ type: 'RESET_TRANSFORM' })} className="w-8 h-8 rounded-lg flex items-center justify-center text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] transition-all" title="Reset Zoom">
                   <RotateCcw className="w-3.5 h-3.5" />
                 </button>
               </div>
@@ -416,8 +416,8 @@ export const KilangCanvas = ({
 
               {rootData?.loading && (
                 <div className="absolute inset-0 z-40 flex flex-col items-center justify-center space-y-4 bg-transparent pointer-events-none">
-                  <RefreshCw className="w-10 h-10 text-blue-500 animate-spin opacity-50" />
-                  <div className="animate-pulse text-blue-500 font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div>
+                  <RefreshCw className="w-10 h-10 text-[var(--kilang-primary)] animate-spin opacity-50" />
+                  <div className="animate-pulse text-[var(--kilang-primary)] font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div>
                 </div>
               )}
 
@@ -546,14 +546,14 @@ export const KilangCanvas = ({
               className="absolute bottom-10 left-1/2 -translate-x-1/2 z-[60] animate-in fade-in slide-in-from-bottom-4 duration-500 pointer-events-auto group"
               onMouseEnter={(e) => e.stopPropagation()}
             >
-              <div className="bg-[var(--kilang-bg)]/90 backdrop-blur-2xl border border-[var(--kilang-primary)]/30 px-8 py-4 rounded-[20px] shadow-[0_0_50px_rgba(0,0,0,0.5)] flex items-center gap-3 relative">
+              <div className="bg-[var(--kilang-bg)]/90 backdrop-blur-2xl border border-[var(--kilang-primary)]/30 px-8 py-4 rounded-[20px] shadow-[var(--kilang-shadow-primary)] flex items-center gap-3 relative">
                 {linearPath.map((word: string, idx: number) => (
                   <React.Fragment key={word}>
-                    <span className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all duration-300 ${idx === linearPath.length - 1 ? 'text-[var(--kilang-primary)]' : 'text-white/40'}`}>
+                    <span className={`text-[11px] font-black uppercase tracking-[0.2em] transition-all duration-300 ${idx === linearPath.length - 1 ? 'text-[var(--kilang-primary)]' : 'text-[var(--kilang-text-muted)]'}`}>
                       {word}
                     </span>
                     {idx < linearPath.length - 1 && (
-                      <ChevronRight className="w-3 h-3 text-white/10" />
+                      <ChevronRight className="w-3 h-3 text-[var(--kilang-border-std)]" />
                     )}
                   </React.Fragment>
                 ))}
@@ -561,7 +561,7 @@ export const KilangCanvas = ({
 
               <button
                 onClick={(e) => { e.stopPropagation(); handleCopyChain(linearPath); }}
-                className="p-2 rounded-xl bg-[var(--kilang-bg)]/80 backdrop-blur-xl border border-white/10 text-white/40 hover:text-white transition-all opacity-0 group-hover:opacity-100 shadow-xl"
+                className="p-2 rounded-xl bg-[var(--kilang-bg)]/80 backdrop-blur-xl border border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all opacity-0 group-hover:opacity-100 shadow-[var(--kilang-shadow-primary)]"
                 title="Copy Path"
               >
                 {copiedChain ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}

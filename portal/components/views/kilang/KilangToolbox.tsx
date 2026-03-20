@@ -54,33 +54,33 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
   return (
     <div
       id="kilang-toolbox"
-      className="absolute top-6 left-6 w-72 bg-[#0f172a]/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl z-[5001] flex flex-col overflow-hidden animate-in fade-in slide-in-from-left-4 duration-500"
+      className="absolute top-6 left-6 w-72 bg-[var(--kilang-bg-base)]/90 backdrop-blur-xl border border-[var(--kilang-border-std)] rounded-2xl shadow-[var(--kilang-shadow-primary)] z-[5001] flex flex-col overflow-hidden animate-in fade-in slide-in-from-left-4 duration-500"
       style={!isCollapsed ? { height: `${height}px` } : {}}
     >
       {/* Header */}
-      <div className="flex items-center justify-between px-4 py-3 border-b border-white/5 bg-white/5">
+      <div className="flex items-center justify-between px-4 py-3 border-b border-[var(--kilang-border-std)] bg-[var(--kilang-ctrl-bg)]">
         <div className="flex items-center gap-2">
-          <Box className="w-3.5 h-3.5 text-blue-400" />
-          <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white">Visual Toolbox</span>
+          <Box className="w-3.5 h-3.5 text-[var(--kilang-primary-text)]" />
+          <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[var(--kilang-text)]">Visual Toolbox</span>
         </div>
         <div className="flex items-center gap-1">
           <button
             onClick={() => setIsCollapsed(!isCollapsed)}
-            className={`p-1.5 hover:bg-white/10 rounded-lg transition-all ${isCollapsed ? 'text-blue-400 -rotate-90' : 'text-white/40 rotate-180'}`}
+            className={`p-1.5 hover:bg-[var(--kilang-ctrl-active)]/10 rounded-lg transition-all ${isCollapsed ? 'text-[var(--kilang-primary-text)] -rotate-90' : 'text-[var(--kilang-text-muted)] rotate-180'}`}
             title={isCollapsed ? "Expand Toolbox" : "Collapse Toolbox"}
           >
             <Triangle className="w-2.5 h-2.5 fill-current" />
           </button>
           <button
             onClick={resetConfig}
-            className="p-1.5 hover:bg-white/10 rounded-lg text-white/40 hover:text-white transition-colors"
+            className="p-1.5 hover:bg-[var(--kilang-ctrl-active)]/10 rounded-lg text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-colors"
             title="Reset Defaults"
           >
             <RotateCcw className="w-3.5 h-3.5" />
           </button>
           <button
             onClick={closeToolbox}
-            className="p-1.5 hover:bg-red-500/20 rounded-lg text-white/40 hover:text-red-400 transition-colors"
+            className="p-1.5 hover:bg-red-500/20 rounded-lg text-[var(--kilang-text-muted)] hover:text-red-400 transition-colors"
             title="Close Toolbox"
           >
             <X className="w-3.5 h-3.5" />
@@ -121,19 +121,19 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 onChange={(v) => updateConfig({ rootGap: v })}
               />
               <div className="flex items-center justify-between pt-2">
-                <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Spacing Mode</span>
+                <span className="text-[8px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]/80">Spacing Mode</span>
                 <button
                   onClick={() => updateConfig({ spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' })}
-                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-indigo-600/20 border-indigo-500/40 text-indigo-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-[var(--kilang-secondary)]/20 border-[var(--kilang-secondary-border)]/40 text-[var(--kilang-secondary-text)]' : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:border-[var(--kilang-border-std)]'}`}
                 >
                   <span className="text-[8px] font-black uppercase">{layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}</span>
                 </button>
               </div>
               <div className="flex items-center justify-between pt-1">
-                <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Coupled Gaps</span>
+                <span className="text-[8px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]/80">Coupled Gaps</span>
                 <button
                   onClick={() => updateConfig({ coupleGaps: !layoutConfig.coupleGaps })}
-                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.coupleGaps ? 'bg-emerald-600/20 border-emerald-500/40 text-emerald-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.coupleGaps ? 'bg-[var(--kilang-primary)]/20 border-[var(--kilang-primary-border)]/40 text-[var(--kilang-primary-text)]' : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:border-[var(--kilang-border-std)]'}`}
                 >
                   <span className="text-[8px] font-black uppercase">{layoutConfig.coupleGaps ? 'Coupled' : 'Decoupled'}</span>
                 </button>
@@ -217,7 +217,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 <span className="text-[8px] font-black uppercase tracking-widest text-blue-400/80">Tree Icons</span>
                 <button
                   onClick={() => updateConfig({ showIcons: !layoutConfig.showIcons })}
-                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.showIcons ? 'bg-blue-600/20 border-blue-500/40 text-blue-400' : 'bg-white/5 border-white/10 text-white/30 hover:border-white/30'}`}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${layoutConfig.showIcons ? 'bg-[var(--kilang-ctrl-active)]/20 border-[var(--kilang-primary-border)]/40 text-[var(--kilang-primary-text)]' : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:border-[var(--kilang-border-std)]'}`}
                 >
                   {layoutConfig.showIcons ? <Zap className="w-3 h-3" /> : <ZapOff className="w-3 h-3" />}
                   <span className="text-[8px] font-black uppercase">{layoutConfig.showIcons ? 'Visible' : 'Hidden'}</span>
@@ -265,7 +265,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                   onChange={(v) => updateConfig({ anchorY: (v / 100) * 2000 })}
                 />
               </div>
-              <p className="text-[7px] text-white/20 italic leading-relaxed">Relative % is mapped to the internal 2000px forest canvas.</p>
+              <p className="text-[7px] text-[var(--kilang-text-muted)] italic leading-relaxed">Relative % is mapped to the internal 2000px forest canvas.</p>
             </div>
           </section>
 
@@ -285,7 +285,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                     onChange={(e) => updateConfig({ rootColor: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
-                  <span className="text-[8px] font-mono text-white/40 uppercase">{layoutConfig.rootColor}</span>
+                  <span className="text-[8px] font-mono text-[var(--kilang-text-muted)] uppercase">{layoutConfig.rootColor}</span>
                 </div>
               </div>
               <div className="space-y-2">
@@ -297,7 +297,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                     onChange={(e) => updateConfig({ branchColor: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
-                  <span className="text-[8px] font-mono text-white/40 uppercase">{layoutConfig.branchColor}</span>
+                  <span className="text-[8px] font-mono text-[var(--kilang-text-muted)] uppercase">{layoutConfig.branchColor}</span>
                 </div>
               </div>
               <div className="space-y-2">
@@ -309,7 +309,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                     onChange={(e) => updateConfig({ lineColor: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
-                  <span className="text-[8px] font-mono text-white/40 uppercase">{layoutConfig.lineColor}</span>
+                  <span className="text-[8px] font-mono text-[var(--kilang-text-muted)] uppercase">{layoutConfig.lineColor}</span>
                 </div>
               </div>
               <div className="space-y-2">
@@ -321,7 +321,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                     onChange={(e) => updateConfig({ lineColorMid: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
-                  <span className="text-[8px] font-mono text-white/40 uppercase">{layoutConfig.lineColorMid}</span>
+                  <span className="text-[8px] font-mono text-[var(--kilang-text-muted)] uppercase">{layoutConfig.lineColorMid}</span>
                 </div>
               </div>
               <div className="space-y-2">
@@ -333,7 +333,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                     onChange={(e) => updateConfig({ lineGradientEnd: e.target.value })}
                     className="w-8 h-8 bg-transparent border-none rounded cursor-pointer"
                   />
-                  <span className="text-[8px] font-mono text-white/40 uppercase">{layoutConfig.lineGradientEnd}</span>
+                  <span className="text-[8px] font-mono text-[var(--kilang-text-muted)] uppercase">{layoutConfig.lineGradientEnd}</span>
                 </div>
               </div>
             </div>
@@ -344,7 +344,7 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
       {/* Resize Handle */}
       {!isCollapsed && (
         <div
-          className="h-1.5 w-full bg-white/5 hover:bg-blue-500 transition-colors cursor-ns-resize absolute bottom-0 left-0"
+          className="h-1.5 w-full bg-[var(--kilang-ctrl-bg)] hover:bg-blue-500 transition-colors cursor-ns-resize absolute bottom-0 left-0"
           onMouseDown={(e) => {
             e.preventDefault();
             isResizing.current = true;
@@ -369,7 +369,7 @@ interface SliderProps {
 
 const Slider = ({ label, value, min, max, step, unit, disabled, onChange }: SliderProps) => (
   <div className={`space-y-2 transition-opacity duration-300 ${disabled ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}>
-    <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-blue-400/80">
+    <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]/80">
       <span>{label}</span>
       <span className="font-mono">{value}{unit}</span>
     </div>
@@ -379,7 +379,7 @@ const Slider = ({ label, value, min, max, step, unit, disabled, onChange }: Slid
       value={value ?? min ?? 0}
       disabled={disabled}
       onChange={(e) => onChange(parseFloat(e.target.value))}
-      className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-blue-500 hover:accent-blue-400 transition-all disabled:cursor-not-allowed"
+      className="w-full h-1 bg-[var(--kilang-border-std)] rounded-lg appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:accent-[var(--kilang-primary-text)] transition-all disabled:cursor-not-allowed"
     />
   </div>
 );

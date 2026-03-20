@@ -73,13 +73,13 @@ export const KilangMobileLayout = ({
   } = state;
 
   return (
-    <div className="kilang-container flex flex-col h-screen overflow-hidden bg-[#020617] text-white">
+    <div className="kilang-container flex flex-col h-screen overflow-hidden bg-[var(--kilang-bg-base)] text-[var(--kilang-text)]">
       {/* 1. Mobile Header */}
-      <header className="h-14 border-b border-white/5 flex items-center justify-between px-4 bg-[#0a0f1e]/80 backdrop-blur-md z-50">
+      <header className="h-14 border-b border-[var(--kilang-border-std)] flex items-center justify-between px-4 bg-[var(--kilang-bg-base)]/80 backdrop-blur-md z-50">
         <div className="flex items-center gap-3">
           <button 
             onClick={() => setShowSearch(true)}
-            className="p-2 rounded-lg bg-white/5 text-blue-400 hover:bg-white/10 active:scale-95 transition-all"
+            className="p-2 rounded-lg bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-primary)] hover:bg-[var(--kilang-ctrl-active)]/10 active:scale-95 transition-all"
           >
             <Search className="w-5 h-5" />
           </button>
@@ -87,9 +87,9 @@ export const KilangMobileLayout = ({
             <img 
               src="/kilang/Kilang_5_nobg.png" 
               alt="Kilang" 
-              className="w-11 h-11 object-contain drop-shadow-[0_0_10px_rgba(59,130,246,0.4)]"
+              className="w-11 h-11 object-contain drop-shadow-[0_0_10px_var(--kilang-primary-glow)]"
             />
-            <span className="text-xs font-bold text-white truncate max-w-[120px]">
+            <span className="text-xs font-bold text-[var(--kilang-text)] truncate max-w-[120px]">
               {selectedRoot || 'Select Root'}
             </span>
           </div>
@@ -98,27 +98,27 @@ export const KilangMobileLayout = ({
         <div className="flex items-center gap-2">
           <button 
              onClick={toggleUiLang}
-             className="p-2 rounded-lg bg-white/5 text-white/60 hover:text-white hover:bg-white/10 active:scale-95 transition-all"
+             className="p-2 rounded-lg bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] active:scale-95 transition-all"
              title="Toggle Language"
           >
             <Languages className="w-4 h-4" />
           </button>
           <button 
              onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
-             className={`p-2 rounded-lg active:scale-95 transition-all ${state.showThemeBar ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'bg-white/5 text-white/60'}`}
+             className={`p-2 rounded-lg active:scale-95 transition-all ${state.showThemeBar ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)]'}`}
              title="Aesthetics"
           >
             <Palette className="w-4 h-4" />
           </button>
           <button 
              onClick={() => dispatch({ type: 'SET_TRANSFORM', isFit: !isFit })}
-             className={`p-2 rounded-lg active:scale-95 transition-all ${isFit ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/20' : 'bg-white/5 text-white/60'}`}
+             className={`p-2 rounded-lg active:scale-95 transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)]'}`}
           >
             <Maximize2 className="w-4 h-4" />
           </button>
           <button 
             onClick={() => setShowSettings(true)}
-            className="p-2 rounded-lg bg-white/5 text-white/60 hover:text-white hover:bg-white/10 active:scale-95 transition-all"
+            className="p-2 rounded-lg bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] active:scale-95 transition-all"
           >
             <Settings2 className="w-5 h-5" />
           </button>
@@ -167,47 +167,47 @@ export const KilangMobileLayout = ({
 
         {/* Floating Quick Stats */}
         {selectedRoot && (
-           <div className="absolute bottom-6 left-4 right-4 pointer-events-none">
-             <div className="bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl p-3 flex items-center justify-between pointer-events-auto shadow-2xl">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center border border-blue-500/30">
-                    <Zap className="w-4 h-4 text-blue-400" />
-                  </div>
-                  <div>
-                    <div className="text-[10px] font-black text-white/40 uppercase tracking-widest">Branches</div>
-                    <div className="text-sm font-black text-white">{rootData?.length || 0} nodes populated</div>
-                  </div>
-                </div>
-                <button 
-                  onClick={() => dispatch({ type: 'SET_UI', showStatsOverlay: true })}
-                  className="px-3 py-1.5 rounded-lg bg-white/5 text-[10px] font-black text-white/60 uppercase tracking-widest border border-white/5"
-                >
-                  Full Stats
-                </button>
-             </div>
-           </div>
+            <div className="absolute bottom-6 left-4 right-4 pointer-events-none">
+              <div className="bg-[var(--kilang-bg-base)]/90 backdrop-blur-xl border border-[var(--kilang-border-std)] rounded-2xl p-3 flex items-center justify-between pointer-events-auto shadow-[var(--kilang-shadow-primary)]">
+                 <div className="flex items-center gap-3">
+                   <div className="w-8 h-8 rounded-full bg-[var(--kilang-primary)]/20 flex items-center justify-center border border-[var(--kilang-primary-border)]/30">
+                     <Zap className="w-4 h-4 text-[var(--kilang-primary)]" />
+                   </div>
+                   <div>
+                     <div className="text-[10px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest">Branches</div>
+                     <div className="text-sm font-black text-[var(--kilang-text)]">{rootData?.length || 0} nodes populated</div>
+                   </div>
+                 </div>
+                 <button 
+                   onClick={() => dispatch({ type: 'SET_UI', showStatsOverlay: true })}
+                   className="px-3 py-1.5 rounded-lg bg-[var(--kilang-ctrl-bg)] text-[10px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest border border-[var(--kilang-border-std)]"
+                 >
+                   Full Stats
+                 </button>
+              </div>
+            </div>
         )}
       </div>
 
       {/* 3. Search Overlay (Full Screen) */}
       {showSearch && (
-        <div className="fixed inset-0 z-[100] bg-[#020617] flex flex-col animate-in fade-in slide-in-from-bottom-5 duration-300">
-          <header className="h-14 border-b border-white/5 flex items-center px-4 gap-4">
+        <div className="fixed inset-0 z-[100] bg-[var(--kilang-bg-base)] flex flex-col animate-in fade-in slide-in-from-bottom-5 duration-300">
+          <header className="h-14 border-b border-[var(--kilang-border-std)] flex items-center px-4 gap-4">
             <button 
               onClick={() => setShowSearch(false)}
-              className="p-2 -ml-2 text-white/40 hover:text-white"
+              className="p-2 -ml-2 text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]"
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
             <div className="flex-1 relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--kilang-text-muted)]/40" />
               <input 
                 autoFocus
                 type="text"
                 placeholder="Search ultimate roots..."
                 value={searchTerm}
                 onChange={(e) => dispatch({ type: 'SET_UI', searchTerm: e.target.value })}
-                className="w-full bg-white/5 border border-white/10 rounded-xl py-2 pl-10 pr-4 text-sm focus:outline-none focus:border-blue-500/50 transition-all"
+                className="w-full bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] rounded-xl py-2 pl-10 pr-4 text-sm focus:outline-none focus:border-[var(--kilang-primary-border)]/50 transition-all"
               />
             </div>
           </header>
@@ -223,8 +223,8 @@ export const KilangMobileLayout = ({
                   }}
                   className={`flex items-center justify-between p-3 rounded-xl border transition-all ${
                     selectedRoot === r.root 
-                      ? 'bg-blue-600/20 border-blue-500/50 text-white' 
-                      : 'bg-white/5 border-white/5 text-white/60 hover:bg-white/10'
+                      ? 'bg-[var(--kilang-ctrl-active)]/20 border-[var(--kilang-primary-border)]/50 text-[var(--kilang-text)]' 
+                      : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/10 hover:text-[var(--kilang-text)]'
                   }`}
                 >
                   <div className="flex flex-col items-start">
@@ -232,7 +232,7 @@ export const KilangMobileLayout = ({
                     <span className="text-[10px] opacity-40 uppercase font-black">{r.ultimate_root || 'UNKNOWN ROOT'}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="text-[10px] font-black bg-white/10 px-2 py-1 rounded-md">{r.count}</span>
+                    <span className="text-[10px] font-black bg-[var(--kilang-ctrl-bg)] px-2 py-1 rounded-md">{r.count}</span>
                     <ChevronLeft className="w-4 h-4 opacity-20 rotate-180" />
                   </div>
                 </button>
@@ -250,22 +250,22 @@ export const KilangMobileLayout = ({
 
       {/* 4. Settings Sheet */}
       {showSettings && (
-        <div className="fixed inset-0 z-[100] bg-black/40 backdrop-blur-sm" onClick={() => setShowSettings(false)}>
+        <div className="fixed inset-0 z-[100] bg-[var(--kilang-bg-base)]/40 backdrop-blur-sm" onClick={() => setShowSettings(false)}>
           <div 
-            className="absolute bottom-0 left-0 right-0 bg-[#0a0f1e] border-t border-white/10 rounded-t-[32px] p-6 pb-12 animate-in slide-in-from-bottom duration-300"
+            className="absolute bottom-0 left-0 right-0 bg-[var(--kilang-bg-base)] border-t border-[var(--kilang-border-std)] rounded-t-[32px] p-6 pb-12 animate-in slide-in-from-bottom duration-300"
             onClick={e => e.stopPropagation()}
           >
-            <div className="w-12 h-1.5 bg-white/10 rounded-full mx-auto mb-8" />
+            <div className="w-12 h-1.5 bg-[var(--kilang-border-std)] rounded-full mx-auto mb-8" />
             
             <h2 className="text-xl font-black mb-6 flex items-center gap-3">
-              <Settings2 className="w-5 h-5 text-blue-500" />
+              <Settings2 className="w-5 h-5 text-[var(--kilang-primary)]" />
               Engine Settings
             </h2>
 
             <div className="space-y-6">
               {/* Morph Mode */}
               <section>
-                <div className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-3">Morphology Mode</div>
+                <div className="text-[10px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest mb-3">Morphology Mode</div>
                 <div className="grid grid-cols-3 gap-2">
                   {['moe', 'plus', 'star'].map((mode) => (
                     <button
@@ -273,8 +273,8 @@ export const KilangMobileLayout = ({
                       onClick={() => dispatch({ type: 'SET_CONFIG', morphMode: mode as any })}
                       className={`py-3 rounded-xl border font-bold text-xs uppercase tracking-widest transition-all ${
                         morphMode === mode 
-                          ? 'bg-blue-600 border-blue-400 text-white shadow-lg shadow-blue-500/20' 
-                          : 'bg-white/5 border-white/5 text-white/40'
+                          ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-primary-border)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' 
+                          : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)]'
                       }`}
                     >
                       {mode === 'moe' ? 'MoE' : mode === 'plus' ? 'MoE+' : 'MoE*'}
@@ -286,7 +286,7 @@ export const KilangMobileLayout = ({
               {/* MOE Source Filter (Only visible if MoE mode is selected) */}
               {morphMode === 'moe' && (
                 <section className="animate-in fade-in slide-in-from-top-2 duration-300">
-                  <div className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-3">MoE Source Filter</div>
+                  <div className="text-[10px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest mb-3">MoE Source Filter</div>
                   <div className="flex flex-wrap gap-2">
                     {MOE_SOURCES.map((s) => {
                        const isActive = sourceFilter === s.id;
@@ -296,12 +296,12 @@ export const KilangMobileLayout = ({
                           onClick={() => dispatch({ type: 'SET_CONFIG', sourceFilter: s.id })}
                           className={`px-4 py-2 rounded-xl border font-bold text-[10px] uppercase tracking-widest transition-all flex items-center gap-2 ${
                             isActive 
-                              ? 'bg-blue-600 border-blue-400 text-white shadow-lg shadow-blue-500/20' 
-                              : 'bg-white/5 border-white/5 text-white/40 hover:text-white'
+                              ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-primary-border)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' 
+                              : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'
                           }`}
                         >
                           <span>{s.label}</span>
-                          <span className={`opacity-40 font-mono text-[8px] ${isActive ? 'text-white' : ''}`}>
+                          <span className={`opacity-40 font-mono text-[8px] ${isActive ? 'text-[var(--kilang-ctrl-active-text)]' : ''}`}>
                             ({s.id === 'ALL' 
                               ? `${Object.values(sourceCounts || {}).reduce((a, b: any) => a + (b.r || 0), 0).toLocaleString()}/${Object.values(sourceCounts || {}).reduce((a, b: any) => a + (b.e || 0), 0).toLocaleString()}` 
                               : sourceCounts?.[s.id] 
@@ -318,13 +318,13 @@ export const KilangMobileLayout = ({
 
               {/* Layout Control */}
               <section>
-                <div className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-3">Layout & Direction</div>
+                <div className="text-[10px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest mb-3">Layout & Direction</div>
                 <div className="grid grid-cols-2 gap-2">
                   <button
                     onClick={() => dispatch({ type: 'SET_LAYOUT', direction: direction === 'vertical' ? 'horizontal' : 'vertical' as any })}
-                    className="p-4 rounded-xl bg-white/5 border border-white/5 flex items-center gap-3"
+                    className="p-4 rounded-xl bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] flex items-center gap-3"
                   >
-                    <LayoutGrid className={`w-5 h-5 ${direction === 'vertical' ? 'rotate-90' : ''} transition-transform text-blue-400`} />
+                    <LayoutGrid className={`w-5 h-5 ${direction === 'vertical' ? 'rotate-90' : ''} transition-transform text-[var(--kilang-primary)]`} />
                     <div className="flex flex-col items-start">
                       <span className="text-xs font-bold uppercase tracking-widest">Axis</span>
                       <span className="text-[10px] opacity-40 uppercase">{direction}</span>
@@ -332,9 +332,9 @@ export const KilangMobileLayout = ({
                   </button>
                   <button
                     onClick={() => dispatch({ type: 'SET_LAYOUT', arrangement: arrangement === 'aligned' ? 'flow' : 'aligned' as any })}
-                    className="p-4 rounded-xl bg-white/5 border border-white/5 flex items-center gap-3"
+                    className="p-4 rounded-xl bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] flex items-center gap-3"
                   >
-                    <Layers className="w-5 h-5 text-blue-400" />
+                    <Layers className="w-5 h-5 text-[var(--kilang-primary)]" />
                     <div className="flex flex-col items-start">
                       <span className="text-xs font-bold uppercase tracking-widest">Flow</span>
                       <span className="text-[10px] opacity-40 uppercase">{arrangement}</span>
@@ -345,17 +345,17 @@ export const KilangMobileLayout = ({
 
               {/* View Options */}
               <section>
-                <div className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-3">View Options</div>
+                <div className="text-[10px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest mb-3">View Options</div>
                 <button
                   onClick={() => dispatch({ type: 'SET_UI', showTreeTab: !state.showTreeTab })}
                   className={`w-full p-4 rounded-xl border flex items-center justify-between transition-all ${
                     state.showTreeTab 
-                      ? 'bg-blue-600/10 border-blue-500/50 text-white shadow-[0_0_15px_rgba(59,130,246,0.1)]' 
-                      : 'bg-white/5 border-white/5 text-white/40'
+                      ? 'bg-[var(--kilang-ctrl-active)]/10 border-[var(--kilang-primary-border)]/50 text-[var(--kilang-text)] shadow-lg shadow-[var(--kilang-primary-glow)]/10' 
+                      : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)]'
                   }`}
                 >
                   <div className="flex items-center gap-3">
-                    <div className={`p-2 rounded-lg ${state.showTreeTab ? 'bg-blue-600 text-white' : 'bg-white/10 text-white/40'}`}>
+                    <div className={`p-2 rounded-lg ${state.showTreeTab ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)]' : 'bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)]'}`}>
                       <FileText className="w-4 h-4" />
                     </div>
                     <div className="flex flex-col items-start">
@@ -363,8 +363,8 @@ export const KilangMobileLayout = ({
                       <span className="text-[10px] opacity-40 uppercase text-left">Enable structural hierarchy view</span>
                     </div>
                   </div>
-                  <div className={`w-8 h-4 rounded-full p-0.5 transition-colors relative ${state.showTreeTab ? 'bg-blue-500' : 'bg-white/10'}`}>
-                    <div className={`w-3 h-3 bg-white rounded-full transition-transform ${state.showTreeTab ? 'translate-x-4' : 'translate-x-0'}`} />
+                  <div className={`w-8 h-4 rounded-full p-0.5 transition-colors relative ${state.showTreeTab ? 'bg-[var(--kilang-primary)]' : 'bg-[var(--kilang-ctrl-bg)]'}`}>
+                    <div className={`w-3 h-3 bg-[var(--kilang-text)] rounded-full transition-transform ${state.showTreeTab ? 'translate-x-4' : 'translate-x-0'}`} />
                   </div>
                 </button>
               </section>
@@ -376,9 +376,9 @@ export const KilangMobileLayout = ({
                     dispatch({ type: 'RESET_TRANSFORM' });
                     setShowSettings(false);
                   }}
-                  className="p-4 rounded-xl bg-white/5 border border-white/5 flex items-center gap-3"
+                  className="p-4 rounded-xl bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] flex items-center gap-3"
                 >
-                  <RotateCcw className="w-5 h-5 text-white/40" />
+                  <RotateCcw className="w-5 h-5 text-[var(--kilang-text-muted)]" />
                   <span className="text-xs font-bold uppercase tracking-widest">Reset View</span>
                 </button>
                 <button 
@@ -386,7 +386,7 @@ export const KilangMobileLayout = ({
                     handleExport();
                     setShowSettings(false);
                   }}
-                  className="p-4 rounded-xl bg-blue-600 border border-blue-400 flex items-center gap-3 text-white"
+                  className="p-4 rounded-xl bg-[var(--kilang-ctrl-active)] border border-[var(--kilang-primary-border)] flex items-center gap-3 text-[var(--kilang-ctrl-active-text)]"
                 >
                   <Info className="w-5 h-5" />
                   <span className="text-xs font-bold uppercase tracking-widest">Export PNG</span>
