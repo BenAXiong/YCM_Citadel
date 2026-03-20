@@ -309,7 +309,7 @@ export const KilangHeader = ({
               <div className="relative group/tip">
                 <button
                   onClick={() => { setSourceFilter('ALL'); setMorphMode('moe'); }}
-                  className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 mb-1 ${sourceFilter === 'ALL' && morphMode === 'moe' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/5 hover:text-[var(--kilang-text)]'}`}
+                  className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 mb-1 ${sourceFilter === 'ALL' && morphMode === 'moe' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/5 hover:text-[var(--kilang-text)]'}`}
                 >
                   <div className={`w-2 h-2 rounded-full ${sourceFilter === 'ALL' && morphMode === 'moe' ? 'bg-[var(--kilang-text)] ring-2 ring-[var(--kilang-primary-glow)]' : 'bg-[var(--kilang-primary)]'}`} />
                   <span className="flex-1">MoE (all)</span>
@@ -340,7 +340,7 @@ export const KilangHeader = ({
                     <div key={s.id} className="relative group/tip">
                       <button
                         onClick={() => { setSourceFilter(s.id); setMorphMode('moe'); }}
-                        className={`w-full text-left px-3 py-2 rounded-lg text-[11px] font-black tracking-widest uppercase transition-all flex items-center gap-3 ${isActive ? `bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg` : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/5 hover:text-[var(--kilang-text)]'}`}
+                        className={`w-full text-left px-3 py-2 rounded-lg text-[11px] font-black tracking-widest uppercase transition-all flex items-center gap-3 ${isActive ? `bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]` : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/5 hover:text-[var(--kilang-text)]'}`}
                       >
                         <div className={`w-2 h-2 rounded-full ${isActive ? 'bg-[var(--kilang-ctrl-active-text)] ring-2 ring-[var(--kilang-ctrl-active-text)]/30' : 'bg-[var(--kilang-ctrl-bg)]'}`} />
                         <span className="flex-1">{s.label}</span>
@@ -368,7 +368,7 @@ export const KilangHeader = ({
                 <div className="relative group/tip">
                   <button
                     onClick={() => setMorphMode('plus')}
-                    className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 ${morphMode === 'plus' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/5 hover:text-[var(--kilang-text)]'}`}
+                    className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 ${morphMode === 'plus' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/5 hover:text-[var(--kilang-text)]'}`}
                   >
                     <div className={`w-2 h-2 rounded-full ${morphMode === 'plus' ? 'bg-[var(--kilang-ctrl-active-text)] ring-2 ring-[var(--kilang-ctrl-active-text)]/30' : 'bg-[var(--kilang-secondary)]'}`} />
                     <span className="flex-1">Kilang</span>
@@ -384,7 +384,7 @@ export const KilangHeader = ({
                 <div className="relative group/tip">
                   <button
                     onClick={() => setMorphMode('star')}
-                    className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 ${morphMode === 'star' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/5 hover:text-[var(--kilang-text)]'}`}
+                    className={`w-full text-left px-3 py-2.5 rounded-lg text-[12px] font-black tracking-[0.1em] uppercase transition-all flex items-center gap-3 ${morphMode === 'star' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-ctrl-active)]/5 hover:text-[var(--kilang-text)]'}`}
                   >
                     <div className={`w-2 h-2 rounded-full ${morphMode === 'star' ? 'bg-[var(--kilang-ctrl-active-text)] ring-2 ring-[var(--kilang-ctrl-active-text)]/30' : 'bg-[var(--kilang-accent)]'}`} />
                     <span className="flex-1">Kilang+</span>
@@ -475,13 +475,13 @@ export const KilangHeader = ({
                   >
                     {isFit ? <Minimize2 className="w-3 h-3" /> : <Maximize2 className="w-3 h-3" />}
                   </button>
-                  <button onClick={() => { setScale((prev: number) => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="Out">
+                  <button onClick={() => { setScale((prev: number) => Math.max(0.2, (typeof prev === 'number' ? prev : 1) - 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-[var(--kilang-shadow-primary)]/20" title="Out">
                     <Minus className="w-3 h-3" />
                   </button>
-                  <button onClick={() => { setScale((prev: number) => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="In">
+                  <button onClick={() => { setScale((prev: number) => Math.min(2, (typeof prev === 'number' ? prev : 1) + 0.1)); setIsFit(false); }} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-[var(--kilang-shadow-primary)]/20" title="In">
                     <Plus className="w-3 h-3" />
                   </button>
-                  <button onClick={() => dispatch({ type: 'RESET_TRANSFORM' })} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-sm" title="Reset Zoom">
+                  <button onClick={() => dispatch({ type: 'RESET_TRANSFORM' })} className="w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive shadow-[var(--kilang-shadow-primary)]/20" title="Reset Zoom">
                     <RotateCcw className="w-3 h-3" />
                   </button>
                 </div>
@@ -525,7 +525,7 @@ export const KilangHeader = ({
 
             <button
               onClick={(e) => { e.stopPropagation(); handleCopyChain(linearPath); }}
-              className="p-1.5 rounded-lg bg-[var(--kilang-ctrl-bg)] backdrop-blur-md border border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all opacity-0 group-hover:opacity-100 shadow-lg shrink-0"
+              className="p-1.5 rounded-lg bg-[var(--kilang-ctrl-bg)] backdrop-blur-md border border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all opacity-0 group-hover:opacity-100 shadow-[var(--kilang-shadow-primary)] shrink-0"
               title="Copy Path"
             >
               {copiedChain ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
@@ -575,7 +575,7 @@ export const KilangHeader = ({
 
             <button
               onClick={() => setShowStatsOverlay(true)}
-              className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showStatsOverlay ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-ctrl-active)]/40 text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'bg-[var(--kilang-bg-base)]/40 border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:border-[var(--kilang-primary-border)] hover:text-[var(--kilang-text)]'}`}
+              className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showStatsOverlay ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-ctrl-active)]/40 text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'bg-[var(--kilang-bg-base)]/40 border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:border-[var(--kilang-primary-border)] hover:text-[var(--kilang-text)]'}`}
               title="Morphology Distribution"
             >
               <Activity className="w-5 h-5" />
@@ -583,7 +583,7 @@ export const KilangHeader = ({
 
             <button
               onClick={() => setShowAffixesOverlay(true)}
-              className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showAffixesOverlay ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-ctrl-active)]/40 text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'bg-[var(--kilang-bg-base)]/40 border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:border-[var(--kilang-primary-border)] hover:text-[var(--kilang-text)]'}`}
+              className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all ${showAffixesOverlay ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-ctrl-active)]/40 text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'bg-[var(--kilang-bg-base)]/40 border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:border-[var(--kilang-primary-border)] hover:text-[var(--kilang-text)]'}`}
               title="Affixes Analysis"
             >
               <Layers className="w-5 h-5" />

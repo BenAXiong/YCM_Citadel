@@ -114,6 +114,11 @@ export interface KilangState {
     rootGap: number;
     coupleGaps: boolean;
     lineWidth: number;
+    lineOpacity: number;
+    lineBlur: number;
+    lineTension: number;
+    lineDashArray: number;
+    lineFlowSpeed: number;
     theme: string;
   };
 }
@@ -238,6 +243,11 @@ export const initialState: KilangState = {
     rootGap: 50,
     coupleGaps: false,
     lineWidth: 3,
+    lineOpacity: 0.4,
+    lineBlur: 0,
+    lineTension: 1,
+    lineDashArray: 0,
+    lineFlowSpeed: 0,
     theme: 'kakarayan',
   },
 };

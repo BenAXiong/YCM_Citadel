@@ -98,7 +98,12 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
       {renderSection('paths', 'SVG Connection Styling', <PencilLine className="w-3.5 h-3.5" />, [
         { label: 'Gap X', key: 'lineGapX', min: -100, max: 300, step: 5, unit: 'px' },
         { label: 'Gap Y', key: 'lineGapY', min: -100, max: 300, step: 5, unit: 'px' },
-        { label: 'Line Thickness', key: 'lineWidth', min: 0.5, max: 8, step: 0.1, unit: 'px' },
+        { label: 'Line Thickness', key: 'lineWidth', min: 0.5, max: 12, step: 0.1, unit: 'px' },
+        { label: 'Line Curvature', key: 'lineTension', min: 0, max: 2, step: 0.1, unit: 'x' },
+        { label: 'Line Opacity', key: 'lineOpacity', min: 0, max: 1, step: 0.05, unit: '' },
+        { label: 'Line Glow/Blur', key: 'lineBlur', min: 0, max: 20, step: 0.5, unit: 'px' },
+        { label: 'Dash Pattern', key: 'lineDashArray', min: 0, max: 30, step: 1, unit: 'px' },
+        { label: 'Flow Speed', key: 'lineFlowSpeed', min: 0, max: 10, step: 0.5, unit: 'x' },
       ])}
 
       {renderSection('geometry', 'Node Geometry', <Scaling className="w-3.5 h-3.5" />, [
@@ -148,6 +153,23 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
           <ColorPicker label="Line End" value={layoutConfig.lineGradientEnd} onChange={(v: string) => updateConfig({ lineGradientEnd: v })} />
         </div>
       </CollapsibleSection>
+
+      {/* Reference Note for SVG Defaults */}
+      <div className="p-4 bg-[var(--kilang-primary)]/5 border border-[var(--kilang-primary-border)]/20 rounded-2xl space-y-2">
+        <div className="flex items-center gap-2">
+           <div className="w-1.5 h-1.5 rounded-full bg-[var(--kilang-primary)] animate-pulse" />
+           <span className="text-[9px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]">Tree Connection Reference</span>
+        </div>
+        <p className="text-[8px] text-[var(--kilang-text-muted)] leading-relaxed italic">
+          Restore the classic node-connection aesthetic:
+        </p>
+        <div className="grid grid-cols-2 gap-x-4 gap-y-1 pt-1 opacity-60">
+           <div className="flex justify-between text-[7px] font-mono"><span>Thickness:</span> <span className="text-white">3.0px</span></div>
+           <div className="flex justify-between text-[7px] font-mono"><span>Opacity:</span> <span className="text-white">0.40</span></div>
+           <div className="flex justify-between text-[7px] font-mono"><span>Blur/Glow:</span> <span className="text-white">0.0px</span></div>
+           <div className="flex justify-between text-[7px] font-mono"><span>Gap X/Y:</span> <span className="text-white">0/0 px</span></div>
+        </div>
+      </div>
 
       <div className="pb-20" />
     </div>

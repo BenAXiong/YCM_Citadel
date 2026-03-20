@@ -105,14 +105,14 @@ export const KilangMobileLayout = ({
           </button>
           <button 
              onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
-             className={`p-2 rounded-lg active:scale-95 transition-all ${state.showThemeBar ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)]'}`}
+             className={`p-2 rounded-lg active:scale-95 transition-all ${state.showThemeBar ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)]'}`}
              title="Aesthetics"
           >
             <Palette className="w-4 h-4" />
           </button>
           <button 
              onClick={() => dispatch({ type: 'SET_TRANSFORM', isFit: !isFit })}
-             className={`p-2 rounded-lg active:scale-95 transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)]'}`}
+             className={`p-2 rounded-lg active:scale-95 transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'bg-[var(--kilang-ctrl-bg)] text-[var(--kilang-text-muted)]'}`}
           >
             <Maximize2 className="w-4 h-4" />
           </button>
@@ -296,7 +296,7 @@ export const KilangMobileLayout = ({
                           onClick={() => dispatch({ type: 'SET_CONFIG', sourceFilter: s.id })}
                           className={`px-4 py-2 rounded-xl border font-bold text-[10px] uppercase tracking-widest transition-all flex items-center gap-2 ${
                             isActive 
-                              ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-primary-border)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' 
+                              ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-primary-border)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' 
                               : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'
                           }`}
                         >
@@ -350,7 +350,7 @@ export const KilangMobileLayout = ({
                   onClick={() => dispatch({ type: 'SET_UI', showTreeTab: !state.showTreeTab })}
                   className={`w-full p-4 rounded-xl border flex items-center justify-between transition-all ${
                     state.showTreeTab 
-                      ? 'bg-[var(--kilang-ctrl-active)]/10 border-[var(--kilang-primary-border)]/50 text-[var(--kilang-text)] shadow-lg shadow-[var(--kilang-primary-glow)]/10' 
+                      ? 'bg-[var(--kilang-ctrl-active)]/10 border-[var(--kilang-primary-border)]/50 text-[var(--kilang-text)] shadow-[var(--kilang-shadow-primary)]' 
                       : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)]'
                   }`}
                 >

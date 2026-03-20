@@ -106,6 +106,26 @@
   --kilang-shadow-color: color-mix(in srgb, var(--kilang-bg-base), black 40%);
   --kilang-shadow-primary: 0 8px 32px 0 var(--kilang-shadow-color);
   --kilang-ctrl-active: color-mix(in srgb, var(--kilang-primary), black 10%);
+
+  /* Tree Link Core Styles */
+  --kilang-link-start: var(--kilang-primary);
+  --kilang-link-mid: var(--kilang-secondary);
+  --kilang-link-end: var(--kilang-accent);
+  --kilang-link-width: 1.5px;
+  --kilang-link-opacity: 0.4;
+  --kilang-link-blur: 0px;
+  --kilang-link-tension: 1;
+  --kilang-link-dash: 0;
+  --kilang-link-flow-speed: 0;
+}
+
+@keyframes link-flow {
+  from { stroke-dashoffset: 100; }
+  to { stroke-dashoffset: 0; }
+}
+
+.animate-link-flow {
+  animation: link-flow var(--kilang-link-flow-speed, 0s) linear infinite;
 }
 
 .theme-bar-bnw {

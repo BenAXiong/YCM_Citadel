@@ -46,9 +46,9 @@ export const LineageCanvas = React.memo(({
           gradientUnits="userSpaceOnUse"
           x1="0" y1="0" x2="4000" y2="4000"
         >
-          <stop offset="0%" stopColor={layoutConfig.lineColor} stopOpacity="0.4" />
-          <stop offset="50%" stopColor={layoutConfig.lineColorMid} stopOpacity="0.4" />
-          <stop offset="100%" stopColor={layoutConfig.lineGradientEnd} stopOpacity="0.4" />
+          <stop offset="0%" stopColor="var(--kilang-link-start)" stopOpacity="var(--kilang-link-opacity)" />
+          <stop offset="50%" stopColor="var(--kilang-link-mid)" stopOpacity="var(--kilang-link-opacity)" />
+          <stop offset="100%" stopColor="var(--kilang-link-end)" stopOpacity="var(--kilang-link-opacity)" />
         </linearGradient>
       </defs>
       {derivatives.map((d: Derivation, i: number) => {
@@ -74,11 +74,12 @@ export const LineageCanvas = React.memo(({
         }
 
         let pathData = '';
+        const tension = layoutConfig.lineTension ?? 1;
         if (direction === 'vertical') {
-          const midY = (sourceY + targetY) / 2;
+          const midY = sourceY + (targetY - sourceY) * 0.5 * tension;
           pathData = `M ${sourceX} ${sourceY} C ${sourceX} ${midY} ${targetX} ${midY} ${targetX} ${targetY}`;
         } else {
-          const midX = (sourceX + targetX) / 2;
+          const midX = sourceX + (targetX - sourceX) * 0.5 * tension;
           pathData = `M ${sourceX} ${sourceY} C ${midX} ${sourceY} ${midX} ${targetY} ${targetX} ${targetY}`;
         }
 
@@ -111,9 +112,13 @@ export const LineageCanvas = React.memo(({
               strokeLinecap="round"
               strokeLinejoin="round"
               fill="none"
-              className={`transition-[opacity,stroke-width,filter] duration-300 ${isHighlighted ? 'opacity-100' : 'opacity-20 group-hover:opacity-60'}`}
+              strokeDasharray={layoutConfig.lineDashArray > 0 ? `${layoutConfig.lineDashArray} ${layoutConfig.lineDashArray}` : 'none'}
+              className={`transition-[opacity,stroke-width,filter] duration-300 ${isHighlighted ? 'opacity-100' : 'group-hover:opacity-60'} ${layoutConfig.lineFlowSpeed > 0 ? 'animate-link-flow' : ''}`}
               style={{
-                filter: isHighlighted ? `drop-shadow(0 0 8px ${layoutConfig.lineColor}80)` : 'none'
+                filter: isHighlighted 
+                  ? `drop-shadow(0 0 8px ${layoutConfig.lineColor}80)` 
+                  : (layoutConfig.lineBlur > 0 ? `blur(${layoutConfig.lineBlur}px)` : 'none'),
+                opacity: isHighlighted ? 1 : 'var(--kilang-link-opacity)'
               }}
             />
           </g>

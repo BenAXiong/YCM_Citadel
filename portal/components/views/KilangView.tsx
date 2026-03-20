@@ -47,7 +47,32 @@ export default function KilangView({
     arrangement,
     searchTerm,
     branchFilter,
+    layoutConfig,
   } = state;
+
+  // Sync Layout Config to CSS Variables for SVG Tree Lines
+  React.useEffect(() => {
+    const root = document.documentElement;
+    root.style.setProperty('--kilang-link-start', layoutConfig.lineColor);
+    root.style.setProperty('--kilang-link-mid', layoutConfig.lineColorMid);
+    root.style.setProperty('--kilang-link-end', layoutConfig.lineGradientEnd);
+    root.style.setProperty('--kilang-link-width', `${layoutConfig.lineWidth}px`);
+    root.style.setProperty('--kilang-link-opacity', layoutConfig.lineOpacity.toString());
+    root.style.setProperty('--kilang-link-blur', `${layoutConfig.lineBlur}px`);
+    root.style.setProperty('--kilang-link-tension', layoutConfig.lineTension.toString());
+    root.style.setProperty('--kilang-link-dash', layoutConfig.lineDashArray.toString());
+    root.style.setProperty('--kilang-link-flow-speed', layoutConfig.lineFlowSpeed > 0 ? `${11 - layoutConfig.lineFlowSpeed}s` : '0s');
+  }, [
+    layoutConfig.lineColor, 
+    layoutConfig.lineColorMid, 
+    layoutConfig.lineGradientEnd, 
+    layoutConfig.lineWidth, 
+    layoutConfig.lineOpacity, 
+    layoutConfig.lineBlur,
+    layoutConfig.lineTension,
+    layoutConfig.lineDashArray,
+    layoutConfig.lineFlowSpeed
+  ]);
 
   const MOE_SOURCES = [
     { id: 'ALL', label: 'MoE (all)', tooltip: 'Ministry of Education Amis Dictionary (Consolidated). Merges all selected authoritative sources into a single morphological view.' },

@@ -290,14 +290,14 @@ export const KilangCanvas = ({
                   <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
                     <button
                       onClick={() => setDirection('horizontal')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'horizontal' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'horizontal' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                       title="Horizontal Growth"
                     >
                       <ArrowRight className="w-3.5 h-3.5" />
                     </button>
                     <button
                       onClick={() => setDirection('vertical')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'vertical' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'vertical' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                       title="Vertical Growth"
                     >
                       <ArrowUp className="w-3.5 h-3.5" />
@@ -305,14 +305,14 @@ export const KilangCanvas = ({
                     <div className="w-[1px] h-4 border-l border-[var(--kilang-border-std)] mx-1 self-center" />
                     <button
                       onClick={() => setArrangement('flow')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'flow' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'flow' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                       title="Flow Arrangement"
                     >
                       <LayoutGrid className="w-3.5 h-3.5" />
                     </button>
                     <button
                       onClick={() => setArrangement('aligned')}
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'aligned' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${arrangement === 'aligned' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
                       title="Aligned Arrangement"
                     >
                       <Rows className="w-3.5 h-3.5" />

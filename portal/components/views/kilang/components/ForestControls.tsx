@@ -47,7 +47,7 @@ export const ForestControls = ({ showPlusOne, showMinusOne }: ForestControlsProp
         <div className="relative">
           <button
             onClick={() => setShowMyTrees(!showMyTrees)}
-            className={`w-11 h-11 rounded-xl flex items-center justify-center border transition-all hover:scale-105 active:scale-95 ${showMyTrees ? 'bg-[var(--kilang-secondary-bg)]/80 border-[var(--kilang-secondary-border)] text-[var(--kilang-secondary-text)] shadow-lg shadow-[var(--kilang-secondary-glow)]' : 'bg-[var(--kilang-primary-bg)]/80 border-[var(--kilang-primary-border)] text-[var(--kilang-primary-text)] shadow-lg shadow-[var(--kilang-primary-glow)] hover:bg-[var(--kilang-primary-bg)]'}`}
+            className={`w-11 h-11 rounded-xl flex items-center justify-center border transition-all hover:scale-105 active:scale-95 ${showMyTrees ? 'bg-[var(--kilang-secondary-bg)]/80 border-[var(--kilang-secondary-border)] text-[var(--kilang-secondary-text)] shadow-[var(--kilang-secondary-glow)]' : 'bg-[var(--kilang-primary-bg)]/80 border-[var(--kilang-primary-border)] text-[var(--kilang-primary-text)] shadow-[var(--kilang-primary-glow)] hover:bg-[var(--kilang-primary-bg)]'}`}
             title={showMyTrees ? "Back to Forest" : "My Trees"}
           >
             {showMyTrees ? <Filter className="w-5 h-5" /> : <Library className="w-5 h-5" />}
@@ -76,7 +76,7 @@ export const ForestControls = ({ showPlusOne, showMinusOne }: ForestControlsProp
           <div className="grid grid-cols-5 gap-2">
             <button
               onClick={() => dispatch({ type: 'SET_UI', branchFilter: 'all' })}
-              className={`py-2 rounded-lg border text-[10px] font-black transition-all ${branchFilter === 'all' ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-primary-border)] text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'bg-[var(--kilang-card)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
+              className={`py-2 rounded-lg border text-[10px] font-black transition-all ${branchFilter === 'all' ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-primary-border)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'bg-[var(--kilang-card)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
             >
               ANY
             </button>
@@ -86,7 +86,7 @@ export const ForestControls = ({ showPlusOne, showMinusOne }: ForestControlsProp
                 <button
                   key={bucket.label}
                   onClick={() => dispatch({ type: 'SET_UI', branchFilter: bucket.label })}
-                  className={`py-2 rounded-lg border text-[10px] font-black flex flex-col items-center justify-center transition-all ${isActive ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-primary-border)] text-[var(--kilang-ctrl-active-text)] shadow-lg' : 'bg-[var(--kilang-card)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
+                  className={`py-2 rounded-lg border text-[10px] font-black flex flex-col items-center justify-center transition-all ${isActive ? 'bg-[var(--kilang-ctrl-active)] border-[var(--kilang-primary-border)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'bg-[var(--kilang-card)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
                 >
                   <span>{bucket.label}</span>
                   <span className="text-[8px] opacity-60 mt-0.5">({bucketHits[bucket.label] || 0})</span>

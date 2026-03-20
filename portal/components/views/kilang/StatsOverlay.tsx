@@ -37,7 +37,7 @@ export const StatsOverlay = ({
         <div className="flex-1 overflow-y-auto custom-scrollbar p-12 space-y-16">
           <div className="flex items-center justify-between border-b border-[var(--kilang-border-std)] pb-8 mb-4">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-indigo-500 rounded-2xl flex items-center justify-center shadow-lg shadow-indigo-500/20">
+              <div className="w-12 h-12 bg-[var(--kilang-primary)] rounded-2xl flex items-center justify-center shadow-[var(--kilang-shadow-primary)]">
                 <Activity className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -47,7 +47,7 @@ export const StatsOverlay = ({
             </div>
             <button
               onClick={() => setShowStatsOverlay(false)}
-              className="w-12 h-12 rounded-2xl bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] flex items-center justify-center text-[var(--kilang-text-muted)] hover:bg-red-500 hover:text-white hover:border-red-400 transition-all shadow-lg"
+              className="w-12 h-12 rounded-2xl bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] flex items-center justify-center text-[var(--kilang-text-muted)] hover:bg-[var(--kilang-accent)] hover:text-white hover:border-[var(--kilang-accent-border)] transition-all shadow-[var(--kilang-shadow-primary)]"
             >
               <Minimize2 className="w-6 h-6" />
             </button>
@@ -207,7 +207,7 @@ export const StatsOverlay = ({
                                       summaryCache={summaryCache}
                                       fetchSummary={fetchSummary}
                                     >
-                                      <div className={`px-4 py-2 rounded-xl text-[11px] font-bold font-mono border ${i === 0 ? 'bg-indigo-500 border-indigo-500/50 text-white shadow-lg shadow-indigo-500/20' : i === chain.length - 1 ? 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)]' : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] group-hover/chain:text-[var(--kilang-primary-text)] group-hover/chain:border-blue-500/30'}`}>
+                                      <div className={`px-4 py-2 rounded-xl text-[11px] font-bold font-mono border ${i === 0 ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)]/50 text-white shadow-[var(--kilang-shadow-primary)]' : i === chain.length - 1 ? 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)]' : 'bg-[var(--kilang-ctrl-bg)] border-[var(--kilang-border-std)] text-[var(--kilang-text-muted)] group-hover/chain:text-[var(--kilang-primary-text)] group-hover/chain:border-blue-500/30'}`}>
                                         {link}
                                       </div>
                                     </WordTooltip>
@@ -225,7 +225,7 @@ export const StatsOverlay = ({
                         <div className="flex justify-center pt-8">
                           <button
                             onClick={() => setVisibleChainsCount(prev => (typeof prev === 'number' ? prev : 10) + 10)}
-                            className="px-10 py-5 bg-indigo-500/20 hover:bg-indigo-500 border border-indigo-500/30 rounded-[24px] text-white font-black uppercase tracking-[0.3em] transition-all shadow-[var(--kilang-shadow-primary)] flex items-center gap-4 group"
+                            className="px-10 py-5 bg-[var(--kilang-primary)]/20 hover:bg-[var(--kilang-primary)] border border-[var(--kilang-primary-border)]/30 rounded-[24px] text-white font-black uppercase tracking-[0.3em] transition-all shadow-[var(--kilang-shadow-primary)] flex items-center gap-4 group"
                           >
                             <span>Load More Chains</span>
                             <Plus className="w-5 h-5 group-hover:rotate-90 transition-transform" />
