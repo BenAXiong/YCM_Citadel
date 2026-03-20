@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Minimize2, Layers, Search, Sidebar, Columns, ArrowUpDown, Activity, Filter, Trash2 } from 'lucide-react';
 import { WordTooltip } from './KilangNode';
+import { useKilangContext } from './KilangContext';
 
 const AFFIX_ALLOW_LIST: Record<string, string[]> = {
   suffix: ['pina'],
@@ -15,19 +16,12 @@ const NOISE_FILTERS: Record<string, string[]> = {
   custom: []
 };
 
-interface AffixesOverlayProps {
-  showAffixesOverlay: boolean;
-  setShowAffixesOverlay: (show: boolean) => void;
-  summaryCache: Record<string, string[]>;
-  fetchSummary: (word: string) => Promise<void>;
-}
+interface AffixesOverlayProps {}
 
-export const AffixesOverlay = ({
-  showAffixesOverlay,
-  setShowAffixesOverlay,
-  summaryCache,
-  fetchSummary
-}: AffixesOverlayProps) => {
+export const AffixesOverlay = ({}: AffixesOverlayProps) => {
+  const { state, dispatch, summaryCache, fetchSummary } = useKilangContext();
+  const { showAffixesOverlay } = state;
+  const setShowAffixesOverlay = (v: boolean) => dispatch({ type: 'SET_UI', showAffixesOverlay: v });
   const [showInfixes, setShowInfixes] = useState(true);
   const [showPrefixes, setShowPrefixes] = useState(true);
   const [showSuffixes, setShowSuffixes] = useState(true);

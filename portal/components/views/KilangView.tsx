@@ -15,9 +15,8 @@ import { useIsMobile } from '@/hooks/useIsMobile';
 import { SidebarProvider } from './kilang/SidebarContext';
 import { UILang, UIStrings } from '@/types';
 import { useBroadcastSync } from './kilang/hooks/useBroadcastSync';
-import { ExternalLink } from 'lucide-react';
-
 import { UI_STRINGS } from '@/lib/i18n';
+import { KilangProvider } from './kilang/KilangContext';
 
 interface KilangViewProps {
   uiLang?: UILang;
@@ -354,69 +353,61 @@ export default function KilangView({
     }
   };
 
-  if (loading) {
-    return (
-      <div className="kilang-container flex items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
-          <div className="w-12 h-12 border-4 border-[var(--kilang-primary)] border-t-transparent rounded-full animate-spin" />
-          <div className="text-[var(--kilang-primary)] font-bold tracking-widest uppercase">Growing the Kilang...</div>
-        </div>
-      </div>
-    );
-  }
-
-  const layoutProps = {
+  const contextValue = {
     state,
     dispatch,
     nodeMap,
     fetchRootDetails,
+    summaryCache,
     fetchSummary,
+    handleExport,
+    uiLang,
+    toggleUiLang,
+    s,
     filteredRoots,
     bucketHits,
     FILTER_BUCKETS,
     MOE_SOURCES,
     sourceCounts: state.sourceCounts,
-    handleExport,
     treeRef,
-    uiLang,
-    toggleUiLang,
-    s,
   };
 
   return (
     <div data-theme={state.layoutConfig.theme}>
-      <SidebarProvider value={{
-      state,
-      dispatch,
-      filteredRoots,
-      fetchRootDetails,
-      bucketHits,
-      FILTER_BUCKETS,
-      summaryCache,
-      fetchSummary
-    }}>
-      {isMobile ? (
-        <KilangMobileLayout {...layoutProps} />
-      ) : (
-        <KilangDesktopLayout {...layoutProps} />
-      )}
+      <KilangProvider value={contextValue}>
+        <SidebarProvider value={{
+          state,
+          dispatch,
+          filteredRoots,
+          fetchRootDetails,
+          bucketHits,
+          FILTER_BUCKETS,
+          summaryCache,
+          fetchSummary
+        }}>
+          {isMobile ? (
+            <KilangMobileLayout />
+          ) : (
+            <KilangDesktopLayout />
+          )}
 
-      <ThemeBar
-        show={state.showThemeBar}
-        onClose={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
-        activeTab={state.themeBarTab}
-        setActiveTab={(t: 'themes' | 'landing' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: t })}
-        landingVersion={state.landingVersion}
-        setLandingVersion={(v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v })}
-        logoStyle={state.logoStyles[state.landingVersion]}
-        logoSettings={state.logoSettings[state.landingVersion]}
-        setLogoStyle={(s: 'original' | 'square' | 'round') => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
-        updateLogoSettings={(s: any) => dispatch({ type: 'SET_UI', logoSettings: { [state.landingVersion]: s } })}
-        resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
-        dispatch={dispatch}
-        layoutConfig={state.layoutConfig}
-      />
-    </SidebarProvider>
+          <ThemeBar
+            show={state.showThemeBar}
+            onClose={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
+            activeTab={state.themeBarTab}
+            setActiveTab={(t: 'themes' | 'landing' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: t })}
+            landingVersion={state.landingVersion}
+            setLandingVersion={(v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v })}
+            logoStyle={state.logoStyles[state.landingVersion]}
+            logoSettings={state.logoSettings[state.landingVersion]}
+            setLogoStyle={(s: 'original' | 'square' | 'round') => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
+            updateLogoSettings={(s: any) => dispatch({ type: 'SET_UI', logoSettings: { [state.landingVersion]: s } })}
+            resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
+            dispatch={dispatch}
+            layoutConfig={state.layoutConfig}
+          />
+        </SidebarProvider>
+      </KilangProvider>
     </div>
   );
 }

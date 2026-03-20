@@ -3,6 +3,7 @@
 import React from 'react';
 import { Search, Settings2, PenTool, ChevronLeft, ChevronRight, CheckCircle2, Zap } from 'lucide-react';
 import { KilangState, KilangAction } from './kilangReducer';
+import { useKilangContext } from './KilangContext';
 
 // Hooks
 import { useKilangBookmarks } from './hooks/useKilangBookmarks';
@@ -18,26 +19,27 @@ import { StylingTab } from './components/StylingTab';
 import { CustomTab } from './components/CustomTab';
 
 interface KilangSidebarProps {
-  state: KilangState;
-  dispatch: React.Dispatch<KilangAction>;
-  filteredRoots: any[];
-  fetchRootDetails: (root: string) => Promise<void>;
-  bucketHits: Record<string, number>;
-  FILTER_BUCKETS: Array<{ label: string; min: number; max: number }>;
-  summaryCache: Record<string, string[]>;
-  fetchSummary: (word: string) => Promise<void>;
   isCollapsed: boolean;
   onToggle: () => void;
 }
 
-export const KilangSidebar = (props: KilangSidebarProps) => {
-  return <KilangSidebarInner {...props} />;
+export const KilangSidebar = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
+  return <KilangSidebarInner isCollapsed={isCollapsed} onToggle={onToggle} />;
 };
 
 const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
   const {
-    state, dispatch, filteredRoots, fetchRootDetails,
-    bucketHits, FILTER_BUCKETS, summaryCache, fetchSummary,
+    state,
+    dispatch,
+    filteredRoots,
+    fetchRootDetails,
+    bucketHits,
+    FILTER_BUCKETS,
+    summaryCache,
+    fetchSummary
+  } = useKilangContext();
+
+  const {
     sidebarTab, setSidebarTab, showMyTrees, setShowMyTrees,
     toggleSection, collapsedSections
   } = useSidebar();

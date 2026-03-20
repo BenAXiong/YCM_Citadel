@@ -12,6 +12,7 @@ import { useSidebar } from './SidebarContext';
 import { KilangToolbox } from './KilangToolbox';
 import { KilangDimensionsOverlay } from './KilangDimensionsOverlay';
 import { KilangAction, KilangState } from './kilangReducer';
+import { useKilangContext } from './KilangContext';
 
 // Extracted Components
 import { PerformanceMonitor } from './components/PerformanceMonitor';
@@ -19,79 +20,57 @@ import { LineageCanvas } from './components/LineageCanvas';
 import { KilangLanding } from './components/KilangLanding';
 import { KilangExportHUD } from './KilangExportHUD';
 
-interface KilangCanvasProps {
-  selectedRoot: string | null;
-  rootData: any;
-  direction: 'horizontal' | 'vertical';
-  arrangement: 'aligned' | 'flow';
-  nodeMap: NodeMap;
-  isFit: boolean;
-  scale: number;
-  treeRef: React.RefObject<HTMLDivElement | null>;
-  fetchRootDetails: (root: string) => Promise<void>;
-  summaryCache: Record<string, string[]>;
-  fetchSummary: (word: string) => Promise<void>;
-  stats: any;
-  fitTransform: { x: number; y: number; scale: number };
-  layoutConfig: KilangState['layoutConfig'];
-  showDimensions: boolean;
-  resetToken: number;
-  showPerfMonitor: boolean;
-  logoStyle: 'original' | 'square' | 'round';
-  logoSettings: { scale: number; radius: number; xOffset: number; opacity: number; glowIntensity: number; glowColor: string };
-  moveZoomToCanvas: boolean;
-  moveGrowthToCanvas: boolean;
-  moveCaptureToCanvas: boolean;
-  moveChainToCanvas: boolean;
-  setScale: (s: number | ((prev: number) => number)) => void;
-  setIsFit: (fit: boolean) => void;
-  setDirection: (d: string) => void;
-  setArrangement: (a: string) => void;
-  handleExport: () => void;
-  exportSettings: KilangState['exportSettings'];
-  showExportDropdown: boolean;
-  exporting: boolean;
-  showTreeTooltips?: boolean;
-  isFullView?: boolean;
-  dispatch: React.Dispatch<KilangAction>;
-}
+interface KilangCanvasProps {}
 
-export const KilangCanvas = ({
-  selectedRoot,
-  rootData,
-  direction,
-  arrangement,
-  nodeMap,
-  isFit,
-  scale,
-  treeRef,
-  fetchRootDetails,
-  summaryCache,
-  fetchSummary,
-  stats,
-  fitTransform,
-  layoutConfig,
-  showDimensions,
-  resetToken,
-  showPerfMonitor,
-  logoStyle,
-  logoSettings,
-  moveZoomToCanvas,
-  moveGrowthToCanvas,
-  moveCaptureToCanvas,
-  moveChainToCanvas,
-  setScale,
-  setIsFit,
-  setDirection,
-  setArrangement,
-  handleExport,
-  exportSettings,
-  showExportDropdown,
-  exporting,
-  showTreeTooltips = true,
-  isFullView = false,
-  dispatch
-}: KilangCanvasProps) => {
+export const KilangCanvas = () => {
+  const {
+    state,
+    dispatch,
+    nodeMap,
+    fetchRootDetails,
+    summaryCache,
+    fetchSummary,
+    handleExport,
+    treeRef,
+  } = useKilangContext();
+
+  const {
+    selectedRoot,
+    rootData,
+    direction,
+    arrangement,
+    isFit,
+    scale,
+    stats,
+    fitTransform,
+    layoutConfig,
+    showDimensions,
+    resetToken,
+    showPerfMonitor,
+    landingVersion,
+    logoStyles,
+    logoSettings: stateLogoSettings,
+    moveZoomToCanvas,
+    moveGrowthToCanvas,
+    moveCaptureToCanvas,
+    moveChainToCanvas,
+    exportSettings,
+    showExportDropdown,
+    exporting,
+    showTreeTooltips = true,
+    isFullView = false,
+  } = state;
+
+  const logoStyle = logoStyles[landingVersion];
+  const logoSettings = stateLogoSettings[landingVersion];
+
+  const setScale = (s: number | ((prev: number) => number)) => {
+    const val = typeof s === 'function' ? s(scale) : s;
+    dispatch({ type: 'SET_TRANSFORM', scale: val });
+  };
+  const setIsFit = (fit: boolean) => dispatch({ type: 'SET_TRANSFORM', isFit: fit });
+  const setDirection = (d: string) => dispatch({ type: 'SET_LAYOUT', direction: d as any });
+  const setArrangement = (a: string) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any });
   const exportRef = React.useRef<HTMLDivElement>(null);
 
   // Keyboard shortcuts (Esc to exit Full View)

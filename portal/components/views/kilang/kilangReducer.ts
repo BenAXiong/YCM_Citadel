@@ -126,7 +126,7 @@ export interface KilangState {
 export type KilangAction =
   | { type: 'SET_GLOBAL_DATA'; stats: any; manifest: any }
   | { type: 'SET_LOADING'; loading: boolean }
-  | { type: 'SET_ROOT'; root: string }
+  | { type: 'SET_ROOT'; root: string | null }
   | { type: 'SET_ROOT_DATA'; data: any }
   | { type: 'SET_SUMMARY'; word: string; definitions: string[] }
   | { type: 'SET_SOURCE_COUNTS'; counts: Record<string, { r: number; e: number }>; total: { r: number; e: number } }

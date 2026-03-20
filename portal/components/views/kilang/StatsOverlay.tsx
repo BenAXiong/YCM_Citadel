@@ -3,32 +3,26 @@
 import React from 'react';
 import { Activity, Minimize2, BarChart3, TrendingUp, Link2, ChevronRight, Plus } from 'lucide-react';
 import { WordTooltip } from './KilangNode';
+import { useKilangContext } from './KilangContext';
 
-interface StatsOverlayProps {
-  showStatsOverlay: boolean;
-  setShowStatsOverlay: (show: boolean) => void;
-  stats: any;
-  visibleChainsCount: number;
-  setVisibleChainsCount: (count: number | ((prev: number) => number)) => void;
-  fetchRootDetails: (root: string) => Promise<void>;
-  summaryCache: Record<string, string[]>;
-  fetchSummary: (word: string) => Promise<void>;
-  manifest: any;
-  sourceFilter: string;
-}
+interface StatsOverlayProps {}
 
-export const StatsOverlay = ({
-  showStatsOverlay,
-  setShowStatsOverlay,
-  stats,
-  visibleChainsCount,
-  setVisibleChainsCount,
-  fetchRootDetails,
-  summaryCache,
-  fetchSummary,
-  manifest,
-  sourceFilter
-}: StatsOverlayProps) => {
+export const StatsOverlay = ({}: StatsOverlayProps) => {
+  const {
+    state,
+    dispatch,
+    fetchRootDetails,
+    summaryCache,
+    fetchSummary
+  } = useKilangContext();
+  
+  const { showStatsOverlay, stats, visibleChainsCount, manifest, sourceFilter } = state;
+  
+  const setShowStatsOverlay = (v: boolean) => dispatch({ type: 'SET_UI', showStatsOverlay: v });
+  const setVisibleChainsCount = (c: number | ((prev: number) => number)) => {
+    const val = typeof c === 'function' ? c(visibleChainsCount) : c;
+    dispatch({ type: 'SET_UI', visibleChainsCount: val });
+  };
   if (!showStatsOverlay) return null;
 
   return (

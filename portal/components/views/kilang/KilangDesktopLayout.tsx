@@ -10,45 +10,38 @@ import { StatsOverlay } from './StatsOverlay';
 import { AffixesOverlay } from './AffixesOverlay';
 import { KilangState, KilangAction } from './kilangReducer';
 import { UILang, UIStrings } from '@/types';
+import { useKilangContext } from './KilangContext';
 
 interface KilangDesktopLayoutProps {
-  state: KilangState;
-  dispatch: React.Dispatch<KilangAction>;
-  nodeMap: any;
-  fetchRootDetails: (root: string) => Promise<void>;
-  fetchSummary: (word: string) => Promise<void>;
-  filteredRoots: any[];
-  bucketHits: Record<string, number>;
-  FILTER_BUCKETS: any[];
-  MOE_SOURCES: any[];
-  handleExport: () => Promise<void>;
-  treeRef: React.RefObject<HTMLDivElement | null>;
   uiLang: UILang;
   toggleUiLang: () => void;
   s: UIStrings;
 }
 
 export const KilangDesktopLayout = ({
-  state,
-  dispatch,
-  nodeMap,
-  fetchRootDetails,
-  fetchSummary,
-  filteredRoots,
-  bucketHits,
-  FILTER_BUCKETS,
-  MOE_SOURCES,
-  handleExport,
-  treeRef,
   uiLang,
   toggleUiLang,
   s,
 }: KilangDesktopLayoutProps) => {
   const {
+    state,
+    dispatch,
+    nodeMap,
+    fetchRootDetails,
+    summaryCache,
+    fetchSummary,
+    filteredRoots,
+    bucketHits,
+    FILTER_BUCKETS,
+    MOE_SOURCES,
+    handleExport,
+    treeRef
+  } = useKilangContext();
+  
+  const {
     stats,
     selectedRoot,
     rootData,
-    summaryCache,
     direction,
     arrangement,
     scale,
@@ -76,143 +69,29 @@ export const KilangDesktopLayout = ({
       style={{ '--sidebar-width': `${(state.sidebarCollapsed || isFullView) ? 0 : state.sidebarWidth}px` } as React.CSSProperties}
     >
       {!isFullView && (
-        <KilangHeader
-        stats={stats}
-        selectedRoot={selectedRoot}
-        morphMode={morphMode}
-        sourceFilter={sourceFilter}
-        direction={direction}
-        arrangement={arrangement}
-        scale={scale}
-        isFit={isFit}
-        showStatsOverlay={showStatsOverlay}
-        showAffixesOverlay={state.showAffixesOverlay}
-        setMorphMode={(m) => dispatch({ type: 'SET_CONFIG', morphMode: m as any })}
-        setSourceFilter={(s) => dispatch({ type: 'SET_CONFIG', sourceFilter: s })}
-        setShowStatsOverlay={(v: boolean) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
-        setShowAffixesOverlay={(v: boolean) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
-        setDirection={setDirection}
-        setArrangement={setArrangement}
-        setScale={setScale}
-        setIsFit={setIsFit}
-        layoutConfig={state.layoutConfig}
-        updateLayoutConfig={(config) => dispatch({ type: 'SET_LAYOUT_CONFIG', config })}
-        handleExport={handleExport}
-        MOE_SOURCES={MOE_SOURCES}
-        sourceCounts={state.sourceCounts}
-        showStats={state.showStats}
-        showDimensions={state.showDimensions}
-        showDevTools={state.showDevTools}
-        showFilterPanel={state.showFilterPanel}
-        showRightSidebar={state.showRightSidebar}
-        showPerfMonitor={state.showPerfMonitor}
-        showThemeBar={state.showThemeBar}
-        showTreeTab={state.showTreeTab}
-        showExportDropdown={state.showExportDropdown}
-        exporting={state.exporting}
-        moveZoomToCanvas={state.moveZoomToCanvas}
-        moveGrowthToCanvas={state.moveGrowthToCanvas}
-        moveCaptureToCanvas={state.moveCaptureToCanvas}
-        moveChainToCanvas={state.moveChainToCanvas}
-        showSidebarTooltips={state.showSidebarTooltips}
-        showTreeTooltips={state.showTreeTooltips}
-        exportSettings={state.exportSettings}
-        rootData={state.rootData}
-        canvasHoverNode={state.canvasHoverNode}
-        canvasSelectedNode={state.canvasSelectedNode}
-        dispatch={dispatch}
-        uiLang={uiLang}
-        toggleUiLang={toggleUiLang}
-        s={s}
-      />
+        <KilangHeader />
       )}
 
       <div className="flex-1 flex overflow-hidden">
         {state.showFilterPanel && !isFullView && (
           <KilangSidebar
-            state={state}
-            dispatch={dispatch}
-            filteredRoots={filteredRoots}
-            fetchRootDetails={fetchRootDetails}
-            bucketHits={bucketHits}
-            FILTER_BUCKETS={FILTER_BUCKETS}
-            summaryCache={summaryCache}
-            fetchSummary={fetchSummary}
             isCollapsed={state.sidebarCollapsed}
             onToggle={() => dispatch({ type: 'SET_UI', sidebarCollapsed: !state.sidebarCollapsed })}
           />
         )}
 
-        <KilangCanvas
-          selectedRoot={selectedRoot}
-          rootData={rootData}
-          direction={direction}
-          arrangement={arrangement}
-          nodeMap={nodeMap}
-          isFit={isFit}
-          scale={scale}
-          treeRef={treeRef}
-          fetchRootDetails={fetchRootDetails}
-          summaryCache={summaryCache}
-          fetchSummary={fetchSummary}
-          stats={stats}
-          fitTransform={state.fitTransform}
-          layoutConfig={state.layoutConfig}
-          showDimensions={state.showDimensions}
-          showPerfMonitor={state.showPerfMonitor}
-          resetToken={state.resetToken}
-          logoStyle={state.logoStyles[state.landingVersion]}
-          logoSettings={state.logoSettings[state.landingVersion]}
-          moveZoomToCanvas={state.moveZoomToCanvas}
-          moveGrowthToCanvas={state.moveGrowthToCanvas}
-          moveCaptureToCanvas={state.moveCaptureToCanvas}
-          moveChainToCanvas={state.moveChainToCanvas}
-          setScale={setScale}
-          setIsFit={setIsFit}
-          setDirection={setDirection}
-          setArrangement={setArrangement}
-          handleExport={handleExport}
-          exportSettings={state.exportSettings}
-          showExportDropdown={state.showExportDropdown}
-          exporting={state.exporting}
-          showTreeTooltips={state.showTreeTooltips}
-          isFullView={isFullView}
-          dispatch={dispatch}
-        />
+        <KilangCanvas />
 
         {state.showRightSidebar && !isFullView && (
           <KilangRightSidebar
-            state={state}
-            dispatch={dispatch}
-            nodeMap={nodeMap}
             isCollapsed={state.rightSidebarCollapsed}
             onToggle={() => dispatch({ type: 'SET_UI', rightSidebarCollapsed: !state.rightSidebarCollapsed })}
           />
         )}
       </div>
 
-      <StatsOverlay
-        showStatsOverlay={showStatsOverlay}
-        setShowStatsOverlay={(v) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
-        stats={stats}
-        visibleChainsCount={visibleChainsCount}
-        setVisibleChainsCount={(c: number | ((prev: number) => number)) => {
-          const val = typeof c === 'function' ? c(visibleChainsCount) : c;
-          dispatch({ type: 'SET_UI', visibleChainsCount: val });
-        }}
-        fetchRootDetails={fetchRootDetails}
-        summaryCache={summaryCache}
-        fetchSummary={fetchSummary}
-        manifest={state.manifest}
-        sourceFilter={state.sourceFilter}
-      />
-
-      <AffixesOverlay
-        showAffixesOverlay={state.showAffixesOverlay}
-        setShowAffixesOverlay={(v) => dispatch({ type: 'SET_UI', showAffixesOverlay: v })}
-        summaryCache={state.summaryCache}
-        fetchSummary={fetchSummary}
-      />
+      <StatsOverlay />
+      <AffixesOverlay />
 
     </div>
   );

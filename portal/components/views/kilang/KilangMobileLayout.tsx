@@ -19,50 +19,37 @@ import { KilangState, KilangAction } from './kilangReducer';
 import { KilangCanvas } from './KilangCanvas';
 import { StatsOverlay } from './StatsOverlay';
 import { UILang, UIStrings } from '@/types';
+import { useKilangContext } from './KilangContext';
 
-interface KilangMobileLayoutProps {
-  state: KilangState;
-  dispatch: React.Dispatch<KilangAction>;
-  nodeMap: any;
-  fetchRootDetails: (root: string) => Promise<void>;
-  fetchSummary: (word: string) => Promise<void>;
-  filteredRoots: any[];
-  bucketHits: Record<string, number>;
-  FILTER_BUCKETS: any[];
-  MOE_SOURCES: any[];
-  sourceCounts: Record<string, { r: number; e: number }>;
-  handleExport: () => Promise<void>;
-  treeRef: React.RefObject<HTMLDivElement | null>;
-  uiLang: UILang;
-  toggleUiLang: () => void;
-  s: UIStrings;
-}
+interface KilangMobileLayoutProps {}
 
-export const KilangMobileLayout = ({
-  state,
-  dispatch,
-  nodeMap,
-  fetchRootDetails,
-  fetchSummary,
-  filteredRoots,
-  bucketHits,
-  FILTER_BUCKETS,
-  MOE_SOURCES,
-  sourceCounts,
-  handleExport,
-  treeRef,
-  uiLang,
-  toggleUiLang,
-  s,
-}: KilangMobileLayoutProps) => {
+export const KilangMobileLayout = ({}: KilangMobileLayoutProps) => {
   const [showSearch, setShowSearch] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
+
+  const {
+    state,
+    dispatch,
+    nodeMap,
+    fetchRootDetails,
+    summaryCache,
+    fetchSummary,
+    filteredRoots,
+    bucketHits,
+    FILTER_BUCKETS,
+    MOE_SOURCES,
+    sourceCounts,
+    handleExport,
+    treeRef,
+    uiLang,
+    toggleUiLang,
+    s
+  } = useKilangContext();
 
   const {
     stats,
     selectedRoot,
     rootData,
-    summaryCache,
     direction,
     arrangement,
     scale,
@@ -127,43 +114,7 @@ export const KilangMobileLayout = ({
 
       {/* 2. Main Canvas Area */}
       <div className="flex-1 relative overflow-hidden">
-        <KilangCanvas
-          selectedRoot={selectedRoot}
-          rootData={rootData}
-          direction={direction}
-          arrangement={arrangement}
-          nodeMap={nodeMap}
-          isFit={isFit}
-          scale={scale}
-          treeRef={treeRef}
-          fetchRootDetails={fetchRootDetails}
-          summaryCache={summaryCache}
-          fetchSummary={fetchSummary}
-          stats={stats}
-          fitTransform={state.fitTransform}
-          layoutConfig={state.layoutConfig}
-          showDimensions={state.showDimensions}
-          showPerfMonitor={state.showPerfMonitor}
-          resetToken={state.resetToken}
-          logoStyle={state.logoStyles[state.landingVersion]}
-          logoSettings={state.logoSettings[state.landingVersion]}
-          moveZoomToCanvas={state.moveZoomToCanvas}
-          moveGrowthToCanvas={state.moveGrowthToCanvas}
-          moveCaptureToCanvas={state.moveCaptureToCanvas}
-          moveChainToCanvas={state.moveChainToCanvas}
-          setScale={(s: number | ((prev: number) => number)) => {
-            const val = typeof s === 'function' ? s(scale) : s;
-            dispatch({ type: 'SET_TRANSFORM', scale: val });
-          }}
-          setIsFit={(f: boolean) => dispatch({ type: 'SET_TRANSFORM', isFit: f })}
-          setDirection={(d: string) => dispatch({ type: 'SET_LAYOUT', direction: d as any })}
-          setArrangement={(a: string) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any })}
-          handleExport={handleExport}
-          exportSettings={state.exportSettings}
-          showExportDropdown={state.showExportDropdown}
-          exporting={state.exporting}
-          dispatch={dispatch}
-        />
+        <KilangCanvas />
 
         {/* Floating Quick Stats */}
         {selectedRoot && (
@@ -303,9 +254,9 @@ export const KilangMobileLayout = ({
                           <span>{s.label}</span>
                           <span className={`opacity-40 font-mono text-[8px] ${isActive ? 'text-[var(--kilang-ctrl-active-text)]' : ''}`}>
                             ({s.id === 'ALL' 
-                              ? `${Object.values(sourceCounts || {}).reduce((a, b: any) => a + (b.r || 0), 0).toLocaleString()}/${Object.values(sourceCounts || {}).reduce((a, b: any) => a + (b.e || 0), 0).toLocaleString()}` 
+                              ? `${Object.values(sourceCounts || {}).reduce((a: number, b: any) => a + (b.r || 0), 0).toLocaleString()}/${Object.values(sourceCounts || {}).reduce((a: number, b: any) => a + (b.e || 0), 0).toLocaleString()}` 
                               : sourceCounts?.[s.id] 
-                                  ? `${sourceCounts[s.id].r.toLocaleString()}/${sourceCounts[s.id].e.toLocaleString()}` 
+                                  ? `${(sourceCounts[s.id] as any).r.toLocaleString()}/${(sourceCounts[s.id] as any).e.toLocaleString()}` 
                                   : '.../...'
                             })
                           </span>
@@ -397,21 +348,7 @@ export const KilangMobileLayout = ({
         </div>
       )}
 
-      <StatsOverlay
-        showStatsOverlay={state.showStatsOverlay}
-        setShowStatsOverlay={(v: boolean) => dispatch({ type: 'SET_UI', showStatsOverlay: v })}
-        stats={stats}
-        visibleChainsCount={state.visibleChainsCount}
-        setVisibleChainsCount={(c: number | ((prev: number) => number)) => {
-          const val = typeof c === 'function' ? c(state.visibleChainsCount) : c;
-          dispatch({ type: 'SET_UI', visibleChainsCount: val });
-        }}
-        fetchRootDetails={fetchRootDetails}
-        summaryCache={summaryCache}
-        fetchSummary={fetchSummary}
-        manifest={state.manifest}
-        sourceFilter={sourceFilter}
-      />
+      <StatsOverlay />
     </div>
   );
 };

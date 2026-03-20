@@ -83,7 +83,7 @@ export const groupVars = {
     { name: '--kilang-node-border', label: 'Node Border', type: 'color' },
     { name: '--kilang-scrollbar-border', label: 'Scroll Border', type: 'color' }
   ] as const,
-    texts: [
+  texts: [
     { name: '--kilang-text', label: 'Text Main', type: 'color' },
     { name: '--kilang-text-muted', label: 'Text Muted', type: 'color' },
     { name: '--kilang-primary-text', label: 'Primary Text', type: 'color' },
@@ -140,9 +140,9 @@ export const THEME_PRESETS = [
   { id: 'kakarayan', label: 'Kakarayan', color: '#3b82f6' },
   { id: 'papah', label: 'Papah', color: '#10b981' },
   { id: 'ngidan', label: 'Ngidan', color: '#6366f1' },
-  { id: 'kakarayan4', label: 'Kakarayan 4', color: '#3b82f6' },
-  { id: 'kakarayan5', label: 'Kakarayan 5', color: '#3b82f6' },
-  { id: 'kakarayan6', label: 'Kakarayan 6', color: '#3b82f6' },
+  { id: 'b', label: 'b', color: '#000000ff' },
+  { id: 'w', label: 'w', color: '#ffffffff' },
+  { id: 'b&w', label: 'b&w', color: '#949494ff' },
   { id: 'kakarayan7', label: 'Kakarayan 7', color: '#3b82f6' },
   { id: 'kakarayan8', label: 'Kakarayan 8', color: '#3b82f6' },
   { id: 'kakarayan9', label: 'Kakarayan 9', color: '#3b82f6' },
@@ -166,7 +166,7 @@ export const THEME_VARS = [
   '--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border',
   '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std',
   '--kilang-ctrl-active-border', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border',
-  '--kilang-shadow-primary', 
+  '--kilang-shadow-primary',
 
   // --- 10 TEXT ---
   '--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text',
@@ -208,7 +208,7 @@ export const ThemeBar = ({
   const [collapsedSubsections, setCollapsedSubsections] = useState<Set<string>>(new Set());
   const [activeBulbs, setActiveBulbs] = useState<Record<string, boolean>>({});
   const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
-  
+
   // Theme-Specific Persistence Logic
   useEffect(() => {
     const themeName = layoutConfig.theme;
@@ -553,31 +553,31 @@ export const ThemeBar = ({
                                         onClick={(e) => {
                                           e.stopPropagation();
                                           const nextOn = !isBulbOn;
-                                            setActiveBulbs(prev => ({ ...prev, [varKey]: nextOn }));
+                                          setActiveBulbs(prev => ({ ...prev, [varKey]: nextOn }));
 
-                                            // Immediate Sync: Apply current master value to active targets if turning ON
-                                            if (nextOn && (v as any).activeTargets) {
-                                              const currentValue = overrides[(v as any).targets[0]] || getComputedStyle(document.documentElement).getPropertyValue((v as any).targets[0]).trim();
-                                              if (currentValue) {
-                                                const mapping: Record<string, string> = {};
-                                                (v as any).activeTargets.forEach((t: string) => mapping[t] = currentValue);
-                                                updateVariables(mapping);
-                                              }
+                                          // Immediate Sync: Apply current master value to active targets if turning ON
+                                          if (nextOn && (v as any).activeTargets) {
+                                            const currentValue = overrides[(v as any).targets[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).targets[0]).trim() : '');
+                                            if (currentValue) {
+                                              const mapping: Record<string, string> = {};
+                                              (v as any).activeTargets.forEach((t: string) => mapping[t] = currentValue);
+                                              updateVariables(mapping);
                                             }
-                                          }}
-                                          className={`p-1 rounded-md transition-all duration-300 hover:bg-white/10 cursor-pointer`}
-                                          title={isBulbOn ? `Exclude active colors from ${varKey}` : `Include active colors (tabs, buttons) in ${varKey}`}
-                                        >
-                                          <Lightbulb
-                                            className={`w-3.5 h-3.5 transition-all duration-500 ${isBulbOn ? 'text-[var(--kilang-primary)] fill-[var(--kilang-primary)]/20 drop-shadow-[0_0_8px_var(--kilang-primary)] scale-110' : 'text-white/10 fill-transparent'}`}
-                                          />
-                                        </button>
+                                          }
+                                        }}
+                                        className={`p-1 rounded-md transition-all duration-300 hover:bg-white/10 cursor-pointer`}
+                                        title={isBulbOn ? `Exclude active colors from ${varKey}` : `Include active colors (tabs, buttons) in ${varKey}`}
+                                      >
+                                        <Lightbulb
+                                          className={`w-3.5 h-3.5 transition-all duration-500 ${isBulbOn ? 'text-[var(--kilang-primary)] fill-[var(--kilang-primary)]/20 drop-shadow-[0_0_8px_var(--kilang-primary)] scale-110' : 'text-white/10 fill-transparent'}`}
+                                        />
+                                      </button>
                                     )}
                                     {v.type === 'color' ? (
                                       <div className="relative flex items-center">
                                         <input
                                           type="color"
-                                          defaultValue={overrides[(v as any).name || (v as any).targets?.[0]] || getComputedStyle(document.documentElement).getPropertyValue((v as any).name || (v as any).targets?.[0]).trim()}
+                                          defaultValue={overrides[(v as any).name || (v as any).targets?.[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name || (v as any).targets?.[0]).trim() : '#000000')}
                                           onChange={(e) => {
                                             if ((v as any).targets) {
                                               const finalTargets = [...(v as any).targets];
@@ -585,23 +585,23 @@ export const ThemeBar = ({
                                                 finalTargets.push(...(v as any).activeTargets);
                                               }
                                               const mapping: Record<string, string> = {};
-                                                finalTargets.forEach((t: string) => mapping[t] = e.target.value);
-                                                updateVariables(mapping);
-                                              } else {
-                                                updateVariable((v as any).name, e.target.value);
-                                              }
-                                            }}
-                                            className="w-full h-full bg-transparent border-0 cursor-pointer opacity-0 absolute inset-0 z-10"
-                                          />
-                                          <div className="w-6 h-6 rounded-lg border border-white/20 shadow-xl transition-transform group-hover:scale-110" style={{ backgroundColor: overrides[(v as any).name || (v as any).targets?.[0]] || `var(${(v as any).name || (v as any).targets?.[0]})` }} />
-                                        </div>
+                                              finalTargets.forEach((t: string) => mapping[t] = e.target.value);
+                                              updateVariables(mapping);
+                                            } else {
+                                              updateVariable((v as any).name, e.target.value);
+                                            }
+                                          }}
+                                          className="w-full h-full bg-transparent border-0 cursor-pointer opacity-0 absolute inset-0 z-10"
+                                        />
+                                        <div className="w-6 h-6 rounded-lg border border-white/20 shadow-xl transition-transform group-hover:scale-110" style={{ backgroundColor: overrides[(v as any).name || (v as any).targets?.[0]] || `var(${(v as any).name || (v as any).targets?.[0]})` }} />
+                                      </div>
                                     ) : (
                                       <input
                                         type="text"
-                                        defaultValue={overrides[(v as any).name] || getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim()}
-                                          onChange={(e) => updateVariable((v as any).name, e.target.value)}
-                                          className="w-24 bg-transparent border-0 text-right text-[10px] text-white/60 focus:text-white focus:outline-none font-mono"
-                                        />
+                                        defaultValue={overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '')}
+                                        onChange={(e) => updateVariable((v as any).name, e.target.value)}
+                                        className="w-24 bg-transparent border-0 text-right text-[10px] text-white/60 focus:text-white focus:outline-none font-mono"
+                                      />
                                     )}
                                   </div>
                                 </div>

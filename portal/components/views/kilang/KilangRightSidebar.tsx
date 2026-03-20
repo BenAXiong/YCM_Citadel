@@ -18,13 +18,11 @@ import {
 } from 'lucide-react';
 import { getActiveHighlightChain, normalizeWord, getLinearPath, generateTreeString } from './kilangUtils';
 import { KilangState, KilangAction } from './kilangReducer';
+import { useKilangContext } from './KilangContext';
 
 interface KilangRightSidebarProps {
-  state: KilangState;
-  dispatch: React.Dispatch<KilangAction>;
   isCollapsed: boolean;
   onToggle: () => void;
-  nodeMap?: any;
 }
 
 // --- SUB-COMPONENTS ---
@@ -109,7 +107,8 @@ const CollapsibleSection = ({ title, icon: Icon, isCollapsed, onToggle, children
 
 // --- MAIN COMPONENT ---
 
-export const KilangRightSidebar = ({ state, dispatch, isCollapsed, onToggle, nodeMap }: KilangRightSidebarProps) => {
+export const KilangRightSidebar = ({ isCollapsed, onToggle }: KilangRightSidebarProps) => {
+  const { state, dispatch, nodeMap } = useKilangContext();
   const { rightSidebarTab, rightSidebarWidth, canvasSelectedNode, rootData, selectedRoot, showTreeTab, summaryCache } = state;
   const [collapsedSections, setCollapsedSections] = React.useState<Record<string, boolean>>({});
 

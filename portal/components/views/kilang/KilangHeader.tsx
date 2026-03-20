@@ -35,6 +35,7 @@ import {
 import { MorphMode, LayoutDirection, LayoutArrangement, KilangState, KilangAction } from './kilangReducer';
 import { WeavingPattern } from './WeavingPattern';
 import { UILang, UIStrings } from '../../../types';
+import { useKilangContext } from './KilangContext';
 import { KilangExportHUD } from './KilangExportHUD';
 
 // Extracted Components
@@ -44,105 +45,66 @@ import { CompactMetric } from './components/CompactMetric';
 import { DevToolItem } from './components/DevToolItem';
 
 
-interface KilangHeaderProps {
-  stats: any;
-  selectedRoot: string | null;
-  morphMode: MorphMode;
-  sourceFilter: string;
-  direction: LayoutDirection;
-  arrangement: LayoutArrangement;
-  scale: number;
-  isFit: boolean;
-  layoutConfig: KilangState['layoutConfig'];
-  showStatsOverlay: boolean;
-  showAffixesOverlay: boolean;
-  setMorphMode: (mode: MorphMode) => void;
-  setSourceFilter: (filter: string) => void;
-  setShowStatsOverlay: (show: boolean) => void;
-  setShowAffixesOverlay: (show: boolean) => void;
-  setDirection: (dir: LayoutDirection) => void;
-  setArrangement: (arr: LayoutArrangement) => void;
-  setScale: (scale: number | ((prev: number) => number)) => void;
-  setIsFit: (fit: boolean) => void;
-  updateLayoutConfig: (config: Partial<KilangState['layoutConfig']>) => void;
-  handleExport: () => Promise<void>;
-  MOE_SOURCES: Array<{ id: string; label: string }>;
-  sourceCounts: Record<string, { r: number; e: number }>;
-  showStats: boolean;
-  showDimensions: boolean;
-  showDevTools: boolean;
-  showFilterPanel: boolean;
-  showRightSidebar: boolean;
-  showPerfMonitor: boolean;
-  showThemeBar: boolean;
-  showTreeTab: boolean;
-  moveZoomToCanvas: boolean;
-  moveGrowthToCanvas: boolean;
-  moveCaptureToCanvas: boolean;
-  exportSettings: KilangState['exportSettings'];
-  showSidebarTooltips: boolean;
-  showTreeTooltips: boolean;
-  dispatch: any;
-  uiLang: UILang;
-  toggleUiLang: () => void;
-  showExportDropdown: boolean;
-  exporting: boolean;
-  moveChainToCanvas: boolean;
-  rootData: any;
-  canvasHoverNode: string | null;
-  canvasSelectedNode: string | null;
-  s: UIStrings;
-}
+interface KilangHeaderProps {}
 
-export const KilangHeader = ({
-  stats,
-  selectedRoot,
-  morphMode,
-  sourceFilter,
-  direction,
-  arrangement,
-  scale,
-  isFit,
-  layoutConfig,
-  showStatsOverlay,
-  showAffixesOverlay,
-  setMorphMode,
-  setSourceFilter,
-  setShowStatsOverlay,
-  setShowAffixesOverlay,
-  setDirection,
-  setArrangement,
-  setScale,
-  setIsFit,
-  updateLayoutConfig,
-  handleExport,
-  MOE_SOURCES,
-  sourceCounts,
-  showStats,
-  showDimensions,
-  showDevTools,
-  showFilterPanel,
-  showRightSidebar,
-  showPerfMonitor,
-  showThemeBar,
-  showTreeTab,
-  showExportDropdown,
-  exporting,
-  moveZoomToCanvas,
-  moveGrowthToCanvas,
-  moveCaptureToCanvas,
-  exportSettings,
-  dispatch,
-  uiLang,
-  toggleUiLang,
-  moveChainToCanvas,
-  rootData,
-  canvasHoverNode,
-  canvasSelectedNode,
-  showSidebarTooltips,
-  showTreeTooltips,
-  s
-}: KilangHeaderProps) => {
+export const KilangHeader = () => {
+  const {
+    state,
+    dispatch,
+    handleExport,
+    MOE_SOURCES,
+    uiLang,
+    toggleUiLang,
+    s
+  } = useKilangContext();
+
+  const {
+    stats,
+    selectedRoot,
+    morphMode,
+    sourceFilter,
+    direction,
+    arrangement,
+    scale,
+    isFit,
+    layoutConfig,
+    showStatsOverlay,
+    showAffixesOverlay,
+    sourceCounts,
+    showStats,
+    showDimensions,
+    showDevTools,
+    showFilterPanel,
+    showRightSidebar,
+    showPerfMonitor,
+    showThemeBar,
+    showTreeTab,
+    showExportDropdown,
+    exporting,
+    moveZoomToCanvas,
+    moveGrowthToCanvas,
+    moveCaptureToCanvas,
+    exportSettings,
+    moveChainToCanvas,
+    rootData,
+    canvasHoverNode,
+    canvasSelectedNode,
+    showSidebarTooltips,
+    showTreeTooltips,
+  } = state;
+
+  const setMorphMode = (mode: MorphMode) => dispatch({ type: 'SET_CONFIG', morphMode: mode });
+  const setSourceFilter = (filter: string) => dispatch({ type: 'SET_CONFIG', sourceFilter: filter });
+  const setShowStatsOverlay = (show: boolean) => dispatch({ type: 'SET_UI', showStatsOverlay: show });
+  const setShowAffixesOverlay = (show: boolean) => dispatch({ type: 'SET_UI', showAffixesOverlay: show });
+  const setDirection = (dir: LayoutDirection) => dispatch({ type: 'SET_LAYOUT', direction: dir });
+  const setArrangement = (arr: LayoutArrangement) => dispatch({ type: 'SET_LAYOUT', arrangement: arr });
+  const setScale = (s: number | ((prev: number) => number)) => {
+    const val = typeof s === 'function' ? s(scale) : s;
+    dispatch({ type: 'SET_TRANSFORM', scale: val });
+  };
+  const setIsFit = (fit: boolean) => dispatch({ type: 'SET_TRANSFORM', isFit: fit });
+  const updateLayoutConfig = (config: Partial<KilangState['layoutConfig']>) => dispatch({ type: 'SET_LAYOUT_CONFIG', config });
   const [showSettings, setShowSettings] = React.useState(false);
   const [isPinned, setIsPinned] = React.useState(false);
   const [showDevSub, setShowDevSub] = React.useState(false);
