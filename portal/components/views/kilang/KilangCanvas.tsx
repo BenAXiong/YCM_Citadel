@@ -1,5 +1,5 @@
 import React from 'react';
-import { Activity, RefreshCw, TreePine, ChevronRight, Minimize2, Maximize2, Minus, Plus, RotateCcw, ArrowRight, ArrowUp, LayoutGrid, Rows, Copy, Check, Monitor, Maximize } from 'lucide-react';
+import { Activity, RefreshCw, TreePine, ChevronRight, Minimize2, Maximize2, Minus, Plus, RotateCcw, ArrowRight, ArrowUp, LayoutGrid, Rows, Copy, Check, Monitor, Maximize, Minimize } from 'lucide-react';
 import { KilangNode } from './KilangNode';
 import {
   normalizeWord,
@@ -303,9 +303,25 @@ export const KilangCanvas = () => {
             </div>
           )}
 
-          {/* Top Right: Full View Toggle */}
-          {selectedRoot && !exporting && (
-            <div className={`absolute z-[100] animate-in slide-in-from-top-2 duration-300 ${isFullView ? 'top-8 right-8' : 'top-6 right-6'}`}>
+          {/* Top Right: Full View Toggle (Exit only when immersive) */}
+          {selectedRoot && !exporting && isFullView && (
+            <div className="absolute top-8 right-8 z-[100] animate-in fade-in slide-in-from-top-2 duration-500">
+              <button
+                onClick={() => dispatch({ type: 'SET_UI', isFullView: false })}
+                className="kilang-ctrl-container !p-1 shadow-2xl hover:scale-105 active:scale-95 transition-all text-[var(--kilang-primary)] bg-[var(--kilang-bg-base)]/80 backdrop-blur-xl border border-[var(--kilang-primary)]/30"
+                title="Exit Full View (Esc)"
+              >
+                <div className="flex items-center gap-2 px-2 py-1">
+                  <Minimize className="w-4 h-4" />
+                  <span className="text-[9px] font-black uppercase tracking-widest">Exit Full View</span>
+                </div>
+              </button>
+            </div>
+          )}
+
+          {/* Top Right: Fit Toggle */}
+          {selectedRoot && !exporting && !isFullView && (
+            <div className={`absolute z-[100] animate-in slide-in-from-top-2 duration-300 top-6 right-6`}>
               <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/40 backdrop-blur-md border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
                 <button
                   onClick={() => setIsFit(!isFit)}
