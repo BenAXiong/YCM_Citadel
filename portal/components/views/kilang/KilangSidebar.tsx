@@ -8,6 +8,7 @@ import { useKilangContext } from './KilangContext';
 // Hooks
 import { useKilangBookmarks } from './hooks/useKilangBookmarks';
 import { useCustomTree } from './hooks/useCustomTree';
+import { useThemeStudio } from './hooks/useThemeStudio';
 
 // Shared Context & Types
 import { SidebarProvider, useSidebar } from './SidebarContext';
@@ -73,6 +74,9 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
     onTabKeyDown,
     handlePlant
   } = useCustomTree(dispatch);
+
+  const { actions: tsActions } = useThemeStudio({ dispatch, layoutConfig, state });
+
   const { sidebarWidth } = state;
   const [isResizing, setIsResizing] = React.useState(false);
 
@@ -196,6 +200,7 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
         {sidebarTab === 'styling' && (
           <StylingTab
             updateConfig={updateConfig}
+            updateVariable={tsActions.updateVariable}
           />
         )}
 

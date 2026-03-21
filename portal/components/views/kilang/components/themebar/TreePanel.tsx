@@ -382,21 +382,33 @@ export const TreePanel = ({
                <VariableControl 
                 label="Width" 
                 value={layoutConfig.lineWidth} 
-                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineWidth: parseFloat(v) } })} 
+                onChange={(v) => {
+                  const val = parseFloat(v);
+                  dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineWidth: val } });
+                  updateVariable('--kilang-link-width', `${val}px`);
+                }} 
                 type="number"
                 min={0} max={10} step={0.1}
               />
               <VariableControl 
                 label="Opacity" 
                 value={layoutConfig.lineOpacity} 
-                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineOpacity: parseFloat(v) } })} 
+                onChange={(v) => {
+                  const val = parseFloat(v);
+                  dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineOpacity: val } });
+                  updateVariable('--kilang-link-opacity', val.toString());
+                }} 
                 type="number"
                 min={0} max={1} step={0.05}
               />
               <VariableControl 
                 label="Curvature" 
                 value={layoutConfig.lineTension} 
-                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineTension: parseFloat(v) } })} 
+                onChange={(v) => {
+                  const val = parseFloat(v);
+                  dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineTension: val } });
+                  updateVariable('--kilang-link-tension', val.toString());
+                }} 
                 type="number"
                 min={0} max={2} step={0.1}
               />
@@ -420,21 +432,33 @@ export const TreePanel = ({
               <VariableControl 
                 label="Blur/Glow" 
                 value={layoutConfig.lineBlur} 
-                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineBlur: parseFloat(v) } })} 
+                onChange={(v) => {
+                  const val = parseFloat(v);
+                  dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineBlur: val } });
+                  updateVariable('--kilang-link-blur', `${val}px`);
+                }} 
                 type="number"
                 min={0} max={20} step={0.5}
               />
               <VariableControl 
                 label="Dash Array" 
                 value={layoutConfig.lineDashArray} 
-                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineDashArray: parseFloat(v) } })} 
+                onChange={(v) => {
+                  const val = parseFloat(v);
+                  dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineDashArray: val } });
+                  updateVariable('--kilang-link-dash', val.toString());
+                }} 
                 type="number"
                 min={0} max={30} step={1}
               />
               <VariableControl 
                 label="Flow Speed" 
                 value={layoutConfig.lineFlowSpeed} 
-                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineFlowSpeed: parseFloat(v) } })} 
+                onChange={(v) => {
+                  const val = parseFloat(v);
+                  dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineFlowSpeed: val } });
+                  updateVariable('--kilang-link-flow-speed', val > 0 ? `${11 - val}s` : '0s');
+                }} 
                 type="number"
                 min={0} max={10} step={0.5}
               />
@@ -443,9 +467,9 @@ export const TreePanel = ({
             <RibbonGroup label="Link Gradient">
                <div className="grid grid-cols-3 gap-3 p-4 bg-white/[0.03] mx-2 rounded-2xl border border-white/5">
                  {[
-                   { label: 'Start', key: 'lineColor' },
-                   { label: 'Mid', key: 'lineColorMid' },
-                   { label: 'End', key: 'lineGradientEnd' }
+                   { label: 'Start', key: 'lineColor', var: '--kilang-link-start' },
+                   { label: 'Mid', key: 'lineColorMid', var: '--kilang-link-mid' },
+                   { label: 'End', key: 'lineGradientEnd', var: '--kilang-link-end' }
                  ].map(col => (
                    <div key={col.key} className="flex flex-col items-center gap-2 group/linkcol">
                      <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">{col.label}</span>
@@ -453,7 +477,11 @@ export const TreePanel = ({
                        <input 
                          type="color" 
                          value={getColorValue(layoutConfig[col.key])} 
-                         onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: e.target.value } })}
+                         onChange={(e) => {
+                           const color = e.target.value;
+                           dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: color } });
+                           updateVariable(col.var, color);
+                         }}
                          className="absolute inset-0 opacity-0 cursor-pointer z-10"
                        />
                        <div 

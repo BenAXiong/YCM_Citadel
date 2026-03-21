@@ -25,6 +25,7 @@ import { ForestView } from './components/canvas/ForestView';
 import { CanvasControls } from './components/canvas/CanvasControls';
 import { CanvasOverlays } from './components/canvas/CanvasOverlays';
 import { ChainInscription } from './components/canvas/ChainInscription';
+import { useKilangStyleSync } from './hooks/useKilangStyleSync';
 
 interface KilangCanvasProps {}
 
