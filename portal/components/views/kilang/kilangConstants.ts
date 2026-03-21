@@ -29,7 +29,71 @@ export const THEME_VARS = [
 
   // --- 10 TEXT ---
   '--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text',
-  '--kilang-logo-text', '--kilang-ctrl-active-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text'
+  '--kilang-logo-text', '--kilang-ctrl-active-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text',
+  
+  // --- CONNECTORS & LINKS ---
+  '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end', '--kilang-link-opacity',
+  '--kilang-link-width', '--kilang-link-blur', '--kilang-link-flow-speed'
+];
+
+export interface ThemePreset {
+  id: string;
+  label: string;
+  color: string;
+  config?: Partial<any>; // layoutConfig partial
+}
+
+export const THEME_PRESETS: ThemePreset[] = [
+  { 
+    id: 'kakarayan', 
+    label: 'Kakarayan', 
+    color: '#3b82f6',
+    config: { 
+      lineColor: '#0ea5e9', 
+      lineColorMid: '#06b6d4', 
+      lineGradientEnd: '#8b5cf6',
+      fontFamily: 'Inter',
+      fontSize: 14
+    }
+  },
+  { id: 'papah', label: 'Papah', color: '#10b981', config: { lineColor: '#10b981', fontFamily: 'Inter' } },
+  { id: 'ngidan', label: 'Ngidan', color: '#6366f1', config: { lineColor: '#6366f1', fontFamily: 'Inter' } },
+  { id: 'b', label: 'b', color: '#000000', config: { lineColor: '#ffffff', lineOpacity: 0.1, fontFamily: 'Inter' } },
+  { id: 'w', label: 'w', color: '#ffffff', config: { lineColor: '#000000', lineOpacity: 0.1, fontFamily: 'Inter' } },
+  { id: 'cudad', label: 'Cudad', color: '#949494', config: { lineColor: '#949494', fontFamily: 'Inter' } },
+  { 
+    id: 'pasiwali', 
+    label: 'Pasiwali', 
+    color: '#f6d13b',
+    config: { 
+      lineColor: '#f6d13b', 
+      lineColorMid: '#f6a13b', 
+      lineGradientEnd: '#f63b3b',
+      fontFamily: 'Outfit',
+      fontSize: 15
+    }
+  },
+  { 
+    id: 'matrix', 
+    label: 'Matrix', 
+    color: '#11ff00',
+    config: { 
+      lineColor: '#00ff00', 
+      lineColorMid: '#00cc00', 
+      lineGradientEnd: '#004400',
+      lineWidth: 1.5,
+      lineOpacity: 0.8,
+      lineBlur: 10,
+      lineFlowSpeed: 8,
+      fontFamily: 'JetBrains Mono',
+      fontSize: 12
+    }
+  },
+  { id: 'picudadan', label: 'Picudadan', color: '#f63b3b', config: { lineColor: '#f63b3b', fontFamily: 'Inter' } },
+  { id: 'rainbow', label: 'Rainbow', color: '#f63b3b', config: { lineColor: '#ff0000', fontFamily: 'Inter' } },
+  { id: '11', label: '11', color: '#3b82f6', config: { lineColor: '#3b82f6', fontFamily: 'Inter' } },
+  { id: '12', label: '12', color: '#3b82f6', config: { lineColor: '#3b82f6', fontFamily: 'Inter' } },
+  { id: 'new', label: 'new', color: '#ffffff', config: { lineColor: '#ffffff', fontFamily: 'Inter' } }
 ];
 
 export const FILTER_BUCKETS = [

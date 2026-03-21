@@ -94,8 +94,8 @@ export const LineageCanvas = React.memo(({
       <defs>
         <linearGradient
           id="lineageGradient"
-          gradientUnits="userSpaceOnUse"
-          x1="0" y1="0" x2="4000" y2="4000"
+          gradientUnits="objectBoundingBox"
+          x1="0" y1="0" x2={direction === 'horizontal' ? "1" : "0"} y2={direction === 'vertical' ? "1" : "0"}
         >
           <stop offset="0%" stopColor="var(--kilang-link-start)" stopOpacity="var(--kilang-link-opacity)" />
           <stop offset="50%" stopColor="var(--kilang-link-mid)" stopOpacity="var(--kilang-link-opacity)" />

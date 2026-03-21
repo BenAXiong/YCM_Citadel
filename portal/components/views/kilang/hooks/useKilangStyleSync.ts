@@ -15,6 +15,8 @@ interface UseKilangStyleSyncProps {
     lineTension: number;
     lineDashArray: number;
     lineFlowSpeed: number;
+    fontFamily: string;
+    fontSize: number;
   };
 }
 
@@ -31,6 +33,8 @@ export const useKilangStyleSync = ({ layoutConfig }: UseKilangStyleSyncProps) =>
     root.style.setProperty('--kilang-link-tension', layoutConfig.lineTension.toString());
     root.style.setProperty('--kilang-link-dash', layoutConfig.lineDashArray.toString());
     root.style.setProperty('--kilang-link-flow-speed', layoutConfig.lineFlowSpeed > 0 ? `${11 - layoutConfig.lineFlowSpeed}s` : '0s');
+    root.style.setProperty('--kilang-font-family', layoutConfig.fontFamily);
+    root.style.setProperty('--kilang-font-size', `${layoutConfig.fontSize}px`);
   }, [
     layoutConfig.lineColor, 
     layoutConfig.lineColorMid, 
@@ -40,7 +44,9 @@ export const useKilangStyleSync = ({ layoutConfig }: UseKilangStyleSyncProps) =>
     layoutConfig.lineBlur,
     layoutConfig.lineTension,
     layoutConfig.lineDashArray,
-    layoutConfig.lineFlowSpeed
+    layoutConfig.lineFlowSpeed,
+    layoutConfig.fontFamily,
+    layoutConfig.fontSize
   ]);
 
   // 2. Real-time CSS Variable Syncing & Custom Theme Loading

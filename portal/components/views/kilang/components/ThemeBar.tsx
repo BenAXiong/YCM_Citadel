@@ -32,22 +32,15 @@ import {
 
 import { KilangAction, KilangState } from '../kilangReducer';
 import { VariableMap } from './VariableMap';
-import { THEME_VARS } from '../kilangConstants';
+import { THEME_VARS, THEME_PRESETS, ThemePreset } from '../kilangConstants';
 
 interface ThemeBarProps {
-  show: boolean;
-  onClose: () => void;
   activeTab: 'themes' | 'tree' | 'branding' | 'fonts' | 'map';
   setActiveTab: (tab: 'themes' | 'tree' | 'branding' | 'fonts' | 'map') => void;
-  landingVersion: number;
-  setLandingVersion: (v: 1 | 2 | 3) => void;
-  logoStyle: 'original' | 'square' | 'round';
-  setLogoStyle: (s: 'original' | 'square' | 'round') => void;
-  logoSettings: { scale: number; radius: number; xOffset: number; opacity: number; glowIntensity: number; glowColor: string };
-  updateLogoSettings: (settings: { scale?: number; radius?: number; xOffset?: number; opacity?: number; glowIntensity?: number; glowColor?: string }) => void;
-  resetLogoSettings: () => void;
   dispatch: React.Dispatch<KilangAction>;
   layoutConfig: KilangState['layoutConfig'];
+  state: KilangState;
+  forceShow?: boolean;
 }
 
 export const groupVars = {
@@ -118,37 +111,24 @@ export const groupVars = {
 };
 
 
-export const THEME_PRESETS = [
-  { id: 'kakarayan', label: 'Kakarayan', color: '#3b82f6' },
-  { id: 'papah', label: 'Papah', color: '#10b981' },
-  { id: 'ngidan', label: 'Ngidan', color: '#6366f1' },
-  { id: 'b', label: 'b', color: '#000000ff' },
-  { id: 'w', label: 'w', color: '#ffffffff' },
-  { id: 'cudad', label: 'Cudad', color: '#949494ff' },
-  { id: 'pasiwali', label: 'Pasiwali', color: '#f6d13bff' },
-  { id: 'matrix', label: 'Matrix', color: '#11ff00ff' },
-  { id: 'picudadan', label: 'Picudadan', color: '#f63b3bff' },
-  { id: 'rainbow', label: 'Rainbow', color: '#f63b3bff' },
-  { id: '11', label: '11', color: '#3b82f6' },
-  { id: '12', label: '12', color: '#3b82f6' },
-  { id: 'new', label: 'new', color: '#ffffffff' }
-];
 
 export const ThemeBar = ({
-  show,
-  onClose,
   activeTab,
   setActiveTab,
-  landingVersion,
-  setLandingVersion,
-  logoStyle,
-  setLogoStyle,
-  logoSettings,
-  updateLogoSettings,
-  resetLogoSettings,
   dispatch,
-  layoutConfig
+  layoutConfig,
+  state,
+  forceShow = false
 }: ThemeBarProps) => {
+  // Use state to derive values instead of props
+  const landingVersion = state.landingVersion;
+  const logoStyle = state.logoStyles[landingVersion];
+  const logoSettings = state.logoSettings[landingVersion];
+
+  const setLandingVersion = (v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v });
+  const setLogoStyle = (s: 'original' | 'square' | 'round') => dispatch({ type: 'SET_UI', logoStyles: { ...state.logoStyles, [landingVersion]: s } });
+  const updateLogoSettings = (settings: any) => dispatch({ type: 'SET_UI', logoSettings: { ...state.logoSettings, [landingVersion]: { ...logoSettings, ...settings } } });
+  const resetLogoSettings = () => dispatch({ type: 'RESET_LOGO_SETTINGS', version: landingVersion });
   const [slideIndex, setSlideIndex] = useState(0);
   const itemsPerSlide = 3;
   const totalSlides = Math.ceil(THEME_PRESETS.length / itemsPerSlide);
@@ -201,18 +181,24 @@ export const ThemeBar = ({
   const [activeBulbs, setActiveBulbs] = useState<Record<string, boolean>>({});
   const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Theme-Specific Persistence Logic
+  // Theme-Specific Persistence & UI Sync Logic
   useEffect(() => {
     const themeName = layoutConfig.theme;
 
-    // 1. Clear all existing inline overrides first
+    // 1. Sync Gallery Position
+    const currentIdx = THEME_PRESETS.findIndex(p => p.id === themeName);
+    if (currentIdx !== -1) {
+      setSlideIndex(Math.floor(currentIdx / 3));
+    }
+
+    // 2. Clear all existing inline overrides first (prevent contamination)
     const themedEl = document.querySelector('[data-theme]');
     THEME_VARS.forEach(v => {
       document.documentElement.style.removeProperty(v);
       if (themedEl) (themedEl as HTMLElement).style.removeProperty(v);
     });
 
-    // 2. Load theme-specific overrides
+    // 3. Load theme-specific overrides into DOM & Local State
     const saved = localStorage.getItem(`kilang-custom-theme-${themeName}`);
     const loadedOverrides: Record<string, string> = {};
     if (saved) {
@@ -314,21 +300,23 @@ export const ThemeBar = ({
   );
 
   return (
-    <div className={`fixed top-16 left-0 bottom-0 w-82 z-[2000] transition-transform duration-500 theme-bar-bnw ${show ? 'translate-x-0' : '-translate-x-full'}`}>
+    <div className={`fixed top-16 left-0 bottom-0 w-82 z-[2000] transition-transform duration-500 theme-bar-bnw ${(forceShow || state.showThemeBar) ? 'translate-x-0' : '-translate-x-full'}`}>
       <div className="h-full flex flex-col relative">
 
-        <button
-          onClick={onClose}
-          className="absolute -right-8 top-[90%] -translate-y-1/2 w-8 h-12 bg-black border border-white/10 rounded-r-xl flex items-center justify-center hover:bg-white/10 transition-all group z-[2001] shadow-2xl"
-        >
-          {show ? (
-            <ChevronLeft className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
-          ) : (
-            <div className="flex flex-col items-center gap-0.5">
-              <ChevronRight className="w-5 h-5 text-zinc-400 animate-pulse" />
-            </div>
-          )}
-        </button>
+        {!forceShow && (
+          <button
+            onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
+            className="absolute -right-8 top-[90%] -translate-y-1/2 w-8 h-12 bg-black border border-white/10 rounded-r-xl flex items-center justify-center hover:bg-white/10 transition-all group z-[2001] shadow-2xl"
+          >
+            {state.showThemeBar ? (
+              <ChevronLeft className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
+            ) : (
+              <div className="flex flex-col items-center gap-0.5">
+                <ChevronRight className="w-5 h-5 text-zinc-400 animate-pulse" />
+              </div>
+            )}
+          </button>
+        )}
 
         <div className="grid grid-cols-6 bg-white/[0.02] border-b border-white/10">
           {(['themes', 'tree', 'branding', 'fonts', 'map'] as const).map(tab => (
@@ -366,118 +354,189 @@ export const ThemeBar = ({
           </button>
         </div>
 
+        <div className="shrink-0 bg-white/[0.01]">
+          {/* 1. Global Presets Gallery */}
+          <div className="relative border-b border-white/5 group/gallery">
+            <div className="absolute top-3 left-1/2 -translate-x-1/2 flex gap-1.5 transition-opacity duration-300 opacity-30 group-hover/gallery:opacity-100 z-30">
+              {Array.from({ length: totalSlides }).map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => scrollToSlide(i)}
+                  className={`w-1 h-1 rounded-full transition-all duration-300 ${slideIndex === i ? 'bg-white w-2' : 'bg-white/10 hover:bg-white/30'}`}
+                />
+              ))}
+            </div>
+
+            <button
+              onClick={() => scrollToSlide(slideIndex > 0 ? slideIndex - 1 : totalSlides - 1)}
+              className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+
+            <div 
+              ref={setGalleryRef}
+              onScroll={handleScroll}
+              className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory scroll-smooth"
+            >
+              {Array.from({ length: totalSlides }).map((_, slideIdx) => (
+                <div 
+                  key={slideIdx} 
+                  className="w-full flex-shrink-0 flex items-center justify-center gap-6 py-8 px-6 snap-center"
+                >
+                   {THEME_PRESETS.slice(slideIdx * itemsPerSlide, (slideIdx + 1) * itemsPerSlide).map((t) => (
+                    <button
+                      key={t.id}
+                      onClick={() => {
+                        const preset = THEME_PRESETS.find(p => p.id === t.id);
+                        
+                        // 1. Prepare Branding Defaults (preserving current state by default)
+                        let branding = {
+                          logoStyles: state.logoStyles,
+                          logoSettings: state.logoSettings,
+                          landingVersion: state.landingVersion
+                        };
+
+                        // 2. Load Overrides if any
+                        const overridesStr = localStorage.getItem(`kilang-config-overrides-${t.id}`);
+                        let finalConfig = preset?.config || {};
+                        if (overridesStr) {
+                          try {
+                            const parsed = JSON.parse(overridesStr);
+                            finalConfig = { ...finalConfig, ...parsed.layoutConfig };
+                            branding = {
+                              logoStyles: parsed.logoStyles,
+                              logoSettings: parsed.logoSettings,
+                              landingVersion: parsed.landingVersion
+                            };
+                          } catch (e) {
+                            console.error('Failed to parse theme overrides:', e);
+                          }
+                        }
+
+                        // 3. ATOMIC DISPATCH for both Theme and Branding
+                        dispatch({ 
+                          type: 'SYNC_HOLISTIC_THEME', 
+                          theme: t.id, 
+                          layoutConfig: finalConfig,
+                          branding
+                        });
+                      }}
+                      className="flex-shrink-0 flex flex-col items-center gap-3 group relative w-[72px]"
+                    >
+                      <div className={`w-14 h-14 rounded-full flex items-center justify-center transition-all ${layoutConfig.theme === t.id ? 'scale-110' : 'opacity-60 grayscale-[0.5] hover:opacity-100 hover:grayscale-0'}`}>
+                        <div className="absolute inset-0 blur-xl opacity-40 rounded-full" style={{ backgroundColor: t.color }} />
+                        <img
+                          src="/kilang/kilang_5_nobg_noring2.png"
+                          className="w-10 h-10 relative z-10 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
+                          alt={t.label}
+                        />
+                      </div>
+                      <span className={`text-[8px] font-black uppercase tracking-widest text-white transition-opacity text-center w-full truncate px-1 ${layoutConfig.theme === t.id ? 'opacity-100' : 'opacity-40 group-hover:opacity-100'}`}>
+                        {t.label}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              ))}
+            </div>
+
+            <button
+              onClick={() => scrollToSlide(slideIndex < totalSlides - 1 ? slideIndex + 1 : 0)}
+              className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+
+          {/* 2. Global Utility Bar (Reset, Save, Export) */}
+          <div className="flex items-center justify-between px-5 py-2.5 bg-white/[0.04] border-b border-white/10 backdrop-blur-md">
+            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30">Theme Studio</span>
+            <div className="flex items-center gap-1">
+              <button
+                onClick={() => {
+                  if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
+                  // 1. Reset all CSS variable overrides
+                  document.documentElement.setAttribute('style', '');
+                  const entries = document.documentElement.style;
+                  for (let i = entries.length - 1; i >= 0; i--) {
+                    const prop = entries[i];
+                    if (prop.startsWith('--kilang-')) {
+                      document.documentElement.style.removeProperty(prop);
+                    }
+                  }
+
+                  // 2. Clear relevant localStorage items
+                  localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
+                  localStorage.removeItem(`kilang-config-overrides-${layoutConfig.theme}`);
+
+                  // 3. Dispatch reset action to reducer
+                  dispatch({ type: 'RESET_LAYOUT_CONFIG' });
+                  dispatch({ type: 'SET_TOAST', message: 'Theme Studio Reset' });
+                }}
+                className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/reset"
+                title="RESET STUDIO: Restores colors, tree, and branding to theme defaults."
+              >
+                <RotateCcw className="w-3.5 h-3.5 group-hover/reset:rotate-[-45deg] transition-transform" />
+              </button>
+              <button
+                onClick={() => {
+                  // 1. Save CSS Variable Overrides
+                  const overrides: Record<string, string> = {};
+                  THEME_VARS.forEach(v => {
+                    const val = document.documentElement.style.getPropertyValue(v);
+                    if (val) overrides[v] = val;
+                  });
+
+                  // 2. Save Layout & Branding Config Overrides
+                  const brandingConfig = {
+                    layoutConfig,
+                    logoStyles: state.logoStyles,
+                    logoSettings: state.logoSettings,
+                    landingVersion: state.landingVersion
+                  };
+                  localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(overrides));
+                  localStorage.setItem(`kilang-config-overrides-${layoutConfig.theme}`, JSON.stringify(brandingConfig));
+                  
+                  dispatch({ type: 'SET_TOAST', message: 'Preset Successfully Saved' });
+                }}
+                className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/save"
+                title="SAVE STUDIO: Persists all current tweaks for this theme."
+              >
+                <Save className="w-3.5 h-3.5 group-hover/save:scale-110 transition-transform" />
+              </button>
+              <button
+                onClick={() => {
+                  const manifest = {
+                    theme: layoutConfig.theme,
+                    variables: Object.fromEntries(
+                      Array.from(document.documentElement.style)
+                        .filter(key => key.startsWith('--kilang-'))
+                        .map(key => [key, document.documentElement.style.getPropertyValue(key)])
+                    ),
+                    layoutConfig,
+                    branding: {
+                      logoStyles: state.logoStyles,
+                      settings: state.logoSettings,
+                      version: state.landingVersion
+                    }
+                  };
+                  console.log('HOLISTIC MANIFEST:', manifest);
+                  dispatch({ type: 'SET_TOAST', message: 'Manifest Exported to Console' });
+                }}
+                className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/export"
+                title="EXPORT MANIFEST: Copies full theme state (JSON) to console."
+              >
+                <Share2 className="w-3.5 h-3.5 group-hover/export:scale-110 transition-transform" />
+              </button>
+            </div>
+          </div>
+        </div>
+
         <div className="flex-1 overflow-y-auto custom-scrollbar no-scrollbar pb-10">
 
           {activeTab === 'themes' && (
             <div className="animate-in fade-in duration-300">
-
-              <div className="relative border-b border-white/5 group/gallery">
-                <div className="absolute top-3 left-1/2 -translate-x-1/2 flex gap-1.5 transition-opacity duration-300 opacity-30 group-hover/gallery:opacity-100 z-30">
-                  {Array.from({ length: totalSlides }).map((_, i) => (
-                    <button
-                      key={i}
-                      onClick={() => scrollToSlide(i)}
-                      className={`w-1 h-1 rounded-full transition-all duration-300 ${slideIndex === i ? 'bg-white w-2' : 'bg-white/10 hover:bg-white/30'}`}
-                    />
-                  ))}
-                </div>
-
-                <button
-                  onClick={() => scrollToSlide(slideIndex > 0 ? slideIndex - 1 : totalSlides - 1)}
-                  className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
-                >
-                  <ChevronLeft className="w-4 h-4" />
-                </button>
-
-                <div 
-                  ref={setGalleryRef}
-                  onScroll={handleScroll}
-                  className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory scroll-smooth"
-                >
-                  {Array.from({ length: totalSlides }).map((_, slideIdx) => (
-                    <div 
-                      key={slideIdx} 
-                      className="w-full flex-shrink-0 flex items-center justify-center gap-6 py-8 px-6 snap-center"
-                    >
-                      {THEME_PRESETS.slice(slideIdx * itemsPerSlide, (slideIdx + 1) * itemsPerSlide).map((t) => (
-                        <button
-                          key={t.id}
-                          onClick={() => dispatch({ type: 'SET_UI', theme: t.id })}
-                          className="flex-shrink-0 flex flex-col items-center gap-3 group relative w-[72px]"
-                        >
-                          <div className={`w-14 h-14 rounded-full flex items-center justify-center transition-all ${layoutConfig.theme === t.id ? 'scale-110' : 'opacity-60 grayscale-[0.5] hover:opacity-100 hover:grayscale-0'}`}>
-                            <div className="absolute inset-0 blur-xl opacity-40 rounded-full" style={{ backgroundColor: t.color }} />
-                            <img
-                              src="/kilang/kilang_5_nobg_noring2.png"
-                              className="w-10 h-10 relative z-10 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
-                              alt={t.label}
-                            />
-                          </div>
-                          <span className={`text-[8px] font-black uppercase tracking-widest text-white transition-opacity text-center w-full truncate px-1 ${layoutConfig.theme === t.id ? 'opacity-100' : 'opacity-40 group-hover:opacity-100'}`}>
-                            {t.label}
-                          </span>
-                        </button>
-                      ))}
-                    </div>
-                  ))}
-                </div>
-
-                <button
-                  onClick={() => scrollToSlide(slideIndex < totalSlides - 1 ? slideIndex + 1 : 0)}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
-                >
-                  <ChevronRight className="w-4 h-4" />
-                </button>
-              </div>
-
-              {/* Persistent Global Utility Bar */}
-              <div className="flex items-center justify-between px-5 py-2.5 bg-white/[0.02] border-b border-white/5 sticky top-0 z-50 backdrop-blur-md">
-                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">Global Controls</span>
-                <div className="flex items-center gap-1">
-                  <button
-                    onClick={() => {
-                      if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
-                      const themedEls = document.querySelectorAll('[data-theme]');
-                      THEME_VARS.forEach(v => {
-                        document.documentElement.style.removeProperty(v);
-                        themedEls.forEach(el => (el as HTMLElement).style.removeProperty(v));
-                      });
-                      localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
-                      setOverrides({});
-                    }}
-                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/reset"
-                    title="RESET THEME: Wipes all inline CSS overrides."
-                  >
-                    <RotateCcw className="w-3.5 h-3.5 group-hover/reset:rotate-[-45deg] transition-transform" />
-                  </button>
-                  <button
-                    onClick={() => {
-                      const saved: Record<string, string> = {};
-                      THEME_VARS.forEach(v => {
-                        const val = document.documentElement.style.getPropertyValue(v);
-                        if (val) saved[v] = val;
-                      });
-                      localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(saved));
-                    }}
-                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/save"
-                    title="SAVE THEME: Persists current overrides."
-                  >
-                    <Save className="w-3.5 h-3.5 group-hover/save:scale-110 transition-transform" />
-                  </button>
-                  <button
-                    onClick={() => {
-                      const styles = THEME_VARS.map(v => `  ${v}: ${getComputedStyle(document.documentElement).getPropertyValue(v).trim()};`).join('\n');
-                      const css = `:root {\n${styles}\n}`;
-                      console.log(css);
-                      alert("CSS Exported to Console!");
-                    }}
-                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/export"
-                    title="EXPORT CSS: Copies theme variables to console."
-                  >
-                    <Share2 className="w-3.5 h-3.5 group-hover/export:scale-110 transition-transform" />
-                  </button>
-                </div>
-              </div>
 
               {[
                 { id: 'masters', label: 'Masters', icon: Zap, vars: [
@@ -646,12 +705,12 @@ export const ThemeBar = ({
               </div>
 
               <div className="space-y-6 py-3 px-5 rounded-3xl bg-white/[0.03] border border-white/10">
-                <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-[11px] font-black uppercase tracking-[0.2em] text-white/40">Logo Tuning</h3>
-                  <button onClick={resetLogoSettings} className="p-2 rounded-xl hover:bg-white/10 text-white/40 hover:text-white transition-all group">
-                    <RotateCcw className="w-4 h-4 group-hover:rotate-[-45deg] transition-transform duration-300" />
-                  </button>
-                </div>
+                 <div className="flex items-center justify-between mb-2">
+                   <h3 className="text-[11px] font-black uppercase tracking-[0.2em] text-white/40">Logo Tuning</h3>
+                   <button onClick={resetLogoSettings} className="p-2 rounded-xl hover:bg-white/10 text-white/40 hover:text-white transition-all group">
+                     <RotateCcw className="w-4 h-4 group-hover:rotate-[-45deg] transition-transform duration-300" />
+                   </button>
+                 </div>
                 
                 <div className="flex flex-col gap-6">
                   {/* OPACITY Tuning */}
@@ -776,34 +835,6 @@ export const ThemeBar = ({
 
           {activeTab === 'tree' && (
             <div className="animate-in fade-in slide-in-from-right-4 duration-300">
-              {/* Persistent Tree Utility Bar */}
-              <div className="flex items-center justify-between px-5 py-2.5 bg-white/[0.02] border-b border-white/5 sticky top-0 z-50 backdrop-blur-md">
-                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">Tree Configuration</span>
-                <div className="flex items-center gap-1">
-                  <button
-                    onClick={() => {
-                      if (confirm("Reset all tree layout and aesthetic settings to defaults?")) {
-                        dispatch({ type: 'RESET_LAYOUT_CONFIG' });
-                      }
-                    }}
-                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/reset"
-                    title="RESET TREE: Restores all layout, geometry, and tier aesthetics to defaults."
-                  >
-                    <RotateCcw className="w-3.5 h-3.5 group-hover/reset:rotate-[-45deg] transition-transform" />
-                  </button>
-                  <button
-                    onClick={() => {
-                      const config = layoutConfig;
-                      localStorage.setItem('kilang-tree-config', JSON.stringify(config));
-                      alert("Tree Configuration Saved!");
-                    }}
-                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/save"
-                    title="SAVE TREE: Persists current layout and aesthetic configuration."
-                  >
-                    <Save className="w-3.5 h-3.5 group-hover/save:scale-110 transition-transform" />
-                  </button>
-                </div>
-              </div>
 
               {(() => {
                 const renderTreeSection = (section: any) => (
@@ -947,29 +978,10 @@ export const ThemeBar = ({
 
                     {/* PALETTE SECTION */}
                     <div>
-                      <SectionHeader 
+                       <SectionHeader 
                         id="colors" 
                         label="Palette" 
                         icon={Palette} 
-                        actions={
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              const tierDefaults: any = {};
-                              for (let i = 1; i <= 9; i++) {
-                                tierDefaults[`tier${i}Fill`] = `var(--kilang-tier-${i}-fill)`;
-                                tierDefaults[`tier${i}Border`] = `var(--kilang-tier-${i}-border)`;
-                              }
-                              tierDefaults.tier1Rounding = 16;
-                              tierDefaults.tier2Rounding = 16;
-                              dispatch({ type: 'SET_LAYOUT_CONFIG', config: tierDefaults });
-                            }}
-                            className="p-1.5 rounded-lg hover:bg-white/10 text-white/20 hover:text-white transition-all"
-                            title="Reset Colors to defaults"
-                          >
-                            <RotateCcw className="w-3 h-3" />
-                          </button>
-                        }
                       />
                       {expandedSections.has('colors') && (
                         <div className="bg-white/[0.03] border-b border-white/10 py-6 px-5 space-y-8 animate-in fade-in slide-in-from-top-2 duration-300">
@@ -1238,8 +1250,55 @@ export const ThemeBar = ({
           )}
 
           {activeTab === 'fonts' && (
-            <div className="p-12 text-center text-white italic text-[11px] uppercase tracking-widest opacity-40">
-              Typography Ready
+            <div className="animate-in fade-in duration-300">
+               <div className="flex items-center justify-between px-5 py-2.5 bg-white/[0.02] border-b border-white/5 sticky top-0 z-50 backdrop-blur-md">
+                 <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/50 flex items-center gap-2">
+                   <Type className="w-3 h-3" />
+                   Typography Controls
+                 </span>
+               </div>
+               
+               <div className="p-6 space-y-8">
+                 <div className="space-y-4">
+                   <div className="flex flex-col gap-1.5">
+                     <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Font Family</span>
+                     <select 
+                       value={layoutConfig.fontFamily} 
+                       onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { fontFamily: e.target.value } })}
+                       className="bg-[#111] border border-white/10 rounded-lg px-3 py-2 text-[11px] text-white outline-none focus:border-white/20 transition-all cursor-pointer"
+                     >
+                       <option value="Inter">Inter (Sans)</option>
+                       <option value="JetBrains Mono">JetBrains Mono (Matrix)</option>
+                       <option value="Outfit">Outfit (Pasiwali)</option>
+                       <option value="system-ui">System Default</option>
+                     </select>
+                   </div>
+
+                   <div className="flex flex-col gap-1.5">
+                     <div className="flex items-center justify-between text-[8px] font-black uppercase tracking-widest text-white/30">
+                       <span>Base Font Size</span>
+                       <span className="text-white/60">{layoutConfig.fontSize}px</span>
+                     </div>
+                     <input 
+                       type="range" 
+                       min={10} 
+                       max={24} 
+                       step={1} 
+                       value={layoutConfig.fontSize} 
+                       onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { fontSize: parseInt(e.target.value) } })}
+                       className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer accent-white hover:accent-white/80 transition-all"
+                     />
+                   </div>
+                 </div>
+
+                 <div className="p-4 bg-white/[0.03] border border-white/5 rounded-xl space-y-2">
+                   <div className="text-[8px] font-black uppercase tracking-widest text-white/20">Live Preview</div>
+                   <div className="text-white space-y-1" style={{ fontFamily: layoutConfig.fontFamily, fontSize: `${layoutConfig.fontSize}px` }}>
+                     <p>The quick brown fox jumps over the lazy dog.</p>
+                     <p className="opacity-50 text-[0.8em]">Kilang Morphological Engine v5.0.0</p>
+                   </div>
+                 </div>
+               </div>
             </div>
           )}
 

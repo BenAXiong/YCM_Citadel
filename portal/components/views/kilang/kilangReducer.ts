@@ -125,6 +125,8 @@ export interface KilangState {
     lineDashArray: number;
     lineFlowSpeed: number;
     theme: string;
+    fontFamily: string;
+    fontSize: number;
   };
   affixState: {
     showInfixes: boolean;
@@ -142,6 +144,7 @@ export interface KilangState {
     sortMode: 'count' | 'alpha';
     columnSources: Record<string, string[]>;
   };
+  toast: string | null;
 }
 
 export type KilangAction =
@@ -163,9 +166,11 @@ export type KilangAction =
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'SET_SIDEBAR_WIDTH', width: number }
+  | { type: 'SET_TOAST', message: string | null }
   | { type: 'SET_AFFIX_STATE', state: Partial<KilangState['affixState']> }
   | { type: 'SYNC_STATE', state: Partial<KilangState> }
   | { type: 'SYNC_GLOBAL_THEME', theme: string, layoutConfig: Partial<KilangState['layoutConfig']> }
+  | { type: 'SYNC_HOLISTIC_THEME', theme: string, layoutConfig: Partial<KilangState['layoutConfig']>, branding: { logoStyles: any, logoSettings: any, landingVersion: any } }
   | { type: 'RESET_TRANSFORM' };
 
 export const initialState: KilangState = {
@@ -248,9 +253,9 @@ export const initialState: KilangState = {
     nodeOpacity: 1,
     rootColor: 'var(--kilang-primary)',
     branchColor: 'var(--kilang-secondary)',
-    lineColor: 'var(--kilang-primary)',
-    lineColorMid: 'var(--kilang-secondary)',
-    lineGradientEnd: 'var(--kilang-accent)',
+    lineColor: '#0ea5e9',
+    lineColorMid: '#06b6d4',
+    lineGradientEnd: '#8b5cf6',
     showIcons: false,
     nodeWidth: 100,
     nodePaddingY: 8,
@@ -278,6 +283,8 @@ export const initialState: KilangState = {
     lineDashArray: 0,
     lineFlowSpeed: 0,
     theme: 'kakarayan',
+    fontFamily: 'Inter',
+    fontSize: 14,
   },
   affixState: {
     showInfixes: true,
@@ -294,7 +301,8 @@ export const initialState: KilangState = {
     activeTab: 'examples',
     sortMode: 'count',
     columnSources: { moe: ['ALL'], plus: ['ALL'], star: ['ALL'] }
-  }
+  },
+  toast: null,
 };
 
 export function kilangReducer(state: KilangState, action: KilangAction): KilangState {
@@ -386,7 +394,11 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
           ...initialState.layoutConfig,
           anchorX: modeDefaults.x,
           anchorY: modeDefaults.y
-        }
+        },
+        logoStyles: { ...initialState.logoStyles },
+        logoSettings: { ...initialState.logoSettings },
+        landingVersion: initialState.landingVersion,
+        sidebarWidth: initialState.sidebarWidth
       };
     }
     case 'RESET_LOGO_SETTINGS': {
@@ -438,12 +450,22 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return { ...state, canvasSelectedNode: action.node };
     case 'SET_SIDEBAR_WIDTH':
       return { ...state, sidebarWidth: action.width };
+    case 'SET_TOAST':
+      return { ...state, toast: action.message };
     case 'SYNC_STATE':
       return { ...state, ...action.state };
     case 'SYNC_GLOBAL_THEME':
       return {
         ...state,
         layoutConfig: { ...state.layoutConfig, ...action.layoutConfig, theme: action.theme }
+      };
+    case 'SYNC_HOLISTIC_THEME':
+      return {
+        ...state,
+        layoutConfig: { ...state.layoutConfig, ...action.layoutConfig, theme: action.theme },
+        logoStyles: action.branding.logoStyles || state.logoStyles,
+        logoSettings: action.branding.logoSettings || state.logoSettings,
+        landingVersion: action.branding.landingVersion || state.landingVersion
       };
     case 'RESET_TRANSFORM':
       return {

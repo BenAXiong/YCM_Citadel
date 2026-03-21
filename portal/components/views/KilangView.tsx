@@ -7,6 +7,7 @@ import './Kilang.css';
 import { KilangDesktopLayout } from './kilang/KilangDesktopLayout';
 import { KilangMobileLayout } from './kilang/KilangMobileLayout';
 import { ThemeBar } from './kilang/components/ThemeBar';
+import { Toast } from './kilang/components/Toast';
 import { useIsMobile } from '@/hooks/useIsMobile';
 
 // Data Logic
@@ -70,30 +71,6 @@ export default function KilangView({
   useKilangStyleSync({ layoutConfig });
   const { handleExport } = useKilangExport({ state, dispatch, nodeMap, treeRef });
 
-  if (isStandalone) {
-    return (
-      <div data-theme={state.layoutConfig.theme}>
-        <div className="fixed inset-0 bg-[#0a0a0c] flex flex-col p-0 overflow-hidden">
-          <ThemeBar
-            show={true}
-            onClose={() => window.close()}
-            activeTab={state.themeBarTab || 'themes'}
-            setActiveTab={(tab: 'themes' | 'tree' | 'branding' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: tab })}
-            landingVersion={state.landingVersion || 2}
-            setLandingVersion={(v) => dispatch({ type: 'SET_UI', landingVersion: v })}
-            logoStyle={state.logoStyles?.[state.landingVersion] || 'round'}
-            setLogoStyle={(s) => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
-            logoSettings={state.logoSettings?.[state.landingVersion] || { scale: 1, radius: 45, xOffset: 0, opacity: 1, glowIntensity: 0, glowColor: 'var(--kilang-primary)' }}
-            updateLogoSettings={(settings) => dispatch({ type: 'SET_UI', logoSettings: { [state.landingVersion]: settings } })}
-            resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
-            dispatch={dispatch}
-            layoutConfig={state.layoutConfig}
-          />
-        </div>
-      </div>
-    );
-  }
-
   const contextValue = {
     state,
     dispatch,
@@ -112,6 +89,29 @@ export default function KilangView({
     sourceCounts: state.sourceCounts,
     treeRef,
   };
+
+  if (isStandalone) {
+    return (
+      <KilangProvider value={contextValue}>
+        <div data-theme={state.layoutConfig.theme}>
+          <div className="fixed inset-0 bg-[#0a0a0c] flex flex-col p-0 overflow-hidden">
+            <ThemeBar
+              activeTab={state.themeBarTab || 'themes'}
+              setActiveTab={(tab: any) => dispatch({ type: 'SET_UI', themeBarTab: tab })}
+              dispatch={dispatch}
+              layoutConfig={state.layoutConfig}
+              state={state}
+              forceShow={true}
+            />
+          </div>
+          <Toast 
+            message={state.toast} 
+            onClose={() => dispatch({ type: 'SET_TOAST', message: null })} 
+          />
+        </div>
+      </KilangProvider>
+    );
+  }
 
   return (
     <div data-theme={state.layoutConfig.theme}>
@@ -134,21 +134,18 @@ export default function KilangView({
 
           {state.showThemeBar && (
             <ThemeBar
-              show={state.showThemeBar}
-              onClose={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
               activeTab={state.themeBarTab}
-              setActiveTab={(t: 'themes' | 'tree' | 'branding' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: t })}
-              landingVersion={state.landingVersion}
-              setLandingVersion={(v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v })}
-              logoStyle={state.logoStyles[state.landingVersion]}
-              setLogoStyle={(s: 'original' | 'square' | 'round') => dispatch({ type: 'SET_UI', logoStyles: { ...state.logoStyles, [state.landingVersion]: s } })}
-              logoSettings={state.logoSettings[state.landingVersion]}
-              updateLogoSettings={(s: any) => dispatch({ type: 'SET_UI', logoSettings: { ...state.logoSettings, [state.landingVersion]: { ...state.logoSettings[state.landingVersion], ...s } } })}
-              resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
-              dispatch={dispatch}
+              setActiveTab={(tab: any) => dispatch({ type: 'SET_UI', themeBarTab: tab })}
               layoutConfig={state.layoutConfig}
+              dispatch={dispatch}
+              state={state}
             />
           )}
+
+          <Toast 
+            message={state.toast} 
+            onClose={() => dispatch({ type: 'SET_TOAST', message: null })} 
+          />
 
           {/* Assuming KilangDevMonitor is imported or defined elsewhere if needed */}
           {/* {state.showDevTools && <KilangDevMonitor state={state} dispatch={dispatch} />} */}
