@@ -23,7 +23,7 @@ interface ForestViewProps {
   dispatch: React.Dispatch<KilangAction>;
 }
 
-export const ForestView: React.FC<ForestViewProps> = ({
+export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
   selectedRoot,
   rootData,
   nodeMap,
@@ -38,7 +38,7 @@ export const ForestView: React.FC<ForestViewProps> = ({
   fetchSummary,
   showTreeTooltips,
   dispatch,
-}) => {
+}, ref) => {
   const { state: sidebarState } = useSidebar();
   const rootPos = React.useMemo(() => nodeMap[normalizeWord(selectedRoot || '') || ''], [nodeMap, selectedRoot]);
 
@@ -49,15 +49,16 @@ export const ForestView: React.FC<ForestViewProps> = ({
 
   return (
     <div
+      ref={ref}
       id="kilang-forest-inner"
       key={selectedRoot}
-      className="relative"
+      className="relative kilang-gpu-layer"
       style={{
         width: '4000px',
         height: '4000px',
         transform: isFit
-          ? `translate(${fitTransform.x}px, ${fitTransform.y}px) scale(${fitTransform.scale})`
-          : `scale(${scale})`,
+          ? `translate3d(${fitTransform.x}px, ${fitTransform.y}px, 0) scale(${fitTransform.scale})`
+          : `translate3d(0, 0, 0) scale(${scale})`,
         transformOrigin: '0 0'
       }}
     >
@@ -150,4 +151,6 @@ export const ForestView: React.FC<ForestViewProps> = ({
       </div>
     </div>
   );
-};
+});
+
+ForestView.displayName = 'ForestView';

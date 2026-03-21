@@ -94,8 +94,7 @@ export const KilangDesktopLayout = ({
       </div>
 
       {state.showStatsOverlay && <StatsOverlay />}
-      <AffixesOverlay />
-
+      {state.showAffixesOverlay && <AffixesOverlay />}
     </div>
   );
 };

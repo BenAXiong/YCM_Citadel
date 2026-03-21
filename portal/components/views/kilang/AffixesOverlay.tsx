@@ -20,31 +20,29 @@ interface AffixesOverlayProps {}
 
 export const AffixesOverlay = ({}: AffixesOverlayProps) => {
   const { state, dispatch, summaryCache, fetchSummary } = useKilangContext();
-  const { showAffixesOverlay } = state;
-  const setShowAffixesOverlay = (v: boolean) => dispatch({ type: 'SET_UI', showAffixesOverlay: v });
-  const [showInfixes, setShowInfixes] = useState(true);
-  const [showPrefixes, setShowPrefixes] = useState(true);
-  const [showSuffixes, setShowSuffixes] = useState(true);
-  const [showDuplixies, setShowDuplixies] = useState(true);
-  const [showFullDuplix, setShowFullDuplix] = useState(true);
-  const [activeFilters, setActiveFilters] = useState<string[]>(['punctuation', 'custom']);
-  const [filtersEnabled, setFiltersEnabled] = useState(true);
-  const [showFilterOptions, setShowFilterOptions] = useState(false);
-  const [activeModes, setActiveModes] = useState<string[]>(['moe', 'plus']);
-  const [statsData, setStatsData] = useState<Record<string, any>>({});
-  const [manifests, setManifests] = useState<Record<string, any>>({});
-  const [loading, setLoading] = useState(false);
-  const [selectedAffix, setSelectedAffix] = useState<{ affix: string; type: string } | null>(null);
-  const [activeTab, setActiveTab] = useState<'examples' | 'diffs'>('examples');
-  const [sortMode, setSortMode] = useState<'count' | 'alpha'>('count');
-  
-  // Per-column source filters
-  const [columnSources, setColumnSources] = useState<Record<string, string[]>>({
-    moe: ['ALL'],
-    plus: ['ALL'],
-    star: ['ALL']
-  });
+  const { showAffixesOverlay, affixState } = state;
+  const {
+    showInfixes,
+    showPrefixes,
+    showSuffixes,
+    showDuplixies,
+    showFullDuplix,
+    activeFilters,
+    filtersEnabled,
+    activeModes,
+    statsData,
+    manifests,
+    selectedAffix,
+    activeTab,
+    sortMode,
+    columnSources
+  } = affixState;
 
+  const setAffixState = (s: Partial<typeof affixState>) => dispatch({ type: 'SET_AFFIX_STATE', state: s });
+  const setShowAffixesOverlay = (v: boolean) => dispatch({ type: 'SET_UI', showAffixesOverlay: v });
+  
+  const [showFilterOptions, setShowFilterOptions] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [availableSources, setAvailableSources] = useState<Record<string, {id: string, label: string}[]>>({});
 
   useEffect(() => {
@@ -96,35 +94,39 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
     
     // Fetch stats
     const statsPromise = Promise.all(
-      modesToFetch.map(mode =>
-        fetch(`/data/moe_stats_${mode}.json`)
-          .then(res => res.ok ? res.json() : null)
-          .catch(() => null)
-      )
-    ).then(results => {
-      const newData: Record<string, any> = {};
-      modesToFetch.forEach((mode, i) => {
-        if (results[i]) newData[mode] = results[i];
-      });
-      setStatsData(newData);
-    });
+      modesToFetch.map(async (mode) => {
+        try {
+          const res = await fetch(`/data/moe_stats_${mode}.json`);
+          const data = res.ok ? await res.json() : null;
+          return { mode, data };
+        } catch (e) {
+          return { mode, data: null };
+        }
+      })
+    );
 
-    // Fetch manifests for examples & dynamic filtering
     const manifestPromise = Promise.all(
-      modesToFetch.map(mode =>
-        fetch(`/data/moe_manifest_${mode}.json`)
-          .then(res => res.ok ? res.json() : null)
-          .catch(() => null)
-      )
-    ).then(results => {
-      const newManifests: Record<string, any> = {};
-      modesToFetch.forEach((mode, i) => {
-        if (results[i]) newManifests[mode] = results[i];
-      });
-      setManifests(newManifests);
-    });
+      modesToFetch.map(async (mode) => {
+        try {
+          const res = await fetch(`/data/moe_manifest_${mode}.json`);
+          const data = res.ok ? await res.json() : null;
+          return { mode, data };
+        } catch (e) {
+          return { mode, data: null };
+        }
+      })
+    );
 
-    Promise.all([statsPromise, manifestPromise]).then(() => setLoading(false));
+    Promise.all([statsPromise, manifestPromise]).then(([statsResults, manifestResults]) => {
+      const newStats: Record<string, any> = {};
+      const newManifests: Record<string, any> = {};
+      
+      statsResults.forEach(r => { if (r.data) newStats[r.mode] = r.data; });
+      manifestResults.forEach(r => { if (r.data) newManifests[r.mode] = r.data; });
+      
+      setAffixState({ statsData: newStats, manifests: newManifests });
+      setLoading(false);
+    }).catch(() => setLoading(false));
   }, [showAffixesOverlay]);
 
   const checkIsDuplix = (affix: string, type: string, stem: string, s1?: string, s2?: string) => {
@@ -270,34 +272,36 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
   if (!showAffixesOverlay) return null;
 
   const toggleSource = (mode: string, sourceId: string) => {
-    setColumnSources((prev: Record<string, string[]>) => {
-      const current = prev[mode] || ['ALL'];
-      let next: string[];
-      
-      if (sourceId === 'ALL') {
-        next = ['ALL'];
+    const current = columnSources[mode] || ['ALL'];
+    let newSources: string[];
+    
+    if (sourceId === 'ALL') {
+      newSources = ['ALL'];
+    } else {
+      const filters = current.filter(id => id !== 'ALL');
+      if (filters.includes(sourceId)) {
+        newSources = filters.filter(id => id !== sourceId);
+        if (newSources.length === 0) newSources = ['ALL'];
       } else {
-        const filters = current.filter(id => id !== 'ALL');
-        if (filters.includes(sourceId)) {
-          next = filters.filter(id => id !== sourceId);
-          if (next.length === 0) next = ['ALL'];
-        } else {
-          next = [...filters, sourceId];
-        }
+        newSources = [...filters, sourceId];
       }
-      return { ...prev, [mode]: next };
-    });
+    }
+    setAffixState({ columnSources: { ...columnSources, [mode]: newSources } });
   };
 
   const toggleMode = (mode: string) => {
-    setActiveModes((prev: string[]) =>
-      prev.includes(mode)
-        ? prev.filter(m => m !== mode)
-        : [...prev, mode]
-    );
+    setAffixState({ activeModes: activeModes.includes(mode)
+      ? activeModes.filter(m => m !== mode)
+      : [...activeModes, mode]
+    });
   };
 
-
+  const cycleFilter = (id: string) => {
+    setAffixState({ activeFilters: activeFilters.includes(id) 
+      ? activeFilters.filter(f => f !== id) 
+      : [...activeFilters, id] 
+    });
+  };
 
   const getSortedAffixes = (mode: string) => {
     const { affixesMap } = analysisData[mode] || { affixesMap: {} };
@@ -440,7 +444,7 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
 
           <div className="flex items-center gap-6">
             <button
-              onClick={() => setSortMode(sortMode === 'count' ? 'alpha' : 'count')}
+              onClick={() => setAffixState({ sortMode: sortMode === 'count' ? 'alpha' : 'count' })}
               className="px-4 py-2 rounded-xl bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] text-[10px] font-black uppercase tracking-widest text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all flex items-center gap-2 h-9"
               title="Toggle Sort Mode"
             >
@@ -450,31 +454,31 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
 
             <div className="flex bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] rounded-xl p-1 gap-1 h-9 items-center">
               <button
-                onClick={() => setShowPrefixes(!showPrefixes)}
+                onClick={() => setAffixState({ showPrefixes: !showPrefixes })}
                 className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showPrefixes ? 'bg-[var(--kilang-primary)]/20 text-[var(--kilang-primary)] border border-[var(--kilang-primary)]/10' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
               >
                 Prefixes
               </button>
               <button
-                onClick={() => setShowSuffixes(!showSuffixes)}
+                onClick={() => setAffixState({ showSuffixes: !showSuffixes })}
                 className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showSuffixes ? 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/10' : 'text-white/20 hover:text-white/40'}`}
               >
                 Suffixes
               </button>
               <button
-                onClick={() => setShowInfixes(!showInfixes)}
+                onClick={() => setAffixState({ showInfixes: !showInfixes })}
                 className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showInfixes ? 'bg-orange-500/20 text-orange-400 border border-orange-500/10' : 'text-white/20 hover:text-white/40'}`}
               >
                 Infixes
               </button>
               <button
-                onClick={() => setShowDuplixies(!showDuplixies)}
+                onClick={() => setAffixState({ showDuplixies: !showDuplixies })}
                 className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showDuplixies ? 'bg-fuchsia-500/10 text-fuchsia-400 border border-fuchsia-500/5' : 'text-white/20 hover:text-white/40'}`}
               >
                 Duplixies
               </button>
               <button
-                onClick={() => setShowFullDuplix(!showFullDuplix)}
+                onClick={() => setAffixState({ showFullDuplix: !showFullDuplix })}
                 className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all h-full ${showFullDuplix ? 'bg-fuchsia-500/40 text-fuchsia-300 border border-fuchsia-500/20 shadow-[0_0_15px_-3px_rgba(217,70,239,0.4)]' : 'text-white/20 hover:text-white/40'}`}
                 title="Full Duplixes (Affix = Stem)"
               >
@@ -488,7 +492,7 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
               onMouseLeave={() => setShowFilterOptions(false)}
             >
               <button
-                onClick={() => setFiltersEnabled(!filtersEnabled)}
+                onClick={() => setAffixState({ filtersEnabled: !filtersEnabled })}
                 className={`px-4 py-2 rounded-xl border transition-all flex items-center gap-2 h-9 ${
                   filtersEnabled 
                     ? 'bg-[var(--kilang-primary)]/20 border-[var(--kilang-primary)]/30 text-[var(--kilang-primary)]' 
@@ -516,9 +520,7 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
                           type="checkbox"
                           checked={activeFilters.includes(f.id)}
                           onChange={() => {
-                            setActiveFilters(prev => 
-                              prev.includes(f.id) ? prev.filter(x => x !== f.id) : [...prev, f.id]
-                            );
+                            cycleFilter(f.id);
                           }}
                           className="w-3 h-3 rounded bg-white/10 border-white/20 checked:bg-blue-500 cursor-pointer"
                         />
@@ -623,7 +625,7 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
                         {affixes.map(({ affix, count, type }, i) => (
                           <button
                             key={`${affix}-${type}`}
-                            onClick={() => setSelectedAffix({ affix, type })}
+                            onClick={() => setAffixState({ selectedAffix: { affix, type } })}
                             className={`w-full group flex items-center gap-4 p-3 rounded-xl transition-all border ${selectedAffix?.affix === affix && selectedAffix?.type === type
                                 ? 'bg-white/10 border-white/20 shadow-lg'
                                 : 'hover:bg-white/5 border-transparent hover:border-white/10'
@@ -674,13 +676,13 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
               <div className="flex-1 bg-white/5 rounded-[24px] border border-white/5 flex flex-col overflow-hidden animate-in slide-in-from-right-2 duration-500 shadow-2xl">
                 <div className="flex border-b border-white/5 bg-white/2">
                   <button
-                    onClick={() => setActiveTab('examples')}
+                    onClick={() => setAffixState({ activeTab: 'examples' })}
                     className={`flex-1 p-5 text-[10px] font-black uppercase tracking-widest transition-all ${activeTab === 'examples' ? 'text-blue-400 border-b-2 border-blue-500 bg-white/5' : 'text-white/20 hover:text-white/40'}`}
                   >
                     Examples
                   </button>
                   <button
-                    onClick={() => setActiveTab('diffs')}
+                    onClick={() => setAffixState({ activeTab: 'diffs' })}
                     className={`flex-1 p-5 text-[10px] font-black uppercase tracking-widest transition-all ${activeTab === 'diffs' ? 'text-blue-400 border-b-2 border-blue-500 bg-white/5' : 'text-white/20 hover:text-white/40'}`}
                   >
                     Diffs

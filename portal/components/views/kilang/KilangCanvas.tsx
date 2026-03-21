@@ -78,6 +78,8 @@ export const KilangCanvas = () => {
   const setDirection = (d: string) => dispatch({ type: 'SET_LAYOUT', direction: d as any });
   const setArrangement = (a: string) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any });
   const exportRef = React.useRef<HTMLDivElement>(null);
+  const forestRef = React.useRef<HTMLDivElement>(null);
+  const zoomDebounceRef = React.useRef<NodeJS.Timeout | null>(null);
 
   // Keyboard shortcuts (Esc to exit Full View)
   React.useEffect(() => {
@@ -112,7 +114,12 @@ export const KilangCanvas = () => {
     const el = treeRef.current;
     if (!el) return;
 
+    let lastUpdate = 0;
     const updatePos = () => {
+      const now = Date.now();
+      if (now - lastUpdate < 32) return; // Throttle to ~30fps for overlays
+      lastUpdate = now;
+
       const container = treeRef.current;
       const canvas = container?.querySelector('[style*="width: 4000px"]');
       if (!container || !canvas) return;
@@ -151,8 +158,13 @@ export const KilangCanvas = () => {
         // Mouse position in world coordinates (at current scale)
         const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestStateRef.current;
         const currentScale = curFit ? curFitTrans.scale : curScale;
-        const worldX = (mouseX + container.scrollLeft) / currentScale;
-        const worldY = (mouseY + container.scrollTop) / currentScale;
+        
+        // Account for fitTransform offset if active
+        const offsetX = curFit ? curFitTrans.x : 0;
+        const offsetY = curFit ? curFitTrans.y : 0;
+        
+        const worldX = (mouseX + container.scrollLeft - offsetX) / currentScale;
+        const worldY = (mouseY + container.scrollTop - offsetY) / currentScale;
 
         // Calculate next scale with fine-tuning factor
         const zoomSpeed = 0.0012;
@@ -161,8 +173,12 @@ export const KilangCanvas = () => {
 
         if (nextScale === currentScale) return;
 
-        // Apply scale change immediately to state
-        dispatch({ type: 'SET_TRANSFORM', scale: nextScale, isFit: false });
+        // 🚀 HIGH IMPACT: Apply scale change IMMEDIATELY to DOM (GPU) instead of React state
+        if (forestRef.current) {
+          // If we were in Fit mode, we transition to manual mode with 0,0 offset
+          // The scrollTo below will compensate for the worldX/Y position
+          forestRef.current.style.transform = `translate3d(0, 0, 0) scale(${nextScale})`;
+        }
 
         // Calculate and apply scroll adjustment
         const nextScrollLeft = (worldX * nextScale) - mouseX;
@@ -173,6 +189,12 @@ export const KilangCanvas = () => {
           top: nextScrollTop,
           behavior: 'auto'
         });
+
+        // DEBOUNCED SYNC: Only update the global state after zooming stops
+        if (zoomDebounceRef.current) clearTimeout(zoomDebounceRef.current);
+        zoomDebounceRef.current = setTimeout(() => {
+          dispatch({ type: 'SET_TRANSFORM', scale: nextScale, isFit: false });
+        }, 150);
       } else if (e.altKey) {
         // Fine-tuned Panning
         e.preventDefault();
@@ -201,6 +223,7 @@ export const KilangCanvas = () => {
       el.removeEventListener('wheel', onWheel);
       window.removeEventListener('resize', updatePos);
       clearInterval(timer);
+      if (zoomDebounceRef.current) clearTimeout(zoomDebounceRef.current);
     };
   }, [treeRef, dispatch, selectedRoot]);
 
@@ -341,6 +364,7 @@ export const KilangCanvas = () => {
 
               {/* The Tree */}
               <ForestView
+                ref={forestRef}
                 selectedRoot={selectedRoot || ''}
                 rootData={rootData}
                 nodeMap={nodeMap}

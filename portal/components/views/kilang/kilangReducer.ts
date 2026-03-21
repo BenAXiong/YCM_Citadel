@@ -124,6 +124,22 @@ export interface KilangState {
     lineFlowSpeed: number;
     theme: string;
   };
+  affixState: {
+    showInfixes: boolean;
+    showPrefixes: boolean;
+    showSuffixes: boolean;
+    showDuplixies: boolean;
+    showFullDuplix: boolean;
+    activeFilters: string[];
+    filtersEnabled: boolean;
+    activeModes: string[];
+    statsData: Record<string, any>;
+    manifests: Record<string, any>;
+    selectedAffix: { affix: string; type: string } | null;
+    activeTab: 'examples' | 'diffs';
+    sortMode: 'count' | 'alpha';
+    columnSources: Record<string, string[]>;
+  };
 }
 
 export type KilangAction =
@@ -145,6 +161,7 @@ export type KilangAction =
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'SET_SIDEBAR_WIDTH', width: number }
+  | { type: 'SET_AFFIX_STATE', state: Partial<KilangState['affixState']> }
   | { type: 'SYNC_STATE', state: Partial<KilangState> }
   | { type: 'SYNC_GLOBAL_THEME', theme: string, layoutConfig: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_TRANSFORM' };
@@ -258,6 +275,22 @@ export const initialState: KilangState = {
     lineFlowSpeed: 0,
     theme: 'kakarayan',
   },
+  affixState: {
+    showInfixes: true,
+    showPrefixes: true,
+    showSuffixes: true,
+    showDuplixies: true,
+    showFullDuplix: true,
+    activeFilters: ['punctuation', 'custom'],
+    filtersEnabled: true,
+    activeModes: ['moe', 'plus'],
+    statsData: {},
+    manifests: {},
+    selectedAffix: null,
+    activeTab: 'examples',
+    sortMode: 'count',
+    columnSources: { moe: ['ALL'], plus: ['ALL'], star: ['ALL'] }
+  }
 };
 
 export function kilangReducer(state: KilangState, action: KilangAction): KilangState {
@@ -414,6 +447,11 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         scale: 1,
         isFit: false,
         resetToken: state.resetToken + 1
+      };
+    case 'SET_AFFIX_STATE':
+      return {
+        ...state,
+        affixState: { ...state.affixState, ...action.state }
       };
     default:
       return state;

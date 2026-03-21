@@ -41,10 +41,12 @@ export const CanvasOverlays: React.FC<CanvasOverlaysProps> = ({
     <>
       {showPerfMonitor && <PerformanceMonitor />}
 
-      <KilangToolbox
-        layoutConfig={layoutConfig}
-        dispatch={dispatch}
-      />
+      {layoutConfig.showToolbox && (
+        <KilangToolbox
+          layoutConfig={layoutConfig}
+          dispatch={dispatch}
+        />
+      )}
 
       {showDimensions && (
         <KilangDimensionsOverlay

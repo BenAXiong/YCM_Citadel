@@ -248,6 +248,13 @@
   background-color: var(--kilang-ctrl-bg);
 }
 
+.kilang-gpu-layer {
+  will-change: transform;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
 .kilang-container {
   font-family: 'Inter', sans-serif;
   color: var(--kilang-text);

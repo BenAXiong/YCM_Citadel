@@ -36,20 +36,23 @@ export const WordTooltip = ({
   const handleEnter = () => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
 
-    if (triggerRef.current) {
-      const rect = triggerRef.current.getBoundingClientRect();
-      if (side === 'right') {
-        setCoords({ top: rect.top + rect.height / 2, left: rect.right + 16 });
-      } else {
-        setCoords({ top: rect.top - 16, left: rect.left + rect.width / 2 });
+    // DWELL SYSTEM: Only trigger if the user stays for 150ms
+    timeoutRef.current = setTimeout(() => {
+      if (triggerRef.current) {
+        const rect = triggerRef.current.getBoundingClientRect();
+        if (side === 'right') {
+          setCoords({ top: rect.top + rect.height / 2, left: rect.right + 16 });
+        } else {
+          setCoords({ top: rect.top - 16, left: rect.left + rect.width / 2 });
+        }
       }
-    }
-
-    setIsHovered(true);
-    fetchSummary(word);
+      setIsHovered(true);
+      fetchSummary(word);
+    }, 150);
   };
 
   const handleLeave = () => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
     timeoutRef.current = setTimeout(() => setIsHovered(false), 200);
   };
 

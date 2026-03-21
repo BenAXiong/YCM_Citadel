@@ -2,6 +2,7 @@ import React from 'react';
 
 export const PerformanceMonitor = () => {
   const [history, setHistory] = React.useState<number[]>([]);
+  const [memoryUsage, setMemoryUsage] = React.useState<number>(0);
   const frameCount = React.useRef(0);
   const lastTime = React.useRef(performance.now());
 
@@ -12,7 +13,13 @@ export const PerformanceMonitor = () => {
       const now = performance.now();
       if (now - lastTime.current >= 1000) {
         const currentFps = Math.round((frameCount.current * 1000) / (now - lastTime.current));
+        
+        // Extract Memory usage (Chrome only)
+        const memory = (performance as any).memory?.usedJSHeapSize;
+        const memoryMb = memory ? Math.round(memory / (1024 * 1024)) : 0;
+        
         setHistory(prev => [...prev.slice(-59), currentFps]);
+        setMemoryUsage(memoryMb);
         frameCount.current = 0;
         lastTime.current = now;
       }
@@ -32,13 +39,19 @@ export const PerformanceMonitor = () => {
   }).join(' ');
 
   return (
-    <div className="absolute top-6 left-6 bg-[#0f172a]/95 backdrop-blur-2xl border border-white/10 p-4 flex flex-col gap-3 z-[9999] pointer-events-none shadow-2xl">
-      <div className="flex items-baseline gap-2 px-1">
-        <span className="text-3xl font-mono font-black text-white leading-none">{currentFps}</span>
-        <span className="text-[10px] font-black text-white/20 uppercase tracking-widest">fps</span>
+    <div className="absolute top-6 left-6 bg-[#0f172a]/95 backdrop-blur-2xl border border-white/10 p-4 flex flex-col gap-3 z-[9999] pointer-events-none shadow-2xl rounded-2xl">
+      <div className="flex items-center justify-between">
+        <div className="flex items-baseline gap-2 px-1">
+          <span className="text-3xl font-mono font-black text-white leading-none">{currentFps}</span>
+          <span className="text-[10px] font-black text-white/20 uppercase tracking-widest">fps</span>
+        </div>
+        <div className="flex items-baseline gap-2 px-1 text-right border-l border-white/10 pl-4">
+          <span className="text-xl font-mono font-black text-blue-400 leading-none">{memoryUsage}</span>
+          <span className="text-[10px] font-black text-white/20 uppercase tracking-widest">mb</span>
+        </div>
       </div>
 
-      <div className="w-[240px] h-[120px] bg-white/5 border border-white/5 overflow-hidden">
+      <div className="w-[240px] h-[120px] bg-white/5 border border-white/5 overflow-hidden rounded-lg">
         <svg width="240" height="120" viewBox="0 0 240 120" className="opacity-90">
           <path
             d={`M ${points}`}

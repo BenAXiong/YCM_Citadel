@@ -16,9 +16,6 @@ export const StatsOverlay = ({}: StatsOverlayProps) => {
     fetchSummary
   } = useKilangContext();
   
-  // PERFORMANCE BENCHMARK: Track how many times this function runs even when hidden
-  console.count("StatsOverlay_Function_Execution");
-  
   const { showStatsOverlay, stats, visibleChainsCount, manifest, sourceFilter } = state;
   
   const setShowStatsOverlay = (v: boolean) => dispatch({ type: 'SET_UI', showStatsOverlay: v });

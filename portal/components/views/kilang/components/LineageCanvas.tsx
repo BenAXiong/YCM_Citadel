@@ -41,7 +41,6 @@ export const LineageCanvas = React.memo(({
       if (!s || !t) return null;
 
       const isRootSource = parentKey === normalizeWord(root);
-      const isHighlighted = activeHighlightChain.has(d.word_ab) && activeHighlightChain.has(parentKey);
 
       let sourceX = s.x;
       let sourceY = s.y;
@@ -69,13 +68,13 @@ export const LineageCanvas = React.memo(({
       return {
         id: `${parentKey}-${d.word_ab}`,
         pathData,
-        isHighlighted,
         isRootSource,
+        parentKey,
         targetWord: d.word_ab,
         tier: d.tier
       };
     }).filter(Boolean);
-  }, [derivatives, nodeMap, root, direction, layoutConfig.lineGapX, layoutConfig.lineGapY, layoutConfig.lineTension, activeHighlightChain, ROOT_R, BRANCH_W, BRANCH_H]);
+  }, [derivatives, nodeMap, root, direction, layoutConfig.lineGapX, layoutConfig.lineGapY, layoutConfig.lineTension, ROOT_R, BRANCH_W, BRANCH_H]);
 
   const onHover = React.useCallback((node: string | null) => {
     dispatch({ type: 'SET_CANVAS_HOVER', node });
@@ -103,6 +102,7 @@ export const LineageCanvas = React.memo(({
           <stop offset="100%" stopColor="var(--kilang-link-end)" stopOpacity="var(--kilang-link-opacity)" />
         </linearGradient>
       </defs>
+      {/* 🚀 BASE LAYER: The huge static tree (Scale Agnostic) */}
       {memoizedPaths.map((p: any) => (
         <g
           key={p.id}
@@ -127,18 +127,36 @@ export const LineageCanvas = React.memo(({
           />
           <path
             d={p.pathData}
-            stroke={p.isHighlighted ? layoutConfig.lineColor : "url(#lineageGradient)"}
-            strokeWidth={p.isHighlighted ? (layoutConfig.lineWidth || 1.5) * 2 : layoutConfig.lineWidth || 1.5}
+            stroke="url(#lineageGradient)"
+            strokeWidth={layoutConfig.lineWidth || 1.5}
             strokeLinecap="round"
             strokeLinejoin="round"
             fill="none"
             strokeDasharray={layoutConfig.lineDashArray > 0 ? `${layoutConfig.lineDashArray} ${layoutConfig.lineDashArray}` : 'none'}
-            className={`transition-[opacity,stroke-width,filter] duration-300 ${p.isHighlighted ? 'opacity-100' : 'group-hover:opacity-60'} ${layoutConfig.lineFlowSpeed > 0 ? 'animate-link-flow' : ''}`}
+            className={`transition-[opacity,stroke-width,filter] duration-300 group-hover:opacity-60 ${layoutConfig.lineFlowSpeed > 0 ? 'animate-link-flow' : ''}`}
             style={{
-              filter: p.isHighlighted 
-                ? `drop-shadow(0 0 8px ${layoutConfig.lineColor}80)` 
-                : (layoutConfig.lineBlur > 0 ? `blur(${layoutConfig.lineBlur}px)` : 'none'),
-              opacity: p.isHighlighted ? 1 : 'var(--kilang-link-opacity)'
+              filter: (layoutConfig.lineBlur > 0 ? `blur(${layoutConfig.lineBlur}px)` : 'none'),
+              opacity: 'var(--kilang-link-opacity)'
+            }}
+          />
+        </g>
+      ))}
+
+      {/* 🚀 HIGHLIGHT LAYER: Only rendering active paths (Ultra Lightweight) */}
+      {memoizedPaths.filter((p: any) => activeHighlightChain.has(p.targetWord) && activeHighlightChain.has(p.parentKey)).map((p: any) => (
+        <g key={`highlight-${p.id}`} className="pointer-events-none">
+          <path
+            d={p.pathData}
+            stroke={layoutConfig.lineColor}
+            strokeWidth={(layoutConfig.lineWidth || 1.5) * 2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+            strokeDasharray={layoutConfig.lineDashArray > 0 ? `${layoutConfig.lineDashArray} ${layoutConfig.lineDashArray}` : 'none'}
+            className="transition-[opacity,stroke-width,filter] duration-300"
+            style={{
+              filter: `drop-shadow(0 0 8px ${layoutConfig.lineColor}80)`,
+              opacity: 1
             }}
           />
         </g>
