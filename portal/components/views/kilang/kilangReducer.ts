@@ -182,7 +182,7 @@ export const initialState: KilangState = {
   visibleChainsCount: 10,
   exporting: false,
   showDevTools: false,
-  showStats: true,
+  showStats: false,
   showDimensions: false,
   showPerfMonitor: false,
   showFilterPanel: true,
@@ -404,9 +404,9 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
     case 'SYNC_STATE':
       return { ...state, ...action.state };
     case 'SYNC_GLOBAL_THEME':
-      return { 
-        ...state, 
-        layoutConfig: { ...state.layoutConfig, ...action.layoutConfig, theme: action.theme } 
+      return {
+        ...state,
+        layoutConfig: { ...state.layoutConfig, ...action.layoutConfig, theme: action.theme }
       };
     case 'RESET_TRANSFORM':
       return {
