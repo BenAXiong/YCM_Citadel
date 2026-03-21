@@ -7,6 +7,7 @@ import './Kilang.css';
 import { KilangDesktopLayout } from './kilang/KilangDesktopLayout';
 import { KilangMobileLayout } from './kilang/KilangMobileLayout';
 import { ThemeBar } from './kilang/components/ThemeBar';
+import { ThemeStudioPopout } from './kilang/components/themebar/ThemeStudioPopout';
 import { Toast } from './kilang/components/Toast';
 import { useIsMobile } from '@/hooks/useIsMobile';
 
@@ -124,22 +125,11 @@ export default function KilangView({
   if (isStandalone) {
     return (
       <KilangProvider value={contextValue}>
-        <div data-theme={state.layoutConfig.theme}>
-          <div className="fixed inset-0 bg-[#0a0a0c] flex flex-col p-0 overflow-hidden">
-            <ThemeBar
-              activeTab={state.themeBarTab || 'themes'}
-              setActiveTab={(tab: any) => dispatch({ type: 'SET_UI', themeBarTab: tab })}
-              dispatch={dispatch}
-              layoutConfig={state.layoutConfig}
-              state={state}
-              forceShow={true}
-            />
-          </div>
-          <Toast 
-            message={state.toast} 
-            onClose={() => dispatch({ type: 'SET_TOAST', message: null })} 
-          />
-        </div>
+        <ThemeStudioPopout
+          dispatch={dispatch}
+          layoutConfig={state.layoutConfig}
+          state={state}
+        />
       </KilangProvider>
     );
   }

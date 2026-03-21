@@ -115,7 +115,13 @@ const VARIABLE_MANIFEST: Record<string, { count: number, files: string[], group:
   "--kilang-tooltip-text": { group: 'text', count: 3, files: ["components\\ThemeBar.tsx","kilangConstants.ts"] }
 };
 
-export const VariableMap = () => {
+export const VariableMap = ({ 
+  overrides = {}, 
+  getVariableValue 
+}: { 
+  overrides?: Record<string, string>, 
+  getVariableValue?: (name: string) => string 
+}) => {
   const [search, setSearch] = useState('');
   const [expandedVar, setExpandedVar] = useState<string | null>(null);
   const [computedValues, setComputedValues] = useState<Record<string, string>>({});
@@ -125,15 +131,22 @@ export const VariableMap = () => {
     const updateValues = () => {
       const values: Record<string, string> = {};
       Object.keys(VARIABLE_MANIFEST).forEach(v => {
-        values[v] = getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+        // Preference: Overrides > Computed CSS
+        if (overrides[v]) {
+          values[v] = overrides[v];
+        } else if (getVariableValue) {
+          values[v] = getVariableValue(v).trim();
+        } else if (typeof window !== 'undefined') {
+          values[v] = getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+        }
       });
       setComputedValues(values);
     };
 
     updateValues();
-    const interval = setInterval(updateValues, 2000);
+    const interval = setInterval(updateValues, 1000);
     return () => clearInterval(interval);
-  }, []);
+  }, [overrides, getVariableValue]);
 
   const filteredVars = Object.entries(VARIABLE_MANIFEST).filter(([name, data]) => 
     data.group === activeColumn && 
