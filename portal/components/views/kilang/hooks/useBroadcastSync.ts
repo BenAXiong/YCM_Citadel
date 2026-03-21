@@ -72,7 +72,7 @@ export const useBroadcastSync = (
 
   // Broadcast changes from this window (debounced by React state cycle)
   useEffect(() => {
-    if (isInternalUpdate.current) return;
+    if (isInternalUpdate.current || !state.isHydrated || !document.hasFocus()) return; // 🛡️ Only broadcast if hydrated AND focused
 
     const currentSyncPayload = {
       theme: state.layoutConfig.theme,

@@ -84,6 +84,7 @@ export interface KilangState {
   canvasHoverNode: string | null;
   canvasSelectedNode: string | null;
   resetToken: number;
+  isHydrated: boolean;
   layoutConfig: {
     showToolbox: boolean;
     lineGapX: number;
@@ -168,6 +169,7 @@ export type KilangAction =
   | { type: 'SET_SIDEBAR_WIDTH', width: number }
   | { type: 'SET_TOAST', message: string | null }
   | { type: 'SET_AFFIX_STATE', state: Partial<KilangState['affixState']> }
+  | { type: 'HYDRATE_STATE'; state: Partial<KilangState> }
   | { type: 'SYNC_STATE', state: Partial<KilangState> }
   | { type: 'SYNC_GLOBAL_THEME', theme: string, layoutConfig: Partial<KilangState['layoutConfig']> }
   | { type: 'SYNC_HOLISTIC_THEME', theme: string, layoutConfig: Partial<KilangState['layoutConfig']>, branding: { logoStyles: any, logoSettings: any, landingVersion: any } }
@@ -243,6 +245,7 @@ export const initialState: KilangState = {
   canvasHoverNode: null,
   canvasSelectedNode: null,
   resetToken: 0,
+  isHydrated: false,
   layoutConfig: {
     showToolbox: false,
     lineGapX: 0,
@@ -459,14 +462,22 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         ...state,
         layoutConfig: { ...state.layoutConfig, ...action.layoutConfig, theme: action.theme }
       };
-    case 'SYNC_HOLISTIC_THEME':
+    case 'SYNC_HOLISTIC_THEME': {
+      const { theme, layoutConfig, branding } = action;
+      const nextLogoSettings = { ...state.logoSettings };
+      if (branding?.logoSettings) {
+        Object.entries(branding.logoSettings).forEach(([ver, settings]) => {
+          nextLogoSettings[Number(ver)] = { ...nextLogoSettings[Number(ver)], ...(settings as any) };
+        });
+      }
       return {
         ...state,
-        layoutConfig: { ...state.layoutConfig, ...action.layoutConfig, theme: action.theme },
-        logoStyles: action.branding.logoStyles || state.logoStyles,
-        logoSettings: action.branding.logoSettings || state.logoSettings,
-        landingVersion: action.branding.landingVersion || state.landingVersion
+        layoutConfig: { ...state.layoutConfig, ...layoutConfig, theme },
+        logoStyles: branding?.logoStyles ? { ...state.logoStyles, ...branding.logoStyles } : state.logoStyles,
+        logoSettings: nextLogoSettings,
+        landingVersion: branding?.landingVersion || state.landingVersion
       };
+    }
     case 'RESET_TRANSFORM':
       return {
         ...state,
@@ -478,6 +489,12 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return {
         ...state,
         affixState: { ...state.affixState, ...action.state }
+      };
+    case 'HYDRATE_STATE':
+      return {
+        ...state,
+        ...action.state,
+        isHydrated: true
       };
     default:
       return state;

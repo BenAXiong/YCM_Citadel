@@ -31,16 +31,18 @@ export const KilangLanding = ({
   };
 
   // Robust fallbacks for saved state gaps (prevents local storage overrides from breaking the UI)
-  const currentOpacity = logoSettings.opacity ?? 1.0;
-  const currentScale = logoSettings.scale ?? 1.0;
-  const currentRadius = logoSettings.radius ?? 45;
+  const settings = logoSettings || { scale: 1, radius: 45, xOffset: 0, opacity: 1, glowIntensity: 0.3, glowColor: '#3b82f6' };
+
+  const currentOpacity = settings.opacity ?? 1.0;
+  const currentScale = settings.scale ?? 1.0;
+  const currentRadius = settings.radius ?? 45;
 
   const logoStyleAttr = logoStyle === 'round'
     ? { clipPath: `circle(${currentRadius}% at 50% 50%)`, transform: `scale(${currentScale})`, opacity: currentOpacity }
     : { transform: `scale(${currentScale})`, opacity: currentOpacity };
 
   const glowStyle = {
-    filter: `drop-shadow(0 0 ${(logoSettings.glowIntensity ?? 0.3) * 100}px ${logoSettings.glowColor ?? '#3b82f6'})`
+    filter: `drop-shadow(0 0 ${(settings.glowIntensity ?? 0.3) * 100}px ${settings.glowColor ?? '#3b82f6'})`
   };
 
   const commonButtons = (
@@ -85,7 +87,7 @@ export const KilangLanding = ({
     return (
       <div key="v1" className="h-full flex flex-col items-center justify-center p-20 text-center relative overflow-hidden bg-gradient-to-b from-[#020617] to-[#0f172a]/20">
         <div className="relative z-10 mb-12 group transition-all duration-700 animate-peaceful-float pause-on-hover">
-          <div className="absolute inset-0 blur-[100px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000" style={{ backgroundColor: logoSettings.glowColor ?? '#3b82f6' }} />
+          <div className="absolute inset-0 blur-[100px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000" style={{ backgroundColor: settings.glowColor ?? '#3b82f6' }} />
           <img
             src={logoUrl}
             alt="Kilang Logo"
@@ -153,7 +155,7 @@ export const KilangLanding = ({
       <div key="v3" className="h-full relative overflow-hidden bg-gradient-to-b from-[#0f172a] to-[#1e293b]/30">
         {/* Background Pillars */}
         <div className="absolute left-0 top-0 bottom-0 flex items-center justify-start pointer-events-none z-[100]"
-          style={{ transform: `translateX(${logoSettings.xOffset}px)` }}>
+          style={{ transform: `translateX(${settings.xOffset}px)` }}>
           <img
             src={logoUrl}
             className={getLogoClass("h-[80%] w-auto object-contain")}
@@ -161,7 +163,7 @@ export const KilangLanding = ({
           />
         </div>
         <div className="absolute right-0 top-0 bottom-0 flex items-center justify-end pointer-events-none z-[100]"
-          style={{ transform: `translateX(${-logoSettings.xOffset}px)` }}>
+          style={{ transform: `translateX(${-settings.xOffset}px)` }}>
           <img
             src={logoUrl}
             className={getLogoClass("h-[80%] w-auto object-contain")}

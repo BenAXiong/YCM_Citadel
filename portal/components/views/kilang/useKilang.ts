@@ -19,16 +19,45 @@ export const useKilang = () => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const isMobile = window.innerWidth < 1024;
-      dispatch({ type: 'SET_UI', landingVersion: isMobile ? 1 : 2 });
+      const initialUI: Partial<KilangState> = {
+        landingVersion: isMobile ? 1 : 2
+      };
 
-      // Load Tree Config
+      // Load Theme & Branding
+      const savedTheme = localStorage.getItem(STORAGE_KEY);
+      if (savedTheme) {
+        try {
+          const parsed = JSON.parse(savedTheme);
+          // 🛡️ Safe Merge: Prevent partial objects from wiping defaults
+          if (parsed.theme) initialUI.theme = parsed.theme;
+          if (parsed.showThemeBar !== undefined) initialUI.showThemeBar = parsed.showThemeBar;
+          if (parsed.showFloatingPalette !== undefined) initialUI.showFloatingPalette = parsed.showFloatingPalette;
+          if (parsed.landingVersion) initialUI.landingVersion = parsed.landingVersion;
+          
+          if (parsed.logoStyles) {
+            initialUI.logoStyles = { ...initialUI.logoStyles, ...parsed.logoStyles };
+          }
+          if (parsed.logoSettings) {
+             // Merge each version explicitly
+             [1, 2, 3].forEach(v => {
+               if (parsed.logoSettings[v]) {
+                 initialUI.logoSettings[v] = { ...initialUI.logoSettings[v], ...parsed.logoSettings[v] };
+               }
+             });
+          }
+        } catch (e) {}
+      }
+
+      // Load Tree Config (Legacy/Structural)
       const savedTree = localStorage.getItem('kilang-tree-config');
       if (savedTree) {
         try {
           const config = JSON.parse(savedTree);
-          dispatch({ type: 'SET_LAYOUT_CONFIG', config });
+          initialUI.layoutConfig = { ...initialState.layoutConfig, ...config, theme: (initialUI as any).theme || initialState.layoutConfig.theme };
         } catch (e) {}
       }
+
+      dispatch({ type: 'HYDRATE_STATE', state: initialUI });
     }
   }, []);
 
@@ -38,40 +67,41 @@ export const useKilang = () => {
     latestStateRef.current = state;
   }, [state]);
 
-  // 0b. Persistence (Save)
+  // 0b. Persistence (Save) - GUARDED by isHydrated
   useEffect(() => {
+    if (!state.isHydrated) return; // 🛡️ Prevent overwriting storage with default state before hydration
+
     const themeSettings = {
       landingVersion: state.landingVersion,
       logoStyles: state.logoStyles,
       logoSettings: state.logoSettings,
       showThemeBar: state.showThemeBar,
       showFloatingPalette: state.showFloatingPalette,
-      theme: state.layoutConfig.theme // Use nested theme
+      theme: state.layoutConfig.theme 
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(themeSettings));
-  }, [state.landingVersion, state.logoStyles, state.logoSettings, state.showThemeBar, state.showFloatingPalette, state.layoutConfig.theme]);
+  }, [
+    state.isHydrated,
+    state.landingVersion, 
+    state.logoStyles, 
+    state.logoSettings, 
+    state.showThemeBar, 
+    state.showFloatingPalette, 
+    state.layoutConfig.theme
+  ]);
 
-  // 0c. Cross-Window Syncing (Handled by useBroadcastSync) - Removed Storage Event Listener to prevent loops
-  // 0d. Window Visibility Fix: Ensure we re-load latest from localStorage when returning to tab
+  // 0c. Cross-Window Syncing (Handled by useBroadcastSync)
+  // 0d. Window Visibility Fix: Re-load latest from localStorage when returning to tab
   useEffect(() => {
     const handleFocus = () => {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         try {
-          const { landingVersion, logoStyles, logoSettings, showThemeBar, showFloatingPalette, theme } = JSON.parse(saved);
-          
+          const parsed = JSON.parse(saved);
           // Only sync if there's a meaningful change (background update)
-          if (theme !== state.layoutConfig.theme) {
-             dispatch({ type: 'SET_UI', landingVersion, logoStyles, logoSettings, showThemeBar, showFloatingPalette, theme });
+          if (parsed.theme !== state.layoutConfig.theme) {
+             dispatch({ type: 'SET_UI', ...parsed });
           }
-        } catch (e) {}
-      }
-
-      const savedTree = localStorage.getItem('kilang-tree-config');
-      if (savedTree) {
-        try {
-          const config = JSON.parse(savedTree);
-          dispatch({ type: 'SET_LAYOUT_CONFIG', config });
         } catch (e) {}
       }
     };

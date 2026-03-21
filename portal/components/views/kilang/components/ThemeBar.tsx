@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import {
   Palette,
   Layout,
@@ -33,6 +33,7 @@ import {
 import { KilangAction, KilangState } from '../kilangReducer';
 import { VariableMap } from './VariableMap';
 import { THEME_VARS, THEME_PRESETS, ThemePreset } from '../kilangConstants';
+import { useThemeStudio } from '../hooks/useThemeStudio';
 
 interface ThemeBarProps {
   activeTab: 'themes' | 'tree' | 'branding' | 'fonts' | 'map';
@@ -120,44 +121,62 @@ export const ThemeBar = ({
   state,
   forceShow = false
 }: ThemeBarProps) => {
-  // Use state to derive values instead of props
-  const landingVersion = state.landingVersion;
-  const logoStyle = state.logoStyles[landingVersion];
-  const logoSettings = state.logoSettings[landingVersion];
 
-  const setLandingVersion = (v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v });
-  const setLogoStyle = (s: 'original' | 'square' | 'round') => dispatch({ type: 'SET_UI', logoStyles: { ...state.logoStyles, [landingVersion]: s } });
-  const updateLogoSettings = (settings: any) => dispatch({ type: 'SET_UI', logoSettings: { ...state.logoSettings, [landingVersion]: { ...logoSettings, ...settings } } });
-  const resetLogoSettings = () => dispatch({ type: 'RESET_LOGO_SETTINGS', version: landingVersion });
-  const [slideIndex, setSlideIndex] = useState(0);
+
+  const themeStudio = useThemeStudio({ dispatch, layoutConfig, state });
+  const { 
+    state: tsState, 
+    helpers: tsHelpers, 
+    actions: tsActions 
+  } = themeStudio;
+
+  const {
+    overrides,
+    activeBulbs,
+    expandedSections,
+    slideIndex,
+    landingVersion,
+    logoStyle,
+    logoSettings
+  } = tsState;
+
+  const {
+    getColorValue,
+    getHonestColor,
+    rootStyles
+  } = tsHelpers;
+
+  const {
+    toggleSection,
+    handleSave,
+    handleReset,
+    updateVariable,
+    updateVariables,
+    setLandingVersion,
+    setLogoStyle,
+    updateLogoSettings,
+    resetLogoSettings,
+    setSlideIndex,
+    setGalleryRef,
+    setActiveBulbs
+  } = tsActions;
+
   const itemsPerSlide = 3;
   const totalSlides = Math.ceil(THEME_PRESETS.length / itemsPerSlide);
-  const galleryRef = useRef<HTMLDivElement | null>(null);
-
-  const setGalleryRef = (el: HTMLDivElement | null) => {
-    if (galleryRef.current) {
-      galleryRef.current.removeEventListener('wheel', onWheelGlobal);
-    }
-    
-    galleryRef.current = el;
-    
-    if (el) {
-      el.addEventListener('wheel', onWheelGlobal, { passive: false });
-    }
-  };
 
   const onWheelGlobal = (e: WheelEvent) => {
-    if (!galleryRef.current) return;
-    
     // Only intercept if it's primarily a vertical scroll
     if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
       e.preventDefault();
       e.stopPropagation(); 
       
-      galleryRef.current.scrollBy({
-        left: e.deltaY * 3,
-        behavior: 'auto'
-      });
+      const gallery = document.querySelector('.snap-x');
+      if (gallery) {
+        gallery.scrollBy({
+          left: e.deltaY * 3,
+          behavior: 'auto'
+        });
+      }
     }
   };
 
@@ -169,115 +188,11 @@ export const ThemeBar = ({
   };
 
   const scrollToSlide = (index: number) => {
-    if (galleryRef.current) {
-      const width = galleryRef.current.offsetWidth;
-      galleryRef.current.scrollTo({ left: index * width, behavior: 'smooth' });
+    const gallery = document.querySelector('.snap-x');
+    if (gallery) {
+      const width = (gallery as HTMLElement).offsetWidth;
+      gallery.scrollTo({ left: index * width, behavior: 'smooth' });
     }
-  };
-
-  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['masters']));
-  const [overrides, setOverrides] = useState<Record<string, string>>({});
-  const [collapsedSubsections, setCollapsedSubsections] = useState<Set<string>>(new Set());
-  const [activeBulbs, setActiveBulbs] = useState<Record<string, boolean>>({});
-  const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
-
-  // Theme-Specific Persistence & UI Sync Logic
-  useEffect(() => {
-    const themeName = layoutConfig.theme;
-
-    // 1. Sync Gallery Position
-    const currentIdx = THEME_PRESETS.findIndex(p => p.id === themeName);
-    if (currentIdx !== -1) {
-      setSlideIndex(Math.floor(currentIdx / 3));
-    }
-
-    // 2. Clear all existing inline overrides first (prevent contamination)
-    const themedEl = document.querySelector('[data-theme]');
-    THEME_VARS.forEach(v => {
-      document.documentElement.style.removeProperty(v);
-      if (themedEl) (themedEl as HTMLElement).style.removeProperty(v);
-    });
-
-    // 3. Load theme-specific overrides into DOM & Local State
-    const saved = localStorage.getItem(`kilang-custom-theme-${themeName}`);
-    const loadedOverrides: Record<string, string> = {};
-    if (saved) {
-      try {
-        const parsed = JSON.parse(saved);
-        Object.entries(parsed).forEach(([key, val]) => {
-          document.documentElement.style.setProperty(key, val as string);
-          if (themedEl) (themedEl as HTMLElement).style.setProperty(key, val as string);
-          loadedOverrides[key] = val as string;
-        });
-      } catch (e) {
-        console.error(`Failed to parse saved theme for ${themeName}`, e);
-      }
-    }
-    setOverrides(loadedOverrides);
-  }, [layoutConfig.theme]);
-
-  const updateVariable = (name: string, value: string) => {
-    const themedEls = document.querySelectorAll('[data-theme]');
-    document.documentElement.style.setProperty(name, value);
-    themedEls.forEach(el => (el as HTMLElement).style.setProperty(name, value));
-
-    setOverrides(prev => ({ ...prev, [name]: value }));
-    
-    if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
-    saveTimerRef.current = setTimeout(() => {
-      const saved = localStorage.getItem(`kilang-custom-theme-${layoutConfig.theme}`);
-      let current: Record<string, string> = {};
-      if (saved) {
-        try { current = JSON.parse(saved); } catch (e) { }
-      }
-      current[name] = value;
-      localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(current));
-    }, 500);
-  };
-
-  const updateVariables = (mapping: Record<string, string>) => {
-    const themedEls = document.querySelectorAll('[data-theme]');
-    Object.entries(mapping).forEach(([name, value]) => {
-      document.documentElement.style.setProperty(name, value);
-      themedEls.forEach(el => (el as HTMLElement).style.setProperty(name, value));
-    });
-
-    setOverrides(prev => ({ ...prev, ...mapping }));
-
-    if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
-    saveTimerRef.current = setTimeout(() => {
-      const saved = localStorage.getItem(`kilang-custom-theme-${layoutConfig.theme}`);
-      let current: Record<string, string> = {};
-      if (saved) {
-        try { current = JSON.parse(saved); } catch (e) { }
-      }
-      Object.entries(mapping).forEach(([name, value]) => { current[name] = value; });
-      localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(current));
-    }, 500);
-  };
-
-  const getHonestColor = (name: string, value: string) => {
-    if (name.includes('tier-1-fill')) return `color-mix(in srgb, ${value} calc(20% * var(--kilang-node-intensity)), var(--kilang-bg-base))`;
-    if (name.includes('tier-2-fill')) return `color-mix(in srgb, ${value} calc(10% * var(--kilang-node-intensity)), var(--kilang-bg-base))`;
-    if (name.includes('tier-') && name.includes('-fill')) return `color-mix(in srgb, ${value} calc(5% * var(--kilang-node-intensity)), var(--kilang-bg-base))`;
-    
-    // Generic Opacity Detection
-    const opacityVar = name + '-opacity';
-    return `color-mix(in srgb, ${value}, transparent calc(100% - var(${opacityVar}, 1) * 100%))`;
-  };
-
-  const toggleSection = (id: string) => {
-    const newSet = new Set(expandedSections);
-    if (newSet.has(id)) newSet.delete(id);
-    else newSet.add(id);
-    setExpandedSections(newSet);
-  };
-
-  const toggleSubsection = (id: string) => {
-    const newSet = new Set(collapsedSubsections);
-    if (newSet.has(id)) newSet.delete(id);
-    else newSet.add(id);
-    setCollapsedSubsections(newSet);
   };
 
   const SectionHeader = ({ id, label, icon: Icon, actions }: { id: string; label: string; icon: any; actions?: React.ReactNode }) => (
@@ -454,54 +369,16 @@ export const ThemeBar = ({
             <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/30">Theme Studio</span>
             <div className="flex items-center gap-1">
               <button
-                onClick={() => {
-                  if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
-                  // 1. Reset all CSS variable overrides
-                  document.documentElement.setAttribute('style', '');
-                  const entries = document.documentElement.style;
-                  for (let i = entries.length - 1; i >= 0; i--) {
-                    const prop = entries[i];
-                    if (prop.startsWith('--kilang-')) {
-                      document.documentElement.style.removeProperty(prop);
-                    }
-                  }
-
-                  // 2. Clear relevant localStorage items
-                  localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
-                  localStorage.removeItem(`kilang-config-overrides-${layoutConfig.theme}`);
-
-                  // 3. Dispatch reset action to reducer
-                  dispatch({ type: 'RESET_LAYOUT_CONFIG' });
-                  dispatch({ type: 'SET_TOAST', message: 'Theme Studio Reset' });
-                }}
+                onClick={handleReset}
                 className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/reset"
-                title="RESET STUDIO: Restores colors, tree, and branding to theme defaults."
+                title="RELOAD SAVED: Discards current session tweaks and reloads your last saved state (or factory defaults)."
               >
                 <RotateCcw className="w-3.5 h-3.5 group-hover/reset:rotate-[-45deg] transition-transform" />
               </button>
               <button
-                onClick={() => {
-                  // 1. Save CSS Variable Overrides
-                  const overrides: Record<string, string> = {};
-                  THEME_VARS.forEach(v => {
-                    const val = document.documentElement.style.getPropertyValue(v);
-                    if (val) overrides[v] = val;
-                  });
-
-                  // 2. Save Layout & Branding Config Overrides
-                  const brandingConfig = {
-                    layoutConfig,
-                    logoStyles: state.logoStyles,
-                    logoSettings: state.logoSettings,
-                    landingVersion: state.landingVersion
-                  };
-                  localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(overrides));
-                  localStorage.setItem(`kilang-config-overrides-${layoutConfig.theme}`, JSON.stringify(brandingConfig));
-                  
-                  dispatch({ type: 'SET_TOAST', message: 'Preset Successfully Saved' });
-                }}
+                onClick={handleSave}
                 className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/save"
-                title="SAVE STUDIO: Persists all current tweaks for this theme."
+                title="SAVE STUDIO: Persists all tree, branding, font, and color tweaks for this theme."
               >
                 <Save className="w-3.5 h-3.5 group-hover/save:scale-110 transition-transform" />
               </button>
@@ -509,11 +386,7 @@ export const ThemeBar = ({
                 onClick={() => {
                   const manifest = {
                     theme: layoutConfig.theme,
-                    variables: Object.fromEntries(
-                      Array.from(document.documentElement.style)
-                        .filter(key => key.startsWith('--kilang-'))
-                        .map(key => [key, document.documentElement.style.getPropertyValue(key)])
-                    ),
+                    variables: overrides,
                     layoutConfig,
                     branding: {
                       logoStyles: state.logoStyles,
@@ -577,7 +450,7 @@ export const ThemeBar = ({
                                     const nextOn = !isBulbOn;
                                     setActiveBulbs(prev => ({ ...prev, [varKey]: nextOn }));
                                     if (nextOn && (v as any).activeTargets) {
-                                      const currentValue = overrides[(v as any).targets[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).targets[0]).trim() : '');
+                                      const currentValue = overrides[(v as any).targets[0]] || (typeof window !== 'undefined' ? rootStyles?.getPropertyValue((v as any).targets[0]).trim() : '');
                                       if (currentValue) {
                                         const mapping: Record<string, string> = {};
                                         (v as any).activeTargets.forEach((t: string) => mapping[t] = currentValue);
@@ -596,7 +469,7 @@ export const ThemeBar = ({
                                     <div className="flex items-center gap-2 pr-2">
                                       <input
                                         type="range" min="0" max="1" step="0.01"
-                                        defaultValue={overrides[(v as any).name + '-opacity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name + '-opacity').trim() : '1')}
+                                         value={overrides[(v as any).name + "-opacity"] || rootStyles?.getPropertyValue((v as any).name + "-opacity").trim() || "1"}
                                         onChange={(e) => updateVariable((v as any).name + '-opacity', e.target.value)}
                                         className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
                                       />
@@ -605,7 +478,7 @@ export const ThemeBar = ({
                                   <div className="relative flex items-center">
                                     <input
                                       type="color"
-                                      defaultValue={overrides[(v as any).name || (v as any).targets?.[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name || (v as any).targets?.[0]).trim() : '#000000')}
+                                       value={getColorValue((v as any).name || (v as any).targets?.[0])}
                                       onChange={(e) => {
                                         if ((v as any).targets) {
                                           const finalTargets = [...(v as any).targets];
@@ -630,14 +503,14 @@ export const ThemeBar = ({
                                   {(v as any).name?.includes('-w-') && (
                                     <input
                                       type="range" min="0" max="20" step="1"
-                                      value={parseInt(overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '0'))}
+                                      value={parseInt(overrides[(v as any).name] || (typeof window !== 'undefined' ? (rootStyles?.getPropertyValue((v as any).name) || '0').trim() : '0'))}
                                       onChange={(e) => updateVariable((v as any).name, `${e.target.value}px`)}
                                       className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
                                     />
                                   )}
                                   <input
                                     type="text"
-                                    value={overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '')}
+                                    value={overrides[(v as any).name] || (typeof window !== 'undefined' ? (rootStyles?.getPropertyValue((v as any).name) || '').trim() : '')}
                                     onChange={(e) => updateVariable((v as any).name, e.target.value)}
                                     className="w-10 bg-transparent border-0 text-right text-[10px] text-white/60 focus:text-white focus:outline-none font-mono"
                                   />
@@ -927,15 +800,15 @@ export const ThemeBar = ({
                             <div className="grid grid-cols-2 gap-4">
                               <div className="flex flex-col gap-1.5">
                                  <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link Start</span>
-                                 <input type="color" value={layoutConfig.lineColor} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColor: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                                 <input type="color" value={getColorValue(layoutConfig.lineColor)} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColor: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
                               </div>
                               <div className="flex flex-col gap-1.5">
                                  <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link Mid</span>
-                                 <input type="color" value={layoutConfig.lineColorMid} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColorMid: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                                 <input type="color" value={getColorValue(layoutConfig.lineColorMid)} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColorMid: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
                               </div>
                               <div className="flex flex-col gap-1.5 col-span-2">
                                  <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link End</span>
-                                 <input type="color" value={layoutConfig.lineGradientEnd} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineGradientEnd: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                                 <input type="color" value={getColorValue(layoutConfig.lineGradientEnd)} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineGradientEnd: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
                               </div>
                             </div>
                           </div>
@@ -1000,7 +873,7 @@ export const ThemeBar = ({
                                       <span className="text-[10px] font-mono text-white/20">{overrides['--kilang-node-intensity'] || '1.0'}</span>
                                       <input
                                         type="range" min="0" max="5" step="0.1"
-                                        defaultValue={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-node-intensity').trim() : '1')}
+                                        value={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? rootStyles?.getPropertyValue('--kilang-node-intensity').trim() : '1')}
                                         onChange={(e) => updateVariable('--kilang-node-intensity', e.target.value)}
                                         className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
                                       />
@@ -1079,14 +952,12 @@ export const ThemeBar = ({
                                                  ? layoutConfig.tier1Fill 
                                                  : col.type === 'border' 
                                                    ? layoutConfig.tier1Border 
-                                                   : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))
+                                                   : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? rootStyles?.getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))
                                              }}
                                            >
                                              <input
                                                type="color"
-                                               value={
-                                                 (col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))).startsWith('var') ? '#ffffff' : (col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff')))
-                                               }
+                                               value={getColorValue(col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : '--kilang-tier-1-text')}
                                                onChange={(e) => {
                                                  const color = e.target.value;
                                                  if (col.type === 'fill') {
@@ -1158,7 +1029,7 @@ export const ThemeBar = ({
                                          const val = col.mode === 'config' 
                                            ? (layoutConfig as any)[col.key] 
                                            : col.mode === 'var'
-                                             ? (overrides[col.key] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(col.key).trim() : '#ffffff'))
+                                             ? (overrides[col.key] || (typeof window !== 'undefined' ? rootStyles?.getPropertyValue(col.key).trim() : '#ffffff'))
                                              : (layoutConfig as any)[`tier${tier}Fill`];
                                          
                                          return (
@@ -1170,7 +1041,7 @@ export const ThemeBar = ({
                                                >
                                                  <input
                                                    type="color"
-                                                   value={val.startsWith('var') ? (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(val.replace('var(', '').replace(')', '')).trim() || '#ffffff' : '#ffffff') : val}
+                                                   value={getColorValue(val)}
                                                    onChange={(e) => {
                                                      if (col.mode === 'config') {
                                                        dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: e.target.value } });
@@ -1187,7 +1058,7 @@ export const ThemeBar = ({
                                                </div>
                                                <input
                                                  type="text"
-                                                 value={(val.startsWith('var') ? (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(val.replace('var(', '').replace(')', '')).trim() : val) : val).toUpperCase()}
+                                                 value={getColorValue(val).toUpperCase()}
                                                  onChange={(e) => {
                                                    const newVal = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
                                                    if (col.mode === 'config') {
