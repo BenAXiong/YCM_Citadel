@@ -28,12 +28,31 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
     scale: 1, radius: 45, xOffset: 0, opacity: 1, glowIntensity: 0.3, glowColor: '#3b82f6' 
   };
 
-  // --- Performance Optimization: Root Style Snapshot ---
-  const rootStyles = useMemo(() => (
-    typeof window !== 'undefined' ? getComputedStyle(document.documentElement) : null
-  ), [state, overrides]);
+  // --- Performance Optimization: Holistic Style Injection ---
+  const applyThemeStyles = useCallback((mapping: Record<string, string>) => {
+    if (typeof window === 'undefined') return;
+    let styleEl = document.getElementById('kilang-studio-overrides') as HTMLStyleElement;
+    if (!styleEl) {
+      styleEl = document.createElement('style');
+      styleEl.id = 'kilang-studio-overrides';
+      document.head.appendChild(styleEl);
+    }
 
-  // --- Helper: Resolve CSS variable to hex for color inputs ---
+    const cssRules = Object.entries(mapping)
+      .map(([name, value]) => `${name}: ${value} !important;`)
+      .join(' ');
+    
+    styleEl.innerHTML = `:root, [data-theme] { ${cssRules} }`;
+  }, []);
+
+  // --- Helper: Resolve CSS variable to hex/raw for inputs ---
+  const getVariableValue = useCallback((name: string) => {
+    if (typeof window === 'undefined') return '';
+    const inline = document.documentElement.style.getPropertyValue(name).trim();
+    if (inline) return inline;
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || '';
+  }, []);
+
   const getColorValue = useCallback((input: string) => {
     if (typeof window === 'undefined') return '#000000';
     if (!input) return '#000000';
@@ -47,21 +66,18 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
       return input.startsWith('rgb') ? input : '#000000';
     }
 
-    const inline = document.documentElement.style.getPropertyValue(varName).trim();
-    if (inline.startsWith('#')) return inline;
+    const val = getVariableValue(varName);
+    if (val.startsWith('#')) return val;
     
-    const computed = rootStyles?.getPropertyValue(varName).trim() || '';
-    if (computed.startsWith('#')) return computed;
-    
-    if (computed.startsWith('rgb')) {
-       const rgb = computed.match(/\d+/g);
+    if (val.startsWith('rgb')) {
+       const rgb = val.match(/\d+/g);
        if (rgb && rgb.length >= 3) {
          const hex = (n: string) => parseInt(n).toString(16).padStart(2, '0');
          return `#${hex(rgb[0])}${hex(rgb[1])}${hex(rgb[2])}`;
        }
     }
     return '#000000'; 
-  }, [rootStyles]);
+  }, [getVariableValue]);
 
   const getHonestColor = useCallback((name: string, value: string) => {
     if (name.includes('tier-1-fill')) return `color-mix(in srgb, ${value} calc(20% * var(--kilang-node-intensity)), var(--kilang-bg-base))`;
@@ -78,12 +94,10 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
     const currentIdx = THEME_PRESETS.findIndex(p => p.id === themeName);
     if (currentIdx !== -1) setSlideIndex(Math.floor(currentIdx / 3));
 
-    // 2. Hydrate overrides
-    const themedEl = document.querySelector('[data-theme]');
-    THEME_VARS.forEach(v => {
-      document.documentElement.style.removeProperty(v);
-      if (themedEl) (themedEl as HTMLElement).style.removeProperty(v);
-    });
+    // 2. Clear all existing inline overrides
+    document.documentElement.setAttribute('style', '');
+    const styleEl = document.getElementById('kilang-studio-overrides');
+    if (styleEl) styleEl.innerHTML = '';
 
     const savedCSS = localStorage.getItem(`kilang-custom-theme-${themeName}`);
     const savedConfig = localStorage.getItem(`kilang-config-overrides-${themeName}`);
@@ -92,11 +106,9 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
     if (savedCSS) {
       try {
         const parsed = JSON.parse(savedCSS);
-        Object.entries(parsed).forEach(([key, val]) => {
-          document.documentElement.style.setProperty(key, val as string);
-          if (themedEl) (themedEl as HTMLElement).style.setProperty(key, val as string);
-          loadedOverrides[key] = val as string;
-        });
+        Object.assign(loadedOverrides, parsed);
+        // BATCH UPDATE via Style Injection
+        applyThemeStyles(loadedOverrides);
       } catch (e) {}
     }
     setOverrides(loadedOverrides);
@@ -123,7 +135,7 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
           theme: themeName, 
           layoutConfig: preset.config, 
           branding: {
-            logoStyles: state.logoStyles || { 1: 'original', 2: 'original', 3: 'original' },
+            logoStyles: state.logoStyles || { 1: 'square', 2: 'round', 3: 'round' },
             logoSettings: state.logoSettings && Object.keys(state.logoSettings).length > 0 ? state.logoSettings : { 
               1: { scale: 1, radius: 45, xOffset: 0, opacity: 1, glowIntensity: 0.3, glowColor: '#3b82f6' },
               2: { scale: 1, radius: 45, xOffset: 0, opacity: 1, glowIntensity: 0.3, glowColor: '#3b82f6' },
@@ -138,74 +150,46 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
 
   // --- Update Actions ---
   const updateVariable = useCallback((name: string, value: string) => {
-    const themedEls = document.querySelectorAll('[data-theme]');
-    document.documentElement.style.setProperty(name, value);
-    themedEls.forEach(el => (el as HTMLElement).style.setProperty(name, value));
-    setOverrides(prev => ({ ...prev, [name]: value }));
+    const nextOverrides = { ...overrides, [name]: value };
+    applyThemeStyles(nextOverrides);
+    setOverrides(nextOverrides);
     
     if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
     saveTimerRef.current = setTimeout(() => {
-      const saved = localStorage.getItem(`kilang-custom-theme-${layoutConfig.theme}`);
-      let current = saved ? JSON.parse(saved) : {};
-      current[name] = value;
-      localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(current));
+      localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(nextOverrides));
     }, 500);
-  }, [layoutConfig.theme]);
+  }, [layoutConfig.theme, overrides, applyThemeStyles]);
 
   const updateVariables = useCallback((mapping: Record<string, string>) => {
-    const themedEls = document.querySelectorAll('[data-theme]');
-    Object.entries(mapping).forEach(([name, value]) => {
-      document.documentElement.style.setProperty(name, value);
-      themedEls.forEach(el => (el as HTMLElement).style.setProperty(name, value));
-    });
-    setOverrides(prev => ({ ...prev, ...mapping }));
+    const nextOverrides = { ...overrides, ...mapping };
+    applyThemeStyles(nextOverrides);
+    setOverrides(nextOverrides);
 
     if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
     saveTimerRef.current = setTimeout(() => {
-      const saved = localStorage.getItem(`kilang-custom-theme-${layoutConfig.theme}`);
-      let current = saved ? JSON.parse(saved) : {};
-      Object.entries(mapping).forEach(([name, value]) => { current[name] = value; });
-      localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(current));
+      localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(nextOverrides));
     }, 500);
-  }, [layoutConfig.theme]);
+  }, [layoutConfig.theme, overrides, applyThemeStyles]);
 
   // --- Holistic Actions (Save, Reset, Export) ---
-  /**
-   * 🛡️ Fixed Save Logic: Captures 100% of current styling state including all Branding versions.
-   */
   const handleSave = useCallback(() => {
-    const currentOverrides: Record<string, string> = {};
-    THEME_VARS.forEach(v => {
-      const val = document.documentElement.style.getPropertyValue(v);
-      if (val) currentOverrides[v] = val;
-    });
-
-    const holisticManifest = {
+    localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(overrides));
+    localStorage.setItem(`kilang-config-overrides-${layoutConfig.theme}`, JSON.stringify({
       layoutConfig,
       logoStyles: state.logoStyles,
       logoSettings: state.logoSettings,
       landingVersion: state.landingVersion
-    };
-
-    localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(currentOverrides));
-    localStorage.setItem(`kilang-config-overrides-${layoutConfig.theme}`, JSON.stringify(holisticManifest));
-    setOverrides(currentOverrides);
+    }));
 
     dispatch({ type: 'SET_TOAST', message: `Theme "${THEME_PRESETS.find(p => p.id === layoutConfig.theme)?.label}" Saved Successfully` });
-  }, [layoutConfig, state, dispatch]);
+  }, [layoutConfig, state, overrides, dispatch]);
 
-  /**
-   * 🛡️ Fixed Reset Logic: Discards tweaks and reloads the last saved manifest OR factory preset.
-   */
   const handleReset = useCallback(() => {
     if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
     
     document.documentElement.setAttribute('style', '');
-    const themedEl = document.querySelector('[data-theme]');
-    THEME_VARS.forEach(v => {
-      document.documentElement.style.removeProperty(v);
-      if (themedEl) (themedEl as HTMLElement).style.removeProperty(v);
-    });
+    const styleEl = document.getElementById('kilang-studio-overrides');
+    if (styleEl) styleEl.innerHTML = '';
 
     const themeName = layoutConfig.theme;
     const savedCSS = localStorage.getItem(`kilang-custom-theme-${themeName}`);
@@ -213,11 +197,9 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
     const preset = THEME_PRESETS.find(p => p.id === themeName);
 
     if (savedCSS) {
-        setOverrides(JSON.parse(savedCSS));
-        Object.entries(JSON.parse(savedCSS)).forEach(([k, v]) => {
-            document.documentElement.style.setProperty(k, v as string);
-            if (themedEl) (themedEl as HTMLElement).style.setProperty(k, v as string);
-        });
+        const parsed = JSON.parse(savedCSS);
+        setOverrides(parsed);
+        applyThemeStyles(parsed);
     } else {
         setOverrides({});
     }
@@ -281,9 +263,9 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
       logoSettings
     },
     helpers: {
+      getVariableValue,
       getColorValue,
-      getHonestColor,
-      rootStyles
+      getHonestColor
     },
     actions: {
       updateVariable,

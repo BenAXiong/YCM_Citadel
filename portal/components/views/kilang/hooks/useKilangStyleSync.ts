@@ -19,28 +19,70 @@ interface UseKilangStyleSyncProps {
     fontSize: number;
   };
 }
-
 export const useKilangStyleSync = ({ layoutConfig }: UseKilangStyleSyncProps) => {
-  // 1. Sync Layout Config to CSS Variables for SVG Tree Lines
+  // --- Performance Optimization: Unified Style Injection ---
   useEffect(() => {
-    const root = document.documentElement;
-    root.style.setProperty('--kilang-link-start', layoutConfig.lineColor);
-    root.style.setProperty('--kilang-link-mid', layoutConfig.lineColorMid);
-    root.style.setProperty('--kilang-link-end', layoutConfig.lineGradientEnd);
-    root.style.setProperty('--kilang-link-width', `${layoutConfig.lineWidth}px`);
-    root.style.setProperty('--kilang-link-opacity', layoutConfig.lineOpacity.toString());
-    root.style.setProperty('--kilang-link-blur', `${layoutConfig.lineBlur}px`);
-    root.style.setProperty('--kilang-link-tension', layoutConfig.lineTension.toString());
-    root.style.setProperty('--kilang-link-dash', layoutConfig.lineDashArray.toString());
-    root.style.setProperty('--kilang-link-flow-speed', layoutConfig.lineFlowSpeed > 0 ? `${11 - layoutConfig.lineFlowSpeed}s` : '0s');
-    root.style.setProperty('--kilang-font-family', layoutConfig.fontFamily);
-    root.style.setProperty('--kilang-font-size', `${layoutConfig.fontSize}px`);
+    const themeName = layoutConfig.theme;
+
+    const applyHolisticStyles = () => {
+      if (typeof window === 'undefined') return;
+
+      // 1. Prepare Batch Mapping
+      const mapping: Record<string, string> = {
+        '--kilang-link-start': layoutConfig.lineColor,
+        '--kilang-link-mid': layoutConfig.lineColorMid,
+        '--kilang-link-end': layoutConfig.lineGradientEnd,
+        '--kilang-link-width': `${layoutConfig.lineWidth}px`,
+        '--kilang-link-opacity': layoutConfig.lineOpacity.toString(),
+        '--kilang-link-blur': `${layoutConfig.lineBlur}px`,
+        '--kilang-link-tension': layoutConfig.lineTension.toString(),
+        '--kilang-link-dash': layoutConfig.lineDashArray.toString(),
+        '--kilang-link-flow-speed': layoutConfig.lineFlowSpeed > 0 ? `${11 - layoutConfig.lineFlowSpeed}s` : '0s',
+        '--kilang-font-family': layoutConfig.fontFamily,
+        '--kilang-font-size': `${layoutConfig.fontSize}px`
+      };
+
+      // 2. Load theme-specific overrides from localStorage
+      const saved = localStorage.getItem(`kilang-custom-theme-${themeName}`);
+      if (saved) {
+        try {
+          const parsed = JSON.parse(saved);
+          Object.assign(mapping, parsed);
+        } catch (e) {}
+      }
+
+      // 3. Inject/Update Style Tag (Unified with useThemeStudio)
+      let styleEl = document.getElementById('kilang-studio-overrides') as HTMLStyleElement;
+      if (!styleEl) {
+        styleEl = document.createElement('style');
+        styleEl.id = 'kilang-studio-overrides';
+        document.head.appendChild(styleEl);
+      }
+
+      const cssRules = Object.entries(mapping)
+        .map(([name, value]) => `${name}: ${value} !important;`)
+        .join(' ');
+      
+      styleEl.innerHTML = `:root, [data-theme] { ${cssRules} }`;
+    };
+
+    applyHolisticStyles();
+
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === `kilang-custom-theme-${themeName}`) {
+        applyHolisticStyles();
+      }
+    };
+
+    window.addEventListener('storage', handleStorage);
+    return () => window.removeEventListener('storage', handleStorage);
   }, [
-    layoutConfig.lineColor, 
-    layoutConfig.lineColorMid, 
-    layoutConfig.lineGradientEnd, 
-    layoutConfig.lineWidth, 
-    layoutConfig.lineOpacity, 
+    layoutConfig.theme,
+    layoutConfig.lineColor,
+    layoutConfig.lineColorMid,
+    layoutConfig.lineGradientEnd,
+    layoutConfig.lineWidth,
+    layoutConfig.lineOpacity,
     layoutConfig.lineBlur,
     layoutConfig.lineTension,
     layoutConfig.lineDashArray,
@@ -48,48 +90,4 @@ export const useKilangStyleSync = ({ layoutConfig }: UseKilangStyleSyncProps) =>
     layoutConfig.fontFamily,
     layoutConfig.fontSize
   ]);
-
-  // 2. Real-time CSS Variable Syncing & Custom Theme Loading
-  useEffect(() => {
-    const applyOverrides = () => {
-      const themeName = layoutConfig.theme;
-      
-      const root = document.documentElement;
-      const themedEl = document.querySelector('[data-theme]');
-
-      // 1. Clear all existing inline overrides first to prevent theme contamination
-      THEME_VARS.forEach(v => {
-        root.style.removeProperty(v);
-        if (themedEl) (themedEl as HTMLElement).style.removeProperty(v);
-      });
-
-      // 2. Map standard theme data-theme attribute
-      if (themedEl) themedEl.setAttribute('data-theme', themeName);
-
-      // 3. Load theme-specific overrides from localStorage
-      const saved = localStorage.getItem(`kilang-custom-theme-${themeName}`);
-      if (!saved) return;
-      
-      try {
-        const parsed = JSON.parse(saved);
-        Object.entries(parsed).forEach(([key, val]) => {
-          root.style.setProperty(key, val as string);
-          if (themedEl) (themedEl as HTMLElement).style.setProperty(key, val as string);
-        });
-      } catch (e) {
-        console.error('Failed to sync theme overrides:', e);
-      }
-    };
-
-    applyOverrides();
-
-    const handleStorage = (e: StorageEvent) => {
-      if (e.key === `kilang-custom-theme-${layoutConfig.theme}`) {
-        applyOverrides();
-      }
-    };
-
-    window.addEventListener('storage', handleStorage);
-    return () => window.removeEventListener('storage', handleStorage);
-  }, [layoutConfig.theme]);
 };

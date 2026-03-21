@@ -141,9 +141,9 @@ export const ThemeBar = ({
   } = tsState;
 
   const {
+    getVariableValue,
     getColorValue,
-    getHonestColor,
-    rootStyles
+    getHonestColor
   } = tsHelpers;
 
   const {
@@ -450,7 +450,7 @@ export const ThemeBar = ({
                                     const nextOn = !isBulbOn;
                                     setActiveBulbs(prev => ({ ...prev, [varKey]: nextOn }));
                                     if (nextOn && (v as any).activeTargets) {
-                                      const currentValue = overrides[(v as any).targets[0]] || (typeof window !== 'undefined' ? rootStyles?.getPropertyValue((v as any).targets[0]).trim() : '');
+                                      const currentValue = overrides[(v as any).targets[0]] || (typeof window !== 'undefined' ? getVariableValue((v as any).targets[0]).trim() : '');
                                       if (currentValue) {
                                         const mapping: Record<string, string> = {};
                                         (v as any).activeTargets.forEach((t: string) => mapping[t] = currentValue);
@@ -469,7 +469,7 @@ export const ThemeBar = ({
                                     <div className="flex items-center gap-2 pr-2">
                                       <input
                                         type="range" min="0" max="1" step="0.01"
-                                         value={overrides[(v as any).name + "-opacity"] || rootStyles?.getPropertyValue((v as any).name + "-opacity").trim() || "1"}
+                                         value={overrides[(v as any).name + "-opacity"] || getVariableValue((v as any).name + "-opacity").trim() || "1"}
                                         onChange={(e) => updateVariable((v as any).name + '-opacity', e.target.value)}
                                         className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
                                       />
@@ -503,14 +503,14 @@ export const ThemeBar = ({
                                   {(v as any).name?.includes('-w-') && (
                                     <input
                                       type="range" min="0" max="20" step="1"
-                                      value={parseInt(overrides[(v as any).name] || (typeof window !== 'undefined' ? (rootStyles?.getPropertyValue((v as any).name) || '0').trim() : '0'))}
+                                      value={parseInt(overrides[(v as any).name] || (typeof window !== 'undefined' ? (getVariableValue((v as any).name) || '0').trim() : '0'))}
                                       onChange={(e) => updateVariable((v as any).name, `${e.target.value}px`)}
                                       className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
                                     />
                                   )}
                                   <input
                                     type="text"
-                                    value={overrides[(v as any).name] || (typeof window !== 'undefined' ? (rootStyles?.getPropertyValue((v as any).name) || '').trim() : '')}
+                                    value={overrides[(v as any).name] || (typeof window !== 'undefined' ? (getVariableValue((v as any).name) || '').trim() : '')}
                                     onChange={(e) => updateVariable((v as any).name, e.target.value)}
                                     className="w-10 bg-transparent border-0 text-right text-[10px] text-white/60 focus:text-white focus:outline-none font-mono"
                                   />
@@ -873,7 +873,7 @@ export const ThemeBar = ({
                                       <span className="text-[10px] font-mono text-white/20">{overrides['--kilang-node-intensity'] || '1.0'}</span>
                                       <input
                                         type="range" min="0" max="5" step="0.1"
-                                        value={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? rootStyles?.getPropertyValue('--kilang-node-intensity').trim() : '1')}
+                                        value={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? getVariableValue('--kilang-node-intensity') : '1')}
                                         onChange={(e) => updateVariable('--kilang-node-intensity', e.target.value)}
                                         className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
                                       />
@@ -952,7 +952,7 @@ export const ThemeBar = ({
                                                  ? layoutConfig.tier1Fill 
                                                  : col.type === 'border' 
                                                    ? layoutConfig.tier1Border 
-                                                   : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? rootStyles?.getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))
+                                                   : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getVariableValue('--kilang-tier-1-text') : '#ffffff'))
                                              }}
                                            >
                                              <input
@@ -1029,7 +1029,7 @@ export const ThemeBar = ({
                                          const val = col.mode === 'config' 
                                            ? (layoutConfig as any)[col.key] 
                                            : col.mode === 'var'
-                                             ? (overrides[col.key] || (typeof window !== 'undefined' ? rootStyles?.getPropertyValue(col.key).trim() : '#ffffff'))
+                                             ? (overrides[col.key] || (typeof window !== 'undefined' ? getVariableValue(col.key) : '#ffffff'))
                                              : (layoutConfig as any)[`tier${tier}Fill`];
                                          
                                          return (

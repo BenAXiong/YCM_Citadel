@@ -47,6 +47,8 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
     else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
   }, [dispatch]);
 
+  const bloomedNodes = React.useRef(new Set<string>());
+
   return (
     <div
       ref={ref}
@@ -112,6 +114,10 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
         {(rootData?.derivatives as Derivation[])?.map((d: Derivation) => {
           const pos = nodeMap[d.word_ab];
           if (!pos || !rootPos) return null;
+          
+          const hasBloomed = bloomedNodes.current.has(d.word_ab);
+          if (!hasBloomed) bloomedNodes.current.add(d.word_ab);
+
           return (
             <div
               key={d.word_ab}
@@ -124,10 +130,10 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
               }}
             >
               <div
-                className="animate-forest-bloom"
+                className={hasBloomed ? "kilang-node-bloom-lock" : "kilang-node-bloom-lock animate-forest-bloom"}
                 style={{
                   animationDelay: `${(d.tier - 2) * 120}ms`,
-                  transformOrigin: `${rootPos.x - pos.x}px ${rootPos.y - pos.y}px`
+                  transformOrigin: `${rootPos.x - pos.x}px ${rootPos.y - pos.y}px`,
                 }}
               >
                 <div className="tree-node">

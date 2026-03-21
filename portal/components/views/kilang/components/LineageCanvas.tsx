@@ -74,7 +74,18 @@ export const LineageCanvas = React.memo(({
         tier: d.tier
       };
     }).filter(Boolean);
-  }, [derivatives, nodeMap, root, direction, layoutConfig.lineGapX, layoutConfig.lineGapY, layoutConfig.lineTension, ROOT_R, BRANCH_W, BRANCH_H]);
+  }, [
+    derivatives, 
+    nodeMap, 
+    root, 
+    direction, 
+    layoutConfig.lineGapX, 
+    layoutConfig.lineGapY, 
+    layoutConfig.lineTension, 
+    layoutConfig.nodeWidth, // Added because BRANCH_W depends on it
+    layoutConfig.nodePaddingY, // Added because BRANCH_H depends on it
+    layoutConfig.nodeSize // Added because ROOT_R/BRANCH depends on it
+  ]);
 
   const onHover = React.useCallback((node: string | null) => {
     dispatch({ type: 'SET_CANVAS_HOVER', node });

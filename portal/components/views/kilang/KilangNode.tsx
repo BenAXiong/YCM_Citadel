@@ -188,7 +188,8 @@ export const KilangNode = React.memo(({
   };
 
   const getTierColor = (type: 'Fill' | 'Border', t: number) => {
-    return (config as any)[`tier${t}${type}`] || (type === 'Fill' ? `var(--kilang-tier-${t}-fill)` : `var(--kilang-tier-${t}-border)`);
+    // PREFER CSS VARIABLES: This makes theme changes instant
+    return `var(--kilang-tier-${t}-${type.toLowerCase()})`;
   };
 
   return (
@@ -211,9 +212,9 @@ export const KilangNode = React.memo(({
             <div
               className={`p-8 z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
               style={{
-                borderRadius: `${(config as any).tier1Rounding ?? 100}px`,
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} calc(20% * var(--kilang-node-intensity, 1)), var(--kilang-bg-base))`,
-                borderColor: isHighlighted ? 'var(--kilang-primary-active)' : getTierColor('Border', 1),
+                borderRadius: `${config.tier1Rounding ?? 100}px`,
+                backgroundColor: `color-mix(in srgb, var(--kilang-tier-1-fill) calc(20% * var(--kilang-node-intensity, 1)), var(--kilang-bg-base))`,
+                borderColor: isHighlighted ? 'var(--kilang-primary-active)' : 'var(--kilang-tier-1-border)',
                 borderWidth: `${config.rootBorderWidth}px`,
                 borderStyle: 'solid',
                 boxShadow: isHighlighted ? `0 0 80px var(--kilang-primary-glow)` : `0 0 60px color-mix(in srgb, var(--kilang-primary-glow), transparent 20%)`,
@@ -236,10 +237,10 @@ export const KilangNode = React.memo(({
                 borderWidth: `${config.branchBorderWidth}px`,
                 borderStyle: 'solid',
                 borderColor: isHighlighted
-                  ? `color-mix(in srgb, ${getTierColor('Border', tier)} 80%, white)`
-                  : `color-mix(in srgb, ${getTierColor('Border', tier)} 40%, transparent)`,
+                  ? `color-mix(in srgb, var(--kilang-tier-${tier}-border) 80%, white)`
+                  : `color-mix(in srgb, var(--kilang-tier-${tier}-border) 40%, transparent)`,
                 boxShadow: isHighlighted ? '0 0 30px var(--kilang-primary-glow)' : 'none',
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} calc(${tier === 2 ? '10%' : '5%'} * var(--kilang-node-intensity, 1)), var(--kilang-bg-base))`,
+                backgroundColor: `color-mix(in srgb, var(--kilang-tier-${tier}-fill) calc(${tier === 2 ? '10%' : '5%'} * var(--kilang-node-intensity, 1)), var(--kilang-bg-base))`,
                 width: `${config.nodeWidth}px`,
                 paddingTop: `${config.nodePaddingY}px`,
                 paddingBottom: `${config.nodePaddingY}px`,
@@ -262,7 +263,20 @@ export const KilangNode = React.memo(({
   const prevKey = prev.word.toLowerCase();
   const nextKey = next.word.toLowerCase();
 
+  // DEEP VALUE COMPARISON: Ignore layoutConfig object identity if values are same
+  const configDiff = 
+    prev.config.nodeSize !== next.config.nodeSize ||
+    prev.config.nodeOpacity !== next.config.nodeOpacity ||
+    prev.config.nodeWidth !== next.config.nodeWidth ||
+    prev.config.nodePaddingY !== next.config.nodePaddingY ||
+    prev.config.rootBorderWidth !== next.config.rootBorderWidth ||
+    prev.config.branchBorderWidth !== next.config.branchBorderWidth ||
+    prev.config.tier1Rounding !== next.config.tier1Rounding ||
+    prev.config.tier2Rounding !== next.config.tier2Rounding ||
+    prev.config.showIcons !== next.config.showIcons;
+
   return (
+    !configDiff &&
     prev.word === next.word &&
     prev.dictCode === next.dictCode &&
     prev.tier === next.tier &&
@@ -270,7 +284,6 @@ export const KilangNode = React.memo(({
     prev.isHighlighted === next.isHighlighted &&
     prev.isHovered === next.isHovered &&
     prev.showTooltip === next.showTooltip &&
-    prev.config === next.config &&
     prev.onInteraction === next.onInteraction &&
     prev.summaryCache[prevKey] === next.summaryCache[nextKey]
   );
