@@ -104,10 +104,13 @@ export const groupVars = {
     { name: '--kilang-radius-display', label: 'Display Radius', type: 'text' }
   ] as const,
   links: [
-    { name: '--kilang-link-start', label: 'Link Start', type: 'color' },
-    { name: '--kilang-link-mid', label: 'Link Mid', type: 'color' },
-    { name: '--kilang-link-end', label: 'Link End', type: 'color' },
     { name: '--kilang-link-opacity', label: 'Link Opacity', type: 'text' }
+  ] as const,
+  weights: [
+    { name: '--kilang-border-w-std', label: 'Standard Weight', type: 'text' },
+    { name: '--kilang-border-w-resizer', label: 'Resizer Weight', type: 'text' },
+    { name: '--kilang-border-w-root', label: 'Root Node Weight', type: 'text' },
+    { name: '--kilang-border-w-accent', label: 'Accent Strip Weight', type: 'text' }
   ] as const
 };
 
@@ -491,6 +494,10 @@ export const ThemeBar = ({
                       vars: groupVars.borders
                     },
                     {
+                      group: `Weights (${groupVars.weights.length})`,
+                      vars: groupVars.weights
+                    },
+                    {
                       group: `Text & Icons (${groupVars.texts.filter(v => v.name !== '--kilang-ctrl-active-text').length} + ${groupVars.texts.filter(v => v.name === '--kilang-ctrl-active-text').length})`,
                       vars: groupVars.texts
                     },
@@ -620,12 +627,24 @@ export const ThemeBar = ({
                                         </div>
                                       </div>
                                     ) : (
-                                      <input
-                                        type="text"
-                                        defaultValue={overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '')}
-                                        onChange={(e) => updateVariable((v as any).name, e.target.value)}
-                                        className="w-24 bg-transparent border-0 text-right text-[10px] text-white/60 focus:text-white focus:outline-none font-mono"
-                                      />
+                                      <div className="flex items-center gap-2">
+                                        {(v as any).name?.includes('-w-') && (
+                                          <div className="flex items-center gap-1">
+                                            <input
+                                              type="range" min="0" max="20" step="1"
+                                              value={parseInt(overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '0'))}
+                                              onChange={(e) => updateVariable((v as any).name, `${e.target.value}px`)}
+                                              className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)]"
+                                            />
+                                          </div>
+                                        )}
+                                        <input
+                                          type="text"
+                                          value={overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '')}
+                                          onChange={(e) => updateVariable((v as any).name, e.target.value)}
+                                          className="w-10 bg-transparent border-0 text-right text-[10px] text-white/60 focus:text-white focus:outline-none font-mono"
+                                        />
+                                      </div>
                                     )}
                                   </div>
                                 </div>

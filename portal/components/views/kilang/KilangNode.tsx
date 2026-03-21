@@ -66,13 +66,14 @@ export const WordTooltip = ({
     <div
       onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); setIsHovered(true); }}
       onMouseLeave={handleLeave}
-      className={`fixed w-80 bg-[var(--kilang-tooltip-bg)] backdrop-blur-3xl border border-[var(--kilang-tooltip-border)] shadow-[0_0_80px_rgba(0,0,0,0.9)] rounded-[var(--kilang-radius-lg)] p-6 transition-all z-[99999] pointer-events-auto text-left leading-normal border-b-8 border-b-[var(--kilang-tooltip-accent)] animate-in fade-in duration-200 ${side === 'right'
+      className={`fixed w-80 bg-[var(--kilang-tooltip-bg)] backdrop-blur-3xl border border-[var(--kilang-tooltip-border)] shadow-[0_0_80px_rgba(0,0,0,0.9)] rounded-[var(--kilang-radius-lg)] p-6 transition-all z-[99999] pointer-events-auto text-left leading-normal border-b-[var(--kilang-border-w-accent)] border-b-[var(--kilang-tooltip-accent)] animate-in fade-in duration-200 ${side === 'right'
         ? 'translate-x-0 -translate-y-1/2'
         : '-translate-x-1/2 -translate-y-full'
         }`}
       style={{
         top: `${coords.top}px`,
         left: `${coords.left}px`,
+        borderBottomWidth: 'var(--kilang-border-w-accent)'
       }}
     >
       <div className="flex flex-col gap-1 mb-4 border-b border-[var(--kilang-border-std)] pb-3">
@@ -195,10 +196,12 @@ export const KilangNode = React.memo(({
         <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
           {isRoot ? (
             <div
-              className={`border-4 p-8 rounded-full z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
+              className={`p-8 rounded-full z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
               style={{
                 backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} calc(20% * var(--kilang-node-intensity)), var(--kilang-bg-base))`,
                 borderColor: isHighlighted ? 'var(--kilang-primary-active)' : getTierColor('Border', 1),
+                borderWidth: 'var(--kilang-border-w-root)',
+                borderStyle: 'solid',
                 boxShadow: isHighlighted ? `0 0 80px var(--kilang-primary-glow)` : `0 0 60px color-mix(in srgb, var(--kilang-primary-glow), transparent 20%)`,
                 paddingTop: `${config.nodePaddingY * 2}px`,
                 paddingBottom: `${config.nodePaddingY * 2}px`
@@ -211,12 +214,15 @@ export const KilangNode = React.memo(({
             </div>
           ) : (
             <div
-              className={`transition-all text-sm group ring-1 relative z-10 border flex items-center justify-center ${isHighlighted ? 'ring-[var(--kilang-primary-border)]/50 shadow-[0_0_30px_var(--kilang-primary-glow)]' : 'ring-[var(--kilang-border)]'}`}
+              className={`transition-all text-sm group relative z-10 flex items-center justify-center ${isHighlighted ? 'shadow-[0_0_30px_var(--kilang-primary-glow)]' : ''}`}
               style={{
                 borderRadius: `${config.nodeRounding}px`,
+                borderWidth: 'var(--kilang-border-w-std)',
+                borderStyle: 'solid',
                 borderColor: isHighlighted
                   ? `color-mix(in srgb, ${getTierColor('Border', tier)} 80%, white)`
                   : `color-mix(in srgb, ${getTierColor('Border', tier)} 40%, transparent)`,
+                boxShadow: isHighlighted ? '0 0 30px var(--kilang-primary-glow)' : 'none',
                 backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} calc(${tier === 2 ? '10%' : '5%'} * var(--kilang-node-intensity)), var(--kilang-bg-base))`,
                 width: `${config.nodeWidth}px`,
                 paddingTop: `${config.nodePaddingY}px`,

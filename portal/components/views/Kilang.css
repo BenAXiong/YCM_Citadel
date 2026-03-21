@@ -102,6 +102,12 @@
   --kilang-node-intensity: 1;
   --kilang-link-intensity: 1;
   /* Multiplier for link opacity */
+
+  /* Border Weights (Semantic Tiers) */
+  --kilang-border-w-std: 1px;
+  --kilang-border-w-resizer: 2px;
+  --kilang-border-w-root: 4px;
+  --kilang-border-w-accent: 8px;
 }
 
 [data-theme="kakarayan"] {

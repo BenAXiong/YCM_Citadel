@@ -571,7 +571,10 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
           {loading ? (
             <div className="flex-1 flex items-center justify-center">
               <div className="flex flex-col items-center gap-4">
-                <div className="w-10 h-10 border-4 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                <div 
+                  className="w-10 h-10 border-blue-500 border-t-transparent rounded-full animate-spin" 
+                  style={{ borderWidth: 'var(--kilang-border-w-root)' }}
+                />
                 <div className="text-blue-500 font-black tracking-widest uppercase text-xs">Parsing Manifests...</div>
               </div>
             </div>
@@ -706,7 +709,10 @@ export const AffixesOverlay = ({}: AffixesOverlayProps) => {
                             {loading && (
                               <div className="flex items-center gap-2">
                                 <div className="w-1.5 h-1.5 bg-blue-500 rounded-full animate-pulse" />
-                                <div className="w-4 h-4 border-2 border-blue-500/20 border-t-blue-500 rounded-full animate-spin" />
+                                <div 
+                                  className="w-4 h-4 border-blue-500/20 border-t-blue-500 rounded-full animate-spin" 
+                                  style={{ borderWidth: 'var(--kilang-border-w-resizer)' }}
+                                />
                               </div>
                             )}
                           </div>

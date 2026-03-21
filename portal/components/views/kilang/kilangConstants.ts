@@ -25,6 +25,7 @@ export const THEME_VARS = [
   '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std',
   '--kilang-ctrl-active-border', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border',
   '--kilang-shadow-primary',
+  '--kilang-border-w-std', '--kilang-border-w-resizer', '--kilang-border-w-root', '--kilang-border-w-accent',
 
   // --- 10 TEXT ---
   '--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text',
