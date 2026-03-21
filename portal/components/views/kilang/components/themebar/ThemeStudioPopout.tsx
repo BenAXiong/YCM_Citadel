@@ -9,7 +9,8 @@ import {
   Map as MapIcon,
   Sparkles,
   RotateCcw,
-  Lightbulb
+  Lightbulb,
+  Wand2
 } from 'lucide-react';
 import { useKilangContext } from '../../KilangContext';
 import { useThemeStudio } from '../../hooks/useThemeStudio';
@@ -17,13 +18,14 @@ import { ThemesPanel } from './ThemesPanel';
 import { TreePanel } from './TreePanel';
 import { BrandingPanel } from './BrandingPanel';
 import { TypographyPanel } from './TypographyPanel';
+import { MasterPanel } from './MasterPanel';
 import { VariableMap } from '../VariableMap';
 import { PresetBand } from './PresetBand';
 
 export const ThemeStudioPopout = () => {
   const { state, dispatch } = useKilangContext();
   const { layoutConfig } = state;
-  const [activeTab, setActiveTab] = useState<'themes' | 'tree' | 'branding' | 'typography' | 'map'>('themes');
+  const [activeTab, setActiveTab] = useState<'master' | 'themes' | 'tree' | 'branding' | 'typography' | 'map'>('master');
 
   const themeStudio = useThemeStudio({ dispatch, layoutConfig, state });
   const {
@@ -33,6 +35,7 @@ export const ThemeStudioPopout = () => {
   } = themeStudio;
 
   const sidebarTools = [
+    { id: 'master', label: 'Master', icon: Wand2 },
     { id: 'themes', label: 'Themes', icon: Palette },
     { id: 'tree', label: 'Tree', icon: Layers },
     { id: 'branding', label: 'Branding', icon: Aperture },
@@ -93,6 +96,13 @@ export const ThemeStudioPopout = () => {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(255,255,255,0.03),transparent)] pointer-events-none" />
           
           <div className="h-full flex flex-col relative z-10">
+            {activeTab === 'master' && (
+              <MasterPanel 
+                tsState={tsState} 
+                tsActions={tsActions} 
+                tsHelpers={tsHelpers} 
+              />
+            )}
             {activeTab === 'themes' && (
               <ThemesPanel 
                 tsState={tsState} 

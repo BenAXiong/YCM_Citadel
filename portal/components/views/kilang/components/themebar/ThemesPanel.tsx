@@ -198,22 +198,7 @@ export const ThemesPanel = ({
 
   return (
     <div className="flex flex-row h-full overflow-x-auto custom-scrollbar bg-[#020202]">
-      {/* COLUMN 1: MASTERS */}
-      <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
-        <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
-          <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Master Presets</span>
-          <Zap className="w-3.5 h-3.5 text-white/20" />
-        </div>
-        <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
-          <RibbonGroup label="Master Tuning Controls">
-            <div className="bg-white/[0.03] border-b border-white/10">
-              {masters.map((m, i) => renderVariableRow(m, i, 'masters'))}
-            </div>
-          </RibbonGroup>
-        </div>
-      </div>
-
-      {/* COLUMN 2: SURFACES */}
+      {/* COLUMN 1: SURFACES */}
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">UI Surfaces</span>
@@ -228,7 +213,7 @@ export const ThemesPanel = ({
         </div>
       </div>
 
-      {/* COLUMN 3: BORDERS */}
+      {/* COLUMN 2: BORDERS */}
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Outlines & Glass</span>
@@ -243,7 +228,7 @@ export const ThemesPanel = ({
         </div>
       </div>
 
-      {/* COLUMN 4: TEXTS */}
+      {/* COLUMN 3: TEXTS */}
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Typography Colors</span>
@@ -253,27 +238,6 @@ export const ThemesPanel = ({
           <RibbonGroup label="Typography & Elements">
             <div className="bg-white/[0.03] border-b border-white/10">
                {groupVars.texts.map((v, i) => renderVariableRow(v, i, 'texts'))}
-            </div>
-          </RibbonGroup>
-        </div>
-      </div>
-
-      {/* COLUMN 5: STRUCTURAL */}
-      <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
-        <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
-          <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Geometry & Radii</span>
-          <Layers className="w-3.5 h-3.5 text-white/20" />
-        </div>
-        <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
-          <RibbonGroup label="Global Radii System">
-            <div className="bg-white/[0.03] border-b border-white/10">
-              {groupVars.structural.map((v, i) => renderVariableRow(v, i, 'structural'))}
-            </div>
-          </RibbonGroup>
-
-          <RibbonGroup label="Global Scaling & Weights">
-            <div className="bg-white/[0.03] border-b border-white/10">
-              {groupVars.weights.map((v, i) => renderVariableRow(v, i, 'structural'))}
             </div>
           </RibbonGroup>
         </div>
