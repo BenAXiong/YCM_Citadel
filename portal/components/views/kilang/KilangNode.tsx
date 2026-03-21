@@ -155,6 +155,7 @@ interface KilangNodeProps {
     rootBorderWidth: number;
     accentBorderWidth: number;
     branchBorderWidth: number;
+    nodeIntensity: number;
   };
   showTooltip?: boolean;
 }
@@ -213,7 +214,7 @@ export const KilangNode = React.memo(({
               className={`p-8 z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
               style={{
                 borderRadius: `${config.tier1Rounding ?? 100}px`,
-                backgroundColor: `color-mix(in srgb, var(--kilang-tier-1-fill) calc(20% * var(--kilang-node-intensity, 1)), var(--kilang-bg-base))`,
+                backgroundColor: `color-mix(in srgb, var(--kilang-tier-1-fill) calc(20% * ${config.nodeIntensity}), var(--kilang-bg-base))`,
                 borderColor: isHighlighted ? 'var(--kilang-primary-active)' : 'var(--kilang-tier-1-border)',
                 borderWidth: `${config.rootBorderWidth}px`,
                 borderStyle: 'solid',
@@ -240,7 +241,7 @@ export const KilangNode = React.memo(({
                   ? `color-mix(in srgb, var(--kilang-tier-${tier}-border) 80%, white)`
                   : `color-mix(in srgb, var(--kilang-tier-${tier}-border) 40%, transparent)`,
                 boxShadow: isHighlighted ? '0 0 30px var(--kilang-primary-glow)' : 'none',
-                backgroundColor: `color-mix(in srgb, var(--kilang-tier-${tier}-fill) calc(${tier === 2 ? '10%' : '5%'} * var(--kilang-node-intensity, 1)), var(--kilang-bg-base))`,
+                backgroundColor: `color-mix(in srgb, var(--kilang-tier-${tier}-fill) calc(${tier === 2 ? '10%' : '5%'} * ${config.nodeIntensity}), var(--kilang-bg-base))`,
                 width: `${config.nodeWidth}px`,
                 paddingTop: `${config.nodePaddingY}px`,
                 paddingBottom: `${config.nodePaddingY}px`,

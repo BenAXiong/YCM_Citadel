@@ -58,8 +58,8 @@ export const THEME_PRESETS: ThemePreset[] = [
   },
   { id: 'papah', label: 'Papah', color: '#10b981', config: { lineColor: '#10b981', fontFamily: 'Inter' } },
   { id: 'ngidan', label: 'Ngidan', color: '#6366f1', config: { lineColor: '#6366f1', fontFamily: 'Inter' } },
-  { id: 'b', label: 'b', color: '#000000', config: { lineColor: '#ffffff', lineOpacity: 0.1, fontFamily: 'Inter' } },
-  { id: 'w', label: 'w', color: '#ffffff', config: { lineColor: '#000000', lineOpacity: 0.1, fontFamily: 'Inter' } },
+  { id: '4', label: '4', color: '#000000', config: { lineColor: '#ffffff', lineOpacity: 0.1, fontFamily: 'Inter' } },
+  { id: '5', label: '5', color: '#ffffff', config: { lineColor: '#000000', lineOpacity: 0.1, fontFamily: 'Inter' } },
   { id: 'cudad', label: 'Cudad', color: '#949494', config: { lineColor: '#949494', fontFamily: 'Inter' } },
   { 
     id: 'pasiwali', 
@@ -76,23 +76,25 @@ export const THEME_PRESETS: ThemePreset[] = [
   { 
     id: 'matrix', 
     label: 'Matrix', 
-    color: '#11ff00',
+    color: '#00ff00',
     config: { 
       lineColor: '#00ff00', 
-      lineColorMid: '#00cc00', 
-      lineGradientEnd: '#004400',
+      lineColorMid: '#00ff00', 
+      lineGradientEnd: '#00ff00',
       lineWidth: 1.5,
       lineOpacity: 0.8,
-      lineBlur: 10,
-      lineFlowSpeed: 8,
+      lineBlur: 0,
+      lineFlowSpeed: 4,
+      lineDashArray: 8,
+      nodeIntensity: 0.9,
       fontFamily: 'JetBrains Mono',
       fontSize: 12
     }
   },
   { id: 'picudadan', label: 'Picudadan', color: '#f63b3b', config: { lineColor: '#f63b3b', fontFamily: 'Inter' } },
   { id: 'rainbow', label: 'Rainbow', color: '#f63b3b', config: { lineColor: '#ff0000', fontFamily: 'Inter' } },
-  { id: '11', label: 'Noir', color: '#ffffff', config: { lineColor: '#000000', fontFamily: 'Inter' } },
-  { id: '12', label: '12', color: '#3b82f6', config: { lineColor: '#3b82f6', fontFamily: 'Inter' } },
+  { id: '11', label: 'Noir', color: '#000000', config: { lineColor: '#ffffff', fontFamily: 'Inter' } },
+  { id: '12', label: 'Blanc', color: '#ffffff', config: { lineColor: '#000000', fontFamily: 'Inter' } },
   { id: 'new', label: 'new', color: '#ffffff', config: { lineColor: '#ffffff', fontFamily: 'Inter' } }
 ];
 

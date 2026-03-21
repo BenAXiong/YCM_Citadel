@@ -174,8 +174,12 @@ export const TreePanel = ({
           <RibbonGroup label="Complexity & Borders">
             <VariableControl
               label="Intensity"
-              value={overrides['--kilang-node-intensity'] || '1.0'}
-              onChange={(v) => updateVariable('--kilang-node-intensity', v)}
+              value={layoutConfig.nodeIntensity ?? (overrides['--kilang-node-intensity'] || '1.0')}
+              onChange={(v) => {
+                const val = parseFloat(v);
+                dispatch({ type: 'SET_LAYOUT_CONFIG', config: { nodeIntensity: val } });
+                updateVariable('--kilang-node-intensity', val.toString());
+              }}
               type="number"
               min={0} max={5} step={0.1}
             />

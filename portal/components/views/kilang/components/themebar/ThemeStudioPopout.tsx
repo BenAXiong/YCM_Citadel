@@ -11,7 +11,9 @@ import {
   RotateCcw,
   Lightbulb,
   Wand2,
-  Share2
+  Share2,
+  Save,
+  Download
 } from 'lucide-react';
 import { useKilangContext } from '../../KilangContext';
 import { useThemeStudio } from '../../hooks/useThemeStudio';
@@ -79,6 +81,43 @@ export const ThemeStudioPopout = () => {
 
         <div className="mt-auto flex flex-col gap-4 mb-4">
           <button 
+            onClick={() => tsActions.handleSave()}
+            className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-emerald-400 hover:bg-emerald-400/5 transition-all group relative"
+            title="Save Overrides to Local Storage"
+          >
+            <Save className="w-4 h-4 group-hover:scale-110 transition-transform" />
+          </button>
+
+          <button 
+            onClick={() => {
+              const themeName = layoutConfig.theme;
+              const config = {
+                overrides: tsState.overrides,
+                layoutConfig: layoutConfig,
+                branding: {
+                  logoStyles: state.logoStyles,
+                  logoSettings: state.logoSettings,
+                  landingVersion: state.landingVersion
+                }
+              };
+              const blob = new Blob([JSON.stringify(config, null, 2)], { type: 'application/json' });
+              const url = URL.createObjectURL(blob);
+              const link = document.createElement('a');
+              link.href = url;
+              link.download = `kilang-theme-${themeName}.json`;
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+              URL.revokeObjectURL(url);
+              dispatch({ type: 'SET_TOAST', message: 'Theme Configuration Downloaded' });
+            }}
+            className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-blue-400 hover:bg-blue-400/5 transition-all group relative"
+            title="Download Theme Configuration (JSON)"
+          >
+            <Download className="w-4 h-4 group-hover:scale-110 transition-transform" />
+          </button>
+
+          <button 
             onClick={() => tsActions.randomizeTheme()}
             className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-white hover:bg-white/5 transition-all group relative"
             title="Randomize Theme (Inspired Chaos)"
@@ -93,7 +132,7 @@ export const ThemeStudioPopout = () => {
               dispatch({ type: 'SET_TOAST', message: 'Overrides JSON Copied to Clipboard' });
             }}
             className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-white hover:bg-white/5 transition-all group relative"
-            title="Export Overrides JSON"
+            title="Copy Overrides to Clipboard"
           >
             <Share2 className="w-4 h-4 group-hover:scale-110 transition-transform" />
           </button>
