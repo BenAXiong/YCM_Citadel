@@ -105,10 +105,17 @@ export const KilangCanvas = () => {
   const value = useSidebar();
   const [viewPos, setViewPos] = React.useState({ x: 0, y: 0, w: 0, h: 0 });
 
-  const latestStateRef = React.useRef({ scale, isFit, fitTransform });
+  // 🚀 Optimization: Stable state metrics for effects
+  const currentMetrics = React.useMemo(() => ({
+    scale,
+    isFit,
+    fitTransform
+  }), [scale, isFit, fitTransform.x, fitTransform.y, fitTransform.scale]);
+
+  const latestMetricsRef = React.useRef(currentMetrics);
   React.useEffect(() => {
-    latestStateRef.current = { scale, isFit, fitTransform };
-  }, [scale, isFit, fitTransform]);
+    latestMetricsRef.current = currentMetrics;
+  }, [currentMetrics]);
 
   React.useEffect(() => {
     const el = treeRef.current;
@@ -117,7 +124,7 @@ export const KilangCanvas = () => {
     let lastUpdate = 0;
     const updatePos = () => {
       const now = Date.now();
-      if (now - lastUpdate < 32) return; // Throttle to ~30fps for overlays
+      if (now - lastUpdate < 32) return; 
       lastUpdate = now;
 
       const container = treeRef.current;
@@ -126,7 +133,7 @@ export const KilangCanvas = () => {
 
       const cRect = container.getBoundingClientRect();
       const sRect = canvas.getBoundingClientRect();
-      const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestStateRef.current;
+      const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestMetricsRef.current;
       const currentScale = curFit ? curFitTrans.scale : curScale;
 
       const vp = {
@@ -144,43 +151,34 @@ export const KilangCanvas = () => {
 
     const onWheel = (e: WheelEvent) => {
       const fineTuningFactor = e.altKey ? 0.1 : 1.0;
-
       if (e.ctrlKey) {
         e.preventDefault();
         const container = treeRef.current;
         if (!container) return;
 
-        // Current metrics
         const rect = container.getBoundingClientRect();
         const mouseX = e.clientX - rect.left;
         const mouseY = e.clientY - rect.top;
 
-        // Mouse position in world coordinates (at current scale)
-        const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestStateRef.current;
+        const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestMetricsRef.current;
         const currentScale = curFit ? curFitTrans.scale : curScale;
         
-        // Account for fitTransform offset if active
         const offsetX = curFit ? curFitTrans.x : 0;
         const offsetY = curFit ? curFitTrans.y : 0;
         
         const worldX = (mouseX + container.scrollLeft - offsetX) / currentScale;
         const worldY = (mouseY + container.scrollTop - offsetY) / currentScale;
 
-        // Calculate next scale with fine-tuning factor
         const zoomSpeed = 0.0012;
         const delta = -e.deltaY * zoomSpeed * fineTuningFactor;
         const nextScale = Math.min(Math.max(currentScale + delta, 0.1), 3);
 
         if (nextScale === currentScale) return;
 
-        // 🚀 HIGH IMPACT: Apply scale change IMMEDIATELY to DOM (GPU) instead of React state
         if (forestRef.current) {
-          // If we were in Fit mode, we transition to manual mode with 0,0 offset
-          // The scrollTo below will compensate for the worldX/Y position
           forestRef.current.style.transform = `translate3d(0, 0, 0) scale(${nextScale})`;
         }
 
-        // Calculate and apply scroll adjustment
         const nextScrollLeft = (worldX * nextScale) - mouseX;
         const nextScrollTop = (worldY * nextScale) - mouseY;
 
@@ -190,21 +188,17 @@ export const KilangCanvas = () => {
           behavior: 'auto'
         });
 
-        // DEBOUNCED SYNC: Only update the global state after zooming stops
         if (zoomDebounceRef.current) clearTimeout(zoomDebounceRef.current);
         zoomDebounceRef.current = setTimeout(() => {
           dispatch({ type: 'SET_TRANSFORM', scale: nextScale, isFit: false });
         }, 150);
       } else if (e.altKey) {
-        // Fine-tuned Panning
         e.preventDefault();
         const container = treeRef.current;
         if (container) {
           if (e.shiftKey) {
-            // Fine Horizontal
             container.scrollLeft += e.deltaY * fineTuningFactor;
           } else {
-            // Fine Vertical
             container.scrollTop += e.deltaY * fineTuningFactor;
           }
         }
@@ -216,7 +210,7 @@ export const KilangCanvas = () => {
     el.addEventListener('wheel', onWheel, { passive: false });
     window.addEventListener('resize', updatePos);
 
-    const timer = setInterval(updatePos, 200); // Poll for transition-based moves
+    const timer = setInterval(updatePos, 200); 
 
     return () => {
       el.removeEventListener('scroll', updatePos);
@@ -225,7 +219,7 @@ export const KilangCanvas = () => {
       clearInterval(timer);
       if (zoomDebounceRef.current) clearTimeout(zoomDebounceRef.current);
     };
-  }, [treeRef, dispatch, selectedRoot]);
+  }, [treeRef, dispatch]); 
 
   const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
 
@@ -257,6 +251,7 @@ export const KilangCanvas = () => {
 
     const container = treeRef.current;
     const center = () => {
+      // 🛡️ Performance Guard: Skip centering if we're just updating the theme
       if (!selectedRoot || rootData?.loading) return;
 
       const pos = nodeMap[normalizeWord(selectedRoot) || ''];
@@ -279,7 +274,15 @@ export const KilangCanvas = () => {
     center();
     window.addEventListener('resize', center);
     return () => window.removeEventListener('resize', center);
-  }, [selectedRoot, rootData?.loading, isFit, resetToken, direction, arrangement, nodeMap]);
+  }, [
+    selectedRoot, 
+    rootData?.loading, 
+    isFit, 
+    resetToken, 
+    direction, 
+    arrangement, 
+    nodeMap // identity changes on structural change, which is correct
+  ]);
 
   const [copiedChain, setCopiedChain] = React.useState(false);
 

@@ -256,7 +256,25 @@ export const useKilang = () => {
   const nodeMap = useMemo(() => {
     if (!state.selectedRoot || !state.rootData?.derivatives) return {};
     return calculateNodeMap(state.selectedRoot, state.rootData.derivatives, state.direction, state.arrangement, state.layoutConfig);
-  }, [state.selectedRoot, state.rootData?.derivatives, state.direction, state.arrangement, state.layoutConfig]);
+  }, [
+    state.selectedRoot, 
+    state.rootData?.derivatives, 
+    state.direction, 
+    state.arrangement, 
+    // 🛡️ Structural Guard: Only recalculate if geometry changes, ignore theme
+    state.layoutConfig.nodeSize,
+    state.layoutConfig.nodeWidth,
+    state.layoutConfig.nodePaddingY,
+    state.layoutConfig.interTierGap,
+    state.layoutConfig.interRowGap,
+    state.layoutConfig.lineGapX,
+    state.layoutConfig.lineGapY,
+    state.layoutConfig.lineTension,
+    state.layoutConfig.rootGap,
+    state.layoutConfig.spacingMode,
+    state.layoutConfig.anchorX,
+    state.layoutConfig.anchorY
+  ]);
 
   // 5. Auto-Fit Calculation (Anchor-Pinned Radial Fit)
   useEffect(() => {

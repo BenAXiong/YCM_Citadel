@@ -23,7 +23,7 @@ interface ForestViewProps {
   dispatch: React.Dispatch<KilangAction>;
 }
 
-export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
+export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestViewProps>(({
   selectedRoot,
   rootData,
   nodeMap,
@@ -40,13 +40,6 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
   dispatch,
 }, ref) => {
   const { state: sidebarState } = useSidebar();
-  const rootPos = React.useMemo(() => nodeMap[normalizeWord(selectedRoot || '') || ''], [nodeMap, selectedRoot]);
-
-  const handleInteraction = React.useCallback((type: 'hover' | 'select', word: string | null) => {
-    if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
-    else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
-  }, [dispatch]);
-
   const bloomedNodes = React.useRef(new Set<string>());
 
   return (
@@ -65,7 +58,7 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
       }}
     >
       {/* 1. SVG Layer (Background) */}
-      {rootPos && (
+      {nodeMap[normalizeWord(selectedRoot || '') || ''] && (
         <div className="absolute inset-0 pointer-events-none" style={{ zIndex: 0 }}>
           <LineageCanvas
             root={selectedRoot || ''}
@@ -75,7 +68,7 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
             isFit={isFit}
             scale={scale}
             layoutConfig={layoutConfig}
-            rootPos={rootPos}
+            rootPos={nodeMap[normalizeWord(selectedRoot || '') || '']}
             activeHighlightChain={activeHighlightChain}
             dispatch={dispatch}
           />
@@ -85,14 +78,14 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
       {/* 2. Nodes Layer (Foreground) */}
       <div className="absolute inset-0" style={{ zIndex: 10 }}>
         {/* Root Node */}
-        {rootPos && (
+        {nodeMap[normalizeWord(selectedRoot || '') || ''] && (
           <div
             key={`root-${selectedRoot}`}
             className="absolute transition-all duration-500 animate-in fade-in duration-1000"
             style={{
               left: 0,
               top: 0,
-              transform: `translate(-50%, -50%) translate(${rootPos.x}px, ${rootPos.y}px)`,
+              transform: `translate(-50%, -50%) translate(${nodeMap[normalizeWord(selectedRoot || '') || ''].x}px, ${nodeMap[normalizeWord(selectedRoot || '') || ''].y}px)`,
               zIndex: 20
             }}
           >
@@ -105,7 +98,10 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
               isHighlighted={activeHighlightChain.has(normalizeWord(selectedRoot || '') || '')}
               isHovered={sidebarState.canvasHoverNode === normalizeWord(selectedRoot || '')}
               showTooltip={showTreeTooltips}
-              onInteraction={handleInteraction}
+              onInteraction={(type, word) => {
+                if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
+                else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
+              }}
             />
           </div>
         )}
@@ -113,6 +109,7 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
         {/* Branches Forest */}
         {(rootData?.derivatives as Derivation[])?.map((d: Derivation) => {
           const pos = nodeMap[d.word_ab];
+          const rootPos = nodeMap[normalizeWord(selectedRoot || '') || ''];
           if (!pos || !rootPos) return null;
           
           const hasBloomed = bloomedNodes.current.has(d.word_ab);
@@ -147,7 +144,10 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
                     isHighlighted={activeHighlightChain.has(d.word_ab)}
                     isHovered={sidebarState.canvasHoverNode === d.word_ab}
                     showTooltip={showTreeTooltips}
-                    onInteraction={handleInteraction}
+                    onInteraction={(type, word) => {
+                      if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
+                      else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
+                    }}
                   />
                 </div>
               </div>
@@ -156,6 +156,35 @@ export const ForestView = React.forwardRef<HTMLDivElement, ForestViewProps>(({
         })}
       </div>
     </div>
+  );
+}), (prev: ForestViewProps, next: ForestViewProps) => {
+  // --- CUSTOM MEMO COMPARISON: The Performance Shield ---
+  // Only re-render if structural data or coordinate-affecting layout changes.
+  // Ignore "layoutConfig" identity if specific values didn't change.
+  
+  const layoutChanged = 
+    prev.layoutConfig.nodeSize !== next.layoutConfig.nodeSize ||
+    prev.layoutConfig.nodeWidth !== next.layoutConfig.nodeWidth ||
+    prev.layoutConfig.nodePaddingY !== next.layoutConfig.nodePaddingY ||
+    prev.layoutConfig.interTierGap !== next.layoutConfig.interTierGap ||
+    prev.layoutConfig.interRowGap !== next.layoutConfig.interRowGap ||
+    prev.layoutConfig.lineGapX !== next.layoutConfig.lineGapX ||
+    prev.layoutConfig.lineGapY !== next.layoutConfig.lineGapY ||
+    prev.layoutConfig.lineTension !== next.layoutConfig.lineTension;
+
+  return (
+    !layoutChanged &&
+    prev.selectedRoot === next.selectedRoot &&
+    prev.rootData === next.rootData &&
+    prev.nodeMap === next.nodeMap &&
+    prev.direction === next.direction &&
+    prev.arrangement === next.arrangement &&
+    prev.isFit === next.isFit &&
+    prev.scale === next.scale &&
+    prev.fitTransform === next.fitTransform &&
+    prev.activeHighlightChain === next.activeHighlightChain &&
+    prev.summaryCache === next.summaryCache &&
+    prev.showTreeTooltips === next.showTreeTooltips
   );
 });
 

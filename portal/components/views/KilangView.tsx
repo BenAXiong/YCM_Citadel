@@ -71,7 +71,7 @@ export default function KilangView({
   useKilangStyleSync({ layoutConfig });
   const { handleExport } = useKilangExport({ state, dispatch, nodeMap, treeRef });
 
-  const contextValue = {
+  const contextValue = React.useMemo(() => ({
     state,
     dispatch,
     nodeMap,
@@ -88,7 +88,38 @@ export default function KilangView({
     MOE_SOURCES,
     sourceCounts: state.sourceCounts,
     treeRef,
-  };
+  }), [
+    state, 
+    nodeMap, 
+    fetchRootDetails, 
+    summaryCache, 
+    fetchSummary, 
+    handleExport, 
+    uiLang, 
+    toggleUiLang, 
+    s, 
+    filteredRoots, 
+    bucketHits, 
+    treeRef
+  ]);
+
+  const sidebarContextValue = React.useMemo(() => ({
+    state,
+    dispatch,
+    filteredRoots,
+    fetchRootDetails,
+    bucketHits,
+    FILTER_BUCKETS,
+    summaryCache,
+    fetchSummary
+  }), [
+    state,
+    filteredRoots,
+    fetchRootDetails,
+    bucketHits,
+    summaryCache,
+    fetchSummary
+  ]);
 
   if (isStandalone) {
     return (
@@ -116,16 +147,7 @@ export default function KilangView({
   return (
     <div data-theme={state.layoutConfig.theme}>
       <KilangProvider value={contextValue}>
-        <SidebarProvider value={{
-          state,
-          dispatch,
-          filteredRoots,
-          fetchRootDetails,
-          bucketHits,
-          FILTER_BUCKETS,
-          summaryCache,
-          fetchSummary
-        }}>
+        <SidebarProvider value={sidebarContextValue}>
           {isMobile ? (
             <KilangMobileLayout />
           ) : (
