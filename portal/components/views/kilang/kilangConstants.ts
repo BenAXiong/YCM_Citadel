@@ -17,7 +17,8 @@ export const THEME_VARS = [
   '--kilang-ctrl-bg', '--kilang-shadow-color',
   '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent',
   '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active',
-  '--kilang-radius-lg', '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end', '--kilang-link-opacity',
+  '--kilang-radius-sm', '--kilang-radius-base', '--kilang-radius-md', '--kilang-radius-lg', '--kilang-radius-display',
+  '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end', '--kilang-link-opacity',
 
   // --- 12 BORDERS ---
   '--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border',

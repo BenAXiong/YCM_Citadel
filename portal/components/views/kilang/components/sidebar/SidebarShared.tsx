@@ -27,7 +27,7 @@ export const CollapsibleSection = ({
   action,
   className = ""
 }: CollapsibleSectionProps) => (
-  <section className={`mb-6 border border-[var(--kilang-border-std)] rounded-2xl bg-[var(--kilang-bg-base)]/50 overflow-hidden shadow-[var(--kilang-shadow-primary)] ${className}`}>
+  <section className={`mb-6 border border-[var(--kilang-border-std)] rounded-[var(--kilang-radius-lg)] bg-[var(--kilang-bg-base)]/50 overflow-hidden shadow-[var(--kilang-shadow-primary)] ${className}`}>
     <div
       onClick={onToggle}
       className={`flex items-center justify-between group cursor-pointer select-none px-4 py-3 transition-colors ${isCollapsed ? 'hover:bg-[var(--kilang-ctrl-bg)]' : 'bg-[var(--kilang-bg-base)]/50 border-b border-[var(--kilang-border-std)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
@@ -77,7 +77,7 @@ export const SentenceItem = ({ ex, focusWord }: { ex: any, focusWord: string }) 
   };
 
   return (
-    <div className="p-3 bg-[var(--kilang-bg-base)]/40 rounded-xl border border-[var(--kilang-border-std)] flex flex-col gap-2 group/sent transition-all hover:bg-[var(--kilang-ctrl-active)]/5">
+    <div className="p-3 bg-[var(--kilang-bg-base)]/40 rounded-[var(--kilang-radius-md)] border border-[var(--kilang-border-std)] flex flex-col gap-2 group/sent transition-all hover:bg-[var(--kilang-ctrl-active)]/5">
       <div className="text-[16px] text-[var(--kilang-text)] leading-relaxed font-sans">
         {parseAmis(ex.ab)}
       </div>

@@ -23,7 +23,7 @@ export const ForestControls = ({ showPlusOne, showMinusOne }: ForestControlsProp
   } = useSidebar();
 
   return (
-    <div className="relative z-[50] p-6 space-y-6">
+    <div className="relative z-[50] px-3 py-6 space-y-6">
       <div className="flex gap-2">
         <div className="relative group flex-1">
           <Search className="absolute left-3 top-3 w-4 h-4 text-[var(--kilang-text-muted)] group-focus-within:text-[var(--kilang-text)] transition-colors" />

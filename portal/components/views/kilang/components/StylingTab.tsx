@@ -74,7 +74,7 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
   );
 
   return (
-    <div className="p-6 animate-in fade-in slide-in-from-left-4 duration-500 space-y-8">
+    <div className="px-3 py-6 animate-in fade-in slide-in-from-left-4 duration-500 space-y-8">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Settings2 className="w-4 h-4 text-[var(--kilang-primary-text)]" />

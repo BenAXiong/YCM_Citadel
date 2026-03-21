@@ -33,7 +33,7 @@ export const ForestTab = ({
         showMinusOne={showMinusOne} 
       />
 
-      <div className="px-6 pb-20 space-y-2">
+      <div className="px-3 pb-20 space-y-2">
         {!showMyTrees ? (
           <RootList 
             bookmarks={bookmarks} 

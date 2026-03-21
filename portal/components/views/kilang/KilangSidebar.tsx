@@ -117,20 +117,20 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
         {/* Sidebar Expansion Tab (Collapsed State) */}
         <button
           onClick={onToggle}
-          className="absolute -right-[21px] top-[22px] w-[22px] h-[30px] rounded-r-lg rounded-l-none bg-[var(--kilang-bg-base)] border-y border-r border-[var(--kilang-border-std)] flex items-center justify-center text-[var(--kilang-text)]/40 hover:text-[var(--kilang-text)] hover:bg-[color-mix(in_srgb,var(--kilang-primary),transparent_60%)] hover:border-[color-mix(in_srgb,var(--kilang-primary),transparent_50%)] shadow-[var(--kilang-shadow-primary)] z-[100] transition-all group"
+          className="absolute -right-[21px] top-[22px] w-[22px] h-[30px] rounded-r-[var(--kilang-radius-sm)] rounded-l-none bg-[var(--kilang-bg-base)] border-y border-r border-[var(--kilang-border-std)] flex items-center justify-center text-[var(--kilang-text)]/40 hover:text-[var(--kilang-text)] hover:bg-[color-mix(in_srgb,var(--kilang-primary),transparent_60%)] hover:border-[color-mix(in_srgb,var(--kilang-primary),transparent_50%)] shadow-[var(--kilang-shadow-primary)] z-[100] transition-all group"
           title="Expand"
         >
           <ChevronRight className="w-4 h-4 group-hover:scale-125 transition-transform" />
         </button>
 
         <div className="hidden">
-          <button onClick={() => { onToggle(); setSidebarTab('forest'); }} className={`p-2 rounded-lg transition-all ${sidebarTab === 'forest' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
+          <button onClick={() => { onToggle(); setSidebarTab('forest'); }} className={`p-2 rounded-[var(--kilang-radius-sm)] transition-all ${sidebarTab === 'forest' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
             <Search className="w-5 h-5" />
           </button>
-          <button onClick={() => { onToggle(); setSidebarTab('styling'); }} className={`p-2 rounded-lg transition-all ${sidebarTab === 'styling' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
+          <button onClick={() => { onToggle(); setSidebarTab('styling'); }} className={`p-2 rounded-[var(--kilang-radius-sm)] transition-all ${sidebarTab === 'styling' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
             <Settings2 className="w-5 h-5" />
           </button>
-          <button onClick={() => { onToggle(); setSidebarTab('custom'); }} className={`p-2 rounded-lg transition-all ${sidebarTab === 'custom' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
+          <button onClick={() => { onToggle(); setSidebarTab('custom'); }} className={`p-2 rounded-[var(--kilang-radius-sm)] transition-all ${sidebarTab === 'custom' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
             <PenTool className="w-5 h-5" />
           </button>
         </div>
@@ -152,32 +152,29 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
       {/* Sidebar Toggle Tab (Expanded State) */}
       <button
         onClick={onToggle}
-        className="absolute -right-[22px] top-[22px] w-[22px] h-[30px] rounded-r-lg rounded-l-none bg-[var(--kilang-bg-base)] border-y border-r border-[var(--kilang-border-std)] flex items-center justify-center text-[var(--kilang-text)]/40 hover:text-[var(--kilang-text)] hover:bg-[color-mix(in_srgb,var(--kilang-primary),transparent_60%)] hover:border-[color-mix(in_srgb,var(--kilang-primary),transparent_50%)] shadow-[var(--kilang-shadow-primary)] z-[100] transition-all group"
+        className="absolute -right-[22px] top-[22px] w-[22px] h-[30px] rounded-r-[var(--kilang-radius-sm)] rounded-l-none bg-[var(--kilang-bg-base)] border-y border-r border-[var(--kilang-border-std)] flex items-center justify-center text-[var(--kilang-text)]/40 hover:text-[var(--kilang-text)] hover:bg-[color-mix(in_srgb,var(--kilang-primary),transparent_60%)] hover:border-[color-mix(in_srgb,var(--kilang-primary),transparent_50%)] shadow-[var(--kilang-shadow-primary)] z-[100] transition-all group"
       >
         <ChevronLeft className="w-4 h-4 group-hover:scale-125 transition-transform" />
       </button>
 
       {/* Tab Switcher */}
-      <div className="flex border-b border-[var(--kilang-border-std)] bg-[var(--kilang-bg-base)]/50 p-1 m-4 rounded-2xl">
+      <div className="flex border-b border-[var(--kilang-border-std)] bg-[var(--kilang-bg-base)]/50 p-1 mx-3 my-4 rounded-[var(--kilang-radius-lg)]">
         <button
           onClick={() => setSidebarTab('forest')}
-          className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'forest' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+          className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-[var(--kilang-radius-md)] text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'forest' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
         >
-          <Search className="w-3.5 h-3.5" />
           Forest
         </button>
         <button
           onClick={() => setSidebarTab('styling')}
-          className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'styling' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+          className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-[var(--kilang-radius-md)] text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'styling' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
         >
-          <Settings2 className="w-3.5 h-3.5" />
           Styling
         </button>
         <button
           onClick={() => setSidebarTab('custom')}
-          className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'custom' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+          className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-[var(--kilang-radius-md)] text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'custom' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
         >
-          <PenTool className="w-3.5 h-3.5" />
           Custom
         </button>
       </div>

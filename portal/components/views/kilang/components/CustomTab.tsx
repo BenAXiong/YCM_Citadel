@@ -29,7 +29,7 @@ export const CustomTab = ({
   const { state, setSidebarTab, setShowMyTrees } = useSidebar();
   const { selectedRoot } = state;
   return (
-    <div className="flex-1 overflow-y-auto p-4 custom-scrollbar animate-in slide-in-from-right duration-500">
+    <div className="flex-1 overflow-y-auto px-3 py-4 custom-scrollbar animate-in slide-in-from-right duration-500">
       <div className="space-y-6">
         <div className="p-4 bg-[var(--kilang-primary)]/5 border border-[var(--kilang-primary)]/20 rounded-2xl">
           <div className="flex items-center justify-between mb-4">

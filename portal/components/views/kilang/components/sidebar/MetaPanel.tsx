@@ -66,21 +66,20 @@ export const MetaPanel = ({
   return (
     <div className="flex flex-col h-full">
       {/* Tab Switcher */}
-      <div className="flex border border-[var(--kilang-border-std)] bg-[var(--kilang-bg-base)]/50 p-1 m-4 rounded-2xl shadow-[var(--kilang-shadow-primary)]">
+      <div className="flex border border-[var(--kilang-border-std)] bg-[var(--kilang-bg-base)]/50 p-1 mx-3 my-4 rounded-[var(--kilang-radius-lg)] shadow-[var(--kilang-shadow-primary)]">
         {tabs.map(tab => (
           <button
             key={tab.id}
             onClick={() => setTab(tab.id as any)}
-            className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${rightSidebarTab === tab.id ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-active)]/5'}`}
+            className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-[var(--kilang-radius-md)] text-[10px] font-black uppercase tracking-widest transition-all ${rightSidebarTab === tab.id ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-active)]/5'}`}
           >
-            <tab.icon className="w-3.5 h-3.5" />
             <span>{tab.label}</span>
           </button>
         ))}
       </div>
 
       {/* Tab Content */}
-      <div className="flex-1 overflow-y-auto custom-scrollbar p-4">
+      <div className="flex-1 overflow-y-auto custom-scrollbar px-3 py-6">
         {rightSidebarTab === 'txt' && (
           <MetaTreeTab
             canvasSelectedNode={canvasSelectedNode}

@@ -68,9 +68,11 @@
   --kilang-resizer-active: rgba(59, 130, 246, 0.5);
 
   /* Radii */
-  --kilang-radius-sm: 6px;
-  --kilang-radius-md: 16px;
-  --kilang-radius-lg: 24px;
+  --kilang-radius-sm: 4px;      /* Standard small */
+  --kilang-radius-base: 8px;    /* Default rounding (8px) */
+  --kilang-radius-md: 6px;      /* Reduced (6px) */
+  --kilang-radius-lg: 6px;      /* Reduced (6px) */
+  --kilang-radius-display: 24px; /* Immersive/Display (24px) */
 }
 
 [data-theme="kakarayan"] {

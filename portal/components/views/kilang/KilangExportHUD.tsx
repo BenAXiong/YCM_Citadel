@@ -46,7 +46,7 @@ export const KilangExportHUD = ({
   }, [dispatch]);
 
   const dropdownClasses = `
-    absolute z-[120] p-4 text-left shadow-2xl animate-in fade-in duration-200
+    absolute z-[120] p-4 text-left shadow-[var(--kilang-shadow-primary)] animate-in fade-in duration-200
     ${dropdownPosition === 'top' ? 'top-full mt-2 slide-in-from-top-2' : 'bottom-full mb-3 slide-in-from-bottom-2'}
     ${align === 'left' ? 'left-0' : 'right-0'}
     ${variant === 'header' ? 'w-56 bg-[var(--kilang-bg-base)]/95 backdrop-blur-xl border border-[var(--kilang-border-std)] rounded-xl' : 'w-64 bg-[var(--kilang-bg-base)]/90 backdrop-blur-xl border border-[var(--kilang-border-std)] rounded-2xl'}
@@ -54,7 +54,7 @@ export const KilangExportHUD = ({
 
   const containerClasses = variant === 'header'
     ? 'kilang-ctrl-container !gap-0'
-    : 'kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-2xl w-fit !gap-0';
+    : 'kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit !gap-0';
 
   const mainBtnClasses = variant === 'header'
     ? 'w-8 h-7 kilang-ctrl-btn kilang-ctrl-btn-inactive'
@@ -99,7 +99,7 @@ export const KilangExportHUD = ({
                 <button
                   key={m}
                   onClick={() => dispatch({ type: 'SET_UI', exportSettings: { mode: m } })}
-                  className={`flex-1 py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all uppercase flex items-center justify-center gap-2 ${exportSettings.mode === m ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)] border border-[var(--kilang-primary-border)]/50' : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text-muted)]'}`}
+                  className={`flex-1 py-1.5 rounded-lg text-[10px] font-black tracking-widest transition-all uppercase flex items-center justify-center gap-2 ${exportSettings.mode === m ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)] border border-[var(--kilang-primary-border)]/50' : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text-muted)]'}`}
                 >
                   {m === 'image' ? <ImageIcon className="w-3 h-3" /> : <FileText className="w-3 h-3" />}
                   {m}
@@ -117,7 +117,7 @@ export const KilangExportHUD = ({
                       <button
                         key={f}
                         onClick={() => dispatch({ type: 'SET_UI', exportSettings: { format: f } })}
-                        className={`flex-1 py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.format === f ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
+                        className={`flex-1 py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.format === f ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
                       >
                         {f}
                       </button>
@@ -136,7 +136,7 @@ export const KilangExportHUD = ({
                       <button
                         key={a.id}
                         onClick={() => dispatch({ type: 'SET_UI', exportSettings: { area: a.id as any } })}
-                        className={`py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.area === a.id ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}
+                        className={`py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.area === a.id ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}
                       >
                         {a.label}
                       </button>
@@ -157,7 +157,7 @@ export const KilangExportHUD = ({
                       <button
                         key={b.id}
                         onClick={() => dispatch({ type: 'SET_UI', exportSettings: { background: b.id as any } })}
-                        className={`group relative h-10 rounded-lg border transition-all flex items-center justify-center overflow-hidden ${exportSettings.background === b.id ? 'border-[var(--kilang-primary)] ring-1 ring-[var(--kilang-primary)]/50 shadow-lg shadow-[var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)] hover:border-[var(--kilang-text)]/20'}`}
+                        className={`group relative h-10 rounded-lg border transition-all flex items-center justify-center overflow-hidden ${exportSettings.background === b.id ? 'border-[var(--kilang-primary)] ring-1 ring-[var(--kilang-primary)]/50 shadow-[var(--kilang-shadow-primary)]' : 'border-[var(--kilang-border-std)] hover:border-[var(--kilang-text)]/20'}`}
                         style={{ backgroundColor: b.color }}
                         title={b.label}
                       >
@@ -213,7 +213,7 @@ export const KilangExportHUD = ({
                       <button
                         key={c.id}
                         onClick={() => dispatch({ type: 'SET_UI', exportSettings: { textContent: c.id as any } })}
-                        className={`flex-1 py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.textContent === c.id ? 'bg-[var(--kilang-secondary)] text-[var(--kilang-secondary-text)] shadow-lg shadow-[var(--kilang-secondary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
+                        className={`flex-1 py-1 rounded-md text-[10px] font-bold transition-all uppercase ${exportSettings.textContent === c.id ? 'bg-[var(--kilang-secondary)] text-[var(--kilang-secondary-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
                       >
                         {c.label}
                       </button>
@@ -227,13 +227,13 @@ export const KilangExportHUD = ({
                   <div className="grid grid-cols-2 gap-1 bg-[var(--kilang-bg-base)]/40 rounded-lg p-1 border border-[var(--kilang-border-std)]">
                     <button
                       onClick={() => dispatch({ type: 'SET_UI', exportSettings: { includeDefinitions: !exportSettings.includeDefinitions } })}
-                      className={`py-1.5 rounded-md text-[8px] font-black tracking-widest transition-all uppercase flex items-center justify-center border ${exportSettings.includeDefinitions ? 'bg-[var(--kilang-secondary)] text-[var(--kilang-secondary-text)] shadow-lg shadow-[var(--kilang-secondary-glow)] border-[var(--kilang-secondary-border)]/50' : 'bg-transparent text-[var(--kilang-text-muted)]/40 border-transparent hover:text-[var(--kilang-text-muted)]'}`}
+                      className={`py-1.5 rounded-md text-[8px] font-black tracking-widest transition-all uppercase flex items-center justify-center border ${exportSettings.includeDefinitions ? 'bg-[var(--kilang-secondary)] text-[var(--kilang-secondary-text)] shadow-[var(--kilang-shadow-primary)] border-[var(--kilang-secondary-border)]/50' : 'bg-transparent text-[var(--kilang-text-muted)]/40 border-transparent hover:text-[var(--kilang-text-muted)]'}`}
                     >
                       Definitions
                     </button>
                     <button
                       onClick={() => dispatch({ type: 'SET_UI', exportSettings: { includeSentences: !exportSettings.includeSentences } })}
-                      className={`py-1.5 rounded-md text-[8px] font-black tracking-widest transition-all uppercase flex items-center justify-center border ${exportSettings.includeSentences ? 'bg-[var(--kilang-secondary)] text-[var(--kilang-secondary-text)] shadow-lg shadow-[var(--kilang-secondary-glow)] border-[var(--kilang-secondary-border)]/50' : 'bg-transparent text-[var(--kilang-text-muted)]/40 border-transparent hover:text-[var(--kilang-text-muted)]'}`}
+                      className={`py-1.5 rounded-md text-[8px] font-black tracking-widest transition-all uppercase flex items-center justify-center border ${exportSettings.includeSentences ? 'bg-[var(--kilang-secondary)] text-[var(--kilang-secondary-text)] shadow-[var(--kilang-shadow-primary)] border-[var(--kilang-secondary-border)]/50' : 'bg-transparent text-[var(--kilang-text-muted)]/40 border-transparent hover:text-[var(--kilang-text-muted)]'}`}
                     >
                       Sentences
                     </button>

@@ -8,6 +8,7 @@ export const useBroadcastSync = (
 ) => {
   const channelRef = useRef<BroadcastChannel | null>(null);
   const isInternalUpdate = useRef(false);
+  const lastReceivedRef = useRef<string | null>(null);
 
   useEffect(() => {
     const channel = new BroadcastChannel('kilang_sync_channel');
@@ -17,13 +18,23 @@ export const useBroadcastSync = (
       const { type, payload, source } = event.data;
       if (source === (isStandalone ? 'popout' : 'main')) return; // Ignore own messages
 
-      isInternalUpdate.current = true;
       if (type === 'ACTION') {
+        isInternalUpdate.current = true;
         dispatch(payload as KilangAction);
+        // We don't cache ACTIONs easily, but they are usually targeted
       } else if (type === 'FULL_SYNC') {
+        const payloadStr = JSON.stringify(payload);
+        if (payloadStr === lastReceivedRef.current) return; // Skip if already seen
+        
+        lastReceivedRef.current = payloadStr;
+        isInternalUpdate.current = true;
         dispatch({ type: 'SYNC_STATE', state: payload });
       }
-      isInternalUpdate.current = false;
+      
+      // Safety reset after a tick to ensure render cycle is captures isInternalUpdate
+      setTimeout(() => {
+        isInternalUpdate.current = false;
+      }, 50);
     };
 
     // If we just opened as standalone, request full state from main
@@ -33,21 +44,22 @@ export const useBroadcastSync = (
       // Main window listens for sync requests
       channel.addEventListener('message', (e) => {
         if (e.data.type === 'REQUEST_SYNC') {
+          const syncPayload = {
+            theme: state.layoutConfig.theme,
+            layoutConfig: state.layoutConfig,
+            searchTerm: state.searchTerm,
+            branchFilter: state.branchFilter,
+            morphMode: state.morphMode,
+            sourceFilter: state.sourceFilter,
+            landingVersion: state.landingVersion,
+            logoStyles: state.logoStyles,
+            logoSettings: state.logoSettings,
+            showThemeBar: state.showThemeBar,
+            showFloatingPalette: state.showFloatingPalette
+          };
           channel.postMessage({ 
             type: 'FULL_SYNC', 
-            payload: {
-              theme: state.layoutConfig.theme,
-              layoutConfig: state.layoutConfig,
-              searchTerm: state.searchTerm,
-              branchFilter: state.branchFilter,
-              morphMode: state.morphMode,
-              sourceFilter: state.sourceFilter,
-              landingVersion: state.landingVersion,
-              logoStyles: state.logoStyles,
-              logoSettings: state.logoSettings,
-              showThemeBar: state.showThemeBar,
-              showFloatingPalette: state.showFloatingPalette
-            },
+            payload: syncPayload,
             source: 'main' 
           });
         }
@@ -55,29 +67,33 @@ export const useBroadcastSync = (
     }
 
     return () => channel.close();
-  }, [isStandalone]); // Only run once on mount
+  }, [isStandalone, state.layoutConfig.theme, state.layoutConfig, state.searchTerm]); 
 
   // Broadcast changes from this window
-  // In a real app, we'd wrap dispatch. For this PoC, we'll watch specific state changes.
   useEffect(() => {
     if (isInternalUpdate.current) return;
+
+    const currentSyncPayload = {
+      theme: state.layoutConfig.theme,
+      layoutConfig: state.layoutConfig,
+      searchTerm: state.searchTerm,
+      branchFilter: state.branchFilter,
+      morphMode: state.morphMode,
+      sourceFilter: state.sourceFilter,
+      landingVersion: state.landingVersion,
+      logoStyles: state.logoStyles,
+      logoSettings: state.logoSettings,
+      showThemeBar: state.showThemeBar,
+      showFloatingPalette: state.showFloatingPalette
+    };
+
+    const currentStr = JSON.stringify(currentSyncPayload);
+    if (currentStr === lastReceivedRef.current) return;
 
     if (channelRef.current) {
       channelRef.current.postMessage({
         type: 'FULL_SYNC',
-        payload: {
-          theme: state.layoutConfig.theme,
-          layoutConfig: state.layoutConfig,
-          searchTerm: state.searchTerm,
-          branchFilter: state.branchFilter,
-          morphMode: state.morphMode,
-          sourceFilter: state.sourceFilter,
-          landingVersion: state.landingVersion,
-          logoStyles: state.logoStyles,
-          logoSettings: state.logoSettings,
-          showThemeBar: state.showThemeBar,
-          showFloatingPalette: state.showFloatingPalette
-        },
+        payload: currentSyncPayload,
         source: isStandalone ? 'popout' : 'main'
       });
     }

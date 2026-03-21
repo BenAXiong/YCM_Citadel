@@ -97,7 +97,11 @@ export const groupVars = {
     { name: '--kilang-metric-text', label: 'Metric Text', type: 'color' }
   ] as const,
   structural: [
-    { name: '--kilang-radius-lg', label: 'Large Radius', type: 'text' }
+    { name: '--kilang-radius-sm', label: 'Small Radius', type: 'text' },
+    { name: '--kilang-radius-base', label: 'Base Radius', type: 'text' },
+    { name: '--kilang-radius-md', label: 'Medium Radius', type: 'text' },
+    { name: '--kilang-radius-lg', label: 'Large Radius', type: 'text' },
+    { name: '--kilang-radius-display', label: 'Display Radius', type: 'text' }
   ] as const,
   links: [
     { name: '--kilang-link-start', label: 'Link Start', type: 'color' },
@@ -448,7 +452,7 @@ export const ThemeBar = ({
                         {
                           label: 'Backgrounds',
                           type: 'color',
-                          targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent', '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active', '--kilang-tier-1-fill', '--kilang-tier-2-fill', '--kilang-tier-3-fill', '--kilang-tier-4-fill', '--kilang-tier-5-fill', '--kilang-tier-6-fill', '--kilang-tier-7-fill', '--kilang-tier-8-fill', '--kilang-tier-9-fill'],
+                          targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent', '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active', '--kilang-tier-1-fill', '--kilang-tier-2-fill', '--kilang-tier-3-fill', '--kilang-tier-4-fill', '--kilang-tier-5-fill', '--kilang-tier-6-fill', '--kilang-tier-7-fill', '--kilang-tier-8-fill', '--kilang-tier-9-fill', '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end'],
                           activeTargets: ['--kilang-ctrl-active']
                         },
                         {
@@ -499,7 +503,7 @@ export const ThemeBar = ({
                           <h4 className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30 ml-2 hover:text-white/60 transition-colors uppercase">{group.group}</h4>
                         </button>
                         {!collapsedSubsections.has(group.group) && (
-                          <div className="bg-white/[0.03] rounded-2xl border border-white/10 overflow-hidden">
+                          <div className="bg-white/[0.03] rounded-[var(--kilang-radius-lg)] border border-white/10 overflow-hidden">
                             {group.vars.map((v, i) => {
                               const isMasterControl = (v as any).targets !== undefined;
                               const isRowActive = isMasterControl && (v as any).targets.some((t: string) => overrides[t]);

@@ -72,7 +72,7 @@ export const CanvasControls: React.FC<CanvasControlsProps> = ({
           onMouseMove={(e) => e.stopPropagation()}
           onMouseOver={(e) => e.stopPropagation()}
         >
-          <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-2xl w-fit">
+          <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
             <button
               onClick={() => setDirection('horizontal')}
               className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${direction === 'horizontal' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
@@ -114,10 +114,10 @@ export const CanvasControls: React.FC<CanvasControlsProps> = ({
           onMouseMove={(e) => e.stopPropagation()}
           onMouseOver={(e) => e.stopPropagation()}
         >
-          <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-2xl w-fit">
+          <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
             <button
               onClick={() => dispatch({ type: 'SET_UI', isFullView: !isFullView })}
-              className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFullView ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+              className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFullView ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
               title={isFullView ? "Exit Immersive Full View" : "Enter Immersive Full View (Hide UI)"}
             >
               {isFullView ? <Minimize className="w-3.5 h-3.5" /> : <Maximize className="w-3.5 h-3.5" />}
@@ -134,10 +134,10 @@ export const CanvasControls: React.FC<CanvasControlsProps> = ({
           onMouseMove={(e) => e.stopPropagation()}
           onMouseOver={(e) => e.stopPropagation()}
         >
-          <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-2xl w-fit">
+          <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-[var(--kilang-shadow-primary)] w-fit">
             <button
               onClick={() => setIsFit(!isFit)}
-              className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+              className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFit ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
               title={isFit ? "Expand to Actual Size" : "Fit Tree"}
             >
               {isFit ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
