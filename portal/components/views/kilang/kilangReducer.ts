@@ -104,6 +104,7 @@ export interface KilangState {
     anchorY: number;
     rootBorderWidth: number;
     accentBorderWidth: number;
+    branchBorderWidth: number;
     // Tier Aesthetics (Fill & Border)
     tier1Fill: string; tier1Border: string; tier1Text: string; tier1Rounding: number;
     tier2Fill: string; tier2Border: string; tier2Text: string; tier2Rounding: number;
@@ -257,6 +258,7 @@ export const initialState: KilangState = {
     anchorY: ANCHOR_DEFAULTS.horizontal.y,
     rootBorderWidth: 4,
     accentBorderWidth: 6,
+    branchBorderWidth: 1,
     tier1Fill: 'var(--kilang-tier-1-fill)', tier1Border: 'var(--kilang-tier-1-border)', tier1Text: 'var(--kilang-tier-1-text)', tier1Rounding: 16,
     tier2Fill: 'var(--kilang-tier-2-fill)', tier2Border: 'var(--kilang-tier-2-border)', tier2Text: 'var(--kilang-tier-2-text)', tier2Rounding: 16,
     tier3Fill: 'var(--kilang-tier-3-fill)', tier3Border: 'var(--kilang-tier-3-border)', tier3Text: 'var(--kilang-tier-3-text)', tier3Rounding: 16,

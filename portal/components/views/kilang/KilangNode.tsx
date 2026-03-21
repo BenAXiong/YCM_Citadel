@@ -154,6 +154,7 @@ interface KilangNodeProps {
     nodePaddingY: number;
     rootBorderWidth: number;
     accentBorderWidth: number;
+    branchBorderWidth: number;
   };
   showTooltip?: boolean;
 }
@@ -211,7 +212,7 @@ export const KilangNode = React.memo(({
               className={`p-8 z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
               style={{
                 borderRadius: `${(config as any).tier1Rounding ?? 100}px`,
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} calc(20% * var(--kilang-node-intensity)), var(--kilang-bg-base))`,
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} calc(20% * var(--kilang-node-intensity, 1)), var(--kilang-bg-base))`,
                 borderColor: isHighlighted ? 'var(--kilang-primary-active)' : getTierColor('Border', 1),
                 borderWidth: `${config.rootBorderWidth}px`,
                 borderStyle: 'solid',
@@ -232,13 +233,13 @@ export const KilangNode = React.memo(({
               className={`transition-all text-sm group relative z-10 flex items-center justify-center ${isHighlighted ? 'shadow-[0_0_30px_var(--kilang-primary-glow)]' : ''}`}
               style={{
                 borderRadius: `${(config as any)[`tier${tier}Rounding`] ?? 16}px`,
-                borderWidth: 'var(--kilang-border-w-std)',
+                borderWidth: `${config.branchBorderWidth}px`,
                 borderStyle: 'solid',
                 borderColor: isHighlighted
                   ? `color-mix(in srgb, ${getTierColor('Border', tier)} 80%, white)`
                   : `color-mix(in srgb, ${getTierColor('Border', tier)} 40%, transparent)`,
                 boxShadow: isHighlighted ? '0 0 30px var(--kilang-primary-glow)' : 'none',
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} calc(${tier === 2 ? '10%' : '5%'} * var(--kilang-node-intensity)), var(--kilang-bg-base))`,
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} calc(${tier === 2 ? '10%' : '5%'} * var(--kilang-node-intensity, 1)), var(--kilang-bg-base))`,
                 width: `${config.nodeWidth}px`,
                 paddingTop: `${config.nodePaddingY}px`,
                 paddingBottom: `${config.nodePaddingY}px`,

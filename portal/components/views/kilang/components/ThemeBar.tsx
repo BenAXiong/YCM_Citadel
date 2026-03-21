@@ -845,399 +845,434 @@ export const ThemeBar = ({
                   </button>
                 </div>
               </div>
-              {[
-                {
-                  id: 'spacing',
-                  label: 'Layout Spacing',
-                  icon: SlidersHorizontal,
-                  controls: [
-                    { label: 'Tier (H)', key: 'interTierGap', min: 10, max: 600, step: 10, unit: 'px' },
-                    { label: 'Row (V)', key: 'interRowGap', min: 10, max: 600, step: 5, unit: 'px' },
-                    { label: '0-1 Gap', key: 'rootGap', min: 0, max: 600, step: 10, unit: 'px' },
-                  ]
-                },
-                {
-                  id: 'paths',
-                  label: 'SVG Connections',
-                  icon: PencilLine,
-                  controls: [
-                    { label: 'Gap X', key: 'lineGapX', min: -100, max: 300, step: 5, unit: 'px' },
-                    { label: 'Gap Y', key: 'lineGapY', min: -100, max: 300, step: 5, unit: 'px' },
-                    { label: 'Thickness', key: 'lineWidth', min: 0.5, max: 12, step: 0.1, unit: 'px' },
-                    { label: 'Curvature', key: 'lineTension', min: 0, max: 2, step: 0.1, unit: 'x' },
-                    { label: 'Opacity', key: 'lineOpacity', min: 0, max: 1, step: 0.05, unit: '' },
-                    { label: 'Blur/Glow', key: 'lineBlur', min: 0, max: 20, step: 0.5, unit: 'px' },
-                    { label: 'Dash Pattern', key: 'lineDashArray', min: 0, max: 30, step: 1, unit: 'px' },
-                    { label: 'Flow Speed', key: 'lineFlowSpeed', min: 0, max: 10, step: 0.5, unit: 'x' },
-                  ]
-                },
-                {
-                  id: 'geometry',
-                  label: 'Node Geometry',
-                  icon: Scaling,
-                  controls: [
-                    { label: 'Size', key: 'nodeSize', min: 0.5, max: 2, step: 0.1, unit: 'x' },
-                    { label: 'Opacity', key: 'nodeOpacity', min: 0.1, max: 1, step: 0.05, unit: '' },
-                    { label: 'Word Width', key: 'nodeWidth', min: 80, max: 250, step: 5, unit: 'px' },
-                    { label: 'Vert Padding', key: 'nodePaddingY', min: 4, max: 32, step: 1, unit: 'px' },
-                    { label: 'Root Border', key: 'rootBorderWidth', min: 0, max: 20, step: 1, unit: 'px' },
-                    { label: 'Accent Border', key: 'accentBorderWidth', min: 0, max: 20, step: 1, unit: 'px' },
-                  ]
-                },
-                {
-                  id: 'anchors',
-                  label: 'Root Anchor',
-                  icon: Maximize2,
-                  controls: [
-                    { label: 'X (px)', key: 'anchorX', min: 0, max: 2000, step: 10, unit: 'px' },
-                    { label: 'Y (px)', key: 'anchorY', min: 0, max: 2000, step: 10, unit: 'px' },
-                  ]
-                }
-              ].map((section) => (
-                <div key={section.id} className="space-y-3">
-                  <SectionHeader
-                    id={section.id}
-                    label={section.label}
-                    icon={section.icon}
-                    actions={
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          const defaults: Record<string, any> = {
-                            spacing: { interTierGap: 80, interRowGap: 50, rootGap: 50, spacingMode: 'log', coupleGaps: false },
-                            paths: { lineGapX: 0, lineGapY: 0, lineWidth: 3, lineOpacity: 0.4, lineBlur: 0, lineTension: 1, lineDashArray: 0, lineFlowSpeed: 0 },
-                            geometry: { nodeSize: 1, nodeOpacity: 1, nodeWidth: 100, nodePaddingY: 8, showIcons: false },
-                            anchors: { anchorX: 2000, anchorY: 2000 }
-                          };
-                          if (defaults[section.id]) {
-                            dispatch({ type: 'SET_LAYOUT_CONFIG', config: defaults[section.id] });
-                          }
-                        }}
-                        className="p-1.5 rounded-lg hover:bg-white/10 text-white/20 hover:text-white transition-all"
-                        title={`Reset ${section.label} to defaults`}
-                      >
-                        <RotateCcw className="w-3 h-3" />
-                      </button>
-                    }
-                  />
-                  {expandedSections.has(section.id) && (
-                    <div className="bg-white/[0.03] rounded-[var(--kilang-radius-lg)] border border-white/10 overflow-hidden ml-2 pr-2">
-                      {section.controls.map((c) => (
-                        <div key={c.key} className="flex items-center justify-between py-2.5 px-4 group hover:bg-white/[0.02] transition-all border-b border-white/5 last:border-0">
-                          <span className="text-[10px] font-black uppercase tracking-widest text-white/50 group-hover:text-white/80 transition-colors">{c.label}</span>
-                          <div className="flex items-center gap-3">
-                            <input
-                              type="range"
-                              min={c.min}
-                              max={c.max}
-                              step={c.step}
-                              value={(layoutConfig as any)[c.key] || 0}
-                              onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [c.key]: parseFloat(e.target.value) } })}
-                              className="w-24 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
-                            />
-                            <span className="w-8 text-right text-[10px] font-mono text-white/30 group-hover:text-white transition-opacity">
-                              {(layoutConfig as any)[c.key]}
-                              <span className="text-[8px] ml-0.5 opacity-40">{c.unit}</span>
-                            </span>
-                          </div>
-                        </div>
-                      ))}
-                      {section.id === 'spacing' && (
-                        <>
+              {(() => {
+                const renderTreeSection = (section: any) => (
+                  <div key={section.id} className="space-y-3">
+                    <SectionHeader
+                      id={section.id}
+                      label={section.label}
+                      icon={section.icon}
+                      actions={
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            const defaults: Record<string, any> = {
+                              layout: { anchorX: 2000, anchorY: 2000, spacingMode: 'log', coupleGaps: false, rootGap: 50, interTierGap: 80, interRowGap: 50 },
+                              geometry: { nodeSize: 1, nodeOpacity: 1, nodeWidth: 100, nodePaddingY: 8, rootBorderWidth: 4, branchBorderWidth: 1, showIcons: false },
+                              connectors: { lineGapX: 0, lineGapY: 0, lineWidth: 3, lineTension: 1, lineOpacity: 0.4, lineBlur: 0, lineDashArray: 0, lineFlowSpeed: 0, lineColor: 'var(--kilang-primary)', lineColorMid: 'var(--kilang-secondary)', lineGradientEnd: 'var(--kilang-accent)' },
+                              tooltips: { accentBorderWidth: 6 },
+                            };
+                            if (defaults[section.id]) {
+                              dispatch({ type: 'SET_LAYOUT_CONFIG', config: defaults[section.id] });
+                            }
+                          }}
+                          className="p-1.5 rounded-lg hover:bg-white/10 text-white/20 hover:text-white transition-all"
+                          title={`Reset ${section.label} to defaults`}
+                        >
+                          <RotateCcw className="w-3 h-3" />
+                        </button>
+                      }
+                    />
+                    {expandedSections.has(section.id) && (
+                      <div className="bg-white/[0.03] rounded-[var(--kilang-radius-lg)] border border-white/10 overflow-hidden ml-2 pr-2">
+                        {section.controls.map((c: any, i: number) => (
+                          <React.Fragment key={c.key}>
+                            <div className="flex items-center justify-between py-2.5 px-4 group hover:bg-white/[0.02] transition-all border-b border-white/5 last:border-0">
+                              <span className="text-[10px] font-black uppercase tracking-widest text-white/50 group-hover:text-white/80 transition-colors">{c.label}</span>
+                              <div className="flex items-center gap-3">
+                                <input
+                                  type="range"
+                                  min={c.min}
+                                  max={c.max}
+                                  step={c.step}
+                                  value={(layoutConfig as any)[c.key] || 0}
+                                  onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [c.key]: parseFloat(e.target.value) } })}
+                                  className="w-24 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
+                                />
+                                <span className="w-8 text-right text-[10px] font-mono text-white/30 group-hover:text-white transition-opacity">
+                                  {(layoutConfig as any)[c.key]}
+                                  <span className="text-[8px] ml-0.5 opacity-40">{c.unit}</span>
+                                </span>
+                              </div>
+                            </div>
+                            {section.id === 'layout' && i === 1 && (
+                              <>
+                                <div className="flex items-center justify-between py-2.5 px-4 bg-white/5 mt-1 border-t border-white/10">
+                                  <span className="text-[9px] font-black uppercase text-white/30">Spacing Mode</span>
+                                  <button
+                                    onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' } })}
+                                    className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
+                                  >
+                                    {layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}
+                                  </button>
+                                </div>
+                                <div className="flex items-center justify-between py-2.5 px-4 bg-white/5 border-t border-b border-white/10">
+                                  <span className="text-[9px] font-black uppercase text-white/30">Coupled Gaps</span>
+                                  <button
+                                    onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { coupleGaps: !layoutConfig.coupleGaps } })}
+                                    className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.coupleGaps ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
+                                  >
+                                    {layoutConfig.coupleGaps ? 'Coupled' : 'Decoupled'}
+                                  </button>
+                                </div>
+                              </>
+                            )}
+                          </React.Fragment>
+                        ))}
+                        {section.id === 'geometry' && (
                           <div className="flex items-center justify-between py-2.5 px-4 bg-white/5 mt-1 border-t border-white/10">
-                            <span className="text-[9px] font-black uppercase text-white/30">Spacing Mode</span>
-                            <button 
-                              onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' } })} 
-                              className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
+                            <span className="text-[9px] font-black uppercase text-white/30">Tree Icons</span>
+                            <button
+                              onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { showIcons: !layoutConfig.showIcons } })}
+                              className={`flex items-center gap-2 px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.showIcons ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
                             >
-                              {layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}
+                              {layoutConfig.showIcons ? <Zap className="w-3 h-3" /> : <ZapOff className="w-3 h-3" />}
+                              {layoutConfig.showIcons ? 'Visible' : 'Hidden'}
                             </button>
                           </div>
-                          <div className="flex items-center justify-between py-2.5 px-4 bg-white/5 border-t border-white/10">
-                            <span className="text-[9px] font-black uppercase text-white/30">Coupled Gaps</span>
-                            <button 
-                              onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { coupleGaps: !layoutConfig.coupleGaps } })} 
-                              className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.coupleGaps ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
-                            >
-                              {layoutConfig.coupleGaps ? 'Coupled' : 'Decoupled'}
-                            </button>
+                        )}
+                        {section.id === 'connectors' && (
+                          <div className="p-4 bg-white/[0.05] border-t border-white/10 space-y-4">
+                            <div className="grid grid-cols-2 gap-4">
+                              <div className="flex flex-col gap-1.5">
+                                 <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link Start</span>
+                                 <input type="color" value={layoutConfig.lineColor} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColor: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                              </div>
+                              <div className="flex flex-col gap-1.5">
+                                 <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link Mid</span>
+                                 <input type="color" value={layoutConfig.lineColorMid} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColorMid: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                              </div>
+                              <div className="flex flex-col gap-1.5 col-span-2">
+                                 <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link End</span>
+                                 <input type="color" value={layoutConfig.lineGradientEnd} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineGradientEnd: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                              </div>
+                            </div>
                           </div>
-                        </>
-                      )}
-                      {section.id === 'geometry' && (
-                        <div className="flex items-center justify-between py-2.5 px-4 bg-white/5 mt-1 border-t border-white/10">
-                          <span className="text-[9px] font-black uppercase text-white/30">Tree Icons</span>
-                          <button 
-                            onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { showIcons: !layoutConfig.showIcons } })} 
-                            className={`flex items-center gap-2 px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.showIcons ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+
+                return (
+                  <div className="space-y-8 pb-12">
+                    {[
+                      {
+                        id: 'layout',
+                        label: 'Layout',
+                        icon: Layout,
+                        controls: [
+                          { label: 'T1 anchor (X)', key: 'anchorX', min: 0, max: 2000, step: 10, unit: 'px' },
+                          { label: 'T1 anchor (Y)', key: 'anchorY', min: 0, max: 2000, step: 10, unit: 'px' },
+                          // MANUAL INSERT for mode/coupled gaps
+                          { label: 'T1-T2 gap', key: 'rootGap', min: 0, max: 600, step: 10, unit: 'px' },
+                          { label: 'Tier Spacing (H)', key: 'interTierGap', min: 10, max: 600, step: 10, unit: 'px' },
+                          { label: 'Tier Spacing (V)', key: 'interRowGap', min: 10, max: 600, step: 5, unit: 'px' },
+                        ]
+                      },
+                      {
+                        id: 'geometry',
+                        label: 'Node Geometry',
+                        icon: Scaling,
+                        controls: [
+                          { label: 'Size', key: 'nodeSize', min: 0.5, max: 2, step: 0.1, unit: 'x' },
+                          { label: 'Opacity', key: 'nodeOpacity', min: 0.1, max: 1, step: 0.05, unit: '' },
+                          { label: 'Word Width', key: 'nodeWidth', min: 80, max: 250, step: 5, unit: 'px' },
+                          { label: 'Vert Padding', key: 'nodePaddingY', min: 4, max: 32, step: 1, unit: 'px' },
+                          { label: 'Root Border', key: 'rootBorderWidth', min: 0, max: 20, step: 1, unit: 'px' },
+                          { label: 'Branch Border', key: 'branchBorderWidth', min: 0, max: 20, step: 1, unit: 'px' },
+                        ]
+                      }
+                    ].map(renderTreeSection)}
+
+                    {/* PALETTE SECTION */}
+                    <div className="space-y-3">
+                      <SectionHeader 
+                        id="colors" 
+                        label="Palette" 
+                        icon={Palette} 
+                        actions={
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const tierDefaults: any = {};
+                              for (let i = 1; i <= 9; i++) {
+                                tierDefaults[`tier${i}Fill`] = `var(--kilang-tier-${i}-fill)`;
+                                tierDefaults[`tier${i}Border`] = `var(--kilang-tier-${i}-border)`;
+                              }
+                              tierDefaults.tier1Rounding = 16;
+                              tierDefaults.tier2Rounding = 16;
+                              dispatch({ type: 'SET_LAYOUT_CONFIG', config: tierDefaults });
+                            }}
+                            className="p-1.5 rounded-lg hover:bg-white/10 text-white/20 hover:text-white transition-all"
+                            title="Reset Colors to defaults"
                           >
-                            {layoutConfig.showIcons ? <Zap className="w-3 h-3" /> : <ZapOff className="w-3 h-3" />}
-                            {layoutConfig.showIcons ? 'Visible' : 'Hidden'}
+                            <RotateCcw className="w-3 h-3" />
                           </button>
-                        </div>
-                      )}
-                    </div>
-                  )}
-                </div>
-              ))}
-
-              <div className="space-y-3">
-                <SectionHeader 
-                  id="colors" 
-                  label="Nodes Colors" 
-                  icon={Palette} 
-                  actions={
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        const tierDefaults: Record<string, any> = {};
-                        for (let i = 1; i <= 9; i++) {
-                          tierDefaults[`tier${i}Fill`] = `var(--kilang-tier-${i}-fill)`;
-                          tierDefaults[`tier${i}Border`] = `var(--kilang-tier-${i}-border)`;
                         }
-                        tierDefaults.lineColor = 'var(--kilang-primary)';
-                        tierDefaults.lineColorMid = 'var(--kilang-secondary)';
-                        tierDefaults.lineGradientEnd = 'var(--kilang-accent)';
-                        dispatch({ type: 'SET_LAYOUT_CONFIG', config: tierDefaults });
-                      }}
-                      className="p-1.5 rounded-lg hover:bg-white/10 text-white/20 hover:text-white transition-all"
-                      title="Reset Colors to defaults"
-                    >
-                      <RotateCcw className="w-3 h-3" />
-                    </button>
-                  }
-                />
-                {expandedSections.has('colors') && (
-                  <div className="space-y-6 ml-2 animate-in fade-in slide-in-from-top-2 duration-300">
-                    <div className="flex flex-col gap-6 px-2">
-                       {/* Intensity & Technical Note Stack */}
-                       <div className="space-y-3">
-                         <div className="text-[10px] text-white/30 font-mono uppercase tracking-[0.2em] ml-1">vars(--kilang-tier-n-fill/border/text)</div>
-                         <div className="flex flex-col gap-3">
-                           {/* Intensity */}
-                           <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/intensity">
-                              <div className="flex flex-col">
-                                <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/intensity:text-white/80 transition-colors">Node Intensity</span>
-                                <span className="text-[8px] font-mono text-white/20">--kilang-node-intensity</span>
-                              </div>
-                              <div className="flex items-center gap-3">
-                                <span className="text-[10px] font-mono text-white/20">{overrides['--kilang-node-intensity'] || '1.0'}</span>
-                                <input
-                                  type="range" min="0" max="5" step="0.1"
-                                  defaultValue={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-node-intensity').trim() : '1')}
-                                  onChange={(e) => updateVariable('--kilang-node-intensity', e.target.value)}
-                                  className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
-                                />
-                              </div>
-                           </div>
-                           {/* Rounding T1 */}
-                           <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/rounding-t1">
-                              <div className="flex flex-col">
-                                <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/rounding-t1:text-white/80 transition-colors">Rounding T1</span>
-                                <span className="text-[8px] font-mono text-white/20">tier1Rounding</span>
-                              </div>
-                              <div className="flex items-center gap-3">
-                                <span className="text-[10px] font-mono text-white/20">{layoutConfig.tier1Rounding}px</span>
-                                <input
-                                  type="range" min="0" max="100" step="1"
-                                  value={layoutConfig.tier1Rounding}
-                                  onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { tier1Rounding: parseInt(e.target.value) } })}
-                                  className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
-                                />
-                              </div>
-                           </div>
-                           {/* Rounding T2+ */}
-                           <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/rounding-t2">
-                              <div className="flex flex-col">
-                                <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/rounding-t2:text-white/80 transition-colors">Rounding T2+</span>
-                                <span className="text-[8px] font-mono text-white/20">tier2-9Rounding</span>
-                              </div>
-                              <div className="flex items-center gap-3">
-                                <span className="text-[10px] font-mono text-white/20">{layoutConfig.tier2Rounding}px</span>
-                                <input
-                                  type="range" min="0" max="100" step="1"
-                                  value={layoutConfig.tier2Rounding}
-                                  onChange={(e) => {
-                                    const val = parseInt(e.target.value);
-                                    const update: any = {};
-                                    for (let t = 2; t <= 9; t++) update[`tier${t}Rounding`] = val;
-                                    dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
-                                  }}
-                                  className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
-                                />
-                              </div>
-                           </div>
-                         </div>
-                       </div>
-
-                       {/* High-Fidelity Table */}
-                       <div className="overflow-hidden">
-                         <table className="w-full border-collapse">
-                           <thead>
-                             <tr className="border-b border-white/10">
-                               <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] w-12 text-center">Tier</th>
-                               <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Fill</th>
-                               <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Border</th>
-                               <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Text</th>
-                             </tr>
-                           </thead>
-                           <tbody className="divide-y divide-white/[0.03]">
-                             {/* Master "All" Row */}
-                             <tr className="group/row bg-white/[0.04] transition-colors">
-                               <td className="py-2 text-center">
-                                 <div className="text-[10px] font-black text-white uppercase tracking-widest">
-                                   All
+                      />
+                      {expandedSections.has('colors') && (
+                        <div className="space-y-6 ml-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                          <div className="flex flex-col gap-6 px-2">
+                             {/* Intensity & Technical Note Stack */}
+                             <div className="space-y-3">
+                               <div className="text-[10px] text-white/30 font-mono uppercase tracking-[0.2em] ml-1">vars(--kilang-tier-n-fill/border/text)</div>
+                               <div className="flex flex-col gap-3">
+                                 {/* Intensity */}
+                                 <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/intensity">
+                                    <div className="flex flex-col">
+                                      <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/intensity:text-white/80 transition-colors">Node Intensity</span>
+                                      <span className="text-[8px] font-mono text-white/20">--kilang-node-intensity</span>
+                                    </div>
+                                    <div className="flex items-center gap-3">
+                                      <span className="text-[10px] font-mono text-white/20">{overrides['--kilang-node-intensity'] || '1.0'}</span>
+                                      <input
+                                        type="range" min="0" max="5" step="0.1"
+                                        defaultValue={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-node-intensity').trim() : '1')}
+                                        onChange={(e) => updateVariable('--kilang-node-intensity', e.target.value)}
+                                        className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
+                                      />
+                                    </div>
                                  </div>
-                               </td>
-                               {[
-                                 { key: 'allFill', type: 'fill' },
-                                 { key: 'allBorder', type: 'border' },
-                                 { key: 'allText', type: 'text' }
-                               ].map((col, i) => (
-                                 <td key={i} className="py-2 px-1 text-center">
-                                   <div className="flex flex-col items-center gap-1.5">
-                                     <div 
-                                       className="w-8 h-8 rounded-xl border border-white/20 shadow-xl relative group/swatch overflow-hidden transition-transform hover:scale-110 active:scale-95"
-                                       style={{ 
-                                         backgroundColor: col.type === 'fill' 
-                                           ? layoutConfig.tier1Fill 
-                                           : col.type === 'border' 
-                                             ? layoutConfig.tier1Border 
-                                             : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))
-                                       }}
-                                     >
-                                       <input
-                                         type="color"
-                                         value={
-                                           (col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))).startsWith('var') ? '#ffffff' : (col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff')))
-                                         }
-                                         onChange={(e) => {
-                                           const color = e.target.value;
-                                           if (col.type === 'fill') {
-                                             const update: any = {};
-                                             for (let t = 1; t <= 9; t++) update[`tier${t}Fill`] = color;
-                                             dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
-                                           } else if (col.type === 'border') {
-                                             const update: any = {};
-                                             for (let t = 1; t <= 9; t++) update[`tier${t}Border`] = color;
-                                             dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
-                                           } else {
-                                             const mapping: Record<string, string> = {};
-                                             for (let t = 1; t <= 9; t++) mapping[`--kilang-tier-${t}-text`] = color;
-                                             updateVariables(mapping);
-                                           }
-                                         }}
-                                         className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
-                                       />
-                                     </div>
-                                     <input
-                                       type="text"
-                                       placeholder="HEX"
-                                       onChange={(e) => {
-                                         const color = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
-                                         if (color.length >= 4) {
-                                           if (col.type === 'fill') {
-                                             const update: any = {};
-                                             for (let t = 1; t <= 9; t++) update[`tier${t}Fill`] = color;
-                                             dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
-                                           } else if (col.type === 'border') {
-                                             const update: any = {};
-                                             for (let t = 1; t <= 9; t++) update[`tier${t}Border`] = color;
-                                             dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
-                                           } else {
-                                             const mapping: Record<string, string> = {};
-                                             for (let t = 1; t <= 9; t++) mapping[`--kilang-tier-${t}-text`] = color;
-                                             updateVariables(mapping);
-                                           }
-                                         }
-                                       }}
-                                       className="w-14 bg-transparent border-0 text-[7px] font-mono text-white/20 text-center hover:text-white/40 focus:text-white outline-none uppercase tracking-tighter transition-colors"
-                                     />
-                                   </div>
-                                 </td>
-                               ))}
-                             </tr>
+                                 {/* Rounding T1 */}
+                                 <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/rounding-t1">
+                                    <div className="flex flex-col">
+                                      <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/rounding-t1:text-white/80 transition-colors">Rounding T1</span>
+                                      <span className="text-[8px] font-mono text-white/20">tier1Rounding</span>
+                                    </div>
+                                    <div className="flex items-center gap-3">
+                                      <span className="text-[10px] font-mono text-white/20">{layoutConfig.tier1Rounding}px</span>
+                                      <input
+                                        type="range" min="0" max="100" step="1"
+                                        value={layoutConfig.tier1Rounding}
+                                        onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { tier1Rounding: parseInt(e.target.value) } })}
+                                        className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
+                                      />
+                                    </div>
+                                 </div>
+                                 {/* Rounding T2+ */}
+                                 <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/rounding-t2">
+                                    <div className="flex flex-col">
+                                      <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/rounding-t2:text-white/80 transition-colors">Rounding T2+</span>
+                                      <span className="text-[8px] font-mono text-white/20">tier2-9Rounding</span>
+                                    </div>
+                                    <div className="flex items-center gap-3">
+                                      <span className="text-[10px] font-mono text-white/20">{layoutConfig.tier2Rounding}px</span>
+                                      <input
+                                        type="range" min="0" max="100" step="1"
+                                        value={layoutConfig.tier2Rounding}
+                                        onChange={(e) => {
+                                          const val = parseInt(e.target.value);
+                                          const update: any = {};
+                                          for (let t = 2; t <= 9; t++) update[`tier${t}Rounding`] = val;
+                                          dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                        }}
+                                        className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
+                                      />
+                                    </div>
+                                 </div>
+                               </div>
+                             </div>
 
-                             {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((tier) => (
-                               <tr key={tier} className="group/row hover:bg-white/[0.01] transition-colors">
-                                 <td className="py-1.5 text-center">
-                                   <div className="text-[11px] font-black text-white">
-                                     {tier}
-                                   </div>
-                                 </td>
-                                 {[
-                                   { key: `tier${tier}Fill`, mode: 'config' },
-                                   { key: `tier${tier}Border`, mode: 'config' },
-                                   { key: `--kilang-tier-${tier}-text`, mode: 'var' }
-                                 ].map((col, i) => {
-                                   const val = col.mode === 'config' 
-                                     ? (layoutConfig as any)[col.key] 
-                                     : (overrides[col.key] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(col.key).trim() : '#ffffff'));
-                                   
-                                   return (
-                                     <td key={i} className="py-1.5 px-1">
-                                       <div className="flex flex-col items-center gap-2">
-                                         <div 
-                                           className="w-8 h-8 rounded-xl border border-white/10 shadow-lg relative group/swatch overflow-hidden transition-transform hover:scale-110 active:scale-95"
-                                           style={{ backgroundColor: val }}
-                                         >
+                             {/* High-Fidelity Table */}
+                             <div className="overflow-hidden">
+                               <table className="w-full border-collapse">
+                                 <thead>
+                                   <tr className="border-b border-white/10">
+                                     <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] w-12 text-center">Tier</th>
+                                     <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Fill</th>
+                                     <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Border</th>
+                                     <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Text</th>
+                                     <th className="py-3 text-[10px] font-black uppercase text-[var(--kilang-accent)] tracking-[0.2em] text-center">All</th>
+                                   </tr>
+                                 </thead>
+                                 <tbody className="divide-y divide-white/[0.03]">
+                                   {/* Master "All" Row */}
+                                   <tr className="group/row bg-white/[0.04] transition-colors">
+                                     <td className="py-2 text-center">
+                                       <div className="text-[10px] font-black text-white uppercase tracking-widest">All</div>
+                                     </td>
+                                     {[
+                                       { key: 'allFill', type: 'fill' },
+                                       { key: 'allBorder', type: 'border' },
+                                       { key: 'allText', type: 'text' },
+                                       { key: 'allProperties', type: 'all' }
+                                     ].map((col, i) => (
+                                       <td key={i} className="py-2 px-1 text-center">
+                                         <div className="flex flex-col items-center gap-1.5">
+                                           <div 
+                                             className="w-8 h-8 rounded-xl border border-white/20 shadow-xl relative group/swatch overflow-hidden transition-transform hover:scale-110 active:scale-95"
+                                             style={{ 
+                                               backgroundColor: col.type === 'fill' 
+                                                 ? layoutConfig.tier1Fill 
+                                                 : col.type === 'border' 
+                                                   ? layoutConfig.tier1Border 
+                                                   : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))
+                                             }}
+                                           >
+                                             <input
+                                               type="color"
+                                               value={
+                                                 (col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))).startsWith('var') ? '#ffffff' : (col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff')))
+                                               }
+                                               onChange={(e) => {
+                                                 const color = e.target.value;
+                                                 if (col.type === 'fill') {
+                                                   const update: any = {};
+                                                   for (let t = 1; t <= 9; t++) update[`tier${t}Fill`] = color;
+                                                   dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                                 } else if (col.type === 'border') {
+                                                   const update: any = {};
+                                                   for (let t = 1; t <= 9; t++) update[`tier${t}Border`] = color;
+                                                   dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                                 } else if (col.type === 'text') {
+                                                   const mapping: Record<string, string> = {};
+                                                   for (let t = 1; t <= 9; t++) mapping[`--kilang-tier-${t}-text`] = color;
+                                                   updateVariables(mapping);
+                                                 } else if (col.type === 'all') {
+                                                   const update: any = {};
+                                                   for (let t = 1; t <= 9; t++) {
+                                                      update[`tier${t}Fill`] = color;
+                                                      update[`tier${t}Border`] = color;
+                                                   }
+                                                   dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                                   const mapping: Record<string, string> = {};
+                                                   for (let t = 1; t <= 9; t++) mapping[`--kilang-tier-${t}-text`] = color;
+                                                   updateVariables(mapping);
+                                                 }
+                                               }}
+                                               className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
+                                             />
+                                           </div>
                                            <input
-                                             type="color"
-                                             value={val.startsWith('var') ? (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(val.replace('var(', '').replace(')', '')).trim() || '#ffffff' : '#ffffff') : val}
+                                             type="text"
+                                             placeholder="HEX"
                                              onChange={(e) => {
-                                               if (col.mode === 'config') {
-                                                 dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: e.target.value } });
-                                               } else {
-                                                 updateVariable(col.key, e.target.value);
+                                               const color = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
+                                               if (color.length >= 4) {
+                                                 if (col.type === 'fill') {
+                                                   const update: any = {};
+                                                   for (let t = 1; t <= 9; t++) update[`tier${t}Fill`] = color;
+                                                   dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                                 } else if (col.type === 'border') {
+                                                   const update: any = {};
+                                                   for (let t = 1; t <= 9; t++) update[`tier${t}Border`] = color;
+                                                   dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                                 } else {
+                                                   const mapping: Record<string, string> = {};
+                                                   for (let t = 1; t <= 9; t++) mapping[`--kilang-tier-${t}-text`] = color;
+                                                   updateVariables(mapping);
+                                                 }
                                                }
                                              }}
-                                             className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
+                                             className="w-14 bg-transparent border-0 text-[7px] font-mono text-white/20 text-center hover:text-white/40 focus:text-white outline-none uppercase tracking-tighter transition-colors"
                                            />
-                                           <div className="absolute inset-0 bg-white/0 group-hover/swatch:bg-white/10 transition-colors pointer-events-none" />
                                          </div>
-                                         <input
-                                           type="text"
-                                           value={(val.startsWith('var') ? (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(val.replace('var(', '').replace(')', '')).trim() : val) : val).toUpperCase()}
-                                           onChange={(e) => {
-                                             const newVal = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
-                                             if (col.mode === 'config') {
-                                               dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: newVal } });
-                                             } else {
-                                               updateVariable(col.key, newVal);
-                                             }
-                                           }}
-                                           className="w-14 bg-transparent border-0 text-[8px] font-mono text-white/30 text-center hover:text-white/60 focus:text-white outline-none uppercase tracking-tighter transition-colors"
-                                         />
-                                       </div>
-                                     </td>
-                                   );
-                                 })}
-                               </tr>
-                             ))}
-                           </tbody>
-                         </table>
-                       </div>
+                                       </td>
+                                     ))}
+                                   </tr>
+
+                                   {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((tier) => (
+                                     <tr key={tier} className="group/row hover:bg-white/[0.01] transition-colors">
+                                       <td className="py-1.5 text-center">
+                                         <div className="text-[11px] font-black text-white">{tier}</div>
+                                       </td>
+                                       {[
+                                         { key: `tier${tier}Fill`, mode: 'config' },
+                                         { key: `tier${tier}Border`, mode: 'config' },
+                                         { key: `--kilang-tier-${tier}-text`, mode: 'var' },
+                                         { key: `tier${tier}All`, mode: 'all' }
+                                       ].map((col, i) => {
+                                         const val = col.mode === 'config' 
+                                           ? (layoutConfig as any)[col.key] 
+                                           : col.mode === 'var'
+                                             ? (overrides[col.key] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(col.key).trim() : '#ffffff'))
+                                             : (layoutConfig as any)[`tier${tier}Fill`];
+                                         
+                                         return (
+                                           <td key={i} className="py-1.5 px-1">
+                                             <div className="flex flex-col items-center gap-2">
+                                               <div 
+                                                 className="w-8 h-8 rounded-xl border border-white/10 shadow-lg relative group/swatch overflow-hidden transition-transform hover:scale-110 active:scale-95"
+                                                 style={{ backgroundColor: val }}
+                                               >
+                                                 <input
+                                                   type="color"
+                                                   value={val.startsWith('var') ? (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(val.replace('var(', '').replace(')', '')).trim() || '#ffffff' : '#ffffff') : val}
+                                                   onChange={(e) => {
+                                                     if (col.mode === 'config') {
+                                                       dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: e.target.value } });
+                                                     } else if (col.mode === 'var') {
+                                                       updateVariable(col.key, e.target.value);
+                                                     } else if (col.mode === 'all') {
+                                                       dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Fill`]: e.target.value, [`tier${tier}Border`]: e.target.value } });
+                                                       updateVariable(`--kilang-tier-${tier}-text`, e.target.value);
+                                                     }
+                                                   }}
+                                                   className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
+                                                 />
+                                                 <div className="absolute inset-0 bg-white/0 group-hover/swatch:bg-white/10 transition-colors pointer-events-none" />
+                                               </div>
+                                               <input
+                                                 type="text"
+                                                 value={(val.startsWith('var') ? (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(val.replace('var(', '').replace(')', '')).trim() : val) : val).toUpperCase()}
+                                                 onChange={(e) => {
+                                                   const newVal = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
+                                                   if (col.mode === 'config') {
+                                                     dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: newVal } });
+                                                   } else if (col.mode === 'var') {
+                                                     updateVariable(col.key, newVal);
+                                                   } else if (col.mode === 'all') {
+                                                     dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Fill`]: newVal, [`tier${tier}Border`]: newVal } });
+                                                     updateVariable(`--kilang-tier-${tier}-text`, newVal);
+                                                   }
+                                                 }}
+                                                 className="w-14 bg-transparent border-0 text-[8px] font-mono text-white/30 text-center hover:text-white/60 focus:text-white outline-none uppercase tracking-tighter transition-colors"
+                                               />
+                                             </div>
+                                           </td>
+                                         );
+                                       })}
+                                     </tr>
+                                   ))}
+                                 </tbody>
+                               </table>
+                             </div>
+                          </div>
+                          
+                          {/* LINK COLORS WERE MOVED FROM HERE TO CONNECTORS */}
+                        </div>
+                      )}
                     </div>
-                    
-                    <div className="p-4 bg-white/[0.05] border border-white/10 rounded-2xl space-y-4">
-                      <div className="grid grid-cols-2 gap-4">
-                        <div className="flex flex-col gap-1.5">
-                           <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link Start</span>
-                           <input type="color" value={layoutConfig.lineColor} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColor: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
-                        </div>
-                        <div className="flex flex-col gap-1.5">
-                           <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link Mid</span>
-                           <input type="color" value={layoutConfig.lineColorMid} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColorMid: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
-                        </div>
-                        <div className="flex flex-col gap-1.5 col-span-2">
-                           <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link End</span>
-                           <input type="color" value={layoutConfig.lineGradientEnd} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineGradientEnd: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
-                        </div>
-                      </div>
-                    </div>
+
+                    {[
+                      {
+                        id: 'connectors',
+                        label: 'Connectors',
+                        icon: PencilLine,
+                        controls: [
+                          { label: 'Gap X', key: 'lineGapX', min: -100, max: 300, step: 5, unit: 'px' },
+                          { label: 'Gap Y', key: 'lineGapY', min: -100, max: 300, step: 5, unit: 'px' },
+                          { label: 'Thickness', key: 'lineWidth', min: 0.5, max: 12, step: 0.1, unit: 'px' },
+                          { label: 'Curvature', key: 'lineTension', min: 0, max: 2, step: 0.1, unit: 'x' },
+                          { label: 'Opacity', key: 'lineOpacity', min: 0, max: 1, step: 0.05, unit: '' },
+                          { label: 'Blur/Glow', key: 'lineBlur', min: 0, max: 20, step: 0.5, unit: 'px' },
+                          { label: 'Dash Pattern', key: 'lineDashArray', min: 0, max: 30, step: 1, unit: 'px' },
+                          { label: 'Flow Speed', key: 'lineFlowSpeed', min: 0, max: 10, step: 0.5, unit: 'x' },
+                        ]
+                      },
+                      {
+                        id: 'tooltips',
+                        label: 'Tooltips',
+                        icon: Type,
+                        controls: [
+                          { label: 'Accent Border', key: 'accentBorderWidth', min: 0, max: 20, step: 1, unit: 'px' },
+                        ]
+                      }
+                    ].map(renderTreeSection)}
                   </div>
-                )}
-              </div>
+                );
+              })()}
             </div>
           )}
 
