@@ -512,32 +512,52 @@ export const TreePanel = ({
           </RibbonGroup>
 
           <RibbonGroup label="Link Gradient">
-            <div className="grid grid-cols-3 gap-3 p-4 bg-white/[0.03] mx-1 rounded-2xl border border-white/5">
-              {[
-                { label: 'Start', key: 'lineColor', var: '--kilang-link-start' },
-                { label: 'Mid', key: 'lineColorMid', var: '--kilang-link-mid' },
-                { label: 'End', key: 'lineGradientEnd', var: '--kilang-link-end' }
-              ].map(col => (
-                <div key={col.key} className="flex flex-col items-center gap-2 group/linkcol">
-                  <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">{col.label}</span>
-                  <div className="relative w-10 h-10 flex items-center justify-center">
-                    <input
-                      type="color"
-                      value={getColorValue(layoutConfig[col.key])}
-                      onChange={(e) => {
-                        const color = e.target.value;
-                        dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: color } });
-                        updateVariable(col.var, color);
-                      }}
-                      className="absolute inset-0 opacity-0 cursor-pointer z-10"
-                    />
-                    <div
-                      className="w-10 h-10 rounded-xl border border-white/20 shadow-xl transition-transform group-hover/linkcol:scale-110"
-                      style={{ backgroundColor: getColorValue(layoutConfig[col.key]) }}
-                    />
+            <div className="flex bg-white/5 mx-1 mb-4 rounded-xl p-0.5 border border-white/5">
+              <button
+                onClick={() => {
+                  dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineThemeSync: true } });
+                  tsActions.resetVariables(['--kilang-link-start', '--kilang-link-mid', '--kilang-link-end']);
+                }}
+                className={`flex-1 py-1.5 rounded-lg text-[8px] font-black uppercase tracking-widest transition-all ${layoutConfig.lineThemeSync ? 'bg-white text-black shadow-lg' : 'text-white/40 hover:text-white/60'}`}
+              >
+                Theme
+              </button>
+              <button
+                onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineThemeSync: false } })}
+                className={`flex-1 py-1.5 rounded-lg text-[8px] font-black uppercase tracking-widest transition-all ${!layoutConfig.lineThemeSync ? 'bg-white text-black shadow-lg' : 'text-white/40 hover:text-white/60'}`}
+              >
+                Custom
+              </button>
+            </div>
+
+            <div className={`transition-all duration-500 ${layoutConfig.lineThemeSync ? 'opacity-30 pointer-events-none grayscale' : 'opacity-100'}`}>
+              <div className="grid grid-cols-3 gap-3 p-4 bg-white/[0.03] mx-1 rounded-2xl border border-white/5">
+                {[
+                  { label: 'Start', key: 'lineColor', var: '--kilang-link-start' },
+                  { label: 'Mid', key: 'lineColorMid', var: '--kilang-link-mid' },
+                  { label: 'End', key: 'lineGradientEnd', var: '--kilang-link-end' }
+                ].map(col => (
+                  <div key={col.key} className="flex flex-col items-center gap-2 group/linkcol">
+                    <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">{col.label}</span>
+                    <div className="relative w-10 h-10 flex items-center justify-center">
+                      <input
+                        type="color"
+                        value={getColorValue(layoutConfig[col.key])}
+                        onChange={(e) => {
+                          const color = e.target.value;
+                          dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: color } });
+                          updateVariable(col.var, color);
+                        }}
+                        className="absolute inset-0 opacity-0 cursor-pointer z-10"
+                      />
+                      <div
+                        className="w-10 h-10 rounded-xl border border-white/20 shadow-xl transition-transform group-hover/linkcol:scale-110"
+                        style={{ backgroundColor: getColorValue(layoutConfig[col.key]) }}
+                      />
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </RibbonGroup>
         </div>

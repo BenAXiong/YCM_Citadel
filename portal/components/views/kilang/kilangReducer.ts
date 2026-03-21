@@ -126,6 +126,7 @@ export interface KilangState {
     lineDashArray: number;
     lineFlowSpeed: number;
     nodeIntensity: number;
+    lineThemeSync: boolean;
     theme: string;
     fontFamily: string;
     fontSize: number;
@@ -287,6 +288,7 @@ export const initialState: KilangState = {
     lineDashArray: 0,
     lineFlowSpeed: 0,
     nodeIntensity: 1.0,
+    lineThemeSync: false,
     theme: 'kakarayan',
     fontFamily: 'Inter',
     fontSize: 14,

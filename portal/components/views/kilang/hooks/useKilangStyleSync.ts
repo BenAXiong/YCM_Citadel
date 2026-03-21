@@ -15,6 +15,7 @@ interface UseKilangStyleSyncProps {
     lineTension: number;
     lineDashArray: number;
     lineFlowSpeed: number;
+    lineThemeSync: boolean;
     fontFamily: string;
     fontSize: number;
   };
@@ -29,9 +30,9 @@ export const useKilangStyleSync = ({ layoutConfig }: UseKilangStyleSyncProps) =>
 
       // 1. Prepare Batch Mapping
       const mapping: Record<string, string> = {
-        '--kilang-link-start': layoutConfig.lineColor,
-        '--kilang-link-mid': layoutConfig.lineColorMid,
-        '--kilang-link-end': layoutConfig.lineGradientEnd,
+        '--kilang-link-start': layoutConfig.lineThemeSync ? 'var(--kilang-primary)' : layoutConfig.lineColor,
+        '--kilang-link-mid': layoutConfig.lineThemeSync ? 'var(--kilang-secondary)' : layoutConfig.lineColorMid,
+        '--kilang-link-end': layoutConfig.lineThemeSync ? 'var(--kilang-accent)' : layoutConfig.lineGradientEnd,
         '--kilang-link-width': `${layoutConfig.lineWidth}px`,
         '--kilang-link-opacity': layoutConfig.lineOpacity.toString(),
         '--kilang-link-blur': `${layoutConfig.lineBlur}px`,
@@ -51,7 +52,14 @@ export const useKilangStyleSync = ({ layoutConfig }: UseKilangStyleSyncProps) =>
         } catch (e) {}
       }
 
-      // 3. Inject/Update Style Tag (Unified with useThemeStudio)
+      // 3. Enforce theme-sync mode for links if active
+      if (layoutConfig.lineThemeSync) {
+        mapping['--kilang-link-start'] = 'var(--kilang-primary)';
+        mapping['--kilang-link-mid'] = 'var(--kilang-secondary)';
+        mapping['--kilang-link-end'] = 'var(--kilang-accent)';
+      }
+
+      // 4. Inject/Update Style Tag (Unified with useThemeStudio)
       let styleEl = document.getElementById('kilang-studio-overrides') as HTMLStyleElement;
       if (!styleEl) {
         styleEl = document.createElement('style');
@@ -87,6 +95,7 @@ export const useKilangStyleSync = ({ layoutConfig }: UseKilangStyleSyncProps) =>
     layoutConfig.lineTension,
     layoutConfig.lineDashArray,
     layoutConfig.lineFlowSpeed,
+    layoutConfig.lineThemeSync,
     layoutConfig.fontFamily,
     layoutConfig.fontSize
   ]);
