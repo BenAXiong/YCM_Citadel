@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Settings2, Activity, Layers, Info, ChevronRight, Eye, Share2 } from 'lucide-react';
+import { Settings2, Activity, Layers, Info, ChevronRight, Eye, EyeOff, Share2, ExternalLink, Maximize } from 'lucide-react';
 import { useKilangContext } from '../../KilangContext';
 import { DevToolItem } from '../DevToolItem';
 import { KilangState } from '../../kilangReducer';
@@ -21,6 +21,8 @@ export const EngineSettings = () => {
     showTreeTab, 
     showThemeBar, 
     showDevTools,
+    isFullView,
+    moveFullViewToCanvas,
     moveZoomToCanvas,
     moveGrowthToCanvas,
     moveCaptureToCanvas,
@@ -58,8 +60,39 @@ export const EngineSettings = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  const toggleCanvasControls = () => {
+    // If any are hidden from header (on canvas), move all back to header.
+    const anyOnCanvas = moveZoomToCanvas || moveGrowthToCanvas || moveCaptureToCanvas || moveChainToCanvas;
+    dispatch({ 
+      type: 'SET_UI', 
+      moveZoomToCanvas: !anyOnCanvas,
+      moveGrowthToCanvas: !anyOnCanvas,
+      moveCaptureToCanvas: !anyOnCanvas,
+      moveChainToCanvas: !anyOnCanvas
+    });
+  };
+
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-2 sm:gap-4">
+      {state.showFloatingPalette && (
+        <button
+          onClick={() => {
+            window.open(`${window.location.origin}/kilang?standalone=themebar`, '_blank', 'width=340,height=800');
+          }}
+          className="flex items-center justify-center w-9 h-9 rounded-xl border border-[var(--kilang-border-std)] bg-[var(--kilang-bg-base)]/40 text-[var(--kilang-text-muted)] hover:border-[var(--kilang-primary-border)] hover:text-[var(--kilang-text)] transition-all active:scale-95"
+          title="Pop Out Palette"
+        >
+          <ExternalLink className="w-5 h-5" />
+        </button>
+      )}
+
+      <button
+        onClick={() => dispatch({ type: 'SET_UI', hideCanvasControls: !state.hideCanvasControls })}
+        className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all bg-[var(--kilang-bg-base)]/40 border-[var(--kilang-border-std)] hover:border-[var(--kilang-primary-border)] ${state.hideCanvasControls ? 'text-[var(--kilang-text-muted)] opacity-60' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
+        title={state.hideCanvasControls ? "Show All Controls" : "Hide All Controls"}
+      >
+        {state.hideCanvasControls ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
+      </button>
 
       <button
         onClick={() => setShowStatsOverlay(true)}
@@ -114,20 +147,27 @@ export const EngineSettings = () => {
             )}
             
             {/* How to Kilang Secondary Menu */}
-            <div className="mb-1">
+            <div 
+              className="mb-1 relative"
+              onMouseEnter={() => {
+                setShowHowToSub(true);
+                setShowViewSub(false);
+                setShowShareSub(false);
+                setShowDevSub(false);
+              }}
+            >
               <button
-                onClick={() => setShowHowToSub(!showHowToSub)}
                 className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group"
               >
                 <div className="flex items-center gap-2">
                   <Info className="w-3.5 h-3.5 text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-primary)]" />
                   <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">How to Kilang</span>
                 </div>
-                <ChevronRight className={`w-3 h-3 text-[var(--kilang-text-muted)] transition-transform ${showHowToSub ? 'rotate-90' : ''}`} />
+                <ChevronRight className={`w-3 h-3 text-[var(--kilang-text-muted)] transition-transform ${showHowToSub ? 'rotate-180' : ''}`} />
               </button>
 
               {showHowToSub && (
-                <div className="mt-1 ml-2 pl-2 border-l border-[var(--kilang-border-std)] space-y-1 animate-in slide-in-from-left-2 duration-200">
+                <div className="absolute right-full top-0 mr-2 w-56 bg-[var(--kilang-bg-base)]/95 backdrop-blur-2xl border border-[var(--kilang-border-std)] rounded-xl shadow-[var(--kilang-shadow-primary)] p-2 z-[5000] animate-in fade-in slide-in-from-right-2 duration-200">
                   <div className="relative group/tooltip-instr">
                     <button className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
                       <span className="text-[9px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Instructions</span>
@@ -161,54 +201,93 @@ export const EngineSettings = () => {
             </div>
 
             {/* View Secondary Menu */}
-            <div className="mb-1">
+            <div 
+              className="mb-1 relative"
+              onMouseEnter={() => {
+                setShowViewSub(true);
+                setShowHowToSub(false);
+                setShowShareSub(false);
+                setShowDevSub(false);
+              }}
+            >
               <button
-                onClick={() => setShowViewSub(!showViewSub)}
                 className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group"
               >
                 <div className="flex items-center gap-2">
                   <Eye className="w-3.5 h-3.5 text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-primary)]" />
                   <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">View</span>
                 </div>
-                <ChevronRight className={`w-3 h-3 text-[var(--kilang-text-muted)] transition-transform ${showViewSub ? 'rotate-90' : ''}`} />
+                <ChevronRight className={`w-3 h-3 text-[var(--kilang-text-muted)] transition-transform ${showViewSub ? 'rotate-180' : ''}`} />
               </button>
 
               {showViewSub && (
-                <div className="mt-1 ml-2 pl-2 border-l border-[var(--kilang-border-std)] space-y-1 animate-in slide-in-from-left-2 duration-200">
-                  <button onClick={() => dispatch({ type: 'SET_UI', showStats: !showStats })} className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
-                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Stats Bar</span>
+                <div className="absolute right-full top-0 mr-2 w-56 bg-[var(--kilang-bg-base)]/95 backdrop-blur-2xl border border-[var(--kilang-border-std)] rounded-xl shadow-[var(--kilang-shadow-primary)] p-2 z-[5000] animate-in fade-in slide-in-from-right-2 duration-200">
+                  <div className="px-3 py-1.5 border-b border-[var(--kilang-border-std)] mb-1">
+                    <span className="text-[7px] font-black uppercase text-[var(--kilang-text-muted)] tracking-[0.2em]">Hide/Show</span>
+                  </div>
+                  
+                  <button onClick={() => dispatch({ type: 'SET_UI', showStats: !showStats })} className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
+                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Stats</span>
                     <div className={`w-2 h-2 rounded-full border transition-all ${showStats ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)] shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
                   </button>
-                  <button onClick={() => dispatch({ type: 'SET_UI', showSidebarTooltips: !showSidebarTooltips })} className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
-                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Sidebar Tooltips</span>
+                  <button onClick={() => dispatch({ type: 'SET_UI', showSidebarTooltips: !showSidebarTooltips })} className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
+                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Filter tooltip</span>
                     <div className={`w-2 h-2 rounded-full border transition-all ${showSidebarTooltips ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)] shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
                   </button>
-                  <button onClick={() => dispatch({ type: 'SET_UI', showTreeTooltips: !showTreeTooltips })} className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
-                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Tree Tooltips</span>
+                  <button onClick={() => dispatch({ type: 'SET_UI', showTreeTooltips: !showTreeTooltips })} className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
+                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Tree tooltips</span>
                     <div className={`w-2 h-2 rounded-full border transition-all ${showTreeTooltips ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)] shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
                   </button>
-                  <button onClick={() => dispatch({ type: 'SET_UI', moveZoomToCanvas: !moveZoomToCanvas })} className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
-                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Zoom Controls</span>
-                    <div className={`w-2 h-2 rounded-full border transition-all ${moveZoomToCanvas ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)]/50 shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
+
+                  <div className="px-3 py-1.5 border-b border-[var(--kilang-border-std)] mt-2 mb-1">
+                    <span className="text-[7px] font-black uppercase text-[var(--kilang-text-muted)] tracking-[0.2em]">Header/Canvas switch</span>
+                  </div>
+
+                  <button onClick={() => dispatch({ type: 'SET_UI', moveChainToCanvas: !moveChainToCanvas })} className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
+                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Current Chain</span>
+                    <div className={`w-2 h-2 rounded-full border transition-all ${!moveChainToCanvas ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)] shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
+                  </button>
+                  <button onClick={() => dispatch({ type: 'SET_UI', moveGrowthToCanvas: !moveGrowthToCanvas })} className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
+                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Tree Growth</span>
+                    <div className={`w-2 h-2 rounded-full border transition-all ${moveGrowthToCanvas ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)] shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
+                  </button>
+                  <button onClick={() => dispatch({ type: 'SET_UI', moveZoomToCanvas: !moveZoomToCanvas })} className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
+                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Zoom controls</span>
+                    <div className={`w-2 h-2 rounded-full border transition-all ${moveZoomToCanvas ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)] shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
+                  </button>
+                  <button onClick={() => dispatch({ type: 'SET_UI', moveFullViewToCanvas: !moveFullViewToCanvas })} className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
+                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Full view</span>
+                    <div className={`w-2 h-2 rounded-full border transition-all ${moveFullViewToCanvas ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)] shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
+                  </button>
+                  <button onClick={() => dispatch({ type: 'SET_UI', moveCaptureToCanvas: !moveCaptureToCanvas })} className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group">
+                    <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Export</span>
+                    <div className={`w-2 h-2 rounded-full border transition-all ${moveCaptureToCanvas ? 'bg-[var(--kilang-primary)] border-[var(--kilang-primary-border)] shadow-[0_0_8px_var(--kilang-primary-glow)]' : 'border-[var(--kilang-border-std)]'}`} />
                   </button>
                 </div>
               )}
             </div>
 
             {/* Share Secondary Menu */}
-            <div className="mb-1">
+            <div 
+              className="mb-1 relative"
+              onMouseEnter={() => {
+                setShowShareSub(true);
+                setShowHowToSub(false);
+                setShowViewSub(false);
+                setShowDevSub(false);
+              }}
+            >
               <button
-                onClick={() => setShowShareSub(!showShareSub)}
                 className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group"
               >
                 <div className="flex items-center gap-2">
                   <Share2 className="w-3.5 h-3.5 text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-primary)]" />
                   <span className="text-[10px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Share</span>
                 </div>
-                <ChevronRight className={`w-3 h-3 text-[var(--kilang-text-muted)] transition-transform ${showShareSub ? 'rotate-90' : ''}`} />
+                <ChevronRight className={`w-3 h-3 text-[var(--kilang-text-muted)] transition-transform ${showShareSub ? 'rotate-180' : ''}`} />
               </button>
               {showShareSub && (
-                <div className="mt-1 ml-2 pl-2 border-l border-[var(--kilang-border-std)] space-y-1 animate-in slide-in-from-left-2 duration-200">
+                <div className="absolute right-full top-0 mr-2 w-56 bg-[var(--kilang-bg-base)]/95 backdrop-blur-2xl border border-[var(--kilang-border-std)] rounded-xl shadow-[var(--kilang-shadow-primary)] p-2 z-[5000] animate-in fade-in slide-in-from-right-2 duration-200">
                   <button className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group"><span className="text-[9px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Share Page</span></button>
                   <button className="flex items-center justify-between w-full px-3 py-1.5 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group"><span className="text-[9px] font-black uppercase text-[var(--kilang-text-muted)] group-hover:text-[var(--kilang-text)]">Share Kilang</span></button>
                 </div>
@@ -216,9 +295,16 @@ export const EngineSettings = () => {
             </div>
 
             {/* Dev Tools Secondary Menu */}
-            <div className="mt-2 pt-2 border-t border-[var(--kilang-border-std)]">
+            <div 
+              className="mt-2 pt-2 border-t border-[var(--kilang-border-std)]"
+              onMouseEnter={() => {
+                setShowDevSub(true);
+                setShowHowToSub(false);
+                setShowViewSub(false);
+                setShowShareSub(false);
+              }}
+            >
               <button
-                onClick={() => setShowDevSub(!showDevSub)}
                 className="flex items-center justify-between w-full px-3 py-2 rounded-lg hover:bg-[var(--kilang-ctrl-bg)] transition-all group bg-[var(--kilang-primary)]/5"
               >
                 <span className="text-[10px] font-black uppercase text-[var(--kilang-primary)] group-hover:text-[var(--kilang-primary-text)]">Dev Tools</span>

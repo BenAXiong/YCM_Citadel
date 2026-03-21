@@ -310,6 +310,8 @@ export const KilangCanvas = () => {
             showExportDropdown={showExportDropdown}
             handleExport={handleExport}
             dispatch={dispatch}
+            hideCanvasControls={state.hideCanvasControls}
+            moveFullViewToCanvas={state.moveFullViewToCanvas}
           />
 
           {/* Core Content Layer */}

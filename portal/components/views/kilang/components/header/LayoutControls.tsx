@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { ArrowRight, ArrowUp, LayoutGrid, Rows, Settings2, Maximize, Minimize } from 'lucide-react';
+import { ArrowRight, ArrowUp, LayoutGrid, Rows, Settings2 } from 'lucide-react';
 import { useKilangContext } from '../../KilangContext';
 import { LayoutDirection, LayoutArrangement, KilangState } from '../../kilangReducer';
 
@@ -22,7 +22,6 @@ export const LayoutControls = () => {
   const setDirection = (dir: LayoutDirection) => dispatch({ type: 'SET_LAYOUT', direction: dir });
   const setArrangement = (arr: LayoutArrangement) => dispatch({ type: 'SET_LAYOUT', arrangement: arr });
   const updateLayoutConfig = (config: Partial<KilangState['layoutConfig']>) => dispatch({ type: 'SET_LAYOUT_CONFIG', config });
-  const toggleFullView = () => dispatch({ type: 'SET_UI', isFullView: !isFullView });
 
   return (
     <div className="flex items-center gap-3 lg:gap-6">
@@ -62,20 +61,6 @@ export const LayoutControls = () => {
             title="Aligned (Chain Selection)"
           >
             <Rows className="w-3.5 h-3.5" />
-          </button>
-        </div>
-      </div>
-
-      {/* Full View Toggle */}
-      <div className="flex items-center gap-2.5">
-        <span className="text-[8px] font-black text-[var(--kilang-text-muted)] uppercase tracking-widest hidden lg:inline-block">View</span>
-        <div className="kilang-ctrl-container">
-          <button
-            onClick={toggleFullView}
-            className={`w-8 h-7 kilang-ctrl-btn ${isFullView ? 'kilang-ctrl-btn-active' : 'kilang-ctrl-btn-inactive'}`}
-            title={isFullView ? "Exit Immersive Full View" : "Enter Immersive Full View (Hide UI)"}
-          >
-            {isFullView ? <Minimize className="w-3.5 h-3.5" /> : <Maximize className="w-3.5 h-3.5" />}
           </button>
         </div>
       </div>

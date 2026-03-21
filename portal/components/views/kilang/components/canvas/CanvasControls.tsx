@@ -30,6 +30,8 @@ interface CanvasControlsProps {
   moveZoomToCanvas: boolean;
   moveGrowthToCanvas: boolean;
   moveCaptureToCanvas: boolean;
+  moveFullViewToCanvas: boolean;
+  hideCanvasControls: boolean;
   exportSettings: any;
   showExportDropdown: boolean;
   handleExport: () => Promise<void>;
@@ -51,6 +53,8 @@ export const CanvasControls: React.FC<CanvasControlsProps> = ({
   moveZoomToCanvas,
   moveGrowthToCanvas,
   moveCaptureToCanvas,
+  moveFullViewToCanvas,
+  hideCanvasControls,
   exportSettings,
   showExportDropdown,
   handleExport,
@@ -61,8 +65,8 @@ export const CanvasControls: React.FC<CanvasControlsProps> = ({
   return (
     <>
       {/* Top Left: Growth & Arrangement */}
-      {moveGrowthToCanvas && (
-        <div 
+      {moveGrowthToCanvas && !hideCanvasControls && (
+        <div
           className="absolute top-6 left-6 z-[100] flex flex-col gap-3 animate-in slide-in-from-top-2 duration-300"
           onMouseEnter={(e) => e.stopPropagation()}
           onMouseMove={(e) => e.stopPropagation()}
@@ -103,25 +107,27 @@ export const CanvasControls: React.FC<CanvasControlsProps> = ({
       )}
 
       {/* Top Right: Full View Toggle (Sync with Header) */}
-      <div 
-        className={`absolute z-[100] animate-in slide-in-from-top-2 duration-300 top-6 right-6`}
-        onMouseEnter={(e) => e.stopPropagation()}
-        onMouseMove={(e) => e.stopPropagation()}
-        onMouseOver={(e) => e.stopPropagation()}
-      >
-        <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-2xl w-fit">
-          <button
-            onClick={() => dispatch({ type: 'SET_UI', isFullView: !isFullView })}
-            className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFullView ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
-            title={isFullView ? "Exit Immersive Full View" : "Enter Immersive Full View (Hide UI)"}
-          >
-            {isFullView ? <Minimize className="w-3.5 h-3.5" /> : <Maximize className="w-3.5 h-3.5" />}
-          </button>
+      {moveFullViewToCanvas && !hideCanvasControls && (
+        <div
+          className={`absolute z-[100] animate-in slide-in-from-top-2 duration-300 top-6 right-6`}
+          onMouseEnter={(e) => e.stopPropagation()}
+          onMouseMove={(e) => e.stopPropagation()}
+          onMouseOver={(e) => e.stopPropagation()}
+        >
+          <div className="kilang-ctrl-container !bg-[var(--kilang-bg-base)]/70 backdrop-blur-xl border border-[var(--kilang-border-std)] !p-1 shadow-2xl w-fit">
+            <button
+              onClick={() => dispatch({ type: 'SET_UI', isFullView: !isFullView })}
+              className={`w-8 h-8 rounded-lg flex items-center justify-center transition-all ${isFullView ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+              title={isFullView ? "Exit Immersive Full View" : "Enter Immersive Full View (Hide UI)"}
+            >
+              {isFullView ? <Minimize className="w-3.5 h-3.5" /> : <Maximize className="w-3.5 h-3.5" />}
+            </button>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Bottom Left: Zoom Controls */}
-      {moveZoomToCanvas && (
+      {moveZoomToCanvas && !hideCanvasControls && (
         <div 
           className="absolute bottom-6 left-6 z-[110] animate-in slide-in-from-bottom-2 duration-300"
           onMouseEnter={(e) => e.stopPropagation()}
@@ -162,7 +168,7 @@ export const CanvasControls: React.FC<CanvasControlsProps> = ({
       )}
 
       {/* Bottom Right: Export HUD */}
-      {moveCaptureToCanvas && (
+      {moveCaptureToCanvas && !hideCanvasControls && (
         <KilangExportHUD
           exportSettings={exportSettings}
           showExportDropdown={showExportDropdown}
