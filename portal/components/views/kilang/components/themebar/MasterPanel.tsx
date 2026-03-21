@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Sliders, Maximize, Layers, Lightbulb, Zap } from 'lucide-react';
+import { Sliders, Maximize, Layers, Lightbulb, Zap, RotateCcw } from 'lucide-react';
 import { RibbonGroup, VariableControl } from './Shared';
 
 interface MasterPanelProps {
@@ -125,7 +125,13 @@ export const MasterPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Master Presets</span>
-          <Zap className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => tsActions.resetVariables(masters.flatMap(m => [...m.targets, ...(m.activeTargets || [])]))}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Master Presets"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="Master Tuning Controls">
@@ -140,7 +146,13 @@ export const MasterPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Geometric Radii</span>
-          <Layers className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => tsActions.resetVariables(structural.radii.map(v => v.name))}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Global Radii"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="Global Radii System">
@@ -155,7 +167,13 @@ export const MasterPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Global Scaling</span>
-          <Maximize className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => tsActions.resetVariables(structural.weights.map(v => v.name))}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Global Scaling & Weights"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="Global Scaling & Weights">

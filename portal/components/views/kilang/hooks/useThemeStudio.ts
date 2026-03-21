@@ -185,55 +185,90 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
   }, [layoutConfig, state, overrides, dispatch]);
 
   const handleReset = useCallback(() => {
-    if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
+    localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
+    localStorage.removeItem(`kilang-config-overrides-${layoutConfig.theme}`);
+    setOverrides({});
     
+    // Clear inline styles
     document.documentElement.setAttribute('style', '');
     const styleEl = document.getElementById('kilang-studio-overrides');
     if (styleEl) styleEl.innerHTML = '';
 
     const themeName = layoutConfig.theme;
-    const savedCSS = localStorage.getItem(`kilang-custom-theme-${themeName}`);
-    const savedConfig = localStorage.getItem(`kilang-config-overrides-${themeName}`);
     const preset = THEME_PRESETS.find(p => p.id === themeName);
 
-    if (savedCSS) {
-        const parsed = JSON.parse(savedCSS);
-        setOverrides(parsed);
-        applyThemeStyles(parsed);
-    } else {
-        setOverrides({});
-    }
-
-    if (savedConfig) {
-      const parsed = JSON.parse(savedConfig);
-      dispatch({ 
-        type: 'SYNC_HOLISTIC_THEME', 
-        theme: themeName, 
-        layoutConfig: parsed.layoutConfig, 
-        branding: { 
-            logoStyles: parsed.logoStyles, 
-            logoSettings: parsed.logoSettings, 
-            landingVersion: parsed.landingVersion 
-        } 
-      });
-    } else if (preset) {
+    if (preset) {
       dispatch({
         type: 'SYNC_HOLISTIC_THEME',
         theme: preset.id,
         layoutConfig: preset.config || {},
         branding: {
-          logoStyles: { 1: 'square', 2: 'round', 3: 'round' },
+          logoStyles: { 1: 'original', 2: 'round', 3: 'round' },
           logoSettings: {
-            1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: 'var(--kilang-primary)' },
-            2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.5, glowIntensity: 0.1, glowColor: 'var(--kilang-primary)' },
-            3: { scale: 1.6, radius: 44, xOffset: -320, opacity: 0.6, glowIntensity: 0.1, glowColor: 'var(--kilang-primary)' }
+            1: { scale: 1, radius: 45, xOffset: 0, opacity: 1.0, glowIntensity: 0, glowColor: preset.color || '#3b82f6' },
+            2: { scale: 1.35, radius: 30, xOffset: 0, opacity: 0.8, glowIntensity: 0.3, glowColor: preset.color || '#3b82f6' },
+            3: { scale: 1.6, radius: 44, xOffset: -320, opacity: 0.6, glowIntensity: 0.3, glowColor: preset.color || '#3b82f6' }
           },
           landingVersion: 2
         }
       });
     }
-    dispatch({ type: 'SET_TOAST', message: 'Theme Reloaded from Memory' });
+    dispatch({ type: 'SET_TOAST', message: 'Theme Hard-Reset to Default' });
   }, [layoutConfig.theme, dispatch]);
+
+  const resetVariables = useCallback((names: string[]) => {
+    const nextOverrides = { ...overrides };
+    names.forEach(n => delete nextOverrides[n]);
+    applyThemeStyles(nextOverrides);
+    setOverrides(nextOverrides);
+    localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(nextOverrides));
+    dispatch({ type: 'SET_TOAST', message: `${names.length} Variables Reset` });
+  }, [layoutConfig.theme, overrides, applyThemeStyles, dispatch]);
+
+  const randomizeTheme = useCallback(() => {
+    const randomHex = () => '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
+    const primary = randomHex();
+    const secondary = randomHex();
+    const accent = randomHex();
+    
+    const mapping: Record<string, string> = {
+      '--kilang-primary': primary,
+      '--kilang-secondary': secondary,
+      '--kilang-accent': accent,
+      '--kilang-primary-glow': primary,
+      '--kilang-secondary-glow': secondary,
+      '--kilang-accent-glow': accent,
+      '--kilang-bg-base': '#050505',
+      '--kilang-text': '#ffffff'
+    };
+
+    updateVariables(mapping);
+    dispatch({ type: 'SET_TOAST', message: 'Theme Inspired by Chaos' });
+  }, [updateVariables, dispatch]);
+
+  const resetAllOverrides = useCallback(() => {
+    setOverrides({});
+    applyThemeStyles({});
+    localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
+    dispatch({ type: 'SET_TOAST', message: 'All CSS Overrides Cleared' });
+  }, [layoutConfig.theme, applyThemeStyles, dispatch]);
+
+  const resetLayoutConfig = useCallback((keys: string[]) => {
+    const defaults: any = {
+      rootGap: 160, interTierGap: 300, interRowGap: 60, anchorX: 800, anchorY: 400,
+      spacingMode: 'log', coupleGaps: true, nodeSize: 1, nodeOpacity: 0.8, nodeWidth: 140,
+      nodePaddingY: 12, showIcons: true, rootBorderWidth: 1, accentBorderWidth: 1, branchBorderWidth: 1,
+      tier1Rounding: 30, tier2Rounding: 15, tier3Rounding: 15, tier4Rounding: 15, tier5Rounding: 15,
+      tier6Rounding: 15, tier7Rounding: 15, tier8Rounding: 15, tier9Rounding: 15,
+      lineWidth: 2, lineOpacity: 0.4, lineTension: 0.6, lineGapX: 0, lineGapY: 0,
+      lineBlur: 0, lineDashArray: 0, lineFlowSpeed: 0,
+      tier1Fill: 'rgba(255,255,255,0.05)', tier1Border: 'rgba(255,255,255,0.2)'
+    };
+    const update: any = {};
+    keys.forEach(k => { if (defaults[k] !== undefined) update[k] = defaults[k]; });
+    if (Object.keys(update).length) dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+    dispatch({ type: 'SET_TOAST', message: `${keys.length} Configs Reset` });
+  }, [dispatch]);
 
   const toggleSection = (id: string) => {
     setExpandedSections(prev => {
@@ -272,6 +307,10 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
       updateVariables,
       handleSave,
       handleReset,
+      resetAllOverrides,
+      resetVariables,
+      resetLayoutConfig,
+      randomizeTheme,
       toggleSection,
       toggleSubsection,
       setActiveBulbs,

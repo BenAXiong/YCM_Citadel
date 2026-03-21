@@ -43,8 +43,15 @@ export const TreePanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Spatial Geometry</span>
-          <Move className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => tsActions.resetLayoutConfig(['rootGap', 'interTierGap', 'interRowGap', 'anchorX', 'anchorY', 'spacingMode', 'coupleGaps'])}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Spatial Geometry"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
+        {/* ... rest of column 1 ... */}
         <div className="flex-1 overflow-y-auto custom-scrollbar p-1 pb-10">
           <RibbonGroup label="Spatial Gaps">
             <div className="grid grid-cols-2 gap-2 p-2 mx-1 mb-4 bg-white/[0.03] rounded-2xl border border-white/5">
@@ -110,7 +117,16 @@ export const TreePanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Node Characteristics</span>
-          <CircleDot className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => {
+              tsActions.resetLayoutConfig(['nodeSize', 'nodeOpacity', 'nodeWidth', 'nodePaddingY', 'showIcons', 'rootBorderWidth', 'accentBorderWidth', 'branchBorderWidth', 'tier1Rounding', 'tier2Rounding', 'tier3Rounding', 'tier4Rounding', 'tier5Rounding', 'tier6Rounding', 'tier7Rounding', 'tier8Rounding', 'tier9Rounding']);
+              tsActions.resetVariables(['--kilang-node-intensity']);
+            }}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Node Characteristics"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-1 pb-10">
           <RibbonGroup label="Node Dimensions">
@@ -216,7 +232,18 @@ export const TreePanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">The Tier Grid</span>
-          <PaletteIcon className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => {
+              const tierKeys = tiers.flatMap(t => [`tier${t}Fill`, `tier${t}Border`]);
+              const tierOverides = tiers.map(t => `--kilang-tier-${t}-text`);
+              tsActions.resetLayoutConfig(tierKeys);
+              tsActions.resetVariables(tierOverides);
+            }}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Tier Palette"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-0">
           <RibbonGroup label="Tier  Grid">
@@ -382,7 +409,16 @@ export const TreePanel = ({
       <div className="flex-1 min-w-[320px] max-w-[420px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Tree Connectors</span>
-          <Share2 className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => {
+              tsActions.resetLayoutConfig(['lineWidth', 'lineOpacity', 'lineTension', 'lineGapX', 'lineGapY', 'lineBlur', 'lineDashArray', 'lineFlowSpeed', 'lineColor', 'lineColorMid', 'lineGradientEnd']);
+              tsActions.resetVariables(['--kilang-link-width', '--kilang-link-opacity', '--kilang-link-tension', '--kilang-link-blur', '--kilang-link-dash', '--kilang-link-flow-speed', '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end']);
+            }}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Tree Connectors"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-1 pb-10">
           <RibbonGroup label="Path Configuration">

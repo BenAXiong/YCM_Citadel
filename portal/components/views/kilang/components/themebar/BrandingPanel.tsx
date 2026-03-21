@@ -30,7 +30,13 @@ export const BrandingPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Landing Experience</span>
-          <Monitor className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => setLandingVersion(2)}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Landing Version"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-1 pb-10">
           <RibbonGroup label="Landing Presets">
@@ -147,7 +153,16 @@ export const BrandingPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Identity Asset</span>
-          <Aperture className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => {
+              resetLogoSettings();
+              setLogoStyle('original');
+            }}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Identity Settings"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-1 pb-10">
           <RibbonGroup label="Header Logo Tuning">
@@ -171,7 +186,13 @@ export const BrandingPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Motion & State</span>
-          <RotateCcw className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => dispatch({ type: 'SET_TOAST', message: 'Motion Engine Reset' })} // Placeholder for motion reset
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Motion Engine"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-1 pb-10">
           <RibbonGroup label="Animation Control">

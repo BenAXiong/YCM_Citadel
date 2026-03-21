@@ -10,7 +10,8 @@ import {
   Sparkles,
   RotateCcw,
   Lightbulb,
-  Wand2
+  Wand2,
+  Share2
 } from 'lucide-react';
 import { useKilangContext } from '../../KilangContext';
 import { useThemeStudio } from '../../hooks/useThemeStudio';
@@ -76,9 +77,37 @@ export const ThemeStudioPopout = () => {
           ))}
         </div>
 
-        <div className="mt-auto flex flex-col gap-4">
-          <button className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-white hover:bg-white/5 transition-all">
-            <RotateCcw className="w-4 h-4" />
+        <div className="mt-auto flex flex-col gap-4 mb-4">
+          <button 
+            onClick={() => tsActions.randomizeTheme()}
+            className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-white hover:bg-white/5 transition-all group relative"
+            title="Randomize Theme (Inspired Chaos)"
+          >
+            <Sparkles className="w-4 h-4 group-hover:scale-110 transition-transform" />
+          </button>
+          
+          <button 
+            onClick={() => {
+              const json = JSON.stringify(tsState.overrides, null, 2);
+              navigator.clipboard.writeText(json);
+              dispatch({ type: 'SET_TOAST', message: 'Overrides JSON Copied to Clipboard' });
+            }}
+            className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-white hover:bg-white/5 transition-all group relative"
+            title="Export Overrides JSON"
+          >
+            <Share2 className="w-4 h-4 group-hover:scale-110 transition-transform" />
+          </button>
+
+          <button 
+            onClick={() => {
+              if (confirm('Are you sure you want to HARD RESET this theme to its original state? This will clear all your custom tuning pieces.')) {
+                tsActions.handleReset();
+              }
+            }}
+            className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-red-400 hover:bg-red-400/5 transition-all group relative"
+            title="Hard Reset Theme"
+          >
+            <RotateCcw className="w-4 h-4 group-hover:rotate-[-45deg] transition-all" />
           </button>
         </div>
       </div>
@@ -131,7 +160,7 @@ export const ThemeStudioPopout = () => {
               />
             )}
             {activeTab === 'typography' && (
-              <TypographyPanel dispatch={dispatch} layoutConfig={layoutConfig} />
+              <TypographyPanel tsActions={tsActions} dispatch={dispatch} layoutConfig={layoutConfig} />
             )}
             {activeTab === 'map' && (
               <div className="p-20 flex flex-col items-center justify-center h-full gap-8 bg-[#0a0a0a]">

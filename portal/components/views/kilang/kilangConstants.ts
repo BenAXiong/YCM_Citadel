@@ -91,7 +91,7 @@ export const THEME_PRESETS: ThemePreset[] = [
   },
   { id: 'picudadan', label: 'Picudadan', color: '#f63b3b', config: { lineColor: '#f63b3b', fontFamily: 'Inter' } },
   { id: 'rainbow', label: 'Rainbow', color: '#f63b3b', config: { lineColor: '#ff0000', fontFamily: 'Inter' } },
-  { id: '11', label: '11', color: '#3b82f6', config: { lineColor: '#3b82f6', fontFamily: 'Inter' } },
+  { id: '11', label: 'Noir', color: '#ffffff', config: { lineColor: '#000000', fontFamily: 'Inter' } },
   { id: '12', label: '12', color: '#3b82f6', config: { lineColor: '#3b82f6', fontFamily: 'Inter' } },
   { id: 'new', label: 'new', color: '#ffffff', config: { lineColor: '#ffffff', fontFamily: 'Inter' } }
 ];

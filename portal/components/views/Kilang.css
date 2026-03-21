@@ -155,6 +155,86 @@
   --kilang-link-flow-speed: 0;
 }
 
+[data-theme="11"] {
+  --kilang-bg-base: #ffffff;
+  --kilang-bg: #ffffff;
+  --kilang-card: #ffffff;
+  --kilang-primary-bg: #ffffff;
+  --kilang-secondary-bg: #ffffff;
+  --kilang-accent-bg: #ffffff;
+  --kilang-tooltip-bg: #ffffff;
+  --kilang-toast-bg: #ffffff;
+  --kilang-primary-glow: #ffffff;
+  --kilang-secondary-glow: #ffffff;
+  --kilang-accent-glow: #ffffff;
+  --kilang-ctrl-active: #ffffff;
+  --kilang-overlay-bg: #ffffff;
+  --kilang-input-bg: #ffffff;
+  --kilang-ctrl-bg: #ffffff;
+  --kilang-shadow-color: #ffffff;
+  --kilang-background-secondary: #ffffff;
+  --kilang-primary: #ffffff;
+  --kilang-secondary: #ffffff;
+  --kilang-accent: #ffffff;
+  --kilang-primary-active: #ffffff;
+  --kilang-tooltip-accent: #ffffff;
+  --kilang-resizer-hover: #ffffff;
+  --kilang-resizer-active: #ffffff;
+  --kilang-border: #000000;
+  --kilang-primary-border: #000000;
+  --kilang-secondary-border: #000000;
+  --kilang-accent-border: #000000;
+  --kilang-tooltip-border: #000000;
+  --kilang-toast-border: #000000;
+  --kilang-glass: #000000;
+  --kilang-border-std: #000000;
+  --kilang-ctrl-active-border: #000000;
+  --kilang-muted-border: #000000;
+  --kilang-scrollbar-border: #000000;
+  --kilang-text: #000000;
+  --kilang-text-muted: #000000;
+  --kilang-primary-text: #000000;
+  --kilang-secondary-text: #000000;
+  --kilang-accent-text: #000000;
+  --kilang-logo-text: #000000;
+  --kilang-ctrl-active-text: #000000;
+  --kilang-tooltip-text: #000000;
+  --kilang-toast-text: #000000;
+  --kilang-metric-text: #000000;
+  --kilang-link-start: #000000;
+  --kilang-link-mid: #000000;
+  --kilang-link-end: #000000;
+  --kilang-tier-1-fill: #000000;
+  --kilang-tier-2-fill: #000000;
+  --kilang-tier-3-fill: #000000;
+  --kilang-tier-4-fill: #000000;
+  --kilang-tier-5-fill: #000000;
+  --kilang-tier-6-fill: #000000;
+  --kilang-tier-7-fill: #000000;
+  --kilang-tier-8-fill: #000000;
+  --kilang-tier-9-fill: #000000;
+  --kilang-tier-1-border: #000000;
+  --kilang-tier-2-border: #000000;
+  --kilang-tier-3-border: #000000;
+  --kilang-tier-4-border: #000000;
+  --kilang-tier-5-border: #000000;
+  --kilang-tier-6-border: #000000;
+  --kilang-tier-7-border: #000000;
+  --kilang-tier-8-border: #000000;
+  --kilang-tier-9-border: #000000;
+  --kilang-tier-1-text: #000000;
+  --kilang-tier-2-text: #000000;
+  --kilang-tier-3-text: #000000;
+  --kilang-tier-4-text: #000000;
+  --kilang-tier-5-text: #000000;
+  --kilang-tier-6-text: #000000;
+  --kilang-tier-7-text: #000000;
+  --kilang-tier-8-text: #000000;
+  --kilang-tier-9-text: #000000;
+  --kilang-node-intensity: 0;
+  --kilang-link-dash: 9;
+}
+
 @keyframes link-flow {
   from {
     stroke-dashoffset: 100;

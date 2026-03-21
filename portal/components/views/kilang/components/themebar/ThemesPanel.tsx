@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Palette, Layers, Type, Zap, BoxSelect, Lightbulb } from 'lucide-react';
+import { Palette, Layers, Type, Zap, BoxSelect, Lightbulb, RotateCcw } from 'lucide-react';
 import { RibbonNav, RibbonGroup, VariableControl } from './Shared';
 
 interface ThemesPanelProps {
@@ -202,7 +202,13 @@ export const ThemesPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">UI Surfaces</span>
-          <Palette className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => tsActions.resetVariables(groupVars.surfaces.map(v => v.name))}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Surfaces & Glows"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="UI Surfaces & Glows">
@@ -217,7 +223,13 @@ export const ThemesPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Outlines & Glass</span>
-          <BoxSelect className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => tsActions.resetVariables(groupVars.borders.map(v => v.name))}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Outlines & Glass"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="Outlines & Glass Filters">
@@ -232,7 +244,13 @@ export const ThemesPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Typography Colors</span>
-          <Type className="w-3.5 h-3.5 text-white/20" />
+          <button 
+            onClick={() => tsActions.resetVariables(groupVars.texts.map(v => v.name))}
+            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+            title="Reset Typography Colors"
+          >
+            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="Typography & Elements">
