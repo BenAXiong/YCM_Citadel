@@ -125,11 +125,7 @@ export default function KilangView({
   if (isStandalone) {
     return (
       <KilangProvider value={contextValue}>
-        <ThemeStudioPopout
-          dispatch={dispatch}
-          layoutConfig={state.layoutConfig}
-          state={state}
-        />
+        <ThemeStudioPopout />
       </KilangProvider>
     );
   }

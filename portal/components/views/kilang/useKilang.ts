@@ -29,7 +29,7 @@ export const useKilang = () => {
         try {
           const parsed = JSON.parse(savedTheme);
           // 🛡️ Safe Merge: Prevent partial objects from wiping defaults
-          if (parsed.theme) initialUI.theme = parsed.theme;
+          if (parsed.theme) (initialUI as any).theme = parsed.theme;
           if (parsed.showThemeBar !== undefined) initialUI.showThemeBar = parsed.showThemeBar;
           if (parsed.showFloatingPalette !== undefined) initialUI.showFloatingPalette = parsed.showFloatingPalette;
           if (parsed.landingVersion) initialUI.landingVersion = parsed.landingVersion;
@@ -39,9 +39,10 @@ export const useKilang = () => {
           }
           if (parsed.logoSettings) {
              // Merge each version explicitly
+             initialUI.logoSettings = initialUI.logoSettings || { ...initialState.logoSettings };
              [1, 2, 3].forEach(v => {
                if (parsed.logoSettings[v]) {
-                 initialUI.logoSettings[v] = { ...initialUI.logoSettings[v], ...parsed.logoSettings[v] };
+                 initialUI.logoSettings![v] = { ...initialUI.logoSettings![v], ...parsed.logoSettings[v] };
                }
              });
           }
