@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Aperture, Monitor, RotateCcw, Play, Layers, Sidebar as SidebarIcon } from 'lucide-react';
+import { Aperture, Monitor, RotateCcw, Play, Layers, Sidebar as SidebarIcon, Dices, Copy, Check } from 'lucide-react';
 import { RibbonNav, RibbonGroup, VariableControl } from './Shared';
 
 interface BrandingPanelProps {
@@ -21,6 +21,19 @@ export const BrandingPanel = ({
 }: BrandingPanelProps) => {
   const { landingVersion, logoStyle, logoSettings } = tsState;
   const { setLandingVersion, setLogoStyle, updateLogoSettings, resetLogoSettings } = tsActions;
+
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyConfig = () => {
+    const config = {
+      threadPeriod: layoutConfig.threadPeriod,
+      threadLength: layoutConfig.threadLength,
+      threads: layoutConfig.threads
+    };
+    navigator.clipboard.writeText(JSON.stringify(config, null, 2));
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   const currentSettings = logoSettings || {};
 
@@ -186,13 +199,33 @@ export const BrandingPanel = ({
       <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
         <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
           <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Animations</span>
-          <button 
-            onClick={() => dispatch({ type: 'RESET_THREADS' })}
-            className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
-            title="Reset All Threads"
-          >
-            <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
-          </button>
+          <div className="flex items-center gap-1">
+            <button 
+              onClick={handleCopyConfig}
+              className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/copy"
+              title="Copy Config to Clipboard"
+            >
+              {copied ? (
+                <Check className="w-3.5 h-3.5 text-green-400" />
+              ) : (
+                <Copy className="w-3.5 h-3.5 group-hover:scale-110 transition-all" />
+              )}
+            </button>
+            <button 
+              onClick={() => dispatch({ type: 'RANDOMIZE_THREADS' })}
+              className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/random"
+              title="Randomize All Threads"
+            >
+              <Dices className="w-3.5 h-3.5 group-hover:scale-110 group-hover:rotate-12 transition-all" />
+            </button>
+            <button 
+              onClick={() => dispatch({ type: 'RESET_THREADS' })}
+              className="p-1.5 rounded-lg hover:bg-white/10 text-white/10 hover:text-white transition-all group/reset"
+              title="Reset All Threads"
+            >
+              <RotateCcw className="w-3.5 h-3.5 group-hover:rotate-[-45deg] transition-all" />
+            </button>
+          </div>
         </div>
         <div className="flex-1 overflow-y-auto custom-scrollbar p-1 pb-10">
           <RibbonGroup label="Global Controls">
@@ -203,22 +236,40 @@ export const BrandingPanel = ({
               type="number"
               min={8} max={256} step={1}
             />
+            <VariableControl 
+              label="Total Length" 
+              value={layoutConfig.threadLength ?? 256} 
+              onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { threadLength: parseFloat(v) } })} 
+              type="number"
+              min={64} max={1200} step={4}
+            />
           </RibbonGroup>
 
           {layoutConfig.threads?.map((thread: any, idx: number) => (
-            <div key={idx} className="mb-4">
-              <div className="px-5 py-2 flex items-center gap-2">
-                <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: thread.color }} />
-                <span className="text-[10px] font-black uppercase tracking-widest text-white/30">Strand {idx + 1}</span>
+            <div key={idx} className="mb-1 border-b border-white/[0.03] transition-all last:border-0 hover:bg-white/[0.01]">
+              <div className="px-5 py-1.5 flex items-center justify-between group/strand">
+                <div className="flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full" style={{ backgroundColor: thread.color }} />
+                  <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30 group-hover:text-white/60 transition-colors">Strand {idx + 1}</span>
+                </div>
+                
+                <div className="relative flex items-center">
+                  <input
+                    type="color"
+                    value={thread.color}
+                    onChange={(e) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { color: e.target.value } })}
+                    className="w-4 h-4 bg-transparent border-0 cursor-pointer opacity-0 absolute inset-0 z-10"
+                  />
+                  <div
+                    className="w-4 h-4 rounded border border-white/20 group-hover/strand:border-white/40 transition-all shadow-lg"
+                    style={{ backgroundColor: thread.color }}
+                  />
+                </div>
               </div>
-              <div className="bg-white/[0.02] border-y border-white/[0.03] py-2">
+
+              <div className="pb-2 space-y-0.5">
                 <VariableControl 
-                  label="Color" 
-                  value={thread.color} 
-                  onChange={(v) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { color: v } })} 
-                  type="color"
-                />
-                <VariableControl 
+                  dense
                   label="Amplitude" 
                   value={thread.amplitude} 
                   onChange={(v) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { amplitude: parseFloat(v) } })} 
@@ -226,6 +277,7 @@ export const BrandingPanel = ({
                   min={-32} max={32} step={0.5}
                 />
                 <VariableControl 
+                  dense
                   label="Thickness" 
                   value={thread.width} 
                   onChange={(v) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { width: parseFloat(v) } })} 
@@ -233,6 +285,7 @@ export const BrandingPanel = ({
                   min={0.2} max={10} step={0.1}
                 />
                 <VariableControl 
+                  dense
                   label="Complexity" 
                   value={thread.complexity} 
                   onChange={(v) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { complexity: parseFloat(v) } })} 
@@ -240,6 +293,7 @@ export const BrandingPanel = ({
                   min={0} max={40} step={1}
                 />
                 <VariableControl 
+                  dense
                   label="Orbit" 
                   value={thread.orbit} 
                   onChange={(v) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { orbit: parseFloat(v) } })} 
@@ -247,6 +301,7 @@ export const BrandingPanel = ({
                   min={0} max={20} step={0.1}
                 />
                 <VariableControl 
+                  dense
                   label="Opacity" 
                   value={thread.opacity} 
                   onChange={(v) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { opacity: parseFloat(v) } })} 
@@ -254,11 +309,20 @@ export const BrandingPanel = ({
                   min={0} max={1} step={0.05}
                 />
                 <VariableControl 
+                  dense
                   label="Speed" 
                   value={thread.speed} 
                   onChange={(v) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { speed: parseFloat(v) } })} 
                   type="number"
                   min={0.1} max={20} step={0.1}
+                />
+                <VariableControl 
+                  dense
+                  label="Phase" 
+                  value={thread.phase} 
+                  onChange={(v) => dispatch({ type: 'SET_THREAD_CONFIG', index: idx, config: { phase: parseFloat(v) } })} 
+                  type="number"
+                  min={0} max={6.28} step={0.01}
                 />
               </div>
             </div>

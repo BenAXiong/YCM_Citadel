@@ -16,6 +16,7 @@ export interface ThreadConfig {
   orbit: number;
   opacity: number;
   speed: number;
+  phase: number;
   color: string;
 }
 
@@ -138,6 +139,7 @@ export interface KilangState {
     nodeIntensity: number;
     lineThemeSync: boolean;
     threadPeriod: number;
+    threadLength: number;
     threads: ThreadConfig[];
     theme: string;
     fontFamily: string;
@@ -184,6 +186,7 @@ export type KilangAction =
   | { type: 'SET_TOAST', message: string | null }
   | { type: 'SET_THREAD_CONFIG'; index: number; config: Partial<ThreadConfig> }
   | { type: 'RESET_THREADS' }
+  | { type: 'RANDOMIZE_THREADS' }
   | { type: 'SET_AFFIX_STATE'; state: Partial<KilangState['affixState']> }
   | { type: 'HYDRATE_STATE'; state: Partial<KilangState> }
   | { type: 'SYNC_STATE', state: Partial<KilangState> }
@@ -276,17 +279,17 @@ export const initialState: KilangState = {
     lineColorMid: '#06b6d4',
     lineGradientEnd: '#8b5cf6',
     showIcons: false,
-    threadAmplitude: 12,
     threadPeriod: 32,
+    threadLength: 256,
     threads: [
-      { amplitude: 12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 4, color: '#60a5fa' },
-      { amplitude: -12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 5.2, color: '#818cf8' },
-      { amplitude: 10, width: 1.8, complexity: 12, orbit: 4, opacity: 0.7, speed: 3.5, color: '#34d399' },
-      { amplitude: -10, width: 1.8, complexity: 14, orbit: 4, opacity: 0.7, speed: 4.8, color: '#fbbf24' },
-      { amplitude: 8, width: 1.5, complexity: 8, orbit: 2.5, opacity: 0.5, speed: 6, color: '#f472b6' },
-      { amplitude: -8, width: 1.2, complexity: 16, orbit: 3, opacity: 0.6, speed: 4.2, color: '#a78bfa' },
-      { amplitude: 14, width: 2, complexity: 6, orbit: 5, opacity: 0.4, speed: 7, color: '#f87171' },
-      { amplitude: -14, width: 1.5, complexity: 20, orbit: 4.5, opacity: 0.5, speed: 3.8, color: '#fb7185' },
+      { amplitude: 12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 4, phase: 0, color: '#60a5fa' },
+      { amplitude: -12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 5.2, phase: 0.78, color: '#818cf8' },
+      { amplitude: 10, width: 1.8, complexity: 12, orbit: 4, opacity: 0.7, speed: 3.5, phase: 1.57, color: '#34d399' },
+      { amplitude: -10, width: 1.8, complexity: 14, orbit: 4, opacity: 0.7, speed: 4.8, phase: 2.35, color: '#fbbf24' },
+      { amplitude: 8, width: 1.5, complexity: 8, orbit: 2.5, opacity: 0.5, speed: 6, phase: 3.14, color: '#f472b6' },
+      { amplitude: -8, width: 1.2, complexity: 16, orbit: 3, opacity: 0.6, speed: 4.2, phase: 3.92, color: '#a78bfa' },
+      { amplitude: 14, width: 2, complexity: 6, orbit: 5, opacity: 0.4, speed: 7, phase: 4.71, color: '#f87171' },
+      { amplitude: -14, width: 1.5, complexity: 20, orbit: 4.5, opacity: 0.5, speed: 3.8, phase: 5.49, color: '#fb7185' },
     ],
     nodeWidth: 100,
     nodePaddingY: 8,
@@ -492,18 +495,35 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         layoutConfig: {
           ...state.layoutConfig,
           threadPeriod: 32,
+          threadLength: 256,
           threads: [
-            { amplitude: 12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 4, color: '#60a5fa' },
-            { amplitude: -12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 5.2, color: '#818cf8' },
-            { amplitude: 10, width: 1.8, complexity: 12, orbit: 4, opacity: 0.7, speed: 3.5, color: '#34d399' },
-            { amplitude: -10, width: 1.8, complexity: 14, orbit: 4, opacity: 0.7, speed: 4.8, color: '#fbbf24' },
-            { amplitude: 8, width: 1.5, complexity: 8, orbit: 2.5, opacity: 0.5, speed: 6, color: '#f472b6' },
-            { amplitude: -8, width: 1.2, complexity: 16, orbit: 3, opacity: 0.6, speed: 4.2, color: '#a78bfa' },
-            { amplitude: 14, width: 2, complexity: 6, orbit: 5, opacity: 0.4, speed: 7, color: '#f87171' },
-            { amplitude: -14, width: 1.5, complexity: 20, orbit: 4.5, opacity: 0.5, speed: 3.8, color: '#fb7185' },
+            { amplitude: 12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 4, phase: 0, color: '#60a5fa' },
+            { amplitude: -12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 5.2, phase: 0.78, color: '#818cf8' },
+            { amplitude: 10, width: 1.8, complexity: 12, orbit: 4, opacity: 0.7, speed: 3.5, phase: 1.57, color: '#34d399' },
+            { amplitude: -10, width: 1.8, complexity: 14, orbit: 4, opacity: 0.7, speed: 4.8, phase: 2.35, color: '#fbbf24' },
+            { amplitude: 8, width: 1.5, complexity: 8, orbit: 2.5, opacity: 0.5, speed: 6, phase: 3.14, color: '#f472b6' },
+            { amplitude: -8, width: 1.2, complexity: 16, orbit: 3, opacity: 0.6, speed: 4.2, phase: 3.92, color: '#a78bfa' },
+            { amplitude: 14, width: 2, complexity: 6, orbit: 5, opacity: 0.4, speed: 7, phase: 4.71, color: '#f87171' },
+            { amplitude: -14, width: 1.5, complexity: 20, orbit: 4.5, opacity: 0.5, speed: 3.8, phase: 5.49, color: '#fb7185' },
           ]
         }
       };
+    case 'RANDOMIZE_THREADS': {
+      const nextThreads = state.layoutConfig.threads.map(() => ({
+        amplitude: Number((Math.random() * 50 - 25).toFixed(1)),
+        width: Number((Math.random() * 5.5 + 0.5).toFixed(1)),
+        complexity: Math.floor(Math.random() * 28) + 2,
+        orbit: Number((Math.random() * 12).toFixed(1)),
+        opacity: Number((Math.random() * 0.7 + 0.3).toFixed(2)),
+        speed: Number((Math.random() * 10 + 2).toFixed(1)),
+        phase: Number((Math.random() * 6.28).toFixed(2)),
+        color: `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`
+      }));
+      return {
+        ...state,
+        layoutConfig: { ...state.layoutConfig, threads: nextThreads }
+      };
+    }
     case 'SET_CANVAS_HOVER':
       return { ...state, canvasHoverNode: action.node };
     case 'SET_CANVAS_SELECT':
