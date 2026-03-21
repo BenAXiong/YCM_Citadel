@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import { THEME_VARS } from '../kilangConstants';
 
 interface UseKilangStyleSyncProps {
   layoutConfig: {
@@ -42,18 +43,29 @@ export const useKilangStyleSync = ({ layoutConfig }: UseKilangStyleSyncProps) =>
     layoutConfig.lineFlowSpeed
   ]);
 
-  // 2. Real-time CSS Variable Syncing (Master Link)
+  // 2. Real-time CSS Variable Syncing & Custom Theme Loading
   useEffect(() => {
     const applyOverrides = () => {
       const themeName = layoutConfig.theme;
+      
+      const root = document.documentElement;
+      const themedEl = document.querySelector('[data-theme]');
+
+      // 1. Clear all existing inline overrides first to prevent theme contamination
+      THEME_VARS.forEach(v => {
+        root.style.removeProperty(v);
+        if (themedEl) (themedEl as HTMLElement).style.removeProperty(v);
+      });
+
+      // 2. Map standard theme data-theme attribute
+      if (themedEl) themedEl.setAttribute('data-theme', themeName);
+
+      // 3. Load theme-specific overrides from localStorage
       const saved = localStorage.getItem(`kilang-custom-theme-${themeName}`);
       if (!saved) return;
       
       try {
         const parsed = JSON.parse(saved);
-        const root = document.documentElement;
-        const themedEl = document.querySelector('[data-theme]');
-        
         Object.entries(parsed).forEach(([key, val]) => {
           root.style.setProperty(key, val as string);
           if (themedEl) (themedEl as HTMLElement).style.setProperty(key, val as string);

@@ -13,7 +13,7 @@ export const SourceSelector = () => {
   const setSourceFilter = (filter: string) => dispatch({ type: 'SET_CONFIG', sourceFilter: filter });
 
   return (
-    <div className="flex items-center gap-3 lg:gap-8 pl-10 pr-2 h-full">
+    <div className="flex items-center gap-3 lg:gap-8 px-2 h-full">
       {/* Consolidated Source & Mode Dropdown */}
       <div className="relative group flex h-8 bg-[var(--kilang-ctrl-bg)] border border-[var(--kilang-border-std)] rounded-lg p-0.5 items-stretch">
         <button

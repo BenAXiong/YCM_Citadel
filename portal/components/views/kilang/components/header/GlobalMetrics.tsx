@@ -12,7 +12,7 @@ export const GlobalMetrics = () => {
   if (!stats || !showStats) return null;
 
   return (
-    <div className="flex items-center gap-1 sm:gap-2 shrink-0">
+    <div className="flex items-center gap-1 sm:gap-2 shrink-0 pl-6">
       <CompactMetric
         icon={<TrendingUp className="w-3 h-3" />}
         label="Flowers"

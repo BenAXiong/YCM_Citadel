@@ -41,7 +41,12 @@ export const useBroadcastSync = (
               searchTerm: state.searchTerm,
               branchFilter: state.branchFilter,
               morphMode: state.morphMode,
-              sourceFilter: state.sourceFilter
+              sourceFilter: state.sourceFilter,
+              landingVersion: state.landingVersion,
+              logoStyles: state.logoStyles,
+              logoSettings: state.logoSettings,
+              showThemeBar: state.showThemeBar,
+              showFloatingPalette: state.showFloatingPalette
             },
             source: 'main' 
           });
@@ -66,10 +71,27 @@ export const useBroadcastSync = (
           searchTerm: state.searchTerm,
           branchFilter: state.branchFilter,
           morphMode: state.morphMode,
-          sourceFilter: state.sourceFilter
+          sourceFilter: state.sourceFilter,
+          landingVersion: state.landingVersion,
+          logoStyles: state.logoStyles,
+          logoSettings: state.logoSettings,
+          showThemeBar: state.showThemeBar,
+          showFloatingPalette: state.showFloatingPalette
         },
         source: isStandalone ? 'popout' : 'main'
       });
     }
-  }, [state.layoutConfig.theme, state.layoutConfig, state.searchTerm, state.branchFilter, state.morphMode, state.sourceFilter]);
+  }, [
+    state.layoutConfig.theme,
+    state.layoutConfig,
+    state.searchTerm,
+    state.branchFilter,
+    state.morphMode,
+    state.sourceFilter,
+    state.landingVersion,
+    state.logoStyles,
+    state.logoSettings,
+    state.showThemeBar,
+    state.showFloatingPalette
+  ]);
 };

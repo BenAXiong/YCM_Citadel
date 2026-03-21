@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useCallback, useMemo, useReducer } from 'react';
+import { useEffect, useCallback, useMemo, useReducer, useRef } from 'react';
 import {
   reshapeDerivatives,
   calculateTreeRows,
@@ -15,32 +15,52 @@ export const useKilang = () => {
   const [state, dispatch] = useReducer(kilangReducer, initialState);
   const STORAGE_KEY = 'kilang_theme_settings';
 
-  // 0. Persistence (Load)
+  // 0a. Initialization & Initial Load
   useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      try {
-        const { landingVersion, logoStyles, logoSettings } = JSON.parse(saved);
-        dispatch({ type: 'SET_UI', landingVersion, logoStyles, logoSettings });
-      } catch (e) {
-        console.error("Failed to load theme settings:", e);
-      }
-    } else {
-      // Responsive Strategy: V1 for Mobile, V2 for Desktop (When no session exists)
+    if (typeof window !== 'undefined') {
       const isMobile = window.innerWidth < 1024;
       dispatch({ type: 'SET_UI', landingVersion: isMobile ? 1 : 2 });
     }
   }, []);
+
+  // Use a Ref to track the latest state for the storage listener closure
+  const latestStateRef = useRef(state);
+  useEffect(() => {
+    latestStateRef.current = state;
+  }, [state]);
 
   // 0b. Persistence (Save)
   useEffect(() => {
     const themeSettings = {
       landingVersion: state.landingVersion,
       logoStyles: state.logoStyles,
-      logoSettings: state.logoSettings
+      logoSettings: state.logoSettings,
+      showThemeBar: state.showThemeBar,
+      showFloatingPalette: state.showFloatingPalette,
+      theme: state.layoutConfig.theme // Use nested theme
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(themeSettings));
-  }, [state.landingVersion, state.logoStyles, state.logoSettings]);
+  }, [state.landingVersion, state.logoStyles, state.logoSettings, state.showThemeBar, state.showFloatingPalette, state.layoutConfig.theme]);
+
+  // 0c. Cross-Window Syncing (Handled by useBroadcastSync) - Removed Storage Event Listener to prevent loops
+  // 0d. Window Visibility Fix: Ensure we re-load latest from localStorage when returning to tab
+  useEffect(() => {
+    const handleFocus = () => {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        try {
+          const { landingVersion, logoStyles, logoSettings, showThemeBar, showFloatingPalette, theme } = JSON.parse(saved);
+          
+          // Only sync if there's a meaningful change (background update)
+          if (theme !== state.layoutConfig.theme) {
+             dispatch({ type: 'SET_UI', landingVersion, logoStyles, logoSettings, showThemeBar, showFloatingPalette, theme });
+          }
+        } catch (e) {}
+      }
+    };
+    window.addEventListener('focus', handleFocus);
+    return () => window.removeEventListener('focus', handleFocus);
+  }, [state.layoutConfig.theme]);
 
   // 1. Fetch Global Stats & Manifest
   useEffect(() => {

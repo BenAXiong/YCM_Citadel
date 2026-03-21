@@ -37,7 +37,7 @@ export const KilangDesktopLayout = ({
     handleExport,
     treeRef
   } = useKilangContext();
-  
+
   const {
     stats,
     selectedRoot,
@@ -54,7 +54,7 @@ export const KilangDesktopLayout = ({
     visibleChainsCount,
     isFullView,
   } = state;
-  
+
   const setScale = (s: number | ((prev: number) => number)) => {
     const val = typeof s === 'function' ? s(scale) : s;
     dispatch({ type: 'SET_TRANSFORM', scale: val });
@@ -66,7 +66,10 @@ export const KilangDesktopLayout = ({
   return (
     <div 
       className="kilang-container flex flex-col h-screen overflow-hidden"
-      style={{ '--sidebar-width': `${(state.sidebarCollapsed || isFullView) ? 0 : state.sidebarWidth}px` } as React.CSSProperties}
+      style={{ 
+        '--sidebar-width': `${(state.sidebarCollapsed || isFullView) ? 0 : state.sidebarWidth}px`,
+        '--right-sidebar-width': `${(state.rightSidebarCollapsed || isFullView) ? 0 : state.rightSidebarWidth}px`
+      } as React.CSSProperties}
     >
       {!isFullView && (
         <KilangHeader />

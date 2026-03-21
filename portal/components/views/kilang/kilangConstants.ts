@@ -9,6 +9,38 @@ export const MOE_SOURCES = [
   { id: 'old-s', label: 'Old-S (Legacy)', tooltip: 'Legacy archival data from earlier MOE collections. Preserved for comparative linguistic and historical analysis.' },
 ];
 
+export const THEME_VARS = [
+  // --- 14 SURFACES ---
+  '--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg',
+  '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow',
+  '--kilang-ctrl-active', '--kilang-overlay-bg', '--kilang-input-bg',
+  '--kilang-ctrl-bg', '--kilang-shadow-color',
+  '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent',
+  '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active',
+  '--kilang-radius-lg', '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end', '--kilang-link-opacity',
+
+  // --- 12 BORDERS ---
+  '--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border',
+  '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std',
+  '--kilang-ctrl-active-border', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border',
+  '--kilang-shadow-primary',
+
+  // --- 10 TEXT ---
+  '--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text',
+  '--kilang-logo-text', '--kilang-ctrl-active-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text',
+
+  // --- 27 TREE TIERS ---
+  '--kilang-tier-1-fill', '--kilang-tier-1-border', '--kilang-tier-1-text',
+  '--kilang-tier-2-fill', '--kilang-tier-2-border', '--kilang-tier-2-text',
+  '--kilang-tier-3-fill', '--kilang-tier-3-border', '--kilang-tier-3-text',
+  '--kilang-tier-4-fill', '--kilang-tier-4-border', '--kilang-tier-4-text',
+  '--kilang-tier-5-fill', '--kilang-tier-5-border', '--kilang-tier-5-text',
+  '--kilang-tier-6-fill', '--kilang-tier-6-border', '--kilang-tier-6-text',
+  '--kilang-tier-7-fill', '--kilang-tier-7-border', '--kilang-tier-7-text',
+  '--kilang-tier-8-fill', '--kilang-tier-8-border', '--kilang-tier-8-text',
+  '--kilang-tier-9-fill', '--kilang-tier-9-border', '--kilang-tier-9-text'
+];
+
 export const FILTER_BUCKETS = [
   { label: '1', min: 1, max: 1 },
   { label: '2', min: 2, max: 2 },

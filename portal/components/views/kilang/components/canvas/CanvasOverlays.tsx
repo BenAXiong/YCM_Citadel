@@ -46,16 +46,18 @@ export const CanvasOverlays: React.FC<CanvasOverlaysProps> = ({
         dispatch={dispatch}
       />
 
-      <KilangDimensionsOverlay
-        viewPos={viewPos}
-        treeRef={treeRef}
-        showDimensions={showDimensions}
-        rootPos={rootPos || null}
-        scale={scale}
-        isFit={isFit}
-        fitTransform={fitTransform}
-        forestBounds={forestBounds}
-      />
+      {showDimensions && (
+        <KilangDimensionsOverlay
+          viewPos={viewPos}
+          treeRef={treeRef}
+          showDimensions={showDimensions}
+          rootPos={rootPos || null}
+          scale={scale}
+          isFit={isFit}
+          fitTransform={fitTransform}
+          forestBounds={forestBounds}
+        />
+      )}
     </>
   );
 };

@@ -129,24 +129,29 @@ export default function KilangView({
           {isMobile ? (
             <KilangMobileLayout />
           ) : (
-            <KilangDesktopLayout />
+            <KilangDesktopLayout uiLang={uiLang} toggleUiLang={toggleUiLang} s={s} />
           )}
 
-          <ThemeBar
-            show={state.showThemeBar}
-            onClose={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
-            activeTab={state.themeBarTab}
-            setActiveTab={(t: 'themes' | 'landing' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: t })}
-            landingVersion={state.landingVersion}
-            setLandingVersion={(v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v })}
-            logoStyle={state.logoStyles[state.landingVersion]}
-            logoSettings={state.logoSettings[state.landingVersion]}
-            setLogoStyle={(s: 'original' | 'square' | 'round') => dispatch({ type: 'SET_UI', logoStyles: { [state.landingVersion]: s } })}
-            updateLogoSettings={(s: any) => dispatch({ type: 'SET_UI', logoSettings: { [state.landingVersion]: s } })}
-            resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
-            dispatch={dispatch}
-            layoutConfig={state.layoutConfig}
-          />
+          {state.showThemeBar && (
+            <ThemeBar
+              show={state.showThemeBar}
+              onClose={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
+              activeTab={state.themeBarTab}
+              setActiveTab={(t: 'themes' | 'landing' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: t })}
+              landingVersion={state.landingVersion}
+              setLandingVersion={(v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v })}
+              logoStyle={state.logoStyles[state.landingVersion]}
+              setLogoStyle={(s: 'original' | 'square' | 'round') => dispatch({ type: 'SET_UI', logoStyles: { ...state.logoStyles, [state.landingVersion]: s } })}
+              logoSettings={state.logoSettings[state.landingVersion]}
+              updateLogoSettings={(s: any) => dispatch({ type: 'SET_UI', logoSettings: { ...state.logoSettings, [state.landingVersion]: { ...state.logoSettings[state.landingVersion], ...s } } })}
+              resetLogoSettings={() => dispatch({ type: 'RESET_LOGO_SETTINGS', version: state.landingVersion })}
+              dispatch={dispatch}
+              layoutConfig={state.layoutConfig}
+            />
+          )}
+
+          {/* Assuming KilangDevMonitor is imported or defined elsewhere if needed */}
+          {/* {state.showDevTools && <KilangDevMonitor state={state} dispatch={dispatch} />} */}
         </SidebarProvider>
       </KilangProvider>
     </div>

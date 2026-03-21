@@ -60,7 +60,6 @@ export const EngineSettings = () => {
 
   return (
     <div className="flex items-center gap-4">
-      <div className="w-[1px] h-4 bg-[var(--kilang-border)] mx-1" />
 
       <button
         onClick={() => setShowStatsOverlay(true)}
@@ -234,6 +233,7 @@ export const EngineSettings = () => {
                   <DevToolItem label="Filter Panel" goal="Toggle root navigation." isOn={showFilterPanel} onClick={() => dispatch({ type: 'SET_UI', showFilterPanel: !showFilterPanel })} />
                   <DevToolItem label="Explorer Panel" goal="Toggle right sidebar." isOn={showRightSidebar} onClick={() => dispatch({ type: 'SET_UI', showRightSidebar: !showRightSidebar })} />
                   <DevToolItem label="Theme Bar" goal="Toggle theme settings." isOn={showThemeBar} onClick={() => dispatch({ type: 'SET_UI', showThemeBar: !showThemeBar })} />
+                  <DevToolItem label="Floating Palette" goal="Header hover presets." isOn={state.showFloatingPalette} onClick={() => dispatch({ type: 'SET_UI', showFloatingPalette: !state.showFloatingPalette })} />
                   <DevToolItem label="Visual Toolbox" goal="Manual layout adjustment." isOn={layoutConfig.showToolbox} onClick={() => updateLayoutConfig({ showToolbox: !layoutConfig.showToolbox })} />
                   
                   <div className="px-3 pt-3 pb-1 border-b border-[var(--kilang-border-std)] mt-1 mb-1">

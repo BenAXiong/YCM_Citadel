@@ -1,8 +1,8 @@
 'use client';
 
-import React from 'react';
 import { useKilangContext } from './KilangContext';
 import { WeavingPattern } from './WeavingPattern';
+import { ExternalLink } from 'lucide-react';
 
 // Modularized Components
 import { HeaderLogo } from './components/header/HeaderLogo';
@@ -19,7 +19,7 @@ export const KilangHeader = () => {
   const { selectedRoot } = state;
 
   return (
-    <header className="h-16 border-b border-[var(--kilang-border)] bg-[var(--kilang-bg-base)]/80 backdrop-blur-md flex items-center justify-between pl-0 pr-3 lg:pr-8 z-[150] shrink-0">
+    <header className="h-16 border-b border-[var(--kilang-border)] bg-[var(--kilang-bg-base)]/80 backdrop-blur-md flex items-center justify-between z-[150] shrink-0">
       <div className="flex items-center shrink-0 h-full">
         {/* 1. Brand Section (Static Sidebar Width) */}
         <div
@@ -29,11 +29,24 @@ export const KilangHeader = () => {
           <HeaderLogo />
           <div className="flex-1" />
           <QuickActions />
-          <div className="w-[1px] h-4 bg-[var(--kilang-border-std)] ml-4" />
+          <div className="w-[1px] h-4 bg-[var(--kilang-border-std)] ml-2" />
         </div>
 
-        {/* 2. Source Selection Section */}
-        <SourceSelector />
+        {/* Pop Out Palette Button - Right of Divider, Left of Sources */}
+        {state.showFloatingPalette && (
+          <button
+            onClick={() => {
+              window.open(`${window.location.origin}/kilang?standalone=themebar`, '_blank', 'width=340,height=800');
+            }}
+            className="p-2 transition-all hover:text-white text-[var(--kilang-text)] opacity-40 hover:opacity-100 active:scale-95"
+            title="Pop Out Palette"
+          >
+            <ExternalLink className="w-4 h-4" />
+          </button>
+        )}
+
+        {/* 2. Global Metrics Section (Moved to Left) */}
+        <GlobalMetrics />
       </div>
 
       {/* 3. Central Control Section (Layout, Zoom, Breadcrumbs) */}
@@ -52,10 +65,19 @@ export const KilangHeader = () => {
         <BreadcrumbPath />
       </div>
 
-      {/* 4. Statistics & Engine Settings */}
-      <div className="flex items-center gap-1 sm:gap-2 shrink-0">
-        <GlobalMetrics />
-        <EngineSettings />
+      {/* 4. Right Side Section (Source outside, Engine inside symmetrical anchor) */}
+      <div className="flex items-center h-full shrink-0">
+        <div className="flex items-center px-4">
+          <SourceSelector />
+        </div>
+        <div 
+          className="shrink-0 flex items-center h-full pr-[clamp(0.75rem,2vw,1.5rem)]" 
+          style={{ width: 'var(--right-sidebar-width, 328px)' }}
+        >
+          <div className="w-[1px] h-4 bg-[var(--kilang-border-std)]" />
+          <div className="flex-1" />
+          <EngineSettings />
+        </div>
       </div>
     </header>
   );

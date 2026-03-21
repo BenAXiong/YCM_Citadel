@@ -6,7 +6,7 @@ interface UseKilangExportProps {
   state: any;
   dispatch: (action: any) => void;
   nodeMap: any;
-  treeRef: React.RefObject<HTMLDivElement>;
+  treeRef: React.RefObject<HTMLDivElement | null>;
 }
 
 export const useKilangExport = ({
