@@ -20,6 +20,15 @@ export const useKilang = () => {
     if (typeof window !== 'undefined') {
       const isMobile = window.innerWidth < 1024;
       dispatch({ type: 'SET_UI', landingVersion: isMobile ? 1 : 2 });
+
+      // Load Tree Config
+      const savedTree = localStorage.getItem('kilang-tree-config');
+      if (savedTree) {
+        try {
+          const config = JSON.parse(savedTree);
+          dispatch({ type: 'SET_LAYOUT_CONFIG', config });
+        } catch (e) {}
+      }
     }
   }, []);
 
@@ -55,6 +64,14 @@ export const useKilang = () => {
           if (theme !== state.layoutConfig.theme) {
              dispatch({ type: 'SET_UI', landingVersion, logoStyles, logoSettings, showThemeBar, showFloatingPalette, theme });
           }
+        } catch (e) {}
+      }
+
+      const savedTree = localStorage.getItem('kilang-tree-config');
+      if (savedTree) {
+        try {
+          const config = JSON.parse(savedTree);
+          dispatch({ type: 'SET_LAYOUT_CONFIG', config });
         } catch (e) {}
       }
     };

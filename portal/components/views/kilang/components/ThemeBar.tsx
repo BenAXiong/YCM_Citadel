@@ -20,7 +20,13 @@ import {
   ChevronRight,
   Database,
   Lightbulb,
-  ExternalLink
+  ExternalLink,
+  SlidersHorizontal,
+  PencilLine,
+  Scaling,
+  Maximize2,
+  Zap,
+  ZapOff
 } from 'lucide-react';
 
 import { KilangAction, KilangState } from '../kilangReducer';
@@ -30,8 +36,8 @@ import { THEME_VARS } from '../kilangConstants';
 interface ThemeBarProps {
   show: boolean;
   onClose: () => void;
-  activeTab: 'themes' | 'landing' | 'fonts' | 'map';
-  setActiveTab: (tab: 'themes' | 'landing' | 'fonts' | 'map') => void;
+  activeTab: 'themes' | 'tree' | 'landing' | 'fonts' | 'map';
+  setActiveTab: (tab: 'themes' | 'tree' | 'landing' | 'fonts' | 'map') => void;
   landingVersion: number;
   setLandingVersion: (v: 1 | 2 | 3) => void;
   logoStyle: 'original' | 'square' | 'round';
@@ -314,8 +320,8 @@ export const ThemeBar = ({
           )}
         </button>
 
-        <div className="grid grid-cols-5 bg-white/[0.02] border-b border-white/10">
-          {(['themes', 'landing', 'fonts', 'map'] as const).map(tab => (
+        <div className="grid grid-cols-6 bg-white/[0.02] border-b border-white/10">
+          {(['themes', 'tree', 'landing', 'fonts', 'map'] as const).map(tab => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
@@ -324,6 +330,7 @@ export const ThemeBar = ({
             >
               <div className="flex flex-col items-center gap-1">
                 {tab === 'themes' && <Palette className="w-3.5 h-3.5" />}
+                {tab === 'tree' && <Layout className="w-3.5 h-3.5" />}
                 {tab === 'landing' && <Aperture className="w-3.5 h-3.5" />}
                 {tab === 'fonts' && <Type className="w-3.5 h-3.5" />}
                 {tab === 'map' && <Database className="w-3.5 h-3.5" />}
@@ -792,6 +799,262 @@ export const ThemeBar = ({
                         </span>
                       </div>
                     )}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'tree' && (
+            <div className="animate-in fade-in slide-in-from-right-4 duration-300 py-4 px-2 space-y-8">
+              <div className="flex items-center justify-between px-5 mb-2">
+                <h3 className="text-[11px] font-black uppercase tracking-[0.2em] text-white/40">Tree Configuration</h3>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => {
+                      if (confirm("Reset all tree layout and aesthetic settings to defaults?")) {
+                        dispatch({ type: 'RESET_LAYOUT_CONFIG' });
+                      }
+                    }}
+                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/reset"
+                    title="RESET TREE: Restores all layout, geometry, and tier aesthetics to defaults."
+                  >
+                    <RotateCcw className="w-3.5 h-3.5 group-hover/reset:rotate-[-45deg] transition-transform" />
+                  </button>
+                  <button
+                    onClick={() => {
+                      const config = layoutConfig;
+                      localStorage.setItem('kilang-tree-config', JSON.stringify(config));
+                      alert("Tree Configuration Saved!");
+                    }}
+                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/save"
+                    title="SAVE TREE: Persists current layout and aesthetic configuration."
+                  >
+                    <Save className="w-3.5 h-3.5 group-hover/save:scale-110 transition-transform" />
+                  </button>
+                </div>
+              </div>
+              {[
+                {
+                  id: 'spacing',
+                  label: 'Layout Spacing',
+                  icon: SlidersHorizontal,
+                  controls: [
+                    { label: 'Tier (H)', key: 'interTierGap', min: 10, max: 600, step: 10, unit: 'px' },
+                    { label: 'Row (V)', key: 'interRowGap', min: 10, max: 600, step: 5, unit: 'px' },
+                    { label: '0-1 Gap', key: 'rootGap', min: 0, max: 600, step: 10, unit: 'px' },
+                  ]
+                },
+                {
+                  id: 'paths',
+                  label: 'SVG Connections',
+                  icon: PencilLine,
+                  controls: [
+                    { label: 'Gap X', key: 'lineGapX', min: -100, max: 300, step: 5, unit: 'px' },
+                    { label: 'Gap Y', key: 'lineGapY', min: -100, max: 300, step: 5, unit: 'px' },
+                    { label: 'Thickness', key: 'lineWidth', min: 0.5, max: 12, step: 0.1, unit: 'px' },
+                    { label: 'Curvature', key: 'lineTension', min: 0, max: 2, step: 0.1, unit: 'x' },
+                    { label: 'Opacity', key: 'lineOpacity', min: 0, max: 1, step: 0.05, unit: '' },
+                    { label: 'Blur/Glow', key: 'lineBlur', min: 0, max: 20, step: 0.5, unit: 'px' },
+                    { label: 'Dash Pattern', key: 'lineDashArray', min: 0, max: 30, step: 1, unit: 'px' },
+                    { label: 'Flow Speed', key: 'lineFlowSpeed', min: 0, max: 10, step: 0.5, unit: 'x' },
+                  ]
+                },
+                {
+                  id: 'geometry',
+                  label: 'Node Geometry',
+                  icon: Scaling,
+                  controls: [
+                    { label: 'Size', key: 'nodeSize', min: 0.5, max: 2, step: 0.1, unit: 'x' },
+                    { label: 'Rounding', key: 'nodeRounding', min: 0, max: 50, step: 2, unit: 'px' },
+                    { label: 'Opacity', key: 'nodeOpacity', min: 0.1, max: 1, step: 0.05, unit: '' },
+                    { label: 'Word Width', key: 'nodeWidth', min: 80, max: 250, step: 5, unit: 'px' },
+                    { label: 'Vert Padding', key: 'nodePaddingY', min: 4, max: 32, step: 1, unit: 'px' },
+                  ]
+                },
+                {
+                  id: 'anchors',
+                  label: 'Root Anchor',
+                  icon: Maximize2,
+                  controls: [
+                    { label: 'X (px)', key: 'anchorX', min: 0, max: 2000, step: 10, unit: 'px' },
+                    { label: 'Y (px)', key: 'anchorY', min: 0, max: 2000, step: 10, unit: 'px' },
+                  ]
+                }
+              ].map((section) => (
+                <div key={section.id} className="space-y-3">
+                  <SectionHeader
+                    id={section.id}
+                    label={section.label}
+                    icon={section.icon}
+                    actions={
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const defaults: Record<string, any> = {
+                            spacing: { interTierGap: 80, interRowGap: 50, rootGap: 50, spacingMode: 'log', coupleGaps: false },
+                            paths: { lineGapX: 0, lineGapY: 0, lineWidth: 3, lineOpacity: 0.4, lineBlur: 0, lineTension: 1, lineDashArray: 0, lineFlowSpeed: 0 },
+                            geometry: { nodeSize: 1, nodeRounding: 16, nodeOpacity: 1, nodeWidth: 100, nodePaddingY: 8, showIcons: false },
+                            anchors: { anchorX: 2000, anchorY: 2000 }
+                          };
+                          if (defaults[section.id]) {
+                            dispatch({ type: 'SET_LAYOUT_CONFIG', config: defaults[section.id] });
+                          }
+                        }}
+                        className="p-1.5 rounded-lg hover:bg-white/10 text-white/20 hover:text-white transition-all"
+                        title={`Reset ${section.label} to defaults`}
+                      >
+                        <RotateCcw className="w-3 h-3" />
+                      </button>
+                    }
+                  />
+                  {expandedSections.has(section.id) && (
+                    <div className="bg-white/[0.03] rounded-[var(--kilang-radius-lg)] border border-white/10 overflow-hidden ml-2 pr-2">
+                      {section.controls.map((c) => (
+                        <div key={c.key} className="flex items-center justify-between py-2.5 px-4 group hover:bg-white/[0.02] transition-all border-b border-white/5 last:border-0">
+                          <span className="text-[10px] font-black uppercase tracking-widest text-white/50 group-hover:text-white/80 transition-colors">{c.label}</span>
+                          <div className="flex items-center gap-3">
+                            <input
+                              type="range"
+                              min={c.min}
+                              max={c.max}
+                              step={c.step}
+                              value={(layoutConfig as any)[c.key] || 0}
+                              onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [c.key]: parseFloat(e.target.value) } })}
+                              className="w-24 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:bg-white/10"
+                            />
+                            <span className="w-8 text-right text-[10px] font-mono text-white/30 group-hover:text-white transition-opacity">
+                              {(layoutConfig as any)[c.key]}
+                              <span className="text-[8px] ml-0.5 opacity-40">{c.unit}</span>
+                            </span>
+                          </div>
+                        </div>
+                      ))}
+                      {section.id === 'spacing' && (
+                        <>
+                          <div className="flex items-center justify-between py-2.5 px-4 bg-white/5 mt-1 border-t border-white/10">
+                            <span className="text-[9px] font-black uppercase text-white/30">Spacing Mode</span>
+                            <button 
+                              onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' } })} 
+                              className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-[var(--kilang-primary)] text-white' : 'text-white/40 hover:bg-white/5'}`}
+                            >
+                              {layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}
+                            </button>
+                          </div>
+                          <div className="flex items-center justify-between py-2.5 px-4 bg-white/5 border-t border-white/10">
+                            <span className="text-[9px] font-black uppercase text-white/30">Coupled Gaps</span>
+                            <button 
+                              onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { coupleGaps: !layoutConfig.coupleGaps } })} 
+                              className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.coupleGaps ? 'bg-[var(--kilang-primary)] text-white' : 'text-white/40 hover:bg-white/5'}`}
+                            >
+                              {layoutConfig.coupleGaps ? 'Coupled' : 'Decoupled'}
+                            </button>
+                          </div>
+                        </>
+                      )}
+                      {section.id === 'geometry' && (
+                        <div className="flex items-center justify-between py-2.5 px-4 bg-white/5 mt-1 border-t border-white/10">
+                          <span className="text-[9px] font-black uppercase text-white/30">Tree Icons</span>
+                          <button 
+                            onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { showIcons: !layoutConfig.showIcons } })} 
+                            className={`flex items-center gap-2 px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.showIcons ? 'bg-[var(--kilang-primary)] text-white' : 'text-white/40 hover:bg-white/5'}`}
+                          >
+                            {layoutConfig.showIcons ? <Zap className="w-3 h-3" /> : <ZapOff className="w-3 h-3" />}
+                            {layoutConfig.showIcons ? 'Visible' : 'Hidden'}
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              ))}
+
+              <div className="space-y-3">
+                <SectionHeader 
+                  id="colors" 
+                  label="Tier Aesthetics" 
+                  icon={Palette} 
+                  actions={
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        const tierDefaults: Record<string, any> = {};
+                        for (let i = 1; i <= 9; i++) {
+                          tierDefaults[`tier${i}Fill`] = `var(--kilang-tier-${i}-fill)`;
+                          tierDefaults[`tier${i}Border`] = `var(--kilang-tier-${i}-border)`;
+                        }
+                        tierDefaults.lineColor = 'var(--kilang-primary)';
+                        tierDefaults.lineColorMid = 'var(--kilang-secondary)';
+                        tierDefaults.lineGradientEnd = 'var(--kilang-accent)';
+                        dispatch({ type: 'SET_LAYOUT_CONFIG', config: tierDefaults });
+                      }}
+                      className="p-1.5 rounded-lg hover:bg-white/10 text-white/20 hover:text-white transition-all"
+                      title="Reset Colors to defaults"
+                    >
+                      <RotateCcw className="w-3 h-3" />
+                    </button>
+                  }
+                />
+                {expandedSections.has('colors') && (
+                  <div className="space-y-4 ml-2">
+                    {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((tier) => (
+                      <div key={tier} className="p-3 bg-white/[0.02] border border-white/10 rounded-2xl space-y-3">
+                        <span className="text-[9px] font-black uppercase tracking-widest text-[var(--kilang-primary)]">Tier {tier}</span>
+                        <div className="grid grid-cols-2 gap-3">
+                          <div className="flex flex-col gap-1.5">
+                            <span className="text-[8px] font-black uppercase text-white/30">Fill</span>
+                            <div className="flex items-center gap-2">
+                              <input
+                                type="color"
+                                value={(layoutConfig as any)[`tier${tier}Fill`]}
+                                onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Fill`]: e.target.value } })}
+                                className="w-6 h-6 rounded-lg bg-transparent border-0 cursor-pointer overflow-hidden p-0"
+                              />
+                              <input
+                                type="text"
+                                value={(layoutConfig as any)[`tier${tier}Fill`]}
+                                onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Fill`]: e.target.value } })}
+                                className="w-14 bg-transparent border-0 text-[10px] font-mono text-white/60 focus:text-white outline-none"
+                              />
+                            </div>
+                          </div>
+                          <div className="flex flex-col gap-1.5">
+                            <span className="text-[8px] font-black uppercase text-white/30">Border</span>
+                            <div className="flex items-center gap-2">
+                              <input
+                                type="color"
+                                value={(layoutConfig as any)[`tier${tier}Border`]}
+                                onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Border`]: e.target.value } })}
+                                className="w-6 h-6 rounded-lg bg-transparent border-0 cursor-pointer overflow-hidden p-0"
+                              />
+                              <input
+                                type="text"
+                                value={(layoutConfig as any)[`tier${tier}Border`]}
+                                onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Border`]: e.target.value } })}
+                                className="w-14 bg-transparent border-0 text-[10px] font-mono text-white/60 focus:text-white outline-none"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                    
+                    <div className="p-4 bg-white/[0.05] border border-white/10 rounded-2xl space-y-4">
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="flex flex-col gap-1.5">
+                           <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link Start</span>
+                           <input type="color" value={layoutConfig.lineColor} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColor: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                        </div>
+                        <div className="flex flex-col gap-1.5">
+                           <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link Mid</span>
+                           <input type="color" value={layoutConfig.lineColorMid} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineColorMid: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                        </div>
+                        <div className="flex flex-col gap-1.5 col-span-2">
+                           <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">Link End</span>
+                           <input type="color" value={layoutConfig.lineGradientEnd} onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineGradientEnd: e.target.value } })} className="w-full h-8 rounded-lg bg-transparent cursor-pointer" />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>
