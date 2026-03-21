@@ -296,10 +296,12 @@ export const KilangCanvas = () => {
   const forestBounds = React.useMemo(() => getForestBoundingBox(nodeMap), [nodeMap]);
   const rootPos = React.useMemo(() => nodeMap[normalizeWord(selectedRoot || '') || ''], [nodeMap, selectedRoot]);
 
+  const isImmersive = isFullView || !selectedRoot;
+
   return (
     <main className="flex-1 overflow-hidden relative">
-      <div className={`h-full flex flex-col overflow-hidden transition-all duration-500 ${isFullView ? 'p-0 bg-[var(--kilang-bg-base)]' : 'p-8'}`}>
-        <div className={`flex-1 overflow-hidden relative flex flex-col transition-all duration-500 ${isFullView ? 'kilang-glass-panel-immersive' : 'kilang-glass-panel rounded-3xl border border-[var(--kilang-border-std)] shadow-[var(--kilang-shadow-primary)]'}`}>
+      <div className={`h-full flex flex-col overflow-hidden transition-all duration-500 ${isImmersive ? 'p-0 bg-[var(--kilang-bg-base)]' : 'p-8'}`}>
+        <div className={`flex-1 overflow-hidden relative flex flex-col transition-all duration-500 ${isImmersive ? 'kilang-glass-panel-immersive' : 'kilang-glass-panel rounded-3xl border border-[var(--kilang-border-std)] shadow-[var(--kilang-shadow-primary)]'}`}>
           {/* Overlays Layer */}
           <CanvasOverlays
             showPerfMonitor={showPerfMonitor}

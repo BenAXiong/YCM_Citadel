@@ -55,6 +55,8 @@ export const KilangDesktopLayout = ({
     isFullView,
   } = state;
 
+  const isImmersive = isFullView || !selectedRoot;
+
   const setScale = (s: number | ((prev: number) => number)) => {
     const val = typeof s === 'function' ? s(scale) : s;
     dispatch({ type: 'SET_TRANSFORM', scale: val });
@@ -67,29 +69,33 @@ export const KilangDesktopLayout = ({
     <div 
       className="kilang-container flex flex-col h-screen overflow-hidden"
       style={{ 
-        '--sidebar-width': `${(state.sidebarCollapsed || isFullView) ? 0 : state.sidebarWidth}px`,
-        '--right-sidebar-width': `${(state.rightSidebarCollapsed || isFullView) ? 0 : state.rightSidebarWidth}px`
+        '--sidebar-width': `${(state.sidebarCollapsed || isImmersive) ? 0 : state.sidebarWidth}px`,
+        '--right-sidebar-width': `${(state.rightSidebarCollapsed || isImmersive) ? 0 : state.rightSidebarWidth}px`
       } as React.CSSProperties}
     >
-      {!isFullView && (
+      <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? '-translate-y-full opacity-0 h-0' : 'translate-y-0 opacity-100 h-16'} z-[150] shrink-0 overflow-hidden`}>
         <KilangHeader />
-      )}
+      </div>
 
       <div className="flex-1 flex overflow-hidden">
-        {state.showFilterPanel && !isFullView && (
-          <KilangSidebar
-            isCollapsed={state.sidebarCollapsed}
-            onToggle={() => dispatch({ type: 'SET_UI', sidebarCollapsed: !state.sidebarCollapsed })}
-          />
+        {state.showFilterPanel && (
+          <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? '-translate-x-full opacity-0 w-0' : 'translate-x-0 opacity-100'} overflow-hidden shrink-0`}>
+            <KilangSidebar
+              isCollapsed={state.sidebarCollapsed}
+              onToggle={() => dispatch({ type: 'SET_UI', sidebarCollapsed: !state.sidebarCollapsed })}
+            />
+          </div>
         )}
 
         <KilangCanvas />
 
-        {state.showRightSidebar && !isFullView && (
-          <KilangRightSidebar
-            isCollapsed={state.rightSidebarCollapsed}
-            onToggle={() => dispatch({ type: 'SET_UI', rightSidebarCollapsed: !state.rightSidebarCollapsed })}
-          />
+        {state.showRightSidebar && (
+          <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? 'translate-x-full opacity-0 w-0' : 'translate-x-0 opacity-100'} overflow-hidden shrink-0`}>
+            <KilangRightSidebar
+              isCollapsed={state.rightSidebarCollapsed}
+              onToggle={() => dispatch({ type: 'SET_UI', rightSidebarCollapsed: !state.rightSidebarCollapsed })}
+            />
+          </div>
         )}
       </div>
 
