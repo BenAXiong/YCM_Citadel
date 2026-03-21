@@ -8,68 +8,69 @@ export const useBroadcastSync = (
 ) => {
   const channelRef = useRef<BroadcastChannel | null>(null);
   const isInternalUpdate = useRef(false);
-  const lastReceivedRef = useRef<string | null>(null);
+  const stateRef = useRef(state);
+  
+  // Sync state ref for listeners
+  useEffect(() => {
+    stateRef.current = state;
+  }, [state]);
 
   useEffect(() => {
     const channel = new BroadcastChannel('kilang_sync_channel');
     channelRef.current = channel;
 
-    channel.onmessage = (event) => {
+    const handleMessage = (event: MessageEvent) => {
       const { type, payload, source } = event.data;
-      if (source === (isStandalone ? 'popout' : 'main')) return; // Ignore own messages
+      
+      // Ignore own messages
+      if (source === (isStandalone ? 'popout' : 'main')) return;
 
       if (type === 'ACTION') {
         isInternalUpdate.current = true;
         dispatch(payload as KilangAction);
-        // We don't cache ACTIONs easily, but they are usually targeted
+        setTimeout(() => { isInternalUpdate.current = false; }, 50);
       } else if (type === 'FULL_SYNC') {
-        const payloadStr = JSON.stringify(payload);
-        if (payloadStr === lastReceivedRef.current) return; // Skip if already seen
-        
-        lastReceivedRef.current = payloadStr;
         isInternalUpdate.current = true;
         dispatch({ type: 'SYNC_STATE', state: payload });
+        setTimeout(() => { isInternalUpdate.current = false; }, 50);
+      } else if (type === 'REQUEST_SYNC' && !isStandalone) {
+        // Main window responds to sync requests
+        const s = stateRef.current;
+        const syncPayload = {
+          theme: s.layoutConfig.theme,
+          layoutConfig: s.layoutConfig,
+          searchTerm: s.searchTerm,
+          branchFilter: s.branchFilter,
+          morphMode: s.morphMode,
+          sourceFilter: s.sourceFilter,
+          landingVersion: s.landingVersion,
+          logoStyles: s.logoStyles,
+          logoSettings: s.logoSettings,
+          showThemeBar: s.showThemeBar,
+          showFloatingPalette: s.showFloatingPalette
+        };
+        channel.postMessage({ 
+          type: 'FULL_SYNC', 
+          payload: syncPayload,
+          source: 'main' 
+        });
       }
-      
-      // Safety reset after a tick to ensure render cycle is captures isInternalUpdate
-      setTimeout(() => {
-        isInternalUpdate.current = false;
-      }, 50);
     };
 
-    // If we just opened as standalone, request full state from main
+    channel.addEventListener('message', handleMessage);
+
+    // Initial sync request if popout
     if (isStandalone) {
       channel.postMessage({ type: 'REQUEST_SYNC', source: 'popout' });
-    } else {
-      // Main window listens for sync requests
-      channel.addEventListener('message', (e) => {
-        if (e.data.type === 'REQUEST_SYNC') {
-          const syncPayload = {
-            theme: state.layoutConfig.theme,
-            layoutConfig: state.layoutConfig,
-            searchTerm: state.searchTerm,
-            branchFilter: state.branchFilter,
-            morphMode: state.morphMode,
-            sourceFilter: state.sourceFilter,
-            landingVersion: state.landingVersion,
-            logoStyles: state.logoStyles,
-            logoSettings: state.logoSettings,
-            showThemeBar: state.showThemeBar,
-            showFloatingPalette: state.showFloatingPalette
-          };
-          channel.postMessage({ 
-            type: 'FULL_SYNC', 
-            payload: syncPayload,
-            source: 'main' 
-          });
-        }
-      });
     }
 
-    return () => channel.close();
-  }, [isStandalone, state.layoutConfig.theme, state.layoutConfig, state.searchTerm]); 
+    return () => {
+      channel.removeEventListener('message', handleMessage);
+      channel.close();
+    };
+  }, [isStandalone, dispatch]); 
 
-  // Broadcast changes from this window
+  // Broadcast changes from this window (debounced by React state cycle)
   useEffect(() => {
     if (isInternalUpdate.current) return;
 
@@ -87,9 +88,6 @@ export const useBroadcastSync = (
       showFloatingPalette: state.showFloatingPalette
     };
 
-    const currentStr = JSON.stringify(currentSyncPayload);
-    if (currentStr === lastReceivedRef.current) return;
-
     if (channelRef.current) {
       channelRef.current.postMessage({
         type: 'FULL_SYNC',
@@ -98,7 +96,7 @@ export const useBroadcastSync = (
       });
     }
   }, [
-    state.layoutConfig.theme,
+    isStandalone,
     state.layoutConfig,
     state.searchTerm,
     state.branchFilter,

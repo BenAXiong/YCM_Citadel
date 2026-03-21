@@ -212,13 +212,14 @@ export const ThemeBar = ({
   }, [layoutConfig.theme]);
 
   const updateVariable = (name: string, value: string) => {
+    const themedEls = document.querySelectorAll('[data-theme]');
     document.documentElement.style.setProperty(name, value);
-    const themedEl = document.querySelector('[data-theme]');
-    if (themedEl) (themedEl as HTMLElement).style.setProperty(name, value);
+    themedEls.forEach(el => (el as HTMLElement).style.setProperty(name, value));
 
+    setOverrides(prev => ({ ...prev, [name]: value }));
+    
     if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
     saveTimerRef.current = setTimeout(() => {
-      setOverrides(prev => ({ ...prev, [name]: value }));
       const saved = localStorage.getItem(`kilang-custom-theme-${layoutConfig.theme}`);
       let current: Record<string, string> = {};
       if (saved) {
@@ -226,19 +227,20 @@ export const ThemeBar = ({
       }
       current[name] = value;
       localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(current));
-    }, 100);
+    }, 500);
   };
 
   const updateVariables = (mapping: Record<string, string>) => {
-    const themedEl = document.querySelector('[data-theme]');
+    const themedEls = document.querySelectorAll('[data-theme]');
     Object.entries(mapping).forEach(([name, value]) => {
       document.documentElement.style.setProperty(name, value);
-      if (themedEl) (themedEl as HTMLElement).style.setProperty(name, value);
+      themedEls.forEach(el => (el as HTMLElement).style.setProperty(name, value));
     });
+
+    setOverrides(prev => ({ ...prev, ...mapping }));
 
     if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
     saveTimerRef.current = setTimeout(() => {
-      setOverrides(prev => ({ ...prev, ...mapping }));
       const saved = localStorage.getItem(`kilang-custom-theme-${layoutConfig.theme}`);
       let current: Record<string, string> = {};
       if (saved) {
@@ -246,7 +248,7 @@ export const ThemeBar = ({
       }
       Object.entries(mapping).forEach(([name, value]) => { current[name] = value; });
       localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(current));
-    }, 100);
+    }, 500);
   };
 
   const getHonestColor = (name: string, value: string) => {
@@ -409,10 +411,11 @@ export const ThemeBar = ({
                     <button
                       onClick={(e) => {
                         e.stopPropagation();
-                        const themedEl = document.querySelector('[data-theme]');
+                        if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
+                        const themedEls = document.querySelectorAll('[data-theme]');
                         THEME_VARS.forEach(v => {
                           document.documentElement.style.removeProperty(v);
-                          if (themedEl) (themedEl as HTMLElement).style.removeProperty(v);
+                          themedEls.forEach(el => (el as HTMLElement).style.removeProperty(v));
                         });
                         localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
                         setOverrides({});
