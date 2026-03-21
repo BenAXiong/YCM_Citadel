@@ -1,11 +1,22 @@
 'use client';
 
-import React from 'react';
-import { Layout, Share2, Scaling, Package, Layers } from 'lucide-react';
-import { SectionHeader } from './Shared';
+import React, { useState } from 'react';
+import { 
+  Move, 
+  Share2, 
+  CircleDot, 
+  Layout, 
+  Scaling, 
+  Zap, 
+  ZapOff, 
+  RotateCcw,
+  Palette as PaletteIcon
+} from 'lucide-react';
+import { RibbonNav, RibbonGroup, VariableControl } from './Shared';
 
 interface TreePanelProps {
   tsState: any;
+  tsHelpers: any;
   tsActions: any;
   dispatch: any;
   layoutConfig: any;
@@ -14,97 +25,449 @@ interface TreePanelProps {
 
 export const TreePanel = ({
   tsState,
+  tsHelpers,
   tsActions,
   dispatch,
   layoutConfig,
   dense = false
 }: TreePanelProps) => {
-  const { expandedSections } = tsState;
-  const { toggleSection } = tsActions;
+  const [activeRibbon, setActiveRibbon] = useState('layout');
+  const { overrides } = tsState;
+  const { getVariableValue, getColorValue, getHonestColor } = tsHelpers;
+  const { updateVariable, updateVariables } = tsActions;
 
-  const renderControl = (key: string, label: string, min: number, max: number, step: number, unit: string = '') => (
-    <div key={key} className="flex items-center justify-between py-2 px-4 group hover:bg-white/[0.02] transition-all border-b border-white/5 last:border-0">
-      <span className={`${dense ? 'text-[9px]' : 'text-[10px]'} font-black uppercase tracking-widest text-white/50 group-hover:text-white/80 transition-colors`}>{label}</span>
-      <div className="flex items-center gap-2">
-        <input
-          type="range"
-          min={min}
-          max={max}
-          step={step}
-          value={(layoutConfig as any)[key] || 0}
-          onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [key]: parseFloat(e.target.value) } })}
-          className="w-16 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-500"
-        />
-        <span className="w-8 text-right text-[9px] font-mono text-white/30 truncate">
-          {(layoutConfig as any)[key]}
-          {unit && <span className="text-[7px] ml-0.5 opacity-40">{unit}</span>}
-        </span>
-      </div>
-    </div>
-  );
+  const ribbonTabs = [
+    { id: 'layout', label: 'Layout', icon: Move },
+    { id: 'nodes', label: 'Nodes', icon: CircleDot },
+    { id: 'palette', label: 'Palette', icon: PaletteIcon },
+    { id: 'connectors', label: 'Connectors', icon: Share2 }
+  ];
+
+  const tiers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   return (
-    <div className="space-y-1">
-      {/* Layout Section */}
-      <SectionHeader 
-        id="layout" 
-        label="Layout" 
-        icon={Layout} 
-        isExpanded={expandedSections.has('layout')}
-        onToggle={toggleSection}
-        dense={dense}
+    <div className="flex flex-col h-full overflow-hidden">
+      <RibbonNav 
+        tabs={ribbonTabs} 
+        activeTab={activeRibbon} 
+        onTabChange={setActiveRibbon} 
       />
-      {expandedSections.has('layout') && (
-        <div className="bg-white/[0.03] border-b border-white/10">
-          {renderControl('rootGap', 'Root Gap', 10, 300, 10, 'px')}
-          {renderControl('interTierGap', 'Tier Gap', 20, 500, 10, 'px')}
-          {renderControl('interRowGap', 'Row Gap', 5, 200, 5, 'px')}
-          <div className="flex items-center justify-between py-2 px-4 border-b border-white/5">
-            <span className="text-[9px] font-black uppercase text-white/30">Mode</span>
-            <button
-              onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' } })}
-              className={`px-2 py-1 rounded text-[9px] font-black uppercase ${layoutConfig.spacingMode === 'log' ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
-            >
-              {layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}
-            </button>
+
+      <div className="flex-1 overflow-y-auto no-scrollbar pb-10 custom-scrollbar">
+        {activeRibbon === 'layout' && (
+          <div className="space-y-4">
+            <RibbonGroup label="Spatial Gaps">
+              <div className="grid grid-cols-2 gap-2 p-2 mx-2 mb-4 bg-white/[0.03] rounded-2xl border border-white/5">
+                <button
+                  onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' } })}
+                  className={`flex flex-col items-center justify-center py-3 rounded-xl border transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-white text-black border-white shadow-lg' : 'bg-white/5 text-white/40 border-white/5 hover:border-white/10'}`}
+                >
+                   <Layout className="w-4 h-4 mb-1" />
+                   <span className="text-[8px] font-black uppercase tracking-widest">{layoutConfig.spacingMode === 'even' ? 'Even Spacing' : 'Log Spacing'}</span>
+                </button>
+                <button
+                  onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { coupleGaps: !layoutConfig.coupleGaps } })}
+                  className={`flex flex-col items-center justify-center py-3 rounded-xl border transition-all ${layoutConfig.coupleGaps ? 'bg-white text-black border-white shadow-lg' : 'bg-white/5 text-white/40 border-white/5 hover:border-white/10'}`}
+                >
+                   <Scaling className="w-4 h-4 mb-1" />
+                   <span className="text-[8px] font-black uppercase tracking-widest">{layoutConfig.coupleGaps ? 'Gap Coupled' : 'Gap Decoupled'}</span>
+                </button>
+              </div>
+
+              <VariableControl 
+                label="T1-T2 Root" 
+                value={layoutConfig.rootGap} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { rootGap: parseFloat(v) } })} 
+                type="number"
+                min={0} max={600}
+              />
+              <VariableControl 
+                label="Tier Spacing (H)" 
+                value={layoutConfig.interTierGap} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { interTierGap: parseFloat(v) } })} 
+                type="number"
+                min={10} max={600}
+              />
+              <VariableControl 
+                label="Row Spacing (V)" 
+                value={layoutConfig.interRowGap} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { interRowGap: parseFloat(v) } })} 
+                type="number"
+                min={10} max={600}
+              />
+            </RibbonGroup>
+
+            <RibbonGroup label="T1 Anchors">
+              <VariableControl 
+                label="Anchor X" 
+                value={layoutConfig.anchorX} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { anchorX: parseFloat(v) } })} 
+                type="number"
+                min={0} max={2000} step={10}
+              />
+              <VariableControl 
+                label="Anchor Y" 
+                value={layoutConfig.anchorY} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { anchorY: parseFloat(v) } })} 
+                type="number"
+                min={0} max={2000} step={10}
+              />
+            </RibbonGroup>
           </div>
-        </div>
-      )}
+        )}
 
-      {/* Geometry Section */}
-      <SectionHeader 
-        id="geometry" 
-        label="Geometry" 
-        icon={Package} 
-        isExpanded={expandedSections.has('geometry')}
-        onToggle={toggleSection}
-        dense={dense}
-      />
-      {expandedSections.has('geometry') && (
-        <div className="bg-white/[0.03] border-b border-white/10">
-          {renderControl('nodeSize', 'Scale', 0.2, 3, 0.1, 'x')}
-          {renderControl('nodeWidth', 'Width', 40, 300, 10, 'px')}
-          {renderControl('nodePaddingY', 'Padding Y', 2, 40, 2, 'px')}
-          {renderControl('branchBorderWidth', 'Outline', 0, 10, 1, 'px')}
-        </div>
-      )}
+        {activeRibbon === 'nodes' && (
+          <div className="space-y-4">
+            <RibbonGroup label="Node Dimensions">
+               <div className="flex items-center justify-between px-4 py-3 bg-white/5 mx-2 rounded-2xl border border-white/10 mb-2">
+                 <span className="text-[10px] font-black uppercase text-white/40">Tree Icons</span>
+                 <button
+                   onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { showIcons: !layoutConfig.showIcons } })}
+                   className={`flex items-center gap-2 px-3 py-1.5 rounded-xl text-[9px] font-black uppercase transition-all ${layoutConfig.showIcons ? 'bg-white text-black shadow-lg shadow-white/10 border-white' : 'bg-white/5 text-white/40 border border-white/5 hover:border-white/20'}`}
+                 >
+                   {layoutConfig.showIcons ? <Zap className="w-3 h-3" /> : <ZapOff className="w-3 h-3" />}
+                   {layoutConfig.showIcons ? 'Visible' : 'Hidden'}
+                 </button>
+               </div>
 
-      {/* Connectors Section */}
-      <SectionHeader 
-        id="connectors" 
-        label="Connectors" 
-        icon={Share2} 
-        isExpanded={expandedSections.has('connectors')}
-        onToggle={toggleSection}
-        dense={dense}
-      />
-      {expandedSections.has('connectors') && (
-        <div className="bg-white/[0.03] border-b border-white/10">
-          {renderControl('lineWidth', 'Stroke', 0, 15, 1, 'px')}
-          {renderControl('lineTension', 'Tension', 0, 2, 0.1)}
-          {renderControl('lineOpacity', 'Opacity', 0, 1, 0.05)}
-        </div>
-      )}
+               <VariableControl 
+                label="Size Scale" 
+                value={layoutConfig.nodeSize} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { nodeSize: parseFloat(v) } })} 
+                type="number"
+                min={0.5} max={2} step={0.1}
+              />
+              <VariableControl 
+                label="Opacity" 
+                value={layoutConfig.nodeOpacity} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { nodeOpacity: parseFloat(v) } })} 
+                type="number"
+                min={0.1} max={1} step={0.05}
+              />
+               <VariableControl 
+                label="Word Width" 
+                value={layoutConfig.nodeWidth} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { nodeWidth: parseFloat(v) } })} 
+                type="number"
+                min={80} max={250} step={5}
+              />
+              <VariableControl 
+                label="Vert Padding" 
+                value={layoutConfig.nodePaddingY} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { nodePaddingY: parseFloat(v) } })} 
+                type="number"
+                min={4} max={32} step={1}
+              />
+            </RibbonGroup>
+            
+            <RibbonGroup label="Complexity & Borders">
+               <VariableControl 
+                label="Intensity" 
+                value={overrides['--kilang-node-intensity'] || '1.0'} 
+                onChange={(v) => updateVariable('--kilang-node-intensity', v)} 
+                type="number"
+                min={0} max={5} step={0.1}
+              />
+              <VariableControl 
+                label="Root Border" 
+                value={layoutConfig.rootBorderWidth} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { rootBorderWidth: parseFloat(v) } })} 
+                type="number"
+              />
+              <VariableControl 
+                label="Accent Border" 
+                value={layoutConfig.accentBorderWidth} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { accentBorderWidth: parseFloat(v) } })} 
+                type="number"
+              />
+              <VariableControl 
+                label="Branch Weight" 
+                value={layoutConfig.branchBorderWidth} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { branchBorderWidth: parseFloat(v) } })} 
+                type="number"
+              />
+            </RibbonGroup>
+
+            <RibbonGroup label="Node Rounding">
+               <div className="flex flex-col gap-4 p-4 bg-white/[0.03] mx-2 rounded-2xl border border-white/5">
+                 <VariableControl 
+                   label="Root (T1)" 
+                   value={layoutConfig.tier1Rounding} 
+                   onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { tier1Rounding: parseFloat(v) } })} 
+                   type="number"
+                   min={0} max={100}
+                   dense
+                 />
+                 <div className="h-px bg-white/5 mx-2 my-1" />
+                 <VariableControl 
+                   label="Branch (T2-9)" 
+                   value={layoutConfig.tier2Rounding} 
+                   onChange={(v) => {
+                     const val = parseFloat(v);
+                     const update: any = {};
+                     for (let t = 2; t <= 9; t++) update[`tier${t}Rounding`] = val;
+                     dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                   }} 
+                   type="number"
+                   min={0} max={100}
+                   dense
+                 />
+               </div>
+            </RibbonGroup>
+          </div>
+        )}
+
+        {activeRibbon === 'palette' && (
+          <RibbonGroup label="The Tier Table (Master Grid)">
+             <div className="overflow-hidden">
+                <table className="w-full border-collapse">
+                  <thead>
+                    <tr className="border-b border-white/10">
+                      <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] w-12 text-center">Tier</th>
+                      <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Fill</th>
+                      <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Border</th>
+                      <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Text</th>
+                      <th className="py-3 text-[10px] font-black uppercase text-[var(--kilang-accent)] tracking-[0.2em] text-center">All</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-white/[0.03]">
+                    {/* Master "All" Row */}
+                    <tr className="group/row bg-white/[0.04] transition-colors">
+                      <td className="py-2 text-center">
+                        <div className="text-[10px] font-black text-white uppercase tracking-widest">All</div>
+                      </td>
+                      {[
+                        { type: 'fill' },
+                        { type: 'border' },
+                        { type: 'text' },
+                        { type: 'all' }
+                      ].map((col) => (
+                        <td key={col.type} className="py-2 px-1 text-center">
+                           <div className="flex flex-col items-center gap-1.5">
+                             <div className="w-8 h-8 rounded-xl border border-white/20 shadow-xl relative group/swatch overflow-hidden transition-transform hover:scale-110 active:scale-95">
+                                <input 
+                                  type="color" 
+                                  value={getColorValue(col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : '--kilang-tier-1-text')}
+                                  onChange={(e) => {
+                                    const val = e.target.value;
+                                    const update: any = {};
+                                    const mapped: Record<string, string> = {};
+                                    tiers.forEach(t => {
+                                      if (col.type === 'fill' || col.type === 'all') update[`tier${t}Fill`] = val;
+                                      if (col.type === 'border' || col.type === 'all') update[`tier${t}Border`] = val;
+                                      if (col.type === 'text' || col.type === 'all') mapped[`--kilang-tier-${t}-text`] = val;
+                                    });
+                                    if (Object.keys(update).length) dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                    if (Object.keys(mapped).length) updateVariables(mapped);
+                                  }}
+                                  className="absolute inset-0 opacity-0 cursor-pointer z-10"
+                                />
+                                <div 
+                                  className="w-full h-full" 
+                                  style={{ 
+                                    backgroundColor: col.type === 'fill' 
+                                      ? layoutConfig.tier1Fill 
+                                      : col.type === 'border' 
+                                        ? layoutConfig.tier1Border 
+                                        : (overrides['--kilang-tier-1-text'] || overrides['--kilang-accent'] || '#ffffff') 
+                                  }} 
+                                />
+                             </div>
+                             <input 
+                               type="text" 
+                               placeholder="HEX" 
+                               className="w-14 bg-transparent border-0 text-[7px] font-mono text-white/20 text-center hover:text-white/40 focus:text-white outline-none uppercase tracking-tighter transition-colors"
+                               onBlur={(e) => {
+                                 const val = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
+                                 if (val.length >= 4) {
+                                    const update: any = {};
+                                    const mapped: Record<string, string> = {};
+                                    tiers.forEach(t => {
+                                      if (col.type === 'fill' || col.type === 'all') update[`tier${t}Fill`] = val;
+                                      if (col.type === 'border' || col.type === 'all') update[`tier${t}Border`] = val;
+                                      if (col.type === 'text' || col.type === 'all') mapped[`--kilang-tier-${t}-text`] = val;
+                                    });
+                                    if (Object.keys(update).length) dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                    if (Object.keys(mapped).length) updateVariables(mapped);
+                                 }
+                               }}
+                             />
+                           </div>
+                        </td>
+                      ))}
+                    </tr>
+
+                    {/* Tier 1-9 Rows */}
+                    {tiers.map((t) => (
+                      <tr key={t} className="group/row hover:bg-white/[0.01] transition-colors">
+                        <td className="py-1.5 text-center">
+                          <div className="text-[11px] font-black text-white">{t}</div>
+                        </td>
+                        {[
+                          { prop: `tier${t}Fill`, type: 'fill' },
+                          { prop: `tier${t}Border`, type: 'border' },
+                          { prop: `--kilang-tier-${t}-text`, type: 'text' },
+                          { prop: `tier${t}All`, type: 'all' }
+                        ].map(col => {
+                          const val = col.type === 'all' 
+                            ? (layoutConfig as any)[`tier${t}Fill`]
+                            : col.type === 'text' 
+                                ? (overrides[col.prop] || (typeof window !== 'undefined' ? getVariableValue(col.prop) : '#ffffff'))
+                                : (layoutConfig as any)[col.prop];
+                          
+                          return (
+                            <td key={col.type} className="py-1.5 px-1">
+                               <div className="flex flex-col items-center gap-2">
+                                 <div className="w-8 h-8 rounded-xl border border-white/10 shadow-lg relative group/swatch overflow-hidden transition-transform hover:scale-110 active:scale-95">
+                                    <input 
+                                      type="color" 
+                                      value={getColorValue(val)}
+                                      onChange={(e) => {
+                                        const color = e.target.value;
+                                        if (col.type === 'all') {
+                                          dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${t}Fill`]: color, [`tier${t}Border`]: color } });
+                                          updateVariable(`--kilang-tier-${t}-text`, color);
+                                        } else if (col.type === 'text') {
+                                          updateVariable(col.prop, color);
+                                        } else {
+                                          dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.prop]: color } });
+                                        }
+                                      }}
+                                      className="absolute inset-0 opacity-0 cursor-pointer z-10 w-full h-full"
+                                    />
+                                    <div 
+                                      className="w-full h-full" 
+                                      style={{ 
+                                        backgroundColor: getHonestColor(
+                                          col.type === 'text' ? col.prop : `--kilang-tier-${t}-${col.type}`, 
+                                          getColorValue(val)
+                                        ) 
+                                      }} 
+                                    />
+                                    <div className="absolute inset-0 bg-white/0 group-hover/swatch:bg-white/10 transition-colors pointer-events-none" />
+                                 </div>
+                                 <input 
+                                   type="text" 
+                                   defaultValue={getColorValue(val).toUpperCase()}
+                                   className="w-14 bg-transparent border-0 text-[8px] font-mono text-white/30 text-center hover:text-white/60 focus:text-white outline-none uppercase tracking-tighter transition-colors"
+                                   onBlur={(e) => {
+                                     const newVal = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
+                                     if (newVal.length >= 4) {
+                                       if (col.type === 'all') {
+                                         dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${t}Fill`]: newVal, [`tier${t}Border`]: newVal } });
+                                         updateVariable(`--kilang-tier-${t}-text`, newVal);
+                                       } else if (col.type === 'text') {
+                                         updateVariable(col.prop, newVal);
+                                       } else {
+                                         dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.prop]: newVal } });
+                                       }
+                                     }
+                                   }}
+                                 />
+                               </div>
+                            </td>
+                          );
+                        })}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+             </div>
+          </RibbonGroup>
+        )}
+
+        {activeRibbon === 'connectors' && (
+          <div className="space-y-4">
+            <RibbonGroup label="Path Configuration">
+               <VariableControl 
+                label="Width" 
+                value={layoutConfig.lineWidth} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineWidth: parseFloat(v) } })} 
+                type="number"
+                min={0} max={10} step={0.1}
+              />
+              <VariableControl 
+                label="Opacity" 
+                value={layoutConfig.lineOpacity} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineOpacity: parseFloat(v) } })} 
+                type="number"
+                min={0} max={1} step={0.05}
+              />
+              <VariableControl 
+                label="Curvature" 
+                value={layoutConfig.lineTension} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineTension: parseFloat(v) } })} 
+                type="number"
+                min={0} max={2} step={0.1}
+              />
+              <VariableControl 
+                label="Gap X" 
+                value={layoutConfig.lineGapX} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineGapX: parseFloat(v) } })} 
+                type="number"
+                min={-100} max={300} step={5}
+              />
+              <VariableControl 
+                label="Gap Y" 
+                value={layoutConfig.lineGapY} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineGapY: parseFloat(v) } })} 
+                type="number"
+                min={-100} max={300} step={5}
+              />
+            </RibbonGroup>
+            
+            <RibbonGroup label="Visual Effects">
+              <VariableControl 
+                label="Blur/Glow" 
+                value={layoutConfig.lineBlur} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineBlur: parseFloat(v) } })} 
+                type="number"
+                min={0} max={20} step={0.5}
+              />
+              <VariableControl 
+                label="Dash Array" 
+                value={layoutConfig.lineDashArray} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineDashArray: parseFloat(v) } })} 
+                type="number"
+                min={0} max={30} step={1}
+              />
+              <VariableControl 
+                label="Flow Speed" 
+                value={layoutConfig.lineFlowSpeed} 
+                onChange={(v) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { lineFlowSpeed: parseFloat(v) } })} 
+                type="number"
+                min={0} max={10} step={0.5}
+              />
+            </RibbonGroup>
+
+            <RibbonGroup label="Link Gradient">
+               <div className="grid grid-cols-3 gap-3 p-4 bg-white/[0.03] mx-2 rounded-2xl border border-white/5">
+                 {[
+                   { label: 'Start', key: 'lineColor' },
+                   { label: 'Mid', key: 'lineColorMid' },
+                   { label: 'End', key: 'lineGradientEnd' }
+                 ].map(col => (
+                   <div key={col.key} className="flex flex-col items-center gap-2 group/linkcol">
+                     <span className="text-[8px] font-black uppercase text-white/30 tracking-widest">{col.label}</span>
+                     <div className="relative w-10 h-10 flex items-center justify-center">
+                       <input 
+                         type="color" 
+                         value={getColorValue(layoutConfig[col.key])} 
+                         onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: e.target.value } })}
+                         className="absolute inset-0 opacity-0 cursor-pointer z-10"
+                       />
+                       <div 
+                         className="w-10 h-10 rounded-xl border border-white/20 shadow-xl transition-transform group-hover/linkcol:scale-110" 
+                         style={{ backgroundColor: getColorValue(layoutConfig[col.key]) }}
+                       />
+                     </div>
+                   </div>
+                 ))}
+               </div>
+            </RibbonGroup>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

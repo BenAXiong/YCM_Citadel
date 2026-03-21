@@ -74,18 +74,6 @@ export const EngineSettings = () => {
 
   return (
     <div className="flex items-center gap-2 sm:gap-4">
-      {state.showFloatingPalette && (
-        <button
-          onClick={() => {
-            window.open(`${window.location.origin}/kilang?standalone=themebar`, '_blank', 'width=340,height=800');
-          }}
-          className="flex items-center justify-center w-9 h-9 rounded-xl border border-[var(--kilang-border-std)] bg-[var(--kilang-bg-base)]/40 text-[var(--kilang-text-muted)] hover:border-[var(--kilang-primary-border)] hover:text-[var(--kilang-text)] transition-all active:scale-95"
-          title="Pop Out Palette"
-        >
-          <ExternalLink className="w-5 h-5" />
-        </button>
-      )}
-
       <button
         onClick={() => dispatch({ type: 'SET_UI', hideCanvasControls: !state.hideCanvasControls })}
         className={`flex items-center justify-center w-9 h-9 rounded-xl border transition-all bg-[var(--kilang-bg-base)]/40 border-[var(--kilang-border-std)] hover:border-[var(--kilang-primary-border)] ${state.hideCanvasControls ? 'text-[var(--kilang-text-muted)] opacity-60' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)]'}`}
