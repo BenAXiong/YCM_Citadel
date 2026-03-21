@@ -78,7 +78,7 @@ export default function KilangView({
             show={true}
             onClose={() => window.close()}
             activeTab={state.themeBarTab || 'themes'}
-            setActiveTab={(tab) => dispatch({ type: 'SET_UI', themeBarTab: tab })}
+            setActiveTab={(tab: 'themes' | 'tree' | 'branding' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: tab })}
             landingVersion={state.landingVersion || 2}
             setLandingVersion={(v) => dispatch({ type: 'SET_UI', landingVersion: v })}
             logoStyle={state.logoStyles?.[state.landingVersion] || 'round'}
@@ -137,7 +137,7 @@ export default function KilangView({
               show={state.showThemeBar}
               onClose={() => dispatch({ type: 'SET_UI', showThemeBar: !state.showThemeBar })}
               activeTab={state.themeBarTab}
-              setActiveTab={(t: 'themes' | 'landing' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: t })}
+              setActiveTab={(t: 'themes' | 'tree' | 'branding' | 'fonts' | 'map') => dispatch({ type: 'SET_UI', themeBarTab: t })}
               landingVersion={state.landingVersion}
               setLandingVersion={(v: 1 | 2 | 3) => dispatch({ type: 'SET_UI', landingVersion: v })}
               logoStyle={state.logoStyles[state.landingVersion]}

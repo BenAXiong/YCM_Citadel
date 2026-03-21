@@ -23,6 +23,7 @@ import {
   ExternalLink,
   SlidersHorizontal,
   PencilLine,
+  Package,
   Scaling,
   Maximize2,
   Zap,
@@ -36,8 +37,8 @@ import { THEME_VARS } from '../kilangConstants';
 interface ThemeBarProps {
   show: boolean;
   onClose: () => void;
-  activeTab: 'themes' | 'tree' | 'landing' | 'fonts' | 'map';
-  setActiveTab: (tab: 'themes' | 'tree' | 'landing' | 'fonts' | 'map') => void;
+  activeTab: 'themes' | 'tree' | 'branding' | 'fonts' | 'map';
+  setActiveTab: (tab: 'themes' | 'tree' | 'branding' | 'fonts' | 'map') => void;
   landingVersion: number;
   setLandingVersion: (v: 1 | 2 | 3) => void;
   logoStyle: 'original' | 'square' | 'round';
@@ -194,7 +195,7 @@ export const ThemeBar = ({
     }
   };
 
-  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['global']));
+  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['masters']));
   const [overrides, setOverrides] = useState<Record<string, string>>({});
   const [collapsedSubsections, setCollapsedSubsections] = useState<Set<string>>(new Set());
   const [activeBulbs, setActiveBulbs] = useState<Record<string, boolean>>({});
@@ -330,7 +331,7 @@ export const ThemeBar = ({
         </button>
 
         <div className="grid grid-cols-6 bg-white/[0.02] border-b border-white/10">
-          {(['themes', 'tree', 'landing', 'fonts', 'map'] as const).map(tab => (
+          {(['themes', 'tree', 'branding', 'fonts', 'map'] as const).map(tab => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
@@ -340,7 +341,7 @@ export const ThemeBar = ({
               <div className="flex flex-col items-center gap-1">
                 {tab === 'themes' && <Palette className="w-3.5 h-3.5" />}
                 {tab === 'tree' && <Layout className="w-3.5 h-3.5" />}
-                {tab === 'landing' && <Aperture className="w-3.5 h-3.5" />}
+                {tab === 'branding' && <Aperture className="w-3.5 h-3.5" />}
                 {tab === 'fonts' && <Type className="w-3.5 h-3.5" />}
                 {tab === 'map' && <Database className="w-3.5 h-3.5" />}
                 <span className="text-[7px] font-black uppercase tracking-widest">{tab}</span>
@@ -371,7 +372,6 @@ export const ThemeBar = ({
             <div className="animate-in fade-in duration-300">
 
               <div className="relative border-b border-white/5 group/gallery">
-                {/* Pagination Dots (Upper Center) */}
                 <div className="absolute top-3 left-1/2 -translate-x-1/2 flex gap-1.5 transition-opacity duration-300 opacity-30 group-hover/gallery:opacity-100 z-30">
                   {Array.from({ length: totalSlides }).map((_, i) => (
                     <button
@@ -382,7 +382,6 @@ export const ThemeBar = ({
                   ))}
                 </div>
 
-                {/* Left Arrow */}
                 <button
                   onClick={() => scrollToSlide(slideIndex > 0 ? slideIndex - 1 : totalSlides - 1)}
                   className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
@@ -423,7 +422,6 @@ export const ThemeBar = ({
                   ))}
                 </div>
 
-                {/* Right Arrow */}
                 <button
                   onClick={() => scrollToSlide(slideIndex < totalSlides - 1 ? slideIndex + 1 : 0)}
                   className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
@@ -432,269 +430,177 @@ export const ThemeBar = ({
                 </button>
               </div>
 
-              <SectionHeader
-                id="global"
-                label="Global"
-                icon={Palette}
-                actions={
-                  <div className="flex items-center gap-0.5">
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
-                        const themedEls = document.querySelectorAll('[data-theme]');
-                        THEME_VARS.forEach(v => {
-                          document.documentElement.style.removeProperty(v);
-                          themedEls.forEach(el => (el as HTMLElement).style.removeProperty(v));
-                        });
-                        localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
-                        setOverrides({});
-                      }}
-                      className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/reset"
-                      title="RESET THEME: Wipes all inline CSS property overrides from both :root and the local [data-theme] container."
-                    >
-                      <RotateCcw className="w-3.5 h-3.5 group-hover/reset:rotate-[-45deg] transition-transform" />
-                    </button>
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        const saved: Record<string, string> = {};
-                        THEME_VARS.forEach(v => {
-                          const val = document.documentElement.style.getPropertyValue(v);
-                          if (val) saved[v] = val;
-                        });
-                        localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(saved));
-                      }}
-                      className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/save"
-                      title="SAVE THEME: Serializes current property overrides into persistent localStorage."
-                    >
-                      <Save className="w-3.5 h-3.5 group-hover/save:scale-110 transition-transform" />
-                    </button>
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        const styles = THEME_VARS.map(v => `  ${v}: ${getComputedStyle(document.documentElement).getPropertyValue(v).trim()};`).join('\n');
-                        const css = `:root {\n${styles}\n}`;
-                        console.log(css);
-                        alert("CSS Exported to Console!");
-                      }}
-                      className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/export"
-                      title="EXPORT CSS: Aggregates current theme variables into a :root block."
-                    >
-                      <Share2 className="w-3.5 h-3.5 group-hover/export:scale-110 transition-transform" />
-                    </button>
-                  </div>
-                }
-              />
-              {expandedSections.has('global') && (
-                <div className="py-3 px-5 space-y-8">
-                  {[
-                    {
-                      group: 'masters',
-                      vars: [
-                        {
-                          label: 'Backgrounds',
-                          type: 'color',
-                          targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent', '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active'],
-                          activeTargets: ['--kilang-ctrl-active']
-                        },
-                        {
-                          label: 'Borders',
-                          type: 'color',
-                          targets: ['--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border', '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border'],
-                          activeTargets: ['--kilang-ctrl-active-border']
-                        },
-                        {
-                          label: 'Texts',
-                          type: 'color',
-                          targets: ['--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text', '--kilang-logo-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text'],
-                          activeTargets: ['--kilang-ctrl-active-text']
-                        },
-                        {
-                          label: 'Tree',
-                          type: 'color',
-                          targets: [
-                            '--kilang-tier-1-fill', '--kilang-tier-2-fill', '--kilang-tier-3-fill', '--kilang-tier-4-fill', '--kilang-tier-5-fill', '--kilang-tier-6-fill', '--kilang-tier-7-fill', '--kilang-tier-8-fill', '--kilang-tier-9-fill',
-                            '--kilang-tier-1-border', '--kilang-tier-2-border', '--kilang-tier-3-border', '--kilang-tier-4-border', '--kilang-tier-5-border', '--kilang-tier-6-border', '--kilang-tier-7-border', '--kilang-tier-8-border', '--kilang-tier-9-border',
-                            '--kilang-tier-1-text', '--kilang-tier-2-text', '--kilang-tier-3-text', '--kilang-tier-4-text', '--kilang-tier-5-text', '--kilang-tier-6-text', '--kilang-tier-7-text', '--kilang-tier-8-text', '--kilang-tier-9-text',
-                            '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end'
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      group: `Surfaces (${groupVars.surfaces.filter(v => v.name !== '--kilang-ctrl-active').length} + ${groupVars.surfaces.filter(v => v.name === '--kilang-ctrl-active').length})`,
-                      vars: groupVars.surfaces
-                    },
-                    {
-                      group: `Borders & Outlines (${groupVars.borders.filter(v => v.name !== '--kilang-ctrl-active-border').length} + ${groupVars.borders.filter(v => v.name === '--kilang-ctrl-active-border').length})`,
-                      vars: groupVars.borders
-                    },
-                    {
-                      group: `Weights (${groupVars.weights.length})`,
-                      vars: groupVars.weights
-                    },
-                    {
-                      group: `Text & Icons (${groupVars.texts.filter(v => v.name !== '--kilang-ctrl-active-text').length} + ${groupVars.texts.filter(v => v.name === '--kilang-ctrl-active-text').length})`,
-                      vars: groupVars.texts
-                    },
-                    {
-                      group: `Structural (${groupVars.structural.length})`,
-                      vars: groupVars.structural
-                    }
-                  ]
-                    .map((group) => (
-                      <div key={`${layoutConfig.theme}-${group.group}`} className="space-y-2">
-                        <button
-                          onClick={() => toggleSubsection(group.group)}
-                          className="w-full text-left focus:outline-none flex items-center justify-between pr-4 group/stitle"
-                        >
-                          <h4 className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30 ml-2 hover:text-white/60 transition-colors uppercase">{group.group}</h4>
-                        </button>
-                        {!collapsedSubsections.has(group.group) && (
-                          <div className="bg-white/[0.03] rounded-[var(--kilang-radius-lg)] border border-white/10 overflow-hidden">
-                            {group.vars.map((v, i) => {
-                              const isMasterControl = (v as any).targets !== undefined;
-                              const isRowActive = isMasterControl && (v as any).targets.some((t: string) => overrides[t]);
-                              const varKey = (v as any).label || (v as any).name;
-                              const isBulbOn = !!activeBulbs[varKey];
+              {/* Persistent Global Utility Bar */}
+              <div className="flex items-center justify-between px-5 py-2.5 bg-white/[0.02] border-b border-white/5 sticky top-0 z-50 backdrop-blur-md">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">Global Controls</span>
+                <div className="flex items-center gap-1">
+                  <button
+                    onClick={() => {
+                      if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
+                      const themedEls = document.querySelectorAll('[data-theme]');
+                      THEME_VARS.forEach(v => {
+                        document.documentElement.style.removeProperty(v);
+                        themedEls.forEach(el => (el as HTMLElement).style.removeProperty(v));
+                      });
+                      localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
+                      setOverrides({});
+                    }}
+                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/reset"
+                    title="RESET THEME: Wipes all inline CSS overrides."
+                  >
+                    <RotateCcw className="w-3.5 h-3.5 group-hover/reset:rotate-[-45deg] transition-transform" />
+                  </button>
+                  <button
+                    onClick={() => {
+                      const saved: Record<string, string> = {};
+                      THEME_VARS.forEach(v => {
+                        const val = document.documentElement.style.getPropertyValue(v);
+                        if (val) saved[v] = val;
+                      });
+                      localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(saved));
+                    }}
+                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/save"
+                    title="SAVE THEME: Persists current overrides."
+                  >
+                    <Save className="w-3.5 h-3.5 group-hover/save:scale-110 transition-transform" />
+                  </button>
+                  <button
+                    onClick={() => {
+                      const styles = THEME_VARS.map(v => `  ${v}: ${getComputedStyle(document.documentElement).getPropertyValue(v).trim()};`).join('\n');
+                      const css = `:root {\n${styles}\n}`;
+                      console.log(css);
+                      alert("CSS Exported to Console!");
+                    }}
+                    className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/export"
+                    title="EXPORT CSS: Copies theme variables to console."
+                  >
+                    <Share2 className="w-3.5 h-3.5 group-hover/export:scale-110 transition-transform" />
+                  </button>
+                </div>
+              </div>
 
-                              const isNodeGroup = group.group.includes('Nodes');
-                              const isTierEnd = isNodeGroup && (i + 1) % 3 === 0 && i !== group.vars.length - 1;
+              {[
+                { id: 'masters', label: 'Masters', icon: Zap, vars: [
+                  { label: 'Backgrounds', type: 'color', targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent', '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active'], activeTargets: ['--kilang-ctrl-active'] },
+                  { label: 'Borders', type: 'color', targets: ['--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border', '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border'], activeTargets: ['--kilang-ctrl-active-border'] },
+                  { label: 'Texts', type: 'color', targets: ['--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text', '--kilang-logo-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text'], activeTargets: ['--kilang-ctrl-active-text'] },
+                  { label: 'Tree', type: 'color', targets: ['--kilang-tier-1-fill', '--kilang-tier-2-fill', '--kilang-tier-3-fill', '--kilang-tier-4-fill', '--kilang-tier-5-fill', '--kilang-tier-6-fill', '--kilang-tier-7-fill', '--kilang-tier-8-fill', '--kilang-tier-9-fill', '--kilang-tier-1-border', '--kilang-tier-2-border', '--kilang-tier-3-border', '--kilang-tier-4-border', '--kilang-tier-5-border', '--kilang-tier-6-border', '--kilang-tier-7-border', '--kilang-tier-8-border', '--kilang-tier-9-border', '--kilang-tier-1-text', '--kilang-tier-2-text', '--kilang-tier-3-text', '--kilang-tier-4-text', '--kilang-tier-5-text', '--kilang-tier-6-text', '--kilang-tier-7-text', '--kilang-tier-8-text', '--kilang-tier-9-text', '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end'] }
+                ]},
+                { id: 'surfaces', label: 'Surfaces', icon: Layers, vars: groupVars.surfaces },
+                { id: 'borders', label: 'Borders & Outlines', icon: Square, vars: groupVars.borders },
+                { id: 'weights', label: 'Weights', icon: Scaling, vars: groupVars.weights },
+                { id: 'texts', label: 'Text & Icons', icon: Type, vars: groupVars.texts },
+                { id: 'structural', label: 'Structural', icon: Package, vars: groupVars.structural }
+              ].map((section) => (
+                <div key={section.id}>
+                  <SectionHeader id={section.id} label={section.label} icon={section.icon} />
+                  {expandedSections.has(section.id) && (
+                    <div className="bg-white/[0.03] border-b border-white/10 overflow-hidden">
+                      {section.vars.map((v, i) => {
+                        const isMasterControl = (v as any).targets !== undefined;
+                        const varKey = (v as any).label || (v as any).name;
+                        const isBulbOn = !!activeBulbs[varKey];
+                        const isNodeGroup = section.id === 'masters' && (v as any).label === 'Tree';
+                        const isTierEnd = isNodeGroup && (i + 1) % 3 === 0 && i !== section.vars.length - 1;
 
-                              return (
-                                <div key={varKey} className={`flex items-center justify-between py-2.5 px-4 group hover:bg-white/[0.02] transition-all border-b ${isTierEnd ? 'border-white/30 border-b-[2px]' : 'border-white/5 last:border-0'}`}>
-                                  <div className="flex flex-col">
-                                    {(v as any).label && <span className="text-[11px] font-black uppercase tracking-widest text-white/90">{(v as any).label}</span>}
-                                    {(v as any).name && <span className={`${(v as any).label ? 'text-[8px]' : 'text-[9px]'} font-mono text-white/90 lowercase tracking-tighter`}>{(v as any).name}</span>}
-                                    {(v as any).targets && <span className="text-[7px] font-mono text-white/30 lowercase tracking-tighter">{(v as any).targets.length} + {(v as any).activeTargets?.length || 0} targets</span>}
-                                  </div>
-                                  <div className="relative flex items-center gap-2">
-                                    {isMasterControl && (
-                                      <button
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          const nextOn = !isBulbOn;
-                                          setActiveBulbs(prev => ({ ...prev, [varKey]: nextOn }));
-
-                                          // Immediate Sync: Apply current master value to active targets if turning ON
-                                          if (nextOn && (v as any).activeTargets) {
-                                            const currentValue = overrides[(v as any).targets[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).targets[0]).trim() : '');
-                                            if (currentValue) {
-                                              const mapping: Record<string, string> = {};
-                                              (v as any).activeTargets.forEach((t: string) => mapping[t] = currentValue);
-                                              updateVariables(mapping);
-                                            }
-                                          }
-                                        }}
-                                        className={`p-1 rounded-md transition-all duration-300 hover:bg-white/10 cursor-pointer`}
-                                        title={isBulbOn ? `Exclude active colors from ${varKey}` : `Include active colors (tabs, buttons) in ${varKey}`}
-                                      >
-                                        <Lightbulb
-                                          className={`w-3.5 h-3.5 transition-all duration-500 ${isBulbOn ? 'text-white fill-white/20 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)] scale-110' : 'text-white/10 fill-transparent'}`}
-                                        />
-                                      </button>
-                                    )}
-                                    {v.type === 'color' ? (
-                                      <div className="relative flex items-center gap-4">
-                                        {((v as any).name?.includes('link-') || 
-                                          (v as any).name?.includes('glow') || 
-                                          (v as any).name?.includes('glass') || 
-                                          (v as any).name?.includes('tooltip') || 
-                                          (v as any).name?.includes('toast') ||
-                                          (v as any).name?.includes('resizer') ||
-                                          (v as any).name?.includes('border-std')) && (
-                                          <div className="flex items-center gap-2 pr-2">
-                                            <input
-                                              type="range" min="0" max="1" step="0.01"
-                                              defaultValue={overrides[(v as any).name + '-opacity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name + '-opacity').trim() : '1')}
-                                              onChange={(e) => updateVariable((v as any).name + '-opacity', e.target.value)}
-                                              className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
-                                              title={`${(v as any).label} Intensity`}
-                                            />
-                                          </div>
-                                        )}
-                                        <div className="relative flex items-center">
-                                          <input
-                                            type="color"
-                                            defaultValue={overrides[(v as any).name || (v as any).targets?.[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name || (v as any).targets?.[0]).trim() : '#000000')}
-                                            onChange={(e) => {
-                                              if ((v as any).targets) {
-                                                const finalTargets = [...(v as any).targets];
-                                                if (isBulbOn && (v as any).activeTargets) {
-                                                  finalTargets.push(...(v as any).activeTargets);
-                                                }
-                                                const mapping: Record<string, string> = {};
-                                                finalTargets.forEach((t: string) => mapping[t] = e.target.value);
-                                                updateVariables(mapping);
-                                              } else {
-                                                updateVariable((v as any).name, e.target.value);
-                                              }
-                                            }}
-                                            className="w-full h-full bg-transparent border-0 cursor-pointer opacity-0 absolute inset-0 z-10"
-                                          />
-                                          <div
-                                            className="w-6 h-6 rounded-lg border border-white/20 shadow-xl transition-transform group-hover:scale-110"
-                                            style={{
-                                              backgroundColor: getHonestColor(
-                                                (v as any).name || (v as any).targets?.[0],
-                                                overrides[(v as any).name || (v as any).targets?.[0]] || `var(${(v as any).name || (v as any).targets?.[0]})`
-                                              )
-                                            }}
-                                          />
-                                        </div>
-                                      </div>
-                                    ) : (
-                                      <div className="flex items-center gap-2">
-                                        {(v as any).name?.includes('-w-') && (
-                                          <div className="flex items-center gap-1">
-                                            <input
-                                              type="range" min="0" max="20" step="1"
-                                              value={parseInt(overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '0'))}
-                                              onChange={(e) => updateVariable((v as any).name, `${e.target.value}px`)}
-                                              className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
-                                            />
-                                          </div>
-                                        )}
-                                        <input
-                                          type="text"
-                                          value={overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '')}
-                                          onChange={(e) => updateVariable((v as any).name, e.target.value)}
-                                          className="w-10 bg-transparent border-0 text-right text-[10px] text-white/60 focus:text-white focus:outline-none font-mono"
-                                        />
-                                      </div>
-                                    )}
+                        return (
+                          <div key={varKey} className={`flex items-center justify-between py-2.5 px-4 group hover:bg-white/[0.02] transition-all border-b ${isTierEnd ? 'border-white/30 border-b-[2px]' : 'border-white/5 last:border-0'}`}>
+                            <div className="flex flex-col">
+                              {(v as any).label && <span className="text-[11px] font-black uppercase tracking-widest text-white/90">{(v as any).label}</span>}
+                              {(v as any).name && <span className={`${(v as any).label ? 'text-[8px]' : 'text-[9px]'} font-mono text-white/90 lowercase tracking-tighter`}>{(v as any).name}</span>}
+                              {(v as any).targets && <span className="text-[7px] font-mono text-white/30 lowercase tracking-tighter">{(v as any).targets.length} + {(v as any).activeTargets?.length || 0} targets</span>}
+                            </div>
+                            <div className="relative flex items-center gap-2">
+                              {isMasterControl && (
+                                <button
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    const nextOn = !isBulbOn;
+                                    setActiveBulbs(prev => ({ ...prev, [varKey]: nextOn }));
+                                    if (nextOn && (v as any).activeTargets) {
+                                      const currentValue = overrides[(v as any).targets[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).targets[0]).trim() : '');
+                                      if (currentValue) {
+                                        const mapping: Record<string, string> = {};
+                                        (v as any).activeTargets.forEach((t: string) => mapping[t] = currentValue);
+                                        updateVariables(mapping);
+                                      }
+                                    }
+                                  }}
+                                  className="p-1 rounded-md transition-all duration-300 hover:bg-white/10 cursor-pointer"
+                                >
+                                  <Lightbulb className={`w-3.5 h-3.5 transition-all duration-500 ${isBulbOn ? 'text-white fill-white/20 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)] scale-110' : 'text-white/10 fill-transparent'}`} />
+                                </button>
+                              )}
+                              {v.type === 'color' ? (
+                                <div className="relative flex items-center gap-4">
+                                  {((v as any).name?.includes('link-') || (v as any).name?.includes('glow') || (v as any).name?.includes('glass') || (v as any).name?.includes('tooltip') || (v as any).name?.includes('toast') || (v as any).name?.includes('resizer') || (v as any).name?.includes('border-std')) && (
+                                    <div className="flex items-center gap-2 pr-2">
+                                      <input
+                                        type="range" min="0" max="1" step="0.01"
+                                        defaultValue={overrides[(v as any).name + '-opacity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name + '-opacity').trim() : '1')}
+                                        onChange={(e) => updateVariable((v as any).name + '-opacity', e.target.value)}
+                                        className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
+                                      />
+                                    </div>
+                                  )}
+                                  <div className="relative flex items-center">
+                                    <input
+                                      type="color"
+                                      defaultValue={overrides[(v as any).name || (v as any).targets?.[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name || (v as any).targets?.[0]).trim() : '#000000')}
+                                      onChange={(e) => {
+                                        if ((v as any).targets) {
+                                          const finalTargets = [...(v as any).targets];
+                                          if (isBulbOn && (v as any).activeTargets) finalTargets.push(...(v as any).activeTargets);
+                                          const mapping: Record<string, string> = {};
+                                          finalTargets.forEach((t: string) => mapping[t] = e.target.value);
+                                          updateVariables(mapping);
+                                        } else {
+                                          updateVariable((v as any).name, e.target.value);
+                                        }
+                                      }}
+                                      className="w-full h-full bg-transparent border-0 cursor-pointer opacity-0 absolute inset-0 z-10"
+                                    />
+                                    <div
+                                      className="w-6 h-6 rounded-lg border border-white/20 shadow-xl"
+                                      style={{ backgroundColor: getHonestColor((v as any).name || (v as any).targets?.[0], overrides[(v as any).name || (v as any).targets?.[0]] || `var(${(v as any).name || (v as any).targets?.[0]})`) }}
+                                    />
                                   </div>
                                 </div>
-                              );
-                            })}
+                              ) : (
+                                <div className="flex items-center gap-2">
+                                  {(v as any).name?.includes('-w-') && (
+                                    <input
+                                      type="range" min="0" max="20" step="1"
+                                      value={parseInt(overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '0'))}
+                                      onChange={(e) => updateVariable((v as any).name, `${e.target.value}px`)}
+                                      className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
+                                    />
+                                  )}
+                                  <input
+                                    type="text"
+                                    value={overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '')}
+                                    onChange={(e) => updateVariable((v as any).name, e.target.value)}
+                                    className="w-10 bg-transparent border-0 text-right text-[10px] text-white/60 focus:text-white focus:outline-none font-mono"
+                                  />
+                                </div>
+                              )}
+                            </div>
                           </div>
-                        )}
-                      </div>
-                    ))}
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
-              )}
-
-              <SectionHeader id="logo" label="Header Logo" icon={Square} />
-              {expandedSections.has('logo') && (
-                <div className="py-6 px-5 text-center text-white italic text-[11px] uppercase tracking-widest opacity-40">
-                  Header Logo Controls Coming Soon
-                </div>
-              )}
-
-              <SectionHeader id="animation" label="Animation" icon={RotateCcw} />
-              {expandedSections.has('animation') && (
-                <div className="py-6 px-5 text-center text-white italic text-[11px] uppercase tracking-widest opacity-40">
-                  Motion Engine Ready
-                </div>
-              )}
+              ))}
             </div>
           )}
-
-          {activeTab === 'landing' && (
-            <div className="space-y-6 py-3 px-5 animate-in fade-in duration-500">
-              <div className="space-y-4">
-                <h3 className="text-[11px] font-black uppercase tracking-[0.2em] text-white/40 ml-1">Landing Presets</h3>
+          {activeTab === 'branding' && (
+            <div className="animate-in fade-in duration-500">
+              <SectionHeader id="landing_layout" label="Landing" icon={Monitor} />
+              {expandedSections.has('landing_layout') && (
+                <div className="bg-white/[0.03] border-b border-white/10 py-6 px-5 space-y-8 animate-in slide-in-from-top-2 duration-300">
+                  <div className="space-y-4">
+                <h3 className="text-[11px] font-black uppercase tracking-[0.2em] text-white/40">Landing Presets</h3>
                 <div className="grid grid-cols-1 gap-4">
                   {[
                     { id: 1, label: 'Classic Logo', desc: 'Centered kiln mark on neutral focus.', icon: <Monitor className="w-5 h-5" /> },
@@ -746,30 +652,65 @@ export const ThemeBar = ({
                     <RotateCcw className="w-4 h-4 group-hover:rotate-[-45deg] transition-transform duration-300" />
                   </button>
                 </div>
-
-                {[
-                  { label: 'Scale', value: logoSettings.scale.toFixed(2), key: 'scale', min: 0.5, max: 3, step: 0.05 },
-                  { label: 'Opacity', value: logoSettings.opacity.toFixed(2), key: 'opacity', min: 0, max: 1, step: 0.05 },
-                  { label: 'Radius', value: logoSettings.radius.toString(), key: 'radius', min: 0, max: 100, step: 1 }
-                ].map((s) => (
-                  <div key={s.key} className="flex items-center gap-4 group">
+                
+                <div className="flex flex-col gap-6">
+                  {/* OPACITY Tuning */}
+                  <div className="flex items-center gap-4 group">
                     <span className="w-12 text-[10px] font-black uppercase tracking-widest text-white/30 group-hover:text-white/60 transition-colors">
-                      {s.label === 'Opacity' ? 'OPAC' : s.label.toUpperCase()}
+                      OPACITY
                     </span>
                     <input
                       type="range"
-                      min={s.min}
-                      max={s.max}
-                      step={s.step}
-                      value={s.value}
-                      onChange={(e) => updateLogoSettings({ [s.key]: parseFloat(e.target.value) })}
+                      min="0"
+                      max="1"
+                      step="0.01"
+                      value={logoSettings.opacity}
+                      onChange={(e) => updateLogoSettings({ opacity: parseFloat(e.target.value) })}
+                      className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10 transition-all font-black"
+                    />
+                    <span className="w-8 text-right text-[10px] font-mono text-white/40 group-hover:text-white transition-opacity">
+                      {(logoSettings.opacity * 100).toFixed(0)}%
+                    </span>
+                  </div>
+
+                  {/* SCALE Tuning */}
+                  <div className="flex items-center gap-4 group">
+                    <span className="w-12 text-[10px] font-black uppercase tracking-widest text-white/30 group-hover:text-white/60 transition-colors">
+                      SCALE
+                    </span>
+                    <input
+                      type="range"
+                      min="0.1"
+                      max="4"
+                      step="0.1"
+                      value={logoSettings.scale}
+                      onChange={(e) => updateLogoSettings({ scale: parseFloat(e.target.value) })}
                       className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10 transition-all"
                     />
                     <span className="w-8 text-right text-[10px] font-mono text-white/40 group-hover:text-white transition-opacity">
-                      {s.value}
+                      {logoSettings.scale}x
                     </span>
                   </div>
-                ))}
+
+                  {/* RADIUS Tuning */}
+                  <div className="flex items-center gap-4 group">
+                    <span className="w-12 text-[10px] font-black uppercase tracking-widest text-white/30 group-hover:text-white/60 transition-colors">
+                      RADIUS
+                    </span>
+                    <input
+                      type="range"
+                      min="0"
+                      max="100"
+                      step="1"
+                      value={logoSettings.radius}
+                      onChange={(e) => updateLogoSettings({ radius: parseInt(e.target.value) })}
+                      className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10 transition-all"
+                    />
+                    <span className="w-8 text-right text-[10px] font-mono text-white/40 group-hover:text-white transition-opacity">
+                      {logoSettings.radius}%
+                    </span>
+                  </div>
+                </div>
 
                 {landingVersion !== 1 && (
                   <div className="space-y-4 border-t border-white/5 pt-4 mt-2">
@@ -814,13 +755,31 @@ export const ThemeBar = ({
                 )}
               </div>
             </div>
+            )}
+            
+            <SectionHeader id="logo" label="Header Logo" icon={Square} />
+            {expandedSections.has('logo') && (
+              <div className="bg-white/[0.03] border-b border-white/10 py-8 px-5 text-center text-white italic text-[11px] uppercase tracking-widest opacity-40">
+                Header Logo Controls Coming Soon
+              </div>
+            )}
+
+            <SectionHeader id="animation" label="Animation" icon={RotateCcw} />
+            {expandedSections.has('animation') && (
+              <div className="bg-white/[0.03] border-b border-white/10 py-8 px-5 text-center text-white italic text-[11px] uppercase tracking-widest opacity-40">
+                Motion Engine Ready
+              </div>
+            )}
+            
+          </div>
           )}
 
           {activeTab === 'tree' && (
-            <div className="animate-in fade-in slide-in-from-right-4 duration-300 py-4 px-2 space-y-8">
-              <div className="flex items-center justify-between px-5 mb-2">
-                <h3 className="text-[11px] font-black uppercase tracking-[0.2em] text-white/40">Tree Configuration</h3>
-                <div className="flex items-center gap-2">
+            <div className="animate-in fade-in slide-in-from-right-4 duration-300">
+              {/* Persistent Tree Utility Bar */}
+              <div className="flex items-center justify-between px-5 py-2.5 bg-white/[0.02] border-b border-white/5 sticky top-0 z-50 backdrop-blur-md">
+                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-white/20">Tree Configuration</span>
+                <div className="flex items-center gap-1">
                   <button
                     onClick={() => {
                       if (confirm("Reset all tree layout and aesthetic settings to defaults?")) {
@@ -845,9 +804,10 @@ export const ThemeBar = ({
                   </button>
                 </div>
               </div>
+
               {(() => {
                 const renderTreeSection = (section: any) => (
-                  <div key={section.id} className="space-y-3">
+                  <div key={section.id}>
                     <SectionHeader
                       id={section.id}
                       label={section.label}
@@ -874,7 +834,7 @@ export const ThemeBar = ({
                       }
                     />
                     {expandedSections.has(section.id) && (
-                      <div className="bg-white/[0.03] rounded-[var(--kilang-radius-lg)] border border-white/10 overflow-hidden ml-2 pr-2">
+                      <div className="bg-white/[0.03] border-b border-white/10 overflow-hidden">
                         {section.controls.map((c: any, i: number) => (
                           <React.Fragment key={c.key}>
                             <div className="flex items-center justify-between py-2.5 px-4 group hover:bg-white/[0.02] transition-all border-b border-white/5 last:border-0">
@@ -955,7 +915,7 @@ export const ThemeBar = ({
                 );
 
                 return (
-                  <div className="space-y-8 pb-12">
+                  <div className="pb-12">
                     {[
                       {
                         id: 'layout',
@@ -986,7 +946,7 @@ export const ThemeBar = ({
                     ].map(renderTreeSection)}
 
                     {/* PALETTE SECTION */}
-                    <div className="space-y-3">
+                    <div>
                       <SectionHeader 
                         id="colors" 
                         label="Palette" 
@@ -1012,8 +972,8 @@ export const ThemeBar = ({
                         }
                       />
                       {expandedSections.has('colors') && (
-                        <div className="space-y-6 ml-2 animate-in fade-in slide-in-from-top-2 duration-300">
-                          <div className="flex flex-col gap-6 px-2">
+                        <div className="bg-white/[0.03] border-b border-white/10 py-6 px-5 space-y-8 animate-in fade-in slide-in-from-top-2 duration-300">
+                          <div className="flex flex-col gap-6">
                              {/* Intensity & Technical Note Stack */}
                              <div className="space-y-3">
                                <div className="text-[10px] text-white/30 font-mono uppercase tracking-[0.2em] ml-1">vars(--kilang-tier-n-fill/border/text)</div>
@@ -1250,6 +1210,7 @@ export const ThemeBar = ({
                         id: 'connectors',
                         label: 'Connectors',
                         icon: PencilLine,
+  Package,
                         controls: [
                           { label: 'Gap X', key: 'lineGapX', min: -100, max: 300, step: 5, unit: 'px' },
                           { label: 'Gap Y', key: 'lineGapY', min: -100, max: 300, step: 5, unit: 'px' },
