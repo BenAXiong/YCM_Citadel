@@ -348,7 +348,7 @@ export const KilangMobileLayout = ({}: KilangMobileLayoutProps) => {
         </div>
       )}
 
-      <StatsOverlay />
+      {state.showStatsOverlay && <StatsOverlay />}
     </div>
   );
 };
