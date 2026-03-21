@@ -18,6 +18,7 @@
 'use client';
 
 import React, { useMemo } from 'react';
+import { useKilangContext } from './KilangContext';
 
 const generateBraidedPath = (yOffset: number, amplitude: number, period: number, wrapAmp: number, wrapFreq: number) => {
   let path = `M -16 ${yOffset.toFixed(2)}`;
@@ -32,97 +33,71 @@ const generateBraidedPath = (yOffset: number, amplitude: number, period: number,
 };
 
 export const WeavingPattern = () => {
-  // Main Strands (The base loom)
-  const mainPathA = useMemo(() => generateBraidedPath(16, 12, 32, 0, 1), []);
-  const mainPathB = useMemo(() => generateBraidedPath(16, -12, 32, 0, 1), []);
+  const { state } = useKilangContext();
+  const { 
+    threadPeriod = 32, 
+    threads = []
+  } = state.layoutConfig;
 
-  // Wrapping Strands (The orbiting accents)
-  const wrapPathA = useMemo(() => generateBraidedPath(16, 12, 32, 3.5, 10), []);
-  const wrapPathB = useMemo(() => generateBraidedPath(16, -12, 32, 3.5, 12), []);
+  // Generate paths for each thread
+  const threadPaths = useMemo(() => {
+    return threads.map((t) => ({
+      main: generateBraidedPath(16, t.amplitude, threadPeriod, 0, 1),
+      wrap: generateBraidedPath(16, t.amplitude, threadPeriod, t.orbit, t.complexity)
+    }));
+  }, [threads, threadPeriod]);
 
   return (
     <div className="relative w-64 h-8 overflow-hidden rounded-lg flex items-center justify-center">
-      <svg
-        width="100%"
-        height="100%"
-        viewBox="0 0 256 32"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <div className="absolute inset-0 bg-black/20 backdrop-blur-[1px]" />
+      
+      <svg className="w-full h-full relative z-10" preserveAspectRatio="none" viewBox="0 0 256 32" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <linearGradient id="braid-gradient-a" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#60a5fa" />
-            <stop offset="100%" stopColor="#3b82f6" />
-          </linearGradient>
-          <linearGradient id="braid-gradient-b" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#818cf8" />
-            <stop offset="100%" stopColor="#6366f1" />
-          </linearGradient>
-
-          <linearGradient id="fade-sides" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="black" />
-            <stop offset="10%" stopColor="white" />
-            <stop offset="90%" stopColor="white" />
-            <stop offset="100%" stopColor="black" />
-          </linearGradient>
-
-          <mask id="pattern-bounds">
-            <rect width="256" height="32" fill="url(#fade-sides)" />
-          </mask>
+          {threads.map((t, i) => (
+            <linearGradient id={`thread-grad-${i}`} key={i} x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor={t.color} stopOpacity="0" />
+              <stop offset="20%" stopColor={t.color} stopOpacity={t.opacity * 0.5} />
+              <stop offset="50%" stopColor={t.color} stopOpacity={t.opacity} />
+              <stop offset="80%" stopColor={t.color} stopOpacity={t.opacity * 0.5} />
+              <stop offset="100%" stopColor={t.color} stopOpacity="0" />
+            </linearGradient>
+          ))}
         </defs>
 
-        <g mask="url(#pattern-bounds)">
-          {/* Group A: Faster (4.0s) */}
-          <g>
-            <path
-              d={mainPathA}
-              stroke="url(#braid-gradient-a)"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeDasharray="450"
-              className="opacity-90"
-            >
-              <animate attributeName="stroke-dashoffset" values="450; 0; 0; 0" keyTimes="0; 0.6; 0.9; 1" dur="4s" repeatCount="indefinite" />
-              <animate attributeName="opacity" values="0.2; 0.9; 0.9; 0" keyTimes="0; 0.1; 0.8; 1" dur="4s" repeatCount="indefinite" />
-            </path>
-            <path
-              d={wrapPathA}
-              stroke="url(#braid-gradient-a)"
-              strokeWidth="1.8"
-              strokeLinecap="round"
-              strokeDasharray="450"
-              className="opacity-60"
-            >
-              <animate attributeName="stroke-dashoffset" values="450; 0; 0; 0" keyTimes="0; 0.6; 0.9; 1" dur="4s" repeatCount="indefinite" />
-              <animate attributeName="opacity" values="0; 0.5; 0.5; 0" keyTimes="0; 0.1; 0.8; 1" dur="4s" repeatCount="indefinite" />
-            </path>
-          </g>
-
-          {/* Group B: Slower (5.2s) */}
-          <g>
-            <path
-              d={mainPathB}
-              stroke="url(#braid-gradient-b)"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeDasharray="450"
-              className="opacity-90"
-            >
-              <animate attributeName="stroke-dashoffset" values="450; 0; 0; 0" keyTimes="0; 0.6; 0.95; 1" dur="5.2s" repeatCount="indefinite" />
-              <animate attributeName="opacity" values="0.2; 0.9; 0.9; 0" keyTimes="0; 0.1; 0.85; 1" dur="5.2s" repeatCount="indefinite" />
-            </path>
-            <path
-              d={wrapPathB}
-              stroke="url(#braid-gradient-b)"
-              strokeWidth="2.0"
-              strokeLinecap="round"
-              strokeDasharray="450"
-              className="opacity-80"
-            >
-              <animate attributeName="stroke-dashoffset" values="450; 0; 0; 0" keyTimes="0; 0.6; 0.95; 1" dur="5.2s" repeatCount="indefinite" />
-              <animate attributeName="opacity" values="0; 0.5; 0.5; 0" keyTimes="0; 0.1; 0.85; 1" dur="5.2s" repeatCount="indefinite" />
-            </path>
-          </g>
+        <g>
+          {threads.map((t, i) => {
+            const paths = threadPaths[i];
+            const speedStr = `${t.speed}s`;
+            
+            return (
+              <g key={i}>
+                <path
+                  d={paths.main}
+                  stroke={`url(#thread-grad-${i})`}
+                  strokeWidth={t.width}
+                  strokeLinecap="round"
+                  strokeDasharray="450"
+                  style={{ opacity: t.opacity }}
+                >
+                  <animate attributeName="stroke-dashoffset" values="450; 0; 0; 0" keyTimes="0; 0.6; 0.9; 1" dur={speedStr} repeatCount="indefinite" />
+                  <animate attributeName="opacity" values="0.2; 1; 1; 0" keyTimes="0; 0.1; 0.8; 1" dur={speedStr} repeatCount="indefinite" />
+                </path>
+                {t.orbit > 0 && (
+                  <path
+                    d={paths.wrap}
+                    stroke={`url(#thread-grad-${i})`}
+                    strokeWidth={t.width * 0.7}
+                    strokeLinecap="round"
+                    strokeDasharray="450"
+                    style={{ opacity: t.opacity * 0.6 }}
+                  >
+                    <animate attributeName="stroke-dashoffset" values="450; 0; 0; 0" keyTimes="0; 0.6; 0.9; 1" dur={speedStr} repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0; 0.6; 0.6; 0" keyTimes="0; 0.1; 0.8; 1" dur={speedStr} repeatCount="indefinite" />
+                  </path>
+                )}
+              </g>
+            );
+          })}
         </g>
       </svg>
     </div>

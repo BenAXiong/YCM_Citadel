@@ -9,6 +9,16 @@ const ANCHOR_DEFAULTS = {
   vertical: { x: 2000, y: 2000 }
 };
 
+export interface ThreadConfig {
+  amplitude: number;
+  width: number;
+  complexity: number;
+  orbit: number;
+  opacity: number;
+  speed: number;
+  color: string;
+}
+
 export interface KilangState {
   // Global Data
   stats: any | null;
@@ -127,6 +137,8 @@ export interface KilangState {
     lineFlowSpeed: number;
     nodeIntensity: number;
     lineThemeSync: boolean;
+    threadPeriod: number;
+    threads: ThreadConfig[];
     theme: string;
     fontFamily: string;
     fontSize: number;
@@ -170,7 +182,9 @@ export type KilangAction =
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'SET_SIDEBAR_WIDTH', width: number }
   | { type: 'SET_TOAST', message: string | null }
-  | { type: 'SET_AFFIX_STATE', state: Partial<KilangState['affixState']> }
+  | { type: 'SET_THREAD_CONFIG'; index: number; config: Partial<ThreadConfig> }
+  | { type: 'RESET_THREADS' }
+  | { type: 'SET_AFFIX_STATE'; state: Partial<KilangState['affixState']> }
   | { type: 'HYDRATE_STATE'; state: Partial<KilangState> }
   | { type: 'SYNC_STATE', state: Partial<KilangState> }
   | { type: 'SYNC_GLOBAL_THEME', theme: string, layoutConfig: Partial<KilangState['layoutConfig']> }
@@ -262,6 +276,18 @@ export const initialState: KilangState = {
     lineColorMid: '#06b6d4',
     lineGradientEnd: '#8b5cf6',
     showIcons: false,
+    threadAmplitude: 12,
+    threadPeriod: 32,
+    threads: [
+      { amplitude: 12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 4, color: '#60a5fa' },
+      { amplitude: -12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 5.2, color: '#818cf8' },
+      { amplitude: 10, width: 1.8, complexity: 12, orbit: 4, opacity: 0.7, speed: 3.5, color: '#34d399' },
+      { amplitude: -10, width: 1.8, complexity: 14, orbit: 4, opacity: 0.7, speed: 4.8, color: '#fbbf24' },
+      { amplitude: 8, width: 1.5, complexity: 8, orbit: 2.5, opacity: 0.5, speed: 6, color: '#f472b6' },
+      { amplitude: -8, width: 1.2, complexity: 16, orbit: 3, opacity: 0.6, speed: 4.2, color: '#a78bfa' },
+      { amplitude: 14, width: 2, complexity: 6, orbit: 5, opacity: 0.4, speed: 7, color: '#f87171' },
+      { amplitude: -14, width: 1.5, complexity: 20, orbit: 4.5, opacity: 0.5, speed: 3.8, color: '#fb7185' },
+    ],
     nodeWidth: 100,
     nodePaddingY: 8,
     anchorX: ANCHOR_DEFAULTS.horizontal.x,
@@ -451,6 +477,33 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         exportSettings: exportSettings ? { ...state.exportSettings, ...exportSettings } : state.exportSettings,
       };
     }
+    case 'SET_THREAD_CONFIG': {
+      const { index, config } = action;
+      const nextThreads = [...state.layoutConfig.threads];
+      nextThreads[index] = { ...nextThreads[index], ...config };
+      return {
+        ...state,
+        layoutConfig: { ...state.layoutConfig, threads: nextThreads }
+      };
+    }
+    case 'RESET_THREADS':
+      return {
+        ...state,
+        layoutConfig: {
+          ...state.layoutConfig,
+          threadPeriod: 32,
+          threads: [
+            { amplitude: 12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 4, color: '#60a5fa' },
+            { amplitude: -12, width: 2.5, complexity: 10, orbit: 3.5, opacity: 0.9, speed: 5.2, color: '#818cf8' },
+            { amplitude: 10, width: 1.8, complexity: 12, orbit: 4, opacity: 0.7, speed: 3.5, color: '#34d399' },
+            { amplitude: -10, width: 1.8, complexity: 14, orbit: 4, opacity: 0.7, speed: 4.8, color: '#fbbf24' },
+            { amplitude: 8, width: 1.5, complexity: 8, orbit: 2.5, opacity: 0.5, speed: 6, color: '#f472b6' },
+            { amplitude: -8, width: 1.2, complexity: 16, orbit: 3, opacity: 0.6, speed: 4.2, color: '#a78bfa' },
+            { amplitude: 14, width: 2, complexity: 6, orbit: 5, opacity: 0.4, speed: 7, color: '#f87171' },
+            { amplitude: -14, width: 1.5, complexity: 20, orbit: 4.5, opacity: 0.5, speed: 3.8, color: '#fb7185' },
+          ]
+        }
+      };
     case 'SET_CANVAS_HOVER':
       return { ...state, canvasHoverNode: action.node };
     case 'SET_CANVAS_SELECT':
