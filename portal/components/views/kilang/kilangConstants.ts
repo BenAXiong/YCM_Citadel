@@ -18,29 +18,18 @@ export const THEME_VARS = [
   '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent',
   '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active',
   '--kilang-radius-sm', '--kilang-radius-base', '--kilang-radius-md', '--kilang-radius-lg', '--kilang-radius-display',
-  '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end', '--kilang-link-opacity',
+  '--kilang-link-opacity',
 
   // --- 12 BORDERS ---
   '--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border',
   '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std',
-  '--kilang-ctrl-active-border', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border',
+  '--kilang-ctrl-active-border', '--kilang-muted-border', '--kilang-scrollbar-border',
   '--kilang-shadow-primary',
-  '--kilang-border-w-std', '--kilang-border-w-resizer', '--kilang-border-w-root', '--kilang-border-w-accent',
+  '--kilang-border-w-std', '--kilang-border-w-resizer',
 
   // --- 10 TEXT ---
   '--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text',
-  '--kilang-logo-text', '--kilang-ctrl-active-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text',
-
-  // --- 27 TREE TIERS ---
-  '--kilang-tier-1-fill', '--kilang-tier-1-border', '--kilang-tier-1-text',
-  '--kilang-tier-2-fill', '--kilang-tier-2-border', '--kilang-tier-2-text',
-  '--kilang-tier-3-fill', '--kilang-tier-3-border', '--kilang-tier-3-text',
-  '--kilang-tier-4-fill', '--kilang-tier-4-border', '--kilang-tier-4-text',
-  '--kilang-tier-5-fill', '--kilang-tier-5-border', '--kilang-tier-5-text',
-  '--kilang-tier-6-fill', '--kilang-tier-6-border', '--kilang-tier-6-text',
-  '--kilang-tier-7-fill', '--kilang-tier-7-border', '--kilang-tier-7-text',
-  '--kilang-tier-8-fill', '--kilang-tier-8-border', '--kilang-tier-8-text',
-  '--kilang-tier-9-fill', '--kilang-tier-9-border', '--kilang-tier-9-text'
+  '--kilang-logo-text', '--kilang-ctrl-active-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text'
 ];
 
 export const FILTER_BUCKETS = [

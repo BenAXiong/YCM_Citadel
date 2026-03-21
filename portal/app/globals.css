@@ -58,6 +58,10 @@ body {
   background: var(--accent);
 }
 
+.custom-scrollbar-left::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
 /* THEME SYSTEM */
 .theme-matrix {
   --bg-deep: #080808;

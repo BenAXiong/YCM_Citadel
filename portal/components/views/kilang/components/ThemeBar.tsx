@@ -109,46 +109,13 @@ export const groupVars = {
     { name: '--kilang-radius-lg', label: 'Large Radius', type: 'text' },
     { name: '--kilang-radius-display', label: 'Display Radius', type: 'text' }
   ] as const,
-  links: [
-    { name: '--kilang-link-opacity', label: 'Link Opacity', type: 'text' }
-  ] as const,
+  links: [] as const,
   weights: [
     { name: '--kilang-border-w-std', label: 'Standard Weight', type: 'text' },
-    { name: '--kilang-border-w-resizer', label: 'Resizer Weight', type: 'text' },
-    { name: '--kilang-border-w-root', label: 'Root Node Weight', type: 'text' },
-    { name: '--kilang-border-w-accent', label: 'Accent Strip Weight', type: 'text' }
+    { name: '--kilang-border-w-resizer', label: 'Resizer Weight', type: 'text' }
   ] as const
 };
 
-export const tierVars = [
-  { name: '--kilang-tier-1-fill', type: 'color' },
-  { name: '--kilang-tier-1-border', type: 'color' },
-  { name: '--kilang-tier-1-text', type: 'color' },
-  { name: '--kilang-tier-2-fill', type: 'color' },
-  { name: '--kilang-tier-2-border', type: 'color' },
-  { name: '--kilang-tier-2-text', type: 'color' },
-  { name: '--kilang-tier-3-fill', type: 'color' },
-  { name: '--kilang-tier-3-border', type: 'color' },
-  { name: '--kilang-tier-3-text', type: 'color' },
-  { name: '--kilang-tier-4-fill', type: 'color' },
-  { name: '--kilang-tier-4-border', type: 'color' },
-  { name: '--kilang-tier-4-text', type: 'color' },
-  { name: '--kilang-tier-5-fill', type: 'color' },
-  { name: '--kilang-tier-5-border', type: 'color' },
-  { name: '--kilang-tier-5-text', type: 'color' },
-  { name: '--kilang-tier-6-fill', type: 'color' },
-  { name: '--kilang-tier-6-border', type: 'color' },
-  { name: '--kilang-tier-6-text', type: 'color' },
-  { name: '--kilang-tier-7-fill', type: 'color' },
-  { name: '--kilang-tier-7-border', type: 'color' },
-  { name: '--kilang-tier-7-text', type: 'color' },
-  { name: '--kilang-tier-8-fill', type: 'color' },
-  { name: '--kilang-tier-8-border', type: 'color' },
-  { name: '--kilang-tier-8-text', type: 'color' },
-  { name: '--kilang-tier-9-fill', type: 'color' },
-  { name: '--kilang-tier-9-border', type: 'color' },
-  { name: '--kilang-tier-9-text', type: 'color' }
-];
 
 export const THEME_PRESETS = [
   { id: 'kakarayan', label: 'Kakarayan', color: '#3b82f6' },
@@ -184,6 +151,48 @@ export const ThemeBar = ({
   const [slideIndex, setSlideIndex] = useState(0);
   const itemsPerSlide = 3;
   const totalSlides = Math.ceil(THEME_PRESETS.length / itemsPerSlide);
+  const galleryRef = useRef<HTMLDivElement | null>(null);
+
+  const setGalleryRef = (el: HTMLDivElement | null) => {
+    if (galleryRef.current) {
+      galleryRef.current.removeEventListener('wheel', onWheelGlobal);
+    }
+    
+    galleryRef.current = el;
+    
+    if (el) {
+      el.addEventListener('wheel', onWheelGlobal, { passive: false });
+    }
+  };
+
+  const onWheelGlobal = (e: WheelEvent) => {
+    if (!galleryRef.current) return;
+    
+    // Only intercept if it's primarily a vertical scroll
+    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      e.preventDefault();
+      e.stopPropagation(); 
+      
+      galleryRef.current.scrollBy({
+        left: e.deltaY * 3,
+        behavior: 'auto'
+      });
+    }
+  };
+
+  const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    const scrollLeft = e.currentTarget.scrollLeft;
+    const width = e.currentTarget.offsetWidth;
+    const newIndex = Math.round(scrollLeft / width);
+    if (newIndex !== slideIndex) setSlideIndex(newIndex);
+  };
+
+  const scrollToSlide = (index: number) => {
+    if (galleryRef.current) {
+      const width = galleryRef.current.offsetWidth;
+      galleryRef.current.scrollTo({ left: index * width, behavior: 'smooth' });
+    }
+  };
 
   const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['global']));
   const [overrides, setOverrides] = useState<Record<string, string>>({});
@@ -290,7 +299,7 @@ export const ThemeBar = ({
         onClick={() => toggleSection(id)}
         className="flex-grow flex items-center gap-4 py-3 px-5 text-left"
       >
-        <Icon className={`w-4 h-4 ${expandedSections.has(id) ? 'text-[var(--kilang-primary)]' : 'text-white'}`} />
+        <Icon className={`w-4 h-4 ${expandedSections.has(id) ? 'text-white' : 'text-white/40'}`} />
         <span className="text-[11px] font-black uppercase tracking-[0.2em] text-white group-hover:text-white">{label}</span>
       </button>
 
@@ -315,7 +324,7 @@ export const ThemeBar = ({
             <ChevronLeft className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
           ) : (
             <div className="flex flex-col items-center gap-0.5">
-              <ChevronRight className="w-5 h-5 text-[var(--kilang-primary)] animate-pulse" />
+              <ChevronRight className="w-5 h-5 text-zinc-400 animate-pulse" />
             </div>
           )}
         </button>
@@ -325,7 +334,7 @@ export const ThemeBar = ({
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`theme-bar-tab-btn transition-all border-b-2 py-3 ${activeTab === tab ? 'border-[var(--kilang-primary)] text-white bg-white/[0.05]' : 'border-transparent text-white/60 hover:text-white'}`}
+              className={`theme-bar-tab-btn transition-all border-b-2 py-3 ${activeTab === tab ? 'border-white text-white bg-white/[0.05]' : 'border-transparent text-white/60 hover:text-white'}`}
               title={tab === 'map' ? 'VARIABLE MAP: Exhaustive lineage of variable propagation. Use the scan script to update file occurrences after major refactoring.' : undefined}
             >
               <div className="flex flex-col items-center gap-1">
@@ -346,7 +355,7 @@ export const ThemeBar = ({
               const top = 0;
               window.open(`${window.location.href}${window.location.search.includes('?') ? '&' : '?'}standalone=themebar`, 'ThemeWindow', `width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes,status=no,menubar=no`);
             }}
-            className="theme-bar-tab-btn transition-all border-b-2 border-transparent text-[var(--kilang-primary-glow)]/40 hover:text-[var(--kilang-primary-glow)] hover:bg-white/[0.05] py-3"
+            className="theme-bar-tab-btn transition-all border-b-2 border-transparent text-white/40 hover:text-white hover:bg-white/[0.05] py-3"
             title="POP OUT: Opens the theme studio in a dedicated standalone window for multi-monitor workflows."
           >
             <div className="flex flex-col items-center gap-1">
@@ -363,49 +372,60 @@ export const ThemeBar = ({
 
               <div className="relative border-b border-white/5 group/gallery">
                 {/* Pagination Dots (Upper Center) */}
-                <div className="absolute top-3 left-1/2 -translate-x-1/2 flex gap-1.5 transition-opacity duration-300 opacity-30 group-hover/gallery:opacity-100">
+                <div className="absolute top-3 left-1/2 -translate-x-1/2 flex gap-1.5 transition-opacity duration-300 opacity-30 group-hover/gallery:opacity-100 z-30">
                   {Array.from({ length: totalSlides }).map((_, i) => (
-                    <div
+                    <button
                       key={i}
-                      className={`w-1 h-1 rounded-full transition-all duration-300 ${slideIndex === i ? 'bg-[var(--kilang-primary)]' : 'bg-white/20'}`}
+                      onClick={() => scrollToSlide(i)}
+                      className={`w-1 h-1 rounded-full transition-all duration-300 ${slideIndex === i ? 'bg-white w-2' : 'bg-white/10 hover:bg-white/30'}`}
                     />
                   ))}
                 </div>
 
-                {/* Left Arrow (Absolute Side) */}
+                {/* Left Arrow */}
                 <button
-                  onClick={() => setSlideIndex(prev => (prev > 0 ? prev - 1 : totalSlides - 1))}
+                  onClick={() => scrollToSlide(slideIndex > 0 ? slideIndex - 1 : totalSlides - 1)}
                   className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
                 >
                   <ChevronLeft className="w-4 h-4" />
                 </button>
 
-                {/* Presets List (Faithful to Original) */}
-                <div className="p-6 flex items-center justify-center gap-6 min-h-[110px]">
-                  {THEME_PRESETS.slice(slideIndex * itemsPerSlide, (slideIndex + 1) * itemsPerSlide).map((t) => (
-                    <button
-                      key={t.id}
-                      onClick={() => dispatch({ type: 'SET_UI', theme: t.id })}
-                      className="flex flex-col items-center gap-3 group relative w-[72px]"
+                <div 
+                  ref={setGalleryRef}
+                  onScroll={handleScroll}
+                  className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory scroll-smooth"
+                >
+                  {Array.from({ length: totalSlides }).map((_, slideIdx) => (
+                    <div 
+                      key={slideIdx} 
+                      className="w-full flex-shrink-0 flex items-center justify-center gap-6 py-8 px-6 snap-center"
                     >
-                      <div className={`w-14 h-14 rounded-full flex items-center justify-center transition-all ${layoutConfig.theme === t.id ? 'scale-110' : 'opacity-60 grayscale-[0.5] hover:opacity-100 hover:grayscale-0'}`}>
-                        <div className="absolute inset-0 blur-xl opacity-40 rounded-full" style={{ backgroundColor: t.color }} />
-                        <img
-                          src="/kilang/kilang_5_nobg_noring2.png"
-                          className="w-10 h-10 relative z-10 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
-                          alt={t.label}
-                        />
-                      </div>
-                      <span className={`text-[8px] font-black uppercase tracking-widest text-white transition-opacity text-center w-full truncate px-1 ${layoutConfig.theme === t.id ? 'opacity-100' : 'opacity-40 group-hover:opacity-100'}`}>
-                        {t.label}
-                      </span>
-                    </button>
+                      {THEME_PRESETS.slice(slideIdx * itemsPerSlide, (slideIdx + 1) * itemsPerSlide).map((t) => (
+                        <button
+                          key={t.id}
+                          onClick={() => dispatch({ type: 'SET_UI', theme: t.id })}
+                          className="flex-shrink-0 flex flex-col items-center gap-3 group relative w-[72px]"
+                        >
+                          <div className={`w-14 h-14 rounded-full flex items-center justify-center transition-all ${layoutConfig.theme === t.id ? 'scale-110' : 'opacity-60 grayscale-[0.5] hover:opacity-100 hover:grayscale-0'}`}>
+                            <div className="absolute inset-0 blur-xl opacity-40 rounded-full" style={{ backgroundColor: t.color }} />
+                            <img
+                              src="/kilang/kilang_5_nobg_noring2.png"
+                              className="w-10 h-10 relative z-10 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
+                              alt={t.label}
+                            />
+                          </div>
+                          <span className={`text-[8px] font-black uppercase tracking-widest text-white transition-opacity text-center w-full truncate px-1 ${layoutConfig.theme === t.id ? 'opacity-100' : 'opacity-40 group-hover:opacity-100'}`}>
+                            {t.label}
+                          </span>
+                        </button>
+                      ))}
+                    </div>
                   ))}
                 </div>
 
-                {/* Right Arrow (Absolute Side) */}
+                {/* Right Arrow */}
                 <button
-                  onClick={() => setSlideIndex(prev => (prev < totalSlides - 1 ? prev + 1 : 0))}
+                  onClick={() => scrollToSlide(slideIndex < totalSlides - 1 ? slideIndex + 1 : 0)}
                   className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full hover:bg-white/5 text-white/10 hover:text-white transition-all z-20"
                 >
                   <ChevronRight className="w-4 h-4" />
@@ -475,20 +495,30 @@ export const ThemeBar = ({
                         {
                           label: 'Backgrounds',
                           type: 'color',
-                          targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent', '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active', '--kilang-tier-1-fill', '--kilang-tier-2-fill', '--kilang-tier-3-fill', '--kilang-tier-4-fill', '--kilang-tier-5-fill', '--kilang-tier-6-fill', '--kilang-tier-7-fill', '--kilang-tier-8-fill', '--kilang-tier-9-fill', '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end'],
+                          targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent', '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active'],
                           activeTargets: ['--kilang-ctrl-active']
                         },
                         {
                           label: 'Borders',
                           type: 'color',
-                          targets: ['--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border', '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border', '--kilang-tier-1-border', '--kilang-tier-2-border', '--kilang-tier-3-border', '--kilang-tier-4-border', '--kilang-tier-5-border', '--kilang-tier-6-border', '--kilang-tier-7-border', '--kilang-tier-8-border', '--kilang-tier-9-border'],
+                          targets: ['--kilang-border', '--kilang-primary-border', '--kilang-secondary-border', '--kilang-accent-border', '--kilang-tooltip-border', '--kilang-toast-border', '--kilang-glass', '--kilang-border-std', '--kilang-muted-border', '--kilang-node-border', '--kilang-scrollbar-border'],
                           activeTargets: ['--kilang-ctrl-active-border']
                         },
                         {
                           label: 'Texts',
                           type: 'color',
-                          targets: ['--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text', '--kilang-logo-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text', '--kilang-tier-1-text', '--kilang-tier-2-text', '--kilang-tier-3-text', '--kilang-tier-4-text', '--kilang-tier-5-text', '--kilang-tier-6-text', '--kilang-tier-7-text', '--kilang-tier-8-text', '--kilang-tier-9-text'],
+                          targets: ['--kilang-text', '--kilang-text-muted', '--kilang-primary-text', '--kilang-secondary-text', '--kilang-accent-text', '--kilang-logo-text', '--kilang-tooltip-text', '--kilang-toast-text', '--kilang-metric-text'],
                           activeTargets: ['--kilang-ctrl-active-text']
+                        },
+                        {
+                          label: 'Tree',
+                          type: 'color',
+                          targets: [
+                            '--kilang-tier-1-fill', '--kilang-tier-2-fill', '--kilang-tier-3-fill', '--kilang-tier-4-fill', '--kilang-tier-5-fill', '--kilang-tier-6-fill', '--kilang-tier-7-fill', '--kilang-tier-8-fill', '--kilang-tier-9-fill',
+                            '--kilang-tier-1-border', '--kilang-tier-2-border', '--kilang-tier-3-border', '--kilang-tier-4-border', '--kilang-tier-5-border', '--kilang-tier-6-border', '--kilang-tier-7-border', '--kilang-tier-8-border', '--kilang-tier-9-border',
+                            '--kilang-tier-1-text', '--kilang-tier-2-text', '--kilang-tier-3-text', '--kilang-tier-4-text', '--kilang-tier-5-text', '--kilang-tier-6-text', '--kilang-tier-7-text', '--kilang-tier-8-text', '--kilang-tier-9-text',
+                            '--kilang-link-start', '--kilang-link-mid', '--kilang-link-end'
+                          ]
                         }
                       ]
                     },
@@ -509,14 +539,6 @@ export const ThemeBar = ({
                       vars: groupVars.texts
                     },
                     {
-                      group: `Nodes (${tierVars.length})`,
-                      vars: tierVars
-                    },
-                    {
-                      group: `Connectors (${groupVars.links.length})`,
-                      vars: groupVars.links
-                    },
-                    {
                       group: `Structural (${groupVars.structural.length})`,
                       vars: groupVars.structural
                     }
@@ -528,17 +550,6 @@ export const ThemeBar = ({
                           className="w-full text-left focus:outline-none flex items-center justify-between pr-4 group/stitle"
                         >
                           <h4 className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30 ml-2 hover:text-white/60 transition-colors uppercase">{group.group}</h4>
-                          {group.group.includes('Nodes') && (
-                            <div className="flex items-center gap-3 animate-in fade-in slide-in-from-right-2" onClick={e => e.stopPropagation()}>
-                              <span className="text-[8px] font-black text-white/20 uppercase tracking-widest">Int.</span>
-                              <input
-                                type="range" min="0" max="5" step="0.1"
-                                defaultValue={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-node-intensity').trim() : '1')}
-                                onChange={(e) => updateVariable('--kilang-node-intensity', e.target.value)}
-                                className="w-20 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:bg-white/10"
-                              />
-                            </div>
-                          )}
                         </button>
                         {!collapsedSubsections.has(group.group) && (
                           <div className="bg-white/[0.03] rounded-[var(--kilang-radius-lg)] border border-white/10 overflow-hidden">
@@ -580,7 +591,7 @@ export const ThemeBar = ({
                                         title={isBulbOn ? `Exclude active colors from ${varKey}` : `Include active colors (tabs, buttons) in ${varKey}`}
                                       >
                                         <Lightbulb
-                                          className={`w-3.5 h-3.5 transition-all duration-500 ${isBulbOn ? 'text-[var(--kilang-primary)] fill-[var(--kilang-primary)]/20 drop-shadow-[0_0_8px_var(--kilang-primary)] scale-110' : 'text-white/10 fill-transparent'}`}
+                                          className={`w-3.5 h-3.5 transition-all duration-500 ${isBulbOn ? 'text-white fill-white/20 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)] scale-110' : 'text-white/10 fill-transparent'}`}
                                         />
                                       </button>
                                     )}
@@ -598,7 +609,7 @@ export const ThemeBar = ({
                                               type="range" min="0" max="1" step="0.01"
                                               defaultValue={overrides[(v as any).name + '-opacity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name + '-opacity').trim() : '1')}
                                               onChange={(e) => updateVariable((v as any).name + '-opacity', e.target.value)}
-                                              className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)]"
+                                              className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
                                               title={`${(v as any).label} Intensity`}
                                             />
                                           </div>
@@ -641,7 +652,7 @@ export const ThemeBar = ({
                                               type="range" min="0" max="20" step="1"
                                               value={parseInt(overrides[(v as any).name] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name).trim() : '0'))}
                                               onChange={(e) => updateVariable((v as any).name, `${e.target.value}px`)}
-                                              className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)]"
+                                              className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400"
                                             />
                                           </div>
                                         )}
@@ -693,10 +704,10 @@ export const ThemeBar = ({
                     <button
                       key={v.id}
                       onClick={() => setLandingVersion(v.id as any)}
-                      className={`w-full text-left py-4 px-5 rounded-2xl border transition-all group ${landingVersion === v.id ? 'bg-[var(--kilang-primary)]/20 border-[var(--kilang-primary)] shadow-lg' : 'bg-white/[0.04] border-white/10 hover:border-white/20'}`}
+                      className={`w-full text-left py-4 px-5 rounded-2xl border transition-all group ${landingVersion === v.id ? 'bg-white/10 border-white/40 shadow-lg' : 'bg-white/[0.04] border-white/10 hover:border-white/20'}`}
                     >
                       <div className="flex items-center gap-5">
-                        <div className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all ${landingVersion === v.id ? 'bg-[var(--kilang-primary)] text-white' : 'bg-white/10 text-white group-hover:bg-white/20'}`}>
+                        <div className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all ${landingVersion === v.id ? 'bg-white text-black' : 'bg-white/10 text-white group-hover:bg-white/20'}`}>
                           {v.icon}
                         </div>
                         <div>
@@ -720,7 +731,7 @@ export const ThemeBar = ({
                     <button
                       key={style.id}
                       onClick={() => setLogoStyle(style.id as any)}
-                      className={`flex items-center justify-center py-3 rounded-xl transition-all ${logoStyle === style.id ? 'bg-[var(--kilang-primary)] text-white shadow-lg' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                      className={`flex items-center justify-center py-3 rounded-xl transition-all ${logoStyle === style.id ? 'bg-white text-black shadow-lg font-black' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
                     >
                       <span className="text-[10px] font-black uppercase tracking-widest">{style.label}</span>
                     </button>
@@ -752,7 +763,7 @@ export const ThemeBar = ({
                       step={s.step}
                       value={s.value}
                       onChange={(e) => updateLogoSettings({ [s.key]: parseFloat(e.target.value) })}
-                      className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:bg-white/10 transition-all"
+                      className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10 transition-all"
                     />
                     <span className="w-8 text-right text-[10px] font-mono text-white/40 group-hover:text-white transition-opacity">
                       {s.value}
@@ -773,7 +784,7 @@ export const ThemeBar = ({
                         step="0.01"
                         value={logoSettings.glowIntensity}
                         onChange={(e) => updateLogoSettings({ glowIntensity: parseFloat(e.target.value) })}
-                        className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:bg-white/10 transition-all"
+                        className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10 transition-all"
                       />
                       <span className="w-8 text-right text-[10px] font-mono text-white/40 group-hover:text-white transition-opacity">
                         {(logoSettings.glowIntensity * 100).toFixed(0)}%
@@ -792,7 +803,7 @@ export const ThemeBar = ({
                           step="1"
                           value={logoSettings.xOffset}
                           onChange={(e) => updateLogoSettings({ xOffset: parseInt(e.target.value) })}
-                          className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:bg-white/10 transition-all"
+                          className="flex-grow h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10 transition-all"
                         />
                         <span className="w-8 text-right text-[10px] font-mono text-white/40 group-hover:text-white transition-opacity">
                           {logoSettings.xOffset}
@@ -866,10 +877,11 @@ export const ThemeBar = ({
                   icon: Scaling,
                   controls: [
                     { label: 'Size', key: 'nodeSize', min: 0.5, max: 2, step: 0.1, unit: 'x' },
-                    { label: 'Rounding', key: 'nodeRounding', min: 0, max: 50, step: 2, unit: 'px' },
                     { label: 'Opacity', key: 'nodeOpacity', min: 0.1, max: 1, step: 0.05, unit: '' },
                     { label: 'Word Width', key: 'nodeWidth', min: 80, max: 250, step: 5, unit: 'px' },
                     { label: 'Vert Padding', key: 'nodePaddingY', min: 4, max: 32, step: 1, unit: 'px' },
+                    { label: 'Root Border', key: 'rootBorderWidth', min: 0, max: 20, step: 1, unit: 'px' },
+                    { label: 'Accent Border', key: 'accentBorderWidth', min: 0, max: 20, step: 1, unit: 'px' },
                   ]
                 },
                 {
@@ -894,7 +906,7 @@ export const ThemeBar = ({
                           const defaults: Record<string, any> = {
                             spacing: { interTierGap: 80, interRowGap: 50, rootGap: 50, spacingMode: 'log', coupleGaps: false },
                             paths: { lineGapX: 0, lineGapY: 0, lineWidth: 3, lineOpacity: 0.4, lineBlur: 0, lineTension: 1, lineDashArray: 0, lineFlowSpeed: 0 },
-                            geometry: { nodeSize: 1, nodeRounding: 16, nodeOpacity: 1, nodeWidth: 100, nodePaddingY: 8, showIcons: false },
+                            geometry: { nodeSize: 1, nodeOpacity: 1, nodeWidth: 100, nodePaddingY: 8, showIcons: false },
                             anchors: { anchorX: 2000, anchorY: 2000 }
                           };
                           if (defaults[section.id]) {
@@ -921,7 +933,7 @@ export const ThemeBar = ({
                               step={c.step}
                               value={(layoutConfig as any)[c.key] || 0}
                               onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [c.key]: parseFloat(e.target.value) } })}
-                              className="w-24 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:bg-white/10"
+                              className="w-24 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
                             />
                             <span className="w-8 text-right text-[10px] font-mono text-white/30 group-hover:text-white transition-opacity">
                               {(layoutConfig as any)[c.key]}
@@ -936,7 +948,7 @@ export const ThemeBar = ({
                             <span className="text-[9px] font-black uppercase text-white/30">Spacing Mode</span>
                             <button 
                               onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { spacingMode: layoutConfig.spacingMode === 'even' ? 'log' : 'even' } })} 
-                              className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-[var(--kilang-primary)] text-white' : 'text-white/40 hover:bg-white/5'}`}
+                              className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.spacingMode === 'log' ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
                             >
                               {layoutConfig.spacingMode === 'even' ? 'Even' : 'Log'}
                             </button>
@@ -945,7 +957,7 @@ export const ThemeBar = ({
                             <span className="text-[9px] font-black uppercase text-white/30">Coupled Gaps</span>
                             <button 
                               onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { coupleGaps: !layoutConfig.coupleGaps } })} 
-                              className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.coupleGaps ? 'bg-[var(--kilang-primary)] text-white' : 'text-white/40 hover:bg-white/5'}`}
+                              className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.coupleGaps ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
                             >
                               {layoutConfig.coupleGaps ? 'Coupled' : 'Decoupled'}
                             </button>
@@ -957,7 +969,7 @@ export const ThemeBar = ({
                           <span className="text-[9px] font-black uppercase text-white/30">Tree Icons</span>
                           <button 
                             onClick={() => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { showIcons: !layoutConfig.showIcons } })} 
-                            className={`flex items-center gap-2 px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.showIcons ? 'bg-[var(--kilang-primary)] text-white' : 'text-white/40 hover:bg-white/5'}`}
+                            className={`flex items-center gap-2 px-3 py-1 rounded-lg text-[9px] font-black uppercase transition-all ${layoutConfig.showIcons ? 'bg-white text-black' : 'text-white/40 hover:bg-white/5'}`}
                           >
                             {layoutConfig.showIcons ? <Zap className="w-3 h-3" /> : <ZapOff className="w-3 h-3" />}
                             {layoutConfig.showIcons ? 'Visible' : 'Hidden'}
@@ -972,7 +984,7 @@ export const ThemeBar = ({
               <div className="space-y-3">
                 <SectionHeader 
                   id="colors" 
-                  label="Tier Aesthetics" 
+                  label="Nodes Colors" 
                   icon={Palette} 
                   actions={
                     <button
@@ -996,48 +1008,216 @@ export const ThemeBar = ({
                   }
                 />
                 {expandedSections.has('colors') && (
-                  <div className="space-y-4 ml-2">
-                    {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((tier) => (
-                      <div key={tier} className="p-3 bg-white/[0.02] border border-white/10 rounded-2xl space-y-3">
-                        <span className="text-[9px] font-black uppercase tracking-widest text-[var(--kilang-primary)]">Tier {tier}</span>
-                        <div className="grid grid-cols-2 gap-3">
-                          <div className="flex flex-col gap-1.5">
-                            <span className="text-[8px] font-black uppercase text-white/30">Fill</span>
-                            <div className="flex items-center gap-2">
-                              <input
-                                type="color"
-                                value={(layoutConfig as any)[`tier${tier}Fill`]}
-                                onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Fill`]: e.target.value } })}
-                                className="w-6 h-6 rounded-lg bg-transparent border-0 cursor-pointer overflow-hidden p-0"
-                              />
-                              <input
-                                type="text"
-                                value={(layoutConfig as any)[`tier${tier}Fill`]}
-                                onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Fill`]: e.target.value } })}
-                                className="w-14 bg-transparent border-0 text-[10px] font-mono text-white/60 focus:text-white outline-none"
-                              />
-                            </div>
-                          </div>
-                          <div className="flex flex-col gap-1.5">
-                            <span className="text-[8px] font-black uppercase text-white/30">Border</span>
-                            <div className="flex items-center gap-2">
-                              <input
-                                type="color"
-                                value={(layoutConfig as any)[`tier${tier}Border`]}
-                                onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Border`]: e.target.value } })}
-                                className="w-6 h-6 rounded-lg bg-transparent border-0 cursor-pointer overflow-hidden p-0"
-                              />
-                              <input
-                                type="text"
-                                value={(layoutConfig as any)[`tier${tier}Border`]}
-                                onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [`tier${tier}Border`]: e.target.value } })}
-                                className="w-14 bg-transparent border-0 text-[10px] font-mono text-white/60 focus:text-white outline-none"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
+                  <div className="space-y-6 ml-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                    <div className="flex flex-col gap-6 px-2">
+                       {/* Intensity & Technical Note Stack */}
+                       <div className="space-y-3">
+                         <div className="text-[10px] text-white/30 font-mono uppercase tracking-[0.2em] ml-1">vars(--kilang-tier-n-fill/border/text)</div>
+                         <div className="flex flex-col gap-3">
+                           {/* Intensity */}
+                           <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/intensity">
+                              <div className="flex flex-col">
+                                <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/intensity:text-white/80 transition-colors">Node Intensity</span>
+                                <span className="text-[8px] font-mono text-white/20">--kilang-node-intensity</span>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <span className="text-[10px] font-mono text-white/20">{overrides['--kilang-node-intensity'] || '1.0'}</span>
+                                <input
+                                  type="range" min="0" max="5" step="0.1"
+                                  defaultValue={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-node-intensity').trim() : '1')}
+                                  onChange={(e) => updateVariable('--kilang-node-intensity', e.target.value)}
+                                  className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
+                                />
+                              </div>
+                           </div>
+                           {/* Rounding T1 */}
+                           <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/rounding-t1">
+                              <div className="flex flex-col">
+                                <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/rounding-t1:text-white/80 transition-colors">Rounding T1</span>
+                                <span className="text-[8px] font-mono text-white/20">tier1Rounding</span>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <span className="text-[10px] font-mono text-white/20">{layoutConfig.tier1Rounding}px</span>
+                                <input
+                                  type="range" min="0" max="100" step="1"
+                                  value={layoutConfig.tier1Rounding}
+                                  onChange={(e) => dispatch({ type: 'SET_LAYOUT_CONFIG', config: { tier1Rounding: parseInt(e.target.value) } })}
+                                  className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
+                                />
+                              </div>
+                           </div>
+                           {/* Rounding T2+ */}
+                           <div className="flex items-center justify-between bg-white/5 px-4 py-3 rounded-2xl border border-white/10 group/rounding-t2">
+                              <div className="flex flex-col">
+                                <span className="text-[9px] font-black text-white/40 uppercase tracking-[0.2em] group-hover/rounding-t2:text-white/80 transition-colors">Rounding T2+</span>
+                                <span className="text-[8px] font-mono text-white/20">tier2-9Rounding</span>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <span className="text-[10px] font-mono text-white/20">{layoutConfig.tier2Rounding}px</span>
+                                <input
+                                  type="range" min="0" max="100" step="1"
+                                  value={layoutConfig.tier2Rounding}
+                                  onChange={(e) => {
+                                    const val = parseInt(e.target.value);
+                                    const update: any = {};
+                                    for (let t = 2; t <= 9; t++) update[`tier${t}Rounding`] = val;
+                                    dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                  }}
+                                  className="w-32 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-zinc-400 hover:bg-white/10"
+                                />
+                              </div>
+                           </div>
+                         </div>
+                       </div>
+
+                       {/* High-Fidelity Table */}
+                       <div className="overflow-hidden">
+                         <table className="w-full border-collapse">
+                           <thead>
+                             <tr className="border-b border-white/10">
+                               <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] w-12 text-center">Tier</th>
+                               <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Fill</th>
+                               <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Border</th>
+                               <th className="py-3 text-[10px] font-black uppercase text-white tracking-[0.2em] text-center">Text</th>
+                             </tr>
+                           </thead>
+                           <tbody className="divide-y divide-white/[0.03]">
+                             {/* Master "All" Row */}
+                             <tr className="group/row bg-white/[0.04] transition-colors">
+                               <td className="py-2 text-center">
+                                 <div className="text-[10px] font-black text-white uppercase tracking-widest">
+                                   All
+                                 </div>
+                               </td>
+                               {[
+                                 { key: 'allFill', type: 'fill' },
+                                 { key: 'allBorder', type: 'border' },
+                                 { key: 'allText', type: 'text' }
+                               ].map((col, i) => (
+                                 <td key={i} className="py-2 px-1 text-center">
+                                   <div className="flex flex-col items-center gap-1.5">
+                                     <div 
+                                       className="w-8 h-8 rounded-xl border border-white/20 shadow-xl relative group/swatch overflow-hidden transition-transform hover:scale-110 active:scale-95"
+                                       style={{ 
+                                         backgroundColor: col.type === 'fill' 
+                                           ? layoutConfig.tier1Fill 
+                                           : col.type === 'border' 
+                                             ? layoutConfig.tier1Border 
+                                             : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))
+                                       }}
+                                     >
+                                       <input
+                                         type="color"
+                                         value={
+                                           (col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff'))).startsWith('var') ? '#ffffff' : (col.type === 'fill' ? layoutConfig.tier1Fill : col.type === 'border' ? layoutConfig.tier1Border : (overrides['--kilang-tier-1-text'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-tier-1-text').trim() : '#ffffff')))
+                                         }
+                                         onChange={(e) => {
+                                           const color = e.target.value;
+                                           if (col.type === 'fill') {
+                                             const update: any = {};
+                                             for (let t = 1; t <= 9; t++) update[`tier${t}Fill`] = color;
+                                             dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                           } else if (col.type === 'border') {
+                                             const update: any = {};
+                                             for (let t = 1; t <= 9; t++) update[`tier${t}Border`] = color;
+                                             dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                           } else {
+                                             const mapping: Record<string, string> = {};
+                                             for (let t = 1; t <= 9; t++) mapping[`--kilang-tier-${t}-text`] = color;
+                                             updateVariables(mapping);
+                                           }
+                                         }}
+                                         className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
+                                       />
+                                     </div>
+                                     <input
+                                       type="text"
+                                       placeholder="HEX"
+                                       onChange={(e) => {
+                                         const color = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
+                                         if (color.length >= 4) {
+                                           if (col.type === 'fill') {
+                                             const update: any = {};
+                                             for (let t = 1; t <= 9; t++) update[`tier${t}Fill`] = color;
+                                             dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                           } else if (col.type === 'border') {
+                                             const update: any = {};
+                                             for (let t = 1; t <= 9; t++) update[`tier${t}Border`] = color;
+                                             dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
+                                           } else {
+                                             const mapping: Record<string, string> = {};
+                                             for (let t = 1; t <= 9; t++) mapping[`--kilang-tier-${t}-text`] = color;
+                                             updateVariables(mapping);
+                                           }
+                                         }
+                                       }}
+                                       className="w-14 bg-transparent border-0 text-[7px] font-mono text-white/20 text-center hover:text-white/40 focus:text-white outline-none uppercase tracking-tighter transition-colors"
+                                     />
+                                   </div>
+                                 </td>
+                               ))}
+                             </tr>
+
+                             {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((tier) => (
+                               <tr key={tier} className="group/row hover:bg-white/[0.01] transition-colors">
+                                 <td className="py-1.5 text-center">
+                                   <div className="text-[11px] font-black text-white">
+                                     {tier}
+                                   </div>
+                                 </td>
+                                 {[
+                                   { key: `tier${tier}Fill`, mode: 'config' },
+                                   { key: `tier${tier}Border`, mode: 'config' },
+                                   { key: `--kilang-tier-${tier}-text`, mode: 'var' }
+                                 ].map((col, i) => {
+                                   const val = col.mode === 'config' 
+                                     ? (layoutConfig as any)[col.key] 
+                                     : (overrides[col.key] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(col.key).trim() : '#ffffff'));
+                                   
+                                   return (
+                                     <td key={i} className="py-1.5 px-1">
+                                       <div className="flex flex-col items-center gap-2">
+                                         <div 
+                                           className="w-8 h-8 rounded-xl border border-white/10 shadow-lg relative group/swatch overflow-hidden transition-transform hover:scale-110 active:scale-95"
+                                           style={{ backgroundColor: val }}
+                                         >
+                                           <input
+                                             type="color"
+                                             value={val.startsWith('var') ? (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(val.replace('var(', '').replace(')', '')).trim() || '#ffffff' : '#ffffff') : val}
+                                             onChange={(e) => {
+                                               if (col.mode === 'config') {
+                                                 dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: e.target.value } });
+                                               } else {
+                                                 updateVariable(col.key, e.target.value);
+                                               }
+                                             }}
+                                             className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
+                                           />
+                                           <div className="absolute inset-0 bg-white/0 group-hover/swatch:bg-white/10 transition-colors pointer-events-none" />
+                                         </div>
+                                         <input
+                                           type="text"
+                                           value={(val.startsWith('var') ? (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue(val.replace('var(', '').replace(')', '')).trim() : val) : val).toUpperCase()}
+                                           onChange={(e) => {
+                                             const newVal = e.target.value.startsWith('#') ? e.target.value : `#${e.target.value}`;
+                                             if (col.mode === 'config') {
+                                               dispatch({ type: 'SET_LAYOUT_CONFIG', config: { [col.key]: newVal } });
+                                             } else {
+                                               updateVariable(col.key, newVal);
+                                             }
+                                           }}
+                                           className="w-14 bg-transparent border-0 text-[8px] font-mono text-white/30 text-center hover:text-white/60 focus:text-white outline-none uppercase tracking-tighter transition-colors"
+                                         />
+                                       </div>
+                                     </td>
+                                   );
+                                 })}
+                               </tr>
+                             ))}
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
                     
                     <div className="p-4 bg-white/[0.05] border border-white/10 rounded-2xl space-y-4">
                       <div className="grid grid-cols-2 gap-4">

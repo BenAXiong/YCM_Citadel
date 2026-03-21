@@ -189,13 +189,6 @@ export const KilangToolbox = ({ layoutConfig, dispatch }: KilangToolboxProps) =>
                 onChange={(v) => updateConfig({ nodeSize: v })}
               />
               <Slider
-                label="Rounding"
-                value={layoutConfig.nodeRounding}
-                min={0} max={50} step={2}
-                unit="px"
-                onChange={(v) => updateConfig({ nodeRounding: v })}
-              />
-              <Slider
                 label="Opacity"
                 value={layoutConfig.nodeOpacity}
                 min={0.1} max={1} step={0.05}

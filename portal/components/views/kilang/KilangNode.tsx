@@ -14,6 +14,7 @@ interface WordTooltipProps {
   className?: string;
   side?: 'top' | 'right';
   showTooltip?: boolean;
+  accentBorderWidth?: number;
 }
 
 export const WordTooltip = ({
@@ -25,7 +26,8 @@ export const WordTooltip = ({
   fetchSummary,
   className = "relative inline-block",
   side = 'top',
-  showTooltip = true
+  showTooltip = true,
+  accentBorderWidth = 6
 }: WordTooltipProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const [coords, setCoords] = useState({ top: 0, left: 0 });
@@ -73,7 +75,7 @@ export const WordTooltip = ({
       style={{
         top: `${coords.top}px`,
         left: `${coords.left}px`,
-        borderBottomWidth: 'var(--kilang-border-w-accent)'
+        borderBottomWidth: `${accentBorderWidth}px`
       }}
     >
       <div className="flex flex-col gap-1 mb-4 border-b border-[var(--kilang-border-std)] pb-3">
@@ -129,7 +131,15 @@ interface KilangNodeProps {
   config: {
     nodeSize: number;
     nodeOpacity: number;
-    nodeRounding: number;
+    tier1Rounding: number;
+    tier2Rounding: number;
+    tier3Rounding: number;
+    tier4Rounding: number;
+    tier5Rounding: number;
+    tier6Rounding: number;
+    tier7Rounding: number;
+    tier8Rounding: number;
+    tier9Rounding: number;
     tier1Fill: string; tier1Border: string;
     tier2Fill: string; tier2Border: string;
     tier3Fill: string; tier3Border: string;
@@ -142,6 +152,8 @@ interface KilangNodeProps {
     showIcons: boolean;
     nodeWidth: number;
     nodePaddingY: number;
+    rootBorderWidth: number;
+    accentBorderWidth: number;
   };
   showTooltip?: boolean;
 }
@@ -163,7 +175,7 @@ export const KilangNode = React.memo(({
 
   const getTierIcon = () => {
     if (isRoot) return <TreePine className="w-5 h-5 text-[var(--kilang-accent-text)] shrink-0" />;
-    const iconClass = `w-3 h-3 ${tier === 2 ? 'text-[var(--kilang-tier-2-border)]' : tier === 3 ? 'text-[var(--kilang-tier-3-border)]' : 'text-[var(--kilang-tier-4-border)]'} shrink-0`;
+    const iconClass = `w-3 h-3 text-[var(--kilang-tier-${tier}-border)] shrink-0 opacity-80`;
     switch (tier) {
       case 2: return <GitCommit className={iconClass} />;
       case 3: return <GitBranch className={iconClass} />;
@@ -179,7 +191,7 @@ export const KilangNode = React.memo(({
   };
 
   return (
-    <WordTooltip word={word} dictCode={dictCode} id={cleanId} summaryCache={summaryCache} fetchSummary={fetchSummary} showTooltip={showTooltip}>
+    <WordTooltip word={word} dictCode={dictCode} id={cleanId} summaryCache={summaryCache} fetchSummary={fetchSummary} showTooltip={showTooltip} accentBorderWidth={config.accentBorderWidth}>
       <div
         className={`relative cursor-pointer transition-[opacity,transform] duration-300 ${isHighlighted ? 'z-30' : isHovered ? 'z-20' : 'z-10'}`}
         style={{
@@ -196,11 +208,12 @@ export const KilangNode = React.memo(({
         <div className={isRoot ? "kilang-root-bubble" : "kilang-branch-bubble"}>
           {isRoot ? (
             <div
-              className={`p-8 rounded-full z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
+              className={`p-8 z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
               style={{
+                borderRadius: `${(config as any).tier1Rounding ?? 100}px`,
                 backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} calc(20% * var(--kilang-node-intensity)), var(--kilang-bg-base))`,
                 borderColor: isHighlighted ? 'var(--kilang-primary-active)' : getTierColor('Border', 1),
-                borderWidth: 'var(--kilang-border-w-root)',
+                borderWidth: `${config.rootBorderWidth}px`,
                 borderStyle: 'solid',
                 boxShadow: isHighlighted ? `0 0 80px var(--kilang-primary-glow)` : `0 0 60px color-mix(in srgb, var(--kilang-primary-glow), transparent 20%)`,
                 paddingTop: `${config.nodePaddingY * 2}px`,
@@ -209,14 +222,16 @@ export const KilangNode = React.memo(({
             >
               <div className="flex items-center gap-3">
                 {config.showIcons && getTierIcon()}
-                <span className={`text-[var(--kilang-tier-1-text)] font-black text-2xl tracking-tighter transition-all ${isHighlighted ? 'scale-110 drop-shadow-[0_0_10px_var(--kilang-primary-glow)]' : ''}`}>{word}</span>
+                <span className="text-[var(--kilang-tier-1-text)] font-black text-2xl tracking-tighter transition-all">
+                  {word}
+                </span>
               </div>
             </div>
           ) : (
             <div
               className={`transition-all text-sm group relative z-10 flex items-center justify-center ${isHighlighted ? 'shadow-[0_0_30px_var(--kilang-primary-glow)]' : ''}`}
               style={{
-                borderRadius: `${config.nodeRounding}px`,
+                borderRadius: `${(config as any)[`tier${tier}Rounding`] ?? 16}px`,
                 borderWidth: 'var(--kilang-border-w-std)',
                 borderStyle: 'solid',
                 borderColor: isHighlighted
@@ -230,9 +245,11 @@ export const KilangNode = React.memo(({
                 transform: tier === 3 ? 'scale(0.95)' : tier === 4 ? 'scale(0.9)' : tier >= 5 ? 'scale(0.85)' : 'none'
               }}
             >
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 px-4 w-full justify-center">
                 {config.showIcons && getTierIcon()}
-                <span className={`font-black uppercase tracking-widest truncate max-w-full text-center ${isRoot ? 'text-[var(--kilang-tier-1-text)]' : `text-[var(--kilang-tier-${tier}-text)] opacity-60 group-hover:opacity-100 group-hover:text-[var(--kilang-primary)]`}`}>{word}</span>
+                <span className="font-black uppercase tracking-widest truncate max-w-full text-center text-[var(--kilang-tier-n-text)]" style={{ color: `var(--kilang-tier-${tier}-text)` }}>
+                  {word}
+                </span>
               </div>
             </div>
           )}

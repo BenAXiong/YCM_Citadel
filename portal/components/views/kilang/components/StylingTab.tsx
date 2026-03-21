@@ -108,7 +108,6 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
 
       {renderSection('geometry', 'Node Geometry', <Scaling className="w-3.5 h-3.5" />, [
         { label: 'Size', key: 'nodeSize', min: 0.5, max: 2, step: 0.1, unit: 'x' },
-        { label: 'Rounding', key: 'nodeRounding', min: 0, max: 50, step: 2, unit: 'px' },
         { label: 'Opacity', key: 'nodeOpacity', min: 0.1, max: 1, step: 0.05, unit: '' },
         { label: 'Word Width', key: 'nodeWidth', min: 80, max: 250, step: 5, unit: 'px' },
         { label: 'Vert Padding', key: 'nodePaddingY', min: 4, max: 32, step: 1, unit: 'px' },

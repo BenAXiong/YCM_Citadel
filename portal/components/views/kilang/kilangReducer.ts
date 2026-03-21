@@ -92,7 +92,6 @@ export interface KilangState {
     interRowGap: number;
     nodeSize: number;
     nodeOpacity: number;
-    nodeRounding: number;
     rootColor: string;
     branchColor: string;
     lineColor: string;
@@ -103,16 +102,18 @@ export interface KilangState {
     nodePaddingY: number;
     anchorX: number;
     anchorY: number;
+    rootBorderWidth: number;
+    accentBorderWidth: number;
     // Tier Aesthetics (Fill & Border)
-    tier1Fill: string; tier1Border: string; tier1Text: string;
-    tier2Fill: string; tier2Border: string; tier2Text: string;
-    tier3Fill: string; tier3Border: string; tier3Text: string;
-    tier4Fill: string; tier4Border: string; tier4Text: string;
-    tier5Fill: string; tier5Border: string; tier5Text: string;
-    tier6Fill: string; tier6Border: string; tier6Text: string;
-    tier7Fill: string; tier7Border: string; tier7Text: string;
-    tier8Fill: string; tier8Border: string; tier8Text: string;
-    tier9Fill: string; tier9Border: string; tier9Text: string;
+    tier1Fill: string; tier1Border: string; tier1Text: string; tier1Rounding: number;
+    tier2Fill: string; tier2Border: string; tier2Text: string; tier2Rounding: number;
+    tier3Fill: string; tier3Border: string; tier3Text: string; tier3Rounding: number;
+    tier4Fill: string; tier4Border: string; tier4Text: string; tier4Rounding: number;
+    tier5Fill: string; tier5Border: string; tier5Text: string; tier5Rounding: number;
+    tier6Fill: string; tier6Border: string; tier6Text: string; tier6Rounding: number;
+    tier7Fill: string; tier7Border: string; tier7Text: string; tier7Rounding: number;
+    tier8Fill: string; tier8Border: string; tier8Text: string; tier8Rounding: number;
+    tier9Fill: string; tier9Border: string; tier9Text: string; tier9Rounding: number;
     spacingMode: 'even' | 'log';
     rootGap: number;
     coupleGaps: boolean;
@@ -244,7 +245,6 @@ export const initialState: KilangState = {
     interRowGap: 50,
     nodeSize: 1,
     nodeOpacity: 1,
-    nodeRounding: 16,
     rootColor: 'var(--kilang-primary)',
     branchColor: 'var(--kilang-secondary)',
     lineColor: 'var(--kilang-primary)',
@@ -255,15 +255,17 @@ export const initialState: KilangState = {
     nodePaddingY: 8,
     anchorX: ANCHOR_DEFAULTS.horizontal.x,
     anchorY: ANCHOR_DEFAULTS.horizontal.y,
-    tier1Fill: 'var(--kilang-tier-1-fill)', tier1Border: 'var(--kilang-tier-1-border)', tier1Text: 'var(--kilang-tier-1-text)',
-    tier2Fill: 'var(--kilang-tier-2-fill)', tier2Border: 'var(--kilang-tier-2-border)', tier2Text: 'var(--kilang-tier-2-text)',
-    tier3Fill: 'var(--kilang-tier-3-fill)', tier3Border: 'var(--kilang-tier-3-border)', tier3Text: 'var(--kilang-tier-3-text)',
-    tier4Fill: 'var(--kilang-tier-4-fill)', tier4Border: 'var(--kilang-tier-4-border)', tier4Text: 'var(--kilang-tier-4-text)',
-    tier5Fill: 'var(--kilang-tier-5-fill)', tier5Border: 'var(--kilang-tier-5-border)', tier5Text: 'var(--kilang-tier-5-text)',
-    tier6Fill: 'var(--kilang-tier-6-fill)', tier6Border: 'var(--kilang-tier-6-border)', tier6Text: 'var(--kilang-tier-6-text)',
-    tier7Fill: 'var(--kilang-tier-7-fill)', tier7Border: 'var(--kilang-tier-7-border)', tier7Text: 'var(--kilang-tier-7-text)',
-    tier8Fill: 'var(--kilang-tier-8-fill)', tier8Border: 'var(--kilang-tier-8-border)', tier8Text: 'var(--kilang-tier-8-text)',
-    tier9Fill: 'var(--kilang-tier-9-fill)', tier9Border: 'var(--kilang-tier-9-border)', tier9Text: 'var(--kilang-tier-9-text)',
+    rootBorderWidth: 4,
+    accentBorderWidth: 6,
+    tier1Fill: 'var(--kilang-tier-1-fill)', tier1Border: 'var(--kilang-tier-1-border)', tier1Text: 'var(--kilang-tier-1-text)', tier1Rounding: 16,
+    tier2Fill: 'var(--kilang-tier-2-fill)', tier2Border: 'var(--kilang-tier-2-border)', tier2Text: 'var(--kilang-tier-2-text)', tier2Rounding: 16,
+    tier3Fill: 'var(--kilang-tier-3-fill)', tier3Border: 'var(--kilang-tier-3-border)', tier3Text: 'var(--kilang-tier-3-text)', tier3Rounding: 16,
+    tier4Fill: 'var(--kilang-tier-4-fill)', tier4Border: 'var(--kilang-tier-4-border)', tier4Text: 'var(--kilang-tier-4-text)', tier4Rounding: 16,
+    tier5Fill: 'var(--kilang-tier-5-fill)', tier5Border: 'var(--kilang-tier-5-border)', tier5Text: 'var(--kilang-tier-5-text)', tier5Rounding: 16,
+    tier6Fill: 'var(--kilang-tier-6-fill)', tier6Border: 'var(--kilang-tier-6-border)', tier6Text: 'var(--kilang-tier-6-text)', tier6Rounding: 16,
+    tier7Fill: 'var(--kilang-tier-7-fill)', tier7Border: 'var(--kilang-tier-7-border)', tier7Text: 'var(--kilang-tier-7-text)', tier7Rounding: 16,
+    tier8Fill: 'var(--kilang-tier-8-fill)', tier8Border: 'var(--kilang-tier-8-border)', tier8Text: 'var(--kilang-tier-8-text)', tier8Rounding: 16,
+    tier9Fill: 'var(--kilang-tier-9-fill)', tier9Border: 'var(--kilang-tier-9-border)', tier9Text: 'var(--kilang-tier-9-text)', tier9Rounding: 16,
     spacingMode: 'log',
     rootGap: 50,
     coupleGaps: false,
