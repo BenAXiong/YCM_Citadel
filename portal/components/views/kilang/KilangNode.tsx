@@ -139,13 +139,13 @@ interface KilangNodeProps {
   showTooltip?: boolean;
 }
 
-export const KilangNode = React.memo(({ 
-  word, 
-  dictCode, 
-  tier = 2, 
-  isRoot = false, 
-  summaryCache, 
-  fetchSummary, 
+export const KilangNode = React.memo(({
+  word,
+  dictCode,
+  tier = 2,
+  isRoot = false,
+  summaryCache,
+  fetchSummary,
   isHighlighted = false,
   isHovered = false,
   onInteraction,
@@ -191,9 +191,9 @@ export const KilangNode = React.memo(({
             <div
               className={`border-4 p-8 rounded-full z-20 relative min-w-[120px] flex items-center justify-center transition-all duration-500 ${isHighlighted ? 'shadow-[0_0_80px_var(--kilang-primary-glow)]' : 'shadow-[0_0_50px_var(--kilang-primary-glow)]'}`}
               style={{
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} ${isHighlighted ? '40%' : '20%'}, var(--kilang-bg-base))`,
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', 1)} calc(20% * var(--kilang-node-intensity)), var(--kilang-bg-base))`,
                 borderColor: isHighlighted ? 'var(--kilang-primary-active)' : getTierColor('Border', 1),
-                boxShadow: isHighlighted ? `0 0 80px color-mix(in srgb, ${getTierColor('Fill', 1)}, transparent 50%)` : `0 0 60px color-mix(in srgb, ${getTierColor('Fill', 1)}, transparent 70%)`,
+                boxShadow: isHighlighted ? `0 0 80px var(--kilang-primary-glow)` : `0 0 60px color-mix(in srgb, var(--kilang-primary-glow), transparent 20%)`,
                 paddingTop: `${config.nodePaddingY * 2}px`,
                 paddingBottom: `${config.nodePaddingY * 2}px`
               }}
@@ -208,10 +208,10 @@ export const KilangNode = React.memo(({
               className={`transition-all text-sm group ring-1 relative z-10 border flex items-center justify-center ${isHighlighted ? 'ring-[var(--kilang-primary-border)]/50 shadow-[0_0_30px_var(--kilang-primary-glow)]' : 'ring-[var(--kilang-border)]'}`}
               style={{
                 borderRadius: `${config.nodeRounding}px`,
-                borderColor: isHighlighted 
-                  ? `color-mix(in srgb, ${getTierColor('Border', tier)} 80%, white)` 
+                borderColor: isHighlighted
+                  ? `color-mix(in srgb, ${getTierColor('Border', tier)} 80%, white)`
                   : `color-mix(in srgb, ${getTierColor('Border', tier)} 40%, transparent)`,
-                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} ${isHighlighted ? '30%' : (tier === 2 ? '10%' : '5%')}, var(--kilang-bg-base))`,
+                backgroundColor: `color-mix(in srgb, ${getTierColor('Fill', tier)} calc(${tier === 2 ? '10%' : '5%'} * var(--kilang-node-intensity)), var(--kilang-bg-base))`,
                 width: `${config.nodeWidth}px`,
                 paddingTop: `${config.nodePaddingY}px`,
                 paddingBottom: `${config.nodePaddingY}px`,

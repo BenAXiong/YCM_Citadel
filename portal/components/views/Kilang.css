@@ -5,7 +5,7 @@
   --kilang-primary-active: #2563eb;
   --kilang-secondary: #6366f1;
   --kilang-accent: #f43f5e;
-  
+
   /* Backgrounds (Surfaces) */
   --kilang-primary-bg: var(--kilang-primary);
   --kilang-secondary-bg: var(--kilang-secondary);
@@ -13,13 +13,13 @@
   --kilang-bg-base: #020617;
   --kilang-bg: #0f172a;
   --kilang-card: #1e293b;
-  
+
   /* Borders (Outlines) */
   --kilang-primary-border: var(--kilang-primary);
   --kilang-secondary-border: var(--kilang-secondary);
   --kilang-accent-border: var(--kilang-accent);
-  --kilang-border: var(--kilang-border-std);
-  --kilang-border-std: rgba(255, 255, 255, 0.05); /* Lower base fallback */
+  --kilang-border-std: color-mix(in srgb, white, transparent calc(100% - var(--kilang-border-std-opacity, 0.05) * 100%));
+  --kilang-border-std-opacity: 0.05;
 
   /* Text (Content) */
   --kilang-primary-text: var(--kilang-primary);
@@ -28,12 +28,16 @@
   --kilang-text: #f8fafc;
   --kilang-text-muted: #94a3b8;
   --kilang-logo-text: var(--kilang-text);
-  
+
   /* Glass & Borders */
-  --kilang-glass: rgba(15, 23, 42, 0.8);
-  --kilang-primary-glow: color-mix(in srgb, var(--kilang-primary), transparent 70%);
-  --kilang-secondary-glow: color-mix(in srgb, var(--kilang-secondary), transparent 70%);
-  --kilang-accent-glow: color-mix(in srgb, var(--kilang-accent), transparent 70%);
+  --kilang-glass: color-mix(in srgb, var(--kilang-bg), transparent calc(100% - var(--kilang-glass-opacity, 0.8) * 100%));
+  --kilang-glass-opacity: 0.8;
+  --kilang-primary-glow: color-mix(in srgb, var(--kilang-primary), transparent calc(100% - var(--kilang-primary-glow-opacity, 0.3) * 100%));
+  --kilang-primary-glow-opacity: 0.3;
+  --kilang-secondary-glow: color-mix(in srgb, var(--kilang-secondary), transparent calc(100% - var(--kilang-secondary-glow-opacity, 0.3) * 100%));
+  --kilang-secondary-glow-opacity: 0.3;
+  --kilang-accent-glow: color-mix(in srgb, var(--kilang-accent), transparent calc(100% - var(--kilang-accent-glow-opacity, 0.3) * 100%));
+  --kilang-accent-glow-opacity: 0.3;
   --kilang-blur-std: blur(12px);
   --kilang-blur-max: blur(32px);
 
@@ -44,35 +48,60 @@
   --kilang-ctrl-active-text: var(--kilang-text);
 
   /* Node Tiers (Base Theme) */
-  --kilang-tier-1-fill: #2563eb; --kilang-tier-1-border: #3b82f6;
-  --kilang-tier-2-fill: #3b82f6; --kilang-tier-2-border: #60a5fa;
-  --kilang-tier-3-fill: #6366f1; --kilang-tier-3-border: #818cf8;
-  --kilang-tier-4-fill: #10b981; --kilang-tier-4-border: #34d399;
-  --kilang-tier-5-fill: #f59e0b; --kilang-tier-5-border: #fbbf24;
-  --kilang-tier-6-fill: #ec4899; --kilang-tier-6-border: #f472b6;
-  --kilang-tier-7-fill: #8b5cf6; --kilang-tier-7-border: #a78bfa;
-  --kilang-tier-8-fill: #06b6d4; --kilang-tier-8-border: #22d3ee;
-  --kilang-tier-9-fill: #94a3b8; --kilang-tier-9-border: #cbd5e1;
+  --kilang-tier-1-fill: #2563eb;
+  --kilang-tier-1-border: #3b82f6;
+  --kilang-tier-2-fill: #3b82f6;
+  --kilang-tier-2-border: #60a5fa;
+  --kilang-tier-3-fill: #6366f1;
+  --kilang-tier-3-border: #818cf8;
+  --kilang-tier-4-fill: #10b981;
+  --kilang-tier-4-border: #34d399;
+  --kilang-tier-5-fill: #f59e0b;
+  --kilang-tier-5-border: #fbbf24;
+  --kilang-tier-6-fill: #ec4899;
+  --kilang-tier-6-border: #f472b6;
+  --kilang-tier-7-fill: #8b5cf6;
+  --kilang-tier-7-border: #a78bfa;
+  --kilang-tier-8-fill: #06b6d4;
+  --kilang-tier-8-border: #22d3ee;
+  --kilang-tier-9-fill: #94a3b8;
+  --kilang-tier-9-border: #cbd5e1;
 
   /* Tooltip & HUD */
-  --kilang-tooltip-bg: rgba(15, 23, 42, 0.95);
-  --kilang-tooltip-border: rgba(59, 130, 246, 0.4);
+  --kilang-tooltip-bg: color-mix(in srgb, var(--kilang-bg), transparent calc(100% - var(--kilang-tooltip-bg-opacity, 0.95) * 100%));
+  --kilang-tooltip-bg-opacity: 0.95;
+  --kilang-tooltip-border: color-mix(in srgb, var(--kilang-primary), transparent calc(100% - var(--kilang-tooltip-border-opacity, 0.4) * 100%));
+  --kilang-tooltip-border-opacity: 0.4;
   --kilang-tooltip-accent: var(--kilang-primary);
 
   /* Toast & Notifications */
-  --kilang-toast-bg: rgba(15, 23, 42, 0.98);
-  --kilang-toast-border: rgba(59, 130, 246, 0.5);
-  
+  --kilang-toast-bg: color-mix(in srgb, var(--kilang-bg), transparent calc(100% - var(--kilang-toast-bg-opacity, 0.98) * 100%));
+  --kilang-toast-bg-opacity: 0.98;
+  --kilang-toast-border: color-mix(in srgb, var(--kilang-primary), transparent calc(100% - var(--kilang-toast-border-opacity, 0.5) * 100%));
+  --kilang-toast-border-opacity: 0.5;
+
   /* Indicators & Interactive Shell */
-  --kilang-resizer-hover: rgba(59, 130, 246, 0.3);
-  --kilang-resizer-active: rgba(59, 130, 246, 0.5);
+  --kilang-resizer-hover: color-mix(in srgb, var(--kilang-primary), transparent calc(100% - var(--kilang-resizer-hover-opacity, 0.3) * 100%));
+  --kilang-resizer-hover-opacity: 0.3;
+  --kilang-resizer-active: color-mix(in srgb, var(--kilang-primary), transparent calc(100% - var(--kilang-resizer-active-opacity, 0.5) * 100%));
+  --kilang-resizer-active-opacity: 0.5;
 
   /* Radii */
-  --kilang-radius-sm: 4px;      /* Standard small */
-  --kilang-radius-base: 8px;    /* Default rounding (8px) */
-  --kilang-radius-md: 6px;      /* Reduced (6px) */
-  --kilang-radius-lg: 6px;      /* Reduced (6px) */
-  --kilang-radius-display: 24px; /* Immersive/Display (24px) */
+  --kilang-radius-sm: 4px;
+  /* Standard small */
+  --kilang-radius-base: 8px;
+  /* Default rounding (8px) */
+  --kilang-radius-md: 6px;
+  /* Reduced (6px) */
+  --kilang-radius-lg: 6px;
+  /* Reduced (6px) */
+  --kilang-radius-display: 24px;
+  /* Immersive/Display (24px) */
+
+  /* Master Intensity & Mixing Ratios */
+  --kilang-node-intensity: 1;
+  --kilang-link-intensity: 1;
+  /* Multiplier for link opacity */
 }
 
 [data-theme="kakarayan"] {
@@ -93,9 +122,8 @@
   --kilang-text-muted: #94a3b8;
   --kilang-glass: rgba(30, 41, 59, 0.7);
   --kilang-border: rgba(255, 255, 255, 0.1);
-  --kilang-primary-glow: rgba(59, 130, 246, 0.5);
-  --kilang-secondary-glow: rgba(99, 102, 241, 0.5);
-  --kilang-accent-glow: rgba(244, 63, 94, 0.5);
+  --kilang-border: rgba(255, 255, 255, 0.1);
+  --kilang-tooltip-border: rgba(59, 130, 246, 0.2);
   --kilang-tooltip-border: rgba(59, 130, 246, 0.2);
   --kilang-toast-border: rgba(59, 130, 246, 0.3);
   --kilang-resizer-hover: rgba(59, 130, 246, 0.2);
@@ -122,8 +150,13 @@
 }
 
 @keyframes link-flow {
-  from { stroke-dashoffset: 100; }
-  to { stroke-dashoffset: 0; }
+  from {
+    stroke-dashoffset: 100;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 .animate-link-flow {
@@ -135,11 +168,13 @@
   color: #ffffff !important;
   opacity: 1 !important;
   border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
-  font-size: 14px; /* Base increase */
+  font-size: 14px;
+  /* Base increase */
 }
 
 .theme-bar-tab-btn {
-  font-size: 12px !important; /* From 10px */
+  font-size: 12px !important;
+  /* From 10px */
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
   letter-spacing: 0.25em !important;
@@ -164,9 +199,8 @@
   --kilang-text: #f0fdf4;
   --kilang-text-muted: #bbf7d0;
   --kilang-glass: rgba(6, 78, 59, 0.7);
-  --kilang-primary-glow: color-mix(in srgb, var(--kilang-primary), transparent 50%);
-  --kilang-secondary-glow: color-mix(in srgb, var(--kilang-secondary), transparent 50%);
-  --kilang-accent-glow: color-mix(in srgb, var(--kilang-accent), transparent 50%);
+  --kilang-glass: rgba(6, 78, 59, 0.7);
+  --kilang-resizer-hover: color-mix(in srgb, var(--kilang-primary), transparent 80%);
   --kilang-resizer-hover: color-mix(in srgb, var(--kilang-primary), transparent 80%);
   --kilang-resizer-active: color-mix(in srgb, var(--kilang-primary), transparent 60%);
 
@@ -176,9 +210,12 @@
   --kilang-muted-border: color-mix(in srgb, var(--kilang-border-std), transparent 50%);
   --kilang-shadow-color: color-mix(in srgb, var(--kilang-bg-base), black 50%);
   --kilang-shadow-primary: 0 8px 32px 0 var(--kilang-shadow-color);
-  --kilang-tier-1-fill: #065f46; --kilang-tier-1-border: #10b981;
-  --kilang-tier-2-fill: #059669; --kilang-tier-2-border: #34d399;
-  --kilang-tier-3-fill: #10b981; --kilang-tier-3-border: #6ee7b7;
+  --kilang-tier-1-fill: #065f46;
+  --kilang-tier-1-border: #10b981;
+  --kilang-tier-2-fill: #059669;
+  --kilang-tier-2-border: #34d399;
+  --kilang-tier-3-fill: #10b981;
+  --kilang-tier-3-border: #6ee7b7;
 }
 
 [data-theme="ngidan"] {
@@ -197,8 +234,6 @@
   --kilang-text: #e0e7ff;
   --kilang-text-muted: #818cf8;
   --kilang-glass: rgba(67, 56, 202, 0.7);
-  --kilang-resizer-hover: color-mix(in srgb, var(--kilang-primary), transparent 80%);
-  --kilang-resizer-active: color-mix(in srgb, var(--kilang-primary), transparent 60%);
 
   /* Rogue Mappings (Subdual) */
   --kilang-border-std: color-mix(in srgb, var(--kilang-primary-border), transparent 80%);
@@ -206,9 +241,12 @@
   --kilang-muted-border: color-mix(in srgb, var(--kilang-border-std), transparent 50%);
   --kilang-shadow-color: color-mix(in srgb, var(--kilang-bg-base), black 50%);
   --kilang-shadow-primary: 0 8px 32px 0 var(--kilang-shadow-color);
-  --kilang-tier-1-fill: #3730a3; --kilang-tier-1-border: #6366f1;
-  --kilang-tier-2-fill: #4338ca; --kilang-tier-2-border: #818cf8;
-  --kilang-tier-3-fill: #4f46e5; --kilang-tier-3-border: #a5b4fc;
+  --kilang-tier-1-fill: #3730a3;
+  --kilang-tier-1-border: #6366f1;
+  --kilang-tier-2-fill: #4338ca;
+  --kilang-tier-2-border: #818cf8;
+  --kilang-tier-3-fill: #4f46e5;
+  --kilang-tier-3-border: #a5b4fc;
 }
 
 .kilang-ctrl-container {
@@ -272,6 +310,7 @@
   border: 1px solid var(--kilang-border);
   box-shadow: var(--kilang-shadow-primary);
 }
+
 .kilang-glass-panel-immersive {
   background: var(--kilang-bg-base);
 }
@@ -356,8 +395,15 @@
 }
 
 @keyframes peacefulFloat {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 .animate-peaceful-float {

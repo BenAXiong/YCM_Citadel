@@ -147,14 +147,14 @@ export const THEME_PRESETS = [
   { id: 'ngidan', label: 'Ngidan', color: '#6366f1' },
   { id: 'b', label: 'b', color: '#000000ff' },
   { id: 'w', label: 'w', color: '#ffffffff' },
-  { id: 'b&w', label: 'b&w', color: '#949494ff' },
-  { id: 'kakarayan7', label: 'Kakarayan 7', color: '#3b82f6' },
-  { id: 'kakarayan8', label: 'Kakarayan 8', color: '#3b82f6' },
-  { id: 'kakarayan9', label: 'Kakarayan 9', color: '#3b82f6' },
-  { id: 'kakarayan10', label: 'Kakarayan 10', color: '#3b82f6' },
-  { id: 'kakarayan11', label: 'Kakarayan 11', color: '#3b82f6' },
-  { id: 'kakarayan12', label: 'Kakarayan 12', color: '#3b82f6' },
-  { id: 'kakarayan13', label: 'Kakarayan 13', color: '#3b82f6' }
+  { id: 'cudad', label: 'Cudad', color: '#949494ff' },
+  { id: 'pasiwali', label: 'Pasiwali', color: '#f6d13bff' },
+  { id: 'matrix', label: 'Matrix', color: '#11ff00ff' },
+  { id: 'picudadan', label: 'Picudadan', color: '#f63b3bff' },
+  { id: 'rainbow', label: 'Rainbow', color: '#f63b3bff' },
+  { id: '11', label: '11', color: '#3b82f6' },
+  { id: '12', label: '12', color: '#3b82f6' },
+  { id: 'new', label: 'new', color: '#ffffffff' }
 ];
 
 export const ThemeBar = ({
@@ -247,6 +247,16 @@ export const ThemeBar = ({
       Object.entries(mapping).forEach(([name, value]) => { current[name] = value; });
       localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(current));
     }, 100);
+  };
+
+  const getHonestColor = (name: string, value: string) => {
+    if (name.includes('tier-1-fill')) return `color-mix(in srgb, ${value} calc(20% * var(--kilang-node-intensity)), var(--kilang-bg-base))`;
+    if (name.includes('tier-2-fill')) return `color-mix(in srgb, ${value} calc(10% * var(--kilang-node-intensity)), var(--kilang-bg-base))`;
+    if (name.includes('tier-') && name.includes('-fill')) return `color-mix(in srgb, ${value} calc(5% * var(--kilang-node-intensity)), var(--kilang-bg-base))`;
+    
+    // Generic Opacity Detection
+    const opacityVar = name + '-opacity';
+    return `color-mix(in srgb, ${value}, transparent calc(100% - var(${opacityVar}, 1) * 100%))`;
   };
 
   const toggleSection = (id: string) => {
@@ -486,21 +496,32 @@ export const ThemeBar = ({
                       vars: tierVars
                     },
                     {
-                      group: `Structural (${groupVars.structural.length})`,
-                      vars: groupVars.structural
+                      group: `Connectors (${groupVars.links.length})`,
+                      vars: groupVars.links
                     },
                     {
-                      group: `Tree Links (${groupVars.links.length})`,
-                      vars: groupVars.links
+                      group: `Structural (${groupVars.structural.length})`,
+                      vars: groupVars.structural
                     }
                   ]
                     .map((group) => (
                       <div key={`${layoutConfig.theme}-${group.group}`} className="space-y-2">
                         <button
                           onClick={() => toggleSubsection(group.group)}
-                          className="w-full text-left focus:outline-none"
+                          className="w-full text-left focus:outline-none flex items-center justify-between pr-4 group/stitle"
                         >
                           <h4 className="text-[9px] font-black uppercase tracking-[0.2em] text-white/30 ml-2 hover:text-white/60 transition-colors uppercase">{group.group}</h4>
+                          {group.group.includes('Nodes') && (
+                            <div className="flex items-center gap-3 animate-in fade-in slide-in-from-right-2" onClick={e => e.stopPropagation()}>
+                              <span className="text-[8px] font-black text-white/20 uppercase tracking-widest">Int.</span>
+                              <input
+                                type="range" min="0" max="5" step="0.1"
+                                defaultValue={overrides['--kilang-node-intensity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue('--kilang-node-intensity').trim() : '1')}
+                                onChange={(e) => updateVariable('--kilang-node-intensity', e.target.value)}
+                                className="w-20 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:bg-white/10"
+                              />
+                            </div>
+                          )}
                         </button>
                         {!collapsedSubsections.has(group.group) && (
                           <div className="bg-white/[0.03] rounded-[var(--kilang-radius-lg)] border border-white/10 overflow-hidden">
@@ -547,26 +568,53 @@ export const ThemeBar = ({
                                       </button>
                                     )}
                                     {v.type === 'color' ? (
-                                      <div className="relative flex items-center">
-                                        <input
-                                          type="color"
-                                          defaultValue={overrides[(v as any).name || (v as any).targets?.[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name || (v as any).targets?.[0]).trim() : '#000000')}
-                                          onChange={(e) => {
-                                            if ((v as any).targets) {
-                                              const finalTargets = [...(v as any).targets];
-                                              if (isBulbOn && (v as any).activeTargets) {
-                                                finalTargets.push(...(v as any).activeTargets);
+                                      <div className="relative flex items-center gap-4">
+                                        {((v as any).name?.includes('link-') || 
+                                          (v as any).name?.includes('glow') || 
+                                          (v as any).name?.includes('glass') || 
+                                          (v as any).name?.includes('tooltip') || 
+                                          (v as any).name?.includes('toast') ||
+                                          (v as any).name?.includes('resizer') ||
+                                          (v as any).name?.includes('border-std')) && (
+                                          <div className="flex items-center gap-2 pr-2">
+                                            <input
+                                              type="range" min="0" max="1" step="0.01"
+                                              defaultValue={overrides[(v as any).name + '-opacity'] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name + '-opacity').trim() : '1')}
+                                              onChange={(e) => updateVariable((v as any).name + '-opacity', e.target.value)}
+                                              className="w-12 h-1 bg-white/5 rounded-full appearance-none cursor-pointer accent-[var(--kilang-primary)]"
+                                              title={`${(v as any).label} Intensity`}
+                                            />
+                                          </div>
+                                        )}
+                                        <div className="relative flex items-center">
+                                          <input
+                                            type="color"
+                                            defaultValue={overrides[(v as any).name || (v as any).targets?.[0]] || (typeof window !== 'undefined' ? getComputedStyle(document.documentElement).getPropertyValue((v as any).name || (v as any).targets?.[0]).trim() : '#000000')}
+                                            onChange={(e) => {
+                                              if ((v as any).targets) {
+                                                const finalTargets = [...(v as any).targets];
+                                                if (isBulbOn && (v as any).activeTargets) {
+                                                  finalTargets.push(...(v as any).activeTargets);
+                                                }
+                                                const mapping: Record<string, string> = {};
+                                                finalTargets.forEach((t: string) => mapping[t] = e.target.value);
+                                                updateVariables(mapping);
+                                              } else {
+                                                updateVariable((v as any).name, e.target.value);
                                               }
-                                              const mapping: Record<string, string> = {};
-                                              finalTargets.forEach((t: string) => mapping[t] = e.target.value);
-                                              updateVariables(mapping);
-                                            } else {
-                                              updateVariable((v as any).name, e.target.value);
-                                            }
-                                          }}
-                                          className="w-full h-full bg-transparent border-0 cursor-pointer opacity-0 absolute inset-0 z-10"
-                                        />
-                                        <div className="w-6 h-6 rounded-lg border border-white/20 shadow-xl transition-transform group-hover:scale-110" style={{ backgroundColor: overrides[(v as any).name || (v as any).targets?.[0]] || `var(${(v as any).name || (v as any).targets?.[0]})` }} />
+                                            }}
+                                            className="w-full h-full bg-transparent border-0 cursor-pointer opacity-0 absolute inset-0 z-10"
+                                          />
+                                          <div
+                                            className="w-6 h-6 rounded-lg border border-white/20 shadow-xl transition-transform group-hover:scale-110"
+                                            style={{
+                                              backgroundColor: getHonestColor(
+                                                (v as any).name || (v as any).targets?.[0],
+                                                overrides[(v as any).name || (v as any).targets?.[0]] || `var(${(v as any).name || (v as any).targets?.[0]})`
+                                              )
+                                            }}
+                                          />
+                                        </div>
                                       </div>
                                     ) : (
                                       <input
