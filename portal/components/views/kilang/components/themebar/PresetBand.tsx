@@ -23,10 +23,19 @@ export const PresetBand = ({
             dispatch({ 
               type: 'SYNC_HOLISTIC_THEME', 
               theme: t.id, 
-              layoutConfig: t.config,
+              layoutConfig: {
+                ...t.config,
+                theme: t.id // Ensure theme ID is explicitly set
+              },
               branding: {
                 logoStyles: state.logoStyles,
-                logoSettings: state.logoSettings,
+                logoSettings: {
+                  ...state.logoSettings,
+                  [state.landingVersion || 2]: {
+                    ...state.logoSettings[state.landingVersion || 2],
+                    glowColor: t.color
+                  }
+                },
                 landingVersion: state.landingVersion
               }
             });

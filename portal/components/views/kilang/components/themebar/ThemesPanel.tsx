@@ -89,18 +89,9 @@ export const ThemesPanel = ({
   state,
   dense = false
 }: ThemesPanelProps) => {
-  const [activeRibbon, setActiveRibbon] = useState('masters');
   const { overrides, activeBulbs } = tsState;
   const { getVariableValue, getColorValue, getHonestColor } = tsHelpers;
   const { updateVariable, updateVariables, setActiveBulbs } = tsActions;
-
-  const ribbonTabs = [
-    { id: 'masters', label: 'Masters', icon: Zap },
-    { id: 'surfaces', label: 'Surfaces', icon: Palette },
-    { id: 'borders', label: 'Borders', icon: BoxSelect },
-    { id: 'texts', label: 'Texts', icon: Type },
-    { id: 'structural', label: 'Structural', icon: Layers }
-  ];
 
   const masters = [
     { id: 'bg', label: 'Backgrounds', type: 'color', targets: ['--kilang-bg-base', '--kilang-bg', '--kilang-card', '--kilang-primary-bg', '--kilang-secondary-bg', '--kilang-accent-bg', '--kilang-tooltip-bg', '--kilang-toast-bg', '--kilang-primary-glow', '--kilang-secondary-glow', '--kilang-accent-glow', '--kilang-overlay-bg', '--kilang-input-bg', '--kilang-ctrl-bg', '--kilang-shadow-color', '--kilang-background-secondary', '--kilang-primary', '--kilang-secondary', '--kilang-accent', '--kilang-primary-active', '--kilang-tooltip-accent', '--kilang-resizer-hover', '--kilang-resizer-active'], activeTargets: ['--kilang-ctrl-active'] },
@@ -206,61 +197,86 @@ export const ThemesPanel = ({
   };
 
   return (
-    <div className="flex flex-col h-full overflow-hidden">
-      <RibbonNav 
-        tabs={ribbonTabs} 
-        activeTab={activeRibbon} 
-        onTabChange={setActiveRibbon} 
-      />
-
-      <div className="flex-1 overflow-y-auto no-scrollbar pb-10 custom-scrollbar">
-        {activeRibbon === 'masters' && (
+    <div className="flex flex-row h-full overflow-x-auto custom-scrollbar bg-[#020202]">
+      {/* COLUMN 1: MASTERS */}
+      <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
+        <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
+          <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Master Presets</span>
+          <Zap className="w-3.5 h-3.5 text-white/20" />
+        </div>
+        <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="Master Tuning Controls">
             <div className="bg-white/[0.03] border-b border-white/10">
               {masters.map((m, i) => renderVariableRow(m, i, 'masters'))}
             </div>
           </RibbonGroup>
-        )}
+        </div>
+      </div>
 
-        {activeRibbon === 'surfaces' && (
+      {/* COLUMN 2: SURFACES */}
+      <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
+        <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
+          <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">UI Surfaces</span>
+          <Palette className="w-3.5 h-3.5 text-white/20" />
+        </div>
+        <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="UI Surfaces & Glows">
             <div className="bg-white/[0.03] border-b border-white/10">
                {groupVars.surfaces.map((v, i) => renderVariableRow(v, i, 'surfaces'))}
             </div>
           </RibbonGroup>
-        )}
+        </div>
+      </div>
 
-        {activeRibbon === 'borders' && (
+      {/* COLUMN 3: BORDERS */}
+      <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
+        <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
+          <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Outlines & Glass</span>
+          <BoxSelect className="w-3.5 h-3.5 text-white/20" />
+        </div>
+        <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="Outlines & Glass Filters">
             <div className="bg-white/[0.03] border-b border-white/10">
                {groupVars.borders.map((v, i) => renderVariableRow(v, i, 'borders'))}
             </div>
           </RibbonGroup>
-        )}
+        </div>
+      </div>
 
-        {activeRibbon === 'texts' && (
+      {/* COLUMN 4: TEXTS */}
+      <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
+        <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
+          <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Typography Colors</span>
+          <Type className="w-3.5 h-3.5 text-white/20" />
+        </div>
+        <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
           <RibbonGroup label="Typography & Elements">
             <div className="bg-white/[0.03] border-b border-white/10">
                {groupVars.texts.map((v, i) => renderVariableRow(v, i, 'texts'))}
             </div>
           </RibbonGroup>
-        )}
+        </div>
+      </div>
 
-        {activeRibbon === 'structural' && (
-          <>
-            <RibbonGroup label="Global Radii System">
-              <div className="bg-white/[0.03] border-b border-white/10">
-                {groupVars.structural.map((v, i) => renderVariableRow(v, i, 'structural'))}
-              </div>
-            </RibbonGroup>
+      {/* COLUMN 5: STRUCTURAL */}
+      <div className="flex-1 min-w-[300px] max-w-[320px] border-r border-white/10 flex flex-col h-full shrink-0 bg-[#0a0a0a]">
+        <div className="h-10 px-6 flex items-center justify-between bg-black/40 border-b border-white/5 shrink-0">
+          <span className="text-[9px] font-black uppercase tracking-[0.2em] text-white/40">Geometry & Radii</span>
+          <Layers className="w-3.5 h-3.5 text-white/20" />
+        </div>
+        <div className="flex-1 overflow-y-auto custom-scrollbar p-0 pb-10">
+          <RibbonGroup label="Global Radii System">
+            <div className="bg-white/[0.03] border-b border-white/10">
+              {groupVars.structural.map((v, i) => renderVariableRow(v, i, 'structural'))}
+            </div>
+          </RibbonGroup>
 
-            <RibbonGroup label="Global Scaling & Weights">
-              <div className="bg-white/[0.03] border-b border-white/10">
-                {groupVars.weights.map((v, i) => renderVariableRow(v, i, 'structural'))}
-              </div>
-            </RibbonGroup>
-          </>
-        )}
+          <RibbonGroup label="Global Scaling & Weights">
+            <div className="bg-white/[0.03] border-b border-white/10">
+              {groupVars.weights.map((v, i) => renderVariableRow(v, i, 'structural'))}
+            </div>
+          </RibbonGroup>
+        </div>
       </div>
     </div>
   );

@@ -1,12 +1,15 @@
 'use client';
 
 import React, { useState } from 'react';
-import { 
-  Palette, 
-  Layers, 
-  Aperture, 
+import {
+  Palette,
+  Layers,
+  Aperture,
   Type,
-  Map as MapIcon
+  Map as MapIcon,
+  Sparkles,
+  RotateCcw,
+  Lightbulb
 } from 'lucide-react';
 import { useKilangContext } from '../../KilangContext';
 import { useThemeStudio } from '../../hooks/useThemeStudio';
@@ -23,10 +26,10 @@ export const ThemeStudioPopout = () => {
   const [activeTab, setActiveTab] = useState<'themes' | 'tree' | 'branding' | 'typography' | 'map'>('themes');
 
   const themeStudio = useThemeStudio({ dispatch, layoutConfig, state });
-  const { 
-    state: tsState, 
-    helpers: tsHelpers, 
-    actions: tsActions 
+  const {
+    state: tsState,
+    helpers: tsHelpers,
+    actions: tsActions
   } = themeStudio;
 
   const sidebarTools = [
@@ -38,87 +41,110 @@ export const ThemeStudioPopout = () => {
   ] as const;
 
   return (
-    <div className="fixed inset-0 bg-[#050505] text-white flex flex-col font-sans selection:bg-white/10 overflow-hidden">
-      {/* 1. TOP PRESET BAND (Original styling preserved) */}
-      <PresetBand 
-        currentTheme={layoutConfig.theme} 
-        dispatch={dispatch} 
-        state={state} 
-      />
+    <div className="fixed inset-0 bg-[#020202] text-white flex flex-row font-['Outfit'] select-none overflow-hidden">
+      {/* PERSISTENT SIDEBAR */}
+      <div className="w-[72px] bg-[#050505] border-r border-white/10 flex flex-col items-center py-6 gap-6 shrink-0 z-50 shadow-[4px_0_24px_rgba(0,0,0,0.5)]">
+        <div className="w-10 h-10 bg-white/5 rounded-2xl flex items-center justify-center mb-4 group/logo hover:bg-white/10 transition-colors">
+          <Aperture className="w-6 h-6 text-white/40 group-hover:text-white transition-colors animate-pulse" />
+        </div>
 
-      <div className="flex-1 flex overflow-hidden">
-        {/* 2. LEFT TOOLBELT (Narrow, Iconic) */}
-        <div className="w-[60px] border-r border-white/10 flex flex-col items-center py-6 gap-6 bg-black/20 shrink-0">
+        <div className="flex flex-col gap-3">
           {sidebarTools.map((tool) => (
             <button
               key={tool.id}
               onClick={() => setActiveTab(tool.id)}
-              className={`group relative p-3 rounded-xl transition-all ${activeTab === tool.id ? 'bg-white text-black shadow-[0_0_20px_rgba(255,255,255,0.2)]' : 'text-white/20 hover:text-white hover:bg-white/5'}`}
-              title={tool.label}
+              className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all group relative ${
+                activeTab === tool.id 
+                  ? 'bg-white text-black shadow-[0_0_20px_rgba(255,255,255,0.2)]' 
+                  : 'text-white/20 hover:text-white hover:bg-white/5'
+              }`}
             >
-              <tool.icon className="w-5 h-5" />
+              <tool.icon className="w-5 h-5 shrink-0" />
+              
+              {/* Tooltip */}
+              <div className="absolute left-full ml-4 px-3 py-1.5 bg-white text-black text-[10px] font-black uppercase tracking-widest rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all whitespace-nowrap z-[100] border border-white/20 shadow-2xl">
+                {tool.label}
+              </div>
+
               {activeTab === tool.id && (
-                <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-4 bg-white rounded-r-full" />
+                <div className="absolute right-[-14px] w-1 h-6 bg-white rounded-full" />
               )}
             </button>
           ))}
-          
-          <div className="flex-1" />
         </div>
 
-        {/* 3. MAIN STUDIO STAGE */}
-        <div className="flex-1 flex flex-col bg-[#0a0a0a] overflow-hidden">
-          {activeTab === 'themes' && (
-            <ThemesPanel 
-              tsState={tsState} 
-              tsHelpers={tsHelpers} 
-              tsActions={tsActions} 
-              dispatch={dispatch} 
-              layoutConfig={layoutConfig}
-              state={state}
-            />
-          )}
-          {activeTab === 'tree' && (
-            <TreePanel 
-              tsState={tsState} 
-              tsHelpers={tsHelpers}
-              tsActions={tsActions} 
-              dispatch={dispatch} 
-              layoutConfig={layoutConfig}
-            />
-          )}
-          {activeTab === 'branding' && (
-            <BrandingPanel 
-              tsState={tsState} 
-              tsActions={tsActions} 
-              dispatch={dispatch}
-              layoutConfig={layoutConfig}
-            />
-          )}
-          {activeTab === 'typography' && (
-            <TypographyPanel 
-              dispatch={dispatch}
-              layoutConfig={layoutConfig}
-            />
-          )}
-          {activeTab === 'map' && (
-            <div className="flex-1 overflow-hidden p-6 bg-black/40">
-              <VariableMap 
-                overrides={tsState.overrides} 
-                getVariableValue={tsHelpers.getVariableValue} 
-              />
-            </div>
-          )}
+        <div className="mt-auto flex flex-col gap-4">
+          <button className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-white hover:bg-white/5 transition-all">
+            <RotateCcw className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
-      {/* 4. FOOTER STATUS */}
-      <div className="h-6 border-t border-white/5 bg-black px-4 flex items-center justify-between shrink-0">
-        <div className="flex items-center gap-3">
-           <span className="text-[7px] font-black uppercase tracking-[0.3em] text-white/20">Kilang Pro Studio v2.0</span>
+      {/* MAIN STAGE */}
+      <div className="flex-1 flex flex-col bg-[#0a0a0a] overflow-hidden min-w-0">
+        {/* PRESET BAND */}
+        <PresetBand 
+          currentTheme={layoutConfig.theme} 
+          dispatch={dispatch} 
+          state={state} 
+        />
+
+        <div className="flex-1 relative overflow-hidden h-full">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(255,255,255,0.03),transparent)] pointer-events-none" />
+          
+          <div className="h-full flex flex-col relative z-10">
+            {activeTab === 'themes' && (
+              <ThemesPanel 
+                tsState={tsState} 
+                tsActions={tsActions} 
+                tsHelpers={tsHelpers} 
+                dispatch={dispatch}
+                layoutConfig={layoutConfig}
+                state={state}
+              />
+            )}
+            {activeTab === 'tree' && (
+              <TreePanel 
+                tsState={tsState} 
+                tsActions={tsActions} 
+                tsHelpers={tsHelpers}
+                dispatch={dispatch}
+                layoutConfig={layoutConfig}
+              />
+            )}
+            {activeTab === 'branding' && (
+              <BrandingPanel 
+                tsState={tsState} 
+                tsActions={tsActions} 
+                dispatch={dispatch}
+                layoutConfig={layoutConfig} 
+              />
+            )}
+            {activeTab === 'typography' && (
+              <TypographyPanel dispatch={dispatch} layoutConfig={layoutConfig} />
+            )}
+            {activeTab === 'map' && (
+              <div className="p-20 flex flex-col items-center justify-center h-full gap-8 bg-[#0a0a0a]">
+                <div className="w-32 h-32 bg-white/5 rounded-[3rem] flex items-center justify-center animate-pulse">
+                  <Lightbulb className="w-16 h-16 text-white/10" />
+                </div>
+                <div className="text-center space-y-2">
+                  <h2 className="text-[18px] font-black uppercase tracking-[0.6em] text-white">Variable Map Overflow</h2>
+                  <p className="text-[11px] font-black uppercase tracking-widest text-white/20 italic">Deep Insight Visualization Coming Soon</p>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
-        <div className="flex items-center gap-2">
-           <span className="text-[7px] font-mono text-emerald-500/40 uppercase tracking-widest">Multi-Window Synchronization active</span>
+
+        {/* FOOTER STATUS */}
+        <div className="h-6 border-t border-white/5 bg-black px-4 flex items-center justify-between shrink-0">
+          <div className="flex items-center gap-3">
+            <span className="text-[7px] font-black uppercase tracking-[0.3em] text-white/20">Kilang Pro Studio v2.0</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-[7px] font-mono text-emerald-500/40 uppercase tracking-widest">Multi-Window Synchronization active</span>
+          </div>
         </div>
       </div>
     </div>

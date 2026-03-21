@@ -7,9 +7,10 @@ import { useSidebar } from '../SidebarContext';
 
 interface StylingTabProps {
   updateConfig: (config: any) => void;
+  updateVariable: (name: string, value: string) => void;
 }
 
-export const StylingTab = ({ updateConfig }: StylingTabProps) => {
+export const StylingTab = ({ updateConfig, updateVariable }: StylingTabProps) => {
   const { state, dispatch, toggleSection, collapsedSections } = useSidebar();
   const { layoutConfig } = state;
 
@@ -100,7 +101,12 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
         { label: 'Gap Y', key: 'lineGapY', min: -100, max: 300, step: 5, unit: 'px' },
         { label: 'Line Thickness', key: 'lineWidth', min: 0.5, max: 12, step: 0.1, unit: 'px' },
         { label: 'Line Curvature', key: 'lineTension', min: 0, max: 2, step: 0.1, unit: 'x' },
-        { label: 'Line Opacity', key: 'lineOpacity', min: 0, max: 1, step: 0.05, unit: '' },
+        { label: 'Line Opacity', key: 'lineOpacity', min: 0, max: 1, step: 0.05, unit: '', 
+          onChangeOverride: (v: number) => {
+            updateConfig({ lineOpacity: v });
+            updateVariable('--kilang-link-opacity', v.toString());
+          }
+        },
         { label: 'Line Glow/Blur', key: 'lineBlur', min: 0, max: 20, step: 0.5, unit: 'px' },
         { label: 'Dash Pattern', key: 'lineDashArray', min: 0, max: 30, step: 1, unit: 'px' },
         { label: 'Flow Speed', key: 'lineFlowSpeed', min: 0, max: 10, step: 0.5, unit: 'x' },
@@ -147,9 +153,9 @@ export const StylingTab = ({ updateConfig }: StylingTabProps) => {
           ))}
         </div>
         <div className="mt-4 pt-4 border-t border-[var(--kilang-border-std)]/40 grid grid-cols-2 gap-4 pl-1">
-          <ColorPicker label="Line Start" value={layoutConfig.lineColor} onChange={(v: string) => updateConfig({ lineColor: v })} />
-          <ColorPicker label="Line Mid" value={layoutConfig.lineColorMid} onChange={(v: string) => updateConfig({ lineColorMid: v })} />
-          <ColorPicker label="Line End" value={layoutConfig.lineGradientEnd} onChange={(v: string) => updateConfig({ lineGradientEnd: v })} />
+          <ColorPicker label="Line Start" value={layoutConfig.lineColor} onChange={(v: string) => { updateConfig({ lineColor: v }); updateVariable('--kilang-link-start', v); }} />
+          <ColorPicker label="Line Mid" value={layoutConfig.lineColorMid} onChange={(v: string) => { updateConfig({ lineColorMid: v }); updateVariable('--kilang-link-mid', v); }} />
+          <ColorPicker label="Line End" value={layoutConfig.lineGradientEnd} onChange={(v: string) => { updateConfig({ lineGradientEnd: v }); updateVariable('--kilang-link-end', v); }} />
         </div>
       </CollapsibleSection>
 
