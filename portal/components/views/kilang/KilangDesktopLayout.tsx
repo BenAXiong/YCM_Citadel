@@ -67,7 +67,7 @@ export const KilangDesktopLayout = ({
 
   return (
     <div 
-      className="kilang-container flex flex-col h-screen overflow-hidden"
+      className="kilang-container flex flex-col h-screen"
       style={{ 
         '--sidebar-width': `${(state.sidebarCollapsed || isImmersive) ? 0 : state.sidebarWidth}px`,
         '--right-sidebar-width': `${(state.rightSidebarCollapsed || isImmersive) ? 0 : state.rightSidebarWidth}px`
@@ -79,7 +79,7 @@ export const KilangDesktopLayout = ({
 
       <div className="flex-1 flex overflow-hidden">
         {state.showFilterPanel && (
-          <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? '-translate-x-full opacity-0 w-0' : 'translate-x-0 opacity-100'} overflow-hidden shrink-0`}>
+          <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? '-translate-x-full opacity-0 w-0' : 'translate-x-0 opacity-100'} shrink-0 relative z-50`}>
             <KilangSidebar
               isCollapsed={state.sidebarCollapsed}
               onToggle={() => dispatch({ type: 'SET_UI', sidebarCollapsed: !state.sidebarCollapsed })}
@@ -90,7 +90,7 @@ export const KilangDesktopLayout = ({
         <KilangCanvas />
 
         {state.showRightSidebar && (
-          <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? 'translate-x-full opacity-0 w-0' : 'translate-x-0 opacity-100'} overflow-hidden shrink-0`}>
+          <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? 'translate-x-full opacity-0 w-0' : 'translate-x-0 opacity-100'} shrink-0 relative z-50`}>
             <KilangRightSidebar
               isCollapsed={state.rightSidebarCollapsed}
               onToggle={() => dispatch({ type: 'SET_UI', rightSidebarCollapsed: !state.rightSidebarCollapsed })}
