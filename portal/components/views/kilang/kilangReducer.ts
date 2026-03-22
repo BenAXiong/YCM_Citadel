@@ -5,8 +5,8 @@ export type LayoutArrangement = 'aligned' | 'flow';
 import { RootStats, KilangRootData } from './KilangTypes';
 
 const ANCHOR_DEFAULTS = {
-  horizontal: { x: 2000, y: 2000 },
-  vertical: { x: 2000, y: 2000 }
+  horizontal: { x: 50, y: 50 },
+  vertical: { x: 50, y: 50 }
 };
 
 export interface ThreadConfig {
@@ -441,7 +441,7 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         ...state,
         ...(action.scale !== undefined && { scale: action.scale }),
         isFit: nextIsFit,
-        canvasTransform: nextTransform,
+        canvasTransform: nextTransform as { x: number; y: number; k: number } | null,
         preFitTransform: nextPreFit
       };
     }

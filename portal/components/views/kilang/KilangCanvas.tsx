@@ -227,9 +227,15 @@ export const KilangCanvas = () => {
       if (rect.width > 0 && rect.height > 0) {
         const k = 0.5;
         const pad = 128; // p-32 padding offset
+        
+        // Safety: If anchor is > 100, it's a legacy pixel value (2000px). Default to 50%.
+        const getSafeAnchor = (val: number | undefined) => (val === undefined || val > 100) ? 50 : val;
+        const anchorX = getSafeAnchor(layoutConfig.anchorX);
+        const anchorY = getSafeAnchor(layoutConfig.anchorY);
+        
         camToSync = {
-          x: (rect.width / 2) - pad - (rootPos.x * k),
-          y: (rect.height / 2) - pad - (rootPos.y * k),
+          x: (rect.width * anchorX / 100) - pad - (rootPos.x * k),
+          y: (rect.height * anchorY / 100) - pad - (rootPos.y * k),
           k: k
         };
         lastCenteredRootRef.current = selectedRoot || null;
@@ -347,13 +353,17 @@ export const KilangCanvas = () => {
     const scaleY = vHeight / (boxHeight || 1);
     const newK = Math.min(Math.max(Math.min(scaleX, scaleY), 0.15), 1.0);
     
-    // 3. Center the forest (Relative to Window Center - 128px content offset)
+    // 3. Center the forest (Relative to Anchor Percentage - 128px content offset)
     const centerX = (bounds.minX + bounds.maxX) / 2;
     const centerY = (bounds.minY + bounds.maxY) / 2;
     
     const pad = 128; // p-32 padding offset
-    const newX = container.clientWidth / 2 - pad - centerX * newK;
-    const newY = container.clientHeight / 2 - pad - centerY * newK;
+    const getSafeAnchor = (val: number | undefined) => (val === undefined || val > 100) ? 50 : val;
+    const anchorX = getSafeAnchor(layoutConfig.anchorX);
+    const anchorY = getSafeAnchor(layoutConfig.anchorY);
+    
+    const newX = (container.clientWidth * anchorX / 100) - pad - centerX * newK;
+    const newY = (container.clientHeight * anchorY / 100) - pad - centerY * newK;
     
     const newCam = { x: newX, y: newY, k: newK };
     setCam(newCam);

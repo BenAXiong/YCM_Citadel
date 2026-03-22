@@ -68,8 +68,8 @@ export const calculateNodeMap = (
   const cellW = (arrangement === 'aligned' && config?.interTierGap) ? config.interTierGap : BASE_W;
   const cellH = (arrangement === 'aligned' && config?.interRowGap) ? config.interRowGap : BASE_H;
 
-  const CENTER_X = config?.anchorX ?? (direction === 'horizontal' ? 400 : 2000); 
-  const CENTER_Y = config?.anchorY ?? (direction === 'vertical' ? 1300 : 2000);
+  const CENTER_X = config?.anchorX !== undefined ? 0 : (direction === 'horizontal' ? 400 : 2000); 
+  const CENTER_Y = config?.anchorY !== undefined ? 0 : (direction === 'vertical' ? 1300 : 2000);
 
   const getTierOffset = (tier: number) => {
     if (tier <= 1) return 0;

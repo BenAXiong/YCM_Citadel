@@ -120,8 +120,8 @@ export const StylingTab = ({ updateConfig, updateVariable }: StylingTabProps) =>
       ])}
 
       {renderSection('anchors', 'Root Anchor', <Maximize2 className="w-3.5 h-3.5" />, [
-        { label: 'X (px)', key: 'anchorX', min: 0, max: 2000, step: 10, unit: 'px' },
-        { label: 'Y (px)', key: 'anchorY', min: 0, max: 2000, step: 10, unit: 'px' },
+        { label: 'Root X (%)', key: 'anchorX', min: 0, max: 100, step: 1, unit: '%' },
+        { label: 'Root Y (%)', key: 'anchorY', min: 0, max: 100, step: 1, unit: '%' },
       ])}
 
       <CollapsibleSection
