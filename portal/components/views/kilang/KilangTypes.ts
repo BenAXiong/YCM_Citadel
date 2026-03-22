@@ -70,15 +70,16 @@ export interface Bookmark {
 }
 
 export interface SidebarUIState {
-  sidebarTab: 'forest' | 'styling' | 'custom';
+  sidebarTab: 'forest' | 'styling' | 'new_mako';
   showMyTrees: boolean;
+  showCustomPanel: boolean;
   searchTerm: string;
   branchFilter: string;
   collapsedSections: Record<string, boolean>;
   toast: { message: string, type: 'success' | 'info' } | null;
   animations: {
-    showPlusOne: boolean;
-    showMinusOne: boolean;
+    showPlusOne: string | null;
+    showMinusOne: string | null;
   };
   canvasHoverNode: string | null;
   canvasSelectedNode: string | null;
@@ -90,7 +91,7 @@ export interface KilangContextProps extends SidebarUIState {
   dispatch: React.Dispatch<KilangAction>;
   
   // UI Actions
-  setSidebarTab: (tab: 'forest' | 'styling' | 'custom') => void;
+  setSidebarTab: (tab: 'forest' | 'styling' | 'custom' | 'new_mako') => void;
   setShowMyTrees: (show: boolean) => void;
   toggleSection: (id: string) => void;
   

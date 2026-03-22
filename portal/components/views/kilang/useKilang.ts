@@ -57,7 +57,15 @@ export const useKilang = () => {
           initialUI.layoutConfig = { ...initialState.layoutConfig, ...config, theme: (initialUI as any).theme || initialState.layoutConfig.theme };
         } catch (e) {}
       }
-
+ 
+      // Load Bookmarks
+      const savedBookmarks = localStorage.getItem('kilang_bookmarked_trees');
+      if (savedBookmarks) {
+        try {
+          initialUI.bookmarks = JSON.parse(savedBookmarks);
+        } catch (e) {}
+      }
+ 
       dispatch({ type: 'HYDRATE_STATE', state: initialUI });
     }
   }, []);
@@ -90,6 +98,12 @@ export const useKilang = () => {
     state.showFloatingPalette, 
     state.layoutConfig.theme
   ]);
+ 
+  // 0e. Bookmarks Persistence
+  useEffect(() => {
+    if (!state.isHydrated) return;
+    localStorage.setItem('kilang_bookmarked_trees', JSON.stringify(state.bookmarks));
+  }, [state.bookmarks, state.isHydrated]);
 
   // 0c. Cross-Window Syncing (Handled by useBroadcastSync)
   // 0d. Window Visibility Fix: Re-load latest from localStorage when returning to tab

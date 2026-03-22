@@ -1,16 +1,18 @@
 'use client';
 
 import React from 'react';
-import { Bookmark } from 'lucide-react';
+import { Bookmark, TreePine, Sprout } from 'lucide-react';
 import { WordTooltip } from '../KilangNode';
 import { useSidebar } from '../SidebarContext';
 
 interface RootListProps {
   bookmarks: import('../KilangTypes').Bookmark[];
   saveBookmark: (root: string, type: 'db' | 'custom', data: any, count: number) => void;
+  showPlusOne: string | null;
+  showMinusOne: string | null;
 }
 
-export const RootList = React.memo(({ bookmarks, saveBookmark }: RootListProps) => {
+export const RootList = React.memo(({ bookmarks, saveBookmark, showPlusOne, showMinusOne }: RootListProps) => {
   const {
     state,
     filteredRoots,
@@ -35,7 +37,7 @@ export const RootList = React.memo(({ bookmarks, saveBookmark }: RootListProps) 
         >
           <div
             onClick={() => fetchRootDetails(r.root)}
-            className={`px-4 py-2.5 rounded-xl cursor-pointer transition-all border flex items-center justify-between group/item ${selectedRoot === r.root ? `bg-[var(--kilang-ctrl-active)] border-[var(--kilang-ctrl-active)]/40 text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]` : 'bg-[var(--kilang-card)] border-[var(--kilang-border-std)] text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] hover:border-[var(--kilang-border-std)]/50'}`}
+            className={`px-4 py-2.5 rounded-xl cursor-pointer transition-all border flex items-center justify-between group/item relative ${selectedRoot === r.root ? `bg-[var(--kilang-ctrl-active)] border-[var(--kilang-ctrl-active)]/40 text-[var(--kilang-ctrl-active-text)] shadow-lg shadow-[var(--kilang-primary-glow)]` : 'bg-[var(--kilang-card)] border-[var(--kilang-border-std)] text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)] hover:border-[var(--kilang-border-std)]/50'}`}
           >
             <span className="text-[13px] font-bold text-[var(--kilang-text)] uppercase tracking-tight">{r.root}</span>
             <div className="flex items-center gap-2">
@@ -48,6 +50,20 @@ export const RootList = React.memo(({ bookmarks, saveBookmark }: RootListProps) 
               </button>
               <span className={`text-xs font-black uppercase transition-colors ${selectedRoot === r.root ? 'text-[var(--kilang-ctrl-active-text)]' : 'text-[var(--kilang-text-muted)] group-hover/item:text-[var(--kilang-primary-text)]'} bg-[var(--kilang-primary-bg)]/10 px-2 py-1 rounded-md`}>{r.count}</span>
             </div>
+
+            {/* Animation Pop */}
+            {showPlusOne === r.root && (
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-1 text-[var(--kilang-primary)] font-black pointer-events-none animate-bloom-pop z-[100] drop-shadow-[0_0_20px_var(--kilang-primary-glow)]">
+                <TreePine className="w-5 h-5" />
+                <span className="text-sm tracking-tighter self-center">+1</span>
+              </div>
+            )}
+            {showMinusOne === r.root && (
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-1 text-[var(--kilang-secondary)] font-black pointer-events-none animate-bloom-pop z-[100] drop-shadow-[0_0_20px_var(--kilang-secondary-glow)]">
+                <Sprout className="w-5 h-5" />
+                <span className="text-sm tracking-tighter self-center">-1</span>
+              </div>
+            )}
           </div>
         </WordTooltip>
       ))}

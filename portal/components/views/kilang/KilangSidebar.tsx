@@ -16,6 +16,7 @@ import { Bookmark } from './KilangTypes';
 
 // Components
 import { ForestTab } from './components/ForestTab';
+import { BookmarkTab } from './components/BookmarkTab';
 import { StylingTab } from './components/StylingTab';
 import { CustomTab } from './components/CustomTab';
 
@@ -57,7 +58,7 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
     togglePin,
     deleteBookmark,
     loadBookmark
-  } = useKilangBookmarks(selectedRoot, rootData, dispatch);
+  } = useKilangBookmarks(state.selectedRoot, state.rootData, dispatch, state);
 
   const containerRef = React.useRef<HTMLElement | null>(null);
   React.useEffect(() => {
@@ -131,11 +132,11 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
           <button onClick={() => { onToggle(); setSidebarTab('forest'); }} className={`p-2 rounded-[var(--kilang-radius-sm)] transition-all ${sidebarTab === 'forest' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
             <Search className="w-5 h-5" />
           </button>
+          <button onClick={() => { onToggle(); setSidebarTab('new_mako'); }} className={`p-2 rounded-[var(--kilang-radius-sm)] transition-all ${sidebarTab === 'new_mako' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
+            <Search className="w-5 h-5" opacity={0.5} />
+          </button>
           <button onClick={() => { onToggle(); setSidebarTab('styling'); }} className={`p-2 rounded-[var(--kilang-radius-sm)] transition-all ${sidebarTab === 'styling' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
             <Settings2 className="w-5 h-5" />
-          </button>
-          <button onClick={() => { onToggle(); setSidebarTab('custom'); }} className={`p-2 rounded-[var(--kilang-radius-sm)] transition-all ${sidebarTab === 'custom' ? `text-[var(--kilang-primary)] bg-[color-mix(in_srgb,var(--kilang-primary),transparent_90%)]` : 'text-[var(--kilang-text-muted)]/40 hover:text-[var(--kilang-text)]'}`}>
-            <PenTool className="w-5 h-5" />
           </button>
         </div>
       </aside>
@@ -167,7 +168,13 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
           onClick={() => setSidebarTab('forest')}
           className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-[var(--kilang-radius-md)] text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'forest' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
         >
-          Forest
+          Lotok
+        </button>
+        <button
+          onClick={() => setSidebarTab('new_mako')}
+          className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-[var(--kilang-radius-md)] text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'new_mako' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
+        >
+          No mako
         </button>
         <button
           onClick={() => setSidebarTab('styling')}
@@ -175,47 +182,35 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
         >
           Styling
         </button>
-        <button
-          onClick={() => setSidebarTab('custom')}
-          className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-[var(--kilang-radius-md)] text-[10px] font-black uppercase tracking-widest transition-all ${sidebarTab === 'custom' ? 'bg-[var(--kilang-ctrl-active)] text-[var(--kilang-ctrl-active-text)] shadow-[var(--kilang-shadow-primary)]' : 'text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] hover:bg-[var(--kilang-ctrl-bg)]'}`}
-        >
-          Custom
-        </button>
       </div>
 
       <div className="flex-1 overflow-y-auto custom-scrollbar no-scrollbar">
         {sidebarTab === 'forest' && (
           <ForestTab
             bookmarks={bookmarks}
-            sortedBookmarks={sortedBookmarks}
             saveBookmark={(r, t, d, c) => saveBookmark(r, t, d, c, sidebarTab, customInputDirty)}
-            togglePin={togglePin}
-            deleteBookmark={deleteBookmark}
-            loadBookmark={(b) => loadBookmark(b, fetchRootDetails)}
             showPlusOne={showPlusOne}
             showMinusOne={showMinusOne}
           />
         )}
 
+        {sidebarTab === 'new_mako' && (
+          <BookmarkTab
+            bookmarks={bookmarks}
+            sortedBookmarks={sortedBookmarks}
+            loadBookmark={(b) => loadBookmark(b, fetchRootDetails)}
+            togglePin={togglePin}
+            deleteBookmark={deleteBookmark}
+            showPlusOne={showPlusOne}
+            showMinusOne={showMinusOne}
+          />
+        )}
+
+
         {sidebarTab === 'styling' && (
           <StylingTab
             updateConfig={updateConfig}
             updateVariable={tsActions.updateVariable}
-          />
-        )}
-
-        {sidebarTab === 'custom' && (
-          <CustomTab
-            showTips={showTips}
-            setShowTips={setShowTips}
-            customInput={customInput}
-            setCustomInput={setCustomInput}
-            setCustomInputDirty={setCustomInputDirty}
-            onTabKeyDown={onTabKeyDown}
-            handlePlant={handlePlant}
-            saveBookmark={() => saveBookmark(undefined, undefined, undefined, undefined, sidebarTab, customInputDirty)}
-            bookmarks={bookmarks}
-            customInputDirty={customInputDirty}
           />
         )}
       </div>

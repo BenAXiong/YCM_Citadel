@@ -27,6 +27,12 @@ This log tracks high-level architectural decisions, "Aha!" moments during debugg
 - **Problem**: The MOE dictionary results were fragmented (individual rows for each definition) and lacked the "premium" recursive feel of the official site.
 - **Decision**: Implemented a **Source Grouping** layer in `MoeMirrorView.tsx`. Multiple definitions for the same word from the same dictionary (e.g., Safolu `s`) are now consolidated into a single card with numbered lists.
 - **Recursive Navigation**: Added a "Side-Peek" drawer for tooltips, allowing users to explore nested roots (e.g., clicking on a synonym or root inside a definition) without losing their current search position.
+- [**Full View Mode Implementation**](https://github.com/BenAXiong/YCM_Citadel/pull/a6850694) (2026-03-19): Edge-to-edge canvas with glassmorphism overlays.
+
+## 2026-03-22: Floating Architect & Geometry Sync
+- **Architect Card**: Transformed the Custom Panel into a minimalist floating card anchored to the tree view window.
+- **Terminology Alignment**: Formalized the definitions for **MAIN** (container), **WINDOW** (cutout), and **CANVAS** (world) to prevent future layout collisions.
+- **Precision Gaps**: Enforced a universal **32px** gap (`p-8`) between UI chrome and the interactive portal corner.
 
 ### 🐛 The "Ghost Tooltip" Visibility Discovery
 - **Problem**: In the React/Tailwind implementation, using `animate-in fade-in` on components with `opacity-0` caused all tooltips for every word on the page to trigger their appearance animation simultaneously on mount, leading to a screen full of overlapping tooltips.

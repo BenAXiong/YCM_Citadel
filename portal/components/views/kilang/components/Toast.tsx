@@ -1,31 +1,39 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import { CheckCircle } from 'lucide-react';
+import { CheckCircle2, Zap } from 'lucide-react';
 
 interface ToastProps {
-  message: string | null;
+  toast: { message: string; type: 'success' | 'info' } | null;
   onClose: () => void;
 }
 
-export const Toast = ({ message, onClose }: ToastProps) => {
+export const Toast = ({ toast, onClose }: ToastProps) => {
   useEffect(() => {
-    if (message) {
+    if (toast) {
       const timer = setTimeout(() => {
         onClose();
       }, 3000);
       return () => clearTimeout(timer);
     }
-  }, [message, onClose]);
+  }, [toast, onClose]);
 
-  if (!message) return null;
+  if (!toast) return null;
+
+  const isSuccess = toast.type === 'success';
 
   return (
-    <div className="fixed bottom-12 left-1/2 -translate-x-1/2 z-[9999] pointer-events-none">
-      <div className="bg-black/80 backdrop-blur-xl border border-white/10 px-6 py-3 rounded-2xl shadow-2xl flex items-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-300">
-        <CheckCircle className="w-4 h-4 text-emerald-400" />
-        <span className="text-[12px] font-black uppercase tracking-widest text-white/90">
-          {message}
+    <div className="fixed bottom-12 left-1/2 -translate-x-1/2 z-[9999] pointer-events-none animate-in slide-in-from-bottom-8 duration-500">
+      <div className={`flex items-center gap-6 px-10 py-6 bg-[var(--kilang-toast-bg)] backdrop-blur-3xl border rounded-[32px] shadow-[0_32px_128px_-16px_var(--kilang-shadow-color)] border-b-8 transition-all ${isSuccess ? 'border-[var(--kilang-toast-border)] border-b-[var(--kilang-primary)]/60' : 'border-[var(--kilang-toast-border)] border-b-[var(--kilang-secondary)]/60'}`}>
+        <div className={`w-12 h-12 rounded-full flex items-center justify-center animate-bounce ${isSuccess ? 'bg-[var(--kilang-primary)]/10 border border-[var(--kilang-primary)]/20' : 'bg-[var(--kilang-primary)]/10 border border-[var(--kilang-primary)]/20'}`}>
+          {isSuccess ? (
+            <CheckCircle2 className="w-8 h-8 text-[var(--kilang-primary)]" />
+          ) : (
+            <Zap className="w-8 h-8 text-[var(--kilang-secondary)]" />
+          )}
+        </div>
+        <span className="text-xs font-black text-[var(--kilang-text)] uppercase tracking-[0.3em]">
+          {toast.message}
         </span>
       </div>
     </div>

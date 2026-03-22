@@ -5,6 +5,7 @@ import { KilangHeader } from './KilangHeader';
 import { KilangSidebar } from './KilangSidebar';
 import { KilangCanvas } from './KilangCanvas';
 import { KilangRightSidebar } from './KilangRightSidebar';
+import { CustomPanel } from './components/CustomPanel';
 import { ThemeBar } from './components/ThemeBar';
 import { StatsOverlay } from './StatsOverlay';
 import { AffixesOverlay } from './AffixesOverlay';
@@ -66,9 +67,9 @@ export const KilangDesktopLayout = ({
   const setArrangement = (a: string) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any });
 
   return (
-    <div 
+    <div
       className="kilang-container flex flex-col h-screen"
-      style={{ 
+      style={{
         '--sidebar-width': `${(state.sidebarCollapsed || isImmersive) ? 0 : state.sidebarWidth}px`,
         '--right-sidebar-width': `${(state.rightSidebarCollapsed || isImmersive) ? 0 : state.rightSidebarWidth}px`
       } as React.CSSProperties}
@@ -87,6 +88,7 @@ export const KilangDesktopLayout = ({
           </div>
         )}
 
+
         <KilangCanvas />
 
         {state.showRightSidebar && (
@@ -98,7 +100,9 @@ export const KilangDesktopLayout = ({
           </div>
         )}
       </div>
-
+ 
+      {state.showCustomPanel && !isImmersive && <CustomPanel />}
+ 
       {state.showStatsOverlay && <StatsOverlay />}
       {state.showAffixesOverlay && <AffixesOverlay />}
     </div>

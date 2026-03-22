@@ -551,13 +551,17 @@
 
   30% {
     opacity: 1;
-    transform: translate(-50%, -20px) scale(1.2);
+    transform: translate(-50%, -40px) scale(1.2);
   }
 
   100% {
     opacity: 0;
-    transform: translate(-50%, -40px) scale(1);
+    transform: translate(-50%, -100px) scale(1);
   }
+}
+
+.animate-bloom-pop {
+  animation: bloomPop 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 @keyframes peacefulFloat {

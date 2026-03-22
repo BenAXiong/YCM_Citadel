@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { KilangAction } from '../kilangReducer';
+import { KilangAction, KilangState } from '../kilangReducer';
 import { Bookmark, KilangRootData } from '../KilangTypes';
 
 const STORAGE_KEY = 'kilang_bookmarked_trees';
@@ -9,29 +9,16 @@ const STORAGE_KEY = 'kilang_bookmarked_trees';
 export const useKilangBookmarks = (
   selectedRoot: string | null,
   rootData: KilangRootData | null,
-  dispatch: React.Dispatch<KilangAction>
+  dispatch: React.Dispatch<KilangAction>,
+  state: Partial<KilangState> = {} // Fallback for components passing it
 ) => {
-  const [bookmarks, setBookmarks] = React.useState<Bookmark[]>([]);
-  const [toast, setToast] = React.useState<{ message: string, type: 'success' | 'info' } | null>(null);
-  const [showPlusOne, setShowPlusOne] = React.useState(false);
-  const [showMinusOne, setShowMinusOne] = React.useState(false);
-  const [showMyTrees, setShowMyTrees] = React.useState(false);
-
-  // Load bookmarks on mount
-  React.useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      try {
-        setBookmarks(JSON.parse(saved));
-      } catch (e) {
-        console.error("Failed to parse bookmarks", e);
-      }
-    }
-  }, []);
+  // Pull from state if provided, otherwise context will be used in components
+  const bookmarks = (state as KilangState).bookmarks || [];
+  const { showPlusOne, showMinusOne } = (state as KilangState).animations || { showPlusOne: null, showMinusOne: null };
+  const showMyTrees = (state as KilangState).showMyTrees || false;
 
   const showNotification = (message: string, type: 'success' | 'info' = 'success') => {
-    setToast({ message, type });
-    setTimeout(() => setToast(null), 3000);
+    dispatch({ type: 'SET_TOAST', message: { message, type } });
   };
 
   const saveBookmark = (
@@ -70,12 +57,11 @@ export const useKilangBookmarks = (
 
     if (existing) {
       const updated = bookmarks.filter(b => b.root !== rootToSave);
-      setBookmarks(updated);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+      dispatch({ type: 'SET_BOOKMARKS', bookmarks: updated });
       showNotification(`${isCustom ? 'Custom Kilang' : 'Kilang'} removed from Library`, 'info');
 
-      setShowMinusOne(true);
-      setTimeout(() => setShowMinusOne(false), 1000);
+      dispatch({ type: 'SET_ANIMATION', minus: rootToSave });
+      setTimeout(() => dispatch({ type: 'SET_ANIMATION', minus: null }), 1000);
       return;
     }
 
@@ -90,29 +76,26 @@ export const useKilangBookmarks = (
     };
 
     const updated = [newBookmark, ...bookmarks];
-    setBookmarks(updated);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+    dispatch({ type: 'SET_BOOKMARKS', bookmarks: updated });
 
     showNotification(`${isCustom ? 'Custom Kilang' : 'Kilang'} saved to Library`);
 
-    setShowPlusOne(true);
-    setTimeout(() => setShowPlusOne(false), 1000);
+    dispatch({ type: 'SET_ANIMATION', plus: rootToSave });
+    setTimeout(() => dispatch({ type: 'SET_ANIMATION', plus: null }), 1000);
 
-    if (!rootOverride) setShowMyTrees(true);
+    if (!rootOverride) dispatch({ type: 'SET_UI', showMyTrees: true });
   };
 
   const togglePin = (id: string, e: React.MouseEvent) => {
     e.stopPropagation();
     const updated = bookmarks.map(b => b.id === id ? { ...b, isPinned: !b.isPinned } : b);
-    setBookmarks(updated);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+    dispatch({ type: 'SET_BOOKMARKS', bookmarks: updated });
   };
 
   const deleteBookmark = (id: string, e: React.MouseEvent) => {
     e.stopPropagation();
     const updated = bookmarks.filter(b => b.id !== id);
-    setBookmarks(updated);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+    dispatch({ type: 'SET_BOOKMARKS', bookmarks: updated });
   };
 
   const loadBookmark = (bookmark: Bookmark, fetchRootDetails: (root: string) => Promise<void>) => {
@@ -132,11 +115,11 @@ export const useKilangBookmarks = (
   return {
     bookmarks,
     sortedBookmarks,
-    toast,
+    toast: (state as KilangState).toast,
     showPlusOne,
     showMinusOne,
     showMyTrees,
-    setShowMyTrees,
+    setShowMyTrees: (val: boolean) => dispatch({ type: 'SET_UI', showMyTrees: val }),
     saveBookmark,
     togglePin,
     deleteBookmark,

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Library, Pin, XCircle } from 'lucide-react';
+import { Library, Pin, XCircle, TreePine, Sprout } from 'lucide-react';
 import { WordTooltip } from '../KilangNode';
 import { useSidebar } from '../SidebarContext';
 
@@ -11,6 +11,8 @@ interface BookmarkLibraryProps {
   loadBookmark: (bookmark: import('../KilangTypes').Bookmark) => void;
   togglePin: (id: string, e: React.MouseEvent) => void;
   deleteBookmark: (id: string, e: React.MouseEvent) => void;
+  showPlusOne: string | null;
+  showMinusOne: string | null;
 }
 
 export const BookmarkLibrary = React.memo(({ 
@@ -18,7 +20,9 @@ export const BookmarkLibrary = React.memo(({
   sortedBookmarks, 
   loadBookmark, 
   togglePin, 
-  deleteBookmark 
+  deleteBookmark,
+  showPlusOne,
+  showMinusOne
 }: BookmarkLibraryProps) => {
   const {
     state,
@@ -55,7 +59,7 @@ export const BookmarkLibrary = React.memo(({
             >
               <div
                 onClick={() => loadBookmark(b)}
-                className={`group px-4 py-3 rounded-xl border transition-all cursor-pointer flex items-center justify-between ${selectedRoot === b.root ? 'bg-[var(--kilang-secondary)]/20 border-[var(--kilang-secondary)]/50' : 'bg-white/5 border-white/5 hover:border-[var(--kilang-primary)]/20'}`}
+                className={`group px-4 py-3 rounded-xl border transition-all cursor-pointer flex items-center justify-between relative ${selectedRoot === b.root ? 'bg-[var(--kilang-secondary)]/20 border-[var(--kilang-secondary)]/50' : 'bg-white/5 border-white/5 hover:border-[var(--kilang-primary)]/20'}`}
               >
                 <div className="flex items-center gap-4">
                   <span className="text-[10px] font-black text-[var(--kilang-primary)] bg-[var(--kilang-primary)]/10 px-2.5 py-1 rounded-lg min-w-[32px] text-center">{b.count || 0}</span>
@@ -86,6 +90,20 @@ export const BookmarkLibrary = React.memo(({
                     <XCircle className="w-3.5 h-3.5" />
                   </button>
                 </div>
+
+                {/* Animation Pop */}
+                {showPlusOne === b.root && (
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-1 text-[var(--kilang-primary)] font-black pointer-events-none animate-bloom-pop z-[100] drop-shadow-[0_0_20px_var(--kilang-primary-glow)]">
+                    <TreePine className="w-5 h-5" />
+                    <span className="text-sm tracking-tighter self-center">+1</span>
+                  </div>
+                )}
+                {showMinusOne === b.root && (
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-1 text-[var(--kilang-secondary)] font-black pointer-events-none animate-bloom-pop z-[100] drop-shadow-[0_0_20px_var(--kilang-secondary-glow)]">
+                    <Sprout className="w-5 h-5" />
+                    <span className="text-sm tracking-tighter self-center">-1</span>
+                  </div>
+                )}
               </div>
             </WordTooltip>
             {isLastPinned && sortedBookmarks.length > idx + 1 && (

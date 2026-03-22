@@ -38,6 +38,11 @@ export interface KilangState {
   logoStyles: Record<number, 'original' | 'square' | 'round'>;
   logoSettings: Record<number, { scale: number; radius: number; xOffset: number; opacity: number; glowIntensity: number; glowColor: string }>;
   customData: any[] | null;
+  bookmarks: import('./KilangTypes').Bookmark[];
+  animations: {
+    showPlusOne: string | null;
+    showMinusOne: string | null;
+  };
 
   // Configuration
   morphMode: MorphMode;
@@ -64,7 +69,9 @@ export interface KilangState {
   showPerfMonitor: boolean;
   showFilterPanel: boolean;
   sidebarCollapsed: boolean;
-  sidebarTab: 'forest' | 'styling' | 'custom';
+  sidebarTab: 'forest' | 'styling' | 'new_mako';
+  showMyTrees: boolean;
+  showCustomPanel: boolean;
   rightSidebarTab: 'txt' | 'sent' | 'met';
   themeBarTab: 'themes' | 'tree' | 'branding' | 'fonts' | 'map';
   rightSidebarWidth: number;
@@ -163,7 +170,7 @@ export interface KilangState {
     sortMode: 'count' | 'alpha';
     columnSources: Record<string, string[]>;
   };
-  toast: string | null;
+  toast: { message: string, type: 'success' | 'info' } | null;
 }
 
 export type KilangAction =
@@ -180,16 +187,18 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showTreeTab?: boolean; showExportDropdown?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showFloatingPalette?: boolean; showSidebarTooltips?: boolean; showTreeTooltips?: boolean; isFullView?: boolean; hideCanvasControls?: boolean; moveFullViewToCanvas?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; moveChainToCanvas?: boolean; theme?: string; themeBarTab?: 'themes' | 'tree' | 'branding' | 'fonts' | 'map'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'custom'; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number }
+  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showTreeTab?: boolean; showExportDropdown?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showFloatingPalette?: boolean; showSidebarTooltips?: boolean; showTreeTooltips?: boolean; isFullView?: boolean; hideCanvasControls?: boolean; moveFullViewToCanvas?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; moveChainToCanvas?: boolean; theme?: string; themeBarTab?: 'themes' | 'tree' | 'branding' | 'fonts' | 'map'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'new_mako'; showMyTrees?: boolean; showCustomPanel?: boolean; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number }
   | { type: 'RESET_LOGO_SETTINGS'; version: number }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
   | { type: 'SET_SIDEBAR_WIDTH', width: number }
-  | { type: 'SET_TOAST', message: string | null }
+  | { type: 'SET_TOAST', message: { message: string, type: 'success' | 'info' } | null }
   | { type: 'SET_THREAD_CONFIG'; index: number; config: Partial<ThreadConfig> }
   | { type: 'RESET_THREADS' }
   | { type: 'RANDOMIZE_THREADS' }
   | { type: 'SET_AFFIX_STATE'; state: Partial<KilangState['affixState']> }
+  | { type: 'SET_BOOKMARKS'; bookmarks: import('./KilangTypes').Bookmark[] }
+  | { type: 'SET_ANIMATION'; plus?: string | null; minus?: string | null }
   | { type: 'HYDRATE_STATE'; state: Partial<KilangState> }
   | { type: 'SYNC_STATE', state: Partial<KilangState> }
   | { type: 'SYNC_GLOBAL_THEME', theme: string, layoutConfig: Partial<KilangState['layoutConfig']> }
@@ -203,6 +212,8 @@ export const initialState: KilangState = {
   selectedRoot: null,
   rootData: null,
   customData: null,
+  bookmarks: [],
+  animations: { showPlusOne: null, showMinusOne: null },
   summaryCache: {},
   sourceCounts: {},
   sidebarWidth: 328, // w-82 equivalent
@@ -242,6 +253,8 @@ export const initialState: KilangState = {
   showRightSidebar: true,
   rightSidebarCollapsed: false,
   showSidebarTooltips: true,
+  showMyTrees: false,
+  showCustomPanel: false,
   showTreeTooltips: true,
   isFullView: false,
   hideCanvasControls: false,
@@ -594,6 +607,16 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return {
         ...state,
         affixState: { ...state.affixState, ...action.state }
+      };
+    case 'SET_BOOKMARKS':
+      return { ...state, bookmarks: action.bookmarks };
+    case 'SET_ANIMATION':
+      return { 
+        ...state, 
+        animations: { 
+          showPlusOne: action.plus !== undefined ? action.plus : state.animations.showPlusOne,
+          showMinusOne: action.minus !== undefined ? action.minus : state.animations.showMinusOne
+        } 
       };
     case 'HYDRATE_STATE':
       return {

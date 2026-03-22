@@ -150,8 +150,9 @@ export default function KilangView({
             />
           )}
 
+          {/* The Toast component is now managed centrally and its props are updated */}
           <Toast 
-            message={state.toast} 
+            toast={state.toast} 
             onClose={() => dispatch({ type: 'SET_TOAST', message: null })} 
           />
 
