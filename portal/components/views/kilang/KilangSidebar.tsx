@@ -18,7 +18,6 @@ import { Bookmark } from './KilangTypes';
 import { ForestTab } from './components/ForestTab';
 import { BookmarkTab } from './components/BookmarkTab';
 import { StylingTab } from './components/StylingTab';
-import { CustomTab } from './components/CustomTab';
 
 interface KilangSidebarProps {
   isCollapsed: boolean;

@@ -181,7 +181,7 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
       landingVersion: state.landingVersion
     }));
 
-    dispatch({ type: 'SET_TOAST', message: `Theme "${THEME_PRESETS.find(p => p.id === layoutConfig.theme)?.label}" Saved Successfully` });
+    dispatch({ type: 'SET_TOAST', message: { message: `Theme "${THEME_PRESETS.find(p => p.id === layoutConfig.theme)?.label}" Saved Successfully`, type: 'success' } });
   }, [layoutConfig, state, overrides, dispatch]);
 
   const handleReset = useCallback(() => {
@@ -213,7 +213,7 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
         }
       });
     }
-    dispatch({ type: 'SET_TOAST', message: 'Theme Hard-Reset to Default' });
+    dispatch({ type: 'SET_TOAST', message: { message: 'Theme Hard-Reset to Default', type: 'info' } });
   }, [layoutConfig.theme, dispatch]);
 
   const resetVariables = useCallback((names: string[]) => {
@@ -222,7 +222,7 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
     applyThemeStyles(nextOverrides);
     setOverrides(nextOverrides);
     localStorage.setItem(`kilang-custom-theme-${layoutConfig.theme}`, JSON.stringify(nextOverrides));
-    dispatch({ type: 'SET_TOAST', message: `${names.length} Variables Reset` });
+    dispatch({ type: 'SET_TOAST', message: { message: `${names.length} Variables Reset`, type: 'success' } });
   }, [layoutConfig.theme, overrides, applyThemeStyles, dispatch]);
 
   const randomizeTheme = useCallback(() => {
@@ -243,14 +243,14 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
     };
 
     updateVariables(mapping);
-    dispatch({ type: 'SET_TOAST', message: 'Theme Inspired by Chaos' });
+    dispatch({ type: 'SET_TOAST', message: { message: 'Theme Inspired by Chaos', type: 'success' } });
   }, [updateVariables, dispatch]);
 
   const resetAllOverrides = useCallback(() => {
     setOverrides({});
     applyThemeStyles({});
     localStorage.removeItem(`kilang-custom-theme-${layoutConfig.theme}`);
-    dispatch({ type: 'SET_TOAST', message: 'All CSS Overrides Cleared' });
+    dispatch({ type: 'SET_TOAST', message: { message: 'All CSS Overrides Cleared', type: 'info' } });
   }, [layoutConfig.theme, applyThemeStyles, dispatch]);
 
   const resetLayoutConfig = useCallback((keys: string[]) => {
@@ -267,7 +267,7 @@ export const useThemeStudio = ({ dispatch, layoutConfig, state }: UseThemeStudio
     const update: any = {};
     keys.forEach(k => { if (defaults[k] !== undefined) update[k] = defaults[k]; });
     if (Object.keys(update).length) dispatch({ type: 'SET_LAYOUT_CONFIG', config: update });
-    dispatch({ type: 'SET_TOAST', message: `${keys.length} Configs Reset` });
+    dispatch({ type: 'SET_TOAST', message: { message: `${keys.length} Configs Reset`, type: 'success' } });
   }, [dispatch]);
 
   const toggleSection = (id: string) => {

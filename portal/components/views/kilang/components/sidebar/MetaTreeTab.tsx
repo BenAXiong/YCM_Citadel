@@ -1,7 +1,8 @@
 'use client';
 
 import React from 'react';
-import { Code, Type, HelpCircle, Scissors, Copy, Check } from 'lucide-react';
+import { Code, Type, HelpCircle, Scissors, Copy, Check, MessageSquare, RotateCcw } from 'lucide-react';
+import { useKilangContext } from '../../KilangContext';
 import { CollapsibleSection } from './SidebarShared';
 import { getActiveHighlightChain, getLinearPath, generateTreeString, normalizeWord } from '../../kilangUtils';
 
@@ -17,6 +18,43 @@ interface MetaTreeTabProps {
   setTrimDescendants: (trim: boolean) => void;
 }
 
+const DefinitionsView = ({ displayNode }: { displayNode: string }) => {
+  const { summaryCache, fetchSummary } = useKilangContext();
+  const cacheKey = displayNode.toLowerCase();
+  const definitions = summaryCache[cacheKey];
+
+  // Auto-fetch if missing
+  React.useEffect(() => {
+    if (definitions === undefined) {
+      fetchSummary(displayNode);
+    }
+  }, [displayNode, definitions, fetchSummary]);
+
+  return (
+    <div className="space-y-4 py-2 min-h-[160px]">
+      <div className="border-b border-[var(--kilang-border-std)] pb-2 mb-2">
+        <span className="text-[14px] font-black text-[var(--kilang-primary-text)] uppercase tracking-widest">{displayNode}</span>
+      </div>
+
+      <div className="space-y-3">
+        {definitions === undefined ? (
+          <div className="flex items-center gap-2 italic text-[var(--kilang-primary-text)]/50 text-[10px] font-mono">
+            <div className="w-1.5 h-1.5 bg-[var(--kilang-primary-bg)] rounded-full animate-pulse" />
+            RESYNCING CORE...
+          </div>
+        ) : (
+          definitions.map((def: string, idx: number) => (
+            <div key={idx} className="flex gap-2.5">
+              <span className="text-[var(--kilang-primary)] font-black text-[10px] mt-0.5">{idx + 1}.</span>
+              <div className="text-[11px] text-[var(--kilang-text)] opacity-80 leading-relaxed font-medium">{def}</div>
+            </div>
+          ))
+        )}
+      </div>
+    </div>
+  );
+};
+
 export const MetaTreeTab = ({
   canvasSelectedNode,
   selectedRoot,
@@ -28,8 +66,41 @@ export const MetaTreeTab = ({
   trimDescendants,
   setTrimDescendants
 }: MetaTreeTabProps) => {
+  const { state, dispatch } = useKilangContext();
+  const displayNode = state.tooltipMode === 'fixed' ? (state.canvasHoverNode || state.canvasSelectedNode) : null;
+
   return (
     <div className="space-y-4">
+      {/* Definitions Section (Live Inspector) */}
+      <CollapsibleSection
+        title="Definitions"
+        id="semantic"
+        icon={MessageSquare}
+        isCollapsed={collapsedSections['semantic']}
+        onToggle={() => toggleSection('semantic')}
+        action={state.canvasSelectedNode || state.tooltipMode === 'fixed' ? (
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              dispatch({ type: 'SET_UI', canvasSelectedNode: null, tooltipMode: 'hover' });
+            }}
+            className="p-1.5 rounded-md hover:bg-[var(--kilang-ctrl-active)]/10 text-[var(--kilang-text-muted)] hover:text-[var(--kilang-text)] transition-all group/clear"
+            title="Restore Hover Mode"
+          >
+            <RotateCcw className="w-3 h-3 group-hover/clear:rotate-[-45deg] transition-transform" />
+          </button>
+        ) : null}
+      >
+        {!displayNode ? (
+          <div className="text-[var(--kilang-text-muted)] italic text-[10px] py-4 min-h-[160px] opacity-60">
+            {state.tooltipMode === 'hover' 
+              ? "Live Tooltips are active on the canvas. Click the 'Pin' icon in a tooltip to switch back to Sidebar focus."
+              : "Hover or click a node to view its definitions here."}
+          </div>
+        ) : (
+          <DefinitionsView displayNode={displayNode} />
+        )}
+      </CollapsibleSection>
       {/* JSON Section */}
       <CollapsibleSection
         title="JSON Structure"
@@ -182,6 +253,7 @@ export const MetaTreeTab = ({
           );
         })()}
       </CollapsibleSection>
+
     </div>
   );
 };

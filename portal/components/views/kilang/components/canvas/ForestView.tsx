@@ -106,7 +106,7 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
               showTooltip={showTreeTooltips}
               onInteraction={(type, word) => {
                 if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
-                else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
+                else if (type === 'select') dispatch({ type: 'SET_UI', canvasSelectedNode: word, tooltipMode: 'fixed' });
               }}
             />
           </div>
@@ -149,7 +149,7 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
                     showTooltip={showTreeTooltips}
                     onInteraction={(type, word) => {
                       if (type === 'hover') dispatch({ type: 'SET_CANVAS_HOVER', node: word });
-                      else if (type === 'select') dispatch({ type: 'SET_CANVAS_SELECT', node: word });
+                      else if (type === 'select') dispatch({ type: 'SET_UI', canvasSelectedNode: word, tooltipMode: 'fixed' });
                     }}
                   />
                 </div>

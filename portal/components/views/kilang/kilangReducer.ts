@@ -69,7 +69,7 @@ export interface KilangState {
   showPerfMonitor: boolean;
   showFilterPanel: boolean;
   sidebarCollapsed: boolean;
-  sidebarTab: 'forest' | 'styling' | 'new_mako';
+  sidebarTab: 'forest' | 'styling' | 'new_mako' | 'custom';
   showMyTrees: boolean;
   showCustomPanel: boolean;
   rightSidebarTab: 'txt' | 'sent' | 'met';
@@ -171,6 +171,7 @@ export interface KilangState {
     columnSources: Record<string, string[]>;
   };
   toast: { message: string, type: 'success' | 'info' } | null;
+  tooltipMode: 'hover' | 'fixed';
 }
 
 export type KilangAction =
@@ -187,7 +188,7 @@ export type KilangAction =
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
-  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showTreeTab?: boolean; showExportDropdown?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showFloatingPalette?: boolean; showSidebarTooltips?: boolean; showTreeTooltips?: boolean; isFullView?: boolean; hideCanvasControls?: boolean; moveFullViewToCanvas?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; moveChainToCanvas?: boolean; theme?: string; themeBarTab?: 'themes' | 'tree' | 'branding' | 'fonts' | 'map'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'new_mako'; showMyTrees?: boolean; showCustomPanel?: boolean; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number }
+  | { type: 'SET_UI', searchTerm?: string; branchFilter?: string | 'all'; showStatsOverlay?: boolean; showAffixesOverlay?: boolean; visibleChainsCount?: number; exporting?: boolean; showDevTools?: boolean; showStats?: boolean; showDimensions?: boolean; showPerfMonitor?: boolean; showTreeTab?: boolean; showExportDropdown?: boolean; showFilterPanel?: boolean; showRightSidebar?: boolean; showThemeBar?: boolean; showFloatingPalette?: boolean; showSidebarTooltips?: boolean; showTreeTooltips?: boolean; isFullView?: boolean; hideCanvasControls?: boolean; moveFullViewToCanvas?: boolean; moveZoomToCanvas?: boolean; moveGrowthToCanvas?: boolean; moveCaptureToCanvas?: boolean; moveChainToCanvas?: boolean; theme?: string; themeBarTab?: 'themes' | 'tree' | 'branding' | 'fonts' | 'map'; exportSettings?: Partial<KilangState['exportSettings']>; landingVersion?: 1 | 2 | 3; logoStyles?: Record<number, 'original' | 'square' | 'round'>; logoSettings?: Record<number, Partial<KilangState['logoSettings'][number]>>; sidebarCollapsed?: boolean; rightSidebarCollapsed?: boolean; sidebarTab?: 'forest' | 'styling' | 'new_mako' | 'custom'; showMyTrees?: boolean; showCustomPanel?: boolean; rightSidebarTab?: 'txt' | 'sent' | 'met'; sidebarWidth?: number; rightSidebarWidth?: number; tooltipMode?: 'hover' | 'fixed'; canvasSelectedNode?: string | null; canvasHoverNode?: string | null; }
   | { type: 'RESET_LOGO_SETTINGS'; version: number }
   | { type: 'SET_CANVAS_HOVER'; node: string | null }
   | { type: 'SET_CANVAS_SELECT'; node: string | null }
@@ -356,6 +357,7 @@ export const initialState: KilangState = {
     columnSources: { moe: ['ALL'], plus: ['ALL'], star: ['ALL'] }
   },
   toast: null,
+  tooltipMode: 'fixed'
 };
 
 export function kilangReducer(state: KilangState, action: KilangAction): KilangState {

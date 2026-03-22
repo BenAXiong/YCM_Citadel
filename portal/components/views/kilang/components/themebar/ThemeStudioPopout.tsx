@@ -109,7 +109,7 @@ export const ThemeStudioPopout = () => {
               link.click();
               document.body.removeChild(link);
               URL.revokeObjectURL(url);
-              dispatch({ type: 'SET_TOAST', message: 'Theme Configuration Downloaded' });
+              dispatch({ type: 'SET_TOAST', message: { message: 'Theme Configuration Downloaded', type: 'info' } });
             }}
             className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-blue-400 hover:bg-blue-400/5 transition-all group relative"
             title="Download Theme Configuration (JSON)"
@@ -129,7 +129,7 @@ export const ThemeStudioPopout = () => {
             onClick={() => {
               const json = JSON.stringify(tsState.overrides, null, 2);
               navigator.clipboard.writeText(json);
-              dispatch({ type: 'SET_TOAST', message: 'Overrides JSON Copied to Clipboard' });
+              dispatch({ type: 'SET_TOAST', message: { message: 'Overrides JSON Copied to Clipboard', type: 'info' } });
             }}
             className="w-10 h-10 rounded-xl flex items-center justify-center text-white/10 hover:text-white hover:bg-white/5 transition-all group relative"
             title="Copy Overrides to Clipboard"

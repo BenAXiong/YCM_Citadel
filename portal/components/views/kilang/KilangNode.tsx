@@ -2,7 +2,8 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import { Zap, TreePine, GitCommit, GitBranch, Circle, Flower2, Sprout, Boxes } from 'lucide-react';
+import { Zap, TreePine, GitCommit, GitBranch, Circle, Flower2, Sprout, Boxes, ExternalLink } from 'lucide-react';
+import { useKilangContext } from './KilangContext';
 
 interface WordTooltipProps {
   word: string;
@@ -29,11 +30,14 @@ export const WordTooltip = ({
   showTooltip = true,
   accentBorderWidth = 6
 }: WordTooltipProps) => {
+  const { state, dispatch } = useKilangContext();
   const [isHovered, setIsHovered] = useState(false);
   const [coords, setCoords] = useState({ top: 0, left: 0 });
   const triggerRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<any>(null);
   const cacheKey = word.toLowerCase();
+
+  const effectiveShowTooltip = showTooltip && state.showTreeTooltips && state.tooltipMode === 'hover';
 
   useEffect(() => {
     return () => {
@@ -42,6 +46,8 @@ export const WordTooltip = ({
   }, []);
 
   const handleEnter = () => {
+    if (!effectiveShowTooltip) return;
+
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
 
     // DWELL SYSTEM: Only trigger if the user stays for 150ms
@@ -81,7 +87,25 @@ export const WordTooltip = ({
       <div className="flex flex-col gap-1 mb-4 border-b border-[var(--kilang-border-std)] pb-3">
         <div className="flex items-center justify-between text-normal">
           <span className="text-2xl font-black text-[var(--kilang-primary-text)] tracking-tighter uppercase">{word}</span>
-          {dictCode && <span className="text-[10px] font-mono text-[var(--kilang-primary-text)] bg-[var(--kilang-primary-bg)]/10 px-2 py-0.5 rounded-full uppercase">{dictCode}</span>}
+          <div className="flex items-center gap-2">
+            {dictCode && <span className="text-[10px] font-mono text-[var(--kilang-primary-text)] bg-[var(--kilang-primary-bg)]/10 px-2 py-0.5 rounded-full uppercase">{dictCode}</span>}
+            <button
+               onClick={(e) => {
+                 e.preventDefault();
+                 e.stopPropagation();
+                 const nextMode = state.tooltipMode === 'hover' ? 'fixed' : 'hover';
+                 dispatch({
+                   type: 'SET_UI',
+                   canvasSelectedNode: nextMode === 'fixed' ? word : null,
+                   tooltipMode: nextMode
+                 });
+               }}
+               className={`p-1 rounded-md transition-all group/mode ${state.tooltipMode === 'fixed' && state.canvasSelectedNode === word ? 'bg-[var(--kilang-accent)]/20 text-[var(--kilang-accent-text)]' : 'bg-[var(--kilang-primary-bg)]/10 text-[var(--kilang-primary-text)]/50 hover:text-[var(--kilang-primary-text)]'}`}
+               title={state.tooltipMode === 'hover' ? "Switch to Fixed Mode" : "Switch to Hover Mode"}
+            >
+               <ExternalLink className={`w-4 h-4 transition-transform ${state.tooltipMode === 'fixed' && state.canvasSelectedNode === word ? 'scale-110' : 'group-hover/mode:scale-110'}`} />
+            </button>
+          </div>
         </div>
         <div className="h-0.5 w-16 bg-[var(--kilang-primary-bg)]" />
       </div>
@@ -111,9 +135,9 @@ export const WordTooltip = ({
   );
 
   return (
-    <div ref={triggerRef} id={id} className={className} onMouseEnter={showTooltip ? handleEnter : undefined} onMouseLeave={showTooltip ? handleLeave : undefined}>
+    <div ref={triggerRef} id={id} className={className} onMouseEnter={effectiveShowTooltip ? handleEnter : undefined} onMouseLeave={effectiveShowTooltip ? handleLeave : undefined}>
       {children}
-      {showTooltip && tooltipContent}
+      {effectiveShowTooltip && tooltipContent}
     </div>
   );
 };

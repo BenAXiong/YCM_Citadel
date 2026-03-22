@@ -395,7 +395,7 @@ export const ThemeBar = ({
                     }
                   };
                   console.log('HOLISTIC MANIFEST:', manifest);
-                  dispatch({ type: 'SET_TOAST', message: 'Manifest Exported to Console' });
+                  dispatch({ type: 'SET_TOAST', message: { message: 'Manifest Exported to Console', type: 'info' } });
                 }}
                 className="p-1.5 rounded-lg hover:bg-white/10 text-white/40 hover:text-white transition-all group/export"
                 title="EXPORT MANIFEST: Copies full theme state (JSON) to console."

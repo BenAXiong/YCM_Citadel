@@ -83,6 +83,7 @@ export interface SidebarUIState {
   };
   canvasHoverNode: string | null;
   canvasSelectedNode: string | null;
+  tooltipMode: 'hover' | 'fixed';
 }
 
 export interface KilangContextProps extends SidebarUIState {
