@@ -220,7 +220,7 @@ export const initialState: KilangState = {
   arrangement: 'aligned', // Default Aligned
   scale: 1,
   isFit: false,
-  canvasTransform: { x: 0, y: 0, k: 1 },
+  canvasTransform: { x: 400, y: 1300, k: 0.5 },
   themeBarTab: 'themes',
   searchTerm: '',
   branchFilter: 'all',
@@ -563,6 +563,7 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         ...state,
         scale: 1,
         isFit: false,
+        canvasTransform: { ...initialState.canvasTransform },
         resetToken: state.resetToken + 1
       };
     case 'SET_AFFIX_STATE':

@@ -53,9 +53,10 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
       style={{
         width: '4000px',
         height: '4000px',
-        transform: `translate3d(${canvasTransform.x}px, ${canvasTransform.y}px, 0) scale(${canvasTransform.k})`,
-        transformOrigin: '0 0'
-      }}
+        transformOrigin: '0 0',
+        transform: 'translate3d(var(--cam-x, 0px), var(--cam-y, 0px), 0) scale(var(--cam-k, 1))',
+        willChange: 'transform'
+      } as React.CSSProperties}
     >
       {/* 1. SVG Layer (Background) */}
       {nodeMap[normalizeWord(selectedRoot || '') || ''] && (
@@ -184,8 +185,7 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
     prev.fitTransform === next.fitTransform &&
     prev.activeHighlightChain === next.activeHighlightChain &&
     prev.summaryCache === next.summaryCache &&
-    prev.showTreeTooltips === next.showTreeTooltips &&
-    prev.canvasTransform === next.canvasTransform
+    prev.showTreeTooltips === next.showTreeTooltips
   );
 });
 

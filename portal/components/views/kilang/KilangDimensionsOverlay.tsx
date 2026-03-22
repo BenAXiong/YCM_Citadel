@@ -114,6 +114,10 @@ export const KilangDimensionsOverlay = ({
         </thead>
         <tbody className="text-white">
           <tr>
+            <td className="px-2 py-0.5 text-left text-white/100 border-l-2 border-blue-500/50">VIEWPORT</td>
+            {renderCoords([[0, 0], [win.w, 0], [0, win.h], [win.w, win.h]], "font-bold text-blue-400")}
+          </tr>
+          <tr>
             <td className="px-2 py-0.5 text-left text-white/100 border-l-2 border-indigo-500/50">HEADER</td>
             {renderCoords(h, "font-bold text-indigo-400")}
           </tr>
@@ -138,14 +142,24 @@ export const KilangDimensionsOverlay = ({
           </tr>
           <tr>
             <td className="px-2 py-0.5 text-left text-white/100 italic uppercase">Canvas</td>
-            <td className="px-1 py-0.5 text-blue-400">{-viewPos.x}</td>
-            <td className="px-1 py-0.5 text-blue-400">{-viewPos.y}</td>
-            <td className="px-1 py-0.5 text-blue-400">{4000 - viewPos.x}</td>
-            <td className="px-1 py-0.5 text-blue-400">{-viewPos.y}</td>
-            <td className="px-1 py-0.5 text-blue-400">{-viewPos.x}</td>
-            <td className="px-1 py-0.5 text-blue-400">{4000 - viewPos.y}</td>
-            <td className="px-1 py-0.5 text-blue-400">{4000 - viewPos.x}</td>
-            <td className="px-1 py-0.5 text-blue-400">{4000 - viewPos.y}</td>
+            <td className="px-1 py-0.5 text-blue-400">VAR(X)</td>
+            <td className="px-1 py-0.5 text-blue-400">VAR(Y)</td>
+            <td className="px-1 py-0.5 text-blue-400">4K</td>
+            <td className="px-1 py-0.5 text-blue-400">VAR(Y)</td>
+            <td className="px-1 py-0.5 text-blue-400">VAR(X)</td>
+            <td className="px-1 py-0.5 text-blue-400">4K</td>
+            <td className="px-1 py-0.5 text-blue-400">4K</td>
+            <td className="px-1 py-0.5 text-blue-400">4K</td>
+          </tr>
+          <tr>
+            <td className="px-2 py-0.5 text-left text-white/100 italic uppercase">Root</td>
+            {rootPos ? (
+              <td colSpan={8} className="px-1 py-0.5 text-blue-400 text-center">
+                {Math.round(rootPos.x)} , {Math.round(rootPos.y)}
+              </td>
+            ) : (
+              <td colSpan={8} className="text-center italic opacity-40">No Root selected</td>
+            )}
           </tr>
           <tr className="border-t border-white/5">
             <td className="px-2 py-1 text-left text-white italic font-black uppercase tracking-tighter shrink-0">Tree</td>
@@ -251,16 +265,15 @@ export const KilangDimensionsOverlay = ({
                   {/* World Canvas Layer */}
                   {(() => {
                     const currentScale = isFit ? fitTransform.scale : scale;
-
-                    // The World Origin in minimap space must align with sRect.left physically
-                    // Physical Offset from Viewport Left to World Left = sRect.left
-                    // worldMiniX = vX + sRect.left * scaleFactor
-                    // Since sRect.left = cRect.left - (viewPos.x * currentScale)
-                    const worldMiniX = vX + (cRect?.left || 0) * scaleFactor - (viewPos.x * currentScale * scaleFactor);
-                    const worldMiniY = vY + (cRect?.top || 0) * scaleFactor - (viewPos.y * currentScale * scaleFactor);
+                    const baseX = vX + (cRect?.left || 0) * scaleFactor;
+                    const baseY = vY + (cRect?.top || 0) * scaleFactor;
 
                     return (
-                      <g transform={`translate(${worldMiniX}, ${worldMiniY})`}>
+                      <g 
+                        style={{ 
+                          transform: `translate(${baseX}px, ${baseY}px) translate(calc(var(--cam-x, 0px) * ${scaleFactor}), calc(var(--cam-y, 0px) * ${scaleFactor}))`
+                        } as React.CSSProperties}
+                      >
                         {/* 1. The Forest Size (Total size of tree with padding) */}
                         {forestBounds && (
                           <rect

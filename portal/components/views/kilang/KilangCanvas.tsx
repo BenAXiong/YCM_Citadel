@@ -115,61 +115,34 @@ export const KilangCanvas = () => {
   const [viewPos, setViewPos] = React.useState({ x: 0, y: 0, w: 0, h: 0 });
 
   // 🚀 ROBUST LOCAL CAMERA STATE
-  const [cam, setCam] = React.useState({ x: 0, y: 0, k: 1 });
+  const [cam, setCam] = React.useState(() => state.canvasTransform || { x: 400, y: 1300, k: 0.5 });
   const latestCamRef = React.useRef(cam);
-  React.useEffect(() => { latestCamRef.current = cam; }, [cam]);
+  React.useEffect(() => { 
+    if (state.canvasTransform) {
+      latestCamRef.current = state.canvasTransform;
+    } else {
+      latestCamRef.current = cam;
+    }
+  }, [cam, state.canvasTransform]);
   
   const isPanningInternal = React.useRef(false);
+  const [isPanning, setIsPanning] = React.useState(false);
   const panningRef = React.useRef({ isPanning: false, startX: 0, startY: 0, initialCamX: 0, initialCamY: 0 });
 
-  // Sync from Store on Load
-  React.useLayoutEffect(() => {
-    if (state.canvasTransform) {
-      setCam(state.canvasTransform);
-    }
-  }, [state.canvasTransform]);
-
-  // 🎡 NON-PASSIVE WHEEL LISTENER (Critical for e.preventDefault)
-  React.useLayoutEffect(() => {
+  const syncCamToCSS = React.useCallback((cx: number, cy: number, ck: number) => {
+    if (!treeRef.current) return;
     const el = treeRef.current;
-    if (!el) return;
+    el.style.setProperty('--cam-x', `${cx}px`);
+    el.style.setProperty('--cam-y', `${cy}px`);
+    el.style.setProperty('--cam-k', `${ck}`);
+    
+    // Also sync to document for global consumers (Minimap)
+    document.documentElement.style.setProperty('--cam-x', `${cx}px`);
+    document.documentElement.style.setProperty('--cam-y', `${cy}px`);
+    document.documentElement.style.setProperty('--cam-k', `${ck}`);
+  }, []);
 
-    const onWheel = (e: WheelEvent) => {
-      // 1. Zoom (Ctrl + Wheel)
-      if (e.ctrlKey) {
-        e.preventDefault();
-        const delta = -e.deltaY;
-        const speed = 0.002;
-        const newK = Math.min(Math.max(latestCamRef.current.k * (1 + delta * speed), 0.1), 3);
-        
-        // Focal Zoom Math: keep cursor on same world coordinates
-        const rect = el.getBoundingClientRect();
-        const mouseX = e.clientX - rect.left;
-        const mouseY = e.clientY - rect.top;
-        
-        const worldX = (mouseX - latestCamRef.current.x) / latestCamRef.current.k;
-        const worldY = (mouseY - latestCamRef.current.y) / latestCamRef.current.k;
-        
-        const newX = mouseX - worldX * newK;
-        const newY = mouseY - worldY * newK;
-        
-        setCam({ x: newX, y: newY, k: newK });
-        return;
-      }
-
-      // 2. Pan (Shift + Wheel)
-      if (e.shiftKey) {
-        e.preventDefault();
-        setCam(prev => ({ ...prev, x: prev.x - e.deltaY }));
-        return;
-      }
-    };
-
-    el.addEventListener('wheel', onWheel, { passive: false });
-    return () => el.removeEventListener('wheel', onWheel);
-  }, [treeRef]);
-
-  // --- 🌳 HELPER VARIABLES (Moved up to avoid usage-before-declaration) ---
+  // --- 🌳 HELPER VARIABLES ---
   const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
 
   const activeHighlightChain = React.useMemo(() =>
@@ -195,31 +168,99 @@ export const KilangCanvas = () => {
     return roots.slice(0, 5);
   }, [stats]);
 
+  // Initial Sync from Store
+  React.useLayoutEffect(() => {
+    let camToSync = state.canvasTransform;
+    
+    // 🎯 INITIAL CENTERING: If no transform exists, align viewport to Root
+    if (!camToSync && rootPos && treeRef.current) {
+      const rect = treeRef.current.getBoundingClientRect();
+      camToSync = {
+        x: (rect.width / 2) - (rootPos.x * 0.5),
+        y: (rect.height / 2) - (rootPos.y * 0.5),
+        k: 0.5
+      };
+    } else if (!camToSync) {
+      camToSync = cam; // Fallback to current local
+    }
+
+    setCam(camToSync);
+    syncCamToCSS(camToSync.x, camToSync.y, camToSync.k);
+  }, [state.canvasTransform, rootPos, syncCamToCSS]);
+
+  // 🎡 NON-PASSIVE WHEEL LISTENER (Critical for e.preventDefault)
+  React.useLayoutEffect(() => {
+    const el = treeRef.current;
+    if (!el) return;
+
+    const onWheel = (e: WheelEvent) => {
+      // 1. Zoom (Ctrl + Wheel)
+      if (e.ctrlKey) {
+        e.preventDefault();
+        const delta = -e.deltaY;
+        const speed = 0.002;
+        const { x, y, k } = latestCamRef.current;
+        const newK = Math.min(Math.max(k * (1 + delta * speed), 0.1), 3);
+        
+        const rect = el.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
+        
+        const worldX = (mouseX - x) / k;
+        const worldY = (mouseY - y) / k;
+        
+        const newX = mouseX - worldX * newK;
+        const newY = mouseY - worldY * newK;
+        
+        syncCamToCSS(newX, newY, newK);
+        latestCamRef.current = { x: newX, y: newY, k: newK };
+        return;
+      }
+
+      // 2. Pan (Shift + Wheel)
+      if (e.shiftKey) {
+        e.preventDefault();
+        const newX = latestCamRef.current.x - e.deltaY;
+        syncCamToCSS(newX, latestCamRef.current.y, latestCamRef.current.k);
+        latestCamRef.current = { ...latestCamRef.current, x: newX };
+        return;
+      }
+    };
+
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+  }, [treeRef]);
+
+
   const onPointerDown = (e: React.PointerEvent) => {
-    if ((e.target as HTMLElement).closest('.kilang-node')) return;
+    if ((e.target as HTMLElement).closest('.tree-node') || (e.target as HTMLElement).closest('.kilang-ctrl-container')) return;
     
     isPanningInternal.current = true;
+    setIsPanning(true);
+    document.body.style.cursor = 'grabbing';
     panningRef.current = {
       isPanning: true,
       startX: e.clientX,
       startY: e.clientY,
-      initialCamX: cam.x,
-      initialCamY: cam.y,
+      initialCamX: latestCamRef.current.x,
+      initialCamY: latestCamRef.current.y,
     };
 
     const handlePointerMove = (moveEvent: PointerEvent) => {
       if (!isPanningInternal.current) return;
       const dx = moveEvent.clientX - panningRef.current.startX;
       const dy = moveEvent.clientY - panningRef.current.startY;
-      setCam(prev => ({
-        ...prev,
-        x: panningRef.current.initialCamX + dx,
-        y: panningRef.current.initialCamY + dy
-      }));
+      const newX = panningRef.current.initialCamX + dx;
+      const newY = panningRef.current.initialCamY + dy;
+      
+      syncCamToCSS(newX, newY, latestCamRef.current.k);
+      latestCamRef.current = { ...latestCamRef.current, x: newX, y: newY };
     };
 
     const handlePointerUp = (upEvent: PointerEvent) => {
       isPanningInternal.current = false;
+      setIsPanning(false);
+      document.body.style.cursor = '';
       window.removeEventListener('pointermove', handlePointerMove);
       window.removeEventListener('pointerup', handlePointerUp);
       // Synchronize back to store at end of gesture
@@ -327,9 +368,12 @@ export const KilangCanvas = () => {
           {selectedRoot ? (
             <div
               ref={treeRef}
-              className="flex-1 overflow-auto no-scrollbar bg-[var(--kilang-bg-base)]/40 relative p-32 scroll-smooth"
+              className={`flex-1 overflow-hidden bg-[var(--kilang-bg-base)]/40 relative p-32 select-none touch-none z-10 ${isPanning ? 'cursor-grabbing' : 'cursor-grab'}`}
+              onPointerDown={onPointerDown}
               onClick={() => dispatch({ type: 'SET_CANVAS_SELECT', node: null })}
             >
+              {/* Pointer Lock Wrapper: Disables hit-testing on the tree during pan */}
+              <div className={isPanning ? 'pointer-events-none' : ''}>
               {/* Status Indicators */}
               {rootData?.error && (
                 <div className="absolute inset-0 z-50 flex flex-col items-center justify-center space-y-4 bg-[var(--kilang-bg-base)]/80 backdrop-blur-sm">
@@ -367,6 +411,7 @@ export const KilangCanvas = () => {
                 dispatch={dispatch}
                 canvasTransform={cam}
               />
+              </div>
             </div>
           ) : (
             <KilangLanding
