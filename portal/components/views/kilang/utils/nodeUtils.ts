@@ -48,11 +48,11 @@ export const calculateNodeMap = (
   derivatives: Derivation[],
   direction: 'horizontal' | 'vertical',
   arrangement: 'aligned' | 'flow',
-  config?: { 
-    interTierGap: number; 
-    interRowGap: number; 
-    nodeWidth: number; 
-    anchorX: number; 
+  config?: {
+    interTierGap: number;
+    interRowGap: number;
+    nodeWidth: number;
+    anchorX: number;
     anchorY: number;
     spacingMode?: 'even' | 'log';
     rootGap?: number;
@@ -63,12 +63,12 @@ export const calculateNodeMap = (
 ): NodeMap => {
   const nodeMap: NodeMap = {};
   const { ROOT_SIZE, ALIGN_CELL_W: BASE_W, ALIGN_CELL_H: BASE_H, GUTTER_H, GUTTER_V } = LAYOUT_CONSTANTS;
-  
+
   const nodeWidth = config?.nodeWidth ?? LAYOUT_CONSTANTS.NODE_WIDTH;
   const cellW = (arrangement === 'aligned' && config?.interTierGap) ? config.interTierGap : BASE_W;
   const cellH = (arrangement === 'aligned' && config?.interRowGap) ? config.interRowGap : BASE_H;
 
-  const CENTER_X = config?.anchorX !== undefined ? 0 : (direction === 'horizontal' ? 400 : 2000); 
+  const CENTER_X = config?.anchorX !== undefined ? 0 : (direction === 'horizontal' ? 400 : 2000);
   const CENTER_Y = config?.anchorY !== undefined ? 0 : (direction === 'vertical' ? 1300 : 2000);
 
   const getTierOffset = (tier: number) => {
@@ -76,10 +76,10 @@ export const calculateNodeMap = (
     const basePadding = ROOT_SIZE / 2;
     const rootGap = config?.coupleGaps ? (config?.interTierGap ?? cellW) : (config?.rootGap ?? 100);
     const interGap = config?.interTierGap ?? cellW;
-    const halfSize = direction === 'horizontal' 
-      ? (nodeWidth / 2) 
+    const halfSize = direction === 'horizontal'
+      ? (nodeWidth / 2)
       : (config?.nodePaddingY ?? 8) + 8;
-    
+
     let totalOffset = basePadding + rootGap + halfSize;
     for (let i = 3; i <= tier; i++) {
       let currentGap = interGap;
@@ -102,14 +102,14 @@ export const calculateNodeMap = (
       const tier = d.tier;
       const row = (d.treeRow ?? 0) - rootMedian;
       const offset = getTierOffset(tier);
-      
+
       if (direction === 'horizontal') {
-        nodeMap[d.word_ab] = { 
-          x: CENTER_X + offset, 
-          y: CENTER_Y + (row * cellH) 
+        nodeMap[d.word_ab] = {
+          x: CENTER_X + offset,
+          y: CENTER_Y + (row * cellH)
         };
       } else {
-        nodeMap[d.word_ab] = { 
+        nodeMap[d.word_ab] = {
           x: CENTER_X + (row * cellH),
           y: CENTER_Y - offset
         };
@@ -132,19 +132,19 @@ export const calculateNodeMap = (
         const nodeSize = config?.nodeSize ?? 1;
         const dynamicHeight = ((config?.nodePaddingY ?? 8) * 2 + 16) * nodeSize;
         const dynamicWidth = (config?.nodeWidth ?? 100) * nodeSize;
-        
+
         const spacing = (direction === 'horizontal' ? dynamicHeight : dynamicWidth) + rowGap;
         const crossOffset = (i - (tierNodes.length - 1) / 2) * spacing;
 
         if (direction === 'horizontal') {
-          nodeMap[node.word_ab] = { 
-            x: CENTER_X + offset, 
-            y: CENTER_Y + crossOffset 
+          nodeMap[node.word_ab] = {
+            x: CENTER_X + offset,
+            y: CENTER_Y + crossOffset
           };
         } else {
-          nodeMap[node.word_ab] = { 
-            x: CENTER_X + crossOffset, 
-            y: CENTER_Y - offset 
+          nodeMap[node.word_ab] = {
+            x: CENTER_X + crossOffset,
+            y: CENTER_Y - offset
           };
         }
       });

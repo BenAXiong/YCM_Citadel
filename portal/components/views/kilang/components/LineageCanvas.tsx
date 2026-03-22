@@ -62,7 +62,8 @@ export const LineageCanvas = React.memo(({
         pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${sourceX.toFixed(1)} ${midY} ${targetX.toFixed(1)} ${midY} ${targetX.toFixed(1)} ${targetY.toFixed(1)}`;
       } else {
         const midX = (sourceX + (targetX - sourceX) * 0.5 * tension).toFixed(1);
-        pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${midX} ${sourceY.toFixed(1)} ${midX} ${targetY.toFixed(1)} ${targetX.toFixed(1)} ${targetY.toFixed(1)}`;
+        const safeTargetY = sourceY === targetY ? targetY + 0.01 : targetY;
+        pathData = `M ${sourceX.toFixed(1)} ${sourceY.toFixed(1)} C ${midX} ${sourceY.toFixed(1)} ${midX} ${safeTargetY.toFixed(2)} ${targetX.toFixed(1)} ${safeTargetY.toFixed(2)}`;
       }
 
       return {
