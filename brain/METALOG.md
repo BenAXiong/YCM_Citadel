@@ -33,6 +33,9 @@ This log tracks high-level architectural decisions, "Aha!" moments during debugg
 - **Architect Card**: Transformed the Custom Panel into a minimalist floating card anchored to the tree view window.
 - **Terminology Alignment**: Formalized the definitions for **MAIN** (container), **WINDOW** (cutout), and **CANVAS** (world) to prevent future layout collisions.
 - **Precision Gaps**: Enforced a universal **32px** gap (`p-8`) between UI chrome and the interactive portal corner.
+- **UI Cleanup**: Streamlined the Styling Tab by removing "Tier Aesthetics", "Tree Connection Reference", "Tree Icons" toggle, "Node Opacity" slider, and "Line Glow/Blur" control. Optimized the hierarchy by promoting core anchor and spacing controls to the top, implementing a "paired slider" layout, and inlining the Spacing Mode/Coupled Gaps toggles into a minimalist row.
+- **Ultra-Compact Cockpit**: Unified the styling interface by implementing `InlineSidebarSlider` (Label-Slider-Value) for all solo controls with tight label alignment and reducing root padding/spacing (`pb-2`, `space-y-4`), achieving a professional, high-density architect's control surface.
+- **Presets Foundation**: Renamed the root section to **"Presets"** and implemented three inline placeholder cards to establish a foundation for design template selection.
 
 ### 🐛 The "Ghost Tooltip" Visibility Discovery
 - **Problem**: In the React/Tailwind implementation, using `animate-in fade-in` on components with `opacity-0` caused all tooltips for every word on the page to trigger their appearance animation simultaneously on mount, leading to a screen full of overlapping tooltips.

@@ -21,6 +21,21 @@ export const SidebarSlider = ({ label, value, min, max, step, unit, disabled, on
   </div>
 );
 
+export const InlineSidebarSlider = ({ label, value, min, max, step, unit, disabled, onChange }: any) => (
+  <div className={`flex items-center gap-2 transition-all duration-300 ${disabled ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}>
+    <span className="text-[8px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]/60 min-w-16 whitespace-nowrap">{label}</span>
+    <input
+      type="range"
+      min={min} max={max} step={step}
+      value={value ?? min ?? 0}
+      disabled={disabled}
+      onChange={(e) => onChange(parseFloat(e.target.value))}
+      className="flex-1 h-1 bg-[var(--kilang-border-std)] rounded-lg appearance-none cursor-pointer accent-[var(--kilang-primary)] hover:accent-[var(--kilang-primary-text)] transition-all"
+    />
+    <span className="text-[8px] font-mono text-[var(--kilang-text-muted)] w-10 text-right shrink-0">{value}{unit}</span>
+  </div>
+);
+
 export const ColorPicker = ({ label, value, onChange }: any) => (
   <div className="space-y-2">
     <span className="text-[10px] font-black uppercase tracking-widest text-[var(--kilang-text-muted)]">{label}</span>
