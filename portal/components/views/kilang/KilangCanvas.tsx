@@ -128,6 +128,7 @@ export const KilangCanvas = () => {
   const isPanningInternal = React.useRef(false);
   const [isPanning, setIsPanning] = React.useState(false);
   const panningRef = React.useRef({ isPanning: false, startX: 0, startY: 0, initialCamX: 0, initialCamY: 0 });
+  const lastCenteredRootRef = React.useRef<string | null>(null);
 
 
   // --- 🌳 HELPER VARIABLES ---
@@ -218,22 +219,30 @@ export const KilangCanvas = () => {
   // Initial Sync from Store
   React.useLayoutEffect(() => {
     let camToSync = state.canvasTransform;
+    const rootChanged = selectedRoot !== lastCenteredRootRef.current;
     
-    // 🎯 INITIAL CENTERING: If no transform exists, align viewport to Root
-    if (!camToSync && rootPos && treeRef.current) {
+    // 🎯 INITIAL CENTERING: If no transform exists OR the root has changed, align viewport to Root
+    if ((!camToSync || rootChanged) && rootPos && treeRef.current) {
       const rect = treeRef.current.getBoundingClientRect();
-      camToSync = {
-        x: (rect.width / 2) - (rootPos.x * 0.5),
-        y: (rect.height / 2) - (rootPos.y * 0.5),
-        k: 0.5
-      };
-    } else if (!camToSync) {
-      camToSync = cam; // Fallback to current local
+      if (rect.width > 0 && rect.height > 0) {
+        const k = 0.5;
+        const pad = 128; // p-32 padding offset
+        camToSync = {
+          x: (rect.width / 2) - pad - (rootPos.x * k),
+          y: (rect.height / 2) - pad - (rootPos.y * k),
+          k: k
+        };
+        lastCenteredRootRef.current = selectedRoot || null;
+      }
+    } 
+    
+    if (!camToSync) {
+      camToSync = latestCamRef.current || cam;
     }
 
     setCam(camToSync);
     syncCamToCSS(camToSync.x, camToSync.y, camToSync.k);
-  }, [state.canvasTransform, rootPos, syncCamToCSS]);
+  }, [state.canvasTransform, rootPos, syncCamToCSS, selectedRoot]);
 
   // 🎡 NON-PASSIVE WHEEL LISTENER (Critical for e.preventDefault)
   React.useLayoutEffect(() => {
