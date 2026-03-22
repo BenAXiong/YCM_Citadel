@@ -225,18 +225,23 @@ export const KilangCanvas = () => {
     if ((!camToSync || rootChanged) && rootPos && treeRef.current) {
       const rect = treeRef.current.getBoundingClientRect();
       if (rect.width > 0 && rect.height > 0) {
-        const k = 0.5;
-        const pad = 128; // p-32 padding offset
+        // Calculate the bounding box of the whole forest to determine "Smart Zoom"
+        const bounds = getForestBoundingBox(nodeMap);
+        const boxHeight = bounds.maxY - bounds.minY;
         
-        // Safety: If anchor is > 100, it's a legacy pixel value (2000px). Default to 50%.
+        // Target: Tree fills ~60% of the window height on load
+        // Clamp: Min 0.2x (Massive), Max 0.8x (Tiny)
+        const smartK = Math.min(Math.max((rect.height * 0.6) / (boxHeight || 1), 0.25), 0.7);
+        
+        const pad = 128; // p-32 padding offset
         const getSafeAnchor = (val: number | undefined) => (val === undefined || val > 100) ? 50 : val;
         const anchorX = getSafeAnchor(layoutConfig.anchorX);
         const anchorY = getSafeAnchor(layoutConfig.anchorY);
         
         camToSync = {
-          x: (rect.width * anchorX / 100) - pad - (rootPos.x * k),
-          y: (rect.height * anchorY / 100) - pad - (rootPos.y * k),
-          k: k
+          x: (rect.width * anchorX / 100) - pad - (rootPos.x * smartK),
+          y: (rect.height * anchorY / 100) - pad - (rootPos.y * smartK),
+          k: smartK
         };
         lastCenteredRootRef.current = selectedRoot || null;
       }
@@ -344,26 +349,17 @@ export const KilangCanvas = () => {
     const boxWidth = bounds.maxX - bounds.minX;
     const boxHeight = bounds.maxY - bounds.minY;
     
-    // 2. Calculate optimal scale to fit the container (with padding)
-    const padding = 100;
-    const vWidth = container.clientWidth - padding;
-    const vHeight = container.clientHeight - padding;
+    // 2. Calculate optimal scale to fit 90% of Height
+    const vHeight = container.clientHeight * 0.9;
+    const newK = Math.min(Math.max(vHeight / (boxHeight || 1), 0.1), 1.0);
     
-    const scaleX = vWidth / (boxWidth || 1);
-    const scaleY = vHeight / (boxHeight || 1);
-    const newK = Math.min(Math.max(Math.min(scaleX, scaleY), 0.15), 1.0);
-    
-    // 3. Center the forest (Relative to Anchor Percentage - 128px content offset)
+    // 3. Center the forest (Ignore anchor sliders, force 50/50 centering)
     const centerX = (bounds.minX + bounds.maxX) / 2;
     const centerY = (bounds.minY + bounds.maxY) / 2;
     
     const pad = 128; // p-32 padding offset
-    const getSafeAnchor = (val: number | undefined) => (val === undefined || val > 100) ? 50 : val;
-    const anchorX = getSafeAnchor(layoutConfig.anchorX);
-    const anchorY = getSafeAnchor(layoutConfig.anchorY);
-    
-    const newX = (container.clientWidth * anchorX / 100) - pad - centerX * newK;
-    const newY = (container.clientHeight * anchorY / 100) - pad - centerY * newK;
+    const newX = (container.clientWidth / 2) - pad - centerX * newK;
+    const newY = (container.clientHeight / 2) - pad - centerY * newK;
     
     const newCam = { x: newX, y: newY, k: newK };
     setCam(newCam);
