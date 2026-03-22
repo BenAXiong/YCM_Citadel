@@ -540,7 +540,7 @@
 .animate-forest-bloom {
   opacity: 0;
   will-change: transform, opacity;
-  animation: forestBloom 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: forestBloom 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes bloomPop {
@@ -581,7 +581,7 @@
 }
 
 .tree-node {
-  animation: branchGrow 0.3s ease-out forwards;
+  animation: branchGrow 0.6s ease-out both;
 }
 
 .no-scrollbar::-webkit-scrollbar {

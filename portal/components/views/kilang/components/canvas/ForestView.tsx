@@ -42,7 +42,12 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
   canvasTransform,
 }, ref) => {
   const { state: sidebarState } = useSidebar();
-  const bloomedNodes = React.useRef(new Set<string>());
+  const [isInitialLoad, setIsInitialLoad] = React.useState(true);
+  React.useLayoutEffect(() => {
+    setIsInitialLoad(true);
+    const timer = setTimeout(() => setIsInitialLoad(false), 2000);
+    return () => clearTimeout(timer);
+  }, [selectedRoot]);
 
   return (
     <div
@@ -112,9 +117,6 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
           const pos = nodeMap[d.word_ab];
           const rootPos = nodeMap[normalizeWord(selectedRoot || '') || ''];
           if (!pos || !rootPos) return null;
-          
-          const hasBloomed = bloomedNodes.current.has(d.word_ab);
-          if (!hasBloomed) bloomedNodes.current.add(d.word_ab);
 
           return (
             <div
@@ -128,13 +130,13 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
               }}
             >
               <div
-                className={hasBloomed ? "kilang-node-bloom-lock" : "kilang-node-bloom-lock animate-forest-bloom"}
+                className={!isInitialLoad ? "kilang-node-bloom-lock" : "kilang-node-bloom-lock animate-forest-bloom"}
                 style={{
                   animationDelay: `${(d.tier - 2) * 120}ms`,
                   transformOrigin: `${rootPos.x - pos.x}px ${rootPos.y - pos.y}px`,
                 }}
               >
-                <div className="tree-node">
+                <div className="tree-node" style={{ animationDelay: `${(d.tier - 2) * 120}ms` }}>
                   <KilangNode
                     word={d.raw_word || d.word_ab}
                     dictCode={d.dict_code?.toUpperCase()}
