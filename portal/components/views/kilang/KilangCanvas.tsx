@@ -242,7 +242,7 @@ export const KilangCanvas = () => {
 
     setCam(camToSync);
     syncCamToCSS(camToSync.x, camToSync.y, camToSync.k);
-  }, [state.canvasTransform, rootPos, syncCamToCSS, selectedRoot]);
+  }, [state.canvasTransform, rootPos, syncCamToCSS, selectedRoot, state.resetToken]);
 
   // 🎡 NON-PASSIVE WHEEL LISTENER (Critical for e.preventDefault)
   React.useLayoutEffect(() => {
@@ -347,12 +347,13 @@ export const KilangCanvas = () => {
     const scaleY = vHeight / (boxHeight || 1);
     const newK = Math.min(Math.max(Math.min(scaleX, scaleY), 0.15), 1.0);
     
-    // 3. Center the forest
+    // 3. Center the forest (Relative to Window Center - 128px content offset)
     const centerX = (bounds.minX + bounds.maxX) / 2;
     const centerY = (bounds.minY + bounds.maxY) / 2;
     
-    const newX = container.clientWidth / 2 - centerX * newK;
-    const newY = container.clientHeight / 2 - centerY * newK;
+    const pad = 128; // p-32 padding offset
+    const newX = container.clientWidth / 2 - pad - centerX * newK;
+    const newY = container.clientHeight / 2 - pad - centerY * newK;
     
     const newCam = { x: newX, y: newY, k: newK };
     setCam(newCam);

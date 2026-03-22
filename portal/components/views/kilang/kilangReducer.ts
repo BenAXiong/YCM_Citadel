@@ -48,7 +48,8 @@ export interface KilangState {
   arrangement: LayoutArrangement;
   scale: number;
   isFit: boolean;
-  canvasTransform: { x: number; y: number; k: number };
+  canvasTransform: { x: number; y: number; k: number } | null;
+  preFitTransform: { x: number; y: number; k: number } | null;
 
   // UI State
   searchTerm: string;
@@ -175,7 +176,7 @@ export type KilangAction =
   | { type: 'SET_CUSTOM_DATA'; data: any | null }
   | { type: 'SET_CONFIG'; morphMode?: MorphMode; sourceFilter?: string }
   | { type: 'SET_LAYOUT'; direction?: LayoutDirection; arrangement?: LayoutArrangement }
-  | { type: 'SET_TRANSFORM'; scale?: number; isFit?: boolean; canvasTransform?: { x: number; y: number; k: number } }
+  | { type: 'SET_TRANSFORM'; scale?: number; isFit?: boolean; canvasTransform?: { x: number; y: number; k: number } | null }
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
@@ -220,7 +221,8 @@ export const initialState: KilangState = {
   arrangement: 'aligned', // Default Aligned
   scale: 1,
   isFit: false,
-  canvasTransform: { x: 400, y: 1300, k: 0.5 },
+  canvasTransform: null,
+  preFitTransform: null,
   themeBarTab: 'themes',
   searchTerm: '',
   branchFilter: 'all',
@@ -414,13 +416,35 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         ...(action.direction && { direction: action.direction }),
         ...(action.arrangement && { arrangement: action.arrangement })
       };
-    case 'SET_TRANSFORM':
+    case 'SET_TRANSFORM': {
+      const nextIsFit = action.isFit !== undefined ? action.isFit : state.isFit;
+      const enteringFit = nextIsFit && !state.isFit;
+      const exitingFit = !nextIsFit && state.isFit;
+      const hasManualMove = action.canvasTransform !== undefined;
+
+      let nextTransform = hasManualMove ? action.canvasTransform : state.canvasTransform;
+      let nextPreFit = state.preFitTransform;
+
+      if (enteringFit) {
+        // Snapshot current view before fitting
+        nextPreFit = state.canvasTransform;
+      } else if (exitingFit) {
+        // Restore previous view ONLY if this wasn't a manual move (like a pan/zoom override)
+        if (state.preFitTransform && !hasManualMove) {
+          nextTransform = state.preFitTransform;
+        }
+        // Always clear pre-fit when leaving fit mode
+        nextPreFit = null;
+      }
+
       return {
         ...state,
         ...(action.scale !== undefined && { scale: action.scale }),
-        ...(action.isFit !== undefined && { isFit: action.isFit }),
-        ...(action.canvasTransform !== undefined && { canvasTransform: action.canvasTransform })
+        isFit: nextIsFit,
+        canvasTransform: nextTransform,
+        preFitTransform: nextPreFit
       };
+    }
     case 'SET_FIT_TRANSFORM':
       return { ...state, fitTransform: action.transform };
     case 'SET_LAYOUT_CONFIG':
@@ -563,7 +587,7 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
         ...state,
         scale: 1,
         isFit: false,
-        canvasTransform: { ...initialState.canvasTransform },
+        canvasTransform: null,
         resetToken: state.resetToken + 1
       };
     case 'SET_AFFIX_STATE':
