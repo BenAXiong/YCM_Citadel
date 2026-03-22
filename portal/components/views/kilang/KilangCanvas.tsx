@@ -129,18 +129,6 @@ export const KilangCanvas = () => {
   const [isPanning, setIsPanning] = React.useState(false);
   const panningRef = React.useRef({ isPanning: false, startX: 0, startY: 0, initialCamX: 0, initialCamY: 0 });
 
-  const syncCamToCSS = React.useCallback((cx: number, cy: number, ck: number) => {
-    if (!treeRef.current) return;
-    const el = treeRef.current;
-    el.style.setProperty('--cam-x', `${cx}px`);
-    el.style.setProperty('--cam-y', `${cy}px`);
-    el.style.setProperty('--cam-k', `${ck}`);
-    
-    // Also sync to document for global consumers (Minimap)
-    document.documentElement.style.setProperty('--cam-x', `${cx}px`);
-    document.documentElement.style.setProperty('--cam-y', `${cy}px`);
-    document.documentElement.style.setProperty('--cam-k', `${ck}`);
-  }, []);
 
   // --- 🌳 HELPER VARIABLES ---
   const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
@@ -167,6 +155,65 @@ export const KilangCanvas = () => {
     });
     return roots.slice(0, 5);
   }, [stats]);
+
+  const syncCamToCSS = React.useCallback((cx: number, cy: number, ck: number) => {
+    if (!treeRef.current) return;
+    const el = treeRef.current;
+    
+    // 1. Hardware Camera Sync
+    el.style.setProperty('--cam-x', `${cx}px`);
+    el.style.setProperty('--cam-y', `${cy}px`);
+    el.style.setProperty('--cam-k', `${ck}`);
+    document.documentElement.style.setProperty('--cam-x', `${cx}px`);
+    document.documentElement.style.setProperty('--cam-y', `${cy}px`);
+    document.documentElement.style.setProperty('--cam-k', `${ck}`);
+
+    // 2. High-Speed Dimensions Sync (Direct DOM manipulation to avoid React lag)
+    if (!el || !state.showDimensions) return;
+    const glass = el.closest('.kilang-glass-panel') || el.closest('.kilang-glass-panel-immersive');
+    if (!glass) return;
+
+    const gRect = glass.getBoundingClientRect();
+    const tRect = el.getBoundingClientRect();
+    
+    // Offset between Window (rounded frame) and Canvas Content Area (after p-32)
+    const offX = (tRect.left - gRect.left) + 128; 
+    const offY = (tRect.top - gRect.top) + 128;
+
+    const set = (id: string, val: string | number) => {
+      const node = document.getElementById(id);
+      if (node) node.innerText = String(val);
+    };
+
+    // Canvas Logic (4000x4000 grid relative to Window TL)
+    set('dim-canvas-tl-x', Math.round(cx + offX));
+    set('dim-canvas-tl-y', Math.round(cy + offY));
+    set('dim-canvas-tr-x', Math.round(cx + offX + 4000 * ck));
+    set('dim-canvas-tr-y', Math.round(cy + offY));
+    set('dim-canvas-bl-x', Math.round(cx + offX));
+    set('dim-canvas-bl-y', Math.round(cy + offY + 4000 * ck));
+    set('dim-canvas-br-x', Math.round(cx + offX + 4000 * ck));
+    set('dim-canvas-br-y', Math.round(cy + offY + 4000 * ck));
+
+    // Root Logic (Single centered field relative to Window)
+    if (rootPos) {
+      const physX = Math.round(cx + offX + rootPos.x * ck);
+      const physY = Math.round(cy + offY + rootPos.y * ck);
+      set('dim-root-merged', `(${physX}, ${physY})`);
+    }
+
+    // Tree Logic (Forest Bounds relative to Window TL)
+    if (forestBounds) {
+      set('dim-tree-tl-x', Math.round(cx + offX + forestBounds.minX * ck));
+      set('dim-tree-tl-y', Math.round(cy + offY + forestBounds.minY * ck));
+      set('dim-tree-tr-x', Math.round(cx + offX + forestBounds.maxX * ck));
+      set('dim-tree-tr-y', Math.round(cy + offY + forestBounds.minY * ck));
+      set('dim-tree-bl-x', Math.round(cx + offX + forestBounds.minX * ck));
+      set('dim-tree-bl-y', Math.round(cy + offY + forestBounds.maxY * ck));
+      set('dim-tree-br-x', Math.round(cx + offX + forestBounds.maxX * ck));
+      set('dim-tree-br-y', Math.round(cy + offY + forestBounds.maxY * ck));
+    }
+  }, [state.showDimensions, rootPos, forestBounds]);
 
   // Initial Sync from Store
   React.useLayoutEffect(() => {

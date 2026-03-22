@@ -141,42 +141,36 @@ export const KilangDimensionsOverlay = ({
             <th colSpan={8} className="px-2 py-1 text-right italic font-normal text-[7px] lowercase">Relative to Window</th>
           </tr>
           <tr>
-            <td className="px-2 py-0.5 text-left text-white/100 italic uppercase">Canvas</td>
-            <td className="px-1 py-0.5 text-blue-400">VAR(X)</td>
-            <td className="px-1 py-0.5 text-blue-400">VAR(Y)</td>
-            <td className="px-1 py-0.5 text-blue-400">4K</td>
-            <td className="px-1 py-0.5 text-blue-400">VAR(Y)</td>
-            <td className="px-1 py-0.5 text-blue-400">VAR(X)</td>
-            <td className="px-1 py-0.5 text-blue-400">4K</td>
-            <td className="px-1 py-0.5 text-blue-400">4K</td>
-            <td className="px-1 py-0.5 text-blue-400">4K</td>
+            <td className="px-2 py-0.5 text-left text-white/100 italic uppercase border-l-2 border-blue-500">Canvas</td>
+            <td id="dim-canvas-tl-x" className="px-1 py-0.5 text-blue-400">---</td>
+            <td id="dim-canvas-tl-y" className="px-1 py-0.5 text-blue-400">---</td>
+            <td id="dim-canvas-tr-x" className="px-1 py-0.5 text-blue-400">---</td>
+            <td id="dim-canvas-tr-y" className="px-1 py-0.5 text-blue-400">---</td>
+            <td id="dim-canvas-bl-x" className="px-1 py-0.5 text-blue-400">---</td>
+            <td id="dim-canvas-bl-y" className="px-1 py-0.5 text-blue-400">---</td>
+            <td id="dim-canvas-br-x" className="px-1 py-0.5 text-blue-400">---</td>
+            <td id="dim-canvas-br-y" className="px-1 py-0.5 text-blue-400">---</td>
           </tr>
           <tr>
-            <td className="px-2 py-0.5 text-left text-white/100 italic uppercase">Root</td>
-            {rootPos ? (
-              <td colSpan={8} className="px-1 py-0.5 text-blue-400 text-center">
-                {Math.round(rootPos.x)} , {Math.round(rootPos.y)}
-              </td>
-            ) : (
-              <td colSpan={8} className="text-center italic opacity-40">No Root selected</td>
-            )}
-          </tr>
-          <tr className="border-t border-white/5">
-            <td className="px-2 py-1 text-left text-white italic font-black uppercase tracking-tighter shrink-0">Tree</td>
+            <td className="px-2 py-1 text-left text-white italic font-black uppercase tracking-tighter shrink-0 border-l-2 border-purple-500">Tree</td>
             {forestBounds ? (
               <>
-                <td className="px-1 py-0.5 text-purple-400">{Math.round(forestBounds.minX - viewPos.x)}</td>
-                <td className="px-1 py-0.5 text-purple-400">{Math.round(forestBounds.minY - viewPos.y)}</td>
-                <td className="px-1 py-0.5 text-purple-400">{Math.round(forestBounds.maxX - viewPos.x)}</td>
-                <td className="px-1 py-0.5 text-purple-400">{Math.round(forestBounds.minY - viewPos.y)}</td>
-                <td className="px-1 py-0.5 text-purple-400">{Math.round(forestBounds.minX - viewPos.x)}</td>
-                <td className="px-1 py-0.5 text-purple-400">{Math.round(forestBounds.maxY - viewPos.y)}</td>
-                <td className="px-1 py-0.5 text-purple-400">{Math.round(forestBounds.maxX - viewPos.x)}</td>
-                <td className="px-1 py-0.5 text-purple-400">{Math.round(forestBounds.maxY - viewPos.y)}</td>
+                <td id="dim-tree-tl-x" className="px-1 py-0.5 text-purple-400">---</td>
+                <td id="dim-tree-tl-y" className="px-1 py-0.5 text-purple-400">---</td>
+                <td id="dim-tree-tr-x" className="px-1 py-0.5 text-purple-400">---</td>
+                <td id="dim-tree-tr-y" className="px-1 py-0.5 text-purple-400">---</td>
+                <td id="dim-tree-bl-x" className="px-1 py-0.5 text-purple-400">---</td>
+                <td id="dim-tree-bl-y" className="px-1 py-0.5 text-purple-400">---</td>
+                <td id="dim-tree-br-x" className="px-1 py-0.5 text-purple-400">---</td>
+                <td id="dim-tree-br-y" className="px-1 py-0.5 text-purple-400">---</td>
               </>
             ) : (
               <td colSpan={8} className="text-center italic opacity-40">Calculating bounds...</td>
             )}
+          </tr>
+          <tr>
+            <td className="px-2 py-0.5 text-left text-white/100 italic uppercase">Root</td>
+            <td colSpan={8} id="dim-root-merged" className="px-1 py-0.5 text-white text-center border-l border-white/5">---</td>
           </tr>
         </tbody>
       </table>
@@ -265,8 +259,22 @@ export const KilangDimensionsOverlay = ({
                   {/* World Canvas Layer */}
                   {(() => {
                     const currentScale = isFit ? fitTransform.scale : scale;
-                    const baseX = vX + (cRect?.left || 0) * scaleFactor;
-                    const baseY = vY + (cRect?.top || 0) * scaleFactor;
+                    
+                    // Calculate dynamic offsets relative to the glass panel
+                    let offX = 128;
+                    let offY = 128;
+                    if (treeRef?.current) {
+                      const glass = treeRef.current.closest('.kilang-glass-panel') || treeRef.current.closest('.kilang-glass-panel-immersive');
+                      if (glass) {
+                        const gRect = glass.getBoundingClientRect();
+                        const tRect = treeRef.current.getBoundingClientRect();
+                        offX = (tRect.left - gRect.left) + 128;
+                        offY = (tRect.top - gRect.top) + 128;
+                      }
+                    }
+
+                    const baseX = vX + (cRect?.left || 0) * scaleFactor + offX * scaleFactor;
+                    const baseY = vY + (cRect?.top || 0) * scaleFactor + offY * scaleFactor;
 
                     return (
                       <g 
