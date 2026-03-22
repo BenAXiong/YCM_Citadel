@@ -73,7 +73,7 @@ export const KilangDesktopLayout = ({
         '--right-sidebar-width': `${(state.rightSidebarCollapsed || isImmersive) ? 0 : state.rightSidebarWidth}px`
       } as React.CSSProperties}
     >
-      <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? '-translate-y-full opacity-0 h-0' : 'translate-y-0 opacity-100 h-16'} z-[150] shrink-0 overflow-hidden`}>
+      <div className={`transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] ${isImmersive ? '-translate-y-full opacity-0 h-0' : 'translate-y-0 opacity-100 h-16'} z-[150] shrink-0`}>
         <KilangHeader />
       </div>
 

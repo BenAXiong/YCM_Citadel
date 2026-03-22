@@ -144,7 +144,7 @@ const KilangSidebarInner = ({ isCollapsed, onToggle }: KilangSidebarProps) => {
 
   return (
     <aside
-      className={`border-r border-[var(--kilang-border-std)] flex flex-col kilang-glass-panel relative z-50 overflow-visible group/sidebar ${isResizing ? '' : 'transition-all duration-300'}`}
+      className={`h-full border-r border-[var(--kilang-border-std)] flex flex-col kilang-glass-panel relative z-50 overflow-hidden group/sidebar ${isResizing ? '' : 'transition-all duration-300'}`}
       style={{ width: 'var(--sidebar-width)' } as React.CSSProperties}
     >
       {/* Resizer Handle */}

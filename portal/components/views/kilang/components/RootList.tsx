@@ -23,7 +23,7 @@ export const RootList = React.memo(({ bookmarks, saveBookmark }: RootListProps) 
 
   return (
     <>
-      {filteredRoots.map((r, i) => (
+      {filteredRoots.slice(0, 100).map((r, i) => (
         <WordTooltip
           key={i}
           word={r.root}
