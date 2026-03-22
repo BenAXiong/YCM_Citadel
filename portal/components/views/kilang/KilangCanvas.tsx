@@ -263,42 +263,30 @@ export const KilangCanvas = () => {
     if (!el) return;
 
     const onWheel = (e: WheelEvent) => {
-      // 1. Zoom (Ctrl + Wheel)
-      if (e.ctrlKey) {
-        e.preventDefault();
-        const delta = -e.deltaY;
-        const speed = 0.002;
-        const { x, y, k } = latestCamRef.current;
-        const newK = Math.min(Math.max(k * (1 + delta * speed), 0.1), 3);
+      e.preventDefault();
 
-        const rect = el.getBoundingClientRect();
-        const mouseX = e.clientX - rect.left;
-        const mouseY = e.clientY - rect.top;
+      const { x, y, k } = latestCamRef.current;
+      const step = e.altKey ? 0.01 : 0.1;
+      const delta = -Math.sign(e.deltaY) * step;
+      const newK = Math.min(Math.max(k + delta, 0.2), 2); // Match button limits
 
-        const worldX = (mouseX - x) / k;
-        const worldY = (mouseY - y) / k;
+      const rect = el.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
 
-        const newX = mouseX - worldX * newK;
-        const newY = mouseY - worldY * newK;
+      const worldX = (mouseX - x) / k;
+      const worldY = (mouseY - y) / k;
 
-        syncCamToCSS(newX, newY, newK);
-        latestCamRef.current = { x: newX, y: newY, k: newK };
-        return;
-      }
+      const newX = mouseX - worldX * newK;
+      const newY = mouseY - worldY * newK;
 
-      // 2. Pan (Shift + Wheel)
-      if (e.shiftKey) {
-        e.preventDefault();
-        const newX = latestCamRef.current.x - e.deltaY;
-        syncCamToCSS(newX, latestCamRef.current.y, latestCamRef.current.k);
-        latestCamRef.current = { ...latestCamRef.current, x: newX };
-        return;
-      }
+      syncCamToCSS(newX, newY, newK);
+      latestCamRef.current = { x: newX, y: newY, k: newK };
     };
 
     el.addEventListener('wheel', onWheel, { passive: false });
     return () => el.removeEventListener('wheel', onWheel);
-  }, [treeRef]);
+  }, [selectedRoot, syncCamToCSS, treeRef]);
 
 
   const onPointerDown = (e: React.PointerEvent) => {
