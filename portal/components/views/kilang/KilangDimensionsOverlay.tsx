@@ -61,7 +61,7 @@ export const KilangDimensionsOverlay = ({
 
   if (!showDimensions) return null;
 
-  const scaleFactor = 0.05;
+  const scaleFactor = 0.1;
 
   const formatPair = (rect?: DOMRect | null) => {
     if (!rect) return [['---', '---'], ['---', '---'], ['---', '---'], ['---', '---']];
@@ -259,7 +259,7 @@ export const KilangDimensionsOverlay = ({
                   {/* World Canvas Layer */}
                   {(() => {
                     const currentScale = isFit ? fitTransform.scale : scale;
-                    
+
                     // Calculate dynamic offsets relative to the glass panel
                     let offX = 128;
                     let offY = 128;
@@ -277,8 +277,8 @@ export const KilangDimensionsOverlay = ({
                     const baseY = vY + (cRect?.top || 0) * scaleFactor + offY * scaleFactor;
 
                     return (
-                      <g 
-                        style={{ 
+                      <g
+                        style={{
                           transform: `translate(${baseX}px, ${baseY}px) translate(calc(var(--cam-x, 0px) * ${scaleFactor}), calc(var(--cam-y, 0px) * ${scaleFactor}))`
                         } as React.CSSProperties}
                       >
@@ -297,17 +297,21 @@ export const KilangDimensionsOverlay = ({
                           />
                         )}
 
-                        {/* 2. The Logical World Box (scales physically in minimap just like on screen) */}
-                        <rect
-                          width={4000 * currentScale * scaleFactor}
-                          height={4000 * currentScale * scaleFactor}
-                          fill="none"
-                          fillOpacity="0.05"
-                          stroke="#3b82f6"
-                          strokeWidth="1"
-                          strokeDasharray="2 2"
-                          className="transition-all duration-300"
-                        />
+                        {/* 2. The Logical Canvas Box (Now dynamic based on Forest Bounds) */}
+                        {forestBounds && (
+                          <rect
+                            x={forestBounds.minX * currentScale * scaleFactor}
+                            y={forestBounds.minY * currentScale * scaleFactor}
+                            width={(forestBounds.maxX - forestBounds.minX) * currentScale * scaleFactor}
+                            height={(forestBounds.maxY - forestBounds.minY) * currentScale * scaleFactor}
+                            fill="none"
+                            fillOpacity="0.05"
+                            stroke="#3b82f6"
+                            strokeWidth="1"
+                            strokeDasharray="4 4"
+                            className="transition-all duration-300"
+                          />
+                        )}
                         {/* The Root Anchor: Scaled to match physical screen position */}
                         {rootPos && (
                           <circle

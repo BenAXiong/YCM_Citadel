@@ -56,8 +56,8 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
       key={selectedRoot}
       className="relative kilang-gpu-layer"
       style={{
-        width: '4000px',
-        height: '4000px',
+        width: '5px',
+        height: '5px',
         transformOrigin: '0 0',
         transform: 'translate3d(var(--cam-x, 0px), var(--cam-y, 0px), 0) scale(var(--cam-k, 1))',
         willChange: 'transform'

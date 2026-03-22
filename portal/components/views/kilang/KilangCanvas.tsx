@@ -27,7 +27,7 @@ import { CanvasOverlays } from './components/canvas/CanvasOverlays';
 import { ChainInscription } from './components/canvas/ChainInscription';
 import { useKilangStyleSync } from './hooks/useKilangStyleSync';
 
-interface KilangCanvasProps {}
+interface KilangCanvasProps { }
 
 export const KilangCanvas = () => {
   const {
@@ -117,14 +117,14 @@ export const KilangCanvas = () => {
   // 🚀 ROBUST LOCAL CAMERA STATE
   const [cam, setCam] = React.useState(() => state.canvasTransform || { x: 400, y: 1300, k: 0.5 });
   const latestCamRef = React.useRef(cam);
-  React.useEffect(() => { 
+  React.useEffect(() => {
     if (state.canvasTransform) {
       latestCamRef.current = state.canvasTransform;
     } else {
       latestCamRef.current = cam;
     }
   }, [cam, state.canvasTransform]);
-  
+
   const isPanningInternal = React.useRef(false);
   const [isPanning, setIsPanning] = React.useState(false);
   const panningRef = React.useRef({ isPanning: false, startX: 0, startY: 0, initialCamX: 0, initialCamY: 0 });
@@ -160,7 +160,7 @@ export const KilangCanvas = () => {
   const syncCamToCSS = React.useCallback((cx: number, cy: number, ck: number) => {
     if (!treeRef.current) return;
     const el = treeRef.current;
-    
+
     // 1. Hardware Camera Sync
     el.style.setProperty('--cam-x', `${cx}px`);
     el.style.setProperty('--cam-y', `${cy}px`);
@@ -176,9 +176,9 @@ export const KilangCanvas = () => {
 
     const gRect = glass.getBoundingClientRect();
     const tRect = el.getBoundingClientRect();
-    
+
     // Offset between Window (rounded frame) and Canvas Content Area (after p-32)
-    const offX = (tRect.left - gRect.left) + 128; 
+    const offX = (tRect.left - gRect.left) + 128;
     const offY = (tRect.top - gRect.top) + 128;
 
     const set = (id: string, val: string | number) => {
@@ -186,15 +186,17 @@ export const KilangCanvas = () => {
       if (node) node.innerText = String(val);
     };
 
-    // Canvas Logic (4000x4000 grid relative to Window TL)
-    set('dim-canvas-tl-x', Math.round(cx + offX));
-    set('dim-canvas-tl-y', Math.round(cy + offY));
-    set('dim-canvas-tr-x', Math.round(cx + offX + 4000 * ck));
-    set('dim-canvas-tr-y', Math.round(cy + offY));
-    set('dim-canvas-bl-x', Math.round(cx + offX));
-    set('dim-canvas-bl-y', Math.round(cy + offY + 4000 * ck));
-    set('dim-canvas-br-x', Math.round(cx + offX + 4000 * ck));
-    set('dim-canvas-br-y', Math.round(cy + offY + 4000 * ck));
+    // Canvas Logic (Now following Forest Bounds instead of hardcoded 4000px)
+    if (forestBounds) {
+      set('dim-canvas-tl-x', Math.round(cx + offX + forestBounds.minX * ck));
+      set('dim-canvas-tl-y', Math.round(cy + offY + forestBounds.minY * ck));
+      set('dim-canvas-tr-x', Math.round(cx + offX + forestBounds.maxX * ck));
+      set('dim-canvas-tr-y', Math.round(cy + offY + forestBounds.minY * ck));
+      set('dim-canvas-bl-x', Math.round(cx + offX + forestBounds.minX * ck));
+      set('dim-canvas-bl-y', Math.round(cy + offY + forestBounds.maxY * ck));
+      set('dim-canvas-br-x', Math.round(cx + offX + forestBounds.maxX * ck));
+      set('dim-canvas-br-y', Math.round(cy + offY + forestBounds.maxY * ck));
+    }
 
     // Root Logic (Single centered field relative to Window)
     if (rootPos) {
@@ -220,7 +222,7 @@ export const KilangCanvas = () => {
   React.useLayoutEffect(() => {
     let camToSync = state.canvasTransform;
     const rootChanged = selectedRoot !== lastCenteredRootRef.current;
-    
+
     // 🎯 INITIAL CENTERING: If no transform exists OR the root has changed, align viewport to Root
     if ((!camToSync || rootChanged) && rootPos && treeRef.current) {
       const rect = treeRef.current.getBoundingClientRect();
@@ -228,16 +230,16 @@ export const KilangCanvas = () => {
         // Calculate the bounding box of the whole forest to determine "Smart Zoom"
         const bounds = getForestBoundingBox(nodeMap);
         const boxHeight = bounds.maxY - bounds.minY;
-        
+
         // Target: Tree fills ~60% of the window height on load
         // Clamp: Min 0.2x (Massive), Max 0.8x (Tiny)
         const smartK = Math.min(Math.max((rect.height * 0.6) / (boxHeight || 1), 0.25), 0.7);
-        
+
         const pad = 128; // p-32 padding offset
         const getSafeAnchor = (val: number | undefined) => (val === undefined || val > 100) ? 50 : val;
         const anchorX = getSafeAnchor(layoutConfig.anchorX);
         const anchorY = getSafeAnchor(layoutConfig.anchorY);
-        
+
         camToSync = {
           x: (rect.width * anchorX / 100) - pad - (rootPos.x * smartK),
           y: (rect.height * anchorY / 100) - pad - (rootPos.y * smartK),
@@ -245,8 +247,8 @@ export const KilangCanvas = () => {
         };
         lastCenteredRootRef.current = selectedRoot || null;
       }
-    } 
-    
+    }
+
     if (!camToSync) {
       camToSync = latestCamRef.current || cam;
     }
@@ -268,17 +270,17 @@ export const KilangCanvas = () => {
         const speed = 0.002;
         const { x, y, k } = latestCamRef.current;
         const newK = Math.min(Math.max(k * (1 + delta * speed), 0.1), 3);
-        
+
         const rect = el.getBoundingClientRect();
         const mouseX = e.clientX - rect.left;
         const mouseY = e.clientY - rect.top;
-        
+
         const worldX = (mouseX - x) / k;
         const worldY = (mouseY - y) / k;
-        
+
         const newX = mouseX - worldX * newK;
         const newY = mouseY - worldY * newK;
-        
+
         syncCamToCSS(newX, newY, newK);
         latestCamRef.current = { x: newX, y: newY, k: newK };
         return;
@@ -301,7 +303,7 @@ export const KilangCanvas = () => {
 
   const onPointerDown = (e: React.PointerEvent) => {
     if ((e.target as HTMLElement).closest('.tree-node') || (e.target as HTMLElement).closest('.kilang-ctrl-container')) return;
-    
+
     isPanningInternal.current = true;
     setIsPanning(true);
     document.body.style.cursor = 'grabbing';
@@ -319,7 +321,7 @@ export const KilangCanvas = () => {
       const dy = moveEvent.clientY - panningRef.current.startY;
       const newX = panningRef.current.initialCamX + dx;
       const newY = panningRef.current.initialCamY + dy;
-      
+
       syncCamToCSS(newX, newY, latestCamRef.current.k);
       latestCamRef.current = { ...latestCamRef.current, x: newX, y: newY };
     };
@@ -343,24 +345,24 @@ export const KilangCanvas = () => {
   const triggerFit = React.useCallback(() => {
     if (!treeRef.current || !rootPos) return;
     const container = treeRef.current;
-    
+
     // 1. Calculate the bounding box of the whole forest
     const bounds = getForestBoundingBox(nodeMap);
     const boxWidth = bounds.maxX - bounds.minX;
     const boxHeight = bounds.maxY - bounds.minY;
-    
+
     // 2. Calculate optimal scale to fit 90% of Height
     const vHeight = container.clientHeight * 0.9;
     const newK = Math.min(Math.max(vHeight / (boxHeight || 1), 0.1), 1.0);
-    
+
     // 3. Center the forest (Ignore anchor sliders, force 50/50 centering)
     const centerX = (bounds.minX + bounds.maxX) / 2;
     const centerY = (bounds.minY + bounds.maxY) / 2;
-    
+
     const pad = 128; // p-32 padding offset
     const newX = (container.clientWidth / 2) - pad - centerX * newK;
     const newY = (container.clientHeight / 2) - pad - centerY * newK;
-    
+
     const newCam = { x: newX, y: newY, k: newK };
     setCam(newCam);
     dispatch({ type: 'SET_TRANSFORM', canvasTransform: newCam, isFit: true });
@@ -437,43 +439,43 @@ export const KilangCanvas = () => {
             >
               {/* Pointer Lock Wrapper: Disables hit-testing on the tree during pan */}
               <div className={isPanning ? 'pointer-events-none' : ''}>
-              {/* Status Indicators */}
-              {rootData?.error && (
-                <div className="absolute inset-0 z-50 flex flex-col items-center justify-center space-y-4 bg-[var(--kilang-bg-base)]/80 backdrop-blur-sm">
-                  <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
-                    <Activity className="w-8 h-8" />
+                {/* Status Indicators */}
+                {rootData?.error && (
+                  <div className="absolute inset-0 z-50 flex flex-col items-center justify-center space-y-4 bg-[var(--kilang-bg-base)]/80 backdrop-blur-sm">
+                    <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
+                      <Activity className="w-8 h-8" />
+                    </div>
+                    <div className="text-red-500 font-mono text-sm tracking-widest uppercase">Forest Poisoned</div>
+                    <div className="text-red-400/60 text-[10px] font-mono italic max-w-xs text-center">{rootData.errorMessage}</div>
                   </div>
-                  <div className="text-red-500 font-mono text-sm tracking-widest uppercase">Forest Poisoned</div>
-                  <div className="text-red-400/60 text-[10px] font-mono italic max-w-xs text-center">{rootData.errorMessage}</div>
-                </div>
-              )}
+                )}
 
-              {rootData?.loading && (
-                <div className="absolute inset-0 z-40 flex flex-col items-center justify-center space-y-4 bg-transparent pointer-events-none">
-                  <RefreshCw className="w-10 h-10 text-[var(--kilang-primary)] animate-spin opacity-50" />
-                  <div className="animate-pulse text-[var(--kilang-primary)] font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div>
-                </div>
-              )}
+                {rootData?.loading && (
+                  <div className="absolute inset-0 z-40 flex flex-col items-center justify-center space-y-4 bg-transparent pointer-events-none">
+                    <RefreshCw className="w-10 h-10 text-[var(--kilang-primary)] animate-spin opacity-50" />
+                    <div className="animate-pulse text-[var(--kilang-primary)] font-mono italic text-xs tracking-widest uppercase">Blooming forest...</div>
+                  </div>
+                )}
 
-              {/* The Tree */}
-              <ForestView
-                ref={forestRef}
-                selectedRoot={selectedRoot || ''}
-                rootData={rootData}
-                nodeMap={nodeMap}
-                direction={direction}
-                arrangement={arrangement}
-                isFit={isFit}
-                scale={cam.k}
-                fitTransform={fitTransform}
-                layoutConfig={layoutConfig}
-                activeHighlightChain={activeHighlightChain}
-                summaryCache={summaryCache}
-                fetchSummary={fetchSummary}
-                showTreeTooltips={showTreeTooltips}
-                dispatch={dispatch}
-                canvasTransform={cam}
-              />
+                {/* The Tree */}
+                <ForestView
+                  ref={forestRef}
+                  selectedRoot={selectedRoot || ''}
+                  rootData={rootData}
+                  nodeMap={nodeMap}
+                  direction={direction}
+                  arrangement={arrangement}
+                  isFit={isFit}
+                  scale={cam.k}
+                  fitTransform={fitTransform}
+                  layoutConfig={layoutConfig}
+                  activeHighlightChain={activeHighlightChain}
+                  summaryCache={summaryCache}
+                  fetchSummary={fetchSummary}
+                  showTreeTooltips={showTreeTooltips}
+                  dispatch={dispatch}
+                  canvasTransform={cam}
+                />
               </div>
             </div>
           ) : (
