@@ -1,0 +1,16 @@
+components/views/kilang/components/ThemeBar.tsx(398,49): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/components/themebar/ThemeStudioPopout.tsx(112,45): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/components/themebar/ThemeStudioPopout.tsx(132,45): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/hooks/useThemeStudio.ts(184,35): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/hooks/useThemeStudio.ts(216,35): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/hooks/useThemeStudio.ts(225,35): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/hooks/useThemeStudio.ts(246,35): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/hooks/useThemeStudio.ts(253,35): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/hooks/useThemeStudio.ts(270,35): error TS2322: Type 'string' is not assignable to type '{ message: string; type: "success" | "info"; }'.
+components/views/kilang/KilangSidebar.tsx(21,27): error TS2307: Cannot find module './components/CustomTab' or its corresponding type declarations.
+components/views/kilang/SidebarContext.tsx(55,30): error TS2322: Type '{ sidebarTab: "forest" | "styling" | "new_mako"; searchTerm: string; branchFilter: string; showCustomPanel: boolean; canvasHoverNode: string | null; canvasSelectedNode: string | null; ... 14 more ...; FILTER_BUCKETS: Array<{ label: string; min: number; max: number; }>; }' is not assignable to type 'KilangContextProps'.
+  Types of property 'setSidebarTab' are incompatible.
+    Type '(tab: SidebarUIState["sidebarTab"]) => void' is not assignable to type '(tab: "forest" | "styling" | "new_mako" | "custom") => void'.
+      Types of parameters 'tab' and 'tab' are incompatible.
+        Type '"forest" | "styling" | "new_mako" | "custom"' is not assignable to type '"forest" | "styling" | "new_mako"'.
+          Type '"custom"' is not assignable to type '"forest" | "styling" | "new_mako"'.

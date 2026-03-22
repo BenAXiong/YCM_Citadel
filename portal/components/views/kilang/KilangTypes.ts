@@ -70,7 +70,7 @@ export interface Bookmark {
 }
 
 export interface SidebarUIState {
-  sidebarTab: 'forest' | 'styling' | 'new_mako';
+  sidebarTab: 'forest' | 'styling' | 'new_mako' | 'custom';
   showMyTrees: boolean;
   showCustomPanel: boolean;
   searchTerm: string;

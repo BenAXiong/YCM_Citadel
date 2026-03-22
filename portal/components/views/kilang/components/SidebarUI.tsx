@@ -4,7 +4,18 @@ import React from 'react';
 import { ChevronRight, ChevronDown } from 'lucide-react';
 
 /* Helper Components */
-export const SidebarSlider = ({ label, value, min, max, step, unit, disabled, onChange }: any) => (
+interface SidebarSliderProps {
+  label: string;
+  value: number;
+  min: number;
+  max: number;
+  step: number;
+  unit: string;
+  disabled?: boolean;
+  onChange: (value: number) => void;
+}
+
+export const SidebarSlider = ({ label, value, min, max, step, unit, disabled, onChange }: SidebarSliderProps) => (
   <div className={`space-y-2 transition-all duration-300 ${disabled ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}>
     <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-[var(--kilang-text-muted)]/40">
       <span className="text-[var(--kilang-primary-text)]/60">{label}</span>
@@ -21,7 +32,7 @@ export const SidebarSlider = ({ label, value, min, max, step, unit, disabled, on
   </div>
 );
 
-export const InlineSidebarSlider = ({ label, value, min, max, step, unit, disabled, onChange }: any) => (
+export const InlineSidebarSlider = ({ label, value, min, max, step, unit, disabled, onChange }: SidebarSliderProps) => (
   <div className={`flex items-center gap-2 transition-all duration-300 ${disabled ? 'opacity-30 pointer-events-none' : 'opacity-100'}`}>
     <span className="text-[8px] font-black uppercase tracking-widest text-[var(--kilang-primary-text)]/60 min-w-16 whitespace-nowrap">{label}</span>
     <input
@@ -36,7 +47,13 @@ export const InlineSidebarSlider = ({ label, value, min, max, step, unit, disabl
   </div>
 );
 
-export const ColorPicker = ({ label, value, onChange }: any) => (
+interface ColorPickerProps {
+  label: string;
+  value?: string;
+  onChange: (value: string) => void;
+}
+
+export const ColorPicker = ({ label, value, onChange }: ColorPickerProps) => (
   <div className="space-y-2">
     <span className="text-[10px] font-black uppercase tracking-widest text-[var(--kilang-text-muted)]">{label}</span>
     <div className="flex items-center gap-3 bg-[var(--kilang-background-secondary)] p-2 rounded-xl border border-[var(--kilang-border)]">
@@ -50,7 +67,16 @@ export const ColorPicker = ({ label, value, onChange }: any) => (
   </div>
 );
 
-export const CollapsibleSection = ({ id, label, icon, isCollapsed, onToggle, children }: any) => (
+interface CollapsibleSectionProps {
+  id: string;
+  label: string;
+  icon: React.ReactNode;
+  isCollapsed?: boolean;
+  onToggle?: () => void;
+  children: React.ReactNode;
+}
+
+export const CollapsibleSection = ({ id, label, icon, isCollapsed, onToggle, children }: CollapsibleSectionProps) => (
   <section className="space-y-4">
     <div
       onClick={onToggle}

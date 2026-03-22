@@ -13,11 +13,24 @@ interface StylingTabProps {
   updateVariable: (name: string, value: string) => void;
 }
 
+interface ControlItem {
+  label: string;
+  key: string;
+  min: number;
+  max: number;
+  step: number;
+  unit: string;
+  disabled?: boolean;
+  onChangeOverride?: (v: number) => void;
+}
+
+type ControlType = ControlItem | ControlItem[];
+
 export const StylingTab = ({ updateConfig, updateVariable }: StylingTabProps) => {
   const { state, dispatch, toggleSection, collapsedSections } = useSidebar();
   const { layoutConfig } = state;
 
-  const renderSection = (id: string, label: string, icon: React.ReactNode, controls: any[]) => (
+  const renderSection = (id: string, label: string, icon: React.ReactNode, controls: ControlType[]) => (
     <CollapsibleSection
       id={id}
       label={label}
@@ -52,7 +65,7 @@ export const StylingTab = ({ updateConfig, updateVariable }: StylingTabProps) =>
           if (Array.isArray(control)) {
             return (
               <div key={idx} className="flex gap-4">
-                {control.map((c: any) => (
+                {control.map((c) => (
                   <div key={c.key} className="flex-1">
                     <SidebarSlider
                       label={c.label}
