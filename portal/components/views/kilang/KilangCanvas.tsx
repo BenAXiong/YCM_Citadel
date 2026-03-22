@@ -38,7 +38,6 @@ export const KilangCanvas = () => {
     summaryCache,
     fetchSummary,
     handleExport,
-    treeRef,
   } = useKilangContext();
 
   const {
@@ -72,14 +71,23 @@ export const KilangCanvas = () => {
   const logoSettings = stateLogoSettings[landingVersion];
 
   const setScale = (s: number | ((prev: number) => number)) => {
-    const val = typeof s === 'function' ? s(scale) : s;
-    dispatch({ type: 'SET_TRANSFORM', scale: val });
+    const val = typeof s === 'function' ? s(cam.k) : s;
+    const newCam = { ...cam, k: val };
+    setCam(newCam);
+    dispatch({ type: 'SET_TRANSFORM', canvasTransform: newCam, isFit: false });
   };
-  const setIsFit = (fit: boolean) => dispatch({ type: 'SET_TRANSFORM', isFit: fit });
+
+  const setIsFit = (fit: boolean) => {
+    dispatch({ type: 'SET_TRANSFORM', isFit: fit });
+    if (!fit) {
+      // If exiting fit mode, we just stay where we are but mark as not-fit
+    }
+  };
   const setDirection = (d: string) => dispatch({ type: 'SET_LAYOUT', direction: d as any });
   const setArrangement = (a: string) => dispatch({ type: 'SET_LAYOUT', arrangement: a as any });
   const exportRef = React.useRef<HTMLDivElement>(null);
   const forestRef = React.useRef<HTMLDivElement>(null);
+  const treeRef = React.useRef<HTMLDivElement>(null);
   const zoomDebounceRef = React.useRef<NodeJS.Timeout | null>(null);
 
   // Keyboard shortcuts (Esc to exit Full View)
@@ -106,122 +114,62 @@ export const KilangCanvas = () => {
   const value = useSidebar();
   const [viewPos, setViewPos] = React.useState({ x: 0, y: 0, w: 0, h: 0 });
 
-  // 🚀 Optimization: Stable state metrics for effects
-  const currentMetrics = React.useMemo(() => ({
-    scale,
-    isFit,
-    fitTransform
-  }), [scale, isFit, fitTransform.x, fitTransform.y, fitTransform.scale]);
+  // 🚀 ROBUST LOCAL CAMERA STATE
+  const [cam, setCam] = React.useState({ x: 0, y: 0, k: 1 });
+  const latestCamRef = React.useRef(cam);
+  React.useEffect(() => { latestCamRef.current = cam; }, [cam]);
+  
+  const isPanningInternal = React.useRef(false);
+  const panningRef = React.useRef({ isPanning: false, startX: 0, startY: 0, initialCamX: 0, initialCamY: 0 });
 
-  const latestMetricsRef = React.useRef(currentMetrics);
-  React.useEffect(() => {
-    latestMetricsRef.current = currentMetrics;
-  }, [currentMetrics]);
+  // Sync from Store on Load
+  React.useLayoutEffect(() => {
+    if (state.canvasTransform) {
+      setCam(state.canvasTransform);
+    }
+  }, [state.canvasTransform]);
 
-  React.useEffect(() => {
+  // 🎡 NON-PASSIVE WHEEL LISTENER (Critical for e.preventDefault)
+  React.useLayoutEffect(() => {
     const el = treeRef.current;
     if (!el) return;
 
-    let lastUpdate = 0;
-    const updatePos = () => {
-      const now = Date.now();
-      if (now - lastUpdate < 32) return; 
-      lastUpdate = now;
-
-      const container = treeRef.current;
-      const canvas = container?.querySelector('[style*="width: 4000px"]');
-      if (!container || !canvas) return;
-
-      const cRect = container.getBoundingClientRect();
-      const sRect = canvas.getBoundingClientRect();
-      const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestMetricsRef.current;
-      const currentScale = curFit ? curFitTrans.scale : curScale;
-
-      const vp = {
-        x: Math.round((cRect.left - sRect.left) / currentScale),
-        y: Math.round((cRect.top - sRect.top) / currentScale),
-        w: Math.round(cRect.width / currentScale),
-        h: Math.round(cRect.height / currentScale)
-      };
-
-      setViewPos(prev => {
-        if (prev.x === vp.x && prev.y === vp.y && prev.w === vp.w && prev.h === vp.h) return prev;
-        return vp;
-      });
-    };
-
     const onWheel = (e: WheelEvent) => {
-      const fineTuningFactor = e.altKey ? 0.1 : 1.0;
+      // 1. Zoom (Ctrl + Wheel)
       if (e.ctrlKey) {
         e.preventDefault();
-        const container = treeRef.current;
-        if (!container) return;
-
-        const rect = container.getBoundingClientRect();
+        const delta = -e.deltaY;
+        const speed = 0.002;
+        const newK = Math.min(Math.max(latestCamRef.current.k * (1 + delta * speed), 0.1), 3);
+        
+        // Focal Zoom Math: keep cursor on same world coordinates
+        const rect = el.getBoundingClientRect();
         const mouseX = e.clientX - rect.left;
         const mouseY = e.clientY - rect.top;
-
-        const { isFit: curFit, fitTransform: curFitTrans, scale: curScale } = latestMetricsRef.current;
-        const currentScale = curFit ? curFitTrans.scale : curScale;
         
-        const offsetX = curFit ? curFitTrans.x : 0;
-        const offsetY = curFit ? curFitTrans.y : 0;
+        const worldX = (mouseX - latestCamRef.current.x) / latestCamRef.current.k;
+        const worldY = (mouseY - latestCamRef.current.y) / latestCamRef.current.k;
         
-        const worldX = (mouseX + container.scrollLeft - offsetX) / currentScale;
-        const worldY = (mouseY + container.scrollTop - offsetY) / currentScale;
+        const newX = mouseX - worldX * newK;
+        const newY = mouseY - worldY * newK;
+        
+        setCam({ x: newX, y: newY, k: newK });
+        return;
+      }
 
-        const zoomSpeed = 0.0012;
-        const delta = -e.deltaY * zoomSpeed * fineTuningFactor;
-        const nextScale = Math.min(Math.max(currentScale + delta, 0.1), 3);
-
-        if (nextScale === currentScale) return;
-
-        if (forestRef.current) {
-          forestRef.current.style.transform = `translate3d(0, 0, 0) scale(${nextScale})`;
-        }
-
-        const nextScrollLeft = (worldX * nextScale) - mouseX;
-        const nextScrollTop = (worldY * nextScale) - mouseY;
-
-        container.scrollTo({
-          left: nextScrollLeft,
-          top: nextScrollTop,
-          behavior: 'auto'
-        });
-
-        if (zoomDebounceRef.current) clearTimeout(zoomDebounceRef.current);
-        zoomDebounceRef.current = setTimeout(() => {
-          dispatch({ type: 'SET_TRANSFORM', scale: nextScale, isFit: false });
-        }, 150);
-      } else if (e.altKey) {
+      // 2. Pan (Shift + Wheel)
+      if (e.shiftKey) {
         e.preventDefault();
-        const container = treeRef.current;
-        if (container) {
-          if (e.shiftKey) {
-            container.scrollLeft += e.deltaY * fineTuningFactor;
-          } else {
-            container.scrollTop += e.deltaY * fineTuningFactor;
-          }
-        }
+        setCam(prev => ({ ...prev, x: prev.x - e.deltaY }));
+        return;
       }
     };
 
-    updatePos();
-    el.addEventListener('scroll', updatePos);
     el.addEventListener('wheel', onWheel, { passive: false });
-    window.addEventListener('resize', updatePos);
+    return () => el.removeEventListener('wheel', onWheel);
+  }, [treeRef]);
 
-    const timer = setInterval(updatePos, 200); 
-
-    return () => {
-      el.removeEventListener('scroll', updatePos);
-      el.removeEventListener('wheel', onWheel);
-      window.removeEventListener('resize', updatePos);
-      clearInterval(timer);
-      if (zoomDebounceRef.current) clearTimeout(zoomDebounceRef.current);
-    };
-  }, [treeRef, dispatch]); 
-
+  // --- 🌳 HELPER VARIABLES (Moved up to avoid usage-before-declaration) ---
   const activeHighlightNode = value.state.canvasHoverNode || value.state.canvasSelectedNode;
 
   const activeHighlightChain = React.useMemo(() =>
@@ -234,56 +182,91 @@ export const KilangCanvas = () => {
     [activeHighlightNode, rootData?.derivatives, selectedRoot]
   );
 
+  const forestBounds = React.useMemo(() => getForestBoundingBox(nodeMap), [nodeMap]);
+  const rootPos = React.useMemo(() => nodeMap[normalizeWord(selectedRoot || '') || ''], [nodeMap, selectedRoot]);
+
   const deepRoots = React.useMemo(() => {
     if (!stats?.deep_examples) return [];
-
     const roots = Object.keys(stats.deep_examples).sort((a, b) => {
       const lenA = Array.isArray(stats.deep_examples[a]) ? stats.deep_examples[a].length : 0;
       const lenB = Array.isArray(stats.deep_examples[b]) ? stats.deep_examples[b].length : 0;
       return lenB - lenA;
     });
-
     return roots.slice(0, 5);
   }, [stats]);
 
-  // Handle auto-centering when a root is bloomed
-  React.useLayoutEffect(() => {
-    if (!treeRef.current) return;
-
-    const container = treeRef.current;
-    const center = () => {
-      // 🛡️ Performance Guard: Skip centering if we're just updating the theme
-      if (!selectedRoot || rootData?.loading) return;
-
-      const pos = nodeMap[normalizeWord(selectedRoot) || ''];
-      if (!pos) return;
-
-      const currentScale = isFit ? fitTransform.scale : scale;
-      const hBias = direction === 'horizontal' ? 0.15 : 0.5;
-      const vBias = direction === 'vertical' ? 0.85 : 0.5;
-
-      const scrollLeft = (pos.x * currentScale) - (container.clientWidth * hBias);
-      const scrollTop = (pos.y * currentScale) - (container.clientHeight * vBias);
-
-      container.scrollTo({
-        left: scrollLeft,
-        top: scrollTop,
-        behavior: 'instant'
-      });
+  const onPointerDown = (e: React.PointerEvent) => {
+    if ((e.target as HTMLElement).closest('.kilang-node')) return;
+    
+    isPanningInternal.current = true;
+    panningRef.current = {
+      isPanning: true,
+      startX: e.clientX,
+      startY: e.clientY,
+      initialCamX: cam.x,
+      initialCamY: cam.y,
     };
 
-    center();
-    window.addEventListener('resize', center);
-    return () => window.removeEventListener('resize', center);
-  }, [
-    selectedRoot, 
-    rootData?.loading, 
-    isFit, 
-    resetToken, 
-    direction, 
-    arrangement, 
-    nodeMap // identity changes on structural change, which is correct
-  ]);
+    const handlePointerMove = (moveEvent: PointerEvent) => {
+      if (!isPanningInternal.current) return;
+      const dx = moveEvent.clientX - panningRef.current.startX;
+      const dy = moveEvent.clientY - panningRef.current.startY;
+      setCam(prev => ({
+        ...prev,
+        x: panningRef.current.initialCamX + dx,
+        y: panningRef.current.initialCamY + dy
+      }));
+    };
+
+    const handlePointerUp = (upEvent: PointerEvent) => {
+      isPanningInternal.current = false;
+      window.removeEventListener('pointermove', handlePointerMove);
+      window.removeEventListener('pointerup', handlePointerUp);
+      // Synchronize back to store at end of gesture
+      dispatch({ type: 'SET_TRANSFORM', canvasTransform: latestCamRef.current, isFit: false });
+    };
+
+    window.addEventListener('pointermove', handlePointerMove);
+    window.addEventListener('pointerup', handlePointerUp);
+    dispatch({ type: 'SET_TRANSFORM', isFit: false });
+  };
+
+  // 📐 REDONE FIT ENGINE (Centering + Scaling)
+  const triggerFit = React.useCallback(() => {
+    if (!treeRef.current || !rootPos) return;
+    const container = treeRef.current;
+    
+    // 1. Calculate the bounding box of the whole forest
+    const bounds = getForestBoundingBox(nodeMap);
+    const boxWidth = bounds.maxX - bounds.minX;
+    const boxHeight = bounds.maxY - bounds.minY;
+    
+    // 2. Calculate optimal scale to fit the container (with padding)
+    const padding = 100;
+    const vWidth = container.clientWidth - padding;
+    const vHeight = container.clientHeight - padding;
+    
+    const scaleX = vWidth / (boxWidth || 1);
+    const scaleY = vHeight / (boxHeight || 1);
+    const newK = Math.min(Math.max(Math.min(scaleX, scaleY), 0.15), 1.0);
+    
+    // 3. Center the forest
+    const centerX = (bounds.minX + bounds.maxX) / 2;
+    const centerY = (bounds.minY + bounds.maxY) / 2;
+    
+    const newX = container.clientWidth / 2 - centerX * newK;
+    const newY = container.clientHeight / 2 - centerY * newK;
+    
+    const newCam = { x: newX, y: newY, k: newK };
+    setCam(newCam);
+    dispatch({ type: 'SET_TRANSFORM', canvasTransform: newCam, isFit: true });
+  }, [nodeMap, rootPos, treeRef, dispatch]);
+
+  React.useLayoutEffect(() => {
+    if (isFit && selectedRoot && !rootData?.loading) {
+      triggerFit();
+    }
+  }, [isFit, selectedRoot, rootData?.loading, triggerFit, resetToken]);
 
   const [copiedChain, setCopiedChain] = React.useState(false);
 
@@ -292,9 +275,6 @@ export const KilangCanvas = () => {
     setCopiedChain(true);
     setTimeout(() => setCopiedChain(false), 2000);
   };
-
-  const forestBounds = React.useMemo(() => getForestBoundingBox(nodeMap), [nodeMap]);
-  const rootPos = React.useMemo(() => nodeMap[normalizeWord(selectedRoot || '') || ''], [nodeMap, selectedRoot]);
 
   const isImmersive = isFullView || !selectedRoot;
 
@@ -313,7 +293,7 @@ export const KilangCanvas = () => {
             treeRef={treeRef as React.RefObject<HTMLDivElement>}
             showDimensions={showDimensions}
             rootPos={rootPos || null}
-            scale={scale}
+            scale={cam.k}
             isFit={isFit}
             fitTransform={fitTransform}
             forestBounds={forestBounds}
@@ -330,7 +310,7 @@ export const KilangCanvas = () => {
             setDirection={setDirection}
             arrangement={arrangement}
             setArrangement={setArrangement}
-            scale={scale}
+            scale={cam.k}
             setScale={setScale}
             moveZoomToCanvas={moveZoomToCanvas}
             moveGrowthToCanvas={moveGrowthToCanvas}
@@ -377,7 +357,7 @@ export const KilangCanvas = () => {
                 direction={direction}
                 arrangement={arrangement}
                 isFit={isFit}
-                scale={scale}
+                scale={cam.k}
                 fitTransform={fitTransform}
                 layoutConfig={layoutConfig}
                 activeHighlightChain={activeHighlightChain}
@@ -385,6 +365,7 @@ export const KilangCanvas = () => {
                 fetchSummary={fetchSummary}
                 showTreeTooltips={showTreeTooltips}
                 dispatch={dispatch}
+                canvasTransform={cam}
               />
             </div>
           ) : (

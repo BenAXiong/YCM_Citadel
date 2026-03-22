@@ -21,6 +21,7 @@ interface ForestViewProps {
   fetchSummary: (word: string) => Promise<void>;
   showTreeTooltips: boolean;
   dispatch: React.Dispatch<KilangAction>;
+  canvasTransform: { x: number; y: number; k: number };
 }
 
 export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestViewProps>(({
@@ -38,6 +39,7 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
   fetchSummary,
   showTreeTooltips,
   dispatch,
+  canvasTransform,
 }, ref) => {
   const { state: sidebarState } = useSidebar();
   const bloomedNodes = React.useRef(new Set<string>());
@@ -51,9 +53,7 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
       style={{
         width: '4000px',
         height: '4000px',
-        transform: isFit
-          ? `translate3d(${fitTransform.x}px, ${fitTransform.y}px, 0) scale(${fitTransform.scale})`
-          : `translate3d(0, 0, 0) scale(${scale})`,
+        transform: `translate3d(${canvasTransform.x}px, ${canvasTransform.y}px, 0) scale(${canvasTransform.k})`,
         transformOrigin: '0 0'
       }}
     >
@@ -184,7 +184,8 @@ export const ForestView = React.memo(React.forwardRef<HTMLDivElement, ForestView
     prev.fitTransform === next.fitTransform &&
     prev.activeHighlightChain === next.activeHighlightChain &&
     prev.summaryCache === next.summaryCache &&
-    prev.showTreeTooltips === next.showTreeTooltips
+    prev.showTreeTooltips === next.showTreeTooltips &&
+    prev.canvasTransform === next.canvasTransform
   );
 });
 

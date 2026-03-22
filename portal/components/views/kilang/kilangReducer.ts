@@ -48,6 +48,7 @@ export interface KilangState {
   arrangement: LayoutArrangement;
   scale: number;
   isFit: boolean;
+  canvasTransform: { x: number; y: number; k: number };
 
   // UI State
   searchTerm: string;
@@ -174,7 +175,7 @@ export type KilangAction =
   | { type: 'SET_CUSTOM_DATA'; data: any | null }
   | { type: 'SET_CONFIG'; morphMode?: MorphMode; sourceFilter?: string }
   | { type: 'SET_LAYOUT'; direction?: LayoutDirection; arrangement?: LayoutArrangement }
-  | { type: 'SET_TRANSFORM'; scale?: number; isFit?: boolean }
+  | { type: 'SET_TRANSFORM'; scale?: number; isFit?: boolean; canvasTransform?: { x: number; y: number; k: number } }
   | { type: 'SET_FIT_TRANSFORM'; transform: { x: number; y: number; scale: number } }
   | { type: 'SET_LAYOUT_CONFIG'; config: Partial<KilangState['layoutConfig']> }
   | { type: 'RESET_LAYOUT_CONFIG' }
@@ -219,6 +220,7 @@ export const initialState: KilangState = {
   arrangement: 'aligned', // Default Aligned
   scale: 1,
   isFit: false,
+  canvasTransform: { x: 0, y: 0, k: 1 },
   themeBarTab: 'themes',
   searchTerm: '',
   branchFilter: 'all',
@@ -416,7 +418,8 @@ export function kilangReducer(state: KilangState, action: KilangAction): KilangS
       return {
         ...state,
         ...(action.scale !== undefined && { scale: action.scale }),
-        ...(action.isFit !== undefined && { isFit: action.isFit })
+        ...(action.isFit !== undefined && { isFit: action.isFit }),
+        ...(action.canvasTransform !== undefined && { canvasTransform: action.canvasTransform })
       };
     case 'SET_FIT_TRANSFORM':
       return { ...state, fitTransform: action.transform };
